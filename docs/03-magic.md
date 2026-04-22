@@ -3,6 +3,7 @@
 The use of magic is most often connected to divine favor. It is frequently seen in the hands of Mystics, most of whom are called by the gods; many Mystics also serve as priests. However, characters who crave magical power may discover other routes to it through diligent study and great personal sacrifice.
 
 Magic is divided into two disciplines. Evocation (battlefield magic) encompasses spells of immediate effect and brief duration—curses, hexes, charms, blessings, and direct attacks—used primarily in combat and in the field, where controlled conditions are unavailable. Thaumaturgy (ritual magic) is longer in form, more intricate, and considerably more powerful. It is the discipline used to communicate with and summon supernatural entities, travel between planes, and effect permanent change on the mortal world.  
+
 ---
 
 ### Types of Spellcaster
@@ -47,6 +48,7 @@ Dabblers have pieced together an incomplete understanding of magic through fragm
 * Some spell profiles include a Flawed entry specifying additional adjustments.
 
 To remove a spell's flawed status, the dabbler must cast it successfully at least once during play (not during downtime), then refine their technique through dedicated study during a downtime period. No other significant activities may be undertaken during that downtime.  
+
 ---
 
 ### Miscast Spells and Rituals
@@ -54,6 +56,7 @@ To remove a spell's flawed status, the dabbler must cast it successfully at leas
 Any spell or ritual that generates a complication is considered miscast. The power channeled through a miscast tears unpredictably at the edges of the caster's control, producing consequences that are more volatile and dangerous than ordinary complications.  
 The GM is encouraged to approach miscast complications with creativity and invention. Miscasts should feel consequential and memorable.  
 A miscast does not negate success. If a spell or ritual is cast successfully, its effect still occurs. Complications from a miscast can only produce additional or unintended consequences—they cannot turn a success into a failure.  
+
 ---
 
 ### Learning New Spells and Rituals
@@ -185,36 +188,15 @@ Each battlefield spell is defined using the following format and terms:
 **Skill**: The skill listed in a spell’s profile is the one used on skill tests to cast the spell. The attribute for the skill test depends on the character’s spellcasting type.  
 **Difficulty**: This section of a spell profile lists the difficulty of skill tests to cast the spell. If the spell’s skill test is an opposed test, that is also specified in this section. On an opposed test to cast a spell, the resisting character’s skill test uses the spell’s difficulty. The attribute and skill the resisting character must use are specified in this section as well.  
 **Cost**: Each battlefield spell has an associated cost that the spellcaster pays when casting it. This cost takes the form of mental damage inflicted on the spellcaster. The stress dealt to the spellcaster as a result is reduced by their Courage resistance \+ Morale resistance, as usual. This cost is applied after the spellcaster resolves the skill test to cast the spell, and it applies whether or not they successfully cast the spell.
-
-Duration: All spells last for their stated duration. Most  
-spells have a duration of instant (the spell’s effects take place  
-immediately, and the spell ends). Others last a number of  
-rounds (ending after a set number of rounds, or at the end of the  
-current round), until the end of the current scene, or a number  
-of hours. A spellcaster may choose to end a spell early as a minor  
-action, but otherwise, the spell lasts until the end of its stated  
-duration or until the spellcaster suffers an injury or is otherwise  
-forcibly distracted (normally requiring the creation of a truth).  
-Category: This section lists a spell’s category (see Spell  
-Categories, below). A spell might have more than one category,  
-usually because it has more than one potential spell effect.  
-Spell Effect: This section lists a spell’s consequences. It also  
-provides information about who or what the spell can target,  
-and it may list uses for Success Levels that expand or enhance the  
-spell effect.  
-Flawed: Not all spell profiles have this section; those that do  
-specify adjustments to make when a character attempts to cast  
-a flawed version of the spell.  
-Success Levels: Spell profiles that have this section list ways to  
-gain additional benefits by spending Success Levels.
+**Duration**: All spells last for their stated duration. Most  spells have a duration of instant (the spell’s effects take place  immediately, and the spell ends). Others last a number of  rounds (ending after a set number of rounds, or at the end of the  current round), until the end of the current scene, or a number  of hours. A spellcaster may choose to end a spell early as a minor  action, but otherwise, the spell lasts until the end of its stated  duration or until the spellcaster suffers an injury or is otherwise  forcibly distracted (normally requiring the creation of a truth).  
+**Category**: This section lists a spell’s category (see Spell  Categories, below). A spell might have more than one category,  usually because it has more than one potential spell effect.  
+**Spell Effect**: This section lists a spell’s consequences. It also  provides information about who or what the spell can target,  and it may list uses for Success Levels that expand or enhance the  spell effect.  
+**Flawed**: Not all spell profiles have this section; those that do  specify adjustments to make when a character attempts to cast  a flawed version of the spell.  
+**Success Levels**: Spell profiles that have this section list ways to  gain additional benefits by spending Success Levels.
 
 ### SPELL CATEGORIES
 
-Spells can be grouped into the following categories based on  
-the types of results they achieve. Some categories come with  
-rules that apply to all their spells. While most spells belong to  
-only one category, some belong to more than one, gaining the  
-benefits and strictures of each category they belong to.
+Spells can be grouped into the following categories based on  the types of results they achieve. Some categories come with  rules that apply to all their spells. While most spells belong to  only one category, some belong to more than one, gaining the  benefits and strictures of each category they belong to.
 
 ##### Attack
 

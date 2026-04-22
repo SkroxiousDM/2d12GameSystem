@@ -6,7 +6,7 @@
 - Request things of your character, serving as a source of adventures or extra goals to achieve.  
 - Be threatened by your character’s enemies As you can see, connections are a double-edged sword, equal parts advantage and disadvantage.
 
-### \#\#\# Contacts
+### Contacts
 
  Each contact is a single person with whom your character has a solid relationship. They might be someone you know professionally, or they might be a friend, a distant family member, or someone else entirely. The important thing is that you know each other well, and you help each other out from time to time. The guidelines in this section cover how your character can enlist a contact’s aid and how a contact can request aid in return. Each relationship with a contact has a relationship classification of great, fair, neutral, poor, or dire. The classification governs the difficulty of skill tests to obtain aid or information from the contact.
 

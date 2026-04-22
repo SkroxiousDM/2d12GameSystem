@@ -1,0 +1,140 @@
+---
+
+# Runic Spellbook
+
+Literacy is almost unheard of among the Germanic peoples — the writing of runes is reserved nearly exclusively for magic, best wielded by the gods or their chosen priests, wise ones, and seers. Runes are not used to shape words; they are symbolic investments of sacred power, awakened by the prayers and mental focus of those who know how to wield them. Such magic may demand additional payments and sacrifices, proving exhausting and potentially perilous to those who invoke it. Wodan himself gained the runes only after sacrificing himself — hanging wounded upon the World Tree for nine nights. Most runic spells and rituals draw on a single rune to express their magic, though a rare few combine them.
+
+---
+
+## **Blessing of Fylgjur**
+
+The fylgjur are ancestral spirits who serve as guardians of a tribe and counselors to its people, protective of a family's bloodline. They can be called upon through the rune Laguz, a manifestation of healing and renewal. Using this powerful runic incantation, the runeweaver invokes a fylgja's healing gifts to restore the wounded and even raise those who have fallen, so they may rejoin the fight.
+
+* **Skill:** Medicine  
+* **Difficulty:** 3  
+* **Cost:** 4 Drain  
+* **Duration:** Instant  
+* **Category:** Ward spell
+
+**Spell Effect:** The spell immediately removes stress equal to the spellcaster's power rating from all allies within Close range. In addition, any defeated allies within Close range immediately recover from defeat, though they retain any injuries they have suffered.
+
+**Flawed:** A flawed version of this spell removes stress from all creatures within Close range, not just allies.
+
+**Success Levels:**
+
+* For 2 Success Levels, all affected allies each remove a single physical or mental injury.  
+* For 2 Success Levels, the spell affects allies within Medium range instead.
+
+---
+
+## **Bounty of Baldr**
+
+This powerful runic ward is associated with Algiz, the rune of protection, and draws on the power of Baldr, most beloved of all the Æsir. The rune cloaks its targets in mystical armor, granting them near-immunity from harm: accurate shots narrowly miss their mark, damage dissipates, and the influence of malign forces greatly diminishes under its protective aegis.
+
+* **Skill:** Resilience  
+* **Difficulty:** 2  
+* **Cost:** 3 Drain  
+* **Duration:** A number of rounds equal to the spellcaster's power rating  
+* **Category:** Ward spell
+
+**Spell Effect:** While this spell remains in effect, any attacks made against the spellcaster or their allies within Close range increase in difficulty by \+2.
+
+**Success Levels:** All affected characters gain \+X Cover resistance, where X equals the number of Success Levels spent.
+
+---
+
+## **Curse of Loki**
+
+The prince of tricksters is an apt patron for the spellseer. Drawing upon Nauthiz, the rune of shadow, the spellseer sows confusion and dread in an enemy's ranks. Any enemy unit, character, or creature afflicted by the Curse of Loki is plagued by terrifying visions — giants and monsters, fell creatures and foul entities from the icy wastes — sent to bewilder, mislead, and demoralize them.
+
+* **Skill:** Persuasion  
+* **Difficulty:** 2  
+* **Cost:** 5 Drain; each damage effect rolled on the cost generates 1 Doom  
+* **Duration:** Instant  
+* **Category:** Attack spell
+
+**Spell Effect:** The spellcaster inflicts power \+2 mental damage with the Stun damage effect on all enemies within Close range.
+
+**Flawed:** A flawed version of this spell affects all creatures within range, not just enemies.
+
+**Success Levels:**
+
+* For 2 Success Levels, add the Persistent 6 damage effect to the damage.  
+* For 2 Success Levels, add the Snare damage effect to the damage.
+
+---
+
+## **Hammer of Thunraz**
+
+The runeweaver draws on Thurisaz, the mystical rune long associated with Thunraz, the legendary god of thunder, and calls forth the power of the god's hammer, Mjölnir, to strike the enemy with devastating thunderbolts. Winds rise, storm clouds gather, and electrical energy surges from the spellseer to strike the target, causing enormous damage to it and all those nearby.
+
+* **Skill:** Fighting  
+* **Difficulty:** 2  
+* **Cost:** 4 Drain, Piercing 1  
+* **Duration:** Instant  
+* **Category:** Attack spell
+
+**Spell Effect:** The spell targets a single enemy or object within Medium range and inflicts power \+2 physical damage with the Area damage effect.
+
+**Success Levels:**
+
+* For 1 Success Level, replace the Area damage effect with Piercing 2\.  
+* For 2 Success Levels, add the Vicious damage effect.  
+* For 2 Success Levels, add the Stun damage effect.
+
+---
+
+## **Ravens of Wodan**
+
+Weaving the symbol of the rune Ansuz, the spellseer invokes the power of the Allfather: Wodan, the hanged god, lord of battle and consort of Frigg, who sends his twin ravens — Huginn and Muninn — to fortify allies with the spirit of the brave warriors who battle eternally in Valhalla. Those who channel the Ravens of Wodan become resistant to fear and terror, fighting with greater determination, vigor, and valor.
+
+* **Skill:** Academia  
+* **Difficulty:** 2  
+* **Cost:** 4 Drain, Piercing 1  
+* **Duration:** A number of rounds equal to the spellcaster's power rating  
+* **Category:** Ward spell
+
+**Spell Effect:** While the spell remains in effect, the spellcaster and all allies within Close range receive additional Morale resistance equal to the spellcaster's power rating.
+
+**Success Levels:**
+
+* For 2 Success Levels, each affected allied target inflicts \+2 damage on all melee attacks they make.  
+* For 3 Success Levels each, the spellcaster may grant one or more affected allies 1 additional Fortune point, which is lost at the end of the spell's duration if unused.
+
+---
+
+## **Swiftness of Sleipnir**
+
+The runeweaver conjures the force of Ehwaz, the rune associated with the horse, to unlock the qualities of Sleipnir — Wodan's steed, child of Loki and Svaðilfari, and the best and swiftest of all mounts.
+
+* **Skill:** Survival  
+* **Difficulty:** 2  
+* **Cost:** 3 Drain  
+* **Duration:** Instant  
+* **Category:** Blessing spell
+
+**Spell Effect:** The spellcaster and any allies within Close range may immediately move up to 2 zones. In addition, whenever an ally chooses to use Keep the Initiative before the spellcaster's next turn, it costs them 0 Success Levels to do so.
+
+**Success Levels:** For 2 Success Levels, each affected character may take one additional minor action for free on their next turn.
+
+---
+
+## **Wisdom of Frigg**
+
+The goddess Frigg is renowned for her wisdom and insight; Wodan is her consort. By calling forth the power of Kaunaz, the rune of fire and knowledge, a runeweaver can tap into Frigg's wisdom to identify an opponent's most vulnerable aspects and exploit them. When the Wisdom of Frigg is cast, Mythos entities become far more vulnerable — susceptible even to mundane weapons — and the spell's effects can be significantly magnified.
+
+* **Skill:** Observation  
+* **Difficulty:** 1  
+* **Cost:** 3 Drain, Stun  
+* **Duration:** Instant  
+* **Category:** Divination spell
+
+**Spell Effect:** The spellcaster targets a single creature within Medium range and gains \+3 bonus Success Levels, which may only be spent to Obtain Information about that creature.
+
+**Success Levels:**
+
+* For 2 Success Levels, if the creature has the Invulnerable special rule, it loses that rule for a number of rounds equal to the spellcaster's power rating.  
+* For 2 Success Levels, until the end of the scene, any attacks the spellcaster or their allies make against the targeted creature gain either the Intense or the Vicious damage effect (spellcaster's choice).
+
+---
+

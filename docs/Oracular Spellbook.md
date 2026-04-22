@@ -1,0 +1,133 @@
+---
+
+# Oracular Spellbook
+
+Oracular magic is ancient and diverse in its methods and origins, finding expression in countless ways. At its foundation is augury — the art of discerning the shape of things to come, or the impact of divine will upon the world, through seemingly random means: the casting of bones, the scattering of rune-carved staves, or the spilling of a sacred offering's entrails. The most powerful practitioners of this art can shift fortune itself, calling upon the gods who govern fate and chance. Some believe such magic places a growing strain on the fragile mind — and may draw the attention of malevolent spirits.
+
+### Augury Among Other Cultures
+
+Romans often practised augury by studying the auspices, but other cultures employed different methods of seeking omens and foretelling events. Staring into burning coals, tossing bones, and spilling the entrails of sacrificial beasts are only a few of the approaches taken. Characters may use any of these — or any other form of divining appropriate to their culture — as the in-world basis of their Augury spell, producing the same mechanical effect.
+
+---
+
+## **Augury**
+
+Augury is the Roman religious practice of interpreting omens from the observed behaviour of birds. When the spellcaster — known as the augur — interprets these signs, it is referred to as taking the auspices. Depending upon the birds observed, the auspices may be favourable or unfavourable; auspicious or inauspicious.
+
+* **Skill:** Observation  
+* **Difficulty:** 2  
+* **Cost:** 3 Drain  
+* **Duration:** Up to twenty-four hours  
+* **Category:** Manifestation spell
+
+**Spell Effect:** The spellcaster spends ten minutes consulting the movements of birds to determine whether the auspices are favourable or unfavourable. The GM determines which of the following auspices applies:
+
+* **Auspicious:** Fortune favours the current course of action. For the duration of the spell, the spellcaster may re-roll any number of dice from a single skill test, after which the spell ends.  
+* **Inauspicious:** The current course of action runs against the fates — but the augur is forewarned. For the duration of the spell, when the GM spends Doom to Create a Complication or via the Change of Circumstance option, the spellcaster may ignore the effects of that spend, after which the spell ends.
+
+**Success Levels:**
+
+* For 2 Success Levels, the duration increases by twenty-four hours.  
+* For 2 Success Levels, the spellcaster — rather than the GM — determines the choice of auspices.
+
+---
+
+## **Guiding Hand**
+
+With merely a hint of things yet to transpire, the oracle can guide an ally through the most dangerous of circumstances. Even a cryptic phrase that only intimates what the day ahead holds can forearm a person against the gravest peril.
+
+* **Skill:** Tactics  
+* **Difficulty:** 2  
+* **Cost:** 2 Drain, Piercing 1  
+* **Duration:** Twenty-four hours  
+* **Category:** Blessing spell
+
+**Spell Effect:** The oracle whispers a portent of events to come, helping an ally alter their fate. The spellcaster chooses an ally within Close range. For the duration of the spell, whenever that ally's player spends a Fortune point, they may roll 1 die. If the result is an effect, the Fortune point is immediately returned to the ally — regardless of how many effect results are rolled, only 1 Fortune point is ever recovered this way.
+
+**Success Levels:**
+
+* For 2 Success Levels, increase the duration by twenty-four hours.  
+* For 2 Success Levels, the ally's player rolls 2 dice instead of 1\.
+
+---
+
+## **Invoke the Parcae**
+
+The Parcae — the "sparing ones" — are the three fates who weave the destinies of all mortals. Even the gods must bow before the decisions of these weavers of fate, yet the Parcae sometimes heed the pleas of mortals who show them sufficient deference.
+
+* **Skill:** Persuasion  
+* **Difficulty:** 4  
+* **Cost:** 4 Drain, Stun  
+* **Duration:** Instant  
+* **Category:** Blessing or curse spell
+
+**Spell Effect:** This spell allows the oracle to make a plea to the Parcae to modify their own fate or that of another. As a reaction to any skill test performed within Close range — whether made by friend or foe — the oracle may attempt to invoke the Parcae, and their player chooses one of the following effects:
+
+* **Critical Success:** Change the result of a single d12 from the skill test to 1, generating two successes automatically.  
+* **Complication:** Change the result of a single d12 from the skill test to its maximum value, generating a complication.  
+* **Re-Roll:** Force the ally or enemy to re-roll all dice from the skill test before determining the outcome.
+
+After the oracle casts this spell, the target gains the scar **The Fates Must Be Balanced** until the oracle rolls a complication on a skill test. While this scar persists, the target's complication range on all skill tests increases by \+1 (see Healing Scars, p. 49).
+
+**Success Levels:**
+
+* For 2 Success Levels, choose two of this spell's effects when invoking the Parcae.  
+* For 2 Success Levels, the oracle may react to skill tests performed within Medium range.  
+* For 3 Success Levels, the oracle may react to skill tests performed within Long range.
+
+---
+
+## **Prescience**
+
+Prescience is the oracle's ability to perceive events before they occur. Often these visions arrive in dreams and must be interpreted — they can be elusive, cryptic, and difficult to comprehend even for the gifted seer.
+
+* **Skill:** Observation  
+* **Difficulty:** 3  
+* **Cost:** 4 Drain  
+* **Duration:** Up to twenty-four hours  
+* **Category:** Blessing spell
+
+**Spell Effect:** The spell grants the oracle visions of future events. For the duration of the spell, the oracle holds the truth **Vision of the Future**, which they may invoke at any point within that time frame (see Truths and Complications, p. 25). Once the oracle benefits from this truth on a single skill test, the spell ends.
+
+**Success Levels:**
+
+* For 2 Success Levels, the spell does not end when the oracle benefits from the Vision of the Future truth.  
+* For 2 Success Levels, the oracle receives a vision of another character's future and may grant the Vision of the Future truth to that character instead.
+
+---
+
+## **Scrying**
+
+Gazing into smoke, burning embers, still water, or some other medium, the oracle receives a vision of a distant place — imparting knowledge of things they should have no means of knowing.
+
+* **Skill:** Observation  
+* **Difficulty:** 2  
+* **Cost:** 2 Drain, Piercing 1  
+* **Duration:** A number of rounds equal to the oracle's power rating  
+* **Category:** Divination spell
+
+**Spell Effect:** The oracle selects an object or location they are aware of within Close range. They may accurately study it — including any parts hidden from view or otherwise obscured, such as the words on a sealed scroll, the contents of a locked container, or the interior of a closed room. The oracle may continue to study the object, or shift their attention to another object within range once per round, for the duration of the spell. Success Levels spent to Obtain Information while this spell is active may reveal things a person could not ordinarily perceive.
+
+**Success Levels:**
+
+Unlike the costs of most spells, Scrying's cost increases by \+1 for each Success Level spent on either of the following options:
+
+* For 1 Success Level, the oracle may select an object within Medium range. For 2 Success Levels, within Long range. For 3 Success Levels, any location they are familiar with anywhere on Earth. In all cases, the oracle must be aware of the object or location before casting.  
+* For 3 Success Levels, the oracle may instead choose an object within Reach and gain limited knowledge of that object's past. Additional Success Levels spent to Obtain Information may be used to ask questions about the object's history — recent or distant. The GM's answers may be cryptic, and some past events may be unpleasant or even dangerous to witness. This option cannot be combined with range increases.
+
+---
+
+## **Second Sight**
+
+The ability to perceive the true nature of beings — cutting through glamours and the obfuscation that preserves rational minds — is known as Second Sight. The oracle may bestow this gift of true seeing upon their companions, at least for a time.
+
+* **Skill:** Observation  
+* **Difficulty:** 2  
+* **Cost:** 3 Drain, Piercing 1  
+* **Duration:** One hour  
+* **Category:** Blessing spell
+
+**Spell Effect:** The oracle targets themselves or one allied character within Close range. Targeted characters reduce the difficulty of vision-based skill tests by 2, ignore any difficulty or complication range increases caused by darkness, and may attempt skill tests that would otherwise be impossible due to darkness. For the duration of the spell, all targeted characters gain the truth **See the Unseen** (see Truths and Complications, p. 25).
+
+**Success Levels:** For 1–5 Success Levels, the oracle may choose one additional allied character as a target per Success Level spent.
+

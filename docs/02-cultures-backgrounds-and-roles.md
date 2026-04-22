@@ -1,6 +1,6 @@
 # 2 Cultures, Backgrounds, and Roles
 
-Character creation in the 2d12 system is built in four stages. Each stage contributes **4 attribute points**, for a total of **16 points** distributed before the player assigns their final 4 points freely. No single attribute may exceed **5** at character creation.
+Character creation in the 2d12 system is built in three stages. Each stage contributes **4 attribute points**, for a total of **12 points** distributed before the player assigns their final 4 points freely. No single attribute may exceed **5** at character creation.
 
 # 2.1 Cultures 
 Each culture grants **4 attribute points**, one Culture Talent, language access, and skill options from the culture's aspects. Choose or create your culture.
@@ -386,7 +386,7 @@ Every village on the northern frontier has its herbalist — the local healer wh
 
 # 02.3 Roles
 Your Role may be what you naturally excel at, the logical evolution of your previous life, or something entirely different. 
-Each Role grants **4 attribute points**, **4 Skill Ranks**, 2 Specializations, a Talent, and Equipment. Ignore any requirements for Talents gained from your Role.
+Each Role grants **4 attribute points**, **6 Skill Ranks**, 2 Specializations, a Talent, and Equipment. Ignore any requirements for Talents gained from your Role.
 ***
 
 ## Mystic
@@ -442,10 +442,6 @@ Choose one of the following:
 
 ***
 
-Here is the Sage Role rewritten in the 2d12 house style, with Focuses replaced by Specializations and terminology aligned to the system:
-
-***
-
 ## Savant
 
 *You are a Sage — someone for whom knowledge and expertise are their own reward.*
@@ -456,8 +452,8 @@ You are steeped in the histories of the ancients, drawing wisdom from their succ
 
 ### Attributes
 
-- Insight +2
-- Reason +2
+- Insight +1
+- Reason +1
 - Willpower +1
 - Presence +1
 
@@ -466,11 +462,9 @@ You are steeped in the histories of the ancients, drawing wisdom from their succ
 | Skill | Rank |
 |:---|:---|
 | Academia | +2 |
-| Crafting | +2 |
-| Engineering | +2 |
-| Medicine | +1 |
-| Observation | +1 |
-| Tactics | +1 |
+| Crafting | +1 |
+| Engineering | +1 |
+| Medicine | +2 |
 
 ### Specializations
 
@@ -498,10 +492,6 @@ Choose one of the following:
 
 ***
 
-Here is the Schemer Role rewritten in the 2d12 house style:
-
-***
-
 ## Interlocutor
 
 *You are a Schemer — someone who uses a quick tongue and a cunning mind to advance an agenda.*
@@ -510,20 +500,18 @@ Whether working for personal gain or in service of a greater authority — a nat
 
 ### Attributes
 
-- Charisma +2
+- Charisma +1
 - Insight +1
 - Reason +1
-- Willpower +2
+- Willpower +1
 
 ### Skills
 
 | Skill | Rank |
 |:---|:---|
-| Academia | +2 |
-| Fighting | +1 |
+| Academia | +1 |
 | Observation | +2 |
 | Manipulation | +2 |
-| Resilience | +1 |
 | Stealth | +1 |
 
 ### Specializations
@@ -553,10 +541,6 @@ Choose one of the following:
 
 ***
 
-Here is the Scoundrel Role rewritten in the 2d12 house style:
-
-***
-
 ## Penumbra
 
 *You are a Scoundrel — someone who makes a living outside the law.*
@@ -567,8 +551,8 @@ Those who learn the ways of the streets and forge useful connections in the crim
 
 ### Attributes
 
-- Agility +2
-- Dexterity +2
+- Agility +1
+- Dexterity +1
 - Insight +1
 - Willpower +1
 
@@ -576,10 +560,8 @@ Those who learn the ways of the streets and forge useful connections in the crim
 
 | Skill | Rank |
 |:---|:---|
-| Athletics | +2 |
 | Fighting | +1 |
 | Observation | +2 |
-| Manipulation | +1 |
 | Stealth | +2 |
 | Survival | +1 |
 
@@ -620,19 +602,17 @@ If you are suited to this role, you are likely a loner — quiet by nature, more
 ### Attributes
 
 - Agility +1
-- Dexterity +2
-- Insight +2
+- Dexterity +1
+- Insight +1
 - Willpower +1
 
 ### Skills
 
 | Skill | Rank |
 |:---|:---|
-| Athletics | +2 |
-| Fighting | +1 |
-| Observation | +2 |
-| Resilience | +1 |
-| Stealth | +1 |
+| Athletics | +1 |
+| Observation | +1 |
+| Stealth | +2 |
 | Survival | +2 |
 
 ### Specializations
@@ -674,19 +654,16 @@ Your survival depends on your skill with weapons and the bonds you forge with th
 
 - Agility +1
 - Might +2
-- Dexterity +2
 - Willpower +1
 
 ### Skills
 
 | Skill | Rank |
 |:---|:---|
-| Athletics | +2 |
+| Athletics | +1 |
 | Fighting | +2 |
-| Observation | +1 |
-| Resilience | +2 |
-| Survival | +1 |
-| Tactics | +1 |
+| Resilience | +1 |
+| Tactics | +2 |
 
 ### Specializations
 

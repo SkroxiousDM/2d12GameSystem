@@ -569,11 +569,11 @@ Those who learn the ways of the streets and forge useful connections in the crim
 
 Choose any two Specializations from the following:
 
-**Athletics:** Acrobatics, Climbing, Free Running, Swimming, Throwing
+**Athletics:** Climbing, Lifting, Physical Training, Running, Swimming
 
-**Observation:** Empathy, Interrogation, Scrutinize, Search, Sixth Sense
+**Observation:** Hearing, Instincts, Sight, Smell and Taste, Scrutinize
 
-**Stealth:** Concealment, Disguise, Pickpocket, Shadowing, Sneak
+**Stealth:** Concealment, Disguise, Sneak
 
 ### Talent
 
@@ -619,11 +619,11 @@ If you are suited to this role, you are likely a loner — quiet by nature, more
 
 Choose any two Specializations from the following:
 
-**Athletics:** Acrobatics, Climbing, Free Running, Swimming, Throwing
+**Athletics:** Climbing, Lifting, Physical Training, Running, Swimming
 
-**Observation:** Empathy, Interrogation, Scrutinize, Search, Sixth Sense
+**Observation:** Hearing, Instincts, Sight, Smell and Taste, Scrutinize
 
-**Survival:** Boating, Camouflage, Mysticism, Orientation, Tracking
+**Survival:** Animal Handling, Boating, Foraging, Hunting, Mysticism, Navigation, Tracking, Woodcraft
 
 ### Talent
 
@@ -669,11 +669,11 @@ Your survival depends on your skill with weapons and the bonds you forge with th
 
 Choose any two Specializations from the following:
 
-**Athletics:** Acrobatics, Climbing, Free Running, Swimming, Throwing
+**Athletics:** Climbing, Lifting, Physical Training, Running, Swimming
 
-**Fighting:** Archery, Melee Weapons, Thrown Weapons, Unarmed, War Cry
+**Fighting:** Archery, Melee Weapons, Thrown Weapons, Unarmed, War Magic
 
-**Resilience:** Courage, Fortitude, Gambling, Stamina, Carousing
+**Resilience:** Discipline, Fortitude, Immunity
 
 ### Talent
 

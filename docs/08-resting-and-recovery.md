@@ -19,7 +19,8 @@ At the end of a Full Rest:
 - All Spent Power is recovered.  
 - 1 Wound is healed.  
 - Ability damage heals at a rate of 3 points per damaged ability score.  
->**First Aid**. A character may provide additional care with a Hard Reason–Medicine (Field Treatment) check requiring 10 minutes. On a success, the patient heals 1 additional Wound at the end of the Full Rest. A creature can benefit from this care only once per day.  
+>**First Aid**. A character may provide additional care with a Hard Reason–Medicine (Field Treatment) check requiring 10 minutes. On a success, the patient heals 1 additional Wound at the end of the Full Rest. A creature can benefit from this care only once per day.
+ 
 >**Ability Damage**. Ability damage caused by disease does not heal through rest. Lost ability points return only after the character has fully recovered from the disease.
 
 ### Fatigue  

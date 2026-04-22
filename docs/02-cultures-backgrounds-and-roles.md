@@ -240,3 +240,481 @@ Slingers serve as auxiliaries across the known world — deployed to good effect
 
 *** 
 
+Here are additional backgrounds for the **Classical Civilisations** and **Northern Forests** regions, written in house style with appropriate specializations from the skills list:
+
+***
+
+## Classical Civilisations
+
+**Philosopher**
+*A man of learning — scholar, teacher, and seeker of truth.*
+
+The great cities of Ionia and Latium are home to schools of philosophy, medicine, and rhetoric. The philosopher may teach, write, or serve as a private tutor to the wealthy. He is a man of keen intellect, widely read, and comfortable in the company of the powerful — though he is not above using his learning to manipulate, deceive, or outmanoeuvre those who underestimate him.
+
+- *Culture Note:* Ionian Greek or Imperial only
+- *Money:* 120 denarii
+- *Specialization:* Academia — **Philosophy**
+- *Bonus:* Writing materials, Letter of Introduction from a notable patron
+
+***
+
+**Physician**
+*A healer trained in the great medical traditions of the ancient world.*
+
+Physicians are found in every corner of the Empire, from the legionary field surgeons to the private doctors of wealthy households. Many are Ionian Greeks trained in the tradition of Hippocrates; others have learned their craft in Ægyptian temples or Persian academies. A physician is respected — and in demand — wherever he travels.
+
+- *Culture Note:* —
+- *Money:* 200 denarii
+- *Specialization:* Medicine — **Surgery**
+- *Bonus:* Physician's Bag *(contains bandages, surgical tools, and two doses of Poppy Draught)*
+
+***
+
+**Merchant**
+*A trader of goods and intelligence, at home in any marketplace.*
+
+Commerce is the blood of the Empire. Merchants carry silks, spices, grain, and slaves along the great roads and sea lanes. They know how to negotiate, charm, and if necessary bribe their way through any obstacle. A prosperous merchant has contacts in a dozen cities and knows which officials can be bought and for how much.
+
+- *Culture Note:* —
+- *Money:* 300 denarii
+- *Specialization:* Manipulation — **Negotiation**
+- *Bonus:* Mule and Saddlebags, Merchant's Letter of Credit *(worth 100 denarii, redeemable in any major city)*
+
+***
+
+**Sailor**
+*A weathered mariner of the Middle Sea — part navigator, part brawler.*
+
+The Middle Sea is the Empire's highway. Sailors crew the grain ships, the trading galleys, and the Imperial war fleet. Life at sea is brutal — storms, pirates, and press-gangs are constant companions. A sailor who survives long enough becomes a capable navigator and an instinctive fighter, equally at home in a ship's rigging or a dockside tavern brawl.
+
+- *Culture Note:* —
+- *Money:* 100 denarii
+- *Specialization:* Survival — **Boating**
+- *Bonus:* Belaying Pin *(treat as club)*, Rope *(20 ft)*, Weatherproof Cloak
+
+***
+
+**Assassin**
+*A professional killer — discreet, patient, and utterly ruthless.*
+
+Every city has its shadowy brotherhoods of killers, and the Empire is no exception. An assassin is hired to solve problems that cannot be resolved through politics or the law courts. He is a patient hunter, skilled at blending in, following his quarry undetected, and striking at the most opportune moment. Those who discover his profession rarely live to report it.
+
+- *Culture Note:* —
+- *Money:* 1d × 50 denarii
+- *Specialization:* Stealth — **Disguise**
+- *Bonus:* Dagger, Garrotte, Vial of Contact Poison
+
+***
+
+## Northern Forests
+
+**Barbarian Warrior**
+*A fierce fighter from beyond the frontier — loyal to his chief and hungry for glory.*
+
+Beyond the Empire's borders, the measure of a man is the strength of his sword arm and the courage of his heart. A barbarian warrior owes his loyalty to his chief and his kin, and earns his standing through deeds of violence. Some are drawn south by the promise of plunder, Imperial silver, or simply the desire to test themselves against the legions. A few stay and are absorbed into the frontier culture; most remain wild at heart.
+
+- *Culture Note:* Goth, Sarmatian, or other non-Imperial barbarian only
+- *Money:* 1d × 25 denarii
+- *Specialization:* Fighting — **Melee Weapons**
+- *Bonus:* Two-handed Axe or Longsword *(player's choice)*, Animal-hide Cloak
+
+***
+
+**Scout**
+*A fast-moving frontier soldier, expert in ambush and reconnaissance.*
+
+The northern frontier demands men who can range far ahead of the main force, reading the land, tracking enemy movements, and returning with intelligence before the legions blunder into an ambush. Scouts are used by both the Imperial forces and the barbarian warbands. They travel light, strike fast, and know how to disappear into the treeline.
+
+- *Culture Note:* —
+- *Money:* 120 denarii
+- *Specialization:* Tactics — **Scouting**
+- *Bonus:* Short Bow, Quiver and 12 Arrows, Dagger
+
+***
+
+**Druid**
+*A keeper of ancient lore — priest, judge, and spirit-caller of the Celtic peoples.*
+
+Among the Gauls and Britons, the druids are the living memory of the people — poets, priests, lawgivers, and physicians rolled into one. The Empire has tried to suppress them, and yet they persist in the deep forests and on the sacred islands of the far north. A druid is a man of immense community standing, feared by enemies and revered by his own people. His knowledge of the natural world and its spirits is without equal.
+
+- *Culture Note:* Gaul or Briton only
+- *Money:* 80 denarii
+- *Specialization:* Survival — **Mysticism**
+- *Bonus:* Oaken Staff, Druidic Torc *(worth 50 denarii; mark of status among Celtic peoples)*
+
+***
+
+**Frontier Soldier**
+*A Roman auxiliary or provincial militiaman — hard-bitten, pragmatic, and scarred by years on the line.*
+
+The Danubian frontier demands a different kind of soldier from the parade-ground legionary. Auxiliary troops and provincial militias hold the line against constant barbarian pressure with little glory and inadequate supplies. They learn to improvise, to fortify a camp in darkness, and to fight in terrain the textbooks never mention. Most are Romanised provincials — men of mixed heritage who have chosen the Empire's order over the chaos beyond.
+
+- *Culture Note:* Danubian Provincial or Imperial only
+- *Money:* 150 denarii
+- *Specialization:* Engineering — **Defences**
+- *Bonus:* Spear, Auxiliary Shield, Leather Cuirass
+
+***
+
+**Skald**
+*A warrior-poet of the northern tribes — keeper of sagas, singer of battle.*
+
+Among the Germanic and Gothic peoples, the skald holds a place of honour second only to the chief. He records the deeds of the great, sings the sagas of the dead, and inspires men to acts of desperate courage on the battlefield. A skald travels freely between warbands, granted safe passage by custom — for to kill a skald is to invite the worst of luck. He is not merely a singer, however; he carries weapons and knows how to use them.
+
+- *Culture Note:* Goth or Germanic barbarian only
+- *Money:* 100 denarii
+- *Specialization:* Manipulation — **Rhetoric**
+- *Bonus:* Shortsword, Skald's Harp *(grants Advantage on Charm-based Manipulation tests when performed for an audience)*
+
+***
+
+**Herbalist**
+*A wise-woman or cunning man of the forest villages — healer, poisoner, and keeper of old secrets.*
+
+Every village on the northern frontier has its herbalist — the local healer who knows which roots cure fever, which berries stop bleeding, and which mushrooms kill quietly. They occupy an uneasy place in society, respected for their skill and feared for the same reason. Some drift from settlement to settlement, selling remedies and reading omens. Others are driven out when their knowledge strays too close to the forbidden.
+
+- *Culture Note:* —
+- *Money:* 80 denarii
+- *Specialization:* Medicine — **Pharmacia**
+- *Bonus:* Herbalist's Satchel *(contains four doses of medicinal herbs — two healing, one sedative, one toxic)*, Knife
+
+***
+
+# Roles
+
+***
+
+## Mystic
+
+*The gods call to you. They make demands of you and guide your actions in the world.*
+
+In difficult and uncertain times, the gods may provide comfort and stability that is otherwise absent — but their will must be interpreted by those bold enough to speak for them. A Mystic requires insight, confidence, and humility in equal measure, as well as the courage to confront the world's deeper mysteries.
+
+### Attributes
+
+- Agility +1
+- Dexterity +1
+- Charisma +2
+
+Choose one of the following:
+- Reason +2
+- Insight +2
+- Willpower +2
+
+### Skills
+
+| Skill | Rank |
+|:---|:---|
+| Academia | +2 |
+| Medicine | +2 |
+| Observation | +1 |
+| Manipulation | +2 |
+| Resilience | +1 |
+| Stealth | +1 |
+
+### Specializations
+
+Choose any two Specializations from the following:
+
+**Academia:** Cultures, History, Linguistics, Philosophy, Religion
+
+**Medicine:** Contagion, Faith Healing *(Spellcaster keyword required)*, Field Treatment, Pharmacia, Surgery
+
+**Manipulation:** Charm, Deception, Innuendo, Invocation *(Spellcaster keyword required)*, Rhetoric
+
+### Talent
+
+A talent with the **Spellcaster** keyword allows a character to cast spells; a character cannot cast spells without it. A character may hold only one talent with the Spellcaster keyword.
+
+Choose one of the following:
+- One talent from the **Mystic Talents** list
+- A **Hidden Talent**
+- The **Occult Dabbler** talent
+
+### Equipment
+
+- One melee weapon of your choice with a Restriction rating of 3 or lower
+- Traveling clothes and ritual vestments
+- Ritual tools
+
+***
+
+Here is the Sage Role rewritten in the 2d12 house style, with Focuses replaced by Specializations and terminology aligned to the system:
+
+***
+
+## Sage
+
+*You are a Sage — someone for whom knowledge and expertise are their own reward.*
+
+This impulse takes many forms. You may love the quiet solitude of study among scribed tomes and library shelves stacked with sacred scrolls, or you may be an engineer who builds things meant to last, or an apothecary versed in healing lore. The path of the Sage may overlap with that of the Mystic, but where the Mystic seeks inner enlightenment or communion with higher powers, you seek truth through reason, building on the knowledge of those who came before.
+
+You are steeped in the histories of the ancients, drawing wisdom from their successes and wariness from their failures. Even in an age when much is yet unproven and unknown, you test and define the underlying principles that govern reality. That which can be defined can be confronted without fear.
+
+### Attributes
+
+- Insight +2
+- Reason +2
+- Willpower +1
+- Presence +1
+
+### Skills
+
+| Skill | Rank |
+|:---|:---|
+| Academia | +2 |
+| Crafting | +2 |
+| Engineering | +2 |
+| Medicine | +1 |
+| Observation | +1 |
+| Tactics | +1 |
+
+### Specializations
+
+Choose any two Specializations from the following:
+
+**Academia:** Cultures, History, Linguistics, Philosophy, Religion
+
+**Crafting:** Alchemy, Armoury, Artisan, Forgery, Jewellery
+
+**Engineering:** Architecture, Defences, Mechanics, Siegecraft, Traps & Secret Doors
+
+## Talent
+
+Choose one of the following:
+- One talent from the **Sage Talents** list
+- A **Hidden Talent**
+- The **Occult Dabbler** talent
+
+### Equipment
+
+- One melee weapon of your choice with a Restriction rating of 3 or lower, **or** one ranged weapon of your choice with a Restriction rating of 3 or lower
+- Several sets of plain travelling clothes and one suit of fine clothing
+- A small personal library of choice volumes and reference materials
+- Writing materials, including vellum or papyrus scrolls and bound books
+
+***
+
+Here is the Schemer Role rewritten in the 2d12 house style:
+
+***
+
+## Schemer
+
+*You are a Schemer — someone who uses a quick tongue and a cunning mind to advance an agenda.*
+
+Whether working for personal gain or in service of a greater authority — a nation, a tribal chieftain, a religious figure, or a politician — you navigate all manner of social circles using stealth, deception, honeyed words, and clever plots, always seeking to exploit every situation to your advantage. Many Imperial dignitaries and senators fall within this role, as do the counsellors of barbarian chiefs and the spies of governments across the known world. Living as a Schemer is not easy; it requires keeping a complex and ever-growing web of plots and lies perfectly straight. But for those who can manage it, there are no barriers that cannot be overcome.
+
+### Attributes
+
+- Charisma +2
+- Insight +1
+- Reason +1
+- Willpower +2
+
+### Skills
+
+| Skill | Rank |
+|:---|:---|
+| Academia | +2 |
+| Fighting | +1 |
+| Observation | +2 |
+| Manipulation | +2 |
+| Resilience | +1 |
+| Stealth | +1 |
+
+### Specializations
+
+Choose any two Specializations from the following:
+
+**Academia:** Cultures, History, Linguistics, Philosophy, Religion
+
+**Observation:** Empathy, Interrogation, Scrutinize, Search, Sixth Sense
+
+**Manipulation:** Charm, Deception, Innuendo, Invocation, Rhetoric
+
+### Talent
+
+Choose one of the following:
+- One talent from the **Schemer Talents** list
+- A **Hidden Talent**
+- The **Occult Dabbler** talent
+
+### Equipment
+
+- One melee weapon of your choice with a Restriction rating of 3 or lower
+- A dagger **or** a dose of poison
+- Several sets of plain travelling clothes and one suit of fine clothing
+- A small personal library of choice volumes and reference materials
+- A symbol of authority **or** a memento taken from a rival
+
+***
+
+Here is the Scoundrel Role rewritten in the 2d12 house style:
+
+***
+
+# Scoundrel
+
+*You are a Scoundrel — someone who makes a living outside the law.*
+
+You strive to gain whatever advantage you can to survive, resorting to thievery, extortion, exploitation, or perhaps murder for hire. Most Scoundrels do not see themselves as villains; they are pragmatic survivors who know how to make the most of a bad situation. Many come from the lower classes or marginalised peoples — those not afforded the advantages enjoyed by wealthy citizens of the Empire, overlooked or treated as filth by those who consider themselves better.
+
+Those who learn the ways of the streets and forge useful connections in the criminal underworld may find a way to rise above what their station typically allows — or die in the attempt. Living on the wrong side of the law carries serious risks, but for some it is preferable to the guaranteed squalor or oppression they would otherwise endure. Others turn to crime regardless of their origins, drawn by an aptitude for larceny, thuggery, or deception, or simply seeking an easier path to wealth.
+
+## Attributes
+
+- Agility +2
+- Dexterity +2
+- Insight +1
+- Willpower +1
+
+## Skills
+
+| Skill | Rank |
+|:---|:---|
+| Athletics | +2 |
+| Fighting | +1 |
+| Observation | +2 |
+| Manipulation | +1 |
+| Stealth | +2 |
+| Survival | +1 |
+
+## Specializations
+
+Choose any two Specializations from the following:
+
+**Athletics:** Acrobatics, Climbing, Free Running, Swimming, Throwing
+
+**Observation:** Empathy, Interrogation, Scrutinize, Search, Sixth Sense
+
+**Stealth:** Concealment, Disguise, Pickpocket, Shadowing, Sneak
+
+## Talent
+
+Choose one of the following:
+- One talent from the **Scoundrel Talents** list
+- A **Hidden Talent**
+- The **Occult Dabbler** talent
+
+## Equipment
+
+- One melee weapon of your choice with a Restriction rating of 3 or lower
+- Two daggers **or** a bow
+- Leather armour **or** three throwing weapons
+- Scoundrel's tools **or** three doses of poison
+
+***
+
+Here is the Scout Role rewritten in the 2d12 house style:
+
+***
+
+# Scout
+
+*You are a Scout — a hunter and wilderness ranger who relies on cunning and sharp senses to survive.*
+
+Some Scouts have undergone formal military training; most have acquired their skills over a lifetime of experience — hunting to survive, learning the behaviour of animals, reading shifts in weather, and understanding the rhythms of each season. Even when serving alongside a warband or the legions, Scouts operate alone or in small groups, ranging far ahead of their companions and being the first to face whatever danger lies in wait. They learn to trust their instincts and master the art of evasion in order to return to their allies in one piece.
+
+If you are suited to this role, you are likely a loner — quiet by nature, more at ease in open country than amid the noise of a crowded city. Others have learned to rely on you when they must venture into unfamiliar territory, and they have learned to heed your warnings.
+
+## Attributes
+
+- Agility +1
+- Dexterity +2
+- Insight +2
+- Willpower +1
+
+## Skills
+
+| Skill | Rank |
+|:---|:---|
+| Athletics | +2 |
+| Fighting | +1 |
+| Observation | +2 |
+| Resilience | +1 |
+| Stealth | +1 |
+| Survival | +2 |
+
+## Specializations
+
+Choose any two Specializations from the following:
+
+**Athletics:** Acrobatics, Climbing, Free Running, Swimming, Throwing
+
+**Observation:** Empathy, Interrogation, Scrutinize, Search, Sixth Sense
+
+**Survival:** Boating, Camouflage, Mysticism, Orientation, Tracking
+
+## Talent
+
+Choose one of the following:
+- One talent from the **Scout Talents** list
+- A **Hidden Talent**
+- The **Occult Dabbler** talent
+
+## Equipment
+
+- One melee weapon of your choice with a Restriction rating of 3 or lower
+- A bow, a sling, **or** three javelins
+- Leather armour
+- A warm woollen cloak **or** fur pelt
+- A survival kit
+
+***
+
+Here is the Soldier Role rewritten in the 2d12 house style:
+
+***
+
+# Soldier
+
+*Whether a legionary, an auxiliary, or a tribal warrior, you have taken up arms as a way of life.*
+
+The world is a violent place, and demand is considerable for those willing to put their lives on the line — in wars waged abroad or in defence of those who serve society in other ways. In most cultures of the ancient world, becoming a warrior means joining a privileged class held in high regard, though it entails responsibilities that are sometimes brutal. If you would not ordinarily be eligible for citizenship, signing on as a soldier may allow you to earn it — along with land, wealth, and glory for yourself and your descendants. But it may equally result in gruelling marches through inhospitable lands, ending in a swift and anonymous death at the hands of a faceless enemy.
+
+Your survival depends on your skill with weapons and the bonds you forge with those who fight beside you.
+
+## Attributes
+
+- Agility +1
+- Might +2
+- Dexterity +2
+- Willpower +1
+
+## Skills
+
+| Skill | Rank |
+|:---|:---|
+| Athletics | +2 |
+| Fighting | +2 |
+| Observation | +1 |
+| Resilience | +2 |
+| Survival | +1 |
+| Tactics | +1 |
+
+## Specializations
+
+Choose any two Specializations from the following:
+
+**Athletics:** Acrobatics, Climbing, Free Running, Swimming, Throwing
+
+**Fighting:** Archery, Melee Weapons, Thrown Weapons, Unarmed, War Cry
+
+**Resilience:** Courage, Fortitude, Gambling, Stamina, Carousing
+
+## Talent
+
+Choose one of the following:
+- One talent from the **Soldier Talents** list
+- A **Hidden Talent**
+- The **Occult Dabbler** talent
+
+## Equipment
+
+- One melee weapon of your choice with a Restriction rating of 3 or lower
+- A spear **or** three javelins
+- Lorica segmentata **or** chainmail and a small shield
+- A soldier's kit
+
+***

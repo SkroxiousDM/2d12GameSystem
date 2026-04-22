@@ -80,8 +80,6 @@ Nomadic horsemen and shamans from the endless steppe, fearsome in the saddle and
 
 # Backgrounds
 
-Here are all the backgrounds rewritten in the 2d12 house style, with skills replaced by appropriate specializations from the system:
-
 ***
 
 **Archer**

@@ -90,7 +90,7 @@ Nomadic horsemen and shamans from the endless steppe, fearsome in the saddle and
 
 ## 2.2 Backgrounds
 
-A background represents your character's life before adventuring — their profession, their craft, their place in the world. Each background grants **4 attribute points**, a Specialization, a Money award, and equipment.
+A background represents your character's life before adventuring — their profession, their craft, their place in the world. Each background grants **4 attribute points**, **4 Skill Ranks**, a Specialization, a Money award, and equipment.
 
 ### Archer
 
@@ -384,8 +384,9 @@ Every village on the northern frontier has its herbalist — the local healer wh
 
 ***
 
-# Roles
-
+# 02.3 Roles
+Your Role may be what you naturally excel at, the logical evolution of your previous life, or something entirely different. 
+Each Role grants **4 attribute points**, **4 Skill Ranks**, 2 Specializations, a Talent, and Equipment. Ignore any requirements for Talents gained from your Role.
 ***
 
 ## Mystic
@@ -398,12 +399,12 @@ In difficult and uncertain times, the gods may provide comfort and stability tha
 
 - Agility +1
 - Dexterity +1
-- Charisma +2
+- Charisma +1
 
 Choose one of the following:
-- Reason +2
-- Insight +2
-- Willpower +2
+- Reason +1
+- Insight +1
+- Willpower +1
 
 ### Skills
 
@@ -412,9 +413,7 @@ Choose one of the following:
 | Academia | +2 |
 | Medicine | +2 |
 | Observation | +1 |
-| Manipulation | +2 |
-| Resilience | +1 |
-| Stealth | +1 |
+| Manipulation | +1 |
 
 ### Specializations
 
@@ -447,7 +446,7 @@ Here is the Sage Role rewritten in the 2d12 house style, with Focuses replaced b
 
 ***
 
-## Sage
+## Savant
 
 *You are a Sage — someone for whom knowledge and expertise are their own reward.*
 
@@ -483,7 +482,7 @@ Choose any two Specializations from the following:
 
 **Engineering:** Architecture, Defences, Mechanics, Siegecraft, Traps & Secret Doors
 
-## Talent
+### Talent
 
 Choose one of the following:
 - One talent from the **Sage Talents** list
@@ -503,7 +502,7 @@ Here is the Schemer Role rewritten in the 2d12 house style:
 
 ***
 
-## Schemer
+## Interlocutor
 
 *You are a Schemer — someone who uses a quick tongue and a cunning mind to advance an agenda.*
 
@@ -558,7 +557,7 @@ Here is the Scoundrel Role rewritten in the 2d12 house style:
 
 ***
 
-# Scoundrel
+## Penumbra
 
 *You are a Scoundrel — someone who makes a living outside the law.*
 
@@ -566,14 +565,14 @@ You strive to gain whatever advantage you can to survive, resorting to thievery,
 
 Those who learn the ways of the streets and forge useful connections in the criminal underworld may find a way to rise above what their station typically allows — or die in the attempt. Living on the wrong side of the law carries serious risks, but for some it is preferable to the guaranteed squalor or oppression they would otherwise endure. Others turn to crime regardless of their origins, drawn by an aptitude for larceny, thuggery, or deception, or simply seeking an easier path to wealth.
 
-## Attributes
+### Attributes
 
 - Agility +2
 - Dexterity +2
 - Insight +1
 - Willpower +1
 
-## Skills
+### Skills
 
 | Skill | Rank |
 |:---|:---|
@@ -584,7 +583,7 @@ Those who learn the ways of the streets and forge useful connections in the crim
 | Stealth | +2 |
 | Survival | +1 |
 
-## Specializations
+### Specializations
 
 Choose any two Specializations from the following:
 
@@ -594,14 +593,14 @@ Choose any two Specializations from the following:
 
 **Stealth:** Concealment, Disguise, Pickpocket, Shadowing, Sneak
 
-## Talent
+### Talent
 
 Choose one of the following:
 - One talent from the **Scoundrel Talents** list
 - A **Hidden Talent**
 - The **Occult Dabbler** talent
 
-## Equipment
+### Equipment
 
 - One melee weapon of your choice with a Restriction rating of 3 or lower
 - Two daggers **or** a bow
@@ -610,11 +609,7 @@ Choose one of the following:
 
 ***
 
-Here is the Scout Role rewritten in the 2d12 house style:
-
-***
-
-# Scout
+## Scout
 
 *You are a Scout — a hunter and wilderness ranger who relies on cunning and sharp senses to survive.*
 
@@ -622,14 +617,14 @@ Some Scouts have undergone formal military training; most have acquired their sk
 
 If you are suited to this role, you are likely a loner — quiet by nature, more at ease in open country than amid the noise of a crowded city. Others have learned to rely on you when they must venture into unfamiliar territory, and they have learned to heed your warnings.
 
-## Attributes
+### Attributes
 
 - Agility +1
 - Dexterity +2
 - Insight +2
 - Willpower +1
 
-## Skills
+### Skills
 
 | Skill | Rank |
 |:---|:---|
@@ -640,7 +635,7 @@ If you are suited to this role, you are likely a loner — quiet by nature, more
 | Stealth | +1 |
 | Survival | +2 |
 
-## Specializations
+### Specializations
 
 Choose any two Specializations from the following:
 
@@ -650,14 +645,14 @@ Choose any two Specializations from the following:
 
 **Survival:** Boating, Camouflage, Mysticism, Orientation, Tracking
 
-## Talent
+### Talent
 
 Choose one of the following:
 - One talent from the **Scout Talents** list
 - A **Hidden Talent**
 - The **Occult Dabbler** talent
 
-## Equipment
+### Equipment
 
 - One melee weapon of your choice with a Restriction rating of 3 or lower
 - A bow, a sling, **or** three javelins
@@ -667,11 +662,7 @@ Choose one of the following:
 
 ***
 
-Here is the Soldier Role rewritten in the 2d12 house style:
-
-***
-
-# Soldier
+## Warrior
 
 *Whether a legionary, an auxiliary, or a tribal warrior, you have taken up arms as a way of life.*
 
@@ -679,14 +670,14 @@ The world is a violent place, and demand is considerable for those willing to pu
 
 Your survival depends on your skill with weapons and the bonds you forge with those who fight beside you.
 
-## Attributes
+### Attributes
 
 - Agility +1
 - Might +2
 - Dexterity +2
 - Willpower +1
 
-## Skills
+### Skills
 
 | Skill | Rank |
 |:---|:---|
@@ -697,7 +688,7 @@ Your survival depends on your skill with weapons and the bonds you forge with th
 | Survival | +1 |
 | Tactics | +1 |
 
-## Specializations
+### Specializations
 
 Choose any two Specializations from the following:
 
@@ -707,14 +698,14 @@ Choose any two Specializations from the following:
 
 **Resilience:** Courage, Fortitude, Gambling, Stamina, Carousing
 
-## Talent
+### Talent
 
 Choose one of the following:
 - One talent from the **Soldier Talents** list
 - A **Hidden Talent**
 - The **Occult Dabbler** talent
 
-## Equipment
+### Equipment
 
 - One melee weapon of your choice with a Restriction rating of 3 or lower
 - A spear **or** three javelins

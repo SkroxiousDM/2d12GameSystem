@@ -1,6 +1,4 @@
----
-
-## **Chapter 4: Talents**
+# Talents
 
 Talents are the defining features and abilities that set a hero apart from the common run of humanity. Many Talents have Requirements—certain Skill Ranks, Attribute scores, or other Talents—that must be met before they can be learned. Losing the ability to meet a Requirement means losing the Talent.
 

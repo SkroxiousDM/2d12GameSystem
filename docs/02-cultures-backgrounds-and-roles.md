@@ -1,23 +1,33 @@
-# Cultures 
+# 2 Cultures, Backgrounds, and Roles
 
+Character creation in the 2d12 system is built in four stages. Each stage contributes **4 attribute points**, for a total of **16 points** distributed before the player assigns their final 4 points freely. No single attribute may exceed **5** at character creation.
+
+# 2.1 Cultures 
+Each culture grants **4 attribute points**, one Culture Talent, language access, and skill options from the culture's aspects. Choose or create your culture.
 ## **The Imperial Civilisations**
 
 The heartland of the Empire encompasses the grand and decadent Eternal City, the rest of Latium, Ionia, and the fully Imperialised province of Hispania. Wealthy cities and a rich urban life define this region, offering abundant opportunities for city adventures, political conspiracies, and skulduggery. Of late, raiders have made incursions into both Ionia and Latium, casting a dark shadow over these proud lands.
+### Roman
 
-**Roman**
-Shaped by law, discipline, and civic duty, Romans are administrators and soldiers in equal measure.
+Law, discipline, and civic duty shape the Roman mind. Romans are administrators and soldiers in equal measure, versed in the structures that hold the world together.
+
 - *Attribute Points:* +2 Intellect, +1 Presence, +1 Might
 - *Culture Talent:* **Civic Authority** – When dealing with Imperial institutions, officials, or soldiers, gain advantage on Presence-based tests.
 
-**Ionian**
-Philosophers, physicians, and merchants, Ionians are the Empire's scholars and its conscience.
-- *Attribute Points:* +2 Intellect, +2 Presence
-- *Culture Talent:* **Learned** – Once per scene, recall a relevant piece of historical, scientific, or philosophical knowledge to gain advantage on an Intellect test.
 
-**Hispanian**
-Tough, proud, and fiercely independent beneath a Roman veneer.
-- *Attribute Points:* +2 Might, +1 Agility, +1 Presence
-- *Culture Talent:* **Warrior Heritage** – Gain advantage on Fortitude tests to resist fear or intimidation in combat.
+### Ionian Greek
+
+Philosophers, physicians, and merchants. Ionians are the Empire's scholars and its conscience, at home in the agora and the academy alike.
+
+- **Attribute Points:** REA +2, CHA +2
+- **Culture Talent:** *Learned* — Once per scene, recall a relevant piece of historical, scientific, or philosophical knowledge to gain advantage on a REA test.
+
+### Hispanian
+
+Tough, proud, and fiercely independent beneath a Roman veneer. The Hispanians are the Empire's most reliable auxiliaries and its most dangerous rebels.
+
+- **Attribute Points:** STR +2, AGI +1, CHA +1
+- **Culture Talent:** *Warrior Heritage* — Gain advantage on Fortitude tests to resist fear or intimidation in combat
 
 ***
 
@@ -37,7 +47,7 @@ Forged by faith, exile, and resistance, Solymans are tenacious and deeply princi
 
 **Libyan**
 Nomadic raiders and guides who know the desert's secrets better than any map.
-- *Attribute Points:* +2 Awareness, +1 Agility, +1 Might
+- **Attribute Points:** CON +2, STR +1, INS +1
 - *Culture Talent:* **Raider's Eye** – Gain advantage on Awareness tests to detect ambushes and on Agility tests when making a swift strike or retreat.
 
 **Persian**
@@ -78,202 +88,198 @@ Nomadic horsemen and shamans from the endless steppe, fearsome in the saddle and
 
 ***
 
-# Backgrounds
+## 2.2 Backgrounds
 
-***
+A background represents your character's life before adventuring — their profession, their craft, their place in the world. Each background grants **4 attribute points**, a Specialization, a Money award, and equipment.
 
-**Archer**
+### Archer
+
 *A skilled Eastern warrior — an expert shot and professional mercenary.*
 
 The Empire has its legionaries, clad in iron and wielding the shortsword; the Desert Kingdoms have their archers. Archery carries great status in the East. While most eastern armies are built around cataphract cavalry or horse archers, what infantry they do field is usually composed of bowmen — the only truly professional foot soldiers in the Desert Kingdoms. They move from kingdom to kingdom clutching bow and quiver, hiring out their skill to whoever will pay. An archer is self-reliant, capable of crafting his own weapons from raw materials.
 
 - *Culture Note:* Not available to Imperial characters
+- *Attribute Points:* DEX +1, AGI +1, INS +1, WIL +1
 - *Money:* 180 denarii
 - *Specialization:* Fighting — **Archery**
 - *Bonus:* Bow, Quiver and 12 Arrows, Helm
 
-***
+### Thief
 
-**Thief**
 *One of the clever burglars and confidence artists who haunt every city.*
 
 These opportunists work the twisting alleys and crowded markets of the larger cities — picking pockets, cracking locks, and running short cons on the unwary. Others operate in brotherhoods, pooling their talents for more elaborate schemes. A player character thief is likely a freelancer, drifting from city to city, parting fools from their silver and moving on before the authorities can close in.
 
 - *Culture Note:* —
+- *Attribute Points:* DEX +1, AGI +1, INS +1, CHA +1
 - *Money:* 200 denarii
-- *Specialization:* Thievery — **Lock Picking**
+- *Specialization:* Stealth — **Pickpocket**
 - *Bonus:* Two daggers and two phials of Aqua Noxious (deadly poison)
 
-***
+### Bandit
 
-**Bandit**
 *Desperate men living in the wilderness, preying on merchants and travellers.*
 
 When times grow hard, farmers abandon their fields and take to the hills. Armed with whatever weapons they can lay hands on, they raid wagons, ambush travellers, and plunder isolated villas. It is a hand-to-mouth existence — forever dodging the legions, with only the prospect of crucifixion ahead. But those who survive grow hard, combat-seasoned, and resourceful.
 
 - *Culture Note:* —
+- *Attribute Points:* STR +1, CON +1, AGI +1, WIL +1
 - *Money:* 1d × 25 denarii
 - *Specialization:* Stealth — **Concealment**
 - *Bonus:* Roll once on the Random Treasure Table
 
-***
+### Cataphract
 
-**Cataphract**
 *Heavily armoured warrior-nobles of the East — the knights of the desert.*
 
 When eastern lords ride to war, they do so on magnificent warhorses, clad head to foot in chainmail or scale. They are an imposing sight on the field of battle. Off the saddle, a cataphract is a wealthy noble — or was, until debt, misfortune, or ambition drove him to take up mercenary work. He has an estate to manage, slaves to command, and a villa to call home. Imperial nobles do not fight in this manner; see Tribune.
 
 - *Culture Note:* Noble Desert Kingdom only
+- *Attribute Points:* STR +1, CON +1, AGI +1, CHA +1
 - *Money:* 400 denarii
 - *Specialization:* Tactics — **Cavalry**
 - *Bonus:* Scale Armour, Horse, Helm, Spear
 
-***
+### Horse Archer
 
-**Horse Archer**
 *Adaptable shock warriors, equally at home with bridle and bow.*
 
 Eastern noblemen learn to ride and shoot from boyhood. In battle they form great arms of light cavalry — scouting, raiding, screening, and delivering devastating volleys of arrows on the move. The wealthiest don heavy armour and take up the lance, but most eastern armies are composed almost entirely of these swift, deadly riders. Not all are nobles; many are mercenaries, Turanian nomads, caravan guards, or frontier police.
 
 - *Culture Note:* Desert Kingdom, or Sarmatian only
+- *Attribute Points:* DEX +1, AGI +1, INS +1, REA +1
 - *Money:* 180 denarii
 - *Specialization:* Fighting — **Archery** *(with a secondary focus on Tactics — Cavalry)*
 - *Bonus:* Bow, Quiver, 12 Arrows
 
-***
+### Hunter
 
-**Hunter**
 *Lone hunters, forever on the trail of their quarry.*
 
 Every society has its hunters — solitary figures on the fringes, ranging the wildlands for game. Some, particularly in North Africa, pursue not the kill but the capture, bringing back wild beasts alive for the blood-soaked spectacles of the Imperial games.
 
 - *Culture Note:* —
+- *Attribute Points:* DEX +1, INS +1, WIL +1, CON +1
 - *Money:* 60 denarii
 - *Specialization:* Survival — **Tracking**
 - *Bonus:* 2 Javelins, Fighting Net, Foxskin Hat
 
-***
+### Spy
 
-**Spy**
 *Shadowy figures in the alleyways and palace courtyards — assassins and deceivers.*
 
 Every culture breeds spies. The Persian kingdom organises its own into an official cadre known as the *askadar*, functioning as a secret police. Elsewhere, spies flourish wherever rumour, information, and mistrust take root. A professional spy can fight when he must and has been known to conduct assassinations on his employer's behalf.
 
 - *Culture Note:* —
+- *Attribute Points:* AGI +1, INS +1, CHA +1, WIL +1
 - *Money:* 1d × 50 denarii
 - *Specialization:* Stealth — **Sneak**
 - *Bonus:* Dagger, False Papers, Stolen Key *(see your referee)*
 
-***
+### Desert Warrior
 
-**Desert Warrior**
 *Camel-riding nomads of the desert — fanatical fighters and raiders, often hired as mercenaries.*
 
 Desert warriors are the fighting strength of the nomad tribe, protecting the clan and forming the sheikh's personal bodyguard. Most tribesmen can fight; the warriors are the proven braves who lead the charge. Nomads move from waterhole to waterhole with camels, sheep, tents, and families in tow. They know desert survival as others know the backs of their hands. Honourable and ferociously loyal to their kin, they are nonetheless prone to raiding isolated settlements and trade caravans alike.
 
 - *Culture Note:* Libyan only
+- *Attribute Points:* STR +1, CON +1, WIL +1, INS +1
 - *Money:* 1d × 25 denarii
 - *Specialization:* Manipulation — **Intimidation**
 - *Bonus:* Roll once on the Random Treasure Table
 
-***
+### Gladiator
 
-**Gladiator**
 *Men who have fought to the death in the arena for the pleasure of the crowd.*
 
 Gladiators are slaves compelled to fight for public entertainment — duel to the death, first blood, beast fights, or bouts against armed prisoners. Each is owned by a *lanista*, a fight broker who hires them out for games and festivals, and trained at a *ludus* in a particular fighting style. Though slaves, the most successful gladiators enjoy remarkable public adulation and lively social lives beyond the school walls. At the start of play, the character has either earned his freedom through successive victories, been granted manumission by a generous *lanista* — or escaped and is now a fugitive.
 
 - *Culture Note:* —
+- *Attribute Points:* STR +1, CON +1, AGI +1, WIL +1
 - *Money:* 1d × 50 denarii
 - *Specialization:* Fighting — **Unarmed** *(or Melee Weapons, player's choice)*
 - *Bonus:* Manicae, Spear, Helm
 
-***
+### Legionary
 
-**Legionary**
 *Soldiers of the legions — tough, disciplined, and professional.*
 
 The Imperial legions are among the most effective military forces in history. A soldier may be an ambitious Imperial youth eager for glory and promotion, or an Ægyptian or Aramaean recruit simply seeking steady wages. Whatever his origins, he is a professional who spends most of his life with the legion, loyal to the emperor, and driven to earn honour in the field. The finest soldiers rise to the centurionate; a successful Might test on the bonus roll indicates this promotion (Imperial characters only), granting a pair of Greaves in addition to the Mail Cuirass. Every legionary is a skilled swordsman and javelin thrower, and all possess nerves of steel.
 
 - *Culture Note:* Not available to Persian characters
+- *Attribute Points:* STR +1, CON +1, WIL +1, REA +1
 - *Money:* 180 denarii
 - *Specialization:* Resilience — **Fortitude**
 - *Bonus:* Mail Cuirass *(also Greaves if admitted to the centurionate)*
 
-***
+### Tomb Robber
 
-**Tomb Robber**
 *Brave and foolhardy plunderers of tombs, graves, temples, and pyramids.*
 
 For millennia, kings, merchant princes, and the aristocrats of vanished empires have been laid to rest with all their worldly wealth. The tomb robber is a professional — likely a former stonemason — who understands the construction of these places as well as the traps and dangers concealed within them. But he pays a price: tomb robbers are reviled as utterly as assassins, and must keep their trade secret or face execution. The artefacts he recovers may fetch only scrap value, or they may be objects coveted by an Imperial collector — or ancient weapons touched by living magic.
 
 - *Culture Note:* —
+- *Attribute Points:* AGI +1, INS +1, REA +1, WIL +1
 - *Money:* 1d × 25 denarii
 - *Specialization:* Observation — **Scrutinize**
 - *Bonus:* Roll once on the Random Treasure Table
 
-***
+### Tribune
 
-**Tribune**
 *A proud officer of the legions — educated, ambitious, and hungry for advancement.*
 
 Only Imperial characters may become tribunes. The legions require educated men of good standing to command in peace and war alike — literate, intelligent, adept at reading men and managing complex problems. Young tribunes begin at the bottom, serving first as town magistrates before joining the legions as commanders of scout cohorts. From there the path leads upward: staff officer, cavalry commander, and for the very best, command of an actual legion — a post opened to tribunes by the Emperor Gallienus himself. Many return to political life after one or two postings; others dedicate their lives entirely to the legions.
 
 - *Culture Note:* Noble Imperial characters only
+- *Attribute Points:* REA +1, CHA +1, INS +1, WIL +1
 - *Money:* 400 denarii
 - *Specialization:* Academia — **+2 Learning Points** *(player chooses two from: History, Cultures, Philosophy, Religion, or Linguistics)*
 - *Bonus:* Plate Cuirass
 
-***
+### Slinger
 
-**Slinger**
 *Skilled troopers with little armour and no shortage of nerve.*
 
 Slingers serve as auxiliaries across the known world — deployed to good effect by the Sassanid Persians, and recruited in smaller numbers by the Empire itself. Some wear leather cuirasses; most wear nothing at all, relying on speed and agility in place of protection. Because they are too few to make up a major arm in any army, most are perpetual mercenaries, offering their skills to the highest-paying lord, king, or chieftain and moving on when the work runs dry. Most are loyal only to themselves and to the man currently paying their wages.
 
 - *Culture Note:* Not available to Imperial characters
 - *Money:* 1d6 × 25 denarii
+- *Attribute Points:* DEX +1, AGI +1, CON +1, INS +1
 - *Specialization:* Fighting — **Thrown Weapons**
 - *Bonus:* Sling, Dagger, Loot Bag, Sun-Hat
 
-*** 
+### Philosopher
 
-Here are additional backgrounds for the **Classical Civilisations** and **Northern Forests** regions, written in house style with appropriate specializations from the skills list:
-
-***
-
-## Classical Civilisations
-
-**Philosopher**
 *A man of learning — scholar, teacher, and seeker of truth.*
 
 The great cities of Ionia and Latium are home to schools of philosophy, medicine, and rhetoric. The philosopher may teach, write, or serve as a private tutor to the wealthy. He is a man of keen intellect, widely read, and comfortable in the company of the powerful — though he is not above using his learning to manipulate, deceive, or outmanoeuvre those who underestimate him.
 
 - *Culture Note:* Ionian Greek or Imperial only
+- *Attribute Points:* REA +1, INS +1, CHA +1, WIL +1
 - *Money:* 120 denarii
 - *Specialization:* Academia — **Philosophy**
 - *Bonus:* Writing materials, Letter of Introduction from a notable patron
 
-***
+### Physician
 
-**Physician**
 *A healer trained in the great medical traditions of the ancient world.*
 
 Physicians are found in every corner of the Empire, from the legionary field surgeons to the private doctors of wealthy households. Many are Ionian Greeks trained in the tradition of Hippocrates; others have learned their craft in Ægyptian temples or Persian academies. A physician is respected — and in demand — wherever he travels.
 
 - *Culture Note:* —
+- *Attribute Points:* REA +1, DEX +1, WIL +1, INS +1
 - *Money:* 200 denarii
 - *Specialization:* Medicine — **Surgery**
 - *Bonus:* Physician's Bag *(contains bandages, surgical tools, and two doses of Poppy Draught)*
 
-***
+### Merchant
 
-**Merchant**
 *A trader of goods and intelligence, at home in any marketplace.*
 
 Commerce is the blood of the Empire. Merchants carry silks, spices, grain, and slaves along the great roads and sea lanes. They know how to negotiate, charm, and if necessary bribe their way through any obstacle. A prosperous merchant has contacts in a dozen cities and knows which officials can be bought and for how much.
 
 - *Culture Note:* —
+- *Attribute Points:* CHA +1, REA +1, INS +1, WIL +1
 - *Money:* 300 denarii
 - *Specialization:* Manipulation — **Negotiation**
 - *Bonus:* Mule and Saddlebags, Merchant's Letter of Credit *(worth 100 denarii, redeemable in any major city)*

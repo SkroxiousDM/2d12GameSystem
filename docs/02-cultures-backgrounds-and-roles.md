@@ -397,12 +397,12 @@ Social Class The character might come from any one of several social niches. Per
    6  Noble. The family was a noble and honourable one, born to rule    and with legitimate claims to land and villages in the area. Although it   may have been a long way from royalty, the family owns vast estates,   workshops or other capital and its men-folk are highly educated and   involved with the politics of kingdoms, sitting on city councils as    magistrates. A well established and highly thought of family.  
 
 
-|D20 ROLL |CASTE|WEALTH RATING|TALENT|
+|D12 ROLL |CASTE|WEALTH|TALENT|
 |---|---|---|---|
-|1–4 |Outcast|0|You gain one talent with the Stealth or Survival keyword|
-|5–9 |Servant|1|You gain one talent with the Athletics keyword or you gain the Purse Strings talent|
-|10–15 |Plebeian/ Freedman|2|  — |
-|16–20 | Noble | 3 |You gain the Envy and Attention talent|
+|1–3 |Outcast|10|You gain one talent with the Stealth or Survival keyword|
+|4–6 |Servant|100|You gain one talent with the Athletics keyword or you gain the Purse Strings talent|
+|7–11 |Plebeian/ Freedman|200|  — |
+|12 | Noble | 400 |You gain the Envy and Attention talent|
 
 OUTCAST Outcasts live on the fringes of society. Many are exiled criminals, fugitives from slavery, or people marginalized for other reasons who must be wary among civilization. Outcasts have few resources at their disposal, but the way they live allows them to move without notice and survive beyond the walls of a city or settlement. SERVANT Servants serve an employer via the terms of a contract, as a form of punishment, or due to having been captured in battle. The life of a Servant is more secure than an Outcast’s, but it comes with less freedom. Servants are expected to follow the commands of their employer, and failure to do so can be met with punishment. If your character belongs to the Servant caste, work with your GM to determine the identity of their employer, and build a story about how your character feels about their current status. 
 PLEBEIAN/FREEDMAN A broad spectrum of individuals, the Plebeians of Rome and the Freedmen of Germania constitute the working classes of their societies� While they do not command as much power or influence as the nobility, they can determine their own destiny and live—or die—as the result of their own choices

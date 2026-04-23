@@ -17,6 +17,7 @@ This folder contains the core rules, subsystem chapters, and support documents f
 11. Combat.[5]
 12. Social Conflict.[6]
 13. Connections, Reputation, and Favors.[13]
+14. Equipment 
 
 ## Support files
 

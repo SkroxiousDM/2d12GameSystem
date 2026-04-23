@@ -233,7 +233,7 @@ Only Imperial characters may become tribunes. The legions require educated men o
 - *Culture Note:* Noble Imperial characters only
 - *Attribute Points:* REA +1, CHA +1, INS +1, WIL +1
 - *Money:* 400 denarii
-- *Specialization:* Academia — **+2 Learning Points** *(player chooses two from: History, Cultures, Philosophy, Religion, or Linguistics)*
+- *Specialization:* Academia — *(player chooses from: History, Cultures, Philosophy, Religion, or Linguistics)*
 - *Bonus:* Plate Cuirass
 
 ### Slinger
@@ -242,7 +242,7 @@ Only Imperial characters may become tribunes. The legions require educated men o
 
 Slingers serve as auxiliaries across the known world — deployed to good effect by the Sassanid Persians, and recruited in smaller numbers by the Empire itself. Some wear leather cuirasses; most wear nothing at all, relying on speed and agility in place of protection. Because they are too few to make up a major arm in any army, most are perpetual mercenaries, offering their skills to the highest-paying lord, king, or chieftain and moving on when the work runs dry. Most are loyal only to themselves and to the man currently paying their wages.
 
-- *Culture Note:* Not available to Imperial characters
+- *Culture Note:* Not available to Roman characters
 - *Money:* 1d6 × 25 denarii
 - *Attribute Points:* DEX +1, AGI +1, CON +1, INS +1
 - *Specialization:* Fighting — **Thrown Weapons**
@@ -254,7 +254,7 @@ Slingers serve as auxiliaries across the known world — deployed to good effect
 
 The great cities of Ionia and Latium are home to schools of philosophy, medicine, and rhetoric. The philosopher may teach, write, or serve as a private tutor to the wealthy. He is a man of keen intellect, widely read, and comfortable in the company of the powerful — though he is not above using his learning to manipulate, deceive, or outmanoeuvre those who underestimate him.
 
-- *Culture Note:* Ionian Greek or Imperial only
+- *Culture Note:* Ionian, Roman, or Ægyptian only
 - *Attribute Points:* REA +1, INS +1, CHA +1, WIL +1
 - *Money:* 120 denarii
 - *Specialization:* Academia — **Philosophy**

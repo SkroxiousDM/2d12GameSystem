@@ -8,7 +8,7 @@ Characters are defined by eight core attributes divided into Physical and Mental
 
 ### Physical Attributes
 
-* Strength (STR): Raw physical power for lifting, striking, and feats of might. Strength adds a damage bonus to melee attacks.  
+* Might (MIG): Raw physical power for lifting, striking, and feats of might. Strength adds a damage bonus to melee attacks.  
 * Constitution (CON): Endurance, resistance to harm, and physical toughness.  
 * Dexterity (DEX): Precision, speed, and hand–eye coordination. Dexterity is used for ranged attacks.  
 * Agility (AGI): Reflexes, balance, and body control. Agility is used for melee attacks.
@@ -22,7 +22,7 @@ Characters are defined by eight core attributes divided into Physical and Mental
 
 ## Derived Attributes
 
-### Stamina \= (STR \+ CON \+ DEX \+ AGI \+ Traits)
+### Stamina \= (MIG \+ CON \+ DEX \+ AGI \+ Traits)
 
 Stamina represents physical exertion, and carrying capacity. At any given time, Stamina points are either Available, Spent, or Invested.
 
@@ -33,7 +33,7 @@ When you spend an Action catching your breath, you regain 1d4 Stamina plus your 
 ##### Running.
 
 Moving a second time on your turn costs 2 Stamina. Moving a third time costs 3 Stamina total for the third move).  
-Carrying.  
+##### Carrying.  
 Stamina is invested to represent the physical toll of carrying equipment. Items are categorized by weight:
 
 * Heavy items count as two standard items and invest 2 Stamina.  
@@ -59,7 +59,7 @@ Also determines the number of Actions you may take in 1 round of combat includin
 
 Vigor represents a character’s endurance, stamina, and ability to ignore minor injuries such as cuts, scratches, bruises, and abrasions. It also represents the ability to avoid serious injuries. A character with low Vigor is tired and unable to avoid serious injury.
 
-* Whenever a character takes physical damage,  Soak with Defense, then subtract remainder from  Vitality.  
+* Whenever a character takes physical Stress,  Soak with Defense, then subtract remainder from  Vitality.  
 * Vitality cannot be reduced below 0\.
 
 When Vitality reaches 0:
@@ -86,7 +86,7 @@ A character can sustain a maximum number of Wounds equal to 3 \+ CON \+ Traits. 
 
 Resolve represents a character’s determination, and their ability to handle stress, control emotions, and resist the stresses of life. Characters whose current Resolve is low are weary, less certain, and less able to cope with challenging situations.
 
-* Whenever a character takes mental damage, Soak with Courage then subtract remainder from Resolve.  
+* Whenever a character takes mental Stress, Soak with Courage then subtract remainder from Resolve.  
 * Resolve cannot be reduced below 0\.
 
 When Resolve reaches 0:

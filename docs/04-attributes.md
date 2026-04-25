@@ -8,7 +8,7 @@ Characters are defined by eight core attributes divided into Physical and Mental
 
 ### Physical Attributes
 
-* Might (MIG): Raw physical power for lifting, striking, and feats of might. Strength adds a damage bonus to melee attacks.  
+* Might (MIG): Raw physical power for lifting, striking, and feats of Strength. Might adds a damage bonus to melee attacks.  
 * Constitution (CON): Endurance, resistance to harm, and physical toughness.  
 * Dexterity (DEX): Precision, speed, and hand–eye coordination. Dexterity is used for ranged attacks.  
 * Agility (AGI): Reflexes, balance, and body control. Agility is used for melee attacks.

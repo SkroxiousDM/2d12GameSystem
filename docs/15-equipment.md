@@ -52,10 +52,6 @@ Whether the result of poor craftsmanship or simple bad luck, this item always se
 
 ***
 
-Here are the Weapon and Armour Traits rewritten in the 2d12 house style:
-
-***
-
 # Weapon & Armour Traits
 
 Many weapons and pieces of armour possess unusual qualities known as Traits. Traits with a numerical rating have variable effects as described in each entry.
@@ -96,7 +92,7 @@ This weapon struggles to penetrate armour. All Armour values are doubled against
 ***
 
 **Inflict (Condition)**
-If an attack with this weapon causes unsoaked stress, the target suffers the listed condition. If no damage rating is listed, the attack need only hit to apply the condition. Unless otherwise specified, the condition lasts for one round. Conditions have default durations and means of removal, but specific equipment may stipulate otherwise.
+If an attack with this weapon causes unsoaked stress, the target suffers the listed condition. If no Stress rating is listed, the attack need only hit to apply the condition. Unless otherwise specified, the condition lasts for one round. Conditions have default durations and means of removal, but specific equipment may stipulate otherwise.
 
 ***
 
@@ -149,6 +145,6 @@ This weapon requires two hands to wield.
 ***
 
 **Unstable**
-When you Fumble while attacking with this weapon, on a result of 5 or higher on the Fumble table the weapon self-destructs, dealing its damage to the arm wielding it — or to a random arm if the weapon is Two-handed.
+When you Fumble while attacking with this weapon, on a result of 5 or higher on the Fumble table the weapon self-destructs, dealing its Stress to the arm wielding it — or to a random arm if the weapon is Two-handed.
 
 ***

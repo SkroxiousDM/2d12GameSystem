@@ -21,31 +21,36 @@ The tables below provide a range of options for the GM and player to explore. Wh
 
 The acute nature of these manifestations means the character can quickly shake them off. Transient madness requires only a few moments out of the immediate situation; short-term madness resolves with a short rest.
 
-| d100 | Disorder | Effects |
-|:---:|:---|:---|
-| 01–05 | **Arithmomania** — The character fixates on a mundane object and compulsively counts all instances of it, unable to act until finished. | The GM names an object in the area. The character must spend their action counting. They may only take reactions while counting. Counting takes 1d4 rounds. |
-| 06–10 | **Babbling** — The character babbles unintelligibly in their native tongue, audible to all nearby. | The character cannot communicate or cast spells with verbal components for 1d4 rounds. Observation checks against the character gain +2. |
-| 11–15 | **Feeling of Dread** — The hairs on the character's arms prickle, their heart races, and cold sweat breaks out as dread suffuses them. | The character gains +2 on Initiative rolls. |
-| 16–20 | **Terrified** — The character is terrified of the object that triggered the Horror check. | The character must use their full movement to retreat from the source of their terror. They may still take actions after moving. The effect lasts one round. |
-| 21–25 | **Displaced Terror** — The mind redirects the terror of the situation onto a random object in the area. | The character will not willingly interact with the triggering object for 1d4 rounds, or until it attacks them. |
-| 26–30 | **Blinded** — The character loses sight as their mind recoils from what is before them. | The character is Blinded until the beginning of their next turn. |
-| 31–35 | **Fetal** — The character falls prone and curls inward, making themselves as small as possible, rocking gently with eyes closed. | The character is Prone and Incapacitated until the beginning of their next turn. |
-| 36–40 | **Manic Laughter** — A peal of crazed laughter escapes the character's lips before they regain composure. | Observation checks against the character gain +2. Manipulation (Charm) checks by the character suffer −2. The effect ends after one round. |
-| 41–45 | **Red Mist** — Something inside the character breaks and their vision turns red with rage. | The character makes a melee attack against the nearest non-allied creature. If no creature is within melee range they use their full movement to close the distance, then make a ranged attack. |
-| 46–50 | **Hallucination** — Hallucinations assail the character and they cannot tell reality from fantasy. | Until the beginning of their next turn the character cannot distinguish the real from the unreal. While hallucinating the character has Disadvantage on all tests. |
-| 51–55 | **Nauseated** — The character's stomach churns as their body reacts to the unnatural scene before them. | The character suffers the Poisoned condition for 1d4 rounds. |
-| 56–60 | **Catatonic** — The character retreats into their mind, waiting for someone to give them direction. | The character will not act without external direction for 1d4 rounds. They make all saves against charm effects and Manipulation-based tests at Disadvantage. Allies may use their reaction to give basic directions. |
-| 61–65 | **Frightened** — A pervasive sense of fear penetrates the character's psyche. | The character is Frightened until the beginning of their next turn. |
-| 66–70 | **Confused** — Nothing makes sense and the character has little control over themselves. | The character is affected as per the *Confusion* effect until the end of their next turn. |
-| 71–75 | **Limb Paralysis** — A limb is paralysed with fear. | One leg or arm is paralysed until the end of the character's next turn. *Leg:* movement is halved and any Agility bonus to Defence is halved (minimum 1). *Arm:* attacks with that limb are made at Disadvantage. |
-| 76–80 | **Panic** — Panic permeates every action the character takes. | The character gains +2 on Initiative and suffers −2 on all saves against fear effects. |
-| 81–85 | **Post-Traumatic Amnesia** — The character's mind refuses to record the events of the encounter. | The character has no recollection of the encounter. |
-| 86–90 | **Paralysed Voice** — The character's vocal cords freeze and they are unable to make any sound. | The character cannot speak or use any ability with a verbal component for 1d4 rounds. |
-| 91–94 | **Intense Focus** — Clarity and focus pervade the character's senses. | The character gains +1 on all skill and attack tests for 1d4 rounds. |
-| 95–98 | **Flow Motion** — Muscles tense and the heart races as everything seems to slow down. | The character is Hasted for 1d4 rounds. When the effect ends they cannot take a Move action for one round as they recover. |
-| 99–00 | **Epiphany** — The character's mind expands to take in the madness before them. | The GM reveals the following information about the creature that triggered the Horror check: Threat Rating, resistances, vulnerabilities, and immunities. |
+#### Transient and Short-Term Psychoses
 
----
+| 2d12 | Disorder | Effects |
+|:---:|:---|:---|
+| 2 | **Epiphany** — The character's mind expands to take in the madness before them. | The GM reveals the following about the creature that triggered the Horror check: Threat Rating, resistances, vulnerabilities, and immunities. |
+| 3 | **Intense Focus** — Clarity and focus pervade the character's senses. | The character gains +1 on all skill and attack tests for 1d4 rounds. |
+| 4 | **Flow Motion** — Muscles tense and the heart races as everything seems to slow down. | The character is Hasted for 1d4 rounds. When the effect ends they cannot take a Move action for one round as they recover. |
+| 5 | **Feeling of Dread** — The hairs on the character's arms prickle, their heart races, and cold sweat breaks out as dread suffuses them. | The character gains +2 on Initiative rolls. |
+| 6 | **Panic** — Panic permeates every action the character takes. | The character gains +2 on Initiative and suffers −2 on all saves against fear effects. |
+| 7 | **Displaced Terror** — The mind redirects the terror of the situation onto a random object in the area. | The character will not willingly interact with the triggering object for 1d4 rounds, or until it attacks them. |
+| 8 | **Manic Laughter** — A peal of crazed laughter escapes the character's lips before they regain composure. | Observation checks against the character gain +2. Manipulation (Charm) checks by the character suffer −2. The effect ends after one round. |
+| 9 | **Nauseated** — The character's stomach churns as their body reacts to the unnatural scene before them. | The character suffers the Poisoned condition for 1d4 rounds. |
+| 10 | **Babbling** — The character babbles unintelligibly in their native tongue, audible to all nearby. | The character cannot communicate or cast spells with verbal components for 1d4 rounds. Observation checks against the character gain +2. |
+| 11 | **Terrified** — The character is terrified of the object that triggered the Horror check. | The character must use their full movement to retreat from the source of their terror. They may still take actions after moving. The effect lasts one round. |
+| 12 | **Hallucination** — Hallucinations assail the character and they cannot tell reality from fantasy. | Until the beginning of their next turn the character cannot distinguish the real from the unreal. While hallucinating the character has Disadvantage on all tests. |
+| 13 | **Frightened** — A pervasive sense of fear penetrates the character's psyche. | The character is Frightened until the beginning of their next turn. |
+| 14 | **Paralysed Voice** — The character's vocal cords freeze and they are unable to make any sound. | The character cannot speak or use any ability with a verbal component for 1d4 rounds. |
+| 15 | **Limb Paralysis** — A limb is paralysed with fear. | One leg or arm is paralysed until the end of the character's next turn. *Leg:* movement is halved and any Agility bonus to Defence is halved (minimum 1). *Arm:* attacks with that limb are made at Disadvantage. |
+| 16 | **Confused** — Nothing makes sense and the character has little control over themselves. | The character is affected as per the *Confusion* effect until the end of their next turn. |
+| 17 | **Catatonic** — The character retreats into their mind, waiting for someone to give them direction. | The character will not act without external direction for 1d4 rounds. All saves against charm effects and Manipulation-based tests are made at Disadvantage. Allies may use their reaction to give basic directions. |
+| 18 | **Red Mist** — Something inside the character breaks and their vision turns red with rage. | The character makes a melee attack against the nearest non-allied creature. If no creature is within melee range they use their full movement to close the distance, then make a ranged attack. |
+| 19 | **Arithmomania** — The character fixates on a mundane object and compulsively counts all instances of it, unable to act until finished. | The GM names an object in the area. The character must spend their action counting. They may only take reactions while counting. Counting takes 1d4 rounds. |
+| 20 | **Blinded** — The character loses sight as their mind recoils from what is before them. | The character is Blinded until the beginning of their next turn. |
+| 21 | **Post-Traumatic Amnesia** — The character's mind refuses to record the events of the encounter. | The character has no recollection of the encounter. |
+| 22 | **Fetal** — The character falls prone and curls inward, making themselves as small as possible, rocking gently with eyes closed. | The character is Prone and Incapacitated until the beginning of their next turn. |
+| 23–24 | **Catatonic Collapse** — The character shuts down entirely, overwhelmed by what they have witnessed. | The character is Prone, Incapacitated, and Blinded until the end of their next turn. They have no recollection of the encounter. |
+
+***
+
+***
 
 ## Long-Term and Indefinite Psychoses
 
@@ -55,38 +60,34 @@ After each long rest, a character suffering from long-term or indefinite madness
 
 *If a character is suffering from multiple forms of madness, each is handled independently.*
 
-| d100 | Disorder | Effects |
+
+#### Long-Term and Indefinite Psychoses
+
+| 2d12 | Disorder | Effects |
 |:---:|:---|:---|
-| 01–03 | **Arithmomania** — The character must count all instances of a mundane object whenever they encounter it. | *Persistent:* The character has Disadvantage on Observation, Investigation, and Insight tests while the triggering object is present and uncounted. *Acute:* The character must spend their action counting. They may only take reactions while counting. Counting takes 1d4 rounds. |
-| 04–06 | **Panic Attacks** — The character is overwhelmed with helplessness and loses all hope. | *Persistent:* The character suffers −2 on Initiative and on saves against fear effects. |
-| 07–10 | **Creature Phobia** — The character is terrified of a specific type of creature. | *Acute:* The character must use their full movement to retreat from the source of their terror. They may still take actions after moving. The effect lasts one round. |
-| 11–13 | **Object Phobia** — The character is terrified of a mundane object. | *Acute:* As above. |
-| 14–15 | **Intermittent Blindness** — The character loses sight at moments of extreme stress. | *Acute:* The character is Blinded until the beginning of their next turn. |
-| 16–17 | **Fetal Response** — The character curls inward, rocking gently with eyes closed. | *Acute:* The character is Prone and Incapacitated until the beginning of their next turn. |
-| 18–21 | **Inappropriate Laughter** — A peal of crazed laughter escapes the character's lips in stressful situations. | *Acute:* Observation checks against the character gain +2. Manipulation (Charm) checks by the character suffer −2. |
-| 22–26 | **Violent Instincts** — The character's instinctive response to any problem is violence. | *Persistent:* −2 to Manipulation (Charm/Deception) tests; +2 to Manipulation (Intimidation) tests. *Acute:* The character makes a melee attack against the nearest non-allied creature, or closes to range and makes a ranged attack. |
-| 27–30 | **Hallucinations** — The character cannot easily distinguish reality from fantasy. | *Persistent:* −2 to Observation and Insight tests. *Acute:* The character cannot distinguish real from unreal until the beginning of their next turn. While hallucinating they have Disadvantage on all tests. |
-| 31–33 | **Nausea** — The character's body reacts to memories of the events that shattered their mind. | *Acute:* The character suffers the Poisoned condition for 1d4 rounds. |
-| 34–36 | **Catatonia** — The character retreats inward, waiting for external direction. | *Persistent:* −2 to Insight checks and Initiative. *Acute:* The character will not act without external direction for 1d4 rounds. All saves against charm effects and Manipulation-based tests are made at Disadvantage. Allies may use their reaction to give basic directions. |
-| 37–40 | **Pervasive Fear** — A deep, abiding fear penetrates the character's psyche. | *Acute:* The character is Frightened until the beginning of their next turn. |
-| 41–42 | **Paralysis** — A part of the character's body freezes with fear. | *Acute:* The character is Paralysed until the beginning of their next turn. |
-| 43–48 | **Compulsive Ritual** — The character must complete a daily ritual before leaving camp. | *Persistent:* After each rest (short or long) the character must complete a specific series of mundane tasks before gaining the rest's benefits. The ritual takes at least 30 minutes. If unable to complete it, the character gains no benefit from the rest. |
-| 49–54 | **Anxiety** — The character's thoughts are filled with dread and foreboding. | *Persistent:* −1 on saves against fear effects. |
-| 55–58 | **Hypervigilance** — The character is startled by the smallest sound and is constantly reminded of past trauma. | *Persistent:* +1 to Initiative; −1 on saves against fear effects. |
-| 59–61 | **Compulsive Eating** — The character finds comfort only in food. | *Persistent:* The character must consume twice the normal amount of food or suffer the effects of starvation. If indefinite, the character also suffers a −1 penalty to Speed. |
-| 62–64 | **Obsessive Cleanliness** — The character is obsessed with being clean. | *Persistent:* The character must make a Challenging (+0) **Resilience (Discipline) check** before willingly placing themselves in situations of excessive filth. On a failure they may repeat the check after 10 minutes. |
-| 65–67 | **Object Fixation** — The character is obsessed with protecting a specific trinket. | *Persistent:* The character will not willingly endanger the object. A Challenging (+0) **Resilience (Discipline) check** allows them to override this for 10 minutes. On a failure they may repeat the check after 10 minutes. |
-| 68–70 | **Regression** — The character retreats inward and reverts to a childlike demeanour. | *Persistent:* The character reacts to social situations as a child would. *Acute:* The character is Frightened of all enemies until the end of their next turn. |
-| 71–74 | **Dissociative Identity** — An alternative personality surfaces. | *Persistent:* The character's personality changes significantly. Skills and abilities are unaffected, but alignment may shift and reactions to situations should differ notably. |
-| 75–77 | **Somnambulism** — The character sleepwalks during long rests. | *Persistent:* During the character's next long rest they sleepwalk, possibly wandering from camp entirely. The character must make a Fortitude save (Routine +20) or gain only the benefits of a short rest. |
-| 78–80 | **Night Terrors** — The character screams in terror throughout the night, reliving the horrors they have experienced. | *Persistent:* During long rests the character screams periodically, potentially attracting wandering creatures. Characters resting nearby must make a Fortitude save (Routine +20) or gain only the benefits of a short rest. If the character with night terrors is woken, they too gain only the benefits of a short rest. |
-| 81–82 | **Substance Dependency** — The character has turned to drink or narcotics as a coping mechanism. | *Persistent:* Without the effects of their vice the character suffers −1 on all skill tests. After 3 hours without indulging the penalty increases to −2. After 6 hours sober the character has Disadvantage on all tests. |
-| 83–85 | **Religious Zealotry** — The character's madness manifests as fervent, unyielding faith. | *Persistent:* The character proselytises at every opportunity and suffers −2 on social tests with those of opposing religious views. |
-| 86–88 | **Bipolar Episodes** — The character's demeanour shifts between mania and depression with periods of normalcy. | Roll 1d2 when this madness manifests. *1 — Mania:* The character is prone to foolhardy risks and cannot contain their energy. −2 on tests requiring patience or fine motor skills; +2 on Manipulation (Charm) and Performance tests. *2 — Depression:* The character is lost in their thoughts. −2 on all Presence-based tests; +2 on Agility (Stealth) tests when moving at half speed or slower. |
-| 89–91 | **Compulsive Tic** — The character develops a persistent quirk, habit, or tic. | The player and GM collaborate to develop a unique quirk for the character. Primarily a roleplaying effect, but may come into play during moments of stress at the GM's discretion. |
-| 92–94 | **Resilience** — The character seems no worse for their experiences. | No noticeable effects. |
-| 95–97 | **Paranoia** — The character sees danger in every shadow and believes people are plotting against them. | *Persistent:* +2 to Initiative; −2 to Insight tests. If the character fails an Insight test they believe the subject has a nefarious motive and is actively plotting against them. |
-| 98–00 | **Nervous Energy** — The character is a frenetic, chattering bundle of energy at all times. | *Persistent:* +1 to Speed. The character makes all saves and checks against Exhaustion at Disadvantage. |
+| 2 | **Resilience** — The character seems no worse for their experiences. | No noticeable effects. |
+| 3 | **Compulsive Tic** — The character develops a persistent quirk, habit, or tic. | The player and GM collaborate to develop a unique quirk. Primarily a roleplaying effect, but may come into play during moments of stress at the GM's discretion. |
+| 4 | **Nervous Energy** — The character is a frenetic, chattering bundle of energy at all times. | *Persistent:* +1 to Speed. The character makes all saves and checks against Exhaustion at Disadvantage. |
+| 5 | **Hypervigilance** — The character is startled by the smallest sound and is constantly reminded of past trauma. | *Persistent:* +1 to Initiative; −1 on saves against fear effects. |
+| 6 | **Anxiety** — The character's thoughts are filled with dread and foreboding. | *Persistent:* −1 on saves against fear effects. |
+| 7 | **Panic Attacks** — The character is overwhelmed with helplessness and loses all hope. | *Persistent:* −2 on Initiative and on saves against fear effects. |
+| 8 | **Inappropriate Laughter** — A peal of crazed laughter escapes the character's lips in stressful situations. | *Acute:* Observation checks against the character gain +2. Manipulation (Charm) checks by the character suffer −2. |
+| 9 | **Pervasive Fear** — A deep, abiding fear penetrates the character's psyche. | *Acute:* The character is Frightened until the beginning of their next turn. |
+| 10 | **Hallucinations** — The character cannot easily distinguish reality from fantasy. | *Persistent:* −2 to Observation and Insight tests. *Acute:* The character cannot distinguish real from unreal until the beginning of their next turn. While hallucinating they have Disadvantage on all tests. |
+| 11 | **Nausea** — The character's body reacts to memories of the events that shattered their mind. | *Acute:* The character suffers the Poisoned condition for 1d4 rounds. |
+| 12 | **Somnambulism** — The character sleepwalks during long rests. | *Persistent:* During long rests the character sleepwalks, possibly wandering from camp entirely. They must make a Routine (+20) Fortitude save or gain only the benefits of a short rest. |
+| 13 | **Bipolar Episodes** — The character's demeanour shifts between mania and depression. | Roll 1d2 when this manifests. *1 — Mania:* −2 on tests requiring patience or fine motor skills; +2 on Manipulation (Charm) and Performance tests. *2 — Depression:* −2 on all Presence-based tests; +2 on Agility (Stealth) tests at half speed or slower. |
+| 14 | **Compulsive Ritual** — The character must complete a daily ritual before leaving camp. | *Persistent:* After each rest the character must complete a 30-minute ritual or gain no benefit from the rest. |
+| 15 | **Violent Instincts** — The character's instinctive response to any problem is violence. | *Persistent:* −2 to Manipulation (Charm/Deception); +2 to Manipulation (Intimidation). *Acute:* The character attacks the nearest non-allied creature or closes to range and makes a ranged attack. |
+| 16 | **Dissociative Identity** — An alternative personality surfaces. | *Persistent:* The character's personality changes significantly. Skills and abilities are unaffected, but alignment may shift and reactions to situations should differ notably. |
+| 17 | **Regression** — The character retreats inward and reverts to a childlike demeanour. | *Persistent:* The character reacts to social situations as a child would. *Acute:* The character is Frightened of all enemies until the end of their next turn. |
+| 18 | **Religious Zealotry** — The character's madness manifests as fervent, unyielding faith. | *Persistent:* The character proselytises at every opportunity and suffers −2 on social tests with those of opposing religious views. |
+| 19 | **Paranoia** — The character sees danger in every shadow and believes people are plotting against them. | *Persistent:* +2 to Initiative; −2 to Insight tests. A failed Insight test causes the character to believe the subject has a nefarious motive. |
+| 20 | **Substance Dependency** — The character has turned to drink or narcotics as a coping mechanism. | *Persistent:* Without their vice: −1 on all skill tests. After 3 hours: −2. After 6 hours: Disadvantage on all tests. |
+| 21 | **Night Terrors** — The character screams throughout the night, reliving the horrors they have experienced. | *Persistent:* Characters resting nearby must make a Routine (+20) Fortitude save or gain only the benefits of a short rest. If woken, the character with night terrors also gains only a short rest. |
+| 22 | **Arithmomania** — The character must count all instances of a mundane object whenever they encounter it. | *Persistent:* Disadvantage on Observation, Investigation, and Insight tests while the object is present and uncounted. *Acute:* Must spend their action counting for 1d4 rounds; only reactions are available while counting. |
+| 23 | **Catatonia** — The character retreats inward, waiting for external direction. | *Persistent:* −2 to Insight and Initiative. *Acute:* Will not act without external direction for 1d4 rounds; Disadvantage on all saves against charm and Manipulation-based tests. |
+| 24 | **Paralysis** — The body seizes with terror at the worst possible moment. | *Acute:* The character is Paralysed until the beginning of their next turn. |
 
 ### Recovering Between Adventures
 The character may attempt to recover her newly-lost Sanity between sessions. This attempt at treatment may only be done once, at the end of the adventure in which the character incurred 

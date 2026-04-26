@@ -87,3 +87,16 @@ After each long rest, a character suffering from long-term or indefinite madness
 | 92–94 | **Resilience** — The character seems no worse for their experiences. | No noticeable effects. |
 | 95–97 | **Paranoia** — The character sees danger in every shadow and believes people are plotting against them. | *Persistent:* +2 to Initiative; −2 to Insight tests. If the character fails an Insight test they believe the subject has a nefarious motive and is actively plotting against them. |
 | 98–00 | **Nervous Energy** — The character is a frenetic, chattering bundle of energy at all times. | *Persistent:* +1 to Speed. The character makes all saves and checks against Exhaustion at Disadvantage. |
+
+### Recovering Between Adventures
+The character may attempt to recover her newly-lost Sanity between sessions. This attempt at treatment may only be done once, at the end of the adventure in which the character incurred 
+the Sanity loss.
+• The DC is dependent on how much Sanity was lost in the preceding adventure. 
+• DC = 14 - the total Sanity lost
+• The character should apply her current Sanity score to this roll
+• Regardless of roll, the character may not increase her Sanity beyond her maximu Sanity score.
+• Natural 2: always a success and regains 2d4 
+Sanity
+• Success: regains 1d4 Sanity
+• Failure: no change in Sanity
+• Critical Failure: loses 1d2 Sanity

@@ -91,12 +91,9 @@ After each long rest, a character suffering from long-term or indefinite madness
 ### Recovering Between Adventures
 The character may attempt to recover her newly-lost Sanity between sessions. This attempt at treatment may only be done once, at the end of the adventure in which the character incurred 
 the Sanity loss.
-• The DC is dependent on how much Sanity was lost in the preceding adventure. 
-• DC = 14 - the total Sanity lost
-• The character should apply her current Sanity score to this roll
-• Regardless of roll, the character may not increase her Sanity beyond her maximu Sanity score.
-• Natural 2: always a success and regains 2d4 
-Sanity
-• Success: regains 1d4 Sanity
-• Failure: no change in Sanity
-• Critical Failure: loses 1d2 Sanity
+- Make a challenging Sanity Check.
+- Regardless of roll, the character may not increase Sanity beyond maximum Sanity score.
+- Critical Success: regains 2d4 Sanity
+- Success: regains 1d4 Sanity
+- Failure: no change in Sanity
+- Critical Failure: loses 1d2 Sanity

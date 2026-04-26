@@ -92,16 +92,11 @@ Resolve represents a character’s determination, and their ability to handle st
 When Resolve reaches 0:
 
 * The character loses 1 Sanity.  
-* The character gains the Irrational condition until they regain at least 1 Resolve.
-
-While Irrational , a character:
-
-* **Alacrity** reduces to 1  
-* Automatically loses Concentration.
+* The character gains a Madness
 
 ### Sanity \= (REA \+ INS \+CHA \+ Traits)
 
-A character has a Sanity score equal to REA \+ INS \+CHA \+ Traits. Exceeding this limit has severe narrative and mechanical consequences determined by the GM.
+A character has a Sanity score equal to REA \+ INS \+CHA \+ Traits. 
 
 ### Power
 

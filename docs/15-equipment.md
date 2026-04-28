@@ -1,3 +1,11 @@
+Items are categorized by weight:
+
+Heavy items count as two standard items and invest 2 Stamina.
+Standard items invest 1 Stamina.
+Light items count as half a standard item; you may carry 2 Light items for 1 invested Stamina.
+Tiny items are too small to encumber a character and invest no Stamina. As a rule of thumb, any item that can be concealed in a closed fist is Tiny.
+Coins: A single coin is a Tiny item. However, quantities scale as follows: 100 coins count as a Light item, 200 coins count as a standard item, and 400 coins count as a Heavy item.
+
 # Item Qualities
 
 Each Item Quality doubles the item's listed price and reduces its Availability by one step. If a piece of equipment has more Qualities than Flaws, it is regarded as fine craftsmanship and may suitably impress — or inspire covetous envy in — those who see it.

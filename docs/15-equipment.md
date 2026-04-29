@@ -69,7 +69,7 @@ Many weapons and pieces of armour possess unusual qualities known as Traits. Tra
 **Blast**
 When attacking with a Blast weapon, target a zone within range and make a single Fighting (Thrown) or Ranged test, as appropriate. All characters in the target zone may use their reaction to make an opposed Agility (Dodge) test against your result. Those who fail suffer stress equal to the weapon's damage plus the difference in success levels. Characters in the same zone may therefore suffer very different outcomes.
 
-> *Simplified Explosions: When multiple characters are caught in a Blast, the GM may make a single opposed test against all targets sharing the same Agility (Dodge) rank, applying the result to all of them simultaneously.*
+> *Simplified Explosions: When multiple characters are caught in a Blast, the GM may make a single opposed test against all targets sharing the same Reflexes (Dodge) rank, applying the result to all of them simultaneously.*
 
 ***
 

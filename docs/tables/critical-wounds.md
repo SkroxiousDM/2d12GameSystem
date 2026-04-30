@@ -93,4 +93,3 @@ When a character suffers a Critical Wound, determine the hit location and roll o
 
 ***
 
-Would you like me to continue with the Injuries section, or move on to another rules section?

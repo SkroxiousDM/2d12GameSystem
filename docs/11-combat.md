@@ -189,10 +189,14 @@ Each Reaction costs 1 Action from your next turn's pool.
 Each Reaction costs 1 Stamina  
 Each type of Reaction can be used at most once per round.  
 Actions spent on Reactions are deducted from your pool at the start of your next turn.  
+
+<!---
 #### Defend  
 When you are hit by an attack, you may use Defend to:  
 Dodge   
 Parry  
+--->
+
 #### Interpose  
 When a creature within 10 ft. would be hit by an attack, you may:  
 Move into their space, push them to an adjacent space of your choice, and become the new target of the attack.  

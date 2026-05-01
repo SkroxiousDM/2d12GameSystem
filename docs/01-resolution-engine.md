@@ -90,6 +90,15 @@ Certain circumstances grant advantage or disadvantage:
 -  Advantage and disadvantage cancel out one–for–one before rolling.  
 - When multiple sources would grant Advantage simultaneously, each instance beyond the first adds +2 to the Check instead. The same principle applies to Disadvantage: each instance beyond the first imposes an additional -2 penalty.
 
+#### Variable Advantage & Disadvantage
+
+Gaining Advantage and Disadvantage on checks made against other creatures is very common. Sometimes a check must be made against a group of creatures where Advantage or Disadvantage applies to some targets but not all. When that happens, follow these steps:
+
+1. Make a check against all targets you have neither Advantage nor Disadvantage against by rolling 2d12 and adding any relevant bonuses.
+2. For any additional targets you have Advantage or Disadvantage against, roll an additional d12 and compare to the first roll. For targets you have Advantage against, use the lower  result; for Disadvantage, use the higher result.
+
+
+
 ### Push
 
 Pushing allows a character to reroll a failed check at a cost of 1 **Stress** (lose 1 Vitality or 1 Resolve depending on whether a physical or mental attribute was used).

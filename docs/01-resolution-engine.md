@@ -70,7 +70,7 @@ The GM determines specific consequences based on the fiction.
 - Failure and an NPC becomes hostile, uncooperative, or dangerous.  
 - Failure and enemies are alerted or reinforced.  
 - Failure and a trap or hazard triggers.  
-- Vital equipment is damaged or destroyed.  
+- Failure and vital equipment is damaged or destroyed.  
 - Failure and the character gains false or misleading information.  
 - Failure and the situation escalates and requires negotiation or a more complex challenge.  
 - Failure and instead of another consequence, the GM may gain 1 Doom at the start of the next combat.

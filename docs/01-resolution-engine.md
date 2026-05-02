@@ -146,5 +146,6 @@ Some tasks are too complex or time-consuming to resolve with a single Check. If 
 - **Track Progress.** Each attempt adds or subtracts Levels of Success from a running total. A successful Check always contributes at least +1, and a failed Check always deducts at least 1. The task is complete when the running total meets or exceeds the threshold. If the total falls below 0 at any point, or if the deadline passes before the threshold is reached, the task fails. The GM determines at what point the failure occurred, what was accomplished before it, and what resources were lost in the attempt.
 
 
-``` comments
+``` 
+>comments
 

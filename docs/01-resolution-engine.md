@@ -145,3 +145,46 @@ Some tasks are too complex or time-consuming to resolve with a single Check. If 
     
 - **Track Progress.** Each attempt adds or subtracts Levels of Success from a running total. A successful Check always contributes at least +1, and a failed Check always deducts at least 1. The task is complete when the running total meets or exceeds the threshold. If the total falls below 0 at any point, or if the deadline passes before the threshold is reached, the task fails. The GM determines at what point the failure occurred, what was accomplished before it, and what resources were lost in the attempt.
 
+
+''' 
+1:
+Failure, but you learn something crucial.
+2:
+Failure, but the situation becomes less dangerous.
+3:
+Failure, but you gain a new option or path forward.
+4:
+Failure, but an ally or tool becomes available.
+5:
+Failure, but the opposition reveals their weakness.
+6:
+Partial success - the goal is only half achieved.
+7:
+Partial success - the goal shifts unexpectedly.
+8:
+Partial success - you succeed, but only temporarily.
+9:
+Partial success - success creates a new immediate problem.
+10:
+Partial success - you must choose between two costs.
+11:
+Success, but it costs you time.
+12:
+Success, but it costs you resources or stamina.
+13:
+Success, but you draw unwanted attention.
+14:
+Success, but someone is put at risk.
+15:
+Success, but a future complication is set in motion.
+16:
+Success, but the situation escalates.
+17:
+Success, and you gain a small advantage.
+18:
+Success, and you remove an obstacle going forward.
+19:
+Success, and you gain useful information.
+20:
+Success, and the outcome creates an unexpected benefit
+

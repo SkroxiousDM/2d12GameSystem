@@ -147,6 +147,7 @@ Some tasks are too complex or time-consuming to resolve with a single Check. If 
 
 
 ``` 
-you can add a code block for comments by typing ```
+you can add a code block for comments by typing
+```
 comment
 

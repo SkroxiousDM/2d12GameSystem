@@ -101,7 +101,7 @@ For every 2 points your total is below the success threshold, you gain 1 degree 
 
 ### Advantage and Disadvantage
 
-Certain circumstances grant advantage or disadvantage:
+Certain circumstances grant advantage or disadvantage. The Complication die is always retained:
 
 - Advantage: Roll 1 extra d12 and discard the highest result.  
 - Disadvantage: Roll 1 extra d12 and discard the lowest result.  

@@ -51,51 +51,48 @@ The Challenge Threshold (CT) represents task difficulty. 8 + Modifier + Attribut
 The GM chooses a difficulty based on circumstances and applies the modifier accordingly.
 
 ### Outcomes
-
-- Success: Total ≤ CT and the Complication die is higher than the other die. The action succeeds.  
-- Success with Complication: Total ≤ CT and the Complication die is lower. The action succeeds with a cost or complication; the GM gains 1 Doom token.  
-- Failure: Total > CT and the Complication die is higher. The action fails with a minor consequence.  
-- Failure with Complication: Total > CT and the Complication die is lower. The action fails with a major consequence; the GM gains 1 Doom token.  
-- Critical Success: Total ≤ CT and both dice match. The action succeeds with a strong bonus; the character Gains 1 Fortune, and an attack deals critical damage.  
-- Critical Failure: Total > CT and both dice match. The action fails spectacularly; the character gains 1 Stress, the GM gains 1 Doom token, and an attack triggers a roll on the Fumble table.
+- Critical Success (Success And...): Total ≤ CT and both dice match. The action succeeds with a strong bonus; the character Gains 1 Fortune, and an attack deals critical damage.  
+- Success (Success): Total ≤ CT and the Complication die is higher than the other die. The action succeeds.  
+- Success with Complication (Success, But...): Total ≤ CT and the Complication die is lower. The action succeeds with a cost or complication; the GM gains 1 Doom token.  
+- Marginal Failure (Failure, But...): Total > CT and the Complication die is higher. The action fails with a minor Benefit.  
+- Failure with Complication (Failure): Total > CT and the Complication die is lower. The action fails with a minor consequence; the GM gains 1 Doom token.  
+- Critical Failure or Fumble (Failure And...): Total > CT and both dice match. The action fails spectacularly with a major consequence; the character gains 1 Stress, the GM gains 1 Doom token, and an attack triggers a roll on the Fumble table.
 
 The GM determines specific consequences based on the fiction.  
 #### Common Consequences and Rewards  
-Examples of failed test consequences:
 
-- An NPC becomes hostile, uncooperative, or dangerous.  
-- Enemies are alerted or reinforced.  
-- A trap or hazard triggers.  
+- Failure, but you learn something crucial.
+- Failure, but the situation becomes less dangerous.
+- Failure, but you gain a new option or path forward.
+- Failure, but an ally or tool becomes available.
+- Failure, but the opposition reveals their weakness.
+
+- Failure and an NPC becomes hostile, uncooperative, or dangerous.  
+- Failure and enemies are alerted or reinforced.  
+- Failure and a trap or hazard triggers.  
 - Vital equipment is damaged or destroyed.  
-- The character gains false or misleading information.  
-- The situation escalates and requires negotiation or a more complex challenge.  
-- Instead of another consequence, the GM may gain 2 Doom at the start of the next combat.
+- Failure and the character gains false or misleading information.  
+- Failure and the situation escalates and requires negotiation or a more complex challenge.  
+- Failure and instead of another consequence, the GM may gain 1 Doom at the start of the next combat.
 
-Examples of successful test rewards:
+- Success, but it costs you time.
+- Success, but it costs you resources or stamina.
+- Success, but you draw unwanted attention.
+- Success, but someone is put at risk.
+- Success, but a future complication is set in motion.
+- Success, but the situation escalates.
 
-- A related follow–up task is completed automatically.  
-- An ally working toward the same goal succeeds without rolling.  
-- The party gains a consumable resource or useful gear.  
+- Success, and a related follow–up task is completed automatically.  
+- Success, and an ally working toward the same goal succeeds without rolling.  
+- Success, and a the party gains a consumable resource or useful gear.  
 - Helpful information is discovered.  
-- An NPC is impressed or indebted, granting a small favor.  
-- A hidden danger is noticed early, granting time to react.  
-- Instead of another reward, the GM may award the party a Fortune Point.
+- Success, and an NPC is impressed or indebted, granting a small favor.  
+- Success, and a hidden danger is noticed early, granting time to react.  
+- Success, and instead of another reward, the GM may award the party a Fortune Point.
 
 ### Degrees of Success
 
 For every 2 points your total is below the success threshold, you gain 1 degree of success. Degrees of success can enhance damage, information gained, or narrative impact, as determined by the GM.
-
-##### Outcome Levels (SL):
-
-| SL | Result | Outcome |
-| :---- | :---- | :---- |
-| +5 or more | Astounding Success | Perfect result with exceptional fortune. |
-| +3 to +4 | Impressive Success | Strong success with added benefits. |
-| +1 to +2 | Success | Solid success. |
-| +0 | Marginal Success | Success with a drawback or side effect. |
-| -1 to -2 | Failure | Clear failure. |
-| -3 to -4 | Impressive Failure | Failure with an  added complication. |
-| -5 or less | Astounding Failure | Catastrophic failure with severe fallout. |
 
 - **Confidence:** Each Level of Success spent on this option after passing a Skill Check adds \+1 to your Morale resistance until the start of your next turn. A maximum of 3 Levels of Success may be spent this way, for a total of \+3 Morale resistance.  
 - **Obtain Information:** You may ask the GM one question about the scene per Level of Success spent. The GM must answer truthfully but need not provide complete information, and the question must relate directly to the Skill Check just passed.  

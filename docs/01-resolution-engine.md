@@ -51,12 +51,12 @@ The Challenge Threshold (CT) represents task difficulty. 8 + Modifier + Attribut
 The GM chooses a difficulty based on circumstances and applies the modifier accordingly.
 
 ### Outcomes
-- Critical Success (Success And...): Total ≤ CT and both dice match. The action succeeds with a strong bonus; the character Gains 1 Fortune, and an attack deals critical damage.  
-- Success (Success): Total ≤ CT and the Complication die is higher than the other die. The action succeeds.  
-- Success with Complication (Success, But...): Total ≤ CT and the Complication die is lower. The action succeeds with a cost or complication; the GM gains 1 Doom token.  
-- Marginal Failure (Failure, But...): Total > CT and the Complication die is higher. The action fails with a minor Benefit.  
-- Failure with Complication (Failure): Total > CT and the Complication die is lower. The action fails with a minor consequence; the GM gains 1 Doom token.  
-- Critical Failure or Fumble (Failure And...): Total > CT and both dice match. The action fails spectacularly with a major consequence; the character gains 1 Stress, the GM gains 1 Doom token, and an attack triggers a roll on the Fumble table.
+- **Critical Success** *(Success And...)*: Total ≤ CT and both dice match. The action succeeds with a strong bonus; the character Gains 1 Fortune, and an attack deals critical damage.  
+- **Success** *(Success)*: Total ≤ CT and the Complication die is higher than the other die. The action succeeds.  
+- **Success with Complication** *(Success, But...)*: Total ≤ CT and the Complication die is lower. The action succeeds with a cost or complication; the GM gains 1 Doom token.  
+- **Marginal Failure** *(Failure, But...)*: Total > CT and the Complication die is higher. The action fails with a minor Benefit.  
+- **Failure with Complication** *(Failure)*: Total > CT and the Complication die is lower. The action fails with a minor consequence; the GM gains 1 Doom token.  
+- **Critical Failure or Fumble** *(Failure And...)*: Total > CT and both dice match. The action fails spectacularly with a major consequence; the character gains 1 Stress, the GM gains 1 Doom token, and an attack triggers a roll on the Fumble table.
 
 The GM determines specific consequences based on the fiction.  
 #### Common Consequences and Rewards  

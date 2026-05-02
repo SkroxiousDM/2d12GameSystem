@@ -60,7 +60,7 @@ The GM chooses a difficulty based on circumstances and applies the modifier acco
 - Critical Failure: Total > CT and both dice match. The action fails spectacularly; the character gains 1 Stress, the GM gains 1 Doom token, and an attack triggers a roll on the Fumble table.
 
 The GM determines specific consequences based on the fiction.  
-Common Consequences and Rewards  
+#### Common Consequences and Rewards  
 Examples of failed test consequences:
 
 - An NPC becomes hostile, uncooperative, or dangerous.  
@@ -79,32 +79,7 @@ Examples of successful test rewards:
 - Helpful information is discovered.  
 - An NPC is impressed or indebted, granting a small favor.  
 - A hidden danger is noticed early, granting time to react.  
-- Instead of another reward, the GM may award the party 1 Fate Point.
-
-### Advantage and Disadvantage
-
-Certain circumstances grant advantage or disadvantage:
-
-- Advantage: Roll 1 extra d12 and discard the highest result.  
-- Disadvantage: Roll 1 extra d12 and discard the lowest result.  
--  Advantage and disadvantage cancel out one–for–one before rolling.  
-- When multiple sources would grant Advantage simultaneously, each instance beyond the first adds +2 to the Check instead. The same principle applies to Disadvantage: each instance beyond the first imposes an additional -2 penalty.
-
-#### Variable Advantage & Disadvantage
-
-Gaining Advantage and Disadvantage on checks made against other creatures is very common. Sometimes a check must be made against a group of creatures where Advantage or Disadvantage applies to some targets but not all. When that happens, follow these steps:
-
-1. Make a check against all targets you have neither Advantage nor Disadvantage against by rolling 2d12 and adding any relevant bonuses.
-2. For any additional targets you have Advantage or Disadvantage against, roll an additional d12 and compare to the first roll. For targets you have Advantage against, use the lower  result; for Disadvantage, use the higher result.
-
-
-
-### Push
-
-Pushing allows a character to reroll a failed check at a cost of 1 **Stress** (lose 1 Vitality or 1 Resolve depending on whether a physical or mental attribute was used).
-
-- Fumbles (Critical Failures) cannot be pushed.  
-- Only checks with ranks in a relevant skill may be pushed.
+- Instead of another reward, the GM may award the party a Fortune Point.
 
 ### Degrees of Success
 
@@ -126,6 +101,29 @@ For every 2 points your total is below the success threshold, you gain 1 degree 
 - **Obtain Information:** You may ask the GM one question about the scene per Level of Success spent. The GM must answer truthfully but need not provide complete information, and the question must relate directly to the Skill Check just passed.  
 - **Reduce Time:** You may spend Levels of Success to reduce the time required to complete an activity represented by a Skill Check just passed. The GM determines how much time each Level of Success removes, and you may spend as many or as few as you wish depending on how quickly you need the task completed.  
 - **Invest in Fortune:** you may spend 2 Levels of Success to create a Fortune point to use later
+
+### Advantage and Disadvantage
+
+Certain circumstances grant advantage or disadvantage:
+
+- Advantage: Roll 1 extra d12 and discard the highest result.  
+- Disadvantage: Roll 1 extra d12 and discard the lowest result.  
+-  Advantage and disadvantage cancel out one–for–one before rolling.  
+- When multiple sources would grant Advantage simultaneously, each instance beyond the first adds +2 to the CT instead. The same principle applies to Disadvantage: each instance beyond the first imposes an additional -2 penalty.
+
+#### Variable Advantage & Disadvantage
+
+Gaining Advantage and Disadvantage on checks made against other creatures is very common. Sometimes a check must be made against a group of creatures where Advantage or Disadvantage applies to some targets but not all. When that happens, follow these steps:
+
+1. Make a check against all targets you have neither Advantage nor Disadvantage against by rolling 2d12 and adding any relevant bonuses.
+2. For any additional targets you have Advantage or Disadvantage against, roll an additional d12 and compare to the first roll. For targets you have Advantage against, discard the higher  result; for Disadvantage, discard the lower result.
+
+### Push
+
+Pushing allows a character to reroll a failed check at a cost of 1 **Stress** (lose 1 Vitality or 1 Resolve depending on whether a Physical or Mental attribute was used).
+
+- Fumbles (Critical Failures) cannot be pushed.  
+- Only checks with ranks in a relevant skill may be pushed.
 
 ### Opposed Checks
 

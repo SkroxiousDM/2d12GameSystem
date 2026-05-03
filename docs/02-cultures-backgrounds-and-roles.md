@@ -385,9 +385,9 @@ Among the Gauls and Britons, the druids are the living memory of the people — 
 **Frontier Soldier**
 *A Roman auxiliary or provincial militiaman — hard-bitten, pragmatic, and scarred by years on the line.*
 
-The Danubian frontier demands a different kind of soldier from the parade-ground legionary. Auxiliary troops and provincial militias hold the line against constant barbarian pressure with little glory and inadequate supplies. They learn to improvise, to fortify a camp in darkness, and to fight in terrain the textbooks never mention. Most are Romanised provincials — men of mixed heritage who have chosen the Empire's order over the chaos beyond.
+The frontier demands a different kind of soldier from the parade-ground legionary. Auxiliary troops and provincial militias hold the line against constant barbarian pressure with little glory and inadequate supplies. They learn to improvise, to fortify a camp in darkness, and to fight in terrain the textbooks never mention. Most are Romanised provincials — men of mixed heritage who have chosen the Empire's order over the chaos beyond.
 
-- *Culture Note:* Danubian Provincial or Imperial only
+- *Culture Note:* Gaul, Dacian, Briton or Imperial only
 - *Money:* 150 denarii
 - *Specialization:* Engineering — **Defences**
 - *Bonus:* Spear, Auxiliary Shield, Leather Cuirass

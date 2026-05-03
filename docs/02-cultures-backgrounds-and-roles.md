@@ -1,4 +1,4 @@
-# 2 Cultures, Backgrounds, and Roles
+# 2 Cultures, Backgrounds,Class and Roles
 
 Character creation in the 2d12 system is built in three stages. Each stage contributes **4 attribute points**, for a total of **12 points** distributed before the player assigns their final 4 points freely. No single attribute may exceed **5** at character creation.
 
@@ -389,12 +389,13 @@ Every village on the northern frontier has its herbalist — the local healer wh
 Social Class The character might come from any one of several social niches. Perhaps his father was a slave, perhaps he was a priest or maybe even a wealthy aristocrat! He may have been a shepherd, perhaps a hill or irrigation farmer, a craftsman or some city dweller. But whatever the details of the character's origins, he has since emerged into the world as a poor man and must make his way without the riches his family might have enjoyed.   A player may select a social class from the table below, or he may roll 1d6 to determine his origins randomly. The table provides an easily remembered origin for the character.   
 
 |1d Roll  |Social Class |
-|   1  |Outsider. The family were outsiders, wanderers, labourers, shepherds or   nomads, often on the move, cut-off from society and living hand-to  mouth, day-to- day. Their place is a low one with little respect. 
-|   2 |Slave. The character has grown up in a town or city as the son of slaves. Working day after day in the workshop or household of some wealthy citizen, the character has now gained his freedom (either by buying it, by being awarded it by a generous master, or by running away). Alternatively, the character’s slave father might have earned his freedom. Either way, he is now free. 
-   3 Peasant. The family was poor, living in a crowded town house or a village  with little spare food. A living could be made from the river or    the fields, but taxes took much of this away. Yet the family had a regular income and a place in their society. 
-    4  City-Dweller. The family had mastered a craft and were valued members   of the village or town. Other people came to them for goods or services.   The family probably owned a business within the city. 
-    5 Scribe. Educated and well read, the family moved in higher circles than others. The family home might have been a well-to-do town house or well appointed villa in the countryside. They were not aristocrats, but were nevertheless cultured, well paid, highly educated and comfortable. 
-   6  Noble. The family was a noble and honourable one, born to rule    and with legitimate claims to land and villages in the area. Although it   may have been a long way from royalty, the family owns vast estates,   workshops or other capital and its men-folk are highly educated and   involved with the politics of kingdoms, sitting on city councils as    magistrates. A well established and highly thought of family.  
+|---|---|
+|   1  |Outsider. The family were outsiders, wanderers, labourers, shepherds or   nomads, often on the move, cut-off from society and living hand-to  mouth, day-to- day. Their place is a low one with little respect. |
+|   2 |Slave. The character has grown up in a town or city as the son of slaves. Working day after day in the workshop or household of some wealthy citizen, the character has now gained his freedom (either by buying it, by being awarded it by a generous master, or by running away). Alternatively, the character’s slave father might have earned his freedom. Either way, he is now free. |
+|   3 |Peasant. The family was poor, living in a crowded town house or a village  with little spare food. A living could be made from the river or    the fields, but taxes took much of this away. Yet the family had a regular income and a place in their society. |
+|    4  |City-Dweller. The family had mastered a craft and were valued members   of the village or town. Other people came to them for goods or services.   The family probably owned a business within the city.|
+|    5 |Scribe. Educated and well read, the family moved in higher circles than others. The family home might have been a well-to-do town house or well appointed villa in the countryside. They were not aristocrats, but were nevertheless cultured, well paid, highly educated and comfortable. |
+|   6  |Noble. The family was a noble and honourable one, born to rule    and with legitimate claims to land and villages in the area. Although it   may have been a long way from royalty, the family owns vast estates,   workshops or other capital and its men-folk are highly educated and   involved with the politics of kingdoms, sitting on city councils as    magistrates. A well established and highly thought of family.  |
 
 
 |D12 ROLL |CASTE|WEALTH|TALENT|

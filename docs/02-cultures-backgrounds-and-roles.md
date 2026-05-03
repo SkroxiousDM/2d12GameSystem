@@ -1,8 +1,8 @@
-# 2 Cultures, Backgrounds,Class and Roles
+# 02 Culture, Class, Background, and Role
 
-Character creation in the 2d12 system is built in three stages. Each stage contributes **4 attribute points**, for a total of **12 points** distributed before the player assigns their final 4 points freely. No single attribute may exceed **5** at character creation.
+Character creation in the 2d12 system is built in four stages. Each stage contributes **4 attribute points**, for a total of **16 points**. No single attribute may exceed **5** at character creation.
 
-# 2.1 Cultures 
+## 02.1 Cultures 
 Each culture grants **4 attribute points**, one Culture Talent, language access, and skill options from the culture's aspects. Choose or create your culture.
 ## **The Imperial Civilisations**
 
@@ -88,7 +88,41 @@ Nomadic horsemen and shamans from the endless steppe, fearsome in the saddle and
 
 ***
 
-## 2.2 Backgrounds
+## 02.2 Social Class
+
+A character's origins shape who they are and how the world receives them. A player may choose a social class from the table below or roll 2d12 to determine their origins randomly.
+
+| 2d12 | Caste | Starting Wealth | Talent |
+|:---:|:---|:---:|:---|
+| 2–5 | **Outcast** | 10 | Gain one talent with the Stealth or Survival keyword |
+| 6–10 | **Servant** | 100 | Gain one talent with the Athletics keyword, or gain the Purse Strings talent |
+| 11–18 | **Plebeian / Freedman** | 200 | — |
+| 19–22 | **Scribe** | 300 | Gain one talent with the Scholar or Languages keyword |
+| 23–24 | **Noble** | 400 | Gain the Envy and Attention talent |
+
+### Outcast
+
+Outcasts live on the fringes of society — exiled criminals, fugitives from slavery, wanderers, shepherds, or nomads cut off from settled life and surviving hand to mouth. They hold a low place in the social order with little respect from those above them. The way they live, however, allows them to move without notice and survive beyond the walls of a city or settlement.
+
+### Servant
+
+Servants serve an employer under the terms of a contract, as a form of punishment, or having been captured in battle. The life of a Servant is more secure than an Outcast's, but it comes with far less freedom. Servants are expected to follow the commands of their employer, and failure to do so can be met with punishment. Work with your GM to determine the identity of your character's employer and how they feel about their current station.
+
+### Plebeian / Freedman
+
+A broad class of tradespeople, farmers, and city dwellers, Plebeians and Freedmen constitute the working backbone of their societies. The family may have mastered a craft, worked the fields, or scraped a living from the river. Taxes took their share, but there was a regular income and a place in the community. While they command less power and influence than the nobility, they can determine their own destiny and live — or die — by the result of their own choices.
+
+### Scribe
+
+Educated and well read, the Scribe's family moved in higher circles than most. The family home might have been a well-appointed town house or a comfortable villa in the countryside. They were not aristocrats, but they were cultured, well paid, and highly educated — valued for their learning and trusted with records, correspondence, and knowledge that others could not access.
+
+### Noble
+
+Whether equestrians or patricians, thegns or chieftains, the Noble caste commands the greatest access to resources and the greatest influence among their people. Born to rule and with legitimate claims to land, the Noble family owns vast estates, workshops, or other capital. Its members are highly educated and deeply involved in the politics of kingdoms — sitting on city councils, acting as magistrates, and shaping the fate of those beneath them.
+
+***
+
+## 02.3 Backgrounds
 
 A background represents your character's life before adventuring — their profession, their craft, their place in the world. Each background grants **4 attribute points**, **4 Skill Ranks**, a Specialization, a Money award, and equipment.
 
@@ -381,34 +415,6 @@ Every village on the northern frontier has its herbalist — the local healer wh
 - *Money:* 80 denarii
 - *Specialization:* Medicine — **Pharmacia**
 - *Bonus:* Herbalist's Satchel *(contains four doses of medicinal herbs — two healing, one sedative, one toxic)*, Knife
-
-***
-
-# 02.3 Social Class
-
-Social Class The character might come from any one of several social niches. Perhaps his father was a slave, perhaps he was a priest or maybe even a wealthy aristocrat! He may have been a shepherd, perhaps a hill or irrigation farmer, a craftsman or some city dweller. But whatever the details of the character's origins, he has since emerged into the world as a poor man and must make his way without the riches his family might have enjoyed.   A player may select a social class from the table below, or he may roll 1d6 to determine his origins randomly. The table provides an easily remembered origin for the character.   
-
-|1d Roll  |Social Class |
-|---|---|
-|   1  |Outsider. The family were outsiders, wanderers, labourers, shepherds or   nomads, often on the move, cut-off from society and living hand-to  mouth, day-to- day. Their place is a low one with little respect. |
-|   2 |Slave. The character has grown up in a town or city as the son of slaves. Working day after day in the workshop or household of some wealthy citizen, the character has now gained his freedom (either by buying it, by being awarded it by a generous master, or by running away). Alternatively, the character’s slave father might have earned his freedom. Either way, he is now free. |
-|   3 |Peasant. The family was poor, living in a crowded town house or a village  with little spare food. A living could be made from the river or    the fields, but taxes took much of this away. Yet the family had a regular income and a place in their society. |
-|    4  |City-Dweller. The family had mastered a craft and were valued members   of the village or town. Other people came to them for goods or services.   The family probably owned a business within the city.|
-|    5 |Scribe. Educated and well read, the family moved in higher circles than others. The family home might have been a well-to-do town house or well appointed villa in the countryside. They were not aristocrats, but were nevertheless cultured, well paid, highly educated and comfortable. |
-|   6  |Noble. The family was a noble and honourable one, born to rule    and with legitimate claims to land and villages in the area. Although it   may have been a long way from royalty, the family owns vast estates,   workshops or other capital and its men-folk are highly educated and   involved with the politics of kingdoms, sitting on city councils as    magistrates. A well established and highly thought of family.  |
-
-
-|D12 ROLL |CASTE|WEALTH|TALENT|
-|---|---|---|---|
-|1–3 |Outcast|10|You gain one talent with the Stealth or Survival keyword|
-|4–6 |Servant|100|You gain one talent with the Athletics keyword or you gain the Purse Strings talent|
-|7–11 |Plebeian/ Freedman|200|  — |
-|12 | Noble | 400 |You gain the Envy and Attention talent|
-
-OUTCAST Outcasts live on the fringes of society. Many are exiled criminals, fugitives from slavery, or people marginalized for other reasons who must be wary among civilization. Outcasts have few resources at their disposal, but the way they live allows them to move without notice and survive beyond the walls of a city or settlement. SERVANT Servants serve an employer via the terms of a contract, as a form of punishment, or due to having been captured in battle. The life of a Servant is more secure than an Outcast’s, but it comes with less freedom. Servants are expected to follow the commands of their employer, and failure to do so can be met with punishment. If your character belongs to the Servant caste, work with your GM to determine the identity of their employer, and build a story about how your character feels about their current status. 
-PLEBEIAN/FREEDMAN A broad spectrum of individuals, the Plebeians of Rome and the Freedmen of Germania constitute the working classes of their societies� While they do not command as much power or influence as the nobility, they can determine their own destiny and live—or die—as the result of their own choices
-NOBLE Whether equestrians or patricians of Rome, or thegns or chieftains of another culture, the members of the Noble caste have the greatest access to resources and command the greatest influence among their peoples
-
 
 ***
 

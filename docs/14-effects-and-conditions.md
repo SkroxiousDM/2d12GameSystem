@@ -1,7 +1,7 @@
 
 **Drain:** The target suffers 1 Fatigue for each unsoaked stress.
 
-**Intense:** If the attack inflicts a wound and a success level is spent, the attack inflicts one additional wound.
+**Intense:** If the attack inflicts a wound and 2SL is spent, the attack inflicts one additional wound.
 
 **Knockdown:** The attack or hazard causes the target to stumble or fall. If the number of success levels spent equals or exceeds the target's Athletics skill rank, the target is knocked prone.
 
@@ -11,22 +11,13 @@
 
 **Stun:** The attack or hazard leaves the target momentarily unable to act. If the number of success levels spent equals or exceeds the target's Resilience skill rank, the target may take no actions on their next turn.
 
-**Vicious:** The attack or hazard is especially devastating. For each success level spent, it adds +1 to the total stress inflicted.
-
-
 ***
 
 By spending 2 Success Levels as part of an attack, you may impose one condition on your target. Conditions are not tied to any specific weapon or spell, but rather to how you employ them in combat.
 
 **Beat Back:** Your attack drives your foe off balance. You may either move the target anywhere within the same zone or force them to lose their Guard.
 
-**Bleeding:** You open a vicious wound in your target. Until the target takes the Catch Breath major action, it suffers +1 point of physical stress at the end of each of its turns.
-
-**Disarmed:** You knock a weapon or item from your target's hands. The item falls somewhere within the same zone. The target may spend 3 Fortune or 3 Doom to prevent this.
-
-**Frightened:** Your attack is particularly brutal. The target immediately loses 1 point of Morale resistance, if it has any. If the target has no Morale resistance, it suffers +1 point of mental stress instead.
-
-**Prone:** You knock your target to the ground. The Difficulty of melee attacks targeting a prone character is reduced by 1, as is the Difficulty of ranged attacks made by a character within Reach of the prone character. Standing from prone requires a minor action.
+**Disarmed:** You knock a weapon or item from your target's hands. The item falls somewhere within the same zone. The target may spend 2 Fortune or 2 Doom to prevent this.
 
 **Sundered:** Your attack damages your target's armour. The target immediately loses 1 point of Armour resistance, if it has any. If the target has no Armour resistance, it suffers +1 point of physical stress instead.
 

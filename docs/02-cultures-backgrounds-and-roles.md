@@ -35,17 +35,17 @@ Tough, proud, and fiercely independent beneath a Roman veneer. The Hispanians ar
 
 Stretching from the Imperial provinces of North Africa to ancient Ægypt, the Desert of Lost Souls, Solyma, the Decapolis, and the dusty mountain city-states of the Taurus Mountains, the Desert Kingdoms are a vast and storied region. The combination of desert raiders, buried civilisations, walled cities as old as time, a resurgent Persian kingdom, and exotic religious cults makes this one of the richest regions for adventure. Age-old tombs and long-dead civilisations provide ample opportunity for labyrinth delving alongside city and wilderness adventures of every kind.
 
-**Ægyptian**
+### **Ægyptian**
 Ancient, mystical, and deeply traditional, Ægyptians carry the weight of millennia.
 - *Attribute Points:* +2 Intellect, +1 Awareness, +1 Presence
 - *Culture Talent:* **Ancient Lore** – Gain advantage on tests to identify arcane artefacts, religious symbols, or the secrets of ancient civilisations.
 
-**Solyman**
-Forged by faith, exile, and resistance, Solymans are tenacious and deeply principled.
+### **Samaritan**
+Forged by faith, exile, and resistance, Samaritans are tenacious and deeply principled.
 - *Attribute Points:* +2 Intellect, +1 Fortitude, +1 Presence
 - *Culture Talent:* **Unbroken** – Once per scene, when reduced to 0 Resolve, make a Fortitude test (TN 10) to remain at 1 instead.
 
-**Libyan**
+### **Berber**
 Nomadic raiders and guides who know the desert's secrets better than any map.
 - **Attribute Points:** CON +2, STR +1, INS +1
 - *Culture Talent:* **Raider's Eye** – Gain advantage on Awareness tests to detect ambushes and on Agility tests when making a swift strike or retreat.
@@ -61,27 +61,27 @@ Disciplined, cultured, and politically astute, Persians come from a civilisation
 
 The dark forests and cold, rain-shadowed mountains of the north have long unsettled the Imperials. Many areas have been settled — cities rising as tribal centres, villas built for chieftains — yet uncivilised barbarians continue to harass, raid, and invade the more settled communities. The Gallic Kingdom dominates this region as it consolidates its military strength to push back the tribes pressing from beyond the frontier. The region spans Gaul, Britannia, and the Imperial provinces along the River Danube: Raetia, Noricum, Pannonia, Dalmatia, Moesia, Dacia, and Thrace. It is a tough, embattled frontier that breeds hard and militaristic individuals. Beyond the Empire's reach lie barbarian chiefdoms ruled by savage warlords and their warriors, and the endless swamps and grasslands of the Gothic and Sarmatian tribes. Wilderness adventures dominate here, with labyrinths taking the form of natural features and barrow mounds left behind by more ancient peoples.
 
-**Gaul**
+### **Gaul**
 Boisterous, brave, and only half-tamed, Gauls fight with passion and celebrate with equal vigour.
 - *Attribute Points:* +2 Might, +1 Fortitude, +1 Presence
 - *Culture Talent:* **Celtic Fury** – Once per combat, when you take damage, you may immediately make a free melee attack against the source.
 
-**Briton**
+### **Briton**
 Wild, spiritual, and steeped in druidic tradition, Britons are deeply connected to the natural world.
 - *Attribute Points:* +2 Awareness, +1 Fortitude, +1 Intellect
 - *Culture Talent:* **Druidic Tradition** – Gain advantage on tests involving nature, omens, or spirit lore, and on Survival tests in woodland or wilderness.
 
-**Dacian**
+### **Dacian**
 Frontier-hardened soldiers and settlers who have known nothing but threat and struggle.
 - *Attribute Points:* +2 Fortitude, +1 Might, +1 Awareness
 - *Culture Talent:* **Frontier Grit** – Gain advantage on Fortitude tests to resist the effects of harsh weather, forced marches, and physical exhaustion.
 
-**Goth**
+### **Goth**
 Fierce warriors from beyond the frontier, bound by oaths of loyalty and a hunger for glory.
 - *Attribute Points:* +2 Might, +2 Fortitude
 - *Culture Talent:* **Warbond** – When fighting alongside an ally you have declared a sworn companion, both of you gain +1 on all attack tests.
 
-**Sarmatian**
+### **Hun**
 Nomadic horsemen and shamans from the endless steppe, fearsome in the saddle and strange in spirit.
 - *Attribute Points:* +2 Agility, +1 Awareness, +1 Intellect
 - *Culture Talent:* **Steppe Rider** – Suffer no penalty when making attacks or tests from horseback, and gain advantage on tests to ride, control, or calm horses.
@@ -180,7 +180,7 @@ When eastern lords ride to war, they do so on magnificent warhorses, clad head t
 
 Eastern noblemen learn to ride and shoot from boyhood. In battle they form great arms of light cavalry — scouting, raiding, screening, and delivering devastating volleys of arrows on the move. The wealthiest don heavy armour and take up the lance, but most eastern armies are composed almost entirely of these swift, deadly riders. Not all are nobles; many are mercenaries, Turanian nomads, caravan guards, or frontier police.
 
-- *Culture Note:* Desert Kingdom, or Sarmatian only
+- *Culture Note:* Desert Kingdom, or Hun only
 - *Attribute Points:* DEX +1, AGI +1, INS +1, REA +1
 - *Money:* 180 denarii
 - *Specialization:* Fighting — **Archery** *(with a secondary focus on Tactics — Cavalry)*

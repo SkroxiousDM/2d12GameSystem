@@ -318,9 +318,7 @@ Commerce is the blood of the Empire. Merchants carry silks, spices, grain, and s
 - *Specialization:* Manipulation — **Negotiation**
 - *Bonus:* Mule and Saddlebags, Merchant's Letter of Credit *(worth 100 denarii, redeemable in any major city)*
 
-***
-
-**Sailor**
+### **Sailor**
 *A weathered mariner of the Middle Sea — part navigator, part brawler.*
 
 The Middle Sea is the Empire's highway. Sailors crew the grain ships, the trading galleys, and the Imperial war fleet. Life at sea is brutal — storms, pirates, and press-gangs are constant companions. A sailor who survives long enough becomes a capable navigator and an instinctive fighter, equally at home in a ship's rigging or a dockside tavern brawl.
@@ -330,9 +328,8 @@ The Middle Sea is the Empire's highway. Sailors crew the grain ships, the tradin
 - *Specialization:* Survival — **Boating**
 - *Bonus:* Belaying Pin *(treat as club)*, Rope *(20 ft)*, Weatherproof Cloak
 
-***
 
-**Assassin**
+### **Assassin**
 *A professional killer — discreet, patient, and utterly ruthless.*
 
 Every city has its shadowy brotherhoods of killers, and the Empire is no exception. An assassin is hired to solve problems that cannot be resolved through politics or the law courts. He is a patient hunter, skilled at blending in, following his quarry undetected, and striking at the most opportune moment. Those who discover his profession rarely live to report it.
@@ -342,23 +339,21 @@ Every city has its shadowy brotherhoods of killers, and the Empire is no excepti
 - *Specialization:* Stealth — **Disguise**
 - *Bonus:* Dagger, Garrotte, Vial of Contact Poison
 
-***
-
 ## Northern Forests
 
-**Barbarian Warrior**
+### **Barbarian Warrior**
 *A fierce fighter from beyond the frontier — loyal to his chief and hungry for glory.*
 
 Beyond the Empire's borders, the measure of a man is the strength of his sword arm and the courage of his heart. A barbarian warrior owes his loyalty to his chief and his kin, and earns his standing through deeds of violence. Some are drawn south by the promise of plunder, Imperial silver, or simply the desire to test themselves against the legions. A few stay and are absorbed into the frontier culture; most remain wild at heart.
 
-- *Culture Note:* Goth, Sarmatian, or other non-Imperial barbarian only
+- *Culture Note:* Goth, Hun, or other non-Imperial barbarian only
 - *Money:* 1d × 25 denarii
 - *Specialization:* Fighting — **Melee Weapons**
 - *Bonus:* Two-handed Axe or Longsword *(player's choice)*, Animal-hide Cloak
 
 ***
 
-**Scout**
+### **Scout**
 *A fast-moving frontier soldier, expert in ambush and reconnaissance.*
 
 The northern frontier demands men who can range far ahead of the main force, reading the land, tracking enemy movements, and returning with intelligence before the legions blunder into an ambush. Scouts are used by both the Imperial forces and the barbarian warbands. They travel light, strike fast, and know how to disappear into the treeline.
@@ -370,7 +365,7 @@ The northern frontier demands men who can range far ahead of the main force, rea
 
 ***
 
-**Druid**
+### **Druid**
 *A keeper of ancient lore — priest, judge, and spirit-caller of the Celtic peoples.*
 
 Among the Gauls and Britons, the druids are the living memory of the people — poets, priests, lawgivers, and physicians rolled into one. The Empire has tried to suppress them, and yet they persist in the deep forests and on the sacred islands of the far north. A druid is a man of immense community standing, feared by enemies and revered by his own people. His knowledge of the natural world and its spirits is without equal.
@@ -380,9 +375,7 @@ Among the Gauls and Britons, the druids are the living memory of the people — 
 - *Specialization:* Survival — **Mysticism**
 - *Bonus:* Oaken Staff, Druidic Torc *(worth 50 denarii; mark of status among Celtic peoples)*
 
-***
-
-**Frontier Soldier**
+### **Frontier Soldier**
 *A Roman auxiliary or provincial militiaman — hard-bitten, pragmatic, and scarred by years on the line.*
 
 The frontier demands a different kind of soldier from the parade-ground legionary. Auxiliary troops and provincial militias hold the line against constant barbarian pressure with little glory and inadequate supplies. They learn to improvise, to fortify a camp in darkness, and to fight in terrain the textbooks never mention. Most are Romanised provincials — men of mixed heritage who have chosen the Empire's order over the chaos beyond.
@@ -392,9 +385,7 @@ The frontier demands a different kind of soldier from the parade-ground legionar
 - *Specialization:* Engineering — **Defences**
 - *Bonus:* Spear, Auxiliary Shield, Leather Cuirass
 
-***
-
-**Skald**
+### **Skald**
 *A warrior-poet of the northern tribes — keeper of sagas, singer of battle.*
 
 Among the Germanic and Gothic peoples, the skald holds a place of honour second only to the chief. He records the deeds of the great, sings the sagas of the dead, and inspires men to acts of desperate courage on the battlefield. A skald travels freely between warbands, granted safe passage by custom — for to kill a skald is to invite the worst of luck. He is not merely a singer, however; he carries weapons and knows how to use them.
@@ -404,9 +395,7 @@ Among the Germanic and Gothic peoples, the skald holds a place of honour second 
 - *Specialization:* Manipulation — **Rhetoric**
 - *Bonus:* Shortsword, Skald's Harp *(grants Advantage on Charm-based Manipulation tests when performed for an audience)*
 
-***
-
-**Herbalist**
+### **Herbalist**
 *A wise-woman or cunning man of the forest villages — healer, poisoner, and keeper of old secrets.*
 
 Every village on the northern frontier has its herbalist — the local healer who knows which roots cure fever, which berries stop bleeding, and which mushrooms kill quietly. They occupy an uneasy place in society, respected for their skill and feared for the same reason. Some drift from settlement to settlement, selling remedies and reading omens. Others are driven out when their knowledge strays too close to the forbidden.

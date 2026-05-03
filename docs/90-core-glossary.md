@@ -19,6 +19,7 @@
 | Desperate | A condition applied to NPCs when the party’s Superiority exceeds their Resolve. It can cause them to flee, surrender, or make a final attack, depending on context. [file:3][file:8] |
 | Doom | A GM resource gained through certain failures, complications, and critical failures. [file:9] |
 | Doom token | A unit of Doom held by the GM. [file:9] |
+| Drain | any unsoaked resolve stress causes Fatigue |
 | Extended Check | A check resolved over multiple rolls, used for complex or time-consuming tasks with a threshold and deadline. [file:9] |
 | Fate | A resource referenced as something the party may gain from a successful roll or reward cycle. [file:9] |
 | Fate Point | A reward or meta-resource that may be granted by the GM in place of some success rewards. [file:9] |

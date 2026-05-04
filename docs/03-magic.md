@@ -16,7 +16,7 @@ Traditional spellcasters draw power from an established magical tradition. They 
 
 * May learn spells only from their own magical tradition.  
 * May perform rituals.  
-* Learn new spells through study with a mentor (see section 3.4).  
+* Learn new spells through study with a mentor.  
 * Use Insight \+ Survival when binding spells and making learning tests.  
 * Calculate Power as: Power \= 2 \+ INS \+ Traits
 
@@ -95,7 +95,7 @@ To learn a new spell or ritual, a dabbler must:
 2. Suffer 2 Fatigue per day of study, plus additional Fatigue equal to the number of complications generated during the study period. A full day's rest removes this Fatigue.  
 3. Obtain ingredients, tools, and materials with a combined Restriction rating equal to the spell or ritual's difficulty \+ 2\.  
 4. Spend 10 XP.  
-5. Make a Willpower \+ Resilience test at a difficulty equal to the spell or ritual's difficulty \+ 1\. On a success, the spell or ritual is learned and available from the next adventure. If it is a spell, it is learned in a flawed state (see section 3.1). On a failure, the process must be repeated after the next adventure.
+5. Make a Willpower \+ Resilience test at a difficulty equal to the spell or ritual's difficulty \+ 1\. On a success, the spell or ritual is learned and available from the next adventure. If it is a spell, it is learned in a flawed state. On a failure, the process must be repeated after the next adventure.
 
 A dabbler may repeat the learning process for a flawed spell to remove its flawed status. They must have successfully cast the spell at least once during play before attempting to refine it.
 
@@ -140,7 +140,7 @@ While a character with one or more of these focuses may possess knowledge useful
 When your character casts a spell or performs a ritual, you may be required to roll d4 to inflict harm or complete a ritual step. All spellcasters have a power rating— often simply called power—which indicates the number of d4 a player rolls when their character casts a spell or performs part of a ritual. A character’s power rating is equal to their base power rating plus their bonus d4 for the attribute they use to cast spells.  
 - A traditional spellcaster has a base power rating of 2 and receives a bonus based on their Insight attribute, as their techniques favor wisdom and instinctual understanding.  
 - A research spellcaster has a base power rating of 2 and receives a bonus based on their Reason attribute, as they favor study and analysis over spirituality.  
-- A dabbling spellcaster has a base power rating of 1 , but they can increase that to 3 whenever they roll a dice pool in exchange for generating 1 Doom for each effect they roll. They receive a bonus based on their Will attribute, as raw mental strength and self-confidence empower their magic.  
+- A dabbling spellcaster has a base power rating of 1 , but they can increase that to 3 whenever they roll a dice pool in exchange for generating 1 Doom. They receive a bonus based on their Will attribute, as raw mental strength and self-confidence empower their magic.  
 
 Some talents and other abilities may increase a spellcaster’s power rating in certain circumstances.
 
@@ -148,7 +148,7 @@ Some talents and other abilities may increase a spellcaster’s power rating in 
 
 Not all spells and rituals deal harm to their target (though most deal stress to their spellcaster). Of those that do deal harm to their target, some deal physical harm, inflicting Vitality stress that is reduced by Armor and Cover resistance, and some deal mental harm, inflicting Resolve stress that is reduced by Courage and Morale resistance. The type of harm a spell or ritual inflicts is specified in its spell effect or outcome description, respectively.  
 If your character successfully casts a spell or ritual that deals harm , resolve using the following steps:  
-1\. Roll d4: Roll the number of d4 indicated by the spell effect or outcome description: usually a number of d4 equal to your character’s power rating plus some additional specified by the spell effect. Total the results rolled. This is the amount of Stress you deal to the target.  
+1\. Roll d3: Roll the number of d3 indicated by the spell effect or outcome description: usually a number of d3 equal to your character’s power rating plus some additional specified by the spell effect. Total the results rolled. This is the amount of Stress you deal to the target.  
 2\. Determine Resistance: The target totals their relevant resistance: Armor resistance \+ Cover resistance for physical harm, or Courage resistance \+ Morale resistance for mental harm, as specified by the spell effect or outcome description. They reduce the amount of stress they receive by that amount.  
 3\. Inflict Stress: The target adds marks off any remaining stress on their stress track.  
 

@@ -6,11 +6,11 @@ Magic is divided into two disciplines. Evocation (battlefield magic) encompasses
 
 ---
 
-### Types of Spellcaster
+## Types of Spellcaster
 
 The three types of spellcaster each represent a different relationship with magic, with distinct strengths, limitations, and methods of learning.
 
-#### Traditional
+### Traditional
 
 Traditional spellcasters draw power from an established magical tradition. They begin play with three battlefield spells drawn from their tradition's spellbook.
 
@@ -20,7 +20,7 @@ Traditional spellcasters draw power from an established magical tradition. They 
 * Use Insight \+ Survival when binding spells and making learning tests.  
 * Calculate Power as: Power \= 2 \+ INS \+ Traits
 
-#### Research
+### Research
 
 Research spellcasters draw on ancient texts, forbidden manuscripts, and the guidance of supernatural entities. They begin play with two battlefield spells drawn from any magical tradition's spellbook.
 
@@ -31,7 +31,7 @@ Research spellcasters draw on ancient texts, forbidden manuscripts, and the guid
 * Use Reason \+ Academia when binding spells and making learning tests.  
 * Calculate Power as: Power \= 2 \+ REA \+ Traits
 
-#### Dabbling
+### Dabbling
 
 Dabblers have pieced together an incomplete understanding of magic through fragmentary texts, eavesdropped rituals, stolen notes, or strange dreams. They begin play with either one standard battlefield spell or two flawed spells drawn from any magical tradition's spellbook.
 
@@ -43,7 +43,7 @@ Dabblers have pieced together an incomplete understanding of magic through fragm
 
 **Flawed Spells** When a dabbler learns a spell, they grasp its core principles but not its nuances, making the spell harder to control and less reliable.
 
-* When a flawed spell is cast, it automatically generates one complication in addition to any produced by the skill test. Even a successful cast is treated as a miscast (see section 3.3).  
+* When a flawed spell is cast, it automatically generates one complication in addition to any produced by the skill test. Even a successful cast is treated as a miscast.  
 * Any uses of Success Levels specific to the spell's profile cannot be applied when casting a flawed version.  
 * Some spell profiles include a Flawed entry specifying additional adjustments.
 
@@ -59,12 +59,12 @@ A miscast does not negate success. If a spell or ritual is cast successfully, it
 
 ---
 
-### Learning New Spells and Rituals
+## Learning New Spells and Rituals
 
 New spells and rituals require extensive study and practice and may only be learned during downtime between adventures. The process is mentally demanding, often accompanied by unsettling dreams and requiring multiple attempts to perfect. A spellcaster may study only one spell or ritual at a time and may not begin learning a new one until the previous one has been fully learned or formally abandoned.  
 The learning requirements vary by caster type.
 
-#### Traditional Spellcasters
+### Traditional Spellcasters
 
 Traditional spellcasters learn directly from a mentor or teacher from within their magical tradition, receiving structured guidance that makes the process more efficient than it is for other caster types.  
 To learn a new spell or ritual, a traditional spellcaster must:
@@ -75,7 +75,7 @@ To learn a new spell or ritual, a traditional spellcaster must:
 4. Spend 10 XP.  
 5. Make an Insight \+ Survival test at a difficulty equal to the spell or ritual's difficulty. On a success, the spell or ritual is learned and available from the next adventure onward. On a failure, it has not been fully internalized; the spellcaster must repeat the study period after the next adventure to complete the process.
 
-#### Research Spellcasters
+### Research Spellcasters
 
 Research spellcasters work largely without structured guidance, relying on cryptic texts or sporadic contact with supernatural entities. Their process takes longer as a result.  
 To learn a new spell or ritual, a research spellcaster must:
@@ -86,7 +86,7 @@ To learn a new spell or ritual, a research spellcaster must:
 4. Spend 10 XP.  
 5. Make a Reason \+ Academia test at a difficulty equal to the spell or ritual's difficulty \+ 1\. On a success, the spell or ritual is learned and available from the next adventure onward. On a failure, the spellcaster must repeat the study period after the next adventure to complete the process.
 
-#### Dabblers
+### Dabblers
 
 Dabblers glean their knowledge from fragmentary and unreliable sources: partial scrolls, secondhand accounts, glimpsed notes, or fitful dreams. Their path to learning is unpredictable in duration and taxing in different ways. Non-spellcasters learning rituals follow the same process, though they cannot learn spells.  
 To learn a new spell or ritual, a dabbler must:
@@ -103,59 +103,61 @@ A dabbler may repeat the learning process for a flawed spell to remove its flawe
 
 Because learning requires a skill test, complications are possible. In addition to standard complication results, the following are particularly fitting for the hazards of occult study:
 
-* The character suffers 1 Critical Wound as the strain of learning magic taxes their mind, body, and spirit.  
+* The character suffers 1 Sanity loss as the strain of learning magic taxes their mind, and spirit.  
 * The character's study has drawn the attention of something dangerous and otherworldly. The nature and timing of its arrival are left to the GM's discretion.  
 * The character begins the next adventure with 1 fewer Fate Point, as fortune appears to have turned against them.  
 * The GM adds to the Doom pool. Because learning occurs between adventures, this Doom is carried forward and added to the pool at the start of the next session.
 
 ---
 
-### 3.5 Rituals
+## 3.5 Rituals
 
 Rituals are the province of Thaumaturgy—long, intricate workings capable of effects far beyond the reach of battlefield spells. They require significant time, preparation, and concentration. A ritual that is only partially or incompletely known always fails; a complete and reliable description of the ritual's requirements is a prerequisite for any attempt.  
-**Rituals: Roleplay vs. Extended Test** The extended test format reflects the sustained effort a ritual demands beyond a single skill test. However, when characters have ample time or circumstances are not especially dangerous, roleplaying a ritual can be equally rewarding. Extended tests are best reserved for rituals performed under pressure—when time is limited, danger is present, or the outcome is genuinely uncertain.
 
-Casting SpellLLs and Performing Rituals  
+>**Rituals: Roleplay vs. Extended Test** The extended test format reflects the sustained effort a ritual demands beyond a single skill test. However, when characters have ample time or circumstances are not especially dangerous, roleplaying a ritual can be equally rewarding. Extended tests are best reserved for rituals performed under pressure: when time is limited, danger is present, or the outcome is genuinely uncertain.
+
+#### Casting Spells and Performing Rituals  
 Unless otherwise noted in a spell’s description, casting a spell requires a skill test during a standard scene, or the Prepare minor action and Cast a Spell major action (which includes the spell’s skill test) during an action scene.   
 Rituals take more time than spells, and successfully completing one is similar to passing an extended test.  
- The attribute for a skill test used in a spell or a ritual depends on your character’s spellcasting type: traditional spellcasters use Insight, research spellcasters use Reason, and dabbling spellcasters use Will (the attribute for a ritualist who is not a spellcaster is also Will). The skill, which is related to the spell’s spell effect or the ritual’s outcome, is listed in the spell or ritual’s profile.
+The attribute for a skill test used in a spell or a ritual depends on your character’s spellcasting type: traditional spellcasters use Insight, research spellcasters use Reason, and dabbling spellcasters use Will (the attribute for a ritualist who is not a spellcaster is also Will). The skill, which is related to the spell’s spell effect or the ritual’s outcome, is listed in the spell or ritual’s profile.
 
 ### MAGIC SKILLS
 
-Magic in Cohors Cthulhu relies upon set skills. Which skill a spell or ritual requires depends on its nature and circumstances. Several of the game’s skills have at least one focus that lends itself to occult applications. Following are the skills and focuses that most often apply to magic use:  
-***Academia (Religion)*** is a common route into the study of the arcane and the supernatural, as the practice of magic is often part of religious rituals and sacrifices to the gods.  
-***Academia (Linguistics)*** is another common route, as scholars of language are often well versed in dead languages, allowing them to translate ancient religious texts… though they may not be ready for the consequences of such translations.  
-***Fighting (War Magic)*** arises from zealously pious martial traditions, in which those who carry the blessings of the gods are expected to fight in battle and risk death.  
-***Medicine (Faith Healing)*** covers rites, rituals, and appropriate offerings and practices with which the gods (or other supernatural beings) can be petitioned to intercede on behalf of the sick or injured.  
-***Observation (Instincts)*** covers much of human perception beyond the traditional senses. Characters with an Instincts focus are often sensitive to unnatural phenomena and can discern the influence of the supernatural—especially the unearthly nature of the Mythos—more keenly and clearly than others.  
-***Persuasion (Invocation)*** encompasses unusual and esoteric methods of communicating with unnatural entities. It is also applicable to magic drawing on the mental faculties of emotion or reason. It is the arcane tool of those seeking to rouse or calm the mob, or to evoke awe or fear through the power of the spoken word.  
-***Resilience (Discipline)*** isn’t exclusively focused on the supernatural, but it is invaluable for enduring some of the nastier effects of dabbling in the occult.  
-***Survival (Mysticism)*** deals with spells and rituals passed down through ancient oral traditions rather than through books and scrolls, particularly spells and rituals connected to forces of nature or understanding the wilderness.  
-***Tactics (Omen Reading)*** covers a number of practices that involve reading signs in the natural world and interpreting the future from them. Countless undertakings are preceded by a reading of omens.  
+Magic in relies upon set skills. Which skill a spell or ritual requires depends on its nature and circumstances. Several of the game’s skills have at least one focus that lends itself to occult applications. Following are the skills and focuses that most often apply to magic use:  
+- ***Academia (Religion)*** is a common route into the study of the arcane and the supernatural, as the practice of magic is often part of religious rituals and sacrifices to the gods.  
+- ***Academia (Linguistics)*** is another common route, as scholars of language are often well versed in dead languages, allowing them to translate ancient religious texts… though they may not be ready for the consequences of such translations.  
+- ***Fighting (War Magic)*** arises from zealously pious martial traditions, in which those who carry the blessings of the gods are expected to fight in battle and risk death.  
+- ***Medicine (Faith Healing)*** covers rites, rituals, and appropriate offerings and practices with which the gods (or other supernatural beings) can be petitioned to intercede on behalf of the sick or injured.  
+- ***Observation (Instincts)*** covers much of human perception beyond the traditional senses. Characters with an Instincts focus are often sensitive to unnatural phenomena and can discern the influence of the supernatural—especially the unearthly nature of the Mythos—more keenly and clearly than others.  
+- ***Persuasion (Invocation)*** encompasses unusual and esoteric methods of communicating with unnatural entities. It is also applicable to magic drawing on the mental faculties of emotion or reason. It is the arcane tool of those seeking to rouse or calm the mob, or to evoke awe or fear through the power of the spoken word.  
+- ***Resilience (Discipline)*** isn’t exclusively focused on the supernatural, but it is invaluable for enduring some of the nastier effects of dabbling in the occult.  
+- ***Survival (Mysticism)*** deals with spells and rituals passed down through ancient oral traditions rather than through books and scrolls, particularly spells and rituals connected to forces of nature or understanding the wilderness.  
+- ***Tactics (Omen Reading)*** covers a number of practices that involve reading signs in the natural world and interpreting the future from them. Countless undertakings are preceded by a reading of omens.  
+
 While a character with one or more of these focuses may possess knowledge useful for dealing with the occult, having such a focus does not in itself indicate an ability to cast spells. To cast battlefield spells, a character needs a talent with the Spellcaster keyword, although rituals do not have that same requirement.
 
-POWER  
-When your character casts a spell or performs a ritual, you may be required to roll d4 to inflict damage or complete a ritual step. All spellcasters have a power rating— often simply called power—which indicates the number of d4 a player rolls when their character casts a spell or performs part of a ritual. A character’s power rating is equal to their base power rating plus their bonus d4 for the attribute they use to cast spells.  
-\- A traditional spellcaster has a base power rating of 2 and receives a bonus based on their Insight attribute, as their techniques favor wisdom and instinctual understanding.  
-\- A research spellcaster has a base power rating of 2 and receives a bonus based on their Reason attribute, as they favor study and analysis over spirituality.  
-\- A dabbling spellcaster has a base power rating of 1 , but they can increase that to 3 whenever they roll a dice pool in exchange for generating 1 Doom for each effect they roll. They receive a bonus based on their Will attribute, as raw mental strength and self-confidence empower their magic.  
+### POWER  
+When your character casts a spell or performs a ritual, you may be required to roll d4 to inflict harm or complete a ritual step. All spellcasters have a power rating— often simply called power—which indicates the number of d4 a player rolls when their character casts a spell or performs part of a ritual. A character’s power rating is equal to their base power rating plus their bonus d4 for the attribute they use to cast spells.  
+- A traditional spellcaster has a base power rating of 2 and receives a bonus based on their Insight attribute, as their techniques favor wisdom and instinctual understanding.  
+- A research spellcaster has a base power rating of 2 and receives a bonus based on their Reason attribute, as they favor study and analysis over spirituality.  
+- A dabbling spellcaster has a base power rating of 1 , but they can increase that to 3 whenever they roll a dice pool in exchange for generating 1 Doom for each effect they roll. They receive a bonus based on their Will attribute, as raw mental strength and self-confidence empower their magic.  
+
 Some talents and other abilities may increase a spellcaster’s power rating in certain circumstances.
 
-### SPELL AND RITUAL DAMAGE
+### SPELL AND RITUAL harm
 
-Not all spells and rituals deal damage to their target (though most deal damage to their spellcaster). Of those that do deal damage to their target, some deal physical damage, inflicting Vitality Damage that is reduced by Armor and Cover resistance, and some deal mental damage, inflicting Resolve Damage that is reduced by Courage and Morale resistance. The type of damage a spell or ritual inflicts is specified in its spell effect or outcome description, respectively.  
-If your character successfully casts a spell or ritual that deals damage , resolve the damage using the following steps:  
-1\. Roll d4: Roll the number of d4 indicated by the spell effect or outcome description: usually a number of d4  equal to your character’s power rating plus some additional specified by the spell effect. Total the results rolled. This is the amount of Stress you deal to the target.  
-2\. Determine Resistance: The target totals their relevant resistance: Armor resistance \+ Cover resistance for physical damage, or Courage resistance \+ Morale resistance for mental damage, as specified by the spell effect or outcome description. They reduce the amount of stress they receive by that amount.  
-3\. Inflict Stress: The target adds marks off any remaining stress on their stress track and checks to see if they have sustained any injuries (see Injuries on page 41).  
-4\. Inflict Effects: Effect results rolled also trigger any damage effects included in the spell effect or outcome description.
+Not all spells and rituals deal harm to their target (though most deal stress to their spellcaster). Of those that do deal harm to their target, some deal physical harm, inflicting Vitality stress that is reduced by Armor and Cover resistance, and some deal mental harm, inflicting Resolve stress that is reduced by Courage and Morale resistance. The type of harm a spell or ritual inflicts is specified in its spell effect or outcome description, respectively.  
+If your character successfully casts a spell or ritual that deals harm , resolve using the following steps:  
+1\. Roll d4: Roll the number of d4 indicated by the spell effect or outcome description: usually a number of d4 equal to your character’s power rating plus some additional specified by the spell effect. Total the results rolled. This is the amount of Stress you deal to the target.  
+2\. Determine Resistance: The target totals their relevant resistance: Armor resistance \+ Cover resistance for physical harm, or Courage resistance \+ Morale resistance for mental harm, as specified by the spell effect or outcome description. They reduce the amount of stress they receive by that amount.  
+3\. Inflict Stress: The target adds marks off any remaining stress on their stress track.  
 
 ### Success Levels Spends in Magic
 
 Skilled practitioners of magic wield their spells and rituals with deftness and precision, leveraging their skill and knowledge to achieve heightened results. Some spell and ritual descriptions specify ways to use Success Levels generated during casting. In addition, spellcasters and ritualists can spend Success Levels on the following spell and ritual-related Success Levels options:
 
-- Cost Resistance: For each Success Levels spent, gain \+1 Morale resistance against the spell or ritual’s cost (the mental damage it inflicts on the caster).  
-- Bonus Damage: For each Success Levels spent, add \+1 to the damage the spell or ritual inflicts on its targets.  
+- Cost Resistance: For each Success Levels spent, gain \+1 Morale resistance against the spell or ritual’s cost (the mental harm it inflicts on the caster).
+- Bonus harm: For each Success Levels spent, add \+1 to the harm the spell or ritual inflicts on its targets.  
 - Duration Increase: For 2 Success Levels, double the duration of any spell or ritual with a duration that isn’t “instant.”
 
 ## Battlefield Magic
@@ -167,8 +169,8 @@ While not as powerful or, indeed, as dangerous as longer-form ritualistic magic,
 Spells must be bound to a Focus before they can be cast. A Focus is a totemic object or significant item—a wand, runestone, staff, or similar implement—that a spellcaster uses to store prepared spells, allowing them to be released quickly without elaborate ritual. A bound spell remains in the Focus for as long as the spellcaster remains conscious. If the spellcaster loses consciousness, bound spells dissipate safely without miscasting.  
 A spellcaster cannot cast an unbound spell. Knowledge without preparation has no power to make itself real. A spellcaster may hold a number of bound spells equal to their Power rating. Each bound spell may be cast any number of times, though each casting carries a cost as described in the spell's profile.  
 Binding Procedure. Binding spells to a Focus requires a Challenging skill test and takes a number of minutes equal to the combined difficulty of all spells being prepared. The skill used depends on caster type: Traditional spellcasters use Insight \+ Survival; Research spellcasters use Reason \+ Academia; Dabblers use Willpower \+ Resilience. Once bound, spells remain in the Focus until the spellcaster sleeps or is rendered unconscious.  
-**What’s Your Focus?**  
-A spellcaster’s Focus can be thought of as a metaphysical cloak that a spellcaster wraps around themself. While a Focus’s effective core is intangible, spellcasters invariably possess a physical object they use to focus bound spells and bridge the gap between the physical world and their magic. This object might be something more traditionally associated with magic, like a wand or staff, but it can equally be a totemic object, runestone, or other item. What matters more about the object is its significance to your character and how they practice magic, not its cultural or historical significance. Normally, your character finds or creates their Focus, whatever it may be.
+>**What’s Your Focus?**  
+>A spellcaster’s Focus can be thought of as a metaphysical cloak that a spellcaster wraps around themself. While a Focus’s effective core is intangible, spellcasters invariably possess a physical object they use to focus bound spells and bridge the gap between the physical world and their magic. This object might be something more traditionally associated with magic, like a wand or staff, but it can equally be a totemic object, runestone, or other item. What matters more about the object is its significance to your character and how they practice magic, not its cultural or historical significance. Normally, your character finds or creates their Focus, whatever it may be.
 
 ---
 
@@ -200,11 +202,11 @@ Spells can be grouped into the following categories based on  the types of resul
 
 ##### Attack
 
-Attack spells inflict physical or mental damage, normally through the conjuring of some deadly projectile or psychological effect. When successfully unleashed, an attack spell inflicts the stress and effects rolled on its upon its target. An attack spell has a damage rating, exactly as a weapon does, based on the spellcaster’s power rating. 
+Attack spells inflict physical or mental harm, normally through the conjuring of some deadly projectile or psychological effect. When successfully unleashed, an attack spell inflicts the stress and effects rolled on its upon its target. An attack spell has a harm rating, exactly as a weapon does, based on the spellcaster’s power rating. 
 
 ##### Banishment
 
-Banishment spells inflict physical or mental damage, just as attack spells do, but they have a greater effect upon supernatural entities. If a banishment spell inflicts 1 or more injuries on a supernatural creature, that creature loses its next turn as it struggles to remain in this universe. If a supernatural target is defeated by a banishment spell, it vanishes immediately, cast back whence it came.
+Banishment spells inflict physical or mental harm, just as attack spells do, but they have a greater effect upon supernatural entities. If a banishment spell inflicts 1 or more injuries on a supernatural creature, that creature loses its next turn as it struggles to remain in this universe. If a supernatural target is defeated by a banishment spell, it vanishes immediately, cast back whence it came.
 
 ##### Blessing
 
@@ -212,7 +214,7 @@ A blessing spell infuses its target with magical energies, granting some benefit
 
 ##### Control
 
-A control spell inflicts mental damage, undermining the mind of its target. If a control spell deals an injury to its target, then instead of suffering the injury, the target is placed under the spellcaster’s control, as detailed in the spell effect.
+A control spell inflicts mental harm, undermining the mind of its target. If a control spell deals an insanity to its target, then instead of suffering the insanity, the target is placed under the spellcaster’s control, as detailed in the spell effect.
 
 ##### Curse
 
@@ -236,11 +238,14 @@ Transmutation spells alter a subject’s physical being, transforming them into 
 
 ##### Ward
 
-A ward spell provides protection or restoration, or it inflicts physical or mental damage on any creatures that come within range of its protective aura.
+A ward spell provides protection or restoration, or it inflicts physical or mental harm on any creatures that come within range of its protective aura.
 
 ## Magical Traditions
 
 There are myriad magical traditions. This chapter focuses on the Runic magic of the Germanic people, the Oracular magic favored by Rome’s priesthood and Germanic seiðkonur, and the Druidic magic of the druids. Some types of spellcasters draw from just one of these magical traditions, while others may use any magical tradition, as detailed in Learning Spells and Rituals.  
+
 Spellcasters who use spells from the Runic magical tradition draw power from runic symbols of Germanic (Norse ancestry) origin. Runes allow Runic magic practitioners, known as spellseers or runeweavers, to focus magical energies. Though rare, these gifted individuals are found practicing their art among the tribes of Germania Magna and anywhere else they have settled. Runic spells are detailed in the Runic Spellbook.  
+
 Spells from the Oracular magical tradition allow spellcasters to see events of the future, to understand things their senses could not possibly perceive, and to interpret the fates of those around them. Whether practiced by augurs or oracles of Rome or seiðkonur of the Germanic tribes, Oracular magic is often associated with certain religious figures, like Mimir or Antevorta. Oracular spells are detailed in the Oracular Spellbook.  
+
 Spells from the Druidic magical tradition are rooted in animistic beliefs and draw power from both the Druidic pantheon and the forces of the natural world. Practitioners of this magic may originate from Hibernia or Britannia or have roots in other Druidic tribes in Gaul or Germania. They are referred to as druids, semnothei, or vates. This tradition’s practitioners are wise in the ways of healing and protection but can also command raw forces of natural destruction. Druidic spells are detailed in the Druidic Spellbook.  

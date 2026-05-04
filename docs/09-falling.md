@@ -4,7 +4,7 @@ A Player Character falling from a height greater than 10 feet for any reason mak
 
 | SL | Result |
 | :---- | :---- |
-| \-1 or less | Falls. Suffers xd8 Vitality damage. x \= 1 per 10 feet. Plus 1 Critical Wound for each 10 feet beyond 10 feet. Eg 20ft fall would be 2d8 Vitality damage and 1 Critical Wound |
+| \-1 or less | Falls. Suffers xd4 Vitality damage. x \= 1 per 10 feet. Plus 1 Critical Wound for each 10 feet beyond 10 feet. Eg 20ft fall would be 2d4 Vitality damage and 1 Critical Wound |
 | 0 to+1 | Slips but manages to hang on but must roll on the Fall Conditions Table. Needs to be rescued. |
 | \+2 or more | Close call and pulls themselves to safety. |
 

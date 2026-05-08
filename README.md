@@ -2,20 +2,20 @@
 
 This folder contains the core rules, subsystem chapters, and support documents for the 2d12 game system.
 
-docs/
-└── 2d12-game-system/
-    ├── chapters/
-    |   ├── core-rules
-    |   ├── conflict
-    |   ├── magic
-    |   ├── character-creation
-    |   ├── talents
-    |   ├── equipment 
-    ├── appendices/
-    ├── setting/
-    └── development/
+docs/  <br/>
+└── 2d12-game-system/  <br/>
+    ├── chapters/  <br/>
+    |   ├── core-rules  <br/>
+    |   ├── conflict  <br/>
+    |   ├── magic  <br/>
+    |   ├── character-creation  <br/>
+    |   ├── talents  <br/>
+    |   ├── equipment  <br/> 
+    ├── appendices/  <br/>
+    ├── setting/  <br/>
+    └── development/  <br/>
 
-#
+
 ## Support files
 
 - `00-document-map.md` tracks the source-to-filename mapping for the repository structure.

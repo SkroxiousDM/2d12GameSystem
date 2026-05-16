@@ -1,5 +1,3 @@
-write a full replacement combat chapter text in your system’s style
-
 # Combat
 
 Combat is a structured conflict in which opposing sides seek to impose their will through force, position, fear, and momentum. Steel, arrows, magic, and terror all matter, but battle is not decided by injury alone. Fighters break formation, lose heart, give ground, are cut off from allies, or realise too late that the enemy has already seized the field.

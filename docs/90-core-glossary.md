@@ -38,6 +38,7 @@ This glossary consolidates the currently defined core terms from the existing ru
 | Level of Success | A measure of how well a check succeeded or failed beyond the threshold. It can be spent on benefits such as information, speed, or confidence.[file:73][file:93] |
 | Long Rest | An 8-hour rest that restores some Stamina, Resolve, and Vitality, and improves recovery through first aid.[file:73] |
 | Opposed Test | A check where two characters roll against each other, and the higher result or higher Level of Success wins.[file:73][file:93] |
+| Pursuit | A pursuit is a contest of speed, nerve, and positioning through roads, streets, halls, fields, rooftops, woods, or fortress grounds. Each round, every participant chooses a maneuver in secret, the Game Master reveals or generates an obstacle, and the maneuvers are then resolved. The quarry may run on foot, ride a horse, flee in a wagon, or seek shelter behind walls and gates; the pursuer may give chase, cut off escape routes, block the way, or loose arrows from afar.|
 | Push | Rerolling a failed check at a cost of Stress, Vitality, or Resolve depending on the attribute used.[file:73][file:93][file:90] |
 | Power | A magical rating used for spells and rituals, determining how many damage or ritual dice a character rolls. Its value varies by spellcasting type and related formulas.[file:73][file:92] |
 | Reaction | An action taken outside a characterâ€™s turn, usually in response to a trigger. Reactions cost action economy and sometimes Stamina depending on the rule.[file:73] |

@@ -1,210 +1,189 @@
+write a full replacement combat chapter text in your system’s style
+
 # Combat
 
-## Alacrity, Initiative and Rounds
+Combat is a structured conflict in which opposing sides seek to impose their will through force, position, fear, and momentum. Steel, arrows, magic, and terror all matter, but battle is not decided by injury alone. Fighters break formation, lose heart, give ground, are cut off from allies, or realise too late that the enemy has already seized the field.
 
-At the start of combat, determine each character's Initiative score (Alacrity \+ 1d12). Characters act in order from highest Initiative to lowest. Each round, a character takes one turn in Initiative order.  
-At the start of combat, you gain a number of Actions equal to your Alacrity. All Actions refresh at the end of your turn.
+This chapter presents combat as a sequence of exchanges made up of turns and actions. It keeps the core procedures of the 2d12 system—Action economy, opposed Fighting tests, hit locations, Critical Wounds, Stamina costs, Reactions, and Superiority—but frames them as a dynamic struggle for advantage rather than a mere cycle of attacks.[1][2]
 
-### Actions
+Not every violent scene requires full combat. If one side is helpless, unwilling to resist, or the outcome is not in doubt, the GM may resolve the situation with a single Check or a brief ruling instead. Use full combat when both sides can meaningfully affect the outcome, when position and timing matter, or when the consequences of failure are serious.[3][1]
 
-On your turn, you have a number of Actions to spend on attacks, movement, spellcasting, and other tasks equal to your Alacrity.  
-Most tasks cost 1 Action.  
-Some powerful abilities or spells cost 2 or more Actions.  
-Some actions also cost Stamina.  
-Certain minor effects are free and cost no Action.  
-Actions do not carry over between turns.
+## Stakes and Intent
 
-#### Attack
+Before the first round begins, the GM should establish what each side is trying to achieve. One group may wish to kill their enemies, but another may only want to delay pursuit, seize an artefact, escape across a gatehouse, capture a target alive, or hold a bridge long enough for civilians to flee. Combat runs more clearly when everyone understands what success looks like.[3][2]
 
-Spending 1 Action to attack.  
-**Check Range:** Check you are within Range of the target. For melee attacks, you must be within Immediate Range. For ranged attacks, you must be within the weapon’s range.   
-**Roll to Hit:** If you are making a melee attack, make a Fighting Test opposed by the target’s Fighting or Reflexes. For a ranged attack, make a Challenging (+0) Fighting Test.   
-**Determine Hit Location**: To see where you hit your target, use the number on the Complication Die and consult the hit location table.   
-**Deal Damage**: The Damage dealt is equal to the Weapon Damage plus the SL of your attack Test. This Damage is then reduced by any Armour on the target location. The target suffers the remaining Damage against Vitality.  
- If there is ever ambiguity about Hit Location, such as suffering a Critical Wound from a great fall, or an explosion, the GM rolls 1d12 and consults the Hit Location Table to determine the point of contact. 
+The GM should also determine which enemies are acting together, whether a leader is present, and whose Resolve sets the tone for the opposition. When a leader is present, followers usually use that leader's higher Resolve rather than their own. This matters because combat often ends not when every enemy lies dead, but when their position becomes hopeless and they become Desperate.[2]
 
-Melee Attacks   
-When you make a melee attack, you are attacking an enemy within Immediate Range. Most melee attacks use handheld weapons such as hammers, swords, and spears, though some creatures may attack with claws, fangs, tentacles, or another body part. To make a melee attack, take the following steps:
+## Rounds, Turns, and Exchanges
 
-- Choose a target within Immediate Range.  
-- Both parties make an Opposed Fighting Test, applying any Specialisation for the weapon they are wielding. If the defender is not wielding a melee weapon or shield, they make this Test with Disadvantage. Alternatively, the defender can use *Reflexes (Dodge)* to try to avoid the attack. Opposing a Melee attack in either way does not require a Reaction, however it will consume 1 **Stamina**. If a target does not Oppose a Fighting Test, the attacker gains Advantage.   
--  If you win the Opposed Test, you deal Stess equal to your Weapon rating plus the difference in SL. The defender does not deal Stress if they win, unless they score a Critical.   
-- Use the Complication die result to determine the hit location, and reduce the Damage by an amount equal to the Defense in that location.   
--  The target suffers the remaining Stress to Vitality.   
-  
+Combat is divided into rounds. Each round represents a brief exchange of blows, movement, shouted orders, spellcasting, hesitation, and sudden violence. At the start of combat, each character determines Initiative by rolling 1d12 and adding Alacrity. Characters act each round from highest Initiative to lowest.[1]
 
+On your turn, you gain a number of Actions equal to your Alacrity. Most tasks cost 1 Action, though some powerful abilities or spells cost more. Some actions also cost Stamina. Unless a rule states otherwise, Actions do not carry over between turns and refresh at the end of your turn.[1]
 
-  ###### *HIT LOCATIONS* 
+Alacrity determines how many meaningful things you can do before the moment passes. A fast and disciplined fighter may attack, reposition, and defend an ally in the same turn. A slower character may manage only a single decisive act. This does not merely represent speed of limb, but awareness, decisiveness, and the ability to keep pace with a chaotic battlefield.[1]
 
-    
-  | Result  | Location |  
-  |-------- |----------|  
-  |   1-2   | Head     |  
-  |    3    | Left Arm |  
-  |    4    | Right Arm|  
-  |   5-6   | Left Leg |  
-  |   7-8   | Right Leg|  
-  |   9–12  | Body     |
+## Action Economy
 
-#### Exceeding Maximum Vitality 
+On your turn, you may spend Actions on attacks, movement, spellcasting, assessment, or other tasks permitted by your abilities and the fiction. Most Actions cost 1 Action. Some also require a Stamina cost, especially repeated exertions, Reactions, or attempts to do more than is prudent in a few seconds.[1]
 
-If you suffer Physical Stress that would exceed your Maximum Vitality, you suffer a Critical Wound. Determine the Hit Location and make a Severity Roll. To do so, roll 1d12 \+ the excess Damage and consult the appropriate Critical Wound Table for the Hit Location to determine the Critical Wound. The location of the Critical Wound, and therefore the applicable table, is determined by the attack that caused the Critical Wound. You suffer the additional effects listed.
+Common ways to spend Actions include:
 
-**Critical Hits:** If you roll a Critical on your attack Test, or successfully attack whilst hidden, the attack deals a Critical Hit. The target suffers a Critical Wound, even if they haven't exceeded their Maximum Vitality:
+- Attack an enemy.
+- Move up to your Speed.
+- Cast a spell.
+- Assess the battlefield.
+- Use an item or interact with the environment.
+- Take a special Action granted by a Talent, spell, weapon, or Trait.[1]
 
-#### Critical Wound tables
-##### Head
+The order in which you spend Actions on your turn matters. A warrior may Assess first to identify a weak point, then spend Superiority on a later attack. A cautious guard may move into position, hold a chokepoint, and preserve enough Action economy for a Reaction next round. A reckless fighter may spend everything on repeated attacks and leave themselves exposed.[1][2]
 
-| Roll | Name | Effect | Treatment |
-|:---:|:---|:---|:---|
-| 1 | **Black Eye** | You are struck in the eye. You have Disadvantage on Observation (Sight) and ranged attack tests for 1 hour. | None required. |
-| 2 | **Rattling Blow** | The blow floods your vision with flashing lights. You are Stunned until the end of your next turn. | None required. |
-| 3 | **Laceration** | You suffer a laceration to the cheek. You are Bleeding. | Routine (+20) Medicine test to stop the Bleeding; bandages applied; or closes naturally after 1 hour. |
-| 4 | **Sliced Ear** | The attack slices your ear, leaving it ringing. You are Deafened until the end of your next turn and Bleeding. | Routine (+20) Medicine test to stop the Bleeding; bandages applied; or closes naturally after 1 hour. |
-| 5 | **Dislocated Jaw** | The blow strikes your face, dislocating your jaw. You are Stunned until the end of your next turn and have Disadvantage on Manipulation tests and any test relying on speech. *Injury: Broken Bone (Minor) — jaw.* | Challenging (+0) Medicine test to relocate the jaw. |
-| 6 | **Struck Forehead** | Blood runs into your eyes from a head wound. You are Blinded and Bleeding. | Challenging (+0) Medicine test to stop the Bleeding; bandages applied; or closes naturally after 1 hour. |
-| 7 | **Major Eye Wound** | You are hit in the eye, causing serious damage. You are Bleeding and have Disadvantage on Observation (Sight) tests. If you have only one eye, you are Blinded. *Injury: Broken Bone (Major) — orbital socket.* | Difficult (−10) Medicine test to treat the eye and stop the Bleeding. |
-| 8 | **Major Ear Wound** | The blow damages your ear drums severely. You are Deafened. If you suffer this result again, your hearing is permanently lost. | Difficult (−10) Medicine test to reduce swelling and inflammation. |
-| 9 | **Smashed Mouth** | The blow knocks out several teeth. You are Bleeding and must make a Challenging (+0) Fortitude test or fall Prone. *Injury: Amputation (Teeth) — lose 1d6 teeth.* | Difficult (−10) Medicine test by a character with the Chirurgeon talent. |
-| 10 | **Broken Nose** | Your nose is shattered, filling your eyes with tears. You are Bleeding (Major) and Blinded until the end of your next turn. Make a Challenging (+0) Fortitude test or also become Stunned until the end of your next turn. *Injury: Broken Bone (Major) — nose.* | Hard (−20) Medicine test using a Physician's Kit to stop the Bleeding. |
-| 11 | **Mangled Ear** | The blow tears your ear apart. You are Deafened and Bleeding (Major). Make a Challenging (+0) Fortitude test or also become Stunned until the end of your next turn. *Injury: Amputation (Ear).* | Hard (−20) Medicine test by a character with the Chirurgeon talent. |
-| 12 | **Concussive Blow** | You take a concussive blow to the head. You are Deafened, Stunned for 1 minute, and Bleeding. *Injury: Fatigued for 1d6 days regardless of rest.* | Hard (−20) Medicine test using a Physician's Kit to stop the Bleeding and restore hearing. |
-| 13 | **Devastated Eye** | A strike to your eye causes it to burst. You are Bleeding (Major) and have Disadvantage on Observation (Sight) tests. If you have only one eye, you are Blinded. *Injury: Amputation (Eye).* | Very Hard (−30) Medicine test by a character with the Chirurgeon talent. |
-| 14 | **Mangled Jaw** | The blow shatters your jaw. You are Bleeding (Major). Make a Challenging (+0) Fortitude test — on a success you are Stunned until the end of your next turn; on a failure you are Incapacitated until the end of your next turn and fall Prone. *Injury: Amputation (Teeth) — lose 1d6 teeth; Broken Bone (Major) — jaw.* | Very Hard (−30) Medicine test by a character with the Chirurgeon talent. |
-| 15+ | **Shattered Skull** | Your skull is caved in. | **You are dead.** |
+## Movement
 
-***
+Spending 1 Action allows you to move up to your Speed, which is 30 feet unless modified by ancestry, equipment, conditions, or other rules. You may split this movement before and after your other Actions on the same turn. Movement through Difficult Terrain is halved.[1]
 
-##### Arm
+You may move more than once in a turn, but repeated movement becomes exhausting. A second move in the same turn costs 1 Action and 1 Stamina. A third move costs 1 Action and 2 additional Stamina. The battlefield belongs to those who can pay the cost to take and hold position.[1]
 
-| Roll | Name | Effect | Treatment |
-|:---:|:---|:---|:---|
-| 1 | **Jolted Wrist** | You are struck in the wrist, jarring your hand. Drop any item held in that hand. | None required. |
-| 2 | **Dead Arm** | A rattling blow numbs your arm temporarily. You have Disadvantage on all tests using the arm for 1 minute. | None required. |
-| 3 | **Laceration** | You suffer a laceration to the arm. You are Bleeding. | Routine (+20) Medicine test to stop the Bleeding; bandages applied; or closes naturally after 1 hour. |
-| 4 | **Sliced Hand** | Your hand is sliced open. You are Bleeding and drop any item held in that hand. | Challenging (+0) Medicine test to stop the Bleeding; bandages applied; or closes naturally after 1 hour. |
-| 5 | **Dislocated Shoulder** | The strike dislocates your shoulder. The arm is useless until reset. At the start of each of your turns, make a Challenging (+0) Fortitude test or become Stunned until the start of your next turn. | Challenging (+0) Medicine test to reset the shoulder. |
-| 6 | **Severed Finger** | The attack tears off a finger. You are Bleeding (Major). *Injury: Amputation (Finger).* | Challenging (+0) Medicine test by a character with the Chirurgeon talent. |
-| 7 | **Clean Break** | A bone in your arm fractures. Your arm is useless and you drop anything held. Make a Challenging (+0) Fortitude test or be Stunned for one minute. *Injury: Broken Bone (Minor) — arm.* | Difficult (−10) Medicine test to treat shock. Does not treat the break. |
-| 8 | **Deep Cut** | You suffer a deep gash to your arm. You are Bleeding (Major) and have Disadvantage on all tests using the arm. | Difficult (−10) Medicine test using a Physician's Kit to stop the Bleeding. |
-| 9 | **Mangled Hand** | The blow crushes your hand. You are Bleeding (Major) and drop anything held. *Injury: Broken Bone (Major) — hand; lose 1d6−3 fingers (minimum 0). If 1 or more, suffer Amputation (Fingers).* | Difficult (−10) Medicine test by a character with the Chirurgeon talent. |
-| 10 | **Shattered Elbow** | The bones of your elbow are shattered. Your arm is useless and you drop anything held. Make a Difficult (−10) Fortitude test or be Stunned for one minute. *Injury: Broken Bone (Major) — arm.* | Hard (−20) Medicine test to treat shock. Does not treat the break. |
-| 11–12 | **Cleft Hand** | Your hand is splayed apart. You are Bleeding (Major), drop anything held, and must make a Difficult (−10) Fortitude test or be Stunned for one minute. *Injury: Amputation (Finger). Lose one additional finger for each minute untreated; lose all fingers and gain Amputation (Hand) instead.* | Hard (−20) Medicine test by a character with the Chirurgeon talent. |
-| 13–14 | **Sliced Artery** | A major artery is severed. You are Bleeding (Major), Fatigued, your arm is useless, and you drop anything held. *Injury: Fatigued for 1d6 days regardless of rest.* | Hard (−20) Medicine test using a Physician's Kit to stop the Bleeding. |
-| 15–16 | **Severed Hand** | Your hand is taken clean off. You are Bleeding (Major) and Stunned for 1 hour. *Injury: Amputation (Hand).* | Very Hard (−30) Medicine test by a character with the Chirurgeon talent. |
-| 17–19 | **Ruined Arm** | Your arm is barely attached. It is useless, you drop anything held, and you are Bleeding (Major) and Stunned for 1 hour. Any further damage to the arm triggers Brutal Dismemberment. *Injury: Amputation (Arm) — must be amputated.* | Very Hard (−30) Medicine test by a character with the Chirurgeon talent to remove the arm. |
-| 20+ | **Brutal Dismemberment** | Your arm is torn from your body. Catastrophic blood loss follows. | **You are dead.** |
+Position matters. Immediate Range governs melee engagement. Archers, slingers, and spellcasters care deeply about lines of sight, cover, and separation. A creature behind a shield wall is not the same problem as one stranded in the open, and enemies forced into a doorway may be far easier to contain than to kill outright.
 
-***
+## Attacking
 
-##### Body
+To attack, spend 1 Action and choose a valid target within range. Melee attacks require the target to be within Immediate Range. Ranged attacks require the target to be within the weapon's listed range.[1]
 
-| Roll | Name | Effect | Treatment |
-|:---:|:---|:---|:---|
-| 1 | **Winded** | The blow knocks the wind from you. You are Stunned until the end of your next turn. | None required. |
-| 2 | **Low Blow** | You are struck in a sensitive area. Make a Challenging (+0) Fortitude test or fall Prone. | None required. |
-| 3 | **Laceration** | You suffer a laceration to the body. You are Bleeding. | Routine (+20) Medicine test to stop the Bleeding; bandages applied; or closes naturally after 1 hour. |
-| 4 | **Gut Shot** | You are hit hard in the stomach. You are Bleeding and knocked Prone. | Challenging (+0) Medicine test to stop the Bleeding; bandages applied; or closes naturally after 1 hour. |
-| 5 | **Cracked Rib** | A rib cracks under the blow. You have Disadvantage on Might and Agility tests and your Speed is reduced one step. *Injury: Broken Bone (Minor) — torso.* | None required. |
-| 6 | **Hammering Blow** | The force of the blow sends you reeling. You are Stunned for 1 minute and Bleeding. | Challenging (+0) Medicine test by a character with the Chirurgeon talent. |
-| 7 | **Broken Collarbone** | Your collarbone shatters — determine randomly which side. Drop anything held on that side and suffer Disadvantage on all tests using that arm. Make a Challenging (+0) Fortitude test or be Stunned for one minute. *Injury: Broken Bone (Minor) — treated as a broken arm.* | Difficult (−10) Medicine test to treat shock. Does not treat the break. |
-| 8 | **Deep Cut** | A deep gash opens across your lower abdomen. You are Bleeding (Major) and your Speed is reduced one step. | Difficult (−10) Medicine test using a Physician's Kit to stop the Bleeding. |
-| 9 | **Fractured Hip** | The blow fractures your hip. You fall Prone, have Disadvantage on tests relying on mobility, and your Speed is reduced one step. Make a Challenging (+0) Fortitude test or be Stunned for one minute. *Injury: Broken Bone (Minor) — hip, treated as a broken leg.* | Difficult (−10) Medicine test to treat shock. Does not treat the break. |
-| 10 | **Shattered Ribs** | Multiple ribs shatter, driving bone shards into surrounding flesh. You have Disadvantage on all physical tests and your Speed is reduced two steps to a minimum of Slow. *Injury: Broken Bone (Major) — torso.* | Difficult (−10) Medicine test to treat shock. Does not treat the break. |
-| 11 | **Punctured Lung** | The attack punctures your lung. You gain the Fatigued and Bleeding (Minor) conditions. *Injury: Difficult (−10) Medicine test by a character with the Chirurgeon talent required to repair tissue and remove Fatigued.* | Difficult (−10) Medicine test to stop the Bleeding. |
-| 12–13 | **Sliced Artery** | A major artery is severed. You are Bleeding (Major), Fatigued, have Disadvantage on tests relying on mobility, your Speed is reduced one step, and you fall Prone. *Injury: Fatigued for 1d6 days regardless of rest.* | Hard (−20) Medicine test using a Physician's Kit to stop the Bleeding. |
-| 14–15 | **Flayed Flesh** | A chunk of flesh is torn from your torso, exposing bone and organs. You are Bleeding (Major), Prone, and Stunned for 1 hour. *Injury: Difficult (−10) Medicine test by a character with the Chirurgeon talent required to repair tissue.* | Very Hard (−30) Medicine test by a character with the Chirurgeon talent. |
-| 16–17 | **Injured Spine** | You suffer a serious injury to your spine. You are Bleeding (Major) and Prone. *Injury: Broken Bone (Major) — spine.* | Very Hard (−30) Medicine test by a character with the Chirurgeon talent. |
-| 18+ | **Torn Apart** | You are split open. Characters within Close range are drenched in blood and gore. | **You are dead.** |
+### Melee Attacks
 
-***
+Melee attacks are resolved as Opposed Fighting Tests. Both attacker and defender make a Fighting Test, applying any relevant weapon Specialisation. If the defender is not wielding a melee weapon or shield, they make this Test with Disadvantage. Instead of opposing with Fighting, the defender may use Reflexes (Dodge) to avoid the blow. Opposing a melee attack in either fashion does not require a Reaction, but it does cost 1 Stamina.[1]
 
-##### Leg
+If the target does not oppose the attack, the attacker gains Advantage. If the attacker wins the Opposed Test, they deal Stress equal to the weapon's rating plus the difference in Success Levels. The defender does not deal Stress if they win, unless they score a Critical.[1]
 
-| Roll | Name | Effect | Treatment |
-|:---:|:---|:---|:---|
-| 1 | **Twisted Ankle** | You twist your ankle and stumble. You fall Prone. | None required. |
-| 2 | **Dead Leg** | A rattling blow numbs your leg temporarily. Your Speed is reduced one step for 1 minute. | None required. |
-| 3 | **Laceration** | You suffer a laceration to the leg. You are Bleeding. | Routine (+20) Medicine test to stop the Bleeding; bandages applied; or closes naturally after 1 hour. |
-| 4 | **Sliced Calf** | Your calf is sliced open. You are Bleeding and fall Prone. | Challenging (+0) Medicine test to stop the Bleeding; bandages applied; or closes naturally after 1 hour. |
-| 5 | **Dislocated Knee** | The strike dislocates your knee. You have Disadvantage on tests relying on mobility and your Speed is reduced one step. At the start of each of your turns, make a Challenging (+0) Fortitude test or become Stunned until the start of your next turn. | Challenging (+0) Medicine test to reset the knee. |
-| 6 | **Severed Toe** | The attack tears off a toe. You are Bleeding (Major). *Injury: Amputation (Toe).* | Challenging (+0) Medicine test by a character with the Chirurgeon talent. |
-| 7 | **Clean Break** | A bone in your leg fractures. Your leg is useless, you fall Prone, have Disadvantage on tests relying on mobility, and your Speed is reduced one step. Make a Challenging (+0) Fortitude test or be Stunned for one minute. *Injury: Broken Bone (Minor) — leg.* | Difficult (−10) Medicine test to treat shock. Does not treat the break. |
-| 8 | **Deep Cut** | A deep gash opens on your leg. You are Bleeding (Major) and have Disadvantage on tests using the leg, such as climbing or jumping. | Difficult (−10) Medicine test using a Physician's Kit to stop the Bleeding. |
-| 9 | **Mangled Foot** | The blow crushes your foot. You are Bleeding (Major), fall Prone, and your Speed is reduced one step. *Injury: Broken Bone (Major) — foot; lose 1d6−3 toes (minimum 0). If 1 or more, suffer Amputation (Toes).* | Difficult (−10) Medicine test by a character with the Chirurgeon talent. |
-| 10 | **Shattered Knee** | The bones of your knee are shattered. Your leg is useless, you fall Prone, your Speed is reduced one step, and you have Disadvantage on tests relying on mobility. Make a Difficult (−10) Fortitude test or be Stunned for one minute. *Injury: Broken Bone (Major) — leg.* | Hard (−20) Medicine test to treat shock. Does not treat the break. |
-| 11–12 | **Cleft Foot** | Your foot is splayed apart. You are Bleeding (Major), fall Prone, and must make a Difficult (−10) Fortitude test or be Stunned for one minute. *Injury: Amputation (Toe). Lose one additional toe for each minute untreated; lose all toes and gain Amputation (Foot) instead.* | Hard (−20) Medicine test by a character with the Chirurgeon talent. |
-| 13–14 | **Sliced Artery** | A major artery is severed. You are Bleeding (Major), Fatigued, have Disadvantage on tests relying on mobility, your Speed is reduced one step, and you fall Prone. *Injury: Fatigued for 1d6 days regardless of rest.* | Hard (−20) Medicine test using a Physician's Kit to stop the Bleeding. |
-| 15–16 | **Severed Foot** | Your foot is taken clean off. You are Bleeding (Major), Prone, and Stunned for 1 hour. *Injury: Amputation (Foot).* | Very Hard (−30) Medicine test by a character with the Chirurgeon talent. |
-| 17–19 | **Ruined Leg** | Your leg is barely attached. It is useless, you fall Prone, your Speed is reduced one step, and you have Disadvantage on tests relying on mobility. You are Bleeding (Major) and Stunned for 1 hour. Any further damage to the leg triggers Brutal Dismemberment. *Injury: Amputation (Leg) — must be amputated.* | Very Hard (−30) Medicine test by a character with the Chirurgeon talent to remove the leg. |
-| 20+ | **Brutal Dismemberment** | Your leg is torn from your body. Catastrophic blood loss follows. | **You are dead.** |
+After a successful attack, use the Complication Die to determine hit location:
 
-***
+| Result | Location |
+|---|---|
+| 1–2 | Head |
+| 3 | Left Arm |
+| 4 | Right Arm |
+| 5–6 | Left Leg |
+| 7–8 | Right Leg |
+| 9–12 | Body |
 
-#### Dying
+Reduce the Damage by the target's Armour at that location. The remaining Stress is suffered against Vitality.[1]
 
- The World is a dangerous place and death is an inevitability. There are a number of ways you can die:
+### Ranged Attacks
 
-- If your untreated Critical Wounds exceeds your 2×Constitution, you succumb to your injuries and die at the end of the round.   
-- If you are Unconscious, anyone within Immediate Range with a weapon that does not have the Ineffective Trait can use an Action to kill you without making a Test.   
-- Certain results on the Critical Wounds Tables cause immediate death.
+Ranged attacks are made with a Challenging (+0) Fighting Test unless another rule modifies the difficulty. The GM should apply the normal situational modifiers for cover, concealment, visibility, movement, and range as appropriate. A hidden attacker who successfully strikes inflicts a Critical Hit.[1]
 
-**Rushed Attacks**. A character may attack more than once on their turn:  
-Each attack beyond the first is a Rushed Attack and imposes 1 instance of disadvantage (-1d) and spends an extra Stamina.
+### Rushed Attacks
 
-### Move
+A character may attack more than once during their turn. Each attack after the first is a Rushed Attack. Every Rushed Attack imposes one instance of Disadvantage and costs an additional point of Stamina. Repeated blows can overwhelm an enemy, but wild aggression quickly burns through endurance and leaves openings.[1]
 
-Spending 1 Action to Move allows you to:  
-Move up to your speed (base 30 ft. unless otherwise noted).  
-Split your movement before and after other Actions.  
-Move a second time on the same turn by spending 1 Action and 1 Stamina.  
-Move a third time on the same turn by spending 1 Action and 2 additional Stamina.  
-Movement speed is halved in Difficult Terrain.
+## Assess
 
-### Cast a Spell
+A character may spend 1 Action to Assess the battlefield and gain a tactical advantage. This is one of the most important Actions in a well-run combat, as it turns observation into leverage.[1]
 
-To cast a spell, you must:  
-Have at least one hand holding a spellcasting focus.  
-Be able to speak clearly.  
-Make a spell casting Skill roll   
-Spend Resolve ……..
+Typical uses of Assess include:
 
-### Assess
+- Identifying an enemy's vulnerability, resistance, or weakness.
+- Predicting enemy intentions or tactics for the next round.
+- Revealing hazards, exits, or unstable terrain.
+- Discovering an advantageous position, avenue of retreat, or hidden threat.[1]
 
-A character may spend an Action to gather information or gain a tactical advantage.  
-Typical uses include:  
-Identifying an enemy's vulnerability, damage resistance, or weakness.  
-Predicting enemy intentions or tactics for the next round.  
-Revealing environmental hazards or advantageous positions.  
-The GM selects the most appropriate skill and CT for the situation (see section 2.2).
+The GM selects the most appropriate Skill and Challenge Threshold. Observation may reveal a weakly armoured seam. Tactics may predict a cavalry feint. Survival may identify unstable ground. Academia or Occult skill may recognise a magical defence. Information gained from Assess should matter in the fiction and frequently justifies the use or gain of Superiority.[1][2]
 
-### Desperate Actions
+## Casting Spells
 
-Desperate Actions are additional actions granted by certain Traits. Unless a Trait specifies otherwise, Desperate Actions are taken on a character's own turn. A character may use any number of distinct Desperate Actions in addition to their regular Actions each turn. Once a Desperate Action has been used, the character must complete a Rest before using that same Desperate Action again.
+To cast a spell, you must be able to satisfy the spell's practical requirements. At minimum, you must have at least one hand holding a spellcasting focus, be able to speak clearly, make the relevant spellcasting Skill roll, and spend the required Resolve.[1]
+
+Combat places pressure on spellcasters. Being cornered, silenced, Staggered, or forced to choose between movement and concentration can be as dangerous as a drawn blade. The GM should enforce the fiction of spellcasting honestly; a wizard trapped in mud with a broken jaw should not cast as freely as one standing behind a disciplined shield line.[1]
+
+## Superiority in Combat
+
+Superiority is a shared party resource representing momentum, preparation, tactical leverage, and the enemy's growing loss of control. It is tracked against a specific enemy or group; intelligence or planning against one foe grants no benefit against another.[2]
+
+Each turn, any character may spend the party's current Superiority to add a bonus equal to its current value to a single Skill Check of their choice. This bonus may be applied only once per turn and resets at the start of the next. Because this can affect any relevant Skill Check, Superiority may empower an attack, a Dodge, an Assess action, a spellcasting roll, a manoeuvre, or a desperate attempt to force a breakthrough.[2]
+
+### Gaining Superiority Before Combat
+
+Before battle, the party may build up to +3 Superiority through preparation.
+
+**Know Thy Foe.** Learning vital, exploitable information about the enemy grants +1 Superiority. It is not enough to know what weapons they carry. The information must reveal something that materially changes how the party can fight them.[2]
+
+**Know Thy Battlefield.** Understanding the field of battle grants +1 Superiority. This includes seizing high ground, identifying choke points, learning environmental traits, locating good ambush positions, or discovering an unexpected route.[2]
+
+**Know Thy Players.** Clever, unorthodox, or especially apt planning may grant +1 Superiority at the GM's discretion. Reward plans that change the shape of the coming fight, not merely those that restate obvious good sense.[2]
+
+### Gaining and Losing Superiority During Combat
+
+Superiority may increase during combat when the party breaks the enemy's cohesion or confidence. The party gains Superiority for:
+
+- Defeating the enemy leader.
+- Defeating an enemy elite.
+- Defeating a number of troops in a single turn equal to or greater than their Resolve.[2]
+
+The party loses 1 Superiority each time one of the following occurs:
+
+- The first time each party member receives a Critical Wound.
+- A party member is defeated.
+- The party is caught off-guard by unexpected reinforcements or a sudden shift in the battlefield.[2]
+
+This makes Superiority a measure not only of confidence but of battlefield initiative. A side that presses every advantage gains the courage to keep pressing. A side that bleeds unexpectedly loses control of the fight.
+
+## Resolve and Desperate Enemies
+
+Every NPC has a Resolve score representing their willingness to continue fighting. The GM should treat listed Resolve as a baseline and adjust it to circumstances. Followers often use the Resolve of their leader if one is present. Defenders on home ground may have +1 Resolve. Enemies who stand to gain little may have Resolve reduced by 1. A creature reduced to Resolve 0 has no interest in fighting except perhaps to defend honour or escape immediate danger.[2]
+
+When the party's Superiority exceeds an NPC's Resolve at the start of that NPC's turn, that NPC becomes Desperate unless the GM rules otherwise. Desperate applies only to NPCs. A Desperate enemy knows the field is turning against them and seeks a way out.[2]
+
+A Desperate enemy does not always flee. The GM should choose the response that best fits the creature and the fiction:
+
+- **Flee** if withdrawal is possible.
+- **Surrender** if surrender offers a chance of survival.
+- **Charge** if escape is impossible and the enemy has nothing left to lose.[2]
+
+Once enemies become Desperate, the GM should begin bringing the combat toward a conclusion. The outcome is usually decided unless something dramatic changes the situation.[2]
+
+## Injury, Vitality, and Critical Wounds
+
+Combat in this system is dangerous because even a single solid strike may change the shape of the battle, and a Critical Hit or heavy blow can cause life-changing injury. Damage is suffered against Vitality after Armour reduces it at the struck location. When Physical Stress would exceed your Maximum Vitality, you suffer a Critical Wound.[1]
+
+To determine a Critical Wound, identify the hit location and roll 1d12 plus the excess Damage. Consult the Critical Wound table for that location and apply the listed effects. These results may Stun, Blind, Maim, cause Bleeding, render limbs useless, or kill outright.[1]
+
+A Critical Hit also inflicts a Critical Wound even if the target has not exceeded Maximum Vitality. Critical Hits occur when you roll a Critical on your attack Test or when you successfully attack while hidden.[1]
+
+The combat chapter's location tables remain in use exactly as written. They are a core expression of the game's brutality and should not be softened in play. A battle is not merely a subtraction of hit points; it is the loss of eyes, hands, footing, breath, and nerve.[1]
+
+## Dying
+
+Death may come quickly on the battlefield. A character dies if their untreated Critical Wounds exceed twice their Constitution at the end of the round. An Unconscious character within Immediate Range may be killed outright by a foe with a weapon that does not have the Ineffective trait, spending 1 Action and requiring no Test. Some Critical Wound results cause immediate death.[1]
+
+Because death can arrive through injury, execution, or catastrophic wounds, combat should always feel consequential. Victory matters, but the manner of victory matters too. A routed enemy may be preferable to a last stand if the alternative is a friend bleeding out on the flagstones.
 
 ## Reactions
 
-Reactions are special actions taken outside your own turn.  
-Each Reaction costs 1 Action from your next turn's pool.  
-Each Reaction costs 1 Stamina  
-Each type of Reaction can be used at most once per round.  
-Actions spent on Reactions are deducted from your pool at the start of your next turn.  
+Reactions are actions taken outside your own turn in response to a trigger. Each Reaction costs 1 Action from your next turn's pool and 1 Stamina. Each type of Reaction may be used at most once per round. Actions spent on Reactions are deducted at the start of your next turn.[1]
 
-<!---
-#### Defend  
-When you are hit by an attack, you may use Defend to:  
-Dodge   
-Parry  
---->
+Reactions make combat feel simultaneous. A fighter's turn does not represent a sealed pocket of time; others may intervene, exploit, or protect within the flow of the round.
 
-#### Interpose  
-When a creature within 10 ft. would be hit by an attack, you may:  
-Move into their space, push them to an adjacent space of your choice, and become the new target of the attack.  
-Interpose and Defend may be combined on the same triggering attack, provided you have sufficient Actions. Each remains limited to once per round.  
-#### Opportunity Attack  
-When an adjacent enemy willingly moves away from you, you may:  
-Make a melee attack against them with disadvantage.  
-#### Help  
-When an ally makes a roll, you may:  
-Grant them advantage (+1d)  by describing a plausible way you assist.  
-The GM may call for a skill check or grant advantage automatically, depending on the quality and plausibility of the assist. Only one Help reaction can apply to any given roll.  
+### Interpose
+
+When a creature within 10 feet would be hit by an attack, you may move into their space, push them to an adjacent space of your choice, and become the new target of the attack. Interpose and Defend may be combined on the same triggering attack if you have sufficient Actions available, though each remains limited to once per round.[1]
+
+### Opportunity Attack
+
+When an adjacent enemy willingly moves away from you, you may make a melee attack against them with Disadvantage. This is often enough to discourage careless withdrawal and gives front-line combatants meaningful control over space.[1]
+
+### Help
+
+When an ally makes a roll, you may assist by describing a plausible intervention. If the GM accepts the help, your ally gains Advantage. The GM may require a supporting Skill Check or may grant the benefit automatically if the assistance is clear and effective. Only one Help Reaction can apply to any given roll.[1]
+
+## Desperate Actions
+
+Some Traits grant Desperate Actions. These are additional actions taken on your turn unless a Trait states otherwise. A character may use any number of distinct Desperate Actions in addition to their regular Actions each turn. Once a specific Desperate Action has been used, it cannot be used again until the character completes a Rest.[1]
+
+Desperate Actions are exceptional capabilities, not a substitute for basic tactics. They work best when used at the moment a fight tips, not as the default opening move in every skirmish.
+
+## Running Combat Well
+
+Combat is at its best when the GM treats it as a struggle over intent, ground, and morale rather than as stationary exchange of blows. Ask what each side is trying to achieve. Reward preparation. Let Assess reveal useful truths. Make terrain matter. Track Superiority openly enough that players can feel when the battle is turning.[1][2]
+
+Do not wait for every enemy to die if the fiction no longer supports resistance. If the party's Superiority has broken enemy Resolve, let the survivors flee, surrender, or launch one final mad effort. Likewise, do not force every violent scene into full combat. A single decisive ambush, a threatened captive, or a mob scattering before cavalry may require only one or two Checks and a ruling.[3][2]
+

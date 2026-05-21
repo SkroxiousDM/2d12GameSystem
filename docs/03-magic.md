@@ -137,10 +137,10 @@ Magic in relies upon set skills. Which skill a spell or ritual requires depends 
 While a character with one or more of these focuses may possess knowledge useful for dealing with the occult, having such a focus does not in itself indicate an ability to cast spells. To cast battlefield spells, a character needs a talent with the Spellcaster keyword, although rituals do not have that same requirement.
 
 ### POWER  
-When your character casts a spell or performs a ritual, you may be required to roll d4 to inflict harm or complete a ritual step. All spellcasters have a power rating— often simply called power—which indicates the number of d4 a player rolls when their character casts a spell or performs part of a ritual. A character’s power rating is equal to their base power rating plus their bonus d4 for the attribute they use to cast spells.  
+When your character casts a spell or performs a ritual, you may be required to roll d3 to inflict harm or complete a ritual step. All spellcasters have a power rating— often simply called power—which indicates the number of d3 a player rolls when their character casts a spell or performs part of a ritual. A character’s power rating is equal to their base power rating plus their bonus d3 for the attribute they use to cast spells.  
 - A traditional spellcaster has a base power rating of 2 and receives a bonus based on their Insight attribute, as their techniques favor wisdom and instinctual understanding.  
 - A research spellcaster has a base power rating of 2 and receives a bonus based on their Reason attribute, as they favor study and analysis over spirituality.  
-- A dabbling spellcaster has a base power rating of 1 , but they can increase that to 3 whenever they roll a dice pool in exchange for generating 1 Doom. They receive a bonus based on their Will attribute, as raw mental strength and self-confidence empower their magic.  
+- A dabbling spellcaster has a base power rating of 1 , but they can increase that to 3 whenever they roll a magic test in exchange for generating 1 Doom. They receive a bonus based on their Will attribute, as raw mental strength and self-confidence empower their magic.  
 
 Some talents and other abilities may increase a spellcaster’s power rating in certain circumstances.
 
@@ -156,9 +156,9 @@ If your character successfully casts a spell or ritual that deals harm , resolve
 
 Skilled practitioners of magic wield their spells and rituals with deftness and precision, leveraging their skill and knowledge to achieve heightened results. Some spell and ritual descriptions specify ways to use Success Levels generated during casting. In addition, spellcasters and ritualists can spend Success Levels on the following spell and ritual-related Success Levels options:
 
-- Cost Resistance: For each Success Levels spent, gain \+1 Morale resistance against the spell or ritual’s cost (the mental harm it inflicts on the caster).
-- Bonus harm: For each Success Levels spent, add \+1 to the harm the spell or ritual inflicts on its targets.  
-- Duration Increase: For 2 Success Levels, double the duration of any spell or ritual with a duration that isn’t “instant.”
+- **Cost Resistance**: For each Success Levels spent, gain \+1 Morale resistance against the spell or ritual’s cost (the mental harm it inflicts on the caster).
+- **Bonus harm**: For each Success Levels spent, add \+1 to the harm the spell or ritual inflicts on its targets.  
+- **Duration Increase**: For 2 Success Levels, double the duration of any spell or ritual with a duration that isn’t “instant.”
 
 ## Battlefield Magic
 
@@ -190,7 +190,7 @@ Each battlefield spell is defined using the following format and terms:
 - **Skill**: The skill listed in a spell’s profile is the one used on skill tests to cast the spell. The attribute for the skill test depends on the character’s spellcasting type.
 - **Difficulty**: This section of a spell profile lists the difficulty of skill tests to cast the spell. If the spell’s skill test is an opposed test, that is also specified in this section. On an opposed test to cast a spell, the resisting character’s skill test uses the spell’s difficulty. The attribute and skill the resisting character must use are specified in this section as well.
 - **Cost**: Each battlefield spell has an associated cost that the spellcaster pays when casting it. This cost takes the form of mental damage inflicted on the spellcaster. The stress dealt to the spellcaster as a result is reduced by their Courage resistance \+ Morale resistance, as usual. This cost is applied after the spellcaster resolves the skill test to cast the spell, and it applies whether or not they successfully cast the spell.
-- **Duration**: All spells last for their stated duration. Most  spells have a duration of instant (the spell’s effects take place  immediately, and the spell ends). Others last a number of  rounds (ending after a set number of rounds, or at the end of the  current round), until the end of the current scene, or a number  of hours. A spellcaster may choose to end a spell early as a minor  action, but otherwise, the spell lasts until the end of its stated  duration or until the spellcaster suffers an injury or is otherwise  forcibly distracted (normally requiring the creation of a truth).
+- **Duration**: All spells last for their stated duration. Most  spells have a duration of instant (the spell’s effects take place  immediately, and the spell ends). Others last a number of  rounds (ending after a set number of rounds, or at the end of the  current round), until the end of the current scene, or a number  of hours. A spellcaster may choose to end a spell early as a minor  action, but otherwise, the spell lasts until the end of its stated  duration or until the spellcaster suffers an injury or is otherwise  forcibly distracted.
 - **Category**: This section lists a spell’s category (see Spell  Categories, below). A spell might have more than one category,  usually because it has more than one potential spell effect.
 - **Spell Effect**: This section lists a spell’s consequences. It also  provides information about who or what the spell can target,  and it may list uses for Success Levels that expand or enhance the  spell effect.
 - **Flawed**: Not all spell profiles have this section; those that do  specify adjustments to make when a character attempts to cast  a flawed version of the spell.

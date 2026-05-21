@@ -143,6 +143,18 @@ Some tasks are too complex or time-consuming to resolve with a single Check. If 
 - **Track Progress.** Each attempt adds or subtracts Levels of Success from a running total. A successful Check always contributes at least +1, and a failed Check always deducts at least 1. The task is complete when the running total meets or exceeds the threshold. If the total falls below 0 at any point, or if the deadline passes before the threshold is reached, the task fails. The GM determines at what point the failure occurred, what was accomplished before it, and what resources were lost in the attempt.
 
 
+### Success at a Cost
+
+Some tasks cannot simply fail — instead, success may be possible only by accepting a consequence. When the GM permits, you may treat a failed skill test as a success at a cost. Under this option, a failed roll still achieves the test's objective, but the character automatically suffers one complication in addition to any complications produced by the dice results.
+
+A success gained this way is mechanically successful but cannot be improved with Fortune. You may spend Fortune on a skill test only if the test succeeded on the dice roll itself.
+
+### Buying off Complications
+
+When you receive a complication, you may cancel it by buying it off. To buy off a complication, add 2 points of Doom to the GM’s Doom pool — trading a problem now for a potential problem later. If you decline to buy off a complication and the GM cannot find an appropriate complication to impose, the GM may instead add 2 Doom to their pool.
+
+If a non-player character (NPC) suffers a complication, the GM may spend 2 Doom from their Doom pool to buy off the complication, cancelling it and removing 2 Doom from the pool.
+
 ``` 
 you can add a code block for comments by typing
 \```

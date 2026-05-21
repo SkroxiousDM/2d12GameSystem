@@ -13,9 +13,9 @@ You may spend Fortune to turn circumstances to your advantage. When you Spend Fo
 
 * Reroll a failed Test. This can be used after a Push  
 * Gain Advantage on a Test before it is rolled. This can be used multiple times on a single test. The second costs 2 Fortune and the third costs 6 Fortune  
-* Add \+1 SL to a Test after it is rolled. This can be used multiple times on a single test.  
+* Add \+1 SL to a Test after it is successfully rolled. This can be used multiple times on a single test.  
 * At the start of the round, choose when to act in that round, ignoring Initiative.  
-* Ignore all effects from all Critical Wounds until the beginning of your next turn, including Conditions and injuries.  
+* Ignore all effects from all Critical Wounds until the beginning of your next turn, including Conditions and injuries. 
 * Remove one Condition; if you removed the Prone Condition, you regain 1 Vitality.
 
 ## Fate

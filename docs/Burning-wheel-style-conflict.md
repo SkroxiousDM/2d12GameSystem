@@ -322,9 +322,9 @@ Guard measures immediate ability to stay in the conflict.
 
 ### Wounds
 When damage is taken while at 0 Guard, mark a Wound:
-- **Bruised**: -1 die to physical or social exertion of the appropriate type.
-- **Hurt**: -1 die to all conflict rolls.
-- **Broken**: -2 dice and cannot Commit.
+- **Bruised**: Disad1 to physical or social exertion of the appropriate type.
+- **Hurt**: Disad1 to all conflict rolls.
+- **Broken**: Disad2 and cannot Commit.
 - **Out**: removed from the conflict.
 
 You may also suffer a Wound from:
@@ -342,7 +342,7 @@ Suggested minor conditions:
 - Shaken
 - Bleeding
 
-A minor condition usually gives -1 die until cleared.
+A minor condition usually gives Disad1 until cleared.
 
 ## Concessions and end states
 

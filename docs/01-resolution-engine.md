@@ -27,7 +27,8 @@ All uncertain actions, including attacks, skill checks, and certain spell uses, 
 >
 >Skill rolls will always be made with at least 2d12<br/>
 >
->Damage rolls and some rolls on tables will use the others.<br/>
+>Damage rolls and some rolls on tables will use the others.
+> [damage rolls {***N***d3-***N***} can also be made with FATE/Fudge dice using ***N***d3  where "-" = 1, "+" = 2 and "blank" = 0 ]<br/>
 
 #### Rolling the Dice
 

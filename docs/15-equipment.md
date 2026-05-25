@@ -265,7 +265,7 @@ Weapon damage is a single integer **N** printed on each item's row. To resolve d
 
 1. **Take the weapon's Damage rating N.**
 2. **Add the difference in Success Levels (SL)** between the attacker's roll and the defender's (or against the test's Difficulty if there is no opposing roll).
-3. **Roll that many d3 and subtract the same number.** A final damage value of **N** is resolved as **NdN-N** (so Damage 4 = 4d3-4, Damage 6 = 6d3-6, and so on).
+3. **Roll that many d3 and subtract the same number.** A final damage value of **N** is resolved as **Nd3-N** (so Damage 4 = 4d3-4, Damage 6 = 6d3-6, and so on).
 4. **Apply the relevant attribute bonus** (Might for melee, Insight for ranged, Willpower for mental — per Ch 4) as a flat addition to the total **after** the dice are rolled.
 5. **Reduce the result by the target's Armour** at the struck hit location.
 6. The remainder is suffered as Physical Stress against Vitality (Ch 11).

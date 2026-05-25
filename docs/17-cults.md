@@ -1,6 +1,6 @@
 # Cults
 
-###The Anointed One  
+### The Anointed One  
 (also: Jesus, Christ, the Saviour, the Lamb of God) 
 
 The Son of God, Promising an Eternal Afterlife 

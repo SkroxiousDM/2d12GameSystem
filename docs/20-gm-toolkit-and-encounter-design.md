@@ -90,7 +90,7 @@ An encounter should usually have **at least two role types**. A scene of nine Mo
 
 For most adversaries, do not build a character. Use the line below and adjust.
 
-> **(Name), (role).** Attribute pool: choose a primary at 4–6, a secondary at 3, others 1–2. Skill pool: two skills at 2 ranks, one at 3. Vitality and Resolve: 3 + primary attribute + Tier. Defense: 2 + Tier. Damage rating N: 2 + Tier (resolved (N + SL)d3 − (N + SL) + primary attribute, per Ch 15 Damage Resolution). Special: one signature ability described in plain text.
+> **(Name), (role).** Attribute pool: choose a primary at 4–6, a secondary at 3, others 1–2. Skill pool: two skills at 2 ranks, one at 3. Vitality and Resolve: 3 + primary attribute + Tier. Defence: 2 + Tier. Damage rating N: 2 + Tier (resolved (N + SL)d3 − (N + SL) + primary attribute, per Ch 15 Damage Resolution). Special: one signature ability described in plain text.
 
 **Tier** is a single number representing the adversary's general lethality.
 

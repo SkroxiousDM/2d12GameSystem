@@ -38,7 +38,7 @@ Wealthy provincials of Tarraconensis, Baetica, and Lusitania — owners of olive
 
 Backcountry hillmen of what is now western Iberia — shepherds, raiders, and seasonal labourers on Hispano-Roman estates. Their pre-Roman gods are remembered in dolmen-shadowed shrines that Christian bishops grumble about for centuries.
 
-- *Attribute Points:* STR +1, CON +1, AGI +1, INS +1
+- *Attribute Points:* MIG +1, CON +1, AGI +1, INS +1
 - *Culture Talent:* **Slinger's Birthright** — Gain advantage on Fighting (Thrown Weapons) tests with sling or javelin.
 - *Historical Lens:* Lusitanians were famous slingers in earlier Roman armies and still supplied auxiliary troops. Languages: Vulgar Latin, vestigial Lusitanian (Celtic / Para-Celtic). Deities: Endovelicus (oracular healer), Ataecina (chthonic moon), Bandua (war/treaties). Lasting influence: pastoral transhumance routes preserved into the medieval *cañadas*.
 
@@ -46,7 +46,7 @@ Backcountry hillmen of what is now western Iberia — shepherds, raiders, and se
 
 The southern islanders after the legions departed in 410 — town councillors of Calleva and Cirencester, hill-fort kings, monk-scholars in seaside scriptoria. They keep Latin as a written tongue, speak Brittonic at home, and watch the Saxon shore with growing dread ([Tastes of History — Pict or Scot](https://www.tastesofhistory.co.uk/post/pict-or-scot-who-s-who)).
 
-- *Attribute Points:* INS +1, REA +1, AWA +1, WIL +1
+- *Attribute Points:* INS +1, REA +1, INS +1, WIL +1
 - *Culture Talent:* **Last Light of Rome** — Once per session, when narrating, citing precedent, or invoking lost authority, gain advantage on a Manipulation or Academia test.
 - *Historical Lens:* Sub-Roman Britain (c. 410–550) saw fragmented kingdoms (Dumnonia, Powys, Gwynedd, Elmet) maintaining late-Roman material culture while gradually losing literacy. Languages: Brittonic (ancestor of Welsh, Cornish, Breton), Latin. Deities: Sulis (Bath), Nodens (Lydney), Coventina, Belatucadrus, increasingly the Christian saints. Lasting influence: the Arthurian matter, the *civitas*-to-kingdom transition, Breton colonisation of Armorica.
 
@@ -54,7 +54,7 @@ The southern islanders after the legions departed in 410 — town councillors of
 
 Tattooed folk of the northern firths — confederated tribes north of the Forth and Clyde, fielding cavalry, longships, and symbol-stones whose meaning is still argued over. They never spoke Gaelic; their tongue was a P-Celtic relative of British, perhaps with a non-Indo-European substrate ([Pictavia Leather — The Picts](https://www.pictavialeather.co.uk/post/the-picts-when-and-where-a-timeline)).
 
-- *Attribute Points:* STR +1, CON +1, AGI +1, AWA +1
+- *Attribute Points:* MIG +1, CON +1, AGI +1, INS +1
 - *Culture Talent:* **Symbol-Marked** — Your tattoos and carved tokens function as letters of safe-conduct among other Pictish bands; gain advantage on first-contact Charisma tests with northern peoples.
 - *Historical Lens:* The Picts emerge in the historical record c. 297 and dominate the north until merging with the Gaels into Alba in the 9th century. Languages: Pictish (P-Celtic), later Gaelic; some scholars argue for a non-Celtic substrate. Deities: largely lost; symbol-stones suggest bull, eagle, and salmon cults. Lasting influence: the Pictish symbol-stone tradition, the kingdom of Alba.
 
@@ -62,7 +62,7 @@ Tattooed folk of the northern firths — confederated tribes north of the Forth 
 
 Sea-raiding folk of Dál Riata — by AD 500 they have crossed the Irish Sea and planted a kingdom in Argyll. Half their year is spent on the water; their tongue, Old Irish, replaces Pictish across the northern half of Britain over the following centuries.
 
-- *Attribute Points:* STR +1, AGI +1, CHA +1, WIL +1
+- *Attribute Points:* MIG +1, AGI +1, CHA +1, WIL +1
 - *Culture Talent:* **Sea-Raider** — Gain advantage on Survival (Boating) tests and on Fighting tests during a boarding action or beach assault.
 - *Historical Lens:* The Dál Riatans were the first non-Roman Christians to colonise British soil. Languages: Old Irish (Q-Celtic), Latin among monastics. Deities: Lugh, Brigid (soon Saint Brigid), Manannán mac Lir, the *síde*. Lasting influence: the name "Scotland," the Iona-Lindisfarne monastic network, the Gaelic poetic tradition.
 
@@ -70,7 +70,7 @@ Sea-raiding folk of Dál Riata — by AD 500 they have crossed the Irish Sea and
 
 A North-Sea warrior come to Britain as federate, raider, or colonist — variously called Saxon, Angle, or Jute depending on the homeland. He fights on foot with spear and seax, swears oaths in mead-halls, and burns or buries his dead with bead and brooch.
 
-- *Attribute Points:* STR +1, CON +1, WIL +1, MIG +1
+- *Attribute Points:* MIG +1, CON +1, WIL +1, MIG +1
 - *Culture Talent:* **Shield-Wall** — When fighting in formation with at least one ally adjacent, gain +1 Defence against melee attacks.
 - *Historical Lens:* Adventus Saxonum traditionally dated 449; by 550 the eastern third of Britain is a patchwork of Germanic-ruled hides. Languages: Old English (Ingvaeonic West Germanic). Deities: Woden, Thunor, Tiw, Frige, Eostre. Lasting influence: the English language and the day-names of the week.
 
@@ -78,7 +78,7 @@ A North-Sea warrior come to Britain as federate, raider, or colonist — various
 
 Hard-handed warriors of the lower Rhine, bound by their long hair and their oaths to the Merovingian house. By 500 they are masters of northern Gaul; by 550 they rule from the Loire to the Rhine and have made themselves the first Catholic Germanic kingdom in the West ([Merovingian dynasty — Wikipedia](https://en.wikipedia.org/wiki/Merovingian_dynasty)).
 
-- *Attribute Points:* STR +1, CON +1, MIG +1, CHA +1
+- *Attribute Points:* MIG +1, CON +1, MIG +1, CHA +1
 - *Culture Talent:* **Throwing-Axe** — Once per combat, you may hurl an axe (*francisca*) as a free action before closing into melee. Treat as Thrown Weapon, Severity 2.
 - *Historical Lens:* Clovis's conversion (c. 496/508) to Nicene Christianity gave the Franks the backing of the Gallo-Roman bishops against their Arian neighbours. Languages: Old Frankish (West Germanic), Vulgar Latin (which they ultimately adopted south of the Loire). Deities: pre-conversion Wodan, Donar, *Frōja*; post-conversion the Catholic saints. Lasting influence: the kingdom of France itself, Salic Law, Merovingian church architecture.
 
@@ -86,7 +86,7 @@ Hard-handed warriors of the lower Rhine, bound by their long hair and their oath
 
 A people who crossed the Rhine in 406, were broken by Huns in 437 (a disaster remembered in the *Nibelungenlied*), and resettled by Aetius in Savoy. By 500 their kings rule a courtly Romanised polity around Lyon and Geneva, producing the *Lex Burgundionum* for their warriors and the *Lex Romana Burgundionum* for their subjects.
 
-- *Attribute Points:* STR +1, CON +1, REA +1, WIL +1
+- *Attribute Points:* MIG +1, CON +1, REA +1, WIL +1
 - *Culture Talent:* **Twofold Law** — When negotiating between a Roman provincial and a Germanic warrior, you may invoke either code; gain advantage on the resulting Manipulation test.
 - *Historical Lens:* Burgundians were Arian Christians who tolerated their Catholic subjects and intermarried freely with Gallo-Roman aristocracy. Languages: East Germanic Burgundian (extinct by 600), Vulgar Latin. Deities: largely Christianised. Lasting influence: the region and duchy of Burgundy, French wine country.
 
@@ -94,7 +94,7 @@ A people who crossed the Rhine in 406, were broken by Huns in 437 (a disaster re
 
 Federate warriors turned kings of Toulouse and (after 507) of Toledo. They are Arian Christians, literate in Gothic thanks to Ulfilas's bible, and surprisingly devoted to written law: the *Codex Euricianus* and the *Breviary of Alaric* survive as monuments to their administrative ambition.
 
-- *Attribute Points:* STR +1, CON +1, MIG +1, REA +1
+- *Attribute Points:* MIG +1, CON +1, MIG +1, REA +1
 - *Culture Talent:* **Federate Discipline** — Gain advantage on Tactics tests when commanding a mixed force of Goths and provincials.
 - *Historical Lens:* The Visigoths sacked Rome in 410, settled Aquitaine in 418, and after losing Vouillé to the Franks (507) consolidated in Spain. Languages: Gothic (East Germanic, written in the Ulfilan alphabet), Latin in administration. Deities: nominally Arian Christian; older Gothic *Ansiwa* (the gods) survived in personal names. Lasting influence: Spanish onomastics (Rodrigo, Fernando, Alfonso), the Visigothic script, the Iberian church organisation.
 
@@ -102,7 +102,7 @@ Federate warriors turned kings of Toulouse and (after 507) of Toledo. They are A
 
 Theodoric's people — Goths who carved out a kingdom in Italy after 489 under what was effectively a Roman regency in barbarian dress. Theodoric, raised as a hostage in Constantinople, ran his realm as a dyarchy: Goths fought, Romans administered ([Theodoric the Great — Wikipedia](https://en.wikipedia.org/wiki/Theodoric_the_Great)).
 
-- *Attribute Points:* STR +1, CON +1, MIG +1, INS +1
+- *Attribute Points:* MIG +1, CON +1, MIG +1, INS +1
 - *Culture Talent:* **Hospitalitas** — Once per session, when guesting in a household of different culture, gain advantage on a single social test relating to that hospitality.
 - *Historical Lens:* The Ostrogothic kingdom (493–553) preserved the Roman Senate, the consulship, and the city of Rome itself; it fell to Justinian's Gothic War. Languages: Gothic, Latin. Deities: Arian Christianity with surviving Gothic ancestral cult. Lasting influence: Cassiodorus's *Variae*, the Mausoleum at Ravenna, the survival of late Roman material culture into the early Middle Ages.
 
@@ -110,7 +110,7 @@ Theodoric's people — Goths who carved out a kingdom in Italy after 489 under w
 
 A people who marched from Pannonia to Hispania to Africa in twenty-five years, sailed across to seize Carthage in 439, and built a fleet that sacked Rome in 455. Their Arian kings ruled the richest province of the old West and held it for nearly a century before Belisarius reclaimed it in 533 ([Vandal Kingdom — Britannica](https://www.britannica.com/place/North-Africa/The-Vandal-conquest)).
 
-- *Attribute Points:* STR +1, CON +1, MIG +1, AGI +1
+- *Attribute Points:* MIG +1, CON +1, MIG +1, AGI +1
 - *Culture Talent:* **Sea-Borne Conqueror** — Gain advantage on Tactics tests when planning amphibious assaults, ship boardings, or coastal raids.
 - *Historical Lens:* The Vandals were Arian persecutors of Catholic Africa, but their state preserved Roman fiscal machinery and an enormous late-antique villa culture. Languages: Vandalic (East Germanic, lost by 700), Latin. Deities: Arian Christian with traces of older Germanic devotion. Lasting influence: the term "Vandal," the genetic and toponymic substrate of Tunisia, and a peculiarly long-lived Romano-Berber Christianity.
 
@@ -118,7 +118,7 @@ A people who marched from Pannonia to Hispania to Africa in twenty-five years, s
 
 Border-folk of the upper Rhine and Danube — small kingdoms of mixed Suebic and indigenous Raetian stock. Broken by Clovis at Tolbiac (496) and absorbed piecemeal into the Frankish orbit. They retain a strongly traditionalist religion and a reputation for stubborn paganism well into the 7th century.
 
-- *Attribute Points:* STR +1, CON +1, WIL +1, AWA +1
+- *Attribute Points:* MIG +1, CON +1, WIL +1, INS +1
 - *Culture Talent:* **Oath-Sworn** — When you swear a binding oath, you gain advantage on Resilience tests to keep it; breaking it imposes disadvantage on all tests until atonement.
 - *Historical Lens:* Languages: Alemannic (Upper German), Latin in towns. Deities: Wodan (Wuotan), Donar, Ziu, Frīja; sacred groves and springs. Lasting influence: the Alemannic dialects, Swiss-German place names, and the French and Spanish exonyms for Germany itself (*Allemagne*, *Alemania*).
 
@@ -148,7 +148,7 @@ Citizens of Athens, Corinth, Smyrna, Ephesus — *Rhomaioi* in their political i
 
 Tough upland folk of Thessaloniki's hinterland and the upper Vardar. Already heavily Hellenised in classical times, they preserved a distinctively rural identity and supplied cavalry and shepherd-soldiers to every regime from Philip II to Justinian.
 
-- *Attribute Points:* STR +1, CON +1, AGI +1, WIL +1
+- *Attribute Points:* MIG +1, CON +1, AGI +1, WIL +1
 - *Culture Talent:* **Phalanx Memory** — When fighting with spear or pike in formation, gain +1 to Tactics tests.
 - *Historical Lens:* In 400–550 Macedonia was a battlefield for Visigothic, Hunnic, and Slavic raids that the local population endured with grim continuity. Languages: Greek, surviving traces of ancient Macedonian (debated as Hellenic dialect or sister tongue). Deities: Christianised; older cults of Bendis, Sabazios, the Kabeiroi continued in local festivals. Lasting influence: the Macedonian dynasty of Byzantium, the Slavic-Greek synthesis after 600.
 
@@ -156,7 +156,7 @@ Tough upland folk of Thessaloniki's hinterland and the upper Vardar. Already hea
 
 Heirs to four thousand years of Pharaonic civilisation, now Christian monastics in the Thebaid and grain-shippers on the Nile. Their language — the last form of ancient Egyptian, written in Greek letters — is the everyday speech of village and monastery alike ([Copts — Wikipedia](https://en.wikipedia.org/wiki/Copts)).
 
-- *Attribute Points:* REA +1, INS +1, WIL +1, AWA +1
+- *Attribute Points:* REA +1, INS +1, WIL +1, INS +1
 - *Culture Talent:* **Desert Fathers** — Once per session, you may invoke an ascetic discipline; gain advantage on a Resilience test against hunger, thirst, fear, or temptation.
 - *Historical Lens:* The Council of Chalcedon (451) split the Egyptian church from the imperial one; the Coptic Miaphysite identity dates from this schism. Languages: Coptic (Sahidic and Bohairic dialects), Greek in cities. Deities: Christ replaced Osiris and Horus, but Isis-imagery influenced Marian devotion; older funerary practices survived in mummified saints. Lasting influence: Christian monasticism (Anthony, Pachomius, Shenoute), Marian iconography, the Coptic calendar, the deciphering key for the hieroglyphs themselves.
 
@@ -188,7 +188,7 @@ Federate kingdoms of the African mountains and steppe — the Aures, Hodna, Kaby
 
 Cavalry stock of the high plains — heirs to Massinissa and Jugurtha, now horse-breeders, light skirmishers, and seasonal labourers on Roman olive estates. Many serve as auxiliaries; some remember the old Punic gods their grandparents called *Baal*.
 
-- *Attribute Points:* AGI +1, DEX +1, AWA +1, CON +1
+- *Attribute Points:* AGI +1, DEX +1, INS +1, CON +1
 - *Culture Talent:* **Numidian Rider** — When mounted, gain advantage on Fighting tests with javelins and on Athletics tests to remain in the saddle under duress.
 - *Historical Lens:* Numidia remained a settled, urbanised African province through the 4th century before fraying under Vandal and Berber pressure. Languages: Latin, Libyan (Old Berber). Deities: Saturn, Caelestis, the dii Mauri; later Christian. Lasting influence: the *cavalry tradition* of North Africa, foundational to Mauretanian, Almoravid, and Spanish-Moorish equestrianism.
 
@@ -196,7 +196,7 @@ Cavalry stock of the high plains — heirs to Massinissa and Jugurtha, now horse
 
 People of the deep Sahara — Fezzan oasis-dwellers who run trans-desert trade in salt, gold, ivory, slaves, and carnelian. Their kingdom is past its peak by AD 400 but still trades with both the Roman and the Aksumite worlds.
 
-- *Attribute Points:* CON +1, INS +1, AWA +1, REA +1
+- *Attribute Points:* CON +1, INS +1, INS +1, REA +1
 - *Culture Talent:* **Star-Navigator** — Gain advantage on Survival (Navigation) tests in desert or trackless wastes, day or night.
 - *Historical Lens:* The Garamantes maintained a sophisticated foggara-irrigation civilisation in modern Libya, with palace-cities like Garama. Languages: Old Berber, Punic and Latin in dealings with the coast. Deities: ancestor-tombs, sun and moon worship, syncretisms with Ammon. Lasting influence: the trans-Saharan trade routes inherited by the medieval Tuareg.
 
@@ -210,7 +210,7 @@ The arc from the Julian Alps to the Black Sea is the empire's most contested gro
 
 Highlanders of Dalmatia, Praevalitana, and the Dinaric chain — the empire's most reliable recruits since the 3rd century. Diocletian, Constantine, Justin, and Justinian were all of Illyrian or Dardanian extraction.
 
-- *Attribute Points:* STR +1, CON +1, WIL +1, MIG +1
+- *Attribute Points:* MIG +1, CON +1, WIL +1, MIG +1
 - *Culture Talent:* **Soldier's Roman** — Gain advantage on Resilience tests and once per session may reroll a failed Discipline check while on watch, march, or campaign.
 - *Historical Lens:* Illyricum provided the *limitanei* who held the Danube under Anastasius and Justinian. Languages: Latin (with surviving Illyrian onomastics), Greek in the coastal cities, fading Illyrian. Deities: Silvanus (a peculiarly Illyrian favourite), Diana, Bindus-Neptunus; Christianised on the surface. Lasting influence: the Albanian language, descended from a late form of Illyrian; the Roman highway grid of the western Balkans.
 
@@ -218,7 +218,7 @@ Highlanders of Dalmatia, Praevalitana, and the Dinaric chain — the empire's mo
 
 People of the lost province north of the lower Danube — Roman Dacia was abandoned in 271 but Dacian-Roman populations remained, and a Latin-speaking provincial culture clung to the Carpathian foothills throughout the migration period.
 
-- *Attribute Points:* CON +2, MIG +1, AWA +1
+- *Attribute Points:* CON +2, MIG +1, INS +1
 - *Culture Talent:* **Forest-Forged** — Gain advantage on Survival tests in mountainous woodland and on Resilience tests against cold or exhaustion.
 - *Historical Lens:* Dacian-Roman continuity is argued via Romanian linguistic descent. Languages: Vulgar Latin (ancestor of Romanian), residual Dacian. Deities: Zalmoxis (chthonic immortality), Gebeleizis (sky-thunder), Bendis (huntress), Christianised slowly. Lasting influence: the Romanian language and Vlach pastoral identity.
 
@@ -226,7 +226,7 @@ People of the lost province north of the lower Danube — Roman Dacia was abando
 
 Mountain folk of the Rhodopes, Haemus, and Strandzha — the empire's other great recruiting ground. The Thracian tongue was still spoken in the 6th century: monks at a Sinai monastery prayed in Bessian alongside Greek, Latin, Syriac, and Coptic ([Thracians — Wikipedia](https://en.wikipedia.org/wiki/Thracians)).
 
-- *Attribute Points:* STR +1, CON +1, INS +1, AWA +1
+- *Attribute Points:* MIG +1, CON +1, INS +1, INS +1
 - *Culture Talent:* **Mountain Mystic** — Gain advantage on tests involving omen-reading, herb-lore, and the recognition of holy or haunted ground.
 - *Historical Lens:* Thracians supplied light cavalry (*equites Thraces*) and gladiators (Spartacus was Thracian) and produced the emperor Leo I. Languages: Thracian (extinct by 600), Greek, Latin. Deities: Sabazios (a horseman-god), Bendis, Zalmoxis, the "Thracian Horseman" (Heros) whose stelae cover the Balkans. Lasting influence: the Heros-cult fed Christian iconography of saints George, Theodore, and Demetrius.
 
@@ -234,7 +234,7 @@ Mountain folk of the Rhodopes, Haemus, and Strandzha — the empire's other grea
 
 Beyond the empire — the great Gothic confederation of the lower Danube and Pontic steppe. Already Christianised in their Arian form by Ulfilas (Wulfila, c. 311–383), they cross into the empire from 376 onwards and within a century have founded two of its successor states.
 
-- *Attribute Points:* STR +1, CON +2, WIL +1
+- *Attribute Points:* MIG +1, CON +2, WIL +1
 - *Culture Talent:* **Gothic Oath** — When you swear a sworn-companion bond with another character, you both gain +1 to Resilience tests while fighting in sight of each other.
 - *Historical Lens:* The Goths produced the first Germanic literature — the Gothic Bible — and the first Germanic written law. Languages: Gothic (East Germanic, only Germanic language with a surviving full alphabet and bible). Deities: Arian Christianity, with Gothic gods (Tiwaz, Wōðanaz) lingering in personal names. Lasting influence: see Visigoth and Ostrogoth above.
 
@@ -242,7 +242,7 @@ Beyond the empire — the great Gothic confederation of the lower Danube and Pon
 
 Cousins of the Goths who held Dacia and parts of Pannonia in the wake of Attila's collapse. They are the Huns' former vassals turned the chief power of the middle Danube until the Lombards and Avars destroyed them in 567.
 
-- *Attribute Points:* STR +1, CON +1, MIG +1, WIL +1
+- *Attribute Points:* MIG +1, CON +1, MIG +1, WIL +1
 - *Culture Talent:* **Riverlord** — Gain advantage on Tactics tests in any battle fought on or beside a major river, and on Survival (Boating) tests on inland waters.
 - *Historical Lens:* Gepid kings minted coins, hosted Latin notaries, and competed with the Lombards for the post-Hunnic carpathian basin. Languages: Gepidic (East Germanic). Deities: Arian Christian over older Gothic-style ancestral cult. Lasting influence: the Avar-period substrate of the Carpathian basin.
 
@@ -250,7 +250,7 @@ Cousins of the Goths who held Dacia and parts of Pannonia in the wake of Attila'
 
 A people of the Pontic and later Pannonian steppe, blending Inner Asian tribes with subjugated Sarmatians, Alans, Goths, and Gepids. Under Attila (r. c. 434–453) they extort tribute from both Roman empires; after his death the confederation shatters but its descendants (Kutrigurs, Utigurs, Bulgars) remain a frontier force.
 
-- *Attribute Points:* AGI +2, DEX +1, AWA +1
+- *Attribute Points:* AGI +2, DEX +1, INS +1
 - *Culture Talent:* **Composite Bow** — Gain advantage on Fighting (Archery) tests made from horseback, and treat the reflex bow as one Severity higher when used mounted.
 - *Historical Lens:* Hunnic society was multi-ethnic, multilingual, and oriented around a charismatic warlord. Languages: a Hunnic tongue (Turkic or Yeniseian? — unresolved), Gothic and Latin as lingua francas. Deities: Tengri-style sky-cult, shamanic horse and sword rites (the famous "Sword of Mars"). Lasting influence: the steppe-warfare doctrine inherited by Avars, Bulgars, Magyars, and Mongols.
 
@@ -258,7 +258,7 @@ A people of the Pontic and later Pannonian steppe, blending Inner Asian tribes w
 
 Iranian-speaking riders of the western steppe who joined the Vandals and Suevi in the 406 Rhine crossing. By 550 some Alan groups have settled in Gaul (around Orléans and Valence), in Spain (briefly), and in the Caucasus (the ancestors of the Ossetians).
 
-- *Attribute Points:* AGI +1, DEX +1, STR +1, AWA +1
+- *Attribute Points:* AGI +1, DEX +1, MIG +1, INS +1
 - *Culture Talent:* **Lance-and-Bow** — You may switch between lance and bow on horseback as a free action, with no penalty for shifting weapons in the same round.
 - *Historical Lens:* Languages: Alanic (Northeast Iranian, ancestor of Ossetian). Deities: an Iranian pantheon (Wacilla, Watsilla — the thunder-god — later Christianised); Christian baptism widespread by the 6th century in the Caucasus. Lasting influence: Ossetian Nart sagas, possibly the Arthurian "sword in the stone" motif (via the Sarmatian-Alan cavalry stationed in Britain).
 
@@ -266,7 +266,7 @@ Iranian-speaking riders of the western steppe who joined the Vandals and Suevi i
 
 By 500 Slavic-speaking groups (Sclaveni, Antes) press south of the Danube. They farm small clearings, raid in summer, and worship sky and storm gods unknown to the Roman census-taker. Within a century they will be the demographic majority of much of the Balkans.
 
-- *Attribute Points:* CON +1, AWA +1, WIL +1, INS +1
+- *Attribute Points:* CON +1, INS +1, WIL +1, INS +1
 - *Culture Talent:* **Forest-Hidden** — Gain advantage on Stealth tests in dense woodland or wetland, and on Survival (Foraging) tests in temperate forest.
 - *Historical Lens:* The Sclaveni and Antes are described by Procopius and Jordanes c. 550 as raiding south of the Danube and serving as Byzantine federates. Languages: Common Slavic. Deities: Perun (thunder), Veles (cattle, underworld), Mokosh (earth, weaving), Svarog (smith-sky). Lasting influence: the South-Slavic majority population of the Balkans from the 7th century onward.
 
@@ -320,7 +320,7 @@ Mountain people of the great plateau — Christianised by Gregory the Illuminato
 
 People of the Caucasus — the kingdom of Iberia (Kartli) Christianised c. 326, the kingdom of Lazica (Egrisi) a Roman client on the Black Sea. Both serve as the empire's eastern hinge in its wars with Persia.
 
-- *Attribute Points:* CON +1, STR +1, MIG +1, INS +1
+- *Attribute Points:* CON +1, MIG +1, MIG +1, INS +1
 - *Culture Talent:* **Caucasian Hospitality** — When a guest in a stranger's home, gain advantage on Manipulation tests and may treat all hostility as merely cool reception until the guest-bond is broken.
 - *Historical Lens:* The Lazic War (541–562) was fought over precisely this frontier. Languages: Old Georgian (the asomtavruli script was created in this period). Deities: Christianised; older worship of Armazi, Gatsi, Ga survived. Lasting influence: the Georgian Orthodox Church, the *Mokvi* and *Bichvinta* church-building traditions.
 
@@ -345,14 +345,14 @@ Banū Lakhm — the Christian-and-pagan Arab dynasty of al-Hira, federated to th
 Subjects of the King of Kings, Šāhanšāh — Persians of the imperial core (Fars, Media, Khuzistan) and the bureaucratic and military classes from Ctesiphon. The Sasanian state is the great civilizational peer and rival of Rome ([Wikipedia — Did the Eastern Romans or Sassanids perceive the other as peer](https://www.reddit.com/r/AskHistorians/comments/2x72z1/)).
 
 - *Attribute Points:* REA +1, CHA +1, AGI +1, DEX +1
-- *Culture Talent:* **Royal Bearing** — When negotiating, persuading, or issuing commands, treat your Presence as 1 higher for determining the result tier.
+- *Culture Talent:* **Royal Bearing** — When negotiating, persuading, or issuing commands, treat your Charisma as 1 higher for determining the result tier.
 - *Historical Lens:* Khosrow I Anushirvan (r. 531–579) reformed taxation, founded the academy of Gondishapur, and reset Roman-Persian relations. Languages: Middle Persian (Pahlavi), Aramaic in administration. Deities: Zoroastrian — Ahura Mazda, Mithra, Anahita, the *Amesha Spentas*; Christianity tolerated through the Church of the East. Lasting influence: the Pahlavi literary corpus, much of Sasanian court ceremonial inherited by both the Umayyads and Byzantium.
 
 ### Median Highlander
 
 Subjects of the Sasanian crown from the Zagros highlands — herders, miners, and ancestors of the Kurdish peoples. The Median nobility still mattered at the Sasanian court; their cavalry tradition was older than the empire itself.
 
-- *Attribute Points:* STR +1, AGI +1, AWA +1, CON +1
+- *Attribute Points:* MIG +1, AGI +1, INS +1, CON +1
 - *Culture Talent:* **Highland Cavalry** — Gain advantage on Athletics (Riding) tests in broken terrain and on Survival tests in cold mountain conditions.
 - *Historical Lens:* Languages: Old Iranian dialects (ancestors of Kurdish, Zaza-Gorani). Deities: Zoroastrian, with surviving Yazidi-precursor angelology (Peacock figures). Lasting influence: the Kurdish nation; the Mithraic substrate of Roman soldier-religion came partly through this region.
 
@@ -376,7 +376,7 @@ People of the incense kingdoms of Yemen — by the 5th century a kingdom that co
 
 Heirs to Meroe, by AD 400 reorganised into the Christian kingdoms of Nobatia, Makuria, and Alodia (Christianised in the 6th century under Justinian's missionaries). They traded gold, ivory, slaves, and emeralds northwards into Egypt and held the upper Nile.
 
-- *Attribute Points:* STR +1, AWA +1, INS +1, MIG +1
+- *Attribute Points:* MIG +1, INS +1, INS +1, MIG +1
 - *Culture Talent:* **Bowman of Kush** — Gain advantage on Fighting (Archery) tests at long range, and on Survival tests on the river.
 - *Historical Lens:* Procopius records Justinian's and Theodora's competing missions to convert Nobatia. Languages: Old Nubian (with a script descended from Coptic and Meroitic). Deities: Christianised under Theodora's missionaries by c. 543; older worship of Isis at Philae continued in Nubian hands until Justinian closed the temple c. 537. Lasting influence: the medieval Nubian Christian kingdoms (Makuria, Alodia), the Old Nubian Bible.
 

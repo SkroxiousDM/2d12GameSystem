@@ -14,8 +14,8 @@ A character may have any number of *different* conditions at once.
 
 | Condition | Severity | Source Chapter | Effect (one line) |
 |---|---|---|---|
-| **Ablaze** | Minor / Major | 14 — Effects And Conditions | Damage 2 (Minor) or Damage 3 (Major) physical stress per turn, ignores armor; auto-fail Stealth. |
-| **Bleeding** | Minor / Major | 14 — Effects And Conditions | 1 or 3 physical stress at end of turn, ignores armor. |
+| **Ablaze** | Minor / Major | 14 — Effects And Conditions | Damage 2 (Minor) or Damage 3 (Major) physical stress per turn, ignores armour; auto-fail Stealth. |
+| **Bleeding** | Minor / Major | 14 — Effects And Conditions | 1 or 3 physical stress at end of turn, ignores armour. |
 | **Blinded** | — | 14 — Effects And Conditions | Sight-based tests succeed only on a natural 2; Disadvantage on melee and Dodge. |
 | **Coughing** | — | 19 — Exploration And Travel | −1d on Stealth-by-sound tests until next Camp. |
 | **Deafened** | — | 14 — Effects And Conditions | Hearing-based tests succeed only on a natural 2. |
@@ -23,7 +23,7 @@ A character may have any number of *different* conditions at once.
 | **Disarmed** | — | 14 — Effects And Conditions | The dropped item lands within the same zone; may be prevented for 2 Fortune or 2 Doom. |
 | **Fatigued** | Stacking | 14 — Effects And Conditions; 8 — Resting And Recovery | Each point reduces current Stamina, Vitality, and Resolve by 1. |
 | **Frightened** | Minor / Major | 14 — Effects And Conditions | Disadvantage confronting the source (Minor) or must flee (Major). |
-| **Guard Lost** | — | 11 — Combat; 14 — Effects And Conditions | You may not apply Defense from Guard until your next turn. |
+| **Guard Lost** | — | 11 — Combat; 14 — Effects And Conditions | You may not apply Defence from Guard until your next turn. |
 | **Incapacitated** | — | 14 — Effects And Conditions | Alacrity 0; cannot act; melee attacks against you auto-crit. |
 | **Irrational** | — | 16 — Sanity | While at 0 Resolve, the character acts on the GM's prompt according to their Madness; player retains veto only by spending Fortune. |
 | **Knockdown** | — | 14 — Effects And Conditions | Knocked Prone if SL spent ≥ target's Athletics rank. |

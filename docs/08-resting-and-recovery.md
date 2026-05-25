@@ -26,4 +26,4 @@ At the end of a Full Rest:
 ### Fatigue  
 When your character suffers fatigue, you temporarily reduce their Stamina, Vitality and Resolve by 1 for each point of Fatigue suffered. If their maximum of any of them are reduced to 0, they are defeated— collapsing from exhaustion, deprivation, or despair. 
 
-Your character can remove fatigue with a Challenging Brawn \+ Resilience or Will \+ Resilience test, once they have removed themself from any sources of fatigue. For example, if they took fatigue from sleep deprivation and starvation, getting a hot meal and a good night’s sleep allows your character to try to remove that fatigue. Passing the test removes 1 point of fatigue, plus 1 more for each Success Level.  
+Your character can remove fatigue with a Challenging Might \+ Resilience or Willpower \+ Resilience test, once they have removed themself from any sources of fatigue. For example, if they took fatigue from sleep deprivation and starvation, getting a hot meal and a good night’s sleep allows your character to try to remove that fatigue. Passing the test removes 1 point of fatigue, plus 1 more for each Success Level.  

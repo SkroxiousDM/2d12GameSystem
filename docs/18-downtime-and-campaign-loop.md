@@ -9,7 +9,7 @@ A downtime period covers any stretch of in‑fiction time longer than a Full Res
 | Step | Length | Primary Mechanics |
 |---|---|---|
 | Adventure | Hours to days of fiction | Action rolls, Combat, Social Conflict, Pursuit, Magic, Superiority |
-| Recovery | Hours to a few days | Short, Long, and Full Rest; First Aid; Ability Damage healing |
+| Recovery | Hours to a few days | Short, Long, and Full Rest; First Aid; Attribute Drain healing |
 | Downtime | Days to months | Downtime Activities (this chapter); Advancement |
 | World Reaction | Concurrent with Downtime | GM-driven Faction Clocks, Doom advances, Connection requests |
 
@@ -62,7 +62,7 @@ Make an Extended test with the appropriate skill (typically Reason + Craft, Reas
 | Scope | Difficulty | Time | Examples |
 |---|---|---|---|
 | Modest | Challenging | 1 Activity | A masterwork weapon, a forged document, a short treatise. |
-| Major | Difficult | 2 Activities | A suit of bespoke armor, a translated ancient text, a complex alchemical batch. |
+| Major | Difficult | 2 Activities | A suit of bespoke armour, a translated ancient text, a complex alchemical batch. |
 | Grand | Hard | 3+ Activities | A new spell formula, an enchanted item, a small siege engine. |
 
 The GM may require components, access to a workshop, or a contact (see Chapter 13) before the project begins. Each SL spent on success may improve quality, reduce cost, or shorten future use of the item.

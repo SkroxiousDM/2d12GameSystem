@@ -53,13 +53,13 @@ When a character's available Stamina falls below half, they roll −1d on all ph
 Alacrity is added to 1d12 roll to determine Initiative combat turn order.  
 Also determines the number of Actions you may take in 1 round of combat including Reactions.
 
-### Defense \= (CON \- 2 \+ Armor \+ Cover \+ Traits)
+### Defence \= (CON \- 2 \+ Armour \+ Cover \+ Traits)
 
 ### Vitality \= (3 \+ CON \+ Traits)
 
-Vigor represents a character’s endurance, stamina, and ability to ignore minor injuries such as cuts, scratches, bruises, and abrasions. It also represents the ability to avoid serious injuries. A character with low Vigor is tired and unable to avoid serious injury.
+Vitality represents a character’s endurance, stamina, and ability to ignore minor injuries such as cuts, scratches, bruises, and abrasions. It also represents the ability to avoid serious injuries. A character with low Vitality is tired and unable to avoid serious injury.
 
-* Whenever a character takes physical Stress,  Soak with Defense, then subtract remainder from  Vitality.  
+* Whenever a character takes physical Stress,  Soak with Defence, then subtract remainder from  Vitality.  
 * Vitality cannot be reduced below 0\.
 
 When Vitality reaches 0:
@@ -73,8 +73,7 @@ While Staggered , a character:
 * Automatically loses Concentration.  
 * Risks further injury:  
   * You must make a Challenging Resilience (Fortitude) Test or fall Unconscious Repeat this Test each time you receive further Damage. You don't regain consciousness until you regain at least 1 Vitality.  
-  * Taking damage causes Critical Wounds  
-  * You must make a Challenging Resilience (Fortitude) Test or fall Unconscious Repeat this Test each time you receive further Damage. You don't regain consciousness until you regain at least 1 Vitality.
+  * Taking damage causes Critical Wounds
 
 ### Wounds \= (3 \+ CON \+ Traits)
 

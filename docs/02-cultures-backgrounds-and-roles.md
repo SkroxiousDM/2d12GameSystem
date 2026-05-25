@@ -11,8 +11,8 @@ The heartland of the Empire encompasses the grand and decadent Eternal City, the
 
 Law, discipline, and civic duty shape the Roman mind. Romans are administrators and soldiers in equal measure, versed in the structures that hold the world together.
 
-- *Attribute Points:* +2 Intellect, +1 Presence, +1 Might
-- *Culture Talent:* **Civic Authority** – When dealing with Imperial institutions, officials, or soldiers, gain advantage on Presence-based tests.
+- *Attribute Points:* REA +2, CHA +1, MIG +1
+- *Culture Talent:* **Civic Authority** – When dealing with Imperial institutions, officials, or soldiers, gain advantage on Charisma-based tests.
 
 
 ### Ionian Greek
@@ -26,7 +26,7 @@ Philosophers, physicians, and merchants. Ionians are the Empire's scholars and i
 
 Tough, proud, and fiercely independent beneath a Roman veneer. The Hispanians are the Empire's most reliable auxiliaries and its most dangerous rebels.
 
-- **Attribute Points:** STR +2, AGI +1, CHA +1
+- **Attribute Points:** MIG +2, AGI +1, CHA +1
 - **Culture Talent:** *Warrior Heritage* — Gain advantage on Fortitude tests to resist fear or intimidation in combat
 
 ***
@@ -37,23 +37,23 @@ Stretching from the Imperial provinces of North Africa to ancient Ægypt, the De
 
 ### **Ægyptian**
 Ancient, mystical, and deeply traditional, Ægyptians carry the weight of millennia.
-- *Attribute Points:* +2 Intellect, +1 Awareness, +1 Presence
+- *Attribute Points:* REA +2, INS +1, CHA +1
 - *Culture Talent:* **Ancient Lore** – Gain advantage on tests to identify arcane artefacts, religious symbols, or the secrets of ancient civilisations.
 
 ### **Samaritan**
 Forged by faith, exile, and resistance, Samaritans are tenacious and deeply principled.
-- *Attribute Points:* +2 Intellect, +1 Fortitude, +1 Presence
+- *Attribute Points:* REA +2, CON +1, CHA +1
 - *Culture Talent:* **Unbroken** – Once per scene, when reduced to 0 Resolve, make a Fortitude test (TN 10) to remain at 1 instead.
 
 ### **Berber**
 Nomadic raiders and guides who know the desert's secrets better than any map.
-- **Attribute Points:** CON +2, STR +1, INS +1
-- *Culture Talent:* **Raider's Eye** – Gain advantage on Awareness tests to detect ambushes and on Agility tests when making a swift strike or retreat.
+- **Attribute Points:** CON +2, MIG +1, INS +1
+- *Culture Talent:* **Raider's Eye** – Gain advantage on Insight tests to detect ambushes and on Agility tests when making a swift strike or retreat.
 
 **Persian**
 Disciplined, cultured, and politically astute, Persians come from a civilisation that rivals Rome itself.
-- *Attribute Points:* +2 Intellect, +1 Presence, +1 Agility
-- *Culture Talent:* **Imperial Bearing** – When negotiating, persuading, or issuing commands, treat your Presence as 1 higher for determining the result tier.
+- *Attribute Points:* REA +2, CHA +1, AGI +1
+- *Culture Talent:* **Imperial Bearing** – When negotiating, persuading, or issuing commands, treat your Charisma as 1 higher for determining the result tier.
 
 ***
 
@@ -63,27 +63,27 @@ The dark forests and cold, rain-shadowed mountains of the north have long unsett
 
 ### **Gaul**
 Boisterous, brave, and only half-tamed, Gauls fight with passion and celebrate with equal vigour.
-- *Attribute Points:* +2 Might, +1 Fortitude, +1 Presence
+- *Attribute Points:* MIG +2, CON +1, CHA +1
 - *Culture Talent:* **Celtic Fury** – Once per combat, when you take damage, you may immediately make a free melee attack against the source.
 
 ### **Briton**
 Wild, spiritual, and steeped in druidic tradition, Britons are deeply connected to the natural world.
-- *Attribute Points:* +2 Awareness, +1 Fortitude, +1 Intellect
+- *Attribute Points:* INS +2, CON +1, REA +1
 - *Culture Talent:* **Druidic Tradition** – Gain advantage on tests involving nature, omens, or spirit lore, and on Survival tests in woodland or wilderness.
 
 ### **Dacian**
 Frontier-hardened soldiers and settlers who have known nothing but threat and struggle.
-- *Attribute Points:* +2 Fortitude, +1 Might, +1 Awareness
+- *Attribute Points:* CON +2, MIG +1, INS +1
 - *Culture Talent:* **Frontier Grit** – Gain advantage on Fortitude tests to resist the effects of harsh weather, forced marches, and physical exhaustion.
 
 ### **Goth**
 Fierce warriors from beyond the frontier, bound by oaths of loyalty and a hunger for glory.
-- *Attribute Points:* +2 Might, +2 Fortitude
+- *Attribute Points:* MIG +2, CON +2
 - *Culture Talent:* **Warbond** – When fighting alongside an ally you have declared a sworn companion, both of you gain +1 on all attack tests.
 
 ### **Hun**
 Nomadic horsemen and shamans from the endless steppe, fearsome in the saddle and strange in spirit.
-- *Attribute Points:* +2 Agility, +1 Awareness, +1 Intellect
+- *Attribute Points:* AGI +2, INS +1, REA +1
 - *Culture Talent:* **Steppe Rider** – Suffer no penalty when making attacks or tests from horseback, and gain advantage on tests to ride, control, or calm horses.
 
 ***
@@ -157,7 +157,7 @@ These opportunists work the twisting alleys and crowded markets of the larger ci
 When times grow hard, farmers abandon their fields and take to the hills. Armed with whatever weapons they can lay hands on, they raid wagons, ambush travellers, and plunder isolated villas. It is a hand-to-mouth existence — forever dodging the legions, with only the prospect of crucifixion ahead. But those who survive grow hard, combat-seasoned, and resourceful.
 
 - *Culture Note:* —
-- *Attribute Points:* STR +1, CON +1, AGI +1, WIL +1
+- *Attribute Points:* MIG +1, CON +1, AGI +1, WIL +1
 - *Money:* 1d × 25 denarii
 - *Specialization:* Stealth — **Concealment**
 - *Bonus:* Roll once on the Random Treasure Table
@@ -169,7 +169,7 @@ When times grow hard, farmers abandon their fields and take to the hills. Armed 
 When eastern lords ride to war, they do so on magnificent warhorses, clad head to foot in chainmail or scale. They are an imposing sight on the field of battle. Off the saddle, a cataphract is a wealthy noble — or was, until debt, misfortune, or ambition drove him to take up mercenary work. He has an estate to manage, slaves to command, and a villa to call home. Imperial nobles do not fight in this manner; see Tribune.
 
 - *Culture Note:* Noble Desert Kingdom only
-- *Attribute Points:* STR +1, CON +1, AGI +1, CHA +1
+- *Attribute Points:* MIG +1, CON +1, AGI +1, CHA +1
 - *Money:* 400 denarii
 - *Specialization:* Tactics — **Cavalry**
 - *Bonus:* Scale Armour, Horse, Helm, Spear
@@ -217,7 +217,7 @@ Every culture breeds spies. The Persian kingdom organises its own into an offici
 Desert warriors are the fighting strength of the nomad tribe, protecting the clan and forming the sheikh's personal bodyguard. Most tribesmen can fight; the warriors are the proven braves who lead the charge. Nomads move from waterhole to waterhole with camels, sheep, tents, and families in tow. They know desert survival as others know the backs of their hands. Honourable and ferociously loyal to their kin, they are nonetheless prone to raiding isolated settlements and trade caravans alike.
 
 - *Culture Note:* Libyan only
-- *Attribute Points:* STR +1, CON +1, WIL +1, INS +1
+- *Attribute Points:* MIG +1, CON +1, WIL +1, INS +1
 - *Money:* 1d × 25 denarii
 - *Specialization:* Manipulation — **Intimidation**
 - *Bonus:* Roll once on the Random Treasure Table
@@ -229,7 +229,7 @@ Desert warriors are the fighting strength of the nomad tribe, protecting the cla
 Gladiators are slaves compelled to fight for public entertainment — duel to the death, first blood, beast fights, or bouts against armed prisoners. Each is owned by a *lanista*, a fight broker who hires them out for games and festivals, and trained at a *ludus* in a particular fighting style. Though slaves, the most successful gladiators enjoy remarkable public adulation and lively social lives beyond the school walls. At the start of play, the character has either earned his freedom through successive victories, been granted manumission by a generous *lanista* — or escaped and is now a fugitive.
 
 - *Culture Note:* —
-- *Attribute Points:* STR +1, CON +1, AGI +1, WIL +1
+- *Attribute Points:* MIG +1, CON +1, AGI +1, WIL +1
 - *Money:* 1d × 50 denarii
 - *Specialization:* Fighting — **Unarmed** *(or Melee Weapons, player's choice)*
 - *Bonus:* Manicae, Spear, Helm
@@ -241,7 +241,7 @@ Gladiators are slaves compelled to fight for public entertainment — duel to th
 The Imperial legions are among the most effective military forces in history. A soldier may be an ambitious Imperial youth eager for glory and promotion, or an Ægyptian or Aramaean recruit simply seeking steady wages. Whatever his origins, he is a professional who spends most of his life with the legion, loyal to the emperor, and driven to earn honour in the field. The finest soldiers rise to the centurionate (Imperial characters only), granting a pair of Greaves in addition to the Mail Cuirass. Every legionary is a skilled swordsman and javelin thrower, and all possess nerves of steel.
 
 - *Culture Note:* Not available to Persian characters
-- *Attribute Points:* STR +1, CON +1, WIL +1, REA +1
+- *Attribute Points:* MIG +1, CON +1, WIL +1, REA +1
 - *Money:* 180 denarii
 - *Specialization:* Resilience — **Fortitude**
 - *Bonus:* Mail Cuirass *(also Greaves if admitted to the centurionate)*
@@ -478,7 +478,7 @@ You are steeped in the histories of the ancients, drawing wisdom from their succ
 - Insight +1
 - Reason +1
 - Willpower +1
-- Presence +1
+- CHA +1
 
 ### Skills
 

@@ -30,6 +30,8 @@ Common ways to spend Actions include:
 - Move up to your Speed.
 - Cast a spell.
 - Assess the battlefield.
+- Brace against an incoming blow or charge.
+- Charge an enemy at speed.
 - Use an item or interact with the environment.
 - Take a special Action granted by a Talent, spell, weapon, or Trait.[1]
 
@@ -43,15 +45,39 @@ You may move more than once in a turn, but repeated movement becomes exhausting.
 
 Position matters. Immediate Range governs melee engagement. Archers, slingers, and spellcasters care deeply about lines of sight, cover, and separation. A creature behind a shield wall is not the same problem as one stranded in the open, and enemies forced into a doorway may be far easier to contain than to kill outright.
 
+## Reach
+
+Not all melee weapons engage at the same distance. A dagger held in the fist, a longsword at arm's length, and a pike held in two hands describe three different fights, and treating them identically erases much of what makes the choice of weapon matter. Each melee weapon has a Reach rating, which sits beside its Damage and Size in [15 — Equipment](15-equipment.md).
+
+Reach has three steps:
+
+| Reach | Examples |
+|---|---|
+| Short | Fist, dagger, shortsword, hand axe |
+| Medium | Longsword, mace, hand-and-a-half blade, spear used one-handed |
+| Long | Two-handed spear, polearm, great axe, pike |
+
+When two combatants meet at the same Reach, combat proceeds normally. When their Reach differs by one step, the longer weapon has a small advantage on the opening exchange and combat otherwise proceeds normally. When their Reach differs by **two steps**, position dominates.[2]
+
+**Fighting at the longer Reach.** The shorter-weapon fighter cannot directly attack their opponent until they close the distance. They may attack the longer weapon itself (see *Damage Weapon* in *Special Effects*), spend an Action to Close (an Opposed Fighting Test of the closing character's Reflexes against the longer-weapon wielder's Fighting), or rely on a winning Special Effect to bridge the gap. They are still considered Engaged: the longer weapon can still strike them.[2]
+
+**Closing the gap.** If a shorter-weapon fighter wins the Close test or wins an exchange with the *Close Range* Special Effect, they enter the longer-weapon wielder's Reach. From that point, the longer weapon cannot Parry — it is too unwieldy to deflect blows at the haft — and must be dropped, switched for a sidearm, or used at a Disadvantage with reduced Damage. This is why the soldier with the spear also carries a knife.[2]
+
+**Opening the gap.** A fighter who finds themself at the wrong Reach may spend an Action and an Opposed Fighting Test to open range, restoring the previous distance. The retreating combatant suffers no automatic harm for this — Opportunity Attack still requires them to move away outright — but they have given up the initiative of the exchange to do it.
+
+Reach is the reason a footman with a polearm holds ground against a charging knight, and the reason that knight wants a sword on his belt the moment the line breaks.
+
 ## Attacking
 
-To attack, spend 1 Action and choose a valid target within range. Melee attacks require the target to be within Immediate Range. Ranged attacks require the target to be within the weapon's listed range.[1]
+To attack, spend 1 Action and choose a valid target within range. Melee attacks require the target to be within Immediate Range and within your weapon's Reach (see above). Ranged attacks require the target to be within the weapon's listed range.[1]
 
 ### Melee Attacks
 
 Melee attacks are resolved as Opposed Fighting Tests. Both attacker and defender make a Fighting Test, applying any relevant weapon Specialisation. If the defender is not wielding a melee weapon or shield, they make this Test with Disadvantage. Instead of opposing with Fighting, the defender may use Reflexes (Dodge) to avoid the blow. Opposing a melee attack in either fashion does not require a Reaction, but it does cost 1 Stamina.[1]
 
 If the target does not oppose the attack, the attacker gains Advantage. If the attacker wins the Opposed Test, **add the difference in Success Levels to the weapon's Damage rating N**, then resolve damage as **NdN-N** (that many d3 minus the same number). Add the attacker's relevant attribute bonus (Might for melee, Insight for ranged, per Ch 4) to the rolled total. The full Damage Resolution procedure is in [15 — Equipment](15-equipment.md#damage-resolution). The defender does not deal damage if they win, unless they score a Critical.[1]
+
+The attacker may, instead of (or in addition to) adding the success-level difference to Damage, spend that difference to apply a **Special Effect** — a tactical manoeuvre such as disarming, tripping, or impaling the defender. See *Special Effects* below.
 
 After a successful attack, use the Complication Die to determine hit location:
 
@@ -66,13 +92,95 @@ After a successful attack, use the Complication Die to determine hit location:
 
 Reduce the rolled Damage total by the target's Armour at that location. The remainder is suffered as Physical Stress against Vitality.[1]
 
+### Weapon Size and Parry Reduction
+
+When a defender wins their Fighting Test and parries, the Size of the parrying weapon governs how much of the blow is actually deflected. A buckler does not stop a war-pick the way a tower shield does, and a dagger does not turn a great-axe at all.
+
+Weapons and shields use the following Size categories: Small, Medium, Large, Huge, Enormous. Hit locations and natural weapons of large creatures use the same scale.
+
+| Parry weapon vs. attacker's weapon | Damage blocked |
+|---|---|
+| Equal Size or larger | All damage |
+| One Size smaller | Half damage (round up) |
+| Two or more Sizes smaller | None |
+
+Apply this reduction to rolled Damage *before* Armour. Parrying with a weapon of two or more Sizes smaller is mechanically possible but accomplishes nothing in terms of damage — the defender may still gain Special Effects from winning the Opposed Test, but they will take the full blow. This is the rule that gives shields, two-handed weapons, and the humble sidearm their reasons to exist.[2]
+
 ### Ranged Attacks
 
 Ranged attacks are made with a Challenging (+0) Fighting Test unless another rule modifies the difficulty. The GM should apply the normal situational modifiers for cover, concealment, visibility, movement, and range as appropriate. A hidden attacker who successfully strikes inflicts a Critical Hit.[1]
 
+Ranged weapons cannot ordinarily be parried with a hand weapon. A defender may oppose a ranged attack with a shield (using its Size as above) or with Reflexes (Dodge), but most other parries are not available against arrows, slings, bullets, or magical projectiles.
+
 ### Rushed Attacks
 
 A character may attack more than once during their turn. Each attack after the first is a Rushed Attack. Every Rushed Attack imposes one instance of Disadvantage and costs an additional point of Stamina. Repeated blows can overwhelm an enemy, but wild aggression quickly burns through endurance and leaves openings.[1]
+
+## Special Effects
+
+Fighting is more than a subtraction of hit points. A skilled combatant does not simply deal damage — they unbalance, disarm, blind, impale, and force their opponent into positions from which they cannot recover. Special Effects represent these manoeuvres and translate the *margin* of a winning Opposed Fighting Test into something more interesting than another damage die.[2]
+
+When you win an Opposed Fighting Test, you may spend the **difference in Success Levels** to apply one Special Effect from those available to your weapon style, instead of (or in addition to) adding that difference to Damage. A Critical winner may apply one Effect and still add the difference to Damage. Effects with a Critical-only entry require a Critical result on your Fighting Test to use. The defender, if they win the exchange, may use defensive Effects on the same basis.
+
+Special Effects are selected *before* damage and hit location are rolled. A character may apply more than one Effect on a single exchange if the success-level margin allows it, and some effects may be stacked. Effects gated by weapon type are listed with the entry; a character without an appropriate weapon cannot select them.
+
+The list below is the starter set. Additional Effects may be granted by Talents, weapon Traits, or campaign-specific rules. The GM may also limit a given character's available Effects to a focused list (typically six to nine) based on their Combat training, which keeps choice manageable in the moment without removing it from play entirely.[2]
+
+### Offensive Effects
+
+**Bash.** *Bludgeoning weapons and shields.* The attacker knocks the defender backwards 1 metre per 3 rolled Damage (1 metre per 2 with a shield). The defender must pass an Athletics or Reflexes Test or fall prone. Bash works only against creatures no larger than twice the attacker's Size.
+
+**Bleed.** *Cutting and impaling weapons.* If the blow penetrates Armour and inflicts Physical Stress, the defender begins bleeding. They lose 1 Stamina at the start of each subsequent round until First Aid is applied. A bleeding character cannot regain Stamina until staunched.
+
+**Bypass Armour.** *Critical only.* The attacker finds a gap in the defender's protection. Halve the Armour value at the struck location for this attack.
+
+**Choose Location.** The attacker selects the hit location instead of rolling the Complication Die. With a ranged weapon, this is a Critical-only Effect unless the target is unaware or stationary at close range.
+
+**Disarm Opponent.** The attacker knocks, twists, or yanks a weapon from the defender's grip. The defender opposes with a Fighting Test. If the disarming weapon is larger, the defender's Test is at Disadvantage; if smaller, at Advantage. The dropped weapon falls at the defender's feet.
+
+**Impale.** *Impaling weapons.* Roll damage twice and choose the higher result. If the blow penetrates Armour, the attacker may leave the weapon embedded. While impaled, the defender suffers Disadvantage on physical Tests; the attacker may not Parry with the weapon until they spend an Action to withdraw it, which deals further Damage to the same location.
+
+**Maximise Damage.** *Critical only.* One Damage die is treated as its maximum value instead of being rolled. May be stacked: a Critical with two Effects could maximise two dice. The attacker's attribute bonus is still rolled or applied normally.
+
+**Stun Location.** *Bludgeoning weapons.* If the blow penetrates Armour, the defender must oppose the attack with a Resolve or Constitution Test. On a failure, the struck location is Stunned for a number of rounds equal to the inflicted Damage. A stunned arm drops what it holds; a stunned leg drops the character prone; a stunned head leaves the defender unable to take Actions for that duration.
+
+**Trip Opponent.** The attacker overbalances or sweeps the defender to the ground. The defender opposes with Reflexes or Athletics. On a failure, they fall prone.
+
+### Defensive Effects
+
+**Arise.** The defender uses the opening to roll back to their feet without spending an Action.
+
+**Close Range.** *Defender, melee.* The defender steps inside the attacker's Reach. See *Reach* above. This Effect may also be selected by an attacker who wins an exchange and wishes to close.
+
+**Damage Weapon.** The character damages the opponent's weapon as part of the exchange. Apply the rolled Damage to the targeted weapon. A weapon reduced to zero Hit Points breaks.
+
+**Disarm Opponent.** As above; defenders may also disarm.
+
+**Enhance Parry.** *Critical only.* The defender deflects the full force of the attack regardless of the relative Size of the parrying weapon.
+
+**Slip Free.** *Critical only.* The defender escapes a Grip, Entangle, Impale, or similar restraint without an Opposed Test.
+
+**Withdraw.** The defender immediately breaks engagement and steps out of Reach. No Opportunity Attack is provoked.
+
+A more complete list of Effects, and recommended "hands" of Effects by weapon style, lives in [15 — Equipment](15-equipment.md#weapon-styles-and-effects). New players are not expected to know every Effect; the GM should help by suggesting which are available and likely to apply.
+
+## Brace
+
+A character may spend 1 Action to Brace: planting their stance, lowering their centre, and setting their shield or weapon to meet a coming blow. A braced character's effective Size is treated as 50% larger against Bash, Knockback, and charges, and is *doubled* against Bash performed with a shield or charging weapon. Brace persists until the character moves or takes a Reaction that requires footwork.
+
+Brace is the answer to giants, charging cavalry, and any weapon large enough to send a normal fighter sprawling. It is not heroic. It is what keeps the line from breaking.[2]
+
+## Charge
+
+A character with room to run may spend 1 Action and their Move to Charge an enemy. The attack is made at Disadvantage, but the charging weapon's effective Size and Damage are each increased by one step for the exchange. If the charging weapon can be set against a charge (a spear, pike, or polearm in the defender's hand) the recipient may substitute the charger's own Damage bonus for theirs, and strikes first if their weapon has the longer Reach.[2]
+
+A mounted charger uses their mount's Damage bonus in place of their own. The lance exists for a reason. So does the pike line.
+
+## Knockback
+
+When raw damage from a single blow exceeds the target's effective Size — *before* Armour and parry reductions — the target is knocked back 1 metre per 5 points of excess Damage and must pass an Athletics Test to remain standing. Brace, as above, increases effective Size for this purpose. Knockback may push a target into terrain, allies, or hazards, and the GM should resolve the consequences in fiction: a fighter slammed into a pit grate falls through; one driven into a wall takes the blow twice.
+
+Knockback gives large creatures, charging mounts, and crushing weapons a feel distinct from "they merely hit harder." A footman who cannot be moved is a footman the giant must actually defeat.
 
 ## Assess
 
@@ -138,6 +246,37 @@ A Desperate enemy does not always flee. The GM should choose the response that b
 - **Charge** if escape is impossible and the enemy has nothing left to lose.[2]
 
 Once enemies become Desperate, the GM should begin bringing the combat toward a conclusion. The outcome is usually decided unless something dramatic changes the situation.[2]
+
+## Rabble and Underlings
+
+Not every enemy deserves the full machinery of Fighting Tests, hit locations, and Critical Wounds. A swarm of cultists, a press of conscripts, a handful of beggars who set on the party at the tavern door — these foes are dangerous in number and in surprise, but tracking each one individually drains a fight of its drama and turns the table into bookkeeping. Use the optional categories below when the party faces a crowd of expendable enemies. Competent NPCs and named villains are still run with the full rules.[2]
+
+### Rabble
+
+Rabble are the desperate, the untrained, or the merely numerous. They intimidate by their count, but they have no real appetite for steel.
+
+- Rabble wear little or no armour.
+- Rabble cannot use Special Effects.
+- Rabble have Vitality equal to one fifth (rounded up) of the average member of their race or kind.
+- Once a Rabble member takes any damage, they cease fighting:
+  - If the damage is less than their Vitality, they flee cursing or screaming.
+  - If the damage equals or exceeds their Vitality, they collapse, weeping or wounded.
+  - If the damage is twice their Vitality, they die outright.
+- Once a third of the Rabble have fallen, the rest break and run.
+
+### Underlings
+
+Underlings are competent foes sent in numbers — bodyguards, irregular troops, the front rank of an opposed shield wall — but they are still expendable rather than central to the story.
+
+- Underlings wear moderate armour.
+- Underlings may use Special Effects normally.
+- Underlings have Vitality equal to one fifth of the average member of their race or kind.
+- Once an Underling takes two injuries, they cease fighting and withdraw if able.
+- If a single blow deals damage equal to or exceeding their Vitality, they automatically suffer a Critical Wound at the struck location, without a roll.
+- If a single blow deals twice their Vitality in damage, they die in a memorable manner.
+- Once half the Underlings have fallen, the rest break and withdraw.
+
+These categories pair naturally with Superiority and Resolve. Defeating a Rabble member in a single turn satisfies the "defeat troops equal to their Resolve" trigger trivially; Underlings, being competent, count as troops in their own right. The leaders who *send* such forces are run with the full combat rules — they are the reason the encounter exists.[2]
 
 ## Injury, Vitality, and Critical Wounds
 

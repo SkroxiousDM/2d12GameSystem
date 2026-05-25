@@ -14,7 +14,7 @@ A character may have any number of *different* conditions at once.
 
 | Condition | Severity | Source Chapter | Effect (one line) |
 |---|---|---|---|
-| **Ablaze** | Minor / Major | 14 — Effects And Conditions | 1d3 or 1d6 physical stress per turn, ignores armor; auto-fail Stealth. |
+| **Ablaze** | Minor / Major | 14 — Effects And Conditions | Damage 2 (Minor) or Damage 3 (Major) physical stress per turn, ignores armor; auto-fail Stealth. |
 | **Bleeding** | Minor / Major | 14 — Effects And Conditions | 1 or 3 physical stress at end of turn, ignores armor. |
 | **Blinded** | — | 14 — Effects And Conditions | Sight-based tests succeed only on a natural 2; Disadvantage on melee and Dodge. |
 | **Coughing** | — | 19 — Exploration And Travel | −1d on Stealth-by-sound tests until next Camp. |

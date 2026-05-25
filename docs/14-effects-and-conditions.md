@@ -28,8 +28,8 @@ By spending 2 Success Levels as part of an attack, you may impose one condition 
 ### Ablaze
 *You are on fire.*
 
-- **Ablaze (Minor):** You suffer 1d3 physical stress at the start of each of your turns, ignoring armour.
-- **Ablaze (Major):** You suffer 1d6 physical stress at the start of each of your turns, ignoring armour.
+- **Ablaze (Minor):** You suffer Damage 2 (2d3-2) physical stress at the start of each of your turns, ignoring armour.
+- **Ablaze (Major):** You suffer Damage 3 (3d3-3) physical stress at the start of each of your turns, ignoring armour.
 
 While Ablaze, you automatically fail all Stealth tests. Unless otherwise specified, you may remove the Ablaze condition by dropping Prone and using a major action to make a successful Athletics test (Difficulty 1).
 

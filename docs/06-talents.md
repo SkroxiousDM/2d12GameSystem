@@ -230,7 +230,7 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 *Prerequisites: Strength 3 or Dexterity 3, Rank 2 Fighting*
 
 * **Reaction:** When you fail to hit with a Fighting Skill attack, you may make an immediate second attack with Disadvantage.  
-* **Benefit:** You may choose to make Fighting Skill Checks with Disadvantage. When you succeed on a Fighting Skill Check made with Disadvantage, you inflict 1d4 additional Vitality Damage.
+* **Benefit:** You may choose to make Fighting Skill Checks with Disadvantage. When you succeed on a Fighting Skill Check made with Disadvantage, you add **+2 to the weapon's Damage rating** for that hit (i.e. roll two additional d3, and subtract 2 more, per the standard Damage Resolution in Ch 15).
 
 ---
 

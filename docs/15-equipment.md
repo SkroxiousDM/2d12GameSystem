@@ -62,7 +62,7 @@ Item Qualities (below) reduce Availability by one step per Quality. Item Flaws i
 Characters lacking the right tool may often still attempt the action with an improvised substitute.
 
 - **Improvised tool.** A test that normally requires a kit may be made without it at +1 step of Difficulty.
-- **Improvised weapon.** Any heavy or pointed object may be wielded as a weapon. Treat as a Light weapon dealing 1d3 stress with no traits. The improvised weapon breaks on any Fumble.
+- **Improvised weapon.** Any heavy or pointed object may be wielded as a weapon. Treat as a Light weapon with Damage 2 (resolved 2d3-2 per Damage Resolution) and no traits. The improvised weapon breaks on any Fumble.
 - **Improvised armor.** Layers of cloth, a wineskin under the tunic, or a board strapped to the arm may grant Armour 1 to a single hit location, lasting one scene. After one strike, treat as Sundered.
 
 Improvised gear is not a substitute for the right tool. It is a way to avoid telling the players they cannot try.
@@ -93,7 +93,7 @@ Each Item Quality **doubles** the item's listed price and **reduces** its Availa
 
 ***
 
-**Versatile.** *(weapons only)* The weapon may be wielded effectively one-handed or two-handed. While wielded two-handed, it gains the Penetrating 1 trait or +1 damage, wielder's choice declared on attack.
+**Versatile.** *(weapons only)* The weapon may be wielded effectively one-handed or two-handed. While wielded two-handed, it gains the Penetrating 1 trait or +1 Damage rating (one extra d3, with the subtraction increased by 1 to match), wielder's choice declared on attack.
 
 ## Item Flaws
 
@@ -131,7 +131,7 @@ Many weapons and pieces of armour possess unusual qualities known as Traits. Tra
 
 ***
 
-**Blast.** When attacking with a Blast weapon, target a zone within range and make a single Fighting (Thrown) or Ranged test, as appropriate. All characters in the target zone may use their reaction to make an opposed Agility (Dodge) test against your result. Those who fail suffer stress equal to the weapon's damage plus the difference in success levels. Characters in the same zone may therefore suffer very different outcomes.
+**Blast.** When attacking with a Blast weapon, target a zone within range and make a single Fighting (Thrown) or Ranged test, as appropriate. All characters in the target zone may use their reaction to make an opposed Agility (Dodge) test against your result. Those who fail suffer damage as normal (roll the weapon's damage per Ch 15 Damage Resolution, adding each defender's individual SL deficit). Characters in the same zone may therefore suffer very different outcomes.
 
 > *Simplified Explosions: When multiple characters are caught in a Blast, the GM may make a single opposed test against all targets sharing the same Reflexes (Dodge) rank, applying the result to all of them simultaneously.*
 
@@ -249,7 +249,7 @@ Throughout 15.1 and 15.2 each item is presented in a table row with the followin
 | Field | Meaning |
 |---|---|
 | Name | The item's common name and (for setting clarity) Latin or vernacular form. |
-| Damage / Armour | Weapon stress in 1dX form; armor as a flat reduction. |
+| Damage / Armour | Weapon damage as a single integer N (see Damage Resolution below); armor as a flat reduction. |
 | Hands | M = melee one-handed; M2 = melee two-handed; R = ranged one-handed; R2 = ranged two-handed. |
 | Range | Melee: Engaged or Reach. Ranged: Immediate / Short / Medium / Long. |
 | Encumbrance | Tiny / Light / Standard / Heavy. |
@@ -257,4 +257,19 @@ Throughout 15.1 and 15.2 each item is presented in a table row with the followin
 | Price | In denarii (see 15.4). Prices are baseline; quality and flaws modify. |
 | Traits | Comma-separated. See the Traits section above. |
 
-When a value is not specified for an item it is "—" or assumed at the default: damage 1d6, range Engaged, Restriction 1, Encumbrance Standard.
+When a value is not specified for an item it is "—" or assumed at the default: damage 3, range Engaged, Restriction 1, Encumbrance Standard.
+
+## Damage Resolution
+
+Weapon damage is a single integer **N** printed on each item's row. To resolve damage on a successful hit:
+
+1. **Take the weapon's Damage rating N.**
+2. **Add the difference in Success Levels (SL)** between the attacker's roll and the defender's (or against the test's Difficulty if there is no opposing roll).
+3. **Roll that many d3 and subtract the same number.** A final damage value of **N** is resolved as **NdN-N** (so Damage 4 = 4d3-4, Damage 6 = 6d3-6, and so on).
+4. **Apply the relevant attribute bonus** (Might for melee, Insight for ranged, Willpower for mental — per Ch 4) as a flat addition to the total **after** the dice are rolled.
+5. **Reduce the result by the target's Armour** at the struck hit location.
+6. The remainder is suffered as Physical Stress against Vitality (Ch 11).
+
+This dice expression has a minimum of 0 (it can never heal the target) and a maximum of 2N. The expected value is N, so the printed number is also the average damage delivered before SL, attributes, and armour.
+
+> *Example.* Lucia attacks with a Spatha (Damage 4) and beats her foe by 2 SL. She rolls 6d3-6 = 7, adds her MIG 2 = 9, then subtracts the target's Body armor of 3, dealing 6 Stress to Vitality.

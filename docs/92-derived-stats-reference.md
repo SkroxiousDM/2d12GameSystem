@@ -8,7 +8,7 @@ A one-page reference for every derived statistic in the game: how it is calculat
 |---|---|---|
 | **Stamina** | MIG + CON + DEX + AGI + Traits | Ch 4 — Attributes |
 | **Alacrity** | ((AGI + INS) / 2) + Traits | Ch 4 — Attributes |
-| **Defense** | (CON − 2) + Armor + Cover + Traits | Ch 4 — Attributes |
+| **Defence** | (CON − 2) + Armour + Cover + Traits | Ch 4 — Attributes |
 | **Vitality** | 3 + CON + Traits | Ch 4 — Attributes |
 | **Wounds (max)** | 3 + CON + Traits | Ch 4 — Attributes |
 | **Courage** | (WIL − 2) + Morale + Traits | Ch 4 — Attributes |
@@ -129,7 +129,7 @@ A traveler's guide to the resource economy.
 >
 > - **Stamina:** 3 + 4 + 3 + 3 + 3 = **16**
 > - **Alacrity:** ((3 + 4)/2) + 3 = 3 + 3 = **6** *(round down)*
-> - **Defense:** (4 − 2) + 2 (mail) + 0 + 3 = **7**
+> - **Defence:** (4 − 2) + 2 (mail) + 0 + 3 = **7**
 > - **Vitality:** 3 + 4 + 3 = **10**
 > - **Wounds (max):** 3 + 4 + 3 = **10**
 > - **Courage:** (3 − 2) + 0 + 3 = **4**
@@ -145,5 +145,5 @@ A traveler's guide to the resource economy.
 - No attribute exceeds **7** by any means.
 - An attribute may not exceed the character's **number of Traits**.
 - A skill may not exceed its governing attribute's natural cap.
-- Defense and Courage have no hard cap, but the GM should question any value above 12 outside of magical and narrative spikes.
+- Defence and Courage have no hard cap, but the GM should question any value above 12 outside of magical and narrative spikes.
 - Wounds remaining at 0 with Vitality at 0 and Resolve at 0 is a candidate for Fate burn (Ch 4, Ch 7).

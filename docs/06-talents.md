@@ -31,7 +31,7 @@ Requirements typically include:
 *Prerequisite: Constitution 4*
 
 * **Benefit:** \+1 Vitality.  
-* **Benefit:** \+2 Armor while unarmored.  
+* **Benefit:** \+2 Armour while unarmoured.  
 * **Desperate Action:** When a single attack would deal more than 1 Critical Wound, reduce it to 1\.
 
 ---
@@ -48,7 +48,7 @@ Requirements typically include:
 
 You can work yourself into a furious killing state.
 
-* **Free Action:** make a Challenging Willpower Check to enter a rage. While raging, your Strength increases by \+1 and you are immune to the Frightened condition. On your turn, you must move toward the nearest visible enemy and engage them in melee. The rage ends when all visible enemies are defeated or when you suffer the Stunned or Unconscious condition.
+* **Free Action:** make a Challenging Willpower Check to enter a rage. While raging, your Might increases by \+1 and you are immune to the Frightened condition. On your turn, you must move toward the nearest visible enemy and engage them in melee. The rage ends when all visible enemies are defeated or when you suffer the Stunned or Unconscious condition.
 
 This Talent may be taken multiple times. Each time after the first, choose one of the following:
 
@@ -75,24 +75,24 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 ## **Bruiser**
 
-*Prerequisites: Dual Wielder, Strength 4, Rank 5 Fighting*
+*Prerequisites: Dual Wielder, Might 4, Rank 5 Fighting*
 
-* **Reaction:** When your attack while dual wielding swords, axes, or maces is mitigated by armor, you may make an additional Fighting Skill Check against the same target.
+* **Reaction:** When your attack while dual wielding swords, axes, or maces is mitigated by armour, you may make an additional Fighting Skill Check against the same target.
 
 ---
 
 ## **Dervish**
 
-*Prerequisites: Opportunist or Bruiser, Strength 5 or Dexterity 5*
+*Prerequisites: Opportunist or Bruiser, Might 5 or Dexterity 5*
 
-* **Desperate Action:** While dual wielding, make a single Fighting Skill Check against a number of adjacent characters up to your Dexterity or Strength score.
+* **Desperate Action:** While dual wielding, make a single Fighting Skill Check against a number of adjacent characters up to your Dexterity or Might score.
 
 ---
 
 ## **Ironclad**
 
-* **Benefit:** Armor requires 1 fewer Stamina to wear. You may forgo this benefit to have all armor grant \+1 Armor instead.  
-* **Benefit:** Armor's Dexterity limit is increased by 1\. You may forgo this benefit to have all armor grant \+1 Armor instead.
+* **Benefit:** Armour requires 1 fewer Stamina to wear. You may forgo this benefit to have all armour grant \+1 Armour instead.  
+* **Benefit:** Armour's Dexterity limit is increased by 1\. You may forgo this benefit to have all armour grant \+1 Armour instead.
 
 ---
 
@@ -100,7 +100,7 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 *Prerequisites: Ironclad, Rank 5 Fighting*
 
-* **Reaction:** When an attack from an adjacent source is mitigated by your armor, you may immediately make a Fighting Skill Check against the attacker.
+* **Reaction:** When an attack from an adjacent source is mitigated by your armour, you may immediately make a Fighting Skill Check against the attacker.
 
 ---
 
@@ -124,7 +124,7 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 ## **Scrapper**
 
-*Prerequisites: Strength 3 or Dexterity 3, Rank 1 Fighting*
+*Prerequisites: Might 3 or Dexterity 3, Rank 1 Fighting*
 
 * **Benefit:** When Unarmed and you deal a Critical Hit or Critical Wound, you may increase its rolled severity by \+3.  
 * **Benefit:** When you spend Fortune to gain Advantage on an Unarmed attack, that attack inflicts Vitality Damage as though you were armed.
@@ -133,7 +133,7 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 ## **Formidable**
 
-*Prerequisites: Strength 3, Rank 1 Fighting*
+*Prerequisites: Might 3, Rank 1 Fighting*
 
 * **Benefit:** Your base Evasion becomes 10 \+ your Fighting Skill Rank while wielding a two-handed axe, mace, or sword.  
 * **Benefit:** When you would inflict a Critical Wound with a two-handed weapon, inflict one additional Critical Wound.
@@ -142,7 +142,7 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 ## **Butcher**
 
-*Prerequisites: Athletics (Lifting), Strength 4, Rank 3 Fighting*
+*Prerequisites: Athletics (Lifting), Might 4, Rank 3 Fighting*
 
 * **Benefit:** The first time each round you inflict a Wound or Critical Wound with a two-handed axe, mace, or sword, inflict one additional Critical Wound.
 
@@ -150,7 +150,7 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 ## **Cleaver**
 
-*Prerequisites: Athletics (Lifting), Strength 5, Rank 5 Fighting*
+*Prerequisites: Athletics (Lifting), Might 5, Rank 5 Fighting*
 
 * **Reaction:** When you kill a character with a two-handed weapon, you may immediately attack a character adjacent to them.
 
@@ -158,7 +158,7 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 ## **Manslayer**
 
-*Prerequisites: Cleaver, Strength 6*
+*Prerequisites: Cleaver, Might 6*
 
 * **Benefit:** You may spend 2SL from Cleaver's Fighting Skill Check to attack an additional character adjacent to the first.
 
@@ -213,13 +213,13 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 * **Benefit:** When you deal a Critical Hit or Critical Wound, you may increase its rolled severity by \+2,  if you have no current Vitality Damage.  
 * **Benefit:** If you move from a non-adjacent position to attack, and you deal a Critical Hit or Critical Wound, you may increase its rolled severity by \+2.  
-* **Benefit:** You may use Strength instead of Agility when calculating Alacrity.
+* **Benefit:** You may use Might instead of Agility when calculating Alacrity.
 
 ---
 
 ## **Reckless**
 
-*Prerequisites: Strength 3, Rank 2 Fighting*
+*Prerequisites: Might 3, Rank 2 Fighting*
 
 * **Benefit:** You may choose to give all your Fighting Skill Checks—and all attacks made against you—Advantage for the round.
 
@@ -227,7 +227,7 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 ## **Dirty Fighter**
 
-*Prerequisites: Strength 3 or Dexterity 3, Rank 2 Fighting*
+*Prerequisites: Might 3 or Dexterity 3, Rank 2 Fighting*
 
 * **Reaction:** When you fail to hit with a Fighting Skill attack, you may make an immediate second attack with Disadvantage.  
 * **Benefit:** You may choose to make Fighting Skill Checks with Disadvantage. When you succeed on a Fighting Skill Check made with Disadvantage, you add **+2 to the weapon's Damage rating** for that hit (i.e. roll two additional d3, and subtract 2 more, per the standard Damage Resolution in Ch 15).
@@ -236,9 +236,9 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 ## **Defender**
 
-*Prerequisites: Strength 4, Rank 2 Fighting*
+*Prerequisites: Might 4, Rank 2 Fighting*
 
-* **Benefit:** Shields grant \+1 Armor.  
+* **Benefit:** Shields grant \+1 Armour.  
 * **Reaction:** When you do not move on your turn, you may raise a heavy shield to gain cover for the round, imposing Disadvantage on Archery and Magic Skill Checks made against you.
 
 ---
@@ -253,7 +253,7 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 ## **Stalwart**
 
-*Prerequisites: Shieldbearer, Strength 5, Rank 5 Fighting*
+*Prerequisites: Shieldbearer, Might 5, Rank 5 Fighting*
 
 * **Reaction:** When adjacent to more than one character who has attacked you this round, you may make an attack with your Fighting Skill.  
 * **Benefit:** If you end your turn adjacent to three or more hostile characters, you gain Advantage on your next Fighting Skill Check.
@@ -262,16 +262,16 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 ## **Vigilant**
 
-*Prerequisites: Shieldbearer, Strength 5, Rank 5 Fighting*
+*Prerequisites: Shieldbearer, Might 5, Rank 5 Fighting*
 
 * **Reaction:** When an adjacent character attacks a friendly character adjacent to you, you may immediately attack the attacker with your Fighting Skill.  
-* **Reaction:** If an adjacent ally without the Vigilant Talent would receive one or more Vitality Damage and you are wielding a shield, you may take those Vitality Damage instead. They are mitigated as though by armor.
+* **Reaction:** If an adjacent ally without the Vigilant Talent would receive one or more Vitality Damage and you are wielding a shield, you may take those Vitality Damage instead. They are mitigated as though by armour.
 
 ---
 
 ## **Savage**
 
-*Prerequisites: Strength 3, Rank 3 Fighting*
+*Prerequisites: Might 3, Rank 3 Fighting*
 
 * **Benefit:** When you deal a Critical Hit or Critical Wound, you may increase its rolled severity by \+1 for every untreated Critical Wound you currently carry.  
 * **Reaction:** When you receive a Critical Wound, you may immediately attack.  
@@ -283,9 +283,9 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 *Prerequisite: Rank 5 Fighting*
 
-* **Benefit:** \+1 Armor while unarmored.  
-* **Benefit:** \+1 Alacrity while unarmored.  
-* **Benefit:** When you deal a Critical Hit or Critical Wound, you may increase its rolled severity by \+1 while unarmored.  
+* **Benefit:** \+1 Armour while unarmoured.  
+* **Benefit:** \+1 Alacrity while unarmoured.  
+* **Benefit:** When you deal a Critical Hit or Critical Wound, you may increase its rolled severity by \+1 while unarmoured.  
 * **Reaction:** If you Wound an unwounded character, you may immediately attack them again with a Fighting Skill Check.
 
 ---
@@ -304,7 +304,7 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 *Prerequisite: Rank 5 Fighting*
 
-* **Benefit:** \+4 Armor.  
+* **Benefit:** \+4 Armour.  
 * **Special:** Your Dexterity may not increase your Evasion.
 
 ---
@@ -313,7 +313,7 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 *Prerequisites: Dexterity 3, Rank 2 Fighting*
 
-* **Benefit:** You may use your Dexterity instead of your Strength when calculating damage for melee weapons with the Subtle trait.
+* **Benefit:** You may use your Dexterity instead of your Might when calculating damage for melee weapons with the Subtle trait.
 
 ---
 
@@ -437,7 +437,7 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 *Prerequisite: Rank 2 Fighting (Archery or Thrown Weapons)*
 
-* **Benefit:** When you make a ranged attack targeting an enemy in the same zone as a visible ally, the cover your target benefits from is reduced by 2 Armor.
+* **Benefit:** When you make a ranged attack targeting an enemy in the same zone as a visible ally, the cover your target benefits from is reduced by 2 Armour.
 
 ---
 
@@ -625,10 +625,10 @@ You carry a deep and consuming hatred for a particular group. Choose the object 
 
 ## **Athletic**
 
-*Prerequisites: Dexterity 5 or Strength 5, Light-Footed*
+*Prerequisites: Dexterity 5 or Might 5, Light-Footed*
 
 * **Benefit:** Gain \+1SL on all Dexterity-based Checks to jump, climb, and tumble.  
-* **Benefit:** Reduce falling damage by half as though mitigated by armor.  
+* **Benefit:** Reduce falling damage by half as though mitigated by armour.  
 * **Desperate Action:** Prevent up to 2 Critical Wounds from a single fall.
 
 ---
@@ -638,7 +638,7 @@ You carry a deep and consuming hatred for a particular group. Choose the object 
 *Prerequisites: Dexterity 6, Light-Footed*
 
 * **Desperate Action:** All attacks against you have Disadvantage for the round.  
-* **Desperate Action:** Halve the Vitality Damage from one attack that hits you, as though by armor.
+* **Desperate Action:** Halve the Vitality Damage from one attack that hits you, as though by armour.
 
 ---
 
@@ -658,7 +658,7 @@ You carry a deep and consuming hatred for a particular group. Choose the object 
 
 You know the land of your upbringing the way others know their own face. This Talent may be taken multiple times, choosing a new environment each time.
 
-* **Benefit:** Choose one of the following environments. Within that environment, you have Advantage on Stealth Checks and gain \+1 Armor from Cover beyond what cover normally provides.  
+* **Benefit:** Choose one of the following environments. Within that environment, you have Advantage on Stealth Checks and gain \+1 Armour from Cover beyond what cover normally provides.  
   * **Agricultural:** Farmed fields, orchards, pastures, fishing villages  
   * **Forest:** Deep woodland, managed hunting grounds, ancient groves  
   * **Highlands:** Mountains, hill country, exposed moorland  
@@ -1111,7 +1111,7 @@ You have a natural gift for one of the arts. This Talent may be taken multiple t
 
 *Prerequisite: Rank 1 Survival*
 
-* **Benefit:** Gain \+1SL on Strength Checks to endure extreme climates, hunger, and thirst.  
+* **Benefit:** Gain \+1SL on Might Checks to endure extreme climates, hunger, and thirst.  
 * **Benefit:** Gain \+1SL on Survival Skill Checks to determine location and direction.  
 * **Benefit:** Increase your Survival Skill one Rank.  
 * **Desperate Action:** Gain \+1SL on one Survival Skill Check.

@@ -1,17 +1,17 @@
 # Pursuit
 
-A pursuit can begin directly from a roleplaying scene, or it can follow immediately after combat if one side breaks and runs. In either case, the Game Master declares that a pursuit is now in progress and sets the starting range between the participants, using the normal range bands as a reference, up to a maximum of **Long** range [1].
+A pursuit can begin directly from a roleplaying scene, or it can follow immediately after combat if one side breaks and runs. In either case, the GM declares that a pursuit is now in progress and sets the starting range between the participants, using the normal range bands as a reference, up to a maximum of **Long** range [1].
 
 Distances in a pursuit are measured only in range bands, not in exact feet or yards. Most pursuits are between two parties: one fleeing, one chasing. Larger scenes with multiple riders, footmen, or quarry can use the multiple-participant rules on the sidebar [1].
 
 ## Resolution
 
-Pursuits are played out in rounds just like combat, but no initiative is drawn and no normal movement or attacks are resolved in the usual way. Instead, each participant gets one maneuver each round, and the Game Master generates or reveals an obstacle to shape the scene [1].
+Pursuits are played out in rounds just like combat, but no initiative is drawn and no normal movement or attacks are resolved in the usual way. Instead, each participant gets one maneuver each round, and the GM generates or reveals an obstacle to shape the scene [1].
 
 Each pursuit round follows these steps:
 
 1. Each participant secretly chooses a maneuver.
-2. The Game Master generates or reveals a pursuit obstacle.
+2. The GM generates or reveals a pursuit obstacle.
 3. The participants reveal their maneuvers.
 4. Maneuvers are resolved, with the prey acting first if both sides would otherwise be tied [1].
 
@@ -30,9 +30,9 @@ A player or NPC may cancel a planned maneuver, but no other maneuver may be chos
 
 ## Chase obstacles
 
-At the end of each round, after the participants have chosen their maneuvers, the Game Master randomly generates or selects a pursuit obstacle. Obstacles can be interpreted broadly to suit the scene: a crowded market, muddy road, narrow bridge, stable yard, castle gate, or wooded trail [1][2].
+At the end of each round, after the participants have chosen their maneuvers, the GM randomly generates or selects a pursuit obstacle. Obstacles can be interpreted broadly to suit the scene: a crowded market, muddy road, narrow bridge, stable yard, castle gate, or wooded trail [1][2].
 
-The obstacle provides color for the scene and can also affect the maneuvers chosen by the participants. The Game Master is free to adapt the obstacle list to the location and can create new obstacles as needed [1].
+The obstacle provides color for the scene and can also affect the maneuvers chosen by the participants. The GM is free to adapt the obstacle list to the location and can create new obstacles as needed [1].
 
 ### Foot pursuit obstacles
 
@@ -72,7 +72,7 @@ The obstacle provides color for the scene and can also affect the maneuvers chos
 
 Passengers may make ranged attacks from a mount or wagon during a pursuit, and those attacks are resolved immediately after the rider’s maneuver is resolved. However, such attacks normally suffer disadvantage if the rider performed any maneuver other than Stand and Shoot [1].
 
-More disciplined cavalry, mounted archers, or a knight with a trained mount may ignore that penalty when the situation supports it. The Game Master decides when that is plausible [2][1].
+More disciplined cavalry, mounted archers, or a knight with a trained mount may ignore that penalty when the situation supports it. The GM decides when that is plausible [2][1].
 
 ## Ending the pursuit
 

@@ -2,7 +2,7 @@
 
 Skills represent trained capabilities tied to specific attributes and situations. Each level of training in a skill (to a maximum of 5\) grants a \+1 bonus to the associated attribute check.   
 True depth of knowledge requires a broad foundation. A character may not increase a Skill by spending XP if doing so would raise its Rank higher than the total number of ranked Skills they currently possess. To reach Rank 4 in a Skill, a character must already possess at least four ranked Skills in total; to reach Rank 5, at least five.  
-A skilled character may Push a failed check to attempt it again at a cost of 1 Stress ( Vigor or Resolve depending  on the attribute being rolled)  
+A skilled character may Push a failed check to attempt it again at a cost of 1 Stress ( Vitality or Resolve depending  on the attribute being rolled)  
 Most tasks can be attempted without training; skill simply increases the likelihood of success.  
 At the GM's discretion, possessing a relevant skill can:
 
@@ -59,7 +59,7 @@ Crafting covers familiarity with fabrication techniques and the ability to resea
 
 | Specialization | Description |
 | :---- | :---- |
-| Armorsmithing | Manufacture and repair of worn armor, including forging and finishing its component parts. |
+| Armoursmithing | Manufacture and repair of worn armour, including forging and finishing its component parts. |
 | Cooking | Preparing meals, understanding ingredient use, and knowledge of food preservation. |
 | Tailoring | Designing and fabricating garments ranging from simple tunics to weatherproof outerwear, as well as leatherworking. |
 | Weaponsmithing | Manufacture and repair of weapons, including woodworking for spears and bows and metalworking for blades. |
@@ -73,7 +73,7 @@ Engineering encompasses technical and mechanical expertise, with an emphasis on 
 | Specialization | Description |
 | :---- | :---- |
 | Architecture | Understanding of how buildings are designed, constructed, and structurally supported. |
-| Defenses | Planning and construction of fortifications such as watchtowers, palisades, trenches, and barricades. |
+| Defences | Planning and construction of fortifications such as watchtowers, palisades, trenches, and barricades. |
 | Demolition | Methods for efficiently destroying buildings, siege engines, and fortifications. |
 | Infrastructure | Planning and construction of roads, aqueducts, bridges, and similar civic works. |
 | Siege Engines | Construction and operation of siege equipment including towers, ladders, onagers, and ballistae. |

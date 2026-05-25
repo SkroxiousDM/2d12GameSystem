@@ -2,7 +2,7 @@
 
 This chapter is the master reference for how gear works in the 2d12 system. It covers item categories, encumbrance, the Restriction and Availability ratings used elsewhere in the rules, the Quality/Flaw economy, and the full list of Weapon & Armour Traits. Specific items live in:
 
-- [15.1 — Armour](15.1-armour.md): helmets, body armor, shields.
+- [15.1 — Armour](15.1-armour.md): helmets, body armour, shields.
 - [15.2 — Weapons](15.2-weapons.md): melee and ranged weapons, ammunition.
 - [15.3 — Adventuring Gear](15.3-adventuring-gear.md): kits, tools, light, consumables.
 - [15.4 — Wealth, Trade, and Maintenance](15.4-wealth-and-trade.md): coinage, purchasing, repair, the economy of play.
@@ -24,13 +24,13 @@ Every item belongs to one of four weight categories. Encumbrance is paid in **in
 
 ## Restriction Rating
 
-Every weapon, piece of armor, and many gear items carry a **Restriction rating** from 0 to 5. This rating represents how readily a character may acquire the item by law, custom, and circulation. It is referenced in starting equipment, magical components (Chapter 3), and the purchasing rules in 15.4.
+Every weapon, piece of armour, and many gear items carry a **Restriction rating** from 0 to 5. This rating represents how readily a character may acquire the item by law, custom, and circulation. It is referenced in starting equipment, magical components (Chapter 3), and the purchasing rules in 15.4.
 
 | Restriction | Description | Example Items |
 |---|---|---|
 | 0 | Mundane, common, sold openly. | Walking stick, sling, rope, lamp oil, common knife. |
 | 1 | Common but regulated by guild or custom. | Short bow, padded cloth, javelin, hunting axe. |
-| 2 | Restricted to soldiers, citizens, or tradesfolk of the right station. | Gladius, hasta, leather armor, scutum. |
+| 2 | Restricted to soldiers, citizens, or tradesfolk of the right station. | Gladius, hasta, leather armour, scutum. |
 | 3 | Restricted to standing military, vouched citizens, or licensed retainers. | Mail (lorica hamata), helm with face guard, recurve bow, spatha. |
 | 4 | Restricted to elites: officers, magistrates, equestrians, knights. | Plate cuirass (lorica musculata), lamellar, falx, complex traps. |
 | 5 | Forbidden or rare even among elites; possession is itself a crime or a marvel. | Cheirosiphōn, magical foci, war engines, foreign and exotic armaments. |
@@ -63,7 +63,7 @@ Characters lacking the right tool may often still attempt the action with an imp
 
 - **Improvised tool.** A test that normally requires a kit may be made without it at +1 step of Difficulty.
 - **Improvised weapon.** Any heavy or pointed object may be wielded as a weapon. Treat as a Light weapon with Damage 2 (resolved 2d3-2 per Damage Resolution) and no traits. The improvised weapon breaks on any Fumble.
-- **Improvised armor.** Layers of cloth, a wineskin under the tunic, or a board strapped to the arm may grant Armour 1 to a single hit location, lasting one scene. After one strike, treat as Sundered.
+- **Improvised armour.** Layers of cloth, a wineskin under the tunic, or a board strapped to the arm may grant Armour 1 to a single hit location, lasting one scene. After one strike, treat as Sundered.
 
 Improvised gear is not a substitute for the right tool. It is a way to avoid telling the players they cannot try.
 
@@ -119,7 +119,7 @@ Many unscrupulous traders attempt to conceal flaws in the items they sell. Short
 
 ***
 
-**Mismatched.** *(armour only)* This piece was repaired or assembled from parts that do not perfectly fit. It cannot be worn beneath or above other armor on overlapping locations.
+**Mismatched.** *(armour only)* This piece was repaired or assembled from parts that do not perfectly fit. It cannot be worn beneath or above other armour on overlapping locations.
 
 ***
 
@@ -214,30 +214,30 @@ Instead of moving, a character may brace a Heavy ranged weapon against a suitabl
 
 ## Locations And Coverage
 
-Armor protects specific **locations** that map onto the combat hit-location table (Chapter 11):
+Armour protects specific **locations** that map onto the combat hit-location table (Chapter 11):
 
 | Hit Roll | Location | Covered By |
 |---|---|---|
 | 1–2 | Head | Helmet, hood, cowl |
-| 3 | Left Arm | Body armor with arms, manica, vambrace |
-| 4 | Right Arm | Body armor with arms, manica, vambrace |
-| 5–6 | Left Leg | Body armor with legs, greaves (knemides), splint chausses |
-| 7–8 | Right Leg | Body armor with legs, greaves, splint chausses |
+| 3 | Left Arm | Body armour with arms, manica, vambrace |
+| 4 | Right Arm | Body armour with arms, manica, vambrace |
+| 5–6 | Left Leg | Body armour with legs, greaves (knemides), splint chausses |
+| 7–8 | Right Leg | Body armour with legs, greaves, splint chausses |
 | 9–12 | Body | Cuirass, mail shirt, padded jack |
 
-An attack with the **Penetrating** trait ignores Armour from the struck location only. **Rend** reduces the struck location's outermost armor. **Sundered** (a Condition) likewise affects the struck location.
+An attack with the **Penetrating** trait ignores Armour from the struck location only. **Rend** reduces the struck location's outermost armour. **Sundered** (a Condition) likewise affects the struck location.
 
-When two pieces of armor cover the same location (e.g., mail under a leather jerkin), only the higher Armour value applies — *unless* one of them has the Subtle trait, which permits stacking (see Subtle, above).
+When two pieces of armour cover the same location (e.g., mail under a leather jerkin), only the higher Armour value applies — *unless* one of them has the Subtle trait, which permits stacking (see Subtle, above).
 
 ## Item Damage And Breakage
 
 Equipment is fragile under hard use. The following situations damage gear:
 
 - **Fumble on a related test:** roll 1d12; on 1–4 the item gains the Worn flaw if it does not have it, or breaks if it does.
-- **Sundered armor:** loses 1 Armour at the struck location until repaired.
-- **Rent armor:** loses Armour equal to the Rend rating at the struck location until repaired.
+- **Sundered armour:** loses 1 Armour at the struck location until repaired.
+- **Rent armour:** loses Armour equal to the Rend rating at the struck location until repaired.
 - **Unstable weapon detonation:** the weapon is destroyed.
-- **Unreliable armor critical hit:** the armor is destroyed.
+- **Unreliable armour critical hit:** the armour is destroyed.
 - **Bleeding through cloth, oil through cracked flask:** GM call; usually one scene of degraded use.
 
 Repair rules and costs are in 15.4 — Wealth, Trade, and Maintenance.
@@ -249,7 +249,7 @@ Throughout 15.1 and 15.2 each item is presented in a table row with the followin
 | Field | Meaning |
 |---|---|
 | Name | The item's common name and (for setting clarity) Latin or vernacular form. |
-| Damage / Armour | Weapon damage as a single integer N (see Damage Resolution below); armor as a flat reduction. |
+| Damage / Armour | Weapon damage as a single integer N (see Damage Resolution below); armour as a flat reduction. |
 | Hands | M = melee one-handed; M2 = melee two-handed; R = ranged one-handed; R2 = ranged two-handed. |
 | Range | Melee: Engaged or Reach. Ranged: Immediate / Short / Medium / Long. |
 | Encumbrance | Tiny / Light / Standard / Heavy. |
@@ -272,4 +272,4 @@ Weapon damage is a single integer **N** printed on each item's row. To resolve d
 
 This dice expression has a minimum of 0 (it can never heal the target) and a maximum of 2N. The expected value is N, so the printed number is also the average damage delivered before SL, attributes, and armour.
 
-> *Example.* Lucia attacks with a Spatha (Damage 4) and beats her foe by 2 SL. She rolls 6d3-6 = 7, adds her MIG 2 = 9, then subtracts the target's Body armor of 3, dealing 6 Stress to Vitality.
+> *Example.* Lucia attacks with a Spatha (Damage 4) and beats her foe by 2 SL. She rolls 6d3-6 = 7, adds her MIG 2 = 9, then subtracts the target's Body armour of 3, dealing 6 Stress to Vitality.

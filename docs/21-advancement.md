@@ -124,7 +124,7 @@ A character may **retrain** an investment to reflect changes in story, build mis
 | 1 rank in a skill | Yes (down to 0) | 1 Downtime Period |
 | A Specialization | Yes | 1 Downtime Period |
 | A Talent | Yes, if it is not a prerequisite for another currently held Talent | 1 Downtime Period |
-| An Attribute bump | Once per character, after a permanent ability damage event | 1 Long Downtime Period |
+| An Attribute bump | Once per character, after a permanent attribute drain event | 1 Long Downtime Period |
 | A Trait | Only by narrative loss (curse, surgery, divine reversal) | GM call |
 
 A retrained Talent's prerequisites must still be satisfied at the moment of retraining. A character may not "ladder down" by retraining the prerequisite of a Talent they still possess.

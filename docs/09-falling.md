@@ -1,10 +1,10 @@
 # Falling
 
-A Player Character falling from a height greater than 10 feet for any reason makes a  Hard Reflex Skill Check
+A Player Character falling from a height greater than 10 feet for any reason makes a  Hard Reflexes (Acrobatics) test
 
 | SL | Result |
 | :---- | :---- |
-| \-1 or less | Falls. Suffers Damage 2 per 10 feet of fall, resolved as NdN-N (so a 10ft fall is Damage 2 = 2d3-2; a 20ft fall is Damage 4 = 4d3-4; etc.) against Vitality. Plus 1 Critical Wound for each 10 feet beyond 10 feet. Eg a 20ft fall is Damage 4 to Vitality and 1 Critical Wound. |
+| \-1 or less | Falls. Suffers Damage 2 per 10 feet of fall, resolved as Nd3-N (so a 10ft fall is Damage 2 = 2d3-2; a 20ft fall is Damage 4 = 4d3-4; etc.) against Vitality. Plus 1 Critical Wound for each 10 feet beyond 10 feet. Eg a 20ft fall is Damage 4 to Vitality and 1 Critical Wound. |
 | 0 to+1 | Slips but manages to hang on but must roll on the Fall Conditions Table. Needs to be rescued. |
 | \+2 or more | Close call and pulls themselves to safety. |
 
@@ -20,5 +20,5 @@ You slip and catch yourself. You are hanging on but suffer…
 | 8 – 9 | Lose one random item, which falls to the bottom. |
 | 10 | Sprain ankle \= 50% movement until next Long Rest or healed. |
 | 11 | Sprain wrist \= Disadvantage on Dexterity Checks until next Long Rest or healed. |
-| 12 | Suffer 1 level of Exhaustion |
+| 12 | Suffer 1 Fatigue |
 

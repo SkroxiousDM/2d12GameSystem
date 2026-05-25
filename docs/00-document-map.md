@@ -49,9 +49,11 @@ This folder contains the core rules, subsystem chapters, and support documents f
 | 12 | `12-social-conflict.md` | Social conflict procedure. |
 | 13 | `13-connections-reputation-favors.md` | Long-term social capital. |
 | 14 | `14-effects-and-conditions.md` | Combat effects and named conditions. |
-| 15 | `15-equipment.md` | Equipment overview. |
-| 15.1 | `15.1-armour.md` | Armor list. |
-| 15.2 | `15.2-weapons.md` | Weapon list. |
+| 15 | `15-equipment.md` | Equipment overview, encumbrance, Restriction, Availability, Qualities and Flaws, Weapon & Armour Traits. |
+| 15.1 | `15.1-armour.md` | Helmets, body armor, and shields with full stat tables. |
+| 15.2 | `15.2-weapons.md` | Melee, ranged, and mechanical weapons with full stat tables. |
+| 15.3 | `15.3-adventuring-gear.md` | Kits, tools, light, containers, rations, medicine, clothing, mounts, vehicles, services. |
+| 15.4 | `15.4-wealth-and-trade.md` | Coinage, purchasing, haggling, trade goods, maintenance and repair, property, banking. |
 | 16 | `16-sanity.md` | Sanity, Madness, and breakdowns. |
 | 17 | `17-cults.md` | Cults and supernatural opposition. |
 | 18 | `18-downtime-and-campaign-loop.md` | Downtime activities and the campaign loop. |

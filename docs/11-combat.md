@@ -51,7 +51,7 @@ To attack, spend 1 Action and choose a valid target within range. Melee attacks 
 
 Melee attacks are resolved as Opposed Fighting Tests. Both attacker and defender make a Fighting Test, applying any relevant weapon Specialisation. If the defender is not wielding a melee weapon or shield, they make this Test with Disadvantage. Instead of opposing with Fighting, the defender may use Reflexes (Dodge) to avoid the blow. Opposing a melee attack in either fashion does not require a Reaction, but it does cost 1 Stamina.[1]
 
-If the target does not oppose the attack, the attacker gains Advantage. If the attacker wins the Opposed Test, they deal Stress equal to the weapon's rating plus the difference in Success Levels. The defender does not deal Stress if they win, unless they score a Critical.[1]
+If the target does not oppose the attack, the attacker gains Advantage. If the attacker wins the Opposed Test, **add the difference in Success Levels to the weapon's Damage rating N**, then resolve damage as **NdN-N** (that many d3 minus the same number). Add the attacker's relevant attribute bonus (Might for melee, Insight for ranged, per Ch 4) to the rolled total. The full Damage Resolution procedure is in [15 — Equipment](15-equipment.md#damage-resolution). The defender does not deal damage if they win, unless they score a Critical.[1]
 
 After a successful attack, use the Complication Die to determine hit location:
 
@@ -64,7 +64,7 @@ After a successful attack, use the Complication Die to determine hit location:
 | 7–8 | Right Leg |
 | 9–12 | Body |
 
-Reduce the Damage by the target's Armour at that location. The remaining Stress is suffered against Vitality.[1]
+Reduce the rolled Damage total by the target's Armour at that location. The remainder is suffered as Physical Stress against Vitality.[1]
 
 ### Ranged Attacks
 
@@ -143,7 +143,7 @@ Once enemies become Desperate, the GM should begin bringing the combat toward a 
 
 Combat in this system is dangerous because even a single solid strike may change the shape of the battle, and a Critical Hit or heavy blow can cause life-changing injury. Damage is suffered against Vitality after Armour reduces it at the struck location. When Physical Stress would exceed your Maximum Vitality, you suffer a Critical Wound.[1]
 
-To determine a Critical Wound, identify the hit location and roll 1d12 plus the excess Damage. Consult the Critical Wound table for that location and apply the listed effects. These results may Stun, Blind, Maim, cause Bleeding, render limbs useless, or kill outright.[1]
+To determine a Critical Wound, identify the hit location and roll 1d12 plus the excess Damage (the amount by which the post-armour Damage exceeded the target's remaining Vitality). Consult the Critical Wound table for that location and apply the listed effects. These results may Stun, Blind, Maim, cause Bleeding, render limbs useless, or kill outright.[1]
 
 A Critical Hit also inflicts a Critical Wound even if the target has not exceeded Maximum Vitality. Critical Hits occur when you roll a Critical on your attack Test or when you successfully attack while hidden.[1]
 

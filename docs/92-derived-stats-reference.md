@@ -20,6 +20,7 @@ A one-page reference for every derived statistic in the game: how it is calculat
 | **Carrying Capacity** | Standard items ≤ Stamina | Ch 4 — Attributes |
 | **Initiative** | 1d12 + Alacrity | Ch 4, Ch 11 |
 | **Movement (per action)** | 1 zone; 2nd costs 2 Sta; 3rd costs 3 Sta | Ch 4, Ch 11 |
+| **Damage on a hit** | Roll (N + SL)d3 − (N + SL), + Attribute Bonus, − Armour; N is the weapon's Damage rating | Ch 11, Ch 15 |
 | **Critical Wound threshold** | Vitality = 0 | Ch 4, Ch 11 |
 | **Madness gain trigger** | Resolve = 0 | Ch 4, Ch 16 |
 

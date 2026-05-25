@@ -156,8 +156,3 @@ When you receive a complication, you may cancel it by buying it off. To buy off 
 
 If a non-player character (NPC) suffers a complication, the GM may spend 2 Doom from their Doom pool to buy off the complication, cancelling it and removing 2 Doom from the pool.
 
-``` 
-you can add a code block for comments by typing
-\```
-comment
-

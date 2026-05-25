@@ -12,7 +12,7 @@ Before any dice are rolled, the active character must state clearly what they wa
 
 The GM should also establish what is at risk. One party might wish to gain access to a restricted archive, convince a magistrate to delay a hanging, force a gang lieutenant to reveal who sent him, secure a loan from a hostile merchant, or persuade a suspicious elder to offer shelter. The reactive character, meanwhile, may risk loss of face, money, safety, loyalty, authority, or standing if they give way.
 
-When both sides understand what success and failure mean, the conflict becomes much easier to run. A scene in which the players are trying to "convince the duke" is vague; a scene in which they are trying to make the duke commit troops tonight, in front of his rivals, at the cost of his reputation if he appears weak, is a Social Conflict.
+When both sides understand what success and failure mean, the conflict becomes much easier to run. A scene in which the party seeks to "convince the duke" is vague; a scene in which they are trying to make the duke commit troops tonight, in front of his rivals, at the cost of his reputation if he appears weak, is a Social Conflict.
 
 ## Consent and Reasonable Requests
 

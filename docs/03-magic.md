@@ -154,9 +154,11 @@ Not all spells and rituals deal Stress to their targets, though most deal Stress
 
 When a spell or ritual that deals Stress is successfully cast, resolve it as follows:
 
-1. **Roll Power**: Roll a number of d3 equal to your Power rating, plus any additional dice specified by the spell. Total the results. This is the amount of Stress dealt.
+1. **Roll Power**: Roll a number of d3 equal to your Power rating, plus any additional dice specified by the spell. Total the results, then subtract the number of dice rolled. This is the amount of Stress dealt. A spell that deals damage equal to *n*d3 is resolved as **nd3 − n**, matching the damage convention used throughout the game (see Weapons).
 2. **Determine Resistance**: The target reduces incoming Stress by their relevant resistance—Defence for physical Stress, Courage for mental Stress.
 3. **Inflict Stress**: The target suffers any remaining Stress against Vitality or Resolve, as appropriate.
+
+> **Example.** A traditional spellseer with Power 5 casts a power+2 attack spell. They roll 7d3 and total the results, then subtract 7. A roll of 2, 3, 1, 2, 3, 2, 1 totals 14 and yields 7 Stress before resistance. The target's Defence further reduces this Stress before it is applied.
 
 ### Success Level Spends in Magic
 

@@ -44,7 +44,7 @@ Stamina is invested to represent the physical toll of carrying equipment. Items 
 
 ##### Out of Breath.
 
-When a character's available Stamina falls below half, they roll −1disad on all physical actions. When available Stamina reaches 0, the character can manage only a slow trudge and rolls −2disad on all physical actions.
+When a character's available Stamina falls below half, they roll with disadvantage on all physical actions. When available Stamina reaches 0, the character can manage only a slow trudge and rolls with 2 levels of disadvantage on all physical actions.
 
 ---
 

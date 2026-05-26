@@ -1,7 +1,7 @@
 
 **Drain:** The target suffers 1 Fatigue for each unsoaked stress.
 
-**Intense:** If the attack inflicts a wound and 2SL is spent, the attack inflicts one additional wound.
+**Intense:** If the attack inflicts Vitality damage and 2 Success Levels are spent, the attack inflicts one additional point of Vitality damage.
 
 **Knockdown:** The attack or hazard causes the target to stumble or fall. If the number of success levels spent equals or exceeds the target's Athletics skill rank, the target is knocked prone.
 

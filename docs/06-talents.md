@@ -40,7 +40,7 @@ Requirements typically include:
 
 *Prerequisite:  Battle Rage 2,  Constitution 6*
 
-* **Benefit:** When you would receive a Wound that kills you, make a Challenging Constitution \+ Resilience Check. On a success, you do not die and instead heal 1 Wound. Each subsequent use of this benefit increases the Difficulty by 1 level. A Rest resets the Difficulty.
+* **Benefit:** When you would receive a Critical Wound that kills you, make a Challenging Constitution \+ Resilience Check. On a success, you do not die and instead regain 1 Vitality. Each subsequent use of this benefit increases the Difficulty by 1 level. A Rest resets the Difficulty.
 
 ---
 
@@ -144,7 +144,7 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 *Prerequisites: Athletics (Lifting), Might 4, Rank 3 Fighting*
 
-* **Benefit:** The first time each round you inflict a Wound or Critical Wound with a two-handed axe, mace, or sword, inflict one additional Critical Wound.
+* **Benefit:** The first time each round you deal Vitality damage or inflict a Critical Wound with a two-handed axe, mace, or sword, inflict one additional Critical Wound.
 
 ---
 
@@ -915,7 +915,7 @@ You have a natural gift for one of the arts. This Talent may be taken multiple t
 
 *Prerequisite: Rank 2 Manipulation (Charm)*
 
-* **Benefit:** As an Action, make a Challenging Manipulation (Charm) Check to benefit one ally in one of the following ways: remove the Frightened condition; remove 1 Fatigue; remove the Stunned condition. If the target is on 0 Wounds, they do not perish at the end of the round and instead survive for 1 \+ Levels of Success additional rounds.
+* **Benefit:** As an Action, make a Challenging Manipulation (Charm) Check to benefit one ally in one of the following ways: remove the Frightened condition; remove 1 Fatigue; remove the Stunned condition. If the target is at 0 Vitality, they do not perish at the end of the round and instead survive for 1 \+ Levels of Success additional rounds.
 
 ---
 

@@ -118,7 +118,7 @@ Because learning requires a skill test, complications are possible. In addition 
 
 ## Casting Spells and Performing Rituals
 
-Unless otherwise noted in a spell's profile, casting a spell requires a skill test during a standard scene, or the **Prepare** minor action followed by the **Cast a Spell** major action during an action scene. Rituals take considerably more time than spells; completing one is treated as an extended test.
+Unless otherwise noted in a spell's profile, casting a spell requires a skill test during a standard scene, or the **Cast a Spell** major action during an action scene. A major action costs 2 Actions from the caster's Alacrity pool (see Combat). Rituals take considerably more time than spells; completing one is treated as an extended test.
 
 The attribute used for any spell or ritual test depends on caster type: traditional spellcasters use Insight, research spellcasters use Reason, and dabblers use Willpower. The same applies to ritualists who are not spellcasters. The skill required is listed in the spell or ritual's profile.
 
@@ -187,7 +187,7 @@ A spellcaster cannot cast an unbound spell. A spellcaster may hold a number of b
 
 ### Casting a Battlefield Spell
 
-During a scene, a spellcaster may attempt to cast any of the spells currently bound to their Focus. A spellcaster may cast at most one spell per turn. In an action scene, the spellcaster must use the **Prepare** minor action and then the **Cast a Spell** major action. Each casting requires the skill test specified in the spell's profile.
+During a scene, a spellcaster may attempt to cast any of the spells currently bound to their Focus. A spellcaster may cast at most one spell per turn. In an action scene, the spellcaster takes the **Cast a Spell** major action, which costs 2 Actions from their Alacrity pool. Each casting requires the skill test specified in the spell's profile.
 
 The attribute used for the casting test depends on caster type: Traditional spellcasters use Insight, research spellcasters use Reason, and dabblers use Willpower.
 
@@ -202,7 +202,7 @@ Each battlefield spell is defined by the following entries.
 - **Skill**: The skill used on tests to cast this spell. The attribute is determined by the caster's spellcaster type.
 - **Difficulty**: The difficulty of the casting test. If the test is opposed, this entry also specifies the attribute and skill the resisting character must use.
 - **Cost**: The mental Stress the spellcaster suffers upon casting, applied after the casting test regardless of success or failure. This Stress is reduced by the caster's Courage as normal.
-- **Duration**: How long the spell's effects last. Most spells are instant. Others last a number of rounds, until end of scene, or a number of hours. A spellcaster may dismiss a spell early as a minor action; otherwise it ends at the close of its stated duration, or if the caster is Staggered or forcibly distracted.
+- **Duration**: How long the spell's effects last. Most spells are instant. Others last a number of rounds, until end of scene, or a number of hours. A spellcaster may dismiss a spell early as a minor action (1 Action); otherwise it ends at the close of its stated duration, or if the caster is Staggered or forcibly distracted.
 - **Category**: The spell's category or categories (see below).
 - **Spell Effect**: The consequences of a successful casting, including valid targets and any Success Level options that expand or enhance the effect.
 - **Flawed** *(if present)*: Adjustments that apply when casting a flawed version of this spell.

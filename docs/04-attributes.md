@@ -75,9 +75,9 @@ While Staggered , a character:
   * You must make a Challenging Resilience (Fortitude) Test or fall Unconscious Repeat this Test each time you receive further Damage. You don't regain consciousness until you regain at least 1 Vitality.  
   * Taking damage causes Critical Wounds
 
-### Wounds \= (3 \+ CON \+ Traits)
+### Critical Wound Capacity \= (3 \+ CON \+ Traits)
 
-A character can sustain a maximum number of Wounds equal to 3 \+ CON \+ Traits. Exceeding this limit your character will die unless a Fate point is burned to be “Left for Dead”.
+A character can sustain a maximum number of Critical Wounds equal to 3 \+ CON \+ Traits. Exceeding this limit, the character will die unless a Fate point is burned to be “Left for Dead”.
 
 ### Courage \= (WIL \- 2 \+ Morale \+ Traits)
 

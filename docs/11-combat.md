@@ -10,13 +10,15 @@ Not every violent scene requires full combat. If one side is helpless, unwilling
 
 Before the first round begins, the GM should establish what each side is trying to achieve. One group may wish to kill their enemies, but another may only want to delay pursuit, seize an artefact, escape across a gatehouse, capture a target alive, or hold a bridge long enough for civilians to flee. Combat runs more clearly when everyone understands what success looks like.[3][2]
 
-The GM should also determine which enemies are acting together, whether a leader is present, and whose Resolve sets the tone for the opposition. When a leader is present, followers usually use that leader's higher Resolve rather than their own. This matters because combat often ends not when every enemy lies dead, but when their position becomes hopeless and they become Desperate.[2]
+The GM should also determine which enemies are acting together, whether a leader is present, and whose Morale sets the tone for the opposition. When a leader is present, followers usually use that leader's higher Morale rather than their own. This matters because combat often ends not when every enemy lies dead, but when their position becomes hopeless and they become Desperate.[2]
 
 ## Rounds, Turns, and Exchanges
 
 Combat is divided into rounds. Each round represents a brief exchange of blows, movement, shouted orders, spellcasting, hesitation, and sudden violence. At the start of combat, each character determines Initiative by rolling 1d12 and adding Alacrity. Characters act each round from highest Initiative to lowest.[1]
 
 On your turn, you gain a number of Actions equal to your Alacrity. Most tasks cost 1 Action, though some powerful abilities or spells cost more. Some actions also cost Stamina. Unless a rule states otherwise, Actions do not carry over between turns and refresh at the end of your turn.[1]
+
+Some rules refer to **minor** or **major** actions as a shorthand for the cost of a task. A **minor action** costs 1 Action; a **major action** costs 2 Actions. Both come out of the same Alacrity pool. Casting a spell is always a major action, as are several manoeuvres in the Effects and Conditions chapter; movement, an Assess, a Brace, or a basic attack are minor actions.[1]
 
 Alacrity determines how many meaningful things you can do before the moment passes. A fast and disciplined fighter may attack, reposition, and defend an ally in the same turn. A slower character may manage only a single decisive act. This does not merely represent speed of limb, but awareness, decisiveness, and the ability to keep pace with a chaotic battlefield.[1]
 
@@ -142,7 +144,7 @@ The list below is the starter set. Additional Effects may be granted by Talents,
 
 **Maximise Damage.** *Critical only.* One Damage die is treated as its maximum value instead of being rolled. May be stacked: a Critical with two Effects could maximise two dice. The attacker's attribute bonus is still rolled or applied normally.
 
-**Stun Location.** *Bludgeoning weapons.* If the blow penetrates Armour, the defender must oppose the attack with a Resolve or Constitution Test. On a failure, the struck location is Stunned for a number of rounds equal to the inflicted Damage. A stunned arm drops what it holds; a stunned leg drops the character prone; a stunned head leaves the defender unable to take Actions for that duration.
+**Stun Location.** *Bludgeoning weapons.* If the blow penetrates Armour, the defender must oppose the attack with a Willpower \+ Resilience or Constitution \+ Resilience Test. On a failure, the struck location is Stunned for a number of rounds equal to the inflicted Damage. A stunned arm drops what it holds; a stunned leg drops the character prone; a stunned head leaves the defender unable to take Actions for that duration.
 
 **Trip Opponent.** The attacker overbalances or sweeps the defender to the ground. The defender opposes with Reflexes or Athletics. On a failure, they fall prone.
 
@@ -197,7 +199,7 @@ The GM selects the most appropriate Skill and Challenge Threshold. Observation m
 
 ## Casting Spells
 
-To cast a spell, you must be able to satisfy the spell's practical requirements. At minimum, you must have at least one hand holding a spellcasting focus, be able to speak clearly, make the relevant spellcasting Skill roll, and spend the required Resolve.[1]
+To cast a spell, you must be able to satisfy the spell's practical requirements. At minimum, you must have at least one hand holding a spellcasting focus, be able to speak clearly, make the relevant spellcasting Skill roll, and pay the spell's Cost as mental Stress to your Resolve track.[1] Spellcasting is a **major action** and so costs 2 Actions from your Alacrity pool.[1]
 
 Combat places pressure on spellcasters. Being cornered, silenced, Staggered, or forced to choose between movement and concentration can be as dangerous as a drawn blade. The GM should enforce the fiction of spellcasting honestly; a wizard trapped in mud with a broken jaw should not cast as freely as one standing behind a disciplined shield line.[1]
 
@@ -223,7 +225,7 @@ Superiority may increase during combat when the party breaks the enemy's cohesio
 
 - Defeating the enemy leader.
 - Defeating an enemy elite.
-- Defeating a number of troops in a single turn equal to or greater than their Resolve.[2]
+- Defeating a number of troops in a single turn equal to or greater than their Morale.[2]
 
 The party loses 1 Superiority each time one of the following occurs:
 
@@ -233,11 +235,13 @@ The party loses 1 Superiority each time one of the following occurs:
 
 This makes Superiority a measure not only of confidence but of battlefield initiative. A side that presses every advantage gains the courage to keep pressing. A side that bleeds unexpectedly loses control of the fight.
 
-## Resolve and Desperate Enemies
+## Morale and Desperate Enemies
 
-Every NPC has a Resolve score representing their willingness to continue fighting. The GM should treat listed Resolve as a baseline and adjust it to circumstances. Followers often use the Resolve of their leader if one is present. Defenders on home ground may have +1 Resolve. Enemies who stand to gain little may have Resolve reduced by 1. A creature reduced to Resolve 0 has no interest in fighting except perhaps to defend honour or escape immediate danger.[2]
+Every NPC has a Morale score representing their willingness to continue fighting. The GM should treat listed Morale as a baseline and adjust it to circumstances. Followers often use the Morale of their leader if one is present. Defenders on home ground may have \+1 Morale. Enemies who stand to gain little may have Morale reduced by 1. A creature reduced to Morale 0 has no interest in fighting except perhaps to defend honour or escape immediate danger.[2]
 
-When the party's Superiority exceeds an NPC's Resolve at the start of that NPC's turn, that NPC becomes Desperate unless the GM rules otherwise. Desperate applies only to NPCs. A Desperate enemy knows the field is turning against them and seeks a way out.[2]
+When the party's Superiority exceeds an NPC's Morale at the start of that NPC's turn, that NPC becomes Desperate unless the GM rules otherwise. Desperate applies only to NPCs. A Desperate enemy knows the field is turning against them and seeks a way out.[2]
+
+Note: NPC Morale is a behavioural threshold and is distinct from the player-character Resolve track, which measures mental Stress capacity. The two should not be confused at the table.[2]
 
 A Desperate enemy does not always flee. The GM should choose the response that best fits the creature and the fiction:
 
@@ -276,7 +280,7 @@ Underlings are competent foes sent in numbers — bodyguards, irregular troops, 
 - If a single blow deals twice their Vitality in damage, they die in a memorable manner.
 - Once half the Underlings have fallen, the rest break and withdraw.
 
-These categories pair naturally with Superiority and Resolve. Defeating a Rabble member in a single turn satisfies the "defeat troops equal to their Resolve" trigger trivially; Underlings, being competent, count as troops in their own right. The leaders who *send* such forces are run with the full combat rules — they are the reason the encounter exists.[2]
+These categories pair naturally with Superiority and Morale. Defeating a Rabble member in a single turn satisfies the "defeat troops equal to their Morale" trigger trivially; Underlings, being competent, count as troops in their own right. The leaders who *send* such forces are run with the full combat rules — they are the reason the encounter exists.[2]
 
 ## Injury, Vitality, and Critical Wounds
 
@@ -322,5 +326,5 @@ Desperate Actions are exceptional capabilities, not a substitute for basic tacti
 
 Combat is at its best when the GM treats it as a struggle over intent, ground, and morale rather than as stationary exchange of blows. Ask what each side is trying to achieve. Reward preparation. Let Assess reveal useful truths. Make terrain matter. Track Superiority openly enough that players can feel when the battle is turning.[1][2]
 
-Do not wait for every enemy to die if the fiction no longer supports resistance. If the party's Superiority has broken enemy Resolve, let the survivors flee, surrender, or launch one final mad effort. Likewise, do not force every violent scene into full combat. A single decisive ambush, a threatened captive, or a mob scattering before cavalry may require only one or two Checks and a ruling.[3][2]
+Do not wait for every enemy to die if the fiction no longer supports resistance. If the party's Superiority has broken enemy Morale, let the survivors flee, surrender, or launch one final mad effort. Likewise, do not force every violent scene into full combat. A single decisive ambush, a threatened captive, or a mob scattering before cavalry may require only one or two Checks and a ruling.[3][2]
 

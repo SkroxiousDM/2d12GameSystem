@@ -412,7 +412,7 @@ If another party member also has Drilled, both of you may purchase this Talent a
 
 ---
 
-## **Duellist**
+## **Fencer**
 
 *Prerequisite: Rank 2 Fighting (Melee Weapons)*
 
@@ -420,8 +420,8 @@ If another party member also has Drilled, both of you may purchase this Talent a
 
 This Talent may be taken multiple times. Each time after the first, choose one of the following:
 
-* **Duellist Feint:** When you successfully attack with a one-handed melee weapon, you may choose to deal no damage and instead impose Disadvantage on the target's attacks against you until the end of your next turn.  
-* **Duellist Guard:** When you make an attack with a one-handed melee weapon, you may choose to make that attack with Disadvantage in order to simultaneously take the Dodge Action.
+* **Fencer Feint:** When you successfully attack with a one-handed melee weapon, you may choose to deal no damage and instead impose Disadvantage on the target's attacks against you until the end of your next turn.  
+* **Fencer Guard:** When you make an attack with a one-handed melee weapon, you may choose to make that attack with Disadvantage in order to simultaneously take the Dodge Action.
 
 ---
 

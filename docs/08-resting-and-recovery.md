@@ -10,7 +10,7 @@ A Long Rest requires 8 hours of uninterrupted rest.  At the end of a Long Rest:
 - Resolve is recovered by 1d4 \+ WIL.  
 - Vitality is recovered by 1d4 \+ CON.  
 - Attribute Drain heals at a rate of 1 point per drained attribute (see Attribute Drain below).  
->**First Aid**. A character may tend to an injured ally with a Hard Reason–Medicine (Field Treatment) check requiring 10 minutes. On a success, the patient regains 1 additional Vitality at the end of the Long Rest. A creature can benefit from this care only once per day.  
+>**First Aid**. A character may tend to an injured ally with a Hard Reason–Medicine (Field Treatment) check requiring 10 minutes. On a success, the patient regains 1 additional Critical Wound at the end of the Long Rest. A creature can benefit from this care only once per day.  
 ## Full Rest  
 A Full Rest requires 24 hours in a safe location, with at least 6 hours spent sleeping. The remaining time may be used for downtime activities.  
 At the end of a Full Rest:  

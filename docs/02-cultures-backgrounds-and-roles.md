@@ -1,6 +1,6 @@
 # 02 Culture, Class, Background, and Role
 
-Character creation in the 2d12 system is built in four stages. Each stage contributes **4 attribute points**, for a total of **16 points**. No single attribute may exceed **5** at character creation.
+Character creation in the 2d12 system is built in four stages: Culture, Social Class, Background, and Role. Three of these stages grant attribute points; Social Class instead grants starting wealth and a Talent. Culture contributes **4 attribute points**, Background **6 attribute points**, and Role **6 attribute points**, for a total of **16 points** distributed across the eight attributes. No attribute may exceed **7**, and a character may not raise an attribute higher than the number of Traits they possess. See Attributes for the canonical attribute rules.
 
 ## 02.1 Cultures 
 Each culture grants **4 attribute points**, one Culture Talent, language access, and skill options from the culture's aspects. Choose or create your culture.
@@ -124,7 +124,7 @@ Whether equestrians or patricians, thegns or chieftains, the Noble caste command
 
 ## 02.3 Backgrounds
 
-A background represents your character's life before adventuring — their profession, their craft, their place in the world. Each background grants **4 attribute points**, **4 Skill Ranks**, a Specialization, a Money award, and equipment.
+A background represents your character's life before adventuring — their profession, their craft, their place in the world. Each background grants **6 attribute points**, **4 Skill Ranks**, a Specialization, a Money award, and equipment. (Note: some background entries below list only 4 attribute points; these are pre-revision and will be updated to grant 6 points in a future pass.)
 
 ### Archer
 
@@ -409,7 +409,7 @@ Every village on the northern frontier has its herbalist — the local healer wh
 
 # 02.4 Roles
 Your Role may be what you naturally excel at, the logical evolution of your previous life, or something entirely different. 
-Each Role grants **4 attribute points**, **6 Skill Ranks**, 2 Specializations, a Talent, and Equipment. Ignore any requirements for Talents gained from your Role.
+Each Role grants **6 attribute points**, **6 Skill Ranks**, 2 Specializations, a Talent, and Equipment. Ignore any requirements for Talents gained from your Role. (Note: some role entries below list only 4 attribute points; these are pre-revision and will be updated to grant 6 points in a future pass.)
 ***
 
 ## Mystic

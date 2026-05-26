@@ -67,7 +67,7 @@ When Vitality reaches 0:
 * The character gains 1 Critical Wound.  
 * The character gains the Staggered condition until they regain at least 1 Vitality.
 
-While Staggered , a character:
+While Staggered, a character:
 
 * **Alacrity** reduces to 1  
 * Automatically loses Concentration.  

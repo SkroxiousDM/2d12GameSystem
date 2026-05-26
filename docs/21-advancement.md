@@ -144,8 +144,8 @@ The campaign loop should absorb a death within one Downtime Period; if it cannot
 A minimal tracking line:
 
 ```
-XP:    earned [    ] / spent [    ] / on hand [    ]
-SAP:   [Skill A: __]  [Skill B: __]  [Skill C: __]
+XP: earned [ ] / spent [ ] / on hand [ ]
+SAP: [Skill A: __]  [Skill B: __]  [Skill C: __]
 Next:  [purchase goal: __________ ] cost: [ XP __ / SAP __ ]
 ```
 

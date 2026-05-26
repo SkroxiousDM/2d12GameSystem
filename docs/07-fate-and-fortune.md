@@ -9,7 +9,7 @@ Fortune represents the amount of luck, and good will  you have accumulated over 
 
 ### Spending Fortune
 
-You may spend Fortune to turn circumstances to your advantage. When you Spend Fortune , choose one of the following effects:
+You may spend Fortune to turn circumstances to your advantage. When you Spend Fortune, choose one of the following effects:
 
 * Reroll a failed Test. This can be used after a Push  
 * Gain Advantage on a Test before it is rolled. This can be used multiple times on a single test. The second costs 2 Fortune and the third costs 6 Fortune  

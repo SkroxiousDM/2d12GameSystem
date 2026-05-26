@@ -39,8 +39,15 @@ Start with the [document map](docs/00-document-map.md), then read in numerical o
 
 This repository is the primary working source for the system. Edits are made to chapter markdown files directly; large new sections are drafted in their own files and then linked from the document map.
 
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the full contribution workflow, style conventions, and licensing notes. See [`CHANGELOG.md`](CHANGELOG.md) for the change history.
+
 When you add a new chapter:
 
 1. Number it according to its place in the reading order.
 2. Add it to `docs/00-document-map.md`.
 3. Update the gap analysis in `docs/99_gap_analysis.md` if it closes a known gap.
+4. Add an entry to [`CHANGELOG.md`](CHANGELOG.md) under `## Unreleased`.
+
+## License
+
+Released under [Creative Commons Attribution-ShareAlike 4.0 International](LICENSE) (CC BY-SA 4.0). You may share and adapt the material, including commercially, as long as you credit the project and license your derivative work under the same terms.

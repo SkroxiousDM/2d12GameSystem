@@ -2,7 +2,9 @@
 
 Conditions in 2d12 are described in the chapter where they first matter (Combat, Attributes, Sanity, Falling, Pursuit, Social Conflict). This appendix is the **single index** of every named condition the system uses, where it is fully defined, and what it does in one line. Use this page at the table; use the source chapter for the full rule.
 
-If a condition is not listed here, it does not exist in the rules — treat the term as flavor.
+If a condition is not listed here, it does not exist as a formal rules term — treat it as flavor.
+
+> **Note on Madness vs Irrational.** Both are triggered when Resolve reaches 0. **Irrational** is the *immediate* condition that takes over the character for the rest of the scene — the GM prompts their behavior according to the new Madness they have gained. **Madness** is the *specific named psychosis* itself (e.g. a phobia, compulsion, or delusion), which persists past the scene according to its severity tier. Think of Irrational as the bell ringing and Madness as the note it strikes.
 
 ## Read Order Of Severity
 
@@ -28,6 +30,7 @@ A character may have any number of *different* conditions at once.
 | **Irrational** | — | 16 — Sanity | While at 0 Resolve, the character acts on the GM's prompt according to their Madness; player retains veto only by spending Fortune. |
 | **Knockdown** | — | 14 — Effects And Conditions | Knocked Prone if SL spent ≥ target's Athletics rank. |
 | **Lost** | — | 19 — Exploration And Travel | Party covers half distance and must relocate before further progress. |
+| **Madness** | Transient / Short-Term / Long-Term / Indefinite | 16 — Sanity | A specific named psychosis rolled from the Madness tables. Persists for an encounter (Transient), until a Short Rest (Short-Term), until downtime/quest end (Long-Term), or permanently (Indefinite). Gained when Resolve reaches 0 (which also inflicts Irrational) or when failing a severe Fear Check or Horror Check. |
 | **Out Of Breath** | Two stages | 4 — Attributes | At ½ Stamina, −1d on physical actions; at 0 Stamina, −2d and only slow movement. |
 | **Persistent X** | — | 14 — Effects And Conditions | Roll X dice at start of turn for SL rounds; suffer stress generated. |
 | **Poisoned** | Minor / Major | 14 — Effects And Conditions | Disadvantage on Might/Fortitude; max SL capped (Minor) or Prone + Incapacitated (Major). |

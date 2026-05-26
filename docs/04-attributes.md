@@ -8,16 +8,16 @@ Characters are defined by eight core attributes divided into Physical and Mental
 
 ### Physical Attributes
 
-* Might (MIG): Raw physical power for lifting, striking, and feats of Strength. Might adds a damage bonus to melee attacks.  
+* Agility (AGI): Reflexes, balance, and body control. Agility is used for melee attacks.
 * Constitution (CON): Endurance, resistance to harm, and physical toughness.  
 * Dexterity (DEX): Precision, speed, and hand–eye coordination. Dexterity is used for ranged attacks.  
-* Agility (AGI): Reflexes, balance, and body control. Agility is used for melee attacks.
+* Might (MIG): Raw physical power for lifting, striking, and feats of Strength. Might adds a damage bonus to melee attacks.  
 
 ### Mental Attributes
 
-* Reason (REA): Logic, memory, and problem–solving. A character knows a number of bonus languages equal to half their Reason score, rounded down.  
-* Insight (INS): Awareness, perception, and intuition. Insight adds a damage bonus to ranged attacks.  
 * Charisma (CHA): Social presence, charm, and leadership.  
+* Insight (INS): Awareness, perception, and intuition. Insight adds a damage bonus to ranged attacks.  
+* Reason (REA): Logic, memory, and problem–solving. A character knows a number of bonus languages equal to half their Reason score, rounded down.  
 * Willpower (WIL): Mental fortitude, determination, and force of will. Willpower adds a damage bonus to mental attacks.
 
 ## Derived Attributes

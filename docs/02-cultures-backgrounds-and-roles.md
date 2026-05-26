@@ -1,6 +1,6 @@
 # 02 Culture, Class, Background, and Role
 
-Character creation in the 2d12 system is built in four stages: Culture, Social Class, Background, and Role. Three of these stages grant attribute points; Social Class instead grants starting wealth and a Talent. Culture contributes **4 attribute points**, Background **6 attribute points**, and Role **6 attribute points**, for a total of **16 points** distributed across the eight attributes. No attribute may exceed **7**, and a character may not raise an attribute higher than the number of Traits they possess. See Attributes for the canonical attribute rules.
+Character creation in the 2d12 system is built in four stages: Culture, Social Class, Background, and Role. Three of these stages grant attribute points; Social Class instead grants starting wealth and a Talent. Culture contributes **4 attribute points**, Background **4 attribute points**, and Role **4 attribute points**,  and **4 attribute points** assigned as the player wishes, for a total of **16 points** distributed across the eight attributes. No attribute may exceed **7**, and a character may not raise an attribute higher than the number of Traits they possess. See Attributes for the canonical attribute rules.
 
 ## 02.1 Cultures 
 Each culture grants **4 attribute points**, one Culture Talent, language access, and skill options from the culture's aspects. Choose or create your culture.

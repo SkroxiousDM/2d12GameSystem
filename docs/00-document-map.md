@@ -65,9 +65,9 @@ This folder contains the core rules, subsystem chapters, and support documents f
 | 91 | `91-conditions-appendix.md` | Master cross-reference index of every named condition. |
 | 92 | `92-derived-stats-reference.md` | One-page derived-stats and resource sheet. |
 | 99 | `99_gap_analysis.md` | Development planning and coverage review. |
-|    | `Burning-wheel-style-conflict.md` | Alternate conflict variant; experimental. |
-|    | `tables/critical-wounds.md` | Critical wound table. |
-|    | `tables/fumble.md` | Fumble table. |
+| | `Burning-wheel-style-conflict.md` | Alternate conflict variant; experimental. |
+| | `tables/critical-wounds.md` | Critical wound table. |
+| | `tables/fumble.md` | Fumble table. |
 
 ## Support Files
 

@@ -40,7 +40,7 @@ All uncertain actions, including attacks, skill checks, and certain spell uses, 
 The Challenge Threshold (CT) represents task difficulty. 8 + Modifier + Attribute + Skill + Trait
 
 | Difficulty | Modifier | Example Task |
-| :---- | :---- | :---- |
+|:---- |:---- |:---- |
 | Very Easy | +6 | Waking to an emergency alarm; jumping a small gap |
 | Easy | +4 | Repairing minor damage to a familiar weapon |
 | Routine | +2 | Using a library for basic research |

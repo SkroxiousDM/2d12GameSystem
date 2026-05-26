@@ -8,7 +8,7 @@ Use this module for any conflict that deserves spotlight time and tactical back-
 - Command contests.
 - Stealth confrontations.
 
-For minor uncertainty, use a normal opposed test instead. Burning Wheel is known for reserving its more detailed conflict procedures for major moments rather than every minor scuffle. [3][4]
+For minor uncertainty, use a normal opposed test instead. Burning Wheel is known for reserving its more detailed conflict procedures for major moments rather than every minor scuffle. 
 
 ### Core principles
 This module is built on four ideas:
@@ -17,7 +17,7 @@ This module is built on four ideas:
 - Each side scripts a number of actions equal to **Alacrity**, up to 3.
 - Resolution is simultaneous in intent, sequential in execution.
 
-That gives tactical prediction, tempo, and mind games without requiring the full lookup complexity associated with Burning Wheel Fight!. [3][4]
+That gives tactical prediction, tempo, and mind games without requiring the full lookup complexity associated with Burning Wheel Fight!. 
 
 ## Setup
 
@@ -32,7 +32,7 @@ Examples:
 - “I force a confession in front of the court.”
 - “I escape into the alleys before the alarm spreads.”
 
-If the stakes are unclear, do not begin scripted conflict yet. Burning Wheel-style conflict works best when the objective is explicit before actions are scripted. [3][5]
+If the stakes are unclear, do not begin scripted conflict yet. Burning Wheel-style conflict works best when the objective is explicit before actions are scripted. 
 
 ### Step 2: Set starting values
 Every participant records:
@@ -54,7 +54,7 @@ If Alacrity is above 3, the extra value gives a passive edge:
 - gain **advantage** on one action each exchange, or
 - win ties on one pass per exchange.
 
-This preserves the idea that faster characters act more fully within the exchange, while keeping the table manageable. Burning Wheel similarly ties scripted action economy to character speed, but practical play benefits from a hard cap. [3][6]
+This preserves the idea that faster characters act more fully within the exchange, while keeping the table manageable. Burning Wheel similarly ties scripted action economy to character speed, but practical play benefits from a hard cap. 
 
 ## Dice procedure
 
@@ -108,7 +108,7 @@ Each exchange follows this procedure:
 7. Apply end-of-exchange fallout.
 8. If neither side is Out or conceding, begin a new exchange.
 
-A participant gets only one action per pass, never more. This keeps the exchange readable and preserves the volley-like rhythm. [3][7]
+A participant gets only one action per pass, never more. This keeps the exchange readable and preserves the volley-like rhythm. 
 
 ## Action list
 
@@ -124,7 +124,7 @@ These are the core actions.
 | **Recover** | Rally, breathe, regain poise | Restore 1 Guard or clear 1 minor condition | Restore 2 Guard or clear 2 minor conditions |
 | **Hold** | Wait, watch, conserve action | No roll unless reacting by rule | Gain advantage to next action this exchange |
 
-This is a smaller, cleaner list than Burning Wheel’s full combat action set, but it keeps distinct tactical jobs instead of collapsing everything into the same few abstractions. Mouse Guard’s conflict system is known for a smaller universal set, while Burning Wheel’s detailed systems differentiate action types more heavily. [8][9][3]
+This is a smaller, cleaner list than Burning Wheel’s full combat action set, but it keeps distinct tactical jobs instead of collapsing everything into the same few abstractions. Mouse Guard’s conflict system is known for a smaller universal set, while Burning Wheel’s detailed systems differentiate action types more heavily. 
 
 ## Action definitions
 
@@ -223,7 +223,7 @@ To prevent dull scripting:
 - You may not use **Recover** twice in the same exchange.
 - You may not use **Press** in all three passes unless a weapon, stance, or special ability allows it.
 
-This kind of limitation helps produce the prediction game that makes Burning Wheel-style scripting interesting instead of repetitive. Burning Wheel itself uses weapon speed and action constraints to shape script variety. [10][6]
+This kind of limitation helps produce the prediction game that makes Burning Wheel-style scripting interesting instead of repetitive. Burning Wheel itself uses weapon speed and action constraints to shape script variety. 
 
 ## Resolution rules
 
@@ -358,7 +358,7 @@ When a side becomes Out:
 - The loser suffers the stated risk, modified by the fiction.
 - The GM applies follow-through consequences.
 
-This keeps the system from becoming simple attrition and supports dramatic negotiated outcomes, one of the useful lessons from Burning Wheel’s conflict design. [3][11]
+This keeps the system from becoming simple attrition and supports dramatic negotiated outcomes, one of the useful lessons from Burning Wheel’s conflict design. 
 
 ## Character sheet block
 

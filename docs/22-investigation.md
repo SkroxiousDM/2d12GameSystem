@@ -146,7 +146,7 @@ Scenes:
   S1: ___________________  Clue Clock: [ ][ ][ ]
   S2: ___________________  Clue Clock: [ ][ ][ ]
   S3: ___________________  Clue Clock: [ ][ ][ ][ ]
-  ...
+ ...
 
 Costs Bank (use on Pass-with-Complication / Failure):
   - ______

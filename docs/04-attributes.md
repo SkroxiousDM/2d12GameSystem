@@ -4,7 +4,7 @@ Characters are defined by eight core attributes divided into Physical and Mental
 
 * A character may not raise an attribute higher than the number of Traits they possess.  
 * No attribute may exceed 7 through any means, including progression.  
-* At character creation, attribute points are distributed across three stages: Culture grants 4 points, Background grants 6 points, and Role grants 6 points, for a total of 16 points across the eight attributes.
+* At character creation, attribute points are distributed across three stages: Culture grants 4 points, Background grants 4 points, and Role grants 4 points, and **4 attribute points distributed as the player wishes** for a total of 16 points across the eight attributes.
 
 ### Physical Attributes
 
@@ -44,7 +44,7 @@ Stamina is invested to represent the physical toll of carrying equipment. Items 
 
 ##### Out of Breath.
 
-When a character's available Stamina falls below half, they roll −1d on all physical actions. When available Stamina reaches 0, the character can manage only a slow trudge and rolls −2d on all physical actions.
+When a character's available Stamina falls below half, they roll −1disad on all physical actions. When available Stamina reaches 0, the character can manage only a slow trudge and rolls −2disad on all physical actions.
 
 ---
 

@@ -830,44 +830,21 @@ The chief Yithian archive. Almost impossible for a Mediterranean character to re
 
 ## 8. Running the Game (2d12-Friendly)
 
-The setting is system-agnostic but designed to plug cleanly into a **2d12 system** like yours. Some notes on tuning.
+The setting is system-agnostic but designed to plug cleanly into the **2d12 system**.
+
+ Some notes on tuning.
 
 ### Suggested Attribute Frame
 
 Six attributes mapping to late-antique conceptions of the person:
-
-| Attribute | Late Antique Concept | Covers |
-|---|---|---|
-| **Sōma** | Body | Strength, constitution, endurance |
-| **Akmē** | Vigor | Agility, reflexes, speed |
-| **Nous** | Intellect | Learning, memory, reasoning |
-| **Pneuma** | Spirit | Willpower, faith, magical potential |
-| **Psychē** | Soul | Empathy, charisma, social grace |
-| **Tychē** | Fortune | Luck, providence, the favor of the gods |
-
-A roll of 2d12 + attribute against a target number sits naturally in the 6–24 range, with criticals on 22+ and fumbles on 4-. The bell curve gives **late antique fatalism** the right texture — most of the time, you do exactly what you'd expect; occasionally, *Tychē* intervenes.
-
-### A Sanity / Wonder Track
-
-Two tracks rather than one. Inspired by Lovecraft's Sanity but tuned for syncretic late-antique sensibility:
-
-- **Pistis** (Faith) — eroded by encounters with Outer Ones, by Concordat violations witnessed, by atrocity. Restored by ritual, sacrament, mentorship.
-- **Hubris** (Pride) — increases with every great act of magic, every Outer Ones glimpse survived, every faction politically out-maneuvered. High Hubris draws the eye of the Outer Ones.
-
-The campaign loses when Pistis hits zero and Hubris is full. Different paths there reflect different fates.
-
-### Magic Resolution
-
-Three speeds of magic:
-
-| Speed | Roll | Risk | Use |
-|---|---|---|-----|
-| **Cantrip** | 2d12 + *Nous* | Low | Light, minor manipulations |
-| **Operation** (Goeteia) | 2d12 + *Pneuma*, against a target set by the operation's scale | Moderate; failure inflicts *Hubris* | Combat magic, summons, wards |
-| **Theurgy** | Ceremonial — multiple rolls over hours or days; multiple participants | High but contained | Major workings; raising spirits; sealing Gates |
-
-The 2d12 curve makes Theurgy *reliable when prepared* and Goeteia *exciting when desperate* — exactly the right tonal split.
-
+| Attribute | Late Antique Concept | Covers | Attribute|
+|---|---|---|---|
+| **Sōma** | Body | Strength, constitution, endurance | **Vitality** |
+| **Akmē** | Vigor | Agility, reflexes, speed | **Alacrity**|
+| **Nous** | Intellect | Learning, memory, reasoning |**-** |
+| **Pneuma** | Spirit | Willpower, faith, magical potential | **Power** |
+| **Psychē** | Soul | Empathy, charisma, social grace | **Resolve** |
+| **Tychē** | Fortune | Luck, providence, the favor of the gods | **Fortune** |
 ---
 
 ## 9. Adventure Hooks
@@ -909,7 +886,6 @@ It is winter solstice, 501 AD. The 333-year cycle at Sarra ends in six months. A
 - ***Hoi Exō*** — "those from outside"; the Outer Ones.
 - **Hounds of Set** — the Afro-Levantine vampire civilization.
 - **House of Lamia** — the Mediterranean patrician-vampire society.
-- ***Hubris*** — one of the two campaign tracks; rises with great acts of magic and pride.
 - **Kosmos** — the mortal sphere.
 - **Long Night, Court of** — the "winter" faerie court.
 - ***Magia*** — Zoroastrian fire-and-word magic.
@@ -917,8 +893,6 @@ It is winter solstice, 501 AD. The 333-year cycle at Sarra ends in six months. A
 - ***Nemesion*** — the Outer-Ones taint.
 - **Outer Ones, the** — the Mythos pantheon.
 - ***Paranomoi*** — lawbreaker-wizards.
-- ***Pistis*** — Faith; the campaign's "sanity" track.
-- ***Pneuma*** — Spirit; the magic-bearing attribute.
 - **Seven Seals, the** — the seven cosmic prohibitions enforced by the Concord.
 - **Shekel** — one of the thirty cursed silver coins.
 - **Stylite** — a sword-bearing enforcer of the Concord.
@@ -932,52 +906,3 @@ It is winter solstice, 501 AD. The 333-year cycle at Sarra ends in six months. A
 - **Yithian Archive** — the Great Race's cosmic library.
 
 ---
-
-## Citations & Inspirations
-
-Historical grounding drawn from: the [Sasanian Empire entry](https://en.wikipedia.org/wiki/Sasanian_Empire) (Kavad I's reign and Mazdakite religious context); [Theodoric the Great](https://en.wikipedia.org/wiki/Theodoric_the_Great) and [Ostrogoths](https://en.wikipedia.org/wiki/Ostrogoths) for the Italian political setting; [Barbarian kingdoms](https://en.wikipedia.org/wiki/Barbarian_kingdoms) for the post-Roman west; the [Late Antique Balkans article on theurgy](https://labalkans.org/en/labedia/culture/education/theurgy) for the Iamblichan tradition that grounds the Concord; and [Zurvanism / Zoroastrian heresies](https://factsanddetails.com/central-asia/Central_Asian_Topics/sub8_8b/entry-5869.html) for the religious texture of Persia.
-
-Mythos elements drawn from the [Lovecraft Wiki entries on Nyarlathotep](https://lovecraft.fandom.com/wiki/Nyarlathotep), the [Great Race of Yith](https://lovecraft.fandom.com/wiki/Great_Race_of_Yith), [Nephren-Ka the Black Pharaoh](https://lovecraft.fandom.com/wiki/Nephren-Ka), and the [Hyperborean Cycle](https://en.wikipedia.org/wiki/Hyperborean_cycle) (Clark Ashton Smith's Tsathoggua, Voormis, the Crone).
-
-Structural inspiration from the [Dresden Files Wiki](https://dresdenfiles.fandom.com/wiki/Dresden_Files_Wiki) entries on the White Council, the four Vampire Courts, the Faerie Courts, the Order of the Blackened Denarius, the Unseelie Accords, and the Knights of the Cross.
-
----
-
-## Appendix: Name Audit (Revision 2)
-
-In the previous draft several NPC names read as too-thin disguises of their Dresden Files originals. All have been replaced with period- and region-accurate equivalents drawn from attested late antique onomastics. For continuity:
-
-| Previous Name | Current Name | Region / Etymology |
-|---|---|---|
-| Lucia Lukianos | **Loukia Theoktiste** | Greek; *Theoktiste* ("God-made") is an attested Byzantine female name |
-| Hilderic the Pale | **Geilamir the Pale** | Vandal royal name (Gelimer, r. 530–534) |
-| Lady Aoura of Sabratha | **Lady Cyria of Sabratha** | Greek-Berber; *Kyria* = "Lady" |
-| Margarita Lae-Faia | **Markella of Tarentum** | Greek; St. Markella was an attested 3rd-century martyr |
-| Larthia Raethia | **Larthia Velthuri** | Etruscan; *Velthur* is a well-attested Etruscan gens |
-| House Raethia | **House Velthuri** | Same |
-| Harricus Dredsenios | **Markos Drepanios of Thessalonike** | Greek; Markos (Mark) was ubiquitous; Drepanios = "of Drepanon," a coastal town in Bithynia and elsewhere |
-| Tomarcus Raethius | **Tarquinius Velthuri** | Roman-Etruscan; Tarquinius is the famous Etruscan-Roman royal name |
-| Bromakos of Salonica | **Hierokles of Thessalonike** | Hierokles of Alexandria was a real 5th-century Neoplatonist; Thessalonike is the period-correct form |
-| Drakul, Lord of the Carpathian Halls | **Bessos the Undying** | Thracian/Dacian; Bessos was a noted Thracian tribal name |
-| Mavraka the Pale | **Anthousa Skoteine** | Greek; Anthousa was an attested Byzantine name, *Skoteine* = "the Shadowed" |
-| Madhirr-Bhrumalaí | **An Chailleach Bhéara** | Old Irish; the Cailleach Bhéara is a genuine ancient Irish crone-figure, attested in early medieval verse |
-| Maeva, Queen of Long Night | **Morrigna** | Old Irish; *An Morrígan* was the war/death goddess of pre-Christian Ireland |
-| Marva, Lady of Long Night | **Niamh of the Pale Hand** | Old Irish; *Niamh* ("brightness") was a name of the daughter of Manannán mac Lir |
-| Lothair the Wolf-Marked | **Edica the Wolf-Marked** | Scirian / Pannonian; Edica was the historical father of Odoacer |
-| Tirana, Queen of Burning Crown | **Aigle** | Greek; *Aigle* ("Radiance") was a daughter of Asclepius and an attested female name |
-| Sarisaena, Lady of Burning Crown | **Hesperia** | Greek/Roman; *Hesperia* ("of the evening/west") is attested |
-| Aurora, daughter of Tirana | **Heliodora** | Greek; *Heliodora* ("gift of the sun") is widely attested |
-| Felix Phokas, Knight of Burning Crown | **Theodoros Sebennytos** | Greek/Egyptian; Theodoros = ubiquitous, Sebennytos = town in the Egyptian Delta |
-| Frostbeard | **Hríðr-Beard** | Old Norse; *hríð* = "snowstorm/blizzard" |
-| Lord-of-the-Court's-Wards / Custodes Domini Curiae | **Wizard's-Wards / Custodes Magi** | Latin |
-| Nikodemos of Archelaon | **Nikodemos of Antiocheia** | Greek; Nikodemos is genuine biblical-era, Antioch grounds him geographically |
-| Andariel, the Whisperer | **Adramelech, the Whisperer** | Akkadian / biblical; Adramelech is an attested ancient demonic figure (2 Kings 17:31) |
-| Polonia Lartessa | **Pollia Larthe** | Roman / Etruscan; *Pollia* is a Roman gens, *Larthe* an Etruscan feminine |
-| Deirdoria Archleona | **Drosis Antiochia** | Greek; St. Drosis of Antioch was a 2nd-century martyr |
-| Quintus Cassiánós | **Quintus Sossianos** | Roman; *Sossianus* is an attested Latin cognomen |
-| Iuvia of Antioch | **Eudokia of Antioch** | Greek; Eudokia was the name of multiple Byzantine empresses |
-| Michael Carpentarius | **Mikhael Tektonas** | Greek; *Tektōn* = "carpenter" — the same calque, but ear-fitting for an Eastern Roman |
-| Sanya the Sklabēnos | **Radomir the Skabēnos** | Slavic; *Radomir* is an attested early Slavic name, and *Skabēnos* is closer to the period Greek for *Sklavenoi* |
-| Shiro Yashimotos | **Vahrām of Bukhara** | Sogdian-Iranian; Vahrām is an attested Sasanian-era Persian name |
-
-Minor titles preserved (the Houndmaster of Carthage, the Seven Masks, the Eldest Gruff, etc.) and demon-tongue names (Salurelet, Lascilea, Rhosanna, Magogos, Akareth, Imarela, Urumvelet, Namshelet) are intentionally Mythos-flavored and have been kept.

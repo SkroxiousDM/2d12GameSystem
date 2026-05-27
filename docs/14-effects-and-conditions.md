@@ -90,7 +90,7 @@ Unless otherwise specified, at the end of each round you may make a Challenging 
 ### Poisoned
 *You are sick or unwell.*
 
-- **Poisoned (Minor):** You have Disadvantage on Might and Fortitude tests. The maximum success levels you may achieve on any test equals your Fortitude rank.
+- **Poisoned (Minor):** You have Disadvantage on Might and Resilience tests. The maximum success levels you may achieve on any test equals your Resilience rank.
 - **Poisoned (Major):** You immediately become Prone and Incapacitated.
 
 Unless a duration is specified, the Poisoned condition lasts 1d5 hours. Most poisons can be treated with a Challenging Medicine test  and a Physician's Kit. Particularly dangerous substances increase to Difficult or higher. Truly lethal concoctions may require a Very Hard test — and once their duration expires, the victim may simply die.
@@ -134,5 +134,51 @@ Unless a duration is specified, the Stunned condition lasts 1d5 rounds. An ally 
 - Any character within Reach armed with a weapon may kill you without needing to make a test.
 
 ***
+# Injuries
+
+Some Critical Wounds cause Injuries. These take effect immediately when the Critical Wound is received, and remain even after the wound itself is treated. Injuries impose long-term penalties and may require medical care or surgery to fully heal.
+
+## Broken Bones
+
+Broken Bones are either Minor or Major. Minor breaks may heal on their own, while Major breaks require medical attention and may leave the affected body part nearly unusable.
+
+**Minor Broken Bone.**  
+You have a fractured bone that remains aligned and may heal naturally. The exact penalty depends on the hit location, but it usually imposes Disadvantage on tests that rely on that body part.
+- Head, Eye: Disadvantage on Awareness Sight tests.
+- Head, Jaw: Disadvantage on any test relying on speech.
+- Head, Nose: Disadvantage on Awareness Smell tests.
+- Torso: Disadvantage on Might and Agility tests, and your Speed is reduced one step to a minimum of Slow.[
+- Arms: Disadvantage on all tests using the arm, such as weapon use, bow steadiness, or climbing.
+- Legs: Disadvantage on mobility tests such as Reflexes and Athletics, and your Speed is reduced one step to a minimum of Slow.
+
+**Major Broken Bone.**  
+You have a severe fracture that will not heal properly without treatment. The body part is almost unusable, and the penalties are harsher.
+- Head, Eye: Disadvantage on Awareness Sight tests, and you cannot see out of the injured eye.
+- Head, Nose: You lose your sense of smell.
+- Head, Jaw: You cannot speak, and must survive on a liquid diet for several weeks.
+- Torso: You suffer internal damage. When attempting physical activity, make a **Challenging** Resilience (Fortitude) test; on a failure, you become Incapacitated. On a success, you may attempt the activity but suffer Disadvantage on the test.
+- Arms: The arm is unusable, you must rely on your other hand, and you have Disadvantage on all tests requiring two hands. You cannot wield weapons with the Two-handed trait.
+- Legs: As Minor Broken Bone, and the minimum Difficulty of mobility tests is **Hard**.
+
+## Healing Broken Bones
+
+A Minor Broken Bone heals naturally after 30 + 1d10 days. After that time, make a **Routine** Resilience (Fortitude) test; on a failure, the bone sets badly and the listed permanent penalty applies. A **Routine** Medicae test within one week of the injury removes the need for this Resilience (Fortitude) test, but the limb must remain bound and immobilised for the full period. If the binding is removed, a new **Routine** Medicae test must be made within one day to rebind the break and avoid the Resilience (Fortitude) test.
+
+A Major Broken Bone heals after 40 + 2d10 days. Otherwise, it follows the same rules as a Minor break, but the permanent penalties increase to Disadvantage equal to **Challenging** test severity rather than Routine where applicable.
+## Amputations
+
+Amputations are severe Critical Wound injuries that remove a body part entirely. They heal only with surgery, and you cannot recover from this type of Critical Wound until a medicae practitioner or someone with the Chirurgeon Talent performs the operation.
+
+- Arm: You have Disadvantage on all tests requiring two hands, and cannot wield weapons with the Two-handed trait.
+- Ear: If you lose both ears, you suffer Disadvantage on Awareness Hearing tests.
+- Eye: You have Disadvantage on Awareness Sight tests until you adjust, which takes 5d10 weeks. If you lose both eyes, you are permanently Blinded.
+- Finger: Each lost finger increases the chance of a fumble when using that hand; once you lose four or more fingers on one hand, use the rules for an amputated hand.
+- Foot: Your Speed is reduced one step to a minimum of Slow, and you have Disadvantage on mobility tests.
+- Hand: You have Disadvantage on all tests requiring two hands and cannot wield Two-handed weapons. You may still strap a shield to the arm. If it is your dominant hand, you also suffer Disadvantage on tests using your other hand until you gain the Ambidextrous Talent.
+- Leg: Your Speed is reduced one step to a minimum of Slow, you have Disadvantage on mobility tests, and the minimum Difficulty for those tests becomes **Hard**.
+- Nose: You have Disadvantage on Awareness Smell tests.
+- Teeth: For every 4 teeth lost, gain 1 level of Disadvantage to Manipulation tests. If you lose more than half your teeth, eating may take longer and some foods may be impossible to consume.[
+- Toes: For each toe lost, gain 1 level of Disadvantage to Agility tests
+- Tongue: You cannot speak, you have Disadvantage on Rapport tests, and speech-based tests can only succeed on a natural roll of 02.
 
 

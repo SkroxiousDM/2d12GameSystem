@@ -110,9 +110,9 @@ Manipulation is used when influencing others through speech and body language. I
 
 ---
 
-#### Medicine
+#### Medicae
 
-Medicine covers diagnosing and treating injuries, diseases, and other debilitating conditions. It is used to mend wounds, manage illness, and prevent death.
+Medicae covers diagnosing and treating injuries, diseases, and other debilitating conditions. It is used to mend wounds, manage illness, and prevent death.
 
 | Specialization | Description |
 |:---- |:---- |

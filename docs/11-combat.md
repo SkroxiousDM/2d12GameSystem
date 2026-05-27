@@ -207,7 +207,7 @@ Combat places pressure on spellcasters. Being cornered, silenced, Staggered, or 
 
 Superiority is a shared party resource representing momentum, preparation, tactical leverage, and the enemy's growing loss of control. It is tracked against a specific enemy or group; intelligence or planning against one foe grants no benefit against another.
 
-Each turn, any character may spend the party's current Superiority to add a bonus equal to its current value to a single Skill Check of their choice. This bonus may be applied only once per turn and resets at the start of the next. Because this can affect any relevant Skill Check, Superiority may empower an attack, a Dodge, an Assess action, a spellcasting roll, a manoeuvre, or a desperate attempt to force a breakthrough.
+Each turn, any character may add the party's current Superiority to a single Skill Check of their choice. This bonus may be applied only once per turn and resets at the start of the next. Because this can affect any relevant Skill Check, Superiority may empower an attack, a Dodge, an Assess action, a spellcasting roll, a manoeuvre, or a desperate attempt to force a breakthrough.
 
 ### Gaining Superiority Before Combat
 

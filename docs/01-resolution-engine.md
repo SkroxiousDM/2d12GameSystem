@@ -16,19 +16,19 @@
 ## Action Rolls
 
 All uncertain actions, including attacks, skill checks, and certain spell uses, are resolved with an action roll.
-> __**Dice**__ <br/>
+> __**Dice**__ 
 >
->The entire system is designed to run off of a handful of 12 sided dice:<br/>
+>The entire system is designed to run off of a handful of 12 sided dice:
 >
->1d12 is straightforward roll the dice results 1-12<br/>
->1d6 = 1-2:**1**, 3-4:**2**, 5-6:**3**, 7-8:**4**, 9-10:**5**, 11-12:**6**<br/>
->1d4 = 1-3:**1**, 4-6:**2**, 7-9:**3**, 10-12:**4**<br/>
->1d3 = 1-4:**1**, 5-8:**2**, 9-12:**3**<br/>
+>1d12 is straightforward roll the dice results 1-12  
+>1d6: 1-2=**1**, 3-4=**2**, 5-6=**3**, 7-8=**4**, 9-10=**5**, 11-12=**6**  
+>1d4: 1-3=**1**, 4-6=**2**, 7-9=**3**, 10-12=**4**  
+>1d3: 1-4=**1**, 5-8=**2**, 9-12=**3**  
 >
->Skill rolls will always be made with at least 2d12<br/>
+>Skill rolls will always be made with at least 2d12
 >
->Damage rolls and some rolls on tables will use the others.<br/>
-> [damage rolls {***N***d3-***N***} can also be made with FATE/Fudge dice using ***N***d3  where "-" = 1, "+" = 2 and "blank" = 0 ]<br/>
+>Damage rolls and some rolls on tables will use the others. 
+> 	damage rolls { ***N***d3-***N*** } can also be made with FATE/Fudge dice using{ ***N***d3 } where "blank" = 0, "-" = 1, and "+" = 2 
 
 #### Rolling the Dice
 
@@ -102,7 +102,8 @@ For every 2 points your total is below the success threshold, you gain 1 degree 
 
 ### Advantage and Disadvantage
 
-Certain circumstances grant advantage or disadvantage. The Complication die is always retained:
+Certain circumstances grant advantage or disadvantage.   
+**The Complication die is always retained:**
 
 - Advantage: Roll 1 extra d12 and discard the highest result.  
 - Disadvantage: Roll 1 extra d12 and discard the lowest result.  
@@ -136,11 +137,8 @@ A character does not need to pass their own Check to win an Opposed Check. If yo
 Some tasks are too complex or time-consuming to resolve with a single Check. If a character has the necessary Skill and faces no particular pressure, the GM may simply declare how long the task takes and move on. When failure is genuinely possible—or when it matters precisely how long something takes or how well it is done—use an Extended Check.
 
 - **Set the Threshold.** The GM determines the total Levels of Success required to complete the task.  
-    
 - **Set the Frequency.** The GM decides how often a roll may be made to contribute toward the threshold. This might be every turn, every hour, every day, or longer. The GM should also establish whether there is a deadline and what happens if it is not met.  
-    
 - **Determine Skill and Difficulty.** The GM sets the Skill and Difficulty as for any ordinary Check. The same Skill is typically used for each attempt, though the GM may introduce other Skills or specializations as the task progresses.  
-    
 - **Track Progress.** Each attempt adds or subtracts Levels of Success from a running total. A successful Check always contributes at least +1, and a failed Check always deducts at least 1. The task is complete when the running total meets or exceeds the threshold. If the total falls below 0 at any point, or if the deadline passes before the threshold is reached, the task fails. The GM determines at what point the failure occurred, what was accomplished before it, and what resources were lost in the attempt.
 
 

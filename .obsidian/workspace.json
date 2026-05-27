@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/01-resolution-engine.md",
+                "file": "docs/02.5-Sample-Characters.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-resolution-engine"
+              "title": "02.5-Sample-Characters"
             }
           }
         ]
@@ -185,8 +185,10 @@
   },
   "active": "f605774da1f09ca6",
   "lastOpenFiles": [
-    "docs/07-fate-and-fortune.md",
+    "docs/02.Character Creation.md",
+    "docs/07-sanity.md",
     "docs/01-resolution-engine.md",
+    "docs/07-fate-and-fortune.md",
     "docs/00-document-map.md",
     "CHANGELOG.md",
     "CONTRIBUTING.md",

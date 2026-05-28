@@ -202,7 +202,7 @@ The Concord teaches its apprentices that **the Flood was real**, that it ended t
 
 Late in the sorcerer-king era — the Concord dates it to **c. 2300 BC**, during the convulsions that ended the Akkadian Empire — a coalition of seven Sumerian Nephilim attempted the unforgivable: they tried to **open a permanent portal to the Outer Dark**.
 
-Their reasoning, as recovered from the *Stelae of Naram-Sin* (Concord-suppressed), was that *worship of an Outer One* would give them a power-yield several orders of magnitude beyond mortal-cult-feeding. They were correct. They were also catastrophically wrong about the consequences. The portal opened above the marshes near what is now the buried city of **Eridu**. Something *enormous* began to push through.
+Their reasoning, as recovered from the *Stelae of Naram-Sin* (Concord-suppressed), was that *worship of an Outer One* would give them a power-yield several orders of magnitude beyond mortal-cult-feeding. They were correct. They were also catastrophically wrong about the consequences. The portal opened at the edge of the Veiled Sphere. Something *enormous* began to push through.  The coerrespondence point in the Kosmos is a marsh near what is now the buried city of **Eridu**.
 
 The **Court of Long Night** — then in its first generation, the Crone barely a millennium into her vigil — closed the breach by main force. They could not heal it cleanly; the wound was too large. Instead they wove a **standing seal** of fae-flesh and oath across the gap and posted a phalanx of Long Night sidhe at the seam in shifts that have never broken. The seal has held for four thousand three hundred years. **It still bleeds.** A constant fraction of the Long Night Court's military strength is committed, *at this moment*, to holding the Eridu breach.
 
@@ -1181,52 +1181,3 @@ It is winter solstice, 501 AD. The 333-year cycle at Sarra ends in six months. A
 - **Yithian Archive** — the Great Race's cosmic library.
 
 ---
-
-## Citations & Inspirations
-
-Historical grounding drawn from: the [Sasanian Empire entry](https://en.wikipedia.org/wiki/Sasanian_Empire) (Kavad I's reign and Mazdakite religious context); [Theodoric the Great](https://en.wikipedia.org/wiki/Theodoric_the_Great) and [Ostrogoths](https://en.wikipedia.org/wiki/Ostrogoths) for the Italian political setting; [Barbarian kingdoms](https://en.wikipedia.org/wiki/Barbarian_kingdoms) for the post-Roman west; the [Late Antique Balkans article on theurgy](https://labalkans.org/en/labedia/culture/education/theurgy) for the Iamblichan tradition that grounds the Concord; and [Zurvanism / Zoroastrian heresies](https://factsanddetails.com/central-asia/Central_Asian_Topics/sub8_8b/entry-5869.html) for the religious texture of Persia.
-
-Mythos elements drawn from the [Lovecraft Wiki entries on Nyarlathotep](https://lovecraft.fandom.com/wiki/Nyarlathotep), the [Great Race of Yith](https://lovecraft.fandom.com/wiki/Great_Race_of_Yith), [Nephren-Ka the Black Pharaoh](https://lovecraft.fandom.com/wiki/Nephren-Ka), and the [Hyperborean Cycle](https://en.wikipedia.org/wiki/Hyperborean_cycle) (Clark Ashton Smith's Tsathoggua, Voormis, the Crone).
-
-Structural inspiration from the [Dresden Files Wiki](https://dresdenfiles.fandom.com/wiki/Dresden_Files_Wiki) entries on the White Council, the four Vampire Courts, the Faerie Courts, the Order of the Blackened Denarius, the Unseelie Accords, and the Knights of the Cross.
-
----
-
-## Appendix: Name Audit (Revision 2)
-
-In the previous draft several NPC names read as too-thin disguises of their Dresden Files originals. All have been replaced with period- and region-accurate equivalents drawn from attested late antique onomastics. For continuity:
-
-| Previous Name | Current Name | Region / Etymology |
-|---|---|---|
-| Lucia Lukianos | **Loukia Theoktiste** | Greek; *Theoktiste* ("God-made") is an attested Byzantine female name |
-| Hilderic the Pale | **Geilamir the Pale** | Vandal royal name (Gelimer, r. 530–534) |
-| Lady Aoura of Sabratha | **Lady Cyria of Sabratha** | Greek-Berber; *Kyria* = "Lady" |
-| Margarita Lae-Faia | **Markella of Tarentum** | Greek; St. Markella was an attested 3rd-century martyr |
-| Larthia Raethia | **Larthia Velthuri** | Etruscan; *Velthur* is a well-attested Etruscan gens |
-| House Raethia | **House Velthuri** | Same |
-| Harricus Dredsenios | **Markos Drepanios of Thessalonike** | Greek; Markos (Mark) was ubiquitous; Drepanios = "of Drepanon," a coastal town in Bithynia and elsewhere |
-| Tomarcus Raethius | **Tarquinius Velthuri** | Roman-Etruscan; Tarquinius is the famous Etruscan-Roman royal name |
-| Bromakos of Salonica | **Hierokles of Thessalonike** | Hierokles of Alexandria was a real 5th-century Neoplatonist; Thessalonike is the period-correct form |
-| Drakul, Lord of the Carpathian Halls | **Bessos the Undying** | Thracian/Dacian; Bessos was a noted Thracian tribal name |
-| Mavraka the Pale | **Anthousa Skoteine** | Greek; Anthousa was an attested Byzantine name, *Skoteine* = "the Shadowed" |
-| Madhirr-Bhrumalaí | **An Chailleach Bhéara** | Old Irish; the Cailleach Bhéara is a genuine ancient Irish crone-figure, attested in early medieval verse |
-| Maeva, Queen of Long Night | **Morrigna** | Old Irish; *An Morrígan* was the war/death goddess of pre-Christian Ireland |
-| Marva, Lady of Long Night | **Niamh of the Pale Hand** | Old Irish; *Niamh* ("brightness") was a name of the daughter of Manannán mac Lir |
-| Lothair the Wolf-Marked | **Edica the Wolf-Marked** | Scirian / Pannonian; Edica was the historical father of Odoacer |
-| Tirana, Queen of Burning Crown | **Aigle** | Greek; *Aigle* ("Radiance") was a daughter of Asclepius and an attested female name |
-| Sarisaena, Lady of Burning Crown | **Hesperia** | Greek/Roman; *Hesperia* ("of the evening/west") is attested |
-| Aurora, daughter of Tirana | **Heliodora** | Greek; *Heliodora* ("gift of the sun") is widely attested |
-| Felix Phokas, Knight of Burning Crown | **Theodoros Sebennytos** | Greek/Egyptian; Theodoros = ubiquitous, Sebennytos = town in the Egyptian Delta |
-| Frostbeard | **Hríðr-Beard** | Old Norse; *hríð* = "snowstorm/blizzard" |
-| Lord-of-the-Court's-Wards / Custodes Domini Curiae | **Wizard's-Wards / Custodes Magi** | Latin |
-| Nikodemos of Archelaon | **Nikodemos of Antiocheia** | Greek; Nikodemos is genuine biblical-era, Antioch grounds him geographically |
-| Andariel, the Whisperer | **Adramelech, the Whisperer** | Akkadian / biblical; Adramelech is an attested ancient demonic figure (2 Kings 17:31) |
-| Polonia Lartessa | **Pollia Larthe** | Roman / Etruscan; *Pollia* is a Roman gens, *Larthe* an Etruscan feminine |
-| Deirdoria Archleona | **Drosis Antiochia** | Greek; St. Drosis of Antioch was a 2nd-century martyr |
-| Quintus Cassiánós | **Quintus Sossianos** | Roman; *Sossianus* is an attested Latin cognomen |
-| Iuvia of Antioch | **Eudokia of Antioch** | Greek; Eudokia was the name of multiple Byzantine empresses |
-| Michael Carpentarius | **Mikhael Tektonas** | Greek; *Tektōn* = "carpenter" — the same calque, but ear-fitting for an Eastern Roman |
-| Sanya the Sklabēnos | **Radomir the Skabēnos** | Slavic; *Radomir* is an attested early Slavic name, and *Skabēnos* is closer to the period Greek for *Sklavenoi* |
-| Shiro Yashimotos | **Vahrām of Bukhara** | Sogdian-Iranian; Vahrām is an attested Sasanian-era Persian name |
-
-Minor titles preserved (the Houndmaster of Carthage, the Seven Masks, the Eldest Gruff, etc.) and demon-tongue names (Salurelet, Lascilea, Rhosanna, Magogos, Akareth, Imarela, Urumvelet, Namshelet) are intentionally Mythos-flavored and have been kept.

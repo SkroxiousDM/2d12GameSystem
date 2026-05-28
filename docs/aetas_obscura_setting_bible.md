@@ -15,6 +15,7 @@
 1. [The Premise](#1-the-premise)
 2. [The World in 500 AD](#2-the-world-in-500-ad)
 3. [Cosmology](#3-cosmology)
+   - 3.4 [The Secret History](#the-secret-history-inner-seal-knowledge) — Inner-Seal-only doctrine: Nephilim as pagan gods, the Eridu breach, the Fomorian war, the Etruscan king and the Hunger
 4. [The Concordat of Hidden Powers](#4-the-concordat-of-hidden-powers) *(this setting's Unseelie Accords)*
 5. [The Factions](#5-the-factions)
    - 5.1 [The Concord of the Seven Seals](#51-the-concord-of-the-seven-seals) — wizards
@@ -31,11 +32,12 @@
    - 5.6 [The Esoteric Order of Dagon](#56-the-esoteric-order-of-dagon) — Deep Ones
    - 5.7 [The Yithian Archive](#57-the-yithian-archive) — Great Race
    - 5.8 [The Theophoroi](#58-the-theophoroi) — God-Bearers (Knights)
-6. [Key Locations](#6-key-locations)
-7. [Timeline of the Hidden World](#7-timeline-of-the-hidden-world)
-8. [Running the Game (2d12-Friendly)](#8-running-the-game-2d12-friendly)
-9. [Adventure Hooks](#9-adventure-hooks)
-10. [Glossary](#10-glossary)
+6. [Historical Magi of the Age](#6-historical-magi-of-the-age) — historical and pseudo-historical magic-users woven in
+7. [Key Locations](#7-key-locations)
+8. [Timeline of the Hidden World](#8-timeline-of-the-hidden-world)
+9. [Running the Game (2d12-Friendly)](#9-running-the-game-2d12-friendly)
+10. [Adventure Hooks](#10-adventure-hooks)
+11. [Glossary](#11-glossary)
 
 ---
 
@@ -123,6 +125,116 @@ Magic in this setting is **the imposition of a name on reality**. To name a thin
 
 The **Seven Seals of Solomon** (see [§5.1](#51-the-concord-of-the-seven-seals)) are the absolute prohibitions of the Concord. They are not "laws" in a mortal sense; they are **architectural features of reality** that the Concord enforces because to break them is to weaken the walls between Sphere and Dark.
 
+### The Secret History (Inner-Seal Knowledge)
+
+This subsection is the **single most carefully guarded body of doctrine** in the setting. The Concord teaches a sanitized public cosmology (the Three Spheres, the Outer Ones, the founding by Iamblichus the Elder). The *truth*, known in full only to the Inner Seal and in fragments to the Gnostic sects, the Mobedān's living patriarchs, the Twilight Queens, and the Yithian Recorder, runs as follows.
+
+#### 3.4.A The Nephilim: Architects of the Gods
+
+In the ages before recorded history, two hundred *Watchers* (*Egrēgoroi*) descended from the higher Sphere onto Mount Hermon. They lusted after mortal women, took them, and fathered a race of giant-blooded hybrids: the **Nephilim**. The Watchers also taught humanity weaponry, cosmetics, metallurgy, and — fatally — *sorcery*. (The Concord's official line is that this is allegory. It is not. The [*Book of the Watchers* tradition](https://en.wikipedia.org/wiki/Watcher_\(angel\)) is *literal* history, reduced over centuries to scripture.)
+
+The Nephilim are *not* the Outer Ones. They are not even truly demonic. They are the **half-divine survivors** of that original mingling: long-lived (centuries, sometimes millennia), beautiful, charismatic, capable of working sorcery without the protection of any Seal, and — above all — *hungry for worship*. Mortal devotion is to a Nephil what blood is to a Strigoi: it sustains, it intoxicates, and the more of it they consume the stronger they grow.
+
+From this hunger comes **the entire pagan pantheon**. Every god with a priesthood, an altar, and a worshipper-pool of more than a few thousand mortals is — or *was* — a Nephil personality. The catalogue includes:
+
+| Pantheon | Notable Nephilim Behind the Masks |
+|---|---|
+| **Sumerian / Babylonian** | Marduk, Inanna/Ishtar, Enki, Nergal, Tiamat (a *coalition* of three Nephilim sisters) |
+| **Egyptian** | Osiris, Isis, Set, Thoth, Hathor (and the Apis-Bulls were their *blood-children* with mortal women) |
+| **Phoenician / Canaanite** | Baal-Hadad, Astarte, Moloch, Dagon (*see below — a special case*) |
+| **Greek** | Zeus, Hera, Aphrodite, Hermes, Hekate, Apollo, Artemis. (Hekate is one of the few who openly admitted what she was to her cult.) |
+| **Roman** | Mostly Greek Nephilim with Roman masks. Mars and Janus, however, are Etruscan-origin Nephilim. |
+| **Norse / Germanic** | Odin, Thor, Frigg, Loki. Loki is the *most truthful* of them — he tells his cult what he is, and they love him for it. |
+| **Slavic** | Perun, Veles, Mokosh. Veles is the most active in 500 AD; his cults are spreading among the Sklavenoi. |
+| **Celtic / Irish** | Dagda, Lugh, the Morrígan, Brigit. (See [§3.4.D](#34d-the-burning-crown-and-the-fomorians) on the Aes Sídhe complication.) |
+| **Greco-Roman mystery** | Mithras, Demeter-of-Eleusis, the Magna Mater. The mystery religions know exactly what their gods are; that is the *mystery*. |
+
+**Most important: even Jehovah of the Israelites is a Nephil.** The most powerful of them, but a Nephil nonetheless — a Watcher who repented (or claimed to), broke with the Hermon council, and styled himself as the sole creator. The **Gnostics** are the only mortal tradition that has guessed the truth: their Demiurge / Yaldabaoth doctrine — that the god of the Old Testament is a lesser, jealous, falsely-credentialed creator-figure — is essentially correct, though imperfect in its details.
+
+**Christ is the only known exception.** What happened in Galilee thirty years into the first century is, in Concord cosmology, *genuinely* unprecedented — the intervention of something from *above* the Watchers' tier. This is why the Theophoroi's swords work, why holy power can flow through any sincere creed, and why the Inner Seal will *never* publish the Secret History: it would shatter every religion in the Empire simultaneously.
+
+##### Status of the Nephilim in 500 AD
+
+- Most of the **old Mediterranean gods** are *dying*. Their cults are dwindling, their priesthoods crumbling, their worship-pools draining into Christianity. A Nephil starved of worship grows weak, sleeps, and eventually dies in truth.
+- Some have *adapted*. A few of the Greco-Roman pantheon walk the world today as wealthy patricians, having renamed themselves and accepted that their cult-fed millennium is over. Hermes (now called *Mercurianus*, a Roman banker in Antioch) is the textbook case.
+- Some have *gone rogue*. Loki is at large in Frisia. Veles is harvesting Slavic worship at a frightening rate. Set has aligned with the Hounds of Set (yes, *that* Set — the Nephil behind the cult, not a metaphor).
+- Jehovah is the only one whose cult is *growing* rather than shrinking, and the Inner Seal is unsettled by this for reasons it does not put in writing.
+
+#### 3.4.B The Bronze-Age Wars of the Sorcerer-Kings
+
+Through most of the Early Bronze Age (roughly **3500–1500 BC**), terrestrial politics were a war between **Nephilim sorcerer-kings** for cult-territory and worship-pool. The Sumerian city-state wars, the Akkadian conquests, the dynastic struggles of the Egyptian Old Kingdom, the *city-killing* between Mari and Ebla, the proto-Etruscan wars in Tyrrhenian Italy — these were not, beneath the surface, mortal conflicts at all. They were Nephilim jockeying for the *attention of the masses*. Every captured city was a captured worship-pool. Every razed temple was a rival's revenue source destroyed.
+
+The word **Lugal** — "big man," the Sumerian term that displaced *En* (priest-king) by the mid-third millennium — originally meant *Nephil-on-the-throne*. The Concord's archive at the Castrum holds [a fragmentary tablet from Lagash](https://www.ancientworldmagazine.com/articles/evolution-sumerian-kingship/) in which the *Lugal* of that city explicitly declares himself "not a mortal son of Ningirsu, but Ningirsu himself walking in flesh." He was telling the literal truth.
+
+The Concord teaches its apprentices that **the Flood was real**, that it ended the open Nephilim age, and that the survivors retreated into shadow. This is most of the truth. The flood was not Jehovah's act — it was a *collaborative* act by a coalition of Nephilim (Enki the Sumerian, Utnapishtim's patron, was one) who realized that open Watcher politics had reduced the worship-pool through sheer slaughter to a level that threatened their food supply. They drowned the worst offenders and rebuilt under aliases. The Mesopotamian flood narratives know this. The Hebrew narrative was edited to credit a single god.
+
+#### 3.4.C The Sumerian Breach — and Why the Long Night Holds the Wall
+
+Late in the sorcerer-king era — the Concord dates it to **c. 2300 BC**, during the convulsions that ended the Akkadian Empire — a coalition of seven Sumerian Nephilim attempted the unforgivable: they tried to **open a permanent portal to the Outer Dark**.
+
+Their reasoning, as recovered from the *Stelae of Naram-Sin* (Concord-suppressed), was that *worship of an Outer One* would give them a power-yield several orders of magnitude beyond mortal-cult-feeding. They were correct. They were also catastrophically wrong about the consequences. The portal opened above the marshes near what is now the buried city of **Eridu**. Something *enormous* began to push through.
+
+The **Court of Long Night** — then in its first generation, the Crone barely a millennium into her vigil — closed the breach by main force. They could not heal it cleanly; the wound was too large. Instead they wove a **standing seal** of fae-flesh and oath across the gap and posted a phalanx of Long Night sidhe at the seam in shifts that have never broken. The seal has held for four thousand three hundred years. **It still bleeds.** A constant fraction of the Long Night Court's military strength is committed, *at this moment*, to holding the Eridu breach.
+
+This is **why** the Court of Long Night is so cruel, so calculating, so jealous of mortal bargains: every mortal soul Morrigna can bind, every debt she can buy, every Knight she can break and replace, *feeds the wall*. The Concord knows this. The Theophoroi know this. The Twilight Queens have never published it because the Burning Crown's Court would lose its political leverage if the mortal world understood that **without Long Night, the Eridu breach would have eaten the Tigris valley three thousand years ago**.
+
+In 500 AD, the seven Sumerian Nephilim who opened the breach are sealed *within* it, mad and screaming, their spirits used as load-bearing material in the wall. The Concord apprentice who learns this learns it last, with the magister's hand on her shoulder.
+
+#### 3.4.D The Burning Crown and the Fomorians
+
+In the centuries after the Eridu breach — roughly **2000–1000 BC** — the **Esoteric Order of Dagon** in its earliest form crossed from the Phoenician coast into the Atlantic and made landfall on the western Irish shore. The Deep One colonies they planted there are remembered in Irish tradition as the **Fomorians**: the sea-giants, the under-the-wave race, the warlike beings who ["dwell under the worlds of men"](https://en.wikipedia.org/wiki/Fomorians) in the 7th-century elegies.
+
+This is more or less verbatim true. The Fomorians were a Deep-One colonial polity — amphibious hybrids who had built underwater cities off Cliffs of Moher, Innis Mor, and Tory Island. They harvested Bronze Age Ireland for tribute and breeding-stock for centuries.
+
+The **Court of the Burning Crown** — then the senior of the two Twilight Courts in the western isles — fought them. The conflict was long, cold-and-hot, and ended in the **Second Battle of Mag Tuired** (Irish tradition dates this conflict to a mythic period; Concord scholars place the decisive battle around **1100 BC**). The Burning Crown's Tuatha-aligned host shattered the Fomorian land-army and drove the survivors back beneath the waves. The Burning Crown's eldest Sidhe — including the **Eldest Gruff** — fought in that war.
+
+The Fomorians never recovered. The Esoteric Order of Dagon's *Atlantic chapter* survived only as scattered hybrid populations on Innis Mor and the Aran islands ([§5.6](#56-the-esoteric-order-of-dagon)). The chapter in Sidon stayed strong because the Burning Crown could not reach the Mediterranean coast in force.
+
+**In 500 AD this matters because:**
+
+- The Burning Crown holds a *blood-grudge* against the Esoteric Order — the only Mythos faction the Sidhe have ever defeated in open battle. The Burning Crown will *always* answer a call to fight Deep Ones.
+- The Innis Mor chapter mentioned in [Hook 10.3 ("Eudokia's Dreams")](#103-eudokias-dreams-mid-tier-mystery) is the rump that survived. They are rebuilding.
+- The Tuatha Dé Danann of later Irish tradition are *not* a separate race — they are the Aes Sídhe of the Burning Crown remembered through mortal lenses. Most of the named gods of the Irish pantheon are Burning Crown sidhe; only **the Dagda** himself was a true Nephil (and he is in 500 AD a quiet retired noble in the Dingle peninsula, no longer collecting worship).
+
+#### 3.4.E The Etruscan King and the Birth of the House of Lamia
+
+A few centuries after the Fomorian war — the Concord dates this to **c. 700 BC**, contemporary with the rise of Etruscan city-state civilization on the Italian peninsula — an Etruscan Nephil sorcerer-king named **Larthia Caisra** (a male name in the Etruscan: *Larth Caisra* is the historical reading; the feminine *Larthia* is a Concord-archive convention to mark him as the *seed-king* of his line) attempted, like the Sumerians before him, to **contact the Outer Dark**. His goal was less ambitious: not a portal but a *conversation* — he wanted to know what waited beyond the wall, and whether a worship-pact could be made with it.
+
+He found something. The Concord designates it **The Hunger** (*Hē Peina*). It was *not* one of the great Outer Ones — not Azathoth, not Cthulhu, not Nyarlathotep — but something smaller, an *appetite* without the courtesy of a name. The Concord believes, with the Damaskios faction, that The Hunger is a *fragment* of Shub-Niggurath's lower aspect: the wet, fertile, devouring mother-thing that strips its consorts to skeletons.
+
+The Hunger took Larth Caisra. It poured into him and wore him like a coat. He went home to his palace at *Caere* (modern Cerveteri) and began to feed on his own household, his own city. In a single season the population of Caere fell by a third.
+
+**His daughter** — a young Etruscan noblewoman, name lost to record, called in Concord doctrine **Lamia Prima** — was the only person left in the palace who understood what had happened. She was already a half-Nephil (her father's blood) and had been trained in goeteia by her father's court magus. She did the only thing she could do: she **could not kill the Hunger**, because killing the body would release the parasite back into the Veiled Sphere. But she could **bind the Hunger to her father's soul** — chain it to a single host who could not be killed without releasing it.
+
+She wove the binding. It held. But during the rite the Hunger — still in her father's body, still semi-aware — *raped her*.
+
+She carried the child to term. The child was the **first being of the House of Lamia**: half-Nephil, half-Etruscan-mortal, with the Hunger threaded through her soul as a permanent passenger. Lamia Prima nursed the infant, took the Sicilian name *Lamia* as her own (after the Greek child-stealing she-monster, in conscious bitter irony), and gathered her female cousins and half-sisters into a household. They learned, by horrible experiment, that the Hunger could be *fed* on emotion alone — lust, fear, despair — without killing its hosts.
+
+From this single household every member of the House of Lamia descends. The **Domina Maxima** of 500 AD is Lamia Prima's great-great-granddaughter, the eldest member of the founding line still living. Her **first feeding** — the ritual that initiates every Lamia and that always kills its victim — is a microcosm of the original rite: a controlled, ritual *release* of the Hunger that, performed correctly, satisfies the parasite and binds it deeper into the host.
+
+**Larth Caisra himself** is still alive — his body, that is. The Hunger holds him in a chamber beneath the Aventine villa, in suspended catalepsy, two and a half thousand years old. He is the **anchor point of the entire House of Lamia binding**. If he dies, every Lamia dies with him. If the binding breaks, the Hunger walks again, and what it does next is the GM's prerogative.
+
+Markella of Tarentum's curse on the current Domina Maxima ([§5.2.B](#52b-the-house-of-lamia)) is not, as the Concord publicly believes, a simple Concord-witch revenge. It is a **deliberate weakening of the anchor lock**. Markella was a Gnostic. She had read the Secret History. She believed, correctly, that the House of Lamia is the longest-standing *intentional* containment-by-feeding scheme in the world — and she believed, *incorrectly*, that the Hunger could be safely released if its hosts were starved for one generation. The Concord that hosts her son ([Markos Drepanios](#52b-the-house-of-lamia)) does not know this. *He* does not know this. The Inner Seal suspects.
+
+---
+
+#### Who Knows What
+
+| Faction | Aware of the Secret History? |
+|---|---|
+| **Inner Seal of the Concord** | Yes, all of it. Sworn never to publish. |
+| **Concord at Large** | Knows the Nephilim doctrine in outline; does not know the Eridu breach details or the Lamia origin |
+| **Stylites** | Told only what they need for the mission |
+| **Twilight Queens** | Know everything except the Lamia origin; Morrigna *suspects* the Lamia anchor |
+| **House of Lamia** | The Domina Maxima knows; Larthia Velthuri does not, *yet* |
+| **Mobedān / Bondos** | Know the Nephilim doctrine and have their own (compatible) Zoroastrian version: the Watchers are *daevas* who chose wrongly |
+| **Theophoroi** | Know via their swords; do not speak of it |
+| **Bearers of the Thirty Tongues** | Nikodemos knows; he is a 2nd-century *witness*. |
+| **Brotherhood of the Black Pharaoh** | Knows the Nephilim and Sumerian doctrines; **wants the Eridu breach reopened** |
+| **Yithian Recorder** | Has it logged with full citations |
+| **Gnostic sects** | Know the Yaldabaoth-is-a-Nephil doctrine; do not know the Eridu or Lamia material |
+| **Ordinary mortals** | Know none of this. Sing hymns to gods who are dying. |
+
 ---
 
 ## 4. The Concordat of Hidden Powers
@@ -147,8 +259,9 @@ The Concordat governs:
 - The Hounds of Set (sole representative: the **Houndmaster of Carthage**)
 - The Strigoi of Dacia (represented by **Anthousa Skoteine**, last of the elder lineage)
 - The Yithian Archive (as an Observer)
-- The Mobedān of Persia (acceded c. 380 AD)
+- The Mobedān of Persia (acceded c. 380 AD; secretly directed from beyond the grave by the shade of [Kartīr](#613-kartīr-of-the-seven-heavens-the-patriarch-shade))
 - The Bearers of the Thirty Tongues (acceded c. 50 AD; their leader's signature is currently *suspended* for repeated violations)
+- **Ambrosius Aurelianus**, Freeholding Lord of Sub-Roman Britain (signatory in his own person; see [§6.9](#69-ambrosius-aurelianus-last-roman-of-britain))
 
 ### Known Non-Signatories
 
@@ -178,9 +291,12 @@ Its sanctuary, the **Old Seat**, is a hidden complex beneath the Serapeum in Ale
 | Tier | Title | Description | Current Holder |
 |---|---|---|---|
 | Apex | **Magister Sigillorum** (Master of the Seals) | Leader of the Inner Seal. Casts the deciding vote when the Inner Seal is deadlocked. | Theognostos of Smyrna |
-| Apex | **The Inner Seal** | Seven of the eldest theurgists, in theory. In practice, politics intervene. | Seven seats — see below |
+| Apex | **The Inner Seal** | Seven of the eldest theurgists, in theory. In practice, politics intervene. Named members include **Damaskios of Damaskos** (Theurgic Metaphysics; head of the Athenian house — [§6.4](#64-damaskios-of-damaskos-scholarch-of-athens)) and **Rashidun of Edessa** (Gatekeeper). | Seven seats |
 | Apex | **The Gatekeeper of the Outer Dark** | The Inner Seal member tasked with watching the Outer Gates and screening returning emissaries for Outer-Ones taint. Works hand-in-glove with the Court of Long Night. | Rashidun of Edessa |
 | Off-the-books | **The Black Wand** (*Sceptrum Nigrum*) | Unofficial. A single wizard authorized to break the Seven Seals at their discretion when the Concord itself is in danger. Disavowed publicly. | Old Eberezdes of the Cyrenaican mountains |
+| Notable junior | **Boetius of Ravenna** | The Concord's senior asset at Theodoric's Ostrogothic court. 20 years old at game-start, protégé of Damaskios. See [§6.5](#65-boethius-the-senator-anicius-manlius-severinus-boetius). | Boetius |
+| Notable apprentice | **Myrddin Emrys** | Brythonic ward of the Concord, age 7. Damaskios's personal student. See [§6.8](#68-myrddin-emrys-apprentice-of-the-western-isles). | Myrddin |
+| In memoriam | **Hypatia of Alexandria** | The last Magistra Sigillorum of the Old Seat; martyred 415 AD. The Inner Seal's deepest moral wound. See [§6.3](#63-hypatia-of-alexandria-the-martyred-magistra). | — |
 | Enforcement | **The Stylites** (sometimes *Cinerei*, "the Ash-Cloaked") | The Concord's police and military. Take their name from the famous pillar-saints — they are sworn to "stand alone, in the high place, between the world and the storm." Wear ash-grey cloaks woven not to retain blood. Carry oath-bound iron swords that cut through enchantment. | Captained by Loukia Theoktiste, a Syrian Greek |
 | Membership | **The Concord at Large** | A few hundred recognized magoi worldwide. Apprentices wear undyed wool. Full members wear robes with embroidered stoles denoting specialty. | — |
 
@@ -288,7 +404,9 @@ Maintains an *uncomfortable* alliance with the Court of Long Night, who tolerate
 
 ##### Overview
 
-The **House of Lamia** (*Domus Lamiae*) is an Etrusco-Greek aristocratic vampire society, founded — according to their own scholars — by the Libyan queen Lamia of myth and her daughters when they fled the wrath of Hera into Magna Graecia. They are the most **human-passing** of all the Courts: in their normal state they are indistinguishable from any patrician, and they age, marry, and breed almost like mortals. Almost.
+The **House of Lamia** (*Domus Lamiae*) is an Etrusco-Greek aristocratic vampire society. Their **public** founding myth, taught even to most Lamiae, is that they descend from the Libyan queen Lamia of Greek tradition and her daughters when they fled the wrath of Hera into Magna Graecia. The **true** origin — known only to the Domina Maxima and the Concord's Inner Seal — is the binding of *The Hunger* into the body of the Etruscan sorcerer-king Larth Caisra at Caere c. 700 BC, the rape of his daughter Lamia Prima by the bound entity, and the descent of every living Lamia from that single original household. See [§3.4.E](#34e-the-etruscan-king-and-the-birth-of-the-house-of-lamia).
+
+They are the most **human-passing** of all the Courts: in their normal state they are indistinguishable from any patrician, and they age, marry, and breed almost like mortals. Almost.
 
 They feed on emotion. Their formal court language is Etruscan.
 
@@ -684,7 +802,7 @@ The Recorder is renewed every generation through a ritual that the Concord under
 
 A mortal who has been mind-swapped by a Yithian returns weeks, months, or years later with no clear memory of the experience — only dreams of immense cone-bodies, vast windowless libraries, and a sense of having served as an instrument of someone else's research. Recovery is uneven; some never recover.
 
-The Recorder herself moves under the protection of the Concordat. Insulting her invokes a cosmic-order penalty so severe that even Morrigna treats her with deference.
+The  Recorder herself moves under the protection of the Concordat. Insulting her invokes a cosmic-order penalty so severe that even Morrigna treats her with deference.
 
 #### Supernatural Interaction
 
@@ -742,51 +860,162 @@ Direct opponents of the Bearers of the Thirty Tongues. Allied with the Concord w
 
 ---
 
-## 6. Key Locations
+## 6. Historical Magi of the Age
 
-### 6.1 The Old Seat (Alexandria)
+A dozen real or pseudo-historical magic-users — some flourishing in 500 AD, some recently dead, some legendary — woven into the setting. Each entry gives the **real-world source**, the **Aetas Obscura role**, and the **GM uses**. Most are drawn from genuine late antique tradition; the few that lean into legend (Merlin, Mug Ruith, Solomon) are flagged.
+
+### 6.1 Solomon ben David, the First Sealer
+
+- **Real-world source:** the *Testament of Solomon* (1st–3rd c. AD) and the wider late antique tradition of Solomon as the supreme binder of demons by ring and seal.
+- **In setting:** the **mythic founder** of the Concord's tradition. The Concord's official line is that **Iamblichus the Elder** (250 BC) merely *rediscovered* what Solomon had first written down. The Seven Seals themselves are attributed apocryphally to Solomon, though the Concord's archivists privately admit the seals predate him by centuries.
+- **Status in 500 AD:** dead fifteen centuries. His *signet ring* is said to lie buried in the Temple Mount rubble in Jerusalem — a constant lure for Brotherhood agents, Bearer hosts, and ambitious Concord apprentices.
+- **GM uses:** the McGuffin behind any "lost Solomonic relic" plot. Whoever recovers a true Solomonic seal can bind a Tongue — or *release* one.
+
+### 6.2 Iamblichos of Chalkis, the Last True Theurgist
+
+- **Real-world source:** [*Iamblichus of Chalcis*](https://plato.stanford.edu/archives/fall2025/entries/iamblichus/), c. 245–325 AD, Syrian Neoplatonist and the formalizer of **theurgy** as a magical discipline.
+- **In setting:** a Magister Sigillorum of the Concord roughly 175 years before game-start. He is **not** the Concord's founder (that is the legendary *Iamblichus the Elder* of 250 BC, a deliberate confusion of names the Concord has never bothered to correct). The historical Iamblichus reformed Concord theurgic practice in the early 4th century.
+- **Status in 500 AD:** revered ancestor. His writings (*De Mysteriis Aegyptiorum*) are required reading at the Castrum.
+- **GM uses:** *unfinished* Iamblichan rites occasionally surface in caches — each one a campaign in itself.
+
+### 6.3 Hypatia of Alexandria, the Martyred Magistra
+
+- **Real-world source:** [Hypatia](https://en.wikipedia.org/wiki/Hypatia), c. 350–415 AD, Neoplatonist philosopher and astronomer, lynched by a Christian mob.
+- **In setting:** the last Magistra Sigillorum of the **Old Seat at Alexandria**. The Concord's *public* story is that she was murdered for refusing to deny her pagan philosophy. The Concord's *real* story — known only to the Inner Seal — is that she had **personally re-set the second of the Seven Seals** the night before her death, sealing something in the Serapeum that had begun to stir, and was murdered by mortal hands the Brotherhood of the Black Pharaoh had stirred up specifically to break her. The Concord did not save her. They could have. They calculated that her *martyrdom* would draw less attention to the seal she had just renewed than a public rescue.
+- **Status in 500 AD:** dead 85 years. Her *ghost* is said to occasionally manifest in the empty halls of the Old Seat — sometimes helpful, sometimes furious. Whether this is truly her or a thoughtform-construct of the Old Seat itself, no one knows.
+- **GM uses:** Hypatia is the Concord's foundational moral wound. Any Concord PC will know the story (or part of it). The truth, when uncovered, recontextualizes the Concord's relationship with mortal authority forever.
+
+### 6.4 Damaskios of Damaskos, Scholarch of Athens
+
+- **Real-world source:** [Damascius](https://en.wikipedia.org/wiki/Damascius), c. 458–538 AD, the last scholarch of the Athenian Neoplatonic Academy before Justinian closes it in 529. A genuinely first-rank metaphysician.
+- **In setting:** **sitting member of the Inner Seal** in 500 AD, occupying the chair reserved for Theurgic Metaphysics. Forty-two years old at game-start, head of the **Concord's Athenian house** — a small, isolated chapter that doubles as the public Academy. Lives in dread of the day a Constantinopolitan emperor will decide pagan philosophers are sedition. (The PCs do not need to know that this happens in 529, but the GM may foreshadow it.)
+- **Status in 500 AD:** active, brilliant, prickly, fond of wine. Considers Theognostos of Smyrna a bureaucrat and tells him so.
+- **GM uses:** Damaskios is the perfect Concord patron NPC for a campaign that wants intellectual heft — he gives quests in the form of metaphysical puzzles. He is also the Concord's quiet expert on the **Outer Ones**, and the most likely member of the Inner Seal to *believe* a panicked apprentice's report.
+
+### 6.5 Boethius the Senator (Anicius Manlius Severinus Boetius)
+
+- **Real-world source:** [Boethius](https://en.wikipedia.org/wiki/Boethius), c. 480–524 AD, Roman senator-philosopher at Theodoric's Ravenna court, executed for treason and *accused of practicing magic* by Theodoric in his final years.
+- **In setting:** a **junior Concord member at the Ostrogothic court**. Twenty years old at game-start. Brilliant, idealistic, politically naïve. Officially Theodoric's *magister officiorum*-in-training. Unofficially the Concord's senior asset in Ravenna and a personal protege of Damaskios.
+- **Status in 500 AD:** safe. His arrest and execution lie 24 years in the future and need not happen on schedule — the PCs can change his fate. If the GM wants a *long* campaign, his fall in 523–524 makes a perfect mid-campaign hinge.
+- **GM uses:** an excellent first patron for low-tier PCs. Naive enough to ask for help; senior enough to pay for it. The historical accusation of magic against him is true in setting, and the GM can play the Concord's slow realization that one of their own is being framed by a paranoid Gothic king.
+
+### 6.6 The Master of Tyana (after Apollonios)
+
+- **Real-world source:** [Apollonius of Tyana](https://en.wikipedia.org/wiki/Apollonius_of_Tyana), c. 15–100 AD, wandering Cappadocian wonder-worker treated by some 3rd-century pagans as a counter-Christ, and the subject of Philostratus's *Life*.
+- **In setting:** a **400-years-dead culture hero** revered as a saint by *three* mutually hostile traditions in 500 AD:
+  1. **The Concord** claims him as one of their own: a wandering Magister who renewed the Eastern seals.
+  2. **The Brotherhood of the Black Pharaoh** claims he was a secret initiate of theirs who escaped into Concord ranks to spy.
+  3. **The Theophoroi** treat him as a pre-Christian *prefiguration* of their tradition — a holy ascetic who walked with sacred power without a creed.
+- **Status in 500 AD:** dead, but pilgrim shrines to him are still attended at Tyana, Ephesus, and a half-dozen lesser sites. His **staff** is rumored to lie in one of those shrines.
+- **GM uses:** the figure whose contested legacy can be used to put the three factions in a room together on opposite sides of a single relic dispute. Run a *Maltese-Falcon* arc around the staff.
+
+### 6.7 Simon of Sebaste, the Discarded Magus
+
+- **Real-world source:** [Simon Magus](http://www.gnosis.org/library/grs-mead/grsm_simon_magus.htm) of Samaria (1st c. AD), the New Testament's flying sorcerer who tries to buy the Holy Spirit from Peter and gets the doctrine of *simony* named after his crime.
+- **In setting:** a **cautionary figure from Bearer pre-history**. Concord and Brotherhood records agree on this much: in the year 60 AD, Nikodemos of Antiocheia offered Simon a shekel, and Simon — the only known mortal ever to refuse one *on the table* — turned it down. He died shortly afterward in a flying-spell catastrophe in Rome (the Acts-of-Peter version of the story). The Bearer who would have hosted that coin's Tongue is *still uncoined*, and its avatar drifts the Mediterranean trying to find a willing host.
+- **Status in 500 AD:** dead 440 years. His grave at Sebaste in Samaria is unmarked and protected by the Theophoroi.
+- **GM uses:** an excellent dangling thread — the *thirty-first* unhosted Tongue is the same one mentioned in Hook 9.2 ("The Sleeping Coin"). The PCs may eventually be offered the same choice Simon was.
+
+### 6.8 Myrddin Emrys, Apprentice of the Western Isles
+
+- **Real-world source:** [Myrddin Wyllt](https://en.wikipedia.org/wiki/Merlin), the historical/legendary Brythonic prophet-bard of c. 573 AD, conflated by Geoffrey of Monmouth six centuries later with *Ambrosius Aurelianus* to produce the figure later known as Merlin.
+- **In setting:** in 500 AD, Myrddin is **a boy of about seven**, ward of the Concord at the Castrum of Drepanon, having been brought east three years ago from Dyfed by a Stylite patrol who recognized the seer's mark on him. He is gentle, terrified of his own dreams, and prone to speaking lines no living mage has heard before. The Inner Seal does not yet know what he is, but Damaskios suspects.
+- **Status in 500 AD:** apprentice, age 7. Damaskios's personal student.
+- **GM uses:** the ultimate long-burn NPC. PCs who knew Myrddin as a child will, decades later, watch him become the wild prophet of the Caledonian Forest. A *single* solo encounter with the boy in 500 AD pays off across an entire generational campaign.
+
+### 6.9 Ambrosius Aurelianus, Last Roman of Britain
+
+- **Real-world source:** [Ambrosius Aurelianus](https://en.wikipedia.org/wiki/Ambrosius_Aurelianus), the Romano-British war leader cited by Gildas (writing c. 530 AD) as the man who rallied the Britons against the Saxon advance — and the historical seed of Geoffrey of Monmouth's *Merlinus Ambrosius*.
+- **In setting:** the **other half** of the figure history will fuse into "Merlin." Ambrosius is a fifty-year-old Concord-trained mage and minor king holding the *civitas* of Caer-Gloui (Roman Glevum, mortal Gloucester) against successive waves of Anglian and Jutish raiders. **Signatory of the Concordat as a Freeholding Lord** (sole representative of Sub-Roman Britain in his own right). Practices a battle-magic the Castrum considers crude but effective.
+- **Status in 500 AD:** active, ageing, alone. His only apprentice was the boy Myrddin, whom the Concord took from him.
+- **GM uses:** the patron and quest-giver for any Sub-Roman British arc. A bitter, principled, drinking man whose enmity with the Concord (over Myrddin) is permanent and useful.
+
+### 6.10 Gildas of Rhuvoniog, the Walking Scribe
+
+- **Real-world source:** [Gildas the Wise](https://en.wikipedia.org/wiki/Gildas), c. 500–570 AD, monk and author of *De Excidio et Conquestu Britanniae* — our principal source for 6th-century Britain.
+- **In setting:** **an infant or very young child** at game-start, born in the British north sometime around 500 AD. Not a wizard at all, but a *Concord-watched* mortal: his **lineage** is on a list. The Yithian Recorder has flagged him as *Subject Three Hundred and Seven* — someone whose future writings will materially shape what later generations *believe* happened in 500 AD.
+- **Status in 500 AD:** newborn / infant.
+- **GM uses:** a sly meta-touch. The book Gildas will one day write is the historical record the *real* GM is reading. Any PC who alters British history is, in a sense, altering Gildas's manuscript — and the Recorder is taking notes on the divergence.
+
+### 6.11 Mug Ruith of Valentia, the Wheel-Druid
+
+- **Real-world source:** [Mug Ruith](https://en.wikipedia.org/wiki/Mug_Ruith), the all-powerful blind druid of Munster in Irish medieval tradition, said to ride a flying wheel (*roth rámach*) and — in late apocryphal versions — to have studied with Simon Magus.
+- **In setting:** a **living legend** of the western Atlantic frontier, well outside any Concord jurisdiction. The Concord knows of him only by report. He is **not** a Concord member, **not** a sworn vassal of either Twilight Court, and **not** a Theophoros. He is a *druí* in the old sense: a Free-Folk-adjacent freelance binder of weather, wheels, and word. Holds court on Valentia Island off the southwest coast of Ireland. Blind in both physical eyes, sighted in the third.
+- **Status in 500 AD:** ancient, irascible, alive. Treats with whichever faction crosses his threshold and pays the toll.
+- **GM uses:** the western wild card. PCs needing an answer no Concord theurgist will give them can sail to Valentia and pay the price. The price is never gold. Mug Ruith's apocryphal connection to Simon Magus is *true* in setting — he was at Sebaste in 60 AD.
+
+### 6.12 Bondos the Reformer (after Bundos / Zaradūšt-i Khurragān)
+
+- **Real-world source:** [Bundos](https://en.wikipedia.org/wiki/Mazdak), the obscure 3rd-century Zoroastrian heresiarch credited by some sources as the **doctrinal predecessor of Mazdak**. A Mazdean magus who taught that the priesthood had deviated from monotheism.
+- **In setting:** the **eldest living Persian magus** in 500 AD — publicly dead for two hundred years, privately preserved by theurgic means in a hidden grove south of Nishapur. Master of the historical **Mazdak** (who is *Bondos's living pupil* at game-start). Bondos is a quiet Concord ally and one of the Mobedān's three living patriarchs, though most of the Mobedān believe him long dead.
+- **Status in 500 AD:** functionally immortal, ancient, frail, sharp.
+- **GM uses:** an Eastern equivalent of Damaskios. The patron NPC for any Persia-set arc. When the Mazdakite movement falls in 528, Bondos is the figure who will quietly survive to teach the next generation.
+
+### 6.13 Kartīr of the Seven Heavens, the Patriarch-Shade
+
+- **Real-world source:** [Kartīr](https://en.wikipedia.org/wiki/Kartir), 3rd-century Sasanian high priest who left an inscription claiming to have ascended through the seven heavens. Architect of early Mazdean orthodoxy.
+- **In setting:** the **patriarch-shade of the Mobedān**. Has been dead for two centuries but his consciousness is preserved in the *Chinvat Lens* — a black-glass apparatus housed at Adur Gushnasp. The current head of the Mobedān consults him on every decision of weight. Kartīr is *not* a benign ghost: he was a persecutor in life and remains one in death, and his preserved consciousness has had two centuries to grow stranger.
+- **Status in 500 AD:** dead but speaking. Effectively the most powerful single mind in Persia.
+- **GM uses:** the Mobedān's dark secret. A Concord embassy to Persia who realizes that *the priests are taking orders from a 200-year-old shade* faces a genuine cosmological problem. Kartīr is *not* tainted by the Outer Ones — but he is exactly the sort of thing the Outer Ones would *love* to corrupt.
+
+---
+
+### How the Twelve Connect
+
+A few important non-relations:
+
+- **The Master of Tyana, Simon of Sebaste, and Mug Ruith are deliberately outside the Concord lineage.** They represent the magical traditions the Concord *failed to absorb* — and the three traditions a clever Brotherhood agent will try to revive against them.
+- **Gildas is not a magus at all.** He is the *reader* of the campaign — the historian whose existence implies that someone, somewhere, will write down what the PCs did.
+- **Boethius, Myrddin, and (estranged) Ambrosius are all downstream of Damaskios.** A campaign that wants a single Concord patron should make Damaskios that patron and weave the others around him.
+- **Bondos and Kartīr are the Eastern shadow of Damaskios and Hypatia respectively** — one a quiet living teacher, one a preserved dead one. Persia is structured to mirror the Mediterranean's magical politics in dark glass.
+
+---
+
+## 7. Key Locations
+
+### 7.1 The Old Seat (Alexandria)
 
 The Concord's spiritual home. Beneath the Serapeum — which the mortal Christians demolished in 391 AD but which the wizards never abandoned — lies a complex of pillared halls warded so heavily that "only a being of godhead may pass." The Old Seat is mostly empty in 500 AD; the working library has moved to the Castrum.
 
-### 6.2 The Castrum of Drepanum (Bithynia)
+### 7.2 The Castrum of Drepanum (Bithynia)
 
 The Concord's current working headquarters. A Roman fort on the Bithynian coast, fronted by a small mortal school. Beneath it: laboratories, the Hall of the Inner Seal, the executioner's chamber, and the vault of the Sword of Damocles.
 
-### 6.3 Arctistor (the Veiled Sphere, Northern Latitudes)
+### 7.3 Arctistor (the Veiled Sphere, Northern Latitudes)
 
 The capital of Long Night. A fortress of black glass and bone-white pillars at the northernmost reach of the inner Veiled Sphere. Accessible through known gates in Iceland, the Carpathians, and the high Caucasus.
 
-### 6.4 The Hall of Beaten Gold (the Veiled Sphere, Mediterranean)
+### 7.4 The Hall of Beaten Gold (the Veiled Sphere, Mediterranean)
 
 The capital of the Burning Crown. A sun-drenched palace of gold and olive-wood on a mountain that does not exist in the mortal world. Accessible through gates in Crete, Etruria, and the Lebanon.
 
-### 6.5 The Cottage of the Crones (the deep Veiled Sphere)
+### 7.5 The Cottage of the Crones (the deep Veiled Sphere)
 
 A single small hut on the borderland between the Veiled Sphere and the Outer Dark. Inhabited by the two unnamed Crones and (sometimes) a third weeping presence. Almost impossible to reach. To visit it intentionally is to have signed something one does not know one signed.
 
-### 6.6 Sarra (the deep Sahara)
+### 7.6 Sarra (the deep Sahara)
 
 The Brotherhood of the Black Pharaoh's temple-city. Buried under a hundred feet of sand. Awakens in cycles of 333 years. Currently quiet — but the cycle ends in 502 AD.
 
-### 6.7 The Vault of St. John (Ephesus)
+### 7.7 The Vault of St. John (Ephesus)
 
 The Theophoroi headquarters and the secure vault holding eleven of the thirty shekels. A working basilica that the Patriarch of Ephesus does not realize houses a hidden third sub-crypt.
 
-### 6.8 The Pillar of the Stylite (a desert in Syria)
+### 7.8 The Pillar of the Stylite (a desert in Syria)
 
 A real pillar-saint stands on the surface. The pillar's base, however, is the front-door of the Stylite order's training-cell. New Stylites spend their first year in a cell beneath a praying ascetic. The ascetic does not know.
 
-### 6.9 The Drowned Library (off the coast of Sidon)
+### 7.9 The Drowned Library (off the coast of Sidon)
 
 A pre-Phoenician underwater complex held by the Esoteric Order of Dagon. Contains tablets older than Sumer. Their contents are not safe to read.
 
-### 6.10 Pnakotus (the Australian outback, far away)
+### 7.10 Pnakotus (the Australian outback, far away)
 
 The chief Yithian archive. Almost impossible for a Mediterranean character to reach in 500 AD. Reserved for end-of-campaign material.
 
 ---
 
-## 7. Timeline of the Hidden World
+## 8. Timeline of the Hidden World
 
 ### Deep Antiquity
 
@@ -796,17 +1025,25 @@ The chief Yithian archive. Almost impossible for a Mediterranean character to re
 
 ### Recorded Antiquity
 
+- **c. 2300 BC** — Seven Sumerian Nephilim attempt to open a portal to the Outer Dark near Eridu. The Court of Long Night closes the breach and posts a phalanx that has held the wall ever since ([§3.4.C](#34c-the-sumerian-breach--and-why-the-long-night-holds-the-wall)).
 - **c. 1500 BC** — Pharaoh Nephren-Ka rules Egypt. Worships Nyarlathotep openly. Buried and his name struck.
-- **c. 700 BC** — Lamia and her daughters flee Hera and settle in Magna Graecia.
+- **c. 1100 BC** — The Second Battle of Mag Tuired. The Burning Crown's Tuatha host shatters the Fomorian land-army; the Esoteric Order of Dagon's Atlantic chapter never recovers ([§3.4.D](#34d-the-burning-crown-and-the-fomorians)).
+- **c. 950 BC** — Solomon ben David binds the demons of the Levant by ring and seal. The Concord's mythic charter ([§6.1](#61-solomon-ben-david-the-first-sealer)).
+- **c. 700 BC** — At Caere in Etruria, Larth Caisra contacts the Outer Dark and is possessed by *The Hunger*. His daughter Lamia Prima binds the parasite to his soul; the House of Lamia descends from the child born of that rite ([§3.4.E](#34e-the-etruscan-king-and-the-birth-of-the-house-of-lamia)).
 - **c. 287 BC** — The Concordat of Hidden Powers is sealed.
 - **c. 250 BC** — Iamblichus the Elder founds the Concord of the Seven Seals at Alexandria.
 - **c. 50 AD** — The thirty shekels are dispersed across the Mediterranean.
+- **60 AD** — Simon of Sebaste refuses Nikodemos's coin in the only known *declined* offering. Dies that year in Rome ([§6.7](#67-simon-of-sebaste-the-discarded-magus)).
+- **c. 96 AD** — Death of the Master of Tyana; his cult begins ([§6.6](#66-the-master-of-tyana-after-apollonios)).
 
 ### Imperial Era
 
 - **47 BC** — The Library of Alexandria burns the first time. The Concord retrieves what it can.
-- **391 AD** — The Serapeum is destroyed; the Concord's Old Seat is sealed.
+- **c. 293 AD** — Kartīr dies; his consciousness is preserved in the Chinvat Lens ([§6.13](#613-kartīr-of-the-seven-heavens-the-patriarch-shade)).
+- **325 AD** — Death of Iamblichos of Chalkis; his theurgic three-tier system becomes Concord canon ([§6.2](#62-iamblichos-of-chalkis-the-last-true-theurgist)).
 - **c. 380 AD** — The Mobedān of Persia accede to the Concordat.
+- **391 AD** — The Serapeum is destroyed; the Concord's Old Seat is sealed.
+- **415 AD** — Hypatia of Alexandria is murdered. The Inner Seal does not intervene ([§6.3](#63-hypatia-of-alexandria-the-martyred-magistra)).
 
 ### Recent Memory (the players' world)
 
@@ -817,61 +1054,68 @@ The chief Yithian archive. Almost impossible for a Mediterranean character to re
 - **493 AD** — Theodoric kills Odoacer; the Ostrogothic Kingdom is established.
 - **496 AD** — Clovis of the Franks converts to Catholic Christianity.
 - **497 AD** — Heliodora, Lady of the Burning Crown, attempts to seize Long Night's seasonal mantle at the summer solstice. Killed by Markos Drepanios at Arctistor with the Burning Crown Knight at his side.
-- **498 AD** — Kavad I of Persia is restored to his throne by Hephthalite armies and embraces the Mazdakites.
+- **497 AD** — A Stylite patrol takes the seven-year-old Myrddin from Dyfed and brings him to the Castrum. Ambrosius Aurelianus has not forgiven the Concord.
+- **498 AD** — Kavad I of Persia is restored to his throne by Hephthalite armies and embraces the Mazdakites — quietly advised by the supposedly-dead Bondos ([§6.12](#612-bondos-the-reformer-after-bundos--zaradūšt-i-khurragān)).
+- **c. 500 AD** — The infant Gildas is born in the British north. The Yithian Recorder logs him as Subject 307 ([§6.10](#610-gildas-of-rhuvoniog-the-walking-scribe)).
 - **500 AD — present** — *Game start.*
 
 ### Foreseen (do not show players)
 
 - **502 AD** — The 333-year cycle at Sarra ends. The Brotherhood awakens its sleeping legions.
+- **523 AD** — Boetius of Ravenna falls from favor at Theodoric's court, accused of magic. The Concord debates intervention.
+- **524 AD** — Boetius is executed at Pavia. The Concord's Western position collapses.
 - **527 AD** — Justinian ascends in Constantinople. Begins the Reconquest.
+- **528 AD** — Mazdak is executed by Kosroes; the Mazdakite movement is destroyed. Bondos survives.
+- **529 AD** — Justinian closes the pagan schools. Damaskios goes into exile in Persia.
 - **541 AD** — The Plague of Justinian.
+- **c. 573 AD** — Myrddin, now grown, witnesses the Battle of Arfderydd and is driven mad into the Caledonian Forest. The boy-apprentice of the Castrum becomes the wild prophet.
 
 ---
 
-## 8. Running the Game (2d12-Friendly)
+## 9. Running the Game (2d12-Friendly)
 
-The setting is system-agnostic but designed to plug cleanly into the **2d12 system**.
-
- Some notes on tuning.
+The setting is system-agnostic but designed to plug cleanly into a **2d12 system**. Some notes on tuning.
 
 ### Suggested Attribute Frame
 
 Six attributes mapping to late-antique conceptions of the person:
-| Attribute | Late Antique Concept | Covers | Attribute|
-|---|---|---|---|
-| **Sōma** | Body | Strength, constitution, endurance | **Vitality** |
-| **Akmē** | Vigor | Agility, reflexes, speed | **Alacrity**|
-| **Nous** | Intellect | Learning, memory, reasoning |**-** |
-| **Pneuma** | Spirit | Willpower, faith, magical potential | **Power** |
-| **Psychē** | Soul | Empathy, charisma, social grace | **Resolve** |
-| **Tychē** | Fortune | Luck, providence, the favor of the gods | **Fortune** |
+
+| Attribute  | Late Antique Concept | Translation| Covers                                  |
+| ---------- | -------------------- | ---------- | --------------------------------------- |
+| Vitality   | **Sōma**             | Body       | Strength, constitution, endurance       |
+| Alacrity   | **Akmē**             | Vigor      | Agility, reflexes, speed                |
+| -          | **Nous**             | Intellect  | Learning, memory, reasoning             |
+| Power      | **Pneuma**           | Spirit     | Willpower, faith, magical potential     |
+| Resolve    | **Psychē**           | Soul       | Empathy, charisma, social grace         |
+| Fortune    | **Tychē**            | Fortune    | Luck, providence, the favor of the gods |
+
 ---
 
-## 9. Adventure Hooks
+## 10. Adventure Hooks
 
-### 9.1 The Vandal Bride (early-tier, urban intrigue)
+### 10.1 The Vandal Bride (early-tier, urban intrigue)
 
 A young Vandal noblewoman in Carthage is to be married to a Roman senator's son. She has confided to her handmaiden that her future husband "smells of jackals." The handmaiden has fled to the Concord chapter. The PCs are sent to investigate. The senator's son is a Hounds-of-Set duke. *But.* The girl has her own secret: she is half-Lamia, of a quietly forgotten cadet line. Whose betrayal will cut deepest?
 
-### 9.2 The Sleeping Coin (mid-tier, exploration)
+### 10.2 The Sleeping Coin (mid-tier, exploration)
 
 A scholar at the school of Nisibis writes a frantic letter to the Castrum. He has translated a Syriac fragment that names the location of a *thirty-first* shekel — one beyond Nikodemos's count, possibly a separate binding by an unknown magus. The shekel is somewhere in the buried temples of the Hatra ruins. So is, it turns out, a cell of the Brotherhood of the Black Pharaoh, who have also read the fragment.
 
-### 9.3 Eudokia's Dreams (mid-tier, mystery)
+### 10.3 Eudokia's Dreams (mid-tier, mystery)
 
 The Recorder — the Yithian-touched child — has begun dreaming of a battle that does not yet exist. She describes Roman soldiers, three Theophoroi, a black wave, and a single name: *Innis Mor.* The Concord must dispatch a team to a remote Irish island. The Esoteric Order of Dagon is establishing a new chapter. The Recorder's dreams are not always accurate. Sometimes they are *prescriptive* rather than predictive.
 
-### 9.4 The Cottage Bargain (late-tier, cosmic)
+### 10.4 The Cottage Bargain (late-tier, cosmic)
 
 A PC has accumulated a debt to the Leannan-Sidhe. She comes to collect — not for herself, but on behalf of her mistress. The PC is to deliver a small wax-sealed jar to the Cottage of the Crones. The Crones will not open it themselves. The PC is the courier. The jar contains a piece of Niamh's *taint* — and the Crones plan to weave it into the fabric of the world to see whether Niamh can be cured *retroactively*. The cost is high. The choice is real.
 
-### 9.5 The 333-Year Eve (end of campaign one)
+### 10.5 The 333-Year Eve (end of campaign one)
 
 It is winter solstice, 501 AD. The 333-year cycle at Sarra ends in six months. Across the Mediterranean, every major faction is repositioning. A Concord agent has defected to the Brotherhood. A Theophoros has died. A Bearer has taken a coin off a battlefield. The PCs are at the center of it. Everything they have done across the campaign comes due now. The Crawling Chaos is moving.
 
 ---
 
-## 10. Glossary
+## 11. Glossary
 
 - ***Apokryphon*** — the Veiled Sphere; the spirit-world adjacent to mortal reality.
 - **Bearer** — a member of the Bearers of the Thirty Tongues; a possessed wielder of a shekel.
@@ -893,6 +1137,7 @@ It is winter solstice, 501 AD. The 333-year cycle at Sarra ends in six months. A
 - ***Nemesion*** — the Outer-Ones taint.
 - **Outer Ones, the** — the Mythos pantheon.
 - ***Paranomoi*** — lawbreaker-wizards.
+- ***Pneuma*** — Spirit; the magic-bearing attribute.
 - **Seven Seals, the** — the seven cosmic prohibitions enforced by the Concord.
 - **Shekel** — one of the thirty cursed silver coins.
 - **Stylite** — a sword-bearing enforcer of the Concord.

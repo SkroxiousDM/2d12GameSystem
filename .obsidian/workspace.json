@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/14-effects-and-conditions.md",
+                "file": "docs/aetas_obscura_setting_bible.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14-effects-and-conditions"
+              "title": "aetas_obscura_setting_bible"
             }
           },
           {
@@ -199,8 +199,10 @@
   },
   "active": "f605774da1f09ca6",
   "lastOpenFiles": [
-    "docs/04-skills.md",
     "docs/14-effects-and-conditions.md",
+    "docs/aetas_obscura_setting_bible.md",
+    "docs/aetas_obscura_setting_bible (3).md",
+    "docs/04-skills.md",
     "docs/09-environment.md",
     "docs/19-exploration-and-travel.md",
     "docs/02-character-creation.md",

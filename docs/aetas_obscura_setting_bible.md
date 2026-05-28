@@ -1111,37 +1111,14 @@ The setting is system-agnostic but designed to plug cleanly into a **2d12 system
 
 Six attributes mapping to late-antique conceptions of the person:
 
-| Attribute | Late Antique Concept | Covers |
-|---|---|---|
-| **Sōma** | Body | Strength, constitution, endurance |
-| **Akmē** | Vigor | Agility, reflexes, speed |
-| **Nous** | Intellect | Learning, memory, reasoning |
-| **Pneuma** | Spirit | Willpower, faith, magical potential |
-| **Psychē** | Soul | Empathy, charisma, social grace |
-| **Tychē** | Fortune | Luck, providence, the favor of the gods |
-
-A roll of 2d12 + attribute against a target number sits naturally in the 6–24 range, with criticals on 22+ and fumbles on 4-. The bell curve gives **late antique fatalism** the right texture — most of the time, you do exactly what you'd expect; occasionally, *Tychē* intervenes.
-
-### A Sanity / Wonder Track
-
-Two tracks rather than one. Inspired by Lovecraft's Sanity but tuned for syncretic late-antique sensibility:
-
-- **Pistis** (Faith) — eroded by encounters with Outer Ones, by Concordat violations witnessed, by atrocity. Restored by ritual, sacrament, mentorship.
-- **Hubris** (Pride) — increases with every great act of magic, every Outer Ones glimpse survived, every faction politically out-maneuvered. High Hubris draws the eye of the Outer Ones.
-
-The campaign loses when Pistis hits zero and Hubris is full. Different paths there reflect different fates.
-
-### Magic Resolution
-
-Three speeds of magic:
-
-| Speed | Roll | Risk | Use |
-|---|---|---|-----|
-| **Cantrip** | 2d12 + *Nous* | Low | Light, minor manipulations |
-| **Operation** (Goeteia) | 2d12 + *Pneuma*, against a target set by the operation's scale | Moderate; failure inflicts *Hubris* | Combat magic, summons, wards |
-| **Theurgy** | Ceremonial — multiple rolls over hours or days; multiple participants | High but contained | Major workings; raising spirits; sealing Gates |
-
-The 2d12 curve makes Theurgy *reliable when prepared* and Goeteia *exciting when desperate* — exactly the right tonal split.
+| Attribute | Late Antique Concept| Translation | Covers |
+|---|---|---|---|
+| Vitality | **Sōma** | Body | Strength, constitution, endurance |
+| Alacrity | **Akmē** | Vigor | Agility, reflexes, speed |
+| - | **Nous** | Intellect | Learning, memory, reasoning |
+| Power | **Pneuma** | Spirit | Willpower, faith, magical potential |
+| Resolve | **Psychē** | Soul | Empathy, charisma, social grace |
+| Fortune | **Tychē** | Fortune | Luck, providence, the favor of the gods |
 
 ---
 
@@ -1184,7 +1161,6 @@ It is winter solstice, 501 AD. The 333-year cycle at Sarra ends in six months. A
 - ***Hoi Exō*** — "those from outside"; the Outer Ones.
 - **Hounds of Set** — the Afro-Levantine vampire civilization.
 - **House of Lamia** — the Mediterranean patrician-vampire society.
-- ***Hubris*** — one of the two campaign tracks; rises with great acts of magic and pride.
 - **Kosmos** — the mortal sphere.
 - **Long Night, Court of** — the "winter" faerie court.
 - ***Magia*** — Zoroastrian fire-and-word magic.
@@ -1192,8 +1168,6 @@ It is winter solstice, 501 AD. The 333-year cycle at Sarra ends in six months. A
 - ***Nemesion*** — the Outer-Ones taint.
 - **Outer Ones, the** — the Mythos pantheon.
 - ***Paranomoi*** — lawbreaker-wizards.
-- ***Pistis*** — Faith; the campaign's "sanity" track.
-- ***Pneuma*** — Spirit; the magic-bearing attribute.
 - **Seven Seals, the** — the seven cosmic prohibitions enforced by the Concord.
 - **Shekel** — one of the thirty cursed silver coins.
 - **Stylite** — a sword-bearing enforcer of the Concord.

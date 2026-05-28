@@ -1,6 +1,6 @@
 # Aetas Obscura
 
-## A Setting Bible for a Late Antiquity Cosmic-Horror Tabletop RPG
+## A Setting Bible for a Late Antique Cosmic-Horror Tabletop RPG
 
 *Year of the Consulship of Patricius and Hypatius — Anno Diocletiani 217 — Anno Domini 500*
 
@@ -15,7 +15,7 @@
 1. [The Premise](#1-the-premise)
 2. [The World in 500 AD](#2-the-world-in-500-ad)
 3. [Cosmology](#3-cosmology)
-   - 3.4 [The Secret History](#the-secret-history-inner-seal-knowledge) — Inner-Seal-only doctrine
+   - 3.4 [The Secret History](#the-secret-history-inner-seal-knowledge) — Inner-Seal-only doctrine: Nephilim as pagan gods, the Watcher-Nephilim war remembered as Titanomachy and Jötunheim, the Eridu breach, the Fomorian war, the Etruscan king and the Hunger
 4. [The Concordat of Hidden Powers](#4-the-concordat-of-hidden-powers) *(this setting's Unseelie Accords)*
 5. [The Factions](#5-the-factions)
    - 5.1 [The Concord of the Seven Seals](#51-the-concord-of-the-seven-seals) — wizards
@@ -27,12 +27,12 @@
    - 5.3 [The Two Twilight Courts](#53-the-two-twilight-courts) — faeries
      - The Court of Long Night
      - The Court of the Burning Crown
-   - 5.4 [The Bearers of the Thirty Tongues](#54-the-bearers-of-the-thirty-tongues) — Devils
+   - 5.4 [The Bearers of the Thirty Tongues](#54-the-bearers-of-the-thirty-tongues) — Denarians
    - 5.5 [The Brotherhood of the Black Pharaoh](#55-the-brotherhood-of-the-black-pharaoh) — Nyarlathotep cult
    - 5.6 [The Esoteric Order of Dagon](#56-the-esoteric-order-of-dagon) — Deep Ones
    - 5.7 [The Yithian Archive](#57-the-yithian-archive) — Great Race
-   - 5.8 [The Theophoroi](#58-the-theophoroi) — God-Bearers (Knights of the Creator)
-6. [Historical Magi of the Age](#6-historical-magi-of-the-age)
+   - 5.8 [The Theophoroi](#58-the-theophoroi) — God-Bearers (Knights)
+6. [Historical Magi of the Age](#6-historical-magi-of-the-age) — historical and pseudo-historical magic-users woven in
 7. [Key Locations](#7-key-locations)
 8. [Timeline of the Hidden World](#8-timeline-of-the-hidden-world)
 9. [Running the Game (2d12-Friendly)](#9-running-the-game-2d12-friendly)
@@ -42,6 +42,8 @@
 ---
 
 ## 1. The Premise
+
+**Aetas Obscura** is a syncretic cosmic-horror setting that asks: *what if the supernatural politics of the modern Dresdenverse had been playing out, openly and bloodily, when Rome fell?*
 
 It is the year 500 AD. The Western Empire died a generation ago. Constantinople rules a brittle east. Persia waits across the Euphrates. New kingdoms of Goths and Franks and Burgundians scrabble over Roman bones. The old gods are dying — but they are not dead, and what is replacing them is not always Christ.
 
@@ -119,8 +121,6 @@ Magic in this setting is **the imposition of a name on reality**. To name a thin
 - **Magia** — Zoroastrian fire-and-word magic practiced by the Persian Mobedān. Distinct from the Concord but mutually respectful.
 - **Hermetica** — Egyptian-Greek synthesis; the science of correspondences. Anyone literate can dabble; few survive.
 - **Hieratica** — priestly magic; works only for the genuinely devout, regardless of which god. The Theophoroi rely on this.
-- **Druidic** —  
-- **Runic** — 
 - **Black Speech** — the language of the Outer Ones. To learn even a syllable is to leave a door open behind your eyes.
 
 The **Seven Seals of Solomon** (see [§5.1](#51-the-concord-of-the-seven-seals)) are the absolute prohibitions of the Concord. They are not "laws" in a mortal sense; they are **architectural features of reality** that the Concord enforces because to break them is to weaken the walls between Sphere and Dark.
@@ -160,6 +160,36 @@ From this hunger comes **the entire pagan pantheon**. Every god with a priesthoo
 - Some have *gone rogue*. Loki is at large in Frisia. Veles is harvesting Slavic worship at a frightening rate. Set has aligned with the Hounds of Set (yes, *that* Set — the Nephil behind the cult, not a metaphor).
 - Jehovah is the only one whose cult is *growing* rather than shrinking, and the Inner Seal is unsettled by this for reasons it does not put in writing.
 
+##### The War Between Fathers and Children (and Why Every Pantheon Remembers It)
+
+The Watchers did not stay quiet after siring the Nephilim. For a span the Concord's archive measures in *centuries* — somewhere in the muddy chronology between the descent on Hermon and the Flood — the **Watchers and their Nephilim children went to war**. The cause was the same cause every Nephilim conflict has had since: *worship*. The Watchers, who had taught humanity sorcery in the first place, expected the cult-yield of the new mortal civilizations to flow upward to *them*. The Nephilim, walking the world in flesh and beautiful in a way the Watchers were not, intercepted it. The hybrid children fed on devotion the fathers had built the altars to receive, and the fathers were slow, distant, and *abstract* in a way that could not compete with a god you could touch.
+
+The war that followed was the **First Great Defection**. The Nephilim — younger, embodied, hungrier, and *many* — overthrew their fathers, severed most of the Watchers' direct channels to the mortal Sphere, and forced the survivors back upward to a station from which they have never since fully descended. A minority of Watchers were destroyed outright. The remainder were *banished*, *bound*, or — in the [*Book of the Watchers*](https://en.wikipedia.org/wiki/Book_of_the_Watchers) tradition the Inner Seal treats as literal — *imprisoned in the valleys beneath the earth in chains of iron until the day of judgment*. The Concord's reading is that those chains are real, they are still in place, and the keys are not kept by anyone the Concord can negotiate with.
+
+This war is the **single most-remembered event in human mythology**, because the Nephilim victors *built their cults on the telling of it*. Every pantheon they founded preserves the same story with the serial numbers filed off:
+
+| Tradition | The Memory |
+|---|---|
+| **Greek** | The **Titanomachy** — the Olympians (younger, beautiful, embodied, *touchable*) overthrow the Titans (elder, vast, primordial, abstract). Kronos eats his own children and is cast into Tartaros: a near-literal description of a Watcher-father attempting to re-consume the worship-flow of his Nephil offspring and being put down for it. *Tartaros itself is one of the holding-pits.* |
+| **Norse / Germanic** | The **Æsir-Vanir-Jötun cycle** — the Aesir young-gods (Nephilim) versus the *Jötnar*, the giants, the *primordial-cold-elder things* who came first. Ymir slain by Odin and his brothers to make the world from his body is a remembered worship-killing: the literal *flensing* of a Watcher-father for the sustenance of his children. The Jötunheim of myth is the same kind of holding-pit as Tartaros — peripheral, walled-off, still-populated by survivors. |
+| **Hurro-Hittite** | The **Kumarbi cycle** — heaven-god Anu unmanned and dethroned by his successor Kumarbi, who is in turn deposed by the storm-god Teshub. A three-generation war that is, in the *Song of Going Forth*, explicitly a generational displacement of older sky-fathers by younger embodied storm-children. |
+| **Babylonian** | The **Enuma Elish** — Marduk, the embodied young god, slaying the primordial chaos-mother **Tiamat** and building the world from her corpse. Tiamat was not a chaos-monster; she was a coalition-Watcher, *the* female Watcher faction, and Marduk's coronation as chief of the Sumerian pantheon was a Nephil-on-Watcher war-trophy ceremony. |
+| **Egyptian** | More compressed and more carefully edited. The displacement of the **Ogdoad** of Hermopolis (eight primordial elemental pairs) by the **Ennead** of Heliopolis (Atum and his descendant gods of weather, soil, and rule) preserves the same generational shift. The Ogdoad were Watchers; the Ennead were the Nephilim who replaced them. |
+| **Celtic / Irish** | A *partial* memory, and an important one. The **Fomorians** of Irish tradition were Deep Ones ([§3.4.D](#34d-the-burning-crown-and-the-fomorians)), but Irish bards conflated two distinct elder-vs-younger conflicts: the Watcher-Nephilim war *and* the later Burning-Crown-versus-Deep-One war. The Tuatha Dé Danann's overthrow of the Fomorians at Mag Tuired was sung, by mortal poets, in the same melodic frame as the *much* older Aesir-Jötun memory carried in by Indo-European migration. The two stories fused. |
+| **Vedic** | The **Devas and the Asuras** — originally siblings, the Asuras the elder, the Devas the younger. By the time of the *Rig Veda* the Asuras are demonized; in the older *Avestan* parallel (the **Ahuras**) they are still the high gods. The split preserves the Watcher-Nephil break almost cleanly: the Mobedān's living patriarchs teach exactly this, that the *daēvas* of the Iranian tradition are the Nephilim and the *ahuras* are the original Watchers, of whom Ahura Mazda is the last one still aligned with the Light. The Indo-Aryan branch reversed the polarity; the Iranian branch did not. |
+| **Hesiodic systematization** | Hesiod's *Theogony* organizes the entire Greek memory into a clean stemma: Chaos → Gaia / Ouranos (Watcher-substrate) → Titans (first-generation Nephilim or proto-Watchers, the Concord disagrees internally on this) → Olympians (the embodied Nephilim who win). It is the single most useful surviving mortal text on the war, which is why the Concord's library at the Castrum holds three independent recensions of it. |
+
+**Why the same story so many times?** Because the Nephilim *needed* it told. A cult thrives on a founding-victory narrative: *our god killed the older, bigger, more frightening thing, and that is why he deserves the altar*. Every Nephil who founded a major cult seeded its priesthood with a Titanomachy-shaped story, varying the names to fit local geography. The cumulative effect, four thousand years later, is that almost every literate civilization on the Concord's map *remembers the Watcher-Nephilim war* — they simply remember it as the war of their own particular Olympians, Aesir, Devas, or Ennead against whatever primordial parent-generation those gods displaced.
+
+**What this means for play in 500 AD:**
+
+- A mortal scholar who reads enough comparative mythology will, eventually, notice the pattern. **Boetius** ([§6.5](#65-boetius-anicius-manlius-severinus-of-rome)) has noticed it. He has not yet realized what it implies. The Inner Seal is watching him closely.
+- The **Mobedān** ([§5 — Mobedān roster](#5-the-factions-of-the-veiled-sphere); also [Bondos §6.12](#612-bondos-the-mazdakite-patriarch) and [Kartīr §6.13](#613-kartir-the-shade-in-the-chinvat-lens)) are the only major faction that *teaches* the war openly to its initiates, under the *daēva*-versus-*ahura* frame. This gives them a doctrinal clarity the Concord envies and distrusts in equal measure.
+- The **bound Watchers** in the valley-pits are, in Concord doctrine, *still alive*. A Brotherhood operation to *find one and free it* is the single most dangerous scenario the Inner Seal contemplates. The Brotherhood would not be freeing an ally; it would be freeing a force that hates Nephilim more than it hates anything else, and that would proceed to feed *on* the Nephil-cults of the Mediterranean. The Inner Seal is not sure whether that would be a catastrophe or a deliverance, and it does not know how to find out without testing.
+- **Christ's intervention** ([§3.4.A](#34a-the-nephilim-architects-of-the-gods) above) is, in Inner Seal exegesis, the *only* event in recorded history that operated from a tier *above* the Watcher-Nephilim conflict — neither a Watcher nor a Nephil, but something at the level the Watchers themselves once obeyed. This is one of the reasons the Theophoroi's swords cut Nephilim and Watchers indifferently.
+
+A player character who somehow assembles this full picture is, by definition, a candidate for the Inner Seal — or a candidate for the [**Sin of the Open Mouth**](#51-the-concord-of-the-seven-seals), depending on what they choose to do with the knowledge.
+
 #### 3.4.B The Bronze-Age Wars of the Sorcerer-Kings
 
 Through most of the Early Bronze Age (roughly **3500–1500 BC**), terrestrial politics were a war between **Nephilim sorcerer-kings** for cult-territory and worship-pool. The Sumerian city-state wars, the Akkadian conquests, the dynastic struggles of the Egyptian Old Kingdom, the *city-killing* between Mari and Ebla, the proto-Etruscan wars in Tyrrhenian Italy — these were not, beneath the surface, mortal conflicts at all. They were Nephilim jockeying for the *attention of the masses*. Every captured city was a captured worship-pool. Every razed temple was a rival's revenue source destroyed.
@@ -172,11 +202,11 @@ The Concord teaches its apprentices that **the Flood was real**, that it ended t
 
 Late in the sorcerer-king era — the Concord dates it to **c. 2300 BC**, during the convulsions that ended the Akkadian Empire — a coalition of seven Sumerian Nephilim attempted the unforgivable: they tried to **open a permanent portal to the Outer Dark**.
 
-Their reasoning, as recovered from the *Stelae of Naram-Sin* (Concord-suppressed), was that *worship of an Outer One* would give them a power-yield several orders of magnitude beyond mortal-cult-feeding. They were correct. They were also catastrophically wrong about the consequences. The portal opened at the edge of the veiled sphere. Something *enormous* began to push through.
+Their reasoning, as recovered from the *Stelae of Naram-Sin* (Concord-suppressed), was that *worship of an Outer One* would give them a power-yield several orders of magnitude beyond mortal-cult-feeding. They were correct. They were also catastrophically wrong about the consequences. The portal opened above the marshes near what is now the buried city of **Eridu**. Something *enormous* began to push through.
 
-The **Court of Long Night** — then in its first generation, the Crone barely a millennium into her vigil — closed the breach by main force. They could not heal it cleanly; the wound was too large. Instead they wove a **standing seal** of fae-flesh and oath across the gap and posted a phalanx of Long Night sidhe at the seam in shifts that have never broken. The seal has held for four thousand three hundred years. **It still bleeds.** A constant majority of the Long Night Court's military strength is committed, *at this moment*, to holding the Eridu breach.
+The **Court of Long Night** — then in its first generation, the Crone barely a millennium into her vigil — closed the breach by main force. They could not heal it cleanly; the wound was too large. Instead they wove a **standing seal** of fae-flesh and oath across the gap and posted a phalanx of Long Night sidhe at the seam in shifts that have never broken. The seal has held for four thousand three hundred years. **It still bleeds.** A constant fraction of the Long Night Court's military strength is committed, *at this moment*, to holding the Eridu breach.
 
-This is **why** the Court of Long Night is so cruel, so calculating, so jealous of mortal bargains: every mortal soul Morrigna can bind, every debt she can buy, every Knight she can break and replace, *feeds the wall*. The Concord knows this. The Theophoroi know this. The Twilight Queens have never published it because the Burning Crown's Court would lose its political leverage if the mortal world understood that **without Long Night, the Eridu breach would have eaten the world three thousand years ago**.
+This is **why** the Court of Long Night is so cruel, so calculating, so jealous of mortal bargains: every mortal soul Morrigna can bind, every debt she can buy, every Knight she can break and replace, *feeds the wall*. The Concord knows this. The Theophoroi know this. The Twilight Queens have never published it because the Burning Crown's Court would lose its political leverage if the mortal world understood that **without Long Night, the Eridu breach would have eaten the Tigris valley three thousand years ago**.
 
 In 500 AD, the seven Sumerian Nephilim who opened the breach are sealed *within* it, mad and screaming, their spirits used as load-bearing material in the wall. The Concord apprentice who learns this learns it last, with the magister's hand on her shoulder.
 
@@ -223,11 +253,11 @@ Markella of Tarentum's curse on the current Domina Maxima ([§5.2.B](#52b-the-ho
 | Faction | Aware of the Secret History? |
 |---|---|
 | **Inner Seal of the Concord** | Yes, all of it. Sworn never to publish. |
-| **Concord at Large** | Knows the Nephilim doctrine in outline; does not know the Eridu breach details or the Lamia origin |
+| **Concord at Large** | Knows the Nephilim doctrine in outline and the Titanomachy-is-the-Watcher-war reading; does not know the Eridu breach details, the Lamia origin, or the location of any bound Watcher |
 | **Stylites** | Told only what they need for the mission |
 | **Twilight Queens** | Know everything except the Lamia origin; Morrigna *suspects* the Lamia anchor |
 | **House of Lamia** | The Domina Maxima knows; Larthia Velthuri does not, *yet* |
-| **Mobedān / Bondos** | Know the Nephilim doctrine and have their own (compatible) Zoroastrian version: the Watchers are *daevas* who chose wrongly |
+| **Mobedān / Bondos** | Know the Nephilim doctrine and the Watcher-Nephilim war; teach the war openly to initiates under the *ahura*-versus-*daēva* frame |
 | **Theophoroi** | Know via their swords; do not speak of it |
 | **Bearers of the Thirty Tongues** | Nikodemos knows; he is a 2nd-century *witness*. |
 | **Brotherhood of the Black Pharaoh** | Knows the Nephilim and Sumerian doctrines; **wants the Eridu breach reopened** |
@@ -802,7 +832,7 @@ The Recorder is renewed every generation through a ritual that the Concord under
 
 A mortal who has been mind-swapped by a Yithian returns weeks, months, or years later with no clear memory of the experience — only dreams of immense cone-bodies, vast windowless libraries, and a sense of having served as an instrument of someone else's research. Recovery is uneven; some never recover.
 
-The  Recorder herself moves under the protection of the Concordat. Insulting her invokes a cosmic-order penalty so severe that even Morrigna treats her with deference.
+The Recorder herself moves under the protection of the Concordat. Insulting her invokes a cosmic-order penalty so severe that even Morrigna treats her with deference.
 
 #### Supernatural Interaction
 
@@ -874,7 +904,7 @@ A dozen real or pseudo-historical magic-users — some flourishing in 500 AD, so
 ### 6.2 Iamblichos of Chalkis, the Last True Theurgist
 
 - **Real-world source:** [*Iamblichus of Chalcis*](https://plato.stanford.edu/archives/fall2025/entries/iamblichus/), c. 245–325 AD, Syrian Neoplatonist and the formalizer of **theurgy** as a magical discipline.
-- **In setting:** a Magister Sigillorum of the Concord roughly 175 years before game-start. He is **not** the Concord's founder (that is the legendary *Iamblichus the Elder* of 250 BC, a deliberate confusion of names the Concord has never bothered to correct). The historical Iamblichus reformed Concord theurgic practice in the early 4th century.
+- **In setting:** a Magister Sigillorum of the Concord roughly 175 years before game-start. He is **not** the Concord's founder (that is the legendary *Iamblichus the Elder* of 250 BC, a deliberate confusion of names the Concord has never bothered to correct). The historical Iamblichus reformed Concord theurgic practice in the early 4th century, distinguishing **Cantrip**, **Operation (Goeteia)**, and **Theurgy** for the first time — the three-tier division you'll find in [§9](#9-running-the-game-2d12-friendly).
 - **Status in 500 AD:** revered ancestor. His writings (*De Mysteriis Aegyptiorum*) are required reading at the Castrum.
 - **GM uses:** *unfinished* Iamblichan rites occasionally surface in caches — each one a campaign in itself.
 
@@ -1021,6 +1051,7 @@ The chief Yithian archive. Almost impossible for a Mediterranean character to re
 
 - **c. 30,000 BC** — Hyperborean civilization flourishes on a polar continent. Worship of Tsathoggua, the Crone, the Voormi Mother.
 - **c. 12,000 BC** — Hyperborea drowns. Survivors carry the seed of what will become the Twilight Courts.
+- **c. 8000–4000 BC (dating disputed; the Concord refuses to commit)** — The **Watcher-Nephilim War** ("First Great Defection"). The Nephilim overthrow their Watcher fathers and seize the worship-flow of nascent humanity. A minority of Watchers are destroyed; the remainder are banished, bound, or imprisoned in the valley-pits beneath the earth. Every later pantheon's founding-myth — the Titanomachy, the slaying of Ymir, the *Enuma Elish*, the Devas-versus-Asuras, the Ennead displacing the Ogdoad — is a mortal-cult retelling of this war ([§3.4.A](#34a-the-nephilim-architects-of-the-gods), *War Between Fathers and Children*).
 - **c. 3500 BC** — First mortal cities. First Yithian mind-swap observations of human civilizations.
 
 ### Recorded Antiquity
@@ -1074,20 +1105,43 @@ The chief Yithian archive. Almost impossible for a Mediterranean character to re
 
 ## 9. Running the Game (2d12-Friendly)
 
-The setting is system-agnostic but designed to plug cleanly into a **2d12 system**. Some notes on tuning.
+The setting is system-agnostic but designed to plug cleanly into a **2d12 system** like yours. Some notes on tuning.
 
 ### Suggested Attribute Frame
 
 Six attributes mapping to late-antique conceptions of the person:
 
-| Attribute  | Late Antique Concept | Translation| Covers                                  |
-| ---------- | -------------------- | ---------- | --------------------------------------- |
-| Vitality   | **Sōma**             | Body       | Strength, constitution, endurance       |
-| Alacrity   | **Akmē**             | Vigor      | Agility, reflexes, speed                |
-| -          | **Nous**             | Intellect  | Learning, memory, reasoning             |
-| Power      | **Pneuma**           | Spirit     | Willpower, faith, magical potential     |
-| Resolve    | **Psychē**           | Soul       | Empathy, charisma, social grace         |
-| Fortune    | **Tychē**            | Fortune    | Luck, providence, the favor of the gods |
+| Attribute | Late Antique Concept | Covers |
+|---|---|---|
+| **Sōma** | Body | Strength, constitution, endurance |
+| **Akmē** | Vigor | Agility, reflexes, speed |
+| **Nous** | Intellect | Learning, memory, reasoning |
+| **Pneuma** | Spirit | Willpower, faith, magical potential |
+| **Psychē** | Soul | Empathy, charisma, social grace |
+| **Tychē** | Fortune | Luck, providence, the favor of the gods |
+
+A roll of 2d12 + attribute against a target number sits naturally in the 6–24 range, with criticals on 22+ and fumbles on 4-. The bell curve gives **late antique fatalism** the right texture — most of the time, you do exactly what you'd expect; occasionally, *Tychē* intervenes.
+
+### A Sanity / Wonder Track
+
+Two tracks rather than one. Inspired by Lovecraft's Sanity but tuned for syncretic late-antique sensibility:
+
+- **Pistis** (Faith) — eroded by encounters with Outer Ones, by Concordat violations witnessed, by atrocity. Restored by ritual, sacrament, mentorship.
+- **Hubris** (Pride) — increases with every great act of magic, every Outer Ones glimpse survived, every faction politically out-maneuvered. High Hubris draws the eye of the Outer Ones.
+
+The campaign loses when Pistis hits zero and Hubris is full. Different paths there reflect different fates.
+
+### Magic Resolution
+
+Three speeds of magic:
+
+| Speed | Roll | Risk | Use |
+|---|---|---|-----|
+| **Cantrip** | 2d12 + *Nous* | Low | Light, minor manipulations |
+| **Operation** (Goeteia) | 2d12 + *Pneuma*, against a target set by the operation's scale | Moderate; failure inflicts *Hubris* | Combat magic, summons, wards |
+| **Theurgy** | Ceremonial — multiple rolls over hours or days; multiple participants | High but contained | Major workings; raising spirits; sealing Gates |
+
+The 2d12 curve makes Theurgy *reliable when prepared* and Goeteia *exciting when desperate* — exactly the right tonal split.
 
 ---
 
@@ -1130,6 +1184,7 @@ It is winter solstice, 501 AD. The 333-year cycle at Sarra ends in six months. A
 - ***Hoi Exō*** — "those from outside"; the Outer Ones.
 - **Hounds of Set** — the Afro-Levantine vampire civilization.
 - **House of Lamia** — the Mediterranean patrician-vampire society.
+- ***Hubris*** — one of the two campaign tracks; rises with great acts of magic and pride.
 - **Kosmos** — the mortal sphere.
 - **Long Night, Court of** — the "winter" faerie court.
 - ***Magia*** — Zoroastrian fire-and-word magic.
@@ -1137,6 +1192,7 @@ It is winter solstice, 501 AD. The 333-year cycle at Sarra ends in six months. A
 - ***Nemesion*** — the Outer-Ones taint.
 - **Outer Ones, the** — the Mythos pantheon.
 - ***Paranomoi*** — lawbreaker-wizards.
+- ***Pistis*** — Faith; the campaign's "sanity" track.
 - ***Pneuma*** — Spirit; the magic-bearing attribute.
 - **Seven Seals, the** — the seven cosmic prohibitions enforced by the Concord.
 - **Shekel** — one of the thirty cursed silver coins.
@@ -1151,3 +1207,52 @@ It is winter solstice, 501 AD. The 333-year cycle at Sarra ends in six months. A
 - **Yithian Archive** — the Great Race's cosmic library.
 
 ---
+
+## Citations & Inspirations
+
+Historical grounding drawn from: the [Sasanian Empire entry](https://en.wikipedia.org/wiki/Sasanian_Empire) (Kavad I's reign and Mazdakite religious context); [Theodoric the Great](https://en.wikipedia.org/wiki/Theodoric_the_Great) and [Ostrogoths](https://en.wikipedia.org/wiki/Ostrogoths) for the Italian political setting; [Barbarian kingdoms](https://en.wikipedia.org/wiki/Barbarian_kingdoms) for the post-Roman west; the [Late Antique Balkans article on theurgy](https://labalkans.org/en/labedia/culture/education/theurgy) for the Iamblichan tradition that grounds the Concord; and [Zurvanism / Zoroastrian heresies](https://factsanddetails.com/central-asia/Central_Asian_Topics/sub8_8b/entry-5869.html) for the religious texture of Persia.
+
+Mythos elements drawn from the [Lovecraft Wiki entries on Nyarlathotep](https://lovecraft.fandom.com/wiki/Nyarlathotep), the [Great Race of Yith](https://lovecraft.fandom.com/wiki/Great_Race_of_Yith), [Nephren-Ka the Black Pharaoh](https://lovecraft.fandom.com/wiki/Nephren-Ka), and the [Hyperborean Cycle](https://en.wikipedia.org/wiki/Hyperborean_cycle) (Clark Ashton Smith's Tsathoggua, Voormis, the Crone).
+
+Structural inspiration from the [Dresden Files Wiki](https://dresdenfiles.fandom.com/wiki/Dresden_Files_Wiki) entries on the White Council, the four Vampire Courts, the Faerie Courts, the Order of the Blackened Denarius, the Unseelie Accords, and the Knights of the Cross.
+
+---
+
+## Appendix: Name Audit (Revision 2)
+
+In the previous draft several NPC names read as too-thin disguises of their Dresden Files originals. All have been replaced with period- and region-accurate equivalents drawn from attested late antique onomastics. For continuity:
+
+| Previous Name | Current Name | Region / Etymology |
+|---|---|---|
+| Lucia Lukianos | **Loukia Theoktiste** | Greek; *Theoktiste* ("God-made") is an attested Byzantine female name |
+| Hilderic the Pale | **Geilamir the Pale** | Vandal royal name (Gelimer, r. 530–534) |
+| Lady Aoura of Sabratha | **Lady Cyria of Sabratha** | Greek-Berber; *Kyria* = "Lady" |
+| Margarita Lae-Faia | **Markella of Tarentum** | Greek; St. Markella was an attested 3rd-century martyr |
+| Larthia Raethia | **Larthia Velthuri** | Etruscan; *Velthur* is a well-attested Etruscan gens |
+| House Raethia | **House Velthuri** | Same |
+| Harricus Dredsenios | **Markos Drepanios of Thessalonike** | Greek; Markos (Mark) was ubiquitous; Drepanios = "of Drepanon," a coastal town in Bithynia and elsewhere |
+| Tomarcus Raethius | **Tarquinius Velthuri** | Roman-Etruscan; Tarquinius is the famous Etruscan-Roman royal name |
+| Bromakos of Salonica | **Hierokles of Thessalonike** | Hierokles of Alexandria was a real 5th-century Neoplatonist; Thessalonike is the period-correct form |
+| Drakul, Lord of the Carpathian Halls | **Bessos the Undying** | Thracian/Dacian; Bessos was a noted Thracian tribal name |
+| Mavraka the Pale | **Anthousa Skoteine** | Greek; Anthousa was an attested Byzantine name, *Skoteine* = "the Shadowed" |
+| Madhirr-Bhrumalaí | **An Chailleach Bhéara** | Old Irish; the Cailleach Bhéara is a genuine ancient Irish crone-figure, attested in early medieval verse |
+| Maeva, Queen of Long Night | **Morrigna** | Old Irish; *An Morrígan* was the war/death goddess of pre-Christian Ireland |
+| Marva, Lady of Long Night | **Niamh of the Pale Hand** | Old Irish; *Niamh* ("brightness") was a name of the daughter of Manannán mac Lir |
+| Lothair the Wolf-Marked | **Edica the Wolf-Marked** | Scirian / Pannonian; Edica was the historical father of Odoacer |
+| Tirana, Queen of Burning Crown | **Aigle** | Greek; *Aigle* ("Radiance") was a daughter of Asclepius and an attested female name |
+| Sarisaena, Lady of Burning Crown | **Hesperia** | Greek/Roman; *Hesperia* ("of the evening/west") is attested |
+| Aurora, daughter of Tirana | **Heliodora** | Greek; *Heliodora* ("gift of the sun") is widely attested |
+| Felix Phokas, Knight of Burning Crown | **Theodoros Sebennytos** | Greek/Egyptian; Theodoros = ubiquitous, Sebennytos = town in the Egyptian Delta |
+| Frostbeard | **Hríðr-Beard** | Old Norse; *hríð* = "snowstorm/blizzard" |
+| Lord-of-the-Court's-Wards / Custodes Domini Curiae | **Wizard's-Wards / Custodes Magi** | Latin |
+| Nikodemos of Archelaon | **Nikodemos of Antiocheia** | Greek; Nikodemos is genuine biblical-era, Antioch grounds him geographically |
+| Andariel, the Whisperer | **Adramelech, the Whisperer** | Akkadian / biblical; Adramelech is an attested ancient demonic figure (2 Kings 17:31) |
+| Polonia Lartessa | **Pollia Larthe** | Roman / Etruscan; *Pollia* is a Roman gens, *Larthe* an Etruscan feminine |
+| Deirdoria Archleona | **Drosis Antiochia** | Greek; St. Drosis of Antioch was a 2nd-century martyr |
+| Quintus Cassiánós | **Quintus Sossianos** | Roman; *Sossianus* is an attested Latin cognomen |
+| Iuvia of Antioch | **Eudokia of Antioch** | Greek; Eudokia was the name of multiple Byzantine empresses |
+| Michael Carpentarius | **Mikhael Tektonas** | Greek; *Tektōn* = "carpenter" — the same calque, but ear-fitting for an Eastern Roman |
+| Sanya the Sklabēnos | **Radomir the Skabēnos** | Slavic; *Radomir* is an attested early Slavic name, and *Skabēnos* is closer to the period Greek for *Sklavenoi* |
+| Shiro Yashimotos | **Vahrām of Bukhara** | Sogdian-Iranian; Vahrām is an attested Sasanian-era Persian name |
+
+Minor titles preserved (the Houndmaster of Carthage, the Seven Masks, the Eldest Gruff, etc.) and demon-tongue names (Salurelet, Lascilea, Rhosanna, Magogos, Akareth, Imarela, Urumvelet, Namshelet) are intentionally Mythos-flavored and have been kept.

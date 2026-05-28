@@ -1,6 +1,6 @@
 # Aetas Obscura
 
-## A Setting Bible for a Late Antique Cosmic-Horror Tabletop RPG
+## A Setting Bible for a Late Antiquity Cosmic-Horror Tabletop RPG
 
 *Year of the Consulship of Patricius and Hypatius — Anno Diocletiani 217 — Anno Domini 500*
 
@@ -15,7 +15,7 @@
 1. [The Premise](#1-the-premise)
 2. [The World in 500 AD](#2-the-world-in-500-ad)
 3. [Cosmology](#3-cosmology)
-   - 3.4 [The Secret History](#the-secret-history-inner-seal-knowledge) — Inner-Seal-only doctrine: Nephilim as pagan gods, the Eridu breach, the Fomorian war, the Etruscan king and the Hunger
+   - 3.4 [The Secret History](#the-secret-history-inner-seal-knowledge) — Inner-Seal-only doctrine
 4. [The Concordat of Hidden Powers](#4-the-concordat-of-hidden-powers) *(this setting's Unseelie Accords)*
 5. [The Factions](#5-the-factions)
    - 5.1 [The Concord of the Seven Seals](#51-the-concord-of-the-seven-seals) — wizards
@@ -27,12 +27,12 @@
    - 5.3 [The Two Twilight Courts](#53-the-two-twilight-courts) — faeries
      - The Court of Long Night
      - The Court of the Burning Crown
-   - 5.4 [The Bearers of the Thirty Tongues](#54-the-bearers-of-the-thirty-tongues) — Denarians
+   - 5.4 [The Bearers of the Thirty Tongues](#54-the-bearers-of-the-thirty-tongues) — Devils
    - 5.5 [The Brotherhood of the Black Pharaoh](#55-the-brotherhood-of-the-black-pharaoh) — Nyarlathotep cult
    - 5.6 [The Esoteric Order of Dagon](#56-the-esoteric-order-of-dagon) — Deep Ones
    - 5.7 [The Yithian Archive](#57-the-yithian-archive) — Great Race
-   - 5.8 [The Theophoroi](#58-the-theophoroi) — God-Bearers (Knights)
-6. [Historical Magi of the Age](#6-historical-magi-of-the-age) — historical and pseudo-historical magic-users woven in
+   - 5.8 [The Theophoroi](#58-the-theophoroi) — God-Bearers (Knights of the Creator)
+6. [Historical Magi of the Age](#6-historical-magi-of-the-age)
 7. [Key Locations](#7-key-locations)
 8. [Timeline of the Hidden World](#8-timeline-of-the-hidden-world)
 9. [Running the Game (2d12-Friendly)](#9-running-the-game-2d12-friendly)
@@ -42,8 +42,6 @@
 ---
 
 ## 1. The Premise
-
-**Aetas Obscura** is a syncretic cosmic-horror setting that asks: *what if the supernatural politics of the modern Dresdenverse had been playing out, openly and bloodily, when Rome fell?*
 
 It is the year 500 AD. The Western Empire died a generation ago. Constantinople rules a brittle east. Persia waits across the Euphrates. New kingdoms of Goths and Franks and Burgundians scrabble over Roman bones. The old gods are dying — but they are not dead, and what is replacing them is not always Christ.
 
@@ -121,6 +119,8 @@ Magic in this setting is **the imposition of a name on reality**. To name a thin
 - **Magia** — Zoroastrian fire-and-word magic practiced by the Persian Mobedān. Distinct from the Concord but mutually respectful.
 - **Hermetica** — Egyptian-Greek synthesis; the science of correspondences. Anyone literate can dabble; few survive.
 - **Hieratica** — priestly magic; works only for the genuinely devout, regardless of which god. The Theophoroi rely on this.
+- **Druidic** —  
+- **Runic** — 
 - **Black Speech** — the language of the Outer Ones. To learn even a syllable is to leave a door open behind your eyes.
 
 The **Seven Seals of Solomon** (see [§5.1](#51-the-concord-of-the-seven-seals)) are the absolute prohibitions of the Concord. They are not "laws" in a mortal sense; they are **architectural features of reality** that the Concord enforces because to break them is to weaken the walls between Sphere and Dark.

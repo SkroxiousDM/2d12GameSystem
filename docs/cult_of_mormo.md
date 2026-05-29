@@ -1,6 +1,6 @@
 THE CULT OF MORMO
 
-"Your terrifying armor makes me dizzy. I begyou, take away that Mormo!"
+"Your terrifying armor makes me dizzy. I beg you, take away that Mormo!"
 
 -Aristophanes, The Acharnians (425 B.C.)
 
@@ -8,9 +8,11 @@ THE CULT OF MORMO
 On its head were huge ears, and it walked on all fours, and changed from one face to another!"
 
 -Erinna, The Distaff (c. 320 B.C.)
+
 "O friend and companion of night, thou who rejoicest in the baying of dogs and spilt blood, who wanderest in the midst of shades among
 the tombs, who longest for blood and bringest terror to mortals, Gorgo, Mormo, thousand-faced moon, look favorably on our sacrifices!"
 -invocation to Hecate/Mormo, recorded by Hippolytus of Rome (c. 220 A.D.)
+
 Mormo is a secret name praised by the inner circles of countless seemingly unrelated
 cults, a name given to a fecund god who is ancient beyond reckoning. She is given
 other names and epithets, such as the Black Goat of the Woods with a Thousand Young,
@@ -21,59 +23,35 @@ few dark corners where they are free to thrive. The cult has spread by latching 
 vulnerable minds and taking root under the guise of more benevolent fertility cults.
 Unlike most fertility gods who are praised and beloved, Mormo is feared and shunned
 outside the circle of her devotees. The growth she fosters is cancerous, predatory, and
-parasitic. Her cult is an adversary of civilization and an insidious cabal that serves to pave
-the way for the Outer Gods.
-At her core, Mormo represents how casily the boundless
-
-The cult's priests are predominantly but not exclusively
-
-fertility of life can be turned upon itself, a trait given
-
-women, in part because many of its adherents are former
-
+parasitic. Her cult is an adversary of civilization and an insidious cabal that serves to pave the way for the Outer Gods.
+At her core, Mormo represents how casily the boundless fertility of life can be turned upon itself, a trait given
 expression in the spread of infection and disease, as well
-
-members of female priesthoods. The cult often arises amid
-
 as among great predatory beasts. Mormo's dominion is
-
-more traditional fertility faiths, and seeks to co-opt, infiltrate,
-
 occupied by all living things that invade the niches once
-
-and eventually absorb and replace them. For this reason,
-
 occupied by others, those that subdue and overwhelm
-
-and given the nature of their beliefs, the Cult of Mormo is an
-
 rival creatures. The wolf that stalks the weak and infirm,
-
-existential threat to these faiths. Wherever the cult is revealed,
-
 as well as the one that succumbs to cancerous growths in
-
-bitter conflict ensues. Organizations in Rome, Agyptus,
-
 its jaws, the deer blinded by flies hatching in its eyes, these
-
-Britannia, and elsewhere have been founded with the primary
-
 are signs of Mormo's passage. She also exists in the fungal
-
-goal of exposing and expunging Mormo's cultists.
-
 forms spreading under the soil of forests, delivering spores
 to break down the flesh of the dead or rotting masses of
+vegetation. She is a god of life at its most violent, but also of decay and rot.
 
+
+
+
+The cult's priests are predominantly but not exclusively
+women, in part because many of its adherents are former
+members of female priesthoods. The cult often arises amid
+more traditional fertility faiths, and seeks to co-opt, infiltrate,
+and eventually absorb and replace them. For this reason,
+and given the nature of their beliefs, the Cult of Mormo is an
+existential threat to these faiths. Wherever the cult is revealed,
+bitter conflict ensues. Organizations in Rome, Agyptus,
+Britannia, and elsewhere have been founded with the primary
+goal of exposing and expunging Mormo's cultists.
 The various branches of the cult recognize a myriad of holy
-
-vegetation. She is a god of life at its most violent, but also of
-
 days, but the vernal equinox is especially significant to all, its
-
-decay and rot.
-
 eve is considered the "Day of Blood."The greatest of sacrificial
 rites are conducted at this time.
 

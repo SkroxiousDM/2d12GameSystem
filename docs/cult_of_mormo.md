@@ -1,0 +1,1230 @@
+THE CULT OF MORMO
+
+"Your terrifying armor makes me dizzy. I begyou, take away that Mormo!"
+
+-Aristophanes, The Acharnians (425 B.C.)
+
+"Oh, what a trembling the Mormo brought us then, when we were little ones! --
+On its head were huge ears, and it walked on all fours, and changed from one face to another!"
+
+-Erinna, The Distaff (c. 320 B.C.)
+"O friend and companion of night, thou who rejoicest in the baying of dogs and spilt blood, who wanderest in the midst of shades among
+the tombs, who longest for blood and bringest terror to mortals, Gorgo, Mormo, thousand-faced moon, look favorably on our sacrifices!"
+-invocation to Hecate/Mormo, recorded by Hippolytus of Rome (c. 220 A.D.)
+Mormo is a secret name praised by the inner circles of countless seemingly unrelated
+cults, a name given to a fecund god who is ancient beyond reckoning. She is given
+other names and epithets, such as the Black Goat of the Woods with a Thousand Young,
+All-Mother, the Mighty Mother, and the Lord of the Woods. Though the numbers of its
+hardened adherents are fortunately few, the Cult of Mormo has a long reach and pervasive
+influence, scattered everywhere humans have gathered, concentrated most heavily in a
+few dark corners where they are free to thrive. The cult has spread by latching onto certain
+vulnerable minds and taking root under the guise of more benevolent fertility cults.
+Unlike most fertility gods who are praised and beloved, Mormo is feared and shunned
+outside the circle of her devotees. The growth she fosters is cancerous, predatory, and
+parasitic. Her cult is an adversary of civilization and an insidious cabal that serves to pave
+the way for the Outer Gods.
+At her core, Mormo represents how casily the boundless
+
+The cult's priests are predominantly but not exclusively
+
+fertility of life can be turned upon itself, a trait given
+
+women, in part because many of its adherents are former
+
+expression in the spread of infection and disease, as well
+
+members of female priesthoods. The cult often arises amid
+
+as among great predatory beasts. Mormo's dominion is
+
+more traditional fertility faiths, and seeks to co-opt, infiltrate,
+
+occupied by all living things that invade the niches once
+
+and eventually absorb and replace them. For this reason,
+
+occupied by others, those that subdue and overwhelm
+
+and given the nature of their beliefs, the Cult of Mormo is an
+
+rival creatures. The wolf that stalks the weak and infirm,
+
+existential threat to these faiths. Wherever the cult is revealed,
+
+as well as the one that succumbs to cancerous growths in
+
+bitter conflict ensues. Organizations in Rome, Agyptus,
+
+its jaws, the deer blinded by flies hatching in its eyes, these
+
+Britannia, and elsewhere have been founded with the primary
+
+are signs of Mormo's passage. She also exists in the fungal
+
+goal of exposing and expunging Mormo's cultists.
+
+forms spreading under the soil of forests, delivering spores
+to break down the flesh of the dead or rotting masses of
+
+The various branches of the cult recognize a myriad of holy
+
+vegetation. She is a god of life at its most violent, but also of
+
+days, but the vernal equinox is especially significant to all, its
+
+decay and rot.
+
+eve is considered the "Day of Blood."The greatest of sacrificial
+rites are conducted at this time.
+
+The Cult of Mormo has no larger hierarchy or central
+leadership, and in each region where it has spread it has
+assumed different shapes. Like outcroppings of toadstools
+or powdery stumps separated by miles, they may share a
+deeper root structure of strands and threads connecting
+them as a single greater being. Each of its smaller cults
+engages in its own rites to praise the god, seeking converts
+and slowly twisting their minds through exposure to the
+deeper lore of Mormo. Her priests serve as willing conduits
+for vast and malevolent alien intelligences seeking to secure
+a foothold on Earth. The branches of the cult are loosely
+aligned and require no organized conspiracy or collusion,
+only a willingness to conduct rites to Mormo and thereby
+summon and nurture her diverse children, a brood of
+. otherworldly horrors.
+
+PRIMEVAL HARBINGER
+
+Stories suggest a cabal of Babylonian magi turned to such rites
+five centuries before the founding of Rome, inspired to seek
+
+Even knowledgeable members of the Cult of Mormo are
+
+Mormo in a time of war and collapse. Their summoning rites
+
+ignorant of the true origins and unfathomable antiquity
+
+resulted in the appearance of a terrifying being they called the
+
+of their god. They say she has existed since the world
+
+Ancient Mother, also referred to as Shuba-Nigur-Urash, words
+
+began, and credit her with the germination of life, but
+
+meaning "Shining Terrible Secret One of Earth" in a now extinct
+
+even this does not encompass the deeper truth. Mormo is
+
+variant of Sumerian. This is thought to have been a corruption
+
+not a terrestrial god but is a name given to a fragment of
+
+of an older name, Mash-Ngi, which means both "Black Goat" and
+
+one of the Outer Gods, a being worshiped on thousands
+
+"Dreams of Omen." The fate of those magi is unclear, though
+
+of worlds across vast cons, persisting wherever life has
+
+aspects of the cultendured in the lands east of Rome.
+
+arisen and thinking beings evolved.
+
+The tie between Mormo and the black goat persisted in
+
+Precursors of this cult lurked at the fringes of the
+
+iconography associated with the god, found on murals and
+
+Hyperborean Empire and served as a harbinger to allow
+
+pottery. Cave inscriptions where the cult sought shelter depict
+
+other cults of the Outer Gods to spread and thrive. Mormo
+
+thrashing beasts with a myriad of thorned branches and writhing
+
+is a facilitator and ally of Nyarlathotep, and has standing
+
+tentacles, possibly an indication that some of these groups
+
+within the unfathomable court of Azathoth. She has
+
+had learned how to summon the god's offspring. The greatest
+
+mated with Yog-Sothoth to give rise to an entire lineage of
+
+branches of the Cult of Mormo, such as the one that would arise
+
+terrifying gods. She is worshiped, under other names, by
+
+in the dark forests of Germania, recovered rites allowing their
+
+many creatures other than humanity, including Mi-Go and
+
+most blessed adherents to become the Reborn, also known as
+
+Elder Things. She exists to facilitate Mythos invasion into
+
+Goats of the Mother. Transfigured to become more goat than
+
+any place where intelligent life arises, given these places
+
+human, these creatures were thought to enter communion
+
+serve as havens for their greatest rivals: the Elder Gods.
+
+with Mormo, their frenzied attacksguidedby the god. Many
+
+The mind of Mormo is impossible to fathom, and she does
+
+worshipers of Mormowould join battle wearing terrifyinggoat
+
+notengage in plotting and scheming as mortals understand
+
+masks and hides to present the appearance of being Reborn even
+
+it. She does not display the same degree of active will as her
+
+when they had notin fact received this blessing.
+
+frequent ally, Nyarlathotep, and she rarely bestows messages
+or prophecies, though dreams of ill-omen are attributed
+
+ANCIENT FERTILITY CULTS
+
+to her. Her power manifests in the spawning of monstrous
+horrors, in the spread of fungal lifeforms and disease, and
+her favor is shown by being spared when her children begin
+
+The existence of Mormo may be viewed as a dark and
+
+to feast. And while Mormo is most often depicted as femnale,
+
+sinister mirror of the countless traditional fertility faiths
+
+the Black Goat exists as an interconnected male aspect of the
+
+existing across these regions, the majority of which have
+
+divinity, one revered by certain offshoots of the cult.
+
+carned a place of deserved respect within their respective
+pantheons. In this era a number of these traditionally
+
+IN LEGEND AND MYTH
+
+matriarchal faiths find themselves under attack or
+subverted by the rise of more patriarchal religions. This
+
+General lore about Mormo is fragmented and difficult to unearth,
+
+tension has been a fertile one for exploitation by the Cult
+
+even byotherwise knowledgeable occultists. The name is most
+
+of Mormo, which has leveraged resentment of patriarchal
+
+commonly associated with Greeklegends about monstrous
+
+structures such as the government of Rome to encourage
+
+winged child-slaying creaturesor demons, sometimes conflated
+
+dissent and resistance. It is worth noting this is an
+
+with the lamia. Thiscreature is associated with Hecate, the god of
+
+exploitative technique that works because of legitimate
+
+magic and ill omen. Some of Hecate's cultists consider Mormo to
+
+and deeply rooted inequalities. The traditional fertility
+
+be a dangerous messenger or spiritual guide who can provide an
+
+cults preyed upon by Mormo's following are still quite
+
+introduction to their patron if appeased with sacrificial blood,
+
+strong in many of these regions and possess their own
+
+preferably that of children or the young.
+
+mystical traditions and powers. They seek to find and root
+
+Legends of Mormo trace back to prehistoric times, passed
+
+out any infiltrators of the Cult of Mormo in their midst.
+
+down by oral tradition. The cult may have its Earthly origins
+
+While cultists of Mormo lurk within the faiths of gods
+
+in neolithic times at the onset of agriculture, when grain
+
+such as Freya, Cybele, Magna Mater, Juno, Ceres, Isis,
+
+stores were infected with ergot, a fungal parasite, inducing
+
+Tuwaret, Hubaba, Diana, and others, this does not
+
+hallucinations connecting receptive minds to this primeval
+
+mean the Cult of Mormo and these other cults are one
+
+divinity. Even the cult's earliest members felt the compulsion to
+
+and the same. It is best to view the Cult of Mormo as
+
+give Mormo blood offerings, the most sacred drawn from their
+
+a dangerous recurring infection afflicting these more
+
+own offspring. By such rites they received visions instructing
+
+traditional faiths.
+
+them in the methods to summon Mormo's diverse progeny.
+
+REGIONAL BRANCHES
+
+In addition to its secret presence in Rome itself, pockets of this
+
+THE CULT IN ROME
+
+cult are spread throughout the Empire, generally operating
+
+Though the broader Cult of Mormo opposes Rome and would
+
+in the shadow of Magna Mater. They are strongest in Gallia,
+
+see it torn down, there exists a strong cabal within the heart
+
+having attached themselves to a number of Gaulic traditions.
+
+of the Empire which works to undermine its authority from
+
+Roman epithets for Mormo include caprea atra nemorum (black)
+
+within. They have deeply infiltrated the Cult of Magna Mater,
+
+dismal/unlucky she-goat of the woods) and caprea furva nemorum
+
+the "Great Mother," which was founded in 205 B.C. to serve the
+
+(obscure/nighted/shadowy/hidden she-goatofthe woods).
+
+Anatolian god Cybele.
+
+Other genitives associated with her include Vespicum, Virgultorum,
+
+The acceptance of Cybele, an outsider god, was prompted by
+
+Frutectorum(of the thickets), to create epithets such asMormo
+
+recommendations of the Sibylline oracle, who anticipated
+
+Vespicum, etc. These names are sometimes employed to describe
+
+this faith would be a useful ally in Rome's second war against
+
+specific manifestations of Mormo or her Foetid Young.
+
+Carthage. This was prompted by a number of dire omens,
+including a shower of meteors, failed harvests, and resulting
+
+THE CULT IN GERMANIA
+
+famine, which were thought to presage defeat at the hands of
+
+T'he Cult of Mormo has deep roots in the forests and hills of
+
+Carthage. The oracle insisted this foe could only be defeated if
+
+Germania, having become a powerful and insidious religious
+
+Rome imported the Great Mother of Phrygian Pessinos.
+
+force. It is strongest in some of these regions where Rome's
+soldiers fear to tread and their influence is felt least. Here the
+
+The god was thought to be embodied in a large piece of meteoric
+
+cult has been at liberty to openly conduct rites and unleash
+
+iron held by the Kingdom of Pergamum, a Roman ally. The
+
+Mormo's monstrous children.
+
+relocation of this relic was confirmed as necessary by the Greek
+Oracle at Delphi, and so this great piece of stone was brought
+
+The cult has long competed for the religious devotion of more
+
+to Rome, together with a number of Phyrgian adherents,
+
+traditional Germanic faithful, and they are actively opposed
+
+including a circle of eunuch priests, called Galli, and other
+
+by priests of Frigg and the triple god. The Cult of Mormo in
+
+fanatic ecstatics. They were met by a carefully selected group of
+
+Germania is an active and festering cancerous growth, one
+
+Roman emissaries, including matrons chosen for their spiritual
+
+that has recently set loose monstrosities on its own tribes and
+
+virtue, to help safeguard the holy relic until the construction
+
+intends to utilize them as part of plans to assail the Roman
+
+of the temple of Magna Mater on the Palatine Hill. They formed
+
+Empire. It hasentered into a dark alliance with the corrupted
+
+the core of a new and powerful Roman cult. The black meteoric
+
+chieftain named Herjan, joining the warriors of his Horde in
+
+stone was used as the face of Cybele's statue at her temple.
+
+their battles. Cult priests have encouraged Herjan's delusions
+
+Hannibal's subsequent defeat and the ending of the famine were
+
+of his own divinity and join in depraved acts against tribes that
+
+thought to be a direct result of the importation of this god.
+
+refuse to submit to his authority.
+
+Cybele was also known as the "Mother of the Mountain," depicted
+
+It is difficult to trace the origins of Mormo in this region, so
+
+as a powerful god of the earth, and was reinvented as a Trojan god
+
+long have they had grip here, though the worship of the god is
+
+of Aeneus'people, tying her closely to the legendary founding of
+
+connected to several Germanic faiths. They have aggressively
+
+Rome. Cults of Cybele became popular across the Empire, engaged
+
+co-opted and infiltrated the worship of the god Perchta or
+
+in a number of festivals and rites in her honor. This includes the
+
+Berchta, a mountain god of the Alps. Her name is thought to
+
+Taurobolium, where the blood of a sacrificed bull was released
+
+mean either "the bright one" or "the hidden one" and worship
+
+to pour through a grate and onto a priestess standing beneath,
+
+of Perchta has often involved the wearing of fearsome goat-like
+
+symbolically feeding the carth in the hope of securing a bountiful
+
+masks. Thought to be a guardian of beasts and a mother of wild
+
+harvest. But among the membership grew a small cabal who
+
+things, the worship of Perchta served as a natural cover for
+
+preserved the lore of Mormo and practiced more profane rites in
+
+those praising Mormo.
+
+secret. They conduct prayers in hidden passages below the temple,
+
+The Cult of Mormo in Germania is only loosely organized, with
+
+where they make periodic sacrifices, including oforphaned
+
+leadership falling to the most ruthless priests who have proven
+
+children and captive slaves, offered to Mormo's Foetid Young.
+
+their capability in opening the way for the Foetid Young. In some
+
+This branch of the Cult of Mormo is more involved in esoteric
+
+areas they need not operate in secret, having overtaken entire
+
+and mystical matters than active clashes against rivals. They seek
+
+villages whose people worship Mormo, though sometimes
+
+to remain hidden and unseen, and to find ways to encourageand
+
+referring to her by the names of another local god. They band
+
+foster other seditious cults dedicated to Mormo's allies among the
+
+togetherwhen the need arises, heeding the strongest of their
+
+Outer Gods. They have at times been responsible for unleashing
+
+number and eager to prove their devotion. When the Cult
+
+localized afflictionsand contagions, scekingto undermine
+
+of Mormo in Germania commits to conflict, they are joined
+
+the peoples' faith in the Roman gods and their priesthoods.
+
+by countless horrors. Packs of Teufelshunde howl and stalk
+
+Adherentsin high positions have sought toleverage their power
+
+alongside them, and they have weaponized fungal spores in
+
+to influence Rome's greatest families, competing with other
+
+glass globes that can transform men into servitors.
+
+religious leaders such as the Vestal Virgins.
+
+The most zealous of Germanic faithful view their human
+bodies as inferior and inadequate. Powerful priests know rites
+
+cult to practice entirely underground and in far greater secrecy
+
+that bring the blessing of transfiguration on those they deem
+
+than is the case in several other regions. For these reasons,
+
+worthy. This practice is not widely done, as it brings with
+
+manifestations of the Foetid Young or other children of Mormo
+
+it certain risks and difficulties, not least being the fact that
+
+are rarely seen here, though such creatures lurk in the halls of
+
+the transfigured are shunned by other tribes, and might be
+
+certain subterranean holdings.
+
+attacked on sight as abominations. Priests who are changed
+sprout tentacles from their faces, grow additional limbs, or see
+
+THE CULT IN BRITANNIA
+
+their hands changed into clawed appendages. The exact nature
+
+Though the cult is not especially strong or prevalent in
+
+of these changes is unpredictable and varied. Other devoted
+
+Britannia, it has a foothold here, particularly among Cybele
+
+adherents might become Reborn as Goats of the Mother,
+
+worshipers at Verulamium and Corbridge near Hadrian's
+
+taking on the appearance of goat-like satyrs, at which point
+
+Wall. Its faithful have been opposed by a number of
+
+speaking human tongues becomes difficult.
+
+traditional religions, including some of Britannia's druids.
+
+Some higher priests of the cult have chosen to remain
+
+However, they have also found inroads and entered into
+
+unchanged so they can continue to serve as emissaries abroad,
+
+pacts with the followers of Drest, a corrupted descendant
+
+visiting other villages and tribes and seeking to recruit
+
+of Atlantis who controls the majority of Britannia's druidic
+
+initiates. They often betray small but concealable signs of the
+
+circles. These two groups have worked together to gain
+
+favor of the god, such as sprouts of wire-like hair, scaly patches
+
+information on and undermine the region's occupying
+
+of skin, or minor seeping wounds that cause no pain but refuse
+
+Romans. Early in the occupation was a significant clash
+
+to heal and close. Other priests are able to communicate with
+
+between Drest's minions supported by the Cult of Mormo
+
+Mi-Go and may be able to coordinate their arrival at certain
+
+against the invading Roman Army, one that resulted in
+
+times and places.
+
+significant losses on both sides. This set the Britannian cult
+back for some years, though it is on the rise again, and Rome's
+
+THE CULT IN AGYPTUS
+
+victory in that prior engagement must be considered pyrrhic,
+
+The faith of Mormo has had a tumultuous time in the lands
+
+having weakened Rome's ability to bring the islands fully
+
+of Ægyptus, having secured a considerable following and
+
+under its control.
+
+a tenacious hold, while also at times being hunted nearly
+
+The cult's priests have been slowly nurturing a number of
+
+to extinction. There are active cults of Isis dedicated to the
+
+beasts sacred to Mormo against the eventuality of unleashing
+
+obliteration of the Cult of Mormo. Despite these efforts, the
+
+them upon their adversaries. The cult of Mormo in Britannia
+
+cult remains, and has retained its secret hold on the faithful of
+
+is particularly adept at mystical rites that foster the spread of
+
+several accepted religions.
+
+disease. They have sought to unleash a great plague upon the
+
+This region may be one of the first areas where the Cult of
+
+Romans in an effort to drive them from the islands entirely.
+
+Mormo became pervasive in the earliest days of agriculture,
+persisting among the farming communities of the carliest
+major dynasties. Remnants of places once thought to be sacred
+to Mormo can be found along the Nile. Secret adherents of
+Mormo have arisen and been fostered in the faiths of several
+prominent gods. This includes the Cult of Tawaret, "She Who
+is Great," the hippopotamus god of fertility and childbirth,
+though the true priests of this faith consider their practices
+abhorrent. They have also recruited among the faithful of
+Nephthys, the "Lady of the Enclosure," who guards the dead
+and is another prominent mother god in this region. The cult
+has made inroads in several other traditional faiths, including
+
+THE CULT IN THE EAST
+
+most prominently Hathor and Tefnut.
+
+Before the Cult of Magna Mater was founded in Rome,
+bringing with it the seeds of the Cult of Mormo, the faith had
+
+The Agyptus Cult of Mormo has at times been in conflict with
+
+already been active in the east. It had become entrenched in
+
+a powerful corrupted Atlantean named Menes who has exerted
+
+the Anatolian Hills and deeply tied to the faith of the Mater
+
+power in the region for thousands of years. Though Menes
+
+Kubileya, "the Mother of Mountains," the god Cybele. Here the
+
+serves Nyarlathotep, ostensibly an ally of Mormo, he is an
+
+worship of Mormo became associated with the inner circle of
+
+unpredictable and dangerous being who is prone to lashing
+
+that god's adherents. They associated the god with the spilling
+
+out at those he views as interfering in his dominion. Priests
+
+ofblood, the sounding of drums below the earth to represent
+
+of Mormo in this region have chosen to act cautiously here,
+
+her heartbeat, and the roaring of lions. Her faithful could
+
+seeking to support Menes indirectly and hoping to eventually
+
+be found in other places, having infiltrated the Hittites who
+
+enter into a similar alliance as the Germanian cult has with
+
+venerated Hubaba, the cults of Diana of Ephesus, and among
+
+Herjan. The nature of the threats in the region have forced the
+
+the self-castrated Atargatis priests of Syria.
+ROLES OF THE FAITHFUL
+
+of additional limbs, feet becoming hooves, the sprouting of
+
+The membership of the Cult of Mormo is very fluid and
+
+tentacles upon the face or back, skin covered in damp moss
+
+organic, with very little structure or hierarchy. Nonetheless
+
+or with a bark-like texture, or the appearance of pustulating
+
+certain adherents occupy distinct roles and undertake tasks
+
+sores. Some have chosen to undertake difficult and painful
+
+related to those roles. Those who are aggressive and ambitious
+
+procedures to minimize physical changes to retain their
+
+can seize power and influence over their peers, particularly
+
+humanity, a decision most common among those serving as
+
+if they show knowledge of the cult's higher rituals and can
+
+emissaries or recruiters. Most, however, consider such marks
+
+display tangible blessings of the god.
+
+to be a blessing and a sign of favor, so bear them proudly.
+
+PRIESTS
+Any adherents within the cult who are capable of wielding
+mystical power are considered priests, a position of greatest
+inclusion and respect. Most of the cult's priests have in their
+past served within the faiths of other more traditional and
+accepted religions, and they frequently retain these roles
+and garb to serve as a cover for their true activities. Even
+if banished from their previous religions, such trappings
+remain, and most of these priests can feign having retained
+their standing to ordinary folk, or if traveling away from
+where they were known.
+When engaged in active rites to Mormo they will put aside
+these remnants and don the garments of their true faith.
+These vary in color and style by region, but generally include
+cowled robes worn in multiple layers, enabling the total
+concealment of the flesh. Full priests initiated into Mormo's
+secrets may wear circlets or crowns of thorned vines, dyed
+carmine. Priests may also dye parts of their face black and
+the rest white, with black bands across the eyes and lips
+being common. Full Mormo raiment may also include small
+bones attached by leather thongs to the robes, carved with
+
+ADHERENTS (THE BROOD)
+
+either decorative inscriptions or sacred sigils. As part of their
+
+The ordinary faithful of Mormo are those who have been
+
+initiation most priests of Mormo bear a brand with the mark
+
+recruited or enticed to worship and serve the god, but
+
+of Mormo somewhere on their flesh, usually in a place that
+
+who do not know her deeper rites or have any mystical
+
+can be casily concealed.
+
+capabilities. They attend rites and perform whatever task
+
+Certain branches of the cult are more organized in regard to
+
+is required of them by the priests. Some may be chosen to
+
+their priesthoods than others, such as those serving among
+
+serve as armed protectors of the cult, arming themselves to
+
+the Magna Mater in Rome. A trio of female priests leads
+
+the best of their capabilities.
+
+this cabal, referred to as the High Daughters, and they are
+
+The Cult of Mormo is an underground faith. Even in areas
+
+traditionally joined by a self-castrated male advisor called the
+
+where it is strongest its members might be subject to
+
+High Galli, originating from the Phyrgian priests of Cybele.
+
+violence from outsiders, so most live double lives and conceal
+
+In Germania, there is a small council of leading priests called
+
+their allegiance. This also means even the lowest adherents
+
+the Hohlenrat which is looked to for direction on larger
+
+are generally fanatical in their devotion and willing to do
+
+matters, such as facilitating their alliance with Herjan and
+
+anything asked of them by their priests. Adherents might
+
+ensuring the protection of their major spawning sites. Even
+
+sometimes be asked to sacrifice their own lives or those of
+
+here, such positions are potentially fluid, subject to being
+
+their family members for the faith, though most sacrifices are
+
+challenged and overthrown.
+
+inflicted on outsiders.
+
+Priests that have successfully completed the most sacred
+
+In addition to armed warriors of the cult, another position
+
+rite, summoning the Foetid Young of Mormo, have been
+
+of esteem is to be chosen to serve the priests in tending the
+
+marked in the process. The more a priest is in communion
+
+cult's beasts. This role requires chosen adherents to bring
+
+with Mormo, the more li kely they are to bear physical
+
+meat and blood to feed the creatures, a perilous task that
+
+transformations. The variety ofsuch marks varies widely,
+
+sometimes results in maiming or death. The beast-tenders
+
+but can include the growth of fur, horns, the transformation
+
+are hardened zealots, some of them quite skilled in the
+
+of hands into claws, eyes becoming goat-like, persistent
+
+handling of wild animals and the use of tools intended for
+
+unhealed open wounds, scaled patches of skin, the growth
+
+that purpose.
+are wandering beggars who travel from place to place
+performing certain entertainments (dancing, playing flutes
+or other instruments, songs, hymns, conducting plays) and
+shaking down attendees for coins. Under this guise they
+are given considerable liberty to travel without greater
+scrutiny and can serve as couriers and messengers between
+isolated pockets of the Roman cult, as well as gathering
+information. They are often employed to test the waters
+for recruitment in new towns and villages, as well as
+investigating the tolerance of local priests of traditional
+faiths. Though they present an innocuous appearance,
+many Metragyrtai are skilled fighters and quite capable of
+defending themselves or priests of the cult when required.
+Some serve as dedicated assassins.
+
+sometimes referred to as the Goats of the Mother, and they
+take on a caprine appearance, growing fur and horns, with
+legs transformed to resemble satyrs. It is possible legends and
+myths of those creatures have their origins in Reborn who
+were active in an cient Greece, where the cult was strong.
+
+her. In this unfettered state they are left in a state of controlled
+madness, subject to intense frenzies of violence. They delight in
+tearing apart their adversaries and bathing in their blood. The
+Reborn are wild and unpredictable, but they recognize Mormo's
+priests and can be cowed and directed by them.
+
+METRAGYRTAI
+
+THE REBORN
+
+Aspecial class of Mormo cultists are the Metragyrtai, or
+
+Though Mormo's priests are thought to receive the greatest
+
+"beggars for the Mother," a role most commonly found
+
+transfiguring gifts of the god, others are sometimes "blessed"
+
+with in the Rom an Empire itself and its holdings. These
+
+and changed to better serve the cult. The Reborn are
+
+Becoming Reborn requires supplicants to be willing to entirely
+surrender themselves and abandon their humanity. They believe
+their new state represents a purer union with Mormo and helps
+them embody the rampant fertility of the wild places sacred to
+COMPOSITION OF A
+
+generally few in number, by employing dupes and fodder. The
+
+CULT OF MORMO SECT
+
+leaders of the cult are loath to put themselves directly at risk,
+
+The various cults of Mormo are disparate and diverse, no two
+
+and when entering into potentially dangerous conflicts they
+
+exactly the same. However, the following can be used as a
+
+will find ways to ensure others take the fall. When fomenting
+
+starting point to represent a single sect of the cult in an area,
+
+dissent in a given town or village, they will try to rile up the
+
+including descriptions of its modes of operation and NPC
+
+regular people such that when violence inevitably ensues, the
+
+templates to be used as adversaries. Sects such as this can
+
+cult's own following are watching from the fringes but not
+
+exist within any community within the areas where the Cult
+
+att acked directly. These leaders use their influence, powers,
+
+of Mormo is active, and they can be found throughout the
+
+and wealth to secure armed protectors, and are quite willing
+
+Roman Empire and Germania in particular.
+
+to sacrifice these peons when the need arises to evade their
+foes. The more entrenched and successful sects have access to
+
+In any sect of Mormo, one of the highest priorities is
+
+powerful and formidable creatures they can release against
+
+preserving the priests and most devoted faithful, who are
+
+greaterthreats.
+
+HIERARCHY
+A typical sect of Mormowill inchide the followingechelons, though it is worth remembering their faith lacks a strict hierarchy andany
+position ofleadership must be seized and defended:
+
+HIGH MATRON(S) OR PATRON(S)(1-3)
+SECT LEADERS
+PRIESTS (2-4 MATRONS/PATRONS)
+THOSE WHO ASSIST THE LEADERS IN
+
+SPEAKER OF THE MOTHER (1-2)
+
+SACRED RITES
+
+PRIEST OR ZEALOT SERVING AS
+
+SHEPHERD OF THE GET(1-2)
+
+RECRUITER AND EMISSARY
+
+ASSIGNED TO OVERSEE BEASTS
+
+PROTECTORS (2-6 PER PRIEST)
+DEDICATED BODYGUARDS
+OF THE PRIESTS
+
+BEASTS(2-12)
+TAMED BUT DANGEROUS
+CREATURES EMPLOYED AS
+
+THE BROOD (20-40)
+
+GUARDIANS, POTENTIALLY
+
+INITIATED ADHERENTS OF THE CULT
+
+INCLUDING HOUNDS, WOLVES,
+
+ENTRUSTED WITH MORMO'S NAME
+
+BEARS, BIRDS OF PREY, OR
+MORE EXOTIC ANIMALS
+DEPENDING ON REGION.
+
+THE RABBLE (10X THE BROOD)
+CIVILIANS MANIPULATED AND AGITATED TO A FERVOR WHO CAN BE DIRECTED
+TO COMMIT VIOLENCE AGAINST TARGETS CHOSEN BY THE SPEAKERS
+
+OPTIONAL ASSETS
+Most sects of the cult rely on ordinary people to fulfill most
+
+Beings such as Teufelshunde can also be summoned and
+
+of their needs, though sect leaders may possess the occult
+
+unleashed, and priests may also have enlisted servitors and
+
+lore and secrets to call on Mormo's supernatural aid when
+
+overlords of Mormo. If engaged in active open conflicts, a sect
+
+pressed. Rites to summon creatures sacred to Mormo are
+
+might also be joined by a number of Die Draugar. In areas
+
+among the most treasured of lore, though such entities are
+
+where the Cult of Mormo is st rongest and can openly engage
+
+usually brought forth only when a specific need arises. The
+
+in worship, such as among the wilder regions of Germania,
+
+greater sects may summon Foetid Young to witness their high
+
+a number of Reborn will fight alongside other protectors to
+
+rituals and can call on them when facing greater adversaries.
+
+safeguard Mormo's priests.
+SAMPLE SECTS
+The following are examples of two divergent sects of the Cult of Mormo, each functioning in a distinct environment and under
+different constraints. These can be relocated and inserted into campaigns in other locations by GMs as the need arises.
+PACT OF DIVA TRIFORMUS
+
+HEADQUARTERS
+
+This is a sizable secret cult that worships Mormo from within
+
+A sizable vineyard just outside of the city serves as the central
+
+the heart of a major Roman city, the trade hub of Ostia. This
+
+gathering place for members of the cult, as part of the Crito
+
+cult is primarily composed of Roman citizens, though it
+
+estate, home to one of the sect's high matrons. Smaller
+
+does include members from other backgrounds and it is
+
+portions of the cult occasionally meet at various temples
+
+cager to expand its reach. Its services to Mormo are disguised
+
+and the markets within the city, particularly when seeking
+
+under the worship of the Diva Triformus, the triple deity,
+
+new recruits. They have access to several secure locations for
+
+which includes Luna (sometimes used to refer to the moon
+
+conducting their more elaborate rites, including a secluded
+
+aspects of Diana or Juno), Proserpina (Persephone to the
+
+grove adjacent to the vineyard.
+
+Greeks), and Hecate. Most of its members lead a double life as
+ordinary citizens, though some live on the fringes as beggars,
+
+SECT COMPOSITION
+
+outcasts, or criminals. The cult includes some who have been
+
+Most of the priests of this sect are women, though there are
+
+enslaved by the city's wealthier families, who must sneak off
+
+men in a few important positions.
+
+to attend services when their duties allow. As a part of this,
+the sect's influence is spread across a wide area as a loose net,
+
+Leadership:High Matron Statilia Crito, High Matron Bruccia
+
+but this also means individual members can be particularly
+
+Decimidia, Speaker Mettius Armenius lulian, Shepherd
+
+vulnerable ifexposed.
+
+Laberia Alecta.
+
+New initiates and junior members are not steeped in the
+
+Priests: The high matrons are assisted by up to a dozen junior
+
+secrets of Mormo until they prove their devotion, at which
+
+priests, currently made up of two men and ten women. Half
+
+point they come to understand that these gods and others
+
+are natives to the city while the rest came from elsewhere. Most
+
+besides are but faces of a greater god so vast she defies easy
+
+were recruited and trained by either one of the high matrons
+
+classification. This sect seeks to bring into its fold any who have
+
+been shunned, dishonored, or cast out of more traditional
+faiths, offering them a new home and purpose. This includes
+sheltering criminals being hunted by the authorities, who may
+be enlisted and armed as protectors.
+
+The lunar cycles are especially significant to this sect and
+the inner circle conducts special rites at various phases of
+the moon, reserving the full moon to attempt to commune
+with Mormo. It is at such times that they may seek to
+summon Mormo's offspring to afflict and curse their
+enemies, including those identified by supplicants who
+come to them seeking revenge on those who have harmed
+them. The priests rely on offerings made by such supplicants
+to fund their more covert activities, including bribing
+local officials to look the other way when needed. Temple
+prostitutes among its members give it a secondary means
+of gathering information and persuasion. This group is
+also capable of raising a sizable mob of dissatisfied citizens
+with in the community on a few days notice, either as a cover
+for other activities or to harass highly placed citizens they
+view as a threat.
+
+This sect keeps a relatively low profile and refrains from
+more openly malevolent rites due to their proximity to
+a major city. Its leaders are in contact with other sects,
+however, including the one in Rome, and could be
+convinced to become more active and join in coordinated
+efforts on short notice.
+
+or the speaker, who sometimes travels abroad on sect business.
+
+Protectors: There are currently twenty zealous and armed
+protectors in the sect, and every priest is accompanied by
+one or two as bodyguards wherever they go. Among the sect's
+protectors is a large Germanic warrior named Berard who is a
+veteran of fighting alongside Herjan's warbands.
+
+Adherents (the Brood): This sect has at least two hundred
+dedicated members in the city, including those willing to
+perform whatever services are asked of them and to put their
+lives on the line if need be. They make regular offerings to the
+priests and eagerly attend rites. They come from all walks of
+life, though the majority are among the lower classes, with only
+a couple of dozen from the city's wealthy elite.
+
+Metragyrtai: This sect includes several dozen "beggars for the
+Mother" who serve as eyes and cars around the city and beyond.
+Small groups of Metragyrtai may be sent to specific towns or
+villages to test the waters for recruitment, and they can also be
+gathered to help protect the priests if the sect is threatened. They
+are led by a man named Lars Verenius, (the "Laughing Beggar")
+who is skilled with a blade, and an able assassin.
+
+Beasts: This sect keeps several vicious but otherwise ordinary
+war hounds at the vineyard and has also tamed several boars.
+During their highest rites the matrons may summon Mormo's
+Foetid Young to witness their devotion and accept offerings,
+and they know how to att ract Teufelshunde if the need arises.
+The sect's leaders have rarely asked for such protectors, or
+entreated Mormo to deliver overlords or servitors to them,
+from a desire to maintain secrecy.
+
+OATHBOUND OF THE NIGHT MOTHER
+This is a more openly ruthless and active sect of the Cult
+of Mormo, found in northern Germania where this faith is
+strongest, well within territories claimed by Herjan. In many
+respects, especially in recent months, they function less like a
+secretive cult and more akin to a tribal warband on campaign.
+
+Ancestors of this sect's members revered the fertilitygod
+Nerthus, who has since been conflated by members of the sect
+with Mormo. Entire families andeven villages in this region have
+given themselves over to the worship of Mormo, whom they
+view with equal measures of terror and love. Unlike in many
+sects, Mormo is a name known to most and is spoken of openly.
+
+The peoples of this sect have been making offerings to Mormo
+for centuries, though they are strengthened and emboldened
+by the recent alliance with Herjan. They are engaged in active
+collaboration and coordination with elements of Herjan's
+warbands, whose leaders have loaned junior warriors to the
+sect to season them and protect their holdings.
+
+SECT COMPOSITION
+This sect includes almost entirely Germanian villagers and
+warriors, though there are some in this region with Celtic
+or other origins. Members of this sect can be of any age and
+gender, given the family connection. Only those with an
+aptitude for combat are selected to become protectors, and
+this sect conducts elaborate trials to select those who would
+be priests, given that this is a highly prestigious role. Women
+outnumber men as ranking priests, but only slightly. This sect
+also includes a number of the Reborn, considered a blessing
+and sign of Mormo's favor, and maintains a number of beasts,
+seeking to be ready for battle at all times.
+
+Leadership: High Matron Cunigund, High Patron Gerbold,
+High Matron Saxa, Speaker Æbbe, Speaker Sigiward, Shepherd
+Odilia, Shepherd Willidrud
+
+Priests: There are currently thirty priests in this sect, some of
+them elders of their respective villages. Initiation as a priest takes
+years of dlose inculcation and learning the mysteries of Mormo
+and is reserved for those thought marked by the god. Investment
+rites include a baptism where the supplicant is doused in a
+caustic bath of bile, amniotic fluids, and offal torn from sacrificial
+offerings of cattle or captive enemies. Most priests of this sect bear
+physical changes or signs, some of them drastic.
+
+Protectors: This sect has over eighty protectors, most of them
+veteran warriors of their tribes who have been chosen by
+the priests. A grizzled and heavily scarred older champion
+named Cyneric the Fevered is the most feared. He is said to
+bear a persistent open wound on his chest that festers with
+plague-pus, which he uses to coat the blade of his axe.
+
+Reborn: The Reborn are somewhat common among this sect,
+viewed as a specially blessed state, and there are up to two dozen
+of them present serving its elder priests as additional protectors.
+
+Adherents (the Brood): The exact number of this sect is
+unknown, but might be as many as eight hundred or more
+dedicated believers. In its region most villages must at least
+feign reverence or face dire consequences, and so its overall
+congregation is several times larger. The priests in this region
+wield tremendous influence over the local tribes and can easily
+whip them into a frenzy.
+
+
+Beasts: The shepherds of this sect have access to all the great
+beasts Mormo spawns, including rabid wild wolves, bears, and
+hounds. When gathered together they can call upon several
+of Mormo's Foetid Young, a pack of Teufelshunde, as well as
+multiple overlords and possibly dozens of servitors. At any
+given time there are several dozen of Die Draugar standing
+guard over their sacred places and these can also be mustered
+by the senior priests to join their battles.
+
+Allies: Upward of fifty of Herjan's warriors can be found
+alongside this sect when it prepares for battle, most of them
+untested, but including a handful of veterans and possibly an
+Einherjar and Walkyr if engaged in a vital struggle.
+
+"Let the Night Mother embrace you. Your flesh is but clay for
+her to shape into something more pleasing to her eyes."
+
+-High Matron Cunegold of the Oathbound

@@ -110,7 +110,7 @@ IN LEGEND AND MYTH
 
 
 General lore about Mormo is fragmented and difficult to unearth,
-even byotherwise knowledgeable occultists. The name is most
+even by otherwise knowledgeable occultists. The name is most
 commonly associated with Greek legends about monstrous
 winged child-slaying creatures or demons, sometimes conflated
 with the lamia. This creature is associated with Hecate, the god of
@@ -138,7 +138,7 @@ meaning "Shining Terrible Secret One of Earth" in a now extinct
 variant of Sumerian. This is thought to have been a corruption
 of an older name, Mash-Ngi, which means both "Black Goat" and
 "Dreams of Omen." The fate of those magi is unclear, though
-aspects of the cultendured in the lands east of Rome.
+aspects of the cult endured in the lands east of Rome.
 The tie between Mormo and the black goat persisted in
 iconography associated with the god, found on murals and
 pottery. Cave inscriptions where the cult sought shelter depict
@@ -186,32 +186,20 @@ traditional faiths.
 REGIONAL BRANCHES
 
 In addition to its secret presence in Rome itself, pockets of this
+cult are spread throughout the Empire, generally operating
+in the shadow of Magna Mater. They are strongest in Gallia,having attached themselves to a number of Gaulic traditions.
+Roman epithets for Mormo include caprea atra nemorum (black dismal/unlucky she-goat of the woods) and caprea furva nemorum (obscure/nighted/shadowy/hidden she-goatofthe woods).
+
+
+
 
 THE CULT IN ROME
 
-cult are spread throughout the Empire, generally operating
-
 Though the broader Cult of Mormo opposes Rome and would
-
-in the shadow of Magna Mater. They are strongest in Gallia,
-
 see it torn down, there exists a strong cabal within the heart
-
-having attached themselves to a number of Gaulic traditions.
-
 of the Empire which works to undermine its authority from
-
-Roman epithets for Mormo include caprea atra nemorum (black)
-
 within. They have deeply infiltrated the Cult of Magna Mater,
-
-dismal/unlucky she-goat of the woods) and caprea furva nemorum
-
-the "Great Mother," which was founded in 205 B.C. to serve the
-
-(obscure/nighted/shadowy/hidden she-goatofthe woods).
-
-Anatolian god Cybele.
+the "Great Mother," which was founded in 205 B.C. to serve the Anatolian god Cybele.
 
 Other genitives associated with her include Vespicum, Virgultorum,
 

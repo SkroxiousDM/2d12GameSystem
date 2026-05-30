@@ -129,10 +129,10 @@ give Mormo blood offerings, the most sacred drawn from their
 own offspring. By such rites they received visions instructing
 them in the methods to summon Mormo's diverse progeny.
 
-Stories suggest a cabal of Babylonian magi turned to such rites
-five centuries before the founding of Rome, inspired to seek
+Stories suggest a cabal of Sumerian magi turned to such rites
+two millennia before the founding of Rome, inspired to seek
 Mormo in a time of war and collapse. Their summoning rites
-resulted in the appearance of a terrifying being they called the
+resulted in the Eridu Breach and the appearance of a terrifying being they called the
 Ancient Mother, also referred to as Shuba-Nigur-Urash, words
 meaning "Shining Terrible Secret One of Earth" in a now extinct
 variant of Sumerian. This is thought to have been a corruption

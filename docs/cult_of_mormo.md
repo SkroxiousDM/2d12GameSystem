@@ -38,7 +38,20 @@ to break down the flesh of the dead or rotting masses of
 vegetation. She is a god of life at its most violent, but also of decay and rot.
 
 
-
+The Cult of Mormo has no larger hierarchy or central
+leadership, and in each region where it has spread it has
+assumed different shapes. Like outcroppings of toadstools
+or powdery stumps separated by miles, they may share a
+deeper root structure of strands and threads connecting
+them as a single greater being. Each of its smaller cults
+engages in its own rites to praise the god, seeking converts
+and slowly twisting their minds through exposure to the
+deeper lore of Mormo. Her priests serve as willing conduits
+for vast and malevolent alien intelligences seeking to secure
+a foothold on Earth. The branches of the cult are loosely
+aligned and require no organized conspiracy or collusion,
+only a willingness to conduct rites to Mormo and thereby
+summon and nurture her diverse children, a brood of otherworldly horrors.
 
 The cult's priests are predominantly but not exclusively
 women, in part because many of its adherents are former
@@ -55,59 +68,29 @@ days, but the vernal equinox is especially significant to all, its
 eve is considered the "Day of Blood."The greatest of sacrificial
 rites are conducted at this time.
 
-The Cult of Mormo has no larger hierarchy or central
-leadership, and in each region where it has spread it has
-assumed different shapes. Like outcroppings of toadstools
-or powdery stumps separated by miles, they may share a
-deeper root structure of strands and threads connecting
-them as a single greater being. Each of its smaller cults
-engages in its own rites to praise the god, seeking converts
-and slowly twisting their minds through exposure to the
-deeper lore of Mormo. Her priests serve as willing conduits
-for vast and malevolent alien intelligences seeking to secure
-a foothold on Earth. The branches of the cult are loosely
-aligned and require no organized conspiracy or collusion,
-only a willingness to conduct rites to Mormo and thereby
-summon and nurture her diverse children, a brood of
-. otherworldly horrors.
-
 PRIMEVAL HARBINGER
+
+Even knowledgeable members of the Cult of Mormo are
+ignorant of the true origins and unfathomable antiquity
+of their god. They say she has existed since the world
+began, and credit her with the germination of life, but
+
 
 Stories suggest a cabal of Babylonian magi turned to such rites
 five centuries before the founding of Rome, inspired to seek
-
-Even knowledgeable members of the Cult of Mormo are
-
 Mormo in a time of war and collapse. Their summoning rites
-
-ignorant of the true origins and unfathomable antiquity
-
 resulted in the appearance of a terrifying being they called the
-
-of their god. They say she has existed since the world
-
 Ancient Mother, also referred to as Shuba-Nigur-Urash, words
-
-began, and credit her with the germination of life, but
-
 meaning "Shining Terrible Secret One of Earth" in a now extinct
-
-even this does not encompass the deeper truth. Mormo is
-
 variant of Sumerian. This is thought to have been a corruption
-
-not a terrestrial god but is a name given to a fragment of
-
 of an older name, Mash-Ngi, which means both "Black Goat" and
-
-one of the Outer Gods, a being worshiped on thousands
-
 "Dreams of Omen." The fate of those magi is unclear, though
-
-of worlds across vast cons, persisting wherever life has
-
 aspects of the cultendured in the lands east of Rome.
 
+even this does not encompass the deeper truth. Mormo is
+not a terrestrial god but is a name given to a fragment of
+one of the Outer Gods, a being worshiped on thousands
+of worlds across vast cons, persisting wherever life has
 arisen and thinking beings evolved.
 
 The tie between Mormo and the black goat persisted in
@@ -145,34 +128,23 @@ many creatures other than humanity, including Mi-Go and
 most blessed adherents to become the Reborn, also known as
 
 Elder Things. She exists to facilitate Mythos invasion into
-
-Goats of the Mother. Transfigured to become more goat than
-
 any place where intelligent life arises, given these places
-
-human, these creatures were thought to enter communion
-
 serve as havens for their greatest rivals: the Elder Gods.
 
-with Mormo, their frenzied attacksguidedby the god. Many
+
+Goats of the Mother. Transfigured to become more goat than
+human, these creatures were thought to enter communion
+with Mormo, their frenzied attacks guided by the god. Many
+worshipers of Mormo would join battle wearing terrifying goat
+masks and hides to present the appearance of being Reborn even
+when they had not in fact received this blessing.
+
 
 The mind of Mormo is impossible to fathom, and she does
-
-worshipers of Mormowould join battle wearing terrifyinggoat
-
-notengage in plotting and scheming as mortals understand
-
-masks and hides to present the appearance of being Reborn even
-
+not engage in plotting and scheming as mortals understand
 it. She does not display the same degree of active will as her
-
-when they had notin fact received this blessing.
-
 frequent ally, Nyarlathotep, and she rarely bestows messages
 or prophecies, though dreams of ill-omen are attributed
-
-ANCIENT FERTILITY CULTS
-
 to her. Her power manifests in the spawning of monstrous
 horrors, in the spread of fungal lifeforms and disease, and
 her favor is shown by being spared when her children begin
@@ -191,6 +163,8 @@ divinity, one revered by certain offshoots of the cult.
 
 carned a place of deserved respect within their respective
 pantheons. In this era a number of these traditionally
+
+ANCIENT FERTILITY CULTS
 
 IN LEGEND AND MYTH
 

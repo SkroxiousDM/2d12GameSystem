@@ -74,7 +74,60 @@ Even knowledgeable members of the Cult of Mormo are
 ignorant of the true origins and unfathomable antiquity
 of their god. They say she has existed since the world
 began, and credit her with the germination of life, but
+even this does not encompass the deeper truth. Mormo is
+not a terrestrial god but is a name given to a fragment of
+one of the Outer Gods, a being worshiped on thousands
+of worlds across vast cons, persisting wherever life has
+arisen and thinking beings evolved.
 
+
+Precursors of this cult lurked at the fringes of the
+Hyperborean Empire and served as a harbinger to allow
+other cults of the Outer Gods to spread and thrive. Mormo
+is a facilitator and ally of Nyarlathotep, and has standing
+within the unfathomable court of Azathoth. She has
+mated with Yog-Sothoth to give rise to an entire lineage of
+terrifying gods. She is worshiped, under other names, by
+many creatures other than humanity, including Mi-Go and
+Elder Things. She exists to facilitate Mythos invasion into
+any place where intelligent life arises, given these places
+serve as havens for their greatest rivals: the Elder Gods.
+
+The mind of Mormo is impossible to fathom, and she does
+not engage in plotting and scheming as mortals understand
+it. She does not display the same degree of active will as her
+frequent ally, Nyarlathotep, and she rarely bestows messages
+or prophecies, though dreams of ill-omen are attributed
+to her. Her power manifests in the spawning of monstrous
+horrors, in the spread of fungal lifeforms and disease, and
+her favor is shown by being spared when her children begin
+to feast. And while Mormo is most often depicted as femnale,
+the Black Goat exists as an interconnected male aspect of the
+divinity, one revered by certain offshoots of the cult.
+
+IN LEGEND AND MYTH
+
+
+
+General lore about Mormo is fragmented and difficult to unearth,
+even byotherwise knowledgeable occultists. The name is most
+commonly associated with Greek legends about monstrous
+winged child-slaying creatures or demons, sometimes conflated
+with the lamia. This creature is associated with Hecate, the god of
+magic and ill omen. Some of Hecate's cultists consider Mormo to
+be a dangerous messenger or spiritual guide who can provide an
+introduction to their patron if appeased with sacrificial blood,
+preferably that of children or the young.
+
+Legends of Mormo trace back to prehistoric times, passed
+down by oral tradition. The cult may have its Earthly origins
+in neolithic times at the onset of agriculture, when grain
+stores were infected with ergot, a fungal parasite, inducing
+hallucinations connecting receptive minds to this primeval
+divinity. Even the cult's earliest members felt the compulsion to
+give Mormo blood offerings, the most sacred drawn from their
+own offspring. By such rites they received visions instructing
+them in the methods to summon Mormo's diverse progeny.
 
 Stories suggest a cabal of Babylonian magi turned to such rites
 five centuries before the founding of Rome, inspired to seek
@@ -86,52 +139,15 @@ variant of Sumerian. This is thought to have been a corruption
 of an older name, Mash-Ngi, which means both "Black Goat" and
 "Dreams of Omen." The fate of those magi is unclear, though
 aspects of the cultendured in the lands east of Rome.
-
-even this does not encompass the deeper truth. Mormo is
-not a terrestrial god but is a name given to a fragment of
-one of the Outer Gods, a being worshiped on thousands
-of worlds across vast cons, persisting wherever life has
-arisen and thinking beings evolved.
-
 The tie between Mormo and the black goat persisted in
-
-Precursors of this cult lurked at the fringes of the
-
 iconography associated with the god, found on murals and
-
-Hyperborean Empire and served as a harbinger to allow
-
 pottery. Cave inscriptions where the cult sought shelter depict
-
-other cults of the Outer Gods to spread and thrive. Mormo
-
 thrashing beasts with a myriad of thorned branches and writhing
-
-is a facilitator and ally of Nyarlathotep, and has standing
-
 tentacles, possibly an indication that some of these groups
-
-within the unfathomable court of Azathoth. She has
-
 had learned how to summon the god's offspring. The greatest
-
-mated with Yog-Sothoth to give rise to an entire lineage of
-
 branches of the Cult of Mormo, such as the one that would arise
-
-terrifying gods. She is worshiped, under other names, by
-
 in the dark forests of Germania, recovered rites allowing their
-
-many creatures other than humanity, including Mi-Go and
-
 most blessed adherents to become the Reborn, also known as
-
-Elder Things. She exists to facilitate Mythos invasion into
-any place where intelligent life arises, given these places
-serve as havens for their greatest rivals: the Elder Gods.
-
-
 Goats of the Mother. Transfigured to become more goat than
 human, these creatures were thought to enter communion
 with Mormo, their frenzied attacks guided by the god. Many
@@ -139,107 +155,33 @@ worshipers of Mormo would join battle wearing terrifying goat
 masks and hides to present the appearance of being Reborn even
 when they had not in fact received this blessing.
 
-
-The mind of Mormo is impossible to fathom, and she does
-not engage in plotting and scheming as mortals understand
-it. She does not display the same degree of active will as her
-frequent ally, Nyarlathotep, and she rarely bestows messages
-or prophecies, though dreams of ill-omen are attributed
-to her. Her power manifests in the spawning of monstrous
-horrors, in the spread of fungal lifeforms and disease, and
-her favor is shown by being spared when her children begin
-
+ANCIENT FERTILITY CULTS
 The existence of Mormo may be viewed as a dark and
-
-to feast. And while Mormo is most often depicted as femnale,
-
 sinister mirror of the countless traditional fertility faiths
-
-the Black Goat exists as an interconnected male aspect of the
-
 existing across these regions, the majority of which have
-
-divinity, one revered by certain offshoots of the cult.
-
 carned a place of deserved respect within their respective
 pantheons. In this era a number of these traditionally
-
-ANCIENT FERTILITY CULTS
-
-IN LEGEND AND MYTH
-
 matriarchal faiths find themselves under attack or
 subverted by the rise of more patriarchal religions. This
-
-General lore about Mormo is fragmented and difficult to unearth,
-
 tension has been a fertile one for exploitation by the Cult
-
-even byotherwise knowledgeable occultists. The name is most
-
 of Mormo, which has leveraged resentment of patriarchal
-
-commonly associated with Greeklegends about monstrous
-
 structures such as the government of Rome to encourage
-
-winged child-slaying creaturesor demons, sometimes conflated
-
 dissent and resistance. It is worth noting this is an
-
-with the lamia. Thiscreature is associated with Hecate, the god of
-
 exploitative technique that works because of legitimate
-
-magic and ill omen. Some of Hecate's cultists consider Mormo to
-
 and deeply rooted inequalities. The traditional fertility
-
-be a dangerous messenger or spiritual guide who can provide an
-
 cults preyed upon by Mormo's following are still quite
-
-introduction to their patron if appeased with sacrificial blood,
-
 strong in many of these regions and possess their own
-
-preferably that of children or the young.
-
 mystical traditions and powers. They seek to find and root
-
-Legends of Mormo trace back to prehistoric times, passed
-
 out any infiltrators of the Cult of Mormo in their midst.
-
-down by oral tradition. The cult may have its Earthly origins
-
 While cultists of Mormo lurk within the faiths of gods
-
-in neolithic times at the onset of agriculture, when grain
-
 such as Freya, Cybele, Magna Mater, Juno, Ceres, Isis,
-
-stores were infected with ergot, a fungal parasite, inducing
-
 Tuwaret, Hubaba, Diana, and others, this does not
-
-hallucinations connecting receptive minds to this primeval
-
 mean the Cult of Mormo and these other cults are one
-
-divinity. Even the cult's earliest members felt the compulsion to
-
 and the same. It is best to view the Cult of Mormo as
-
-give Mormo blood offerings, the most sacred drawn from their
-
 a dangerous recurring infection afflicting these more
-
-own offspring. By such rites they received visions instructing
-
 traditional faiths.
 
-them in the methods to summon Mormo's diverse progeny.
+
 
 REGIONAL BRANCHES
 

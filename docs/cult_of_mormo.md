@@ -218,12 +218,14 @@ Rome. Cults of Cybele became popular across the Empire, engaged
 Taurobolium, where the blood of a sacrificed bull was released
 to pour through a grate and onto a priestess standing beneath,
 symbolically feeding the carth in the hope of securing a bountiful
+symbolically feeding the earth in the hope of securing a bountiful harvest. But among the membership grew a small cabal who preserved the lore of Mormo and practiced more profane rites in
+
 
 In addition to its secret presence in Rome itself, pockets of this
 cult are spread throughout the Empire, generally operating
 in the shadow of Magna Mater. They are strongest in Gallia,having attached themselves to a number of Gaulic traditions.
-Roman epithets for Mormo include caprea atra nemorum (black dismal/unlucky she-goat of the woods) and caprea furva nemorum (obscure/nighted/shadowy/hidden she-goatofthe woods).
 
+Roman epithets for Mormo include caprea atra nemorum (black dismal/unlucky she-goat of the woods) and caprea furva nemorum (obscure/nighted/shadowy/hidden she-goatofthe woods).
 Other genitives associated with her include Vespicum, Virgultorum,
 Frutectorum(of the thickets), to create epithets such as Mormo
 Vespicum, etc. These names are sometimes employed to describe
@@ -259,21 +261,15 @@ mean either "the bright one" or "the hidden one" and worship
 of Perchta has often involved the wearing of fearsome goat-like
 masks. Thought to be a guardian of beasts and a mother of wild
 things, the worship of Perchta served as a natural cover for
-
-preserved the lore of Mormo and practiced more profane rites in
-
 those praising Mormo.
 
+preserved the lore of Mormo and practiced more profane rites in
 secret. They conduct prayers in hidden passages below the temple,
-
-The Cult of Mormo in Germania is only loosely organized, with
-
 where they make periodic sacrifices, including oforphaned
-
-leadership falling to the most ruthless priests who have proven
-
 children and captive slaves, offered to Mormo's Foetid Young.
 
+The Cult of Mormo in Germania is only loosely organized, with
+leadership falling to the most ruthless priests who have proven
 their capability in opening the way for the Foetid Young. In some
 
 This branch of the Cult of Mormo is more involved in esoteric

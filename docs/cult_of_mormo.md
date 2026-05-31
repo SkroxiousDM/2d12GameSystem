@@ -181,10 +181,6 @@ traditional faiths.
 
 ## REGIONAL BRANCHES
 
-In addition to its secret presence in Rome itself, pockets of this
-cult are spread throughout the Empire, generally operating
-in the shadow of Magna Mater. They are strongest in Gallia,having attached themselves to a number of Gaulic traditions.
-Roman epithets for Mormo include caprea atra nemorum (black dismal/unlucky she-goat of the woods) and caprea furva nemorum (obscure/nighted/shadowy/hidden she-goatofthe woods).
 
 ### THE CULT IN ROME
 
@@ -223,6 +219,10 @@ Taurobolium, where the blood of a sacrificed bull was released
 to pour through a grate and onto a priestess standing beneath,
 symbolically feeding the carth in the hope of securing a bountiful
 
+In addition to its secret presence in Rome itself, pockets of this
+cult are spread throughout the Empire, generally operating
+in the shadow of Magna Mater. They are strongest in Gallia,having attached themselves to a number of Gaulic traditions.
+Roman epithets for Mormo include caprea atra nemorum (black dismal/unlucky she-goat of the woods) and caprea furva nemorum (obscure/nighted/shadowy/hidden she-goatofthe woods).
 
 Other genitives associated with her include Vespicum, Virgultorum,
 Frutectorum(of the thickets), to create epithets such as Mormo

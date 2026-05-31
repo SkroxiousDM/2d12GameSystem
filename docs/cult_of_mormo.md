@@ -1,17 +1,17 @@
-THE CULT OF MORMO
+# THE CULT OF MORMO
 
-"Your terrifying armor makes me dizzy. I beg you, take away that Mormo!"
-
--Aristophanes, The Acharnians (425 B.C.)
-
-"Oh, what a trembling the Mormo brought us then, when we were little ones! --
-On its head were huge ears, and it walked on all fours, and changed from one face to another!"
-
--Erinna, The Distaff (c. 320 B.C.)
-
-"O friend and companion of night, thou who rejoicest in the baying of dogs and spilt blood, who wanderest in the midst of shades among
-the tombs, who longest for blood and bringest terror to mortals, Gorgo, Mormo, thousand-faced moon, look favorably on our sacrifices!"
--invocation to Hecate/Mormo, recorded by Hippolytus of Rome (c. 220 A.D.)
+> *"Your terrifying armor makes me dizzy. I beg you, take away that Mormo!"*
+>
+>-Aristophanes, The Acharnians (425 B.C.)
+>
+> *"Oh, what a trembling the Mormo brought us then, when we were little ones! -- On its head were huge ears, and it walked on all fours, and changed from one face to another!"*
+>
+>-Erinna, The Distaff (c. 320 B.C.)
+>
+> *"O friend and companion of night, thou who rejoicest in the baying of dogs and spilt blood, who wanderest in the midst of shades among
+the tombs, who longest for blood and bringest terror to mortals, Gorgo, Mormo, thousand-faced moon, look favorably on our sacrifices!"*
+>
+>-invocation to Hecate/Mormo, recorded by Hippolytus of Rome (c. 220 A.D.)
 
 Mormo is a secret name praised by the inner circles of countless seemingly unrelated
 cults, a name given to a fecund god who is ancient beyond reckoning. She is given
@@ -38,7 +38,7 @@ to break down the flesh of the dead or rotting masses of
 vegetation. She is a god of life at its most violent, but also of decay and rot.
 
 
-The Cult of Mormo has no larger hierarchy or central
+The Cult of Mormo has no large hierarchy or central
 leadership, and in each region where it has spread it has
 assumed different shapes. Like outcroppings of toadstools
 or powdery stumps separated by miles, they may share a
@@ -68,7 +68,7 @@ days, but the vernal equinox is especially significant to all, its
 eve is considered the "Day of Blood."The greatest of sacrificial
 rites are conducted at this time.
 
-PRIMEVAL HARBINGER
+## PRIMEVAL HARBINGER
 
 Even knowledgeable members of the Cult of Mormo are
 ignorant of the true origins and unfathomable antiquity
@@ -77,7 +77,7 @@ began, and credit her with the germination of life, but
 even this does not encompass the deeper truth. Mormo is
 not a terrestrial god but is a name given to a fragment of
 one of the Outer Gods, a being worshiped on thousands
-of worlds across vast cons, persisting wherever life has
+of worlds across vast eons, persisting wherever life has
 arisen and thinking beings evolved.
 
 
@@ -105,9 +105,7 @@ to feast. And while Mormo is most often depicted as femnale,
 the Black Goat exists as an interconnected male aspect of the
 divinity, one revered by certain offshoots of the cult.
 
-IN LEGEND AND MYTH
-
-
+## IN LEGEND AND MYTH
 
 General lore about Mormo is fragmented and difficult to unearth,
 even by otherwise knowledgeable occultists. The name is most
@@ -155,7 +153,7 @@ worshipers of Mormo would join battle wearing terrifying goat
 masks and hides to present the appearance of being Reborn even
 when they had not in fact received this blessing.
 
-ANCIENT FERTILITY CULTS
+## ANCIENT FERTILITY CULTS
 The existence of Mormo may be viewed as a dark and
 sinister mirror of the countless traditional fertility faiths
 existing across these regions, the majority of which have
@@ -181,145 +179,85 @@ and the same. It is best to view the Cult of Mormo as
 a dangerous recurring infection afflicting these more
 traditional faiths.
 
-
-
-REGIONAL BRANCHES
+## REGIONAL BRANCHES
 
 In addition to its secret presence in Rome itself, pockets of this
 cult are spread throughout the Empire, generally operating
 in the shadow of Magna Mater. They are strongest in Gallia,having attached themselves to a number of Gaulic traditions.
 Roman epithets for Mormo include caprea atra nemorum (black dismal/unlucky she-goat of the woods) and caprea furva nemorum (obscure/nighted/shadowy/hidden she-goatofthe woods).
 
-
-
-
-THE CULT IN ROME
+### THE CULT IN ROME
 
 Though the broader Cult of Mormo opposes Rome and would
 see it torn down, there exists a strong cabal within the heart
 of the Empire which works to undermine its authority from
 within. They have deeply infiltrated the Cult of Magna Mater,
 the "Great Mother," which was founded in 205 B.C. to serve the Anatolian god Cybele.
-
-Other genitives associated with her include Vespicum, Virgultorum,
-
 The acceptance of Cybele, an outsider god, was prompted by
-
-Frutectorum(of the thickets), to create epithets such asMormo
-
 recommendations of the Sibylline oracle, who anticipated
-
-Vespicum, etc. These names are sometimes employed to describe
-
 this faith would be a useful ally in Rome's second war against
-
-specific manifestations of Mormo or her Foetid Young.
-
 Carthage. This was prompted by a number of dire omens,
 including a shower of meteors, failed harvests, and resulting
+famine, which were thought to presage defeat at the hands of
+Carthage. The oracle insisted this foe could only be defeated if
+Rome imported the Great Mother of Phrygian Pessinos.
+The god was thought to be embodied in a large piece of meteoric
+iron held by the Kingdom of Pergamum, a Roman ally. The
+relocation of this relic was confirmed as necessary by the Greek
+Oracle at Delphi, and so this great piece of stone was brought
+to Rome, together with a number of Phyrgian adherents,
+including a circle of eunuch priests, called Galli, and other
+fanatic ecstatics. They were met by a carefully selected group of
+Roman emissaries, including matrons chosen for their spiritual
+virtue, to help safeguard the holy relic until the construction
+of the temple of Magna Mater on the Palatine Hill. They formed
+the core of a new and powerful Roman cult. The black meteoric
+stone was used as the face of Cybele's statue at her temple.
+Hannibal's subsequent defeat and the ending of the famine were
+thought to be a direct result of the importation of this god.
+Cybele was also known as the "Mother of the Mountain," depicted
+as a powerful god of the earth, and was reinvented as a Trojan god
+of Aeneus'people, tying her closely to the legendary founding of
+Rome. Cults of Cybele became popular across the Empire, engaged
+Taurobolium, where the blood of a sacrificed bull was released
+to pour through a grate and onto a priestess standing beneath,
+symbolically feeding the carth in the hope of securing a bountiful
+
+
+Other genitives associated with her include Vespicum, Virgultorum,
+Frutectorum(of the thickets), to create epithets such as Mormo
+Vespicum, etc. These names are sometimes employed to describe
+specific manifestations of Mormo or her Foetid Young.
 
 THE CULT IN GERMANIA
 
-famine, which were thought to presage defeat at the hands of
-
 T'he Cult of Mormo has deep roots in the forests and hills of
-
-Carthage. The oracle insisted this foe could only be defeated if
-
 Germania, having become a powerful and insidious religious
-
-Rome imported the Great Mother of Phrygian Pessinos.
-
 force. It is strongest in some of these regions where Rome's
 soldiers fear to tread and their influence is felt least. Here the
-
-The god was thought to be embodied in a large piece of meteoric
-
 cult has been at liberty to openly conduct rites and unleash
-
-iron held by the Kingdom of Pergamum, a Roman ally. The
-
 Mormo's monstrous children.
 
-relocation of this relic was confirmed as necessary by the Greek
-Oracle at Delphi, and so this great piece of stone was brought
-
 The cult has long competed for the religious devotion of more
-
-to Rome, together with a number of Phyrgian adherents,
-
 traditional Germanic faithful, and they are actively opposed
-
-including a circle of eunuch priests, called Galli, and other
-
 by priests of Frigg and the triple god. The Cult of Mormo in
-
-fanatic ecstatics. They were met by a carefully selected group of
-
 Germania is an active and festering cancerous growth, one
-
-Roman emissaries, including matrons chosen for their spiritual
-
 that has recently set loose monstrosities on its own tribes and
-
-virtue, to help safeguard the holy relic until the construction
-
 intends to utilize them as part of plans to assail the Roman
-
-of the temple of Magna Mater on the Palatine Hill. They formed
-
 Empire. It hasentered into a dark alliance with the corrupted
-
-the core of a new and powerful Roman cult. The black meteoric
-
 chieftain named Herjan, joining the warriors of his Horde in
-
-stone was used as the face of Cybele's statue at her temple.
-
 their battles. Cult priests have encouraged Herjan's delusions
-
-Hannibal's subsequent defeat and the ending of the famine were
-
 of his own divinity and join in depraved acts against tribes that
-
-thought to be a direct result of the importation of this god.
-
 refuse to submit to his authority.
 
-Cybele was also known as the "Mother of the Mountain," depicted
-
 It is difficult to trace the origins of Mormo in this region, so
-
-as a powerful god of the earth, and was reinvented as a Trojan god
-
 long have they had grip here, though the worship of the god is
-
-of Aeneus'people, tying her closely to the legendary founding of
-
 connected to several Germanic faiths. They have aggressively
-
-Rome. Cults of Cybele became popular across the Empire, engaged
-
 co-opted and infiltrated the worship of the god Perchta or
-
-in a number of festivals and rites in her honor. This includes the
-
 Berchta, a mountain god of the Alps. Her name is thought to
-
-Taurobolium, where the blood of a sacrificed bull was released
-
 mean either "the bright one" or "the hidden one" and worship
-
-to pour through a grate and onto a priestess standing beneath,
-
 of Perchta has often involved the wearing of fearsome goat-like
-
-symbolically feeding the carth in the hope of securing a bountiful
-
 masks. Thought to be a guardian of beasts and a mother of wild
-
-harvest. But among the membership grew a small cabal who
-
 things, the worship of Perchta served as a natural cover for
 
 preserved the lore of Mormo and practiced more profane rites in

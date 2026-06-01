@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/09-environment.md",
+                "file": "docs/20-gm-toolkit-and-encounter-design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09-environment"
+              "title": "20-gm-toolkit-and-encounter-design"
             }
           },
           {
@@ -197,55 +197,21 @@
       "bases:Create new base": false
     }
   },
-  "floating": {
-    "id": "2fa252c522a44836",
-    "type": "floating",
-    "children": [
-      {
-        "id": "d0989e65bf910dae",
-        "type": "window",
-        "children": [
-          {
-            "id": "e8f609cd4b6cb03d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "26b80a48c19eb4ac",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 677,
-        "y": 20,
-        "width": 1576,
-        "height": 992,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "94fb804b2c694b83",
+  "active": "7b84c46cc61e5997",
   "lastOpenFiles": [
+    "docs/20-gm-toolkit-and-encounter-design.md",
+    "docs/09-environment.md",
     "The-World-of-500AD.md",
-    "Setting/cult_of_mormo_500AD.md",
-    "Setting/aetas_obscura_setting_bible.md",
-    "Setting/98-Adventure_Hooks.md",
-    "Setting",
+    "docs/Setting/cult_of_mormo_500AD.md",
+    "docs/Setting/aetas_obscura_setting_bible.md",
+    "docs/Setting/98-Adventure_Hooks.md",
+    "docs/Setting",
     "docs/aetas_obscura_setting_bible.md",
     "docs/98-Adventure_Hooks.md",
     "docs/17-cults.md",
     "docs/03-attributes.md",
-    "docs/09-environment.md",
     "docs/04-skills.md",
-    "docs/cult_of_mormo.md",
+    "docs/Setting/cult_of_mormo.md",
     "docs/02-character-creation.md",
     "docs/92-derived-stats-reference.md",
     "docs/99_gap_analysis.md",

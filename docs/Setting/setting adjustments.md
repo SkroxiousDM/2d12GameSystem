@@ -3,4 +3,4 @@ connect Court of burning crown to Atlantis
 
 strigoi are as the Strain
 
-Dagon, Hydra, and Cthulhu are Watchers sometimes referred to as Great Old Ones
+Yaldabaoth, Dagon, Hydra, and Cthulhu are Watchers sometimes referred to as Great Old Ones

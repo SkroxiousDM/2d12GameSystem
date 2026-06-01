@@ -180,10 +180,7 @@ a dangerous recurring infection afflicting these more
 traditional faiths.
 
 ## REGIONAL BRANCHES
-
-
 ### THE CULT IN ROME
-
 Though the broader Cult of Mormo opposes Rome and would
 see it torn down, there exists a strong cabal within the heart
 of the Empire which works to undermine its authority from
@@ -243,8 +240,7 @@ Frutectorum(of the thickets), to create epithets such as Mormo
 Vespicum, etc. These names are sometimes employed to describe
 specific manifestations of Mormo or her Foetid Young.
 
-THE CULT IN GERMANIA
-
+### THE CULT IN GERMANIA
 T'he Cult of Mormo has deep roots in the forests and hills of
 Germania, having become a powerful and insidious religious
 force. It is strongest in some of these regions where Rome's
@@ -289,124 +285,37 @@ alongside them, and they have weaponized fungal spores in
 glass globes that can transform men into servitors.
 The most zealous of Germanic faithful view their human
 bodies as inferior and inadequate. Powerful priests know rites
-
-
-cult to practice entirely underground and in far greater secrecy
-
 that bring the blessing of transfiguration on those they deem
-
-than is the case in several other regions. For these reasons,
-
 worthy. This practice is not widely done, as it brings with
-
-manifestations of the Foetid Young or other children of Mormo
-
 it certain risks and difficulties, not least being the fact that
-
-are rarely seen here, though such creatures lurk in the halls of
-
 the transfigured are shunned by other tribes, and might be
-
-certain subterranean holdings.
-
 attacked on sight as abominations. Priests who are changed
 sprout tentacles from their faces, grow additional limbs, or see
-
-THE CULT IN BRITANNIA
-
 their hands changed into clawed appendages. The exact nature
-
-Though the cult is not especially strong or prevalent in
-
 of these changes is unpredictable and varied. Other devoted
-
-Britannia, it has a foothold here, particularly among Cybele
-
 adherents might become Reborn as Goats of the Mother,
-
-worshipers at Verulamium and Corbridge near Hadrian's
-
 taking on the appearance of goat-like satyrs, at which point
-
-Wall. Its faithful have been opposed by a number of
-
 speaking human tongues becomes difficult.
-
-traditional religions, including some of Britannia's druids.
-
 Some higher priests of the cult have chosen to remain
-
-However, they have also found inroads and entered into
-
 unchanged so they can continue to serve as emissaries abroad,
-
-pacts with the followers of Drest, a corrupted descendant
-
 visiting other villages and tribes and seeking to recruit
-
-of Atlantis who controls the majority of Britannia's druidic
-
 initiates. They often betray small but concealable signs of the
-
-circles. These two groups have worked together to gain
-
 favor of the god, such as sprouts of wire-like hair, scaly patches
-
-information on and undermine the region's occupying
-
 of skin, or minor seeping wounds that cause no pain but refuse
-
-Romans. Early in the occupation was a significant clash
-
 to heal and close. Other priests are able to communicate with
-
-between Drest's minions supported by the Cult of Mormo
-
 Mi-Go and may be able to coordinate their arrival at certain
-
-against the invading Roman Army, one that resulted in
-
 times and places.
 
-significant losses on both sides. This set the Britannian cult
-back for some years, though it is on the rise again, and Rome's
-
-THE CULT IN AGYPTUS
-
-victory in that prior engagement must be considered pyrrhic,
-
+### THE CULT IN AGYPTUS
 The faith of Mormo has had a tumultuous time in the lands
-
-having weakened Rome's ability to bring the islands fully
-
 of Ægyptus, having secured a considerable following and
-
-under its control.
-
 a tenacious hold, while also at times being hunted nearly
-
-The cult's priests have been slowly nurturing a number of
-
 to extinction. There are active cults of Isis dedicated to the
-
-beasts sacred to Mormo against the eventuality of unleashing
-
 obliteration of the Cult of Mormo. Despite these efforts, the
-
-them upon their adversaries. The cult of Mormo in Britannia
-
 cult remains, and has retained its secret hold on the faithful of
-
-is particularly adept at mystical rites that foster the spread of
-
 several accepted religions.
 
-disease. They have sought to unleash a great plague upon the
-
 This region may be one of the first areas where the Cult of
-
-Romans in an effort to drive them from the islands entirely.
-
 Mormo became pervasive in the earliest days of agriculture,
 persisting among the farming communities of the carliest
 major dynasties. Remnants of places once thought to be sacred
@@ -419,86 +328,77 @@ abhorrent. They have also recruited among the faithful of
 Nephthys, the "Lady of the Enclosure," who guards the dead
 and is another prominent mother god in this region. The cult
 has made inroads in several other traditional faiths, including
-
-THE CULT IN THE EAST
-
 most prominently Hathor and Tefnut.
 
+The Agyptus Cult of Mormo has at times been in conflict with
+a powerful corrupted Atlantean named Menes who has exerted
+power in the region for thousands of years. Though Menes
+serves Nyarlathotep, ostensibly an ally of Mormo, he is an
+unpredictable and dangerous being who is prone to lashing
+out at those he views as interfering in his dominion. Priests
+of Mormo in this region have chosen to act cautiously here,
+seeking to support Menes indirectly and hoping to eventually
+enter into a similar alliance as the Germanian cult has with
+Herjan. The nature of the threats in the region have forced the
+cult to practice entirely underground and in far greater secrecy
+than is the case in several other regions. For these reasons,
+manifestations of the Foetid Young or other children of Mormo
+are rarely seen here, though such creatures lurk in the halls of
+certain subterranean holdings.
+
+### THE CULT IN BRITANNIA
+Though the cult is not especially strong or prevalent in
+Britannia, it has a foothold here, particularly among Cybele
+worshipers at Verulamium and Corbridge near Hadrian's
+Wall. Its faithful have been opposed by a number of
+traditional religions, including some of Britannia's druids.
+However, they have also found inroads and entered into
+pacts with the followers of Drest, a corrupted descendant
+of Atlantis who controls the majority of Britannia's druidic
+circles. These two groups have worked together to gain
+information on and undermine the region's occupying
+Romans. Early in the occupation was a significant clash
+between Drest's minions supported by the Cult of Mormo
+against the invading Roman Army, one that resulted in
+significant losses on both sides. This set the Britannian cult
+back for some years, though it is on the rise again, and Rome's
+victory in that prior engagement must be considered pyrrhic,
+having weakened Rome's ability to bring the islands fully
+under its control.
+
+The cult's priests have been slowly nurturing a number of
+beasts sacred to Mormo against the eventuality of unleashing
+them upon their adversaries. The cult of Mormo in Britannia
+is particularly adept at mystical rites that foster the spread of
+disease. They have sought to unleash a great plague upon the
+Romans in an effort to drive them from the islands entirely.
+
+### THE CULT IN THE EAST
 Before the Cult of Magna Mater was founded in Rome,
 bringing with it the seeds of the Cult of Mormo, the faith had
-
-The Agyptus Cult of Mormo has at times been in conflict with
-
 already been active in the east. It had become entrenched in
-
-a powerful corrupted Atlantean named Menes who has exerted
-
 the Anatolian Hills and deeply tied to the faith of the Mater
-
-power in the region for thousands of years. Though Menes
-
 Kubileya, "the Mother of Mountains," the god Cybele. Here the
-
-serves Nyarlathotep, ostensibly an ally of Mormo, he is an
-
 worship of Mormo became associated with the inner circle of
-
-unpredictable and dangerous being who is prone to lashing
-
 that god's adherents. They associated the god with the spilling
-
-out at those he views as interfering in his dominion. Priests
-
 ofblood, the sounding of drums below the earth to represent
-
-of Mormo in this region have chosen to act cautiously here,
-
 her heartbeat, and the roaring of lions. Her faithful could
-
-seeking to support Menes indirectly and hoping to eventually
-
 be found in other places, having infiltrated the Hittites who
-
-enter into a similar alliance as the Germanian cult has with
-
 venerated Hubaba, the cults of Diana of Ephesus, and among
-
-Herjan. The nature of the threats in the region have forced the
-
 the self-castrated Atargatis priests of Syria.
-ROLES OF THE FAITHFUL
 
-of additional limbs, feet becoming hooves, the sprouting of
-
+## ROLES OF THE FAITHFUL
 The membership of the Cult of Mormo is very fluid and
-
-tentacles upon the face or back, skin covered in damp moss
-
 organic, with very little structure or hierarchy. Nonetheless
-
-or with a bark-like texture, or the appearance of pustulating
-
 certain adherents occupy distinct roles and undertake tasks
-
-sores. Some have chosen to undertake difficult and painful
-
 related to those roles. Those who are aggressive and ambitious
-
-procedures to minimize physical changes to retain their
-
 can seize power and influence over their peers, particularly
-
-humanity, a decision most common among those serving as
-
 if they show knowledge of the cult's higher rituals and can
-
-emissaries or recruiters. Most, however, consider such marks
-
 display tangible blessings of the god.
 
-to be a blessing and a sign of favor, so bear them proudly.
 
-PRIESTS
+
+### PRIESTS
 Any adherents within the cult who are capable of wielding
 mystical power are considered priests, a position of greatest
 inclusion and respect. Most of the cult's priests have in their
@@ -519,104 +419,72 @@ carmine. Priests may also dye parts of their face black and
 the rest white, with black bands across the eyes and lips
 being common. Full Mormo raiment may also include small
 bones attached by leather thongs to the robes, carved with
-
-ADHERENTS (THE BROOD)
-
 either decorative inscriptions or sacred sigils. As part of their
-
-The ordinary faithful of Mormo are those who have been
-
 initiation most priests of Mormo bear a brand with the mark
-
-recruited or enticed to worship and serve the god, but
-
 of Mormo somewhere on their flesh, usually in a place that
-
-who do not know her deeper rites or have any mystical
-
 can be casily concealed.
 
-capabilities. They attend rites and perform whatever task
-
 Certain branches of the cult are more organized in regard to
-
-is required of them by the priests. Some may be chosen to
-
 their priesthoods than others, such as those serving among
-
-serve as armed protectors of the cult, arming themselves to
-
 the Magna Mater in Rome. A trio of female priests leads
-
-the best of their capabilities.
-
 this cabal, referred to as the High Daughters, and they are
-
-The Cult of Mormo is an underground faith. Even in areas
-
 traditionally joined by a self-castrated male advisor called the
-
-where it is strongest its members might be subject to
-
 High Galli, originating from the Phyrgian priests of Cybele.
-
-violence from outsiders, so most live double lives and conceal
-
 In Germania, there is a small council of leading priests called
-
-their allegiance. This also means even the lowest adherents
-
 the Hohlenrat which is looked to for direction on larger
-
-are generally fanatical in their devotion and willing to do
-
 matters, such as facilitating their alliance with Herjan and
-
-anything asked of them by their priests. Adherents might
-
 ensuring the protection of their major spawning sites. Even
-
-sometimes be asked to sacrifice their own lives or those of
-
 here, such positions are potentially fluid, subject to being
-
-their family members for the faith, though most sacrifices are
-
 challenged and overthrown.
 
+Priests that have successfully completed the most sacred
+rite, summoning the Foetid Young of Mormo, have been
+marked in the process. The more a priest is in communion
+with Mormo, the more likely they are to bear physical
+transformations. The variety ofsuch marks varies widely,
+but can include the growth of fur, horns, the transformation
+of hands into claws, eyes becoming goat-like, persistent
+unhealed open wounds, scaled patches of skin, the growth
+of additional limbs, feet becoming hooves, the sprouting of
+tentacles upon the face or back, skin covered in damp moss
+or with a bark-like texture, or the appearance of pustulating
+sores. Some have chosen to undertake difficult and painful
+procedures to minimize physical changes to retain their
+humanity, a decision most common among those serving as
+emissaries or recruiters. Most, however, consider such marks
+to be a blessing and a sign of favor, so bear them proudly.
+
+### ADHERENTS (THE BROOD)
+The ordinary faithful of Mormo are those who have been
+recruited or enticed to worship and serve the god, but
+who do not know her deeper rites or have any mystical
+capabilities. They attend rites and perform whatever task
+is required of them by the priests. Some may be chosen to
+serve as armed protectors of the cult, arming themselves to
+the best of their capabilities.
+The Cult of Mormo is an underground faith. Even in areas
+where it is strongest its members might be subject to
+violence from outsiders, so most live double lives and conceal
+their allegiance. This also means even the lowest adherents
+are generally fanatical in their devotion and willing to do
+anything asked of them by their priests. Adherents might
+sometimes be asked to sacrifice their own lives or those of
+their family members for the faith, though most sacrifices are
 inflicted on outsiders.
 
-Priests that have successfully completed the most sacred
-
 In addition to armed warriors of the cult, another position
-
-rite, summoning the Foetid Young of Mormo, have been
-
 of esteem is to be chosen to serve the priests in tending the
-
-marked in the process. The more a priest is in communion
-
 cult's beasts. This role requires chosen adherents to bring
-
-with Mormo, the more li kely they are to bear physical
-
 meat and blood to feed the creatures, a perilous task that
-
-transformations. The variety ofsuch marks varies widely,
-
 sometimes results in maiming or death. The beast-tenders
-
-but can include the growth of fur, horns, the transformation
-
 are hardened zealots, some of them quite skilled in the
-
-of hands into claws, eyes becoming goat-like, persistent
-
 handling of wild animals and the use of tools intended for
-
-unhealed open wounds, scaled patches of skin, the growth
-
 that purpose.
+
+### METRAGYRTAI
+Aspecial class of Mormo cultists are the Metragyrtai, or
+"beggars for the Mother," a role most commonly found
+with in the Rom an Empire itself and its holdings. These
 are wandering beggars who travel from place to place
 performing certain entertainments (dancing, playing flutes
 or other instruments, songs, hymns, conducting plays) and
@@ -632,249 +500,116 @@ many Metragyrtai are skilled fighters and quite capable of
 defending themselves or priests of the cult when required.
 Some serve as dedicated assassins.
 
+### THE REBORN
+Though Mormo's priests are thought to receive the greatest
+transfiguring gifts of the god, others are sometimes "blessed"
+and changed to better serve the cult. The Reborn are
 sometimes referred to as the Goats of the Mother, and they
 take on a caprine appearance, growing fur and horns, with
 legs transformed to resemble satyrs. It is possible legends and
 myths of those creatures have their origins in Reborn who
-were active in an cient Greece, where the cult was strong.
+were active in ancient Greece, where the cult was strong.
 
+Becoming Reborn requires supplicants to be willing to entirely
+surrender themselves and abandon their humanity. They believe
+their new state represents a purer union with Mormo and helps
+them embody the rampant fertility of the wild places sacred to
 her. In this unfettered state they are left in a state of controlled
 madness, subject to intense frenzies of violence. They delight in
 tearing apart their adversaries and bathing in their blood. The
 Reborn are wild and unpredictable, but they recognize Mormo's
 priests and can be cowed and directed by them.
 
-METRAGYRTAI
-
-THE REBORN
-
-Aspecial class of Mormo cultists are the Metragyrtai, or
-
-Though Mormo's priests are thought to receive the greatest
-
-"beggars for the Mother," a role most commonly found
-
-transfiguring gifts of the god, others are sometimes "blessed"
-
-with in the Rom an Empire itself and its holdings. These
-
-and changed to better serve the cult. The Reborn are
-
-Becoming Reborn requires supplicants to be willing to entirely
-surrender themselves and abandon their humanity. They believe
-their new state represents a purer union with Mormo and helps
-them embody the rampant fertility of the wild places sacred to
-COMPOSITION OF A
-
-generally few in number, by employing dupes and fodder. The
-
-CULT OF MORMO SECT
-
-leaders of the cult are loath to put themselves directly at risk,
-
+## COMPOSITION OF A CULT OF MORMO SECT
 The various cults of Mormo are disparate and diverse, no two
-
-and when entering into potentially dangerous conflicts they
-
 exactly the same. However, the following can be used as a
-
-will find ways to ensure others take the fall. When fomenting
-
 starting point to represent a single sect of the cult in an area,
-
-dissent in a given town or village, they will try to rile up the
-
 including descriptions of its modes of operation and NPC
-
-regular people such that when violence inevitably ensues, the
-
 templates to be used as adversaries. Sects such as this can
-
-cult's own following are watching from the fringes but not
-
 exist within any community within the areas where the Cult
-
-att acked directly. These leaders use their influence, powers,
-
 of Mormo is active, and they can be found throughout the
-
-and wealth to secure armed protectors, and are quite willing
-
 Roman Empire and Germania in particular.
 
+In any sect of Mormo, one of the highest priorities is
+preserving the priests and most devoted faithful, who are
+generally few in number, by employing dupes and fodder. The
+leaders of the cult are loath to put themselves directly at risk,
+and when entering into potentially dangerous conflicts they
+will find ways to ensure others take the fall. When fomenting
+dissent in a given town or village, they will try to rile up the
+regular people such that when violence inevitably ensues, the
+cult's own following are watching from the fringes but not
+att acked directly. These leaders use their influence, powers,
+and wealth to secure armed protectors, and are quite willing
 to sacrifice these peons when the need arises to evade their
 foes. The more entrenched and successful sects have access to
-
-In any sect of Mormo, one of the highest priorities is
-
 powerful and formidable creatures they can release against
-
-preserving the priests and most devoted faithful, who are
-
 greaterthreats.
 
-HIERARCHY
-A typical sect of Mormowill inchide the followingechelons, though it is worth remembering their faith lacks a strict hierarchy andany
-position ofleadership must be seized and defended:
-
-HIGH MATRON(S) OR PATRON(S)(1-3)
+### HIERARCHY
+A typical sect of Mormowill inchide the following echelons, though it is worth remembering their faith lacks a strict hierarchy and any position of leadership must be seized and defended:
+##### HIGH MATRON(S) OR PATRON(S)(1-3)
 SECT LEADERS
-PRIESTS (2-4 MATRONS/PATRONS)
-THOSE WHO ASSIST THE LEADERS IN
-
-SPEAKER OF THE MOTHER (1-2)
-
-SACRED RITES
-
-PRIEST OR ZEALOT SERVING AS
-
-SHEPHERD OF THE GET(1-2)
-
-RECRUITER AND EMISSARY
-
+##### PRIESTS (2-4 MATRONS/PATRONS)
+THOSE WHO ASSIST THE LEADERS IN SACRED RITES
+##### SPEAKER OF THE MOTHER (1-2)
+PRIEST OR ZEALOT SERVING AS RECRUITER AND EMISSARY
+##### SHEPHERD OF THE GET(1-2)
 ASSIGNED TO OVERSEE BEASTS
-
-PROTECTORS (2-6 PER PRIEST)
-DEDICATED BODYGUARDS
-OF THE PRIESTS
-
-BEASTS(2-12)
-TAMED BUT DANGEROUS
-CREATURES EMPLOYED AS
-
-THE BROOD (20-40)
-
-GUARDIANS, POTENTIALLY
-
-INITIATED ADHERENTS OF THE CULT
-
-INCLUDING HOUNDS, WOLVES,
-
-ENTRUSTED WITH MORMO'S NAME
-
-BEARS, BIRDS OF PREY, OR
-MORE EXOTIC ANIMALS
-DEPENDING ON REGION.
-
-THE RABBLE (10X THE BROOD)
+##### PROTECTORS (2-6 PER PRIEST)
+DEDICATED BODYGUARDS OF THE PRIESTS
+##### BEASTS(2-12)
+TAMED BUT DANGEROUSCREATURES EMPLOYED AS GUARDIANS, POTENTIALLY INCLUDING HOUNDS, WOLVES,BEARS, BIRDS OF PREY, OR MORE EXOTIC ANIMALS DEPENDING ON REGION.
+##### THE BROOD (20-40)
+INITIATED ADHERENTS OF THE CULT ENTRUSTED WITH MORMO'S NAME
+##### THE RABBLE (10X THE BROOD)
 CIVILIANS MANIPULATED AND AGITATED TO A FERVOR WHO CAN BE DIRECTED
 TO COMMIT VIOLENCE AGAINST TARGETS CHOSEN BY THE SPEAKERS
 
-OPTIONAL ASSETS
+### OPTIONAL ASSETS
 Most sects of the cult rely on ordinary people to fulfill most
-
-Beings such as Teufelshunde can also be summoned and
-
 of their needs, though sect leaders may possess the occult
-
-unleashed, and priests may also have enlisted servitors and
-
 lore and secrets to call on Mormo's supernatural aid when
-
-overlords of Mormo. If engaged in active open conflicts, a sect
-
 pressed. Rites to summon creatures sacred to Mormo are
-
-might also be joined by a number of Die Draugar. In areas
-
 among the most treasured of lore, though such entities are
-
-where the Cult of Mormo is st rongest and can openly engage
-
 usually brought forth only when a specific need arises. The
-
-in worship, such as among the wilder regions of Germania,
-
 greater sects may summon Foetid Young to witness their high
-
-a number of Reborn will fight alongside other protectors to
-
 rituals and can call on them when facing greater adversaries.
-
+Beings such as Teufelshunde can also be summoned and
+unleashed, and priests may also have enlisted servitors and
+overlords of Mormo. If engaged in active open conflicts, a sect
+might also be joined by a number of Die Draugar. In areas
+where the Cult of Mormo is st rongest and can openly engage
+in worship, such as among the wilder regions of Germania,
+a number of Reborn will fight alongside other protectors to
 safeguard Mormo's priests.
-SAMPLE SECTS
+
+## SAMPLE SECTS
 The following are examples of two divergent sects of the Cult of Mormo, each functioning in a distinct environment and under
 different constraints. These can be relocated and inserted into campaigns in other locations by GMs as the need arises.
-PACT OF DIVA TRIFORMUS
-
-HEADQUARTERS
-
+### PACT OF DIVA TRIFORMUS
 This is a sizable secret cult that worships Mormo from within
-
-A sizable vineyard just outside of the city serves as the central
-
 the heart of a major Roman city, the trade hub of Ostia. This
-
-gathering place for members of the cult, as part of the Crito
-
 cult is primarily composed of Roman citizens, though it
-
-estate, home to one of the sect's high matrons. Smaller
-
 does include members from other backgrounds and it is
-
-portions of the cult occasionally meet at various temples
-
-cager to expand its reach. Its services to Mormo are disguised
-
-and the markets within the city, particularly when seeking
-
+eager to expand its reach. Its services to Mormo are disguised
 under the worship of the Diva Triformus, the triple deity,
-
-new recruits. They have access to several secure locations for
-
 which includes Luna (sometimes used to refer to the moon
-
-conducting their more elaborate rites, including a secluded
-
 aspects of Diana or Juno), Proserpina (Persephone to the
-
-grove adjacent to the vineyard.
-
 Greeks), and Hecate. Most of its members lead a double life as
 ordinary citizens, though some live on the fringes as beggars,
-
-SECT COMPOSITION
-
 outcasts, or criminals. The cult includes some who have been
-
-Most of the priests of this sect are women, though there are
-
 enslaved by the city's wealthier families, who must sneak off
-
-men in a few important positions.
-
 to attend services when their duties allow. As a part of this,
 the sect's influence is spread across a wide area as a loose net,
-
-Leadership:High Matron Statilia Crito, High Matron Bruccia
-
 but this also means individual members can be particularly
-
-Decimidia, Speaker Mettius Armenius lulian, Shepherd
-
 vulnerable ifexposed.
 
-Laberia Alecta.
-
 New initiates and junior members are not steeped in the
-
-Priests: The high matrons are assisted by up to a dozen junior
-
 secrets of Mormo until they prove their devotion, at which
-
-priests, currently made up of two men and ten women. Half
-
 point they come to understand that these gods and others
-
-are natives to the city while the rest came from elsewhere. Most
-
 besides are but faces of a greater god so vast she defies easy
-
-were recruited and trained by either one of the high matrons
-
 classification. This sect seeks to bring into its fold any who have
-
 been shunned, dishonored, or cast out of more traditional
 faiths, offering them a new home and purpose. This includes
 sheltering criminals being hunted by the authorities, who may
@@ -904,15 +639,36 @@ however, including the one in Rome, and could be
 convinced to become more active and join in coordinated
 efforts on short notice.
 
+#### HEADQUARTERS
+A sizable vineyard just outside of the city serves as the central
+gathering place for members of the cult, as part of the Crito
+estate, home to one of the sect's high matrons. Smaller
+portions of the cult occasionally meet at various temples
+and the markets within the city, particularly when seeking
+new recruits. They have access to several secure locations for
+conducting their more elaborate rites, including a secluded
+grove adjacent to the vineyard.
+
+#### SECT COMPOSITION
+Most of the priests of this sect are women, though there are
+men in a few important positions.
+
+**Leadership:** High Matron Statilia Crito, High Matron Bruccia
+Decimidia, Speaker Mettius Armenius lulian, Shepherd Laberia Alecta.
+
+**Priests:** The high matrons are assisted by up to a dozen junior
+priests, currently made up of two men and ten women. Half
+are natives to the city while the rest came from elsewhere. Most
+were recruited and trained by either one of the high matrons
 or the speaker, who sometimes travels abroad on sect business.
 
-Protectors: There are currently twenty zealous and armed
+**Protectors:** There are currently twenty zealous and armed
 protectors in the sect, and every priest is accompanied by
 one or two as bodyguards wherever they go. Among the sect's
 protectors is a large Germanic warrior named Berard who is a
 veteran of fighting alongside Herjan's warbands.
 
-Adherents (the Brood): This sect has at least two hundred
+**Adherents (the Brood):** This sect has at least two hundred
 dedicated members in the city, including those willing to
 perform whatever services are asked of them and to put their
 lives on the line if need be. They make regular offerings to the
@@ -920,7 +676,7 @@ priests and eagerly attend rites. They come from all walks of
 life, though the majority are among the lower classes, with only
 a couple of dozen from the city's wealthy elite.
 
-Metragyrtai: This sect includes several dozen "beggars for the
+**Metragyrtai:** This sect includes several dozen "beggars for the
 Mother" who serve as eyes and cars around the city and beyond.
 Small groups of Metragyrtai may be sent to specific towns or
 villages to test the waters for recruitment, and they can also be
@@ -928,7 +684,7 @@ gathered to help protect the priests if the sect is threatened. They
 are led by a man named Lars Verenius, (the "Laughing Beggar")
 who is skilled with a blade, and an able assassin.
 
-Beasts: This sect keeps several vicious but otherwise ordinary
+**Beasts:** This sect keeps several vicious but otherwise ordinary
 war hounds at the vineyard and has also tamed several boars.
 During their highest rites the matrons may summon Mormo's
 Foetid Young to witness their devotion and accept offerings,
@@ -937,7 +693,7 @@ The sect's leaders have rarely asked for such protectors, or
 entreated Mormo to deliver overlords or servitors to them,
 from a desire to maintain secrecy.
 
-OATHBOUND OF THE NIGHT MOTHER
+### OATHBOUND OF THE NIGHT MOTHER
 This is a more openly ruthless and active sect of the Cult
 of Mormo, found in northern Germania where this faith is
 strongest, well within territories claimed by Herjan. In many
@@ -971,11 +727,11 @@ also includes a number of the Reborn, considered a blessing
 and sign of Mormo's favor, and maintains a number of beasts,
 seeking to be ready for battle at all times.
 
-Leadership: High Matron Cunigund, High Patron Gerbold,
+**Leadership:** High Matron Cunigund, High Patron Gerbold,
 High Matron Saxa, Speaker Æbbe, Speaker Sigiward, Shepherd
 Odilia, Shepherd Willidrud
 
-Priests: There are currently thirty priests in this sect, some of
+**Priests:** There are currently thirty priests in this sect, some of
 them elders of their respective villages. Initiation as a priest takes
 years of dlose inculcation and learning the mysteries of Mormo
 and is reserved for those thought marked by the god. Investment
@@ -984,18 +740,18 @@ caustic bath of bile, amniotic fluids, and offal torn from sacrificial
 offerings of cattle or captive enemies. Most priests of this sect bear
 physical changes or signs, some of them drastic.
 
-Protectors: This sect has over eighty protectors, most of them
+**Protectors:** This sect has over eighty protectors, most of them
 veteran warriors of their tribes who have been chosen by
 the priests. A grizzled and heavily scarred older champion
 named Cyneric the Fevered is the most feared. He is said to
 bear a persistent open wound on his chest that festers with
 plague-pus, which he uses to coat the blade of his axe.
 
-Reborn: The Reborn are somewhat common among this sect,
+**Reborn:** The Reborn are somewhat common among this sect,
 viewed as a specially blessed state, and there are up to two dozen
 of them present serving its elder priests as additional protectors.
 
-Adherents (the Brood): The exact number of this sect is
+**Adherents (the Brood):** The exact number of this sect is
 unknown, but might be as many as eight hundred or more
 dedicated believers. In its region most villages must at least
 feign reverence or face dire consequences, and so its overall
@@ -1003,8 +759,7 @@ congregation is several times larger. The priests in this region
 wield tremendous influence over the local tribes and can easily
 whip them into a frenzy.
 
-
-Beasts: The shepherds of this sect have access to all the great
+**Beasts:** The shepherds of this sect have access to all the great
 beasts Mormo spawns, including rabid wild wolves, bears, and
 hounds. When gathered together they can call upon several
 of Mormo's Foetid Young, a pack of Teufelshunde, as well as
@@ -1013,12 +768,11 @@ given time there are several dozen of Die Draugar standing
 guard over their sacred places and these can also be mustered
 by the senior priests to join their battles.
 
-Allies: Upward of fifty of Herjan's warriors can be found
+**Allies:** Upward of fifty of Herjan's warriors can be found
 alongside this sect when it prepares for battle, most of them
 untested, but including a handful of veterans and possibly an
 Einherjar and Walkyr if engaged in a vital struggle.
 
-"Let the Night Mother embrace you. Your flesh is but clay for
-her to shape into something more pleasing to her eyes."
-
--High Matron Cunegold of the Oathbound
+>*"Let the Night Mother embrace you. Your flesh is but clay for her to shape into something more pleasing to her eyes."*
+>
+>-High Matron Cunegold of the Oathbound

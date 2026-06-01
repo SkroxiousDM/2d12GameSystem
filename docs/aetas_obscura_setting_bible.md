@@ -15,23 +15,23 @@
 1. [The Premise](#1-the-premise)
 2. [The World in 500 AD](#2-the-world-in-500-ad)
 3. [Cosmology](#3-cosmology)
-   - 3.4 [The Secret History](#the-secret-history-inner-seal-knowledge) — Inner-Seal-only doctrine: Nephilim as pagan gods, the Watcher-Nephilim war remembered as Titanomachy and Jötunheim, the Eridu breach, the Fomorian war, the Etruscan king and the Hunger
-4. [The Concordat of Hidden Powers](#4-the-concordat-of-hidden-powers) *(this setting's Unseelie Accords)*
+   - 3.4 [The Secret History](#the-secret-history-inner-seal-knowledge) 
+4. [The Concordat of Hidden Powers](#4-the-concordat-of-hidden-powers) 
 5. [The Factions](#5-the-factions)
-   - 5.1 [The Concord of the Seven Seals](#51-the-concord-of-the-seven-seals) — wizards
-   - 5.2 [The Four Sanguine Courts](#52-the-four-sanguine-courts) — vampires
+   - 5.1 [The Concord of the Seven Seals](#51-the-concord-of-the-seven-seals) 
+   - 5.2 [The Four Sanguine Courts](#52-the-four-sanguine-courts) 
      - The Hounds of Set
      - The House of Lamia
      - The Strigoi of Dacia
      - The Court of Jade Breath
-   - 5.3 [The Two Twilight Courts](#53-the-two-twilight-courts) — faeries
+   - 5.3 [The Two Twilight Courts](#53-the-two-twilight-courts) 
      - The Court of Long Night
      - The Court of the Burning Crown
-   - 5.4 [The Brotherhood of the Black Pharaoh](#54-the-brotherhood-of-the-black-pharaoh) — Nyarlathotep cult
-   - 5.5 [The Esoteric Order of Dagon](#55-the-esoteric-order-of-dagon) — Deep Ones
-   - 5.6 [The Yithian Archive](#56-the-yithian-archive) — Great Race
-   - 5.7 [The Gnostic Apokryphon](#57-the-gnostic-apokryphon) — the surviving inner-circle of Yeshua's mortal tradition
-6. [Historical Magi of the Age](#6-historical-magi-of-the-age) — historical and pseudo-historical magic-users woven in
+   - 5.4 [The Brotherhood of the Black Pharaoh](#54-the-brotherhood-of-the-black-pharaoh) 
+   - 5.5 [The Esoteric Order of Dagon](#55-the-esoteric-order-of-dagon) 
+   - 5.6 [The Yithian Archive](#56-the-yithian-archive) 
+   - 5.7 [The Gnostic Apokryphon](#57-the-gnostic-apokryphon) 
+6. [Historical Magi of the Age](#6-historical-magi-of-the-age) 
 7. [Key Locations](#7-key-locations)
 8. [Timeline of the Hidden World](#8-timeline-of-the-hidden-world)
 9. [Running the Game (2d12-Friendly)](#9-running-the-game-2d12-friendly)
@@ -346,7 +346,7 @@ Its sanctuary, the **Old Seat**, is a hidden complex beneath the Serapeum in Ale
 
 #### The Edged Seal (*Sigillum Acutum*)
 
-The **Edged Seal** is the Concord's instrument of last resort against the **Brotherhood of the Black Pharaoh** at its full operating strength, against any Nephil walking the Empire in fleshly masquerade, and against the Watcher-revenants and Outer-touched horrors that ordinary Stylite iron cannot put down. It exists because the Concord learned, over four centuries of bloody arithmetic, that **a Brotherhood high-magister in mid-summoning or a Nephil at the peak of cult-feeding cannot reliably be killed by ordinary means**. The flesh regenerates; the entity migrates to its next vessel; the working continues. Something *consecrated* is required to sever the binding and put the thing in reach of mortal iron. After the Eridu-wall scare of 488 AD ([Timeline](#8-timeline-of-the-hidden-world)), the Concord put nine of its most-trusted Stylites under the Edged Oath and quietly began arming them out of the Castrum's deepest vault.
+The **Edged Seal** is the Concord's instrument of last resort against the **Brotherhood of the Black Pharaoh** at its full operating strength, against any Nephil walking the Empire in fleshly masquerade, and against the Watcher-revenants and Outer-touched horrors that ordinary Stylite iron cannot put down. It exists because the Concord learned, over four centuries of bloody arithmetic, that **a Brotherhood high-magister in mid-summoning or a Nephil at the peak of cult-feeding cannot reliably be killed by ordinary means**. The flesh regenerates; the entity migrates to its next vessel; the working continues. Something *consecrated* is required to sever the binding and put the thing in reach of mortal iron. After the Eridu-wall scare of 2488 BC ([Timeline](#8-timeline-of-the-hidden-world)), the Concord put nine of its most-trusted Stylites under the Edged Oath and quietly began arming them out of the Castrum's deepest vault.
 
 ##### The Nine Blades
 
@@ -377,12 +377,6 @@ When a Stylite is offered an Edged Seal blade she swears three additional oaths 
 The Edged Seal is a **secret within a secret**. The Stylites at large know it exists; the Concord at Large knows there is *something*. The blades themselves are not seen except in action. The Inner Seal manages the cadre through a single dedicated Magister (**Markos Drepanios**, who bears *Crinis Noctis*, sits the Magister's seat, and votes the cadre as a bloc when forced to). The Edged Oath supersedes Stylite chain-of-command — a sworn bearer can refuse a captain's order if obeying would risk the blade, and this has cost the cadre political capital on at least two occasions in the last twenty years.
 
 The cadre's standing orders, as of 500 AD, are: **(1)** maintain a single bearer within three days' ride of the Ephesian Keep at all times; **(2)** any Brotherhood summoning-rite identified in progress is to be interrupted by whatever means are required; **(3)** **no Nephil in mortal masquerade is to be unveiled in public** without the Magister's direct order — the political consequences of, for example, killing Mercurianus of Antioch in his own bank would set the Concord's century-long containment work back by decades.
-
-##### GM Notes
-
-- The Edged Seal is the campaign's *narrative replacement* for the absent Theophoroi: the glowing-blade moment, the seventh-cavalry intervention, the relic-weapon offered to a worthy mortal — all of these now happen through the Edged Seal instead of through a separate order.
-- The ninth, **unforged blade** is the campaign's most powerful single hook. A PC who survives to high tier and earns the Inner Seal's trust may be the one to forge it, name it, and choose its consecration. This is a third-act, *campaign-defining* decision.
-- An Edged-Seal blade is **not** a casual reward. A blade offered is a campaign-changing moment, as the relic-swords of the deleted Theophoroi used to be — but now the recipient is also Concord-bound, oath-bound, and subject to Stylite chain-of-command. The freedom of the old Knight-of-the-Cross figure is gone. The blades come with politics.
 
 #### Governing Philosophy: The Seven Seals of Solomon
 
@@ -588,7 +582,7 @@ Jade Breath vampires feed on **breath**, not blood. They are said to be able to 
 
 ### 5.3 The Two Twilight Courts
 
-The faerie powers of the **Veiled Sphere**. Two great Courts — **Long Night** and **Burning Crown** — rule the inner reaches, perpetually balanced. Outside both courts wander the **Free Folk** (*Liberi Populi*), this setting's Wyldfae.
+The faerie powers of the **Veiled Sphere**. Two great Courts — **Long Night** and **Burning Crown** — rule the inner reaches, perpetually balanced. Outside both courts wander the **Free Folk** (*Liberi Populi*).
 
 #### Shared Structural Rules
 
@@ -706,7 +700,7 @@ A particular Free Folk unit deserves naming: **the Wizard's-Wards** (Latin *Cust
 
 #### Overview
 
-The **Brotherhood of the Black Pharaoh** (*Fraternitas Pharaōnis Nigri*) is the mortal-cult faction of this setting — the worshippers and instruments of the free, unbound Crawling Chaos. It is the closest analog to the "Black Council" of the Dresdenverse, and it is *the* primary Mythos-faction antagonist.
+The **Brotherhood of the Black Pharaoh** (*Fraternitas Pharaōnis Nigri*) is the mortal-cult faction of this setting — the worshippers and instruments of the free, unbound Crawling Chaos. It is *the* primary Mythos-faction antagonist.
 
 They worship **Nyarlathotep** under his avatar **Nephren-Ka, the Black Pharaoh**, a real heretical pharaoh of Egypt's Third Intermediate Period whose name was struck from the temple lists. They believe Nephren-Ka is not dead but *waiting* — sealed beneath the sands of the deep Sahara — and that the proper season of the world's end is approaching.
 
@@ -863,7 +857,7 @@ The Apokryphon does **not** practice combat magic in any developed form. They ar
 
 #### Notable Living Initiates in 500 AD
 
-- **Markella of Tarentum** ([already in Name Audit; appears in §5.2.B](#52-the-four-sanguine-courts)) is *Magdalene Circle*. Her curse on Domina Maxima is an Apokryphon operation. The Inner Seal suspects but cannot yet prove this.
+- **Markella of Tarentum**  is *Magdalene Circle*. Her curse on Domina Maxima is an Apokryphon operation. The Inner Seal suspects but cannot yet prove this.
 - **Ioannes of Edessa**, an aging book-binder in the Syrian quarter, is the working head of the *Thomas Circle*. He is the closest thing the Apokryphon has to a coordinator, and he is in monthly correspondence with Damaskios under a cover-identity (a wine-merchant named Symeon).
 - **The Anonymous Magdalene** — a woman whose true name is known to perhaps six people alive, who lives quietly as a widow at the edge of Alexandria and is reckoned by every senior initiate to be the most powerful living *anabasis*-practitioner. She is *seventy-three*. She has not yet attempted Yeshua's full ascent. She intends to before she dies.
 - **Yohannan the Syrian**, who now bears *Vox Silentii* of the Edged Seal ([§5.1](#51-the-concord-of-the-seven-seals)), was raised in the *Valentinian Cell* and is the Apokryphon's first and only successful penetration of the Concord. The Inner Seal does not know his lineage. Damaskios suspects.
@@ -1126,98 +1120,6 @@ Six attributes mapping to late-antique conceptions of the person:
 
 ---
 
-## 10. Adventure Hooks
-
-### 10.1 The Vandal Bride (early-tier, urban intrigue)
-
-A young Vandal noblewoman in Carthage is to be married to a Roman senator's son. She has confided to her handmaiden that her future husband "smells of jackals." The handmaiden has fled to the Concord chapter. The PCs are sent to investigate. The senator's son is a Hounds-of-Set duke. *But.* The girl has her own secret: she is half-Lamia, of a quietly forgotten cadet line. Whose betrayal will cut deepest?
-
-### 10.2 The Sleeping Coin (mid-tier, exploration)
-
-A scholar at the school of Nisibis writes a frantic letter to the Castrum. He has translated a Syriac fragment that names the location of a **lost Brotherhood grimoire** — the *Book of the Crawling Mist*, attributed to one of the Seven Masks of the second century and presumed destroyed in the Concord's raid on the Faiyum chapter in 287 AD. The grimoire is somewhere in the buried temples of the Hatra ruins. So is, it turns out, a cell of the Brotherhood of the Black Pharaoh, who have also read the fragment and want their book back.
-
-### 10.3 Eudokia's Dreams (mid-tier, mystery)
-
-The Recorder — the Yithian-touched child — has begun dreaming of a battle that does not yet exist. She describes Roman soldiers, three sworn Stylite champions, a black wave, and a single name: *Innis Mor.* The Concord must dispatch a team to a remote Irish island. The Esoteric Order of Dagon is establishing a new chapter. The Recorder's dreams are not always accurate. Sometimes they are *prescriptive* rather than predictive.
-
-### 10.4 The Cottage Bargain (late-tier, cosmic)
-
-A PC has accumulated a debt to the Leannan-Sidhe. She comes to collect — not for herself, but on behalf of her mistress. The PC is to deliver a small wax-sealed jar to the Cottage of the Crones. The Crones will not open it themselves. The PC is the courier. The jar contains a piece of Niamh's *taint* — and the Crones plan to weave it into the fabric of the world to see whether Niamh can be cured *retroactively*. The cost is high. The choice is real.
-
-### 10.5 The 333-Year Eve (end of campaign one)
-
-It is winter solstice, 501 AD. The 333-year cycle at Sarra ends in six months. Across the Mediterranean, every major faction is repositioning. A Concord agent has defected to the Brotherhood. A Magister of the Inner Seal has died under suspicious circumstances. A Brotherhood high-magister has come north out of the Faiyum for the first time in a generation. The PCs are at the center of it. Everything they have done across the campaign comes due now. The Crawling Chaos is moving.
-
-### 10.6 The Ascent (end of campaign three; capstone)
-
-> *This is the highest-tier arc the setting supports. Do not run it before a PC has been in play for the equivalent of three campaigns. Do not run it at all if the table is not ready for an unhappy or ambiguous ending.*
-
-#### Premise
-
-One PC has reached Yeshua's tier. Whether by Apokryphon initiation, by Concord theurgy refined to its absolute limit, by Mobedān co-training, or by some unholy synthesis no one before them has attempted, they have become **the first mortal Magus since the Galilean to credibly possess the praxis required to attempt the *anabasis*** — the full ascent through the spheres of the archons, naming each, refusing each, and confronting what sits at the top.
-
-The Apokryphon's Anonymous Magdalene, now seventy-six and dying, has named them her successor. The Thomas Circle's Ioannes of Edessa has staked his life on their survival. Damaskios has, against every instinct of his eight-decade career, *given them his blessing* — the first time an Inner Seal Magister has officially sanctioned an Apokryphon working in the Concord's recorded history. Markos Drepanios has not. He does not need to; he has chosen to look away.
-
-The PC has six months to prepare. Then the working begins.
-
-#### What Yeshua Tried (and What He Failed to Have)
-
-The Concord and the Apokryphon, comparing notes for the first time openly, have reconstructed Yeshua's working in operational detail. He attempted to ascend through the seven archonic spheres, confront Jehovah at the throne, and *strip him of his accumulated worship-pool* — not kill him (a Nephil that large cannot simply be killed), but **break his cult-binding**, reducing him to a mortal-tier Nephil any minor working group could finish off. The plan was sound. He failed for five specific reasons:
-
-1. **He had no allies above the Watcher tier.** He was the only Magus of his caliber in the world. When he was killed, there was no second.
-2. **He underestimated the worship-redirection counter-attack.** Jehovah's Temple priesthood was a faster mover than Yeshua's twelve. The crucifixion was not the failure; the failure was *the gospel Mark wrote forty years later*.
-3. **He had no defensive working comparable to *Sigesis*.** Jehovah saw him coming from the moment he began the Temple-clearing. There was no veil thick enough.
-4. **He had no Edged-Seal-equivalent backing.** When the soldiers came he had no one with a consecrated blade at his shoulder. His inner circle were teachers, not fighters.
-5. **He did not survive the descent.** The *anabasis* has a return-leg. He never made it back.
-
-The PC, **if and only if they assemble the right allies**, can address all five.
-
-#### What the PC Needs to Assemble
-
-A successful Ascent requires, at minimum:
-
-| Need | The Solution Available in This Setting |
-|---|---|
-| **A second Magus of comparable tier** | None exists. The PC must *create* one, or accept the second-best: the cooperation of **Damaskios**, **Bondos** ([§6.12](#612-bondos-the-reformer-after-bundos--zaradūšt-i-khurragān)), and **Kartīr as a Chinvat shade** ([§6.13](#613-kartīr-the-shade-in-the-chinvat-lens)) working in joint sigil. Three of the four most powerful living-or-shaded theurges in the world, in one room, agreeing on a single working. This has not happened in this setting's recorded history. |
-| **A worship-redirection counter** | The Apokryphon. Every cell must be activated. Every initiate must be in *Sigesis* for the duration. The Anonymous Magdalene's death must be timed to coincide — her final act becomes a worship-decoy. |
-| **A defensive working stronger than *Sigesis*** | The Crone of Long Night must consent to weave the PC into the Eridu wall's defensive lattice for the duration of the working. The wall protects the PC; the PC, in turn, must agree that if the working fails, *they become load-bearing material*. Morrigna will negotiate this. The price will be high. |
-| **Edged-Seal backing on the mortal plane** | The ninth blade ([§5.1](#51-the-concord-of-the-seven-seals)) must be forged, and the PC must choose who bears it. **Boetius** would accept. So would **Myrddin**, who at that point will be in his thirties. Either choice is a sacrifice. |
-| **A way back down** | The hardest problem. Yeshua had none. The Yithian Recorder ([§5.6](#56-the-yithian-archive)) has, in 540 AD, *logged a working that could be a return-leg* — but the Recorder is in 500 AD a child, and reading her future logs requires a mind-swap the Concord cannot stomach. The PCs may find another way. They may not. |
-
-If any one of these is missing, the working fails the way Yeshua's did.
-
-#### How to Run It
-
-The Ascent is **not a combat encounter**. It is a structured ritual scene, run over three to four sessions, in which the PC ascends through the seven spheres in turn. At each sphere they encounter one **Archon** — a Nephil-tier or Watcher-tier entity, named in the Sethian and Valentinian texts — and must **name it correctly, refuse what it offers, and pass**. The seven spheres of the *Apocryphon of John* tradition serve directly:
-
-| Sphere | Archon (Sethian Name) | What It Offers | What It Costs to Refuse |
-|---|---|---|---|
-| 1 | **Athoth** | Power over the body | A scar that never closes |
-| 2 | **Harmas** | Power over love | The loss of one specific person the PC loves |
-| 3 | **Kalila-Oumbri** | Power over speech | A truth the PC has been hiding from themselves |
-| 4 | **Yabel** | Power over fear | An hour of total experienced helplessness |
-| 5 | **Adonaiou** | Power over reason | A doctrine the PC believes that is wrong |
-| 6 | **Cain (Kainos)** | Power over kin | A bond the PC must sever |
-| 7 | **Abel-Bel** | Power over rule | The PC's last attachment to any earthly faction |
-
-Each refusal costs the PC a thing they actually have. The GM works these out with the player session by session. They must be real costs, drawn from the PC's character sheet, history, and relationships. **A refusal that costs nothing fails.**
-
-At the throne, the PC confronts **Jehovah** directly. This is not a fight in the combat-roll sense. It is a *worship-war* — the PC's accumulated cult (whatever they have built, whichever faction they have led, every NPC who would die for them) against Jehovah's. The Apokryphon's counter-redirection, the Magdalene's death, the Crone's lattice, and the ninth blade's bearer in the mortal plane all feed into a single roll. The GM and the table determine the modifiers from what the PC has assembled across the campaign.
-
-#### The Three Possible Outcomes
-
-1. **Success.** Jehovah's cult-binding is broken. The Christian Church does not collapse — mortal institutions are slower than that — but Jehovah himself is reduced to mortal-Nephil tier. He can be killed by an Edged-Seal blade now, and within a year he will be. The PC survives, returns, and **is not the same**. They cannot live in the world they have made. Most retire to Long Night, to the Apokryphon's deepest cell, or to a hermitage no one can find. The Empire enters a five-century re-paganization the Concord struggles to manage. *Mortal civilization is freer and more dangerous.*
-2. **Partial success.** Jehovah is wounded — his cult-pool is reduced by perhaps half — but not broken. The PC dies in the throne-confrontation. The ninth blade's bearer dies the same hour. The Anonymous Magdalene's death-decoy is consumed. The Christian Church *adapts*: a violent retrenchment under a new orthodoxy. The Apokryphon survives. The Concord survives. **The world is changed but not freed.** This is the most likely outcome.
-3. **Failure.** The PC fails at one of the spheres. The working collapses. Jehovah, now aware, comes down on the Apokryphon with the full weight of the imperial church. Within a generation, every named initiate is dead. The Concord retreats to Persia. The Apokryphon's surviving cells flee east, where they will, three centuries later, be absorbed into the Manichaean and proto-Mandaean traditions and lose what they knew. The PC, if they survive at all, lives the rest of their life under *Sigesis*, hunted. *Mortal civilization continues exactly as the canonical 6th century did.* This is the canonical-history outcome.
-
-#### GM Notes
-
-- This arc is **the table's choice**. Do not push a PC into it. The Apokryphon will *offer* and the PC will *answer*. If the answer is no, run a different endgame.
-- The arc rewards a campaign that has built deep relationships. A PC who has alienated their faction, their teacher, and their lover cannot succeed. A PC who has earned their allies *can*.
-- The arc's most powerful narrative function is that **it puts the campaign's entire accumulated history on the table at once**. Every NPC the PC has helped, every faction they have served, every secret they have kept — all of it determines the modifiers. Run the modifier-determination as a *session of its own*, in which the table reviews the campaign and assigns weight.
-- Whichever outcome occurs, **leave room for the next campaign**. The Aetas Obscura world after the Ascent is a different world. That world is the next group of PCs' problem.
-
----
 
 ## 11. Glossary
 

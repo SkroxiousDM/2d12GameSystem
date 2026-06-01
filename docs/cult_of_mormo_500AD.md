@@ -81,7 +81,7 @@ The Inner Seal regards this as the most precarious arrangement in the hidden wor
 
 ### The Marian Hunters
 
-In practical terms, the cult's priests are now opposed in region after region by something new and frightening: bands of devout Christians — many of them women, widows and consecrated virgins, ascetics and grieving mothers — who hunt Mormo's sects with a holy power that *works*, because holy power in this age works for the genuinely faithful regardless of the god truly named behind the icon. They believe with their whole hearts that they serve the Mother of God and her Son. They do not know that the Mother who answers them is older than Bethlehem and Egyptian to the bone. They do not need to know. Their faith is sincere, and so the power is real.
+In practical terms, the cult's priests are now opposed in region after region by something new and frightening: bands of devout Christians — many of them women, widows and consecrated virgins, ascetics and grieving mothers — who hunt Mormo's sects with a power that *works*. It works not because their faith is true but because Isis, the Nephil wearing the Marian mask, is *spending the worship-harvest back on them*: she skims a sliver of magical potential from every prayer they offer her, and lends portions of it back as the holy power they wield against Mormo. They believe with their whole hearts that they serve the Mother of God and her Son. They do not know that the Mother who answers them is older than Bethlehem and Egyptian to the bone, nor that the power in their hands was harvested from their own devotions and loaned out again. They do not need to know. Their devotion feeds her, and so she arms them.
 
 These hunters are most concentrated where Isis's old strength was greatest — Ægyptus above all — but the Marian devotion is portable in a way her Nile temples never were, and her hunters now turn up wherever the Church has gone. A Mormo sect that has spent three centuries learning to hide from pagan priestesses and Roman magistrates finds itself, in 500 AD, exposed from an unexpected direction: by a faith it had assumed was just another host to be infested, which has turned out to harbor its most ancient predator.
 
@@ -135,8 +135,9 @@ It is in these decades, the cult's archivists believe, that Isis changed masks. 
 were falling; the cult of the Theotokos was rising; and somewhere in that transition the old
 Egyptian mother slipped into the blue mantle of the new one. The cult felt the consequences
 before it understood them. Across Ægyptus and the eastern provinces, sects that had survived
-for centuries were rooted out and burned by Christian devotees whose holy power was real and
-whose hatred of Mormo was strangely, *anciently* specific — as if the new faith had inherited a
+for centuries were rooted out and burned by Christian devotees whose holy power was real —
+Isis arming her hunters from the harvest of their own prayers — and whose hatred of Mormo was
+strangely, *anciently* specific, as if the new faith had inherited a
 grudge older than itself. The proclamation at the Council of Ephesus in 431 that Mary was rightly
 called *Theotokos*, Mother of God, did not create this hunger; it merely gave it the imperial
 sanction it needed to grow without limit. The cult marks Ephesus as the year the war it had always
@@ -292,7 +293,7 @@ Most of the priests of this sect are women, though there are men in a few import
 
 **Beasts:** This sect keeps several vicious but otherwise ordinary war hounds at the vineyard and has also tamed several boars. During their highest rites the matrons may summon Mormo's Foetid Young to witness their devotion and accept offerings, and they know how to attract Teufelshunde if the need arises. The sect's leaders have rarely asked for such protectors, or entreated Mormo to deliver overlords or servitors to them, from a desire to maintain secrecy.
 
-**Complication (GM):** Unknown to its leaders, one of the sect's lay- Christian recruits is a sincere Marian devotee whose prayers have begun, faintly, to *work* — and whose dreams have begun to fill with a woman in blue who points at the Crito vineyard. The sect has acquired a hunter in its own ranks and does not yet know it.
+**Complication (GM):** Unknown to its leaders, one of the sect's lay-Christian recruits is a devout Marian worshipper whose prayers Isis has begun, faintly, to *answer* — skimming their potential and lending a trickle back — and whose dreams have begun to fill with a woman in blue who points at the Crito vineyard. The sect has acquired a hunter in its own ranks and does not yet know it.
 
 ### OATHBOUND OF THE NIGHT MOTHER
 This is a more openly ruthless and active sect of the Cult of Mormo, found in northern Germania where this faith is strongest, in territories once claimed by Herjan and now contested by his would-be heirs. In many respects they function less like a secretive cult and more akin to a tribal warband on campaign.
@@ -325,7 +326,7 @@ This sect includes almost entirely Germanian villagers and warriors, though ther
 ## ADVENTURE HOOKS (500 AD)
 
 - **The Thief in the Blue Mantle.** A Mormo cell in Alexandria has worked out the secret of the Marian hunters — that the Mother of God who scourges them is Isis in a stolen mask. They are trying to send proof to the one power who would care: not the Concord, but *Jehovah himself*, hoping to trigger a war of two Nephil mothers inside the Church. The Brotherhood of the Black Pharaoh wants this to happen. The Concord's Inner Seal wants it stopped at any cost. The player characters are caught between them with the letter in hand.
-- **The Sincere Recruit.** A Mormo sect disguised as a Marian confraternity has unknowingly recruited a genuine devotee whose faith is real and whose prayers are starting to *work*. The sect wants the players to quietly remove a "troublesome new member." The players slowly realize they have been hired to murder a saint-in-the-making — and that the woman in blue is watching.
+- **The Sincere Recruit.** A Mormo sect disguised as a Marian confraternity has unknowingly recruited a devout worshipper whose prayers Isis has begun to *answer* — harvesting their devotion and arming them in return. The sect wants the players to quietly remove a "troublesome new member." The players slowly realize they have been hired to murder a saint-in-the-making — and that the woman in blue is watching.
 - **Herjan's Heir.** Two Germanian warband-sects, each claiming to carry the true succession of the broken chieftain Herjan, are sliding toward open war, and both are summoning Mormo's Foetid Young to settle it. Whatever crawls out of the northern forest when they do will not care which warband wins.
 - **The Closed Temple.** Beneath a half-ruined temple of the Magna Mater outside Rome, the old Italian cabal still keeps a spawning-ground — and a Marian hunting-band has just arrived in the district, drawn by dreams. The House of Lamia, who consider the city theirs, would also like the cell gone. Three predators, one prey, and the players in the middle.
 

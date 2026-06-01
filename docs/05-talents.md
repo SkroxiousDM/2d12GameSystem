@@ -882,15 +882,17 @@ You have a natural gift for one of the arts. This Talent may be taken multiple t
 
 ---
 
-## **Faithful**
+## **Anointed**
 
 *Prerequisites: Member of a recognized religious order, \+2 Influence with a church, or Rank 2 Academia (Religion)*
 
-* **Benefit:** Once per session, you may add your Willpower in Levels of Success to a Check directly related to your faith, such as invoking divine judgement during an interrogation, crying out a battle blessing as you strike down a creature of darkness, or praying for guidance when searching for a holy relic.
+You are a priest in good standing with the being behind your altar, and it lends a ration of its worship-harvest back to you. This power is not a reward for belief — it is the patron spending, through you, a portion of the magical potential it skims from your congregation's rites. A cynic in good standing wields it; a sincere outsider with no patron does not.
+
+* **Benefit:** Once per session, you may add your Willpower in Levels of Success to a Check directly tied to your office and patron, such as invoking divine judgement during an interrogation, crying out a battle blessing as you strike down a creature of darkness, or petitioning your patron for guidance when searching for a holy relic.
 
 **Saints and Miracles** *(requires GM permission)*
 
-* **Benefit — Spending Fortune:** You may spend a Fortune point to channel your faith as a minor miracle: touch a person to heal Vitality Damage equal to 1 \+ your Willpower; allow an ally within sight to ignore a condition until the end of the encounter; or subtract Levels of Success equal to your Willpower from a nearby spellcaster's casting Check.  
+* **Benefit — Spending Fortune:** You may spend a Fortune point to channel your patron's loaned power as a minor miracle: touch a person to heal Vitality Damage equal to 1 \+ your Willpower; allow an ally within sight to ignore a condition until the end of the encounter; or subtract Levels of Success equal to your Willpower from a nearby spellcaster's casting Check.  
 * **Benefit — Burning Fortune:** You may burn a Fortune point to perform one great and inexplicable act—restoring the apparently dead, holding back a collapsing structure, or calming a panicked crowd by presence alone. If you have no Fortune remaining, you may still perform one final act of this kind, at the cost of your life.
 
 ---

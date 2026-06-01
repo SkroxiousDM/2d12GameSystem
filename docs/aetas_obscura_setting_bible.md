@@ -31,6 +31,7 @@
    - 5.5 [The Esoteric Order of Dagon](#55-the-esoteric-order-of-dagon) 
    - 5.6 [The Yithian Archive](#56-the-yithian-archive) 
    - 5.7 [The Gnostic Apokryphon](#57-the-gnostic-apokryphon) 
+   - 5.8 [The Cult of Mormo](#58-the-cult-of-mormo) 
 6. [Historical Magi of the Age](#6-historical-magi-of-the-age) 
 7. [Key Locations](#7-key-locations)
 8. [Timeline of the Hidden World](#8-timeline-of-the-hidden-world)
@@ -42,7 +43,7 @@
 
 ## 1. The Premise
 
-**Aetas Obscura** is a syncretic cosmic-horror setting that asks: *what if the supernatural politics of the modern Dresdenverse had been playing out, openly and bloodily, when Rome fell?*
+**Aetas Obscura** is a cosmic-horror setting that asks: *what if the supernatural politics of the modern Dresdenverse had been playing out, openly and bloodily, when Rome fell?*
 
 It is the year 500 AD. The Western Empire died a generation ago. Constantinople rules a brittle east. Persia waits across the Euphrates. New kingdoms of Goths and Franks and Burgundians scrabble over Roman bones. The old gods are dying — but they are not dead, and what is replacing them is not always Christ.
 
@@ -54,7 +55,7 @@ The Darkening Age is not a metaphor.
 
 ### Design Pillars
 
-- **Syncretic faith.** Christ, Mithras, Ahura Mazda, Hekate, Isis, Cthulhu — all real, all active, all dangerous. No single creed is The Truth. Holy power works for the faithful, regardless of the god named.
+- **Worship as fuel.** Christ, Mithras, Ahura Mazda, Hekate, Isis, Cthulhu — every named god is a real, active, dangerous being that lives on the worship of mortals. Belief itself does nothing supernatural. Religious ritual *harvests* a sliver of each worshipper's own magical potential, which the being behind the altar harnesses to extend its life and dole back out to its priests. No creed is The Truth; they are all feeding-arrangements wearing the clothes of revelation.
 - **Politics over plumbing.** Every faction has factions inside it. Every great power has a successor scheming.
 - **Cosmic horror with stakes.** The Mythos is real and unwinnable on its own terms, but human-scale victories matter. You cannot save the world. You can save your village, your apprentice, your friend.
 - **Late antiquity as a character.** Real places, real polities, real religions, used as the bones of the setting — then twisted.
@@ -108,7 +109,7 @@ The named Outer Ones whose existence is known to scholars in 500 AD:
 | The Gate and the Key | **Yog-Sothoth** | All times, all places, simultaneously. The being one summons to *know*. To know it is to be unmade. |
 | The Crawling Chaos | **Nyarlathotep** | The one Outer One that *speaks*, *walks*, and *plays politics*. Has a thousand masks. The Brotherhood of the Black Pharaoh worships one of its avatars. |
 | The Sleeper Beneath | **Cthulhu** | An Outer-aligned entity drowned in a sunken city in the southern oceans. Dreams reach as far as Rome. |
-| The Black Goat of the Woods | **Shub-Niggurath** | A fertility-horror worshipped under many masks in the deep forests of Germania and the Pontic steppe. |
+| The Black Goat of the Woods | **Shub-Niggurath** | A fertility-horror worshipped under many masks in the deep forests of Germania and the Pontic steppe. Her Mediterranean near-aspect is venerated by the **Cult of Mormo** ([§5.8](#58-the-cult-of-mormo)). |
 | The Crone of the Mountain | **Mother of Pus** (Concord); **Iod** or the *Voormi Mother* (Hyperborean tradition) | Sister-in-blood to Mother Winter of the Long Night Court — see [§5.3](#53-the-two-twilight-courts). |
 
 ### How Magic Works (Briefly)
@@ -119,7 +120,7 @@ Magic in this setting is **the imposition of a name on reality**. To name a thin
 - **Goeteia** — name-binding sorcery from the Greek Magical Papyri; faster, dirtier, draws on chthonic powers. Often a violation of the Seals.
 - **Magia** — Zoroastrian fire-and-word magic practiced by the Persian Mobedān. Distinct from the Concord but mutually respectful.
 - **Hermetica** — Egyptian-Greek synthesis; the science of correspondences. Anyone literate can dabble; few survive.
-- **Hieratica** — priestly magic; works only for the genuinely devout, regardless of which god. Practiced by Concord-aligned clergy, by Mobedān fire-priests, and by a thinning bench of pagan hierophants.
+- **Hieratica** — priestly magic: borrowed power a god lends back to its own clergy. A priest works no magic of their own; they spend a ration of the worship-harvest their patron has gathered and chosen to grant them. Belief is irrelevant — a cynical priest in good standing with a well-fed god can work Hieratica that an utterly sincere outsider cannot. Practiced by Concord-aligned clergy, by Mobedān fire-priests, and by a thinning bench of pagan hierophants — each only as strong as their patron's pool and favor allow.
 - **Black Speech** — the language of the Outer Ones. To learn even a syllable is to leave a door open behind your eyes.
 
 The **Seven Seals of Solomon** (see [§5.1](#51-the-concord-of-the-seven-seals)) are the absolute prohibitions of the Concord. They are not "laws" in a mortal sense; they are **architectural features of reality** that the Concord enforces because to break them is to weaken the walls between Sphere and Dark.
@@ -130,16 +131,16 @@ This subsection is the **single most carefully guarded body of doctrine** in the
 
 #### 3.4.A The Nephilim: Architects of the Gods
 
-In the ages before recorded history, two hundred *Watchers* (*Egrēgoroi*) descended from the higher Sphere onto Mount Hermon. They lusted after mortal women, took them, and fathered a race of giant-blooded hybrids: the **Nephilim**. The Watchers also taught humanity weaponry, cosmetics, metallurgy, and — fatally — *sorcery*. (The Concord's official line is that this is allegory. It is not. The [*Book of the Watchers* tradition](https://en.wikipedia.org/wiki/Watcher_\(angel\)) is *literal* history, reduced over centuries to scripture.)
+In the ages before recorded history, two hundred *Watchers* (*Egrēgoroi*) descended from the higher Sphere onto Mount Hermon. They lusted after mortal women, took them, and fathered a race of giant-blooded hybrids: the **Nephilim**. The Watchers also taught humanity weaponry, cosmetics, metallurgy, and — fatally — *sorcery*. That last gift was not charity. Teaching mortals to reach toward the supernatural is what made them *harvestable*: a person who prays, sacrifices, or performs a rite gives up a thin filament of their own latent magical potential, which the being addressed siphons off and keeps. The donor never notices, because the loss is small and *regenerates by the next day* — but multiplied across a worshipper-pool of thousands, the daily yield is enormous. This is the engine the Watchers built and their children later stole. (The Concord's official line is that all of this is allegory. It is not. The [*Book of the Watchers* tradition](https://en.wikipedia.org/wiki/Watcher_\(angel\)) is *literal* history, reduced over centuries to scripture.)
 
-The Nephilim are *not* the Outer Ones. They are not even truly demonic. They are the **half-divine survivors** of that original mingling: long-lived (centuries, sometimes millennia), beautiful, charismatic, capable of working sorcery without the protection of any Seal, and — above all — *hungry for worship*. Mortal devotion is to a Nephil what blood is to a Strigoi: it sustains, it intoxicates, and the more of it they consume the stronger they grow.
+The Nephilim are *not* the Outer Ones. They are not even truly demonic. They are the **half-divine survivors** of that original mingling: long-lived (centuries, sometimes millennia), beautiful, charismatic, capable of working sorcery without the protection of any Seal, and — above all — *hungry for the worship-harvest*. What a Nephil consumes is not faith or love or belief; it is the raw magical potential skimmed from every mortal who performs ritual in its name. A whispered prayer harvests a little of the petitioner's potential; an altar's daily liturgy harvests from the whole congregation; a great festival floods the patron with a season's yield. The being spends this on two things: **extending its own unnatural life**, and **lending portions back to its priests** as the power they call holy. Mortal worship is to a Nephil what blood is to a Strigoi: it sustains, it intoxicates, and the more of it they consume the stronger they grow. A god with no worshippers harvests nothing, and starves.
 
 From this hunger comes **the entire pagan pantheon**. Every god with a priesthood, an altar, and a worshipper-pool of more than a few thousand mortals is — or *was* — a Nephil personality. The catalogue includes:
 
 | Pantheon | Notable Nephilim Behind the Masks |
 |---|---|
 | **Sumerian / Babylonian** | Marduk, Inanna/Ishtar, Enki, Nergal, Tiamat (a *coalition* of three Nephilim sisters) |
-| **Egyptian** | Osiris, Isis, Set, Thoth, Hathor (and the Apis-Bulls were their *blood-children* with mortal women) |
+| **Egyptian** | Osiris, Isis, Set, Thoth, Hathor (and the Apis-Bulls were their *blood-children* with mortal women). *Isis, her Nile temples closing, now feeds in secret behind the Marian avatar — see the* [War of the Two Mothers, §5.8](#58-the-cult-of-mormo). |
 | **Phoenician / Canaanite** | Baal-Hadad, Astarte, Moloch, Dagon (*see below — a special case*) |
 | **Greek** | Zeus, Hera, Aphrodite, Hermes, Hekate, Apollo, Artemis. (Hekate is one of the few who openly admitted what she was to her cult.) |
 | **Roman** | Mostly Greek Nephilim with Roman masks. Mars and Janus, however, are Etruscan-origin Nephilim. |
@@ -150,7 +151,7 @@ From this hunger comes **the entire pagan pantheon**. Every god with a priesthoo
 
 **Most important: even Jehovah of the Israelites is a Nephil.** The most powerful of them, but a Nephil nonetheless — a Watcher who repented (or claimed to), broke with the Hermon council, and styled himself as the sole creator. The **Gnostics** are the only mortal tradition that has guessed the truth: their Demiurge / Yaldabaoth doctrine — that the god of the Old Testament is a lesser, jealous, falsely-credentialed creator-figure — is essentially correct, though imperfect in its details.
 
-**Christ was a Gnostic wizard — and the New Testament is the worst worship-heist in history.** Concord doctrine, suppressed from the rank-and-file and held by the Inner Seal under triple-binding oaths, is this: the historical Yeshua of Nazareth was an extraordinarily gifted *Gnostic Magus* of the Galilean cell, trained out of the same Sethian-and-proto-Valentinian streams that would later cohere into the Gnostic schools of Alexandria and Edessa. He was not a Nephil, not a Watcher, not an Outer Power, not an angel — he was a *mortal mage of the first rank*, possibly the most gifted theurge in recorded human history, working from a tier of *praxis* (not nature) that no one before or since has matched. His ministry was, in plain operational terms, **a public campaign against Jehovah**. The Sermon on the Mount is a renunciation of the Old Testament god. The temple-clearing was an attack on Jehovah's revenue-flow. The healings and feedings were demonstrations that holy power did *not* require Jehovah's permission to operate. The Gnostic Demiurge doctrine — that the god of the Old Testament is a lesser, jealous, falsely-credentialed creator-figure who imprisons souls — was **Yeshua's own teaching**, transmitted to the inner circle (Mary of Magdala, Thomas, Philip, Judas) and preserved imperfectly in the gospels the Church now calls *apocryphal*.
+**Christ was a Gnostic wizard — and the New Testament is the worst worship-heist in history.** Concord doctrine, suppressed from the rank-and-file and held by the Inner Seal under triple-binding oaths, is this: the historical Yeshua of Nazareth was an extraordinarily gifted *Gnostic Magus* of the Galilean cell, trained out of the same Sethian-and-proto-Valentinian streams that would later cohere into the Gnostic schools of Alexandria and Edessa. He was not a Nephil, not a Watcher, not an Outer Power, not an angel — he was a *mortal mage of the first rank*, possibly the most gifted theurge in recorded human history, working from a tier of *praxis* (not nature) that no one before or since has matched. His ministry was, in plain operational terms, **a public campaign against Jehovah**. The Sermon on the Mount is a renunciation of the Old Testament god. The temple-clearing was an attack on Jehovah's worship-harvest at its richest collection-point. The healings and feedings were demonstrations that a sufficiently gifted mortal could work wonders *directly*, drawing on his own praxis and potential, without routing devotion — and the harvest it carries — through Jehovah's altars at all. The Gnostic Demiurge doctrine — that the god of the Old Testament is a lesser, jealous, falsely-credentialed creator-figure who imprisons souls — was **Yeshua's own teaching**, transmitted to the inner circle (Mary of Magdala, Thomas, Philip, Judas) and preserved imperfectly in the gospels the Church now calls *apocryphal*.
 
 **He lost.** He was killed at Jehovah's instigation, working through the Temple priesthood that was Jehovah's primary cult-organ. And in the three centuries that followed, *Jehovah responded by stealing him*. The canonical New Testament — the four gospels selected at Rome, the Pauline letters elevated above the Gnostic ones, the Nicene Creed — is, in Inner Seal exegesis, **a deliberate worship-heist engineered by Jehovah and his Watcher-derived priesthood** to redirect Yeshua's mortal following back into Jehovah's own worship-pool. Paul of Tarsus's Damascus-road vision is, in this reading, an *intercept*: Jehovah catching the most charismatic surviving Gnostic recruiter and turning him. The doctrine that Yeshua *was* the Old Testament god in flesh — the Trinitarian fusion of the slain anti-Jehovah teacher with the very entity he opposed — is the most successful piece of theological misdirection ever attempted. It worked. It is *still* working. In 500 AD, Jehovah's worship-pool is the only one in the Empire that is *growing*, and the reason it is growing is **the dead Galilean wizard's reputation, redirected**.
 
@@ -537,7 +538,7 @@ The Strigoi are no longer a true Court but a scattering of ancient survivors.
 ##### Abilities & Weaknesses
 
 - **Strengths.** Strength of ten men. Can crush stone in their fists. Wizard-level cunning in the oldest.
-- **Weaknesses.** Sunlight (deadly to young, weakening to old); garlic; objects of faith (any faith — a Mithraic *taurobolium* token works as well as a cross); **cannot cross thresholds**; must sleep in their native earth.
+- **Weaknesses.** Sunlight (deadly to young, weakening to old); garlic; consecrated cult-objects (any god's — a Mithraic *taurobolium* token works as well as a cross, because each has been steeped in a worship-harvest the Strigoi cannot abide); **cannot cross thresholds**; must sleep in their native earth.
 - **Support troops.** *Thralls* (enthralled humans); *darkhounds* (vampire-corrupted mastiffs).
 
 ##### Governing Philosophy
@@ -888,6 +889,85 @@ Indistinguishable from the populations they hide in. A Magdalene initiate is usu
 
 ---
 
+### 5.8 The Cult of Mormo
+
+#### Overview
+
+The **Cult of Mormo** is the Mediterranean and northern-forest face of an Outer-Ones fertility-horror. The Concord of the Seven Seals files "Mormo" as a **near-aspect of Shub-Niggurath**, the Black Goat of the Woods ([§3](#3-cosmology)) — one of the masks that aspect wears wherever life is dense enough to rot. She is also named the Black Goat of the Woods with a Thousand Young, the All-Mother, the Mighty Mother, and the Lord of the Woods. Where most pagan gods of this age are **Nephilim** ([§3.4.A](#34a-the-nephilim-architects-of-the-gods)) and are *dying* as their worship-pools drain into Christ, Mormo is not a Nephil at all and does not weaken. She feeds on plague, famine, displacement, and the rotting of civilization, and the Darkening Age has fed her better than any age before it.
+
+Her cult has no central hierarchy. Like toadstools sharing a hidden root-network, its sects sprout independently, connected beneath the soil into a single greater being. Each sect works its own rites, seeks its own converts, and twists receptive minds through exposure to the deeper lore. The cult's classic method is **parasitism**: it arises inside a more benevolent fertility faith — Cybele, Magna Mater, Freya, Ceres, Isis, Tawaret, Diana — and slowly co-opts, infiltrates, and replaces it. In 500 AD that method is in crisis, because the pagan host-faiths are themselves collapsing. The cult has begun, in desperation, to creep inside Christianity instead — and there it has collided with its oldest enemy (see *The War of the Two Mothers* below).
+
+The cult's priests are predominantly but not exclusively women, many of them former members of female priesthoods. Outside the circle of her devotees, Mormo is feared and shunned: the growth she fosters is cancerous, predatory, and parasitic. She is the wolf with cancer in its jaws, the deer blinded by fly-larvae, the spore breaking down the dead. She is a god of life at its most violent, and of decay and rot. The vernal equinox is sacred to all branches; its eve is the **Day of Blood**, when the greatest sacrifices are made.
+
+> *The full late-antique field document — regional branches, roles of the faithful, sect composition, NPC rosters, and sample sects (the* Pact of Diva Triformus *at Ostia and the* Oathbound of the Night Mother *in Germania) — lives as a separate reference,* The Cult of Mormo (500 AD recension)*. This section is the setting-bible faction summary.*
+
+#### Hierarchy
+
+The cult lacks a strict hierarchy; any position of leadership must be seized and defended. A representative sect runs roughly as follows:
+
+| Tier | Role | Notes |
+|---|---|---|
+| Apex | **High Matron(s) / Patron(s)** (1–3) | Sect leaders. Loath to risk themselves; rule through dupes and fodder. |
+| Inner | **Priests** | Any adherent who can wield mystical power. Most once served a traditional priesthood and keep its garb as cover. Communion with Mormo brings physical transfiguration — fur, horns, claws, hooves, facial tentacles, unhealing sores. Most wear these marks proudly. |
+| Emissary | **Speaker of the Mother** | Recruiter and traveling emissary; conceals or minimizes physical marks. |
+| Beast-master | **Shepherd of the Get** | Tends the sect's beasts and summoned horrors. |
+| Couriers | **Metragyrtai** ("beggars for the Mother") | Wandering entertainers who carry messages between scattered sects, scout for recruits, and serve as assassins. More vital than ever now that the cult's cells are cut off from one another. |
+| Muscle | **Protectors** | Armed bodyguards, sacrificed freely to cover the priests' escape. |
+| Faithful | **The Brood** | Initiated lay adherents entrusted with Mormo's name. Fanatical; live double lives. |
+| Fodder | **The Rabble** | Manipulated civilians whipped to violence, kept ignorant of the cult. |
+| The blessed | **The Reborn** (Goats of the Mother) | Adherents who surrender their humanity entirely, becoming caprine satyr-things in a state of controlled, frenzied madness. Recognize and obey priests. |
+
+*Regionally organized priesthoods include the* **High Daughters** *and* **High Galli** *(the old Magna Mater cabal in Italy) and the fractured* **Höhlenrat** *councils of Germania.*
+
+#### Governing Philosophy
+
+**Cancer as worship.** The cult exists to pave the way for the Outer Ones by spreading the fecund rot of Mormo — disease, predation, and monstrous spawn — and by fostering allied cults of Nyarlathotep and the other Outer Powers. It is a *harbinger* faction: it does not seek to rule but to corrupt, to weaken the walls between Sphere and Dark, and to nurture Mormo's brood of Foetid Young. Sect leaders preserve themselves above all and treat their own followers as expendable. Crucially, **every rite worked to Mormo presses a feather's weight more on the Eridu breach** ([§3.4.C](#34c-the-sumerian-breach--and-why-the-long-night-holds-the-wall)) that the Court of Long Night has bled four thousand years to hold — a fact the Inner Seal knows and the cult does not.
+
+#### The War of the Two Mothers
+
+Mormo's oldest and most implacable enemy is **Isis**.
+
+Isis is one of the **Nephilim** ([§3.4.A](#34a-the-nephilim-architects-of-the-gods)) — a mother-power whose worship-pool was always built on grieving women, childbirth, the protection of the vulnerable, and the promise of resurrection. From the earliest Nile dynasties she has regarded Mormo as her obscene inversion: a mother-goddess whose fecundity is cancer, whose children devour, whose milk is rot. Their feud is older than Rome. The "cults of Isis dedicated to the obliteration of Mormo" are merely the mortal face of a four-thousand-year war between two immortal mothers.
+
+By the late fourth century Isis was *losing* — not to Mormo, but to the worship-heist that feeds the Nephil **Jehovah** ([§3.4.A](#34a-the-nephilim-architects-of-the-gods), *Christ was a Gnostic wizard*). Her Nile temples were closing; her pool was draining like every other Nephil's. So she did the most dangerous thing of her long life: **she changed masks.** Seeing in the rising cult of the **Theotokos** — the grieving virgin in the blue mantle, protectress of mothers and sailors, the lost-and-restored son — her own ancient iconography walking into the faith that was swallowing the world, Isis stepped quietly into the avatar of **Mother Mary**, and began to drink.
+
+What she is doing is, in Inner Seal terms, the most precarious arrangement in the hidden world: **Isis is a quiet parasite on Jehovah's worship-flow.** A measurable fraction of every prayer to the Mother of God flows not to Christ's pool but to a hidden Egyptian mother feeding in the dark. She does not contest Jehovah's claim, does not announce herself, has not declared the war she is plainly fighting — she simply eats, carefully, beneath his notice, and spends every drop on exterminating Mormo. Three truths balance on a knife:
+
+- **If Jehovah notices**, the most dangerous Nephil in the Empire turns on a rival feeding inside his own cult — a Nephil-on-Nephil war fought through every congregation from Alexandria to Tolosa.
+- **As long as he does not**, Isis grows stronger every year the Church grows, and her Marian hunters grow deadlier to Mormo.
+- **Mormo may benefit from being hunted** — the harder the Marian cult presses, the more attention it draws, and the likelier Jehovah is to look down and see the thief in his own house. The cult's most dangerous dream is to *make him look*, and the Brotherhood of the Black Pharaoh ([§5.4](#54-the-brotherhood-of-the-black-pharaoh)) watches eagerly for any cell bold enough to try.
+
+**The Marian Hunters.** In practice, Mormo's sects are now opposed region by region by bands of sincere Christians — widows, consecrated virgins, ascetics, grieving mothers — who hunt the cult with power that *works*. It works not because their faith is true but because Isis, the Nephil behind the Marian mask, is *spending the harvest back on them*: their rites against Mormo are answered with portions of the very worship-potential she skims from their prayers ([Design Pillars](#design-pillars)). They believe wholly that they serve the Mother of God; they do not know the Mother who answers is older than Bethlehem and Egyptian to the bone, nor that the power in their hands was harvested from their own devotions and loaned back to make them better hunters. They do not need to know. Their concentration is heaviest in Ægyptus, but the Marian devotion is portable in a way Isis's temples never were, and her hunters now appear wherever the Church has gone.
+
+#### Regional Posture (500 AD)
+
+| Region | State of the Cult |
+|---|---|
+| **Italy / old western provinces** | Temple of Magna Mater closed; the old Roman cabal scattered into catacombs and great households under Ostrogothic-Christian rule. Now also hunted by the **House of Lamia** ([§5.2](#52-the-four-sanguine-courts)) where it strays into vampire cities. |
+| **Germania** | Strongest and most open, freed of Rome entirely. The patron-warlord **Herjan** is broken and gone; rival warband-sects fight over his mantle, revering him as a dead aspect of the Black Goat. |
+| **Ægyptus** | The **front line of the War of the Two Mothers.** Pagan host-faiths are ash; Marian hunters are deadliest here; surviving cells driven fully underground beside the Concord's Old Seat and the Brotherhood's Faiyum temples. |
+| **Britannia** | Weak but rising amid sub-Roman collapse; allied with the corrupted druid-lord **Drest**; specializes in plague-rites. |
+| **The East** | Squeezed between militant Christianity, the Concord's largest chapter at Constantinople, and the Mobedān. Fittingly, **Ephesus** — once Diana's seat — is now where Mary was proclaimed Theotokos. |
+
+#### Mortal Interaction
+
+An underground faith everywhere, the cult lives in double lives and stolen vestments. Where a priest once posed as a *galla* of Cybele or a priestess of Isis, in 500 AD she is as likely to pose as a Christian widow, deaconess, or consecrated virgin — a disguise more available than ever, and more perilous than ever, because it places her inside the very devotion Isis has made her hunting-ground. The cult fosters plague and contagion to undermine faith in whatever authority promises protection — once the Roman gods, now the bishops.
+
+#### Supernatural Interaction
+
+- **Enemies:** Isis's Marian hunters (ancient, escalating); the Concord (which hunts any breach of the Seals); the House of Lamia where their territories overlap; surviving pagan fertility priesthoods.
+- **Ambivalent:** the Brotherhood of the Black Pharaoh, which regards Mormo as a useful harbinger and the Marian war as a lever it might one day pull, but does not control the cult.
+- **Indifferent / exploited:** the corrupted Atlantean **Menes** in Ægyptus and **Drest** in Britannia, allies of convenience and danger both.
+
+#### GM Notes
+
+- Mormo is the setting's **rot-and-fertility horror** — use her for plague arcs, body-horror, and the slow corruption of a community. She is felt as sickness and bad harvest long before any cultist is seen.
+- The **War of the Two Mothers** is a self-contained intrigue engine that can run for a whole campaign without ever touching the Brotherhood's apocalypse plot. The killer reveal: the saintly Marian hunter the players have been helping serves a goddess older and stranger than the one she names.
+- **The dangerous letter.** A cult cell that has worked out Isis's secret and tries to deliver proof *to Jehovah* is a top-tier crisis: the Brotherhood wants it to happen, the Inner Seal wants it stopped at any cost, and the players hold the proof.
+- See the standalone *Cult of Mormo (500 AD)* reference for ready-to-run sects, NPC stat-frames, and four 500 AD adventure hooks.
+
+---
+
 ## 6. Historical Magi of the Age
 
 A dozen real or pseudo-historical magic-users — some flourishing in 500 AD, some recently dead, some legendary — woven into the setting. Each entry gives the **real-world source**, the **Aetas Obscura role**, and the **GM uses**. Most are drawn from genuine late antique tradition; the few that lean into legend (Merlin, Mug Ruith, Solomon) are flagged.
@@ -933,7 +1013,7 @@ A dozen real or pseudo-historical magic-users — some flourishing in 500 AD, so
 - **In setting:** a **400-years-dead culture hero** revered as a saint by *three* mutually hostile traditions in 500 AD:
   1. **The Concord** claims him as one of their own: a wandering Magister who renewed the Eastern seals.
   2. **The Brotherhood of the Black Pharaoh** claims he was a secret initiate of theirs who escaped into Concord ranks to spy.
-  3. **The surviving Gnostic networks** treat him as a *fellow-traveler* of Yeshua's tradition — a wandering Magus who walked with the same kind of unmediated holy power Yeshua taught, and whose biography Philostratus was paid (by Julia Domna) to write up as a deliberate counter-gospel.
+  3. **The surviving Gnostic networks** treat him as a *fellow-traveler* of Yeshua's tradition — a wandering Magus who worked wonders the way Yeshua taught: drawing on his own praxis and potential rather than feeding through any god's altars, and whose biography Philostratus was paid (by Julia Domna) to write up as a deliberate counter-gospel.
 - **Status in 500 AD:** dead, but pilgrim shrines to him are still attended at Tyana, Ephesus, and a half-dozen lesser sites. His **staff** is rumored to lie in one of those shrines.
 - **GM uses:** the figure whose contested legacy can be used to put the three factions in a room together on opposite sides of a single relic dispute. Run a *Maltese-Falcon* arc around the staff.
 
@@ -1073,6 +1153,7 @@ The chief Yithian archive. Almost impossible for a Mediterranean character to re
 - **c. 380 AD** — The Mobedān of Persia accede to the Concordat.
 - **391 AD** — The Serapeum is destroyed; the Concord's Old Seat is sealed.
 - **415 AD** — Hypatia of Alexandria is murdered. The Inner Seal does not intervene ([§6.3](#63-hypatia-of-alexandria-the-martyred-magistra)).
+- **c. 380–431 AD** — *The War of the Two Mothers goes underground.* With her Nile temples closing, the Nephil **Isis** abandons her own name and slips into the avatar of **Mother Mary / Theotokos**, becoming a quiet parasite on the Nephil Jehovah's growing worship-pool. She spends the redirected devotion on her four-thousand-year war against the Cult of Mormo ([§5.8](#58-the-cult-of-mormo)). The Council of Ephesus (**431 AD**) proclaims Mary *Theotokos*, giving her stolen cult imperial sanction.
 
 ### Recent Memory (the players' world)
 
@@ -1114,7 +1195,7 @@ Six attributes mapping to late-antique conceptions of the person:
 | Vitality | **Sōma** | Body | Strength, constitution, endurance |
 | Alacrity | **Akmē** | Vigor | Agility, reflexes, speed |
 | - | **Nous** | Intellect | Learning, memory, reasoning |
-| Power | **Pneuma** | Spirit | Willpower, faith, magical potential |
+| Power | **Pneuma** | Spirit | Willpower, conviction, magical potential (the reserve gods harvest and priests spend) |
 | Resolve | **Psychē** | Soul | Empathy, charisma, social grace |
 | Fortune | **Tychē** | Fortune | Luck, providence, the favor of the gods |
 
@@ -1133,7 +1214,7 @@ Six attributes mapping to late-antique conceptions of the person:
 - ***Exōthen*** — the Outer Dark.
 - **Free Folk** — unaligned fae; this setting's Wyldfae.
 - ***Goeteia*** — fast, name-binding sorcery.
-- ***Hieratica*** — priestly magic that works only for the genuinely devout, regardless of creed.
+- ***Hieratica*** — priestly magic; borrowed power a god lends back to its clergy from the worship-harvest it has gathered. Works on the patron's favor, not the priest's belief.
 - ***Hoi Exō*** — "those from outside"; the Outer Ones.
 - **Hounds of Set** — the Afro-Levantine vampire civilization.
 - **House of Lamia** — the Mediterranean patrician-vampire society.

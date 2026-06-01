@@ -117,7 +117,7 @@ Medicae covers diagnosing and treating injuries, diseases, and other debilitatin
 | Specialization | Description |
 |:---- |:---- |
 | Contagion | Knowledge of diseases: their causes, transmission, symptoms, and treatment. |
-| Faith Healing | Rites and rituals for petitioning gods or supernatural beings to aid the sick or injured. (Requires a Spellcaster trait.) |
+| Hieratic Healing | Rites and rituals through which a priest's patron spends a portion of its worship-harvest to mend the sick or injured. The power is the god's, loaned to its clergy; the healer's own belief is irrelevant. (Requires a Spellcaster trait.) |
 | Field Treatment | Rapidly stabilizing bleeding and dressing wounds in the field to keep the injured alive for more comprehensive care. |
 | Pharmacia | Knowledge of naturally derived medicines, toxins, and drugs, including how to manufacture, identify, and counteract them. |
 | Surgery | Surgical procedures involving incision, tissue removal, foreign body extraction, amputation, or wound closure. |

@@ -217,9 +217,21 @@ of Aeneus'people, tying her closely to the legendary founding of
 Rome. Cults of Cybele became popular across the Empire, engaged
 Taurobolium, where the blood of a sacrificed bull was released
 to pour through a grate and onto a priestess standing beneath,
-symbolically feeding the carth in the hope of securing a bountiful
 symbolically feeding the earth in the hope of securing a bountiful harvest. But among the membership grew a small cabal who preserved the lore of Mormo and practiced more profane rites in
+secret. They conduct prayers in hidden passages below the temple,
+where they make periodic sacrifices, including of orphaned
+children and captive slaves, offered to Mormo's Foetid Young.
 
+This branch of the Cult of Mormo is more involved in esoteric
+and mystical matters than active clashes against rivals. They seek
+to remain hidden and unseen, and to find ways to encourageand
+foster other seditious cults dedicated to Mormo's allies among the
+Outer Gods. They have at times been responsible for unleashing
+localized afflictionsand contagions, scekingto undermine
+the peoples' faith in the Roman gods and their priesthoods.
+Adherentsin high positions have sought toleverage their power
+to influence Rome's greatest families, competing with other
+religious leaders such as the Vestal Virgins.
 
 In addition to its secret presence in Rome itself, pockets of this
 cult are spread throughout the Empire, generally operating
@@ -263,55 +275,21 @@ masks. Thought to be a guardian of beasts and a mother of wild
 things, the worship of Perchta served as a natural cover for
 those praising Mormo.
 
-preserved the lore of Mormo and practiced more profane rites in
-secret. They conduct prayers in hidden passages below the temple,
-where they make periodic sacrifices, including oforphaned
-children and captive slaves, offered to Mormo's Foetid Young.
-
 The Cult of Mormo in Germania is only loosely organized, with
 leadership falling to the most ruthless priests who have proven
 their capability in opening the way for the Foetid Young. In some
-
-This branch of the Cult of Mormo is more involved in esoteric
-
 areas they need not operate in secret, having overtaken entire
-
-and mystical matters than active clashes against rivals. They seek
-
 villages whose people worship Mormo, though sometimes
-
-to remain hidden and unseen, and to find ways to encourageand
-
 referring to her by the names of another local god. They band
-
-foster other seditious cults dedicated to Mormo's allies among the
-
 togetherwhen the need arises, heeding the strongest of their
-
-Outer Gods. They have at times been responsible for unleashing
-
 number and eager to prove their devotion. When the Cult
-
-localized afflictionsand contagions, scekingto undermine
-
 of Mormo in Germania commits to conflict, they are joined
-
-the peoples' faith in the Roman gods and their priesthoods.
-
 by countless horrors. Packs of Teufelshunde howl and stalk
-
-Adherentsin high positions have sought toleverage their power
-
 alongside them, and they have weaponized fungal spores in
-
-to influence Rome's greatest families, competing with other
-
 glass globes that can transform men into servitors.
-
-religious leaders such as the Vestal Virgins.
-
 The most zealous of Germanic faithful view their human
 bodies as inferior and inadequate. Powerful priests know rites
+
 
 cult to practice entirely underground and in far greater secrecy
 

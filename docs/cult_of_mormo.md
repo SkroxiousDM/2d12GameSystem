@@ -714,7 +714,7 @@ collaboration and coordination with elements of Herjan's
 warbands, whose leaders have loaned junior warriors to the
 sect to season them and protect their holdings.
 
-SECT COMPOSITION
+#### SECT COMPOSITION
 This sect includes almost entirely Germanian villagers and
 warriors, though there are some in this region with Celtic
 or other origins. Members of this sect can be of any age and

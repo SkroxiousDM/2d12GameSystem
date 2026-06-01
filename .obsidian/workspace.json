@@ -199,6 +199,8 @@
   },
   "active": "7b84c46cc61e5997",
   "lastOpenFiles": [
+    "branch-rulesets/PRs and commits.json",
+    "branch-rulesets",
     "docs/20-gm-toolkit-and-encounter-design.md",
     "docs/09-environment.md",
     "The-World-of-500AD.md",
@@ -224,7 +226,6 @@
     "docs/06.4-druidic-spellbook.md",
     "docs/06.2-oracular-spellbook.md",
     "docs/06.1-runic-spellbook.md",
-    "docs/06-magic.md",
-    "docs/07-sanity.md"
+    "docs/06-magic.md"
   ]
 }

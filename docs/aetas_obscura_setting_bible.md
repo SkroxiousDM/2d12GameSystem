@@ -42,7 +42,7 @@
 
 ## 1. The Premise
 
-**Aetas Obscura** is a syncretic cosmic-horror setting that asks: *what if the supernatural politics of the modern Dresdenverse had been playing out, openly and bloodily, when Rome fell?*
+**Aetas Obscura** is a cosmic-horror setting that asks: *what if the supernatural politics of the modern Dresdenverse had been playing out, openly and bloodily, when Rome fell?* Its central, blasphemous engine is simple: **the gods are real, but they are not gods.** They are long-lived predators who learned that organized worship can be *milked* — that prayer and ritual wring a faint magical charge out of every mortal who performs them, a charge the so-called god harvests to feed its own unnatural life and to pay its priests.
 
 It is the year 500 AD. The Western Empire died a generation ago. Constantinople rules a brittle east. Persia waits across the Euphrates. New kingdoms of Goths and Franks and Burgundians scrabble over Roman bones. The old gods are dying — but they are not dead, and what is replacing them is not always Christ.
 
@@ -54,7 +54,7 @@ The Darkening Age is not a metaphor.
 
 ### Design Pillars
 
-- **Syncretic faith.** Christ, Mithras, Ahura Mazda, Hekate, Isis, Cthulhu — all real, all active, all dangerous. No single creed is The Truth. Holy power works for the faithful, regardless of the god named.
+- **Worship is fuel, not truth.** Christ, Mithras, Ahura Mazda, Hekate, Isis — the "gods" behind these cults are real beings, but their divinity is a confidence trick. Religious ritual *generates* raw magical power, and the thing being prayed to harvests it. No creed is The Truth; belief grants the believer nothing. A mortal's faith, however sincere, has no power of its own — it only fills the cup that something else drinks from.
 - **Politics over plumbing.** Every faction has factions inside it. Every great power has a successor scheming.
 - **Cosmic horror with stakes.** The Mythos is real and unwinnable on its own terms, but human-scale victories matter. You cannot save the world. You can save your village, your apprentice, your friend.
 - **Late antiquity as a character.** Real places, real polities, real religions, used as the bones of the setting — then twisted.
@@ -119,7 +119,7 @@ Magic in this setting is **the imposition of a name on reality**. To name a thin
 - **Goeteia** — name-binding sorcery from the Greek Magical Papyri; faster, dirtier, draws on chthonic powers. Often a violation of the Seals.
 - **Magia** — Zoroastrian fire-and-word magic practiced by the Persian Mobedān. Distinct from the Concord but mutually respectful.
 - **Hermetica** — Egyptian-Greek synthesis; the science of correspondences. Anyone literate can dabble; few survive.
-- **Hieratica** — priestly magic; works only for the genuinely devout, regardless of which god. Practiced by Concord-aligned clergy, by Mobedān fire-priests, and by a thinning bench of pagan hierophants.
+- **Hieratica** — priestly "miracle"-working. A priest channels power that his patron deity *doles out to him* from the cult's harvested worship-pool; the priest's own devotion is irrelevant, only his standing with the entity that feeds him. A priest cut off from his patron — or serving a god whose worship-pool has run dry — can do nothing. Practiced by Concord-aligned clergy, by Mobedān fire-priests, and by a thinning bench of pagan hierophants whose patrons still answer.
 - **Black Speech** — the language of the Outer Ones. To learn even a syllable is to leave a door open behind your eyes.
 
 The **Seven Seals of Solomon** (see [§5.1](#51-the-concord-of-the-seven-seals)) are the absolute prohibitions of the Concord. They are not "laws" in a mortal sense; they are **architectural features of reality** that the Concord enforces because to break them is to weaken the walls between Sphere and Dark.
@@ -132,7 +132,18 @@ This subsection is the **single most carefully guarded body of doctrine** in the
 
 In the ages before recorded history, two hundred *Watchers* (*Egrēgoroi*) descended from the higher Sphere onto Mount Hermon. They lusted after mortal women, took them, and fathered a race of giant-blooded hybrids: the **Nephilim**. The Watchers also taught humanity weaponry, cosmetics, metallurgy, and — fatally — *sorcery*. (The Concord's official line is that this is allegory. It is not. The [*Book of the Watchers* tradition](https://en.wikipedia.org/wiki/Watcher_\(angel\)) is *literal* history, reduced over centuries to scripture.)
 
-The Nephilim are *not* the Outer Ones. They are not even truly demonic. They are the **half-divine survivors** of that original mingling: long-lived (centuries, sometimes millennia), beautiful, charismatic, capable of working sorcery without the protection of any Seal, and — above all — *hungry for worship*. Mortal devotion is to a Nephil what blood is to a Strigoi: it sustains, it intoxicates, and the more of it they consume the stronger they grow.
+The Nephilim are *not* the Outer Ones. They are not even truly demonic. They are the **half-divine survivors** of that original mingling: long-lived (centuries, sometimes millennia), beautiful, charismatic, capable of working sorcery without the protection of any Seal, and — above all — *hungry for worship*. Worship is to a Nephil what blood is to a Strigoi: it sustains, it intoxicates, and the more of it they consume the stronger they grow.
+
+##### How Worship Actually Feeds Them (The Mechanic)
+
+Neither the Watchers nor their Nephilim children want worship out of vanity. They want it because **religious ritual literally manufactures magical power, and they have learned to harvest it.** The chain works like this:
+
+- Every mortal carries a small reservoir of **magical potential** (the *Pneuma* of the rules; see [§9](#9-running-the-game-2d12-friendly)). It is not faith and it is not belief — it is a latent charge every living person possesses whether or not they ever pray.
+- A **whispered prayer in a god's name** skims a tiny fraction of that potential off the person praying and routes it to the named entity. The worshipper rarely notices; the loss is trivial and **it regenerates by the next day**, like a drawn breath. A single prayer is nothing. A city of fifty thousand people praying daily is a *river*.
+- **Organized ritual** — a temple liturgy, a sacrifice, a festival, a baptism — is simply the most efficient way to make many mortals route their potential at once, on schedule, in concentrated form. This is what a priesthood is *for*: it is harvesting infrastructure.
+- The harvested charge does two things for the entity that drinks it. First, it **extends and fuels its unnatural life** — a well-fed Nephil is strong, ageless, and can work great sorcery; a starved one weakens, sleeps, and finally dies in truth. Second, the entity can **dole portions of it back out to its priests**, which is the entire basis of *Hieratica* ([§3](#how-magic-works-briefly)): a priest's "miracles" are the cult's own harvested power, lent back to him by the thing he serves.
+
+The horror of this is that **belief is irrelevant to the transaction.** A skeptic dragooned into temple service, a frightened peasant muttering a rote prayer, a child taught the words — all feed the pool exactly as much as a true devotee. The gods do not need to be loved. They need only to be *invoked*, often, by name, by many. Everything else — doctrine, scripture, the promise of an afterlife — is marketing built to keep the names on mortal lips.
 
 From this hunger comes **the entire pagan pantheon**. Every god with a priesthood, an altar, and a worshipper-pool of more than a few thousand mortals is — or *was* — a Nephil personality. The catalogue includes:
 
@@ -150,7 +161,7 @@ From this hunger comes **the entire pagan pantheon**. Every god with a priesthoo
 
 **Most important: even Jehovah of the Israelites is a Nephil.** The most powerful of them, but a Nephil nonetheless — a Watcher who repented (or claimed to), broke with the Hermon council, and styled himself as the sole creator. The **Gnostics** are the only mortal tradition that has guessed the truth: their Demiurge / Yaldabaoth doctrine — that the god of the Old Testament is a lesser, jealous, falsely-credentialed creator-figure — is essentially correct, though imperfect in its details.
 
-**Christ was a Gnostic wizard — and the New Testament is the worst worship-heist in history.** Concord doctrine, suppressed from the rank-and-file and held by the Inner Seal under triple-binding oaths, is this: the historical Yeshua of Nazareth was an extraordinarily gifted *Gnostic Magus* of the Galilean cell, trained out of the same Sethian-and-proto-Valentinian streams that would later cohere into the Gnostic schools of Alexandria and Edessa. He was not a Nephil, not a Watcher, not an Outer Power, not an angel — he was a *mortal mage of the first rank*, possibly the most gifted theurge in recorded human history, working from a tier of *praxis* (not nature) that no one before or since has matched. His ministry was, in plain operational terms, **a public campaign against Jehovah**. The Sermon on the Mount is a renunciation of the Old Testament god. The temple-clearing was an attack on Jehovah's revenue-flow. The healings and feedings were demonstrations that holy power did *not* require Jehovah's permission to operate. The Gnostic Demiurge doctrine — that the god of the Old Testament is a lesser, jealous, falsely-credentialed creator-figure who imprisons souls — was **Yeshua's own teaching**, transmitted to the inner circle (Mary of Magdala, Thomas, Philip, Judas) and preserved imperfectly in the gospels the Church now calls *apocryphal*.
+**Christ was a Gnostic wizard — and the New Testament is the worst worship-heist in history.** Concord doctrine, suppressed from the rank-and-file and held by the Inner Seal under triple-binding oaths, is this: the historical Yeshua of Nazareth was an extraordinarily gifted *Gnostic Magus* of the Galilean cell, trained out of the same Sethian-and-proto-Valentinian streams that would later cohere into the Gnostic schools of Alexandria and Edessa. He was not a Nephil, not a Watcher, not an Outer Power, not an angel — he was a *mortal mage of the first rank*, possibly the most gifted theurge in recorded human history, working from a tier of *praxis* (not nature) that no one before or since has matched. His ministry was, in plain operational terms, **a public campaign against Jehovah**. The Sermon on the Mount is a renunciation of the Old Testament god. The temple-clearing was an attack on Jehovah's revenue-flow — the harvesting infrastructure of his cult. The healings and feedings were demonstrations that a disciplined mortal theurge could work wonders *on his own praxis*, drawing nothing from Jehovah's worship-pool and needing no god's permission to do it. The Gnostic Demiurge doctrine — that the god of the Old Testament is a lesser, jealous, falsely-credentialed creator-figure who imprisons souls — was **Yeshua's own teaching**, transmitted to the inner circle (Mary of Magdala, Thomas, Philip, Judas) and preserved imperfectly in the gospels the Church now calls *apocryphal*.
 
 **He lost.** He was killed at Jehovah's instigation, working through the Temple priesthood that was Jehovah's primary cult-organ. And in the three centuries that followed, *Jehovah responded by stealing him*. The canonical New Testament — the four gospels selected at Rome, the Pauline letters elevated above the Gnostic ones, the Nicene Creed — is, in Inner Seal exegesis, **a deliberate worship-heist engineered by Jehovah and his Watcher-derived priesthood** to redirect Yeshua's mortal following back into Jehovah's own worship-pool. Paul of Tarsus's Damascus-road vision is, in this reading, an *intercept*: Jehovah catching the most charismatic surviving Gnostic recruiter and turning him. The doctrine that Yeshua *was* the Old Testament god in flesh — the Trinitarian fusion of the slain anti-Jehovah teacher with the very entity he opposed — is the most successful piece of theological misdirection ever attempted. It worked. It is *still* working. In 500 AD, Jehovah's worship-pool is the only one in the Empire that is *growing*, and the reason it is growing is **the dead Galilean wizard's reputation, redirected**.
 
@@ -537,7 +548,7 @@ The Strigoi are no longer a true Court but a scattering of ancient survivors.
 ##### Abilities & Weaknesses
 
 - **Strengths.** Strength of ten men. Can crush stone in their fists. Wizard-level cunning in the oldest.
-- **Weaknesses.** Sunlight (deadly to young, weakening to old); garlic; objects of faith (any faith — a Mithraic *taurobolium* token works as well as a cross); **cannot cross thresholds**; must sleep in their native earth.
+- **Weaknesses.** Sunlight (deadly to young, weakening to old); garlic; **consecrated relics** (any cult's — a Mithraic *taurobolium* token works as well as a cross, because what repels the Strigoi is the charge of harvested worship-power bound into the object by its god, *not* the bearer's belief; a relic of a starved or dead god is just an ornament); **cannot cross thresholds**; must sleep in their native earth.
 - **Support troops.** *Thralls* (enthralled humans); *darkhounds* (vampire-corrupted mastiffs).
 
 ##### Governing Philosophy
@@ -933,7 +944,7 @@ A dozen real or pseudo-historical magic-users — some flourishing in 500 AD, so
 - **In setting:** a **400-years-dead culture hero** revered as a saint by *three* mutually hostile traditions in 500 AD:
   1. **The Concord** claims him as one of their own: a wandering Magister who renewed the Eastern seals.
   2. **The Brotherhood of the Black Pharaoh** claims he was a secret initiate of theirs who escaped into Concord ranks to spy.
-  3. **The surviving Gnostic networks** treat him as a *fellow-traveler* of Yeshua's tradition — a wandering Magus who walked with the same kind of unmediated holy power Yeshua taught, and whose biography Philostratus was paid (by Julia Domna) to write up as a deliberate counter-gospel.
+  3. **The surviving Gnostic networks** treat him as a *fellow-traveler* of Yeshua's tradition — a wandering Magus who worked wonders on the same kind of self-derived praxis Yeshua taught — drawing on no god's worship-pool, and whose biography Philostratus was paid (by Julia Domna) to write up as a deliberate counter-gospel.
 - **Status in 500 AD:** dead, but pilgrim shrines to him are still attended at Tyana, Ephesus, and a half-dozen lesser sites. His **staff** is rumored to lie in one of those shrines.
 - **GM uses:** the figure whose contested legacy can be used to put the three factions in a room together on opposite sides of a single relic dispute. Run a *Maltese-Falcon* arc around the staff.
 
@@ -1133,7 +1144,7 @@ Six attributes mapping to late-antique conceptions of the person:
 - ***Exōthen*** — the Outer Dark.
 - **Free Folk** — unaligned fae; this setting's Wyldfae.
 - ***Goeteia*** — fast, name-binding sorcery.
-- ***Hieratica*** — priestly magic that works only for the genuinely devout, regardless of creed.
+- ***Hieratica*** — priestly "miracle"-working; power a patron deity doles out to its priests from the cult's harvested worship-pool. The priest's own faith is irrelevant; cut off from the patron, he can do nothing.
 - ***Hoi Exō*** — "those from outside"; the Outer Ones.
 - **Hounds of Set** — the Afro-Levantine vampire civilization.
 - **House of Lamia** — the Mediterranean patrician-vampire society.

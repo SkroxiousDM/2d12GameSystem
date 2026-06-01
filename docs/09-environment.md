@@ -9,7 +9,7 @@ Every 4 hours spent in an inhospitable environment — such as subzero temperatu
 
 ## Cold
 
-Your first failure imposes Disadvantage on Dexterity and Agility tests. Your second failure imposes Disadvantage on all tests. Your third and subsequent failures cause 5 physical stress that ignores Armour; if this reduces your Vitality to 0, you fall Unconscious and continue to suffer 5 physical stress and accrue Critical Wounds until you die or are removed to safety. Certain equipment may grant bonuses to cold Exposure tests or remove the need for them entirely.
+Your first failure imposes Disadvantage on Dexterity and Agility tests. Your second failure imposes Disadvantage on all tests. Your third and subsequent failures cause 4 physical stress that ignores Armour; if this reduces your Vitality to 0, you fall Unconscious and continue to suffer 4 physical stress and accrue Critical Wounds until you die or are removed to safety. Certain equipment may grant bonuses to cold Exposure tests or remove the need for them entirely.
 
 ## Noxious
 
@@ -17,10 +17,16 @@ Your first failure causes coughing and spluttering, imposing Disadvantage on Ste
 
 ## Heat
 
-Your first failure imposes Disadvantage on Intelligence and Willpower tests. Your second failure imposes Disadvantage on all tests and makes you Fatigued. Your third and subsequent failures cause 5 physical stress that ignores Armour; if this reduces your Vitality to 0, you suffer a second Fatigued condition and continue to suffer 5 physical stress and accrue Critical Wounds until you die or are removed to safety. Stripping off heavy clothing and armour negates 1 failed test.
+Your first failure imposes Disadvantage on Intelligence and Willpower tests. Your second failure imposes Disadvantage on all tests and makes you Fatigued. Your third and subsequent failures cause 5 physical stress that ignores Armour; if this reduces your Vitality to 0, you suffer a second Fatigued condition and continue to suffer 4 physical stress and accrue Critical Wounds until you die or are removed to safety. Stripping off heavy clothing and armour negates 1 failed test.
 
 
 ## 09.3-Thirst and Starvation
+
+When you are deprived of food or water, you begin to starve and must make a **Challenging** Fortitude test to resist the effects or postpone them. Each additional test is one Difficulty step harder than the last. While deprived, you cannot recover Wounds or remove Fatigued
+
+**Water:** Each day without sufficient water requires a **Challenging** Fortitude test. The first failure imposes Disadvantage on Reason, Willpower, and Charisma tests. Further failures impose Disadvantage on all tests and inflict 4 physical stress that ignores Armour
+
+**Food:** Every three days without food requires a **Routine** Fortitude test. The first failure imposes Disadvantage on Might and Constitution tests. Further failures impose Disadvantage on all tests and inflict 3 physical stress that ignores Armour
 
 ## 09.4-Falling
 

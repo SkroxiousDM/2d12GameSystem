@@ -15,24 +15,23 @@
 1. [The Premise](#1-the-premise)
 2. [The World in 500 AD](#2-the-world-in-500-ad)
 3. [Cosmology](#3-cosmology)
-   - 3.4 [The Secret History](#the-secret-history-inner-seal-knowledge) — Inner-Seal-only doctrine: Nephilim as pagan gods, the Watcher-Nephilim war remembered as Titanomachy and Jötunheim, the Eridu breach, the Fomorian war, the Etruscan king and the Hunger
-4. [The Concordat of Hidden Powers](#4-the-concordat-of-hidden-powers) *(this setting's Unseelie Accords)*
+   - 3.4 [The Secret History](#the-secret-history-inner-seal-knowledge) 
+4. [The Concordat of Hidden Powers](#4-the-concordat-of-hidden-powers) 
 5. [The Factions](#5-the-factions)
-   - 5.1 [The Concord of the Seven Seals](#51-the-concord-of-the-seven-seals) — wizards
-   - 5.2 [The Four Sanguine Courts](#52-the-four-sanguine-courts) — vampires
+   - 5.1 [The Concord of the Seven Seals](#51-the-concord-of-the-seven-seals) 
+   - 5.2 [The Four Sanguine Courts](#52-the-four-sanguine-courts) 
      - The Hounds of Set
      - The House of Lamia
      - The Strigoi of Dacia
      - The Court of Jade Breath
-   - 5.3 [The Two Twilight Courts](#53-the-two-twilight-courts) — faeries
+   - 5.3 [The Two Twilight Courts](#53-the-two-twilight-courts) 
      - The Court of Long Night
      - The Court of the Burning Crown
-   - 5.4 [The Bearers of the Thirty Tongues](#54-the-bearers-of-the-thirty-tongues) — Denarians
-   - 5.5 [The Brotherhood of the Black Pharaoh](#55-the-brotherhood-of-the-black-pharaoh) — Nyarlathotep cult
-   - 5.6 [The Esoteric Order of Dagon](#56-the-esoteric-order-of-dagon) — Deep Ones
-   - 5.7 [The Yithian Archive](#57-the-yithian-archive) — Great Race
-   - 5.8 [The Theophoroi](#58-the-theophoroi) — God-Bearers (Knights)
-6. [Historical Magi of the Age](#6-historical-magi-of-the-age) — historical and pseudo-historical magic-users woven in
+   - 5.4 [The Brotherhood of the Black Pharaoh](#54-the-brotherhood-of-the-black-pharaoh) 
+   - 5.5 [The Esoteric Order of Dagon](#55-the-esoteric-order-of-dagon) 
+   - 5.6 [The Yithian Archive](#56-the-yithian-archive) 
+   - 5.7 [The Gnostic Apokryphon](#57-the-gnostic-apokryphon) 
+6. [Historical Magi of the Age](#6-historical-magi-of-the-age) 
 7. [Key Locations](#7-key-locations)
 8. [Timeline of the Hidden World](#8-timeline-of-the-hidden-world)
 9. [Running the Game (2d12-Friendly)](#9-running-the-game-2d12-friendly)
@@ -74,7 +73,7 @@ A brief tour, west to east, of the political map your players will be operating 
 | **Italy** | Ostrogothic Kingdom under Theodoric the Great (Arian; rules from Ravenna; tolerates the Pope) | House of Lamia (Roman patrician families); Concord chapter at Rome |
 | **North Africa** | Vandal Kingdom under Thrasamund (Arian; persecutes Catholics) | Hounds of Set (their seat is at Carthage); Brotherhood of the Black Pharaoh in the deep desert |
 | **Balkans** | Eastern Roman provinces, raided by Bulgars and Slavs | Strigoi homeland in Dacia; Yithian relay-station at Sirmium |
-| **Constantinople** | Eastern Empire under Anastasius I (an old, careful man) | Concord's largest chapter; House of Lamia diaspora; Theophoroi headquarters |
+| **Constantinople** | Eastern Empire under Anastasius I (an old, careful man) | Concord's largest chapter; House of Lamia diaspora; Inner Seal's eastern chancery |
 | **Anatolia / Syria** | Eastern Roman provinces; intense theological strife (Chalcedonian vs. Miaphysite) | Concord; Theurgic schools; Esoteric Order of Dagon along the Lebanese coast |
 | **Egypt** | Eastern Roman province; Alexandria seething with religious violence | Concord (the *Old Seat*); Brotherhood of the Black Pharaoh's open temples in the Faiyum |
 | **Persia (Ērānšahr)** | Sasanian Empire under Kavad I (just restored to the throne; supports the radical Mazdakites who teach communal property) | The Mobedān (Zoroastrian magi) — a distinct wizard tradition; Hounds of Set across the southern border |
@@ -120,7 +119,7 @@ Magic in this setting is **the imposition of a name on reality**. To name a thin
 - **Goeteia** — name-binding sorcery from the Greek Magical Papyri; faster, dirtier, draws on chthonic powers. Often a violation of the Seals.
 - **Magia** — Zoroastrian fire-and-word magic practiced by the Persian Mobedān. Distinct from the Concord but mutually respectful.
 - **Hermetica** — Egyptian-Greek synthesis; the science of correspondences. Anyone literate can dabble; few survive.
-- **Hieratica** — priestly magic; works only for the genuinely devout, regardless of which god. The Theophoroi rely on this.
+- **Hieratica** — priestly magic; works only for the genuinely devout, regardless of which god. Practiced by Concord-aligned clergy, by Mobedān fire-priests, and by a thinning bench of pagan hierophants.
 - **Black Speech** — the language of the Outer Ones. To learn even a syllable is to leave a door open behind your eyes.
 
 The **Seven Seals of Solomon** (see [§5.1](#51-the-concord-of-the-seven-seals)) are the absolute prohibitions of the Concord. They are not "laws" in a mortal sense; they are **architectural features of reality** that the Concord enforces because to break them is to weaken the walls between Sphere and Dark.
@@ -151,14 +150,18 @@ From this hunger comes **the entire pagan pantheon**. Every god with a priesthoo
 
 **Most important: even Jehovah of the Israelites is a Nephil.** The most powerful of them, but a Nephil nonetheless — a Watcher who repented (or claimed to), broke with the Hermon council, and styled himself as the sole creator. The **Gnostics** are the only mortal tradition that has guessed the truth: their Demiurge / Yaldabaoth doctrine — that the god of the Old Testament is a lesser, jealous, falsely-credentialed creator-figure — is essentially correct, though imperfect in its details.
 
-**Christ is the only known exception.** What happened in Galilee thirty years into the first century is, in Concord cosmology, *genuinely* unprecedented — the intervention of something from *above* the Watchers' tier. This is why the Theophoroi's swords work, why holy power can flow through any sincere creed, and why the Inner Seal will *never* publish the Secret History: it would shatter every religion in the Empire simultaneously.
+**Christ was a Gnostic wizard — and the New Testament is the worst worship-heist in history.** Concord doctrine, suppressed from the rank-and-file and held by the Inner Seal under triple-binding oaths, is this: the historical Yeshua of Nazareth was an extraordinarily gifted *Gnostic Magus* of the Galilean cell, trained out of the same Sethian-and-proto-Valentinian streams that would later cohere into the Gnostic schools of Alexandria and Edessa. He was not a Nephil, not a Watcher, not an Outer Power, not an angel — he was a *mortal mage of the first rank*, possibly the most gifted theurge in recorded human history, working from a tier of *praxis* (not nature) that no one before or since has matched. His ministry was, in plain operational terms, **a public campaign against Jehovah**. The Sermon on the Mount is a renunciation of the Old Testament god. The temple-clearing was an attack on Jehovah's revenue-flow. The healings and feedings were demonstrations that holy power did *not* require Jehovah's permission to operate. The Gnostic Demiurge doctrine — that the god of the Old Testament is a lesser, jealous, falsely-credentialed creator-figure who imprisons souls — was **Yeshua's own teaching**, transmitted to the inner circle (Mary of Magdala, Thomas, Philip, Judas) and preserved imperfectly in the gospels the Church now calls *apocryphal*.
+
+**He lost.** He was killed at Jehovah's instigation, working through the Temple priesthood that was Jehovah's primary cult-organ. And in the three centuries that followed, *Jehovah responded by stealing him*. The canonical New Testament — the four gospels selected at Rome, the Pauline letters elevated above the Gnostic ones, the Nicene Creed — is, in Inner Seal exegesis, **a deliberate worship-heist engineered by Jehovah and his Watcher-derived priesthood** to redirect Yeshua's mortal following back into Jehovah's own worship-pool. Paul of Tarsus's Damascus-road vision is, in this reading, an *intercept*: Jehovah catching the most charismatic surviving Gnostic recruiter and turning him. The doctrine that Yeshua *was* the Old Testament god in flesh — the Trinitarian fusion of the slain anti-Jehovah teacher with the very entity he opposed — is the most successful piece of theological misdirection ever attempted. It worked. It is *still* working. In 500 AD, Jehovah's worship-pool is the only one in the Empire that is *growing*, and the reason it is growing is **the dead Galilean wizard's reputation, redirected**.
+
+This is why the Inner Seal will *never* publish the Secret History. If the Empire's Christians understood that the man they revere as God Incarnate was in fact a Gnostic teacher murdered for *opposing* the entity they actually worship every Sunday, no political authority on earth could contain what came next.
 
 ##### Status of the Nephilim in 500 AD
 
 - Most of the **old Mediterranean gods** are *dying*. Their cults are dwindling, their priesthoods crumbling, their worship-pools draining into Christianity. A Nephil starved of worship grows weak, sleeps, and eventually dies in truth.
 - Some have *adapted*. A few of the Greco-Roman pantheon walk the world today as wealthy patricians, having renamed themselves and accepted that their cult-fed millennium is over. Hermes (now called *Mercurianus*, a Roman banker in Antioch) is the textbook case.
 - Some have *gone rogue*. Loki is at large in Frisia. Veles is harvesting Slavic worship at a frightening rate. Set has aligned with the Hounds of Set (yes, *that* Set — the Nephil behind the cult, not a metaphor).
-- Jehovah is the only one whose cult is *growing* rather than shrinking, and the Inner Seal is unsettled by this for reasons it does not put in writing.
+- Jehovah is the only one whose cult is *growing* rather than shrinking, and the Inner Seal knows why: Jehovah is feeding on the redirected reputation of a Gnostic teacher he had killed five centuries ago (see *Christ was a Gnostic wizard* above). This makes him the single most dangerous Nephil in the Mediterranean by a wide margin — every Christian baptism in 500 AD adds another drop to a worship-pool that was built on a stolen ministry.
 
 ##### The War Between Fathers and Children (and Why Every Pantheon Remembers It)
 
@@ -186,7 +189,7 @@ This war is the **single most-remembered event in human mythology**, because the
 - A mortal scholar who reads enough comparative mythology will, eventually, notice the pattern. **Boetius** ([§6.5](#65-boetius-anicius-manlius-severinus-of-rome)) has noticed it. He has not yet realized what it implies. The Inner Seal is watching him closely.
 - The **Mobedān** ([§5 — Mobedān roster](#5-the-factions-of-the-veiled-sphere); also [Bondos §6.12](#612-bondos-the-mazdakite-patriarch) and [Kartīr §6.13](#613-kartir-the-shade-in-the-chinvat-lens)) are the only major faction that *teaches* the war openly to its initiates, under the *daēva*-versus-*ahura* frame. This gives them a doctrinal clarity the Concord envies and distrusts in equal measure.
 - The **bound Watchers** in the valley-pits are, in Concord doctrine, *still alive*. A Brotherhood operation to *find one and free it* is the single most dangerous scenario the Inner Seal contemplates. The Brotherhood would not be freeing an ally; it would be freeing a force that hates Nephilim more than it hates anything else, and that would proceed to feed *on* the Nephil-cults of the Mediterranean. The Inner Seal is not sure whether that would be a catastrophe or a deliverance, and it does not know how to find out without testing.
-- **Christ's intervention** ([§3.4.A](#34a-the-nephilim-architects-of-the-gods) above) is, in Inner Seal exegesis, the *only* event in recorded history that operated from a tier *above* the Watcher-Nephilim conflict — neither a Watcher nor a Nephil, but something at the level the Watchers themselves once obeyed. This is one of the reasons the Theophoroi's swords cut Nephilim and Watchers indifferently.
+- **Yeshua of Nazareth** ([§3.4.A](#34a-the-nephilim-architects-of-the-gods) above) is, in Inner Seal exegesis, the *highest-ranking mortal Magus on record* — a Gnostic theurge who tried to break Jehovah's cult-monopoly from inside Judaea and was killed for it. The Concord regards his praxis as *the* benchmark for what a determined mortal can achieve. His posthumous appropriation by Jehovah is studied at the Castrum as a master-class in worship-warfare.
 
 A player character who somehow assembles this full picture is, by definition, a candidate for the Inner Seal — or a candidate for the [**Sin of the Open Mouth**](#51-the-concord-of-the-seven-seals), depending on what they choose to do with the knowledge.
 
@@ -206,7 +209,7 @@ Their reasoning, as recovered from the *Stelae of Naram-Sin* (Concord-suppressed
 
 The **Court of Long Night** — then in its first generation, the Crone barely a millennium into her vigil — closed the breach by main force. They could not heal it cleanly; the wound was too large. Instead they wove a **standing seal** of fae-flesh and oath across the gap and posted a phalanx of Long Night sidhe at the seam in shifts that have never broken. The seal has held for four thousand three hundred years. **It still bleeds.** A constant fraction of the Long Night Court's military strength is committed, *at this moment*, to holding the Eridu breach.
 
-This is **why** the Court of Long Night is so cruel, so calculating, so jealous of mortal bargains: every mortal soul Morrigna can bind, every debt she can buy, every Knight she can break and replace, *feeds the wall*. The Concord knows this. The Theophoroi know this. The Twilight Queens have never published it because the Burning Crown's Court would lose its political leverage if the mortal world understood that **without Long Night, the Eridu breach would have eaten the Tigris valley three thousand years ago**.
+This is **why** the Court of Long Night is so cruel, so calculating, so jealous of mortal bargains: every mortal soul Morrigna can bind, every debt she can buy, every Knight she can break and replace, *feeds the wall*. The Concord knows this. The Twilight Queens have never published it because the Burning Crown's Court would lose its political leverage if the mortal world understood that **without Long Night, the Eridu breach would have eaten the Tigris valley three thousand years ago**.
 
 In 500 AD, the seven Sumerian Nephilim who opened the breach are sealed *within* it, mad and screaming, their spirits used as load-bearing material in the wall. The Concord apprentice who learns this learns it last, with the magister's hand on her shoulder.
 
@@ -218,7 +221,7 @@ This is more or less verbatim true. The Fomorians were a Deep-One colonial polit
 
 The **Court of the Burning Crown** — then the senior of the two Twilight Courts in the western isles — fought them. The conflict was long, cold-and-hot, and ended in the **Second Battle of Mag Tuired** (Irish tradition dates this conflict to a mythic period; Concord scholars place the decisive battle around **1100 BC**). The Burning Crown's Tuatha-aligned host shattered the Fomorian land-army and drove the survivors back beneath the waves. The Burning Crown's eldest Sidhe — including the **Eldest Gruff** — fought in that war.
 
-The Fomorians never recovered. The Esoteric Order of Dagon's *Atlantic chapter* survived only as scattered hybrid populations on Innis Mor and the Aran islands ([§5.6](#56-the-esoteric-order-of-dagon)). The chapter in Sidon stayed strong because the Burning Crown could not reach the Mediterranean coast in force.
+The Fomorians never recovered. The Esoteric Order of Dagon's *Atlantic chapter* survived only as scattered hybrid populations on Innis Mor and the Aran islands ([§5.5](#55-the-esoteric-order-of-dagon)). The chapter in Sidon stayed strong because the Burning Crown could not reach the Mediterranean coast in force.
 
 **In 500 AD this matters because:**
 
@@ -258,8 +261,6 @@ Markella of Tarentum's curse on the current Domina Maxima ([§5.2.B](#52b-the-ho
 | **Twilight Queens** | Know everything except the Lamia origin; Morrigna *suspects* the Lamia anchor |
 | **House of Lamia** | The Domina Maxima knows; Larthia Velthuri does not, *yet* |
 | **Mobedān / Bondos** | Know the Nephilim doctrine and the Watcher-Nephilim war; teach the war openly to initiates under the *ahura*-versus-*daēva* frame |
-| **Theophoroi** | Know via their swords; do not speak of it |
-| **Bearers of the Thirty Tongues** | Nikodemos knows; he is a 2nd-century *witness*. |
 | **Brotherhood of the Black Pharaoh** | Knows the Nephilim and Sumerian doctrines; **wants the Eridu breach reopened** |
 | **Yithian Recorder** | Has it logged with full citations |
 | **Gnostic sects** | Know the Yaldabaoth-is-a-Nephil doctrine; do not know the Eridu or Lamia material |
@@ -290,7 +291,6 @@ The Concordat governs:
 - The Strigoi of Dacia (represented by **Anthousa Skoteine**, last of the elder lineage)
 - The Yithian Archive (as an Observer)
 - The Mobedān of Persia (acceded c. 380 AD; secretly directed from beyond the grave by the shade of [Kartīr](#613-kartīr-of-the-seven-heavens-the-patriarch-shade))
-- The Bearers of the Thirty Tongues (acceded c. 50 AD; their leader's signature is currently *suspended* for repeated violations)
 - **Ambrosius Aurelianus**, Freeholding Lord of Sub-Roman Britain (signatory in his own person; see [§6.9](#69-ambrosius-aurelianus-last-roman-of-britain))
 
 ### Known Non-Signatories
@@ -298,7 +298,7 @@ The Concordat governs:
 - The Brotherhood of the Black Pharaoh (refused; considered to violate the Outside-Threat Clause by definition)
 - The Esoteric Order of Dagon (signed once, in 800 BC; treaty lapsed, never renewed)
 - The Court of Jade Breath (refuses to deal with western powers)
-- The Christian Church and the Theophoroi (theologically forbidden to treat with "principalities of the air")
+- The Christian Church (theologically forbidden to treat with "principalities of the air"; in practice individual bishops do, deniably)
 
 ---
 
@@ -328,6 +328,7 @@ Its sanctuary, the **Old Seat**, is a hidden complex beneath the Serapeum in Ale
 | Notable apprentice | **Myrddin Emrys** | Brythonic ward of the Concord, age 7. Damaskios's personal student. See [§6.8](#68-myrddin-emrys-apprentice-of-the-western-isles). | Myrddin |
 | In memoriam | **Hypatia of Alexandria** | The last Magistra Sigillorum of the Old Seat; martyred 415 AD. The Inner Seal's deepest moral wound. See [§6.3](#63-hypatia-of-alexandria-the-martyred-magistra). | — |
 | Enforcement | **The Stylites** (sometimes *Cinerei*, "the Ash-Cloaked") | The Concord's police and military. Take their name from the famous pillar-saints — they are sworn to "stand alone, in the high place, between the world and the storm." Wear ash-grey cloaks woven not to retain blood. Carry oath-bound iron swords that cut through enchantment. | Captained by Loukia Theoktiste, a Syrian Greek |
+| Enforcement (elite) | **The Edged Seal** (*Sigillum Acutum*) | A cadre of nine senior Stylites who bear consecrated **relic-blades** — the only weapons in the Concord's armoury that can reliably wound a Nephil in masquerade or a Brotherhood high-magister mid-summoning. See *The Edged Seal* below. | Nine seats, currently eight filled |
 | Membership | **The Concord at Large** | A few hundred recognized magoi worldwide. Apprentices wear undyed wool. Full members wear robes with embroidered stoles denoting specialty. | — |
 
 **Robes & Stoles**
@@ -342,6 +343,40 @@ Its sanctuary, the **Old Seat**, is a hidden complex beneath the Serapeum in Ale
 | Copper chevron | Doctorate from a recognized school (Alexandria, Athens, Edessa, Nisibis) |
 | Ash-grey cloak | Stylite |
 | Undyed wool | Apprentice |
+
+#### The Edged Seal (*Sigillum Acutum*)
+
+The **Edged Seal** is the Concord's instrument of last resort against the **Brotherhood of the Black Pharaoh** at its full operating strength, against any Nephil walking the Empire in fleshly masquerade, and against the Watcher-revenants and Outer-touched horrors that ordinary Stylite iron cannot put down. It exists because the Concord learned, over four centuries of bloody arithmetic, that **a Brotherhood high-magister in mid-summoning or a Nephil at the peak of cult-feeding cannot reliably be killed by ordinary means**. The flesh regenerates; the entity migrates to its next vessel; the working continues. Something *consecrated* is required to sever the binding and put the thing in reach of mortal iron. After the Eridu-wall scare of 2488 BC ([Timeline](#8-timeline-of-the-hidden-world)), the Concord put nine of its most-trusted Stylites under the Edged Oath and quietly began arming them out of the Castrum's deepest vault.
+
+##### The Nine Blades
+
+Each blade is a **single-purpose, single-bearer relic**, forged or recovered in a specific theurgic operation conducted by the Inner Seal between 350 and 480 AD. None is interchangeable; each answers only to its sworn bearer. A blade abandoned by its bearer goes inert for a year and a day and must be re-consecrated before another can wield it. The current eight are:
+
+| Blade | Sacred Source / Forging | Domain | Current Bearer |
+|---|---|---|---|
+| ***Lumen Stili*** ("Light of the Pen") | Quenched in the ink-trough of the Library of Pergamon the night before the fire; consecrated by Hypatia's surviving disciples | Cuts through *deception*; flares white against any glamour, name-binding, or false sacrament | **Loukia Theoktiste**, Captain of Stylites |
+| ***Vinculum Fractum*** ("the Broken Chain") | Reforged from the manacle-iron of a Hounds-of-Set slave-pen burned out by Stylites in 312 AD | Cuts through *bondage*; severs Brotherhood thrall-bindings and Lamia thrall-bonds on a successful strike to the heart | **Daniel of Edessa**, the Concord's senior Brotherhood-hunter |
+| ***Os Iusti*** ("Mouth of the Just") | Forged from a meteor-iron fragment recovered from the same fall as the Ka'ba stone; consecrated by Damaskios on the night the Inner Seal was sealed | Cuts through *false oaths*; a Nephil or Brotherhood magister who lies in its presence bleeds from the mouth | **Yusuf ibn Harith**, an Edessene of Arab-Christian descent |
+| ***Specula Pacis*** ("Mirror of Peace") | Quenched in the consecrated baptismal water of the Council of Nicaea (taken without permission by a Concord agent) | Cuts through *coercion*; the bearer cannot be compelled or charmed while the blade is drawn | **Theodora of Thessalonike**, the Concord's quietest killer |
+| ***Cor Lupi*** ("Heart of the Wolf") | Forged of bog-iron from the Caledonian frontier; quenched in the heart-blood of a willing Stylite who gave her life in the consecration | Cuts through *flesh that should not regenerate*; wounds from this blade refuse to close while the bearer wills it | **Brigida of Glevum**, Ambrosius Aurelianus's estranged niece |
+| ***Vox Silentii*** ("Voice of Silence") | A Syriac-Christian relic-fragment: the iron of the nail that fixed the placard above the cross at Golgotha, *re-purposed* by the Concord with full Gnostic-cell approval (see *Yeshua of Nazareth*, [§3.4.A](#34a-the-nephilim-architects-of-the-gods)) | Cuts through *Jehovah's protections*; the only Edged-Seal blade that will bite a high-ranking Christian relic or the wards of a major basilica | **Yohannan the Syrian**, formerly a Miaphysite deacon |
+| ***Crinis Noctis*** ("Hair of Night") | A Long-Night gift, woven by the Crone herself in 421 AD as payment for a Concord service rendered at the Eridu wall | Cuts through *the membrane*; can wound a being that has only partly entered the mortal Sphere (a half-summoned Outer thing, a Nephil mid-manifestation, the breach-edge itself) | **Markos Drepanios of Thessalonike**, Magister of the Inner Seal |
+| ***Ferrum Sapientiae*** ("Iron of Wisdom") | Forged from the spear-head of a Sasanian *aswaran* killed at the gates of Edessa in 260 AD; consecrated jointly with the Mobedān at Adur Gushnasp | Cuts through *the lie that a thing has no name*; will bite a Nephil even when the Nephil is in human masquerade | **Aryapad of Tisfun**, a Mobedān loaned to the Concord by treaty |
+| ***— the Ninth Blade, unforged —*** | Reserved; the Inner Seal has not yet decided what to forge it from. Several candidates discussed: a fragment of the Etruscan binding-chain on Larth Caisra ([§3.4.E](#34e-the-hunger-and-the-house-of-lamia)), an iron splinter from the Ka'ba meteor, the broken tip of Apollonios's staff. | *To be decided* | *Vacant* |
+
+##### The Edged Oath
+
+When a Stylite is offered an Edged Seal blade she swears three additional oaths beyond the standard Stylite vow:
+
+1. **Never to draw the blade against a mortal who has not raised hand against the Concord first.**
+2. **Never to lie about the blade's existence to another member of the Edged Seal.** (Lying *about* the Edged Seal to anyone *outside* it is encouraged.)
+3. **Never to take the blade beyond reach of a sworn second.** Edged-Seal bearers move in pairs at minimum. The political and theological consequences of one of these weapons falling into Brotherhood or Hounds-of-Set hands are catastrophic enough that the Inner Seal has authorized killing the bearer rather than letting the blade be taken alive.
+
+##### Relationship to the Wider Concord
+
+The Edged Seal is a **secret within a secret**. The Stylites at large know it exists; the Concord at Large knows there is *something*. The blades themselves are not seen except in action. The Inner Seal manages the cadre through a single dedicated Magister (**Markos Drepanios**, who bears *Crinis Noctis*, sits the Magister's seat, and votes the cadre as a bloc when forced to). The Edged Oath supersedes Stylite chain-of-command — a sworn bearer can refuse a captain's order if obeying would risk the blade, and this has cost the cadre political capital on at least two occasions in the last twenty years.
+
+The cadre's standing orders, as of 500 AD, are: **(1)** maintain a single bearer within three days' ride of the Ephesian Keep at all times; **(2)** any Brotherhood summoning-rite identified in progress is to be interrupted by whatever means are required; **(3)** **no Nephil in mortal masquerade is to be unveiled in public** without the Magister's direct order — the political consequences of, for example, killing Mercurianus of Antioch in his own bank would set the Concord's century-long containment work back by decades.
 
 #### Governing Philosophy: The Seven Seals of Solomon
 
@@ -366,8 +401,7 @@ The Concord runs four "front" institutions in the mortal world: the **School of 
 #### Supernatural Interaction
 
 - Signatory and effectively co-author of the Concordat.
-- Long alliance with the **Theophoroi**, despite theological friction.
-- Long enmity with the **Brotherhood of the Black Pharaoh**, the **Bearers of the Thirty Tongues**, and (intermittently) the **Hounds of Set**.
+- Long enmity with the **Brotherhood of the Black Pharaoh** and (intermittently) the **Hounds of Set**.
 - Currently in an undeclared war with the Hounds of Set, sparked when a Stylite captain killed a Carthaginian *domina* in defense of a slave girl. The war is being fought through proxies in Sicily.
 
 #### GM Notes
@@ -417,7 +451,6 @@ They are **paralyzed by thresholds** — a peasant family's blessed doorway can 
 Signatory of the Concordat (sole signature: the *Houndmaster of Carthage*). Loathed by:
 
 - The Concord (active proxy war)
-- The Theophoroi (open enmity)
 - The Court of the Burning Crown (territorial)
 - The **Fellowship of the Lance** — a mortal Roman-Berber militia that recruits the half-turned
 
@@ -549,7 +582,7 @@ Jade Breath vampires feed on **breath**, not blood. They are said to be able to 
 
 ### 5.3 The Two Twilight Courts
 
-The faerie powers of the **Veiled Sphere**. Two great Courts — **Long Night** and **Burning Crown** — rule the inner reaches, perpetually balanced. Outside both courts wander the **Free Folk** (*Liberi Populi*), this setting's Wyldfae.
+The faerie powers of the **Veiled Sphere**. Two great Courts — **Long Night** and **Burning Crown** — rule the inner reaches, perpetually balanced. Outside both courts wander the **Free Folk** (*Liberi Populi*).
 
 #### Shared Structural Rules
 
@@ -663,76 +696,11 @@ A particular Free Folk unit deserves naming: **the Wizard's-Wards** (Latin *Cust
 
 ---
 
-### 5.4 The Bearers of the Thirty Tongues
+### 5.4 The Brotherhood of the Black Pharaoh
 
 #### Overview
 
-The **Bearers of the Thirty Tongues** (*Lingulati Triceni*, "the thirty-tongued") are a two-thousand-year-old order of fallen entities bound to thirty ancient silver shekels. The Concord scholars classify the entities as **bound avatars of Nyarlathotep** — fragments of the Crawling Chaos that were trapped, in the time of the Babylonian captivity, in coins by a forgotten Magus-King and have since sought to wear human flesh.
-
-The shekels were dispersed; the entities — *the Tongues* — speak through their bearers. They are called **Coined Ones** or **Bearers** for short.
-
-Of the thirty shekels, approximately eleven are sealed in the deep vaults of the Theophoroi at the basilica of St. John in Ephesus. The rest are in the world, and four are missing entirely.
-
-#### Hierarchy
-
-The Order is less a hierarchy than a cabal of immortal manipulators with their own agendas, loosely coordinated under their eldest.
-
-| Tier | Role | Notes |
-|---|---|---|
-| Leader | **Nikodemos of Antiocheia** | Bearer of **Adramelech, the Whisperer in the Long Hall**. Eldest of the Coined Ones. Has lived since the time of Tiberius. |
-| Co-Leader | **Pollia Larthe** | Second-eldest; Nikodemos's wife; runs her own faction. |
-| Lieutenants | **Drosis Antiochia** | Their daughter. |
-| Lieutenants | **Quintus Sossianos** | Bearer of **Salurelet** ("the Snake-boy"). |
-| Lieutenants | **Rhosanna, Magogos, Akareth, Imarela, Urumvelet** | Various active hosts. |
-| Special | **Namshelet of the Thorns** | Coin-thief; a senior Bearer with eleven shekels in his keeping. |
-| Spirit-only | **Lascilea** | A diminished Tongue whose shadow once possessed Markos Drepanios. |
-
-#### The Tongues Themselves
-
-The shekels themselves are dangerous; the **Tongues** within them are *catastrophic*. Each is an avatar-fragment of Nyarlathotep older than time, with perfect memory and two millennia of accumulated study of the human mind. Specializations:
-
-- **Adramelech — The Whisperer in the Long Hall.** Nikodemos's Tongue. A spymaster, not a fighter. Can see and hear anything within range of any living being's shadow. Cannot reach into: the inside of a *true* sanctified building (regardless of which faith), the home of a Theophoros, or the presence of Morrigna.
-- **Lascilea — The Tempting Light.** Power of hellfire, total recall, the gift of seductive logic.
-- **Salurelet — The Snake-boy.** Combat utility; serpent forms; venoms.
-
-#### Governing Philosophy
-
-**Long-game corruption.** The Order does not want to conquer in a generation; it wants to *shape* across centuries. The Tongues are powered by inflicted suffering — the more pain the Bearer causes, the stronger the Tongue grows.
-
-They are **distinct from** the Brotherhood of the Black Pharaoh, though both serve Nyarlathotep. The Bearers serve a *bound* aspect; the Brotherhood serves the free Crawling Chaos. The two groups regard each other with mutual contempt.
-
-#### Mortal Interaction
-
-A mortal touches a shekel and the Tongue plants a *shadow* of itself in their mind. Over months and years, the shadow becomes the host. Full Bearers gain:
-
-- Shapeshifting into demonic forms (each Tongue's form differs)
-- Rapid healing
-- The Tongue's specialty power
-- Power-scaling from inflicting pain
-
-The shekels can be transported safely *only* by the Theophoroi using **a square of blessed cloth bearing the chi-rho, the seal of Solomon, the faravahar, and the crescent of Hekate** — a syncretic relic-cloth woven in 250 AD. Mortals can carry shekels in gloves or in pouches without contact; *any* skin contact begins possession.
-
-Churches make the Tongues *feel* — they remember a time before they fell, and grieve. This is why Bearers avoid them.
-
-#### Supernatural Interaction
-
-Signatories of the Concordat (acceded 50 AD); their leader Nikodemos is currently *suspended* after a flagrant violation in 489 AD. The rest of the Order's standing is ambiguous.
-
-Eternal enemies of the Theophoroi. Tactical sometime-allies of Morrigna (the *Hades Vault* affair in the year 482 AD).
-
-#### GM Notes
-
-- Use a Bearer at any power level — even a low-tier host is a wizard-killer in melee.
-- The classic "coin near a wounded PC" moment: *you may pick it up; you will never put it down.*
-- Adramelech's shadow-spy network makes Bearer arcs perfect for "you can never be sure who is listening."
-
----
-
-### 5.5 The Brotherhood of the Black Pharaoh
-
-#### Overview
-
-The **Brotherhood of the Black Pharaoh** (*Fraternitas Pharaōnis Nigri*) is the mortal-cult faction of this setting — the worshippers and instruments of the free, unbound Crawling Chaos. It is the closest analog to the "Black Council" of the Dresdenverse, and it is *the* primary Mythos-faction antagonist.
+The **Brotherhood of the Black Pharaoh** (*Fraternitas Pharaōnis Nigri*) is the mortal-cult faction of this setting — the worshippers and instruments of the free, unbound Crawling Chaos. It is *the* primary Mythos-faction antagonist.
 
 They worship **Nyarlathotep** under his avatar **Nephren-Ka, the Black Pharaoh**, a real heretical pharaoh of Egypt's Third Intermediate Period whose name was struck from the temple lists. They believe Nephren-Ka is not dead but *waiting* — sealed beneath the sands of the deep Sahara — and that the proper season of the world's end is approaching.
 
@@ -745,7 +713,7 @@ They worship **Nyarlathotep** under his avatar **Nephren-Ka, the Black Pharaoh**
 | Mid-tier | **The Initiated** (*Mystai*) | Mortal cultists who have undergone the rites — sorcerers, scholars, defectors, the desperate. Many are corrupted minor practitioners; some are corrupted Concord wizards. |
 | Foot soldiers | **The Marked** (*Signati*) | Mortals branded with the Yellow Sign or its equivalents. Used as enforcers and sacrifices. |
 | Servants | **The Shoggoth-Born** | Half-shoggoth, half-mortal abominations bred in the cult's deep temples. Used as bodyguards. |
-| Allies | The **Hounds of Set** *sometimes*; certain **Bearers of the Thirty Tongues** *often*; rogue **Strigoi** *occasionally* | The Brotherhood does not consider itself bound by Concordat treaties even when its allies are. |
+| Allies | The **Hounds of Set** *sometimes*; rogue **Strigoi** *occasionally*; defected Concord wizards *rarely but disastrously* | The Brotherhood does not consider itself bound by Concordat treaties even when its allies are. |
 
 #### Governing Philosophy
 
@@ -775,7 +743,7 @@ Non-signatory of the Concordat. Considered to violate the Outside-Threat Clause 
 
 ---
 
-### 5.6 The Esoteric Order of Dagon
+### 5.5 The Esoteric Order of Dagon
 
 #### Overview
 
@@ -802,7 +770,7 @@ The Order is **integrated** into a few coastal communities. They appear human un
 
 #### Supernatural Interaction
 
-Briefly signatory of the Concordat (c. 800 BC) but lapsed and never renewed. Quietly opposed by the Concord and Theophoroi. Indifferent to the Twilight Courts. Occasional dealings with the **Court of Jade Breath** along the Indian Ocean trade routes.
+Briefly signatory of the Concordat (c. 800 BC) but lapsed and never renewed. Quietly opposed by the Concord. Indifferent to the Twilight Courts. Occasional dealings with the **Court of Jade Breath** along the Indian Ocean trade routes.
 
 #### GM Notes
 
@@ -812,7 +780,7 @@ Briefly signatory of the Concordat (c. 800 BC) but lapsed and never renewed. Qui
 
 ---
 
-### 5.7 The Yithian Archive
+### 5.6 The Yithian Archive
 
 #### Overview
 
@@ -836,7 +804,7 @@ The Recorder herself moves under the protection of the Concordat. Insulting her 
 
 #### Supernatural Interaction
 
-Observer-signatory. Politically neutral. The Concord and Theophoroi both protect the Recorder. The Brotherhood of the Black Pharaoh would dearly love to capture her — she is, in essence, a walking universal library.
+Observer-signatory. Politically neutral. The Concord protects the Recorder. The Brotherhood of the Black Pharaoh would dearly love to capture her — she is, in essence, a walking universal library.
 
 #### GM Notes
 
@@ -845,48 +813,78 @@ Observer-signatory. Politically neutral. The Concord and Theophoroi both protect
 
 ---
 
-### 5.8 The Theophoroi
+### 5.7 The Gnostic Apokryphon
 
 #### Overview
 
-The **Theophoroi** (Greek *Θεοφόροι*, "God-Bearers") are this setting's analog to the Knights of the Cross. Because this is a *syncretic* setting, they are **not exclusively Christian**. They are three (rarely fewer, never more) mortal champions, each bearing a relic-weapon forged from a different sacred event, each working in service to a different — but ultimately compatible — sacred power.
+The **Gnostic Apokryphon** (Ἀπόκρυφον, "the Hidden Thing") is not a single order. It is the **loose, deliberately-decentralized survival** of the mortal tradition that **Yeshua of Nazareth** actually founded ([§3.4.A](#34a-the-nephilim-architects-of-the-gods), *Christ was a Gnostic wizard*). It runs from the **inner circle Yeshua personally taught** (Mary of Magdala, Thomas, Philip, Judas, the Beloved Disciple) through their immediate students (the **Samaritan cell** that tended Simon of Sebaste's grave, the **Edessene cell** that wrote *Thomas* and *Philip*, the **Alexandrian cell** under Basilides and Valentinus, the **Syrian river-cell** around the figure later called the Mandaean John-the-Baptist tradition) down to a few hundred living practitioners in 500 AD, scattered from Asia Minor to the upper Nile, hiding inside the very Catholic and Miaphysite hierarchies that have spent four centuries trying to exterminate them.
 
-#### The Three Relic-Swords
+The Apokryphon's central doctrine is the one taught above: **Jehovah is a Nephil, the Demiurge / Yaldabaoth of Sethian and Valentinian doctrine is exactly him, Yeshua was a mortal Magus who tried to break his cult, the canonical New Testament is the worship-heist that buried the truth, and the Trinitarian fusion of the slain teacher with the entity he opposed is the great lie of the age.** They do not consider themselves Christians, although they will pass for Christians when survival requires it; they do not consider themselves Jews, although several cells emerged from synagogue communities; they do not consider themselves pagans, although they will pass for pagans in the right backwater. They are *the only mortal religious tradition in the Mediterranean that knows the truth* — and they are *terrified* of the Concord, because the Concord knows it too and has chosen not to publish.
 
-| Sword | Sacred Source | Domain |
-|---|---|---|
-| ***Amorachios*** | Forged with a nail from the True Cross of Golgotha | **Love** |
-| ***Esperachios*** | Forged from a fragment of Mithras's bull-slaying spear | **Hope** |
-| ***Fidelachios*** | Forged with iron from the meteoric stone at the temple of the Kaaba (a foreshadowing element) | **Faith** |
+#### Hierarchy
 
-Each sword glows white in the presence of evil and cleaves through enchantment. None of the three is *the most* Christian; the Archangelic / Bodhisattva / Yazata patron of each sword cares about the sword's purpose more than the sword-bearer's specific creed.
+The Apokryphon has no formal hierarchy and no head. It has **circles** — named after the original cells — that recognize each other by shared liturgical texts, shared sign-words, and a network of trusted couriers (often itinerant book-traders or wine-merchants).
 
-#### The Three Current Theophoroi
-
-| Theophoros | Sword | Origin |
-|---|---|---|
-| **Mikhael Tektonas** | *Amorachios* | A Roman-Ravennate carpenter; quiet, married, a father of seven. Devout Christian. |
-| **Radomir the Skabēnos** | *Esperachios* | A young Slavic warrior (the Greek *Skabēnos* / *Skabēnoi* being the period's term for the Sklavenoi south of the Danube), formerly a Bearer who renounced his shekel. Avowed agnostic. Loves the work. |
-| **Vahrām of Bukhara** | *Fidelachios* | A Sogdian merchant's son who studied in Persia; a syncretist who reveres Christ, the Buddha, Ahura Mazda, and the Hidden God all equally. |
+| Circle | Seat | Lineage Text(s) | Approx. Active in 500 AD |
+|---|---|---|---|
+| **The Magdalene Circle** | Alexandria, with a cell in Antioch | The *Gospel of Mary*, the *Pistis Sophia* recension | ~40 initiates |
+| **The Thomas Circle** | Edessa, with daughter-cells along the Persian frontier | The *Gospel of Thomas*, the *Hymn of the Pearl* | ~80 initiates (the largest, protected by Persian tolerance) |
+| **The Philip Circle** | Lower Egypt, especially the Faiyum | The *Gospel of Philip*, the *Apocryphon of John* | ~30 initiates |
+| **The Samaritan Circle** | Sebaste and the hill country of Samaria | The *Great Annunciation* of Simon, oral commentaries on Yeshua's pre-ministry years | ~20 initiates (the oldest, and the most paranoid) |
+| **The Sethian School** | Wandering; no fixed seat since the burning of the Nag Hammadi cell in 367 AD | *The Apocryphon of John*, *The Three Steles of Seth*, *Zostrianos* | ~15 initiates, mostly elderly |
+| **The Valentinian Cell** | Officially extinguished; in fact embedded inside three patriarchal sees | *The Gospel of Truth*, the *Tripartite Tractate* | ~25 initiates, all passing as orthodox clergy |
+| **The River-Cell** | The marshes south of Tisfun | A liturgy preserved in proto-Mandaic; reveres a *Yahya* (John) who is not the Baptist of canonical gospels | ~50 initiates, the most isolated and the most strange |
 
 #### Governing Philosophy
 
-The Theophoroi believe that **sacred power is real, and it does not care about denominational borders**. The Lord of Hosts who empowers Mikhael is, they suspect, the same numinous *something* that gave Radomir his sword and Vahrām his calling. They serve where called. They do not proselytize. They do not collect souls. They do not stay where they are not needed.
+*Praxis above doctrine.* The Apokryphon does not unify on theology; the Valentinians and the Sethians disagree on the structure of the Pleroma, the Magdalene circle disagrees with both on the question of the resurrection, and the River-Cell disagrees with everyone on the identity of the historical Yeshua. What they unify on is **operational**:
 
-The Theophoroi are **not signatories** of the Concordat — they cannot, theologically, treat with "principalities of the air." Their relationship with the Concord is one of cautious, hard-won mutual respect.
+1. **Jehovah is the enemy.** Every cell agrees on this. Public Christianity is his cult and is to be sabotaged, undermined, and — where safe — *converted from within*.
+2. **Yeshua's praxis is reproducible.** The Apokryphon teaches that what Yeshua did, a sufficiently disciplined mortal can in principle learn. No initiate has yet reached his tier. Several have died trying.
+3. **The Gnostic Demiurge doctrine is operational truth.** Souls *are* trapped in matter by Jehovah's design; the work of the Magus is liberation, beginning with the self and extending outward where possible.
+4. **Concealment is sacred.** A cell that becomes visible is a cell that becomes dead. The Apokryphon has survived four centuries of imperial and ecclesiastical persecution by *never gathering in numbers*, *never claiming territory*, and *never publishing under its own name*.
+
+#### Magic
+
+Apokryphon initiates are **theurgists** in the Iamblichan tradition with a distinctly Gnostic inflection. Their working magic categories:
+
+- **Anabasis** (Ἀνάβασις, "ascent") — Yeshua's own practice; the ascent of the soul through the spheres of the archons, naming each and refusing each. The most dangerous Apokryphon working. Initiates who fail it die in their sleep.
+- **Lytrosis** (Λύτρωσις, "liberation") — the freeing of a bound or enchanted soul. Works against Lamia thralls, Brotherhood thrall-bindings (partially), and Nephil-cult conditioning.
+- **Apokalypsis** — ritual unveiling. Reveals a Nephil in human masquerade, a Lamia at her feeding, a Brotherhood magister mid-rite. The cheapest and most-used working; also the easiest to detect.
+- **Sigesis** (Σιγήσις, "silencing") — a working that hides an initiate from Jehovah's notice for a span of hours to weeks. Painful. Necessary. Most senior initiates are in Sigesis for a third of their lives.
+
+The Apokryphon does **not** practice combat magic in any developed form. They are not warriors; they are subversives. In a fight they lose. They know this and plan around it.
+
+#### Notable Living Initiates in 500 AD
+
+- **Markella of Tarentum**  is *Magdalene Circle*. Her curse on Domina Maxima is an Apokryphon operation. The Inner Seal suspects but cannot yet prove this.
+- **Ioannes of Edessa**, an aging book-binder in the Syrian quarter, is the working head of the *Thomas Circle*. He is the closest thing the Apokryphon has to a coordinator, and he is in monthly correspondence with Damaskios under a cover-identity (a wine-merchant named Symeon).
+- **The Anonymous Magdalene** — a woman whose true name is known to perhaps six people alive, who lives quietly as a widow at the edge of Alexandria and is reckoned by every senior initiate to be the most powerful living *anabasis*-practitioner. She is *seventy-three*. She has not yet attempted Yeshua's full ascent. She intends to before she dies.
+- **Yohannan the Syrian**, who now bears *Vox Silentii* of the Edged Seal ([§5.1](#51-the-concord-of-the-seven-seals)), was raised in the *Valentinian Cell* and is the Apokryphon's first and only successful penetration of the Concord. The Inner Seal does not know his lineage. Damaskios suspects.
+- **The River-Cell's eldest**, a hundred-and-something-year-old marsh-woman the Mobedān call *Sīdr-banu* and the Persians call *the Witch-of-the-Reeds*, who claims to remember her own great-grandmother teaching her songs Yeshua sang. She is almost certainly lying about her age. The songs may be real.
+
+#### Relation to the Concord and the Concordat
+
+The Apokryphon is **not a signatory**. It has never been offered the chance to sign because it has never officially existed. The Inner Seal is aware of it in outline; Damaskios is aware of it in detail; **Markos Drepanios as Magister has chosen to leave it alone**, on the explicit reasoning that *the Apokryphon and the Concord want the same thing about Jehovah and the Apokryphon is doing things the Concord cannot do publicly*. This is, strictly speaking, a tolerance the Inner Seal as a body has not voted on. If it were voted on it would fail, and Markos knows that.
+
+The Apokryphon, for its part, regards the Concord with **wary, ambivalent respect**. They know the Concord knows the truth. They know the Concord chose not to publish it. They consider this both a cowardice and a tactical necessity, and they cannot decide which one weighs heavier.
 
 #### Mortal Interaction
 
-Theophoroi live mostly mortal lives between callings. They appear when needed. They cannot be hired, recruited, or commanded — only called.
+Indistinguishable from the populations they hide in. A Magdalene initiate is usually a literate Alexandrian woman in widow's grey; a Thomas initiate is a Syriac-speaking trader on the Edessa-Nisibis road; a Valentinian initiate is a tonsured monk in good standing at a real monastery. They marry, raise children, work trades, and pay taxes. The few who teach openly do so in the form of *philosophy lessons* the imperial censor cannot quite get a hand around.
 
 #### Supernatural Interaction
 
-Direct opponents of the Bearers of the Thirty Tongues. Allied with the Concord when interests align. Treated with strict respect by the Twilight Courts (the swords are *uncomfortable* even for Morrigna, who can sense them at distance).
+- **Enemies:** the Roman Church hierarchy (open, ancient); Jehovah himself when he notices them (rare — he is busy); the Brotherhood of the Black Pharaoh (who consider Yeshua's praxis a *competitor* product and would happily kill the last initiate alive to seize his methods).
+- **Wary neutrals:** the Concord (tolerated by Markos personally, not by the body); the Mobedān (who recognize the Thomas Circle as fellow-travelers in the *ahura/daēva* war but consider their christology confused); the House of Lamia (who fear Apokryphon *lytrosis* operations against their thralls).
+- **Allies of convenience:** the Court of Long Night, when an Apokryphon working can be aimed at a target Morrigna also wants down. (Morrigna does not love them. She uses them.)
 
 #### GM Notes
 
-- Theophoroi are the most powerful "mortal" NPCs in the setting. Use them like seventh-cavalry: when the horn blows and the situation is otherwise unwinnable.
-- A PC offered a sword is being offered the campaign's third act. It is not a casual moment.
+- The Apokryphon is the campaign's **fifth-column faction**: small, hidden, theologically certain, operationally cunning. They are *the* faction to drop into a game when the players need a low-power, high-information ally who can tell them something the Concord won't.
+- An Apokryphon contact is also a *liability*: if a PC is seen meeting one and the wrong bishop hears about it, the PC is now a heretic in the eyes of an imperial church that burns heretics.
+- A PC may be offered initiation. This is a *third-act* moment and a real one. The price is steep: the PC must give up their own name in liturgical contexts, learn the *Sigesis* working before any other, and accept that if they betray the Apokryphon to the Concord, the Apokryphon will not kill them — they will *unveil* them, and let Jehovah do it. This is worse.
+- The Apokryphon's existence makes possible the campaign's highest-tier endgame arc: *The Ascent* ([§10.6](#106-the-ascent-end-of-campaign-three)). A PC who has been initiated, who has mastered *anabasis*, and who has assembled the right allies can attempt what Yeshua attempted. The outcome is open. The cost is everything.
 
 ---
 
@@ -898,8 +896,8 @@ A dozen real or pseudo-historical magic-users — some flourishing in 500 AD, so
 
 - **Real-world source:** the *Testament of Solomon* (1st–3rd c. AD) and the wider late antique tradition of Solomon as the supreme binder of demons by ring and seal.
 - **In setting:** the **mythic founder** of the Concord's tradition. The Concord's official line is that **Iamblichus the Elder** (250 BC) merely *rediscovered* what Solomon had first written down. The Seven Seals themselves are attributed apocryphally to Solomon, though the Concord's archivists privately admit the seals predate him by centuries.
-- **Status in 500 AD:** dead fifteen centuries. His *signet ring* is said to lie buried in the Temple Mount rubble in Jerusalem — a constant lure for Brotherhood agents, Bearer hosts, and ambitious Concord apprentices.
-- **GM uses:** the McGuffin behind any "lost Solomonic relic" plot. Whoever recovers a true Solomonic seal can bind a Tongue — or *release* one.
+- **Status in 500 AD:** dead fifteen centuries. His *signet ring* is said to lie buried in the Temple Mount rubble in Jerusalem — a constant lure for Brotherhood agents, Hounds-of-Set sorcerer-emissaries, and ambitious Concord apprentices.
+- **GM uses:** the McGuffin behind any "lost Solomonic relic" plot. Whoever recovers a true Solomonic seal can **bind an Outer Power back beyond its proper threshold** — or, with the same working inverted, *release one*. The ring's most famous historical use, in setting, was to seal the Eridu breach in c. 950 BC ([§3.4.C](#34c-the-eridu-breach-and-the-court-of-long-night)); whether enough power remains in it to do that again is unknown.
 
 ### 6.2 Iamblichos of Chalkis, the Last True Theurgist
 
@@ -935,16 +933,16 @@ A dozen real or pseudo-historical magic-users — some flourishing in 500 AD, so
 - **In setting:** a **400-years-dead culture hero** revered as a saint by *three* mutually hostile traditions in 500 AD:
   1. **The Concord** claims him as one of their own: a wandering Magister who renewed the Eastern seals.
   2. **The Brotherhood of the Black Pharaoh** claims he was a secret initiate of theirs who escaped into Concord ranks to spy.
-  3. **The Theophoroi** treat him as a pre-Christian *prefiguration* of their tradition — a holy ascetic who walked with sacred power without a creed.
+  3. **The surviving Gnostic networks** treat him as a *fellow-traveler* of Yeshua's tradition — a wandering Magus who walked with the same kind of unmediated holy power Yeshua taught, and whose biography Philostratus was paid (by Julia Domna) to write up as a deliberate counter-gospel.
 - **Status in 500 AD:** dead, but pilgrim shrines to him are still attended at Tyana, Ephesus, and a half-dozen lesser sites. His **staff** is rumored to lie in one of those shrines.
 - **GM uses:** the figure whose contested legacy can be used to put the three factions in a room together on opposite sides of a single relic dispute. Run a *Maltese-Falcon* arc around the staff.
 
-### 6.7 Simon of Sebaste, the Discarded Magus
+### 6.7 Simon of Sebaste, the First Apokryphon Martyr
 
 - **Real-world source:** [Simon Magus](http://www.gnosis.org/library/grs-mead/grsm_simon_magus.htm) of Samaria (1st c. AD), the New Testament's flying sorcerer who tries to buy the Holy Spirit from Peter and gets the doctrine of *simony* named after his crime.
-- **In setting:** a **cautionary figure from Bearer pre-history**. Concord and Brotherhood records agree on this much: in the year 60 AD, Nikodemos of Antiocheia offered Simon a shekel, and Simon — the only known mortal ever to refuse one *on the table* — turned it down. He died shortly afterward in a flying-spell catastrophe in Rome (the Acts-of-Peter version of the story). The Bearer who would have hosted that coin's Tongue is *still uncoined*, and its avatar drifts the Mediterranean trying to find a willing host.
-- **Status in 500 AD:** dead 440 years. His grave at Sebaste in Samaria is unmarked and protected by the Theophoroi.
-- **GM uses:** an excellent dangling thread — the *thirty-first* unhosted Tongue is the same one mentioned in Hook 9.2 ("The Sleeping Coin"). The PCs may eventually be offered the same choice Simon was.
+- **In setting:** the **most powerful surviving disciple of Yeshua of Nazareth** ([§3.4.A](#34a-the-nephilim-architects-of-the-gods)), and the founder of the lineage that became the **Samaritan Circle** of the Gnostic Apokryphon ([§5.7](#57-the-gnostic-apokryphon)). Born in Gitta in Samaria; trained, briefly, in Yeshua's inner circle in the last year of the ministry; survived the crucifixion-week purge; carried Yeshua's teachings north into Samaria and east into Tyre. The *Great Annunciation* attributed to him in the Patristic sources is genuinely his — a Gnostic cosmology in which the high God is *not* the god of the Hebrew scriptures, framed allegorically as the relationship between *Simon* and *Helena* (the latter a Tyrian prostitute he redeemed and elevated, who was in fact a Magdalene-Circle initiate operating undercover). The Acts-of-Peter story that Peter killed him in a flying-duel in Rome is **Jehovah-cult propaganda**: in fact, Simon was assassinated by a **Brotherhood of the Black Pharaoh** cell in 60 AD on the road back from Rome to Antioch. The Brotherhood had decided that Yeshua's praxis was a competitor cult they could not allow to take root.
+- **Status in 500 AD:** dead 440 years. His grave at Sebaste in Samaria is unmarked and quietly tended by the **Samaritan Circle**, which has kept the secret for four centuries against both the imperial church and the Brotherhood.
+- **GM uses:** the original Apokryphon martyr. A campaign that wants to give its players a *sense of the lineage they have joined* will eventually take them to Sebaste, and to the grave. Simon's bones are not relics in the Concord's technical sense, but they are something — the only Apokryphon working performed on the site since the burial has succeeded every time. The Witch-of-the-Reeds claims this is because Simon's *anabasis* was partly completed and he is, in some sense, still finishing it.
 
 ### 6.8 Myrddin Emrys, Apprentice of the Western Isles
 
@@ -969,10 +967,10 @@ A dozen real or pseudo-historical magic-users — some flourishing in 500 AD, so
 
 ### 6.11 Mug Ruith of Valentia, the Wheel-Druid
 
-- **Real-world source:** [Mug Ruith](https://en.wikipedia.org/wiki/Mug_Ruith), the all-powerful blind druid of Munster in Irish medieval tradition, said to ride a flying wheel (*roth rámach*) and — in late apocryphal versions — to have studied with Simon Magus.
-- **In setting:** a **living legend** of the western Atlantic frontier, well outside any Concord jurisdiction. The Concord knows of him only by report. He is **not** a Concord member, **not** a sworn vassal of either Twilight Court, and **not** a Theophoros. He is a *druí* in the old sense: a Free-Folk-adjacent freelance binder of weather, wheels, and word. Holds court on Valentia Island off the southwest coast of Ireland. Blind in both physical eyes, sighted in the third.
+- **Real-world source:** [Mug Ruith](https://en.wikipedia.org/wiki/Mug_Ruith), the all-powerful blind druid of Munster in Irish medieval tradition, said to ride a flying wheel (*roth rámach*) and — in late apocryphal versions — to have studied with Simon of Sebaste.
+- **In setting:** a **living legend** of the western Atlantic frontier, well outside any Concord jurisdiction. The Concord knows of him only by report. He is **not** a Concord member, **not** a sworn vassal of either Twilight Court, and **not** a signatory of the Concordat in any capacity. He is a *druí* in the old sense: a Free-Folk-adjacent freelance binder of weather, wheels, and word. Holds court on Valentia Island off the southwest coast of Ireland. Blind in both physical eyes, sighted in the third.
 - **Status in 500 AD:** ancient, irascible, alive. Treats with whichever faction crosses his threshold and pays the toll.
-- **GM uses:** the western wild card. PCs needing an answer no Concord theurgist will give them can sail to Valentia and pay the price. The price is never gold. Mug Ruith's apocryphal connection to Simon Magus is *true* in setting — he was at Sebaste in 60 AD.
+- **GM uses:** the western wild card. PCs needing an answer no Concord theurgist will give them can sail to Valentia and pay the price. The price is never gold. Mug Ruith's apocryphal connection to Simon is *true* in setting — he was at Sebaste in 60 AD, met Simon the night before the Brotherhood killed him, and is one of the very few living mortals who heard a recension of Yeshua's praxis directly from a man who had heard it from Yeshua.
 
 ### 6.12 Bondos the Reformer (after Bundos / Zaradūšt-i Khurragān)
 
@@ -994,7 +992,7 @@ A dozen real or pseudo-historical magic-users — some flourishing in 500 AD, so
 
 A few important non-relations:
 
-- **The Master of Tyana, Simon of Sebaste, and Mug Ruith are deliberately outside the Concord lineage.** They represent the magical traditions the Concord *failed to absorb* — and the three traditions a clever Brotherhood agent will try to revive against them.
+- **The Master of Tyana, Simon of Sebaste, and Mug Ruith are deliberately outside the Concord lineage.** They represent the magical traditions the Concord *failed to absorb* — the Tyanan theurgic school, the Apokryphon, and the Atlantic *druí* tradition respectively. A clever Brotherhood agent will try to revive any one of them against the Concord.
 - **Gildas is not a magus at all.** He is the *reader* of the campaign — the historian whose existence implies that someone, somewhere, will write down what the PCs did.
 - **Boethius, Myrddin, and (estranged) Ambrosius are all downstream of Damaskios.** A campaign that wants a single Concord patron should make Damaskios that patron and weave the others around him.
 - **Bondos and Kartīr are the Eastern shadow of Damaskios and Hypatia respectively** — one a quiet living teacher, one a preserved dead one. Persia is structured to mirror the Mediterranean's magical politics in dark glass.
@@ -1027,9 +1025,9 @@ A single small hut on the borderland between the Veiled Sphere and the Outer Dar
 
 The Brotherhood of the Black Pharaoh's temple-city. Buried under a hundred feet of sand. Awakens in cycles of 333 years. Currently quiet — but the cycle ends in 502 AD.
 
-### 7.7 The Vault of St. John (Ephesus)
+### 7.7 The Ephesian Keep (beneath the Basilica of St. John)
 
-The Theophoroi headquarters and the secure vault holding eleven of the thirty shekels. A working basilica that the Patriarch of Ephesus does not realize houses a hidden third sub-crypt.
+The Concord's eastern relic-vault, holding the **eleven sealed Brotherhood bindings** the Concord has recovered over four centuries (each one a captured ritual-instrument from a Brotherhood operation broken up between the second and fifth centuries) plus a working pair of Edged-Seal blades in rotation and a Stylite watch of six. A working basilica that the Patriarch of Ephesus does not realize houses a hidden third sub-crypt. The most dangerous object in the vault is the **Mask of Sennefer's Predecessor** — the death-mask of the previous Voice of the Black Pharaoh, which the current Voice has been trying to recover for forty years.
 
 ### 7.8 The Pillar of the Stylite (a desert in Syria)
 
@@ -1063,8 +1061,8 @@ The chief Yithian archive. Almost impossible for a Mediterranean character to re
 - **c. 700 BC** — At Caere in Etruria, Larth Caisra contacts the Outer Dark and is possessed by *The Hunger*. His daughter Lamia Prima binds the parasite to his soul; the House of Lamia descends from the child born of that rite ([§3.4.E](#34e-the-etruscan-king-and-the-birth-of-the-house-of-lamia)).
 - **c. 287 BC** — The Concordat of Hidden Powers is sealed.
 - **c. 250 BC** — Iamblichus the Elder founds the Concord of the Seven Seals at Alexandria.
-- **c. 50 AD** — The thirty shekels are dispersed across the Mediterranean.
-- **60 AD** — Simon of Sebaste refuses Nikodemos's coin in the only known *declined* offering. Dies that year in Rome ([§6.7](#67-simon-of-sebaste-the-discarded-magus)).
+- **c. 30–33 AD** — The ministry, death, and burial of **Yeshua of Nazareth**. The Gnostic Apokryphon is founded in the chaos of the following weeks ([§3.4.A](#34a-the-nephilim-architects-of-the-gods); [§5.7](#57-the-gnostic-apokryphon)).
+- **60 AD** — **Simon of Sebaste** is assassinated by a Brotherhood of the Black Pharaoh cell outside Rome. He is the Apokryphon's first martyr and the founder of the Samaritan Circle ([§6.7](#67-simon-of-sebaste-the-first-apokryphon-martyr)).
 - **c. 96 AD** — Death of the Master of Tyana; his cult begins ([§6.6](#66-the-master-of-tyana-after-apollonios)).
 
 ### Imperial Era
@@ -1079,9 +1077,9 @@ The chief Yithian archive. Almost impossible for a Mediterranean character to re
 ### Recent Memory (the players' world)
 
 - **476 AD** — Last Western Roman emperor deposed. Odoacer rules Italy.
-- **482 AD** — *The Hades Vault affair.* Morrigna, Nikodemos, and a contingent of Stylites jointly extract five relic-weapons from a vault in the Underworld. The political fallout is still rippling.
+- **482 AD** — *The Hades Vault affair.* Morrigna and a contingent of Stylites jointly extract five relic-weapons from a vault in the Underworld. Two of those weapons are now Edged-Seal blades. The political fallout — a debt owed to Long Night that the Concord has not yet been asked to repay — is still rippling.
 - **488 AD** — Theodoric the Ostrogoth invades Italy at Constantinople's behest.
-- **489 AD** — Nikodemos commits a flagrant Concordat violation by murdering an unarmed Theophoros under truce. His signature is suspended.
+- **488 AD** — The *Eridu-wall scare*. A Brotherhood cell at Sarra completes a working that puts measurable pressure on the breach for the first time in seven hundred years. The Court of Long Night calls in old debts. The Concord forges the first three Edged-Seal blades within six months ([§5.1](#51-the-concord-of-the-seven-seals)).
 - **493 AD** — Theodoric kills Odoacer; the Ostrogothic Kingdom is established.
 - **496 AD** — Clovis of the Franks converts to Catholic Christianity.
 - **497 AD** — Heliodora, Lady of the Burning Crown, attempts to seize Long Night's seasonal mantle at the summer solstice. Killed by Markos Drepanios at Arctistor with the Burning Crown Knight at his side.
@@ -1122,34 +1120,12 @@ Six attributes mapping to late-antique conceptions of the person:
 
 ---
 
-## 10. Adventure Hooks
-
-### 10.1 The Vandal Bride (early-tier, urban intrigue)
-
-A young Vandal noblewoman in Carthage is to be married to a Roman senator's son. She has confided to her handmaiden that her future husband "smells of jackals." The handmaiden has fled to the Concord chapter. The PCs are sent to investigate. The senator's son is a Hounds-of-Set duke. *But.* The girl has her own secret: she is half-Lamia, of a quietly forgotten cadet line. Whose betrayal will cut deepest?
-
-### 10.2 The Sleeping Coin (mid-tier, exploration)
-
-A scholar at the school of Nisibis writes a frantic letter to the Castrum. He has translated a Syriac fragment that names the location of a *thirty-first* shekel — one beyond Nikodemos's count, possibly a separate binding by an unknown magus. The shekel is somewhere in the buried temples of the Hatra ruins. So is, it turns out, a cell of the Brotherhood of the Black Pharaoh, who have also read the fragment.
-
-### 10.3 Eudokia's Dreams (mid-tier, mystery)
-
-The Recorder — the Yithian-touched child — has begun dreaming of a battle that does not yet exist. She describes Roman soldiers, three Theophoroi, a black wave, and a single name: *Innis Mor.* The Concord must dispatch a team to a remote Irish island. The Esoteric Order of Dagon is establishing a new chapter. The Recorder's dreams are not always accurate. Sometimes they are *prescriptive* rather than predictive.
-
-### 10.4 The Cottage Bargain (late-tier, cosmic)
-
-A PC has accumulated a debt to the Leannan-Sidhe. She comes to collect — not for herself, but on behalf of her mistress. The PC is to deliver a small wax-sealed jar to the Cottage of the Crones. The Crones will not open it themselves. The PC is the courier. The jar contains a piece of Niamh's *taint* — and the Crones plan to weave it into the fabric of the world to see whether Niamh can be cured *retroactively*. The cost is high. The choice is real.
-
-### 10.5 The 333-Year Eve (end of campaign one)
-
-It is winter solstice, 501 AD. The 333-year cycle at Sarra ends in six months. Across the Mediterranean, every major faction is repositioning. A Concord agent has defected to the Brotherhood. A Theophoros has died. A Bearer has taken a coin off a battlefield. The PCs are at the center of it. Everything they have done across the campaign comes due now. The Crawling Chaos is moving.
-
----
 
 ## 11. Glossary
 
-- ***Apokryphon*** — the Veiled Sphere; the spirit-world adjacent to mortal reality.
-- **Bearer** — a member of the Bearers of the Thirty Tongues; a possessed wielder of a shekel.
+- ***Apokryphon*** — (1) the Veiled Sphere; the spirit-world adjacent to mortal reality. (2) The Gnostic Apokryphon, the surviving mortal tradition of Yeshua of Nazareth ([§5.7](#57-the-gnostic-apokryphon)).
+- ***Anabasis*** — the Apokryphon's ascent-of-the-soul working; Yeshua's own praxis.
+- **Edged Seal** — the Concord's elite cadre of nine relic-blade-bearing Stylites ([§5.1](#51-the-concord-of-the-seven-seals)).
 - **Concord, the** — short for the Concord of the Seven Seals; the wizards' council.
 - **Concordat, the** — the treaty among hidden powers; this setting's Unseelie Accords.
 - ***Daimones Akosmoi*** — "the un-worlded ones"; one Concord term for the Outer Ones.
@@ -1169,13 +1145,10 @@ It is winter solstice, 501 AD. The 333-year cycle at Sarra ends in six months. A
 - **Outer Ones, the** — the Mythos pantheon.
 - ***Paranomoi*** — lawbreaker-wizards.
 - **Seven Seals, the** — the seven cosmic prohibitions enforced by the Concord.
-- **Shekel** — one of the thirty cursed silver coins.
 - **Stylite** — a sword-bearing enforcer of the Concord.
 - **Strigoi** — the eastern European corpse-vampires.
 - **Sword of Damocles** — the probationary status for first-time Seal-breakers.
-- **Theophoros** — a God-Bearer; a relic-sword-wielding mortal champion.
 - ***Theurgy*** — Neoplatonic ritual magic.
-- **Tongue, a** — one of the bound avatar-fragments of Nyarlathotep in a shekel.
 - **Twilight Courts** — the two faerie courts collectively.
 - **Veiled Sphere** — the spirit-world; the *Apokryphon*.
 - **Yithian Archive** — the Great Race's cosmic library.

@@ -794,7 +794,7 @@ Choose any two Specializations from the following:
 
 **Academia:** Cultures, History, Linguistics, Philosophy, Religion
 
-**Medicine:** Contagion, Faith Healing *(Spellcaster keyword required)*, Field Treatment, Pharmacia, Surgery
+**Medicine:** Contagion, Hieratic Healing *(Spellcaster keyword required)*, Field Treatment, Pharmacia, Surgery
 
 **Manipulation:** Charm, Deception, Innuendo, Invocation *(Spellcaster keyword required)*, Rhetoric
 

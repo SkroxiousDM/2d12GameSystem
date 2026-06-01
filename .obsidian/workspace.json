@@ -199,6 +199,8 @@
   },
   "active": "f605774da1f09ca6",
   "lastOpenFiles": [
+    "docs/cult_of_mormo.md",
+    "docs/98-Adventure_Hooks.md",
     "docs/aetas_obscura_setting_bible.md",
     "docs/cult_of_mormo_500AD.md",
     "docs/02-character-creation.md",
@@ -222,7 +224,6 @@
     "docs/07-fate-and-fortune.md",
     "docs/00-document-map.md",
     "CHANGELOG.md",
-    "CONTRIBUTING.md",
-    "README.md"
+    "CONTRIBUTING.md"
   ]
 }

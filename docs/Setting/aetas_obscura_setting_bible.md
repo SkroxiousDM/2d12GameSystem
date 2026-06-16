@@ -216,6 +216,8 @@ In 500 AD, the seven Sumerian Nephilim who opened the breach are sealed *within*
 
 #### 3.4.D The Burning Crown and the Fomorians
 
+**Origin — the heir of Atlantis.** Before any of the following, the Court of the Burning Crown was already ancient. Just as Long Night carries the cold seed of drowned **Hyperborea**, the Burning Crown is the surviving heir of **Atlantis** — the warm-water antediluvian thalassocracy of the deep Atlantic, drowned in the same long age of catastrophe (around **12,000 BC**) that took the polar continent. Two elder peoples, oceanic and polar, sank into the sea within the same handful of millennia, and from each the Veiled Sphere drew up a Court. The part of Atlantis that loved the living world most was lifted into Faerie and became, over slow millennia, the *Aestivales* (the Summer Sidhe); the part that reached instead for the Outer Dark to buy its survival became the **corrupted Atlanteans** — the estranged kin of the Court, deathless and twisted, of whom **Menes** in Ægyptus and **Drest** in Britannia are the surviving examples (see the *corrupted Atlantean* entries in [§5.8](#58-the-cult-of-mormo) and [§7](#7-key-locations--factions-quick-reference)). The Cretan bull-courts and the Etruscan groves are the Court's *daughter-traditions*, adopted long after the drowning — not its root. The full treatment is in [§5.3](#53-the-two-twilight-courts).
+
 In the centuries after the Eridu breach — roughly **2000–1000 BC** — the **Esoteric Order of Dagon** in its earliest form crossed from the Phoenician coast into the Atlantic and made landfall on the western Irish shore. The Deep One colonies they planted there are remembered in Irish tradition as the **Fomorians**: the sea-giants, the under-the-wave race, the warlike beings who ["dwell under the worlds of men"](https://en.wikipedia.org/wiki/Fomorians) in the 7th-century elegies.
 
 This is more or less verbatim true. The Fomorians were a Deep-One colonial polity — amphibious hybrids who had built underwater cities off Cliffs of Moher, Innis Mor, and Tory Island. They harvested Bronze Age Ireland for tribute and breeding-stock for centuries.
@@ -655,7 +657,7 @@ Architect of the Concordat. Long Night's eternal balancing rival is the Burning 
 
 ##### Overview
 
-The Court of growth, heat, fertility, and life. Its lore is **Mediterranean-pagan** — it claims descent from the gold-crowned bull-kings of Crete and from the green ladies of the Etruscan forests. Its fae are called *Aestivales* or "Summer Sidhe." Its capital is the **Hall of Beaten Gold** in the deep Veiled Sphere of southern Europe.
+The Court of growth, heat, fertility, and life. Its truest origin is **Atlantean** — the Burning Crown is the surviving heir of Atlantis, the warm-water antediluvian thalassocracy that drowned around 12,000 BC, exactly as Long Night is the heir of polar Hyperborea (see [§3.4.D](#34d-the-burning-crown-and-the-fomorians)). Its later, better-documented lore is **Mediterranean-pagan** — the daughter-traditions it adopted after the drowning, claiming descent from the gold-crowned bull-kings of Crete and the green ladies of the Etruscan forests. Its fae are called *Aestivales* or "Summer Sidhe." Its capital is the **Hall of Beaten Gold** in the deep Veiled Sphere of southern Europe.
 
 The Burning Crown is the direct cosmic counterweight to Long Night. Its power waxes from midwinter to midsummer and wanes back to midwinter.
 
@@ -957,7 +959,7 @@ An underground faith everywhere, the cult lives in double lives and stolen vestm
 
 - **Enemies:** Isis's Marian hunters (ancient, escalating); the Concord (which hunts any breach of the Seals); the House of Lamia where their territories overlap; surviving pagan fertility priesthoods.
 - **Ambivalent:** the Brotherhood of the Black Pharaoh, which regards Mormo as a useful harbinger and the Marian war as a lever it might one day pull, but does not control the cult.
-- **Indifferent / exploited:** the corrupted Atlantean **Menes** in Ægyptus and **Drest** in Britannia, allies of convenience and danger both.
+- **Indifferent / exploited:** the corrupted Atlantean **Menes** in Ægyptus and **Drest** in Britannia, allies of convenience and danger both — antediluvian survivors of drowned Atlantis who chose the Outer Dark, and thus the estranged kin of the Court of the Burning Crown (see [§3.4.D](#34d-the-burning-crown-and-the-fomorians)). Aigle forbids her Court to kill them without her sanction; the Cult exploits the gap.
 
 #### GM Notes
 
@@ -1127,8 +1129,8 @@ The chief Yithian archive. Almost impossible for a Mediterranean character to re
 
 ### Deep Antiquity
 
-- **c. 30,000 BC** — Hyperborean civilization flourishes on a polar continent. Worship of Tsathoggua, the Crone, the Voormi Mother.
-- **c. 12,000 BC** — Hyperborea drowns. Survivors carry the seed of what will become the Twilight Courts.
+- **c. 30,000 BC** — Hyperborean civilization flourishes on a polar continent. Worship of Tsathoggua, the Crone, the Voormi Mother. In the same deep antiquity, **Atlantis** — the warm-water thalassocracy of the deep Atlantic — flourishes as its oceanic opposite.
+- **c. 12,000 BC** — Hyperborea drowns; its survivors carry the cold seed of the **Court of Long Night**. Atlantis drowns in the same long catastrophe; the part of it that clung to life is lifted into Faerie as the **Court of the Burning Crown**, while the part that reached for the Outer Dark becomes the **corrupted Atlanteans** (Menes, Drest). See [§3.4.D](#34d-the-burning-crown-and-the-fomorians).
 - **c. 8000–4000 BC (dating disputed; the Concord refuses to commit)** — The **Watcher-Nephilim War** ("First Great Defection"). The Nephilim overthrow their Watcher fathers and seize the worship-flow of nascent humanity. A minority of Watchers are destroyed; the remainder are banished, bound, or imprisoned in the valley-pits beneath the earth. Every later pantheon's founding-myth — the Titanomachy, the slaying of Ymir, the *Enuma Elish*, the Devas-versus-Asuras, the Ennead displacing the Ogdoad — is a mortal-cult retelling of this war ([§3.4.A](#34a-the-nephilim-architects-of-the-gods), *War Between Fathers and Children*).
 - **c. 3500 BC** — First mortal cities. First Yithian mind-swap observations of human civilizations.
 

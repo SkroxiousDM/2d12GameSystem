@@ -128,6 +128,14 @@ Mountain people of the great plateau — Christianised by Gregory the Illuminato
 - *Culture Talent:* **Mashtots's Letters** — Gain advantage on Academia (Linguistics, Religion) and on any test made to copy, decipher, or compose in an unfamiliar script.
 - *Historical Lens:* The Battle of Avarayr (451) cemented Armenian Christian identity against Sasanian Zoroastrian pressure. Languages: Classical Armenian (Grabar). Deities: Christianised; the older pantheon (Vahagn the dragon-slayer, Anahit the mother, Mihr the sun, Aramazd the supreme) endured in folklore and personal names. Lasting influence: the Armenian Apostolic Church, the Mashtotsian alphabet, the *Bagratuni* noble tradition.
 
+***
+
+---
+
+## **The Western World** *(centred on Rome)*
+
+Rome endures — diminished in political power since the deposition of Romulus Augustulus in 476, yet still the spiritual and administrative heart of the Latin West. From the Eternal City's radius radiate successor kingdoms: Ostrogothic Italy, Vandal Africa, Visigothic Iberia, and the emergent Frankish north. The western Mediterranean, North Africa, Iberia, and the central Danubian frontier all fall under Rome's long shadow.
+
 ### Roman
 
 Law, discipline, and civic duty shape the Roman mind. Romans are administrators and soldiers in equal measure, versed in the structures that hold the world together. Senators of Rome, curiales of Milan, monks of Monte Cassino — they are the keepers of the old order, heirs to the *cursus honorum*, patrons of basilicas, often more Roman in dress and learning under Theodoric than they were under the last Valentinian.

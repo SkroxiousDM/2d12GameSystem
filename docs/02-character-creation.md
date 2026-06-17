@@ -120,30 +120,6 @@ Ancient, mystical, and deeply traditional, Ægyptians carry the weight of millen
 - *Culture Talent:* **Ancient Lore** – Gain advantage on tests to identify arcane artefacts, religious symbols, or the secrets of ancient civilisations.
 - *Historical Lens:* The Council of Chalcedon (451) split the Egyptian church from the imperial one; the Coptic Miaphysite identity dates from this schism. Languages: Coptic (Sahidic and Bohairic dialects) — the last form of ancient Egyptian, written in Greek letters — and Greek in cities. Deities: Christ replaced Osiris and Horus, but Isis-imagery influenced Marian devotion; older funerary practices survived in mummified saints. Lasting influence: Christian monasticism (Anthony, Pachomius, Shenoute), Marian iconography, the Coptic calendar, the deciphering key for the hieroglyphs themselves.
 
-### Persian
-
-Disciplined, cultured, and politically astute, Persians come from a civilisation that rivals Rome itself. Subjects of the King of Kings, Šāhanšāh — Persians of the imperial core (Fars, Media, Khuzistan) and the bureaucratic and military classes from Ctesiphon.
-
-- *Attribute Points:* REA +2, CHA +1, AGI +1
-- *Culture Talent:* **Imperial Bearing** – When negotiating, persuading, or issuing commands, treat your Charisma as 1 higher for determining the result tier.
-- *Historical Lens:* Khosrow I Anushirvan (r. 531–579) reformed taxation, founded the academy of Gondishapur, and reset Roman-Persian relations. Languages: Middle Persian (Pahlavi), Aramaic in administration. Deities: Zoroastrian — Ahura Mazda, Mithra, Anahita, the *Amesha Spentas*; Christianity tolerated through the Church of the East. Lasting influence: the Pahlavi literary corpus, much of Sasanian court ceremonial inherited by both the Umayyads and Byzantium.
-
-### Median Highlander
-
-Subjects of the Sasanian crown from the Zagros highlands — herders, miners, and ancestors of the Kurdish peoples. The Median nobility still mattered at the Sasanian court; their cavalry tradition was older than the empire itself.
-
-- *Attribute Points:* STR +1, AGI +1, AWA +1, CON +1
-- *Culture Talent:* **Highland Cavalry** — Gain advantage on Athletics (Riding) tests in broken terrain and on Survival tests in cold mountain conditions.
-- *Historical Lens:* Languages: Old Iranian dialects (ancestors of Kurdish, Zaza-Gorani). Deities: Zoroastrian, with surviving Yazidi-precursor angelology (Peacock figures). Lasting influence: the Kurdish nation; the Mithraic substrate of Roman soldier-religion came partly through this region.
-
-### Lakhmid Arab
-
-Banū Lakhm — the Christian-and-pagan Arab dynasty of al-Hira, federated to the Sasanian Persians. They were the Ghassanids' mirror image: gateway between settled and nomadic Arabia, sponsors of pre-Islamic poetry, defenders of the Persian western flank.
-
-- *Attribute Points:* AGI +1, CHA +1, DEX +1, INS +1
-- *Culture Talent:* **Court of al-Hira** — Gain advantage on Manipulation (Rhetoric, Innuendo) tests in any setting where poetry, lineage, or honour-debt is in play.
-- *Historical Lens:* Al-Mundhir III (r. c. 505–554) defeated Belisarius's Ghassanid allies at Callinicum (531). Languages: Arabic, Syriac, Middle Persian. Deities: a mixed court — the king's family were variously Nestorian, Manichaean, or pagan. Lasting influence: the *Mu'allaqat* poetic tradition, the bridge from pre-Islamic Arabia to the early caliphate.
-
 ### Armenian
 
 Mountain people of the great plateau — Christianised by Gregory the Illuminator (c. 301) before any other state, and given a unique alphabet by Mesrop Mashtots in 405. Armenia is a perpetual buffer between Roman and Sasanian power; its noble *nakharar* houses navigate both.
@@ -151,54 +127,6 @@ Mountain people of the great plateau — Christianised by Gregory the Illuminato
 - *Attribute Points:* CON +1, REA +1, WIL +1, MIG +1
 - *Culture Talent:* **Mashtots's Letters** — Gain advantage on Academia (Linguistics, Religion) and on any test made to copy, decipher, or compose in an unfamiliar script.
 - *Historical Lens:* The Battle of Avarayr (451) cemented Armenian Christian identity against Sasanian Zoroastrian pressure. Languages: Classical Armenian (Grabar). Deities: Christianised; the older pantheon (Vahagn the dragon-slayer, Anahit the mother, Mihr the sun, Aramazd the supreme) endured in folklore and personal names. Lasting influence: the Armenian Apostolic Church, the Mashtotsian alphabet, the *Bagratuni* noble tradition.
-
-### Georgian (Iberian / Lazic / Colchian)
-
-People of the Caucasus — the kingdom of Iberia (Kartli) Christianised c. 326, the kingdom of Lazica (Egrisi) a Roman client on the Black Sea. Both serve as the empire's eastern hinge in its wars with Persia.
-
-- *Attribute Points:* CON +1, STR +1, MIG +1, INS +1
-- *Culture Talent:* **Caucasian Hospitality** — When a guest in a stranger's home, gain advantage on Manipulation tests and may treat all hostility as merely cool reception until the guest-bond is broken.
-- *Historical Lens:* The Lazic War (541–562) was fought over precisely this frontier. Languages: Old Georgian (the asomtavruli script was created in this period). Deities: Christianised; older worship of Armazi, Gatsi, Ga survived. Lasting influence: the Georgian Orthodox Church, the *Mokvi* and *Bichvinta* church-building traditions.
-
-### Aksumite Ethiopian
-
-People of the Red Sea trade kingdom — masters of incense, ivory, gold, and obsidian, the only African state minting its own coinage alongside Rome and Persia. Aksum adopted Christianity under King Ezana c. 330 and remained a Roman ally throughout the 5th and 6th centuries.
-
-- *Attribute Points:* REA +1, CON +1, CHA +1, INS +1
-- *Culture Talent:* **Two-Sea Trader** — Gain advantage on Manipulation (Negotiation) tests in any port, market, or caravanserai touching the Red Sea or Indian Ocean trade.
-- *Historical Lens:* King Kaleb invaded Himyar in 525 at Justin I's behest to avenge persecuted Christians. Languages: Ge'ez (with its own Ethiopic syllabary, derived from Sabaic), Greek. Deities: Christian (the Ethiopian Tewahedo tradition emerged from Egyptian monastic influence); older South-Semitic pantheon (Astar, Beher, Meder) remembered in inscriptions. Lasting influence: the Ethiopian Orthodox Tewahedo Church, the Ge'ez literary tradition, the Solomonic dynasty's legitimising mythology.
-
-### Himyarite South Arabian
-
-People of the incense kingdoms of Yemen — by the 5th century a kingdom that converted to Judaism (Dhu Nuwas), persecuted its Christians (the Najran martyrs, 523), and was conquered by Aksum (525) in response. A sophisticated, literate, irrigation-civilisation collapsing into the long Islamic prelude.
-
-- *Attribute Points:* REA +1, CHA +1, CON +1, INS +1
-- *Culture Talent:* **Marib Engineer** — Gain advantage on Crafting (Architecture) and Engineering tests involving dams, irrigation, and stone-cut hydraulics.
-- *Historical Lens:* The Great Dam of Marib failed catastrophically in this period — an event remembered in the Qur'an. Languages: Sabaic, Himyaritic. Deities: a South-Semitic pantheon (Almaqah, Athtar, Wadd) gave way first to monotheism (*Rahmanan*), then to Christianity and Judaism alongside it. Lasting influence: the Ethiopic alphabet, the *qabili* tribal-legal tradition of Yemen.
-
-### Nubian / Nobatian
-
-Heirs to Meroe, by AD 400 reorganised into the Christian kingdoms of Nobatia, Makuria, and Alodia (Christianised in the 6th century under Justinian's missionaries). They traded gold, ivory, slaves, and emeralds northwards into Egypt and held the upper Nile.
-
-- *Attribute Points:* STR +1, AWA +1, INS +1, MIG +1
-- *Culture Talent:* **Bowman of Kush** — Gain advantage on Fighting (Archery) tests at long range, and on Survival tests on the river.
-- *Historical Lens:* Procopius records Justinian's and Theodora's competing missions to convert Nobatia. Languages: Old Nubian (with a script descended from Coptic and Meroitic). Deities: Christianised under Theodora's missionaries by c. 543; older worship of Isis at Philae continued in Nubian hands until Justinian closed the temple c. 537. Lasting influence: the medieval Nubian Christian kingdoms (Makuria, Alodia), the Old Nubian Bible.
-
-### Alan
-
-Iranian-speaking riders of the western steppe who joined the Vandals and Suevi in the 406 Rhine crossing. By 550 some Alan groups have settled in Gaul (around Orléans and Valence), in Spain (briefly), and in the Caucasus (the ancestors of the Ossetians).
-
-- *Attribute Points:* AGI +1, DEX +1, STR +1, AWA +1
-- *Culture Talent:* **Lance-and-Bow** — You may switch between lance and bow on horseback as a free action, with no penalty for shifting weapons in the same round.
-- *Historical Lens:* Languages: Alanic (Northeast Iranian, ancestor of Ossetian). Deities: an Iranian pantheon (Wacilla, Watsilla — the thunder-god — later Christianised); Christian baptism widespread by the 6th century in the Caucasus. Lasting influence: Ossetian Nart sagas, possibly the Arthurian "sword in the stone" motif (via the Sarmatian-Alan cavalry stationed in Britain).
-
-***
-
----
-
-## **The Western World** *(centred on Rome)*
-
-Rome endures — diminished in political power since the deposition of Romulus Augustulus in 476, yet still the spiritual and administrative heart of the Latin West. From the Eternal City's radius radiate successor kingdoms: Ostrogothic Italy, Vandal Africa, Visigothic Iberia, and the emergent Frankish north. The western Mediterranean, North Africa, Iberia, and the central Danubian frontier all fall under Rome's long shadow.
 
 ### Roman
 
@@ -404,15 +332,7 @@ Mountain folk of the western Pyrenees and the Garonne basin — herders, smuggle
 | Goth | East | Pontic / Danube | Gothic | Arian Christ; Tiwaz, Wōðanaz in names | Gothic Bible, written Germanic law |
 | Slavic Settler | East | Lower Danube | Common Slavic | Perun, Veles, Mokosh, Svarog | Balkan demographics |
 | Ægyptian | East | Nile Valley | Coptic, Greek | Mary echoes Isis; Coptic saints | Christian monasticism, Marian iconography |
-| Persian | East | Iran | Middle Persian (Pahlavi) | Ahura Mazda, Mithra, Anahita | Pahlavi corpus, court ceremonial |
-| Median Highlander | East | Zagros | Old Iranian dialects | Zoroastrian / Yazidi-precursor | Kurdish nation |
-| Lakhmid Arab | East | Mesopotamia | Arabic, Syriac, Persian | Nestorian / Manichaean / pagan | Pre-Islamic Arabic poetry |
 | Armenian | East | Highland Plateau | Classical Armenian | Christian over Vahagn, Anahit, Mihr | Apostolic Church, Mashtots alphabet |
-| Georgian | East | S. Caucasus | Old Georgian | Christian over Armazi, Gatsi | Orthodox Georgia |
-| Aksumite Ethiopian | East | Tigray / Eritrea | Ge'ez, Greek | Christian (Tewahedo) over Astar, Beher | Ethiopian Orthodoxy, Ge'ez script |
-| Himyarite South Arabian | East | Yemen | Sabaic, Himyaritic | *Rahmanan* monotheism; Almaqah, Athtar earlier | Ethiopic alphabet, qabili tradition |
-| Nubian / Nobatian | East | Upper Nile | Old Nubian, Coptic | Christianised; Isis at Philae to c. 537 | Medieval Nubian Christian kingdoms |
-| Alan | East | Steppe / Caucasus | Alanic (NE Iranian) | Iranian sky / thunder; Christianised | Ossetian Narts, possibly Arthurian motifs |
 | Roman | West | Italy | Latin | Christian saints over Lares, Vesta | Canon law, papacy |
 | Hispanian | West | Iberia | Late Latin | Christian saints over Endovelicus, Ataecina | Spanish villa-system, *Breviary of Alaric* |
 | Lusitanian | West | W. Iberia | Latin, residual Lusitanian | Endovelicus, Ataecina, Bandua | Cañada transhumance |

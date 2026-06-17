@@ -1282,6 +1282,7 @@ You have a particular aptitude for honest toil. This Talent may be taken multipl
 ### Occult Dabbler
 
 *Keywords: Spellcaster, Weird*
+
 *Prerequisite: No other Talent with the Spellcaster keyword*
 
 You have dabbled with occult forces beyond your comprehension. You are now a spellcaster of the dabbling type.

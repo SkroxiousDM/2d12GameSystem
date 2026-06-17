@@ -1242,7 +1242,7 @@ You have a particular aptitude for honest toil. This Talent may be taken multipl
 
 *Prerequisite: Character creation only*
 
-* **Benefit:** You gain 1 additional Fortune point. This Talent may only be taken once.
+* **Benefit:** You gain 1 additional Fate point. This Talent may only be taken once.
 
 ---
 

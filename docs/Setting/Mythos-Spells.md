@@ -2,7 +2,7 @@
 
 # Mythos Spells
 
-## **Tome of Cthulhu**
+# **Tome of Cthulhu**
 
 The Great Old One Cthulhu's mind is so elemental that even while he dreams, his followers are able to use the power inherent in his thoughts, molding and shaping his arcane visions to affect change. Based on water magic, Cthulhu's spell tome is primarily used by his children, the Deep Ones, spawn of Father Dagon and Mother Hydra. Mortal spellcasters who worship the Great Old One may also draw upon his incantations to summon the power of the unwholesome deep.
 
@@ -147,7 +147,7 @@ Summon Cthulhu: See Evoke/Dismiss Deity page 172.
 
 ***
 
-## **Compendium of Mormo**
+# **Compendium of Mormo**
 
 Mormo, often associated with fertility, growth, and natural abominations, inspires magic of creation and transformation, frequently with chaotic, uncontrolled elements. Cultists often utilize spells that control and shape life in perverse and unnatural ways.
 
@@ -287,7 +287,7 @@ The spellcaster imprints their will upon plant life, causing it to grow and chan
 
 ***
 
-## **Grimoire of Nyarlathotep**
+# **Grimoire of Nyarlathotep**
 
 The Messenger of the Outer Gods confers ominous boons upon his children and worshippers, sowing illusion, deception, delusion, and death. Those worshippers who wield Nyarlathotep's unholy magics do so at great cost to their own personal health and rationality.
 
@@ -429,7 +429,7 @@ This spell projects a torrent of jet-black flames from the spellcaster's hands d
 
 ***
 
-## **Spellbook of Yog-Sothoth**
+# **Spellbook of Yog-Sothoth**
 
 Yog-Sothoth, the Outer God, is both keeper of all knowledge and coterminous with all time and space and so its magic is based on unlocking gateways, freeing forbidden knowledge, and revealing the hidden pathways which open believers' eyes to the true nature of reality. Unlike Nyarlathotep, Yog-Sothoth is not malign in the traditional sense, but welcomes those who would gaze upon the true state of the multiverse, even if it might drive them insane. Even though one aspect of it is trapped with the black sun, the god sometimes manifests itself as a succession of gleaming vortexes and spheres. Occasionally it has been known to interfere in the affairs of mortals, impregnating them to create monstrous hybrids.
 

@@ -17,7 +17,7 @@ Requirements typically include:
 
 ---
 
-## Combat Talents
+# Combat Talents
 
 ### Dangerous
 
@@ -486,7 +486,7 @@ You carry a deep and consuming hatred for a particular group. Choose the object 
 
 ---
 
-## Command & Leadership Talents
+# Command & Leadership Talents
 
 ### Tactician
 
@@ -594,7 +594,7 @@ This Talent may be taken a second time; if so, choose one of the following:
 
 ---
 
-## Mobility & Athleticism Talents
+# Mobility & Athleticism Talents
 
 ### Light-Footed
 
@@ -693,7 +693,7 @@ You know the land of your upbringing the way others know their own face. This Ta
 
 ---
 
-## Stealth & Skullduggery Talents
+# Stealth & Skullduggery Talents
 
 ### Subtle
 
@@ -782,7 +782,7 @@ You know the land of your upbringing the way others know their own face. This Ta
 
 ---
 
-## Social & Influence Talents
+# Social & Influence Talents
 
 ### Liar
 
@@ -1061,7 +1061,7 @@ You have a natural gift for one of the arts. This Talent may be taken multiple t
 
 ---
 
-## Wilderness & Survival Talents
+# Wilderness & Survival Talents
 
 ### Bestial
 
@@ -1154,7 +1154,7 @@ You have a particular aptitude for honest toil. This Talent may be taken multipl
 
 ---
 
-## Medicine & Alchemy Talents
+# Medicine & Alchemy Talents
 
 ### Poultice Maker
 
@@ -1236,7 +1236,7 @@ You have a particular aptitude for honest toil. This Talent may be taken multipl
 
 ---
 
-## General Talents
+# General Talents
 
 ### Fated
 
@@ -1245,7 +1245,6 @@ You have a particular aptitude for honest toil. This Talent may be taken multipl
 * **Benefit:** You gain 1 additional Fate point. This Talent may only be taken once.
 
 ---
-
 ### Mental Fortress
 
 *Prerequisite: Rank 2 Resilience (Discipline)*
@@ -1253,32 +1252,27 @@ You have a particular aptitude for honest toil. This Talent may be taken multipl
 * **Benefit:** You cannot be read by magical means, and you reduce any damage you suffer from spells or supernatural effects by your Willpower.
 
 ---
-
 ### Tenacious
 
 * **Benefit:** Whenever you suffer the Stunned condition, you may immediately make a Challenging Resilience (Fortitude) Check to shrug it off.
 
 ---
-
 ### Flagellant
 
 * **Benefit:** Gain +1 SL on Checks to resist the effects of pain or interrogation.
 * **Benefit:** Whenever you suffer a Critical Wound, you may make a Challenging Academia (Religion) Check. On a success, you may ignore that Critical Wound's effects for a number of rounds equal to your Willpower. At the end of this duration, the full effects apply.
 
 ---
-
 ### Eidetic Memory
 
 * **Benefit:** Once you observe something, even briefly, you can reproduce it from memory with near-perfect accuracy. You do not need to make Checks to recall visual details.
 
 ---
-
 ### Well-Prepared
 
 * **Benefit:** Once per session, you may produce a small piece of equipment from your kit that you could plausibly have acquired before the session began. The item must be Small or Tiny. When you use this Talent, deduct its cost from your coin, representing expenditure made before play.
 
 ---
-
 ### Occult Dabbler
 
 *Keywords: Spellcaster, Weird*
@@ -1288,3 +1282,12 @@ You have a particular aptitude for honest toil. This Talent may be taken multipl
 You have dabbled with occult forces beyond your comprehension. You are now a spellcaster of the dabbling type.
 
 ---
+### Envy and Attention
+*Keywords: Noble*
+
+*Requirements: Noble caste*
+
+You hold considerable status in society, and while that comes with numerous benefits, it can cause challenges and complications to arise as well. You cannot move around unnoticed easily, and those who wish to see your downfall or to usurp your position conspire against you. Whenever you attempt a skill test to sway opinion or influence others using Charisma, the cost to buy the first advantage on that skill test is reduced to 0, but the GM begins each adventure with +2 additional Doom in their Doom pool to represent these potential problems. This talent cannot be retrained unless your character loses their position as a member of the Noble caste.
+
+---
+

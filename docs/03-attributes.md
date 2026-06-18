@@ -11,7 +11,7 @@ Characters are defined by eight core attributes divided into Physical and Mental
 * Agility (AGI): Reflexes, balance, and body control. Agility is used for melee attacks.
 * Constitution (CON): Endurance, resistance to harm, and physical toughness.  
 * Dexterity (DEX): Precision, speed, and hand–eye coordination. Dexterity is used for ranged attacks.  
-* Might (MIG): Raw physical power for lifting, striking, and feats of Strength. Might adds a damage bonus to melee attacks.  
+* Might (MIG): Raw physical Pneuma for lifting, striking, and feats of Strength. Might adds a damage bonus to melee attacks.  
 
 ### Mental Attributes
 
@@ -48,31 +48,31 @@ When a character's available Stamina falls below half, they roll with disadvanta
 
 ---
 
-### Alacrity \= ((AGI \+ INS)/2 \+ Traits)
+### Akmē \= ((AGI \+ INS)/2 \+ Traits)
 
-Alacrity is added to 1d12 roll to determine Initiative combat turn order.  
+Akmē is added to 1d12 roll to determine Initiative combat turn order.  
 Also determines the number of Actions you may take in 1 round of combat including Reactions.
 
 ### Defence \= (CON \- 2 \+ Armour \+ Cover \+ Traits)
 
-### Vitality \= (3 \+ CON \+ Traits)
+### Sōma \= (3 \+ CON \+ Traits)
 
-Vitality represents a character’s endurance, stamina, and ability to ignore minor injuries such as cuts, scratches, bruises, and abrasions. It also represents the ability to avoid serious injuries. A character with low Vitality is tired and unable to avoid serious injury.
+Sōma represents a character’s endurance, stamina, and ability to ignore minor injuries such as cuts, scratches, bruises, and abrasions. It also represents the ability to avoid serious injuries. A character with low Sōma is tired and unable to avoid serious injury.
 
-* Whenever a character takes physical Stress,  Soak with Defence, then subtract remainder from  Vitality.  
-* Vitality cannot be reduced below 0\.
+* Whenever a character takes physical Stress,  Soak with Defence, then subtract remainder from  Sōma.  
+* Sōma cannot be reduced below 0\.
 
-When Vitality reaches 0:
+When Sōma reaches 0:
 
 * The character gains 1 Critical Wound.  
-* The character gains the Staggered condition until they regain at least 1 Vitality.
+* The character gains the Staggered condition until they regain at least 1 Sōma.
 
 While Staggered, a character:
 
-* **Alacrity** reduces to 1  
+* **Akmē** reduces to 1  
 * Automatically loses Concentration.  
 * Risks further injury:  
-  * You must make a Challenging Resilience (Fortitude) Test or fall Unconscious Repeat this Test each time you receive further Damage. You don't regain consciousness until you regain at least 1 Vitality.  
+  * You must make a Challenging Resilience (Fortitude) Test or fall Unconscious Repeat this Test each time you receive further Damage. You don't regain consciousness until you regain at least 1 Sōma.  
   * Taking damage causes Critical Wounds
 
 ### Critical Wound Capacity \= (3 \+ CON \+ Traits)
@@ -81,14 +81,14 @@ A character can sustain a maximum number of Critical Wounds equal to 3 \+ CON \+
 
 ### Courage \= (WIL \- 2 \+ Morale \+ Traits)
 
-### Resolve \= (3 \+ WIL \+ Traits)
+### Psychē \= (3 \+ WIL \+ Traits)
 
-Resolve represents a character’s determination, and their ability to handle stress, control emotions, and resist the stresses of life. Characters whose current Resolve is low are weary, less certain, and less able to cope with challenging situations.
+Psychē represents a character’s determination, and their ability to handle stress, control emotions, and resist the stresses of life. Characters whose current Psychē is low are weary, less certain, and less able to cope with challenging situations.
 
-* Whenever a character takes mental Stress, Soak with Courage then subtract remainder from Resolve.  
-* Resolve cannot be reduced below 0\.
+* Whenever a character takes mental Stress, Soak with Courage then subtract remainder from Psychē.  
+* Psychē cannot be reduced below 0\.
 
-When Resolve reaches 0:
+When Psychē reaches 0:
 
 * The character loses 1 Sanity.  
 * The character gains a Madness
@@ -97,11 +97,11 @@ When Resolve reaches 0:
 
 A character has a Sanity score equal to REA \+ INS \+CHA \+ Traits. 
 
-### Power
+### Pneuma
 
-Power represents a character's reserves for ritual magic and investing foci. The method of calculation depends on how the character accesses magic:
+Pneuma represents a character's reserves for ritual magic and investing foci. The method of calculation depends on how the character accesses magic:
 
-* Traditional: Power \= 2 \+ INS \+ Traits  
-* Research: Power \= 2 \+ REA \+ Traits  
-* Dabbling: Power \= 1 \+ WIL \+ Traits
+* Traditional: Pneuma \= 2 \+ INS \+ Traits  
+* Research: Pneuma \= 2 \+ REA \+ Traits  
+* Dabbling: Pneuma \= 1 \+ WIL \+ Traits
 

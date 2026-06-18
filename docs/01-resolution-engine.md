@@ -28,7 +28,8 @@ All uncertain actions, including attacks, skill checks, and certain spell uses, 
 >Skill rolls will always be made with at least 2d12
 >
 >Damage rolls and some rolls on tables will use the others. 
-> 	damage rolls { ***N***d3-***N*** } can also be made with FATE/Fudge dice using{ ***N***d3 } where "blank" = 0, "-" = 1, and "+" = 2 
+> 	damage rolls { ***N***d3-***N*** } can also be made with FATE/Fudge dice using
+> 	{ ***N*** fate die } where "blank" = 0, "-" = 1, and "+" = 2 
 
 #### Rolling the Dice
 
@@ -52,7 +53,7 @@ The Challenge Threshold (CT) represents task difficulty. 8 + Modifier + Attribut
 The GM chooses a difficulty based on circumstances and applies the modifier accordingly.
 
 ### Outcomes
-- **Critical Success** *(Success And...)*: Total ≤ CT and both dice match. The action succeeds with a strong bonus; the character Gains 1 Fortune, and an attack deals critical damage.  
+- **Critical Success** *(Success And...)*: Total ≤ CT and both dice match. The action succeeds with a strong bonus; the character Gains 1 Tychē, and an attack deals critical damage.  
 - **Success** *(Success)*: Total ≤ CT and the Complication die is higher than the other die. The action succeeds.  
 - **Success with Complication** *(Success, But...)*: Total ≤ CT and the Complication die is lower. The action succeeds with a cost or complication; the GM gains 1 Doom token.  
 - **Marginal Failure** *(Failure, But...)*: Total > CT and the Complication die is higher. The action fails with a minor Benefit.  
@@ -89,7 +90,7 @@ The GM determines specific consequences based on the fiction.
 - Helpful information is discovered.  
 - Success, and an NPC is impressed or indebted, granting a small favor.  
 - Success, and a hidden danger is noticed early, granting time to react.  
-- Success, and instead of another reward, the GM may award the party a Fortune Point.
+- Success, and instead of another reward, the GM may award the party a Tychē Point.
 
 ### Degrees of Success
 
@@ -98,7 +99,7 @@ For every 2 points your total is below the success threshold, you gain 1 degree 
 - **Confidence:** Each Level of Success spent on this option after passing a Skill Check adds \+1 to your Morale resistance until the start of your next turn. A maximum of 3 Levels of Success may be spent this way, for a total of \+3 Morale resistance.  
 - **Obtain Information:** You may ask the GM one question about the scene per Level of Success spent. The GM must answer truthfully but need not provide complete information, and the question must relate directly to the Skill Check just passed.  
 - **Reduce Time:** You may spend Levels of Success to reduce the time required to complete an activity represented by a Skill Check just passed. The GM determines how much time each Level of Success removes, and you may spend as many or as few as you wish depending on how quickly you need the task completed.  
-- **Invest in Fortune:** you may spend 2 Levels of Success to create a Fortune point to use later
+- **Invest in Tychē:** you may spend 2 Levels of Success to create a Tychē point to use later
 
 ### Advantage and Disadvantage
 
@@ -119,7 +120,7 @@ Gaining Advantage and Disadvantage on checks made against other creatures is ver
 
 ### Push
 
-Pushing allows a character to reroll a failed check at a cost of 1 **Stress** (lose 1 Vitality or 1 Resolve depending on whether a Physical or Mental attribute was used).
+Pushing allows a character to reroll a failed check at a cost of 1 **Stress** (lose 1 Sōma or 1 Psychē depending on whether a Physical or Mental attribute was used).
 
 - Fumbles (Critical Failures) cannot be pushed.  
 - Only checks with ranks in a relevant skill may be pushed.
@@ -146,7 +147,7 @@ Some tasks are too complex or time-consuming to resolve with a single Check. If 
 
 Some tasks cannot simply fail — instead, success may be possible only by accepting a consequence. When the GM permits, you may treat a failed skill test as a success at a cost. Under this option, a failed roll still achieves the test's objective, but the character automatically suffers one complication in addition to any complications produced by the dice results.
 
-A success gained this way is mechanically successful but cannot be improved with Fortune. You may spend Fortune on a skill test only if the test succeeded on the dice roll itself.
+A success gained this way is mechanically successful but cannot be improved with Tychē. You may spend Tychē on a skill test only if the test succeeded on the dice roll itself.
 
 ### Buying off Complications
 
@@ -154,33 +155,33 @@ When you receive a complication, you may cancel it by buying it off. To buy off 
 
 If a non-player character (NPC) suffers a complication, the GM may spend 2 Doom from their Doom pool to buy off the complication, cancelling it and removing 2 Doom from the pool.
 
-# Fortune and Fate
-## Fortune
+# Tychē and Fate
+## Tychē
 
-Fortune represents the amount of luck, and good will you have accumulated over the session.
+Tychē represents the amount of luck, and good will you have accumulated over the session.
 
-- You start each session with zero (0) Fortune.
-- Fortune may be accumulated over the session but will reset to zero at the start of the next session.
+- You start each session with zero (0) Tychē.
+- Tychē may be accumulated over the session but will reset to zero at the start of the next session.
 
-### Spending Fortune
+### Spending Tychē
 
-You may spend Fortune to turn circumstances to your advantage. When you Spend Fortune, choose one of the following effects:
+You may spend Tychē to turn circumstances to your advantage. When you Spend Tychē, choose one of the following effects:
 
 - Reroll a failed Test. This can be used after a Push
-- Gain Advantage on a Test before it is rolled. This can be used multiple times on a single test. The second costs 2 Fortune and the third costs 6 Fortune
+- Gain Advantage on a Test before it is rolled. This can be used multiple times on a single test. The second costs 2 Tychē and the third costs 6 Tychē
 - Add +1 SL to a Test after it is successfully rolled. This can be used multiple times on a single test.
 - At the start of the round, choose when to act in that round, ignoring Initiative.
 - Ignore all effects from all Critical Wounds until the beginning of your next turn, including Conditions and injuries.
-- Remove one Condition; if you removed the Prone Condition, you regain 1 Vitality.
+- Remove one Condition; if you removed the Prone Condition, you regain 1 Sōma.
 
 ## Fate
 
 Fate represents one of the ways you stand apart from the countless masses. Whether through determination, destiny, or the favour of the Gods, there is something special about you.  
-To represent this, you begin play with 3 Fate points. Fate allows you to survive against seemingly impossible odds, and prevail where others would stumble. There are two ways to utilise Fate: You can Spend Fate as a Fortune point or Burn Fate.
+To represent this, you begin play with 3 Fate points. Fate allows you to survive against seemingly impossible odds, and prevail where others would stumble. There are two ways to utilise Fate: You can Spend Fate as a Tychē point or Burn Fate.
 
 ### Spending Fate
 
-- When you Spend Fate, you temporarily reduce your Fate by 1 to gain a Fortune benefit.
+- When you Spend Fate, you temporarily reduce your Fate by 1 to gain a Tychē benefit.
 - You recover spent Fate at the start of each session.
 
 ### Burning Fate

@@ -8,31 +8,37 @@
         "type": "tabs",
         "children": [
           {
-            "id": "94fb804b2c694b83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/05-talents.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "05-talents"
-            }
-          },
-          {
             "id": "c752bf81e43ab380",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/03-attributes.md",
+                "file": "docs/01-resolution-engine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-attributes"
+              "title": "01-resolution-engine"
+            }
+          }
+        ]
+      },
+      {
+        "id": "54a794246f37d7eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd56ccd546908784",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Setting/aetas_obscura_setting_bible.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "aetas_obscura_setting_bible"
             }
           }
         ]
@@ -183,8 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,8 +202,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "94fb804b2c694b83",
+  "active": "c752bf81e43ab380",
   "lastOpenFiles": [
+    "docs/Setting/aetas_obscura_setting_bible.md",
+    "docs/01-resolution-engine.md",
+    "docs/03-attributes.md",
+    "docs/05-talents.md",
     "docs/Setting/setting adjustments.md",
     "docs/02.4 Roles.md",
     "docs/02.3 Backgrounds.md",
@@ -215,7 +224,6 @@
     "docs/Setting/cult_of_mormo.md",
     "docs/Setting/cult_of_mormo_165AD.md",
     "docs/Setting/cult_of_mormo_500AD.md",
-    "docs/Setting/aetas_obscura_setting_bible.md",
     "docs/Setting/98-Adventure_Hooks.md",
     "branch-rulesets/PRs and commits.json",
     "The-World-of-500AD.md",
@@ -223,10 +231,7 @@
     "docs/aetas_obscura_setting_bible.md",
     "docs/98-Adventure_Hooks.md",
     "docs/17-cults.md",
-    "docs/01-resolution-engine.md",
-    "docs/20-gm-toolkit-and-encounter-design.md",
     "branch-rulesets",
-    "docs/09-environment.md",
     "docs/Setting"
   ]
 }

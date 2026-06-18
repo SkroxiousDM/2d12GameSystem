@@ -1194,14 +1194,14 @@ The setting is system-agnostic but designed to plug cleanly into a **2d12 system
 
 Six attributes mapping to late-antique conceptions of the person:
 
-| Attribute | Late Antique Concept| Translation | Covers |
-|---|---|---|---|
-| Vitality | **Sōma** | Body | Strength, constitution, endurance |
-| Alacrity | **Akmē** | Vigor | Agility, reflexes, speed |
-| - | **Nous** | Intellect | Learning, memory, reasoning |
-| Power | **Pneuma** | Spirit | Willpower, conviction, magical potential (the reserve gods harvest and priests spend) |
-| Resolve | **Psychē** | Soul | Empathy, charisma, social grace |
-| Fortune | **Tychē** | Fortune | Luck, providence, the favor of the gods |
+| Attribute | Late Antique Concept | Translation | Covers                                                                                |
+| --------- | -------------------- | ----------- | ------------------------------------------------------------------------------------- |
+| Vitality  | **Sōma**             | Body        | Strength, constitution, endurance                                                     |
+| Alacrity  | **Akmē**             | Vigor       | Agility, reflexes, speed                                                              |
+| Reason    | **Nous**             | Intellect   | Learning, memory, reasoning                                                           |
+| Power     | **Pneuma**           | Spirit      | Willpower, conviction, magical potential (the reserve gods harvest and priests spend) |
+| Resolve   | **Psychē**           | Soul        | Empathy, charisma, social grace                                                       |
+| Fortune   | **Tychē**            | Fortune     | Luck, providence, the favor of the gods                                               |
 
 ---
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/20-gm-toolkit-and-encounter-design.md",
+                "file": "docs/02-character-creation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20-gm-toolkit-and-encounter-design"
+              "title": "02-character-creation"
             }
           },
           {
@@ -197,23 +197,28 @@
       "bases:Create new base": false
     }
   },
-  "active": "7b84c46cc61e5997",
+  "active": "94fb804b2c694b83",
   "lastOpenFiles": [
-    "branch-rulesets/PRs and commits.json",
-    "branch-rulesets",
-    "docs/20-gm-toolkit-and-encounter-design.md",
-    "docs/09-environment.md",
-    "The-World-of-500AD.md",
+    "docs/Setting/setting adjustments.md",
     "docs/Setting/cult_of_mormo_500AD.md",
+    "docs/Setting/cult_of_mormo.md",
     "docs/Setting/aetas_obscura_setting_bible.md",
     "docs/Setting/98-Adventure_Hooks.md",
-    "docs/Setting",
+    "branch-rulesets/PRs and commits.json",
+    "The-World-of-500AD.md",
+    "docs/cult_of_mormo.md",
     "docs/aetas_obscura_setting_bible.md",
     "docs/98-Adventure_Hooks.md",
     "docs/17-cults.md",
+    "docs/01-resolution-engine.md",
+    "docs/Setting/two_twilight_courts.md",
+    "docs/Setting/four_sanguine_courts.md",
+    "docs/20-gm-toolkit-and-encounter-design.md",
+    "branch-rulesets",
+    "docs/09-environment.md",
+    "docs/Setting",
     "docs/03-attributes.md",
     "docs/04-skills.md",
-    "docs/Setting/cult_of_mormo.md",
     "docs/02-character-creation.md",
     "docs/92-derived-stats-reference.md",
     "docs/99_gap_analysis.md",
@@ -222,10 +227,6 @@
     "docs/19-exploration-and-travel.md",
     "docs/02.5-sample-characters.md",
     "docs/05-talents.md",
-    "docs/06.9-ritualistic-magic.md",
-    "docs/06.4-druidic-spellbook.md",
-    "docs/06.2-oracular-spellbook.md",
-    "docs/06.1-runic-spellbook.md",
-    "docs/06-magic.md"
+    "docs/06.9-ritualistic-magic.md"
   ]
 }

@@ -968,3 +968,366 @@ The geas must be defined in a single sentence by the spellcaster and might come 
 
 Miscast: The spellcaster suffers 4 mental stress with the Piercing 2 and Vicious effects and will be compelled to follow the terms of the geas themselves.
 
+BREAK/MEND MINDS
+
+In its Curse form, this potent sorcery opens the victim's eyes to the truth of the Mythos, breaking down its victim's mental defenses to shatter minds, revealing nightmare visions of the multiverse. In its Cure form, this healing benediction is able to provide a gentle balm to those afflicted by Mythos-caused derangements or corruption, restoring their mental defenses and curing them of any permanent mental effects. For the spellcaster, neither form of the ritual is especially pleasant to cast, for whether to inflict or undo such harm, one must delve deeply into the chaos of an afflicted mind.
+
+Requirements: Ritual tools, animal sacrifice, and something from or belonging to the victim (Curse), victim's presence (Cure)
+
+Test: Persuasion, Difficulty 3
+
+Maximum Stress: 15 (Inflict)/ 10 (Cure)
+
+Steps: 3
+
+Cost: 5 Drain, Piercing 2
+
+Duration: Instant
+
+Outcome: Both versions of this ritual target a single living creature. If the Curse form of the ritual is successfully cast, the chosen target must succeed at a Will + Resilience test with a difficulty of 3. If they fail, they immediately suffer a mental scar (see Cohors Cthulhu Player's Guide, Mental Scars, page 48) on the victim. If the Cure form of the ritual is successfully cast, the target may attempt an Insight + Resilience test with a difficulty of 3. If they succeed, then they may immediately remove a single mental scar.
+
+Miscast: If the ritual is miscast, the spellcaster suffers 6
+
+mental stress with the Intense and Piercing 2 effects. If they suffer any injuries from this, then they suffer the effects of the mental scar they sought to inflict or cure for the next week.
+
+INFLICT/CURE DISEASE
+
+In its Curse form, this ritual grants the spellcaster the ability to inflict a named disease upon a victim in the form of a new truth. Minor strains are merely inconvenient, while more virulent and extra-terrestrial diseases can prove deadly. The Cure version of this ritual allows the spellcaster to cure many common diseases, infections, and illnesses, as well as more exotic variants.
+
+Requirements: Ritual tools, sample of victim's hair, blood, or skin (Curse), patient's presence (Cure)
+
+Test: Will + Medicine, Difficulty 3+
+
+Maximum Stress: 15
+
+Steps: 2+
+
+Cost: 3
+
+Drain, Persistent 3
+
+Duration: Instant
+
+Outcome: Both versions of this ritual target a single living creature. If the Curse form of the ritual is successfully cast, the chosen target must succeed at a Brawn + Resilience test with a difficulty of 3. If they fail, they immediately fall under the effects of a single disease, determined before the ritual is performed.
+
+If the cure form of the ritual is successfully cast, the target may attempt a Brawn + Resilience test with a difficulty of 2. If they succeed, then they immediately begin to recover from a single disease, determined before the ritual is performed.
+
+The GM may increase the difficulty and number of Steps required, based on the severity of the disease being inflicted or cured.
+
+Miscast: If the ritual is miscast, then the spellcaster suffers 6 physical stress with the Drain effect, which ignores all armor and cover. If they suffer any injuries from this, then they suffer the effects of the disease they sought to inflict or cure for the next week.
+
+INFLICT/CURE CURSE
+
+Curses are magical banes, used to inflict all manner of debilitating and deleterious effects on the physical or mental wellbeing of their victim.
+
+These can come in many different forms: physical manifestations such as ailments or illnesses, or mental illusions and torments slowly driving the victim insane through exposure to nightmarish and unsettling imagery. The Curse may even take the form of strange compulsions, making the victim behave or react in certain ways to stimuli or situations. Some example Curses are given below.
+
+Test: Persuasion, Difficulty 3+
+
+Requirements: Ritual tools, sample of victim's skin, hair, or blood (Inflict), victim's presence (Cure)
+
+Maximum Stress: 15
+
+Steps: 2+
+
+Cost: 4 Drain. In addition, each effect rolled on the cost
+
+adds 1 to Threat.
+
+Duration: Instant
+
+Outcome: Both versions of this ritual target a single living creature. If the Curse form of the ritual is successfully cast, the chosen target must succeed at a Will + Resilience test with a difficulty equal to this ritual's number of Steps.
+
+If they fail, they immediately fall under the effects of a curse, which can take many forms. Many Curses take the form of a single additional truth applied to the target character, influencing and altering their actions and ability to succeed, but the GM may allow more creative or unusual Curses, such as reducing an attribute or skill, causing the loss of a focus, inflicting fatigue, and similar deleterious effects. The more potent the Curse, the higher the difficulty and number of Steps.
+
+If the cure form of the ritual is successfully cast, the Curse is immediately lifted. The difficulty and number of Steps required to remove a Curse are the same as those required to inflict that Curse to begin with.
+
+Miscast: If the ritual is miscast, then the spellcaster suffers 6 mental stress with the Drain and Piercing 2 effects. If they suffer any injuries from this, then they suffer the effects of the Curse they sought to inflict or cure for the next week.
+
+HORN OF VALHALIA
+
+It is sometimes difficult to judge whether this affliction is a blessingor a Curse, for it comes from the Allfather's aspect as the god of battle. During combat the victim is overtaken by the spirit of the berserker, Odin's eternal shield biters, and is imbued with both mighty speed, strength, and ferocity ofs pirit. The Curse whips the afflicted into a killing frenzy, making them almost unstoppable in hand-to-hand combat.
+
+The victim gains one additional minor action each turn in combat, and may re-roll any failures when making a melee attack. However, if the victim does not attempt a melee attack (against friend or foe) during their turn they will suffer 5 mental stress with the Pilercing 2 effect.
+
+MARK OF THE ALPDRUCK
+
+An extremelyunpleasant Curse, this transforms the target into a creature with a diminutive and malformed body with unsettlingly human head and hands, with appropriate damage to their sanity and mental stability. They gain the truth Flesh of Nightmares. The victim loses much of their intelligence but gains a certain degree of animal cunning and is forced to feed on human blood to survive. The Curse, while abhorrent, may be resisted by those of stout will or under certain protections. This Curse is similar to the fate of Brown Jenkin, the loathsome familiar detailed in HP Lovecraft's Dreams of the Witch House
+
+Each day, at sunrise, the victim must pass a Will + Resilience test with a difficulty of 2. If they fail, then they suffer a single mental injury, and succumb to the Curse for that day. While under the effects of the Curse, the victim automatically fails all Reason and Gravitas-based skill tests. At the end of each day in which they did not consume at least 5 pints (or roughly half the blood in an adult human body), they suffer 3 fatigue and the test to resist the Curse the next day increases by +1.
+
+INFLICT/CURE DISEASE
+
+In its Curse form, this ritual grants the spellcaster the ability to inflict a named disease upon a victim in the form of a new truth. Minor strains are merely inconvenient, while more virulent and extra-terrestrial diseases can prove deadly. The Cure version of this ritual allows the spellcaster to cure many common diseases, infections, and illnesses, as well as more exotic variants.
+
+Requirements: Ritual tools, sample of victim's hair, blood, or skin (Curse), patient's presence (Cure)
+
+Test: Will + Medicine, Difficulty 3+
+
+Maximum Stress: 15
+
+Steps: 2+
+
+Cost: 3
+
+Drain, Persistent 3
+
+Duration: Instant
+
+Outcome: Both versions of this ritual target a single living creature. If the Curse form of the ritual is successfully cast, the chosen target must succeed at a Brawn + Resilience test with a difficulty of 3. If they fail, they immediately fall under the effects of a single disease, determined before the ritual is performed.
+
+If the cure form of the ritual is successfully cast, the target may attempt a Brawn + Resilience test with a difficulty of 2. If they succeed, then they immediately begin to recover from a single disease, determined before the ritual is performed.
+
+The GM may increase the difficulty and number of Steps required, based on the severity of the disease being inflicted or cured.
+
+Miscast: If the ritual is miscast, then the spellcaster suffers 6 physical stress with the Drain effect, which ignores all armor and cover. If they suffer any injuries from this, then they suffer the effects of the disease they sought to inflict or cure for the next week.
+
+INFLICT/CURE CURSE
+
+Curses are magical banes, used to inflict all manner of debilitating and deleterious effects on the physical or mental wellbeing of their victim.
+
+These can come in many different forms: physical manifestations such as ailments or illnesses, or mental illusions and torments slowly driving the victim insane through exposure to nightmarish and unsettling imagery. The Curse may even take the form of strange compulsions, making the victim behave or react in certain ways to stimuli or situations. Some example Curses are given below.
+
+Test: Persuasion, Difficulty 3+
+
+Requirements: Ritual tools, sample of victim's skin, hair, or blood (Inflict), victim's presence (Cure)
+
+Maximum Stress: 15
+
+Steps: 2+
+
+Cost: 4 Drain. In addition, each effect rolled on the cost
+
+adds 1 to Threat.
+
+Duration: Instant
+
+Outcome: Both versions of this ritual target a single living creature. If the Curse form of the ritual is successfully cast, the chosen target must succeed at a Will + Resilience test with a difficulty equal to this ritual's number of Steps.
+
+If they fail, they immediately fall under the effects of a curse, which can take many forms. Many Curses take the form of a single additional truth applied to the target character, influencing and altering their actions and ability to succeed, but the GM may allow more creative or unusual Curses, such as reducing an attribute or skill, causing the loss of a focus, inflicting fatigue, and similar deleterious effects. The more potent the Curse, the higher the difficulty and number of Steps.
+
+If the cure form of the ritual is successfully cast, the Curse is immediately lifted. The difficulty and number of Steps required to remove a Curse are the same as those required to inflict that Curse to begin with.
+
+Miscast: If the ritual is miscast, then the spellcaster suffers 6 mental stress with the Drain and Piercing 2 effects. If they suffer any injuries from this, then they suffer the effects of the Curse they sought to inflict or cure for the next week.
+
+HORN OF VALHALIA
+
+It is sometimes difficult to judge whether this affliction is a blessingor a Curse, for it comes from the Allfather's aspect as the god of battle. During combat the victim is overtaken by the spirit of the berserker, Odin's eternal shield biters, and is imbued with both mighty speed, strength, and ferocity ofs pirit. The Curse whips the afflicted into a killing frenzy, making them almost unstoppable in hand-to-hand combat.
+
+The victim gains one additional minor action each turn in combat, and may re-roll any failures when making a melee attack. However, if the victim does not attempt a melee attack (against friend or foe) during their turn they will suffer 5 mental stress with the Pilercing 2 effect.
+
+MARK OF THE ALPDRUCK
+
+An extremelyunpleasant Curse, this transforms the target into a creature with a diminutive and malformed body with unsettlingly human head and hands, with appropriate damage to their sanity and mental stability. They gain the truth Flesh of Nightmares. The victim loses much of their intelligence but gains a certain degree of animal cunning and is forced to feed on human blood to survive. The Curse, while abhorrent, may be resisted by those of stout will or under certain protections. This Curse is similar to the fate of Brown Jenkin, the loathsome familiar detailed in HP Lovecraft's Dreams of the Witch House
+
+Each day, at sunrise, the victim must pass a Will + Resilience test with a difficulty of 2. If they fail, then they suffer a single mental injury, and succumb to the Curse for that day. While under the effects of the Curse, the victim automatically fails all Reason and Gravitas-based skill tests. At the end of each day in which they did not consume at least 5 pints (or roughly half the blood in an adult human body), they suffer 3 fatigue and the test to resist the Curse the next day increases by +1.
+
+SIGHT OF YOG-SOTHOTH
+
+The spellcaster exposes the victim to a portion of the Outer God's dread gaze, opening unwilling eyes to the true nature of the cosmos and the macabre madness of the Mythos. This sanity-sapping revelation quickly erodes the victim's mental wellbeing, resulting in a rapid descent into madness.
+
+While affected by this Curse, the victim's Courage resistance is reduced to 0, and any mental stress they suffer is increased by +2 Further, each time the victim suffers a mental injury, roll 1: if an Effect is rolled, it immediately becomes a mental scar.
+
+STEED OF THE CRAWLING CHAOS
+
+This unsettling hex sows its victims' dreams with strange visions and night terrors, dark omens and portents, alien vistas and outré, cyclopean landscapes which disturb their peace of mind and ability to rest. After continued exposure, the cumulative effects begin to unsettle and unbalance the waking mind, making the victim prone to all manner of mental trauma and psychoses.
+
+for each night Each night the victim sleeps, roll 1+1 after the first, suffering 1 fatigue from disrupted sleep for each Effect rolled. This fatigue can only be recovered on a night where the character gains no additional fatigue. If the victim's fatigue becomes equal to their maximum stress, then further Effects rolled reduce the victim's Courage resistance by 1 each, to a minimum of o. Once Courage is 0.
+
+TENDRILS OF MORMO
+
+Victims start to experience sudden growths on their bodies, which may look like tiny, twisted branches, gnarled roots, or in the worst cases, monstrous tentacles that have a mind of their own.
+
+These manifestations are capable of independent movement and often try to influence the victim's actions, making it difficult for the Cursed individual to control their own body. This lack of control increases the victim's Complication range on any Agility, Brawn-, or Coordination-based skill tests by +3.
+
+In addition, they experience visions of incomprehensible fertility rites involving horrific creatures in dark, forbidden forests, which can greatly impact their mental stability. Their dreams are consumed by grotesque, fecund landscapes that start to eat away at their sanity.
+
+In addition to physical changes, the subject of the ritual reduces their Courage to 0.
+
+THE KING IN YELLOW'S CARESS
+
+A deeply unpleasant curse brought on by the unclean touch of Hastur, this Curse afflicts its victims as a virulent disease, beginning as an unhealthy yellow pallor spreading across the skin, which starts to shred and peel away in flakes. Immune to conventional medicine-for it isn't truly a disease - the victim enters a delirium as their blood is poisoned and organs fail, and eventually the body consumes itself until death is inevitable.
+
+At the start of each day, the victim suffers 3 physical stress with the Drain effect. The number of rolled increases by +1 on each subsequent day, and this is cumulative. While the stress is recovered quickly, the fatigue cannot be removed while the Curse remains, and physical injuries can only be treated, not removed properly, without the use of magic.
+
+IDENTIFY
+
+This all-purpose ritual may be used to determine the true nature or identity of an object, entity, creature, or person.
+
+Requirements: Ritual tools
+
+Test: Observation, Difficulty 2+
+
+Maximum Stress: 10
+
+Steps: 2+
+
+Cost: 2 Drain, Piercing 1
+
+Duration: Instant
+
+Outcome: If successfully performed, the spellcaster gains 1 Momentum per Step of the ritual which may only be used to ask the GM questions (as per Obtain Information) about a single person, entity, object, or place. Naturally, as they come from magic specifically designed to reveal the truth, the answers given to questions asked with this ritual will be significantly more accurate than might be found via mundane means.
+
+When applied to a creature, the creature's true identity and nature can be revealed, even if that creature is operating under a different identity or its nature is concealed or unknown. When applied to an item or location, this magic can reveal any magical properties the item or place possesses, any spells which are in effect upon it, and similar information.
+
+The difficulty will increase based on the Power of the ritual's subject.
+
+Miscast: If this ritual is miscast, then the spellcaster receives flawed answers to each question asked-they may be true, they may be false, or they may be somewhere between the two.
+
+PERCEIVE LIFE
+
+Utilizing their magical insight, the spellcaster is able to preternaturally extend their senses in a spherical arc from their current location, detecting the number and general nature of people, creatures, entities, and animals within the surrounding area.
+
+Requirements: Ritual tools
+
+Test: Observation, Difficulty 1
+
+Maximum Stress: 6
+
+Steps: 1+
+
+Cost: 2 Drain
+
+Duration: The spell lasts for a number of minutes equal to five times the spellcaster's Power rating.
+
+Outcome: The spellcaster is able to sense the number of living creatures within Medium range. They cannot identify specific individuals, their motives, or their characteristics, though they have a general sense of their size, nature (predators, herd animals, insects, people), identity, and purpose; for example, they are able to distinguish soldiers from civilians, officers from ordinary troopers, or creatures on guard duty from roving animals.
+
+The number of Steps can be increased to extend the range of this ability, allowing the spellcaster to sense one additional zone away for each additional Step (so 2 Steps for Long range, and 3 Steps for Extreme range). At 4 Steps, the ritual may detect all living creatures within half a mile, which is the maximum range of this ritual's effect.
+
+Miscast: The rush of sudden stimuli takes a toll on the spellcaster, inflicting 4 mental stress with the Drain and Piercing 1 effects. After that, the spellcaster receives the information this ritual grants, but cannot distinguish between animals, people, insects, or other broad categories. At most, they can distinguish roughly where living creatures are, but cannot determine anything else about them.
+
+PLAGUE SWARM
+
+Focusing their energies, the spellcaster calls forth a pestilent horde of terrestrial animals such as rats, insects, carrion feeders, birds, and other pestilential creatures from the surrounding environment to attack their enemies.
+
+Requirements: Ritual tools, blood sacrifice, suitable creatures from the immediate environment
+
+Test: Persuasion, Difficulty 2
+
+Maximum Stress: 12
+
+Steps: 1+
+
+Cost: 3 Drain, Piercing 1
+
+Duration: The swarm remains for a number of rounds (or minutes, if outside of combat) equal to the spellcaster's Power
+
+Outcome: The spell summons one or more swarms of small
+
+creatures (a number equal to the number of Steps) that behave with the characteristics of an Insect Swarm (see Chapter 8: Adversaries and Allies, page 197) and obey the spellcaster's mental commands. While capable of inflicting physical damage, the swarm mostly proves extremely irritating to enemies and provides a major distraction: each swarm adds a Swarming Vermin truth to the zone it's in. There is a small chance that creatures caught in a swarm may develop a foul and unpleasant disease at the GM's discretion.
+
+Miscast: The spellcaster is unable to control and direct the swarm and it behaves in an unpredictable way, either dissipating quickly or attacking a random character, possibly including the spellcaster themselves.
+
+PLANEWALKER
+
+This transportation ritual is a perilous undertaking, as it pierces the veil between worlds, dimensions, and other planes of existence, allowing the spellcaster to travel between any two points in the multiverse. The ritual may be attempted by anyone, but each magical tradition has its own ways of bridging the planes. A Celtic Druid may utilize the inherent energies contained in standing stones, menhirs, or lay lines to use these hidden pathways; while a follower of Yog-Sothoth might easily conjure a series of glowing spherical portals which offer gateways to other worlds.
+
+Requirements: Ritual tools, blood sacrifice
+
+Test: Academia, Difficulty 2+
+
+Maximum Stress: 14
+
+Steps: 2+
+
+Cost: 4 Drain, Piercing 1
+
+Duration: The portals remain open for a number of hours equal to the spellcaster's Power rating.
+
+Outcome: The spellcaster conjures a portal which connects two separate points across the multiverse. Once open, any character or creature may step through the portal and emerge instantly through the other side. The portals can be immediately closed at the spellcaster's direction. If a character or creature is in the portal when it closes, they will be ejected from the portal on whichever side has more of their body.
+
+The GM may increase the difficulty and number of Steps required depending on the destination point, and the suitability of the portal locations-conjuring portals in locations befitting the spellcaster's tradition, or in places where the walls between dimensions are thin make this ritual easiest, while other locations may not be so conducive to portal-making.
+
+Miscast: The spellcaster suffers 5 mental stress with the Piercing 1 effect, and the portal will connect to a random location in the multiverse. A miscast portal cannot be closed at the spellcaster's direction, and it will remain open for the entire normal duration.
+
+bled, and sacrificed to restore lost energies, life force, and Will. The spellcaster is restored to perfect health and vitality, healing all physical injuries and physical scars, curing all diseases, and similar. Beyond simply becoming young and vital again, the spellcaster transforms into an idealized version of themselves in the prime of their life, represented by a new personal truth:
+
+Restored and Invigorated.
+
+However, this restoration is temporary, and fades after a year. If the spellcaster wishes to regain that vitality, they may attempt to perform the ritual again, but the ritual will last for one fewer week each successive time it is cast upon the same person, to a minimum of a number of weeks equal to the spellcaster's Power.
+
+Miscast: Instead of replacing lost vitality the spell inflicts 5 physical stress, with the Drain and Vicious effects, ignoring all armor and cover. If it inflicts any injuries, then the character also suffers a new personal truth-Withered and Diminished-which is only removed when this ritual is successfully performed again.
+
+TRANSMOGRIFY
+
+This ritual allows the spellcaster to assume the aspect of any living person, animal, or even creature and the change is permanent until the ritual is cast again.
+
+Requirements: Ritual tools, animal sacrifice
+
+Test: Survival, Difficulty 3
+
+Maximum Stress: 15
+
+Steps: 3+
+
+Cost: 4 Drain, Piercing 1
+
+Duration: Until Ended
+
+Outcome: Once this transformative ritual is complete, the spellcaster assumes the form of the person, creature, or entity they have chosen. This remains until the spellcaster chooses to end the effect (see below). The spellcaster replaces their physical attributes (Agility, Brawn, and Coordination) with those of the creature whose form they assume, and gains that creature's personal truths and other innate special abilities (claws, flight, and anything else fundamental to the creature), but does not gain any skills, focuses, talents, spells, or other learned abilities.
+
+bled, and sacrificed to restore lost energies, life force, and Will. The spellcaster is restored to perfect health and vitality, healing all physical injuries and physical scars, curing all diseases, and similar. Beyond simply becoming young and vital again, the spellcaster transforms into an idealized version of themselves in the prime of their life, represented by a new personal truth:
+
+Restored and Invigorated.
+
+However, this restoration is temporary, and fades after a year. If the spellcaster wishes to regain that vitality, they may attempt to perform the ritual again, but the ritual will last for one fewer week each successive time it is cast upon the same person, to a minimum of a number of weeks equal to the spellcaster's Power.
+
+Miscast: Instead of replacing lost vitality the spell inflicts 5 physical stress, with the Drain and Vicious effects, ignoring all armor and cover. If it inflicts any injuries, then the character also suffers a new personal truth-Withered and Diminished-which is only removed when this ritual is successfully performed again.
+
+TRANSMOGRIFY
+
+This ritual allows the spellcaster to assume the aspect of any living person, animal, or even creature and the change is permanent until the ritual is cast again.
+
+Requirements: Ritual tools, animal sacrifice
+
+Test: Survival, Difficulty 3
+
+Maximum Stress: 15
+
+Steps: 3+
+
+Cost: 4 Drain, Piercing 1
+
+Duration: Until Ended
+
+Outcome: Once this transformative ritual is complete, the spellcaster assumes the form of the person, creature, or entity they have chosen. This remains until the spellcaster chooses to end the effect (see below). The spellcaster replaces their physical attributes (Agility, Brawn, and Coordination) with those of the creature whose form they assume, and gains that creature's personal truths and other innate special abilities (claws, flight, and anything else fundamental to the creature), but does not gain any skills, focuses, talents, spells, or other learned abilities.
+
+If the spellcaster is attempting to mimic a specific person, provided they are familiar with or are able to extensively study that person, they create a more or less identical physical copy, although this does not reproduce mannerisms, persona, personality, or any identifying marks the spellcaster does not know about.
+
+More powerful creatures, or creatures radically different in size, substance, or shape from the spellcaster's natural form, increase the Steps required for this ritual, at the GM's discretion.
+
+The spellcaster may choose to revert to their natural form at any time, requiring a Will + Resilience test with a difficulty equal to the ritual's number of Steps. Failure prevents another attempt to revert until 24 hours have passed. Reverting form also returns the spellcaster to their original physical attributes and they lose any associated personal truths and special abilities. Stress suffered and injuries received remain on the character regardless of the form they take.
+
+Miscast: There are three possibilities for a miscast Transmogrify spell, chosen by the GM when the ritual is miscast:
+
+The transformation is painful and flawed, inflicting 6 physical stress with the Intense effect, ignoring armor and cover. Once transformed, the spellcaster also gains an Imperfect Transformation truth, representing that their form is obviously wrong in some way. Stealth tests to avoid being noticed or to pretend to be someone else increase in difficulty by +1 as a result of this.
+
+The transformation is complete, however the spellcaster's mind is transformed as well. They become an entirely ordinary example of whatever it was they transformed into, and do not recall their original selves; if transforming into a specific person, they believe themselves to be that person (though they still don't gain any skills or knowledge, and they may just feel generally confused). They can transform back, but do not remember the need to and must be convinced of their true nature before they can revert to it.
+
+The transformation is complete, but permanent: the spellcaster lacks the ability to revert to their natural form through Will + Resilience tests. They can only return to normal by casting the ritual again, or having someone else cast the ritual on their behalf.
+
+VISIT DREAMLANDS
+
+This meditation causes the spellcaster and any companions with them to fall into a gentle slumber, remaining in a narcoleptic state for up to 24 hours. They cannot be awakened during this time. During this time their unconscious minds are able to enter and rove freely throughout the Dreamlands and share the same subjective experiences.
+
+Requirements: Ritual tools, libations
+
+Test: Persuasion, Difficulty 1
+
+Maximum Stress: 6
+
+Steps: 1
+
+Cost: 3
+
+Drain
+
+Duration: 24 hours
+
+Outcome: The spellcaster, and a number of companions equal to their Power, enter the Dreamlands and share the same subjective experiences whilst there. During this time, the traveler's astral bodies retain the same characteristics as their physical ones, but any attacks and damage suffered there will be inflicted in the form of a mental attack in the physical world. If they are defeated, their consciousness returns to the waking world, though they will not reawaken until the 24-hour period is over.
+
+Miscast: A miscast inflicts 3 mental stress on the spellcaster and their companions with the Drain effect. The spellcaster adds +1 difficulty to any attempts to use this ritual again for the next 24 hours (this is cumulative).
+
+"In dreams we are visitors to a far-off land. It is no less real because you return when en you awaken. Hidden knowled also grave peril." can be found there, but also gr
+
+-Suibhne, Hibernian druid

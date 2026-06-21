@@ -118,7 +118,7 @@ When a spell or ritual that deals Stress is successfully cast, resolve it as fol
 2. **Determine Resistance:** The target reduces incoming Stress by the appropriate resistance: Defence against physical Stress, Courage against mental Stress.
 3. **Inflict Stress:** Apply any remaining Stress to the target's Sōma or Psychē, as appropriate.
 
-A spell that deals **n** damage is therefore resolved as **nd3 - n**, matching the normal damage convention used elsewhere in the game.
+A spell that deals **n** damage is therefore resolved as **nd3-n** or **n(d3-1)**, matching the normal damage convention used elsewhere in the game.
 
 > **Example:** A traditional spellseer with Pneuma 5 casts a Pneuma +2 attack spell. They roll 7d3 and total the results, then subtract 7. A roll of 2, 3, 1, 2, 3, 2, 1 totals 14 and yields 7 Stress before resistance. The target's Defence then reduces that Stress before it is applied.
 

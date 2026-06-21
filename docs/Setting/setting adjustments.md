@@ -7,6 +7,8 @@ formed from a dismembered Watcher
 Dagon is a mask of Cthulhu 
 Hydra is a mask of Mormo
 
-Yaldabaoth, and Cthulhu are Watchers sometimes referred to as Great Old Ones
+Ahura Mazda, Yaldabaoth, and Cthulhu are Watchers sometimes referred to as Great Old Ones
 
-Cthulhu is imprisoned beneath the waves in R'yleh
+Cthulhu is imprisoned beneath the waves in R'lyeh (central Pacific Ocean)
+
+Yaldabaoth has amassed such an enormous worship pool that he has become fat and bloated, unable to keep tabs on everything happening on earth.

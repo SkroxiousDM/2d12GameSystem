@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Setting/2d12-magic-chapter-draft.md",
+                "file": "docs/Setting/aetas_obscura_setting_bible.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2d12-magic-chapter-draft"
+              "title": "aetas_obscura_setting_bible"
             }
           }
         ]
@@ -169,5 +169,7 @@
     }
   },
   "active": "73b893ad9bd50958",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "docs/Setting/2d12-magic-chapter-draft.md"
+  ]
 }

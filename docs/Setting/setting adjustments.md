@@ -13,4 +13,6 @@ Cthulhu is imprisoned beneath the waves in R'lyeh (central Pacific Ocean)
 
 Yaldabaoth has amassed such an enormous worship pool that he has become fat and bloated, unable to keep tabs on everything happening on earth.
 
-Some Nephilim are adopting the masks of Saints to siphon some worship.
+Some Nephilim are adopting the masks of Saints to siphon some worship from Yaldabaoth.
+
+

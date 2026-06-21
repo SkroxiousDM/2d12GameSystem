@@ -415,12 +415,11 @@ To keep the system running smoothly:
 
 ## Optional Quick Reference
 
-| Action | Usual Skill | Notes |
-|---|---|---|
-| Cast a spell | Sorcery | Choose Force, set CT, roll, then apply Drain if triggered |
-| Read an aura | Arcana | Often automatic unless danger or ambiguity matters |
-| Summon a spirit | Conjuring | Success determines arrival and services |
-| Create a focus | Enchanting | Usually an Extended Check |
-| Use an adept technique | Adept Discipline | Complications cause Fatigue or Stress |
-| Project astrally | Arcana | Usually requires training or initiation |
-| Enter a metaplane | Arcana or Conjuring | Often an Extended Check or major ritual |
+| Action                 | Usual Skill         | Notes                                                     |
+| ---------------------- | ------------------- | --------------------------------------------------------- |
+| Cast a spell           | Sorcery             | Choose Force, set CT, roll, then apply Drain if triggered |
+| Read an aura           | Arcana              | Often automatic unless danger or ambiguity matters        |
+| Summon a spirit        | Conjuring           | Success determines arrival and services                   |
+| Create a focus         | Enchanting          | Usually an Extended Check                                 |
+| Project astrally       | Arcana              | Usually requires training or initiation                   |
+| Enter a metaplane      | Arcana or Conjuring | Often an Extended Check or major ritual                   |

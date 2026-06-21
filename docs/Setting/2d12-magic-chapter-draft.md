@@ -16,7 +16,6 @@ The following Skills are recommended for campaigns that use this chapter:
 - **Conjuring**: Summoning, binding, dismissing, and negotiating with spirits.
 - **Arcana**: Understanding magical theory, reading auras, navigating astral space, and identifying spells, traditions, and supernatural phenomena.
 - **Enchanting**: Creating charms, fetishes, spell foci, wards, and other enduring magical objects.
-- **Adept Discipline**: Controlling internalized magic through the body, senses, and instinct. This Skill is optional; some tables may instead fold adept techniques into Talents or combat Skills.
 
 ## Spellcasting
 

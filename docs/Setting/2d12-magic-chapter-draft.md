@@ -47,16 +47,47 @@ Force usually ranges from 1 to 6 for ordinary play, though exceptionally powerfu
 
 ### Spell Categories
 
-Every spell belongs to one of four broad categories. This does not limit narrative creativity; it gives the GM a framework for setting difficulty and consequences.
+Spells are grouped by what they do. A spell may belong to more than one category and gains the rules of each category it possesses.
 
-| Category | Typical Effects |
-|---|---|
-| **Combat** | Bolts, blasts, curses, barriers, battlefield control |
-| **Detection** | Aura reading, divination, tracking, magical senses |
-| **Illusion** | Veils, glamour, false images, emotional masking |
-| **Manipulation** | Movement, telekinesis, transformation, environmental control |
+#### Attack
 
-A fifth category, **Health**, may be added if the campaign includes explicit healing and restoration magic as a separate discipline.
+Attack spells inflict physical or mental Stress through force, pain, terror, or directed supernatural assault. When successfully cast, the spell's Stress is resolved using the caster's Pneuma rating.
+
+#### Banishment
+
+Banishment spells function as attacks, but are especially effective against supernatural entities. If a banishment spell inflicts 1 or more Critical Wounds on a supernatural creature, that creature loses its next turn as it struggles to remain in this world. If a supernatural target is defeated by a banishment spell, it vanishes immediately, cast back whence it came.
+
+#### Blessing
+
+A blessing spell infuses its target with magical advantage, favour, resilience, clarity, or another beneficial supernatural effect.
+
+#### Control
+
+A control spell inflicts mental Stress and breaks down a target's autonomy. If a control spell causes the target to lose their last point of Psychē, the target falls under the spellcaster's control as described in the spell's profile rather than suffering a Madness.
+
+#### Curse
+
+Curse spells burden their targets with hindrance, weakness, ruin, ill luck, or hostile supernatural attention. Each curse spell's profile describes how it may be broken.
+
+#### Divination
+
+Divination spells reveal knowledge that could not otherwise be obtained. Their exact scope depends on the profile, but they always give the caster access to information beyond ordinary perception.
+
+#### Manifestation
+
+Manifestation spells alter reality directly, producing illusions, changes in the environment, apparitions, barriers, or other tangible supernatural phenomena.
+
+#### Summoning
+
+Summoning spells call objects, creatures, or forces into immediate presence.
+
+#### Transmutation
+
+Transmutation spells alter form, substance, or physical nature.
+
+#### Ward
+
+A ward spell protects, restores, repels, or punishes intrusion within a protected space or aura.
 
 ### Building the Challenge Threshold
 

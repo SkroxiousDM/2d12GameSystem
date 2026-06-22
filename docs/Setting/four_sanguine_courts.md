@@ -1,27 +1,133 @@
-# THE FOUR SANGUINE COURTS
+# THE FOUR# THE FOUR SANGUINE COURTS
 
-> *"There are blood-drinkers in the deserts of Africa, blood-drinkers in the hills of Italy, blood-drinkers in the marshes of Dacia, and — if the Sogdian merchants are to be credited — blood-drinkers at the far end of the Silk Road who kill from across a room. They share nothing but the name. To confuse them is to die wrong."*
+> *"There are blood-drinkers in the deserts of Africa, blood-drinkers in the hills of Italy, blood-drinkers in the marshes of Dacia, and â€” if the Sogdian merchants are to be credited â€” blood-drinkers at the far end of the Silk Road who kill from across a room. They share nothing but the name. To confuse them is to die wrong."*
 >
-> — Loukia Theoktiste, Captain of the Stylites, from a field briefing prepared for the Concord's eastern Sword of Damocles cohort, c. 499 AD
+> â€” Loukia Theoktiste, Captain of the Stylites, from a field briefing prepared for the Concord's eastern Sword of Damocles cohort, c. 499 AD
 
 > *"Do not write 'the blood-drinkers' as though they were a council. They are four nations, four species, four ancient hatreds. A Hound of Set regards a Lamia the way a wolf regards a jackal: a rival parasite wearing a shape too close to his own."*
 >
-> — Theognostos of Smyrna, marginal note on a student report, Castrum of Drepanum
+> â€” Theognostos of Smyrna, marginal note on a student report, Castrum of Drepanum
 
-> *"They came to the Concordat with their own chairs and refused to sit in the same row. The House of Lamia would not share a bench with a Hound. The Strigoi representative did not sit at all — he stood behind his own chair and watched everyone. The representative of the Jade Breath was not present. She sent a box of jade powder and a note. We did not open the box for three years."*
+> *"They came to the Concordat with their own chairs and refused to sit in the same row. The House of Lamia would not share a bench with a Hound. The Strigoi representative did not sit at all â€” he stood behind his own chair and watched everyone. The representative of the Jade Breath was not present. She sent a box of jade powder and a note. We did not open the box for three years."*
 >
-> — Attributed to the Long Night's envoy, recalling the signing of the Concordat of Hidden Powers, 287 BC
+> â€” Attributed to the Long Night's envoy, recalling the signing of the Concordat of Hidden Powers, 287 BC
 
 ---
 
-## WHAT THE COURTS ARE — AND WHAT THEY ARE NOT
+## WHAT THE COURTS ARE â€” AND WHAT THEY ARE NOT
 
-The *Quattuor Curiae Sanguinis* — the Four Sanguine Courts — are four entirely distinct supernatural species who share, to their mutual contempt, a single mortal label: *blood-drinker* (*haematopotēs* in Greek; *sanguisuga* in Latin). To be called one when you are another is, in the politics of the hidden world, a studied insult. The Concord of the Seven Seals uses the collective term as an administrative convenience and is careful never to use it in earshot of any member of any Court.
+The *Quattuor Curiae Sanguinis* â€” the Four Sanguine Courts â€” are four entirely distinct supernatural species who share, to their mutual contempt, a single mortal label: *blood-drinker* (*haematopotÄ“s* in Greek; *sanguisuga* in Latin). To be called one when you are another is, in the politics of the hidden world, a studied insult. The Concord of the Seven Seals uses the collective term as an administrative convenience and is careful never to use it in earshot of any member of any Court.
 
 They have four different origins, separated by centuries and continents. They feed on four different things. They age, propagate, and die by four different rules. They have no shared philosophy, no shared language, no shared enemies, no common interest except the Concordat that three of the four have signed and the fourth ignores. The only treaty they share is the one the Concord pressed upon them as a condition of remaining tolerated in the mortal world.
 
-What they do share — and what has condemned them to perpetual confusion in mortal legend — is the quality of feeding in secret, feeding on the living, and persisting long past the ordinary tenure of a human life.
+What they do share â€” and what has condemned them to perpetual confusion in mortal legend â€” is the quality of feeding in secret, feeding on the living, and persisting long past the ordinary tenure of a human life.
 
+A brief comparative summary for the GM, before the full treatments below:
+
+| Court | Species Origin | Primary Feed | Mortal Disguise | Concordat Status |
+|---|---|---|---|---|
+| **Hounds of Set** | Watcher transformation offered to three high priests; Set drained completely by the first three Hounds | Blood, consumed in quantity | Flesh-masked humanoids; pass as Vandal/Berber nobility | Signatory â€” sole signature by the Houndmaster of Carthage |
+| **House of Lamia** | The Hunger, bound at Caere c. 700 BC; Etruscan-Greek aristocrats | Emotion â€” lust, fear, despair (by Branch) | Fully human-passing; indistinguishable from patricians | Signatory |
+| **Strigoi of Dacia** | Spawned from the scattered remains of a slain Watcher; Bessos is the last surviving Ancient | Blood, in lesser quantity; life-force | Classic undead; do not pretend to be living | Signatory â€” represented by Bessos personally |
+| **Court of Jade Breath** | Unknown; confined to East Asia | Breath â€” can kill across a room | Jade-skinned, beautiful, entirely inhuman beneath | Non-signatory; treated *as if* signatory after 478 AD incident |
+
+The Courts are presented below in the order they signed the Concordat, with the Jade Breath last because they did not. Each entry follows the architecture of the template: overview, deep history and origins, governing philosophy, internal roles and hierarchy, regional spread, mortal interaction, supernatural interaction, and â€” for those Courts suited to crunch â€” one or two sample units ready to run.
+
+---
+
+# 5.2.A THE HOUNDS OF SET
+
+*Canes Sethi* â€” the Dogs of Set, the Masked Ones, the Lords of the Outer Sand
+
+> *"They do not thirst for blood as a starving man thirsts for bread. They thirst for it as a collector thirsts for a rare coin â€” deliberately, aesthetically, with an eye to how the acquisition reflects on their standing. The Hound who feeds in desperation is a failure. The Hound who makes you grateful to be fed from is a lord."*
+>
+> â€” From a Concord field report on the Vandal court at Carthage, c. 497 AD
+
+---
+
+## Overview
+
+The **Hounds of Set** (*Canes Sethi*) are an Afro-Levantine vampire civilization, the oldest of the four Courts by recorded history and possibly the most ancient of all. They originate from a Watcher transformation enacted in the convulsion of the late Eighteenth Dynasty â€” the same era that produced Akhenaten's heretical monotheism â€” when the Watcher known as **Set** offered complete bodily transformation to three high priests of his own inner cult. The three survived the ritual, overpowered Set, and drained him completely: the first act of a species that has always defined itself by consuming its own divine source. The Concord's inner library designates the eldest of those three **Pheron-Kha-Seth**, a reconstruction the Hounds accept only grudgingly; they call him the **First Red**, and do not speak his name to outsiders.
+
+In their **true form**, the Hounds are taller than mortals by a head, lean to the point of anatomical horror, with elongated dog-jackal skulls, a secondary jaw fitted inside the first, and bat-ribbed wings folded flat against the inside of their skin. When fully extended in battle, these wings do not carry them aloft â€” they are not flight-organs but threat-displays, the unfolding of which tends to end all negotiation. Their eyes in darkness carry a hot amber glow; in daylight, the oldest can suppress even this.
+
+They wear **flesh-masks** â€” the Concord's term; the Hounds call them *personae*, in the Latin theatrical sense, though they adopted the word ironically. These are not disguise-spells but physiological masks: a slow reshaping of the outermost layer of their flesh into a plausible human face, which they can shift between known personas as a mortal changes clothes. The craft of a good *persona* is a social art among the Hounds: a poorly-fitted mask, one that slips under emotional stress or bright noon light, is as shameful as a lord appearing in public unwashed.
+
+The very oldest, those who survived from the New Kingdom period or before, have mastered daylight entirely. They wear it as if it were shade.
+
+They feed on **blood** â€” directly, in quantity, with none of the Lamia's emotional refinement. Their saliva carries a narcotic compound that produces euphoria, then dependency, then devoted servitude. A mortal fed from by a Hound three times in a season and given nothing to counter it will not run when next the Hound calls, and will protect the Hound with violence. These addicted servants are called **Cup-Slaves** (*calicarii*) and are the Court's primary labor force, intelligence network, and ablative shield.
+
+---
+
+## Deep History
+
+### The First Red and the Draining of Set
+
+The historical record as the Concord holds it begins at the end of the Eighteenth Dynasty â€” a period of extraordinary theological violence in Egypt, during which the pharaoh Akhenaten's erasure of the entire pantheon in favor of a single solar god left the priestly machinery of the old cults scrambling for survival. The Set-cult, already in partial disgrace, was among the most desperate.
+
+**Set** was not merely a god of the Egyptian pantheon: he was a Watcher, one of the great inhuman presences who had moved through the mortal world long before the first dynasty. He fed on fear, desert, foreignness, and the necessary violence of war. In the convulsion of the Amarna period, he attempted to shore up his position by offering **complete bodily transformation** to three of his most devoted high priests â€” not merely power through the ordinary *Hieratica* pact, but a permanent reshaping of their flesh into something that would not age, could not easily be killed, and could sustain the cult's harvest across centuries. The price, as Set designed it, was each priest's soul, surrendered as a vessel for the Watcher's will.
+
+What Set did not anticipate was that the transformation worked *too completely*. All three priests survived the ritual, emerged changed â€” and immediately turned on their maker. Together they **overpowered Set and drained him entirely**, drawing his Watcher-blood into themselves in an act the Court would later call the **First Tasting**. It did not destroy Set; a Watcher of his magnitude cannot be so simply ended. But it broke him â€” shattered his unity and scattered his diminished remnant into the world. The three were free. Set still exists, somewhere, in fragments. The Court knows this and keeps it very quiet.
+
+The Watcher-blood the three took into themselves is the source of the Hounds' power â€” but it is also a slow problem. Every generation of Hounds spawned from those first three carries a little less of that original divine potency: the blood dilutes as the line multiplies, and what made the First Red capable of draining a Watcher is, by 500 AD, thin and distant in most of the Court's younger members. This has bred a hidden appetite among the lower tiers: some younger Hounds secretly prey upon older vampires, feeding vampire-to-vampire, in order to draw more concentrated Set-blood into themselves and recover something of the power their bloodline has lost. The practice is officially condemned. It is more common than the Thirteen Lords publicly acknowledge.
+
+### The Retreat and the Vandal Renaissance
+
+At the fall of the New Kingdom, the Hounds retreated into the deep deserts â€” the vast western reaches beyond the Nile valley, the Garamantian trade routes, the oases south of the Cyrenaican coast. For seven centuries they were a desert power, largely invisible to Mediterranean civilization, maintaining their culture in buried compounds beneath the sand, feeding on the caravan trade and the tribal communities of the deep interior.
+
+They returned to the Mediterranean stage during the Ptolemaic period as a sophisticated merchant-aristocracy, wearing new *personae* over their ancient bones. In Alexandria they passed as Alexandrian-Greek traders; in Carthage as Phoenician shipping concerns; in Sicily as absentee landlords from Libya. They were architects, in part, of the Concordat of 287 BC, though they extracted terms more favorable to themselves than any other signatory and have violated the letter of the Mortal-Sovereignty clause more consistently than any other Court except the Brotherhood of the Black Pharaoh (which does not sign anything).
+
+The **Vandal conquest of North Africa** (429â€“439 AD) was the best thing to happen to the Hounds in three centuries. The Vandal kingdom needed an experienced administrative class willing to work under an Arian Christian king who was persecuting Catholic Romans and taxing everyone else. The Hounds, who had spent five hundred years developing a cover-identity as Romanized Libyans of mixed Berber-Phoenician ancestry, stepped into the administrative vacuum with breathtaking calm. By 500 AD they hold **genuine Vandal court offices**, supply horses and grain to the Vandal armies, and control the salt trade from the Saharan edge to the Sicilian straits.
+
+---
+
+## Governing Philosophy
+
+The Hounds operate as a **feudal cult of thirst-discipline**. Their internal status is measured not by age or origin or power alone, but by the demonstrated ability to *not feed when one wishes to*. A young Hound who attacks a mortal in the street for blood is scorned as an animal. A senior Hound who is visibly hungry in the presence of an abundant feeding-opportunity and visibly declines it is admired. The Hound who feeds with perfect theatrical restraint â€” who makes the Cup-Slave offer the wrist, who takes only enough to addict rather than diminish, who is gracious about it as if bestowing a gift â€” is elevated as an exemplar.
+
+This philosophy has a rotting core: **the Red Pharaoh is a thirst-addict**. Pheron-Kha-Seth's great-great-grandchild, the Court's eternal sovereign, has been feeding compulsively and in secret for the better part of two thousand years. He knows it. His Thirteen Lords know it. It is the hidden scandal that drives the Court's aristocratic culture of discipline â€” every Hound performing the rituals of restraint while their sovereign is increasingly incapable of them, and every Hound careful never to say so where it might be heard.
+
+The philosophy has a second rotting core, more dangerous still: the dilution of Set's Watcher-blood across generations has made the Court's younger tiers measurably weaker than its founders. The oldest Hounds â€” those closest to the First Three â€” feel it as a widening gulf between their own power and that of everything born after the first few centuries. Some of the younger generation have drawn the logical conclusion and begun to hunt inward, feeding on older Hounds in secret to reclaim concentrated Set-blood. The Thirteen Lords treat this as a capital crime. They do not advertise how often they have had occasion to enforce it.
+
+---
+
+## Internal Roles and Hierarchy
+
+| Tier | Role | Notes |
+|---|---|---|
+| Apex | **The Red Pharaoh** (*PharaÅn Erythros*) | Some six thousand years old, depending on how the dynasty-founding is counted. Holds court at a buried temple beneath the modern city of **Karanis** in the Faiyum. Believed by mortals to be a Vandal client-prince named Ammatas. The oldest of the Thirteen Lords manages his schedule and limits his access to Cup-Slaves. |
+| Inner Circle | **The Thirteen Lords of the Outer Sand** (*Tredecim Domini Arenae Exterioris*) | Each a Hound who was once, thousands of years ago, a god of some forgotten Nubian, Libyan, or pre-Dynastic Egyptian cult. They were worshipped in their own right before the Eighteenth Dynasty; their cult-connection to Set was always indirect. They are masked, seven feet tall in their true flesh, and capable of crushing a mortal's will with a sustained glance â€” not by magic in the Concord's sense, but through the sheer weight of a presence that has been feeding and hunting for longer than most civilizations have existed. They communicate among themselves in a dialect of Meroitic that no living mortal speaks. |
+| Nobility | **Dukes and Counts of the Vandal Court** | Open political positions within the Vandal kingdom. Current examples: **Geilamir the Pale**, *magister officiorum* at Carthage, who has held the position through three successive kings by never appearing to want it; **Lady Cyria of Sabratha**, who passes as a Berber princess and controls the grain supply for the eastern Vandal provinces. |
+| Military | **The Jackal-Wardens** (*Custodes Iaculi*) | Half-vampire shock troops, turned from mortals by the Thirteen Lords for specific military purposes. They are not full Hounds â€” they cannot grow wings, cannot maintain a *persona* for more than a few hours, and age slowly rather than stopping. In battle they wear actual jackal-headed bronze masks, which serve the double purpose of concealing their unstable features and rendering them terrifying to anyone who has heard the desert stories. |
+| Servants | **Cup-Slaves** (*calicarii*) | Mortals in advanced stages of saliva-addiction. Devoted, useful, and essentially doomed â€” sustained feeding will kill them within five to ten years, and every Hound is casual about this in the way a person is casual about burning through lamp oil. |
+
+### The *Persona* Craft â€” A Note on Ranks
+
+Within Hound aristocracy, a Hound's standing is also marked by the number and quality of distinct *personae* they maintain. A newly-turned Jackal-Warden has one: a rough, unstable human face that slips in direct sunlight. A mid-rank Count manages three or four, each corresponding to a different political identity in the mortal world. One of the Thirteen Lords reportedly maintains thirty-seven distinct identities across three centuries, each with a documented property holding and a history of consistent correspondence. Maintaining a *persona* is an art form, and the Court's senior members take aesthetic pride in their human disguises the way a Roman patrician takes pride in a well-managed estate.
+
+---
+
+## Regional Spread
+
+The Hounds are concentrated in **North Africa** but active across the western Mediterranean as far as the Iberian peninsula.
+
+| Region | Presence and Mode |
+|---|---|
+| **Carthage and the Vandal Kingdom** | The Court's political and social center. The shadow-cabinet of the Vandal kingdom, holding administrative offices in the grain trade, the mint, and the court magistracy. Feeding is done on Berber and Roman captives in the great *latifundia* south of Carthage, and on Garamantian and Numidian villages that "tax" themselves in young adults each season. |
+| **The Faiyum (Egypt)** | The Red Pharaoh's court, in the buried complex beneath Karanis. The Hounds maintain a quiet presence here that co-exists uneasily with the Brotherhood of the Black Pharaoh's open temples and the Concord's Old Seat in Alexandria. The three factions do not attack each other in the Faiyum; it is the most heavily triangulated block of desert in the world. |
+| **The Deep Desert (Garamantian Roads)** | The Hounds' ancestral retreat. Buried compounds, ancient feeding-grounds, and the archives of the Thirteen Lords â€” records stretching back to the New Kingdom that the Concord would do almost anything to access. A Hound emissary travels the Saharan caravan routes periodically, collecting tribute from the desert communities that have fed the Court for six centuries. |
+| **Hispania** | A thin raiding-trail maintained by three Counts who arrived in Hispania with the Vandal migration and chose to stay when the main body crossed to Africa. They do not have political standing in the Visigothic kingdom but prey on pilgrimage roads and isolated monastic communities. The Concord has a small, perpetually under-resourced presence at Emerita Augusta attempting to track them. |
+| **Sicily** | The active proxy-war with the Concord is being fought here. The Hounds use Sicily as a staging point for Mediterranean shipping interests; the Concord has a small chapter at Syracuse feeding intelligence to a mortal commander the Stylites are supporting. The casus belli â€” a Stylite captain killed a Carthaginian *domina* in defense of a slave girl â€” is four years old and shows no sign of resolution. |
+
+---
+
+## Mortal Interaction
+
+The Hounds are, paradoxically, **the most visible of the Courts in the mortal political world**. The House of Lamia hides inside mortal aristocracy with complete physiological camouflage; the Strigoi hide in the earth. The Hounds hold actual offices and are known to those in the Vandal court as eccentric, powerful, and best left alone. Their saliva-addiction mechanism makes mortal management easy: the Cup-Slaves around each Hound lord form a natural insulating layer, eager to protect their patron from any investigator, any rival, any priest who looks too closely.
+
+They are **paralyzed by thresholds**. This is the Court's great vulnerability and its greatest social inconvenience: a mortal family's blessed doorway â€” any household's *lares* shrine, any doorpost with a consecrated image, any threshold a priest of any tradition has touched with rite and intent â€” can stop a Duke in his tracks. The oldest among the Thirteen Lords can push through a weak threshold by sheer force of will, at visible cost, but the younger nobility cannot. This is why Cup-Slaves are used as advance agents: a mortal can enter any mortal space; the Hound waits outside until the threshold is dealt with.
+
+-
 A brief comparative summary for the GM, before the full treatments below:
 
 | Court | Species Origin | Primary Feed | Mortal Disguise | Concordat Status |

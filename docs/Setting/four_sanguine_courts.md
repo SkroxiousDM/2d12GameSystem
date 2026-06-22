@@ -483,13 +483,17 @@ Once upon a time there were many hundreds of them, a civilization scattered acro
 
 ## Deep History
 
-### Origins in the Deep Pre-History
+### The Slain Watcher and the Birth of the Ancients
 
-The Strigoi's origin is more obscure than that of the Hounds or the Lamia because the Strigoi themselves are not sure what they are, precisely. The being the Concord calls **Bessos the Undying** — the oldest Strigoi, the Concordat signatory, the closest thing the scourge has to a leader — is not human in origin and never was. Bessos is something inhuman that has been wearing a roughly-human shape since before the Trojan War, something that learned human speech, human manners, and the political value of passing for a very old man sometime in the second millennium BC. The Concord's Inner Seal does not know what Bessos is beneath the shape. Bessos has been asked, once, by the Concord's most senior theurgist, and replied in a language no one in the room recognized.
+The Strigoi's origin is older and more terrible than anything the Concord's historical record cleanly contains. What is known â€” or rather, what the Concord's Inner Seal believes it knows â€” is this:
 
-What the Concord believes: Bessos was in the Dacian mountains before there was a Dacia. He is the source of the Strigoi infection — not by deliberate cultivation, the way the Hounds made their Jackal-Wardens, but by the sheer fact that his presence in the mortal world left a residue in the people around him, a contamination of the blood-line that in certain descendants expressed itself, after death, as a Strigoi revival. He is, in this reading, the Strigoi's progenitor not by intention but by proximity: a god-fragment walking the world for long enough that the world started to imitate him.
+Long before the first Dacian kingdom, a **Watcher** walked the world in a body that was not entirely a body. He was destroyed: killed, impaled into the ground with a spear of divine light that pinned him where he fell, and then his corpse was cut into **seven pieces** and scattered across the Earth so that no burial site could hold him whole. The intention was final dispersal. It did not work.
 
-The historical Dacian voivode-figure who will one day be remembered as the "inventor" of the Strigoi in mortal legend is, in this setting, one of Bessos's direct-line descendants — a man who turned himself deliberately, in the fourth century AD, to survive a Hounds-of-Set incursion into his territory. He is dead now. Bessos regarded the entire episode with detached irritation.
+Over long centuries, the seven accursed fragments seeped into the soil of their burial sites, leaking foul fluids that soaked down into the dark earth. What those fluids touched, they changed. From each burial site arose the **Ancients** â€” the immortal first vampires, the Black Court's primal stock, each one a creature of inhuman power spawned not from a living parent but from the corrupted ground of a Watcher's grave. The Ancients were not made; they grew, slowly, from ruin. They were never human.
+
+**Bessos** is the last surviving Ancient. The Concord's Inner Seal does not know how many there were originally, though Bessos has been asked more than once and does not answer questions he finds uninteresting. He has been wearing a roughly-human shape since before the Trojan War â€” long enough to learn human speech, human manners, and the political value of passing for a very old man. When the Concord's most senior theurgist once pressed him on what he truly is, he replied in a language no one in the room recognized. He did not seem troubled by their confusion.
+
+The historical Dacian voivode-figure who will one day be remembered as the "inventor" of the Strigoi in mortal legend is, in this setting, one of the later Strigoi turned in Bessos's shadow â€” a man who sought transformation deliberately, in the fourth century AD, to survive a Hounds-of-Set incursion into his territory. He is dead now. Bessos regarded the episode with detached irritation.
 
 ### The Purges of Hierokles
 

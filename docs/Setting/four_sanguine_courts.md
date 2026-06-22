@@ -193,6 +193,8 @@ The Hounds operate as a **feudal cult of thirst-discipline**. Their internal sta
 
 This philosophy has a rotting core: **the Red Pharaoh is a thirst-addict**. Pheron-Kha-Seth's great-great-grandchild, the Court's eternal sovereign, has been feeding compulsively and in secret for the better part of two thousand years. He knows it. His Thirteen Lords know it. It is the hidden scandal that drives the Court's aristocratic culture of discipline — every Hound performing the rituals of restraint while their sovereign is increasingly incapable of them, and every Hound careful never to say so where it might be heard.
 
+The philosophy has a second rotting core, more dangerous still: the dilution of Set's Watcher-blood across generations has made the Court's younger tiers measurably weaker than its founders. The oldest Hounds - those closest to the First Three - feel it as a widening gulf between their own power and that of everything born after the first few centuries. Some of the younger generation have drawn the logical conclusion and begun to hunt inward, feeding on older Hounds in secret to reclaim concentrated Set-blood. The Thirteen Lords treat this as a capital crime. They do not advertise how often they have had occasion to enforce it.
+
 ---
 
 ## Internal Roles and Hierarchy

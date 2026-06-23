@@ -1,5 +1,5 @@
-- connect Court of long night to Hyperborea
-- connect Court of burning crown to Atlantis 
+-  Court of Long Night is connected to Hyperborea
+-  Court of Burning Crownis connected to Atlantis 
 - Hyperborea and Atlantis were Antediluvian civilisations.
 
 - Set Transformed 3 high priests into immortal creatures. These first 3 of the Hounds of Set vampires,  drained Set of his Blood. New generations of vampires are made by draining a mortal of blood and then allowing them to feed upon the blood of Set remaining in the vampires body.  Each new generation is weaker than the last. Younger generations are secretly  starting to kill and feed upon their elders to gain power.

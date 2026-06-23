@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Setting/setting adjustments.md",
+                "file": "docs/Setting/four_sanguine_courts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "setting adjustments"
+              "title": "four_sanguine_courts"
             }
           }
         ]
@@ -170,11 +170,11 @@
   },
   "active": "73b893ad9bd50958",
   "lastOpenFiles": [
-    "docs/Setting/esoteric_order_of_dagon.md",
+    "docs/Setting/aetas_obscura_setting_bible.md",
     "docs/Setting/setting adjustments.md",
+    "docs/Setting/esoteric_order_of_dagon.md",
     "docs/Setting/four_sanguine_courts.md",
     "docs/06.5-magical-traditions.md",
-    "docs/Setting/aetas_obscura_setting_bible.md",
     "docs/Setting/2d12-magic-chapter-draft.md"
   ]
 }

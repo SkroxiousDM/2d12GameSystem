@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Setting/esoteric_order_of_dagon.md",
+                "file": "docs/Setting/setting adjustments.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "esoteric_order_of_dagon"
+              "title": "setting adjustments"
             }
           }
         ]
@@ -170,6 +170,7 @@
   },
   "active": "73b893ad9bd50958",
   "lastOpenFiles": [
+    "docs/Setting/esoteric_order_of_dagon.md",
     "docs/Setting/setting adjustments.md",
     "docs/Setting/four_sanguine_courts.md",
     "docs/06.5-magical-traditions.md",

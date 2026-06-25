@@ -4,26 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "ae7584619757779f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c752bf81e43ab380",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Setting/Mythos-Spells.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Mythos-Spells"
-            }
-          }
-        ]
-      },
-      {
         "id": "54a794246f37d7eb",
         "type": "tabs",
         "children": [
@@ -33,44 +13,35 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/06-magic.md",
+                "file": "docs/Setting/Mythos-Spells.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "06-magic"
-            }
-          },
-          {
-            "id": "34d76ea4f1a12138",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Setting/aetas_obscura_setting_bible.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "aetas_obscura_setting_bible"
-            }
-          },
-          {
-            "id": "a76deaaf9e2e4f9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/00-document-map.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "00-document-map"
+              "title": "Mythos-Spells"
             }
           }
-        ],
-        "currentTab": 2
+        ]
+      },
+      {
+        "id": "befc2c9ae4801d19",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "344a96056b22fa79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/06.9-ritualistic-magic.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "06.9-ritualistic-magic"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -143,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/00-document-map.md",
+                "file": "docs/Setting/Mythos-Spells.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 00-document-map"
+              "title": "Backlinks for Mythos-Spells"
             }
           },
           {
@@ -205,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/00-document-map.md",
+                "file": "docs/Setting/Mythos-Spells.md",
                 "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "showSearch": true,
+                "searchQuery": "pro"
               },
               "icon": "lucide-list",
-              "title": "Outline of 00-document-map"
+              "title": "Outline of Mythos-Spells"
             }
           }
         ],
@@ -232,25 +203,28 @@
       "bases:Create new base": false
     }
   },
-  "active": "a76deaaf9e2e4f9d",
+  "active": "dd56ccd546908784",
   "lastOpenFiles": [
+    "docs/Setting/cthulhu_magic_for_conan.txt",
+    "docs/06.9-ritualistic-magic.md",
+    "docs/Setting/Mythos-Spells.md",
+    "Pasted image 20260624191910.png",
+    "docs/06-magic.md",
+    "docs/Setting/setting adjustments.md",
+    "docs/Setting/aetas_obscura_setting_bible.md",
+    "docs/Setting/cthulhu_magic_for_conan.md",
+    "docs/00-document-map.md",
     "docs/Setting/The-World-of-500AD.md",
     "docs/Setting/~$hulhu_magic_for_conan.txt",
-    "docs/Setting/cthulhu_magic_for_conan.txt",
     "docs/Setting/~WRD0000.tmp",
-    "docs/06.9-ritualistic-magic.md",
     "docs/Setting/2d12-magic-chapter-draft.md",
-    "docs/Setting/Mythos-Spells.md",
     "docs/06-magic-rewrite.md",
     "docs/06.5-magical-traditions.md",
-    "docs/Setting/aetas_obscura_setting_bible.md",
     "docs/06.4-shamanic-spellbook.md",
     "docs/06.3-magical-traditions.md",
-    "docs/06-magic.md",
     "docs/01-resolution-engine.md",
     "docs/03-attributes.md",
     "docs/05-talents.md",
-    "docs/Setting/setting adjustments.md",
     "docs/02.4 Roles.md",
     "docs/02.3 Backgrounds.md",
     "docs/02.2 Social Class.md",
@@ -260,9 +234,6 @@
     "docs/Setting/gnostic_apokryphon.md",
     "docs/Setting/four_sanguine_courts.md",
     "docs/Setting/esoteric_order_of_dagon.md",
-    "docs/Setting/concord_of_the_seven_seals.md",
-    "docs/Setting/brotherhood_of_the_black_pharaoh.md",
-    "docs/02-character-creation.md",
     "branch-rulesets/PRs and commits.json",
     "branch-rulesets",
     "docs/Setting"

@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Setting/Mythos-Spells.md",
+                "file": "docs/06.9-ritualistic-magic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Mythos-Spells"
+              "title": "Backlinks for 06.9-ritualistic-magic"
             }
           },
           {
@@ -176,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Setting/Mythos-Spells.md",
+                "file": "docs/06.9-ritualistic-magic.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": "pro"
               },
               "icon": "lucide-list",
-              "title": "Outline of Mythos-Spells"
+              "title": "Outline of 06.9-ritualistic-magic"
             }
           }
         ],
@@ -203,16 +203,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "dd56ccd546908784",
+  "active": "344a96056b22fa79",
   "lastOpenFiles": [
+    "docs/Setting/Mythos-Spells.md",
+    "docs/Setting/cthulhu_magic_for_conan.md",
+    "Pasted image 20260624191910.png",
     "docs/Setting/cthulhu_magic_for_conan.txt",
     "docs/06.9-ritualistic-magic.md",
-    "docs/Setting/Mythos-Spells.md",
-    "Pasted image 20260624191910.png",
     "docs/06-magic.md",
     "docs/Setting/setting adjustments.md",
     "docs/Setting/aetas_obscura_setting_bible.md",
-    "docs/Setting/cthulhu_magic_for_conan.md",
     "docs/00-document-map.md",
     "docs/Setting/The-World-of-500AD.md",
     "docs/Setting/~$hulhu_magic_for_conan.txt",

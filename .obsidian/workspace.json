@@ -13,12 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Setting/Mythos-Spells.md",
+                "file": "docs/02.4 Roles.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Mythos-Spells"
+              "title": "02.4 Roles"
+            }
+          },
+          {
+            "id": "105b487d5a9e3b46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/06.6-Grimoire-of-Nyarlathotep.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "06.6-Grimoire-of-Nyarlathotep"
+            }
+          },
+          {
+            "id": "d9c046ba22ddc776",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/06.7-Compendium-of-Mormo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "06.7-Compendium-of-Mormo"
+            }
+          },
+          {
+            "id": "a74965b2c5b598e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/06.8-Tome-of-Cthulhu.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "06.8-Tome-of-Cthulhu"
             }
           }
         ]
@@ -176,13 +218,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/06.9-ritualistic-magic.md",
+                "file": "docs/02.4 Roles.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": "pro"
               },
               "icon": "lucide-list",
-              "title": "Outline of 06.9-ritualistic-magic"
+              "title": "Outline of 02.4 Roles"
             }
           }
         ],
@@ -203,37 +245,38 @@
       "bases:Create new base": false
     }
   },
-  "active": "344a96056b22fa79",
+  "active": "dd56ccd546908784",
   "lastOpenFiles": [
-    "docs/Setting/Mythos-Spells.md",
+    "docs/06.9-ritualistic-magic.md",
+    "docs/02.4 Roles.md",
+    "docs/02.3 Backgrounds.md",
+    "docs/02.2 Social Class.md",
+    "docs/02-character-creation.md",
+    "docs/06-magic-rewrite.md",
+    "docs/06-magic.md",
+    "docs/Setting/2d12-magic-chapter-draft.md",
     "docs/Setting/cthulhu_magic_for_conan.md",
+    "docs/06.8-Tome-of-Cthulhu.md",
+    "docs/06.1-runic-spellbook.md",
+    "docs/06.2-oracular-spellbook.md",
+    "docs/06.3-shamanic-spellbook.md",
+    "docs/06.4-magical-traditions.md",
+    "docs/06.5-Spellbook-of-Yog-Sothoth.md",
+    "docs/06.6-Grimoire-of-Nyarlathotep.md",
+    "docs/06.7-Compendium-of-Mormo.md",
     "Pasted image 20260624191910.png",
     "docs/Setting/cthulhu_magic_for_conan.txt",
-    "docs/06.9-ritualistic-magic.md",
-    "docs/06-magic.md",
     "docs/Setting/setting adjustments.md",
     "docs/Setting/aetas_obscura_setting_bible.md",
     "docs/00-document-map.md",
     "docs/Setting/The-World-of-500AD.md",
     "docs/Setting/~$hulhu_magic_for_conan.txt",
     "docs/Setting/~WRD0000.tmp",
-    "docs/Setting/2d12-magic-chapter-draft.md",
-    "docs/06-magic-rewrite.md",
-    "docs/06.5-magical-traditions.md",
-    "docs/06.4-shamanic-spellbook.md",
     "docs/06.3-magical-traditions.md",
     "docs/01-resolution-engine.md",
     "docs/03-attributes.md",
     "docs/05-talents.md",
-    "docs/02.4 Roles.md",
-    "docs/02.3 Backgrounds.md",
-    "docs/02.2 Social Class.md",
     "docs/Setting/yithian_archive.md",
-    "docs/Setting/two_twilight_courts.md",
-    "docs/Setting/mystery_cults.md",
-    "docs/Setting/gnostic_apokryphon.md",
-    "docs/Setting/four_sanguine_courts.md",
-    "docs/Setting/esoteric_order_of_dagon.md",
     "branch-rulesets/PRs and commits.json",
     "branch-rulesets",
     "docs/Setting"

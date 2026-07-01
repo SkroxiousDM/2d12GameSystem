@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/05-talents.md",
+                "file": "docs/02-character-creation.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "05-talents"
+              "title": "02-character-creation"
             }
           }
         ]
@@ -180,6 +180,7 @@
   },
   "active": "73b893ad9bd50958",
   "lastOpenFiles": [
+    "docs/05-talents.md",
     "docs/Setting/four_sanguine_courts.md",
     "docs/Setting/cthulhu_magic_for_conan.md",
     "docs/06.8-Tome-of-Cthulhu.md",
@@ -188,7 +189,6 @@
     "docs/06.5-Spellbook-of-Yog-Sothoth.md",
     "docs/06.4-magical-traditions.md",
     "docs/06.3-shamanic-spellbook.md",
-    "docs/05-talents.md",
     "docs/Setting/esoteric_order_of_dagon.md",
     "docs/Setting/mystery_cults.md",
     "docs/Setting/aetas_obscura_setting_bible.md",

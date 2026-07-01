@@ -628,14 +628,6 @@ This Talent may be taken a second time; if so, choose one of the following:
 
 ---
 
-### Tactical Movement
-
-*Prerequisites: Rank 1 Athletics, Rank 1 Resilience (Discipline)*
-
-* **Benefit:** You may Take Cover as a Free Action.
-
----
-
 ### Hit and Run
 
 *Prerequisite: Rank 3 Reflexes (Acrobatics)*
@@ -648,8 +640,9 @@ This Talent may be taken a second time; if so, choose one of the following:
 
 *Prerequisite: Rank 2 Reflexes*
 
-* **Benefit:** When you break from engagement and an opponent makes an immediate attack against you, they have Disadvantage on that attack.
-* **Benefit:** If you take this Talent twice, you may Disengage as a Free Action.
+- **Benefit:** You may Take Cover as a Free Action.
+- **Benefit:** When you break from engagement and an opponent makes an immediate attack against you, they have Disadvantage on that attack.
+- **Benefit:** If you take this Talent twice, you may Disengage as a Free Action.
 
 ---
 

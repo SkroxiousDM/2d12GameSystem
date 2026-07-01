@@ -203,6 +203,10 @@ To cast a spell, you must be able to satisfy the spell's practical requirements.
 
 Combat places pressure on spellcasters. Being cornered, silenced, Staggered, or forced to choose between movement and concentration can be as dangerous as a drawn blade. The GM should enforce the fiction of spellcasting honestly; a wizard trapped in mud with a broken jaw should not cast as freely as one standing behind a disciplined shield line.
 
+
+
+
+
 ## Superiority in Combat
 
 Superiority is a shared party resource representing momentum, preparation, tactical leverage, and the enemy's growing loss of control. It is tracked against a specific enemy or group; intelligence or planning against one foe grants no benefit against another.

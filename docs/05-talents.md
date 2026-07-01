@@ -290,7 +290,7 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 *Prerequisites: Dexterity 3, Rank 1 Fighting*
 
 * **Benefit:** Your base Evasion becomes 10 + your Fighting Skill Rank while wielding a spear or staff in both hands.
-* **Reaction:** If you were not adjacent to any enemy on your last turn, gain Advantage on your first Fighting Skill Check this turn with a two-handed spear or staff.
+* **Reaction:** If you were not adjacent to any enemy on your last turn, the first advantage you purchase is free (see [[01-resolution-engine#Spending Tychē]]on your first Fighting Skill Check this turn with a two-handed spear or staff.
 
 ---
 
@@ -458,7 +458,7 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 You carry a deep and consuming hatred for a particular group. Choose the object of your hatred.
 
-* **Benefit:** Whenever you encounter them, make a Difficult (-2) Resilience (Discipline) Check. If you fail, you have Advantage on Resilience (Fear) Checks against them and gain +1 Level of Success on attack Checks targeting them, but you must pursue and destroy them by the most direct means available. You may repeat the Discipline Check at the end of each of your turns to regain control. The effect ends when you fall unconscious or all visible targets of your hatred are dead.
+* **Benefit:** Whenever you encounter them, make a Difficult (-2) Resilience (Discipline) Check. If you fail, The first advantage you purchase is free (see [[01-resolution-engine#Spending Tychē]]on Resilience (Fear) Checks against them and gain +1 Level of Success on attack Checks targeting them, but you must pursue and destroy them by the most direct means available. You may repeat the Discipline Check at the end of each of your turns to regain control. The effect ends when you fall unconscious or all visible targets of your hatred are dead.
 
 ---
 
@@ -527,7 +527,7 @@ You carry a deep and consuming hatred for a particular group. Choose the object 
 
 *Prerequisite: Rank 1 Resilience (Discipline)*
 
-* **Benefit:** You have Advantage on Checks to resist the Frightened condition, and gain +1 Level of Success on Resilience (Discipline) Checks for each ally with the Drilled Talent in the same zone.
+* **Benefit:** The first advantage you purchase is free (see [[01-resolution-engine#Spending Tychē]]on Checks to resist the Frightened condition, and gain +1 Level of Success on Resilience (Discipline) Checks for each ally with the Drilled Talent in the same zone.
 
 If another party member also has Drilled, both of you gain the following:
 
@@ -616,7 +616,7 @@ This Talent may be taken a second time; if so, choose one of the following:
 
 ### Contortionist
 
-* **Benefit:** You may fit into unusually cramped passages. You also have Advantage on Checks to resist or escape the Restrained condition or a grapple.
+* **Benefit:** You may fit into unusually cramped passages. Also the first advantage you purchase is free (see [[01-resolution-engine#Spending Tychē]]on Checks to resist or escape the Restrained condition or a grapple.
 
 ---
 
@@ -624,7 +624,7 @@ This Talent may be taken a second time; if so, choose one of the following:
 
 *Prerequisites: Rank 1 Athletics, Rank 1 Resilience (Fortitude), Rank 1 Reflexes*
 
-* **Benefit:** If you have at least 1 point of Superiority, you become Fast. You have Advantage on Checks to resist or end the Prone condition, may stand from Prone as a Free Action once per turn if not Restrained, and have Advantage on Checks to resist being forcibly moved.
+* **Benefit:** If you have at least 1 point of Superiority, you become Fast. The first advantage you purchase is free (see [[01-resolution-engine#Spending Tychē]]on Checks to resist or end the Prone condition, may stand from Prone as a Free Action once per turn if not Restrained, and have Advantage on Checks to resist being forcibly moved.
 
 ---
 
@@ -658,7 +658,7 @@ This Talent may be taken a second time; if so, choose one of the following:
 
 You know the land of your upbringing the way others know their own face. This Talent may be taken multiple times, choosing a new environment each time.
 
-* **Benefit:** Choose one of the following environments. Within that environment, you have Advantage on Stealth Checks and gain +1 Armour from Cover beyond what cover normally provides.
+* **Benefit:** Choose one of the following environments. Within that environment, the first advantage you purchase is free (see [[01-resolution-engine#Spending Tychē]]on Stealth Checks and gain +1 Armour from Cover beyond what cover normally provides.
   * **Agricultural:** Farmed fields, orchards, pastures, fishing villages
   * **Forest:** Deep woodland, managed hunting grounds, ancient groves
   * **Highlands:** Mountains, hill country, exposed moorland
@@ -897,7 +897,7 @@ You know the land of your upbringing the way others know their own face. This Ta
 
 *Prerequisite: Rank 2 Observation (Instincts)*
 
-* **Benefit:** You have Advantage on Observation (Instincts) Checks to gauge whether someone is open to a bribe. Additionally, if you have the (Negotiation) Specialisation you reduce the cost of any bribe by 10% for each rank you have in Manipulation.
+* **Benefit:** The first advantage you purchase is free (see [[01-resolution-engine#Spending Tychē]]on Observation (Instincts) Checks to gauge whether someone is open to a bribe. Additionally, if you have the (Negotiation) Specialisation you reduce the cost of any bribe by 10% for each rank you have in Manipulation.
 
 ---
 
@@ -937,7 +937,7 @@ You know the land of your upbringing the way others know their own face. This Ta
 
 *Prerequisite: Rank 2 Academia (Investigation or History)*
 
-* **Benefit:** You have Advantage on Checks to locate or retrieve information from written sources, and you read texts in half the normal time.
+* **Benefit:** The first advantage you purchase is free (see [[01-resolution-engine#Spending Tychē]]on Checks to locate or retrieve information from written sources, and you read texts in half the normal time.
 * **Benefit:** If you take this Talent again, you also have Advantage on Checks to determine when, where, how, or by whom a document was created.
 
 ---
@@ -997,7 +997,7 @@ You are a priest in good standing with the being behind your altar, and it lends
 
 ### Lickspittle
 
-* **Benefit:** You have Advantage on any Check made to ingratiate yourself with someone of higher social standing.
+* **Benefit:** The first advantage you purchase is free (see [[01-resolution-engine#Spending Tychē]]on any Check made to ingratiate yourself with someone of higher social standing.
 
 ---
 
@@ -1180,7 +1180,7 @@ You have a particular aptitude for honest toil. This Talent may be taken multipl
 
 *Prerequisite: Rank 2 Medicae (Autopsy)*
 
-* **Benefit:** You have Advantage on Checks to determine cause and manner of death, and to identify signs of disease, poison, or injury in a corpse.
+* **Benefit:** The first advantage you purchase is free (see [[01-resolution-engine#Spending Tychē]]on Checks to determine cause and manner of death, and to identify signs of disease, poison, or injury in a corpse.
 
 ---
 

@@ -1271,6 +1271,10 @@ As a reliable member of the Servant caste, you have been entrusted with your emp
 
 ---
 
+* **Numidian Rider** — When mounted, gain advantage on Fighting tests with javelins and on Athletics tests to remain in the saddle under duress.
+
+---
+
 * **Sea-Raider** — Gain advantage on Survival (Boating) tests and on Fighting tests during a boarding action or beach assault.
 
 ---

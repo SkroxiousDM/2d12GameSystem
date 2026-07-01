@@ -1250,8 +1250,7 @@ You have a particular aptitude for honest toil. This Talent may be taken multipl
 *Prerequisite: Rank 2 Resilience (Discipline)*
 
 * **Benefit:** You cannot be read by magical means, and you reduce any damage you suffer from spells or supernatural effects by your Willpower.
-
----
+9---
 ### Tenacious
 
 * **Benefit:** Whenever you suffer the Stunned condition, you may immediately make a Challenging (+0) Resilience (Fortitude) Check to shrug it off.

@@ -710,12 +710,6 @@ You know the land of your upbringing the way others know their own face. This Ta
 
 ---
 
-### Fade Away
-
-* **Benefit:** Once per scene as a minor action, you may generate 2 Doom for the GM's pool to slip from sight. Until the start of your next turn, you cannot be targeted by attacks other than those with the Area damage effect. If you are in heavy cover, you do not need to generate Doom to use this Talent.
-
----
-
 ### Quick-Fingered
 
 *Prerequisites: Dexterity 3, Rank 1 Thievery*
@@ -734,12 +728,6 @@ You know the land of your upbringing the way others know their own face. This Ta
 * **Benefit:** You can always improvise lock-picking tools from materials at hand, regardless of equipment carried.
 * **Benefit:** Gain +1 SL on Thievery Skill Checks to pick locks when you have proper picks.
 * **Benefit:** Once you have opened a lock, you automatically succeed at all future Thievery Skill Checks to open it again.
-
----
-
-### Holdout
-
-* **Benefit:** You may conceal one Tiny item on your person. Any search requires a Hard (-4) Observation (Sight or Touch) or Thievery (Sleight of Hand) Check to discover it.
 
 ---
 

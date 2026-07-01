@@ -169,7 +169,7 @@ This Talent may be taken multiple times. You may Counter Attack once per round f
 
 You can work yourself into a furious killing state.
 
-* **Free Action:** Make a Challenging Willpower Check to enter a rage. While raging, your Might increases by +1 and you are immune to the Frightened condition. On your turn, you must move toward the nearest visible enemy and engage them in melee. The rage ends when all visible enemies are defeated or when you suffer the Stunned or Unconscious condition.
+* **Free Action:** Make a Challenging (+0) Willpower Check to enter a rage. While raging, your Might increases by +1 and you are immune to the Frightened condition. On your turn, you must move toward the nearest visible enemy and engage them in melee. The rage ends when all visible enemies are defeated or when you suffer the Stunned or Unconscious condition.
 
 This Talent may be taken multiple times. Each time after the first, choose one of the following:
 
@@ -183,7 +183,7 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 *Prerequisites: Battle Rage 2, Constitution 6*
 
-* **Benefit:** When you would receive a Critical Wound that kills you, make a Challenging Constitution + Resilience Check. On a success, you do not die and instead regain 1 Sōma. Each subsequent use of this benefit increases the Difficulty by 1 level. A Rest resets the Difficulty.
+* **Benefit:** When you would receive a Critical Wound that kills you, make a Challenging (+0)  Constitution + Resilience Check. On a success, you do not die and instead regain 1 Sōma. Each subsequent use of this benefit increases the Difficulty by 1 level. A Rest resets the Difficulty.
 
 ---
 
@@ -535,7 +535,7 @@ You carry a deep and consuming hatred for a particular group. Choose the object 
 
 *Prerequisite: Rank 2 Tactics (Leadership)*
 
-* **Benefit:** As an Action, make a Challenging Tactics (Leadership) Check. On a success, your target may use your Skill level instead of their own for their next Check.
+* **Benefit:** As an Action, make a Challenging (+0) Tactics (Leadership) Check. On a success, your target may use your Skill level instead of their own for their next Check.
 
 ---
 
@@ -819,7 +819,7 @@ You know the land of your upbringing the way others know their own face. This Ta
 
 *Prerequisite: Rank 2 Manipulation*
 
-* **Benefit:** The first time you encounter a new group, you may make a Challenging Manipulation Check. On a success, you gain +1 Influence with that group until the end of the session.
+* **Benefit:** The first time you encounter a new group, you may make a Challenging (+0) Manipulation Check. On a success, you gain +1 Influence with that group until the end of the session.
 
 ---
 
@@ -989,7 +989,7 @@ You know the land of your upbringing the way others know their own face. This Ta
 
 *Prerequisite: Rank 2 Manipulation (Charm)*
 
-* **Benefit:** As an Action, make a Challenging Manipulation (Charm) Check to benefit one ally in one of the following ways: remove the Frightened condition; remove 1 Fatigue; remove the Stunned condition. If the target is at 0 Sōma, they do not perish at the end of the round and instead survive for 1 + Levels of Success additional rounds.
+* **Benefit:** As an Action, make a Challenging (+0) Manipulation (Charm) Check to benefit one ally in one of the following ways: remove the Frightened condition; remove 1 Fatigue; remove the Stunned condition. If the target is at 0 Sōma, they do not perish at the end of the round and instead survive for 1 + Levels of Success additional rounds.
 
 ---
 
@@ -1254,13 +1254,13 @@ You have a particular aptitude for honest toil. This Talent may be taken multipl
 ---
 ### Tenacious
 
-* **Benefit:** Whenever you suffer the Stunned condition, you may immediately make a Challenging Resilience (Fortitude) Check to shrug it off.
+* **Benefit:** Whenever you suffer the Stunned condition, you may immediately make a Challenging (+0) Resilience (Fortitude) Check to shrug it off.
 
 ---
 ### Flagellant
 
 * **Benefit:** Gain +1 SL on Checks to resist the effects of pain or interrogation.
-* **Benefit:** Whenever you suffer a Critical Wound, you may make a Challenging Academia (Religion) Check. On a success, you may ignore that Critical Wound's effects for a number of rounds equal to your Willpower. At the end of this duration, the full effects apply.
+* **Benefit:** Whenever you suffer a Critical Wound, you may make a Challenging (+0) Academia (Religion) Check. On a success, you may ignore that Critical Wound's effects for a number of rounds equal to your Willpower. At the end of this duration, the full effects apply.
 
 ---
 ### Eidetic Memory

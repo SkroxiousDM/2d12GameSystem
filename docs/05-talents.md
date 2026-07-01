@@ -268,20 +268,12 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 ---
 
-### Formidable
-
-*Prerequisites: Might 3, Rank 1 Fighting*
-
-* **Benefit:** Your base Evasion becomes 10 + your Fighting Skill Rank while wielding a two-handed axe, mace, or sword.
-* **Benefit:** When you would inflict a Critical Wound with a two-handed weapon, inflict one additional Critical Wound.
-
----
-
 ### Butcher
 
 *Prerequisites: Athletics (Lifting), Might 4, Rank 3 Fighting*
 
-* **Benefit:** The first time each round you deal Sōma damage or inflict a Critical Wound with a two-handed axe, mace, or sword, inflict one additional Critical Wound.
+* **Benefit:** Your base Evasion becomes 10 + your Fighting Skill Rank while wielding a two-handed axe, mace, or sword.
+* **Benefit:** When you would inflict a Critical Wound with a two-handed weapon, inflict one additional Critical Wound.
 
 ---
 

@@ -531,7 +531,7 @@ You carry a deep and consuming hatred for a particular group. Choose the object 
 
 If another party member also has Drilled, both of you gain the following:
 
-* **:** When in the same zone as another character with Drilled, you may act immediately after them in Initiative and gain +1 Level of Success on all Checks that round.
+* **Ad Fulco:** When in the same zone as another character with Drilled, you may act immediately after them in Initiative and gain +1 Level of Success on all Checks that round.
 
 ---
 

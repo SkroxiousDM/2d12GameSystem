@@ -1255,6 +1255,18 @@ You hold considerable status in society, and while that comes with numerous bene
 
 ---
 
+### PURSE STRINGS
+*Keywords: Servant*
+
+*Requirements: Servant caste*
+
+As a reliable member of the Servant caste, you have been entrusted with your employer’s household financial matters, which you can use to your own advantage
+- Once per adventure, you may purchase an item with a Restriction rating of 3 or lower using your employer’s wealth or requisition points instead of your own wealth or your group’s requisition points
+- You either remove the item from your employer’s possession or purchase it on their behalf and “borrow” it for a short time
+- You must return the item to your employer’s control following the current adventure
+
+---
+
 * **Steppe Rider** – Suffer no penalty when making attacks or tests from horseback, and gain advantage on tests to ride, control, or calm horses.
 
 ---

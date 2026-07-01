@@ -225,14 +225,6 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 ---
 
-### Retaliation
-
-*Prerequisites: Ironclad, Rank 5 Fighting*
-
-* **Reaction:** When an attack from an adjacent source is mitigated by your armour, you may immediately make a Fighting Skill Check against the attacker.
-
----
-
 ### Defender
 
 *Prerequisites: Might 4, Rank 2 Fighting*

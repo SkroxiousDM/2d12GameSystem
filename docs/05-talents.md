@@ -445,7 +445,7 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 This Talent may be taken multiple times. Each time after the first, choose one of the following:
 
 * **Brutalist:** The weapon also gains the Rend (+1) trait.
-* **Leg Sweep:** When you hit a target in the leg, you may halve the damage to force them to make a Hard Reflexes (Balance) Check or fall Prone.
+* **Leg Sweep:** When you hit a target in the leg, you may halve the damage to force them to make a Hard (-4) Reflexes (Balance) Check or fall Prone.
 
 ---
 
@@ -519,7 +519,7 @@ You carry a deep and consuming hatred for a particular group. Choose the object 
 
 *Prerequisite: Rank 3 Tactics (Leadership)*
 
-* **Benefit:** Whenever your side would lose Superiority, make a Hard Manipulation (Leadership) Check. On a success, Superiority is not lost.
+* **Benefit:** Whenever your side would lose Superiority, make a Hard (-4) Manipulation (Leadership) Check. On a success, Superiority is not lost.
 
 ---
 
@@ -762,7 +762,7 @@ You know the land of your upbringing the way others know their own face. This Ta
 
 ### Holdout
 
-* **Benefit:** You may conceal one Tiny item on your person. Any search requires a Hard Observation (Sight or Touch) or Thievery (Sleight of Hand) Check to discover it.
+* **Benefit:** You may conceal one Tiny item on your person. Any search requires a Hard (-4) Observation (Sight or Touch) or Thievery (Sleight of Hand) Check to discover it.
 
 ---
 

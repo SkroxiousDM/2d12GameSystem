@@ -529,9 +529,9 @@ You carry a deep and consuming hatred for a particular group. Choose the object 
 
 * **Benefit:** You have Advantage on Checks to resist the Frightened condition, and gain +1 Level of Success on Resilience (Discipline) Checks for each ally with the Drilled Talent in the same zone.
 
-If another party member also has Drilled, both of you may purchase this Talent again to gain the following:
+If another party member also has Drilled, both of you gain the following:
 
-* **Shield Wall:** When in the same zone as another character with Drilled, you may act immediately after them in Initiative and gain +1 Level of Success on all Checks that round.
+* **:** When in the same zone as another character with Drilled, you may act immediately after them in Initiative and gain +1 Level of Success on all Checks that round.
 
 ---
 

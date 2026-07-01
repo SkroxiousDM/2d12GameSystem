@@ -15,7 +15,17 @@
               "state": {
                 "file": "docs/Setting/four_sanguine_courts.md",
                 "mode": "source",
-                "source": false
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "four_sanguine_courts"
@@ -170,10 +180,20 @@
   },
   "active": "73b893ad9bd50958",
   "lastOpenFiles": [
-    "docs/Setting/aetas_obscura_setting_bible.md",
-    "docs/Setting/setting adjustments.md",
-    "docs/Setting/esoteric_order_of_dagon.md",
+    "docs/Setting/cthulhu_magic_for_conan.md",
+    "docs/06.8-Tome-of-Cthulhu.md",
+    "docs/06.7-Compendium-of-Mormo.md",
+    "docs/06.6-Grimoire-of-Nyarlathotep.md",
+    "docs/06.5-Spellbook-of-Yog-Sothoth.md",
+    "docs/06.4-magical-traditions.md",
+    "docs/06.3-shamanic-spellbook.md",
+    "docs/05-talents.md",
     "docs/Setting/four_sanguine_courts.md",
+    "docs/Setting/esoteric_order_of_dagon.md",
+    "docs/Setting/mystery_cults.md",
+    "docs/Setting/aetas_obscura_setting_bible.md",
+    "docs/Setting/brotherhood_of_the_black_pharaoh.md",
+    "docs/Setting/setting adjustments.md",
     "docs/06.5-magical-traditions.md",
     "docs/Setting/2d12-magic-chapter-draft.md"
   ]

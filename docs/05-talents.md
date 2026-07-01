@@ -1275,5 +1275,11 @@ As a reliable member of the Servant caste, you have been entrusted with your emp
 
 ---
 
-SOCIAL NETWORK Keywords: Schemer, Observation Requirements: Schemer archetype Once you have lived in any place for any length of time, you pick up a variety of hangers-on and informantsIn any location where you have had downtime (see Downtime on page 60), you have at least one useful contact on tap (see Connections, Reputation, and Favors on page 53); this contact has a relationship classification of fair
-- In addition, the first bonus d20 you purchase for any skill test you make during downtime is free (see Spending Momentum on page 23), providing the skill test does not involve combat of any kind.
+### SOCIAL NETWORK 
+*Keywords: Interlocutor, Observation*
+
+*Requirements: Interlocutor archetype*
+
+Once you have lived in any place for any length of time, you pick up a variety of hangers-on and informants
+- In any location where you have had [[18-downtime-and-campaign-loop|Downtime]], you have at least one useful contact on tap (see [[13-connections-reputation-favors]]); this contact has a relationship classification of fair
+- In addition, the first advantage you purchase for any skill test you make during downtime is free (see [[01-resolution-engine#Spending Tychē]]), providing the skill test does not involve combat of any kind.

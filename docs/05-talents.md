@@ -1236,7 +1236,7 @@ You have a particular aptitude for honest toil. This Talent may be taken multipl
 ### Flagellant
 
 * **Benefit:** Gain +1 SL on Checks to resist the effects of pain or interrogation.
-* **Benefit:** Whenever you suffer a Critical Wound, you may make a Challenging (+0) **89oAcademia** (Religion) Check. On a success, you may ignore that Critical Wound's effects for a number of rounds equal to your Willpower. At the end of this duration, the full effects apply.
+* **Benefit:** Whenever you suffer a Critical Wound, you may make a Challenging (+0) **Academia** (Religion) Check. On a success, you may ignore that Critical Wound's effects for a number of rounds equal to your Willpower. At the end of this duration, the full effects apply.
 
 ---
 ### Eidetic Memory

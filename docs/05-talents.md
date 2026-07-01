@@ -1255,3 +1255,4 @@ You hold considerable status in society, and while that comes with numerous bene
 
 ---
 
+* **Steppe Rider** – Suffer no penalty when making attacks or tests from horseback, and gain advantage on tests to ride, control, or calm horses.

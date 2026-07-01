@@ -173,7 +173,7 @@ You can work yourself into a furious killing state.
 
 This Talent may be taken multiple times. Each time after the first, choose one of the following:
 
-* **Controlled Fury:** You may make a Difficult Resilience Check as an Action to end your rage voluntarily.
+* **Controlled Fury:** You may make a Difficult (-2) Resilience Check as an Action to end your rage voluntarily.
 * **Fearless Rage:** Whenever you would become Frightened, you may immediately enter a rage instead.
 * **Relentless Momentum:** Once per turn, when you kill an enemy while raging, you may immediately Move or take one additional Action.
 
@@ -474,7 +474,7 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 You carry a deep and consuming hatred for a particular group. Choose the object of your hatred.
 
-* **Benefit:** Whenever you encounter them, make a Difficult Resilience (Discipline) Check. If you fail, you have Advantage on Resilience (Fear) Checks against them and gain +1 Level of Success on attack Checks targeting them, but you must pursue and destroy them by the most direct means available. You may repeat the Discipline Check at the end of each of your turns to regain control. The effect ends when you fall unconscious or all visible targets of your hatred are dead.
+* **Benefit:** Whenever you encounter them, make a Difficult (-2) Resilience (Discipline) Check. If you fail, you have Advantage on Resilience (Fear) Checks against them and gain +1 Level of Success on attack Checks targeting them, but you must pursue and destroy them by the most direct means available. You may repeat the Discipline Check at the end of each of your turns to regain control. The effect ends when you fall unconscious or all visible targets of your hatred are dead.
 
 ---
 

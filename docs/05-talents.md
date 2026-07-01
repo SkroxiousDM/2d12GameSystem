@@ -1267,11 +1267,19 @@ As a reliable member of the Servant caste, you have been entrusted with your emp
 
 ---
 
+### Born in the Saddle
+* **Benefit:** You are trained in mounted combat.
+* **Benefit:** If an attack targets your mount, you may redirect one such attack to yourself instead.
+
 * **Steppe Rider** – Suffer no penalty when making attacks or tests from horseback, and gain advantage on tests to ride, control, or calm horses.
+* **Numidian Rider** — When mounted, gain advantage on Fighting tests with javelins and on tests to remain in the saddle under duress.
 
 ---
 
-* **Numidian Rider** — When mounted, gain advantage on Fighting tests with javelins and on Athletics tests to remain in the saddle under duress.
+### Mounted Charger
+You are deadly with a lance while mounted. If your mount moves more than 20 feet directly toward an enemy before you hit with a lance, the attack deals 7 + MIG damage instead of 4 + MIG. 
+
+If your mount moves more than 10 feet directly toward an enemy, you may attempt to ride down a creature that is one size category smaller than your mount or smaller. Resolve this as an opposed Athletics test. The mount rolls Athletics with Advantage; the target opposes with Athletics or Reflexes. If the mount wins, the target is shoved up to 10 feet, takes 2 damage, and is knocked Prone. A mount may ride down up to three creatures in this way. 
 
 ---
 

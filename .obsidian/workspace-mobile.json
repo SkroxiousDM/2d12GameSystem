@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/11-combat.md",
+                "file": "docs/05-talents.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "11-combat"
+              "title": "05-talents"
             }
           }
         ]
@@ -180,6 +180,7 @@
   },
   "active": "73b893ad9bd50958",
   "lastOpenFiles": [
+    "docs/11-combat.md",
     "docs/05-talents.md",
     "docs/02-character-creation.md",
     "Connections, Reputation, and Favors.md",

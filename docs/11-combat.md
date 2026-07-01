@@ -205,27 +205,49 @@ Combat places pressure on spellcasters. Being cornered, silenced, Staggered, or 
 
 ---
 
-Trained mounts
-There are two types of training: riding-trained and war trained. A war-trained mount is a mount that has gone through extensive training to desensitize it to the chaos of battle. The training takes six months and costs 300gp under normal circumstances. But as a GM, you can provide war-trained camels for purchase in your desert campaign, for example. Intelligent mounts such as a unicorn or pegasus do not require war-training, and they act on their own initiative if they agree to be mounted.
+## Mounted Combat
 
-Trained Rider
-Any rider who is proficient in Animal Handling is considered a trained rider. On their turn, a trained rider can have the mount move its speed, then either use the Dodge, Disengage, or Dash action on their shared turn. They can fight normally while mounted, and they and their mount act on the same initiative count. Only a trained rider can use a riding-trained mount in combat. A DC 12 Wisdom (Animal Handing) check is required every round to prevent the mount from panicking and bolting. If the mount sustains any kind of damage, a new animal handling check must be rolled immediately. The DC is 12 + the damage sustained. A trained rider can mount and dismount by using half of their movement.
+Mounted combat uses the normal 2d12 action economy and test structure. A trained rider uses Animal Handling to control the mount, Fighting to attack from the saddle, Athletics when physical control matters, and Reflexes when staying mounted through sudden motion or impact matters. 
 
-Untrained Rider
-An untrained rider can only fight from a war-trained mount. On their turn, an untrained rider can have the mount move its speed. They can use their own action to have the mount Dodge, Disengage, or Dash. They also have disadvantage on attack rolls and ability checks. Additionally an untrained rider must use their full movement to mount or dismount, and if an untrained rider enters combat on a riding-trained mount, the mount will bolt.
+### Mounted Training
+There are two kinds of mount training: riding-trained and war-trained. A war-trained mount has been conditioned to remain steady in battle; this training takes 6 months and costs 300 denarii under normal circumstances. The GM may offer region-specific war-trained mounts where that suits the campaign, such as war-trained camels in a desert region. Intelligent mounts such as unicorns and pegasi do not require war-training; if they agree to be ridden, they act on their own initiative.
 
-Trained and Untrained Riders
-The rider forgoes their own movement and instead uses the mount's movement.
-The rider can draw a weapon as part of the mount's movement.
-The rider's threatened spaces are from the edge of the mount's space.
-Bolting
-A mount that bolts has the frightened condition for one minute. It will attempt to flee the source of danger. It will also attempt to throw the rider as it flees. The rider must succeed a DC 15 Wisdom (Animal Handling) check or be thrown. Apply falling damage. I generally allow a Dexterity (Acrobatics) check to avoid damage.
+### Trained Rider
+A rider proficient in Animal Handling is a trained rider. A trained rider and mount act on the same Initiative count. On the rider’s turn, the mount may move up to its Speed, and the rider may then take one of the following actions: Dodge, Disengage, or Dash. The rider may fight normally while mounted. Only a trained rider may use a riding-trained mount in combat.
 
-New Fighting Style: Mounted
-You are considered trained in mounted combat. You can also force a single attack roll targeted at your mount to target you instead. This fighting style should be available to all classes that use fighting styles, such as fighter, paladin and ranger.
+At the start of the rider’s turn, make a Routine (+2) Animal Handling test to keep the mount calm and controlled. On a success, the mount remains steady. On a failure, the mount may panic and bolt. If the mount takes any damage, immediately make another Animal Handling test; the Difficulty becomes Challenging (+0) plus the damage taken. A trained rider may mount or dismount using half their movement.
 
-New Feat: Mounted Charger
-Your training with a lance while mounted has given you mastery of the weapon, making you deadly against foes while charging. If your mount first moves more than 20ft directly toward an enemy and you hit with a lance, the weapon does 2d12 + STR damage instead of 1d12. If your mount first moves more than 10ft you can ride down opponents who are one size category smaller than your mount or smaller. When entering an enemy space, the mount's speed is reduced by half. Any enemy caught in the path can make a Strength (Athletics) or Dexterity (Acrobatics) check vs. the mount's Strength (Athletics). The mount rolls with advantage. If the mount wins, the enemy is shoved up to 10 feet, takes 1d6 bludgeoning damage, and is knocked prone. The mount can ride down up to three creatures this way.
+### Untrained Rider
+An untrained rider may only fight from a war-trained mount. On their turn, the mount may move up to its Speed, and the rider may spend their own action to have the mount Dodge, Disengage, or Dash. The rider suffers Disadvantage on attack tests and skill tests. They must spend their full movement to mount or dismount. If an untrained rider enters combat on a riding-trained mount, the mount bolts immediately. 
+
+### Shared Rules
+The rider forgoes their own movement and uses the mount’s movement instead. The rider may draw a weapon as part of the mount’s movement. The rider threatens spaces from the edge of the mount’s space. 
+
+### Bolting
+A bolting mount gains the Frightened condition for 1 minute and attempts to flee the source of danger by the most direct route available. It also attempts to throw the rider while fleeing. The rider must succeed at a Challenging (+0) Animal Handling test or be thrown. Apply falling damage as normal. If appropriate, allow a Reflexes or Acrobatics test to reduce or avoid the damage. 
+
+
+## Skill Use
+
+### Animal Handling
+Use Animal Handling for controlling, calming, training, and directing mounts. Use it for keeping a riding-trained mount steady in combat, resisting bolting, and any other situation where a rider must impose discipline on an animal. 
+
+### Fighting
+Use Fighting for attacks made while mounted, including lance attacks and other mounted weapon use. Mounted combat does not change the normal attack procedure unless a rule specifically says otherwise. 
+
+### Athletics
+Use Athletics for the mount’s ride-down contest, for physically handling the mount during a forceful maneuver, and for situations where the rider must rely on strength, balance, or control rather than command. 
+
+### Reflexes
+Use Reflexes when the rider’s skill is about staying seated, reacting to sudden motion, or avoiding harm from a violent mounted exchange. Reflexes is the better choice when the question is not command but balance.
+
+> ## Attribute Use
+>
+> ### MIG
+>Use MIG for the lance’s damage bonus on a successful mounted charge. This follows the normal melee damage procedure. 
+>
+> ### Alacrity
+>Mounted movement does not change the normal turn structure. If the rider is acting under pressure, the usual Action economy still applies.
 
 ---
 

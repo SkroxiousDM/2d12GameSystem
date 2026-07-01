@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "05-talents"
             }
+          },
+          {
+            "id": "a7482e9da91accbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,10 +203,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "73b893ad9bd50958",
+  "active": "a7482e9da91accbe",
   "lastOpenFiles": [
-    "docs/11-combat.md",
     "docs/05-talents.md",
+    "Untitled.md",
+    "docs/11-combat.md",
     "docs/02-character-creation.md",
     "Connections, Reputation, and Favors.md",
     "docs/Setting/four_sanguine_courts.md",

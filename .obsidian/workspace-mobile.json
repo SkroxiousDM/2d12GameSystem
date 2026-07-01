@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/02-character-creation.md",
+                "file": "docs/05-talents.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "02-character-creation"
+              "title": "05-talents"
             }
           }
         ]
@@ -180,8 +180,8 @@
   },
   "active": "73b893ad9bd50958",
   "lastOpenFiles": [
-    "docs/05-talents.md",
     "docs/02-character-creation.md",
+    "docs/05-talents.md",
     "docs/Setting/four_sanguine_courts.md",
     "docs/Setting/cthulhu_magic_for_conan.md",
     "docs/06.8-Tome-of-Cthulhu.md",

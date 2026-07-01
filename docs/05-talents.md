@@ -42,7 +42,7 @@ Requirements typically include:
 *Prerequisites: Might 3 or Dexterity 3, Rank 1 Fighting*
 
 * **Benefit:** When Unarmed and you deal a Critical Hit or Critical Wound, you may increase its rolled severity by +3.
-* **Benefit:** When you spend Fortune to gain Advantage on an Unarmed attack, that attack inflicts Vitality Damage as though you were armed.
+* **Benefit:** When you spend Tychē to gain Advantage on an Unarmed attack, that attack inflicts Sōma Damage as though you were armed.
 
 ---
 
@@ -58,9 +58,9 @@ Requirements typically include:
 
 *Prerequisite: Rank 2 Fighting*
 
-* **Benefit:** When you deal a Critical Hit or Critical Wound and have no current Vitality Damage, you may increase its rolled severity by +2.
+* **Benefit:** When you deal a Critical Hit or Critical Wound and have no current Sōma Damage, you may increase its rolled severity by +2.
 * **Benefit:** If you move from a non-adjacent position to attack, and you deal a Critical Hit or Critical Wound, you may increase its rolled severity by an additional +2.
-* **Benefit:** You may use Might instead of Agility when calculating Alacrity.
+* **Benefit:** You may use Might instead of Agility when calculating Akmē.
 
 ---
 
@@ -121,7 +121,7 @@ This Talent may be taken multiple times. You may Counter Attack once per round f
 
 * **Benefit:** When you deal a Critical Hit or Critical Wound, you may increase its rolled severity by +1 for every untreated Critical Wound you currently carry.
 * **Reaction:** When you receive a Critical Wound, you may immediately attack.
-* **Desperate Action:** Take 1 Vitality Damage to make an additional Fighting Skill attack this turn.
+* **Desperate Action:** Take 1 Sōma Damage to make an additional Fighting Skill attack this turn.
 
 ---
 
@@ -130,7 +130,7 @@ This Talent may be taken multiple times. You may Counter Attack once per round f
 *Prerequisite: Rank 5 Fighting*
 
 * **Benefit:** +1 Armour while unarmoured.
-* **Benefit:** +1 Alacrity while unarmoured.
+* **Benefit:** +1 Akmē while unarmoured.
 * **Benefit:** When you deal a Critical Hit or Critical Wound, you may increase its rolled severity by +1 while unarmoured.
 * **Reaction:** If you Wound an unwounded character, you may immediately attack them again with a Fighting Skill Check.
 
@@ -159,7 +159,7 @@ This Talent may be taken multiple times. You may Counter Attack once per round f
 
 *Prerequisite: Constitution 4*
 
-* **Benefit:** +1 Vitality.
+* **Benefit:** +1 Sōma.
 * **Benefit:** +2 Armour while unarmoured.
 * **Desperate Action:** When a single attack would deal more than 1 Critical Wound, reduce it to 1.
 
@@ -183,7 +183,7 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 *Prerequisites: Battle Rage 2, Constitution 6*
 
-* **Benefit:** When you would receive a Critical Wound that kills you, make a Challenging Constitution + Resilience Check. On a success, you do not die and instead regain 1 Vitality. Each subsequent use of this benefit increases the Difficulty by 1 level. A Rest resets the Difficulty.
+* **Benefit:** When you would receive a Critical Wound that kills you, make a Challenging Constitution + Resilience Check. On a success, you do not die and instead regain 1 Sōma. Each subsequent use of this benefit increases the Difficulty by 1 level. A Rest resets the Difficulty.
 
 ---
 
@@ -264,7 +264,7 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 *Prerequisites: Shieldbearer, Might 5, Rank 5 Fighting*
 
 * **Reaction:** When an adjacent character attacks a friendly character adjacent to you, you may immediately attack the attacker with your Fighting Skill.
-* **Reaction:** If an adjacent ally without the Vigilant Talent would receive one or more Vitality Damage and you are wielding a shield, you may take those Vitality Damage instead. They are mitigated as though by armour.
+* **Reaction:** If an adjacent ally without the Vigilant Talent would receive one or more Sōma Damage and you are wielding a shield, you may take those Sōma Damage instead. They are mitigated as though by armour.
 
 ---
 
@@ -281,7 +281,7 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 *Prerequisites: Athletics (Lifting), Might 4, Rank 3 Fighting*
 
-* **Benefit:** The first time each round you deal Vitality damage or inflict a Critical Wound with a two-handed axe, mace, or sword, inflict one additional Critical Wound.
+* **Benefit:** The first time each round you deal Sōma damage or inflict a Critical Wound with a two-handed axe, mace, or sword, inflict one additional Critical Wound.
 
 ---
 
@@ -322,7 +322,7 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 *Prerequisites: Staver, Dexterity 5, Rank 5 Fighting*
 
-* **Desperate Action:** Spend one Fortune to make a single Fighting Skill Check with a two-handed spear or staff against any number of adjacent characters.
+* **Desperate Action:** Spend one Tychē to make a single Fighting Skill Check with a two-handed spear or staff against any number of adjacent characters.
 
 ---
 
@@ -355,7 +355,7 @@ This Talent may be taken multiple times. Each time after the first, choose one o
 
 *Prerequisite: Fighting (Archery) specialization*
 
-* **Benefit:** +1 Alacrity if your bow is readied.
+* **Benefit:** +1 Akmē if your bow is readied.
 * **Benefit:** +1 Evasion while wielding a bow.
 * **Benefit:** If you do not move on your turn, Critical Wounds inflicted by your Fighting (Archery) Skill inflict one additional Critical Wound.
 
@@ -501,9 +501,9 @@ You carry a deep and consuming hatred for a particular group. Choose the object 
 
 *Prerequisites: Tactician, Charisma 4 or Reason 4*
 
-* **Benefit:** When you spend Fortune to grant Advantage to another character, you may instead grant it to up to two characters simultaneously.
+* **Benefit:** When you spend Tychē to grant Advantage to another character, you may instead grant it to up to two characters simultaneously.
 * **Benefit:** Gain +1 SL when using your Academia Skill to assess military tactics, strategy, and logistics.
-* **Desperate Action:** If your Reason or Charisma is 6 or greater, you may award another character Fortune in the same manner as the GM.
+* **Desperate Action:** If your Reason or Charisma is 6 or greater, you may award another character Tychē in the same manner as the GM.
 
 ---
 
@@ -600,7 +600,7 @@ This Talent may be taken a second time; if so, choose one of the following:
 
 *Prerequisite: Dexterity 4*
 
-* **Benefit:** +2 Alacrity.
+* **Benefit:** +2 Akmē.
 * **Benefit:** +1 Evasion while wielding neither weapons nor shields.
 
 ---
@@ -620,7 +620,7 @@ This Talent may be taken a second time; if so, choose one of the following:
 *Prerequisites: Dexterity 6, Light-Footed*
 
 * **Desperate Action:** All attacks against you have Disadvantage for the round.
-* **Desperate Action:** Halve the Vitality Damage from one attack that hits you, as though by armour.
+* **Desperate Action:** Halve the Sōma Damage from one attack that hits you, as though by armour.
 
 ---
 
@@ -656,7 +656,7 @@ This Talent may be taken a second time; if so, choose one of the following:
 
 *Prerequisite: Rank 3 Reflexes (Acrobatics)*
 
-* **Benefit:** As a Free Action, whenever you deal one or more Vitality Damage or Critical Wounds, you may make a Reflexes (Acrobatics) Check to Disengage and move to an adjacent zone.
+* **Benefit:** As a Free Action, whenever you deal one or more Sōma Damage or Critical Wounds, you may make a Reflexes (Acrobatics) Check to Disengage and move to an adjacent zone.
 
 ---
 
@@ -719,7 +719,7 @@ You know the land of your upbringing the way others know their own face. This Ta
 
 *Prerequisites: Cutthroat, Rank 5 Stealth*
 
-* **Benefit:** Critical Wounds from Surprise Attacks against characters who have not yet acted this round reduce their Alacrity to zero for the round.
+* **Benefit:** Critical Wounds from Surprise Attacks against characters who have not yet acted this round reduce their Akmē to zero for the round.
 * **Benefit:** You may choose to make any of your killing blows silent.
 
 ---
@@ -729,7 +729,7 @@ You know the land of your upbringing the way others know their own face. This Ta
 *Prerequisites: Dexterity 5, Rank 5 Stealth*
 
 * **Benefit:** Gain +1 SL on Stealth Skill Checks if you move only to an adjacent location on your turn.
-* **Benefit:** You may spend one Fortune to reroll a Stealth Skill Check.
+* **Benefit:** You may spend one Tychē to reroll a Stealth Skill Check.
 
 ---
 
@@ -798,7 +798,7 @@ You know the land of your upbringing the way others know their own face. This Ta
 
 *Prerequisites: Charisma 3, Rank 1 Manipulation*
 
-* **Benefit:** You may spend one Fortune to gain Advantage on all Manipulation Skill Checks against a single character until either of you completes a Rest.
+* **Benefit:** You may spend one Tychē to gain Advantage on all Manipulation Skill Checks against a single character until either of you completes a Rest.
 * **Benefit:** +1 Charisma.
 * **Benefit:** Increase your Manipulation Skill one Rank.
 * **Desperate Action:** Gain +1 SL on one Manipulation or Performance Skill Check.
@@ -923,8 +923,8 @@ You know the land of your upbringing the way others know their own face. This Ta
 
 *Prerequisite: Willpower 4*
 
-* **Benefit:** Gain 1 Vitality.
-* **Benefit:** If your Willpower is 6 or greater, gain 1 additional Vitality.
+* **Benefit:** Gain 1 Sōma.
+* **Benefit:** If your Willpower is 6 or greater, gain 1 additional Sōma.
 
 ---
 
@@ -989,7 +989,7 @@ You know the land of your upbringing the way others know their own face. This Ta
 
 *Prerequisite: Rank 2 Manipulation (Charm)*
 
-* **Benefit:** As an Action, make a Challenging Manipulation (Charm) Check to benefit one ally in one of the following ways: remove the Frightened condition; remove 1 Fatigue; remove the Stunned condition. If the target is at 0 Vitality, they do not perish at the end of the round and instead survive for 1 + Levels of Success additional rounds.
+* **Benefit:** As an Action, make a Challenging Manipulation (Charm) Check to benefit one ally in one of the following ways: remove the Frightened condition; remove 1 Fatigue; remove the Stunned condition. If the target is at 0 Sōma, they do not perish at the end of the round and instead survive for 1 + Levels of Success additional rounds.
 
 ---
 
@@ -1011,8 +1011,8 @@ You are a priest in good standing with the being behind your altar, and it lends
 
 **Saints and Miracles** *(requires GM permission)*
 
-* **Benefit — Spending Fortune:** You may spend a Fortune point to channel your patron's loaned power as a minor miracle: touch a person to heal Vitality Damage equal to 1 + your Willpower; allow an ally within sight to ignore a condition until the end of the encounter; or subtract Levels of Success equal to your Willpower from a nearby spellcaster's casting Check.
-* **Benefit — Burning Fortune:** You may burn a Fortune point to perform one great and inexplicable act—restoring the apparently dead, holding back a collapsing structure, or calming a panicked crowd by presence alone. If you have no Fortune remaining, you may still perform one final act of this kind, at the cost of your life.
+* **Benefit — Spending Tychē:** You may spend a Tychē point to channel your patron's loaned power as a minor miracle: touch a person to heal Sōma Damage equal to 1 + your Willpower; allow an ally within sight to ignore a condition until the end of the encounter; or subtract Levels of Success equal to your Willpower from a nearby spellcaster's casting Check.
+* **Benefit — Burning Tychē:** You may burn a Tychē point to perform one great and inexplicable act—restoring the apparently dead, holding back a collapsing structure, or calming a panicked crowd by presence alone. If you have no Tychē remaining, you may still perform one final act of this kind, at the cost of your life.
 
 ---
 
@@ -1119,7 +1119,7 @@ You have a natural gift for one of the arts. This Talent may be taken multiple t
 
 *Prerequisite: Rank 4 Observation*
 
-* **Benefit:** If your Alacrity is less than 10, treat it as 10.
+* **Benefit:** If your Akmē is less than 10, treat it as 10.
 * **Benefit:** Surprise attacks against you do not gain Advantage.
 * **Benefit:** Increase your Observation Skill one Rank.
 
@@ -1160,7 +1160,7 @@ You have a particular aptitude for honest toil. This Talent may be taken multipl
 
 *Prerequisites: Rank 1 Medicae, Rank 1 Survival*
 
-* **Benefit:** You may spend one Fortune to use a raw herb as though it were properly brewed, applying its full prepared effect.
+* **Benefit:** You may spend one Tychē to use a raw herb as though it were properly brewed, applying its full prepared effect.
 * **Benefit:** Gain +1 SL on all Survival Checks to locate herbs and ingredients.
 * **Benefit:** You find twice the normal yield when foraging for medicinal plants.
 * **Benefit:** The Difficulty for brewing all potions and poisons you craft is reduced by 1 level.
@@ -1171,7 +1171,7 @@ You have a particular aptitude for honest toil. This Talent may be taken multipl
 
 *Prerequisite: Rank 1 Medicae (Pharmacia)*
 
-* **Benefit:** You may spend one Fortune to automatically succeed at a Resilience Check against a poison after seeing the initial result.
+* **Benefit:** You may spend one Tychē to automatically succeed at a Resilience Check against a poison after seeing the initial result.
 * **Benefit:** Gain +1 SL on all Resilience Checks against poison.
 * **Benefit:** Gain +1 SL on all Medicae Skill Checks to diagnose or identify poisons.
 * **Benefit:** The Difficulty to resist all poisons you create is increased by 1 level.
@@ -1224,7 +1224,7 @@ You have a particular aptitude for honest toil. This Talent may be taken multipl
 *Prerequisites: Reason 3, Rank 3 Medicae*
 
 * **Benefit:** Healing draughts you prepare restore one additional Minor Wound.
-* **Desperate Action:** Spend one Fortune to heal a recently slain character a Critical Wound, restoring them to life. They must have died within a number of minutes equal to your Reason.
+* **Desperate Action:** Spend one Tychē to heal a recently slain character a Critical Wound, restoring them to life. They must have died within a number of minutes equal to your Reason.
 
 ---
 

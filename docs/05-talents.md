@@ -1102,7 +1102,7 @@ You have a natural gift for one of the arts. This Talent may be taken multiple t
 
 ---
 
-### Acute Sense
+### Acute Sense (sight/smell/hearing/touch/taste)
 
 * **Benefit:** You may make Observation Checks to perceive details normally beyond mortal notice—spotting a lone rider at extreme distance, detecting a near-odorless poison in food or drink, hearing a hidden man's breath through a closed door, identifying cloth quality by touch, or knowing by taste that two batches of wine come from different vineyards.
 

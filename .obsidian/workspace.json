@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "docs/02.4 Roles.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -22,65 +22,47 @@
             }
           },
           {
-            "id": "105b487d5a9e3b46",
+            "id": "ed697e48c7613a22",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/06.6-Grimoire-of-Nyarlathotep.md",
+                "file": "docs/02-character-creation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06.6-Grimoire-of-Nyarlathotep"
-            }
-          },
-          {
-            "id": "d9c046ba22ddc776",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/06.7-Compendium-of-Mormo.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "06.7-Compendium-of-Mormo"
-            }
-          },
-          {
-            "id": "a74965b2c5b598e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/06.8-Tome-of-Cthulhu.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "06.8-Tome-of-Cthulhu"
+              "title": "02-character-creation"
             }
           }
         ]
       },
       {
-        "id": "befc2c9ae4801d19",
+        "id": "50e26113f3fdfce3",
         "type": "tabs",
         "children": [
           {
-            "id": "344a96056b22fa79",
+            "id": "b61184910a0c6eac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/06.9-ritualistic-magic.md",
+                "file": "docs/05-talents.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "06.9-ritualistic-magic"
+              "title": "05-talents"
             }
           }
         ]
@@ -218,13 +200,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/02.4 Roles.md",
+                "file": "docs/05-talents.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": "pro"
               },
               "icon": "lucide-list",
-              "title": "Outline of 02.4 Roles"
+              "title": "Outline of 05-talents"
             }
           }
         ],
@@ -245,13 +227,23 @@
       "bases:Create new base": false
     }
   },
-  "active": "dd56ccd546908784",
+  "active": "b61184910a0c6eac",
   "lastOpenFiles": [
-    "docs/06.9-ritualistic-magic.md",
     "docs/02.4 Roles.md",
+    "docs/05-talents.md",
     "docs/02.3 Backgrounds.md",
     "docs/02.2 Social Class.md",
     "docs/02-character-creation.md",
+    "docs/culture_talent_options_revised.md",
+    "docs/Setting/Aetas-Obscura-Player-Primer.md",
+    "Untitled.md",
+    "docs/Draft/setting adjustments.md",
+    "docs/Draft/cthulhu_magic_for_conan.md",
+    "docs/Draft/2d12-magic-chapter-draft.md",
+    "docs/Draft",
+    "Connections, Reputation, and Favors.md",
+    "docs/06.9-ritualistic-magic.md",
+    "docs/~$-talents.md",
     "docs/06-magic-rewrite.md",
     "docs/06-magic.md",
     "docs/Setting/2d12-magic-chapter-draft.md",
@@ -266,17 +258,8 @@
     "docs/06.7-Compendium-of-Mormo.md",
     "Pasted image 20260624191910.png",
     "docs/Setting/cthulhu_magic_for_conan.txt",
-    "docs/Setting/setting adjustments.md",
-    "docs/Setting/aetas_obscura_setting_bible.md",
-    "docs/00-document-map.md",
-    "docs/Setting/The-World-of-500AD.md",
     "docs/Setting/~$hulhu_magic_for_conan.txt",
     "docs/Setting/~WRD0000.tmp",
-    "docs/06.3-magical-traditions.md",
-    "docs/01-resolution-engine.md",
-    "docs/03-attributes.md",
-    "docs/05-talents.md",
-    "docs/Setting/yithian_archive.md",
     "branch-rulesets/PRs and commits.json",
     "branch-rulesets",
     "docs/Setting"

@@ -1261,8 +1261,8 @@ You hold considerable status in society, and while that comes with numerous bene
 *Requirements: Servant caste*
 
 As a reliable member of the Servant caste, you have been entrusted with your employer’s household financial matters, which you can use to your own advantage
-- Once per adventure, you may purchase an item with a Restriction rating of 3 or lower using your employer’s wealth or requisition points instead of your own wealth or your group’s requisition points
-- You either remove the item from your employer’s possession or purchase it on their behalf and “borrow” it for a short time
+* **Benefit:**  Once per adventure, you may purchase an item with a Restriction rating of 3 or lower using your employer’s wealth or requisition points instead of your own wealth or your group’s requisition points
+*  You either remove the item from your employer’s possession or purchase it on their behalf and “borrow” it for a short time
 - You must return the item to your employer’s control following the current adventure
 
 ---
@@ -1270,9 +1270,8 @@ As a reliable member of the Servant caste, you have been entrusted with your emp
 ### Born in the Saddle
 * **Benefit:** You are trained in mounted combat.
 * **Benefit:** If an attack targets your mount, you may redirect one such attack to yourself instead.
+* **Benefit:** Suffer no penalty when making attacks or tests from horseback, and gain advantage on tests to ride, control, or calm horses.
 
-* **Steppe Rider** – Suffer no penalty when making attacks or tests from horseback, and gain advantage on tests to ride, control, or calm horses.
-* **Numidian Rider** — When mounted, gain advantage on Fighting tests with javelins and on tests to remain in the saddle under duress.
 
 ---
 
@@ -1283,15 +1282,13 @@ If your mount moves more than 10 feet directly toward an enemy, you may attempt 
 
 ---
 
-* **Sea-Raider** — Gain advantage on Survival (Boating) tests and on Fighting tests during a boarding action or beach assault.
+### Sea-Raider
+* **Benefit:**  Gain advantage on Survival (Boating) tests and on Fighting tests during a boarding action or beach assault.
 
 ---
 
 ### SOCIAL NETWORK 
-*Keywords: Interlocutor, Observation*
-
-*Requirements: Interlocutor archetype*
 
 Once you have lived in any place for any length of time, you pick up a variety of hangers-on and informants
-- In any location where you have had [[18-downtime-and-campaign-loop|Downtime]], you have at least one useful contact on tap (see [[13-connections-reputation-favors]]); this contact has a relationship classification of fair
-- In addition, the first advantage you purchase for any skill test you make during downtime is free (see [[01-resolution-engine#Spending Tychē]]), providing the skill test does not involve combat of any kind.
+* **Benefit:**  In any location where you have had [[18-downtime-and-campaign-loop|Downtime]], you have at least one useful contact on tap (see [[13-connections-reputation-favors]]); this contact has a relationship classification of fair
+* **Benefit:**  In addition, the first advantage you purchase for any skill test you make during downtime is free (see [[01-resolution-engine#Spending Tychē]]), providing the skill test does not involve combat of any kind.

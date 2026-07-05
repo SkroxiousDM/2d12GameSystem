@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Setting/Celtic Pagan Gods and Magic.md",
+                "file": "docs/Setting/Saxon Gods and Magic.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Celtic Pagan Gods and Magic"
+              "title": "Saxon Gods and Magic"
             }
           }
         ],
@@ -205,8 +205,9 @@
   },
   "active": "a7482e9da91accbe",
   "lastOpenFiles": [
-    "docs/Setting/Christianity, the Saints, and Miracles.md",
     "docs/Setting/Celtic Pagan Gods and Magic.md",
+    "docs/Setting/Saxon Gods and Magic.md",
+    "docs/Setting/Christianity, the Saints, and Miracles.md",
     "docs/Setting/Aetas-Obscura-Player-Primer.md",
     "docs/05-talents.md",
     "Untitled.md",

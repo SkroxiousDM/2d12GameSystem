@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Setting/Aetas-Obscura-Player-Primer.md",
+                "file": "docs/Setting/Untitled.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Aetas-Obscura-Player-Primer"
+              "title": "Untitled"
             }
           }
         ],
@@ -205,6 +205,8 @@
   },
   "active": "a7482e9da91accbe",
   "lastOpenFiles": [
+    "docs/Setting/Aetas-Obscura-Player-Primer.md",
+    "docs/Setting/Untitled.md",
     "docs/05-talents.md",
     "Untitled.md",
     "docs/11-combat.md",

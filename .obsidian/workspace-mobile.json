@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Setting/Christianity, the Saints, and Miracles.md",
+                "file": "docs/Setting/the_church_of_the_one_god.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Christianity, the Saints, and Miracles"
+              "title": "the_church_of_the_one_god"
             }
           }
         ],
@@ -205,12 +205,12 @@
   },
   "active": "a7482e9da91accbe",
   "lastOpenFiles": [
+    "docs/Setting/Christianity, the Saints, and Miracles.md",
     "docs/Setting/the_church_of_the_one_god.md",
     "docs/Setting/Celtic Pagan Gods and Magic.md",
     "docs/Setting/Saxon Gods and Magic.md",
     "docs/05-talents.md",
     "docs/Setting/aetas_obscura_setting_bible.md",
-    "docs/Setting/Christianity, the Saints, and Miracles.md",
     "docs/Setting/Aetas-Obscura-Player-Primer.md",
     "Untitled.md",
     "docs/11-combat.md",

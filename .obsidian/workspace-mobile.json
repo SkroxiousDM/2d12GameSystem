@@ -147,7 +147,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "docs/Setting/2d12-magic-chapter-draft.md",
+            "file": "docs/Setting/the_church_of_the_one_god.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -203,7 +203,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "a7482e9da91accbe",
+  "active": "d67b08b8caa024b8",
   "lastOpenFiles": [
     "docs/Setting/Christianity, the Saints, and Miracles.md",
     "docs/Setting/the_church_of_the_one_god.md",

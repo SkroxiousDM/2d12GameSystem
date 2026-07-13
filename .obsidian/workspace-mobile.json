@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "the_church_of_the_one_god"
             }
+          },
+          {
+            "id": "2053a544d4e0e5bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -203,16 +227,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "d67b08b8caa024b8",
+  "active": "2053a544d4e0e5bb",
   "lastOpenFiles": [
-    "docs/Setting/Christianity, the Saints, and Miracles.md",
+    "2d12_character_sheet.pdf",
     "docs/Setting/the_church_of_the_one_god.md",
+    "Untitled.md",
+    "docs/Setting/Christianity, the Saints, and Miracles.md",
     "docs/Setting/Celtic Pagan Gods and Magic.md",
     "docs/Setting/Saxon Gods and Magic.md",
     "docs/05-talents.md",
     "docs/Setting/aetas_obscura_setting_bible.md",
     "docs/Setting/Aetas-Obscura-Player-Primer.md",
-    "Untitled.md",
     "docs/11-combat.md",
     "docs/02-character-creation.md",
     "Connections, Reputation, and Favors.md",

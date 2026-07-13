@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Character Sheet.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Character Sheet"
             }
           }
         ],
@@ -231,7 +231,7 @@
   "lastOpenFiles": [
     "2d12_character_sheet.pdf",
     "docs/Setting/the_church_of_the_one_god.md",
-    "Untitled.md",
+    "Character Sheet.md",
     "docs/Setting/Christianity, the Saints, and Miracles.md",
     "docs/Setting/Celtic Pagan Gods and Magic.md",
     "docs/Setting/Saxon Gods and Magic.md",

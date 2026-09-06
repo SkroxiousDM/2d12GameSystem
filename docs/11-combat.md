@@ -18,13 +18,13 @@ Combat is divided into rounds. Each round represents a brief exchange of blows, 
 
 On your turn, you gain a number of Actions equal to your Alacrity. Most tasks cost 1 Action, though some powerful abilities or spells cost more. Some actions also cost Stamina. Unless a rule states otherwise, Actions do not carry over between turns and refresh at the end of your turn.
 
-Some rules refer to **minor** or **major** actions as a shorthand for the cost of a task. A **minor action** costs 1 Action; a **major action** costs 2 Actions. Both come out of the same Alacrity pool. Casting a spell is always a major action, as are several manoeuvres in the Effects and Conditions chapter; movement, an Assess, a Brace, or a basic attack are minor actions.
+Some rules refer to **minor** or **major** actions as a shorthand for the cost of a task. A **minor action** costs 1 Action; a **major action** costs 2 Actions. Both come out of the same Alacrity pool. Casting a spell is always a major action, as are several maneuvers in the Effects and Conditions chapter; movement, an Assess, a Brace, or a basic attack are minor actions.
 
 Alacrity determines how many meaningful things you can do before the moment passes. A fast and disciplined fighter may attack, reposition, and defend an ally in the same turn. A slower character may manage only a single decisive act. This does not merely represent speed of limb, but awareness, decisiveness, and the ability to keep pace with a chaotic battlefield.
 
 ## Action Economy
 
-On your turn, you may spend Actions on attacks, movement, spellcasting, assessment, or other tasks permitted by your abilities and the fiction. Most Actions cost 1 Action. Some also require a Stamina cost, especially repeated exertions, Reactions, or attempts to do more than is prudent in a few seconds.
+On your turn, you may spend Actions on attacks, movement, spellcasting, assessment, or other tasks permitted by your abilities and the fiction. Most cost 1 Action. Some also require a Stamina cost, especially repeated exertions, Reactions, or attempts to do more than is prudent in a few seconds.
 
 Common ways to spend Actions include:
 

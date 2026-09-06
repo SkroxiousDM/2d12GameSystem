@@ -4,14 +4,11 @@
   - ***Yes*** - Will this take a long time, or involve multiple characters acting together?  
     ***Yes*** - Make an **Extended Test**  
     ***No*** - Is someone directly opposing you?
-
-    Yes - Make an **Opposed Test**  
-    No - Make a **Common Test**  
+	    ***Yes*** - Make an **Opposed Test**  
+	    ***No*** - Make a **Common Test**  
 - **No** - Do you have Ranks in an appropriate Skill or a useful Talent?
-
-  ***Yes*** - Don’t roll, you automatically succeed
-
-  ***No*** - Don’t roll, the GM decides the Outcome 
+	 ***Yes*** - Don’t roll, you automatically succeed
+	  ***No*** - Don’t roll, the GM decides the Outcome 
 
 ## Action Rolls
 
@@ -193,3 +190,8 @@ To represent this, you begin play with 3 Fate points. Fate allows you to survive
     - **The Gods Protect:** You completely avoid incoming Damage by some unlikely chance, such as a Sword deflecting off your holy amulet. You suffer no Damage or effects, but there is no guarantee you will survive later rounds.
     - **For the Glory of the Gods:** Rather than roll the result of a Test, you choose the number instead, allowing you to succeed in even the most dire of situations. You can even choose to do this on a Test already failed. In an Opposed Test, you always win by at least 1 SL. If you cause a Critical Hit, you can use this effect to choose the Hit Location struck rather than randomising it.
     - **Turn the Tide:** You and your allies immediately gain 1 Superiority. If your Superiority is 0, you instead gain 2 Superiority.
+
+probabilities:
+straight roll https://anydice.com/program/6
+advantage https://anydice.com/program/43921
+disadvantage https://anydice.com/program/10bbf

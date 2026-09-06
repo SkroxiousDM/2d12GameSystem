@@ -4,60 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "54a794246f37d7eb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "dd56ccd546908784",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/02.4 Roles.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "02.4 Roles"
-            }
-          },
-          {
-            "id": "ed697e48c7613a22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/02-character-creation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "02-character-creation"
-            }
-          }
-        ]
-      },
-      {
         "id": "50e26113f3fdfce3",
         "type": "tabs",
         "children": [
           {
-            "id": "b61184910a0c6eac",
+            "id": "a4e1bf000be81a23",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/06.6-Grimoire-of-Nyarlathotep.md",
+                "file": "docs/11-combat.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -72,19 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "06.6-Grimoire-of-Nyarlathotep"
+              "title": "11-combat"
             }
           },
           {
-            "id": "a4e1bf000be81a23",
+            "id": "2d1818a65e4860e1",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.13.7"
+                "file": "docs/01-resolution-engine.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.7"
+              "icon": "lucide-file",
+              "title": "01-resolution-engine"
             }
           }
         ],
@@ -225,6 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "docs/01-resolution-engine.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": "pro"
@@ -251,35 +220,36 @@
       "bases:Create new base": false
     }
   },
-  "active": "a4e1bf000be81a23",
+  "active": "2d1818a65e4860e1",
   "lastOpenFiles": [
-    "docs/06.5-Spellbook-of-Yog-Sothoth.md",
-    "docs/06.4-magical-traditions.md",
+    "docs/99_gap_analysis.md",
+    "docs/91-conditions-appendix.md",
+    "docs/92-derived-stats-reference.md",
+    "docs/18-downtime-and-campaign-loop.md",
+    "docs/15.4-wealth-and-trade.md",
+    "docs/15.3-adventuring-gear.md",
+    "docs/15.2-weapons.md",
+    "docs/15-equipment.md",
+    "docs/15.1-armour.md",
+    "docs/11-combat.md",
+    "docs/10-pursuit.md",
+    "docs/09-environment.md",
+    "docs/07-sanity.md",
     "docs/05-talents.md",
-    "docs/02.4 Roles.md",
-    "docs/02.3 Backgrounds.md",
-    "docs/02.2 Social Class.md",
-    "docs/02-character-creation.md",
     "docs/culture_talent_options_revised.md",
-    "docs/Setting/Aetas-Obscura-Player-Primer.md",
-    "Untitled.md",
-    "docs/Draft/setting adjustments.md",
-    "docs/Draft/cthulhu_magic_for_conan.md",
-    "docs/Draft/2d12-magic-chapter-draft.md",
-    "docs/Draft",
-    "Connections, Reputation, and Favors.md",
-    "docs/06.9-ritualistic-magic.md",
-    "docs/~$-talents.md",
     "docs/06-magic-rewrite.md",
-    "docs/06-magic.md",
-    "docs/Setting/2d12-magic-chapter-draft.md",
-    "docs/Setting/cthulhu_magic_for_conan.md",
-    "docs/06.8-Tome-of-Cthulhu.md",
-    "docs/06.1-runic-spellbook.md",
-    "docs/06.2-oracular-spellbook.md",
-    "docs/06.3-shamanic-spellbook.md",
-    "docs/06.6-Grimoire-of-Nyarlathotep.md",
-    "docs/06.7-Compendium-of-Mormo.md",
+    "docs/06.9-ritualistic-magic.md",
+    "docs/06.4-master-spell-list.md",
+    "docs/Draft/Christianity, the Saints, and Miracles.md",
+    "docs/Draft/Celtic Pagan Gods and Magic.md",
+    "docs/Setting/two_twilight_courts.md",
+    "docs/Draft/98-Adventure_Hooks.md",
+    "docs/Setting/mystery_cults.md",
+    "docs/Setting/the_church_of_the_one_god.md",
+    "docs/Draft/Saxon Gods and Magic.md",
+    "docs/2d12_character_sheet.pdf",
+    "docs/06.5-Spellbook-of-Yog-Sothoth.md",
+    "docs/Draft",
     "Pasted image 20260624191910.png",
     "docs/Setting/cthulhu_magic_for_conan.txt",
     "docs/Setting/~$hulhu_magic_for_conan.txt",

@@ -57,6 +57,8 @@ The GM chooses a difficulty based on circumstances and applies the modifier acco
 - **Failure with Complication** *(Failure)*: Total > CT and the Complication die is lower. The action fails with a minor consequence; the GM gains 1 Doom token.  
 - **Critical Failure or Fumble** *(Failure And...)*: Total > CT and both dice match. The action fails spectacularly with a major consequence; the character gains 1 Stress, the GM gains 1 Doom token, and an attack triggers a roll on the Fumble table.
 
+see [[93-action_roll_probability_matrix]] and [[94-adv_disadv_probability_tables]]
+
 The GM determines specific consequences based on the fiction.  
 #### Common Consequences and Rewards  
 
@@ -190,8 +192,3 @@ To represent this, you begin play with 3 Fate points. Fate allows you to survive
     - **The Gods Protect:** You completely avoid incoming Damage by some unlikely chance, such as a Sword deflecting off your holy amulet. You suffer no Damage or effects, but there is no guarantee you will survive later rounds.
     - **For the Glory of the Gods:** Rather than roll the result of a Test, you choose the number instead, allowing you to succeed in even the most dire of situations. You can even choose to do this on a Test already failed. In an Opposed Test, you always win by at least 1 SL. If you cause a Critical Hit, you can use this effect to choose the Hit Location struck rather than randomising it.
     - **Turn the Tide:** You and your allies immediately gain 1 Superiority. If your Superiority is 0, you instead gain 2 Superiority.
-
-probabilities:
-straight roll https://anydice.com/program/6
-advantage https://anydice.com/program/43921
-disadvantage https://anydice.com/program/10bbf

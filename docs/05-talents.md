@@ -1247,8 +1247,6 @@ You have dabbled with occult forces beyond your comprehension. You are now a spe
 
 ---
 ### Envy and Attention
-*Keywords: Noble*
-
 *Requirements: Noble caste*
 
 You hold considerable status in society, and while that comes with numerous benefits, it can cause challenges and complications to arise as well. You cannot move around unnoticed easily, and those who wish to see your downfall or to usurp your position conspire against you. Whenever you attempt a skill test to sway opinion or influence others using Charisma, the cost to buy the first advantage on that skill test is reduced to 0, but the GM begins each adventure with +2 additional Doom in their Doom pool to represent these potential problems. This talent cannot be retrained unless your character loses their position as a member of the Noble caste.
@@ -1256,8 +1254,6 @@ You hold considerable status in society, and while that comes with numerous bene
 ---
 
 ### PURSE STRINGS
-*Keywords: Servant*
-
 *Requirements: Servant caste*
 
 As a reliable member of the Servant caste, you have been entrusted with your employer’s household financial matters, which you can use to your own advantage

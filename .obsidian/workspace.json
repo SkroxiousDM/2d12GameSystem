@@ -15,7 +15,17 @@
               "state": {
                 "file": "docs/02.4 Roles.md",
                 "mode": "preview",
-                "source": true
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "02.4 Roles"
@@ -47,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/05-talents.md",
+                "file": "docs/06.6-Grimoire-of-Nyarlathotep.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -62,10 +72,23 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "05-talents"
+              "title": "06.6-Grimoire-of-Nyarlathotep"
+            }
+          },
+          {
+            "id": "a4e1bf000be81a23",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.7"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +108,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -200,13 +225,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/05-talents.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": "pro"
               },
               "icon": "lucide-list",
-              "title": "Outline of 05-talents"
+              "title": "Outline"
             }
           }
         ],
@@ -227,10 +251,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "b61184910a0c6eac",
+  "active": "a4e1bf000be81a23",
   "lastOpenFiles": [
-    "docs/02.4 Roles.md",
+    "docs/06.5-Spellbook-of-Yog-Sothoth.md",
+    "docs/06.4-magical-traditions.md",
     "docs/05-talents.md",
+    "docs/02.4 Roles.md",
     "docs/02.3 Backgrounds.md",
     "docs/02.2 Social Class.md",
     "docs/02-character-creation.md",
@@ -252,8 +278,6 @@
     "docs/06.1-runic-spellbook.md",
     "docs/06.2-oracular-spellbook.md",
     "docs/06.3-shamanic-spellbook.md",
-    "docs/06.4-magical-traditions.md",
-    "docs/06.5-Spellbook-of-Yog-Sothoth.md",
     "docs/06.6-Grimoire-of-Nyarlathotep.md",
     "docs/06.7-Compendium-of-Mormo.md",
     "Pasted image 20260624191910.png",

@@ -2,7 +2,7 @@
 
 Magic is power drawn through mortal will, sacred relationship, inherited rite, forbidden research, or desperate improvisation. However a practitioner reaches it, the basic truth is the same: magic is real, dangerous, and never entirely under control.
 
-This chapter presents magic in the order most players need it at the table: what kind of practitioner a character is, how spells are prepared and cast, what risks attend the use of magic, how traditions shape magical practice, and how new workings are learned. The underlying resolution engine, attributes, and derived ratings used by magic remain unchanged.
+This chapter presents magic in the order most players need it at the table: what kind of practitioner a character is, how spells are prepared and cast, what risks attend the use of magic, how traditions shape magical practice, and how new workings are learned.
 
 Magic is divided into two broad disciplines. **Evocation** is fast magic used in the moment: curses, blessings, attacks, wards, signs, and other workings that can be brought to bear in a scene. **Thaumaturgy** is ritual magic: slower, more exacting, and capable of effects far beyond the reach of ordinary spellcasting.
 

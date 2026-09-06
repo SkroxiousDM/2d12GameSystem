@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Setting/Aetas-Obscura-Player-Primer.md",
+                "file": "docs/Setting/the_church_of_the_one_god.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Aetas-Obscura-Player-Primer"
+              "title": "the_church_of_the_one_god"
+            }
+          },
+          {
+            "id": "2053a544d4e0e5bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Character Sheet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Character Sheet"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -147,7 +171,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "docs/Setting/2d12-magic-chapter-draft.md",
+            "file": "docs/Setting/the_church_of_the_one_god.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -203,10 +227,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "a7482e9da91accbe",
+  "active": "2053a544d4e0e5bb",
   "lastOpenFiles": [
+    "2d12_character_sheet.pdf",
+    "Character Sheet.md",
+    "docs/Setting/the_church_of_the_one_god.md",
+    "docs/Setting/Christianity, the Saints, and Miracles.md",
+    "docs/Setting/Celtic Pagan Gods and Magic.md",
+    "docs/Setting/Saxon Gods and Magic.md",
     "docs/05-talents.md",
-    "Untitled.md",
+    "docs/Setting/aetas_obscura_setting_bible.md",
+    "docs/Setting/Aetas-Obscura-Player-Primer.md",
     "docs/11-combat.md",
     "docs/02-character-creation.md",
     "Connections, Reputation, and Favors.md",
@@ -220,7 +251,6 @@
     "docs/06.3-shamanic-spellbook.md",
     "docs/Setting/esoteric_order_of_dagon.md",
     "docs/Setting/mystery_cults.md",
-    "docs/Setting/aetas_obscura_setting_bible.md",
     "docs/Setting/brotherhood_of_the_black_pharaoh.md",
     "docs/Setting/setting adjustments.md",
     "docs/06.5-magical-traditions.md",

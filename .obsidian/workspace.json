@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/01-resolution-engine.md",
+                "file": "docs/11-combat.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01-resolution-engine"
+              "title": "11-combat"
+            }
+          },
+          {
+            "id": "e4d8e3e3d5d875b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/03-attributes.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "03-attributes"
             }
           }
         ],
@@ -193,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/01-resolution-engine.md",
+                "file": "docs/11-combat.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": "pro"
@@ -222,9 +246,12 @@
   },
   "active": "2d1818a65e4860e1",
   "lastOpenFiles": [
+    "docs/03-attributes.md",
+    "docs/11-combat.md",
+    "docs/30-2d12_character_sheet.pdf",
+    "docs/01-resolution-engine.md",
     "docs/94-adv_disadv_probability_tables.md",
     "docs/93-action_roll_probability_matrix.md",
-    "docs/01-resolution-engine.md",
     "docs/99_gap_analysis.md",
     "docs/91-conditions-appendix.md",
     "docs/92-derived-stats-reference.md",
@@ -234,7 +261,6 @@
     "docs/15.2-weapons.md",
     "docs/15-equipment.md",
     "docs/15.1-armour.md",
-    "docs/11-combat.md",
     "docs/10-pursuit.md",
     "docs/09-environment.md",
     "docs/07-sanity.md",
@@ -247,8 +273,6 @@
     "docs/Draft/Celtic Pagan Gods and Magic.md",
     "docs/Setting/two_twilight_courts.md",
     "docs/Draft/98-Adventure_Hooks.md",
-    "docs/Setting/mystery_cults.md",
-    "docs/2d12_character_sheet.pdf",
     "docs/Draft",
     "Pasted image 20260624191910.png",
     "docs/Setting/cthulhu_magic_for_conan.txt",

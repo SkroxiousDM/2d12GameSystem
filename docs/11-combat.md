@@ -14,13 +14,13 @@ The GM should also determine which enemies are acting together, whether a leader
 
 ## Rounds, Turns, and Exchanges
 
-Combat is divided into rounds. Each round represents a brief exchange of blows, movement, shouted orders, spellcasting, hesitation, and sudden violence. At the start of combat, each character determines Initiative by rolling 1d12 and adding Alacrity. Characters act each round from highest Initiative to lowest.
+Combat is divided into rounds. Each round represents a brief exchange of blows, movement, shouted orders, spellcasting, hesitation, and sudden violence. At the start of combat, each character determines Initiative by rolling 1d12 and adding Akmē. Characters act each round from highest Initiative to lowest.
 
-On your turn, you gain a number of Actions equal to your Alacrity. Most tasks cost 1 Action, though some powerful abilities or spells cost more. Some actions also cost Stamina. Unless a rule states otherwise, Actions do not carry over between turns and refresh at the end of your turn.
+On your turn, you gain a number of Actions equal to your Akmē. Most tasks cost 1 Action, though some powerful abilities or spells cost more. Some actions also cost Stamina. Unless a rule states otherwise, Actions do not carry over between turns and refresh at the end of your turn.
 
-Some rules refer to **minor** or **major** actions as a shorthand for the cost of a task. A **minor action** costs 1 Action; a **major action** costs 2 Actions. Both come out of the same Alacrity pool. Casting a spell is always a major action, as are several maneuvers in the Effects and Conditions chapter; movement, an Assess, a Brace, or a basic attack are minor actions.
+Some rules refer to **minor** or **major** actions as a shorthand for the cost of a task. A **minor action** costs 1 Action; a **major action** costs 2 Actions. Both come out of the same Akmē pool. Casting a spell is always a major action, as are several maneuvers in the Effects and Conditions chapter; movement, an Assess, a Brace, or a basic attack are minor actions.
 
-Alacrity determines how many meaningful things you can do before the moment passes. A fast and disciplined fighter may attack, reposition, and defend an ally in the same turn. A slower character may manage only a single decisive act. This does not merely represent speed of limb, but awareness, decisiveness, and the ability to keep pace with a chaotic battlefield.
+Akmē determines how many meaningful things you can do before the moment passes. A fast and disciplined fighter may attack, reposition, and defend an ally in the same turn. A slower character may manage only a single decisive act. This does not merely represent speed of limb, but awareness, decisiveness, and the ability to keep pace with a chaotic battlefield.
 
 ## Action Economy
 
@@ -199,7 +199,7 @@ The GM selects the most appropriate Skill and Challenge Threshold. Observation m
 
 ## Casting Spells
 
-To cast a spell, you must be able to satisfy the spell's practical requirements. At minimum, you must have at least one hand holding a spellcasting focus, be able to speak clearly, make the relevant spellcasting Skill roll, and pay the spell's Cost as mental Stress to your Resolve track. Spellcasting is a **major action** and so costs 2 Actions from your Alacrity pool.
+To cast a spell, you must be able to satisfy the spell's practical requirements. At minimum, you must have at least one hand holding a spellcasting focus, be able to speak clearly, make the relevant spellcasting Skill roll, and pay the spell's Cost as mental Stress to your Resolve track. Spellcasting is a **major action** and so costs 2 Actions from your Akmē pool.
 
 Combat places pressure on spellcasters. Being cornered, silenced, Staggered, or forced to choose between movement and concentration can be as dangerous as a drawn blade. The GM should enforce the fiction of spellcasting honestly; a wizard trapped in mud with a broken jaw should not cast as freely as one standing behind a disciplined shield line.
 
@@ -246,7 +246,7 @@ Use Reflexes when the rider’s skill is about staying seated, reacting to sudde
 > ### MIG
 >Use MIG for the lance’s damage bonus on a successful mounted charge. This follows the normal melee damage procedure. 
 >
-> ### Alacrity
+> ### Akmē
 >Mounted movement does not change the normal turn structure. If the rider is acting under pressure, the usual Action economy still applies.
 
 ---

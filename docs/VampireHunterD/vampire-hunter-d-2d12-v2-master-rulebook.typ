@@ -345,7 +345,7 @@ This master rulebook collects every current document for running *Vampire Hunter
   [II], [Core Rules], [The 2d12 roll, character creation, Tychē Points, Effects, Resistance and recovery, clocks, Truths, Momentum and Woe, the conflict system, playbooks, advancement],
   [III], [Optional Modules], [Module A Cyphers & Artifacts · Module B The Grind & Travel · Module C Truth-Driven Sandbox],
   [IV], [Generic Descriptors], [Descriptor rules and 24 setting-neutral Descriptors, six per pool],
-  [V], [Generic Playbooks], [Playbook and equipment rules; Bruiser, Operator, Sage, Face, Wayfarer, Adept],
+  [V], [Generic Playbooks], [Playbook and equipment rules; Bellator, Furcifer, Savant, Interlocutor, Explorator, Adept],
   [VI], [Generic Focuses], [Focus rules and 24 setting-neutral Focuses],
   [VII], [Frontier Rules], [The Vampire Hunter D setting: Campaign Truths, skills, day and night, the Nobility, the Kiss, Noble blood, banes, Noble science, bounties, conflicts, travel, Woe spends],
   [VIII], [Frontier Descriptors], [20 Descriptors with Frontier hooks],
@@ -358,20 +358,30 @@ When a rule here mentions another chapter, it uses that chapter's name and secti
 #colbreak()
 == Terminology and Renamed Stats
 
-The source documents used the working names on the left. This book uses the house names on the right everywhere: in rules text, tables, abilities and gear.
+The source documents used the working names on the left. This book uses the house names on the right everywhere: in rules text, tables, abilities, gear and playbook names.
 
 #figure(table(columns: (24%, 22%, 54%),
   table.header([Working name], [House name], [What it is]),
   [Threat], [*Woe*], [The GM's pool: complications, escalation, Noble night powers],
   [Momentum], [*Momentum*], [The party's shared pool of surplus Power (unchanged)],
   [Fate / Fate Points], [*Tychē* / *Tychē Points*], [Each PC's narrative currency: invoke tags, accept compels; set by Refresh],
-  [Vitality], [*Soma*], [Pool: strength, endurance, toughness. Resists wounds, poison, exhaustion, cold],
-  [Alacrity], [*Acmē*], [Pool: speed, precision, stealth, reflexes. Resists traps, falls, being caught],
+  [Vitality], [*Sōma*], [Pool: strength, endurance, toughness. Resists wounds, poison, exhaustion, cold],
+  [Alacrity], [*Akmē*], [Pool: speed, precision, stealth, reflexes. Resists traps, falls, being caught],
   [Mind], [*Psychē*], [Pool: intellect, perception, memory, cunning. Resists confusion, illusion, deception],
   [Spirit], [*Pneuma*], [Pool: will, presence, faith, the supernatural. Resists fear, despair, possession, corruption],
 ))
 
-- *Pool shorthand.* Playbook stat blocks list base pools as *Som / Acm / Psy / Pne* (Soma / Acmē / Psychē / Pneuma).
+#figure(table(columns: (24%, 22%, 54%),
+  table.header([Working name], [House name], [Generic core playbook]),
+  [Bruiser], [*Bellator*], [Front-line muscle; anchor Fight or Brawl],
+  [Operator], [*Furcifer*], [Infiltrator, scout, thief; anchor Stealth],
+  [Sage], [*Savant*], [Scholar, detective, scientist; anchor Lore or Investigate],
+  [Face], [*Interlocutor*], [Diplomat, con artist, leader; anchor Persuade],
+  [Wayfarer], [*Explorator*], [Ranger, pilot, explorer; anchor Survival],
+  [Adept], [*Adept*], [Mage, psychic, hacker; anchor Arcana or Tech (unchanged)],
+))
+
+- *Pool shorthand.* Playbook stat blocks list base pools as *Sōm / Akm / Psy / Pne* (Sōma / Akmē / Psychē / Pneuma).
 - *Scars* take the name of the pool that ran dry: a *Pneuma Scar*, a *Psychē Scar*.
 - *Names left as they are.* In-world names that use the everyday words keep them, because they describe the fiction rather than a stat: the *Spirit Duel* conflict type, the abilities *Spirit Sight*, *Shared Spirit*, *Steady Mind* and *Archive Mind*, and the Focus *Sends the Mind Abroad*. Credits to the source games (Fate, Fate Core, 2d20) also keep their original names.
 
@@ -403,7 +413,7 @@ The source documents used the working names on the left. This book uses the hous
     align: (auto,auto,auto,auto,),
     table.header([Resource], [Owner], [Job], [Borrowed from],),
     table.hline(),
-    [#strong[Pools] (Vitality / Alacrity / Psychē / Pneuma)], [Each PC], [Physical, mental and spiritual cost --- Effort and Resistance], [Cypher + Blades stress],
+    [#strong[Pools] (Sōma / Akmē / Psychē / Pneuma)], [Each PC], [Physical, mental and spiritual cost --- Effort and Resistance], [Cypher + Blades stress],
     [#strong[Tychē Points];], [Each PC], [Narrative authority --- invoke tags, accept compels], [Fate],
     [#strong[Momentum];], [The party (shared)], [Tactical surplus from strong rolls], [2d20],
     [#strong[Woe];], [The GM], [Mirror of Momentum --- complications and escalation], [2d20],
@@ -528,7 +538,7 @@ Base chance of doubles on 2d12 is about 8% (1 in 12).
 #quote(block: true)[
 #strong[\"I am a \[Descriptor\] \[Playbook\] who \[Focus\].\"]
 
-\"I am a #strong[Reckless] #strong[Operator] who #strong[Never Leaves Anyone Behind];.\"
+\"I am a #strong[Reckless] #strong[Furcifer] who #strong[Never Leaves Anyone Behind];.\"
 ]
 
 #figure(
@@ -556,8 +566,8 @@ Four pools, each roughly 6--14:
     align: (auto,auto,auto,),
     table.header([Pool], [Covers], [Resists],),
     table.hline(),
-    [#strong[Vitality];], [Strength, endurance, toughness], [Wounds, poison, exhaustion, cold],
-    [#strong[Alacrity];], [Speed, precision, stealth, reflexes], [Traps, falls, being caught or grabbed],
+    [#strong[Sōma];], [Strength, endurance, toughness], [Wounds, poison, exhaustion, cold],
+    [#strong[Akmē];], [Speed, precision, stealth, reflexes], [Traps, falls, being caught or grabbed],
     [#strong[Psychē];], [Intellect, perception, memory, cunning], [Confusion, illusion, deception, madness from knowledge],
     [#strong[Pneuma];], [Will, presence, faith, emotional core, the supernatural], [Fear, despair, possession, corruption, social pressure],
   )]
@@ -590,7 +600,7 @@ The playbook\'s anchor skill must sit at +3 or +4. The pyramid rule (each tier m
   [#table(
     columns: (23%, 24%, 28%, 25%),
     align: (auto,auto,auto,auto,),
-    table.header([Vitality], [Alacrity], [Psychē], [Pneuma],),
+    table.header([Sōma], [Akmē], [Psychē], [Pneuma],),
     table.hline(),
     [Athletics], [Shoot], [Notice], [Will],
     [Brawl], [Stealth], [Investigate], [Persuade],
@@ -604,7 +614,7 @@ The playbook\'s anchor skill must sit at +3 or +4. The pyramid rule (each tier m
 
 \*Arcana is renamed per setting: Mysticism, Faith, Psionics, Weirdness, or removed entirely in mundane games.
 
-The default pool pays for Effort and Resistance. The GM can allow another pool when the fiction supports it (Intimidate with Vitality = looming; with Pneuma = cold menace).
+The default pool pays for Effort and Resistance. The GM can allow another pool when the fiction supports it (Intimidate with Sōma = looming; with Pneuma = cold menace).
 
 === 3.4 Tags
 Characters carry 6--8 #strong[character tags] from Descriptor, Focus, and Playbook:
@@ -688,7 +698,7 @@ Any unspent Power → #strong[Momentum];.
   #columns(2, gutter: 6mm)[
 When a consequence lands on you (a status, lost gear, a bad position), you may #strong[Resist];:
 
-+ Choose the pool that fits (see §3.2: Vitality for harm, Alacrity to dodge, Psychē against deception and confusion, Pneuma against fear and the supernatural).
++ Choose the pool that fits (see §3.2: Sōma for harm, Akmē to dodge, Psychē against deception and confusion, Pneuma against fear and the supernatural).
 + Roll #strong[2d12] and look at the #strong[highest die];.
 + Pay the cost in pool points, #strong[minus that pool\'s Edge];:
 
@@ -719,8 +729,8 @@ When a consequence lands on you (a status, lost gear, a bad position), you may #
     align: (auto,auto,),
     table.header([Pool], [Example Scars],),
     table.hline(),
-    [Vitality], [#emph[bad lungs];, #emph[old wound];, #emph[shaking hands];],
-    [Alacrity], [#emph[flinches];, #emph[hesitant];, #emph[jumpy];],
+    [Sōma], [#emph[bad lungs];, #emph[old wound];, #emph[shaking hands];],
+    [Akmē], [#emph[flinches];, #emph[hesitant];, #emph[jumpy];],
     [Psychē], [#emph[paranoid];, #emph[obsessed];, #emph[fractured memory];],
     [Pneuma], [#emph[haunted];, #emph[hollow];, #emph[marked by the Other];],
   )]
@@ -748,7 +758,7 @@ There\'s no separate \"short rest\" / \"full rest\" split. Instead, resting esca
   , kind: table
   )
 #colbreak()
-- Roll the listed die and #strong[divide the result among Vitality, Alacrity, Psychē, and Pneuma however you like] --- it doesn\'t have to go to whichever pool was drained most recently.
+- Roll the listed die and #strong[divide the result among Sōma, Akmē, Psychē, and Pneuma however you like] --- it doesn\'t have to go to whichever pool was drained most recently.
 
 - #strong[Edge does not affect this roll.] Edge only reduces Effort and Resistance cost (§2.4, §6); recovery stays flat so it can\'t stack with Edge\'s other benefits.
 - After the 4th rest, the cycle resets --- your next rest that day (or the start of a new day) is a 1d6 again.
@@ -973,10 +983,10 @@ Settings rename and reskin playbooks (Adept becomes \"Hedge Witch\" in fantasy, 
   [#table(
     columns: (21%, 18%, 16%, 35%, 20%),
     align: (auto,auto,auto,auto,auto,),
-    table.header([Playbook], [Anchor], [Base pools (Som / Acm / Psy / Pne)], [XP trigger], [Concept],),
+    table.header([Playbook], [Anchor], [Base pools (Sōm / Akm / Psy / Pne)], [XP trigger], [Concept],),
     table.hline(),
     [#strong[Bellator];], [Fight or Brawl], [12/10/6/8], [Address a challenge with force or threats], [Front-line muscle],
-    [#strong[Explorator];], [Stealth], [8/12/8/8], [Address a challenge with stealth or precision], [Infiltrator, scout, thief],
+    [#strong[Furcifer];], [Stealth], [8/12/8/8], [Address a challenge with stealth or precision], [Infiltrator, scout, thief],
     [#strong[Savant];], [Lore or Investigate], [7/8/13/8], [Address a challenge with knowledge or insight], [Scholar, detective, scientist],
     [#strong[Interlocutor];], [Persuade], [7/9/9/11], [Address a challenge with charm, lies, or bargaining], [Diplomat, con artist, leader],
     [#strong[Explorator];], [Survival], [11/11/7/7], [Address a challenge with endurance or the land], [Ranger, pilot, explorer],
@@ -1014,13 +1024,13 @@ Settings rename and reskin playbooks (Adept becomes \"Hedge Witch\" in fantasy, 
 #pagebreak()
 == 13. Example of Play
 #columns(2, gutter: 6mm)[
-#strong[Kade];, a #emph[Reckless Operator who Never Leaves Anyone Behind] (Alacrity Edge 1, Effort Level 2), is creeping through a warehouse to free a captured friend. Scene Truths: #emph[Dim Lighting];, #emph[Patrolling Guards];.
+#strong[Kade];, a #emph[Reckless Furcifer who Never Leaves Anyone Behind] (Akmē Edge 1, Effort Level 2), is creeping through a warehouse to free a captured friend. Scene Truths: #emph[Dim Lighting];, #emph[Patrolling Guards];.
 
 - #strong[Roll:] Stealth +3, power tag #emph[quiet boots] +1, power tag #emph[knows this district] +1 (tags capped at +2). The GM sets Hard 18 but #emph[Dim Lighting] lowers it to Standard 15. Kade needs 10+ on the dice.
-- #strong[Effort, part 1:] Kade spends 3 − 1 Edge = 2 Alacrity for a bonus die → 3d12 keep 2.
+- #strong[Effort, part 1:] Kade spends 3 − 1 Edge = 2 Akmē for a bonus die → 3d12 keep 2.
 - #strong[Result:] dice show 9, 9, 4 → keep 9 + 9 = 18, +5 = 23. That\'s 8 over → #strong[3 Power];, plus #strong[doubles on a success → +1 = 4 Power];.
 #colbreak()
-- #strong[Effort, part 2:] Kade spends another 2 Alacrity for #strong[+1 Power → 5 Power];.
+- #strong[Effort, part 2:] Kade spends another 2 Akmē for #strong[+1 Power → 5 Power];.
 - #strong[Spend:] Advance the #emph[Reach the Cell] clock by 3 (3 Power), Discover (1 Power): \"Where is the key?\" --- \"On the sergeant\'s belt.\" 1 Power left → #strong[+1 Momentum];.
 - #strong[Later:] the sergeant\'s dread patron, a bound spirit, lashes out with #emph[terror-3];. Kade Resists with #strong[Pneuma] (Edge 0): highest die 7 → cost 2 Pneuma. The status drops to #emph[terror-1];.
 - #strong[Compel:] the GM compels #emph[Reckless];: \"You can\'t wait for backup; you go in now.\" Kade accepts and gains +1 Tychē Point.
@@ -1072,7 +1082,7 @@ Cyphers are frequent, disposable power-ups that encourage players to use them ra
     [2], [Smoke charge], [2], [Create (#emph[smoke cover];)],
     [3], [Flashbang / thunderstone], [3], [Attack (dazed), Weaken],
     [4], [Truth serum / mind-read charm], [2], [Discover ×2],
-    [5], [Adrenal shot], [3], [Enhance (surging), restore 3 Vitality],
+    [5], [Adrenal shot], [3], [Enhance (surging), restore 3 Sōma],
     [6], [Lockbreaker], [3], [Advance (any lock or security clock)],
     [7], [Ward token], [3], [Negate one incoming status of tier 3 or less],
     [8], [Phase key], [4], [Create Truth (#emph[passage through the wall];) for one scene],
@@ -1142,7 +1152,7 @@ The Grind turns time, distance, and hardship into slow, steady pressure. It pair
     table.hline(),
     [1], [#strong[Hungry & Thirsty];], [Short rests restore nothing], [A meal, a Survival roll (Restore)],
     [2], [#strong[Weary];], [Effort costs +1], [A full night\'s rest],
-    [3], [#strong[Exposed] (cold, heat, wet)], [−1 Vitality Edge], [Shelter and a recovery roll],
+    [3], [#strong[Exposed] (cold, heat, wet)], [−1 Sōma Edge], [Shelter and a recovery roll],
     [4], [#strong[Shaken];], [−1 Pneuma Edge; Fear statuses +1 tier], [A Will or Empathy recovery roll, or a Belief moment],
     [5], [#strong[Sick];], [−1 to all rolls; can\'t recover pools], [Medicine roll (Hard) + rest],
     [6], [#strong[Broken];], [Taken Out of the mission; gain a Scar], [Players\' Turn only],
@@ -1299,30 +1309,30 @@ Every Descriptor works in any genre. Choose one from this chapter or, in a Vampi
     align: (auto,auto,auto,auto,auto,),
     table.header([\#], [Descriptor], [Pool], [Power tag], [Weakness tag],),
     table.hline(),
-    [1], [Burly], [Vitality], [#emph[built like a door];], [#emph[too big to hide];],
+    [1], [Burly], [Sōma], [#emph[built like a door];], [#emph[too big to hide];],
     [2], [Charismatic], [Pneuma], [#emph[the room turns to me];], [#emph[needs to be liked];],
     [3], [Compassionate], [Pneuma], [#emph[a kind word opens doors];], [#emph[can\'t turn away suffering];],
     [4], [Cunning], [Psychē], [#emph[three moves ahead];], [#emph[trusts no one\'s plan but mine];],
     [5], [Curious], [Psychē], [#emph[has to know why];], [#emph[pokes at what\'s best left alone];],
-    [6], [Furtive], [Alacrity], [#emph[keeps to the edges];], [#emph[uneasy in the open];],
-    [7], [Hardy], [Vitality], [#emph[shrugs off the cold];], [#emph[ignores my own injuries];],
+    [6], [Furtive], [Akmē], [#emph[keeps to the edges];], [#emph[uneasy in the open];],
+    [7], [Hardy], [Sōma], [#emph[shrugs off the cold];], [#emph[ignores my own injuries];],
     [8], [Haunted], [Pneuma], [#emph[has seen the dark];], [#emph[the past won\'t stay buried];],
-    [9], [Light-Fingered], [Alacrity], [#emph[quick hands];], [#emph[can\'t resist a pocket];],
+    [9], [Light-Fingered], [Akmē], [#emph[quick hands];], [#emph[can\'t resist a pocket];],
     [10], [Loyal], [Pneuma], [#emph[stands by my own];], [#emph[blind to my friends\' faults];],
     [11], [Methodical], [Psychē], [#emph[measures twice];], [#emph[slow under pressure];],
-    [12], [Nimble], [Alacrity], [#emph[light on my feet];], [#emph[too quick to trust my footing];],
+    [12], [Nimble], [Akmē], [#emph[light on my feet];], [#emph[too quick to trust my footing];],
     [13], [Observant], [Psychē], [#emph[misses nothing];], [#emph[distracted by detail];],
-    [14], [Reckless], [Vitality], [#emph[charges in first];], [#emph[never looks before leaping];],
-    [15], [Relentless], [Vitality], [#emph[never stops coming];], [#emph[doesn\'t know when to quit];],
+    [14], [Reckless], [Sōma], [#emph[charges in first];], [#emph[never looks before leaping];],
+    [15], [Relentless], [Sōma], [#emph[never stops coming];], [#emph[doesn\'t know when to quit];],
     [16], [Resolute], [Pneuma], [#emph[iron will];], [#emph[rigid when plans change];],
-    [17], [Restless], [Alacrity], [#emph[can\'t sit still];], [#emph[poor at waiting];],
+    [17], [Restless], [Akmē], [#emph[can\'t sit still];], [#emph[poor at waiting];],
     [18], [Scholarly], [Psychē], [#emph[well read];], [#emph[lives in books, not boots];],
     [19], [Serene], [Pneuma], [#emph[calm in the storm];], [#emph[slow to anger, slower to act];],
-    [20], [Sly], [Alacrity], [#emph[always an angle];], [#emph[nobody takes my word];],
-    [21], [Steady], [Alacrity], [#emph[hands like stone];], [#emph[slow to start];],
-    [22], [Stubborn], [Vitality], [#emph[will not be moved];], [#emph[can\'t admit I\'m wrong];],
+    [20], [Sly], [Akmē], [#emph[always an angle];], [#emph[nobody takes my word];],
+    [21], [Steady], [Akmē], [#emph[hands like stone];], [#emph[slow to start];],
+    [22], [Stubborn], [Sōma], [#emph[will not be moved];], [#emph[can\'t admit I\'m wrong];],
     [23], [Suspicious], [Psychē], [#emph[notices what\'s off];], [#emph[sees enemies everywhere];],
-    [24], [Weathered], [Vitality], [#emph[seen worse than this];], [#emph[old wounds ache];],
+    [24], [Weathered], [Sōma], [#emph[seen worse than this];], [#emph[old wounds ache];],
   )]
   , kind: table
   )
@@ -1333,7 +1343,7 @@ Every Descriptor works in any genre. Choose one from this chapter or, in a Vampi
 You fill doorways. People step aside before you ask.
 ]
 
-- #strong[Pool:] +2 Vitality
+- #strong[Pool:] +2 Sōma
 - #strong[Power tag:] #emph[built like a door]
 - #strong[Weakness tag:] #emph[too big to hide]
 - #strong[Suggested Instinct:] \"If something is heavy, I pick it up myself.\"
@@ -1388,7 +1398,7 @@ A locked door is a question. You\'ve never been good at leaving questions alone.
 You keep to walls and corners. Being noticed has never gone well for you.
 ]
 
-- #strong[Pool:] +2 Alacrity
+- #strong[Pool:] +2 Akmē
 - #strong[Power tag:] #emph[keeps to the edges]
 - #strong[Weakness tag:] #emph[uneasy in the open]
 - #strong[Suggested Instinct:] \"If I enter a room, I check the shadows first.\"
@@ -1399,7 +1409,7 @@ You keep to walls and corners. Being noticed has never gone well for you.
 Cold, hunger and pain are old companions. You\'ve learned to walk on with them.
 ]
 
-- #strong[Pool:] +2 Vitality
+- #strong[Pool:] +2 Sōma
 - #strong[Power tag:] #emph[shrugs off the cold]
 - #strong[Weakness tag:] #emph[ignores my own injuries]
 - #strong[Suggested Instinct:] \"If I\'m hurt, I keep going until the job is done.\"
@@ -1421,7 +1431,7 @@ Something from your past follows you. Some nights you can almost hear it.
 Things find their way into your hands. You rarely remember deciding to take them.
 ]
 
-- #strong[Pool:] +2 Alacrity
+- #strong[Pool:] +2 Akmē
 - #strong[Power tag:] #emph[quick hands]
 - #strong[Weakness tag:] #emph[can\'t resist a pocket]
 - #strong[Suggested Instinct:] \"If something valuable is left unattended, I take it.\"
@@ -1454,7 +1464,7 @@ Haste makes mistakes. You check everything twice and trust your notes.
 You move like water, over walls and through gaps others never see.
 ]
 
-- #strong[Pool:] +2 Alacrity
+- #strong[Pool:] +2 Akmē
 - #strong[Power tag:] #emph[light on my feet]
 - #strong[Weakness tag:] #emph[too quick to trust my footing]
 - #strong[Suggested Instinct:] \"If the ground gives way, I move before I think.\"
@@ -1476,7 +1486,7 @@ You notice the scuffed boot, the nervous glance, the window left open.
 Thinking is for later. Right now, something needs doing.
 ]
 
-- #strong[Pool:] +2 Vitality
+- #strong[Pool:] +2 Sōma
 - #strong[Power tag:] #emph[charges in first]
 - #strong[Weakness tag:] #emph[never looks before leaping]
 - #strong[Suggested Instinct:] \"If there\'s danger ahead, I go at it head-on.\"
@@ -1487,7 +1497,7 @@ Thinking is for later. Right now, something needs doing.
 You don\'t stop. Not when you\'re tired, not when you\'re hurt, not when it\'s hopeless.
 ]
 
-- #strong[Pool:] +2 Vitality
+- #strong[Pool:] +2 Sōma
 - #strong[Power tag:] #emph[never stops coming]
 - #strong[Weakness tag:] #emph[doesn\'t know when to quit]
 - #strong[Suggested Instinct:] \"If I start a chase, I finish it.\"
@@ -1509,7 +1519,7 @@ Your word is iron. Once you decide, the world bends or breaks against you.
 Stillness itches. You need to move, act, see what is over the next hill.
 ]
 
-- #strong[Pool:] +2 Alacrity
+- #strong[Pool:] +2 Akmē
 - #strong[Power tag:] #emph[can\'t sit still]
 - #strong[Weakness tag:] #emph[poor at waiting]
 - #strong[Suggested Instinct:] \"If things go quiet, I go looking for trouble.\"
@@ -1542,7 +1552,7 @@ Storms rage around you. Inside, you are still water.
 There is always another way in, another word to say, another deal to make.
 ]
 
-- #strong[Pool:] +2 Alacrity
+- #strong[Pool:] +2 Akmē
 - #strong[Power tag:] #emph[always an angle]
 - #strong[Weakness tag:] #emph[nobody takes my word]
 - #strong[Suggested Instinct:] \"If there\'s a shortcut, I find it.\"
@@ -1553,7 +1563,7 @@ There is always another way in, another word to say, another deal to make.
 Your hands don\'t shake. When everyone else panics, you are the one who aims.
 ]
 
-- #strong[Pool:] +2 Alacrity
+- #strong[Pool:] +2 Akmē
 - #strong[Power tag:] #emph[hands like stone]
 - #strong[Weakness tag:] #emph[slow to start]
 - #strong[Suggested Instinct:] \"If the moment is tense, I breathe and take my time.\"
@@ -1564,7 +1574,7 @@ Your hands don\'t shake. When everyone else panics, you are the one who aims.
 You\'ve been told no all your life. You\'ve ignored it all your life.
 ]
 
-- #strong[Pool:] +2 Vitality
+- #strong[Pool:] +2 Sōma
 - #strong[Power tag:] #emph[will not be moved]
 - #strong[Weakness tag:] #emph[can\'t admit I\'m wrong]
 - #strong[Suggested Instinct:] \"If someone tells me to stop, I dig in.\"
@@ -1586,7 +1596,7 @@ Everyone wants something. You just haven\'t worked out what yet.
 Wind, sun and years have worn you down to something hard and lasting.
 ]
 
-- #strong[Pool:] +2 Vitality
+- #strong[Pool:] +2 Sōma
 - #strong[Power tag:] #emph[seen worse than this]
 - #strong[Weakness tag:] #emph[old wounds ache]
 - #strong[Suggested Instinct:] \"If conditions turn harsh, I take the worst of it first.\"
@@ -1597,7 +1607,7 @@ Wind, sun and years have worn you down to something hard and lasting.
 // =====================================================================
 //  CHAPTER — GENERIC PLAYBOOKS
 // =====================================================================
-#chapter("Generic Playbooks", [The six genre-neutral playbooks: Bruiser, Operator, Sage, Face, Wayfarer and Adept. Each has eight special abilities, a capstone and starting equipment for three genres. The Frontier playbooks in Chapter IX reskin these six.], epigraph: [The noun of the character sentence.])
+#chapter("Generic Playbooks", [The six genre-neutral playbooks: Bellator, Furcifer, Savant, Interlocutor, Explorator and Adept. Each has eight special abilities, a capstone and starting equipment for three genres. The Frontier playbooks in Chapter IX reskin these six.], epigraph: [The noun of the character sentence.])
 
 #colbreak(weak: true)
 == 1. Playbook Rules
@@ -1608,7 +1618,7 @@ Wind, sun and years have worn you down to something hard and lasting.
     align: (auto,auto,),
     table.header([Element], [Detail],),
     table.hline(),
-    [#strong[Base pools];], [Vitality / Alacrity / Psychē / Pneuma, totalling 36. Add 4 points of your choice and +2 from your Descriptor],
+    [#strong[Base pools];], [Sōma / Akmē / Psychē / Pneuma, totalling 36. Add 4 points of your choice and +2 from your Descriptor],
     [#strong[Edge];], [3 points: the fixed Edge listed, plus 1 point from the listed choices],
     [#strong[Anchor skill];], [Must be rated +3 or +4 in your pyramid],
     [#strong[Suggested skills];], [A recommended pyramid; change it freely],
@@ -1658,7 +1668,7 @@ Before a mission, choose your #strong[load];. During play, declare items from yo
     table.hline(),
     [#strong[Light];], [3], [You blend in; nothing obvious marks you as armed or burdened],
     [#strong[Normal];], [5], [You look ready for trouble],
-    [#strong[Heavy];], [7], [You\'re #emph[encumbered];: Alacrity Effort costs +1 and Stealth Difficulty is one step higher],
+    [#strong[Heavy];], [7], [You\'re #emph[encumbered];: Akmē Effort costs +1 and Stealth Difficulty is one step higher],
   )]
   , kind: table
   )
@@ -1680,7 +1690,7 @@ Before a mission, choose your #strong[load];. During play, declare items from yo
     table.header([Item], [Load], [Effect],),
     table.hline(),
     [#strong[Light armour];], [1], [#emph[Armour 1];: when you Resist physical harm, reduce it by 1 extra tier],
-    [#strong[Heavy armour];], [2], [#emph[Armour 2];: reduce by 2 extra tiers; Alacrity Effort +1 while worn],
+    [#strong[Heavy armour];], [2], [#emph[Armour 2];: reduce by 2 extra tiers; Akmē Effort +1 while worn],
     [#strong[Shield / riot shield / energy barrier];], [1], [#emph[+1 Defend] in Fight conflicts; counts as cover outside conflicts],
   )]
   , kind: table
@@ -1705,7 +1715,7 @@ Armour that absorbs a tier-4+ hit is #emph[damaged] (−1 Armour) until repaired
   )
 
 #pagebreak(weak: true)
-== 3. Bruiser
+== 3. Bellator
 #quote(block: true)[
 Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers, bouncers, gladiators, mercenaries, security officers.
 ]
@@ -1714,8 +1724,8 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
   [#table(
     columns: (26%, 74%),
     align: (auto,auto,),
-    [#strong[Base pools (Vit / Alc / Psy / Pne)];], [12 / 10 / 6 / 8],
-    [#strong[Edge];], [Vitality 2, plus 1 in Alacrity or Pneuma],
+    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [12 / 10 / 6 / 8],
+    [#strong[Edge];], [Sōma 2, plus 1 in Akmē or Pneuma],
     [#strong[Anchor skill];], [Fight or Brawl],
     [#strong[Suggested skills];], [+4 Fight · +3 Athletics, Endure · +2 Brawl, Intimidate, Shoot · +1 Notice, Will, Survival, Medicine],
     [#strong[XP trigger];], [Address a challenge with force or threats],
@@ -1732,13 +1742,13 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Juggernaut];], [When you Resist physical harm with Vitality, reduce the status by #strong[3 tiers] instead of 2.],
+    [1], [#strong[Juggernaut];], [When you Resist physical harm with Sōma, reduce the status by #strong[3 tiers] instead of 2.],
     [2], [#strong[Brutal];], [Once per roll, when you spend Power on Attack with Fight or Brawl, the status gains #strong[+1 tier for free];.],
     [3], [#strong[Bodyguard];], [When an ally within reach would suffer a consequence, you may take it instead. If you Resist it, your Edge counts as 1 higher for that roll.],
     [4], [#strong[Cleave];], [When you attack a group or minions, you get #strong[one free Extra Feat] per roll (hit a second target, break their line, and so on).],
-    [5], [#strong[Menacing];], [You may use #strong[Vitality] for Intimidate Effort and Resistance. When you succeed on Intimidate against minions, spend 1 Momentum to make them flee, surrender, or freeze.],
+    [5], [#strong[Menacing];], [You may use #strong[Sōma] for Intimidate Effort and Resistance. When you succeed on Intimidate against minions, spend 1 Momentum to make them flee, surrender, or freeze.],
     [6], [#strong[Pain Tolerance];], [Ignore the roll penalty from harmful physical statuses of tier 1--2. At tier 3+, the penalty is reduced by 1.],
-    [7], [#strong[★ Berserker];], [Once per scene, enter a fury: you get #strong[+1 bonus die] (free) on Fight, Brawl, and Athletics rolls for the rest of the scene. You can\'t script Defend or retreat. At scene end, lose 2 Vitality or take #emph[Weary];.],
+    [7], [#strong[★ Berserker];], [Once per scene, enter a fury: you get #strong[+1 bonus die] (free) on Fight, Brawl, and Athletics rolls for the rest of the scene. You can\'t script Defend or retreat. At scene end, lose 2 Sōma or take #emph[Weary];.],
     [8], [#strong[★ Unstoppable];], [Once per scene, when a status would reach tier 6 on you or a pool would hit 0, keep acting until the end of the scene. Then you\'re Taken Out as normal.],
     [◆], [#strong[Legend of the Field];], [Your reputation is a #strong[Campaign Truth] (#emph[\"Everyone knows \[name\]\"];). In Fight conflicts, enemy Disposition starts #strong[−2];, and the GM pays +1 Woe for reinforcements while you stand.],
   )]
@@ -1774,7 +1784,7 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
     [1], [Throwing axes ×3 --- #emph[+1 Attack] (range)], [Collapsible baton --- #emph[+1 Attack];], [Concussion grenades ×2 --- #emph[+1 Maneuver];],
     [1], [Manacles & chain], [Zip-cuffs & pepper spray], [Mag-cuffs & stun prod],
     [1], [Whetstone & armourer\'s kit], [Gun-cleaning kit & spare mags], [Field repair kit],
-    [1], [Flask of strong drink], [Energy drinks & painkillers], [Stim-shot (restore 2 Vitality, once)],
+    [1], [Flask of strong drink], [Energy drinks & painkillers], [Stim-shot (restore 2 Sōma, once)],
   )]
   , kind: table
   )
@@ -1789,7 +1799,7 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
 #strong[Relationships:] Ally --- an old comrade-in-arms, a trainer, a medic who\'s patched you up too often. Rival --- the one who beat you once, a former commander, a rival enforcer.
 
 #pagebreak(weak: true)
-== 4. Operator
+== 4. Furcifer
 #quote(block: true)[
 Quiet, precise, and always three exits ahead. Thieves, spies, scouts, assassins, infiltrators, saboteurs.
 ]
@@ -1798,8 +1808,8 @@ Quiet, precise, and always three exits ahead. Thieves, spies, scouts, assassins,
   [#table(
     columns: (25%, 75%),
     align: (auto,auto,),
-    [#strong[Base pools (Vit / Alc / Psy / Pne)];], [8 / 12 / 8 / 8],
-    [#strong[Edge];], [Alacrity 2, plus 1 in Psychē or Vitality],
+    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [8 / 12 / 8 / 8],
+    [#strong[Edge];], [Akmē 2, plus 1 in Psychē or Sōma],
     [#strong[Anchor skill];], [Stealth],
     [#strong[Suggested skills];], [+4 Stealth · +3 Notice, Craft · +2 Athletics, Deceive, Shoot · +1 Fight, Tech, Investigate, Drive/Pilot],
     [#strong[XP trigger];], [Address a challenge with stealth or precision],
@@ -1821,7 +1831,7 @@ Quiet, precise, and always three exits ahead. Thieves, spies, scouts, assassins,
     [3], [#strong[Light Fingers];], [When you succeed on a theft, plant, or sabotage roll (Stealth or Craft), gain a #strong[free Extra Feat];.],
     [4], [#strong[Infiltrator];], [Once per roll, ignore one Truth that would raise the Difficulty of sneaking, climbing, or bypassing security.],
     [5], [#strong[Quick Reflexes];], [You always act first when violence breaks out. In conflicts, changing one of your scripted actions costs #strong[1 Momentum] instead of 2.],
-    [6], [#strong[Escape Artist];], [When you Resist capture, restraint, falls, or traps with Alacrity, the cost is #strong[0 on a highest die of 5+];.],
+    [6], [#strong[Escape Artist];], [When you Resist capture, restraint, falls, or traps with Akmē, the cost is #strong[0 on a highest die of 5+];.],
     [7], [#strong[★ Flashback];], [Once per mission, declare a flashback to something you prepared earlier. Pay Momentum by plausibility: 0 (obvious), 1 (reasonable), 2 (a stretch), 3 (wild). Then roll as normal; on a success, it happened.],
     [8], [#strong[★ Deadly Precision];], [Against an unaware or #emph[Impeded] target, Attack effects cost #strong[half Power (round up)];: 2 Power buys a tier-3 or tier-4 status.],
     [◆], [#strong[Nobody Sees Me Coming];], [Once per session, declare you\'re already somewhere you could plausibly have reached. Your first roll there gets #strong[+2 bonus dice for free];, and the GM can\'t spend Woe to reveal you during that roll.],
@@ -1873,7 +1883,7 @@ Quiet, precise, and always three exits ahead. Thieves, spies, scouts, assassins,
 #strong[Relationships:] Ally --- a fence, a forger, a former mentor. Rival --- an inspector who\'s close to catching you, a rival thief, the partner who betrayed you.
 
 #pagebreak(weak: true)
-== 5. Sage
+== 5. Savant
 #quote(block: true)[
 Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, physicians, archivists, engineers.
 ]
@@ -1882,8 +1892,8 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
   [#table(
     columns: (26%, 74%),
     align: (auto,auto,),
-    [#strong[Base pools (Vit / Alc / Psy / Pne)];], [7 / 8 / 13 / 8],
-    [#strong[Edge];], [Psychē 2, plus 1 in Pneuma or Alacrity],
+    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [7 / 8 / 13 / 8],
+    [#strong[Edge];], [Psychē 2, plus 1 in Pneuma or Akmē],
     [#strong[Anchor skill];], [Lore or Investigate],
     [#strong[Suggested skills];], [+4 Lore · +3 Investigate, Medicine · +2 Notice, Tech, Empathy · +1 Persuade, Will, Craft, Arcana],
     [#strong[XP trigger];], [Address a challenge with knowledge or insight],
@@ -1957,7 +1967,7 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
 #strong[Relationships:] Ally --- a former teacher, a librarian, a patient who owes you their life. Rival --- an academic rival, an ex-colleague who stole your work, a cultist who wants your research.
 
 #pagebreak(weak: true)
-== 6. Face
+== 6. Interlocutor
 #quote(block: true)[
 Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators, preachers, captains.
 ]
@@ -1966,8 +1976,8 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
   [#table(
     columns: (25%, 75%),
     align: (auto,auto,),
-    [#strong[Base pools (Vit / Alc / Psy / Pne)];], [7 / 9 / 9 / 11],
-    [#strong[Edge];], [Pneuma 2, plus 1 in Psychē or Alacrity],
+    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [7 / 9 / 9 / 11],
+    [#strong[Edge];], [Pneuma 2, plus 1 in Psychē or Akmē],
     [#strong[Anchor skill];], [Persuade],
     [#strong[Suggested skills];], [+4 Persuade · +3 Empathy, Deceive · +2 Will, Notice, Intimidate · +1 Lore, Fight, Stealth, Investigate],
     [#strong[XP trigger];], [Address a challenge with charm, lies, or bargaining],
@@ -2041,7 +2051,7 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
 #strong[Relationships:] Ally --- a well-placed patron, a loyal servant, a reporter. Rival --- a political opponent, a jilted lover, someone you conned who wants payback.
 
 #pagebreak(weak: true)
-== 7. Wayfarer
+== 7. Explorator
 #quote(block: true)[
 At home where the map ends. Rangers, hunters, pilots, guides, explorers, scouts, voyageurs.
 ]
@@ -2050,8 +2060,8 @@ At home where the map ends. Rangers, hunters, pilots, guides, explorers, scouts,
   [#table(
     columns: (25%, 75%),
     align: (auto,auto,),
-    [#strong[Base pools (Vit / Alc / Psy / Pne)];], [11 / 11 / 7 / 7],
-    [#strong[Edge];], [Vitality 1, Alacrity 1, plus 1 in any pool],
+    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [11 / 11 / 7 / 7],
+    [#strong[Edge];], [Sōma 1, Akmē 1, plus 1 in any pool],
     [#strong[Anchor skill];], [Survival],
     [#strong[Suggested skills];], [+4 Survival · +3 Notice, Shoot · +2 Athletics, Endure, Drive/Pilot · +1 Stealth, Medicine, Lore, Fight],
     [#strong[XP trigger];], [Address a challenge with endurance, travel, or knowledge of the land],
@@ -2134,7 +2144,7 @@ Power from beyond the ordinary: magic, psionics, faith, or impossible technology
   [#table(
     columns: (24%, 76%),
     align: (auto,auto,),
-    [#strong[Base pools (Vit / Alc / Psy / Pne)];], [7 / 8 / 9 / 12],
+    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [7 / 8 / 9 / 12],
     [#strong[Edge];], [Pneuma 2 (Arcana Adepts) or Psychē 2 (Tech Adepts), plus 1 in any other pool],
     [#strong[Anchor skill];], [Arcana (magic, faith, psionics) or Tech (hacking, gadgets)],
     [#strong[Suggested skills];], [+4 Arcana · +3 Lore, Will · +2 Notice, Medicine, Persuade · +1 Investigate, Empathy, Deceive, Tech],
@@ -2241,11 +2251,11 @@ Every Adept has a #strong[Domain];: a broad power tag describing what they can d
     align: (auto,auto,auto,auto,auto,),
     table.header([Playbook], [Main pool], [Conflict role], [Exploration role], [Social role],),
     table.hline(),
-    [Bruiser], [Vitality], [Attack / Defend], [Endurance, forcing obstacles], [Intimidation],
-    [Operator], [Alacrity], [Feint / Maneuver], [Infiltration, security], [Deception],
-    [Sage], [Psychē], [Maneuver (Discover, analysis)], [Investigation, healing], [Expertise],
-    [Face], [Pneuma], [Argument and Negotiation lead], [Contacts, disguise], [Persuasion],
-    [Wayfarer], [Vitality/Alacrity], [Ranged Attack, ambush], [Travel, Grind, tracking], [Local knowledge],
+    [Bellator], [Sōma], [Attack / Defend], [Endurance, forcing obstacles], [Intimidation],
+    [Furcifer], [Akmē], [Feint / Maneuver], [Infiltration, security], [Deception],
+    [Savant], [Psychē], [Maneuver (Discover, analysis)], [Investigation, healing], [Expertise],
+    [Interlocutor], [Pneuma], [Argument and Negotiation lead], [Contacts, disguise], [Persuasion],
+    [Explorator], [Sōma/Akmē], [Ranged Attack, ambush], [Travel, Grind, tracking], [Local knowledge],
     [Adept], [Pneuma/Psychē], [Flexible (Domain)], [Supernatural or tech access], [Varies by Domain],
   )]
   , kind: table
@@ -2255,7 +2265,7 @@ Every Adept has a #strong[Domain];: a broad power tag describing what they can d
 - #strong[Discount stacking:] abilities that reduce Power costs (Silver Tongue, Analyze, Field Medic, Deadly Precision, Jury-Rig) are strong when stacked with Effort for Power. Cap at one cost reduction per Effect.
 - #strong[Free bonus dice] (Berserker, Animal Companion, Second Wind, Nobody Sees Me Coming) still count toward the +2 bonus die maximum.
 - #strong[Adept workings] are the most open-ended. If they overshadow other playbooks, increase the base working cost to 2 pool points, or let Focused Channel apply only to minor and significant workings.
-- #strong[Vehicle signature items] (Wayfarer, modern and sci-fi) are 0 load because they don\'t come on foot missions. Treat them as a story tag when they\'re not present.
+- #strong[Vehicle signature items] (Explorator, modern and sci-fi) are 0 load because they don\'t come on foot missions. Treat them as a story tag when they\'re not present.
 - #strong[★ count:] each playbook has two Major abilities and every capstone is free. Characters who take both ★ abilities will be at Refresh 1--2, as intended.
 
 // =====================================================================
@@ -2302,28 +2312,28 @@ Focuses marked #strong[◈ Weird] assume the supernatural, impossible technology
     align: (auto,auto,auto,auto,auto,),
     table.header([\#], [Focus], [Category], [Suits], [#diamond(size: 6pt, fill: paper)],),
     table.hline(),
-    [1], [Never Leaves Anyone Behind], [Combat], [Bruiser, Wayfarer, Operator], [],
-    [2], [Leads From the Front], [Combat], [Face, Bruiser, Wayfarer], [],
-    [3], [Masters a Weapon], [Combat], [Bruiser, Operator, Wayfarer], [],
-    [4], [Fights Dirty], [Combat], [Bruiser, Operator], [],
-    [5], [Moves Like a Shadow], [Stealth & Precision], [Operator, Wayfarer], [],
-    [6], [Never Misses], [Stealth & Precision], [Wayfarer, Operator, Bruiser], [],
-    [7], [Opens Every Lock], [Stealth & Precision], [Operator, Sage, Adept], [],
-    [8], [Always Has an Escape Plan], [Stealth & Precision], [Operator, Face], [],
-    [9], [Builds Impossible Things], [Knowledge], [Sage, Adept, Wayfarer], [],
-    [10], [Heals the Broken], [Knowledge], [Sage, Adept, Face], [],
-    [11], [Solves the Unsolvable], [Knowledge], [Sage, Face, Operator], [],
-    [12], [Remembers What Was Forgotten], [Knowledge], [Sage, Adept, Wayfarer], [],
-    [13], [Talks Their Way Out of Anything], [Social], [Face, Operator], [],
-    [14], [Wears a Hundred Masks], [Social], [Face, Operator], [],
-    [15], [Knows Everyone Worth Knowing], [Social], [Face, Sage], [],
-    [16], [Carries the Weight of a Crown], [Social], [Face, Bruiser], [],
-    [17], [Runs With the Pack], [Wilderness & Travel], [Wayfarer, Bruiser], [],
-    [18], [Charts the Unknown], [Wilderness & Travel], [Wayfarer, Sage], [],
-    [19], [Lives Off the Land], [Wilderness & Travel], [Wayfarer, Bruiser], [],
-    [20], [Was Born Behind the Wheel], [Wilderness & Travel], [Wayfarer, Operator], [],
-    [21], [Hunts the Things in the Dark], [Weird], [Sage, Adept, Bruiser], [◈],
-    [22], [Walks Between Worlds], [Weird], [Adept, Sage], [◈],
+    [1], [Never Leaves Anyone Behind], [Combat], [Bellator, Explorator, Furcifer], [],
+    [2], [Leads From the Front], [Combat], [Interlocutor, Bellator, Explorator], [],
+    [3], [Masters a Weapon], [Combat], [Bellator, Furcifer, Explorator], [],
+    [4], [Fights Dirty], [Combat], [Bellator, Furcifer], [],
+    [5], [Moves Like a Shadow], [Stealth & Precision], [Furcifer, Explorator], [],
+    [6], [Never Misses], [Stealth & Precision], [Explorator, Furcifer, Bellator], [],
+    [7], [Opens Every Lock], [Stealth & Precision], [Furcifer, Savant, Adept], [],
+    [8], [Always Has an Escape Plan], [Stealth & Precision], [Furcifer, Interlocutor], [],
+    [9], [Builds Impossible Things], [Knowledge], [Savant, Adept, Explorator], [],
+    [10], [Heals the Broken], [Knowledge], [Savant, Adept, Interlocutor], [],
+    [11], [Solves the Unsolvable], [Knowledge], [Savant, Interlocutor, Furcifer], [],
+    [12], [Remembers What Was Forgotten], [Knowledge], [Savant, Adept, Explorator], [],
+    [13], [Talks Their Way Out of Anything], [Social], [Interlocutor, Furcifer], [],
+    [14], [Wears a Hundred Masks], [Social], [Interlocutor, Furcifer], [],
+    [15], [Knows Everyone Worth Knowing], [Social], [Interlocutor, Savant], [],
+    [16], [Carries the Weight of a Crown], [Social], [Interlocutor, Bellator], [],
+    [17], [Runs With the Pack], [Wilderness & Travel], [Explorator, Bellator], [],
+    [18], [Charts the Unknown], [Wilderness & Travel], [Explorator, Savant], [],
+    [19], [Lives Off the Land], [Wilderness & Travel], [Explorator, Bellator], [],
+    [20], [Was Born Behind the Wheel], [Wilderness & Travel], [Explorator, Furcifer], [],
+    [21], [Hunts the Things in the Dark], [Weird], [Savant, Adept, Bellator], [◈],
+    [22], [Walks Between Worlds], [Weird], [Adept, Savant], [◈],
     [23], [Made a Bargain With Something Old], [Weird], [Any], [◈],
     [24], [Is More Than Human], [Weird], [Any], [◈],
   )]
@@ -2906,7 +2916,7 @@ Mutant, cyborg, half-fae, or carrier of a strange bloodline.
     [1], [#strong[Gift];], [Choose a trait (claws, enhanced senses, night vision, gills, wings, cyber-arm). Its tag may add #strong[+1 above the normal +2 cap (maximum +3)] on related rolls. Gain +2 to one pool.],
     [2a], [#strong[Second Trait];], [Choose another trait. It also may add #strong[+1 above the normal cap (maximum +3)];.],
     [2b], [#strong[Regeneration];], [A short rest clears #strong[one tier-1 physical status];. A full rest clears 2 tiers from every physical status.],
-    [3a], [#strong[Apex Form];], [Once per scene, unleash your nature: a #strong[free bonus die] on Vitality and Alacrity skills for the scene. At scene end, take #emph[Weary];.],
+    [3a], [#strong[Apex Form];], [Once per scene, unleash your nature: a #strong[free bonus die] on Sōma and Akmē skills for the scene. At scene end, take #emph[Weary];.],
     [3b], [#strong[★ Beyond Limits];], [Gain #strong[+1 Edge] in two pools (max 3 each).],
   )]
   , kind: table
@@ -2920,18 +2930,18 @@ Mutant, cyborg, half-fae, or carrier of a strange bloodline.
     align: (auto,auto,),
     table.header([Playbook], [Strong fits],),
     table.hline(),
-    [Bruiser], [1, 2, 3, 4, 6, 16, 17, 19, 21],
-    [Operator], [1, 3, 4, 5, 6, 7, 8, 11, 13, 14, 20],
-    [Sage], [7, 9, 10, 11, 12, 15, 18, 21, 22],
-    [Face], [2, 8, 10, 11, 13, 14, 15, 16],
-    [Wayfarer], [1, 2, 3, 5, 6, 9, 12, 17, 18, 19, 20],
+    [Bellator], [1, 2, 3, 4, 6, 16, 17, 19, 21],
+    [Furcifer], [1, 3, 4, 5, 6, 7, 8, 11, 13, 14, 20],
+    [Savant], [7, 9, 10, 11, 12, 15, 18, 21, 22],
+    [Interlocutor], [2, 8, 10, 11, 13, 14, 15, 16],
+    [Explorator], [1, 2, 3, 5, 6, 9, 12, 17, 18, 19, 20],
     [Adept], [7, 9, 10, 12, 21, 22, 23],
     [Any], [23, 24],
   )]
   , kind: table
   )
 
-Off-type combinations are encouraged: a #emph[Face who Masters a Weapon] is a duellist-diplomat; an #emph[Adept who Was Born Behind the Wheel] is a witch with a haunted truck.
+Off-type combinations are encouraged: an #emph[Interlocutor who Masters a Weapon] is a duellist-diplomat; an #emph[Adept who Was Born Behind the Wheel] is a witch with a haunted truck.
 
 === 9.2 Things to Watch in Playtest
 - #strong[Tag-cap exceptions] (Masters a Weapon, Is More Than Human): #strong[resolved (v0.3)] --- both abilities now add #strong[+1 above the normal +2 cap (maximum +3 from tags)] instead of ignoring the cap outright. Re-test rolls at Formidable/Heroic Difficulty after this change to confirm it still feels earned rather than trivial.
@@ -3004,7 +3014,7 @@ The 20 generic skills are renamed or kept as follows. Default pools are unchange
   [#table(
     columns: (25.74%, 23.76%, 27.72%, 22.77%),
     align: (auto,auto,auto,auto,),
-    table.header([Vitality], [Alacrity], [Psychē], [Pneuma],),
+    table.header([Sōma], [Akmē], [Psychē], [Pneuma],),
     table.hline(),
     [Athletics], [Shoot], [Notice], [Will],
     [Brawl], [Stealth], [Investigate], [Persuade],
@@ -3120,10 +3130,10 @@ These rules apply to anyone with Noble blood: dhampirs (#emph[Carries the Blood 
 Under the #strong[Day] Truth, in direct sunlight with no shade, a character with Noble blood gains #strong[#emph[Sun-Sick];];:
 
 - #strong[+1 tier] at the start of each scene outdoors in the sun (stacking normally), or #strong[+2] in a desert or other place with harsh sun (Truth #emph[Merciless Sun];).
-- Sun-Sick is a harmful status: it applies its tier as a penalty to physical rolls (Vitality and Alacrity skills).
-- Resist with #strong[Vitality] as normal. A wide hat, a dark cloak, or partial shade counts as #strong[+1 Vitality Edge] for that Resist.
+- Sun-Sick is a harmful status: it applies its tier as a penalty to physical rolls (Sōma and Akmē skills).
+- Resist with #strong[Sōma] as normal. A wide hat, a dark cloak, or partial shade counts as #strong[+1 Sōma Edge] for that Resist.
 - #strong[Recovery:] a full scene in shade or darkness lowers Sun-Sick by 2 tiers. At night it clears completely.
-- #strong[Tier 6:] collapse. Taken Out until carried into shade, and gain a Vitality Scar if left for a whole day.
+- #strong[Tier 6:] collapse. Taken Out until carried into shade, and gain a Sōma Scar if left for a whole day.
 
 === 7.2 The Thirst
 Characters with Noble blood have a #strong[Thirst] status, tier 0--6. It doesn\'t penalise rolls until tier 3.
@@ -3215,7 +3225,7 @@ Weapons and gear use the equipment rules in #emph[Generic Playbooks] §2 (load, 
     [1], [Crossbow and wooden bolts], [#emph[+1 Attack] (range), #emph[bolts are stakes] (bane at range, Hard 18)],
     [1], [Revolver or rifle], [#emph[+1 Attack] (range)],
     [2], [Laser rifle (rare, Capital-made)], [#emph[+1 Attack] (range), #emph[burns through armour];; depletion 1 in d12 (power cell)],
-    [1], [Long cloak and wide hat], [+1 Vitality Edge when Resisting Sun-Sick; #emph[+1 Feint] in the dark],
+    [1], [Long cloak and wide hat], [+1 Sōma Edge when Resisting Sun-Sick; #emph[+1 Feint] in the dark],
     [1], [Flares and sun-lamps], [Create #emph[False Dawn] for one exchange (2 Power). Lesser Nobles can\'t attack while it lasts],
     [0], [Cyborg horse (vehicle)], [#emph[tireless];, #emph[fast as the wind];; not on foot missions. Treat as a story tag when absent],
     [0], [Normal horse or mule (vehicle)], [#emph[sure-footed];; ticks the Grind clock 1 less per leg],
@@ -3234,7 +3244,7 @@ Noble machines and relics use #strong[Module A --- Cyphers & Artifacts];.
     table.header([d12], [Cypher], [Tier], [Effect],),
     table.hline(),
     [1], [Sun capsule], [4], [Attack (#emph[burning];) against one Noble, counts as a bane],
-    [2], [Blood ampoule], [3], [Restore 3 Vitality; a dhampir also loses 2 Thirst],
+    [2], [Blood ampoule], [3], [Restore 3 Sōma; a dhampir also loses 2 Thirst],
     [3], [Mist grenade], [3], [Create #emph[Thick Mist] for a scene],
     [4], [Gravity disc], [4], [Create #emph[Weightless] in a small area, or carry a heavy load as light],
     [5], [Psychē-seal patch], [3], [Restore (fear or hypnotism); +1 to Resist the Call],
@@ -3448,17 +3458,17 @@ Each entry also has a #strong[Frontier hook];: one question to answer at charact
     [7], [Cunning], [Psychē], [#emph[always a second plan];], [#emph[too clever by half];],
     [8], [Devout], [Pneuma], [#emph[faith the dark can feel];], [#emph[won\'t break my vows];],
     [9], [Doomed], [Pneuma], [#emph[nothing left to lose];], [#emph[death rides beside me];],
-    [10], [Feral], [Alacrity], [#emph[senses of a beast];], [#emph[forgets my manners];],
-    [11], [Frontier-Hard], [Vitality], [#emph[grew up on the Frontier];], [#emph[slow to trust strangers];],
+    [10], [Feral], [Akmē], [#emph[senses of a beast];], [#emph[forgets my manners];],
+    [11], [Frontier-Hard], [Sōma], [#emph[grew up on the Frontier];], [#emph[slow to trust strangers];],
     [12], [Gentle], [Pneuma], [#emph[people open up to me];], [#emph[can\'t kill without cause];],
     [13], [Greedy], [Psychē], [#emph[knows what everything\'s worth];], [#emph[a price for everything];],
     [14], [Hollow-Eyed], [Psychē], [#emph[seen too much to scare];], [#emph[nightmares every night];],
-    [15], [Mutated], [Vitality], [#emph[body of the wastes];], [#emph[they call me monster];],
-    [16], [Reckless], [Alacrity], [#emph[first through the door];], [#emph[doesn\'t wait];],
-    [17], [Scarred], [Vitality], [#emph[survived worse than this];], [#emph[old wounds ache];],
-    [18], [Silent], [Alacrity], [#emph[says nothing, sees everything];], [#emph[people don\'t know where they stand];],
+    [15], [Mutated], [Sōma], [#emph[body of the wastes];], [#emph[they call me monster];],
+    [16], [Reckless], [Akmē], [#emph[first through the door];], [#emph[doesn\'t wait];],
+    [17], [Scarred], [Sōma], [#emph[survived worse than this];], [#emph[old wounds ache];],
+    [18], [Silent], [Akmē], [#emph[says nothing, sees everything];], [#emph[people don\'t know where they stand];],
     [19], [Superstitious], [Psychē], [#emph[knows every folk charm];], [#emph[jumps at shadows];],
-    [20], [Vengeful], [Vitality], [#emph[I don\'t forget];], [#emph[will drop anything for revenge];],
+    [20], [Vengeful], [Sōma], [#emph[I don\'t forget];], [#emph[will drop anything for revenge];],
   )]
   , kind: table
   )
@@ -3568,7 +3578,7 @@ A seer, a Noble, or a doctor told you how you\'ll die. You believe them.
 Raised in the wastes, by animals, mutants, or no one at all.
 ]
 
-- #strong[Pool:] +2 Alacrity
+- #strong[Pool:] +2 Akmē
 - #strong[Power tag:] #emph[senses of a beast]
 - #strong[Weakness tag:] #emph[forgets my manners]
 - #strong[Suggested Instinct:] \"Always sleep with my back to a wall.\"
@@ -3579,7 +3589,7 @@ Raised in the wastes, by animals, mutants, or no one at all.
 Born in a fortified village and raised on dust, chores, and sunset curfews.
 ]
 
-- #strong[Pool:] +2 Vitality
+- #strong[Pool:] +2 Sōma
 - #strong[Power tag:] #emph[grew up on the Frontier]
 - #strong[Weakness tag:] #emph[slow to trust strangers]
 - #strong[Suggested Instinct:] \"Always bar the door at sunset.\"
@@ -3623,7 +3633,7 @@ You\'ve seen what Nobles do in their castles. Nothing frightens you anymore, not
 The old wars and the Noble experiments left their mark on your bloodline: scales, extra senses, a too-long arm, eyes that glow.
 ]
 
-- #strong[Pool:] +2 Vitality
+- #strong[Pool:] +2 Sōma
 - #strong[Power tag:] #emph[body of the wastes]
 - #strong[Weakness tag:] #emph[they call me monster]
 - #strong[Suggested Instinct:] \"Always wear the hood in town.\"
@@ -3634,7 +3644,7 @@ The old wars and the Noble experiments left their mark on your bloodline: scales
 Waiting gets people killed too. You\'d rather it be on your terms.
 ]
 
-- #strong[Pool:] +2 Alacrity
+- #strong[Pool:] +2 Akmē
 - #strong[Power tag:] #emph[first through the door]
 - #strong[Weakness tag:] #emph[doesn\'t wait]
 - #strong[Suggested Instinct:] \"Always charge when they hesitate.\"
@@ -3645,7 +3655,7 @@ Waiting gets people killed too. You\'d rather it be on your terms.
 Claw marks, burns, a missing finger. Every one is a story and a lesson.
 ]
 
-- #strong[Pool:] +2 Vitality
+- #strong[Pool:] +2 Sōma
 - #strong[Power tag:] #emph[survived worse than this]
 - #strong[Weakness tag:] #emph[old wounds ache]
 - #strong[Suggested Instinct:] \"Always check the wound before the pain.\"
@@ -3656,7 +3666,7 @@ Claw marks, burns, a missing finger. Every one is a story and a lesson.
 You speak rarely. People fill the silence with the truth.
 ]
 
-- #strong[Pool:] +2 Alacrity
+- #strong[Pool:] +2 Akmē
 - #strong[Power tag:] #emph[says nothing, sees everything]
 - #strong[Weakness tag:] #emph[people don\'t know where they stand]
 - #strong[Suggested Instinct:] \"Always listen before I speak.\"
@@ -3678,7 +3688,7 @@ Garlic in your pockets, salt across the doorway, a charm for every danger. Some 
 Someone took everything from you. You\'ll take it back, in blood.
 ]
 
-- #strong[Pool:] +2 Vitality
+- #strong[Pool:] +2 Sōma
 - #strong[Power tag:] #emph[I don\'t forget]
 - #strong[Weakness tag:] #emph[will drop anything for revenge]
 - #strong[Suggested Instinct:] \"Always ask strangers about the one I\'m hunting.\"
@@ -3704,13 +3714,13 @@ Someone took everything from you. You\'ll take it back, in blood.
   [#table(
     columns: (4.95%, 13.86%, 10.89%, 12.87%, 22.77%, 34.65%),
     align: (auto,auto,auto,auto,auto,auto,),
-    table.header([\#], [Playbook], [Reskin of], [Anchor], [Base pools (Vit / Alc / Psy / Pne)], [Role],),
+    table.header([\#], [Playbook], [Reskin of], [Anchor], [Base pools (Sōm / Akm / Psy / Pne)], [Role],),
     table.hline(),
-    [1], [Sellsword], [Bruiser], [Fight or Brawl], [12 / 10 / 6 / 8], [Front-line Hunter, bodyguard, stake-driver],
-    [2], [Stalker], [Operator], [Stealth], [8 / 12 / 8 / 8], [Castle thief, assassin, day-hunter of sleeping Nobles],
-    [3], [Frontier Doctor], [Sage], [Medicine or Noble Lore], [7 / 8 / 13 / 8], [Healer, scholar, treats the Kiss],
-    [4], [Broker], [Face], [Persuade], [7 / 9 / 9 / 11], [Bounty broker, gambler, village elder, negotiator],
-    [5], [Rider], [Wayfarer], [Frontier], [11 / 11 / 7 / 7], [Tracker, scout, marksman, horse-master],
+    [1], [Sellsword], [Bellator], [Fight or Brawl], [12 / 10 / 6 / 8], [Front-line Hunter, bodyguard, stake-driver],
+    [2], [Stalker], [Furcifer], [Stealth], [8 / 12 / 8 / 8], [Castle thief, assassin, day-hunter of sleeping Nobles],
+    [3], [Frontier Doctor], [Savant], [Medicine or Noble Lore], [7 / 8 / 13 / 8], [Healer, scholar, treats the Kiss],
+    [4], [Broker], [Interlocutor], [Persuade], [7 / 9 / 9 / 11], [Bounty broker, gambler, village elder, negotiator],
+    [5], [Rider], [Explorator], [Frontier], [11 / 11 / 7 / 7], [Tracker, scout, marksman, horse-master],
     [6], [Occultist], [Adept], [Occult or Science], [7 / 8 / 9 / 12], [Psychic, curse-witch, Noble-science scavenger],
     [7], [Mutant], [New], [Athletics or Stealth], [11 / 11 / 6 / 8], [Monster-blooded fighter and infiltrator],
     [8], [Cyborg Hunter], [New], [Shoot or Fight], [12 / 9 / 9 / 6], [Rebuilt killer with implants],
@@ -3733,8 +3743,8 @@ Muscle for hire. You stand between the village and the thing coming out of the d
   [#table(
     columns: (27%, 73%),
     align: (auto,auto,),
-    [#strong[Base pools (Vit / Alc / Psy / Pne)];], [12 / 10 / 6 / 8],
-    [#strong[Edge];], [Vitality 2, plus 1 in Alacrity or Pneuma],
+    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [12 / 10 / 6 / 8],
+    [#strong[Edge];], [Sōma 2, plus 1 in Akmē or Pneuma],
     [#strong[Anchor skill];], [Fight or Brawl],
     [#strong[Suggested skills];], [+4 Fight · +3 Athletics, Endure · +2 Brawl, Intimidate, Shoot · +1 Notice, Will, Frontier, Ride],
     [#strong[XP trigger];], [Address a challenge with force or threats],
@@ -3751,13 +3761,13 @@ Muscle for hire. You stand between the village and the thing coming out of the d
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Juggernaut];], [When you Resist physical harm with Vitality, reduce the status by #strong[3 tiers] instead of 2.],
+    [1], [#strong[Juggernaut];], [When you Resist physical harm with Sōma, reduce the status by #strong[3 tiers] instead of 2.],
     [2], [#strong[Stake Driver];], [When you make a #strong[bane strike] (Frontier Rules §5.2) with Fight or Brawl, gain a #strong[free bonus die];. On a success, the Noble can\'t spend Woe on #emph[Rise From the Coffin] this session.],
     [3], [#strong[Bodyguard];], [When an ally within reach would suffer a consequence, you may take it instead. If you Resist it, your Edge counts as 1 higher for that roll. This includes a Noble\'s bite: you can take the Kiss in their place.],
     [4], [#strong[Wade Through Them];], [When you attack a group or minions (wolves, Barbarois packs, turned villagers), you get #strong[one free Extra Feat] per roll.],
-    [5], [#strong[Menacing];], [You may use #strong[Vitality] for Intimidate Effort and Resistance. When you succeed on Intimidate against minions or a mob, spend 1 Momentum to make them flee, surrender, or freeze.],
+    [5], [#strong[Menacing];], [You may use #strong[Sōma] for Intimidate Effort and Resistance. When you succeed on Intimidate against minions or a mob, spend 1 Momentum to make them flee, surrender, or freeze.],
     [6], [#strong[Pain Tolerance];], [Ignore the roll penalty from harmful physical statuses of tier 1--2. At tier 3+, the penalty is reduced by 1. This also applies to #emph[Sun-Sick];.],
-    [7], [#strong[★ Blood Fury];], [Once per scene, enter a fury: you get #strong[+1 bonus die] (free) on Fight, Brawl, and Athletics rolls for the rest of the scene. You can\'t script Defend or retreat. At scene end, lose 2 Vitality or take #emph[Weary];. If you have Noble blood, gain +1 Thirst.],
+    [7], [#strong[★ Blood Fury];], [Once per scene, enter a fury: you get #strong[+1 bonus die] (free) on Fight, Brawl, and Athletics rolls for the rest of the scene. You can\'t script Defend or retreat. At scene end, lose 2 Sōma or take #emph[Weary];. If you have Noble blood, gain +1 Thirst.],
     [8], [#strong[★ Last One Standing];], [Once per scene, when a status would reach tier 6 on you or a pool would hit 0, keep acting until the end of the scene. Then you\'re Taken Out as normal.],
     [◆], [#strong[A Name the Nobles Know];], [Your reputation is a #strong[Campaign Truth] (#emph[\"Nobles have heard of \[name\]\"];). In Fight conflicts, Noble and servant Disposition starts #strong[−2];. Once per session, a Noble\'s pride compel against you costs nothing.],
   )]
@@ -3815,8 +3825,8 @@ You hunt by day. While the Noble sleeps, you climb the castle walls, pick the lo
   [#table(
     columns: (25%, 75%),
     align: (auto,auto,),
-    [#strong[Base pools (Vit / Alc / Psy / Pne)];], [8 / 12 / 8 / 8],
-    [#strong[Edge];], [Alacrity 2, plus 1 in Psychē or Vitality],
+    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [8 / 12 / 8 / 8],
+    [#strong[Edge];], [Akmē 2, plus 1 in Psychē or Sōma],
     [#strong[Anchor skill];], [Stealth],
     [#strong[Suggested skills];], [+4 Stealth · +3 Notice, Craft · +2 Athletics, Deceive, Shoot · +1 Fight, Science, Investigate, Noble Lore],
     [#strong[XP trigger];], [Address a challenge with stealth or precision],
@@ -3838,7 +3848,7 @@ You hunt by day. While the Noble sleeps, you climb the castle walls, pick the lo
     [3], [#strong[Light Fingers];], [When you succeed on a theft, plant, or sabotage roll (Stealth or Craft), gain a #strong[free Extra Feat];.],
     [4], [#strong[Infiltrator];], [Once per roll, ignore one Truth that would raise the Difficulty of sneaking, climbing, or bypassing security, including Noble Truths such as #emph[Guardian Machines] or #emph[Shifting Halls];.],
     [5], [#strong[Quick Reflexes];], [You always act first when violence breaks out. In conflicts, changing one of your scripted actions costs #strong[1 Momentum] instead of 2.],
-    [6], [#strong[Escape Artist];], [When you Resist capture, restraint, falls, or traps with Alacrity, the cost is #strong[0 on a highest die of 5+];.],
+    [6], [#strong[Escape Artist];], [When you Resist capture, restraint, falls, or traps with Akmē, the cost is #strong[0 on a highest die of 5+];.],
     [7], [#strong[★ Flashback];], [Once per mission, declare a flashback to something you prepared earlier. Pay Momentum by plausibility: 0 (obvious), 1 (reasonable), 2 (a stretch), 3 (wild). Then roll as normal; on a success, it happened.],
     [8], [#strong[★ Strike While It Sleeps];], [Against an unaware, #emph[Impeded];, or sleeping target, Attack effects cost #strong[half Power (round up)];. A bane strike against a sleeping Noble is #strong[Standard 15] instead of Hard 18.],
     [◆], [#strong[Nobody Sees Me Coming];], [Once per session, declare you\'re already somewhere you could plausibly have reached. Your first roll there gets #strong[+2 bonus dice for free];, and the GM can\'t spend Woe to reveal you during that roll.],
@@ -3897,8 +3907,8 @@ The only doctor for a hundred kilometres. You sew up Hunters, deliver babies, an
   [#table(
     columns: (25%, 75%),
     align: (auto,auto,),
-    [#strong[Base pools (Vit / Alc / Psy / Pne)];], [7 / 8 / 13 / 8],
-    [#strong[Edge];], [Psychē 2, plus 1 in Pneuma or Alacrity],
+    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [7 / 8 / 13 / 8],
+    [#strong[Edge];], [Psychē 2, plus 1 in Pneuma or Akmē],
     [#strong[Anchor skill];], [Medicine or Noble Lore],
     [#strong[Suggested skills];], [+4 Medicine · +3 Noble Lore, Investigate · +2 Notice, Science, Empathy · +1 Will, Shoot, Ride, Persuade],
     [#strong[XP trigger];], [Address a challenge with knowledge, insight, or healing],
@@ -3979,8 +3989,8 @@ Contracts, rumours, debts, and deals. You find the work, set the price, and make
   [#table(
     columns: (25%, 75%),
     align: (auto,auto,),
-    [#strong[Base pools (Vit / Alc / Psy / Pne)];], [7 / 9 / 9 / 11],
-    [#strong[Edge];], [Pneuma 2, plus 1 in Psychē or Alacrity],
+    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [7 / 9 / 9 / 11],
+    [#strong[Edge];], [Pneuma 2, plus 1 in Psychē or Akmē],
     [#strong[Anchor skill];], [Persuade],
     [#strong[Suggested skills];], [+4 Persuade · +3 Empathy, Deceive · +2 Notice, Noble Lore, Will · +1 Investigate, Shoot, Ride, Intimidate],
     [#strong[XP trigger];], [Address a challenge with charm, lies, or bargaining],
@@ -4061,8 +4071,8 @@ Born in the saddle and raised on the open Frontier. You find the tracks, read th
   [#table(
     columns: (26%, 74%),
     align: (auto,auto,),
-    [#strong[Base pools (Vit / Alc / Psy / Pne)];], [11 / 11 / 7 / 7],
-    [#strong[Edge];], [Vitality 1, Alacrity 1, plus 1 in any pool],
+    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [11 / 11 / 7 / 7],
+    [#strong[Edge];], [Sōma 1, Akmē 1, plus 1 in any pool],
     [#strong[Anchor skill];], [Frontier],
     [#strong[Suggested skills];], [+4 Frontier · +3 Ride, Shoot · +2 Notice, Athletics, Endure · +1 Stealth, Fight, Medicine, Noble Lore],
     [#strong[XP trigger];], [Address a challenge with endurance or the land],
@@ -4083,7 +4093,7 @@ Born in the saddle and raised on the open Frontier. You find the tracks, read th
     [2], [#strong[Desert-Born];], [When you\'re the Guide, a successful roll Advances the Journey clock #strong[+1] extra. You ignore the #emph[Exposed] Grind condition from heat or cold.],
     [3], [#strong[Horse-Bond];], [Your mount comes when you whistle. Once per scene, get a #strong[free bonus die] on a Ride roll. In a Chase, your mount counts as a helper (+1 Disposition).],
     [4], [#strong[Long Shot];], [When you Shoot at long range, ignore one Truth that raises the Difficulty (#emph[Dust Storm];, #emph[Moonless];). From hiding, gain #strong[+1 Power] on a success.],
-    [5], [#strong[Weather Eye];], [You always know what weather is coming in the next day. When you Resist cold, heat, or storms with Vitality, your Edge counts as 1 higher.],
+    [5], [#strong[Weather Eye];], [You always know what weather is coming in the next day. When you Resist cold, heat, or storms with Sōma, your Edge counts as 1 higher.],
     [6], [#strong[Ride-By];], [Once per exchange while mounted, a successful Maneuver also inflicts #strong[1 Disposition] of damage on the opponent.],
     [7], [#strong[★ Beast Companion];], [A mutant hawk, a wolfhound, or a desert lizard rides with you. It has 1 power tag and 1 weakness, gives free Help once per scene, and can scout (one free Discover per scene where it can reach).],
     [8], [#strong[★ Outrun the Night];], [You can travel by night without halving the Grind clock. In a Chase against Nobles or their servants, your side\'s Disposition is #strong[+3];.],
@@ -4115,7 +4125,7 @@ Born in the saddle and raised on the open Frontier. You find the tracks, read th
     align: (auto,auto,),
     table.header([Load], [Item],),
     table.hline(),
-    [1], [Long duster and wide hat --- light armour; +1 Vitality Edge when Resisting #emph[Sun-Sick];],
+    [1], [Long duster and wide hat --- light armour; +1 Sōma Edge when Resisting #emph[Sun-Sick];],
     [1], [Canteens and water purifier --- Supplies +1 in deserts],
     [1], [Bedroll, rope, and tarp],
     [1], [Binoculars --- #emph[sees for kilometres];],
@@ -4143,7 +4153,7 @@ Psychic, curse-witch, hypnotist, or scavenger of Noble machines. You use the pow
   [#table(
     columns: (22%, 78%),
     align: (auto,auto,),
-    [#strong[Base pools (Vit / Alc / Psy / Pne)];], [7 / 8 / 9 / 12],
+    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [7 / 8 / 9 / 12],
     [#strong[Edge];], [Pneuma 2 (Occult) or Psychē 2 (Science), plus 1 in any other pool],
     [#strong[Anchor skill];], [Occult (psychic powers, curses, sorcery) or Science (Noble machines, gadgets)],
     [#strong[Suggested skills];], [+4 Occult · +3 Noble Lore, Will · +2 Notice, Medicine, Persuade · +1 Investigate, Empathy, Deceive, Science],
@@ -4248,8 +4258,8 @@ The old wars and the Nobles\' experiments made your bloodline something more, or
   [#table(
     columns: (24%, 76%),
     align: (auto,auto,),
-    [#strong[Base pools (Vit / Alc / Psy / Pne)];], [11 / 11 / 6 / 8],
-    [#strong[Edge];], [Vitality 1, Alacrity 1, plus 1 in Vitality, Alacrity, or Pneuma],
+    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [11 / 11 / 6 / 8],
+    [#strong[Edge];], [Sōma 1, Akmē 1, plus 1 in Sōma, Akmē, or Pneuma],
     [#strong[Anchor skill];], [Athletics or Stealth],
     [#strong[Suggested skills];], [+4 Athletics · +3 Brawl, Stealth · +2 Frontier, Endure, Intimidate · +1 Notice, Fight, Deceive, Will],
     [#strong[XP trigger];], [Address a challenge with your mutations or your monstrous nature],
@@ -4277,7 +4287,7 @@ Choose #strong[2 Mutations];. Each is a power tag that ignores load, plus a rule
     [#strong[Venom];], [#emph[poisonous];], [Spend 1 Power on an Attack to add #emph[poisoned-1];, which rises by 1 each scene until treated],
     [#strong[Elastic body];], [#emph[stretches and squeezes];], [Reach 5 m; fit through any gap a hand can pass],
     [#strong[Burrower] (sand or soil)], [#emph[swims through earth];], [Move under sand or soft soil; #emph[+1 Maneuver] in desert Fights],
-    [#strong[Regeneration];], [#emph[heals fast];], [A short rest restores #strong[2 + Edge] Vitality and lowers one physical status by 1],
+    [#strong[Regeneration];], [#emph[heals fast];], [A short rest restores #strong[2 + Edge] Sōma and lowers one physical status by 1],
     [#strong[Mimic];], [#emph[voices and faces];], [Copy a voice you\'ve heard, or reshape your face for a scene (#emph[+1 Feint];)],
     [#strong[Shapeshifter] (Barbarois)], [#emph[beast form];], [Turn into one animal (wolf, bat, panther) for a scene; you keep your pools and skills but can\'t use gear],
   )]
@@ -4295,7 +4305,7 @@ Choose #strong[2 Mutations];. Each is a power tag that ignores load, plus a rule
     [2], [#strong[Old Oath];], [Barbarois and Noble servants recognise your blood. Once per scene, Persuade or Intimidate with them is one step easier, or ask a free Discover about their tricks.],
     [3], [#strong[Toxic Blood];], [Creatures that bite or drink from you gain #emph[poisoned-2];. The Kiss on you gains #strong[1 fewer tier];.],
     [4], [#strong[Waste-Hardened];], [Ignore the #emph[Exposed] and #emph[Sick] Grind conditions when they come from radiation, poison, or bad water.],
-    [5], [#strong[Monstrous Presence];], [You may use #strong[Vitality] for Intimidate Effort and Resistance. Against minions, a successful Intimidate makes them flee for 1 Momentum.],
+    [5], [#strong[Monstrous Presence];], [You may use #strong[Sōma] for Intimidate Effort and Resistance. Against minions, a successful Intimidate makes them flee for 1 Momentum.],
     [6], [#strong[Hunter\'s Senses];], [You can smell blood, fear, and Nobles. Once per scene, free Discover: \"Who here is not what they seem?\"],
     [7], [#strong[★ Full Transformation];], [Once per scene, release your monstrous form: free #strong[+1 bonus die] on Brawl, Athletics, and Stealth, and your Attacks inflict #strong[+1 tier];, for the rest of the scene. You can\'t speak or use gear. Afterwards, take #emph[Weary];, and any humans present treat you as a threat.],
     [8], [#strong[★ Living Weapon];], [Choose one Mutation. Its tag may add #strong[+1 above the normal +2 cap (maximum +3 from tags)];, and successful rolls using it gain #strong[+1 Power];.],
@@ -4355,8 +4365,8 @@ Torn apart by a Noble or a monster, and put back together with steel, wire, and 
   [#table(
     columns: (24%, 76%),
     align: (auto,auto,),
-    [#strong[Base pools (Vit / Alc / Psy / Pne)];], [12 / 9 / 9 / 6],
-    [#strong[Edge];], [Vitality 1, Psychē 1, plus 1 in Vitality or Alacrity],
+    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [12 / 9 / 9 / 6],
+    [#strong[Edge];], [Sōma 1, Psychē 1, plus 1 in Sōma or Akmē],
     [#strong[Anchor skill];], [Shoot or Fight],
     [#strong[Suggested skills];], [+4 Shoot · +3 Fight, Science · +2 Endure, Notice, Intimidate · +1 Athletics, Ride, Investigate, Medicine],
     [#strong[XP trigger];], [Address a challenge with your implants or overwhelming firepower],
@@ -4399,7 +4409,7 @@ Choose #strong[2 Implants];. Each is a power tag that ignores load, plus a rule.
     table.header([\#], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Extra Implant];], [Gain one more Implant. You can take this ability up to twice.],
-    [2], [#strong[Self-Repair];], [You can use Science on yourself to Restore physical statuses and #emph[glitched];. Once per scene, a short rest also restores 2 Vitality.],
+    [2], [#strong[Self-Repair];], [You can use Science on yourself to Restore physical statuses and #emph[glitched];. Once per scene, a short rest also restores 2 Sōma.],
     [3], [#strong[Overclock];], [When you use Effort for Power on a roll with an implant, gain #strong[+2 Power] instead of +1, but take #emph[glitched-1];.],
     [4], [#strong[Little Blood Left];], [The Kiss on you gains #strong[1 fewer tier];. You ignore the #emph[Hungry & Thirsty] Grind condition.],
     [5], [#strong[Heavy Ordnance];], [When you Shoot at a group or minions, gain #strong[one free Extra Feat] per roll.],
@@ -4462,8 +4472,8 @@ Sheriff, militia captain, or the old soldier who keeps the village alive. You do
   [#table(
     columns: (25%, 75%),
     align: (auto,auto,),
-    [#strong[Base pools (Vit / Alc / Psy / Pne)];], [10 / 9 / 9 / 8],
-    [#strong[Edge];], [Vitality 1, Psychē 1, plus 1 in Pneuma or Alacrity],
+    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [10 / 9 / 9 / 8],
+    [#strong[Edge];], [Sōma 1, Psychē 1, plus 1 in Pneuma or Akmē],
     [#strong[Anchor skill];], [Craft],
     [#strong[Suggested skills];], [+4 Craft · +3 Noble Lore, Shoot · +2 Notice, Intimidate, Endure · +1 Persuade, Fight, Frontier, Will],
     [#strong[XP trigger];], [Address a challenge by preparing, protecting, or fortifying],
@@ -4545,15 +4555,15 @@ Sheriff, militia captain, or the old soldier who keeps the village alive. You do
     align: (auto,auto,auto,auto,auto,),
     table.header([Playbook], [Main pool], [Conflict role], [Exploration role], [Social role],),
     table.hline(),
-    [Sellsword], [Vitality], [Attack / Defend, bane strikes], [Forcing obstacles], [Intimidation],
-    [Stalker], [Alacrity], [Feint / Maneuver], [Castles by day, security], [Deception],
+    [Sellsword], [Sōma], [Attack / Defend, bane strikes], [Forcing obstacles], [Intimidation],
+    [Stalker], [Akmē], [Feint / Maneuver], [Castles by day, security], [Deception],
     [Frontier Doctor], [Psychē], [Maneuver (Discover), Restore], [Investigation, healing, the Kiss], [Expertise, trust],
     [Broker], [Pneuma], [Negotiation and Argument lead], [Rumours, contacts], [Persuasion, contracts],
-    [Rider], [Vitality/Alacrity], [Ranged Attack, Chase, Hunt], [Travel, Grind, tracking], [Local knowledge],
+    [Rider], [Sōma/Akmē], [Ranged Attack, Chase, Hunt], [Travel, Grind, tracking], [Local knowledge],
     [Occultist], [Pneuma/Psychē], [Flexible (Domain), Duel of Wills], [Supernatural and Noble-science access], [Varies by Domain],
-    [Mutant], [Vitality/Alacrity], [Attack / Maneuver], [Climbing, hiding, wastelands], [Monsters and servants],
-    [Cyborg Hunter], [Vitality], [Ranged Attack, heavy firepower], [Noble machines, castles], [Intimidation],
-    [Warden], [Vitality/Psychē], [Siege of the Night, Defend], [Preparation, fortification], [Villagers, local law],
+    [Mutant], [Sōma/Akmē], [Attack / Maneuver], [Climbing, hiding, wastelands], [Monsters and servants],
+    [Cyborg Hunter], [Sōma], [Ranged Attack, heavy firepower], [Noble machines, castles], [Intimidation],
+    [Warden], [Sōma/Psychē], [Siege of the Night, Defend], [Preparation, fortification], [Villagers, local law],
   )]
   , kind: table
   )
@@ -4640,7 +4650,7 @@ Dhampir. Half-human, half-Noble. Stronger and faster than any human, hated by bo
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Noble Blood];], [You ignore darkness Truths and sense any Noble within sight. A short rest restores #strong[2 + Edge] Vitality. You can\'t be #emph[Kissed] or Turned. You\'re subject to #strong[Sunlight Syndrome] and #strong[the Thirst] (Frontier Rules §7).],
+    [1], [#strong[Noble Blood];], [You ignore darkness Truths and sense any Noble within sight. A short rest restores #strong[2 + Edge] Sōma. You can\'t be #emph[Kissed] or Turned. You\'re subject to #strong[Sunlight Syndrome] and #strong[the Thirst] (Frontier Rules §7).],
     [2a], [#strong[Dhampir Regeneration];], [Once per scene, lower one physical status by #strong[2 tiers] (no roll). Thirst +1.],
     [2b], [#strong[The Noble Gaze];], [You can use the Gaze: on a successful Will or Intimidate roll against a human or Lesser Noble who meets your eyes, inflict #emph[entranced] as an Attack. Thirst +1 each time. In a Duel of Wills against a Noble, gain a free bonus die.],
     [3a], [#strong[Night Walker];], [Under the #strong[Night] Truth, your physical Attacks inflict #strong[+1 tier];, and your blade counts as the beheading bane against a Noble with a tier-4+ physical status.],
@@ -5175,7 +5185,7 @@ Roll 2d12, take the *highest die*, and pay the cost minus Edge: *12* costs 0 and
   [2nd], [10 minutes], [1d8],
   [3rd], [1 hour], [1d10],
   [4th], [10 hours (overnight)], [All pools full])
-Divide the roll among Vitality, Alacrity, Psychē and Pneuma however you like. Edge does not apply. *Hardened* (one-time Advance) raises each die one size.
+Divide the roll among Sōma, Akmē, Psychē and Pneuma however you like. Edge does not apply. *Hardened* (one-time Advance) raises each die one size.
 ],
 [
 == Day and Night

@@ -6,6 +6,16 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Added — Vampire Hunter D master rulebook (2026-10-12)
+- `docs/VampireHunterD/2d12-character-sheet-v2.typ` and compiled `.pdf` — new three-page character sheet built from the master rulebook: two generic pages (pools with Edge, skill pyramid, tags, Tychē, BIG, statuses, Resist, Scars, the four-rest recovery tracker and Hardened, abilities, Focus, XP, load and armour, Cyphers and Artifacts, the Grind and Checks) plus a Frontier insert (Frontier skills and playbooks, wealth, the Kiss, Noble blood with Sun-Sick and Thirst, banes and Hunter's gear, day and night, bounties, Campaign Truths). Styled to match the rulebook.
+
+### Changed — Vampire Hunter D master rulebook (2026-10-12)
+- Pools renamed throughout: **Vitality → Sōma**, **Alacrity → Akmē** (Psychē and Pneuma unchanged). Terminology table corrected; pool shorthand is now *Sōm / Akm / Psy / Pne*.
+- Generic core playbooks renamed throughout: **Bruiser → Bellator**, **Operator → Furcifer**, **Sage → Savant**, **Face → Interlocutor**, **Wayfarer → Explorator** (Adept unchanged). Fixed the Core Rules §11.1 table, which listed Explorator twice; added a playbook-name table to Terminology.
+
+### Removed — Vampire Hunter D master rulebook (2026-10-12)
+- `docs/VampireHunterD/2d12-System--Character-Sheet-v0.2.md` and `.pdf`, replaced by the v2 sheet.
+
 ### Added
 - `LICENSE` — project is now released under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
 - `CONTRIBUTING.md` — contribution workflow, style conventions, and licensing notes.

@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System components.md",
+                "file": "docs/VampireHunterD/2d12-system-proposal.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "System components"
+              "title": "2d12-system-proposal"
             }
           }
         ],
@@ -221,7 +221,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "docs/Setting/the_church_of_the_one_god.md",
+            "file": "docs/VampireHunterD/2d12-system-proposal.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -279,8 +279,20 @@
   },
   "active": "aac4701e08eee649",
   "lastOpenFiles": [
-    "Magical Traditions.md",
+    "docs/VampireHunterD/How do pools regenerate. How does resting work.md",
+    "docs/VampireHunterD/vhd-focuses.md",
+    "docs/VampireHunterD/vhd-playbooks.md",
+    "docs/VampireHunterD/playbooks.md",
+    "docs/VampireHunterD/vhd-descriptors.md",
     "System components.md",
+    "docs/VampireHunterD/focuses.md",
+    "docs/VampireHunterD/2d12-system-proposal.md",
+    "docs/VampireHunterD/2d12-System--Character-Sheet-v0.2.md",
+    "docs/VampireHunterD/vhd-setting-rules.md",
+    "docs/VampireHunterD/2d12-System--Character-Sheet-v0.2.pdf",
+    "docs/VampireHunterD",
+    "docs/01-resolution-engine.md",
+    "Magical Traditions.md",
     "docs/06-magic-rewrite.md",
     "docs/06.1-runic-spellbook.md",
     "CHANGELOG.md",
@@ -295,16 +307,6 @@
     "docs/Setting/Aetas-Obscura-Player-Primer.md",
     "docs/11-combat.md",
     "docs/02-character-creation.md",
-    "Connections, Reputation, and Favors.md",
-    "docs/Setting/four_sanguine_courts.md",
-    "docs/Setting/cthulhu_magic_for_conan.md",
-    "docs/06.8-Tome-of-Cthulhu.md",
-    "docs/06.7-Compendium-of-Mormo.md",
-    "docs/06.6-Grimoire-of-Nyarlathotep.md",
-    "docs/06.5-Spellbook-of-Yog-Sothoth.md",
-    "docs/06.4-magical-traditions.md",
-    "docs/06.3-shamanic-spellbook.md",
-    "docs/Setting/esoteric_order_of_dagon.md",
-    "docs/Setting/mystery_cults.md"
+    "Connections, Reputation, and Favors.md"
   ]
 }

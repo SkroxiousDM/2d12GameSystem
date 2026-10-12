@@ -1,7 +1,7 @@
 // =====================================================================
 //  VAMPIRE HUNTER D — THE 2d12 SYSTEM, VERSION 2
 //  Master Rulebook · Post-Apocalyptic Frontier Gothic
-//  Compiled for SkroxiousDM · 2026-10-31
+//  Compiled for SkroxiousDM · 2026-10-12
 //
 //  Single-file Typst source. Compile with:
 //      typst compile vampire-hunter-d-2d12-v2-master-rulebook.typ
@@ -284,7 +284,7 @@
     ]
     v(14pt)
     text(size: 9.5pt, fill: ash)[
-      This book collects the three core documents of the 2d12 System — the Design Proposal, the Generic Playbooks and the Generic Focus List — together with the complete Vampire Hunter D setting pack (Setting Rules, Descriptors, Playbooks and Focuses) into a single rulebook, with the renamed stats applied throughout.
+      
     ]
     v(14pt)
     text(size: 9pt, fill: dust, style: "italic")[
@@ -331,9 +331,10 @@
 // =====================================================================
 #counter(page).update(1)
 #chapter("Introduction",
-  [Ten thousand years after the bombs, the Nobility's long night is ending, but not quickly enough. This chapter explains what this book contains, how its rules are named, and what changed in Version 2.],
+  [Ten thousand years after the bombs, the Nobility's long night is ending, but not quickly enough. This chapter explains what this book contains, how its rules are named.],
   epigraph: [Fences of wood and garlic. Laser rifles beside wooden stakes. Somewhere beyond the ridge, a castle light comes on.])
 
+#columns(2, gutter: 6mm)[
 == About This Book
 
 This master rulebook collects every current document for running *Vampire Hunter D* with the 2d12 System into one volume. The generic engine comes first; the Frontier setting material builds on it.
@@ -353,15 +354,7 @@ This master rulebook collects every current document for running *Vampire Hunter
 ))
 
 When a rule here mentions another chapter, it uses that chapter's name and section number. For example, *Core Rules §4.1* means Chapter II, section 4.1. A bare reference such as *§6* points to a section in the same chapter.
-
-== The Character Sentence
-
-Every character is summed up in one sentence:
-
-#align(center, block(inset: (y: 6pt), text(font: display-font, size: 13pt, fill: blood, weight: 700)["I am a [Descriptor] [Playbook] who [Focus]."]))
-
-On the Frontier it might read: "I am a *Vengeful* *Sellsword* who *Hunts the Nobility*." The Descriptor is an adjective, the Playbook is a noun and the Focus is a verb phrase (Core Rules §3.1). Frontier characters are human, mutant or cyborg. Dhampirs are not a playbook: any character can take the Focus *Carries the Blood of the Nobility*.
-
+#colbreak()
 == Terminology and Renamed Stats
 
 The source documents used the working names on the left. This book uses the house names on the right everywhere: in rules text, tables, abilities and gear.
@@ -371,32 +364,17 @@ The source documents used the working names on the left. This book uses the hous
   [Threat], [*Woe*], [The GM's pool: complications, escalation, Noble night powers],
   [Momentum], [*Momentum*], [The party's shared pool of surplus Power (unchanged)],
   [Fate / Fate Points], [*Tychē* / *Tychē Points*], [Each PC's narrative currency: invoke tags, accept compels; set by Refresh],
-  [Vigor], [*Vitality*], [Pool: strength, endurance, toughness. Resists wounds, poison, exhaustion, cold],
-  [Finesse], [*Alacrity*], [Pool: speed, precision, stealth, reflexes. Resists traps, falls, being caught],
+  [Vitality], [*Soma*], [Pool: strength, endurance, toughness. Resists wounds, poison, exhaustion, cold],
+  [Alacrity], [*Acmē*], [Pool: speed, precision, stealth, reflexes. Resists traps, falls, being caught],
   [Mind], [*Psychē*], [Pool: intellect, perception, memory, cunning. Resists confusion, illusion, deception],
   [Spirit], [*Pneuma*], [Pool: will, presence, faith, the supernatural. Resists fear, despair, possession, corruption],
 ))
 
-- *Pool shorthand.* Playbook stat blocks list base pools as *Vit / Alc / Psy / Pne* (Vitality / Alacrity / Psychē / Pneuma).
+- *Pool shorthand.* Playbook stat blocks list base pools as *Som / Acm / Psy / Pne* (Soma / Acmē / Psychē / Pneuma).
 - *Scars* take the name of the pool that ran dry: a *Pneuma Scar*, a *Psychē Scar*.
 - *Names left as they are.* In-world names that use the everyday words keep them, because they describe the fiction rather than a stat: the *Spirit Duel* conflict type, the abilities *Spirit Sight*, *Shared Spirit*, *Steady Mind* and *Archive Mind*, and the Focus *Sends the Mind Abroad*. Credits to the source games (Fate, Fate Core, 2d20) also keep their original names.
 
-== What Changed in Version 2
-
-Version 2 brings in six design decisions, plus two later amendments that are already worked into the chapters that follow.
-
-#figure(table(columns: (6%, 64%, 30%),
-  table.header([\#], [Decision], [Where]),
-  [1], [Resolve is split into *Psychē* and *Pneuma* (four pools)], [Core Rules §3.2, §3.3, §6, §11],
-  [2], [Tag bonus cap is now *+2* per roll], [Core Rules §2.1, §3.4],
-  [3], [*Effort* can also buy *+1 Power* after a success], [Core Rules §2.4],
-  [4], [Full Mouse Guard–style scripting is used for *every big contest*; conflict types and gear added], [Core Rules §10],
-  [5], [*Tychē Point refresh* is reduced by extra or powerful abilities (Fate Core style)], [Core Rules §4.1, §11, §12],
-  [6], [Optional modules drafted: *Cyphers & Artifacts*, *The Grind & Travel*, *Truth-Driven Sandbox*], [Optional Modules A–C],
-  [7], [*Rest and Recovery* rewritten: an escalating recovery die (1d6 → 1d8 → 1d10 → full) that you divide freely among your pools. Edge no longer affects recovery. New one-time Advance: *Hardened*], [Core Rules §6],
-  [8], [*Tag-cap exceptions* limited to *+1 above the normal +2 cap (maximum +3)* for _Masters a Weapon_, _Is More Than Human_, _Bears a Noble Relic_, _Forges Weapons Against the Night_, the Mutant's _Living Weapon_ and _My Reputation Precedes Me_], [Generic Focuses §1.3, §9.2; Frontier Playbooks §7.2; Frontier Focuses],
-))
-
+#colbreak()
 == Notation
 
 - *★ Major.* An ability that costs *1 Refresh* when you take it, at creation or through advancement.
@@ -408,14 +386,14 @@ Version 2 brings in six design decisions, plus two later amendments that are alr
 #sidebar("A Note on Tone")[
   The Frontier is gothic horror on a post-apocalyptic frontier: lone riders, dusty towns, moonlit castles, laser rifles beside wooden stakes, monsters with tragic histories, and Nobles who are beautiful, ancient and bored. *D himself* works best as a rumour, a mirror or a rare NPC, not as a player character (Frontier Rules §1).
 ]
-
+]
 // =====================================================================
 //  CHAPTER — CORE RULES
 // =====================================================================
 #chapter("Core Rules", [One roll, many outputs. A pair of twelve-sided dice decides whether you succeed, how much Power you earn and whether fate twists. Around that roll: pools that double as stress, tags and Truths, Tychē Points, Momentum and Woe, and scripted conflicts.], epigraph: [Roll 2d12 + Skill + Modifiers vs. Difficulty.])
 
 == 1. Design Pillars
-+ #strong[One roll, many outputs.] A single 2d12 roll tells you whether you succeed, how well (Power), and whether something twists (doubles).
+#columns(2, gutter: 6mm)[
 + #strong[Every currency has one job.] Four resources, each answering a different question:
 
 #figure(
@@ -431,14 +409,17 @@ Version 2 brings in six design decisions, plus two later amendments that are alr
   )]
   , kind: table
   )
-
+#colbreak()
 #block[
-#set enum(numbering: "1.", start: 3)
+#set enum(numbering: "1.", start: 2)
++ #strong[One roll, many outputs.] A single 2d12 roll tells you whether you succeed, how well (Power), and whether something twists (doubles).
 + #strong[Fiction is mechanical.] Tags (on characters and items) and Truths (on scenes and the world) are the only modifiers. No hidden situational math.
 + #strong[Characters are driven, not just capable.] Beliefs, Goals, and Instincts are the primary engine for earning Tychē Points and XP.
 ]
-
+]
+          
 == 2. Core Resolution
+  #columns(2, gutter: 6mm)[
 === 2.1 The Roll
 #strong[Roll 2d12 + Skill + Modifiers vs. Difficulty.]
 
@@ -527,7 +508,7 @@ Example: Effort Level 2 lets you buy one bonus die before the roll, then spend a
   )]
   , kind: table
   )
-
+#colbreak()
 #strong[Power] = 1 for meeting the target, +1 for every full 3 points over it. Power is spent on #strong[Effects] (§5). Any Power you don\'t spend becomes #strong[Momentum] (party pool, max 6).
 
 === 2.6 Doubles (Twists)
@@ -538,8 +519,10 @@ If your two #strong[kept] dice show the same number:
 - #strong[Double 12s:] always a success with +2 Power. #strong[Double 1s:] always a complication, even on a success.
 
 Base chance of doubles on 2d12 is about 8% (1 in 12).
-
+  ]
+    
 == 3. Character Creation
+  #columns(2, gutter: 6mm)[
 === 3.1 The Sentence
 #quote(block: true)[
 #strong[\"I am a \[Descriptor\] \[Playbook\] who \[Focus\].\"]
@@ -549,7 +532,7 @@ Base chance of doubles on 2d12 is about 8% (1 in 12).
 
 #figure(
   [#table(
-    columns: (13.13%, 12.12%, 74.75%),
+    columns: (20%, 15%, 65%),
     align: (auto,auto,auto,),
     table.header([Part], [Grammar], [What it gives you],),
     table.hline(),
@@ -563,9 +546,12 @@ Base chance of doubles on 2d12 is about 8% (1 in 12).
 === 3.2 Pools and Edge
 Four pools, each roughly 6--14:
 
+- #strong[Starting values:] the playbook sets the base (totals 36), plus 4 points to distribute and +2 from the Descriptor (42 total).
+- #strong[Edge:] the playbook gives #strong[3 points of Edge];, maximum 2 in any one pool at creation. Edge reduces the cost of Effort and Resistance from that pool.
+- Pools are spent on #strong[Effort] (§2.4) and #strong[Resistance] (§6). They are your stress tracks.
 #figure(
   [#table(
-    columns: (10.89%, 43.56%, 45.54%),
+    columns: (20%, 40%, 40%),
     align: (auto,auto,auto,),
     table.header([Pool], [Covers], [Resists],),
     table.hline(),
@@ -577,9 +563,6 @@ Four pools, each roughly 6--14:
   , kind: table
   )
 
-- #strong[Starting values:] the playbook sets the base (totals 36), plus 4 points to distribute and +2 from the Descriptor (42 total).
-- #strong[Edge:] the playbook gives #strong[3 points of Edge];, maximum 2 in any one pool at creation. Edge reduces the cost of Effort and Resistance from that pool.
-- Pools are spent on #strong[Effort] (§2.4) and #strong[Resistance] (§6). They are your stress tracks.
 
 === 3.3 Skill Pyramid
 Ten rated skills from a list of 20:
@@ -599,7 +582,7 @@ Ten rated skills from a list of 20:
   )
 
 The playbook\'s anchor skill must sit at +3 or +4. The pyramid rule (each tier must have at least as many skills as the tier above it) still applies when you advance.
-
+#colbreak()
 #strong[Generic skill list by default pool:]
 
 #figure(
@@ -642,6 +625,7 @@ Goals are rewritten each session; Beliefs and Instincts can change at milestones
 - #strong[Tychē Points:] start each session with Tychē Points equal to your #strong[Refresh] (base 3; see §4.1).
 - #strong[Load-out:] chosen during play from the playbook\'s gear list (Blades-style light/normal/heavy load), not bought in advance.
 
+#colbreak(weak: true)
 == 4. Tychē Points
 #strong[Spend 1 Tychē Point to:]
 
@@ -664,13 +648,13 @@ Goals are rewritten each session; Beliefs and Instincts can change at milestones
 - The advancement option \"+1 Refresh\" (§12) lets you buy Refresh back.
 
 Design intent: power comes at the cost of narrative flexibility. A low-Refresh character is mechanically strong but has to accept compels to stay fuelled.
+]
 
 == 5. Effects
-Each point of Power buys an Effect. Players choose Effects that fit what their character did in the fiction.
 
 #figure(
   [#table(
-    columns: (11%, 10%, 79%),
+    columns: (12%, 14%, 74%),
     align: (auto,auto,auto,),
     table.header([Effect], [Cost], [What it does],),
     table.hline(),
@@ -686,16 +670,21 @@ Each point of Power buys an Effect. Players choose Effects that fit what their c
   )]
   , kind: table
   )
-
+#columns(2, gutter: 6mm)[
+Each point of Power buys an Effect. Players choose Effects that fit what their character did in the fiction.
+  
 Any unspent Power → #strong[Momentum];.
 
 === 5.1 Statuses
 - Statuses have #strong[tiers 1--6];.
 - #strong[Stacking:] a new status of the same kind raises the existing tier by the new tier minus 1 (minimum +1), so small hits accumulate slowly.
+#colbreak()
 - #strong[Tier 6:] the target is #strong[Taken Out] of whatever that status represents (dead, unconscious, captured, convinced, routed).
 - Statuses modify rolls by #strong[± their tier] (use only the highest relevant harmful status and the highest relevant helpful status).
+]
 
 == 6. Resistance and Stress
+  #columns(2, gutter: 6mm)[
 When a consequence lands on you (a status, lost gear, a bad position), you may #strong[Resist];:
 
 + Choose the pool that fits (see §3.2: Vitality for harm, Alacrity to dodge, Psychē against deception and confusion, Pneuma against fear and the supernatural).
@@ -739,6 +728,7 @@ When a consequence lands on you (a status, lost gear, a bad position), you may #
 
 Scars can be compelled for Tychē Points. Your fourth Scar retires the character.
 
+    
 #strong[Rest and Recovery]
 
 There\'s no separate \"short rest\" / \"full rest\" split. Instead, resting escalates through the day --- the longer you take, the more you recover:
@@ -756,36 +746,46 @@ There\'s no separate \"short rest\" / \"full rest\" split. Instead, resting esca
   )]
   , kind: table
   )
-
+#colbreak()
 - Roll the listed die and #strong[divide the result among Vitality, Alacrity, Psychē, and Pneuma however you like] --- it doesn\'t have to go to whichever pool was drained most recently.
+
 - #strong[Edge does not affect this roll.] Edge only reduces Effort and Resistance cost (§2.4, §6); recovery stays flat so it can\'t stack with Edge\'s other benefits.
 - After the 4th rest, the cycle resets --- your next rest that day (or the start of a new day) is a 1d6 again.
 - Each PC rests and rolls independently. If two of five party members stop for 10 minutes to recover, the other three don\'t have to stop or roll.
+#colbreak()
 - #strong[Trauma recovery is separate.] Hitting 0 in a pool (§6, running dry) still recovers at half max plus a permanent Scar --- that\'s not a normal recovery roll.
 
 #strong[Advance option --- Hardened] #emph[(6 XP, one-time)]
 
 Your recovery die steps up one size at every stage, permanently: 1d6→1d8, 1d8→1d10, 1d10→1d12. The 4th rest of the day remains a full restore. This is a flat, single bump --- it does not scale further and doesn\'t interact with Edge, Effort Level, or pool growth from other Advances.
+]
 
 == 7. Progress Clocks
+#columns(2, gutter: 6mm)[
 - #strong[Sizes:] 4 (simple), 6 (complex), 8 (daunting), 12 (epic).
 - #strong[Player clocks] tick with the #strong[Advance] effect (1 Power = 1 segment).
 - #strong[Danger clocks] tick when the GM spends Woe (1 Woe = 1 segment) or on failures.
+#colbreak()
 - #strong[Racing clocks:] two clocks run together (e.g. #emph[Crack the vault 8] vs. #emph[Guards arrive 6];).
 - #strong[Linked clocks:] filling one opens or unlocks another.
 - #strong[Downtime projects] use 8- or 12-segment clocks.
-
-== 8. Truths (2d20)
+]
+  
+== 8. Truths
+#columns(2, gutter: 6mm)[
 #strong[Truths] are tags that describe the scene, location, faction, or campaign.
 
 - #strong[Scene Truths:] #emph[Pitch Dark];, #emph[Knee-Deep Water];, #emph[Hostile Crowd];. Each relevant Truth raises or lowers Difficulty by one step (±3), makes an action impossible or possible, or can be invoked with a Tychē Point.
 - #strong[Campaign Truths:] 3--5 world statements agreed at session zero (#emph[Magic is real but feared];, #emph[The Corporation owns the police];).
+#colbreak()
 - #strong[Creating Truths:] players use the #strong[Create] effect or spend #strong[2 Momentum];; the GM spends #strong[2 Woe];.
 - #strong[Removing Truths:] use the Weaken or Create effect as a counter (\"I kill the lights\" removes #emph[Brightly Lit];), at GM discretion.
 
 See #strong[Module C] for using Truths to drive a sandbox campaign.
-
-== 9. Momentum and Woe (2d20)
+]
+#pagebreak() 
+== 9. Momentum and Woe
+  #columns(2, gutter: 6mm)[
 === 9.1 Momentum (shared by the party, max 6)
 #strong[Gain:] unspent Power from rolls. #strong[Decay:] lose 1 Momentum at the end of each scene.
 
@@ -804,7 +804,7 @@ See #strong[Module C] for using Truths to drive a sandbox campaign.
   )]
   , kind: table
   )
-
+#colbreak()
 === 9.2 Woe (the GM\'s pool)
 #strong[Starting Woe:] 2 per PC at the start of a session. #strong[GM gains Woe from:] players buying dice with Woe, Success at a Cost (if chosen), failures (+1), complications from doubles (+2), refused compels, and dangerous scene Truths (+1 per scene).
 
@@ -824,8 +824,10 @@ See #strong[Module C] for using Truths to drive a sandbox campaign.
   )]
   , kind: table
   )
+]
 
 == 10. Conflict System
+#columns(2, gutter: 6mm)[
 #strong[Every big contest uses full scripting.] Small obstacles are handled with a single roll; anything that meets the conflict test below becomes a scripted conflict.
 
 === 10.1 When It\'s a Conflict
@@ -836,12 +838,14 @@ Use a conflict when #strong[any two] of these are true:
 - The outcome would #strong[change the story] (a relationship, a location, a faction, someone\'s life).
 - A single roll would feel #strong[anticlimactic] to the table.
 
+#colbreak()
 === 10.2 Setup
 + #strong[Declare intent:] each side states what it wants if it wins.
 + #strong[Choose the conflict type] (§10.3), which sets the skill for each action.
 + #strong[Disposition:] the leader of each side rolls #strong[2d12 + the type\'s Disposition skill + the highest Edge in that skill\'s pool];, halves the result (round up), and adds +1 per helper. That is the side\'s #strong[Disposition] (usually 7--12), divided among team members as the side chooses.
 + #strong[Track] Disposition as a number or a clock.
-
+]
+  
 === 10.3 Conflict Types
 #figure(
   [#table(
@@ -861,36 +865,36 @@ Use a conflict when #strong[any two] of these are true:
   )]
   , kind: table
   )
-
-Settings can add types; each type needs one skill per action and a Disposition skill. A dash (---) means that action isn\'t available in that type.
-
+#pagebreak()
+#columns(2, gutter: 6mm)[
+  Settings can add types; each type needs one skill per action and a Disposition skill. A dash (---) means that action isn\'t available in that type.
 === 10.4 Scripting and Volleys
 Each #strong[exchange] is three #strong[volleys];. Each side secretly #strong[scripts] three actions in order, then they are revealed one volley at a time.
 
 - #strong[Rotation:] every team member must act once in an exchange before anyone acts twice (Mouse Guard rule).
 - #strong[Changing your script:] spend 2 Momentum (players) or 3 Woe (GM) to swap one unrevealed action.
-
+- #strong[Independent:] roll against Standard 15 (adjusted by Truths and the opposition\'s tags).
+- #strong[Versus:] both sides roll; the higher total wins, and the margin over the loser\'s total decides Power (meet = 1, +1 per full 3).
+ 
 #figure(
   [#table(
-    columns: (10.89%, 23.76%, 23.76%, 24.75%, 16.83%),
+    columns: (18%, 21%, 23%, 20%, 18%),
     align: (auto,auto,auto,auto,auto,),
     table.header([], [Attack], [Defend], [Feint], [Maneuver],),
     table.hline(),
     [#strong[Attack];], [Both roll independently], [Versus], [Attack independent; Feint does nothing], [Versus],
-    [#strong[Defend];], [Versus], [Both roll independently], [Feint independent; Defend does nothing], [Versus],
+    [#strong[Defend];], [Versus], [Both roll independ-ently], [Feint independent; Defend does nothing], [Versus],
     [#strong[Feint];], [Attack independent; Feint does nothing], [Feint independent; Defend does nothing], [Versus], [Versus],
-    [#strong[Maneuver];], [Versus], [Versus], [Versus], [Both roll independently],
+    [#strong[Maneuver];], [Versus], [Versus], [Versus], [Both roll independ-ently],
   )]
   , kind: table
   )
 
-- #strong[Independent:] roll against Standard 15 (adjusted by Truths and the opposition\'s tags).
-- #strong[Versus:] both sides roll; the higher total wins, and the margin over the loser\'s total decides Power (meet = 1, +1 per full 3).
 
 === 10.5 Actions and Effects
 #figure(
   [#table(
-    columns: (11%, 89%),
+    columns: (20%, 80%),
     align: (auto,auto,),
     table.header([Action], [Default effect of Power],),
     table.hline(),
@@ -946,50 +950,44 @@ Players may #strong[Resist] compromise statuses as usual (§6).
 - Disposition of 7--12 should resolve in one or two exchanges.
 - NPC sides script on index cards; minions act as a single group with one script.
 - Table guideline: about 15--20 minutes per conflict.
-
-== 11. Playbooks
-#quote(block: true)[
-#strong[Full playbooks] (eight abilities, capstone, and Fantasy/Modern/Sci-Fi equipment for each), load rules, and sample Focuses are in #emph[Generic Playbooks];. The version there replaces the example abilities in §11.2.
 ]
-
+  
+#pagebreak(weak: true)
+== 11. Playbooks
+#columns(2, gutter: 6mm)[
 Each playbook is a one-page sheet with:
 
 - #strong[Base pools and Edge]
 - #strong[Anchor skill] (must be +3 or +4)
 - #strong[Special abilities:] 1 free at start (6--8 options); more cost Refresh at creation or come from advancement. Major abilities are marked ★.
+#colbreak()
 - #strong[XP trigger:] one playbook-specific behaviour that earns XP
 - #strong[Load-out list:] playbook items plus generic items, Blades-style light/normal/heavy load
 - #strong[Relationship prompts:] 1 ally and 1 rival
-
+Settings rename and reskin playbooks (Adept becomes \"Hedge Witch\" in fantasy, \"Netrunner\" in cyberpunk) but keep the structure.
+]
+  
 === 11.1 Generic Core Playbooks
 #figure(
   [#table(
-    columns: (14%, 14%, 21%, 33%, 18%),
+    columns: (21%, 18%, 16%, 35%, 20%),
     align: (auto,auto,auto,auto,auto,),
-    table.header([Playbook], [Anchor], [Base pools (Vit / Alc / Psy / Pne)], [XP trigger], [Concept],),
+    table.header([Playbook], [Anchor], [Base pools (Som / Acm / Psy / Pne)], [XP trigger], [Concept],),
     table.hline(),
-    [#strong[Bruiser];], [Fight or Brawl], [12/10/6/8], [Address a challenge with force or threats], [Front-line muscle],
-    [#strong[Operator];], [Stealth], [8/12/8/8], [Address a challenge with stealth or precision], [Infiltrator, scout, thief],
-    [#strong[Sage];], [Lore or Investigate], [7/8/13/8], [Address a challenge with knowledge or insight], [Scholar, detective, scientist],
-    [#strong[Face];], [Persuade], [7/9/9/11], [Address a challenge with charm, lies, or bargaining], [Diplomat, con artist, leader],
-    [#strong[Wayfarer];], [Survival], [11/11/7/7], [Address a challenge with endurance or the land], [Ranger, pilot, explorer],
+    [#strong[Bellator];], [Fight or Brawl], [12/10/6/8], [Address a challenge with force or threats], [Front-line muscle],
+    [#strong[Explorator];], [Stealth], [8/12/8/8], [Address a challenge with stealth or precision], [Infiltrator, scout, thief],
+    [#strong[Savant];], [Lore or Investigate], [7/8/13/8], [Address a challenge with knowledge or insight], [Scholar, detective, scientist],
+    [#strong[Interlocutor];], [Persuade], [7/9/9/11], [Address a challenge with charm, lies, or bargaining], [Diplomat, con artist, leader],
+    [#strong[Explorator];], [Survival], [11/11/7/7], [Address a challenge with endurance or the land], [Ranger, pilot, explorer],
     [#strong[Adept];], [Arcana or Tech], [7/8/9/12], [Address a challenge with your powers or gadgets], [Mage, psychic, hacker],
   )]
   , kind: table
   )
 
-Settings rename and reskin playbooks (Adept becomes \"Hedge Witch\" in fantasy, \"Netrunner\" in cyberpunk) but keep the structure.
 
-=== 11.2 Example Abilities (Operator)
-#quote(block: true)[
-#strong[Ghost.] When you spend Effort on a Stealth roll, your first use of Effort costs 0 pool points. Once per scene, when spotted, you may spend 1 Momentum to declare you were never seen; you\'re in a nearby hidden position.
-]
-
-#quote(block: true)[
-#strong[★ Shadow Step.] Once per scene, move from one shadow to another you can see as if you had walked there unseen. No roll needed unless the destination is guarded. #emph[(Major: costs 1 Refresh.)]
-]
 
 == 12. Advancement
+#columns(2, gutter: 6mm)[
 === 12.1 Earning XP (end of session)
 1 XP per \"yes\" unless noted:
 
@@ -1001,6 +999,7 @@ Settings rename and reskin playbooks (Adept becomes \"Hedge Witch\" in fantasy, 
 
 #strong[MVP vote:] the table votes on one standout moment each session; that player gets +1 Tychē Point at the next session (above Refresh).
 
+#colbreak()
 === 12.2 Spending XP (every 6 XP = 1 Advance)
 - +1 to a skill (following the pyramid rule)
 - +3 to one pool, or +1 Edge (max 3 Edge per pool)
@@ -1009,18 +1008,23 @@ Settings rename and reskin playbooks (Adept becomes \"Hedge Witch\" in fantasy, 
 - #strong[+1 Refresh] (buys back Refresh spent on abilities or artifacts; max base 3 + 1 per 3 Advances)
 - A Focus ability from the next tier (requires 3 Advances per tier)
 - #strong[+1 Effort Level] (to Level 2 after 3 Advances; Level 3 after 9 Advances)
+]
 
+#pagebreak()
 == 13. Example of Play
+#columns(2, gutter: 6mm)[
 #strong[Kade];, a #emph[Reckless Operator who Never Leaves Anyone Behind] (Alacrity Edge 1, Effort Level 2), is creeping through a warehouse to free a captured friend. Scene Truths: #emph[Dim Lighting];, #emph[Patrolling Guards];.
 
 - #strong[Roll:] Stealth +3, power tag #emph[quiet boots] +1, power tag #emph[knows this district] +1 (tags capped at +2). The GM sets Hard 18 but #emph[Dim Lighting] lowers it to Standard 15. Kade needs 10+ on the dice.
 - #strong[Effort, part 1:] Kade spends 3 − 1 Edge = 2 Alacrity for a bonus die → 3d12 keep 2.
 - #strong[Result:] dice show 9, 9, 4 → keep 9 + 9 = 18, +5 = 23. That\'s 8 over → #strong[3 Power];, plus #strong[doubles on a success → +1 = 4 Power];.
+#colbreak()
 - #strong[Effort, part 2:] Kade spends another 2 Alacrity for #strong[+1 Power → 5 Power];.
 - #strong[Spend:] Advance the #emph[Reach the Cell] clock by 3 (3 Power), Discover (1 Power): \"Where is the key?\" --- \"On the sergeant\'s belt.\" 1 Power left → #strong[+1 Momentum];.
 - #strong[Later:] the sergeant\'s dread patron, a bound spirit, lashes out with #emph[terror-3];. Kade Resists with #strong[Pneuma] (Edge 0): highest die 7 → cost 2 Pneuma. The status drops to #emph[terror-1];.
 - #strong[Compel:] the GM compels #emph[Reckless];: \"You can\'t wait for backup; you go in now.\" Kade accepts and gains +1 Tychē Point.
-
+]
+  
 == 14. Design Notes --- What Was Kept, Changed, Cut
 #figure(
   [#table(
@@ -1037,7 +1041,7 @@ Settings rename and reskin playbooks (Adept becomes \"Hedge Witch\" in fantasy, 
   )]
   , kind: table
   )
-
+  
 === 14.1 Known Risks
 - #strong[Currency load:] pools + Tychē + Momentum + Woe is the upper limit for medium crunch. Keep spend menus short on the sheet.
 - #strong[Modifier range (revised):] max is skill +4, tags +2, helpful status up to +6, Tychē invoke +2. Statuses are now the largest swing. Playtest a ±3 status cap.
@@ -1051,23 +1055,11 @@ Settings rename and reskin playbooks (Adept becomes \"Hedge Witch\" in fantasy, 
 #chapter("Optional Modules", [Three drop-in modules for longer campaigns: one-use cyphers and dangerous artifacts, the grinding cost of travel and hardship, and a sandbox where the world itself is written in Truths.], epigraph: [Use any, all, or none. On the Frontier, all three are recommended.])
 
 == Module A --- Cyphers & Artifacts (Cypher)
+#columns(2, gutter: 6mm)[
 Cyphers are frequent, disposable power-ups that encourage players to use them rather than hoard them. Artifacts are rare, reusable items that may run out.
 
 === A.1 Cyphers
-- #strong[What they are:] one-use items or effects --- potions, grenades, scrolls, nanite injectors, blessed relics, strange tech. Each has a #strong[tier (1--6)];.
-- #strong[Using one:] an action, usually with #strong[no roll];. The cypher generates #strong[Power equal to its tier];, spent only on the Effects listed on the cypher. Some create a Truth or a story tag instead.
-- #strong[Cypher Limit:] each PC can carry #strong[2] cyphers (some playbooks or Focuses grant 3).
-- #strong[Over the limit:] at the end of each scene, the GM gains 1 Woe per extra cypher and may trigger a #strong[Volatile] result (roll d12: 1--4 one cypher fires randomly; 5--8 one cypher is ruined; 9--12 nothing happens yet).
-- #strong[Subtle cyphers] (setting option): instead of physical objects, cyphers are luck, insights, or favours (\"a contact owes you\", \"a flash of insight\"). They work the same way and fit low-magic or modern games.
-- #strong[GM pacing:] give out 1--2 cyphers per PC per session. They should feel like loot that gets spent.
-
-#strong[Cypher format:]
-
-#quote(block: true)[
-#strong[Flashbang] (Tier 3) --- #emph[Effects:] Attack (dazed), Weaken. #emph[Form:] palm-sized canister. #strong[Draught of Iron Skin] (Tier 2) --- #emph[Effects:] Enhance (armoured), Restore. Lasts one scene.
-]
-
-#strong[Sample cypher table (d12):]
+  #strong[Sample cypher table (d12):]
 
 #figure(
   [#table(
@@ -1090,6 +1082,18 @@ Cyphers are frequent, disposable power-ups that encourage players to use them ra
   )]
   , kind: table
   )
+- #strong[What they are:] one-use items or effects --- potions, grenades, scrolls, nanite injectors, blessed relics, strange tech. Each has a #strong[tier (1--6)];.
+- #strong[Using one:] an action, usually with #strong[no roll];. The cypher generates #strong[Power equal to its tier];, spent only on the Effects listed on the cypher. Some create a Truth or a story tag instead.
+- #strong[Cypher Limit:] each PC can carry #strong[2] cyphers (some playbooks or Focuses grant 3).
+- #strong[Over the limit:] at the end of each scene, the GM gains 1 Woe per extra cypher and may trigger a #strong[Volatile] result (roll d12: 1--4 one cypher fires randomly; 5--8 one cypher is ruined; 9--12 nothing happens yet).
+- #strong[Subtle cyphers] (setting option): instead of physical objects, cyphers are luck, insights, or favours (\"a contact owes you\", \"a flash of insight\"). They work the same way and fit low-magic or modern games.
+- #strong[GM pacing:] give out 1--2 cyphers per PC per session. They should feel like loot that gets spent.
+
+#strong[Cypher format:]
+
+#quote(block: true)[
+#strong[Flashbang] (Tier 3) --- #emph[Effects:] Attack (dazed), Weaken. #emph[Form:] palm-sized canister. #strong[Draught of Iron Skin] (Tier 2) --- #emph[Effects:] Enhance (armoured), Restore. Lasts one scene.
+]
 
 === A.2 Artifacts
 - #strong[What they are:] reusable items of real power --- a flaming sword, a psychic amplifier, a starship\'s AI core.
@@ -1103,8 +1107,10 @@ Cyphers are frequent, disposable power-ups that encourage players to use them ra
 #quote(block: true)[
 #strong[★ Ember-Brand] (longsword) --- #emph[Tags:] blade of living flame, +1 Attack (conflict gear). #emph[Ability:] spend 1 Power to add #emph[burning] to any status you inflict. #emph[Depletion:] 1 in d12 (goes cold until bathed in a forge). #emph[Quirk:] #emph[cannot be hidden];.
 ]
-
+]
+  
 == Module B --- The Grind & Travel (Mouse Guard)
+#columns(2, gutter: 6mm)[
 The Grind turns time, distance, and hardship into slow, steady pressure. It pairs with Mouse Guard\'s GM\'s Turn / Players\' Turn structure.
 
 === B.1 Session Structure
@@ -1174,14 +1180,16 @@ A journey is a #strong[Journey clock] (6 for a short trip, 8 for a hard trip, 12
 - #strong[Terrain and weather] are Truths that set Difficulty (#emph[Muskeg];, #emph[Whiteout];, #emph[Rapids];, #emph[Washed-out Road];).
 - #strong[Encounters:] the GM spends Woe (1 for a minor encounter, 3 for a major one), or uses the Scout\'s failed roll.
 - #strong[Portages and hard stretches:] a special leg (Endure or Athletics roll for every PC); failure ticks the Grind clock twice.
+]
 
 == Module C --- Truth-Driven Sandbox (2d20)
+#columns(2, gutter: 6mm)[
 Truths become the backbone of an open-world campaign: regions, sites, and factions are defined by Truths that players can discover, exploit, and change.
 
 === C.1 Truth Layers
 #figure(
   [#table(
-    columns: (11%, 53%, 36%),
+    columns: (20%, 50%, 30%),
     align: (auto,auto,auto,),
     table.header([Layer], [Example], [Lifespan],),
     table.hline(),
@@ -1255,12 +1263,14 @@ Between sessions (or each in-world week), the GM takes a #strong[World Turn];:
 - #strong[Discover] effects and Momentum spends reveal hidden Truths.
 - #strong[Create] effects and 2 Momentum create Scene Truths; bigger changes need a progress clock (8 segments for a Site Truth, 12 for a Region Truth).
 - Major arcs can rewrite Campaign Truths. These are the \"legacy\" moments of the campaign.
-
+]
+  
 // =====================================================================
 //  CHAPTER — GENERIC PLAYBOOKS
 // =====================================================================
 #chapter("Generic Playbooks", [The six genre-neutral playbooks: Bruiser, Operator, Sage, Face, Wayfarer and Adept. Each has eight special abilities, a capstone and starting equipment for three genres. The Frontier playbooks in Chapter VIII reskin these six.], epigraph: [The noun of the character sentence.])
 
+#colbreak(weak: true)
 == 1. Playbook Rules
 === 1.1 What a Playbook Gives You
 #figure(
@@ -1306,6 +1316,7 @@ Between sessions (or each in-world week), the GM takes a #strong[World Turn];:
   , kind: table
   )
 
+#colbreak(weak: true)
 == 2. Equipment Rules
 === 2.1 Load (Blades in the Dark)
 Before a mission, choose your #strong[load];. During play, declare items from your playbook kit as you need them and mark their load.
@@ -1364,6 +1375,7 @@ Armour that absorbs a tier-4+ hit is #emph[damaged] (−1 Armour) until repaired
   , kind: table
   )
 
+#pagebreak(weak: true)
 == 3. Bruiser
 #quote(block: true)[
 Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers, bouncers, gladiators, mercenaries, security officers.
@@ -1403,7 +1415,7 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
   )]
   , kind: table
   )
-
+#pagebreak()
 === 3.2 Starting Equipment
 #strong[Signature weapon (choose 1)]
 
@@ -1447,6 +1459,7 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
 
 #strong[Relationships:] Ally --- an old comrade-in-arms, a trainer, a medic who\'s patched you up too often. Rival --- the one who beat you once, a former commander, a rival enforcer.
 
+#pagebreak(weak: true)
 == 4. Operator
 #quote(block: true)[
 Quiet, precise, and always three exits ahead. Thieves, spies, scouts, assassins, infiltrators, saboteurs.
@@ -1486,7 +1499,7 @@ Quiet, precise, and always three exits ahead. Thieves, spies, scouts, assassins,
   )]
   , kind: table
   )
-
+#pagebreak()
 === 4.2 Starting Equipment
 #strong[Signature item (choose 1)]
 
@@ -1530,6 +1543,7 @@ Quiet, precise, and always three exits ahead. Thieves, spies, scouts, assassins,
 
 #strong[Relationships:] Ally --- a fence, a forger, a former mentor. Rival --- an inspector who\'s close to catching you, a rival thief, the partner who betrayed you.
 
+#pagebreak(weak: true)
 == 5. Sage
 #quote(block: true)[
 Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, physicians, archivists, engineers.
@@ -1569,7 +1583,7 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
   )]
   , kind: table
   )
-
+#pagebreak()
 === 5.2 Starting Equipment
 #strong[Signature item (choose 1)]
 
@@ -1613,6 +1627,7 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
 
 #strong[Relationships:] Ally --- a former teacher, a librarian, a patient who owes you their life. Rival --- an academic rival, an ex-colleague who stole your work, a cultist who wants your research.
 
+#pagebreak(weak: true)
 == 6. Face
 #quote(block: true)[
 Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators, preachers, captains.
@@ -1652,7 +1667,7 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
   )]
   , kind: table
   )
-
+#pagebreak()
 === 6.2 Starting Equipment
 #strong[Signature item (choose 1)]
 
@@ -1696,6 +1711,7 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
 
 #strong[Relationships:] Ally --- a well-placed patron, a loyal servant, a reporter. Rival --- a political opponent, a jilted lover, someone you conned who wants payback.
 
+#pagebreak(weak: true)
 == 7. Wayfarer
 #quote(block: true)[
 At home where the map ends. Rangers, hunters, pilots, guides, explorers, scouts, voyageurs.
@@ -1735,7 +1751,7 @@ At home where the map ends. Rangers, hunters, pilots, guides, explorers, scouts,
   )]
   , kind: table
   )
-
+#pagebreak()
 === 7.2 Starting Equipment
 #strong[Signature item (choose 1)]
 
@@ -1779,6 +1795,7 @@ At home where the map ends. Rangers, hunters, pilots, guides, explorers, scouts,
 
 #strong[Relationships:] Ally --- a trapper, a bush pilot, a village elder. Rival --- a poacher, a rival guide, the company that wants your land.
 
+#pagebreak(weak: true)
 == 8. Adept
 #quote(block: true)[
 Power from beyond the ordinary: magic, psionics, faith, or impossible technology. Mages, psychics, priests, hackers, gadgeteers.
@@ -1886,9 +1903,7 @@ Every Adept has a #strong[Domain];: a broad power tag describing what they can d
 
 #strong[Relationships:] Ally --- your teacher, a fellow initiate, an entity you\'ve bargained with. Rival --- a rival practitioner, a hunter of your kind, the order that cast you out.
 
-== 9. Sample Focuses
-The full list of #strong[24 setting-neutral Focuses] (tiered abilities, with a choice at Tiers 2 and 3, and ◈ Weird markers) is in #emph[Generic Focuses];. It replaces the six samples that used to be here.
-
+#pagebreak()
 == 10. Design Notes
 === 10.1 Balance Targets
 #figure(
@@ -1919,6 +1934,7 @@ The full list of #strong[24 setting-neutral Focuses] (tiered abilities, with a c
 // =====================================================================
 #chapter("Generic Focuses", [Twenty-four setting-neutral Focuses complete the sentence: "...who [Focus]." Each one has two power tags, a weakness, a link to another player character, and tiered abilities with a choice at Tiers 2 and 3.], epigraph: [The verb of the character sentence.])
 
+#columns(2, gutter: 6mm)[
 == 1. Focus Rules
 === 1.1 What a Focus Gives You
 #figure(
@@ -2566,7 +2582,7 @@ Mutant, cyborg, half-fae, or carrier of a strange bloodline.
   )]
   , kind: table
   )
-
+#colbreak()
 == 9. Design Notes
 === 9.1 Coverage by Playbook
 #figure(
@@ -2594,7 +2610,8 @@ Off-type combinations are encouraged: a #emph[Face who Masters a Weapon] is a du
 - #strong[Overlap with playbook abilities:] a few Focus abilities echo playbook abilities (Beast Lore / Monster Lore, Trap Sense / Escape Artist). That\'s intended for off-type characters; for on-type characters, the two don\'t stack. Take the better one.
 - #strong[★ distribution:] every Focus has exactly one ★ option, and it\'s never the Tier 1 ability, so you can always reach Tier 3 at full Refresh.
 - #strong[Gaps for v0.3:] a dedicated faith/priest Focus (non-Weird reading: \"Keeps the Faith\"), a scholar-of-war Focus, a merchant/trader Focus, and a performer/artist Focus.
-
+]
+  
 // =====================================================================
 //  CHAPTER — FRONTIER RULES
 // =====================================================================
@@ -3116,7 +3133,7 @@ Each entry also has a #strong[Frontier hook];: one question to answer at charact
   )]
   , kind: table
   )
-
+#columns(2, gutter: 6mm)[
 == 3. Descriptors
 === 1. Bitten
 #quote(block: true)[
@@ -3346,7 +3363,8 @@ Someone took everything from you. You\'ll take it back, in blood.
 - \"I am a #strong[Vengeful] #strong[Cyborg Hunter] who #strong[Seeks Revenge on a Noble];.\"
 - \"I am a #strong[Superstitious] #strong[Warden] who #strong[Holds the Line Until Dawn];.\"
 - \"I am a #strong[Coveted] #strong[Occultist] who #strong[Loves What It Should Hate];.\"
-
+]
+  
 // =====================================================================
 //  CHAPTER — FRONTIER PLAYBOOKS
 // =====================================================================
@@ -3376,6 +3394,7 @@ Someone took everything from you. You\'ll take it back, in blood.
 
 #strong[Skill names] follow #emph[Frontier Rules] §3 (Ride, Frontier, Noble Lore, Science, Occult).
 
+#columns(2, gutter: 6mm)[
 == 1. Sellsword
 #quote(block: true)[
 Muscle for hire. You stand between the village and the thing coming out of the dark, and you hold the stake when it\'s time.
@@ -4186,7 +4205,9 @@ Sheriff, militia captain, or the old soldier who keeps the village alive. You do
 - #strong[Instinct:] \"Always check the doors at dusk.\" / \"Never leave the village when a stranger\'s in town.\"
 
 #strong[Relationships:] Ally --- the mayor, the blacksmith, a widow whose husband died on the wall. Rival --- a Hunter who wants to use the village as bait, a council member who\'d rather pay tribute, a Noble who has tried before.
+]
 
+#pagebreak()
 == 10. Design Notes
 === 10.1 Balance Targets
 #figure(

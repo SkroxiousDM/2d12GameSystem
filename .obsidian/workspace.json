@@ -6,7 +6,7 @@
       {
         "id": "b652f9ef2f42b5f6",
         "type": "tabs",
-        "dimension": 33.33333333333333,
+        "dimension": 40.184994861253855,
         "children": [
           {
             "id": "61388ba6a52dbd3b",
@@ -14,10 +14,10 @@
             "state": {
               "type": "typst-source",
               "state": {
-                "file": "Mythographer 5e template.typ"
+                "file": "docs/VampireHunterD/vampire-hunter-d-2d12-v2-master-rulebook.typ"
               },
               "icon": "file-type",
-              "title": "Mythographer 5e template"
+              "title": "vampire-hunter-d-2d12-v2-master-rulebook"
             }
           }
         ]
@@ -25,7 +25,7 @@
       {
         "id": "4b65b2bab8ecc103",
         "type": "tabs",
-        "dimension": 49.61636828644501,
+        "dimension": 59.81500513874615,
         "children": [
           {
             "id": "1af5f37d9da47b3a",
@@ -33,31 +33,12 @@
             "state": {
               "type": "typst-preview",
               "state": {
-                "vaultPath": "Mythographer 5e.typ",
+                "vaultPath": "docs/VampireHunterD/vampire-hunter-d-2d12-v2-master-rulebook.typ",
                 "themeOverride": null,
                 "pinned": false
               },
               "icon": "book-open",
-              "title": "Preview: Mythographer 5e.typ"
-            }
-          }
-        ]
-      },
-      {
-        "id": "2f6156752ce7b8e7",
-        "type": "tabs",
-        "dimension": 17.050298380221655,
-        "children": [
-          {
-            "id": "02c750b5cf66b4d5",
-            "type": "leaf",
-            "state": {
-              "type": "typst-source",
-              "state": {
-                "file": "Mythographer 5e template.typ"
-              },
-              "icon": "file-type",
-              "title": "Mythographer 5e template"
+              "title": "Preview: vampire-hunter-d-2d12-v2-master-rulebook.typ"
             }
           }
         ]
@@ -197,9 +178,9 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mythographer 5e template.typ",
-                "followCursor": false,
-                "showSearch": true,
+                "file": "docs/VampireHunterD/vampire-hunter-d-2d12-v2-master-rulebook.typ",
+                "followCursor": true,
+                "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
@@ -211,7 +192,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 403.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,11 +208,14 @@
   },
   "active": "61388ba6a52dbd3b",
   "lastOpenFiles": [
+    "docs/02.4 Roles.md",
+    "docs/VampireHunterD/vampire-hunter-d-2d12-v2-master-rulebook.typ",
+    "docs/02-character-creation.md",
+    "Mythographer 5e template.typ",
     "docs/VampireHunterD/vhd-setting-rules.md",
     "docs/VampireHunterD/vhd-playbooks.md",
     "docs/VampireHunterD/vhd-focuses.md",
     "docs/VampireHunterD/vhd-descriptors.md",
-    "docs/VampireHunterD/vampire-hunter-d-2d12-v2-master-rulebook.typ",
     "docs/VampireHunterD/playbooks.md",
     "docs/VampireHunterD/focuses.md",
     "docs/VampireHunterD/How do pools regenerate. How does resting work.md",
@@ -241,7 +226,6 @@
     "System components.md",
     "Magical Traditions.md",
     "Owlbear template.typ",
-    "Mythographer 5e template.typ",
     "owlbear-0.0.1/templates/book.typ",
     "mythographer-5e-0.0.2/typst.toml",
     "mythographer-5e-0.0.2/template/TheDarkTypst.typ",
@@ -265,9 +249,6 @@
     "docs/Draft/Christianity, the Saints, and Miracles.md",
     "docs/Draft/Saxon Gods and Magic.md",
     "docs/Draft/cthulhu_magic_for_conan.md",
-    "docs/Draft/2d12-Conan-Sorcery.md",
-    "docs/Draft/2d12-magic-chapter-draft.md",
-    "docs/Draft/2d12-Conan-Sorcery (1).md",
     "Pasted image 20260624191910.png"
   ]
 }

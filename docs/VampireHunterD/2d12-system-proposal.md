@@ -1,12 +1,13 @@
 # 2d12 System — Design Proposal (v0.2)
 
-> Working title. 
-> Generic, multi-genre, medium crunch.
-> Combines: 
-> **Fate** (skill pyramid, Fate Points) · 
-> **Cypher** (pools, Edge, character sentence) · **Otherscape** (tags, effects) · 
-> **Mouse Guard** (conflict system, Beliefs/Instincts/Goals) ·
-> **Blades in the Dark** (playbooks, resistance & stress, clocks) ·
+> Working title. <br>
+> Generic, multi-genre, medium crunch.<br>
+> Combines:<br> 
+> **Fate** (skill pyramid, Fate Points) · <br>
+> **Cypher** (pools, Edge, character sentence) ·<br> 
+> **Otherscape** (tags, effects) · <br>
+> **Mouse Guard** (conflict system, Beliefs/Instincts/Goals) ·<br>
+> **Blades in the Dark** (playbooks, resistance & stress, clocks) ·<br>
 > **2d20** (Momentum, Threat, Truths)
 
 ### Changes in v0.2

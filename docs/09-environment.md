@@ -6,16 +6,13 @@ Each round you are suffocating, you suffer 1 Vitality Stress, ignoring Armour. W
 ## 09.2-Exposure
 
 Every 4 hours spent in an inhospitable environment — such as subzero temperatures, a scorching desert, or a howling storm — requires a **Challenging** Fortitude test. In more extreme environments, the GM may call for a test every hour, or more often if the situation is severe. Any effects or conditions caused by Exposure last until you spend at least 4 hours outside the environment.
-
-## Cold
+#### Cold
 
 Your first failure imposes Disadvantage on Dexterity and Agility tests. Your second failure imposes Disadvantage on all tests. Your third and subsequent failures cause 4 physical stress that ignores Armour; if this reduces your Vitality to 0, you fall Unconscious and continue to suffer 4 physical stress and accrue Critical Wounds until you die or are removed to safety. Certain equipment may grant bonuses to cold Exposure tests or remove the need for them entirely.
-
-## Noxious
+#### Noxious
 
 Your first failure causes coughing and spluttering, imposing Disadvantage on Stealth tests and on Awareness tests using Hearing or Smell. Your second failure imposes the Poisoned Minor condition. Your third failure imposes the Poisoned Major condition.[14-effects-and-conditions.md](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_4243017b-6202-418b-9b05-577113e12830/d489c510-b561-43d8-9a58-461013c83d99/14-effects-and-conditions.md)
-
-## Heat
+#### Heat
 
 Your first failure imposes Disadvantage on Intelligence and Willpower tests. Your second failure imposes Disadvantage on all tests and makes you Fatigued. Your third and subsequent failures cause 5 physical stress that ignores Armour; if this reduces your Vitality to 0, you suffer a second Fatigued condition and continue to suffer 4 physical stress and accrue Critical Wounds until you die or are removed to safety. Stripping off heavy clothing and armour negates 1 failed test.
 

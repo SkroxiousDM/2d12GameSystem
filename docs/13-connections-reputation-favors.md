@@ -4,7 +4,9 @@
 
 - Help your character achieve their goals and provide opportunities your character would otherwise lack  
 - Request things of your character, serving as a source of adventures or extra goals to achieve.  
-- Be threatened by your character’s enemies As you can see, connections are a double-edged sword, equal parts advantage and disadvantage.
+- Be threatened by your character’s enemies 
+
+As you can see, connections are a double-edged sword, equal parts advantage and disadvantage.
 
 ### Contacts
 
@@ -28,26 +30,29 @@
 - Access to a particular location   
 - Protection from others 
 
-A character can ask a contact for aid by means of a Charisma  \+ Manipulation test with a difficulty based on the relationship’s classification. Offering something in return reduces the difficulty at the GM’s discretion, with more substantial compensation reducing the difficulty further. You may also reduce the difficulty by up to 2 levels at the cost of downgrading the relationship classification by one step (from great to fair or from neutral to poor, for instance) after the current adventure ends— insisting on the importance of your request makes your contact more likely to grant it but places strain on your relationship. If you pass the skill test, the contact provides the aid your character has requested. On a failure, the contact insists they are in no position to assist or offers other explanations or excuses. A new offer of compensation might allow for another skill test with a revised difficulty, though the GM might determine the contact is currently unwilling to provide aid regardless of incentives.   
+A character can ask a contact for aid by means of a Charisma  \+ Manipulation test with a difficulty based on the relationship’s classification. Offering something in return reduces the difficulty at the GM’s discretion, with more substantial compensation reducing the difficulty further. You may also reduce the difficulty by up to 2 levels at the cost of downgrading the relationship classification by one step (from great to fair or from neutral to poor, for instance) after the current adventure ends— insisting on the importance of your request makes your contact more likely to grant it but places strain on your relationship. If you pass the skill test, the contact provides the aid your character has requested. On a failure, the contact insists they are in no position to assist or offers other explanations or excuses. A new offer of compensation might allow for another skill test with a revised difficulty, though the GM might determine the contact is currently unwilling to provide aid regardless of incentives.  
+ 
 Your character might also request a work opportunity from a contact, asking whether they have anything they need done and offering to do it. Your character can offer to help without compensation if they wish; if they do so, for each job they complete, the relationship classification improves by one step (to a maximum of great). If the relationship is already at the great classification, then your character gains a free favor for every job done without compensation. When a contact asks your character for aid or to do a job, it’s up to you whether to help them, and your character is welcome to request compensation in return. However, if your character chooses not to help them and has no adequate excuse (as determined by the GM), the relationship may worsen, dropping to the next step down.
 
 ### FACTIONS
 
  Groups of people your character has a connection with are called factions. Factions represent significant groups and social circles that characters move within, from the Imperial court of the emperor and their advisors, to trade guilds and secret societies, to neighborhoods and street gangs. A faction works similarly to a contact, providing and requesting aid and serving as a source of work. However, with a faction, rather than dealing with a single person, your character is dealing with a group of people and the politics that come with that. Your character has a reputation and an influence with each faction they’re connected to, rather than a relationship classification.   
+
 Reputation represents your character’s standing within a particular faction and how well regarded they are by the faction’s other members. If your character belongs to a faction, their reputation within it is normally a number between 5 and 10, but it can be higher or lower in some unusual circumstances. Normally, if your character’s reputation is less than 5, they’re considered a contact of the faction rather than being a member or associate of it.   
+
 Influence is your character’s status and power within a faction: it’s a rough estimate of how much your character’s opinion and agenda matter to the faction. Influence is a number between 0 and 5, with 1 representing minimal say in matters and 5 representing a significant ability to influence others. If your character has an influence of 0, then they have no influence at all, though this also means that few people pay them any mind, which can prove an advantage in some circumstances. Servants often have an influence of 0 with their employers—they’re part of the relevant faction, but not a part with any power. Your character’s reputation and influence change over time. It is entirely possible to have a high reputation and a low influence, or vice versa: a trusted servant may have a high reputation, but their influence is likely minimal beyond an occasional word in their employer’s ear, while an unpopular, tyrannical leader may have a low reputation but a high influence. 
 
-Seeking Aid   
+#### Seeking Aid   
 When your character approaches a faction seeking aid, the base difficulty is equal to 5 minus their influence with that faction. As with a contact, your character may offer something in return to reduce this difficulty by 1, or you may choose to reduce the difficulty by 2 at the cost of reducing your character’s influence by 1 after the current adventure.
 
-Seeking Work  
+#### Seeking Work  
  If your character offers to work for a faction without compensation, completing a number of jobs equal to your character’s reputation increases your character’s reputation within that faction by \+1, to a maximum of 10\. If your character’s reputation is already 10, they may instead increase their influence by \+1, to a maximum of 5, though the GM may impose a lower ceiling on influence gained by work alone. Some factions may have special requirements to attain the highest level of influence. 
 
-Favors   
+## Favors   
 A favor is a valuable thing. During play, your character may gain favors from, and owe favors to, their various contacts and factions. The number of favors they can have and owe is unlimited. When you use a favor, you may automatically pass a skill test to request help from the contact or faction that owes your character the favor. Similarly, your character may gain a favor as compensation for a job done or aid provided to a faction or contact. If your character owes a favor, the contact or faction they owe it to may call it in when they request aid or your character seeks work from them; instead of giving your character compensation for the aid provided or job done, the contact or faction is no longer owed the favor. If your character refuses to provide requested aid or work when they owe a favor, it always worsens the relationship, possibly by more than one step, as they are breaking a promise (and it may have further narrative consequences at the GM’s discretion). You may choose to owe a favor as compensation when you seek aid from a contact or faction or ask them to do a job for you; this reduces the difficulty of the skill test by 2\. Favors are specific to your character—you cannot trade them with other characters. 
 
-Aid requested  
+#### Aid requested  
  When a faction your character belongs to requests aid or work from them, if your character refuses without a convincing excuse, either their reputation or influence (GM’s choice) is reduced by 1\. If this reduces your character’s reputation below 5, they are no longer part of the faction. 
 
-Name-dropping   
+#### Name-dropping   
 When your character makes a skill test to speak on behalf of a faction they belong to, or when they try to use its name and status to bolster their own, you may replace your character’s Charisma  attribute with their reputation. In addition, you may use your character’s influence instead of their Manipulation skill on any skill test to persuade a member of that faction.  

@@ -4,14 +4,11 @@
   - ***Yes*** - Will this take a long time, or involve multiple characters acting together?  
     ***Yes*** - Make an **Extended Test**  
     ***No*** - Is someone directly opposing you?
-
-    Yes - Make an **Opposed Test**  
-    No - Make a **Common Test**  
+	    ***Yes*** - Make an **Opposed Test**  
+	    ***No*** - Make a **Common Test**  
 - **No** - Do you have Ranks in an appropriate Skill or a useful Talent?
-
-  ***Yes*** - Don’t roll, you automatically succeed
-
-  ***No*** - Don’t roll, the GM decides the Outcome 
+	 ***Yes*** - Don’t roll, you automatically succeed
+	  ***No*** - Don’t roll, the GM decides the Outcome 
 
 ## Action Rolls
 
@@ -59,6 +56,8 @@ The GM chooses a difficulty based on circumstances and applies the modifier acco
 - **Marginal Failure** *(Failure, But...)*: Total > CT and the Complication die is higher. The action fails with a minor Benefit.  
 - **Failure with Complication** *(Failure)*: Total > CT and the Complication die is lower. The action fails with a minor consequence; the GM gains 1 Doom token.  
 - **Critical Failure or Fumble** *(Failure And...)*: Total > CT and both dice match. The action fails spectacularly with a major consequence; the character gains 1 Stress, the GM gains 1 Doom token, and an attack triggers a roll on the Fumble table.
+
+see [[93-action_roll_probability_matrix]] and [[94-adv_disadv_probability_tables]]
 
 The GM determines specific consequences based on the fiction.  
 #### Common Consequences and Rewards  

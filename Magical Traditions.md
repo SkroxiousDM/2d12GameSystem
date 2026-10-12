@@ -1,0 +1,6 @@
+Magic in 500 AD is not a secret. It is a vocabulary, ancient and disputatious, spoken by a hundred schools with a hundred names for the same door. The Western Empire has guttered out; the old gods scramble for congregants; and in the wreckage, men and women who have learned the names of things find that those names are more powerful than they have ever been. The veil between the visible and invisible worlds is thin in these years — thinner than it was under Augustus, thinner than it will be under Charlemagne. Now is the hour of magi.
+
+Every magical tradition presented in this chapter operates on the same fundamental principle: magic is the imposition of a name on reality. To speak a thing's true name in its true tongue is to compel it. The traditions differ not in kind but in method — in what names they have inherited, what powers they have bargained with, and what price they are willing to pay.
+
+## How Traditions Work
+A character learns spells from one or more traditions. The tradition defines the cultural and cosmological framework; the spell is the practical working. A character cannot simply pick up a foreign tradition's spell — the grammar of one tradition's names is not the grammar of another's. Learning a second tradition requires access to a teacher, a grimoire, or a supernatural patron willing to share.

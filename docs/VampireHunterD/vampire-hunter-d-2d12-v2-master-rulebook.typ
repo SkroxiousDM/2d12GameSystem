@@ -344,12 +344,13 @@ This master rulebook collects every current document for running *Vampire Hunter
   [I], [Introduction], [Terminology, renamed stats, Version 2 changes, notation],
   [II], [Core Rules], [The 2d12 roll, character creation, Tychē Points, Effects, Resistance and recovery, clocks, Truths, Momentum and Woe, the conflict system, playbooks, advancement],
   [III], [Optional Modules], [Module A Cyphers & Artifacts · Module B The Grind & Travel · Module C Truth-Driven Sandbox],
-  [IV], [Generic Playbooks], [Playbook and equipment rules; Bruiser, Operator, Sage, Face, Wayfarer, Adept],
-  [V], [Generic Focuses], [Focus rules and 24 setting-neutral Focuses],
-  [VI], [Frontier Rules], [The Vampire Hunter D setting: Campaign Truths, skills, day and night, the Nobility, the Kiss, Noble blood, banes, Noble science, bounties, conflicts, travel, Woe spends],
-  [VII], [Frontier Descriptors], [20 Descriptors with Frontier hooks],
-  [VIII], [Frontier Playbooks], [Sellsword, Stalker, Frontier Doctor, Broker, Rider, Occultist, Mutant, Cyborg Hunter, Warden],
-  [IX], [Frontier Focuses], [20 setting Focuses, including the dhampir Focus],
+  [IV], [Generic Descriptors], [Descriptor rules and 24 setting-neutral Descriptors, six per pool],
+  [V], [Generic Playbooks], [Playbook and equipment rules; Bruiser, Operator, Sage, Face, Wayfarer, Adept],
+  [VI], [Generic Focuses], [Focus rules and 24 setting-neutral Focuses],
+  [VII], [Frontier Rules], [The Vampire Hunter D setting: Campaign Truths, skills, day and night, the Nobility, the Kiss, Noble blood, banes, Noble science, bounties, conflicts, travel, Woe spends],
+  [VIII], [Frontier Descriptors], [20 Descriptors with Frontier hooks],
+  [IX], [Frontier Playbooks], [Sellsword, Stalker, Frontier Doctor, Broker, Rider, Occultist, Mutant, Cyborg Hunter, Warden],
+  [X], [Frontier Focuses], [20 setting Focuses, including the dhampir Focus],
   [App.], [Quick Reference], [The roll, Difficulty, outcomes, bonus dice, recovery and the Night at a glance],
 ))
 
@@ -1266,9 +1267,215 @@ Between sessions (or each in-world week), the GM takes a #strong[World Turn];:
 ]
   
 // =====================================================================
+//  CHAPTER — GENERIC DESCRIPTORS
+// =====================================================================
+#chapter("Generic Descriptors", [Twenty-four setting-neutral adjectives open the sentence: "I am a [Descriptor]..." Six belong to each pool. Each one gives +2 to that pool, a power tag, a weakness tag and a suggested Instinct. The Frontier Descriptors in Chapter VIII are written for the Frontier.], epigraph: [The adjective of the character sentence.])
+
+== 1. Descriptor Rules
+Each Descriptor gives (Core Rules §3.1):
+
+#figure(
+  [#table(
+    columns: (35%, 65%),
+    align: (auto,auto,),
+    table.header([Element], [Detail],),
+    table.hline(),
+    [#strong[Pool bonus];], [+2 to one pool],
+    [#strong[Power tag];], [1],
+    [#strong[Weakness tag];], [1 (can be compelled for Tychē Points)],
+    [#strong[Suggested Instinct];], [Use it or write your own],
+  )]
+  , kind: table
+  )
+
+Every Descriptor works in any genre. Choose one from this chapter or, in a Vampire Hunter D game, from the Frontier Descriptors.
+
+== 2. Quick Reference
+#figure(
+  [#table(
+    columns: (5%, 17%, 11%, 33%, 34%),
+    align: (auto,auto,auto,auto,auto,),
+    table.header([\#], [Descriptor], [Pool], [Power tag], [Weakness tag],),
+    table.hline(),
+    [1], [Burly], [Vitality], [#emph[built like a door];], [#emph[too big to hide];],
+    [2], [Charismatic], [Pneuma], [#emph[the room turns to me];], [#emph[needs to be liked];],
+    [3], [Compassionate], [Pneuma], [#emph[a kind word opens doors];], [#emph[can\'t turn away suffering];],
+    [4], [Cunning], [Psychē], [#emph[three moves ahead];], [#emph[trusts no one\'s plan but mine];],
+    [5], [Curious], [Psychē], [#emph[has to know why];], [#emph[pokes at what\'s best left alone];],
+    [6], [Furtive], [Alacrity], [#emph[keeps to the edges];], [#emph[uneasy in the open];],
+    [7], [Hardy], [Vitality], [#emph[shrugs off the cold];], [#emph[ignores my own injuries];],
+    [8], [Haunted], [Pneuma], [#emph[has seen the dark];], [#emph[the past won\'t stay buried];],
+    [9], [Light-Fingered], [Alacrity], [#emph[quick hands];], [#emph[can\'t resist a pocket];],
+    [10], [Loyal], [Pneuma], [#emph[stands by my own];], [#emph[blind to my friends\' faults];],
+    [11], [Methodical], [Psychē], [#emph[measures twice];], [#emph[slow under pressure];],
+    [12], [Nimble], [Alacrity], [#emph[light on my feet];], [#emph[too quick to trust my footing];],
+    [13], [Observant], [Psychē], [#emph[misses nothing];], [#emph[distracted by detail];],
+    [14], [Reckless], [Vitality], [#emph[charges in first];], [#emph[never looks before leaping];],
+    [15], [Relentless], [Vitality], [#emph[never stops coming];], [#emph[doesn\'t know when to quit];],
+    [16], [Resolute], [Pneuma], [#emph[iron will];], [#emph[rigid when plans change];],
+    [17], [Restless], [Alacrity], [#emph[can\'t sit still];], [#emph[poor at waiting];],
+    [18], [Scholarly], [Psychē], [#emph[well read];], [#emph[lives in books, not boots];],
+    [19], [Serene], [Pneuma], [#emph[calm in the storm];], [#emph[slow to anger, slower to act];],
+    [20], [Sly], [Alacrity], [#emph[always an angle];], [#emph[nobody takes my word];],
+    [21], [Steady], [Alacrity], [#emph[hands like stone];], [#emph[slow to start];],
+    [22], [Stubborn], [Vitality], [#emph[will not be moved];], [#emph[can\'t admit I\'m wrong];],
+    [23], [Suspicious], [Psychē], [#emph[notices what\'s off];], [#emph[sees enemies everywhere];],
+    [24], [Weathered], [Vitality], [#emph[seen worse than this];], [#emph[old wounds ache];],
+  )]
+  , kind: table
+  )
+#columns(2, gutter: 6mm)[
+== 3. Descriptors
+=== 1. Burly
+- #strong[Pool:] +2 Vitality
+- #strong[Power tag:] #emph[built like a door]
+- #strong[Weakness tag:] #emph[too big to hide]
+- #strong[Suggested Instinct:] \"If something is heavy, I pick it up myself.\"
+
+=== 2. Charismatic
+- #strong[Pool:] +2 Pneuma
+- #strong[Power tag:] #emph[the room turns to me]
+- #strong[Weakness tag:] #emph[needs to be liked]
+- #strong[Suggested Instinct:] \"If a crowd gathers, I take the stage.\"
+
+=== 3. Compassionate
+- #strong[Pool:] +2 Pneuma
+- #strong[Power tag:] #emph[a kind word opens doors]
+- #strong[Weakness tag:] #emph[can\'t turn away suffering]
+- #strong[Suggested Instinct:] \"If someone is hurting, I stop to help.\"
+
+=== 4. Cunning
+- #strong[Pool:] +2 Psychē
+- #strong[Power tag:] #emph[three moves ahead]
+- #strong[Weakness tag:] #emph[trusts no one\'s plan but mine]
+- #strong[Suggested Instinct:] \"If someone offers a deal, I look for the catch.\"
+
+=== 5. Curious
+- #strong[Pool:] +2 Psychē
+- #strong[Power tag:] #emph[has to know why]
+- #strong[Weakness tag:] #emph[pokes at what\'s best left alone]
+- #strong[Suggested Instinct:] \"If something is hidden, I look inside.\"
+
+=== 6. Furtive
+- #strong[Pool:] +2 Alacrity
+- #strong[Power tag:] #emph[keeps to the edges]
+- #strong[Weakness tag:] #emph[uneasy in the open]
+- #strong[Suggested Instinct:] \"If I enter a room, I check the shadows first.\"
+
+=== 7. Hardy
+- #strong[Pool:] +2 Vitality
+- #strong[Power tag:] #emph[shrugs off the cold]
+- #strong[Weakness tag:] #emph[ignores my own injuries]
+- #strong[Suggested Instinct:] \"If I\'m hurt, I keep going until the job is done.\"
+
+=== 8. Haunted
+- #strong[Pool:] +2 Pneuma
+- #strong[Power tag:] #emph[has seen the dark]
+- #strong[Weakness tag:] #emph[the past won\'t stay buried]
+- #strong[Suggested Instinct:] \"If I\'m alone at night, I keep a light on.\"
+
+=== 9. Light-Fingered
+- #strong[Pool:] +2 Alacrity
+- #strong[Power tag:] #emph[quick hands]
+- #strong[Weakness tag:] #emph[can\'t resist a pocket]
+- #strong[Suggested Instinct:] \"If something valuable is left unattended, I take it.\"
+
+=== 10. Loyal
+- #strong[Pool:] +2 Pneuma
+- #strong[Power tag:] #emph[stands by my own]
+- #strong[Weakness tag:] #emph[blind to my friends\' faults]
+- #strong[Suggested Instinct:] \"If someone I trust is threatened, I step between them and it.\"
+
+=== 11. Methodical
+- #strong[Pool:] +2 Psychē
+- #strong[Power tag:] #emph[measures twice]
+- #strong[Weakness tag:] #emph[slow under pressure]
+- #strong[Suggested Instinct:] \"If I\'m unsure, I make a list.\"
+
+=== 12. Nimble
+- #strong[Pool:] +2 Alacrity
+- #strong[Power tag:] #emph[light on my feet]
+- #strong[Weakness tag:] #emph[too quick to trust my footing]
+- #strong[Suggested Instinct:] \"If the ground gives way, I move before I think.\"
+
+=== 13. Observant
+- #strong[Pool:] +2 Psychē
+- #strong[Power tag:] #emph[misses nothing]
+- #strong[Weakness tag:] #emph[distracted by detail]
+- #strong[Suggested Instinct:] \"If I enter a place, I count the exits and the people.\"
+
+=== 14. Reckless
+- #strong[Pool:] +2 Vitality
+- #strong[Power tag:] #emph[charges in first]
+- #strong[Weakness tag:] #emph[never looks before leaping]
+- #strong[Suggested Instinct:] \"If there\'s danger ahead, I go at it head-on.\"
+
+=== 15. Relentless
+- #strong[Pool:] +2 Vitality
+- #strong[Power tag:] #emph[never stops coming]
+- #strong[Weakness tag:] #emph[doesn\'t know when to quit]
+- #strong[Suggested Instinct:] \"If I start a chase, I finish it.\"
+
+=== 16. Resolute
+- #strong[Pool:] +2 Pneuma
+- #strong[Power tag:] #emph[iron will]
+- #strong[Weakness tag:] #emph[rigid when plans change]
+- #strong[Suggested Instinct:] \"If I give my word, I keep it.\"
+
+=== 17. Restless
+- #strong[Pool:] +2 Alacrity
+- #strong[Power tag:] #emph[can\'t sit still]
+- #strong[Weakness tag:] #emph[poor at waiting]
+- #strong[Suggested Instinct:] \"If things go quiet, I go looking for trouble.\"
+
+=== 18. Scholarly
+- #strong[Pool:] +2 Psychē
+- #strong[Power tag:] #emph[well read]
+- #strong[Weakness tag:] #emph[lives in books, not boots]
+- #strong[Suggested Instinct:] \"If a problem is new, I look for precedent.\"
+
+=== 19. Serene
+- #strong[Pool:] +2 Pneuma
+- #strong[Power tag:] #emph[calm in the storm]
+- #strong[Weakness tag:] #emph[slow to anger, slower to act]
+- #strong[Suggested Instinct:] \"If panic spreads, I stay still and speak softly.\"
+
+=== 20. Sly
+- #strong[Pool:] +2 Alacrity
+- #strong[Power tag:] #emph[always an angle]
+- #strong[Weakness tag:] #emph[nobody takes my word]
+- #strong[Suggested Instinct:] \"If there\'s a shortcut, I find it.\"
+
+=== 21. Steady
+- #strong[Pool:] +2 Alacrity
+- #strong[Power tag:] #emph[hands like stone]
+- #strong[Weakness tag:] #emph[slow to start]
+- #strong[Suggested Instinct:] \"If the moment is tense, I breathe and take my time.\"
+
+=== 22. Stubborn
+- #strong[Pool:] +2 Vitality
+- #strong[Power tag:] #emph[will not be moved]
+- #strong[Weakness tag:] #emph[can\'t admit I\'m wrong]
+- #strong[Suggested Instinct:] \"If someone tells me to stop, I dig in.\"
+
+=== 23. Suspicious
+- #strong[Pool:] +2 Psychē
+- #strong[Power tag:] #emph[notices what\'s off]
+- #strong[Weakness tag:] #emph[sees enemies everywhere]
+- #strong[Suggested Instinct:] \"If a stranger is too friendly, I watch their hands.\"
+
+=== 24. Weathered
+- #strong[Pool:] +2 Vitality
+- #strong[Power tag:] #emph[seen worse than this]
+- #strong[Weakness tag:] #emph[old wounds ache]
+- #strong[Suggested Instinct:] \"If conditions turn harsh, I take the worst of it first.\"
+
+]
+  
+// =====================================================================
 //  CHAPTER — GENERIC PLAYBOOKS
 // =====================================================================
-#chapter("Generic Playbooks", [The six genre-neutral playbooks: Bruiser, Operator, Sage, Face, Wayfarer and Adept. Each has eight special abilities, a capstone and starting equipment for three genres. The Frontier playbooks in Chapter VIII reskin these six.], epigraph: [The noun of the character sentence.])
+#chapter("Generic Playbooks", [The six genre-neutral playbooks: Bruiser, Operator, Sage, Face, Wayfarer and Adept. Each has eight special abilities, a capstone and starting equipment for three genres. The Frontier playbooks in Chapter IX reskin these six.], epigraph: [The noun of the character sentence.])
 
 #colbreak(weak: true)
 == 1. Playbook Rules

@@ -1,0 +1,11 @@
+{
+  "id": "tinymist",
+  "name": "Tinymist",
+  "version": "0.5.1",
+  "minAppVersion": "1.13.0",
+  "description": "Edit, preview, and export Typst documents using the Tinymist language server.",
+  "author": "Wilfried AGO",
+  "authorUrl": "https://github.com/wilfriedago",
+  "fundingUrl": "https://www.buymeacoffee.com/wilfriedago",
+  "isDesktopOnly": true
+}

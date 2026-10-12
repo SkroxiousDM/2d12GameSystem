@@ -4,83 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "50e26113f3fdfce3",
+        "id": "b652f9ef2f42b5f6",
         "type": "tabs",
+        "dimension": 33.33333333333333,
         "children": [
           {
-            "id": "a4e1bf000be81a23",
+            "id": "61388ba6a52dbd3b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "typst-source",
               "state": {
-                "file": "docs/11-combat.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Mythographer 5e template.typ"
               },
-              "icon": "lucide-file",
-              "title": "11-combat"
-            }
-          },
-          {
-            "id": "2d1818a65e4860e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/11-combat.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "11-combat"
-            }
-          },
-          {
-            "id": "e4d8e3e3d5d875b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/03-attributes.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "03-attributes"
+              "icon": "file-type",
+              "title": "Mythographer 5e template"
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "4b65b2bab8ecc103",
+        "type": "tabs",
+        "dimension": 49.61636828644501,
+        "children": [
+          {
+            "id": "1af5f37d9da47b3a",
+            "type": "leaf",
+            "state": {
+              "type": "typst-preview",
+              "state": {
+                "vaultPath": "Mythographer 5e.typ",
+                "themeOverride": null,
+                "pinned": false
+              },
+              "icon": "book-open",
+              "title": "Preview: Mythographer 5e.typ"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2f6156752ce7b8e7",
+        "type": "tabs",
+        "dimension": 17.050298380221655,
+        "children": [
+          {
+            "id": "02c750b5cf66b4d5",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "Mythographer 5e template.typ"
+              },
+              "icon": "file-type",
+              "title": "Mythographer 5e template"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -217,10 +197,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/11-combat.md",
+                "file": "Mythographer 5e template.typ",
                 "followCursor": false,
                 "showSearch": true,
-                "searchQuery": "pro"
+                "searchQuery": ""
               },
               "icon": "lucide-list",
               "title": "Outline"
@@ -231,7 +211,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 403.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -244,11 +224,40 @@
       "bases:Create new base": false
     }
   },
-  "active": "2d1818a65e4860e1",
+  "active": "61388ba6a52dbd3b",
   "lastOpenFiles": [
-    "docs/03-attributes.md",
+    "Owlbear template.typ",
+    "Mythographer 5e template.typ",
+    "owlbear-0.0.1/templates/book.typ",
+    "mythographer-5e-0.0.2/typst.toml",
+    "mythographer-5e-0.0.2/template/TheDarkTypst.typ",
+    "mythographer-5e-0.0.2/template",
+    "mythographer-5e-0.0.2/lib.typ",
+    "mythographer-5e-0.0.2/lib/monster/process/vulnerability.typ",
+    "mythographer-5e-0.0.2/lib/monster/process/trait-action-entry.typ",
+    "mythographer-5e-0.0.2/lib/monster/process/spellcasting.typ",
+    "mythographer-5e-0.0.2/lib/monster/process/speed.typ",
+    "mythographer-5e-0.0.2/lib/monster/TODO.md",
+    "mythographer-5e-0.0.2/assets/footer/default/r.svg",
+    "mythographer-5e-0.0.2/assets/footer/default/l.svg",
+    "mythographer-5e-0.0.2/assets/footer/toa/r.svg",
+    "mythographer-5e-0.0.2/assets/footer/toa/l.svg",
+    "mythographer-5e-0.0.2/assets/paper/toa.jpg",
+    "mythographer-5e-0.0.2/assets/paper/default.jpg",
+    "mythographer-5e-0.0.2/README.md",
+    "owlbear-0.0.1/README.md",
+    "owlbear-0.0.1/CHANGELOG.md",
+    "Untitled.md",
     "docs/11-combat.md",
-    "docs/30-2d12_character_sheet.pdf",
+    "docs/Draft/Celtic Pagan Gods and Magic.md",
+    "docs/03-attributes.md",
+    "TYPST BOOK.md",
+    "docs/Draft/Christianity, the Saints, and Miracles.md",
+    "docs/Draft/Saxon Gods and Magic.md",
+    "docs/Draft/cthulhu_magic_for_conan.md",
+    "docs/Draft/2d12-Conan-Sorcery.md",
+    "docs/Draft/2d12-magic-chapter-draft.md",
+    "docs/Draft/2d12-Conan-Sorcery (1).md",
     "docs/01-resolution-engine.md",
     "docs/94-adv_disadv_probability_tables.md",
     "docs/93-action_roll_probability_matrix.md",
@@ -259,27 +268,6 @@
     "docs/15.4-wealth-and-trade.md",
     "docs/15.3-adventuring-gear.md",
     "docs/15.2-weapons.md",
-    "docs/15-equipment.md",
-    "docs/15.1-armour.md",
-    "docs/10-pursuit.md",
-    "docs/09-environment.md",
-    "docs/07-sanity.md",
-    "docs/05-talents.md",
-    "docs/culture_talent_options_revised.md",
-    "docs/06-magic-rewrite.md",
-    "docs/06.9-ritualistic-magic.md",
-    "docs/06.4-master-spell-list.md",
-    "docs/Draft/Christianity, the Saints, and Miracles.md",
-    "docs/Draft/Celtic Pagan Gods and Magic.md",
-    "docs/Setting/two_twilight_courts.md",
-    "docs/Draft/98-Adventure_Hooks.md",
-    "docs/Draft",
-    "Pasted image 20260624191910.png",
-    "docs/Setting/cthulhu_magic_for_conan.txt",
-    "docs/Setting/~$hulhu_magic_for_conan.txt",
-    "docs/Setting/~WRD0000.tmp",
-    "branch-rulesets/PRs and commits.json",
-    "branch-rulesets",
-    "docs/Setting"
+    "Pasted image 20260624191910.png"
   ]
 }

@@ -38,7 +38,7 @@
 #let book-kind     = "Master Rulebook"
 #let book-tagline  = "Post-Apocalyptic Frontier Gothic"
 #let book-author   = "SkroxiousDM"
-#let book-date     = "2026-10-31"
+#let book-date     = "2026-10-12"
 
 #set document(
   title: book-title + " — " + book-subtitle + " — " + book-kind,
@@ -341,7 +341,7 @@ This master rulebook collects every current document for running *Vampire Hunter
 
 #figure(table(columns: (13%, 30%, 57%),
   table.header([Ch.], [Chapter], [Contents]),
-  [I], [Introduction], [Terminology, renamed stats, Version 2 changes, notation],
+  [I], [Introduction], [Terminology, renamed stats, notation],
   [II], [Core Rules], [The 2d12 roll, character creation, Tychē Points, Effects, Resistance and recovery, clocks, Truths, Momentum and Woe, the conflict system, playbooks, advancement],
   [III], [Optional Modules], [Module A Cyphers & Artifacts · Module B The Grind & Travel · Module C Truth-Driven Sandbox],
   [IV], [Generic Descriptors], [Descriptor rules and 24 setting-neutral Descriptors, six per pool],
@@ -2342,7 +2342,7 @@ Loyal to a fault. You go back for the fallen, every time.
 
 #figure(
   [#table(
-    columns: (7.92%, 12.87%, 79.21%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -2366,7 +2366,7 @@ Captain, chief, or sergeant: people follow you.
 
 #figure(
   [#table(
-    columns: (8%, 14%, 78%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -2374,7 +2374,7 @@ Captain, chief, or sergeant: people follow you.
     [2a], [#strong[Battle Plan];], [At the start of a conflict, before scripting, look at #strong[one] of the opposing side\'s scripted actions for the first exchange.],
     [2b], [#strong[Lead by Example];], [When you succeed with #strong[3+ Power];, the next ally who acts toward the same goal gets a #strong[free bonus die];.],
     [3a], [#strong[★ Warband];], [Gain a loyal crew (a group with 2 power tags and 1 weakness). It acts as one group, gives free Help once per scene, or holds a position. It takes statuses as a single target.],
-    [3b], [#strong[Unbreakable Line];], [Once per conflict, when your side\'s Disposition would drop to 0, it stays at #strong[1] and you take a tier-2 status.],
+    [3b], [#strong[Unbreak-able Line];], [Once per conflict, when your side\'s Disposition would drop to 0, it stays at #strong[1] and you take a tier-2 status.],
   )]
   , kind: table
   )
@@ -2390,7 +2390,7 @@ Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
 
 #figure(
   [#table(
-    columns: (7.92%, 12.87%, 79.21%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -2414,7 +2414,7 @@ Honour is for people who can afford to lose.
 
 #figure(
   [#table(
-    columns: (8%, 15%, 77%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -2439,7 +2439,7 @@ Silent, patient, and impossible to pin down.
 
 #figure(
   [#table(
-    columns: (8%, 14%, 78%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -2463,7 +2463,7 @@ Sniper, archer, gunslinger: steady breath and a sharp eye.
 
 #figure(
   [#table(
-    columns: (7.92%, 12.87%, 79.21%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -2487,7 +2487,7 @@ Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
 
 #figure(
   [#table(
-    columns: (7.92%, 12.87%, 79.21%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -2511,13 +2511,13 @@ You never walk into a room without knowing how to leave it.
 
 #figure(
   [#table(
-    columns: (8%, 14%, 78%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Exit Strategy];], [When you enter a new scene, ask one free Discover question about exits or escape routes.],
     [2a], [#strong[Clean Getaway];], [In Chase conflicts where you\'re fleeing, your side gets #strong[+3 Disposition];.],
-    [2b], [#strong[Contingency];], [Once per mission, when things go wrong, reveal a prepared fallback (stashed gear, a getaway vehicle, a safe house) as a story tag. No Momentum needed.],
+    [2b], [#strong[Contin-gency];], [Once per mission, when things go wrong, reveal a prepared fallback (stashed gear, a getaway vehicle, a safe house) as a story tag. No Momentum needed.],
     [3a], [#strong[Not Here];], [Once per session, escape any scene with every ally who can follow, before the next status lands.],
     [3b], [#strong[★ Dead Man\'s Switch];], [You can\'t be held. When captured or Taken Out, you escape at the start of the next scene. The GM gains 2 Woe.],
   )]
@@ -2536,14 +2536,14 @@ An artificer, engineer, or inventor who makes what shouldn\'t work, work.
 
 #figure(
   [#table(
-    columns: (8%, 13%, 79%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Jury-Rig];], [Once per scene, Craft a temporary gadget (a story tag) that lasts the scene and costs #strong[1 Power] to Create.],
     [2a], [#strong[Inventor];], [During downtime, turn a gadget into a permanent item with a 6-segment clock. It gets 1 power tag and 1 action tag.],
     [2b], [#strong[Field Repairs];], [Restore effects work on gear, vehicles, and constructs. Repair damaged armour without downtime.],
-    [3a], [#strong[Masterwork];], [Create one #strong[artifact] (Module A) with a 12-segment downtime clock. You pay no Refresh to attune your own masterwork.],
+    [3a], [#strong[Master-work];], [Create one #strong[artifact] (Module A) with a 12-segment downtime clock. You pay no Refresh to attune your own masterwork.],
     [3b], [#strong[★ Rig the Field];], [Once per scene, rig the area with gadgets: Create #strong[two] story tags for 2 Power total.],
   )]
   , kind: table
@@ -2560,7 +2560,7 @@ Doctor, field medic, herbalist, or combat surgeon.
 
 #figure(
   [#table(
-    columns: (8%, 14%, 78%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -2584,13 +2584,13 @@ Detective, investigator, or analyst: you follow the thread to the end.
 
 #figure(
   [#table(
-    columns: (8%, 18%, 74%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Case File];], [Start a #strong[Mystery clock] (6 or 8) for a case. Every Discover you buy also Advances it 1 segment. When it fills, the GM reveals the core truth.],
-    [2a], [#strong[Interrogator];], [When questioning someone, each Discover gives #strong[two answers];.],
-    [2b], [#strong[Reconstruction];], [At the scene of a past event, ask #strong[three] Discover questions for free (once per location).],
+    [2a], [#strong[Interro-gator];], [When questioning someone, each Discover gives #strong[two answers];.],
+    [2b], [#strong[Recon-struction];], [At the scene of a past event, ask #strong[three] Discover questions for free (once per location).],
     [3a], [#strong[The Reveal];], [Once per session, name the culprit in front of others. If you\'re right, your side starts any conflict against them with #strong[+4 Disposition];, and they get no compromise if they lose.],
     [3b], [#strong[★ One Step Ahead];], [Once per session, reveal that you anticipated an opponent\'s move: #strong[cancel one GM Woe spend] as it happens.],
   )]
@@ -2608,7 +2608,7 @@ Historian, archaeologist, or keeper of lost lore.
 
 #figure(
   [#table(
-    columns: (7.92%, 12.87%, 79.21%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -2633,7 +2633,7 @@ Charm, quick wit, and the right words at the right time.
 
 #figure(
   [#table(
-    columns: (7.92%, 12.87%, 79.21%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -2657,7 +2657,7 @@ Spy, impostor, or actor: you can be anyone.
 
 #figure(
   [#table(
-    columns: (7.92%, 12.87%, 79.21%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -2681,7 +2681,7 @@ Fixer, socialite, or broker: you\'re one call away from anyone.
 
 #figure(
   [#table(
-    columns: (7.92%, 12.87%, 79.21%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -2705,7 +2705,7 @@ Noble, officer, executive, or chieftain: you hold authority, and it holds you.
 
 #figure(
   [#table(
-    columns: (7.92%, 12.87%, 79.21%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -2730,7 +2730,7 @@ Beast handler, rider, falconer, or dog-musher.
 
 #figure(
   [#table(
-    columns: (7.92%, 12.87%, 79.21%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -2754,11 +2754,11 @@ Explorer, navigator, or surveyor drawn to the blank parts of the map.
 
 #figure(
   [#table(
-    columns: (8%, 15%, 77%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Cartographer];], [Any area you\'ve travelled becomes a #strong[map] (story tag). It permanently lowers travel Difficulty there by one step.],
+    [1], [#strong[Carto-grapher];], [Any area you\'ve travelled becomes a #strong[map] (story tag). It permanently lowers travel Difficulty there by one step.],
     [2a], [#strong[Shortcut];], [Once per journey, skip one leg entirely (no rolls, no Supplies spent).],
     [2b], [#strong[First Contact];], [Your first Persuade or Empathy roll with a new people or culture gets a #strong[free bonus die];.],
     [3a], [#strong[Discoverer];], [Once per session, discover a new site (Module C). You define #strong[one of its three Truths];.],
@@ -2778,7 +2778,7 @@ Survivalist, forager, or homesteader: you need nothing the world doesn\'t give.
 
 #figure(
   [#table(
-    columns: (8%, 13%, 79%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -2802,7 +2802,7 @@ Driver, pilot, sailor, or rider: you and your vehicle are one.
 
 #figure(
   [#table(
-    columns: (7.92%, 12.87%, 79.21%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -2827,14 +2827,14 @@ Monster-hunter, exorcist, or investigator of the strange.
 
 #figure(
   [#table(
-    columns: (8%, 14%, 78%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Monster Lore];], [Once per scene, Discover a supernatural creature\'s weakness tag without rolling.],
     [2a], [#strong[Bane];], [Your Attacks against a creature whose weakness you\'ve exploited inflict #strong[+1 tier];.],
     [2b], [#strong[Ward the Threshold];], [Spend a scene preparing a location. For one night, supernatural creatures must beat #strong[Formidable 21] to cross it.],
-    [3a], [#strong[Unshakeable];], [When you Resist fear, possession, or corruption with Pneuma, the cost is #strong[0 on a highest die of 5+];, and you reduce the status by 3 tiers.],
+    [3a], [#strong[Unshake-able];], [When you Resist fear, possession, or corruption with Pneuma, the cost is #strong[0 on a highest die of 5+];, and you reduce the status by 3 tiers.],
     [3b], [#strong[★ Nemesis];], [Name a supernatural foe. You always sense its direction, and your rolls against it get a #strong[free bonus die];.],
   )]
   , kind: table
@@ -2851,7 +2851,7 @@ Touched by the spirit world, the Otherworld, or the deep net.
 
 #figure(
   [#table(
-    columns: (7.92%, 12.87%, 79.21%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -2875,7 +2875,7 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
 
 #figure(
   [#table(
-    columns: (7.92%, 12.87%, 79.21%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -2899,13 +2899,13 @@ Mutant, cyborg, half-fae, or carrier of a strange bloodline.
 
 #figure(
   [#table(
-    columns: (8%, 15%, 77%),
+    columns: (7%, 20%, 73%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Gift];], [Choose a trait (claws, enhanced senses, night vision, gills, wings, cyber-arm). Its tag may add #strong[+1 above the normal +2 cap (maximum +3)] on related rolls. Gain +2 to one pool.],
     [2a], [#strong[Second Trait];], [Choose another trait. It also may add #strong[+1 above the normal cap (maximum +3)];.],
-    [2b], [#strong[Regeneration];], [A short rest clears #strong[one tier-1 physical status];. A full rest clears 2 tiers from every physical status.],
+    [2b], [#strong[Regen-eration];], [A short rest clears #strong[one tier-1 physical status];. A full rest clears 2 tiers from every physical status.],
     [3a], [#strong[Apex Form];], [Once per scene, unleash your nature: a #strong[free bonus die] on Vitality and Alacrity skills for the scene. At scene end, take #emph[Weary];.],
     [3b], [#strong[★ Beyond Limits];], [Gain #strong[+1 Edge] in two pools (max 3 each).],
   )]
@@ -5189,4 +5189,5 @@ Divide the roll among Vitality, Alacrity, Psychē and Pneuma however you like. E
 #v(1fr)
 #align(center, ornament-rule(width: 40%))
 #v(6pt)
-#align(center, text(font: display-font, size: 9pt, fill: dust, tracking: 0.2em)[END OF THE MASTER RULEBOOK · 2026-10-31])
+#align(center, text(font: display-font, size: 9pt, fill: dust, tracking: 0.2em)[END OF THE MASTER RULEBOOK · 2026-10-12])
+

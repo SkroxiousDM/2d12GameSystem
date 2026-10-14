@@ -107,24 +107,12 @@
             "id": "aac4701e08eee649",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "docs/VampireHunterD/2d12-system-proposal.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "docs/VampireHunterD/vampire-hunter-d-2d12-v2-master-rulebook.pdf"
               },
-              "icon": "lucide-file",
-              "title": "2d12-system-proposal"
+              "icon": "lucide-file-text",
+              "title": "vampire-hunter-d-2d12-v2-master-rulebook"
             }
           }
         ],
@@ -279,6 +267,7 @@
   },
   "active": "aac4701e08eee649",
   "lastOpenFiles": [
+    "docs/VampireHunterD/2d12-system-proposal.md",
     "docs/VampireHunterD/How do pools regenerate. How does resting work.md",
     "docs/VampireHunterD/vhd-focuses.md",
     "docs/VampireHunterD/vhd-playbooks.md",
@@ -286,7 +275,6 @@
     "docs/VampireHunterD/vhd-descriptors.md",
     "System components.md",
     "docs/VampireHunterD/focuses.md",
-    "docs/VampireHunterD/2d12-system-proposal.md",
     "docs/VampireHunterD/2d12-System--Character-Sheet-v0.2.md",
     "docs/VampireHunterD/vhd-setting-rules.md",
     "docs/VampireHunterD/2d12-System--Character-Sheet-v0.2.pdf",

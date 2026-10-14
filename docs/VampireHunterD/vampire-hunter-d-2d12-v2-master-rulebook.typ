@@ -47,6 +47,11 @@
   keywords: ("2d12", "Vampire Hunter D", "tabletop RPG", "rulebook"),
 )
 
+// ---------------------------------------------------------------- playbook art
+// full-figure ink-and-watercolour vignettes, toned to the page parchment
+#let playbook-art(file, alt) = block(width: 100%, above: 0.6em, below: 0.9em, breakable: false,
+  align(center, image("art/playbooks/" + file, width: 68%, alt: alt)))
+
 // ---------------------------------------------------------------- ornaments
 #let diamond(size: 5pt, fill: brass) = box(baseline: -0.15em,
   polygon(fill: fill, (0pt, size/2), (size/2, 0pt), (size, size/2), (size/2, size)))
@@ -3739,6 +3744,8 @@ Someone took everything from you. You\'ll take it back, in blood.
 Muscle for hire. You stand between the village and the thing coming out of the dark, and you hold the stake when it\'s time.
 ]
 
+#playbook-art("01-sellsword.jpg", "Sellsword playbook character art")
+
 #figure(
   [#table(
     columns: (27%, 73%),
@@ -3816,10 +3823,16 @@ Muscle for hire. You stand between the village and the thing coming out of the d
 
 #strong[Relationships:] Ally --- a blacksmith who makes your stakes, an old hunting partner, a saloon keeper who gives you credit. Rival --- a rival Hunter who stole your last bounty, a Barbarois who beat you once, a sheriff who wants you gone.
 
+]
+
+#pagebreak(weak: true)
+#columns(2, gutter: 6mm)[
 == 2. Stalker
 #quote(block: true)[
 You hunt by day. While the Noble sleeps, you climb the castle walls, pick the locks, find the coffin, and open it.
 ]
+
+#playbook-art("02-stalker.jpg", "Stalker playbook character art")
 
 #figure(
   [#table(
@@ -3898,10 +3911,16 @@ You hunt by day. While the Noble sleeps, you climb the castle walls, pick the lo
 
 #strong[Relationships:] Ally --- a fence at the trading post, a castle servant who leaves the gate open, a mentor who taught you the walls. Rival --- a guardian machine you\'ve escaped twice, a thief who works for the Nobles, a Hunter who thinks stealth is cowardice.
 
+]
+
+#pagebreak(weak: true)
+#columns(2, gutter: 6mm)[
 == 3. Frontier Doctor
 #quote(block: true)[
 The only doctor for a hundred kilometres. You sew up Hunters, deliver babies, and know more about the Kiss than anyone wants to.
 ]
+
+#playbook-art("03-frontier-doctor.jpg", "Frontier Doctor playbook character art")
 
 #figure(
   [#table(
@@ -3980,10 +3999,16 @@ The only doctor for a hundred kilometres. You sew up Hunters, deliver babies, an
 
 #strong[Relationships:] Ally --- a patient who owes you their life, a Capital professor who writes back, a Hunter you\'ve patched up too often. Rival --- a quack selling fake Kiss cures, a Noble scientist whose notes you stole, a mayor who wants the bitten burned.
 
+]
+
+#pagebreak(weak: true)
+#columns(2, gutter: 6mm)[
 == 4. Broker
 #quote(block: true)[
 Contracts, rumours, debts, and deals. You find the work, set the price, and make sure the client pays.
 ]
+
+#playbook-art("04-broker.jpg", "Broker playbook character art")
 
 #figure(
   [#table(
@@ -4062,10 +4087,16 @@ Contracts, rumours, debts, and deals. You find the work, set the price, and make
 
 #strong[Relationships:] Ally --- a mayor who trusts you, a saloon owner who passes on rumours, a Hunter you\'ve represented for years. Rival --- a rival broker in the Capital, a Noble\'s agent who outbids you, a client you cheated.
 
+]
+
+#pagebreak(weak: true)
+#columns(2, gutter: 6mm)[
 == 5. Rider
 #quote(block: true)[
 Born in the saddle and raised on the open Frontier. You find the tracks, read the weather, and hit what you aim at.
 ]
+
+#playbook-art("05-rider.jpg", "Rider playbook character art")
 
 #figure(
   [#table(
@@ -4144,10 +4175,16 @@ Born in the saddle and raised on the open Frontier. You find the tracks, read th
 
 #strong[Relationships:] Ally --- a horse-breeder, a desert nomad, a hermit who shares water. Rival --- a bandit chief on a cyborg horse, a rival tracker, a sand creature that took your old mount.
 
+]
+
+#pagebreak(weak: true)
+#columns(2, gutter: 6mm)[
 == 6. Occultist
 #quote(block: true)[
 Psychic, curse-witch, hypnotist, or scavenger of Noble machines. You use the powers the Nobility left behind, and the Frontier distrusts you for it.
 ]
+
+#playbook-art("06-occultist.jpg", "Occultist playbook character art")
 
 #figure(
   [#table(
@@ -4249,10 +4286,16 @@ Use the Adept\'s #strong[Domain] rules (Generic Playbooks §8.1) unchanged: work
 
 #strong[Relationships:] Ally --- a teacher who vanished into a castle, a village wise-woman, a Noble machine that likes you. Rival --- a psychic Hunter from a rival crew, a Noble sorcerer, a priest who calls you a witch.
 
+]
+
+#pagebreak(weak: true)
+#columns(2, gutter: 6mm)[
 == 7. Mutant
 #quote(block: true)[
 The old wars and the Nobles\' experiments made your bloodline something more, or less, than human. You can fight, climb, hide, and endure like a monster, because you are one, as far as the villagers can tell.
 ]
+
+#playbook-art("07-mutant.jpg", "Mutant playbook character art")
 
 #figure(
   [#table(
@@ -4356,10 +4399,16 @@ Choose #strong[2 Mutations];. Each is a power tag that ignores load, plus a rule
 
 #strong[Relationships:] Ally --- a human child who isn\'t scared of you, a clan elder, a doctor who treats you. Rival --- a Barbarois still sworn to a Noble, a Hunter who hunts mutants for pay, a mayor who posted a bounty on you.
 
+]
+
+#pagebreak(weak: true)
+#columns(2, gutter: 6mm)[
 == 8. Cyborg Hunter
 #quote(block: true)[
 Torn apart by a Noble or a monster, and put back together with steel, wire, and salvaged Noble parts. You\'re stronger than you were, and less human every year.
 ]
+
+#playbook-art("08-cyborg-hunter.jpg", "Cyborg Hunter playbook character art")
 
 #figure(
   [#table(
@@ -4463,10 +4512,16 @@ Choose #strong[2 Implants];. Each is a power tag that ignores load, plus a rule.
 
 #strong[Relationships:] Ally --- the doctor who rebuilt you, a scavenger who finds you parts, a Hunter who knew you before. Rival --- another cyborg with better parts, the Noble who tore you apart, a Capital agent who wants their property back.
 
+]
+
+#pagebreak(weak: true)
+#columns(2, gutter: 6mm)[
 == 9. Warden
 #quote(block: true)[
 Sheriff, militia captain, or the old soldier who keeps the village alive. You don\'t go to the castle; you make sure what comes out of it doesn\'t get in.
 ]
+
+#playbook-art("09-warden.jpg", "Warden playbook character art")
 
 #figure(
   [#table(

@@ -480,3 +480,4 @@
 
 #sec([Frontier Notes])
 #block(height: 1fr, width: 100%, spacing: 0pt, layout(size => lines(int(size.height / 16pt), h: 16pt)))
+

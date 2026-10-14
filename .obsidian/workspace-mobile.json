@@ -102,21 +102,9 @@
               "icon": "lucide-file",
               "title": "Magical Traditions"
             }
-          },
-          {
-            "id": "aac4701e08eee649",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "docs/VampireHunterD/vampire-hunter-d-2d12-v2-master-rulebook.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "vampire-hunter-d-2d12-v2-master-rulebook"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -265,8 +253,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "aac4701e08eee649",
+  "active": "2d30df27e2bbfc6f",
   "lastOpenFiles": [
+    "docs/VampireHunterD/vampire-hunter-d-2d12-v2-master-rulebook.pdf",
     "docs/VampireHunterD/2d12-system-proposal.md",
     "docs/VampireHunterD/How do pools regenerate. How does resting work.md",
     "docs/VampireHunterD/vhd-focuses.md",
@@ -294,7 +283,6 @@
     "docs/Setting/aetas_obscura_setting_bible.md",
     "docs/Setting/Aetas-Obscura-Player-Primer.md",
     "docs/11-combat.md",
-    "docs/02-character-creation.md",
-    "Connections, Reputation, and Favors.md"
+    "docs/02-character-creation.md"
   ]
 }

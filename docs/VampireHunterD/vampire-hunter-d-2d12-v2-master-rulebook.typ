@@ -54,7 +54,7 @@ inspired by  Vampire Hunter D"
   align(center, image("art/playbooks/" + file, width: 100%, alt: alt)))
 
 // generic-playbook header: art set beside the quote, stats and tags (single-column pages)
-#let playbook-art-side(file, alt, body) = grid(columns: (1fr, 24%), column-gutter: 6mm, align: (top, center + horizon),
+#let playbook-art-side(file, alt, body) = grid(columns: (1fr, 33%), column-gutter: 6mm, align: (top, center + horizon),
   body, image("art/playbooks/generic/" + file, width: 100%, alt: alt))
 
 // ---------------------------------------------------------------- ornaments
@@ -5273,6 +5273,7 @@ Divide the roll among Sōma, Akmē, Psychē and Pneuma however you like. Edge do
 #align(center, ornament-rule(width: 40%))
 #v(6pt)
 #align(center, text(font: display-font, size: 9pt, fill: dust, tracking: 0.2em)[END OF THE MASTER RULEBOOK · 2026-10-12])
+
 
 
 

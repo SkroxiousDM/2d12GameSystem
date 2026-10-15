@@ -53,9 +53,9 @@ inspired by  Vampire Hunter D"
 #let playbook-art(file, alt) = block(width: 100%, above: 0.6em, below: 0.9em, breakable: false,
   align(center, image("art/playbooks/" + file, width: 100%, alt: alt)))
 
-// generic-playbook header: art set beside the quote, stats and tags (single-column pages)
-#let playbook-art-side(file, alt, body) = grid(columns: (1fr, 33%), column-gutter: 6mm, align: (top, center + horizon),
-  body, image("art/playbooks/generic/" + file, width: 100%, alt: alt))
+// playbook header: art set beside the quote, stats and tags (single-column pages)
+#let playbook-art-side(file, alt, body, dir: "art/playbooks/generic/") = grid(columns: (1fr, 33%), column-gutter: 6mm, align: (top, center + horizon),
+  body, image(dir + file, width: 100%, alt: alt))
 
 // ---------------------------------------------------------------- ornaments
 #let diamond(size: 5pt, fill: brass) = box(baseline: -0.15em,
@@ -3756,13 +3756,11 @@ Someone took everything from you. You\'ll take it back, in blood.
 #strong[Skill names] follow #emph[Frontier Rules] §3 (Ride, Frontier, Noble Lore, Science, Occult).
 
 #pagebreak()
-#columns(2, gutter: 6mm)[
 == 1. Sellsword
+#playbook-art-side("01-sellsword.jpg", "Sellsword playbook character art", dir: "art/playbooks/")[
 #quote(block: true)[
 Muscle for hire. You stand between the village and the thing coming out of the dark, and you hold the stake when it\'s time.
 ]
-
-#playbook-art("01-sellsword.jpg", "Sellsword playbook character art")
 
 #figure(
   [#table(
@@ -3778,6 +3776,7 @@ Muscle for hire. You stand between the village and the thing coming out of the d
   )
 
 #strong[Playbook tags (choose 2):] #emph[built like a wall] · #emph[veteran of a dozen hunts] · #emph[scarred and unbothered] · #emph[iron grip] · #emph[knows how a fight will go] · #emph[the look that empties a saloon]
+]
 
 === 1.1 Special Abilities
 #figure(
@@ -3798,7 +3797,7 @@ Muscle for hire. You stand between the village and the thing coming out of the d
   )]
   , kind: table
   )
-#colbreak()
+#pagebreak()
 === 1.2 Starting Equipment
 #strong[Signature weapon (choose 1)]
 
@@ -3841,16 +3840,13 @@ Muscle for hire. You stand between the village and the thing coming out of the d
 
 #strong[Relationships:] Ally --- a blacksmith who makes your stakes, an old hunting partner, a saloon keeper who gives you credit. Rival --- a rival Hunter who stole your last bounty, a Barbarois who beat you once, a sheriff who wants you gone.
 
-]
 
 #pagebreak(weak: true)
-#columns(2, gutter: 6mm)[
 == 2. Stalker
+#playbook-art-side("02-stalker.jpg", "Stalker playbook character art", dir: "art/playbooks/")[
 #quote(block: true)[
 You hunt by day. While the Noble sleeps, you climb the castle walls, pick the locks, find the coffin, and open it.
 ]
-
-#playbook-art("02-stalker.jpg", "Stalker playbook character art")
 
 #figure(
   [#table(
@@ -3866,6 +3862,7 @@ You hunt by day. While the Noble sleeps, you climb the castle walls, pick the lo
   )
 
 #strong[Playbook tags (choose 2):] #emph[light on my feet] · #emph[eyes in the back of my head] · #emph[steady hands] · #emph[knows castle layouts] · #emph[forgettable face] · #emph[patient as a stone]
+]
 
 === 2.1 Special Abilities
 #figure(
@@ -3886,7 +3883,7 @@ You hunt by day. While the Noble sleeps, you climb the castle walls, pick the lo
   )]
   , kind: table
   )
-#colbreak()
+#pagebreak()
 === 2.2 Starting Equipment
 #strong[Signature item (choose 1)]
 
@@ -3929,16 +3926,13 @@ You hunt by day. While the Noble sleeps, you climb the castle walls, pick the lo
 
 #strong[Relationships:] Ally --- a fence at the trading post, a castle servant who leaves the gate open, a mentor who taught you the walls. Rival --- a guardian machine you\'ve escaped twice, a thief who works for the Nobles, a Hunter who thinks stealth is cowardice.
 
-]
 
 #pagebreak(weak: true)
-#columns(2, gutter: 6mm)[
 == 3. Frontier Doctor
+#playbook-art-side("03-frontier-doctor.jpg", "Frontier Doctor playbook character art", dir: "art/playbooks/")[
 #quote(block: true)[
 The only doctor for a hundred kilometres. You sew up Hunters, deliver babies, and know more about the Kiss than anyone wants to.
 ]
-
-#playbook-art("03-frontier-doctor.jpg", "Frontier Doctor playbook character art")
 
 #figure(
   [#table(
@@ -3954,6 +3948,7 @@ The only doctor for a hundred kilometres. You sew up Hunters, deliver babies, an
   )
 
 #strong[Playbook tags (choose 2):] #emph[steady surgeon\'s hands] · #emph[seen every wound there is] · #emph[reads old books] · #emph[the village trusts me] · #emph[knows what the Kiss does] · #emph[calm in a crisis]
+]
 
 === 3.1 Special Abilities
 #figure(
@@ -3974,7 +3969,7 @@ The only doctor for a hundred kilometres. You sew up Hunters, deliver babies, an
   )]
   , kind: table
   )
-#colbreak()
+#pagebreak()
 === 3.2 Starting Equipment
 #strong[Signature item (choose 1)]
 
@@ -4017,16 +4012,13 @@ The only doctor for a hundred kilometres. You sew up Hunters, deliver babies, an
 
 #strong[Relationships:] Ally --- a patient who owes you their life, a Capital professor who writes back, a Hunter you\'ve patched up too often. Rival --- a quack selling fake Kiss cures, a Noble scientist whose notes you stole, a mayor who wants the bitten burned.
 
-]
 
 #pagebreak(weak: true)
-#columns(2, gutter: 6mm)[
 == 4. Broker
+#playbook-art-side("04-broker.jpg", "Broker playbook character art", dir: "art/playbooks/")[
 #quote(block: true)[
 Contracts, rumours, debts, and deals. You find the work, set the price, and make sure the client pays.
 ]
-
-#playbook-art("04-broker.jpg", "Broker playbook character art")
 
 #figure(
   [#table(
@@ -4042,6 +4034,7 @@ Contracts, rumours, debts, and deals. You find the work, set the price, and make
   )
 
 #strong[Playbook tags (choose 2):] #emph[silver tongue] · #emph[knows every saloon on the Frontier] · #emph[reads a bluff] · #emph[owed many favours] · #emph[dressed like money] · #emph[speaks the Nobles\' tongue]
+]
 
 === 4.1 Special Abilities
 #figure(
@@ -4062,7 +4055,7 @@ Contracts, rumours, debts, and deals. You find the work, set the price, and make
   )]
   , kind: table
   )
-#colbreak()
+#pagebreak()
 === 4.2 Starting Equipment
 #strong[Signature item (choose 1)]
 
@@ -4105,16 +4098,13 @@ Contracts, rumours, debts, and deals. You find the work, set the price, and make
 
 #strong[Relationships:] Ally --- a mayor who trusts you, a saloon owner who passes on rumours, a Hunter you\'ve represented for years. Rival --- a rival broker in the Capital, a Noble\'s agent who outbids you, a client you cheated.
 
-]
 
 #pagebreak(weak: true)
-#columns(2, gutter: 6mm)[
 == 5. Rider
+#playbook-art-side("05-rider.jpg", "Rider playbook character art", dir: "art/playbooks/")[
 #quote(block: true)[
 Born in the saddle and raised on the open Frontier. You find the tracks, read the weather, and hit what you aim at.
 ]
-
-#playbook-art("05-rider.jpg", "Rider playbook character art")
 
 #figure(
   [#table(
@@ -4130,6 +4120,7 @@ Born in the saddle and raised on the open Frontier. You find the tracks, read th
   )
 
 #strong[Playbook tags (choose 2):] #emph[never lost] · #emph[reads tracks like a book] · #emph[one with my horse] · #emph[dead-eye] · #emph[knows the weather] · #emph[desert-tough]
+]
 
 === 5.1 Special Abilities
 #figure(
@@ -4150,7 +4141,7 @@ Born in the saddle and raised on the open Frontier. You find the tracks, read th
   )]
   , kind: table
   )
-#colbreak()
+#pagebreak()
 === 5.2 Starting Equipment
 #strong[Signature item (choose 1)]
 
@@ -4193,16 +4184,13 @@ Born in the saddle and raised on the open Frontier. You find the tracks, read th
 
 #strong[Relationships:] Ally --- a horse-breeder, a desert nomad, a hermit who shares water. Rival --- a bandit chief on a cyborg horse, a rival tracker, a sand creature that took your old mount.
 
-]
 
 #pagebreak(weak: true)
-#columns(2, gutter: 4mm)[
 == 6. Occultist
+#playbook-art-side("06-occultist.jpg", "Occultist playbook character art", dir: "art/playbooks/")[
 #quote(block: true)[
 Psychic, curse-witch, hypnotist, or scavenger of Noble machines. You use the powers the Nobility left behind, and the Frontier distrusts you for it.
 ]
-
-#playbook-art("06-occultist.jpg", "Occultist playbook character art")
 
 #figure(
   [#table(
@@ -4218,6 +4206,7 @@ Psychic, curse-witch, hypnotist, or scavenger of Noble machines. You use the pow
   )
 
 #strong[Playbook tags (choose 2):] #emph[touched by the Nobility\'s sorcery] · #emph[disciplined mind] · #emph[sees what others can\'t] · #emph[blessed by the old faith] · #emph[tinkers with Noble machines] · #emph[fluent in the old pacts]
+]
 
 === 6.1 Core Feature --- Domain (free)
 Use the Adept\'s #strong[Domain] rules (Generic Playbooks §8.1) unchanged: workings with your anchor skill, scope sets Difficulty, each working costs 1 point from Pneuma (Occult) or Psychē (Science), and doubles on a failure cause backlash.
@@ -4304,16 +4293,13 @@ Use the Adept\'s #strong[Domain] rules (Generic Playbooks §8.1) unchanged: work
 
 #strong[Relationships:] Ally --- a teacher who vanished into a castle, a village wise-woman, a Noble machine that likes you. Rival --- a psychic Hunter from a rival crew, a Noble sorcerer, a priest who calls you a witch.
 
-]
 
 #pagebreak(weak: true)
-#columns(2, gutter: 6mm)[
 == 7. Mutant
+#playbook-art-side("07-mutant.jpg", "Mutant playbook character art", dir: "art/playbooks/")[
 #quote(block: true)[
 The old wars and the Nobles\' experiments made your bloodline something more, or less, than human. You can fight, climb, hide, and endure like a monster, because you are one, as far as the villagers can tell.
 ]
-
-#playbook-art("07-mutant.jpg", "Mutant playbook character art")
 
 #figure(
   [#table(
@@ -4329,6 +4315,7 @@ The old wars and the Nobles\' experiments made your bloodline something more, or
   )
 
 #strong[Playbook tags (choose 2):] #emph[born in the wastes] · #emph[stronger than I look] · #emph[hides in plain sight] · #emph[knows the monsters\' ways] · #emph[survived the experiments] · #emph[proud of what I am]
+]
 
 === 7.1 Core Feature --- Mutations (free)
 Choose #strong[2 Mutations];. Each is a power tag that ignores load, plus a rule. Every Mutation is visible unless you hide it (a hood, a cloak, a Deceive roll). When it\'s seen, the scene gains #emph[Feared and Despised];.
@@ -4354,7 +4341,6 @@ Choose #strong[2 Mutations];. Each is a power tag that ignores load, plus a rule
   )]
   , kind: table
   )
-#colbreak()
 === 7.2 Special Abilities
 #figure(
   [#table(
@@ -4374,7 +4360,6 @@ Choose #strong[2 Mutations];. Each is a power tag that ignores load, plus a rule
   )]
   , kind: table
   )
-#colbreak()
 === 7.3 Starting Equipment
 #strong[Signature item (choose 1)]
 
@@ -4417,16 +4402,13 @@ Choose #strong[2 Mutations];. Each is a power tag that ignores load, plus a rule
 
 #strong[Relationships:] Ally --- a human child who isn\'t scared of you, a clan elder, a doctor who treats you. Rival --- a Barbarois still sworn to a Noble, a Hunter who hunts mutants for pay, a mayor who posted a bounty on you.
 
-]
 
 #pagebreak(weak: true)
-#columns(2, gutter: 6mm)[
 == 8. Cyborg Hunter
+#playbook-art-side("08-cyborg-hunter.jpg", "Cyborg Hunter playbook character art", dir: "art/playbooks/")[
 #quote(block: true)[
 Torn apart by a Noble or a monster, and put back together with steel, wire, and salvaged Noble parts. You\'re stronger than you were, and less human every year.
 ]
-
-#playbook-art("08-cyborg-hunter.jpg", "Cyborg Hunter playbook character art")
 
 #figure(
   [#table(
@@ -4442,6 +4424,7 @@ Torn apart by a Noble or a monster, and put back together with steel, wire, and 
   )
 
 #strong[Playbook tags (choose 2):] #emph[steel where bone used to be] · #emph[doesn\'t feel pain] · #emph[ex-Capital soldier] · #emph[targeting never misses] · #emph[knows Noble machines] · #emph[built to hunt]
+]
 
 === 8.1 Core Feature --- Implants (free)
 Choose #strong[2 Implants];. Each is a power tag that ignores load, plus a rule.
@@ -4467,7 +4450,6 @@ Choose #strong[2 Implants];. Each is a power tag that ignores load, plus a rule.
   )
 
 #strong[Glitches:] doubles on a failure or a Success at a Cost on an implant roll cause #emph[glitched-2] (−2 on rolls with your implants) as well as the normal complication. Science (Restore) or a short rest with tools clears it. Noble science that disrupts machines (an EMP, a castle\'s defences) can inflict #emph[glitched] as an Attack.
-#colbreak()
 === 8.2 Special Abilities
 #figure(
   [#table(
@@ -4487,7 +4469,6 @@ Choose #strong[2 Implants];. Each is a power tag that ignores load, plus a rule.
   )]
   , kind: table
   )
-#colbreak()
 === 8.3 Starting Equipment
 #strong[Signature item (choose 1)]
 
@@ -4530,16 +4511,13 @@ Choose #strong[2 Implants];. Each is a power tag that ignores load, plus a rule.
 
 #strong[Relationships:] Ally --- the doctor who rebuilt you, a scavenger who finds you parts, a Hunter who knew you before. Rival --- another cyborg with better parts, the Noble who tore you apart, a Capital agent who wants their property back.
 
-]
 
 #pagebreak(weak: true)
-#columns(2, gutter: 6mm)[
 == 9. Warden
+#playbook-art-side("09-warden.jpg", "Warden playbook character art", dir: "art/playbooks/")[
 #quote(block: true)[
 Sheriff, militia captain, or the old soldier who keeps the village alive. You don\'t go to the castle; you make sure what comes out of it doesn\'t get in.
 ]
-
-#playbook-art("09-warden.jpg", "Warden playbook character art")
 
 #figure(
   [#table(
@@ -4555,6 +4533,7 @@ Sheriff, militia captain, or the old soldier who keeps the village alive. You do
   )
 
 #strong[Playbook tags (choose 2):] #emph[every fence post by hand] · #emph[the village listens to me] · #emph[old soldier] · #emph[knows how they\'ll come] · #emph[never sleeps on watch] · #emph[wears the badge]
+]
 
 === 9.1 Special Abilities
 #figure(
@@ -4575,7 +4554,7 @@ Sheriff, militia captain, or the old soldier who keeps the village alive. You do
   )]
   , kind: table
   )
-#colbreak()
+#pagebreak()
 === 9.2 Starting Equipment
 #strong[Signature item (choose 1)]
 
@@ -4617,7 +4596,6 @@ Sheriff, militia captain, or the old soldier who keeps the village alive. You do
 - #strong[Instinct:] \"Always check the doors at dusk.\" / \"Never leave the village when a stranger\'s in town.\"
 
 #strong[Relationships:] Ally --- the mayor, the blacksmith, a widow whose husband died on the wall. Rival --- a Hunter who wants to use the village as bait, a council member who\'d rather pay tribute, a Noble who has tried before.
-]
 
 #pagebreak()
 == 10. Design Notes

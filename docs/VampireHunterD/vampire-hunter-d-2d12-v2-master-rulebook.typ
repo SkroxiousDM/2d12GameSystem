@@ -51,7 +51,7 @@ inspired by  Vampire Hunter D"
 // ---------------------------------------------------------------- playbook art
 // full-figure ink-and-watercolour vignettes, toned to the page parchment
 #let playbook-art(file, alt) = block(width: 100%, above: 0.6em, below: 0.9em, breakable: false,
-  align(center, image("art/playbooks/" + file, width: 68%, alt: alt)))
+  align(center, image("art/playbooks/" + file, width: 100%, alt: alt)))
 
 // ---------------------------------------------------------------- ornaments
 #let diamond(size: 5pt, fill: brass) = box(baseline: -0.15em,
@@ -127,7 +127,7 @@ inspired by  Vampire Hunter D"
 }
 
 #set page(paper: "us-letter", fill: paper,
-  margin: (top: 2.1cm, bottom: 2.0cm, inside: 2.2cm, outside: 2.0cm),
+  margin: (top: 2.1cm, bottom: 1.5cm, inside: 2.2cm, outside: 2.0cm),
   header: running-header, footer: running-footer, header-ascent: 35%, footer-descent: 35%)
 
 // ---------------------------------------------------------------- headings
@@ -3739,6 +3739,7 @@ Someone took everything from you. You\'ll take it back, in blood.
 
 #strong[Skill names] follow #emph[Frontier Rules] §3 (Ride, Frontier, Noble Lore, Science, Occult).
 
+#pagebreak()
 #columns(2, gutter: 6mm)[
 == 1. Sellsword
 #quote(block: true)[
@@ -3765,7 +3766,7 @@ Muscle for hire. You stand between the village and the thing coming out of the d
 === 1.1 Special Abilities
 #figure(
   [#table(
-    columns: (5%, 13%, 82%),
+    columns: (5%, 20%, 75%),
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
@@ -3781,7 +3782,7 @@ Muscle for hire. You stand between the village and the thing coming out of the d
   )]
   , kind: table
   )
-
+#colbreak()
 === 1.2 Starting Equipment
 #strong[Signature weapon (choose 1)]
 
@@ -3853,7 +3854,7 @@ You hunt by day. While the Noble sleeps, you climb the castle walls, pick the lo
 === 2.1 Special Abilities
 #figure(
   [#table(
-    columns: (5%, 14%, 81%),
+    columns: (5%, 20%, 75%),
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
@@ -3869,7 +3870,7 @@ You hunt by day. While the Noble sleeps, you climb the castle walls, pick the lo
   )]
   , kind: table
   )
-
+#colbreak()
 === 2.2 Starting Equipment
 #strong[Signature item (choose 1)]
 
@@ -3941,7 +3942,7 @@ The only doctor for a hundred kilometres. You sew up Hunters, deliver babies, an
 === 3.1 Special Abilities
 #figure(
   [#table(
-    columns: (5.05%, 12.12%, 82.83%),
+    columns: (5%, 20%, 75%),
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
@@ -3957,7 +3958,7 @@ The only doctor for a hundred kilometres. You sew up Hunters, deliver babies, an
   )]
   , kind: table
   )
-
+#colbreak()
 === 3.2 Starting Equipment
 #strong[Signature item (choose 1)]
 
@@ -4029,7 +4030,7 @@ Contracts, rumours, debts, and deals. You find the work, set the price, and make
 === 4.1 Special Abilities
 #figure(
   [#table(
-    columns: (5%, 13%, 82%),
+    columns: (5%, 20%, 75%),
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
@@ -4045,7 +4046,7 @@ Contracts, rumours, debts, and deals. You find the work, set the price, and make
   )]
   , kind: table
   )
-
+#colbreak()
 === 4.2 Starting Equipment
 #strong[Signature item (choose 1)]
 
@@ -4117,7 +4118,7 @@ Born in the saddle and raised on the open Frontier. You find the tracks, read th
 === 5.1 Special Abilities
 #figure(
   [#table(
-    columns: (5%, 14%, 81%),
+    columns: (5%, 20%, 75%),
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
@@ -4133,7 +4134,7 @@ Born in the saddle and raised on the open Frontier. You find the tracks, read th
   )]
   , kind: table
   )
-
+#colbreak()
 === 5.2 Starting Equipment
 #strong[Signature item (choose 1)]
 
@@ -4179,7 +4180,7 @@ Born in the saddle and raised on the open Frontier. You find the tracks, read th
 ]
 
 #pagebreak(weak: true)
-#columns(2, gutter: 6mm)[
+#columns(2, gutter: 4mm)[
 == 6. Occultist
 #quote(block: true)[
 Psychic, curse-witch, hypnotist, or scavenger of Noble machines. You use the powers the Nobility left behind, and the Frontier distrusts you for it.
@@ -4189,7 +4190,7 @@ Psychic, curse-witch, hypnotist, or scavenger of Noble machines. You use the pow
 
 #figure(
   [#table(
-    columns: (22%, 78%),
+    columns: (25%, 75%),
     align: (auto,auto,),
     [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [7 / 8 / 9 / 12],
     [#strong[Edge];], [Pneuma 2 (Occult) or Psychē 2 (Science), plus 1 in any other pool],
@@ -4228,14 +4229,14 @@ Use the Adept\'s #strong[Domain] rules (Generic Playbooks §8.1) unchanged: work
 === 6.2 Special Abilities
 #figure(
   [#table(
-    columns: (5%, 14%, 81%),
+    columns: (5%, 20%, 75%),
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Focused Channel];], [Workings inside your Domain cost #strong[0 pool points] if you don\'t use Effort on that roll.],
     [2], [#strong[Ward Against the Night];], [You can create protective statuses (#emph[warded-X];) with Enhance. While warded, an ally reduces supernatural harm by #strong[+1 tier] when Resisting, including the Gaze, the Call, and the Kiss.],
     [3], [#strong[Sense the Unseen];], [Once per scene, ask a free Discover about #strong[hidden supernatural or Noble-science forces] nearby. You always notice when a Noble uses its powers near you.],
-    [4], [#strong[Overchannel];], [When you use Effort for Power on a working, gain #strong[+2 Power] instead of +1, but take #emph[strained-1];.],
+    [4], [#strong[Over-channel];], [When you use Effort for Power on a working, gain #strong[+2 Power] instead of +1, but take #emph[strained-1];.],
     [5], [#strong[Ritual];], [Given time, materials, and a safe place, run a working as a #strong[progress clock] (8 segments for Formidable, 12 for Heroic). Ritual results can create Site or Region Truths: a warded valley, a broken weather tower, a castle sealed shut.],
     [6], [#strong[Familiar];], [You have a doll, a bat, a homunculus, or a small Noble drone, with 1 power tag and 1 weakness. It can scout (one free Discover per scene where it can reach), carry messages, or handle simple tasks. It can\'t fight.],
     [7], [#strong[★ Second Domain];], [Gain a second Domain. Workings in it use the same rules.],
@@ -4300,7 +4301,7 @@ The old wars and the Nobles\' experiments made your bloodline something more, or
 
 #figure(
   [#table(
-    columns: (24%, 76%),
+    columns: (25%, 75%),
     align: (auto,auto,),
     [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [11 / 11 / 6 / 8],
     [#strong[Edge];], [Sōma 1, Akmē 1, plus 1 in Sōma, Akmē, or Pneuma],
@@ -4318,7 +4319,7 @@ Choose #strong[2 Mutations];. Each is a power tag that ignores load, plus a rule
 
 #figure(
   [#table(
-    columns: (16.83%, 14.85%, 68.32%),
+    columns: (25%, 20%, 55%),
     align: (auto,auto,auto,),
     table.header([Mutation], [Tag], [Rule],),
     table.hline(),
@@ -4337,11 +4338,11 @@ Choose #strong[2 Mutations];. Each is a power tag that ignores load, plus a rule
   )]
   , kind: table
   )
-
+#colbreak()
 === 7.2 Special Abilities
 #figure(
   [#table(
-    columns: (5%, 18%, 77%),
+    columns: (5%, 20%, 75%),
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
@@ -4357,7 +4358,7 @@ Choose #strong[2 Mutations];. Each is a power tag that ignores load, plus a rule
   )]
   , kind: table
   )
-
+#colbreak()
 === 7.3 Starting Equipment
 #strong[Signature item (choose 1)]
 
@@ -4450,11 +4451,11 @@ Choose #strong[2 Implants];. Each is a power tag that ignores load, plus a rule.
   )
 
 #strong[Glitches:] doubles on a failure or a Success at a Cost on an implant roll cause #emph[glitched-2] (−2 on rolls with your implants) as well as the normal complication. Science (Restore) or a short rest with tools clears it. Noble science that disrupts machines (an EMP, a castle\'s defences) can inflict #emph[glitched] as an Attack.
-
+#colbreak()
 === 8.2 Special Abilities
 #figure(
   [#table(
-    columns: (5%, 14%, 81%),
+    columns: (5%, 20%, 75%),
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
@@ -4470,7 +4471,7 @@ Choose #strong[2 Implants];. Each is a power tag that ignores load, plus a rule.
   )]
   , kind: table
   )
-
+#colbreak()
 === 8.3 Starting Equipment
 #strong[Signature item (choose 1)]
 
@@ -4542,7 +4543,7 @@ Sheriff, militia captain, or the old soldier who keeps the village alive. You do
 === 9.1 Special Abilities
 #figure(
   [#table(
-    columns: (5.05%, 12.12%, 82.83%),
+    columns: (5%, 20%, 75%),
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
@@ -4558,7 +4559,7 @@ Sheriff, militia captain, or the old soldier who keeps the village alive. You do
   )]
   , kind: table
   )
-
+#colbreak()
 === 9.2 Starting Equipment
 #strong[Signature item (choose 1)]
 
@@ -5256,5 +5257,6 @@ Divide the roll among Sōma, Akmē, Psychē and Pneuma however you like. Edge do
 #align(center, ornament-rule(width: 40%))
 #v(6pt)
 #align(center, text(font: display-font, size: 9pt, fill: dust, tracking: 0.2em)[END OF THE MASTER RULEBOOK · 2026-10-12])
+
 
 

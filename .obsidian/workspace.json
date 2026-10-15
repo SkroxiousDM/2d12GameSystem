@@ -6,7 +6,7 @@
       {
         "id": "b652f9ef2f42b5f6",
         "type": "tabs",
-        "dimension": 40.184994861253855,
+        "dimension": 44.60659898477157,
         "children": [
           {
             "id": "61388ba6a52dbd3b",
@@ -25,7 +25,7 @@
       {
         "id": "4b65b2bab8ecc103",
         "type": "tabs",
-        "dimension": 59.81500513874615,
+        "dimension": 55.39340101522843,
         "children": [
           {
             "id": "1af5f37d9da47b3a",
@@ -208,6 +208,8 @@
   },
   "active": "61388ba6a52dbd3b",
   "lastOpenFiles": [
+    "docs/VampireHunterD/vhd-playbooks.md",
+    "docs/VampireHunterD/vampire-hunter-d-2d12-v2-master-rulebook.typ",
     "docs/VampireHunterD/art/playbooks/generic/06-adept.png",
     "docs/VampireHunterD/art/playbooks/generic/06-adept.jpg",
     "docs/VampireHunterD/art/playbooks/generic/05-explorator.png",
@@ -218,14 +220,12 @@
     "docs/VampireHunterD/art/playbooks/generic/03-savant.jpg",
     "docs/VampireHunterD/art/playbooks/generic/02-furcifer.png",
     "docs/VampireHunterD/art/playbooks/generic/02-furcifer.jpg",
-    "docs/VampireHunterD/art/playbooks/generic/01-bellator.png",
     "docs/VampireHunterD/art/playbooks/generic",
     "docs/VampireHunterD/vampire-hunter-d-2d12-v2-master-rulebook-1.pdf",
     "docs/VampireHunterD/2d12-character-sheet-v2-1.pdf",
     "docs/VampireHunterD/2d12-character-sheet-v2.typ",
     "docs/VampireHunterD/art/playbooks",
     "docs/VampireHunterD/art",
-    "docs/VampireHunterD/vampire-hunter-d-2d12-v2-master-rulebook.typ",
     "docs/VampireHunterD/2d12-character-sheet-v2.pdf",
     "docs/VampireHunterD/2d12-System--Character-Sheet-v0.2.pdf",
     "docs/VampireHunterD/2d12-System--Character-Sheet-v0.2.md",
@@ -233,7 +233,6 @@
     "docs/02.4 Roles.md",
     "docs/02-character-creation.md",
     "docs/VampireHunterD/vhd-setting-rules.md",
-    "docs/VampireHunterD/vhd-playbooks.md",
     "docs/VampireHunterD/vhd-focuses.md",
     "docs/VampireHunterD/vhd-descriptors.md",
     "docs/VampireHunterD/playbooks.md",

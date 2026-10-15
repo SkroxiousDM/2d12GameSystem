@@ -8,17 +8,17 @@
 
 ## Contents
 
-| # | Playbook | Reskin of | Anchor | Base pools (V/F/M/S) | Role |
-|---|---|---|---|---|---|
-| 1 | [Sellsword](#1-sellsword) | Bruiser | Fight or Brawl | 12 / 10 / 6 / 8 | Front-line Hunter, bodyguard, stake-driver |
-| 2 | [Stalker](#2-stalker) | Operator | Stealth | 8 / 12 / 8 / 8 | Castle thief, assassin, day-hunter of sleeping Nobles |
-| 3 | [Frontier Doctor](#3-frontier-doctor) | Sage | Medicine or Noble Lore | 7 / 8 / 13 / 8 | Healer, scholar, treats the Kiss |
-| 4 | [Broker](#4-broker) | Face | Persuade | 7 / 9 / 9 / 11 | Bounty broker, gambler, village elder, negotiator |
-| 5 | [Rider](#5-rider) | Wayfarer | Frontier | 11 / 11 / 7 / 7 | Tracker, scout, marksman, horse-master |
-| 6 | [Occultist](#6-occultist) | Adept | Occult or Science | 7 / 8 / 9 / 12 | Psychic, curse-witch, Noble-science scavenger |
-| 7 | [Mutant](#7-mutant) | New | Athletics or Stealth | 11 / 11 / 6 / 8 | Monster-blooded fighter and infiltrator |
-| 8 | [Cyborg Hunter](#8-cyborg-hunter) | New | Shoot or Fight | 12 / 9 / 9 / 6 | Rebuilt killer with implants |
-| 9 | [Warden](#9-warden) | New | Craft | 10 / 9 / 9 / 8 | Village defender, trap-maker, siege leader |
+| #   | Playbook                              | Reskin of | Anchor                 | Base pools (V/F/M/S) | Role                                                  |
+| --- | ------------------------------------- | --------- | ---------------------- | -------------------- | ----------------------------------------------------- |
+| 1   | [Sellsword](#1-sellsword)             | Bruiser   | Fight or Brawl         | 12 / 10 / 6 / 8      | Front-line Hunter, bodyguard, stake-driver            |
+| 2   | [Stalker](#2-stalker)                 | Operator  | Stealth                | 8 / 12 / 8 / 8       | Castle thief, assassin, day-hunter of sleeping Nobles |
+| 3   | [Frontier Doctor](#3-frontier-doctor) | Sage      | Medicine or Noble Lore | 7 / 8 / 13 / 8       | Healer, scholar, treats the Kiss                      |
+| 4   | [Broker](#4-broker)                   | Face      | Persuade               | 7 / 9 / 9 / 11       | Bounty broker, gambler, village elder, negotiator     |
+| 5   | [Rider](#5-rider)                     | Wayfarer  | Frontier               | 11 / 11 / 7 / 7      | Tracker, scout, marksman, horse-master                |
+| 6   | [Occultist](#6-occultist)             | Adept     | Occult or Science      | 7 / 8 / 9 / 12       | Psychic, curse-witch, Noble-science scavenger         |
+| 7   | [Mutant](#7-mutant)                   | New       | Athletics or Stealth   | 11 / 11 / 6 / 8      | Monster-blooded fighter and infiltrator               |
+| 8   | [Cyborg Hunter](#8-cyborg-hunter)     | New       | Shoot or Fight         | 12 / 9 / 9 / 6       | Rebuilt killer with implants                          |
+| 9   | [Warden](#9-warden)                   | New       | Craft                  | 10 / 9 / 9 / 8       | Village defender, trap-maker, siege leader            |
 
 **Dhampirs** are not a playbook. Any playbook can take the Focus *Carries the Blood of the Nobility* (**vhd-focuses.md**).
 

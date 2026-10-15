@@ -53,6 +53,10 @@ inspired by  Vampire Hunter D"
 #let playbook-art(file, alt) = block(width: 100%, above: 0.6em, below: 0.9em, breakable: false,
   align(center, image("art/playbooks/" + file, width: 100%, alt: alt)))
 
+// generic-playbook header: art set beside the quote, stats and tags (single-column pages)
+#let playbook-art-side(file, alt, body) = grid(columns: (1fr, 24%), column-gutter: 6mm, align: (top, center + horizon),
+  body, image("art/playbooks/generic/" + file, width: 100%, alt: alt))
+
 // ---------------------------------------------------------------- ornaments
 #let diamond(size: 5pt, fill: brass) = box(baseline: -0.15em,
   polygon(fill: fill, (0pt, size/2), (size/2, 0pt), (size, size/2), (size/2, size)))
@@ -1722,6 +1726,7 @@ Armour that absorbs a tier-4+ hit is #emph[damaged] (−1 Armour) until repaired
 
 #pagebreak(weak: true)
 == 3. Bellator
+#playbook-art-side("01-bellator.jpg", "Bellator playbook character art")[
 #quote(block: true)[
 Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers, bouncers, gladiators, mercenaries, security officers.
 ]
@@ -1740,6 +1745,7 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
   )
 
 #strong[Playbook tags (choose 2):] #emph[built like a wall] · #emph[veteran of the line] · #emph[scarred and unbothered] · #emph[iron grip] · #emph[knows how a fight will go] · #emph[the look that stops trouble]
+]
 
 === 3.1 Special Abilities
 #figure(
@@ -1806,6 +1812,7 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
 
 #pagebreak(weak: true)
 == 4. Furcifer
+#playbook-art-side("02-furcifer.jpg", "Furcifer playbook character art")[
 #quote(block: true)[
 Quiet, precise, and always three exits ahead. Thieves, spies, scouts, assassins, infiltrators, saboteurs.
 ]
@@ -1824,6 +1831,7 @@ Quiet, precise, and always three exits ahead. Thieves, spies, scouts, assassins,
   )
 
 #strong[Playbook tags (choose 2):] #emph[light on my feet] · #emph[eyes in the back of my head] · #emph[steady hands] · #emph[knows the underworld] · #emph[forgettable face] · #emph[patient as a stone]
+]
 
 === 4.1 Special Abilities
 #figure(
@@ -1890,6 +1898,7 @@ Quiet, precise, and always three exits ahead. Thieves, spies, scouts, assassins,
 
 #pagebreak(weak: true)
 == 5. Savant
+#playbook-art-side("03-savant.jpg", "Savant playbook character art")[
 #quote(block: true)[
 Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, physicians, archivists, engineers.
 ]
@@ -1908,6 +1917,7 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
   )
 
 #strong[Playbook tags (choose 2):] #emph[read everything twice] · #emph[eye for detail] · #emph[steady surgeon\'s hands] · #emph[speaks the old tongues] · #emph[respected in academic circles] · #emph[thinks in diagrams]
+]
 
 === 5.1 Special Abilities
 #figure(
@@ -1974,6 +1984,7 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
 
 #pagebreak(weak: true)
 == 6. Interlocutor
+#playbook-art-side("04-interlocutor.jpg", "Interlocutor playbook character art")[
 #quote(block: true)[
 Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators, preachers, captains.
 ]
@@ -1992,6 +2003,7 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
   )
 
 #strong[Playbook tags (choose 2):] #emph[silver tongue] · #emph[friends in every port] · #emph[reads people like books] · #emph[noble bearing] · #emph[a hundred faces] · #emph[calm under fire]
+]
 
 === 6.1 Special Abilities
 #figure(
@@ -2058,6 +2070,7 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
 
 #pagebreak(weak: true)
 == 7. Explorator
+#playbook-art-side("05-explorator.jpg", "Explorator playbook character art")[
 #quote(block: true)[
 At home where the map ends. Rangers, hunters, pilots, guides, explorers, scouts, voyageurs.
 ]
@@ -2076,6 +2089,7 @@ At home where the map ends. Rangers, hunters, pilots, guides, explorers, scouts,
   )
 
 #strong[Playbook tags (choose 2):] #emph[reads the weather] · #emph[never lost] · #emph[sharp-eyed hunter] · #emph[tireless] · #emph[at home in the wild] · #emph[steady at the helm]
+]
 
 === 7.1 Special Abilities
 #figure(
@@ -2142,6 +2156,7 @@ At home where the map ends. Rangers, hunters, pilots, guides, explorers, scouts,
 
 #pagebreak(weak: true)
 == 8. Adept
+#playbook-art-side("06-adept.jpg", "Adept playbook character art")[
 #quote(block: true)[
 Power from beyond the ordinary: magic, psionics, faith, or impossible technology. Mages, psychics, priests, hackers, gadgeteers.
 ]
@@ -2160,6 +2175,7 @@ Power from beyond the ordinary: magic, psionics, faith, or impossible technology
   )
 
 #strong[Playbook tags (choose 2):] #emph[touched by the Other] · #emph[disciplined mind] · #emph[sees what others can\'t] · #emph[blessed] · #emph[tinkerer\'s genius] · #emph[fluent in the old pacts]
+]
 
 === 8.1 Core Feature --- Domain (free)
 Every Adept has a #strong[Domain];: a broad power tag describing what they can do (#emph[fire];, #emph[healing];, #emph[telekinesis];, #emph[shadows];, #emph[machines];, #emph[networks];, #emph[the dead];, #emph[weather];).

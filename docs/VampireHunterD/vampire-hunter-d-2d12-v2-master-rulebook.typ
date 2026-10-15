@@ -33,10 +33,11 @@
 #let symbol-font  = ("DejaVu Sans",)
 
 // ---------------------------------------------------------------- metadata
-#let book-title    = "Vampire Hunter D"
+#let book-title    = "Hollow Frontier"
 #let book-subtitle = "The 2d12 System · Version 2"
 #let book-kind     = "Master Rulebook"
-#let book-tagline  = "Post-Apocalyptic Frontier Gothic"
+#let book-tagline  = "Post-Apocalyptic Frontier Gothic 
+inspired by  Vampire Hunter D"
 #let book-author   = "SkroxiousDM"
 #let book-date     = "2026-10-12"
 
@@ -5255,4 +5256,5 @@ Divide the roll among Sōma, Akmē, Psychē and Pneuma however you like. Edge do
 #align(center, ornament-rule(width: 40%))
 #v(6pt)
 #align(center, text(font: display-font, size: 9pt, fill: dust, tracking: 0.2em)[END OF THE MASTER RULEBOOK · 2026-10-12])
+
 

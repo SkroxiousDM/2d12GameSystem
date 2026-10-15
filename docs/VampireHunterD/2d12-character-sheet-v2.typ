@@ -383,7 +383,7 @@
 // =====================================================================
 //  PAGE 3 — FRONTIER INSERT
 // =====================================================================
-#title-band([FRONTIER INSERT], [Vampire Hunter D], text(font: display-font, size: 8pt, fill: dust, tracking: 0.1em)[USE WITH FRONTIER RULES · CH. VII])
+#title-band([INSERT], [Hollow Frontier], text(font: display-font, size: 8pt, fill: dust, tracking: 0.1em)[USE WITH FRONTIER RULES · CH. VII])
 
 #grid(columns: (1fr, 1fr), column-gutter: 14pt,
   // ---------- left

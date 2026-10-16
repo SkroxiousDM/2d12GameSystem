@@ -341,8 +341,8 @@ inspired by  Vampire Hunter D"
 // =====================================================================
 #counter(page).update(1)
 #chapter("Introduction",
-  [Ten thousand years after the bombs, the Nobility's long night is ending, but not quickly enough. This chapter explains what this book contains, how its rules are named.],
-  epigraph: [Fences of wood and garlic. Laser rifles beside wooden stakes. Somewhere beyond the ridge, a castle light comes on.])
+  [The old world is buried beneath the present, but it has not fallen silent. This chapter explains what this book contains, how its rules are named.],
+  epigraph: [Fences of wood and garlic. Laser rifles beside wooden stakes. Somewhere beyond the ridge, an estate light comes on.])
 
 #columns(2, gutter: 6mm)[
 == About This Book
@@ -357,7 +357,7 @@ This master rulebook collects every current document for running *Vampire Hunter
   [IV], [Generic Descriptors], [Descriptor rules and 24 setting-neutral Descriptors, six per pool],
   [V], [Generic Playbooks], [Playbook and equipment rules; Bellator, Furcifer, Savant, Interlocutor, Explorator, Adept],
   [VI], [Generic Focuses], [Focus rules and 24 setting-neutral Focuses],
-  [VII], [Frontier Rules], [The Vampire Hunter D setting: Campaign Truths, skills, day and night, the Nobility, the Kiss, Noble blood, banes, Noble science, bounties, conflicts, travel, Woe spends],
+  [VII], [Frontier Rules], [The Frontier setting: Campaign Truths, skills, day and night, vampires, the Bled, afflicted blood, killing methods, old-world works, contracts, conflicts, travel, Woe spends],
   [VIII], [Frontier Descriptors], [20 Descriptors with Frontier hooks],
   [IX], [Frontier Playbooks], [Sellsword, Stalker, Frontier Doctor, Broker, Rider, Occultist, Mutant, Cyborg Hunter, Warden],
   [X], [Frontier Focuses], [20 setting Focuses, including the dhampir Focus],
@@ -372,7 +372,7 @@ The source documents used the working names on the left. This book uses the hous
 
 #figure(table(columns: (24%, 22%, 54%),
   table.header([Working name], [House name], [What it is]),
-  [Threat], [*Woe*], [The GM's pool: complications, escalation, Noble night powers],
+  [Threat], [*Woe*], [The GM's pool: complications, escalation, vampire Woe spends],
   [Momentum], [*Momentum*], [The party's shared pool of surplus Power (unchanged)],
   [Fate / Fate Points], [*Tychē* / *Tychē Points*], [Each PC's narrative currency: invoke tags, accept compels; set by Refresh],
   [Vitality], [*Sōma*], [Pool: strength, endurance, toughness. Resists wounds, poison, exhaustion, cold],
@@ -400,12 +400,12 @@ The source documents used the working names on the left. This book uses the hous
 
 - *★ Major.* An ability that costs *1 Refresh* when you take it, at creation or through advancement.
 - *◆ Capstone.* Unlocked after *12 Advances* if you have at least 4 abilities from that playbook. It costs no Refresh, and each character can have one.
-- *◈ Weird.* A Focus that assumes the supernatural, Noble science or Noble blood. On the Frontier every ◈ Focus is allowed, but the marker shows which ones draw the attention of Nobles, Occultists and frightened villagers.
+- *◈ Weird.* A Focus that assumes the supernatural, old-world works or afflicted blood. On the Frontier every ◈ Focus is allowed, but the marker shows which ones draw the attention of vampire households, Occultists and frightened villagers.
 - *Tags* are written in _italics_, such as _marks on my throat_. *Statuses* add a tier, such as _wounded-2_.
 - *Difficulty* is written by name and target, such as *Standard 15* or *Hard 18*.
 
 #sidebar("A Note on Tone")[
-  The Frontier is gothic horror on a post-apocalyptic frontier: lone riders, dusty towns, moonlit castles, laser rifles beside wooden stakes, monsters with tragic histories, and Nobles who are beautiful, ancient and bored. *D himself* works best as a rumour, a mirror or a rare NPC, not as a player character (Frontier Rules §1).
+  The Frontier is gothic horror on a post-apocalyptic frontier: lone riders, dusty towns, shuttered estates, laser rifles beside wooden stakes, blood ledgers and disputed wills, and vampires who are few, long-lived and indispensable. Players can be dhampirs, but not full vampires (Frontier Rules §1).
 ]
 ]
 // =====================================================================
@@ -2976,55 +2976,59 @@ Off-type combinations are encouraged: an #emph[Interlocutor who Masters a Weapon
 // =====================================================================
 //  CHAPTER — FRONTIER RULES
 // =====================================================================
-#chapter("Frontier Rules", [The year is 12,090 AD. The Nobility is in decline, but on the Frontier the castles still light up at dusk. This chapter covers the setting: Campaign Truths, day and night, the Kiss, Noble blood, banes, Noble science, bounties and the long roads between villages.], epigraph: [Night belongs to the Nobility. Sunrise is the Hunter's best weapon.])
+#chapter("Frontier Rules", [The old world is buried beneath the present, but it has not fallen silent. This chapter covers the setting: Campaign Truths, day and night, vampires and the blood they need, the bled, dhampirs, how the afflicted die, old-world works, contracts and the long roads between towns.], epigraph: [Every door in this valley opens for someone. Find out who, and you'll know who rules it.])
 
 == 1. The Setting in Brief
-Ten thousand years from now, after nuclear war burned the old world, the #strong[Nobility] --- vampires who rebuilt civilisation with a science indistinguishable from sorcery --- ruled humanity for millennia. Their empire is now in decline. The Capital has its own concerns; the #strong[Frontier] is a scattering of fortified farm villages, desert trading posts, and ruins, where the remaining Nobles still descend from their castles to feed.
+The old world is buried beneath the present, but it has not fallen silent. Its roads, foundations and sealed rooms are everywhere; a few of its works still run. No one agrees on when it fell, and every claim to rule rests on a history that cannot all be true.
 
-Humans survive on what little of the old science they kept, on fences of wood and garlic, and on #strong[Hunters];: professionals who kill Nobles, mutants, and the monsters that Noble experiments left behind. Hunters are needed, paid, and feared. Dhampirs --- half-human children of the Nobility --- are the best Hunters and the most hated.
+Across the #strong[Frontier] --- wherever law, knowledge and working infrastructure give out --- towns bargain with ancient households, physicians dispute the teachings of religious orders, and courts fight over succession, charters and the machines that keep people alive.
 
-#strong[Tone:] gothic horror on a post-apocalyptic frontier. Lone riders, dusty towns, moonlit castles, laser rifles beside wooden stakes, monsters with tragic histories, and Nobles who are beautiful, ancient, and bored.
+Among the living are #strong[vampires]: people who must take blood to live. They are few, long-lived, hard to kill and often indispensable. Some claim to remember the world before the fall. Most rule nothing; some rule a great deal. Their #strong[dhampir] children are rarer still.
 
-#strong[D himself] is best used as a rumour, a mirror, or a rare NPC, not as a player character. Players can be dhampirs (see the Focus #emph[Carries the Blood of the Nobility];) without being D.
+#strong[Tone:] grim, gothic, political. Locked rooms and disputed wills, blood ledgers and charity clinics, rifles beside silver knives, and monsters who know every family in town.
+
+Players can be dhampirs (see the Focus #emph[Carries Her Mother's Blood]) but not full vampires.
 
 == 2. Campaign Truths
-Agree on these at session zero. The first five are the #strong[core Truths];; replace or add from the optional list.
+Agree on these at session zero. The first five are the #strong[core Truths]. Replace or add to them from the optional list.
 
 === 2.1 Core Truths
+
 #figure(
   [#table(
     columns: (5%, 22%, 73%),
     align: (auto,auto,auto,),
     table.header([\#], [Truth], [In play],),
     table.hline(),
-    [1], [#strong[The Nobility are dying, but not dead];], [Nobles are rare, old, and terrible. A single Noble is a campaign arc, not a random encounter.],
-    [2], [#strong[Night belongs to the Nobility];], [Noble powers work only after sunset (§4). Sunrise is the Hunter\'s best weapon.],
-    [3], [#strong[The Frontier pays Hunters and fears them];], [Villages hire Hunters because they must. They don\'t want them to stay.],
-    [4], [#strong[Noble science is sorcery];], [Machines, curses, genetic monsters, and weather control are the same thing. Arcana and Tech merge into the Occult and Science skills (§3).],
-    [5], [#strong[Half-blood is cursed blood];], [Dhampirs are feared by humans and despised by Nobles. Sunlight hurts them; blood calls them.],
+    [1], [#strong[The Kept are few and indispensable]], [Vampires are rare. A single vampire is a campaign arc, not a random encounter --- and killing one rarely solves the problem it was part of.],
+    [2], [#strong[Blood behind every bargain]], [Every vampire depends on a supply: a household, a levy or an exchange. The supply is politics.],
+    [3], [#strong[The Frontier pays for answers and fears them]], [Towns hire investigators and Hunters because they must. They don't always want what's found.],
+    [4], [#strong[The old world's works are disputed]], [Machines, miracles, curses and hauntings are argued over by physicians, priests and scholars. Science and Occult both apply (§3).],
+    [5], [#strong[Dhampirs are rare, feared and coveted]], [Common folk fear them. Vampire households want them --- as heirs, keys or worse.],
   )]
   , kind: table
   )
 
 === 2.2 Optional Truths (d12)
+
 #figure(
   [#table(
     columns: (6%, 94%),
     align: (auto,auto,),
     table.header([d12], [Truth],),
     table.hline(),
-    [1], [#strong[The Sacred Ancestor still watches] --- the first Noble left plans that are still unfolding.],
-    [2], [#strong[The Capital has forgotten the Frontier] --- no help is coming from the Capital.],
-    [3], [#strong[Some Nobles want to end it] --- certain Nobles seek death, love, or escape from their own kind.],
-    [4], [#strong[The machines still run] --- Noble castles keep working with no master inside, defended by guardians nobody controls.],
-    [5], [#strong[The Barbarois remember their oath] --- monster-blooded clans still serve the Nobility for pay or loyalty.],
+    [1], [#strong[A founder still lives] --- one of the oldest vampires in the region controls a bloodline whose doors open across half the region.],
+    [2], [#strong[No one rules the whole Frontier] --- no higher power is coming to settle disputes.],
+    [3], [#strong[Some vampires want to end it] --- certain vampires seek death, love, escape, or a cure that may not exist.],
+    [4], [#strong[The machines still run] --- old-world works keep operating with no one in charge, defended by guardians nobody controls.],
+    [5], [#strong[Old oaths bind the retainers] --- hereditary retainer clans serve vampire households for pay, loyalty or debt.],
     [6], [#strong[Hunters compete for bounties] --- rival crews race for every contract. Bounties go to whoever brings back the proof.],
-    [7], [#strong[The weather is a weapon] --- Noble weather control still runs in places and still fails.],
-    [8], [#strong[The bitten are destroyed] --- Frontier law demands that the Kissed be killed or exiled.],
-    [9], [#strong[The old faith is almost gone] --- crosses still work, but nobody remembers why.],
-    [10], [#strong[Mutants are people too] --- mutants live everywhere, and how they\'re treated is a frontier politics question.],
-    [11], [#strong[Something from outside is coming] --- the ancient war against beings from beyond the stars is not quite over.],
-    [12], [#strong[The Hunters\' Code] --- Hunters keep a code: never abandon a contract, never hunt another Hunter\'s quarry. Breaking it makes you a target.],
+    [7], [#strong[The weather is a weapon] --- old weather works still run in places and still fail.],
+    [8], [#strong[The bled are suspected] --- local law says anyone fed on by a vampire must be examined, confined or exiled, in case they turn.],
+    [9], [#strong[The old faith keeps the old rites] --- the rites are older than anyone can explain, and some of them work.],
+    [10], [#strong[Mutants are people too] --- mutants live everywhere, and how they're treated is a frontier politics question.],
+    [11], [#strong[The lights in the sky still move] --- something the old world left overhead is still watching.],
+    [12], [#strong[The Hunters' Code] --- Hunters keep a code: never abandon a contract, never hunt another Hunter's quarry. Breaking it makes you a target.],
   )]
   , kind: table
   )
@@ -3040,9 +3044,9 @@ The 20 generic skills are renamed or kept as follows. Default pools are unchange
     table.hline(),
     [Athletics], [Shoot], [Notice], [Will],
     [Brawl], [Stealth], [Investigate], [Persuade],
-    [Fight], [#strong[Ride] #emph[(was Drive/Pilot)];], [#strong[Noble Lore] #emph[(was Lore)];], [Intimidate],
-    [Endure], [Craft], [#strong[Science] #emph[(was Tech)];], [Empathy],
-    [#strong[Frontier] #emph[(was Survival)];], [], [Medicine], [#strong[Occult] #emph[(was Arcana)];],
+    [Fight], [#strong[Ride] #emph[(was Drive/Pilot)]], [#strong[Old Lore] #emph[(was Lore)]], [Intimidate],
+    [Endure], [Craft], [#strong[Science] #emph[(was Tech)]], [Empathy],
+    [#strong[Frontier] #emph[(was Survival)]], [], [Medicine], [#strong[Occult] #emph[(was Arcana)]],
     [], [], [Deceive], [],
   )]
   , kind: table
@@ -3054,12 +3058,12 @@ The 20 generic skills are renamed or kept as follows. Default pools are unchange
     align: (auto,auto,),
     table.header([Skill], [Covers in this setting],),
     table.hline(),
-    [#strong[Ride];], [Horses, cyborg horses, wagons, hover-vehicles, land-ships, and riding through a chase.],
-    [#strong[Frontier];], [Wilderness survival, desert and wasteland travel, tracking, mutant animals, weather, finding water.],
-    [#strong[Noble Lore];], [History, Noble houses and etiquette, the Sacred Ancestor, castle architecture, Noble weaknesses, old-world ruins.],
-    [#strong[Science];], [Repairing, using, and disabling human and Noble machines; cyborg parts; Noble weapons.],
-    [#strong[Occult];], [Psychic powers, curses, wards, hypnotism, Noble sorcery, the astral world, possession.],
-    [#strong[Medicine];], [Surgery, poisons, mutations, and treating the Kiss (§6).],
+    [#strong[Ride]], [Horses, cyborg horses, wagons, hover-vehicles, land-ships, and riding through a chase.],
+    [#strong[Frontier]], [Wilderness survival, desert and wasteland travel, tracking, mutant animals, weather, finding water.],
+    [#strong[Old Lore]], [History, households and bloodlines, etiquette and succession law, old-world ruins and records, the folklore of the afflicted.],
+    [#strong[Science]], [Repairing, using and disabling machines, old and new; cyborg parts; old-world weapons and works.],
+    [#strong[Occult]], [Rites, wards and religious practice; omens, relics and reliquaries; what people believe about the afflicted, and which customs they keep.],
+    [#strong[Medicine]], [Surgery, poisons, mutations, blood loss and transfusion (§6).],
   )]
   , kind: table
   )
@@ -3067,7 +3071,7 @@ The 20 generic skills are renamed or kept as follows. Default pools are unchange
 #strong[Guideline:] Science and Occult often overlap. Let the player choose which applies, then fix it for that device or effect for the rest of the scene.
 
 == 4. Day and Night
-Time of day is always a #strong[scene Truth];. Every scene has one.
+Time of day is always a #strong[scene Truth]. Every scene has one.
 
 #figure(
   [#table(
@@ -3075,148 +3079,206 @@ Time of day is always a #strong[scene Truth];. Every scene has one.
     align: (auto,auto,),
     table.header([Time Truth], [Effect],),
     table.hline(),
-    [#strong[Day];], [Noble powers don\'t work. Nobles sleep in coffins and are helpless unless woken. Their guardians, servants, and machines are still active. Dhampirs face Sunlight Syndrome (§7.1).],
-    [#strong[Dusk];], [One scene. The GM gains #strong[+2 Woe] as the sun sets. Nobles wake at the end of this scene.],
-    [#strong[Night];], [Noble powers work. The GM may spend Woe on Noble night powers (§14). Scenes at night with a Noble present add #strong[+1 Woe] at the start of the scene (dangerous Truth).],
-    [#strong[Dawn];], [One scene. Nobles must reach shelter or burn. Any Noble still in the open at the end of this scene takes #emph[burning] at tier 3 at once, and +3 each exchange after that.],
+    [#strong[Day]], [Direct sunlight harms vampires and dhampirs (#emph[Sun-Sick], §7.1). Most vampires keep indoors or underground and many keep night hours, but they are not helpless by day: a vampire in a shuttered room is as dangerous at noon as at midnight. Their retainers, guardians and machines are active.],
+    [#strong[Dusk]], [One scene. The GM gains #strong[+2 Woe] as the sun sets. Vampires come out.],
+    [#strong[Night]], [Vampires and dhampirs see in the dark and ignore darkness Truths. Scenes at night with a vampire present add #strong[+1 Woe] at the start of the scene (dangerous Truth). The GM may use vampire Woe spends (§14).],
+    [#strong[Dawn]], [One scene. A vampire in the open must reach shelter or face the sun. At the end of the scene, any vampire still in direct light gains #emph[Sun-Sick] at tier 2 at once, then normally.],
   )]
   , kind: table
   )
 
+#strong[Cloud and glass:] heavy cloud lessens the harm (§7.1). Experience says sunlight through a window does vampires little harm; no one agrees why.
+
 === 4.1 The Dawn Clock
 When the party must survive until morning, the GM sets a #strong[Dawn clock] (usually 6 or 8 segments).
 
-- It ticks #strong[1 per scene] or #strong[1 per conflict exchange];.
+- It ticks #strong[1 per scene] or #strong[1 per conflict exchange].
 - Players may tick it with the #strong[Advance] effect only by actions that waste time for the enemy (stalling, hiding, leading a chase in circles).
-- When it fills, the scene becomes #strong[Dawn];.
+- When it fills, the scene becomes #strong[Dawn].
 
-Use the Dawn clock as a #strong[racing clock] against the Noble\'s own clock (#emph[Breach the Village 8];, #emph[Take the Girl 6];).
+Use the Dawn clock as a #strong[racing clock] against the vampire's own clock (#emph[Breach the Village 8], #emph[Take the Girl 6]). Dawn doesn't destroy a vampire; it forces a choice: withdraw, or fight on while the sun takes its toll.
 
-== 5. The Nobility
-=== 5.1 Noble Ranks
+== 5. Vampires
+=== 5.1 Threat Ranks
+Rank measures how dangerous a vampire is #strong[now] --- its resources, supply, allies and access to old works --- not its age. A vampire who remembers the world before the fall can be any rank; one made last decade can be Paramount.
+
+
 #figure(
   [#table(
     columns: (9.9%, 41.58%, 21.78%, 26.73%),
     align: (auto,auto,auto,auto,),
     table.header([Rank], [Examples], [Conflict Disposition bonus], [Starting Woe when introduced],),
     table.hline(),
-    [#strong[Lesser];], [A turned human, a Noble\'s servant made into a vampire], [+0], [1],
-    [#strong[Noble];], [A minor Noble of a decayed house], [+2], [3],
-    [#strong[Greater Noble];], [A count, a duke, a feared warlord], [+4], [5],
-    [#strong[Ancient];], [A survivor of the old empire\'s height], [+6], [8 (and a danger clock that can end the campaign)],
+    [#strong[Minor]], [A starving fugitive, a household's newest vampire, a vampire kept as a prisoner], [+0], [1],
+    [#strong[Established]], [Head of a small household, a physician with a private clinic], [+2], [3],
+    [#strong[Great]], [Head of a great house, a vampire whose bloodline opens a town's treatment works], [+4], [5],
+    [#strong[Paramount]], [A founder whose bloodline controls a region], [+6], [8 (and a danger clock that can end the campaign)],
   )]
   , kind: table
   )
 
-=== 5.2 Undying
-Nobles do not die of wounds. A Noble\'s physical statuses #strong[can\'t go above tier 5] unless the Attack uses a #strong[bane] (§8.1): a stake through the heart, beheading, sunlight, and so on.
+=== 5.2 Hard to Kill
+Vampires survive wounds that would kill anyone else.
 
-- A Noble with a tier-5 physical status is #emph[broken] but can still act at night, and recovers all physical statuses after a full day\'s sleep.
-- An Attack with a bane tag can take the status to #strong[tier 6: destroyed];.
-- In a scripted conflict against a Noble, reducing its Disposition to 0 achieves the winning side\'s intent. If the intent is \"destroy it\", one PC must also make a #strong[bane strike];: one roll vs. Hard 18 with a bane weapon. On a failure, the Noble escapes or recovers, and the compromise is at least Significant.
+- A vampire's physical statuses #strong[can't go above tier 5] unless the Attack uses a #strong[killing method] (§8.1). At tier 5 the vampire is #emph[broken]: it can still act, at −2 on physical rolls.
+- #strong[Recovery needs blood.] A wounded or broken vampire that rests a full day #strong[and] takes at least half a litre of blood recovers all physical statuses. Without blood, it recovers only 1 tier per day.
+- #strong[Wounds make it hungry.] Each time a vampire is #emph[broken], tick its #strong[Blood Debt clock] (§5.4) by 1.
+- In a scripted conflict against a vampire, reducing its Disposition to 0 achieves the winning side's intent. If the intent is "destroy it", one PC must also make a #strong[killing strike]: one roll vs. Hard 18 using a killing method. On a failure, the vampire escapes or recovers, and the compromise is at least Significant.
 
-=== 5.3 Noble Traits
-Each Noble has #strong[3--5 power tags] and #strong[at least 1 weakness tag] beyond the standard banes, for example #emph[cannot enter uninvited];, #emph[obsessed with the past];, #emph[proud beyond reason];, #emph[hates mirrors];, #emph[bound to its castle grounds];. Players can learn them with #strong[Discover];.
+=== 5.3 Vampire Traits
+Each vampire has #strong[3--5 power tags] and #strong[at least 1 weakness tag], for example: #emph[the old hospital opens for me], #emph[a hundred donors], #emph[remembers the founding], #emph[faster than you can see], #emph[sees perfectly in the dark];; and #emph[starving], #emph[the doors don't know me], #emph[obsessed with the past], #emph[proud beyond reason], #emph[my supply runs through one man], #emph[believes the old stories] (§8.1). Players can learn them with #strong[Discover].
 
-#strong[Noble pride:] Nobles are proud. Once per scene, a PC may compel a Noble\'s pride (spend 1 Tychē Point or 1 Momentum): the Noble accepts a duel, gives a warning before striking, or lets an insult distract it. The GM gains 1 Woe.
+#strong[Pride:] the long-lived are proud. Once per scene, a PC may compel a vampire's pride (spend 1 Tychē Point or 1 Momentum): it accepts a duel, gives a warning before striking, or lets an insult distract it. The GM gains 1 Woe.
 
-== 6. The Kiss
-When a Noble bites a human, the victim gains the status #strong[#emph[Kissed];];. It works like any status but has special rules.
+=== 5.4 Blood Debt
+Every vampire needs blood regularly. The GM tracks each vampire NPC's hunger on a #strong[Blood Debt clock] of 6 segments, one segment per week since its last full feeding.
+
 
 #figure(
   [#table(
-    columns: (11%, 89%),
+    columns: (14%, 86%),
     align: (auto,auto,),
-    table.header([Kissed tier], [Effect],),
+    table.header([Segments], [What the players can see],),
     table.hline(),
-    [#strong[1];], [Two marks on the throat. Pale, tired, −1 on rolls in sunlight.],
-    [#strong[2];], [The #strong[Call];: each night the Noble can spend 1 Woe to summon the victim. Resist with Pneuma or obey.],
-    [#strong[3];], [Aversion to garlic and crosses (−1 when near them). The victim is a weakness tag for the party: #emph[\[name\] can be called];.],
-    [#strong[4];], [The victim can\'t enter sunlight without becoming #emph[burning-1] per scene. Their Instinct becomes \"Protect my master\'s secrets.\"],
-    [#strong[5];], [The victim obeys the Noble\'s spoken orders. Medicine can no longer treat the Kiss.],
-    [#strong[6];], [#strong[Turned];: the victim becomes a Lesser Noble. A PC who is Turned is lost to the GM unless the table agrees on a Dhampir-like transformation (GM\'s choice, campaign-level).],
+    [0--1], [Nothing.],
+    [2--3], [Pallor, irritability, an unusual interest in blood (Notice, Empathy).],
+    [4], [Pain, slowness, gifts failing: −1 on all its rolls. It takes risks to feed.],
+    [5], [Desperate: −2 on all its rolls. Survival comes first; it may break its own rules.],
+    [6], [#strong[Husk]: the vampire dries out and goes dormant (§5.5).],
   )]
   , kind: table
   )
 
-- #strong[Gaining tiers:] each bite adds tiers like any Attack (stacking rules apply). A Noble that feeds over several nights usually adds #strong[+1 tier per night];.
-- #strong[Resisting:] the Kiss can be Resisted only with #strong[Pneuma] and only when the bite happens; it can\'t be Resisted afterwards.
-- #strong[Treatment:] a Medicine roll vs. Hard 18 (once per day) lowers the Kiss by 1 tier per Power, but never below 1 while the Noble lives.
-- #strong[Release:] destroying the Noble that gave the Kiss removes it completely, but a victim at tier 4+ gains a #strong[Pneuma Scar] (#emph[marked by the Kiss];).
-- #strong[Frontier law:] in many villages (optional Truth 8), anyone known to be Kissed is exiled or killed. Hiding a Kiss is a common compel.
+- Being #emph[broken] ticks the clock (§5.2). A full feeding clears it. A partial feeding stops it ticking that week but doesn't clear it.
+- #strong[Animal blood] counts for half: a vampire needs twice as much of it.
 
-== 7. Noble Blood: Sunlight Syndrome and the Thirst
-These rules apply to anyone with Noble blood: dhampirs (#emph[Carries the Blood of the Nobility];), and some mutants and cyborgs built with Noble parts.
+=== 5.5 Husks
+Sometimes a starved vampire is found dried, light and rigid, like a corpse a century dead. Stories say such bodies can wake. Stories also say they burn like kindling.
+
+- A husk is #strong[unconscious and helpless]. Any killing strike against it succeeds automatically, and #strong[fire destroys it at once].
+- Waking one takes about three people's worth of blood, absorbed over hours or days. It wakes at Blood Debt 5.
+
+== 6. The Bled
+When a vampire feeds on someone --- or anyone loses a great deal of blood --- the victim gains the harmful status #strong[#emph[Bled]].
+
+
+#figure(
+  [#table(
+    columns: (10%, 90%),
+    align: (auto,auto,),
+    table.header([Bled tier], [Effect],),
+    table.hline(),
+    [#strong[1]], [A donation's worth. Pale and tired. No roll penalty; clears after a night's rest with food and water.],
+    [#strong[2]], [Light-headed: −1 on Sōma and Akmē rolls.],
+    [#strong[3]], [Weak: −2 on Sōma and Akmē rolls, and gain #emph[Weary].],
+    [#strong[4]], [Critical: the next harm of any kind Takes you Out. Needs a Medicine roll to stabilise.],
+    [#strong[5]], [Dying: Taken Out. Dies at the end of the scene unless stabilised (Medicine vs. Hard 18) or given a transfusion.],
+    [#strong[6]], [#strong[Drained]. Dead --- unless someone has both the reason and the means to make you one of them.],
+  )]
+  , kind: table
+  )
+
+- #strong[Gaining tiers:] a measured feeding inflicts Bled-1. A hard feeding is an Attack (+2 or more). Stacking rules apply.
+- #strong[Resisting:] Resist with #strong[Sōma] when the blood is taken.
+- #strong[Recovery:] 1 tier per full day of rest with food and water.
+- #strong[Transfusion:] with a willing donor and a transfusion kit, a Medicine roll vs. Standard 15 lowers Bled by 1 tier per Power. The donor gains Bled-1.
+- #strong[Frontier law:] where optional Truth 8 is in play, anyone known to be bled is examined, confined or exiled. Hiding the marks is a common compel.
+- A PC who is Drained and made a vampire leaves player control.
+
+== 7. Afflicted Blood: Sunlight Syndrome and the Thirst
+These rules apply to vampires and dhampirs (#emph[Carries Her Mother's Blood]).
 
 === 7.1 Sunlight Syndrome
-Under the #strong[Day] Truth, in direct sunlight with no shade, a character with Noble blood gains #strong[#emph[Sun-Sick];];:
+Under the #strong[Day] Truth, in direct sunlight, the afflicted gain #strong[#emph[Sun-Sick]]:
 
-- #strong[+1 tier] at the start of each scene outdoors in the sun (stacking normally), or #strong[+2] in a desert or other place with harsh sun (Truth #emph[Merciless Sun];).
-- Sun-Sick is a harmful status: it applies its tier as a penalty to physical rolls (Sōma and Akmē skills).
-- Resist with #strong[Sōma] as normal. A wide hat, a dark cloak, or partial shade counts as #strong[+1 Sōma Edge] for that Resist.
-- #strong[Recovery:] a full scene in shade or darkness lowers Sun-Sick by 2 tiers. At night it clears completely.
-- #strong[Tier 6:] collapse. Taken Out until carried into shade, and gain a Sōma Scar if left for a whole day.
-
-=== 7.2 The Thirst
-Characters with Noble blood have a #strong[Thirst] status, tier 0--6. It doesn\'t penalise rolls until tier 3.
 
 #figure(
   [#table(
-    columns: (61%, 39%),
+    columns: (50%, 25%, 25%),
+    align: (auto,auto,auto,),
+    table.header([Condition], [Dhampirs], [Vampires],),
+    table.hline(),
+    [Direct sun, at the start of each scene], [+1], [+2],
+    [#emph[Merciless Sun] (deserts, harsh sun)], [+2], [+3],
+    [Heavy overcast, per scene], [+0], [+1],
+    [#emph[Sunlit] room or #emph[False Dawn] (§13), per exchange], [+1], [+1],
+  )]
+  , kind: table
+  )
+
+- Sun-Sick is a harmful status: it applies its tier as a penalty to physical rolls (Sōma and Akmē skills).
+- Resist with #strong[Sōma] as normal. A wide hat, a dark cloak or partial shade counts as #strong[+1 Sōma Edge] for that Resist.
+- While Sun-Sick is at tier 1+, abilities and rules that heal the afflicted (vampire recovery, #emph[Mother's Blood], #emph[Dhampir Regeneration]) don't work.
+- A vampire at Sun-Sick 4+ also gains #emph[burning-1] each scene in the sun.
+- #strong[Recovery:] a full scene in shade or darkness lowers Sun-Sick by 2 tiers. At night it clears completely.
+- #strong[Tier 6:] collapse. Taken Out until carried into shade. A dhampir left for a whole day gains a Sōma Scar. A vampire left in direct sun for a full day is destroyed.
+
+=== 7.2 The Thirst
+Dhampirs have a #strong[Thirst] status, tier 0--6. It doesn't penalise rolls until tier 3. A dhampir has no weekly need for blood; the Thirst rises only from what happens to them.
+
+
+#figure(
+  [#table(
+    columns: (80%, 20%),
     align: (auto,auto,),
     table.header([Trigger], [Thirst],),
     table.hline(),
-    [A scene with fresh blood spilled nearby (yours or someone else\'s)], [+1],
-    [You\'re Taken Out, or a pool drops to 2 or less], [+1],
-    [You use a ★ blood ability (marked #emph[Thirst] in its entry)], [+1],
+    [A scene with fresh blood spilled nearby (yours or someone else's)], [+1],
+    [You're Taken Out, or a pool drops to 2 or less], [+1],
+    [You use an ability marked #emph[Thirst] in its entry], [+1 (or as listed)],
     [The GM compels the Thirst and you accept (gain a Tychē Point)], [+1],
     [A full night of rest], [−1],
-    [Drinking animal blood or blood from a willing donor (a scene, no roll)], [−2],
-    [Drinking from an unwilling human], [Clear completely. Gain a Pneuma Scar the first time (#emph[I\'ve tasted it];)],
+    [Animal blood (a scene, no roll)], [−1],
+    [A cup or so of human blood --- drunk, through broken skin or by transfusion (a scene, no roll)], [−2],
+    [Half a litre or more of human blood at once], [Clear completely. If taken by force, gain a Pneuma Scar the first time (#emph[I've tasted it])],
   )]
   , kind: table
   )
 
 #figure(
   [#table(
-    columns: (11%, 89%),
+    columns: (14%, 86%),
     align: (auto,auto,),
     table.header([Thirst tier], [Effect],),
     table.hline(),
-    [#strong[0--2];], [No effect.],
-    [#strong[3--4];], [−1 on Pneuma rolls when blood is visible. Others notice you\'re hungry (Empathy, Notice).],
-    [#strong[5];], [Every scene with a bleeding human, Resist with Pneuma or move toward them.],
-    [#strong[6];], [#strong[Bloodlust];: the GM controls your next action. Afterwards, Thirst drops to 3 and you gain a Pneuma Scar.],
+    [#strong[0--2]], [No effect.],
+    [#strong[3--4]], [−1 on Pneuma rolls when blood is visible. Others notice you're hungry (Empathy, Notice).],
+    [#strong[5]], [In every scene with a bleeding human, Resist with Pneuma or move towards them.],
+    [#strong[6]], [#strong[Blood Crisis]: you choose --- feed from the nearest source this scene, #strong[or] refuse, collapse (Taken Out) and gain a Pneuma Scar. Either way, Thirst drops to 3 afterwards.],
   )]
   , kind: table
   )
 
-#strong[Never feeding] is a Belief, not a rule. A dhampir who never drinks human blood is still a dhampir; the Thirst exists so the table can play that struggle.
+#strong[Never feeding] is a Belief, not a rule. Blood Crisis keeps the choice, and the cost of refusing, with the player.
 
-== 8. Banes and Hunter\'s Gear
-=== 8.1 Banes
-A #strong[bane] is a tag that can destroy a Noble (§5.2). Standard banes:
+== 8. How the Afflicted Die, and Hunter's Gear
+=== 8.1 Killing Methods and Folklore
+A #strong[killing method] is a tag that lets an Attack take a vampire to #strong[tier 6: destroyed] (§5.2).
+
 
 #figure(
   [#table(
-    columns: (15.84%, 22.77%, 61.39%),
+    columns: (22%, 30%, 48%),
     align: (auto,auto,auto,),
-    table.header([Bane], [Works on], [Notes],),
+    table.header([Method], [Effect], [Notes],),
     table.hline(),
-    [#strong[Stake through the heart];], [All Nobles], [Wood, or an alloy that mimics it. The classic finishing blow.],
-    [#strong[Beheading];], [All Nobles], [The blade must be able to cut a Noble (#emph[Noble-forged];, #emph[fine];, or a dhampir\'s strength).],
-    [#strong[Sunlight];], [All Nobles], [Leaving a Noble in the open at Dawn counts as a bane strike.],
-    [#strong[Fire] (sustained)], [Lesser Nobles; others while #emph[broken];], [A burning castle, a funeral pyre.],
-    [#strong[Crosses and garlic];], [Lesser Nobles, weak Nobles], [They impose Truths (#emph[Warded];) rather than destroying. Greater Nobles laugh at them.],
-    [#strong[Running water];], [Some Nobles (GM sets per Noble)], [A Truth that a Noble can\'t cross: #emph[the river runs between us];.],
+    [#strong[Beheading]], [Killing method], [The one sure way. The blade must be able to cut through (#emph[heavy], #emph[fine], or a dhampir's strength).],
+    [#strong[Fire] (sustained)], [Killing method against a vampire with a tier-4+ physical status; destroys a husk at once], [A burning house, a funeral pyre.],
+    [#strong[Sunlight]], [No killing strike, but stops recovery and burns over time (§7.1)], [A collapsed vampire left in direct sun for a full day is destroyed.],
+    [#strong[Stake through the heart]], [Not a killing method. Inflicts #emph[staked]: the vampire can't act or recover while the stake stays in], [Finish it with beheading or fire --- or bargain with it while it's helpless.],
+    [#strong[Silver]], [Not a killing method. Wounds from #emph[silvered] weapons can't be recovered until the next full day], [An old custom. No one remembers why it works.],
+    [#strong[Crosses, garlic, running water, invitations]], [No physical effect], [Folk practice. Some vampires believe in them anyway (below).],
   )]
   , kind: table
   )
 
-Any personal weakness tag of a Noble can be #strong[upgraded to a bane] with 3 Power from Discover and Create effects, or a downtime clock (8 segments).
+#strong[Believers:] a vampire may carry the weakness tag #emph[believes the old stories], or a specific one (#emph[won't cross running water], #emph[can't bear the cross]). Against that vampire, the folk remedy works as a #strong[compel], not a law of nature: the vampire accepts it (the GM gains 1 Woe) or the GM spends 1 Woe to defy it.
+
+Any personal weakness tag of a vampire can be #strong[upgraded to a killing method] with 3 Power from Discover and Create effects, or a downtime clock (8 segments).
 
 === 8.2 Currency and Wealth
-The setting\'s currency is the #strong[dala];. The 2d12 System doesn\'t track coins; use these story tags instead:
+The setting's currency is the #strong[mark]. The 2d12 System doesn't track coins; use these story tags instead:
+
 
 #figure(
   [#table(
@@ -3224,10 +3286,10 @@ The setting\'s currency is the #strong[dala];. The 2d12 System doesn\'t track co
     align: (auto,auto,),
     table.header([Wealth tag], [Means],),
     table.hline(),
-    [#emph[broke];], [Can\'t buy anything without a favour or a trade],
-    [#emph[a few dalas];], [A meal, a night at the inn, a box of bolts],
-    [#emph[a fat purse];], [A horse, a gun, a doctor\'s fee],
-    [#emph[a Noble\'s bounty];], [A cyborg horse, a Noble weapon, a farm],
+    [#emph[broke]], [Can't buy anything without a favour or a trade],
+    [#emph[a few marks]], [A meal, a night at the inn, a box of bolts],
+    [#emph[a fat purse]], [A horse, a gun, a doctor's fee],
+    [#emph[a lord's bounty]], [A cyborg horse, an old-world weapon, a farm],
   )]
   , kind: table
   )
@@ -3235,81 +3297,89 @@ The setting\'s currency is the #strong[dala];. The 2d12 System doesn\'t track co
 === 8.3 Setting Gear
 Weapons and gear use the equipment rules in #emph[Generic Playbooks] §2 (load, gear as tags, armour). These are common across playbooks:
 
+
 #figure(
   [#table(
     columns: (8%, 32%, 60%),
     align: (auto,auto,auto,),
     table.header([Load], [Item], [Tags],),
     table.hline(),
-    [0], [Wooden stake, belt knife, flint striker, water skin], [#emph[stake] (bane)],
-    [1], [Garlic bundle and a cross], [#emph[Warded] (create the Truth for one scene against Lesser Nobles; 1 Power)],
-    [1], [Steel neck guard], [#emph[Armour 1] against bites only; the Kiss gains 1 fewer tier],
-    [1], [Crossbow and wooden bolts], [#emph[+1 Attack] (range), #emph[bolts are stakes] (bane at range, Hard 18)],
+    [0], [Wooden stake, belt knife, flint striker, water skin], [#emph[stake] (inflicts #emph[staked])],
+    [1], [Silver-edged knife or blade], [#emph[silvered]],
+    [1], [Charms: garlic bundle, cross, saint's medal], [#emph[steadies the nerves] (+1 Pneuma Edge against fear); works on #emph[believers] only (§8.1)],
+    [1], [Steel neck guard], [#emph[Armour 1] against bites only; Bled from bites gains 1 fewer tier],
+    [1], [Crossbow and wooden bolts], [#emph[+1 Attack] (range), #emph[bolts are stakes] (#emph[staked] at range, Hard 18)],
     [1], [Revolver or rifle], [#emph[+1 Attack] (range)],
-    [2], [Laser rifle (rare, Capital-made)], [#emph[+1 Attack] (range), #emph[burns through armour];; depletion 1 in d12 (power cell)],
+    [2], [Laser rifle (rare, old-world)], [#emph[+1 Attack] (range), #emph[burns through armour];; depletion 1 in d12 (power cell)],
     [1], [Long cloak and wide hat], [+1 Sōma Edge when Resisting Sun-Sick; #emph[+1 Feint] in the dark],
-    [1], [Flares and sun-lamps], [Create #emph[False Dawn] for one exchange (2 Power). Lesser Nobles can\'t attack while it lasts],
-    [0], [Cyborg horse (vehicle)], [#emph[tireless];, #emph[fast as the wind];; not on foot missions. Treat as a story tag when absent],
+    [1], [Signal mirrors], [By day, create #emph[Sunlit] in a room with a window or opening for one scene (2 Power)],
+    [1], [True-light lamp (rare relic)], [Create #emph[False Dawn] for one exchange (2 Power); depletion 1 in d12],
+    [1], [Flares], [Light only; ends darkness Truths for one exchange],
+    [1], [Transfusion kit], [Needed for transfusion (§6); #emph[+1] on Medicine against Bled],
+    [0], [Cyborg horse (vehicle)], [#emph[tireless], #emph[fast as the wind];; not on foot missions. Treat as a story tag when absent],
     [0], [Normal horse or mule (vehicle)], [#emph[sure-footed];; ticks the Grind clock 1 less per leg],
   )]
   , kind: table
   )
 
-== 9. Noble Science
-Noble machines and relics use #strong[Module A --- Cyphers & Artifacts];.
+== 9. Old-World Works
+Old-world machines and relics use #strong[Module A --- Cyphers & Artifacts].
 
-=== 9.1 Noble Cyphers (d12)
+=== 9.1 Old-World Cyphers (d12)
+
 #figure(
   [#table(
     columns: (6.06%, 17.17%, 8.08%, 68.69%),
     align: (auto,auto,auto,auto,),
     table.header([d12], [Cypher], [Tier], [Effect],),
     table.hline(),
-    [1], [Sun capsule], [4], [Attack (#emph[burning];) against one Noble, counts as a bane],
+    [1], [True-light capsule], [4], [Attack (#emph[Sun-Sick] +2) against one vampire; a killing method only against a husk],
     [2], [Blood ampoule], [3], [Restore 3 Sōma; a dhampir also loses 2 Thirst],
     [3], [Mist grenade], [3], [Create #emph[Thick Mist] for a scene],
     [4], [Gravity disc], [4], [Create #emph[Weightless] in a small area, or carry a heavy load as light],
-    [5], [Psychē-seal patch], [3], [Restore (fear or hypnotism); +1 to Resist the Call],
-    [6], [Castle key-crystal], [2], [Opens one Noble door, or disables one guardian for a scene],
+    [5], [Mind-seal patch], [3], [Restore (fear); +1 to Resist intimidation and #emph[Presence] (§14)],
+    [6], [Bloodline vial], [2], [A vial of a vampire's blood: opens one door of its bloodline, or quiets one of its guardians for a scene],
     [7], [Holo-ghost], [3], [Create #emph[Decoy] (a false image of yourself) for a scene],
-    [8], [Electro-whip charge], [4], [Attack (#emph[stunned];), or +1 Attack in a conflict for one exchange],
+    [8], [Electro-whip charge], [4], [Attack (#emph[stunned]), or +1 Attack in a conflict for one exchange],
     [9], [Healing gel], [3], [Restore (wounds) 3 tiers, divided as you like],
-    [10], [Weather pill], [4], [Create a weather Truth (#emph[Sudden Storm];, #emph[Clear Skies];) for one scene],
-    [11], [Sound blaster], [3], [Attack (#emph[deafened];), Disrupt one Occult effect],
+    [10], [Weather pill], [4], [Create a weather Truth (#emph[Sudden Storm], #emph[Clear Skies]) for one scene],
+    [11], [Sound blaster], [3], [Attack (#emph[deafened]), Disrupt one Occult effect],
     [12], [Unknown relic], [d6], [The player names a reasonable Effect; the GM sets the form and adds a quirk],
   )]
   , kind: table
   )
 
-=== 9.2 Noble Artifacts
-Noble artifacts carry the standard quirk #strong[#emph[the Nobility will want it back];];: it can be compelled for Tychē Points, and the GM may spend 1 Woe to make a Noble or its servants notice it.
+=== 9.2 Old-World Artifacts
+Old-world artifacts carry the standard quirk #strong[#emph[its owners will want it back]]: it can be compelled for Tychē Points, and the GM may spend 1 Woe to make its old owners, or their heirs, notice it.
 
 #quote(block: true)[
-#strong[★ Noble Longsword] --- #emph[Tags:] Noble-forged, +1 Attack (conflict gear). #emph[Ability:] counts as a bane for beheading; ignores #emph[Armour] on Nobles. #emph[Depletion:] none. #emph[Quirk:] the Nobility will want it back.
+#strong[★ Old-World Longsword] --- #emph[Tags:] old-world steel, +1 Attack (conflict gear). #emph[Ability:] counts as a killing method for beheading; ignores #emph[Armour] on vampires. #emph[Depletion:] none. #emph[Quirk:] its owners will want it back.
 
 #strong[★ Dimension Pocket] --- #emph[Tags:] holds more than it should. #emph[Ability:] carry up to 3 extra load. Once per session, draw out an item you could plausibly have stored (no Momentum cost). #emph[Depletion:] 1 in d12 (it opens somewhere else for a scene). #emph[Quirk:] things inside come out wrong.
 
-#strong[★ Cybernetic Eye] --- #emph[Tags:] sees in the dark, sees heat. #emph[Ability:] once per scene, free Discover about anything in your line of sight. #emph[Depletion:] 1 in d12 (blind in that eye for a scene). #emph[Quirk:] the Nobility will want it back.
+#strong[★ Cybernetic Eye] --- #emph[Tags:] sees in the dark, sees heat. #emph[Ability:] once per scene, free Discover about anything in your line of sight. #emph[Depletion:] 1 in d12 (blind in that eye for a scene). #emph[Quirk:] its owners will want it back.
 
-#strong[Guardian Collar] --- #emph[Tags:] protected from the Call. #emph[Ability:] +1 tier reduction when Resisting the Kiss or the Call. #emph[Depletion:] 1 in d12 (it hums and burns: #emph[burned-1];). #emph[Quirk:] tells the Noble who made it where you are.
+#strong[Blood Locket] --- #emph[Tags:] holds a vampire's blood. #emph[Ability:] that bloodline's doors and guardians half-recognise you (+1 die). #emph[Depletion:] 1 in d12 (the blood spoils). #emph[Quirk:] the bloodline's records note every door you open.
 ]
 
-== 10. Bounties and Contracts
-Most sessions start with a contract. The contract is the party\'s shared #strong[Goal];.
+== 10. Bounties, Commissions and Contracts
+Most sessions start with a contract. The contract is the party's shared #strong[Goal]. A contract is a #strong[Bounty] (a quarry), a #strong[Commission] (an investigation), an #strong[Escort] or a #strong[Recovery].
 
 === 10.1 Contract Sheet
+
 #figure(
   [#table(
     columns: (16%, 84%),
     align: (auto,auto,),
     table.header([Element], [Example],),
     table.hline(),
-    [#strong[Client];], [The mayor of Ransylva, on behalf of a farmer whose daughter was bitten],
-    [#strong[Quarry];], [Count Varnas, a Noble (rank: Noble)],
-    [#strong[Proof required];], [His head, his heart, or his signet ring],
-    [#strong[Bounty];], [#emph[a Noble\'s bounty] (a Greater Noble: two)],
-    [#strong[Deadline];], [Before the girl reaches Kissed-6 (danger clock, 6 segments)],
-    [#strong[Complication];], [A rival Hunter crew has the same contract],
+    [#strong[Type]], [Bounty],
+    [#strong[Client]], [The town council, on behalf of a farmer whose daughter was fed on],
+    [#strong[Quarry]], [Lord Varn, a vampire (rank: Established)],
+    [#strong[Proof required]], [His head, his blood ledger, or his signet ring],
+    [#strong[Bounty]], [#emph[a lord's bounty] (a Great vampire: two)],
+    [#strong[Deadline]], [Before the levy is collected (danger clock, 6 segments)],
+    [#strong[Complication]], [Lord Varn insists he hasn't fed in five weeks --- and a rival Hunter crew has the same contract],
   )]
   , kind: table
   )
@@ -3317,17 +3387,18 @@ Most sessions start with a contract. The contract is the party\'s shared #strong
 === 10.2 Negotiating the Fee
 Haggling with a client is a #strong[Negotiation] conflict if it meets the conflict test (Core Rules §10.1); otherwise one Persuade roll vs. Standard 15.
 
-- Each Power above 1 raises the fee by one step (#emph[a fat purse] → #emph[a Noble\'s bounty];), or adds a perk (an advance, a horse, room and board, a share of the castle\'s salvage).
-- A dhampir negotiating with humans faces the Truth #emph[Feared and Despised] (+1 step Difficulty), unless they\'re already known and trusted.
+- Each Power above 1 raises the fee by one step (#emph[a fat purse] → #emph[a lord's bounty]), or adds a perk (an advance, a horse, room and board, a share of the estate's salvage).
+- A dhampir negotiating with humans faces the Truth #emph[Feared and Despised] (+1 step Difficulty), unless they're already known and trusted. With a vampire household, they may face #emph[Coveted] instead (§13).
 
 === 10.3 Reputation
-A Hunter\'s reputation is a #strong[power tag] gained at milestones (#emph[the Hunter who burned Castle Roth];). It counts as a tag on Persuade and Intimidate with Frontier folk. A #strong[bad reputation] (#emph[took the money and ran];) is a weakness tag that clients and rivals compel.
+A Hunter's reputation is a #strong[power tag] gained at milestones (#emph[the Hunter who burned the Roth estate]). It counts as a tag on Persuade and Intimidate with Frontier folk. A #strong[bad reputation] (#emph[took the money and ran]) is a weakness tag that clients and rivals compel.
 
 === 10.4 Rival Hunters
-Rival crews use the #strong[Faction Turn] rules (Module C.5) with a project clock on the same quarry. If their clock fills first, they claim the bounty, and the party\'s contract becomes a Disposition fight with the rivals (often a Negotiation or a Chase rather than a Fight).
+Rival crews use the #strong[Faction Turn] rules (Module C.5) with a project clock on the same quarry. If their clock fills first, they claim the bounty, and the party's contract becomes a Disposition fight with the rivals (often a Negotiation or a Chase rather than a Fight).
 
 == 11. Setting Conflict Types
-These add to the conflict types in Core Rules §10.3. All use the standard scripting, Disposition, and compromise rules.
+These add to the conflict types in Core Rules §10.3. All use the standard scripting, Disposition and compromise rules.
+
 
 #figure(
   [#table(
@@ -3335,31 +3406,32 @@ These add to the conflict types in Core Rules §10.3. All use the standard scrip
     align: (auto,auto,auto,auto,auto,auto,),
     table.header([Type], [Disposition], [Attack], [Defend], [Feint], [Maneuver],),
     table.hline(),
-    [#strong[Hunt] (track a Noble or monster to its lair)], [Frontier or Investigate], [Investigate / Frontier], [Will / Endure], [Deceive], [Notice / Stealth],
-    [#strong[Siege of the Night] (hold a village or camp until dawn)], [Noble Lore (tactics) or Craft], [Shoot / Fight], [Craft / Endure], [Deceive], [Notice],
-    [#strong[Duel of Wills] (a Noble\'s gaze, hypnotism, the Call)], [Will], [Intimidate / Occult], [Will], [Deceive], [Empathy],
-    [#strong[Castle Assault] (break into a Noble\'s castle)], [Science or Stealth], [Science / Fight], [Endure / Athletics], [Stealth], [Noble Lore],
+    [#strong[Hunt] (track a vampire or monster to its lair)], [Frontier or Investigate], [Investigate / Frontier], [Will / Endure], [Deceive], [Notice / Stealth],
+    [#strong[Siege Until Dawn] (hold a town or camp until morning)], [Old Lore (tactics) or Craft], [Shoot / Fight], [Craft / Endure], [Deceive], [Notice],
+    [#strong[Duel of Wills] (an interrogation, an audience, a stare-down with something old and patient)], [Will], [Intimidate / Persuade], [Will], [Deceive], [Empathy],
+    [#strong[Estate Assault] (break into a household or old-world facility)], [Science or Stealth], [Science / Fight], [Endure / Athletics], [Stealth], [Old Lore],
     [#strong[Chase] (setting note)], [Ride or Athletics], [Ride / Shoot], [Ride], [Stealth], [Frontier],
   )]
   , kind: table
   )
 
 === 11.1 Special Rules
-- #strong[Hunt:] the winner gets their intent #emph[and] chooses the time of the confrontation (day or night). If the party wins with the quarry\'s lair found by day, the next scene starts with #strong[Day] and the quarry asleep.
-- #strong[Siege of the Night:] run alongside the #strong[Dawn clock] (§4.1). Each exchange ticks it by 1. If the Dawn clock fills before either side hits 0 Disposition, the Noble side must withdraw: the defenders win with a compromise based on their remaining Disposition.
-- #strong[Duel of Wills:] a PC who loses is #strong[Taken Out] of the will contest and must follow the Noble\'s intent for one scene (or gains Kissed-1 if the intent was to feed). A Noble who loses must withdraw or show its true face (lose 1 power tag for the session).
-- #strong[Castle Assault:] each exchange, the GM may spend 1 Woe to wake a guardian (reinforcement) instead of buying a bonus die. If a castle is taken during the day, its Noble\'s Disposition in the next Fight starts −2.
+- #strong[Hunt:] the winner gets their intent #emph[and] chooses the time of the confrontation (day or night). If the party wins with the quarry's lair found by day, the next scene starts with #strong[Day], and the quarry is shut in, away from the sun.
+- #strong[Siege Until Dawn:] run alongside the #strong[Dawn clock] (§4.1). Each exchange ticks it by 1. If the Dawn clock fills before either side hits 0 Disposition, the vampire side must withdraw or face the sun: the defenders win with a compromise based on their remaining Disposition.
+- #strong[Duel of Wills:] there is no hypnosis; this is pressure, fear and bargaining. A PC who loses is #strong[Taken Out] of the contest and must follow the vampire's intent for one scene, out of obligation, fear or a bargain struck. A vampire who loses withdraws or reveals something (lose 1 power tag for the session).
+- #strong[Estate Assault:] each exchange, the GM may spend 1 Woe to wake a guardian (reinforcement) instead of buying a bonus die. If an estate is taken by day, its vampire's Disposition in the next Fight starts −2.
 
 == 12. The Frontier: Travel and Region Truths
-Use #strong[Module B --- The Grind & Travel];. The Frontier is harsh: most Grind clocks are #strong[6];, deserts and Noble-poisoned lands are #strong[4];.
+Use #strong[Module B --- The Grind & Travel]. The Frontier is harsh: most Grind clocks are #strong[6];; deserts and old-poisoned lands are #strong[4].
 
 === 12.1 Frontier Travel Notes
-- The Guide rolls #strong[Ride] or #strong[Frontier];.
-- #strong[Cyborg horses] don\'t eat or tire: a party with them ignores the first Grind tick each leg. Normal horses need water: Supplies drop by 2 per leg in deserts.
-- #strong[Night travel] halves Grind clock size but every encounter is at Night.
+- The Guide rolls #strong[Ride] or #strong[Frontier].
+- #strong[Cyborg horses] don't eat or tire: a party with them ignores the first Grind tick each leg. Normal horses need water: Supplies drop by 2 per leg in deserts.
+- #strong[Night travel] halves Grind clock size, but every encounter is at Night.
 
 === 12.2 Frontier Truth Generator (d12)
 Use with Module C.3. Roll once per column or pick.
+
 
 #figure(
   [#table(
@@ -3367,18 +3439,18 @@ Use with Module C.3. Roll once per column or pick.
     align: (auto,auto,auto,auto,auto,),
     table.header([d12], [Terrain / Feature], [Atmosphere], [Hazard], [Secret],),
     table.hline(),
-    [1], [Fortified farming village], [Sullen, watching faces], [Villagers with torches], [Someone in town is Kissed],
-    [2], [Noble castle on a crag], [Silent music at midnight], [Guardian machines], [The Noble wants to die],
-    [3], [Endless desert], [Merciless sun], [Sand creatures under the dunes], [A buried Noble city],
-    [4], [Ruined old-world city], [Wind through dead towers], [Radiation pockets], [A pre-Noble weapon],
-    [5], [Haunted forest], [Mist that never lifts], [Mutant beasts], [A Barbarois camp],
-    [6], [Trading post and saloon], [Whiskey and fear], [Rival Hunters], [A Noble\'s spy runs the bar],
+    [1], [Fortified farming town], [Sullen, watching faces], [Townsfolk with torches], [Someone in town is secretly feeding a vampire],
+    [2], [Vampire estate on a crag], [Silent music at midnight], [Guardian machines], [The vampire wants to die],
+    [3], [Endless desert], [Merciless sun], [Sand creatures under the dunes], [A buried old-world city],
+    [4], [Ruined old-world city], [Wind through dead towers], [Radiation pockets], [An old-world weapon],
+    [5], [Haunted forest], [Mist that never lifts], [Mutant beasts], [A retainer-clan camp],
+    [6], [Trading post and saloon], [Whiskey and fear], [Rival Hunters], [A household's spy runs the bar],
     [7], [Swamp of failed experiments], [Wet, rotting heat], [Bioweapon remnants], [A creature that can speak],
-    [8], [Abandoned Noble laboratory], [Lights still on], [Automated defences], [The cure for the Kiss, maybe],
-    [9], [Dry riverbed and canyon], [Dust storms], [Bandits on cyborg horses], [A water source the Nobles poisoned],
-    [10], [Mountain pass], [Biting cold], [Avalanche], [A monk who remembers the Sacred Ancestor],
+    [8], [Abandoned treatment works], [Lights still on], [Automated defences], [Records of the original treatment, maybe],
+    [9], [Dry riverbed and canyon], [Dust storms], [Bandits on cyborg horses], [A water source someone poisoned],
+    [10], [Mountain pass], [Biting cold], [Avalanche], [A monk who remembers the founding],
     [11], [Weather-control tower], [Storms that come out of nowhere], [Lightning], [The tower still answers orders],
-    [12], [Graveyard of Hunters], [Unnatural stillness], [Restless dead], [A famous Hunter didn\'t die here],
+    [12], [Graveyard of Hunters], [Unnatural stillness], [A husk among the graves], [A famous Hunter didn't die here],
   )]
   , kind: table
   )
@@ -3386,33 +3458,37 @@ Use with Module C.3. Roll once per column or pick.
 == 13. Scene Truths
 Pick 1--3 for each scene, in addition to the #strong[time Truth] (§4).
 
+
 #figure(
   [#table(
     columns: (20%, 80%),
     align: (auto,auto,),
     table.header([Truth], [Typical effect],),
     table.hline(),
-    [#emph[Moonlit];], [Lowers Stealth Difficulty for Nobles; raises it for humans],
-    [#emph[Moonless];], [+1 step Difficulty to Notice; Nobles and dhampirs ignore it],
-    [#emph[Merciless Sun];], [Sun-Sick +2 per scene (§7.1)],
-    [#emph[Garlic Fences];], [Lesser Nobles can\'t cross; Nobles −1 on all rolls inside],
-    [#emph[Uninvited];], [A Noble can\'t enter this home unless invited],
-    [#emph[Running Water];], [Some Nobles can\'t cross],
-    [#emph[Noble\'s Domain];], [Inside a castle\'s grounds: the GM\'s Noble abilities cost 1 less Woe (minimum 1)],
-    [#emph[Frightened Villagers];], [+1 step Difficulty to Persuade; failures may start a mob],
-    [#emph[Feared and Despised];], [Dhampirs and mutants: +1 step Difficulty to all social rolls with humans],
-    [#emph[Thick Mist];], [+1 step Difficulty to Shoot and Notice; Nobles can become mist here],
-    [#emph[Guardian Machines];], [A danger clock of 4: when it fills, castle guardians attack],
-    [#emph[Blood on the Air];], [Thirst +1 for those with Noble blood],
-    [#emph[False Dawn];], [Lesser Nobles can\'t act; Nobles −1 on all rolls (lasts one exchange or scene)],
-    [#emph[Dust Storm];], [+1 step Difficulty to Ride, Shoot, and Notice],
-    [#emph[Hostile Crowd];], [Standard Truth: social rolls harder, violence draws a mob],
+    [#emph[Moonlit]], [Stealth is harder for everyone; vampires and dhampirs see clearly],
+    [#emph[Moonless]], [+1 step Difficulty to Notice; vampires and dhampirs ignore it],
+    [#emph[Merciless Sun]], [Sun-Sick +2 per scene for dhampirs, +3 for vampires (§7.1)],
+    [#emph[Overcast]], [Sun-Sick +1 per scene for vampires; none for dhampirs],
+    [#emph[Sunlit]], [Direct sun indoors (mirrors, a broken roof): Sun-Sick +1 per exchange],
+    [#emph[Warded Village]], [The townsfolk believe they're safe. Believers (§8.1) won't cross without defying a compel; everyone else finds the townsfolk armed and watching (+1 step Difficulty to Stealth)],
+    [#emph[Custom of Invitation]], [Entering a home uninvited breaks local custom: if seen, the scene gains #emph[Hostile Crowd]. Believers must defy a compel],
+    [#emph[Their Own House]], [Inside a place that answers to the vampire's bloodline: its Woe spends cost 1 less (minimum 1)],
+    [#emph[Frightened Villagers]], [+1 step Difficulty to Persuade; failures may start a mob],
+    [#emph[Feared and Despised]], [Dhampirs and mutants: +1 step Difficulty to all social rolls with humans],
+    [#emph[Coveted]], [A dhampir among a vampire household: social rolls are one step easier, but every success puts them further in the household's debt],
+    [#emph[Thick Mist]], [+1 step Difficulty to Shoot and Notice],
+    [#emph[Guardian Machines]], [A danger clock of 4: when it fills, the guardians attack],
+    [#emph[Blood on the Air]], [Thirst +1 for dhampirs; a vampire at Blood Debt 3+ must act on it or take −1],
+    [#emph[False Dawn]], [True-light lamps: vampires gain Sun-Sick +1 per exchange, can't recover, and take −1 on all rolls (lasts one exchange or scene)],
+    [#emph[Dust Storm]], [+1 step Difficulty to Ride, Shoot and Notice],
+    [#emph[Hostile Crowd]], [Standard Truth: social rolls harder, violence draws a mob],
   )]
   , kind: table
   )
 
-== 14. Woe Spends for the Night
-Use with Core Rules §9.2. Most require the #strong[Night] Truth.
+== 14. Woe Spends: Vampires
+Use with Core Rules §9.2.
+
 
 #figure(
   [#table(
@@ -3420,25 +3496,27 @@ Use with Core Rules §9.2. Most require the #strong[Night] Truth.
     align: (auto,auto,auto,),
     table.header([GM spend], [Cost], [Effect],),
     table.hline(),
-    [#strong[The Gaze];], [1], [A PC who meets a Noble\'s eyes takes #emph[entranced-2] (Resist with Pneuma). Start a Duel of Wills if it matters],
-    [#strong[The Call];], [1], [Summon one Kissed victim of tier 2+ (§6)],
-    [#strong[Mist Form];], [2], [The Noble becomes mist and leaves the scene, or passes through a gap],
-    [#strong[Command the Beasts];], [2], [Wolves, bats, or mutant creatures arrive as a minion group],
-    [#strong[Uncanny Speed];], [1], [The Noble acts first or changes its scripted action for 1 Woe (instead of 3)],
-    [#strong[The Castle Wakes];], [3], [Create a castle Truth (#emph[Shifting Halls];, #emph[Sealed Doors];, #emph[Gravity Fails];)],
-    [#strong[Rise From the Coffin];], [3], [Once per session, a Noble #emph[broken] earlier in the night recovers 2 tiers of physical status],
-    [#strong[Weather Turns];], [2], [Create a weather Truth for the scene],
-    [#strong[Servant of the Night];], [3], [A Barbarois or significant servant arrives],
+    [#strong[Presence]], [1], [A PC facing the vampire takes #emph[shaken-2] (Resist with Pneuma). Start a Duel of Wills if it matters],
+    [#strong[Summon the Household]], [1], [A retainer, donor or dependant arrives and obeys --- out of loyalty, debt, love or fear],
+    [#strong[The Old Door]], [2], [The vampire leaves through a way only its bloodline can open, or a passage nobody knew was there],
+    [#strong[Kennel and Guardians]], [2], [Trained animals, mutant creatures or old-world guardians that answer to it arrive as a minion group],
+    [#strong[Uncanny Speed]], [1], [The vampire acts first or changes its scripted action for 1 Woe (instead of 3). Not at Blood Debt 4+],
+    [#strong[The House Answers]], [3], [Requires #emph[Their Own House]. Create a facility Truth (#emph[Shifting Halls], #emph[Sealed Doors], #emph[Lights Fail], #emph[Gravity Fails])],
+    [#strong[Blood Reserve]], [3], [Once per session, if blood is at hand (stored, a donor, a victim), a #emph[broken] vampire feeds and recovers 2 tiers of physical status. It leaves evidence],
+    [#strong[Weather Turns]], [2], [Create a weather Truth for the scene; requires old weather works nearby],
+    [#strong[Retainer]], [3], [A significant retainer or ally arrives],
   )]
   , kind: table
   )
 
 == 15. Design Notes
-- #strong[Undying (§5.2)] is the main change from the core rules. It means a Noble fight has two stages: wear it down, then land a bane strike. Watch how long this makes fights; if too long, allow a bane strike as part of the final Attack instead of a separate roll.
-- #strong[The Kiss and the Thirst] are both statuses so that the existing Restore, Resist, and compel rules work on them. Neither one reduces rolls until mid-tier, so they create tension before they create penalties.
-- #strong[Sunlight Syndrome] limits dhampirs during the day, which is when the rest of the party is strongest. That trade is the core of the dhampir\'s role.
+- #strong[Hard to Kill (§5.2)] keeps the two-stage fight --- wear it down, then a killing strike --- but ties recovery to blood. Wounding a vampire makes it hungrier, and a hungry vampire is a different problem. Watch how long this makes fights; if too long, allow the killing strike as part of the final Attack instead of a separate roll.
+- #strong[The Bled and the Thirst] are both statuses, so the existing Restore, Resist and compel rules work on them. Bled is plain blood loss; its tier 6 is death, with one ominous exception.
+- #strong[Day and night] no longer switch vampires on and off. Sunlight is a cost, not a cage; the daytime advantage comes from finding where a vampire is and getting light in.
+- #strong[Folklore] works through belief, not physics. The #emph[believer] rule lets old remedies matter at the table without becoming true.
+- #strong[Sunlight Syndrome] still limits dhampirs by day, when the rest of the party is strongest. That trade is the core of the dhampir's role.
 - #strong[Science vs. Occult:] keep the line blurred on purpose. The guideline in §3 stops arguments without forcing a fixed answer.
-- #strong[Bounties as Goals] give the party a shared Goal each session, and personal Goals sit inside it.
+- #strong[Contracts as Goals] give the party a shared Goal each session, and personal Goals sit inside it.
 
 // =====================================================================
 //  CHAPTER — FRONTIER DESCRIPTORS
@@ -3471,12 +3549,12 @@ Each entry also has a #strong[Frontier hook];: one question to answer at charact
     align: (auto,auto,auto,auto,auto,),
     table.header([\#], [Descriptor], [Pool], [Power tag], [Weakness tag],),
     table.hline(),
-    [1], [Bitten], [Pneuma], [#emph[the Call doesn\'t take me];], [#emph[marks on my throat];],
+    [1], [Bitten], [Pneuma], [#emph[I\'ve been bled and lived];], [#emph[marks on my throat];],
     [2], [Bitter], [Psychē], [#emph[expects the worst];], [#emph[trusts no one];],
-    [3], [Capital-Born], [Psychē], [#emph[educated in the Capital];], [#emph[soft hands];],
+    [3], [City-Born], [Psychē], [#emph[educated in the city];], [#emph[soft hands];],
     [4], [Charming], [Pneuma], [#emph[a smile that opens doors];], [#emph[can\'t resist a pretty face];],
     [5], [Cold], [Pneuma], [#emph[nothing shows on my face];], [#emph[pushes people away];],
-    [6], [Coveted], [Pneuma], [#emph[beauty the Nobles notice];], [#emph[the Nobility want me];],
+    [6], [Coveted], [Pneuma], [#emph[beauty the vampires notice];], [#emph[the Kept want me];],
     [7], [Cunning], [Psychē], [#emph[always a second plan];], [#emph[too clever by half];],
     [8], [Devout], [Pneuma], [#emph[faith the dark can feel];], [#emph[won\'t break my vows];],
     [9], [Doomed], [Pneuma], [#emph[nothing left to lose];], [#emph[death rides beside me];],
@@ -3498,14 +3576,14 @@ Each entry also has a #strong[Frontier hook];: one question to answer at charact
 == 3. Descriptors
 === 1. Bitten
 #quote(block: true)[
-A Noble drank from you once and let you live. The marks never faded.
+A vampire drank from you once and let you live. The marks never faded.
 ]
 
 - #strong[Pool:] +2 Pneuma
-- #strong[Power tag:] #emph[the Call doesn\'t take me]
+- #strong[Power tag:] #emph[I\'ve been bled and lived]
 - #strong[Weakness tag:] #emph[marks on my throat]
 - #strong[Suggested Instinct:] \"Always keep my collar buttoned.\"
-- #strong[Frontier hook:] Which Noble bit you, and why did it stop?
+- #strong[Frontier hook:] Which vampire bit you, and why did it stop?
 
 === 2. Bitter
 #quote(block: true)[
@@ -3518,16 +3596,16 @@ The Frontier taught you that hope is how people get killed.
 - #strong[Suggested Instinct:] \"Always ask who benefits.\"
 - #strong[Frontier hook:] Who betrayed you, and do they still live?
 
-=== 3. Capital-Born
+=== 3. City-Born
 #quote(block: true)[
-You grew up behind the Capital\'s walls, with books, machines, and safety. The Frontier is a different world.
+You grew up behind the city\'s walls, with books, machines, and safety. The Frontier is a different world.
 ]
 
 - #strong[Pool:] +2 Psychē
-- #strong[Power tag:] #emph[educated in the Capital]
+- #strong[Power tag:] #emph[educated in the city]
 - #strong[Weakness tag:] #emph[soft hands]
 - #strong[Suggested Instinct:] \"Always look for the scientific explanation first.\"
-- #strong[Frontier hook:] Why did you leave the Capital, and can you ever go back?
+- #strong[Frontier hook:] Why did you leave the city, and can you ever go back?
 
 === 4. Charming
 #quote(block: true)[
@@ -3553,14 +3631,14 @@ You learned to feel nothing. It keeps you alive.
 
 === 6. Coveted
 #quote(block: true)[
-You have the kind of beauty the Nobility collect: as brides, as servants, as trophies.
+You have the kind of beauty the Kept collect: as brides, as servants, as trophies.
 ]
 
 - #strong[Pool:] +2 Pneuma
-- #strong[Power tag:] #emph[beauty the Nobles notice]
-- #strong[Weakness tag:] #emph[the Nobility want me]
+- #strong[Power tag:] #emph[beauty the vampires notice]
+- #strong[Weakness tag:] #emph[the Kept want me]
 - #strong[Suggested Instinct:] \"Always cover my face when I travel at night.\"
-- #strong[Frontier hook:] Which Noble house has already sent for you?
+- #strong[Frontier hook:] Which vampire household has already sent for you?
 
 === 7. Cunning
 #quote(block: true)[
@@ -3575,7 +3653,7 @@ You win by thinking. Fights are for people who planned badly.
 
 === 8. Devout
 #quote(block: true)[
-The old faith is nearly gone, but you still keep it. Crosses burn Nobles for a reason.
+The old faith is nearly gone, but you still keep it. Crosses don\'t burn anyone, but the rites still matter.
 ]
 
 - #strong[Pool:] +2 Pneuma
@@ -3586,7 +3664,7 @@ The old faith is nearly gone, but you still keep it. Crosses burn Nobles for a r
 
 === 9. Doomed
 #quote(block: true)[
-A seer, a Noble, or a doctor told you how you\'ll die. You believe them.
+A seer, a vampire, or a doctor told you how you\'ll die. You believe them.
 ]
 
 - #strong[Pool:] +2 Pneuma
@@ -3641,18 +3719,18 @@ Hunting is a job. Jobs pay. Better jobs pay more.
 
 === 14. Hollow-Eyed
 #quote(block: true)[
-You\'ve seen what Nobles do in their castles. Nothing frightens you anymore, not even in your sleep.
+You\'ve seen what vampires do in their estates. Nothing frightens you anymore, not even in your sleep.
 ]
 
 - #strong[Pool:] +2 Psychē
 - #strong[Power tag:] #emph[seen too much to scare]
 - #strong[Weakness tag:] #emph[nightmares every night]
 - #strong[Suggested Instinct:] \"Always stay awake on the first watch.\"
-- #strong[Frontier hook:] What did you see in the castle?
+- #strong[Frontier hook:] What did you see in the estate?
 
 === 15. Mutated
 #quote(block: true)[
-The old wars and the Noble experiments left their mark on your bloodline: scales, extra senses, a too-long arm, eyes that glow.
+The old wars and the old-world experiments left their mark on your bloodline: scales, extra senses, a too-long arm, eyes that glow.
 ]
 
 - #strong[Pool:] +2 Sōma
@@ -3717,11 +3795,11 @@ Someone took everything from you. You\'ll take it back, in blood.
 - #strong[Frontier hook:] Who are you hunting, and what did they take?
 
 == 4. Sample Sentences
-- \"I am a #strong[Bitten] #strong[Frontier Doctor] who #strong[Heals the Kissed];.\"
-- \"I am a #strong[Cold] #strong[Sellsword] who #strong[Carries the Blood of the Nobility];.\"
+- \"I am a #strong[Bitten] #strong[Frontier Doctor] who #strong[Heals the Bled];.\"
+- \"I am a #strong[Cold] #strong[Sellsword] who #strong[Carries Her Mother\'s Blood];.\"
 - \"I am a #strong[Greedy] #strong[Broker] who #strong[Collects the Bounty];.\"
 - \"I am a #strong[Feral] #strong[Mutant] who #strong[Hunts the Beasts of the Frontier];.\"
-- \"I am a #strong[Vengeful] #strong[Cyborg Hunter] who #strong[Seeks Revenge on a Noble];.\"
+- \"I am a #strong[Vengeful] #strong[Cyborg Hunter] who #strong[Seeks Revenge on a Vampire];.\"
 - \"I am a #strong[Superstitious] #strong[Warden] who #strong[Holds the Line Until Dawn];.\"
 - \"I am a #strong[Coveted] #strong[Occultist] who #strong[Loves What It Should Hate];.\"
 ]
@@ -3739,11 +3817,11 @@ Someone took everything from you. You\'ll take it back, in blood.
     table.header([\#], [Playbook], [Reskin of], [Anchor], [Base pools (Sōm / Akm / Psy / Pne)], [Role],),
     table.hline(),
     [1], [Sellsword], [Bellator], [Fight or Brawl], [12 / 10 / 6 / 8], [Front-line Hunter, bodyguard, stake-driver],
-    [2], [Stalker], [Furcifer], [Stealth], [8 / 12 / 8 / 8], [Castle thief, assassin, day-hunter of sleeping Nobles],
-    [3], [Frontier Doctor], [Savant], [Medicine or Noble Lore], [7 / 8 / 13 / 8], [Healer, scholar, treats the Kiss],
+    [2], [Stalker], [Furcifer], [Stealth], [8 / 12 / 8 / 8], [Estate thief, assassin, day-hunter of sleeping vampires],
+    [3], [Frontier Doctor], [Savant], [Medicine or Old Lore], [7 / 8 / 13 / 8], [Healer, scholar, treats the bled],
     [4], [Broker], [Interlocutor], [Persuade], [7 / 9 / 9 / 11], [Bounty broker, gambler, village elder, negotiator],
     [5], [Rider], [Explorator], [Frontier], [11 / 11 / 7 / 7], [Tracker, scout, marksman, horse-master],
-    [6], [Occultist], [Adept], [Occult or Science], [7 / 8 / 9 / 12], [Psychic, curse-witch, Noble-science scavenger],
+    [6], [Occultist], [Adept], [Occult or Science], [7 / 8 / 9 / 12], [Psychic, curse-witch, old-world scavenger],
     [7], [Mutant], [New], [Athletics or Stealth], [11 / 11 / 6 / 8], [Monster-blooded fighter and infiltrator],
     [8], [Cyborg Hunter], [New], [Shoot or Fight], [12 / 9 / 9 / 6], [Rebuilt killer with implants],
     [9], [Warden], [New], [Craft], [10 / 9 / 9 / 8], [Village defender, trap-maker, siege leader],
@@ -3751,9 +3829,9 @@ Someone took everything from you. You\'ll take it back, in blood.
   , kind: table
   )
 
-#strong[Dhampirs] are not a playbook. Any playbook can take the Focus #emph[Carries the Blood of the Nobility] (#emph[Frontier Focuses];).
+#strong[Dhampirs] are not a playbook. Any playbook can take the Focus #emph[Carries Her Mother\'s Blood] (#emph[Frontier Focuses];).
 
-#strong[Skill names] follow #emph[Frontier Rules] §3 (Ride, Frontier, Noble Lore, Science, Occult).
+#strong[Skill names] follow #emph[Frontier Rules] §3 (Ride, Frontier, Old Lore, Science, Occult).
 
 #pagebreak()
 == 1. Sellsword
@@ -3786,14 +3864,14 @@ Muscle for hire. You stand between the village and the thing coming out of the d
     table.header([\#], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Juggernaut];], [When you Resist physical harm with Sōma, reduce the status by #strong[3 tiers] instead of 2.],
-    [2], [#strong[Stake Driver];], [When you make a #strong[bane strike] (Frontier Rules §5.2) with Fight or Brawl, gain a #strong[free bonus die];. On a success, the Noble can\'t spend Woe on #emph[Rise From the Coffin] this session.],
-    [3], [#strong[Bodyguard];], [When an ally within reach would suffer a consequence, you may take it instead. If you Resist it, your Edge counts as 1 higher for that roll. This includes a Noble\'s bite: you can take the Kiss in their place.],
-    [4], [#strong[Wade Through Them];], [When you attack a group or minions (wolves, Barbarois packs, turned villagers), you get #strong[one free Extra Feat] per roll.],
+    [2], [#strong[Stake Driver];], [When you make a #strong[killing strike] (Frontier Rules §5.2) or drive a stake with Fight or Brawl, gain a #strong[free bonus die];. On a success, the vampire can\'t spend Woe on #emph[Blood Reserve] this session.],
+    [3], [#strong[Bodyguard];], [When an ally within reach would suffer a consequence, you may take it instead. If you Resist it, your Edge counts as 1 higher for that roll. This includes a vampire\'s bite: you can take the bite (Bled) in their place.],
+    [4], [#strong[Wade Through Them];], [When you attack a group or minions (wolves, retainer packs, mobs), you get #strong[one free Extra Feat] per roll.],
     [5], [#strong[Menacing];], [You may use #strong[Sōma] for Intimidate Effort and Resistance. When you succeed on Intimidate against minions or a mob, spend 1 Momentum to make them flee, surrender, or freeze.],
     [6], [#strong[Pain Tolerance];], [Ignore the roll penalty from harmful physical statuses of tier 1--2. At tier 3+, the penalty is reduced by 1. This also applies to #emph[Sun-Sick];.],
-    [7], [#strong[★ Blood Fury];], [Once per scene, enter a fury: you get #strong[+1 bonus die] (free) on Fight, Brawl, and Athletics rolls for the rest of the scene. You can\'t script Defend or retreat. At scene end, lose 2 Sōma or take #emph[Weary];. If you have Noble blood, gain +1 Thirst.],
+    [7], [#strong[★ Blood Fury];], [Once per scene, enter a fury: you get #strong[+1 bonus die] (free) on Fight, Brawl, and Athletics rolls for the rest of the scene. You can\'t script Defend or retreat. At scene end, lose 2 Sōma or take #emph[Weary];. If you have afflicted blood, gain +1 Thirst.],
     [8], [#strong[★ Last One Standing];], [Once per scene, when a status would reach tier 6 on you or a pool would hit 0, keep acting until the end of the scene. Then you\'re Taken Out as normal.],
-    [◆], [#strong[A Name the Nobles Know];], [Your reputation is a #strong[Campaign Truth] (#emph[\"Nobles have heard of \[name\]\"];). In Fight conflicts, Noble and servant Disposition starts #strong[−2];. Once per session, a Noble\'s pride compel against you costs nothing.],
+    [◆], [#strong[A Name the Kept Know];], [Your reputation is a #strong[Campaign Truth] (#emph[\"Vampires have heard of \[name\]\"];). In Fight conflicts, vampire and retainer Disposition starts #strong[−2];. Once per session, a vampire\'s pride compel against you costs nothing.],
   )]
   , kind: table
   )
@@ -3808,7 +3886,7 @@ Muscle for hire. You stand between the village and the thing coming out of the d
     table.header([Option], [Item],),
     table.hline(),
     [#strong[A];], [#strong[Longsword & stake belt] (2) --- #emph[+1 Attack];, #emph[stakes always at hand] (you never need to declare a stake as load)],
-    [#strong[B];], [#strong[Great-axe] (2) --- #emph[+1 Attack];, #emph[heavy enough to behead];: counts as the beheading bane against a Noble with a tier-4+ physical status],
+    [#strong[B];], [#strong[Great-axe] (2) --- #emph[+1 Attack];, #emph[heavy enough to behead];: counts as beheading (a killing method) against a vampire with a tier-4+ physical status],
   )]
   , kind: table
   )
@@ -3823,7 +3901,7 @@ Muscle for hire. You stand between the village and the thing coming out of the d
     table.hline(),
     [1], [Leather and mail coat (light armour)],
     [2], [Plate cuirass and gorget (heavy armour; also counts as a steel neck guard)],
-    [1], [Throwing stakes ×3 --- #emph[+1 Attack] (range), #emph[bane] at Hard 18],
+    [1], [Throwing stakes ×3 --- #emph[+1 Attack] (range), #emph[staked] at Hard 18],
     [1], [Chain and manacles],
     [1], [Whetstone and oil],
     [1], [Flask of Frontier whiskey],
@@ -3834,18 +3912,18 @@ Muscle for hire. You stand between the village and the thing coming out of the d
 #strong[Always carried (0):] wooden stake, knuckle-wraps, a trophy from your first kill.
 
 === 1.3 BIG Examples
-- #strong[Belief:] \"A village that pays me gets my blood, not just my blade.\" / \"Nobles are only as strong as the fear they feed on.\"
+- #strong[Belief:] \"A village that pays me gets my blood, not just my blade.\" / \"Vampires are only as strong as the fear they feed on.\"
 - #strong[Goal:] \"Get the farmer\'s family to the next town by sunset.\" / \"Drive a stake into Count Varnas.\"
-- #strong[Instinct:] \"Always stand between my friends and the door.\" / \"Never let a Noble finish its speech.\"
+- #strong[Instinct:] \"Always stand between my friends and the door.\" / \"Never let a vampire finish its speech.\"
 
-#strong[Relationships:] Ally --- a blacksmith who makes your stakes, an old hunting partner, a saloon keeper who gives you credit. Rival --- a rival Hunter who stole your last bounty, a Barbarois who beat you once, a sheriff who wants you gone.
+#strong[Relationships:] Ally --- a blacksmith who makes your stakes, an old hunting partner, a saloon keeper who gives you credit. Rival --- a rival Hunter who stole your last bounty, a retainer who beat you once, a sheriff who wants you gone.
 
 
 #pagebreak(weak: true)
 == 2. Stalker
 #playbook-art-side("02-stalker.jpg", "Stalker playbook character art", dir: "art/playbooks/")[
 #quote(block: true)[
-You hunt by day. While the Noble sleeps, you climb the castle walls, pick the locks, find the coffin, and open it.
+You hunt by day. While the vampire sleeps, you climb the estate walls, pick the locks, find the coffin, and open it.
 ]
 
 #figure(
@@ -3855,13 +3933,13 @@ You hunt by day. While the Noble sleeps, you climb the castle walls, pick the lo
     [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [8 / 12 / 8 / 8],
     [#strong[Edge];], [Akmē 2, plus 1 in Psychē or Sōma],
     [#strong[Anchor skill];], [Stealth],
-    [#strong[Suggested skills];], [+4 Stealth · +3 Notice, Craft · +2 Athletics, Deceive, Shoot · +1 Fight, Science, Investigate, Noble Lore],
+    [#strong[Suggested skills];], [+4 Stealth · +3 Notice, Craft · +2 Athletics, Deceive, Shoot · +1 Fight, Science, Investigate, Old Lore],
     [#strong[XP trigger];], [Address a challenge with stealth or precision],
   )]
   , kind: table
   )
 
-#strong[Playbook tags (choose 2):] #emph[light on my feet] · #emph[eyes in the back of my head] · #emph[steady hands] · #emph[knows castle layouts] · #emph[forgettable face] · #emph[patient as a stone]
+#strong[Playbook tags (choose 2):] #emph[light on my feet] · #emph[eyes in the back of my head] · #emph[steady hands] · #emph[knows estate layouts] · #emph[forgettable face] · #emph[patient as a stone]
 ]
 
 === 2.1 Special Abilities
@@ -3872,13 +3950,13 @@ You hunt by day. While the Noble sleeps, you climb the castle walls, pick the lo
     table.header([\#], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Ghost];], [When you spend Effort on a Stealth roll, your first use of Effort costs 0 pool points. Once per scene, when spotted, spend 1 Momentum to declare you were never seen; you\'re in a nearby hidden position.],
-    [2], [#strong[Coffin Finder];], [Once per day inside a castle, ruin, or lair, ask a free #strong[Discover];: \"Where does it sleep?\" or \"Where\'s the weak point in this place?\"],
+    [2], [#strong[Coffin Finder];], [Once per day inside an estate, ruin, or lair, ask a free #strong[Discover];: \"Where does it sleep?\" or \"Where\'s the weak point in this place?\"],
     [3], [#strong[Light Fingers];], [When you succeed on a theft, plant, or sabotage roll (Stealth or Craft), gain a #strong[free Extra Feat];.],
-    [4], [#strong[Infiltrator];], [Once per roll, ignore one Truth that would raise the Difficulty of sneaking, climbing, or bypassing security, including Noble Truths such as #emph[Guardian Machines] or #emph[Shifting Halls];.],
+    [4], [#strong[Infiltrator];], [Once per roll, ignore one Truth that would raise the Difficulty of sneaking, climbing, or bypassing security, including estate Truths such as #emph[Guardian Machines] or #emph[Shifting Halls];.],
     [5], [#strong[Quick Reflexes];], [You always act first when violence breaks out. In conflicts, changing one of your scripted actions costs #strong[1 Momentum] instead of 2.],
     [6], [#strong[Escape Artist];], [When you Resist capture, restraint, falls, or traps with Akmē, the cost is #strong[0 on a highest die of 5+];.],
     [7], [#strong[★ Flashback];], [Once per mission, declare a flashback to something you prepared earlier. Pay Momentum by plausibility: 0 (obvious), 1 (reasonable), 2 (a stretch), 3 (wild). Then roll as normal; on a success, it happened.],
-    [8], [#strong[★ Strike While It Sleeps];], [Against an unaware, #emph[Impeded];, or sleeping target, Attack effects cost #strong[half Power (round up)];. A bane strike against a sleeping Noble is #strong[Standard 15] instead of Hard 18.],
+    [8], [#strong[★ Strike While It Sleeps];], [Against an unaware, #emph[Impeded];, or sleeping target, Attack effects cost #strong[half Power (round up)];. A killing strike against a sleeping vampire is #strong[Standard 15] instead of Hard 18.],
     [◆], [#strong[Nobody Sees Me Coming];], [Once per session, declare you\'re already somewhere you could plausibly have reached. Your first roll there gets #strong[+2 bonus dice for free];, and the GM can\'t spend Woe to reveal you during that roll.],
   )]
   , kind: table
@@ -3893,7 +3971,7 @@ You hunt by day. While the Noble sleeps, you climb the castle walls, pick the lo
     align: (auto,auto,),
     table.header([Option], [Item],),
     table.hline(),
-    [#strong[A];], [#strong[Wooden throwing needles] (1) --- #emph[+1 Attack] (range), #emph[silent];, #emph[bane] at Hard 18 against a Noble\'s heart],
+    [#strong[A];], [#strong[Wooden throwing needles] (1) --- #emph[+1 Attack] (range), #emph[silent];, #emph[staked] at Hard 18],
     [#strong[B];], [#strong[Grapple-line gauntlet] (1) --- #emph[+1 Maneuver];, #emph[climbs any wall];; Advance a climbing or entry clock +1 per roll],
   )]
   , kind: table
@@ -3908,11 +3986,11 @@ You hunt by day. While the Noble sleeps, you climb the castle walls, pick the lo
     table.header([Load], [Item],),
     table.hline(),
     [1], [Padded dark jacket (light armour)],
-    [1], [Lockpicks and a Noble key-probe --- #emph[opens what\'s closed];, works on Noble locks at +1 step Difficulty],
+    [1], [Lockpicks and an old-world key-probe --- #emph[opens what\'s closed];, works on old-world locks at +1 step Difficulty],
     [1], [Long knives and garrotte --- #emph[+1 Attack];, #emph[+1 Feint];],
     [1], [Smoke pellets ×2 --- #emph[+1 Feint];, Create #emph[Thick Mist] (1 Power)],
     [1], [Climbing spikes and silk rope (15 m)],
-    [1], [Hooded lantern and mirror shard --- shows what a Noble\'s reflection isn\'t],
+    [1], [Hooded lantern and mirror shard --- by day, throws sunlight into a dark room (#emph[Sunlit] for one exchange)],
   )]
   , kind: table
   )
@@ -3920,18 +3998,18 @@ You hunt by day. While the Noble sleeps, you climb the castle walls, pick the lo
 #strong[Always carried (0):] wooden stake, soft-soled boots, a lucky coin.
 
 === 2.3 BIG Examples
-- #strong[Belief:] \"A Noble asleep is just a corpse with a timer.\" / \"Take what they stole, and leave nothing behind.\"
-- #strong[Goal:] \"Find the Countess\'s coffin before dusk.\" / \"Steal the key-crystal from the castle vault.\"
-- #strong[Instinct:] \"Always find three ways out.\" / \"Never be in the castle when the sun sets.\"
+- #strong[Belief:] \"A vampire asleep is as mortal as anyone.\" / \"Take what they stole, and leave nothing behind.\"
+- #strong[Goal:] \"Find the Countess\'s coffin before dusk.\" / \"Steal the key-crystal from the estate vault.\"
+- #strong[Instinct:] \"Always find three ways out.\" / \"Never be in the estate when the sun sets.\"
 
-#strong[Relationships:] Ally --- a fence at the trading post, a castle servant who leaves the gate open, a mentor who taught you the walls. Rival --- a guardian machine you\'ve escaped twice, a thief who works for the Nobles, a Hunter who thinks stealth is cowardice.
+#strong[Relationships:] Ally --- a fence at the trading post, an estate servant who leaves the gate open, a mentor who taught you the walls. Rival --- a guardian machine you\'ve escaped twice, a thief who works for the vampires, a Hunter who thinks stealth is cowardice.
 
 
 #pagebreak(weak: true)
 == 3. Frontier Doctor
 #playbook-art-side("03-frontier-doctor.jpg", "Frontier Doctor playbook character art", dir: "art/playbooks/")[
 #quote(block: true)[
-The only doctor for a hundred kilometres. You sew up Hunters, deliver babies, and know more about the Kiss than anyone wants to.
+The only doctor for a hundred kilometres. You sew up Hunters, deliver babies, and know more about blood than anyone wants to.
 ]
 
 #figure(
@@ -3940,14 +4018,14 @@ The only doctor for a hundred kilometres. You sew up Hunters, deliver babies, an
     align: (auto,auto,),
     [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [7 / 8 / 13 / 8],
     [#strong[Edge];], [Psychē 2, plus 1 in Pneuma or Akmē],
-    [#strong[Anchor skill];], [Medicine or Noble Lore],
-    [#strong[Suggested skills];], [+4 Medicine · +3 Noble Lore, Investigate · +2 Notice, Science, Empathy · +1 Will, Shoot, Ride, Persuade],
+    [#strong[Anchor skill];], [Medicine or Old Lore],
+    [#strong[Suggested skills];], [+4 Medicine · +3 Old Lore, Investigate · +2 Notice, Science, Empathy · +1 Will, Shoot, Ride, Persuade],
     [#strong[XP trigger];], [Address a challenge with knowledge, insight, or healing],
   )]
   , kind: table
   )
 
-#strong[Playbook tags (choose 2):] #emph[steady surgeon\'s hands] · #emph[seen every wound there is] · #emph[reads old books] · #emph[the village trusts me] · #emph[knows what the Kiss does] · #emph[calm in a crisis]
+#strong[Playbook tags (choose 2):] #emph[steady surgeon\'s hands] · #emph[seen every wound there is] · #emph[reads old books] · #emph[the village trusts me] · #emph[knows blood] · #emph[calm in a crisis]
 ]
 
 === 3.1 Special Abilities
@@ -3958,14 +4036,14 @@ The only doctor for a hundred kilometres. You sew up Hunters, deliver babies, an
     table.header([\#], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Field Surgeon];], [Restore effects from your Medicine rolls remove #strong[2 tiers per Power];. (One cost reduction per Effect.)],
-    [2], [#strong[Treat the Kiss];], [Your Medicine rolls against #emph[Kissed] are #strong[Standard 15] instead of Hard 18, and you can treat once per scene instead of once per day.],
+    [2], [#strong[Treat the Bled];], [Your Medicine rolls against #emph[Bled] are #strong[Standard 15] instead of Hard 18, you can treat once per scene instead of once per day, and you can give a transfusion without a kit.],
     [3], [#strong[Read the Body];], [When you examine a victim, a corpse, or a slain creature, ask #strong[2 free Discover] questions about what did it and how.],
     [4], [#strong[Anatomy of Monsters];], [When you tell an ally a creature\'s weak point (a Discover you made this scene), that ally\'s next successful Attack on it gains #strong[+1 Power];.],
-    [5], [#strong[Chemist];], [In the Players\' Turn, spend 1 Check to make one cypher from: #emph[healing gel] (tier 2), #emph[mind-seal patch] (tier 2), #emph[blood ampoule] (tier 2), or #emph[garlic smoke] (tier 2: Create #emph[Warded] against Lesser Nobles).],
+    [5], [#strong[Chemist];], [In the Players\' Turn, spend 1 Check to make one cypher from: #emph[healing gel] (tier 2), #emph[mind-seal patch] (tier 2), #emph[blood ampoule] (tier 2), or #emph[iron tonic] (tier 2: Restore #emph[Bled] by 1 tier).],
     [6], [#strong[Bedside Manner];], [Use Medicine or Empathy to Restore fear and despair statuses. Once per scene, a successful roll removes #emph[Frightened Villagers] from the scene.],
     [7], [#strong[★ Not on My Table];], [Once per session, when an ally is Taken Out by physical harm, they don\'t die: they\'re stabilised at tier 5, and wake after a short rest.],
-    [8], [#strong[★ Serum];], [With a sample of a specific Noble\'s blood, run a downtime clock (6 segments). When it fills, you create a #strong[bane] for that Noble (Frontier Rules §8.1), and the party\'s Attacks against it inflict #strong[+1 tier];.],
-    [◆], [#strong[The Cure];], [Your research works. You can remove #emph[Kissed] of any tier up to 5 with one Medicine roll vs. Hard 18, even while the Noble lives. This becomes a #strong[Region Truth] (#emph[\"The doctor can cure the Kiss\"];), and Noble houses will send for you, or send against you.],
+    [8], [#strong[★ Serum];], [With a sample of a specific vampire\'s blood, run a downtime clock (6 segments). When it fills, you turn one of its weakness tags into a #strong[killing method] (Frontier Rules §8.1), and the party\'s Attacks against it inflict #strong[+1 tier];.],
+    [◆], [#strong[The Blood Bank];], [You run a reliable blood exchange. Transfusions you oversee need no roll, and once per session you can supply half a litre of blood to anyone who needs it. This becomes a #strong[Region Truth] (#emph[\"The doctor keeps blood\"];), and vampire households will send for you, or send against you.],
   )]
   , kind: table
   )
@@ -3994,9 +4072,9 @@ The only doctor for a hundred kilometres. You sew up Hunters, deliver babies, an
     table.header([Load], [Item],),
     table.hline(),
     [1], [Bandages, splints, and morphine],
-    [1], [Garlic tinctures and holy-water vials --- #emph[+1] on Medicine against the Kiss],
+    [1], [Transfusion kit --- needed for transfusion; #emph[+1] on Medicine against #emph[Bled] (Frontier Rules §8.3)],
     [1], [Revolver --- #emph[+1 Attack] (range)],
-    [1], [Books of Noble Lore --- #emph[the answer is in here somewhere] (Noble Lore tag)],
+    [1], [Books of Old Lore --- #emph[the answer is in here somewhere] (Old Lore tag)],
     [1], [Microscope and sample case],
     [0], [Mule and medical wagon (vehicle)],
   )]
@@ -4006,11 +4084,11 @@ The only doctor for a hundred kilometres. You sew up Hunters, deliver babies, an
 #strong[Always carried (0):] scalpel, spectacles, a small cross.
 
 === 3.3 BIG Examples
-- #strong[Belief:] \"Every life is worth saving, even a mutant\'s.\" / \"Knowledge is the only thing the Nobles can\'t take back.\"
-- #strong[Goal:] \"Keep the mayor\'s daughter below Kissed-4 until the Hunter returns.\" / \"Find out what the Noble is doing in its laboratory.\"
+- #strong[Belief:] \"Every life is worth saving, even a mutant\'s.\" / \"Knowledge is the only thing the vampires can\'t take back.\"
+- #strong[Goal:] \"Keep the mayor\'s daughter below Bled-4 until the Hunter returns.\" / \"Find out what the vampire is doing in its laboratory.\"
 - #strong[Instinct:] \"Always check the throat first.\" / \"Never let a patient die alone.\"
 
-#strong[Relationships:] Ally --- a patient who owes you their life, a Capital professor who writes back, a Hunter you\'ve patched up too often. Rival --- a quack selling fake Kiss cures, a Noble scientist whose notes you stole, a mayor who wants the bitten burned.
+#strong[Relationships:] Ally --- a patient who owes you their life, a city professor who writes back, a Hunter you\'ve patched up too often. Rival --- a quack selling charms against the bite, a vampire physician whose notes you stole, a mayor who wants the bitten burned.
 
 
 #pagebreak(weak: true)
@@ -4027,13 +4105,13 @@ Contracts, rumours, debts, and deals. You find the work, set the price, and make
     [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [7 / 9 / 9 / 11],
     [#strong[Edge];], [Pneuma 2, plus 1 in Psychē or Akmē],
     [#strong[Anchor skill];], [Persuade],
-    [#strong[Suggested skills];], [+4 Persuade · +3 Empathy, Deceive · +2 Notice, Noble Lore, Will · +1 Investigate, Shoot, Ride, Intimidate],
+    [#strong[Suggested skills];], [+4 Persuade · +3 Empathy, Deceive · +2 Notice, Old Lore, Will · +1 Investigate, Shoot, Ride, Intimidate],
     [#strong[XP trigger];], [Address a challenge with charm, lies, or bargaining],
   )]
   , kind: table
   )
 
-#strong[Playbook tags (choose 2):] #emph[silver tongue] · #emph[knows every saloon on the Frontier] · #emph[reads a bluff] · #emph[owed many favours] · #emph[dressed like money] · #emph[speaks the Nobles\' tongue]
+#strong[Playbook tags (choose 2):] #emph[silver tongue] · #emph[knows every saloon on the Frontier] · #emph[reads a bluff] · #emph[owed many favours] · #emph[dressed like money] · #emph[speaks the households\' tongue]
 ]
 
 === 4.1 Special Abilities
@@ -4048,7 +4126,7 @@ Contracts, rumours, debts, and deals. You find the work, set the price, and make
     [3], [#strong[Ear to the Ground];], [When you arrive in a settlement, ask one free #strong[Discover] about local rumours. When you confirm a rumour (Module C.4), add #strong[+2] to the d12.],
     [4], [#strong[Smooth It Over];], [On a successful Persuade, spend 1 Power to remove #emph[Frightened Villagers] or #emph[Feared and Despised] for the party for the scene.],
     [5], [#strong[Read the Room];], [Once per scene, ask a free Discover about what one person present wants most.],
-    [6], [#strong[Courtly Manners];], [You know Noble etiquette. In a Duel of Wills, you may use #strong[Persuade] to Defend. Compelling a Noble\'s pride (Frontier Rules §5.3) costs you nothing once per scene.],
+    [6], [#strong[Courtly Manners];], [You know household etiquette. In a Duel of Wills, you may use #strong[Persuade] to Defend. Compelling a vampire\'s pride (Frontier Rules §5.3) costs you nothing once per scene.],
     [7], [#strong[★ Contacts Everywhere];], [Once per session, declare a useful contact in this town. Pay Momentum by plausibility: 0 (obvious), 1 (reasonable), 2 (a stretch), 3 (wild). They exist and owe you one favour.],
     [8], [#strong[★ Hired Guns];], [Once per mission, spend a wealth tag (#emph[a fat purse] or better) to hire a minion group with 2 power tags and 1 weakness. It acts as one group and fights for you for the mission.],
     [◆], [#strong[The Word on the Frontier];], [Your word is a #strong[Region Truth] (#emph[\"\[name\]\'s deal is law here\"];). Once per session, end a Negotiation or Argument conflict in your favour; the compromise is at most Minor.],
@@ -4089,14 +4167,14 @@ Contracts, rumours, debts, and deals. You find the work, set the price, and make
   , kind: table
   )
 
-#strong[Always carried (0):] pocket watch, calling cards, a Noble\'s old signet ring you shouldn\'t have.
+#strong[Always carried (0):] pocket watch, calling cards, a vampire\'s old signet ring you shouldn\'t have.
 
 === 4.3 BIG Examples
 - #strong[Belief:] \"Everything on the Frontier has a price, even mercy.\" / \"A Hunter without a broker is a corpse that works for free.\"
 - #strong[Goal:] \"Get the village to pay double before we ride out.\" / \"Find out who really posted this bounty.\"
 - #strong[Instinct:] \"Always get half up front.\" / \"Never sit with my back to the saloon doors.\"
 
-#strong[Relationships:] Ally --- a mayor who trusts you, a saloon owner who passes on rumours, a Hunter you\'ve represented for years. Rival --- a rival broker in the Capital, a Noble\'s agent who outbids you, a client you cheated.
+#strong[Relationships:] Ally --- a mayor who trusts you, a saloon owner who passes on rumours, a Hunter you\'ve represented for years. Rival --- a rival broker in the city, a vampire\'s agent who outbids you, a client you cheated.
 
 
 #pagebreak(weak: true)
@@ -4113,7 +4191,7 @@ Born in the saddle and raised on the open Frontier. You find the tracks, read th
     [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [11 / 11 / 7 / 7],
     [#strong[Edge];], [Sōma 1, Akmē 1, plus 1 in any pool],
     [#strong[Anchor skill];], [Frontier],
-    [#strong[Suggested skills];], [+4 Frontier · +3 Ride, Shoot · +2 Notice, Athletics, Endure · +1 Stealth, Fight, Medicine, Noble Lore],
+    [#strong[Suggested skills];], [+4 Frontier · +3 Ride, Shoot · +2 Notice, Athletics, Endure · +1 Stealth, Fight, Medicine, Old Lore],
     [#strong[XP trigger];], [Address a challenge with endurance or the land],
   )]
   , kind: table
@@ -4136,7 +4214,7 @@ Born in the saddle and raised on the open Frontier. You find the tracks, read th
     [5], [#strong[Weather Eye];], [You always know what weather is coming in the next day. When you Resist cold, heat, or storms with Sōma, your Edge counts as 1 higher.],
     [6], [#strong[Ride-By];], [Once per exchange while mounted, a successful Maneuver also inflicts #strong[1 Disposition] of damage on the opponent.],
     [7], [#strong[★ Beast Companion];], [A mutant hawk, a wolfhound, or a desert lizard rides with you. It has 1 power tag and 1 weakness, gives free Help once per scene, and can scout (one free Discover per scene where it can reach).],
-    [8], [#strong[★ Outrun the Night];], [You can travel by night without halving the Grind clock. In a Chase against Nobles or their servants, your side\'s Disposition is #strong[+3];.],
+    [8], [#strong[★ Outrun the Night];], [You can travel by night without halving the Grind clock. In a Chase against vampires or their servants, your side\'s Disposition is #strong[+3];.],
     [◆], [#strong[Rider of the Frontier];], [Your legend is a #strong[Campaign Truth] (#emph[\"No one knows the Frontier like \[name\]\"];). Every Advance on a Journey clock you make counts double. Once per session, you arrive anywhere you could reach in two days, by sundown today.],
   )]
   , kind: table
@@ -4179,7 +4257,7 @@ Born in the saddle and raised on the open Frontier. You find the tracks, read th
 
 === 5.3 BIG Examples
 - #strong[Belief:] \"The land tells the truth, even when people don\'t.\" / \"A horse is worth more than most men.\"
-- #strong[Goal:] \"Track the Barbarois to their camp before nightfall.\" / \"Get the party across the Sand Sea in three days.\"
+- #strong[Goal:] \"Track the retainers to their camp before nightfall.\" / \"Get the party across the Sand Sea in three days.\"
 - #strong[Instinct:] \"Always water the horse first.\" / \"Never ride the same trail twice.\"
 
 #strong[Relationships:] Ally --- a horse-breeder, a desert nomad, a hermit who shares water. Rival --- a bandit chief on a cyborg horse, a rival tracker, a sand creature that took your old mount.
@@ -4189,7 +4267,7 @@ Born in the saddle and raised on the open Frontier. You find the tracks, read th
 == 6. Occultist
 #playbook-art-side("06-occultist.jpg", "Occultist playbook character art", dir: "art/playbooks/")[
 #quote(block: true)[
-Psychic, curse-witch, hypnotist, or scavenger of Noble machines. You use the powers the Nobility left behind, and the Frontier distrusts you for it.
+Psychic, curse-witch, hypnotist, or scavenger of old-world machines. You use the powers the old world left behind, and the Frontier distrusts you for it.
 ]
 
 #figure(
@@ -4198,14 +4276,14 @@ Psychic, curse-witch, hypnotist, or scavenger of Noble machines. You use the pow
     align: (auto,auto,),
     [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [7 / 8 / 9 / 12],
     [#strong[Edge];], [Pneuma 2 (Occult) or Psychē 2 (Science), plus 1 in any other pool],
-    [#strong[Anchor skill];], [Occult (psychic powers, curses, sorcery) or Science (Noble machines, gadgets)],
-    [#strong[Suggested skills];], [+4 Occult · +3 Noble Lore, Will · +2 Notice, Medicine, Persuade · +1 Investigate, Empathy, Deceive, Science],
-    [#strong[XP trigger];], [Address a challenge with your powers or Noble science],
+    [#strong[Anchor skill];], [Occult (psychic powers, curses, sorcery) or Science (old-world machines, gadgets)],
+    [#strong[Suggested skills];], [+4 Occult · +3 Old Lore, Will · +2 Notice, Medicine, Persuade · +1 Investigate, Empathy, Deceive, Science],
+    [#strong[XP trigger];], [Address a challenge with your powers or old-world works],
   )]
   , kind: table
   )
 
-#strong[Playbook tags (choose 2):] #emph[touched by the Nobility\'s sorcery] · #emph[disciplined mind] · #emph[sees what others can\'t] · #emph[blessed by the old faith] · #emph[tinkers with Noble machines] · #emph[fluent in the old pacts]
+#strong[Playbook tags (choose 2):] #emph[touched by old-world secrets] · #emph[disciplined mind] · #emph[sees what others can\'t] · #emph[blessed by the old faith] · #emph[tinkers with old-world machines] · #emph[fluent in the old pacts]
 ]
 
 === 6.1 Core Feature --- Domain (free)
@@ -4219,7 +4297,7 @@ Use the Adept\'s #strong[Domain] rules (Generic Playbooks §8.1) unchanged: work
     align: (auto,auto,),
     table.header([Occult Domains], [Science Domains],),
     table.hline(),
-    [#emph[psychic force] (telekinesis, mind blasts)], [#emph[Noble machines] (command guardians, open doors)],
+    [#emph[psychic force] (telekinesis, mind blasts)], [#emph[old-world machines] (command guardians, open doors)],
     [#emph[curses and hexes];], [#emph[weather control] (with a tower or device)],
     [#emph[dreams and nightmares];], [#emph[gravity];],
     [#emph[the astral self] (leave your body)], [#emph[energy weapons];],
@@ -4239,11 +4317,11 @@ Use the Adept\'s #strong[Domain] rules (Generic Playbooks §8.1) unchanged: work
     table.header([\#], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Focused Channel];], [Workings inside your Domain cost #strong[0 pool points] if you don\'t use Effort on that roll.],
-    [2], [#strong[Ward Against the Night];], [You can create protective statuses (#emph[warded-X];) with Enhance. While warded, an ally reduces supernatural harm by #strong[+1 tier] when Resisting, including the Gaze, the Call, and the Kiss.],
-    [3], [#strong[Sense the Unseen];], [Once per scene, ask a free Discover about #strong[hidden supernatural or Noble-science forces] nearby. You always notice when a Noble uses its powers near you.],
+    [2], [#strong[Ward Against the Night];], [You can create protective statuses (#emph[warded-X];) with Enhance. While warded, an ally reduces supernatural harm by #strong[+1 tier] when Resisting, including fear, intimidation and Presence, and Resists bites (Bled) at +1.],
+    [3], [#strong[Sense the Unseen];], [Once per scene, ask a free Discover about #strong[hidden supernatural or old-world forces] nearby. You always notice when an old-world work starts or stops near you.],
     [4], [#strong[Over-channel];], [When you use Effort for Power on a working, gain #strong[+2 Power] instead of +1, but take #emph[strained-1];.],
-    [5], [#strong[Ritual];], [Given time, materials, and a safe place, run a working as a #strong[progress clock] (8 segments for Formidable, 12 for Heroic). Ritual results can create Site or Region Truths: a warded valley, a broken weather tower, a castle sealed shut.],
-    [6], [#strong[Familiar];], [You have a doll, a bat, a homunculus, or a small Noble drone, with 1 power tag and 1 weakness. It can scout (one free Discover per scene where it can reach), carry messages, or handle simple tasks. It can\'t fight.],
+    [5], [#strong[Ritual];], [Given time, materials, and a safe place, run a working as a #strong[progress clock] (8 segments for Formidable, 12 for Heroic). Ritual results can create Site or Region Truths: a warded valley, a broken weather tower, an estate sealed shut.],
+    [6], [#strong[Familiar];], [You have a doll, a bat, a homunculus, or a small old-world drone, with 1 power tag and 1 weakness. It can scout (one free Discover per scene where it can reach), carry messages, or handle simple tasks. It can\'t fight.],
     [7], [#strong[★ Second Domain];], [Gain a second Domain. Workings in it use the same rules.],
     [8], [#strong[★ Unleash];], [Once per scene, a working hits #strong[every target] in an area or group: each one receives the full Attack effects you buy. Afterwards, take #emph[Weary] or lose 3 points from your casting pool.],
     [◆], [#strong[Ascendant];], [Once per session, a Heroic-scope working succeeds automatically with #strong[5 Power];, no ritual required. If you use it again before your next downtime, gain a Pneuma or Psychē Scar.],
@@ -4261,7 +4339,7 @@ Use the Adept\'s #strong[Domain] rules (Generic Playbooks §8.1) unchanged: work
     table.header([Option], [Item],),
     table.hline(),
     [#strong[A];], [#strong[Charm-bag of bones and hair] (0) --- #emph[focus for my workings] (Occult tag); once per scene, a backlash causes 1 tier less],
-    [#strong[B];], [#strong[Noble gauntlet] (1) --- #emph[focus for my workings] (Science tag); stores one cypher in addition to your Cypher Limit],
+    [#strong[B];], [#strong[Old-world gauntlet] (1) --- #emph[focus for my workings] (Science tag); stores one cypher in addition to your Cypher Limit],
   )]
   , kind: table
   )
@@ -4277,7 +4355,7 @@ Use the Adept\'s #strong[Domain] rules (Generic Playbooks §8.1) unchanged: work
     [1], [Candles, chalk, and salt --- #emph[+1] on Ritual rolls],
     [1], [Mirror shards and a scrying bowl],
     [1], [Herbs, garlic, and wolfsbane],
-    [1], [Grimoire or salvaged Noble manual],
+    [1], [Grimoire or salvaged old-world manual],
     [1], [Tool roll and spare power cells (Science)],
     [1], [Pistol --- #emph[+1 Attack] (range)],
   )]
@@ -4287,18 +4365,18 @@ Use the Adept\'s #strong[Domain] rules (Generic Playbooks §8.1) unchanged: work
 #strong[Always carried (0):] a ring, a pendant, or a tattoo that marks what you are.
 
 === 6.4 BIG Examples
-- #strong[Belief:] \"The Nobles\' power isn\'t evil; how they used it was.\" / \"Every gift has a price, and I\'ve already paid mine.\"
-- #strong[Goal:] \"Break the curse on the well before the next full moon.\" / \"Get the castle\'s guardian machines to obey me.\"
+- #strong[Belief:] \"The vampires\' power isn\'t evil; how they used it was.\" / \"Every gift has a price, and I\'ve already paid mine.\"
+- #strong[Goal:] \"Break the curse on the well before the next full moon.\" / \"Get the estate\'s guardian machines to obey me.\"
 - #strong[Instinct:] \"Always look at a stranger\'s reflection.\" / \"Never use my power in front of villagers.\"
 
-#strong[Relationships:] Ally --- a teacher who vanished into a castle, a village wise-woman, a Noble machine that likes you. Rival --- a psychic Hunter from a rival crew, a Noble sorcerer, a priest who calls you a witch.
+#strong[Relationships:] Ally --- a teacher who vanished into an estate, a village wise-woman, an old-world machine that likes you. Rival --- a psychic Hunter from a rival crew, a household\'s occultist, a priest who calls you a witch.
 
 
 #pagebreak(weak: true)
 == 7. Mutant
 #playbook-art-side("07-mutant.jpg", "Mutant playbook character art", dir: "art/playbooks/")[
 #quote(block: true)[
-The old wars and the Nobles\' experiments made your bloodline something more, or less, than human. You can fight, climb, hide, and endure like a monster, because you are one, as far as the villagers can tell.
+The old wars and the old world\'s experiments made your bloodline something more, or less, than human. You can fight, climb, hide, and endure like a monster, because you are one, as far as the villagers can tell.
 ]
 
 #figure(
@@ -4331,13 +4409,13 @@ Choose #strong[2 Mutations];. Each is a power tag that ignores load, plus a rule
     [#strong[Chameleon skin];], [#emph[blends in];], [Once per scene, take a free bonus die on a Stealth roll in natural surroundings],
     [#strong[Wall-crawler];], [#emph[clings to anything];], [Climb any surface without a roll unless under attack],
     [#strong[Night eyes];], [#emph[sees in the dark];], [Ignore #emph[Moonless] and darkness Truths],
-    [#strong[Shadow-melder] (Barbarois)], [#emph[one with the shadows];], [Once per scene, move from one shadow to another you can see (no roll unless guarded)],
+    [#strong[Shadow-melder] (retainer clan)], [#emph[one with the shadows];], [Once per scene, move from one shadow to another you can see (no roll unless guarded)],
     [#strong[Venom];], [#emph[poisonous];], [Spend 1 Power on an Attack to add #emph[poisoned-1];, which rises by 1 each scene until treated],
     [#strong[Elastic body];], [#emph[stretches and squeezes];], [Reach 5 m; fit through any gap a hand can pass],
     [#strong[Burrower] (sand or soil)], [#emph[swims through earth];], [Move under sand or soft soil; #emph[+1 Maneuver] in desert Fights],
     [#strong[Regeneration];], [#emph[heals fast];], [A short rest restores #strong[2 + Edge] Sōma and lowers one physical status by 1],
     [#strong[Mimic];], [#emph[voices and faces];], [Copy a voice you\'ve heard, or reshape your face for a scene (#emph[+1 Feint];)],
-    [#strong[Shapeshifter] (Barbarois)], [#emph[beast form];], [Turn into one animal (wolf, bat, panther) for a scene; you keep your pools and skills but can\'t use gear],
+    [#strong[Shapeshifter] (retainer clan)], [#emph[beast form];], [Turn into one animal (wolf, bat, panther) for a scene; you keep your pools and skills but can\'t use gear],
   )]
   , kind: table
   )
@@ -4349,11 +4427,11 @@ Choose #strong[2 Mutations];. Each is a power tag that ignores load, plus a rule
     table.header([\#], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Further Mutation];], [Gain one more Mutation. You can take this ability up to twice.],
-    [2], [#strong[Old Oath];], [Barbarois and Noble servants recognise your blood. Once per scene, Persuade or Intimidate with them is one step easier, or ask a free Discover about their tricks.],
-    [3], [#strong[Toxic Blood];], [Creatures that bite or drink from you gain #emph[poisoned-2];. The Kiss on you gains #strong[1 fewer tier];.],
+    [2], [#strong[Old Oath];], [Retainer clans and household servants recognise your blood. Once per scene, Persuade or Intimidate with them is one step easier, or ask a free Discover about their tricks.],
+    [3], [#strong[Toxic Blood];], [Anything that bites or drinks from you gains #emph[poisoned-2];. #emph[Bled] from feeding gains #strong[1 fewer tier] on you.],
     [4], [#strong[Waste-Hardened];], [Ignore the #emph[Exposed] and #emph[Sick] Grind conditions when they come from radiation, poison, or bad water.],
     [5], [#strong[Monstrous Presence];], [You may use #strong[Sōma] for Intimidate Effort and Resistance. Against minions, a successful Intimidate makes them flee for 1 Momentum.],
-    [6], [#strong[Hunter\'s Senses];], [You can smell blood, fear, and Nobles. Once per scene, free Discover: \"Who here is not what they seem?\"],
+    [6], [#strong[Hunter\'s Senses];], [You can smell blood, fear, and the afflicted. Once per scene, free Discover: \"Who here is not what they seem?\"],
     [7], [#strong[★ Full Transformation];], [Once per scene, release your monstrous form: free #strong[+1 bonus die] on Brawl, Athletics, and Stealth, and your Attacks inflict #strong[+1 tier];, for the rest of the scene. You can\'t speak or use gear. Afterwards, take #emph[Weary];, and any humans present treat you as a threat.],
     [8], [#strong[★ Living Weapon];], [Choose one Mutation. Its tag may add #strong[+1 above the normal +2 cap (maximum +3 from tags)];, and successful rolls using it gain #strong[+1 Power];.],
     [◆], [#strong[The Clan Remembers];], [Your people are a #strong[Region Truth] (#emph[\"\[name\]\'s clan watches the Frontier\"];). Once per session, the clan sends help: a minion group with 2 power tags, or a safe hiding place for the party.],
@@ -4396,18 +4474,18 @@ Choose #strong[2 Mutations];. Each is a power tag that ignores load, plus a rule
 #strong[Always carried (0):] a token from your clan, a scar from the experiments, a name nobody can pronounce.
 
 === 7.4 BIG Examples
-- #strong[Belief:] \"Humans and monsters are both just trying to live.\" / \"I\'ll never serve the Nobility again.\"
-- #strong[Goal:] \"Get the village to let me in the gate.\" / \"Find out which castle made my bloodline.\"
-- #strong[Instinct:] \"Always hide the mutation before entering a town.\" / \"Never run from a fight with a Barbarois.\"
+- #strong[Belief:] \"Humans and monsters are both just trying to live.\" / \"I\'ll never serve the Kept again.\"
+- #strong[Goal:] \"Get the village to let me in the gate.\" / \"Find out which estate made my bloodline.\"
+- #strong[Instinct:] \"Always hide the mutation before entering a town.\" / \"Never run from a fight with a retainer.\"
 
-#strong[Relationships:] Ally --- a human child who isn\'t scared of you, a clan elder, a doctor who treats you. Rival --- a Barbarois still sworn to a Noble, a Hunter who hunts mutants for pay, a mayor who posted a bounty on you.
+#strong[Relationships:] Ally --- a human child who isn\'t scared of you, a clan elder, a doctor who treats you. Rival --- a retainer still sworn to a vampire household, a Hunter who hunts mutants for pay, a mayor who posted a bounty on you.
 
 
 #pagebreak(weak: true)
 == 8. Cyborg Hunter
 #playbook-art-side("08-cyborg-hunter.jpg", "Cyborg Hunter playbook character art", dir: "art/playbooks/")[
 #quote(block: true)[
-Torn apart by a Noble or a monster, and put back together with steel, wire, and salvaged Noble parts. You\'re stronger than you were, and less human every year.
+Torn apart by a vampire or a monster, and put back together with steel, wire, and salvaged old-world parts. You\'re stronger than you were, and less human every year.
 ]
 
 #figure(
@@ -4423,7 +4501,7 @@ Torn apart by a Noble or a monster, and put back together with steel, wire, and 
   , kind: table
   )
 
-#strong[Playbook tags (choose 2):] #emph[steel where bone used to be] · #emph[doesn\'t feel pain] · #emph[ex-Capital soldier] · #emph[targeting never misses] · #emph[knows Noble machines] · #emph[built to hunt]
+#strong[Playbook tags (choose 2):] #emph[steel where bone used to be] · #emph[doesn\'t feel pain] · #emph[ex-militia soldier] · #emph[targeting never misses] · #emph[knows old-world machines] · #emph[built to hunt]
 ]
 
 === 8.1 Core Feature --- Implants (free)
@@ -4436,20 +4514,20 @@ Choose #strong[2 Implants];. Each is a power tag that ignores load, plus a rule.
     table.header([Implant], [Tag], [Rule],),
     table.hline(),
     [#strong[Arm cannon];], [#emph[built-in gun];], [#emph[+1 Attack] (range); can\'t be disarmed],
-    [#strong[Blade arm];], [#emph[built-in blade];], [#emph[+1 Attack];; counts as the beheading bane against a Noble with a tier-4+ physical status],
+    [#strong[Blade arm];], [#emph[built-in blade];], [#emph[+1 Attack];; counts as beheading (a killing method) against a vampire with a tier-4+ physical status],
     [#strong[Armour plating];], [#emph[plated];], [#emph[Armour 1];; stacks with worn light armour],
     [#strong[Targeting eye];], [#emph[locks on];], [Once per scene, free bonus die on a Shoot roll],
     [#strong[Booster legs];], [#emph[jumps and sprints];], [#emph[+1 Maneuver] in Fights and Chases on foot],
-    [#strong[Sensor array];], [#emph[hears heartbeats];], [Notice heat and heartbeats through walls; Nobles have none, so you can tell who\'s a Noble],
+    [#strong[Sensor array];], [#emph[hears heartbeats];], [Notice heat and heartbeats through walls; a starving vampire\'s heart beats slow and strange],
     [#strong[Grapple arm];], [#emph[reaches and grabs];], [Pull, climb, or seize at 10 m],
     [#strong[Synthetic lungs];], [#emph[breathes anything];], [Immune to gas, smoke, and drowning for a scene],
     [#strong[Pain dampener];], [#emph[numb to it];], [Ignore penalties from tier-1 and tier-2 physical statuses],
-    [#strong[Cortex chip];], [#emph[data in my head];], [Once per scene, free Discover with Noble Lore or Science],
+    [#strong[Cortex chip];], [#emph[data in my head];], [Once per scene, free Discover with Old Lore or Science],
   )]
   , kind: table
   )
 
-#strong[Glitches:] doubles on a failure or a Success at a Cost on an implant roll cause #emph[glitched-2] (−2 on rolls with your implants) as well as the normal complication. Science (Restore) or a short rest with tools clears it. Noble science that disrupts machines (an EMP, a castle\'s defences) can inflict #emph[glitched] as an Attack.
+#strong[Glitches:] doubles on a failure or a Success at a Cost on an implant roll cause #emph[glitched-2] (−2 on rolls with your implants) as well as the normal complication. Science (Restore) or a short rest with tools clears it. old-world works that disrupts machines (an EMP, an estate\'s defences) can inflict #emph[glitched] as an Attack.
 === 8.2 Special Abilities
 #figure(
   [#table(
@@ -4460,12 +4538,12 @@ Choose #strong[2 Implants];. Each is a power tag that ignores load, plus a rule.
     [1], [#strong[Extra Implant];], [Gain one more Implant. You can take this ability up to twice.],
     [2], [#strong[Self-Repair];], [You can use Science on yourself to Restore physical statuses and #emph[glitched];. Once per scene, a short rest also restores 2 Sōma.],
     [3], [#strong[Overclock];], [When you use Effort for Power on a roll with an implant, gain #strong[+2 Power] instead of +1, but take #emph[glitched-1];.],
-    [4], [#strong[Little Blood Left];], [The Kiss on you gains #strong[1 fewer tier];. You ignore the #emph[Hungry & Thirsty] Grind condition.],
+    [4], [#strong[Little Blood Left];], [#emph[Bled] gains #strong[1 fewer tier] on you. You ignore the #emph[Hungry & Thirsty] Grind condition.],
     [5], [#strong[Heavy Ordnance];], [When you Shoot at a group or minions, gain #strong[one free Extra Feat] per roll.],
-    [6], [#strong[Machine Tongue];], [You can talk to Noble machines. Science rolls to command, disable, or read guardian machines and castle systems are one step easier, and you get a free Discover in any Noble castle.],
+    [6], [#strong[Machine Tongue];], [You can talk to old-world machines. Science rolls to command, disable, or read guardian machines and estate systems are one step easier, and you get a free Discover in any vampire estate.],
     [7], [#strong[★ Combat Mode];], [Once per scene, switch to combat mode: free #strong[+1 bonus die] on Shoot, Fight, and Athletics for the rest of the scene. While it lasts, Pneuma Effort costs +1 and you can\'t use Empathy.],
     [8], [#strong[★ Rebuilt Again];], [Once per session, when you\'re Taken Out by physical harm, you get back up at the end of the scene with that status at tier 3 and #emph[glitched-3];.],
-    [◆], [#strong[More Machine Than Man];], [Like a Noble, your physical statuses #strong[can\'t go above tier 5] unless the Attack uses Science, an EMP, or an equivalent bane the GM names. Gain a Pneuma Scar (#emph[more machine than man];) when you take this capstone.],
+    [◆], [#strong[More Machine Than Man];], [Like a vampire, you\'re #strong[Hard to Kill];: your physical statuses #strong[can\'t go above tier 5] unless the Attack uses Science, an EMP, or an equivalent killing method the GM names. Gain a Pneuma Scar (#emph[more machine than man];) when you take this capstone.],
   )]
   , kind: table
   )
@@ -4478,8 +4556,8 @@ Choose #strong[2 Implants];. Each is a power tag that ignores load, plus a rule.
     align: (auto,auto,),
     table.header([Option], [Item],),
     table.hline(),
-    [#strong[A];], [#strong[Stake launcher] (2) --- #emph[+1 Attack] (range), #emph[fires stakes];: a bane strike at range at Standard 15 against a #emph[broken] Noble],
-    [#strong[B];], [#strong[Capital laser rifle] (2) --- #emph[+1 Attack] (range), #emph[burns through armour];, depletion 1 in d12 (power cell)],
+    [#strong[A];], [#strong[Stake launcher] (2) --- #emph[+1 Attack] (range), #emph[fires stakes];: inflicts #emph[staked] at range at Standard 15 against a #emph[broken] vampire],
+    [#strong[B];], [#strong[Old-world laser rifle] (2) --- #emph[+1 Attack] (range), #emph[burns through armour];, depletion 1 in d12 (power cell)],
   )]
   , kind: table
   )
@@ -4505,18 +4583,18 @@ Choose #strong[2 Implants];. Each is a power tag that ignores load, plus a rule.
 #strong[Always carried (0):] steel neck guard (built in), a photo of who you were.
 
 === 8.4 BIG Examples
-- #strong[Belief:] \"Whatever\'s left of me is still human.\" / \"The Noble who did this will die by what it made me.\"
-- #strong[Goal:] \"Find a power cell before the arm runs dry.\" / \"Get inside the castle\'s machine room.\"
+- #strong[Belief:] \"Whatever\'s left of me is still human.\" / \"The vampire who did this will die by what it made me.\"
+- #strong[Goal:] \"Find a power cell before the arm runs dry.\" / \"Get inside the estate\'s machine room.\"
 - #strong[Instinct:] \"Always scan the room for heartbeats.\" / \"Never let anyone see the wiring.\"
 
-#strong[Relationships:] Ally --- the doctor who rebuilt you, a scavenger who finds you parts, a Hunter who knew you before. Rival --- another cyborg with better parts, the Noble who tore you apart, a Capital agent who wants their property back.
+#strong[Relationships:] Ally --- the doctor who rebuilt you, a scavenger who finds you parts, a Hunter who knew you before. Rival --- another cyborg with better parts, the vampire who tore you apart, a city agent who wants their property back.
 
 
 #pagebreak(weak: true)
 == 9. Warden
 #playbook-art-side("09-warden.jpg", "Warden playbook character art", dir: "art/playbooks/")[
 #quote(block: true)[
-Sheriff, militia captain, or the old soldier who keeps the village alive. You don\'t go to the castle; you make sure what comes out of it doesn\'t get in.
+Sheriff, militia captain, or the old soldier who keeps the village alive. You don\'t go to the estate; you make sure what comes out of it doesn\'t get in.
 ]
 
 #figure(
@@ -4526,7 +4604,7 @@ Sheriff, militia captain, or the old soldier who keeps the village alive. You do
     [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [10 / 9 / 9 / 8],
     [#strong[Edge];], [Sōma 1, Psychē 1, plus 1 in Pneuma or Akmē],
     [#strong[Anchor skill];], [Craft],
-    [#strong[Suggested skills];], [+4 Craft · +3 Noble Lore, Shoot · +2 Notice, Intimidate, Endure · +1 Persuade, Fight, Frontier, Will],
+    [#strong[Suggested skills];], [+4 Craft · +3 Old Lore, Shoot · +2 Notice, Intimidate, Endure · +1 Persuade, Fight, Frontier, Will],
     [#strong[XP trigger];], [Address a challenge by preparing, protecting, or fortifying],
   )]
   , kind: table
@@ -4543,14 +4621,14 @@ Sheriff, militia captain, or the old soldier who keeps the village alive. You do
     table.header([\#], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Trapmaker];], [Spend a scene preparing an area. Create the Truth #emph[Trapped] there for free. The first enemy to enter takes an Attack with Power equal to your Craft rating (no roll).],
-    [2], [#strong[Garlic and Iron];], [With a scene of work and village help, ward a whole building or village: create #emph[Garlic Fences] or #emph[Uninvited] as a #strong[Site Truth] until a Noble breaks it (6-segment danger clock).],
+    [2], [#strong[Garlic and Iron];], [With a scene of work and village help, ward a whole building or village: create #emph[Warded Village] or #emph[Custom of Invitation] as a #strong[Site Truth] (Frontier Rules §13) until a vampire breaks it (6-segment danger clock).],
     [3], [#strong[Militia Captain];], [Once per scene, rally villagers into a minion group with 1 power tag (#emph[pitchforks and torches];) and 1 weakness (#emph[break and run];).],
     [4], [#strong[Night Watch];], [The party can\'t be surprised while you\'re on watch. When you\'re the Lookout (Module B.5), you get a free bonus die.],
     [5], [#strong[Hold the Gate];], [In a #strong[Siege of the Night];, your side\'s Disposition is #strong[+2];, and you get #emph[+1 Defend] as a free action tag.],
     [6], [#strong[Local Law];], [Your authority is a power tag with locals (#emph[by order of the Warden];). Once per scene, a successful Intimidate or Persuade with villagers removes #emph[Hostile Crowd] or stops a mob.],
     [7], [#strong[★ Hold Until Dawn];], [Once per Siege of the Night, tick the #strong[Dawn clock] by 2 extra segments.],
-    [8], [#strong[★ Killing Ground];], [In an area you prepared (with #emph[Trapped] or #emph[Garlic Fences];), allies\' Attacks inflict #strong[+1 tier];, and Nobles can\'t use #emph[Mist Form] to leave.],
-    [◆], [#strong[Nothing Gets In];], [Your village becomes a #strong[Region Truth] (#emph[\"The Nobility can\'t take \[village\]\"];). A Noble must fill a 12-segment danger clock before it can enter. Once per session, any PC who retreats there clears one tier-1 or tier-2 status.],
+    [8], [#strong[★ Killing Ground];], [In an area you prepared (with #emph[Trapped] or #emph[Warded Village];), allies\' Attacks inflict #strong[+1 tier];, and vampires can\'t use #emph[The Old Door] to leave.],
+    [◆], [#strong[Nothing Gets In];], [Your village becomes a #strong[Region Truth] (#emph[\"The Kept can\'t take \[village\]\"];). A vampire must fill a 12-segment danger clock before it can enter. Once per session, any PC who retreats there clears one tier-1 or tier-2 status.],
   )]
   , kind: table
   )
@@ -4592,10 +4670,10 @@ Sheriff, militia captain, or the old soldier who keeps the village alive. You do
 
 === 9.3 BIG Examples
 - #strong[Belief:] \"This village is all I have left, and nothing takes it.\" / \"Hunters come and go; I\'m still here in the morning.\"
-- #strong[Goal:] \"Get the fences finished before sundown.\" / \"Find out who invited the Noble in.\"
+- #strong[Goal:] \"Get the fences finished before sundown.\" / \"Find out who let the vampire in.\"
 - #strong[Instinct:] \"Always check the doors at dusk.\" / \"Never leave the village when a stranger\'s in town.\"
 
-#strong[Relationships:] Ally --- the mayor, the blacksmith, a widow whose husband died on the wall. Rival --- a Hunter who wants to use the village as bait, a council member who\'d rather pay tribute, a Noble who has tried before.
+#strong[Relationships:] Ally --- the mayor, the blacksmith, a widow whose husband died on the wall. Rival --- a Hunter who wants to use the village as bait, a council member who\'d rather pay tribute, a vampire who has tried before.
 
 #pagebreak()
 == 10. Design Notes
@@ -4606,14 +4684,14 @@ Sheriff, militia captain, or the old soldier who keeps the village alive. You do
     align: (auto,auto,auto,auto,auto,),
     table.header([Playbook], [Main pool], [Conflict role], [Exploration role], [Social role],),
     table.hline(),
-    [Sellsword], [Sōma], [Attack / Defend, bane strikes], [Forcing obstacles], [Intimidation],
-    [Stalker], [Akmē], [Feint / Maneuver], [Castles by day, security], [Deception],
-    [Frontier Doctor], [Psychē], [Maneuver (Discover), Restore], [Investigation, healing, the Kiss], [Expertise, trust],
+    [Sellsword], [Sōma], [Attack / Defend, killing strikes], [Forcing obstacles], [Intimidation],
+    [Stalker], [Akmē], [Feint / Maneuver], [Estates by day, security], [Deception],
+    [Frontier Doctor], [Psychē], [Maneuver (Discover), Restore], [Investigation, healing, the bled], [Expertise, trust],
     [Broker], [Pneuma], [Negotiation and Argument lead], [Rumours, contacts], [Persuasion, contracts],
     [Rider], [Sōma/Akmē], [Ranged Attack, Chase, Hunt], [Travel, Grind, tracking], [Local knowledge],
-    [Occultist], [Pneuma/Psychē], [Flexible (Domain), Duel of Wills], [Supernatural and Noble-science access], [Varies by Domain],
+    [Occultist], [Pneuma/Psychē], [Flexible (Domain), Duel of Wills], [Supernatural and old-world access], [Varies by Domain],
     [Mutant], [Sōma/Akmē], [Attack / Maneuver], [Climbing, hiding, wastelands], [Monsters and servants],
-    [Cyborg Hunter], [Sōma], [Ranged Attack, heavy firepower], [Noble machines, castles], [Intimidation],
+    [Cyborg Hunter], [Sōma], [Ranged Attack, heavy firepower], [Old-world machines, estates], [Intimidation],
     [Warden], [Sōma/Psychē], [Siege of the Night, Defend], [Preparation, fortification], [Villagers, local law],
   )]
   , kind: table
@@ -4621,15 +4699,15 @@ Sheriff, militia captain, or the old soldier who keeps the village alive. You do
 
 === 10.2 Things to Watch in Playtest
 - #strong[Mutant and Cyborg core features] each grant two tagged abilities for free, more than other playbooks. They\'re balanced by #emph[Feared and Despised] (Mutant) and glitches and a low Pneuma pool (Cyborg). If they outshine others, drop to 1 free Mutation or Implant.
-- #strong[Undying vs. More Machine Than Man:] the Cyborg capstone is strong by design at 12 Advances. Watch that it doesn\'t end the threat of mundane harm entirely.
-- #strong[Warden] is strongest in sieges and weaker on castle raids. Make sure the campaign has both, or let the Warden\'s traps travel (Trapmaker works anywhere).
+- #strong[Hard to Kill vs. More Machine Than Man:] the Cyborg capstone is strong by design at 12 Advances. Watch that it doesn\'t end the threat of mundane harm entirely.
+- #strong[Warden] is strongest in sieges and weaker on estate raids. Make sure the campaign has both, or let the Warden\'s traps travel (Trapmaker works anywhere).
 - #strong[Free bonus dice] (Stake Driver, Horse-Bond, Targeting eye, Combat Mode, Full Transformation) still count toward the +2 bonus die maximum.
 - #strong[★ count:] each playbook has two Major abilities and a free capstone, as in #emph[Generic Playbooks];.
 
 // =====================================================================
 //  CHAPTER — FRONTIER FOCUSES
 // =====================================================================
-#chapter("Frontier Focuses", [Twenty Focuses steeped in the Frontier: Noble blood, bounties, relics and ruins, the old faith, villages holding the line until dawn, and the people who love what they should hate.], epigraph: [Dhampirs enter play here, through Carries the Blood of the Nobility.])
+#chapter("Frontier Focuses", [Twenty Focuses steeped in the Frontier: afflicted blood, bounties, relics and ruins, the old faith, villages holding the line until dawn, and the people who love what they should hate.], epigraph: [Dhampirs enter play here, through Carries Her Mother\'s Blood.])
 
 == 1. Focus Rules
 Focus rules are unchanged from #emph[Generic Focuses] §1:
@@ -4650,7 +4728,7 @@ Focus rules are unchanged from #emph[Generic Focuses] §1:
   , kind: table
   )
 
-- #strong[◈ Weird] Focuses assume Noble blood, Noble science, or the supernatural. In this setting all are allowed; the marker shows which ones draw attention from Nobles, Occultists, and frightened villagers.
+- #strong[◈ Weird] Focuses assume afflicted blood, old-world works, or the supernatural. In this setting all are allowed; the marker shows which ones draw attention from vampire households, Occultists, and frightened villagers.
 - #strong[Generic Focuses:] the 24 Focuses in #emph[Generic Focuses] also work here. Good fits are #emph[Never Leaves Anyone Behind];, #emph[Masters a Weapon];, #emph[Moves Like a Shadow];, #emph[Never Misses];, #emph[Opens Every Lock];, #emph[Talks Their Way Out of Anything];, #emph[Lives Off the Land];, and #emph[Made a Bargain With Something Old];. Use the setting Focuses below in place of #emph[Hunts the Things in the Dark] and #emph[Is More Than Human];.
 - #strong[Shared reminders:] free bonus dice count toward the +2 maximum; only one cost reduction applies to a single Effect; abilities that add bonus above the tag cap are limited to #strong[+1 above the normal +2 cap (maximum +3)] unless stated otherwise (Generic Focuses §9.2).
 
@@ -4661,39 +4739,39 @@ Focus rules are unchanged from #emph[Generic Focuses] §1:
     align: (auto,auto,auto,auto,auto,),
     table.header([\#], [Focus], [Category], [Suits], [#diamond(size: 6pt, fill: paper)],),
     table.hline(),
-    [1], [Carries the Blood of the Nobility], [Bloodline], [Any], [◈],
-    [2], [Was Kissed and Lived], [Bloodline], [Any], [◈],
+    [1], [Carries Her Mother\'s Blood], [Bloodline], [Any], [◈],
+    [2], [Was Kept and Got Out], [Bloodline], [Any], [◈],
     [3], [Carries a Passenger], [Bloodline], [Any], [◈],
-    [4], [Hunts the Nobility], [Hunter], [Sellsword, Stalker, Cyborg Hunter], [],
+    [4], [Hunts the Kept], [Hunter], [Sellsword, Stalker, Cyborg Hunter], [],
     [5], [Collects the Bounty], [Hunter], [Broker, Sellsword, Rider], [],
     [6], [Hunts the Beasts of the Frontier], [Hunter], [Rider, Mutant, Sellsword], [],
-    [7], [Seeks Revenge on a Noble], [Hunter], [Any], [],
-    [8], [Bears a Noble Relic], [Noble Science], [Occultist, Stalker, Cyborg Hunter], [◈],
-    [9], [Plunders the Castles of the Night], [Noble Science], [Stalker, Occultist, Broker], [],
+    [7], [Seeks Revenge on a Vampire], [Hunter], [Any], [],
+    [8], [Bears an Old-World Relic], [Old-World], [Occultist, Stalker, Cyborg Hunter], [◈],
+    [9], [Plunders the Old Estates], [Old-World], [Stalker, Occultist, Broker], [],
     [10], [Sends the Mind Abroad], [Occult], [Occultist, Frontier Doctor], [◈],
     [11], [Keeps the Old Faith], [Occult], [Warden, Frontier Doctor, Sellsword], [],
-    [12], [Heals the Kissed], [Village], [Frontier Doctor, Occultist], [],
+    [12], [Heals the Bled], [Village], [Frontier Doctor, Occultist], [],
     [13], [Holds the Line Until Dawn], [Village], [Warden, Sellsword, Cyborg Hunter], [],
     [14], [Forges Weapons Against the Night], [Village], [Warden, Cyborg Hunter, Stalker], [],
     [15], [Rides a Cyborg Horse], [Frontier], [Rider, Sellsword, Broker], [],
     [16], [Leaves No Name Behind], [Frontier], [Any], [],
     [17], [Rides With Family], [Frontier], [Any], [],
-    [18], [Once Served the Nobility], [Noble Courts], [Broker, Stalker, Frontier Doctor], [],
-    [19], [Reads the Ruins of History], [Noble Courts], [Frontier Doctor, Occultist, Broker], [],
-    [20], [Loves What It Should Hate], [Noble Courts], [Any], [],
+    [18], [Once Served a Household], [Households], [Broker, Stalker, Frontier Doctor], [],
+    [19], [Reads the Ruins of History], [Households], [Frontier Doctor, Occultist, Broker], [],
+    [20], [Loves What It Should Hate], [Households], [Any], [],
   )]
   , kind: table
   )
 
 == 3. Bloodline Focuses
-=== 1. Carries the Blood of the Nobility ◈
+=== 1. Carries Her Mother's Blood ◈
 #quote(block: true)[
-Dhampir. Half-human, half-Noble. Stronger and faster than any human, hated by both sides, and never quite free of the sun or the thirst.
+Dhampir. Born to one of the Kept, and carrying a little of what she is. Tougher than you should be, slower to age, never easy in the sun --- and worth more to certain people than you'd like.
 ]
 
-- #strong[Power tags:] #emph[the strength of the Nobility];, #emph[eyes that see in the dark]
-- #strong[Weakness tag:] #emph[half-blood] (when recognised, the scene gains #emph[Feared and Despised];)
-- #strong[PC link:] \"\[PC\] saw what I am and didn\'t run. I still don\'t know why.\"
+- #strong[Power tags:] #emph[stronger than I look];, #emph[eyes that see in the dark]
+- #strong[Weakness tag:] #emph[my mother's blood] (when recognised, the scene gains #emph[Feared and Despised] among common folk, #strong[or] draws the interest of a vampire household that wants you as an heir, a key or something worse; GM's choice, compel normally)
+- #strong[PC link:] "\[PC\] knows who my mother was. I've never asked how."
 
 #figure(
   [#table(
@@ -4701,29 +4779,44 @@ Dhampir. Half-human, half-Noble. Stronger and faster than any human, hated by bo
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Noble Blood];], [You ignore darkness Truths and sense any Noble within sight. A short rest restores #strong[2 + Edge] Sōma. You can\'t be #emph[Kissed] or Turned. You\'re subject to #strong[Sunlight Syndrome] and #strong[the Thirst] (Frontier Rules §7).],
-    [2a], [#strong[Dhampir Regeneration];], [Once per scene, lower one physical status by #strong[2 tiers] (no roll). Thirst +1.],
-    [2b], [#strong[The Noble Gaze];], [You can use the Gaze: on a successful Will or Intimidate roll against a human or Lesser Noble who meets your eyes, inflict #emph[entranced] as an Attack. Thirst +1 each time. In a Duel of Wills against a Noble, gain a free bonus die.],
-    [3a], [#strong[Night Walker];], [Under the #strong[Night] Truth, your physical Attacks inflict #strong[+1 tier];, and your blade counts as the beheading bane against a Noble with a tier-4+ physical status.],
-    [3b], [#strong[★ Awaken the Blood];], [Once per scene, let the Noble half rise (#emph[Thirst];): until the scene ends, you get #strong[+2 bonus dice] free on physical rolls, your Attacks inflict #strong[+1 tier];, and your physical statuses can\'t go above tier 5. Afterwards, Thirst +2, and anyone who saw it treats you as a Noble.],
+    [1], [#strong[Mother's Blood];], [You notice fresh blood anywhere in the scene, and by scent or taste you can tell the blood of the afflicted from ordinary blood. A short rest restores #strong[2 + Edge] Sōma (not in direct sunlight). Some old-world doors and instruments respond to you: when you try to make one work, #emph[my mother's blood] counts as a tag, and works best on things tied to her line. You're subject to #strong[Sunlight Syndrome] and #strong[the Thirst] (Frontier Rules §7).],
+    [2a], [#strong[Dhampir Regeneration];], [Once per scene, lower one physical status by #strong[2 tiers] (no roll). Not in direct sunlight. Thirst +1.],
+    [2b], [#strong[Read the Blood];], [Touch or taste a blood sample (a scene, no roll) to learn: whether it is afflicted, a dhampir's, or ordinary; whether the afflicted person it came from was well fed or starving; and roughly how long ago it was shed. With #strong[1 Power] from a Discover effect, also learn whether two afflicted samples share a bloodline. Thirst +1 each time.],
+    [3a], [#strong[Mother's Key];], [Old-world systems tied to your mother's line accept you as one of her line. #strong[Once per session], make one such system open, start, stop or show its records --- no roll. On systems of other lines, #emph[my mother's blood] gives a free bonus die. The GM may spend #strong[2 Woe] to have the system note your visit somewhere someone will notice.],
+    [3b], [#strong[★ Awaken the Blood];], [Once per scene, let your mother's blood rise (#emph[Thirst];): until the scene ends, you get #strong[+2 bonus dice] free on physical rolls, your Attacks inflict #strong[+1 tier];, and your physical statuses can't go above tier 5. Afterwards, Thirst +2, and anyone who saw it treats you as one of the Kept.],
   )]
   , kind: table
   )
 
-#strong[Table options for Dhampirs (choose at session zero):]
+#strong[Optional swap for combat-focused tables:] replace 3a with:
 
-- #strong[Rare blood:] only one PC in the party can take this Focus.
+#figure(
+  [#table(
+    columns: (8%, 15%, 77%),
+    align: (auto,auto,auto,),
+    table.header([Tier], [Ability], [Effect],),
+    table.hline(),
+    [3a (alt)], [#strong[Knows How They Die];], [Your Attacks against the afflicted inflict #strong[+1 tier] when they are #emph[Sun-Sick];, #emph[starving] or #emph[broken];, and your blade counts as beheading (a killing method) against an afflicted target with a tier-4+ physical status.],
+  )]
+  , kind: table
+  )
+
+#strong[Table options for dhampirs (choose at session zero):]
+
+- #strong[Rare blood] (recommended default): only one PC in the party can take this Focus.
 - #strong[Costly blood:] this Focus costs #strong[1 Refresh] at creation.
 - #strong[The sun is merciless:] Sun-Sick gains +2 per scene instead of +1 (Frontier Rules §7.1).
+- #strong[Known mother:] your mother is alive and identified at creation. She is an NPC with her own household and agenda. Gain a free bonus die on your first Mother's Key or Read the Blood roll involving her line each session; the GM gains 1 Woe at the start of each session she is involved.
+- #strong[Unknown mother:] you don't know who she was. Finding out is a Goal; the GM secretly decides her line.
 
-=== 2. Was Kissed and Lived ◈
+=== 2. Was Kept and Got Out ◈
 #quote(block: true)[
-A Noble fed on you for nights, then was destroyed, or left, or let you go. You\'re still human. Mostly.
+You were a donor in a vampire household --- by birth, debt or choice. You got out. They remember you.
 ]
 
-- #strong[Power tags:] #emph[the Call has no hold on me];, #emph[I know how they think]
-- #strong[Weakness tag:] #emph[the Noble is still out there] (or #emph[its blood is still in me];)
-- #strong[PC link:] \"\[PC\] sat with me through the nights when I nearly turned.\"
+- #strong[Power tags:] #emph[I know how households run];, #emph[I know how they think]
+- #strong[Weakness tag:] #emph[they'll want me back]
+- #strong[PC link:] "\[PC\] got me out. I've never told them what it cost."
 
 #figure(
   [#table(
@@ -4731,11 +4824,11 @@ A Noble fed on you for nights, then was destroyed, or left, or let you go. You\'
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Survivor of the Kiss];], [#emph[Kissed] gains #strong[1 fewer tier] on you. You always know when a Noble uses the Call or the Gaze within earshot.],
-    [2a], [#strong[Blood Bond];], [At night you sense the direction of the Noble that bit you (or its bloodline). It can sense you too; the GM may spend 1 Woe to use this against you.],
-    [2b], [#strong[One of Them, Almost];], [Lesser Nobles and Noble servants mistake you for one of their own. Deceive rolls to pass among them are #strong[two steps easier];.],
-    [3a], [#strong[Unbroken];], [When you Resist the Gaze, the Call, or the Kiss with Pneuma, reduce the status by #strong[3 tiers];, and the cost is 0 on a highest die of 5+.],
-    [3b], [#strong[★ Turn the Bond];], [Once per session, in a Duel of Wills against a Noble of the bloodline that bit you, gain a free bonus die on every roll. If you win, you also learn where it sleeps.],
+    [1], [#strong[Household Ways];], [#emph[Bled] gains #strong[1 fewer tier] on you. You get a free bonus die to Notice or Empathy when judging a vampire's hunger or a household's customs.],
+    [2a], [#strong[Old Ties];], [Once per session, a retainer or donor still loyal to you gives a Discover answer or a small favour. The household can find you the same way (the GM spends 1 Woe).],
+    [2b], [#strong[One of Them, Almost];], [Retainers and donors take you for one of their own. Deceive rolls to pass among them are #strong[two steps easier];.],
+    [3a], [#strong[Unbroken];], [When you Resist Presence, intimidation or fear from a vampire with Pneuma, reduce the status by #strong[3 tiers];, and the cost is 0 on a highest die of 5+.],
+    [3b], [#strong[★ Turn the Bond];], [Once per session, in a Duel of Wills against your former household, gain a free bonus die on every roll. If you win, you also learn where it keeps its blood.],
   )]
   , kind: table
   )
@@ -4758,21 +4851,21 @@ Something lives in you: a face in your palm, an eye on your shoulder, a voice on
     [1], [#strong[The Passenger];], [Once per scene, ask a free Discover: the Passenger answers, truthfully but not always helpfully. It can talk to others, which is often a compel.],
     [2a], [#strong[Devourer];], [Once per scene, the Passenger swallows a hostile effect it can reach (fire, gas, mist, a working, a cypher): #strong[Disrupt] it for 0 Power. The GM may compel its appetite afterwards.],
     [2b], [#strong[Feed Me, Heal You];], [In the Players\' Turn, spend 1 Check to feed it (earth, water, fire, or air). Next session, once per scene, it lowers one of your physical statuses by 2 tiers.],
-    [3a], [#strong[Older Than the Nobility];], [Once per scene, take a free bonus die on a Noble Lore or Occult roll. The Passenger remembers the age when the Nobility were young.],
+    [3a], [#strong[Older Than the Kept];], [Once per scene, take a free bonus die on an Old Lore or Occult roll. The Passenger remembers the age before the fall.],
     [3b], [#strong[★ Let It Drive];], [Once per session, let the Passenger take your body for one action: it succeeds automatically with #strong[4 Power];. Then the GM names the price it demands (a meal, a favour, a secret, a scene where it\'s in charge).],
   )]
   , kind: table
   )
 
 == 4. Hunter Focuses
-=== 4. Hunts the Nobility
+=== 4. Hunts the Kept
 #quote(block: true)[
-Your trade is the hardest one on the Frontier: you kill Nobles.
+Your trade is the hardest one on the Frontier: you kill vampires.
 ]
 
-- #strong[Power tags:] #emph[knows where they sleep];, #emph[a stake for every heart]
-- #strong[Weakness tag:] #emph[the Nobility know my name]
-- #strong[PC link:] \"\[PC\] was there for my first Noble kill. It went badly.\"
+- #strong[Power tags:] #emph[knows where they hide];, #emph[a stake for every heart]
+- #strong[Weakness tag:] #emph[the Kept know my name]
+- #strong[PC link:] \"\[PC\] was there for my first vampire kill. It went badly.\"
 
 #figure(
   [#table(
@@ -4780,11 +4873,11 @@ Your trade is the hardest one on the Frontier: you kill Nobles.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Noble Hunter];], [Once per scene, Discover one of a Noble\'s weakness tags without rolling.],
-    [2a], [#strong[Bane Mastery];], [Your bane strikes (Frontier Rules §5.2) are #strong[Standard 15] instead of Hard 18.],
-    [2b], [#strong[Steel Against the Gaze];], [When you Resist the Gaze or the Call with Pneuma, the cost is #strong[0 on a highest die of 5+];.],
-    [3a], [#strong[Turn Weakness to Bane];], [Upgrading a Noble\'s weakness tag into a bane (Frontier Rules §8.1) costs #strong[2 Power] instead of 3.],
-    [3b], [#strong[★ The Hunter\'s Mark];], [Once per scene, mark a Noble you can see. Until the scene ends, all allies\' Attacks against it inflict #strong[+1 tier];, and it can\'t use #emph[Mist Form] to escape.],
+    [1], [#strong[Know Your Quarry];], [Once per scene, Discover one of a vampire\'s weakness tags without rolling.],
+    [2a], [#strong[Killing Mastery];], [Your killing strikes (Frontier Rules §5.2) are #strong[Standard 15] instead of Hard 18.],
+    [2b], [#strong[Steel Against Presence];], [When you Resist a vampire\'s Presence or intimidation with Pneuma, the cost is #strong[0 on a highest die of 5+];.],
+    [3a], [#strong[Find the Killing Way];], [Upgrading a vampire\'s weakness tag into a killing method (Frontier Rules §8.1) costs #strong[2 Power] instead of 3.],
+    [3b], [#strong[★ The Hunter\'s Mark];], [Once per scene, mark a vampire you can see. Until the scene ends, all allies\' Attacks against it inflict #strong[+1 tier];, and it can\'t use #emph[The Old Door] to escape.],
   )]
   , kind: table
   )
@@ -4808,14 +4901,14 @@ A Hunter is a professional. You take the job, you finish it, and you get paid.
     [2a], [#strong[Beat the Competition];], [When rival Hunters race you for a bounty (Frontier Rules §10.4), their project clock ticks #strong[1 less] each World Turn, and you gain +1 Advance on any roll that gets ahead of them.],
     [2b], [#strong[Bring Them In Alive];], [Your Attacks can inflict #emph[subdued] instead of harm. A target Taken Out by #emph[subdued] is captured, and a living quarry is worth #strong[one step more] bounty.],
     [3a], [#strong[My Reputation Precedes Me];], [Your reputation tag (Frontier Rules §10.3) counts as a free extra tag in Negotiation, adding up to #strong[+1 above the normal +2 cap (maximum +3 from tags)];. Clients always pay half up front.],
-    [3b], [#strong[★ The Big Score];], [Once per session, when you complete a contract, choose one extra reward: an artifact from the quarry\'s hoard, a Region Truth in your favour, or a second #emph[Noble\'s bounty];.],
+    [3b], [#strong[★ The Big Score];], [Once per session, when you complete a contract, choose one extra reward: an artifact from the quarry\'s hoard, a Region Truth in your favour, or a second #emph[vampire\'s bounty];.],
   )]
   , kind: table
   )
 
 === 6. Hunts the Beasts of the Frontier
 #quote(block: true)[
-Not every monster is a Noble. Sand sharks, werewolves, mutant spiders, Noble bioweapons gone feral: you hunt them all.
+Not every monster is a vampire. Sand sharks, werewolves, mutant spiders, old-world bioweapons gone feral: you hunt them all.
 ]
 
 - #strong[Power tags:] #emph[knows every monster];, #emph[nets, poison, and patience]
@@ -4828,18 +4921,18 @@ Not every monster is a Noble. Sand sharks, werewolves, mutant spiders, Noble bio
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Beast Lore];], [Once per scene, Discover a monster\'s weakness tag (not a Noble\'s) without rolling.],
+    [1], [#strong[Beast Lore];], [Once per scene, Discover a monster\'s weakness tag (not a vampire\'s) without rolling.],
     [2a], [#strong[Baited Trap];], [Spend 1 Power to Create #emph[Baited Trap];. A beast that enters it is #emph[Impeded] until it breaks free (an Athletics roll vs. Hard 18).],
     [2b], [#strong[Harvest];], [After killing a monster, spend a scene to harvest it for one cypher (tier 2--3) that matches its power: venom, hide, a gland, an eye.],
     [3a], [#strong[Bane of Beasts];], [Your Attacks against monsters inflict #strong[+1 tier];.],
-    [3b], [#strong[★ Monster-Slayer];], [In Fights against monsters (not Nobles), the enemy\'s Disposition starts #strong[−3];, and minion beasts flee after your first successful Attack.],
+    [3b], [#strong[★ Monster-Slayer];], [In Fights against monsters (not vampires), the enemy\'s Disposition starts #strong[−3];, and minion beasts flee after your first successful Attack.],
   )]
   , kind: table
   )
 
-=== 7. Seeks Revenge on a Noble
+=== 7. Seeks Revenge on a Vampire
 #quote(block: true)[
-A Noble took your family, your village, or your life as it was. You\'ll find it, and you\'ll end it.
+A vampire took your family, your village, or your life as it was. You\'ll find it, and you\'ll end it.
 ]
 
 - #strong[Power tags:] #emph[my hate keeps me warm];, #emph[I\'ve studied it for years]
@@ -4852,23 +4945,23 @@ A Noble took your family, your village, or your life as it was. You\'ll find it,
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[The One];], [Name your Noble. You always know when you\'re within a day\'s ride of it, and once per session ask a free Discover about it.],
-    [2a], [#strong[Cold Fury];], [When you Resist the named Noble\'s Gaze, Call, or fear, the cost is #strong[0];.],
-    [2b], [#strong[Nothing Held Back];], [When you burn a tag against the named Noble or its servants, gain #strong[+2 Power] instead of +1.],
-    [3a], [#strong[Its Servants Die First];], [The named Noble\'s servants and Barbarois start conflicts against you with #strong[−2 Disposition];.],
-    [3b], [#strong[★ This Ends Tonight];], [When you face the named Noble, gain a free bonus die on every roll against it, and your bane strikes are #strong[Standard 15];. If it escapes you, gain a Pneuma Scar.],
+    [1], [#strong[The One];], [Name your vampire. You always know when you\'re within a day\'s ride of it, and once per session ask a free Discover about it.],
+    [2a], [#strong[Cold Fury];], [When you Resist the named vampire\'s Presence, intimidation or fear, the cost is #strong[0];.],
+    [2b], [#strong[Nothing Held Back];], [When you burn a tag against the named vampire or its servants, gain #strong[+2 Power] instead of +1.],
+    [3a], [#strong[Its Servants Die First];], [The named vampire\'s servants and retainers start conflicts against you with #strong[−2 Disposition];.],
+    [3b], [#strong[★ This Ends Tonight];], [When you face the named vampire, gain a free bonus die on every roll against it, and your killing strikes are #strong[Standard 15];. If it escapes you, gain a Pneuma Scar.],
   )]
   , kind: table
   )
 
-== 5. Noble Science Focuses
-=== 8. Bears a Noble Relic ◈
+== 5. Old-World Focuses
+=== 8. Bears an Old-World Relic ◈
 #quote(block: true)[
-You carry a piece of the Nobility\'s power: a sword that cuts anything, a pendant that turns aside the Gaze, a gauntlet that hums when Nobles are near.
+You carry a piece of the old world\'s power: a sword that cuts anything, a pendant that opens one family\'s doors, a gauntlet that hums when old-world works are near.
 ]
 
-- #strong[Power tags:] #emph[the relic answers me];, #emph[Noble-forged]
-- #strong[Weakness tag:] #emph[the Nobility will want it back]
+- #strong[Power tags:] #emph[the relic answers me];, #emph[old-world steel]
+- #strong[Weakness tag:] #emph[the Kept will want it back]
 - #strong[PC link:] \"\[PC\] knows how I got the relic. It isn\'t a good story.\"
 
 #figure(
@@ -4877,23 +4970,23 @@ You carry a piece of the Nobility\'s power: a sword that cuts anything, a pendan
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Relic Bearer];], [Start with one Noble artifact (Frontier Rules §9.2, or design one with the GM). It costs #strong[no attunement Refresh];.],
+    [1], [#strong[Relic Bearer];], [Start with one old-world artifact (Frontier Rules §9.2, or design one with the GM). It costs #strong[no attunement Refresh];.],
     [2a], [#strong[Deeper Power];], [Your relic gains a #strong[second ability] (designed with the GM).],
     [2b], [#strong[Well-Kept];], [Your relic\'s depletion improves by 1 (1 in d12 becomes no depletion).],
-    [3a], [#strong[Relic Sense];], [You sense other Noble artifacts within a day\'s walk, and once per scene ask a free Discover about one you can see.],
+    [3a], [#strong[Relic Sense];], [You sense other old-world artifacts within a day\'s walk, and once per scene ask a free Discover about one you can see.],
     [3b], [#strong[★ The Relic Awakens];], [Your relic\'s tag may add #strong[+1 above the normal +2 tag cap (maximum +3)];. Once per session, it acts by itself: one automatic success with #strong[3 Power] spent on its listed Effects.],
   )]
   , kind: table
   )
 
-=== 9. Plunders the Castles of the Night
+=== 9. Plunders the Old Estates
 #quote(block: true)[
-Every abandoned castle holds treasure, machines, and traps. You go in for the first, use the second, and survive the third.
+Every abandoned estate holds treasure, machines, and traps. You go in for the first, use the second, and survive the third.
 ]
 
-- #strong[Power tags:] #emph[knows Noble treasure];, #emph[quick hands in dark halls]
+- #strong[Power tags:] #emph[knows old-world treasure];, #emph[quick hands in dark halls]
 - #strong[Weakness tag:] #emph[can\'t leave treasure behind]
-- #strong[PC link:] \"\[PC\] and I came out of the same castle. Only one of us came out with the loot.\"
+- #strong[PC link:] \"\[PC\] and I came out of the same estate. Only one of us came out with the loot.\"
 
 #figure(
   [#table(
@@ -4901,11 +4994,11 @@ Every abandoned castle holds treasure, machines, and traps. You go in for the fi
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Salvager];], [In each castle, lab, or ruin you search, find one Noble cypher (roll on Frontier Rules §9.1) without spending Power.],
+    [1], [#strong[Salvager];], [In each estate, lab, or ruin you search, find one old-world cypher (roll on Frontier Rules §9.1) without spending Power.],
     [2a], [#strong[Appraiser];], [You know an artifact\'s tags, ability, depletion, and quirk as soon as you handle it.],
     [2b], [#strong[Tomb Sense];], [When you enter a room, the GM reveals any trap Truths in it. When you Resist traps, your Edge counts as 1 higher.],
     [3a], [#strong[Cypher Hoarder];], [Your Cypher Limit is #strong[+1];.],
-    [3b], [#strong[★ Thief of the Night];], [You may attune one Noble artifact at no Refresh cost, and once per session, take an item from a Noble\'s presence without a roll, as long as the Noble isn\'t actively watching it.],
+    [3b], [#strong[★ Thief of the Night];], [You may attune one old-world artifact at no Refresh cost, and once per session, take an item from a vampire\'s presence without a roll, as long as the vampire isn\'t actively watching it.],
   )]
   , kind: table
   )
@@ -4913,7 +5006,7 @@ Every abandoned castle holds treasure, machines, and traps. You go in for the fi
 == 6. Occult Focuses
 === 10. Sends the Mind Abroad ◈
 #quote(block: true)[
-Your mind can leave your body and walk where you can\'t: through castle walls, into dreams, across the desert.
+Your mind can leave your body and walk where you can\'t: through estate walls, into dreams, across the desert.
 ]
 
 - #strong[Power tags:] #emph[my mind walks free];, #emph[dreamsight]
@@ -4927,8 +5020,8 @@ Your mind can leave your body and walk where you can\'t: through castle walls, i
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Astral Self];], [Leave your body as an unseen astral form (range about 1 km). You use Occult for Stealth and Notice. Your body is helpless and #emph[Impeded] while you\'re out. Returning costs 1 Pneuma.],
-    [2a], [#strong[Astral Strike];], [Your astral form can Attack with Occult, inflicting mental statuses (#emph[terrified];, #emph[dazed];) even on Nobles.],
-    [2b], [#strong[Dream Walker];], [Enter a sleeper\'s dream, including a Kissed victim\'s. Ask 2 free Discover questions about what they saw, or Restore their fear statuses.],
+    [2a], [#strong[Astral Strike];], [Your astral form can Attack with Occult, inflicting mental statuses (#emph[terrified];, #emph[dazed];) even on vampires.],
+    [2b], [#strong[Dream Walker];], [Enter a sleeper\'s dream, including a bled victim\'s. Ask 2 free Discover questions about what they saw, or Restore their fear statuses.],
     [3a], [#strong[Far-Walker];], [Your astral range becomes a day\'s ride, and you can bring one willing ally\'s mind with you.],
     [3b], [#strong[★ Astral Avatar];], [Once per scene, your astral form becomes solid enough to Fight. It uses your skills, and harm to it comes out of your #strong[Pneuma] pool, not physical statuses.],
   )]
@@ -4937,10 +5030,10 @@ Your mind can leave your body and walk where you can\'t: through castle walls, i
 
 === 11. Keeps the Old Faith
 #quote(block: true)[
-Crosses still burn Nobles, holy water still hisses on their skin. Hardly anyone remembers why. You do.
+Crosses don't burn anything, whatever the stories say. But the rites are older than anyone can explain, the faithful stand together, and some vampires still believe. You keep the old ways anyway.
 ]
 
-- #strong[Power tags:] #emph[my cross burns them];, #emph[prayer steadies me]
+- #strong[Power tags:] #emph[the faithful follow me];, #emph[prayer steadies me]
 - #strong[Weakness tag:] #emph[bound by the old laws] (you can\'t refuse sanctuary or lie under oath)
 - #strong[PC link:] \"\[PC\] doesn\'t believe, but they carry the cross I gave them.\"
 
@@ -4950,24 +5043,24 @@ Crosses still burn Nobles, holy water still hisses on their skin. Hardly anyone 
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Holy Symbol];], [Your cross creates #emph[Warded] for 1 Power against #strong[Lesser Nobles and Nobles] (not only Lesser). Greater Nobles and Ancients take −1 on rolls against you while you hold it up.],
-    [2a], [#strong[Consecrate];], [In a scene of prayer, bless water or stakes. Bane strikes with them inflict #strong[+1 tier];, and holy water is an Attack (#emph[burning];) against Nobles.],
-    [2b], [#strong[Last Rites];], [Once per scene, every ally who can hear your prayer restores 2 Pneuma, and Resists the Call with Edge +1 until the scene ends.],
-    [3a], [#strong[Faith Unbroken];], [When you Resist fear, the Gaze, or possession with Pneuma, the cost is #strong[0 on a highest die of 5+];.],
-    [3b], [#strong[★ Holy Ground];], [Once per session, sanctify a place: create the Truth #emph[Holy Ground] for the scene. Noble powers don\'t work there, and every Noble Woe spend costs #strong[+1];.],
+    [1], [#strong[Holy Symbol];], [Your cross creates #emph[Warded] for 1 Power against any vampire who #emph[believes the old stories] (Frontier Rules §8.1). Against other vampires it does nothing, but you and allies who can see it gain +1 Pneuma Edge against fear.],
+    [2a], [#strong[Consecrate];], [In a scene of prayer, bless water or blades. The old rites call for silver in the water: blessed water and blades count as #emph[silvered] (Frontier Rules §8.1) for the mission.],
+    [2b], [#strong[Last Rites];], [Once per scene, every ally who can hear your prayer restores 2 Pneuma, and Resists fear with Edge +1 until the scene ends.],
+    [3a], [#strong[Faith Unbroken];], [When you Resist fear, Presence or despair with Pneuma, the cost is #strong[0 on a highest die of 5+];.],
+    [3b], [#strong[★ Holy Ground];], [Once per session, sanctify a place: create the Truth #emph[Holy Ground] for the scene. Believers can't enter without defying a compel, and every vampire Woe spend there costs #strong[+1] while the faithful stand together.],
   )]
   , kind: table
   )
 
 == 7. Village Focuses
-=== 12. Heals the Kissed
+=== 12. Heals the Bled
 #quote(block: true)[
-You\'ve spent years fighting the Kiss: garlic poultices, transfusions, and nights by the bedside.
+You\'ve spent years fighting blood loss: transfusions, broth and iron, and nights by the bedside.
 ]
 
-- #strong[Power tags:] #emph[the bitten trust me];, #emph[knows every stage of the Kiss]
+- #strong[Power tags:] #emph[the bled trust me];, #emph[knows every stage of blood loss]
 - #strong[Weakness tag:] #emph[can\'t abandon a patient]
-- #strong[PC link:] \"I saved \[PC\] from the Kiss once. They don\'t remember it.\"
+- #strong[PC link:] \"I saved \[PC\] when they were bled white. They don\'t remember it.\"
 
 #figure(
   [#table(
@@ -4975,11 +5068,11 @@ You\'ve spent years fighting the Kiss: garlic poultices, transfusions, and night
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Kiss Specialist];], [When you treat #emph[Kissed];, you also learn which Noble (or bloodline) gave it. Your patients can\'t gain more than 1 Kissed tier per night.],
-    [2a], [#strong[Break the Call];], [Patients you\'ve treated in the last day Resist the Call with #strong[Edge +1];.],
-    [2b], [#strong[Bloodwork];], [From a victim\'s blood, learn one of the Noble\'s weakness tags (a free Discover).],
-    [3a], [#strong[Halt the Turning];], [While under your care, a patient\'s #emph[Kissed] can\'t rise above #strong[tier 4];.],
-    [3b], [#strong[★ Draw Out the Kiss];], [Once per session, remove #emph[Kissed] entirely from one patient (any tier up to 5), even while the Noble lives. You take #emph[drained-3];.],
+    [1], [#strong[Blood Specialist];], [When you treat #emph[Bled];, you also learn how the blood was taken and roughly how much. Your patients can't gain more than 1 Bled tier per night.],
+    [2a], [#strong[Steady the Donor];], [Patients you've treated in the last day Resist fear and Presence with #strong[Edge +1];.],
+    [2b], [#strong[Bloodwork];], [From a sample of a vampire's blood, learn one of its weakness tags (a free Discover).],
+    [3a], [#strong[Hold the Line];], [While under your care, a patient's #emph[Bled] can't rise above #strong[tier 4];.],
+    [3b], [#strong[★ Give of Yourself];], [Once per session, transfuse your own blood: remove #emph[Bled] entirely from one patient (any tier up to 5). You take #emph[Bled-2];.],
   )]
   , kind: table
   )
@@ -5010,11 +5103,11 @@ All you have to do is survive the night. You\'ve done it before.
 
 === 14. Forges Weapons Against the Night
 #quote(block: true)[
-Stakes that don\'t splinter, bolts that fly true, blades that can cut a Noble\'s neck. Every Hunter in the region knows your mark.
+Stakes that don\'t splinter, bolts that fly true, blades that can cut a vampire\'s neck. Every Hunter in the region knows your mark.
 ]
 
 - #strong[Power tags:] #emph[my stakes never break];, #emph[forge and lathe]
-- #strong[Weakness tag:] #emph[my weapons carry my mark] (a Noble can trace them back to you)
+- #strong[Weakness tag:] #emph[my weapons carry my mark] (a vampire can trace them back to you)
 - #strong[PC link:] \"I made \[PC\]\'s weapon. I want it back in one piece.\"
 
 #figure(
@@ -5023,11 +5116,11 @@ Stakes that don\'t splinter, bolts that fly true, blades that can cut a Noble\'s
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Hunter\'s Smith];], [In the Players\' Turn, spend 1 Check to either give one weapon an extra quality, or arm the party with fine stakes (every ally has a #emph[stake] bane tag for the mission, 0 load).],
-    [2a], [#strong[Silvered and Blessed];], [Weapons you make count as #strong[one extra bane] type (fire or beheading).],
+    [1], [#strong[Hunter\'s Smith];], [In the Players\' Turn, spend 1 Check to either give one weapon an extra quality, or arm the party with fine stakes (every ally has a #emph[stake] tag for the mission, 0 load).],
+    [2a], [#strong[Silvered and Blessed];], [Weapons you make count as #emph[silvered];, or as beheading (a killing method) if they\'re blades.],
     [2b], [#strong[Field Armourer];], [In a short rest, repair #emph[damaged] armour and broken weapons. Your allies\' armour absorbs a tier-4+ hit once per mission without being damaged.],
     [3a], [#strong[Masterwork];], [One weapon you make (choose its owner) may add #strong[+1 above the normal +2 tag cap (maximum +3)];.],
-    [3b], [#strong[★ Noble-Forged];], [Run a downtime clock (8 segments) to make a weapon artifact equal to a Noble Longsword (Frontier Rules §9.2). Its quirk is #emph[my weapons carry my mark];.],
+    [3b], [#strong[★ Old-World Steel];], [Run a downtime clock (8 segments) to make a weapon artifact equal to an Old-World Longsword (Frontier Rules §9.2). Its quirk is #emph[my weapons carry my mark];.],
   )]
   , kind: table
   )
@@ -5105,15 +5198,15 @@ Brothers, sisters, cousins: a Hunter clan that rides together, fights together, 
   , kind: table
   )
 
-== 9. Noble Courts Focuses
-=== 18. Once Served the Nobility
+== 9. Household Focuses
+=== 18. Once Served a Household
 #quote(block: true)[
-You were a castle servant, a steward, a chosen bride, or a Noble\'s pet. You got out. The house hasn\'t forgotten.
+You were a household servant, a steward, a chosen companion, or a vampire\'s ward. You got out. The house hasn\'t forgotten.
 ]
 
-- #strong[Power tags:] #emph[knows Noble etiquette];, #emph[they still think I\'m theirs]
+- #strong[Power tags:] #emph[knows household etiquette];, #emph[they still think I\'m theirs]
 - #strong[Weakness tag:] #emph[the house still has a claim on me]
-- #strong[PC link:] \"\[PC\] helped me escape the castle, and I never repaid them.\"
+- #strong[PC link:] \"\[PC\] helped me escape the estate, and I never repaid them.\"
 
 #figure(
   [#table(
@@ -5121,21 +5214,21 @@ You were a castle servant, a steward, a chosen bride, or a Noble\'s pet. You got
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Inside Knowledge];], [Once per scene in any castle of your former house, ask a free Discover. Once per session, ask a free Discover about any Noble\'s habits.],
-    [2a], [#strong[Pass as a Servant];], [In Noble castles, servants and guardian machines ignore you unless you act against them, or a Noble looks at you directly.],
+    [1], [#strong[Inside Knowledge];], [Once per scene in any estate of your former house, ask a free Discover. Once per session, ask a free Discover about any vampire\'s habits.],
+    [2a], [#strong[Pass as a Servant];], [In vampire estates, servants and guardian machines ignore you unless you act against them, or a vampire looks at you directly.],
     [2b], [#strong[Old Loyalties];], [Once per session, a former fellow servant helps you: a secret passage, a warning, a key, or a hiding place.],
-    [3a], [#strong[The Master\'s Secrets];], [You know one bane of your former master. Upgrading its weakness into a bane costs #strong[1 Power];.],
-    [3b], [#strong[★ Turncoat\'s Key];], [Once per session, open any door or switch off any defence in a castle of your former house, without a roll.],
+    [3a], [#strong[The Master\'s Secrets];], [You know one weakness of your former master. Upgrading it into a killing method costs #strong[1 Power];.],
+    [3b], [#strong[★ Turncoat\'s Key];], [Once per session, open any door or switch off any defence in an estate of your former house, without a roll.],
   )]
   , kind: table
   )
 
 === 19. Reads the Ruins of History
 #quote(block: true)[
-You study the old world, the rise of the Nobility, and the plans of the Sacred Ancestor. Most of it is lost. Some of it isn\'t.
+You study the old world, the rise of the Kept, and the founders whose names are still on the doors. Most of it is lost. Some of it isn\'t.
 ]
 
-- #strong[Power tags:] #emph[reads the Noble script];, #emph[knows the old wars]
+- #strong[Power tags:] #emph[reads the old script];, #emph[knows the old wars]
 - #strong[Weakness tag:] #emph[lost in the past]
 - #strong[PC link:] \"\[PC\] found the book that started my obsession.\"
 
@@ -5145,18 +5238,18 @@ You study the old world, the rise of the Nobility, and the plans of the Sacred A
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Archive Mind];], [Once per scene, ask a free Discover with Noble Lore about a place, a Noble house, or an ancient device.],
-    [2a], [#strong[Decipher];], [Science rolls to use or read Noble machines are #strong[one step easier] when you can study the controls.],
-    [2b], [#strong[Genealogist];], [When you learn a Noble\'s name, you also learn its house, its rivals, and one weakness tag.],
-    [3a], [#strong[History Repeats];], [Once per session, create a #strong[Site Truth] from history: a forgotten passage, a buried weapon, an old treaty a Noble must honour.],
-    [3b], [#strong[★ The Ancestor\'s Notes];], [Once per session, with GM approval, reveal an ancient secret as a #strong[Region or Campaign Truth];: a weakness shared by a whole bloodline, a hidden castle, the reason a Noble can\'t die.],
+    [1], [#strong[Archive Mind];], [Once per scene, ask a free Discover with Old Lore about a place, a vampire house, or an ancient device.],
+    [2a], [#strong[Decipher];], [Science rolls to use or read old-world machines are #strong[one step easier] when you can study the controls.],
+    [2b], [#strong[Genealogist];], [When you learn a vampire\'s name, you also learn its house, its rivals, and one weakness tag.],
+    [3a], [#strong[History Repeats];], [Once per session, create a #strong[Site Truth] from history: a forgotten passage, a buried weapon, an old treaty a vampire must honour.],
+    [3b], [#strong[★ The Ancestor\'s Notes];], [Once per session, with GM approval, reveal an ancient secret as a #strong[Region or Campaign Truth];: a weakness shared by a whole bloodline, a hidden estate, the reason a vampire won\'t die.],
   )]
   , kind: table
   )
 
 === 20. Loves What It Should Hate
 #quote(block: true)[
-A Noble, a dhampir, a Barbarois, a monster. You love them anyway, and both worlds will make you pay for it.
+A vampire, a dhampir, a retainer, a monster. You love them anyway, and both worlds will make you pay for it.
 ]
 
 - #strong[Power tags:] #emph[love makes me brave];, #emph[they listen to me]
@@ -5179,11 +5272,11 @@ A Noble, a dhampir, a Barbarois, a monster. You love them anyway, and both world
   )
 
 == 10. Design Notes
-- #strong[Dhampir as a Focus] lets any playbook be half-Noble: a Dhampir Sellsword is the classic Hunter, but a Dhampir Frontier Doctor or Dhampir Broker plays very differently. The Tier 1 package is strong (darkvision, Noble-sense, regeneration, immunity to the Kiss) because Sunlight Syndrome and the Thirst are real costs. Use the table options if it outshines other Focuses.
-- #strong[Overlaps with playbooks:] #emph[Heals the Kissed] stacks with the Frontier Doctor\'s #emph[Treat the Kiss];, and #emph[Holds the Line Until Dawn] stacks with the Warden. Both stacks are intended specialist builds; none of them reduce the same Power cost twice.
-- #strong[Noble-specific Focuses] (#emph[Hunts the Nobility];, #emph[Seeks Revenge on a Noble];) rely on bane strikes. If a campaign has few Nobles, steer players toward #emph[Hunts the Beasts of the Frontier] or #emph[Collects the Bounty];.
+- #strong[Dhampir as a Focus] lets any playbook carry afflicted blood: a dhampir Sellsword is the classic Hunter, but a dhampir Frontier Doctor or Broker plays very differently. The dhampir's edge is no longer raw power but access and information: reading blood, opening doors tied to her mother's line, and being wanted by people who matter. Sunlight Syndrome and the Thirst remain the price. #emph[Knows How They Die] is offered for tables that want a fighter. Use the table options if it outshines other Focuses.
+- #strong[Overlaps with playbooks:] #emph[Heals the Bled] stacks with the Frontier Doctor\'s #emph[Treat the Bled];, and #emph[Holds the Line Until Dawn] stacks with the Warden. Both stacks are intended specialist builds; none of them reduce the same Power cost twice.
+- #strong[Vampire-specific Focuses] (#emph[Hunts the Kept];, #emph[Seeks Revenge on a Vampire];) rely on killing strikes. If a campaign has few vampires, steer players toward #emph[Hunts the Beasts of the Frontier] or #emph[Collects the Bounty];.
 - #strong[★ options] are all at Tier 3, as in #emph[Generic Focuses];, so a character can always choose a path that keeps their Refresh.
-- #strong[Tag-cap exceptions] (Bears a Noble Relic --- The Relic Awakens; Forges Weapons Against the Night --- Masterwork): aligned with the #strong[Generic Focuses §9.2] fix --- both now add #strong[+1 above the normal +2 cap (maximum +3)] instead of ignoring it outright.
+- #strong[Tag-cap exceptions] (Bears an Old-World Relic --- The Relic Awakens; Forges Weapons Against the Night --- Masterwork): aligned with the #strong[Generic Focuses §9.2] fix --- both now add #strong[+1 above the normal +2 cap (maximum +3)] instead of ignoring it outright.
 
 // =====================================================================
 //  APPENDIX — QUICK REFERENCE
@@ -5240,11 +5333,11 @@ Divide the roll among Sōma, Akmē, Psychē and Pneuma however you like. Edge do
 ],
 [
 == Day and Night
-- *Day:* Noble powers don't work, and Nobles sleep in their coffins. Their guardians and machines are still active.
-- *Dusk:* the GM gains +2 Woe, and Nobles wake at the end of the scene.
-- *Night:* Noble powers work. A scene at night with a Noble present adds +1 Woe at the start.
-- *Dawn:* Nobles must reach shelter or burn. A Noble still in the open at the end of the scene takes _burning_ at tier 3.
-- *Undying:* a Noble's physical statuses can't go above tier 5 without a *bane* (Frontier Rules §5.2, §8.1).
+- *Day:* direct sun gives vampires and dhampirs _Sun-Sick_ (Frontier Rules §7.1). Vampires keep indoors but aren't helpless.
+- *Dusk:* the GM gains +2 Woe. Vampires come out.
+- *Night:* vampires and dhampirs ignore darkness. A scene at night with a vampire present adds +1 Woe at the start.
+- *Dawn:* a vampire still in direct light at the end of the scene gains _Sun-Sick_ at tier 2 at once.
+- *Hard to Kill:* a vampire's physical statuses can't go above tier 5 without a *killing method*: beheading, or sustained fire on a broken vampire (Frontier Rules §5.2, §8.1).
 ])
 
 #v(1fr)

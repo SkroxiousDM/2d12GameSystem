@@ -6,6 +6,20 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Hollow Frontier setting lore (2026-10-16)
+- **Frontier Rules (Ch. VII) rewritten** to the Hollow Frontier canon (design doc Appendix B). Vampires are living, blood-dependent people rather than "Nobles": new Threat Ranks (Minor / Established / Great / Paramount), **Hard to Kill** (recovery needs blood), a weekly **Blood Debt** clock and **husks**; **the Bled** (plain blood loss, tiers 1-6) replaces the Kiss; day no longer switches vampires off (Sunlight Syndrome now covers vampires and dhampirs); **killing methods** (beheading, sustained fire) replace banes, with stakes inflicting *staked* and silver blocking recovery; folk remedies work only on vampires who *believe the old stories*; Old-World Works replace Noble science; contracts gain Commissions; Woe spends revised (Presence, Summon the Household, The Old Door, Blood Reserve). The Vampire Hunter D era text (12,090 AD, D himself) is removed from this chapter.
+- **Dhampir Focus reworked** (Appendix A): *Carries the Blood of the Nobility* becomes **Carries Her Mother's Blood** (Mother's Blood, Dhampir Regeneration, Read the Blood, Mother's Key, Awaken the Blood; optional *Knows How They Die*; new Known/Unknown mother table options). The Thirst now drops with a cup of human blood and clears with half a litre; tier 6 is a **Blood Crisis** choice.
+- Dependent entries revised: *Was Kissed and Lived* becomes **Was Kept and Got Out**; *Heals the Kissed* becomes **Heals the Bled**; *Hunts the Nobility* becomes **Hunts the Kept**; *Seeks Revenge on a Noble*, *Bears a Noble Relic*, *Plunders the Castles of the Night* and *Once Served the Nobility* renamed; *Keeps the Old Faith* rebuilt around believers and silvered water; Frontier Doctor *Treat the Bled* and capstone **The Blood Bank**; stake and mirror gear, Bodyguard, Ward Against the Night, Toxic Blood, Little Blood Left, Warden wards and the Quick Reference updated.
+- Global terminology in the setting chapters: Noble → vampire / the Kept, Noble Lore → **Old Lore**, castle → estate, Barbarois → retainers, the Capital → the city (Capital-Born → **City-Born**), dala → mark, the Gaze → Presence, Undying → Hard to Kill.
+- Character sheet Frontier insert updated to match (Bled track, afflicted blood, revised Thirst table, killing methods and gear, day and night).
+- `vhd-setting-rules.md`, `vhd-descriptors.md`, `vhd-playbooks.md` and `vhd-focuses.md` regenerated from the master with pandoc, replacing the v0.1 drafts.
+- Master rulebook and character sheet PDFs rebuilt (Typst 0.15.0, same fallback fonts as the previous build).
+
+### Not yet changed
+- Cover, credits, file and folder names and the "About This Book" text still say *Vampire Hunter D*; the publishable title is undecided.
+- The psychic Focuses (*Sends the Mind Abroad*, *Carries a Passenger*) have only had terminology updates; their basis is still under review.
+- `*-1.pdf` copies of the rulebook and sheet were left as they are.
+
 ### Added — Vampire Hunter D master rulebook (2026-10-12)
 - `docs/VampireHunterD/2d12-character-sheet-v2.typ` and compiled `.pdf` — new three-page character sheet built from the master rulebook: two generic pages (pools with Edge, skill pyramid, tags, Tychē, BIG, statuses, Resist, Scars, the four-rest recovery tracker and Hardened, abilities, Focus, XP, load and armour, Cyphers and Artifacts, the Grind and Checks) plus a Frontier insert (Frontier skills and playbooks, wealth, the Kiss, Noble blood with Sun-Sick and Thirst, banes and Hunter's gear, day and night, bounties, Campaign Truths). Styled to match the rulebook.
 

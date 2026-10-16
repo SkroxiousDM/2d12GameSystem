@@ -392,9 +392,9 @@
     note[
       *Sōma* Athletics · Brawl · Fight · Endure · *Frontier* \
       *Akmē* Shoot · Stealth · *Ride* · Craft \
-      *Psychē* Notice · Investigate · *Noble Lore* · *Science* · Medicine · Deceive \
+      *Psychē* Notice · Investigate · *Old Lore* · *Science* · Medicine · Deceive \
       *Pneuma* Will · Persuade · Intimidate · Empathy · *Occult* \
-      #text(fill: dust)[Renamed: Survival → Frontier · Drive/Pilot → Ride · Lore → Noble Lore · Tech → Science · Arcana → Occult. If Science and Occult both fit, choose one and keep it for that device or effect for the scene.]
+      #text(fill: dust)[Renamed: Survival → Frontier · Drive/Pilot → Ride · Lore → Old Lore · Tech → Science · Arcana → Occult. If Science and Occult both fit, choose one and keep it for that device or effect for the scene.]
     ]
 
     sec([Frontier Playbook])
@@ -404,31 +404,31 @@
     v(4pt)
     grid(columns: (auto, 1fr), column-gutter: 6pt, align: horizon,
       lbl(fill: ink, size: 6.5pt)[Wealth],
-      [#cb() _broke_ #h(4pt) #cb() _a few dalas_ #h(4pt) #cb() _a fat purse_ #h(4pt) #cb() _a Noble's bounty_])
+      [#cb() _broke_ #h(4pt) #cb() _a few marks_ #h(4pt) #cb() _a fat purse_ #h(4pt) #cb() _a lord's bounty_])
 
-    sec([The Kiss], sub: [status from a Noble's bite])
+    sec([Bled], sub: [blood loss, from a bite or a wound])
     grid(columns: (auto, auto, 1fr), column-gutter: 6pt, align: (left + top, left, left + bottom),
-      pad(top: 1pt, lbl(fill: ink, size: 6.5pt)[Kissed]), tiers(), wline(label: [By], lw: 14pt))
+      pad(top: 1pt, lbl(fill: ink, size: 6.5pt)[Bled]), tiers(), wline(label: [By], lw: 14pt))
     v(3pt)
     rows-table((24pt, 1fr), ([Tier], [Effect]), (
-      ([1], [Marks on the throat. Pale and tired; −1 on rolls in sunlight.]),
-      ([2], [*The Call:* each night the Noble may spend 1 Woe to summon you. Resist with Pneuma or obey.]),
-      ([3], [Garlic and crosses: −1 near them. The party gains _[name] can be called_.]),
-      ([4], [Sunlight gives _burning-1_ per scene. Instinct becomes "Protect my master's secrets."]),
-      ([5], [You obey the Noble's spoken orders. Medicine can no longer treat it.]),
-      ([6], [*Turned:* a Lesser Noble. Lost to the GM unless the table agrees otherwise.]),
+      ([1], [A donation's worth. Pale and tired; clears after a night's rest with food and water.]),
+      ([2], [Light-headed: −1 on Sōma and Akmē rolls.]),
+      ([3], [Weak: −2 on Sōma and Akmē rolls, and gain _Weary_.]),
+      ([4], [Critical: the next harm of any kind Takes you Out. Medicine to stabilise.]),
+      ([5], [Dying: Taken Out. Dies at scene end unless stabilised (Medicine, Hard 18) or transfused.]),
+      ([6], [*Drained:* dead, unless someone has the reason and the means to make you one of them.]),
     ), size: 6.8pt, inset: (x: 3pt, y: 3pt))
-    note(size: 6.5pt)[Resist only with *Pneuma*, and only when bitten. *Medicine* vs. Hard 18, once per day: −1 tier per Power, never below 1 while the Noble lives. *Destroy the Noble* to remove it; at tier 4+ you gain a Pneuma Scar (_marked by the Kiss_).]
+    note(size: 6.5pt)[Resist with *Sōma* when the blood is taken. Recover 1 tier per full day of rest with food and water. *Transfusion* (willing donor and kit): Medicine vs. Standard 15, −1 tier per Power; the donor gains Bled-1.]
   },
   // ---------- right
   {
-    sec([Noble Blood], sub: [dhampirs, some mutants and cyborgs])
-    [#cb() #text(weight: 700)[This character has Noble blood] #h(4pt) #text(size: 6.5pt, style: "italic", fill: dust)[(e.g. _Carries the Blood of the Nobility_)]]
+    sec([Afflicted Blood], sub: [dhampirs])
+    [#cb() #text(weight: 700)[This character has afflicted blood] #h(4pt) #text(size: 6.5pt, style: "italic", fill: dust)[(_Carries Her Mother's Blood_)]]
     v(5pt)
     grid(columns: (52pt, auto), column-gutter: 6pt, align: horizon,
       text(font: display-font, size: 9pt, fill: blood, weight: 700)[Sun-Sick], tiers())
     v(2pt)
-    note(size: 6.5pt)[In direct sun under the *Day* Truth: +1 tier at the start of each outdoor scene (+2 under _Merciless Sun_). Penalty applies to Sōma and Akmē rolls. Resist with Sōma; a wide hat, dark cloak or partial shade is +1 Sōma Edge for that Resist. A scene in shade: −2 tiers; night clears it. *Tier 6:* collapse; a whole day in the sun adds a Sōma Scar.]
+    note(size: 6.5pt)[In direct sun under the *Day* Truth: +1 tier at the start of each outdoor scene (+2 under _Merciless Sun_). Penalty applies to Sōma and Akmē rolls. Resist with Sōma; a wide hat, dark cloak or partial shade is +1 Sōma Edge for that Resist. No dhampir healing while Sun-Sick. A scene in shade: −2 tiers; night clears it. *Tier 6:* collapse; a whole day in the sun adds a Sōma Scar.]
     v(3pt)
     grid(columns: (52pt, auto), column-gutter: 6pt, align: horizon,
       text(font: display-font, size: 9pt, fill: blood, weight: 700)[Thirst], tiers(from: 0))
@@ -439,25 +439,27 @@
       ([Use a ★ blood ability marked _Thirst_], [+1]),
       ([Accept a Thirst compel (gain Tychē)], [+1]),
       ([A full night of rest], [−1]),
-      ([Animal or willing donor's blood (a scene)], [−2]),
-      ([Drink from an unwilling human], [Clear\*]),
+      ([Animal blood (a scene)], [−1]),
+      ([A cup or so of human blood (a scene)], [−2]),
+      ([Half a litre or more of human blood], [Clear\*]),
     ), size: 6.7pt, inset: (x: 3pt, y: 2.8pt))
-    text(size: 6.4pt)[*0–2* no effect · *3–4* −1 Pneuma rolls when blood is visible; others notice · *5* each scene with a bleeding human, Resist with Pneuma or move toward them · *6* Bloodlust: the GM takes your next action, then Thirst drops to 3 and you gain a Pneuma Scar. #text(fill: dust)[\*Gain a Pneuma Scar the first time (_I've tasted it_).]]
+    text(size: 6.4pt)[*0–2* no effect · *3–4* −1 Pneuma rolls when blood is visible; others notice · *5* each scene with a bleeding human, Resist with Pneuma or move toward them · *6* Blood Crisis: feed from the nearest source this scene, or refuse, collapse (Taken Out) and gain a Pneuma Scar; then Thirst drops to 3. #text(fill: dust)[\*If taken by force, gain a Pneuma Scar the first time (_I've tasted it_).]]
 
-    sec([Banes & Hunter's Gear], sub: [load in brackets])
+    sec([Killing Methods & Gear], sub: [load in brackets])
     set text(size: 6.8pt)
     grid(columns: (1fr, 1fr), row-gutter: 6pt, column-gutter: 6pt,
-      [#cb() Wooden stake (0) · _bane_], [#cb() Garlic & cross (1) · _Warded_],
-      [#cb() Steel neck guard (1) · Kiss −1 tier], [#cb() Crossbow & wooden bolts (1)],
+      [#cb() Wooden stake (0) · _staked_], [#cb() Silver-edged blade (1) · _silvered_],
+      [#cb() Steel neck guard (1) · bites: Bled −1 tier], [#cb() Crossbow & wooden bolts (1)],
       [#cb() Revolver or rifle (1) · +1 Attack], [#cb() Laser rifle (2) · depl. 1 in d12],
-      [#cb() Long cloak & wide hat (1)], [#cb() Flares & sun-lamps (1)],
-      [#cb() Horse or mule (0) · _sure-footed_], [#cb() Cyborg horse (0) · _tireless_])
+      [#cb() Long cloak & wide hat (1)], [#cb() Signal mirrors (1) · _Sunlit_],
+      [#cb() Horse or mule (0) · _sure-footed_], [#cb() Cyborg horse (0) · _tireless_],
+      [#cb() Transfusion kit (1) · +1 vs. Bled], [#cb() Charms (1) · believers only])
   })
 
 #grid(columns: (1fr, 1fr), column-gutter: 14pt,
   {
     sec([Day & Night], sub: [every scene has a time Truth])
-    note(size: 6.5pt)[*Day:* Noble powers fail; Nobles sleep, but their guardians and machines are active. *Dusk:* GM +2 Woe; Nobles wake at the scene's end. *Night:* Noble powers work; +1 Woe per scene with a Noble present. *Dawn:* a Noble in the open at the scene's end takes _burning_ 3. *Undying:* a Noble's physical statuses stop at tier 5 without a *bane*.]
+    note(size: 6.5pt)[*Day:* direct sun gives vampires and dhampirs _Sun-Sick_; vampires keep indoors but aren't helpless. *Dusk:* GM +2 Woe; vampires come out. *Night:* vampires and dhampirs ignore darkness; +1 Woe per scene with a vampire present. *Dawn:* a vampire in direct light at the scene's end gains _Sun-Sick_ 2. *Hard to Kill:* a vampire's physical statuses stop at tier 5 without a *killing method* (beheading, or fire on a broken vampire).]
   },
   {
     sec([Bounties & Contracts])
@@ -473,7 +475,7 @@
     }
   },
   {
-    sec([Noble Encountered], sub: [known tags, weaknesses and banes])
+    sec([Vampire Encountered], sub: [known tags, weaknesses, killing methods])
     wline(label: [Name · rank], h: 16pt)
     lines(4, h: 16pt)
   })

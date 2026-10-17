@@ -5,7 +5,7 @@
 | Field | Value |
 |---|---|
 | Project | *Hollow Frontier* (working title) setting for the 2d12 System. Internal codename: Hollow World. Publishable title to be chosen later |
-| Repository | `SkroxiousDM/2d12GameSystem` — current source `docs/VampireHunterD/vampire-hunter-d-2d12-v2-master-rulebook.typ` |
+| Repository | `SkroxiousDM/2d12GameSystem` — current source `docs/HollowFrontier/vampire-hunter-d-2d12-v2-master-rulebook.typ`; design documents in `docs/HollowFrontier/design/` |
 | Document version | 0.11 — Q37–Q41 applied to the master rulebook (B.20); rulebook folder renamed to `docs/HollowFrontier/` |
 | Compiled | 2026-10-16 (v0.1); revised 2026-10-16 (v0.2–v0.11) |
 | Purpose | Replace the *Vampire Hunter D* adaptation layer with an original setting while preserving the 2d12 engine and all character options |
@@ -986,7 +986,8 @@ Killing the vampire is possible. It is not equivalent to solving the crisis.
 - [ ] Remove "inspired by Vampire Hunter D" from the cover tagline.
 - [ ] Remove the "unofficial fan adaptation" colophon and replace with original credits.
 - [ ] Remove every reference to D and franchise setting material.
-- [ ] Rename the `.typ` file and `docs/VampireHunterD/` folder.
+- [x] Rename the `docs/VampireHunterD/` folder (now `docs/HollowFrontier/`, v0.11).
+- [ ] Rename the `.typ` file, the `vhd-*.md` files and the remaining *Vampire Hunter D* file names (waiting on the publishable title, Q16).
 - [ ] Build a provenance ledger for borrowed mechanics (Fate, Cypher, 2d20, Blades in the Dark, others) and confirm licence compliance against the official SRDs.
 - [ ] Apply the originality guardrails in §3.5 to all new setting text.
 - [ ] Choose and clear a publishable title (Q16). Neither working name is recommended for sale: "Hollow World" is a 1990 TSR *D&D* setting still in print, and "Hollow Frontier" is an existing post-collapse game on Steam.
@@ -1168,6 +1169,7 @@ Charter Towns, Custodians, Blood Compacts, Passage Houses, and the Unregistered.
 | 2026-10-16 | Q40: Order of the Last Guns placed in a neighbouring province; the March receives its claimants and relic sidearms | **[CANON]** |
 | 2026-10-16 | Q41: in-world hunters' field guide handout goes in the Stalker chapter, cross-referenced in Occultist | **[CANON]** |
 | 2026-10-16 | Q37–Q41 applied to the master rulebook; *Carries a Passenger* rewritten as the Tethered Voice and moved to Old-World Focuses (B.20) | **[APPLIED — review]** |
+| 2026-10-16 | Folder `docs/VampireHunterD/` renamed `docs/HollowFrontier/`; design documents moved to `docs/HollowFrontier/design/`. File names unchanged pending Q16 | **[APPLIED — review]** |
 
 ---
 
@@ -1221,7 +1223,7 @@ Supplementary reference (*Dark Tower* elements review, Q37–Q41):
 - Dark Tower Wiki — Blaine the Mono: https://darktower.fandom.com/wiki/Blaine_the_Mono
 - Full source list: companion *Dark Tower Elements Review*, §7
 
-Repository files reviewed for Appendix A: `docs/VampireHunterD/vampire-hunter-d-2d12-v2-master-rulebook.typ`, `vhd-focuses.md`, `vhd-setting-rules.md` in `SkroxiousDM/2d12GameSystem`.
+Repository files reviewed for Appendix A (then in `docs/VampireHunterD/`, now `docs/HollowFrontier/`): `vampire-hunter-d-2d12-v2-master-rulebook.typ`, `vhd-focuses.md`, `vhd-setting-rules.md` in `SkroxiousDM/2d12GameSystem`.
 
 Internal sources: Hollow Frontier refinement sessions of 2026-10-15 and 2026-10-16 (copyright review, rebrand concept, setting refinement, feeding rules, knowledge-layer decision), the open-question rulings of 2026-10-16, and the Broken Empire / Red Queen's War technology inventory session of 2026-10-16.
 

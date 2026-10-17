@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Magical Traditions.md",
+                "file": "docs/TestamentOfDust/testament-of-dust-setting-rules.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Magical Traditions"
+              "title": "testament-of-dust-setting-rules"
             }
           }
         ],
@@ -255,6 +255,7 @@
   },
   "active": "2d30df27e2bbfc6f",
   "lastOpenFiles": [
+    "Magical Traditions.md",
     "docs/VampireHunterD/vampire-hunter-d-2d12-v2-master-rulebook.pdf",
     "docs/VampireHunterD/2d12-system-proposal.md",
     "docs/VampireHunterD/How do pools regenerate. How does resting work.md",
@@ -269,7 +270,6 @@
     "docs/VampireHunterD/2d12-System--Character-Sheet-v0.2.pdf",
     "docs/VampireHunterD",
     "docs/01-resolution-engine.md",
-    "Magical Traditions.md",
     "docs/06-magic-rewrite.md",
     "docs/06.1-runic-spellbook.md",
     "CHANGELOG.md",

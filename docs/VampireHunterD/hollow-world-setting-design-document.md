@@ -6,8 +6,8 @@
 |---|---|
 | Project | *Hollow Frontier* (working title) setting for the 2d12 System. Internal codename: Hollow World. Publishable title to be chosen later |
 | Repository | `SkroxiousDM/2d12GameSystem` — current source `docs/VampireHunterD/vampire-hunter-d-2d12-v2-master-rulebook.typ` |
-| Document version | 0.10 — Q37–Q41 resolved from the *Dark Tower* elements review; Q30 partly resolved |
-| Compiled | 2026-10-16 (v0.1); revised 2026-10-16 (v0.2–v0.10) |
+| Document version | 0.11 — Q37–Q41 applied to the master rulebook (B.20); rulebook folder renamed to `docs/HollowFrontier/` |
+| Compiled | 2026-10-16 (v0.1); revised 2026-10-16 (v0.2–v0.11) |
 | Purpose | Replace the *Vampire Hunter D* adaptation layer with an original setting while preserving the 2d12 engine and all character options |
 | Audience | Designer and GM. Sections marked **Player** may be adapted for player-facing chapters; everything marked **GM-only** must stay behind the screen |
 
@@ -1095,7 +1095,7 @@ Suggested format: **Title: Subtitle**, with the existing tagline *"Roads through
 |---|---|---|
 | Q16 | Publishable title | Shortlist in §10.4: Afterborn (recommended), Blood Inquest, Testament + qualifier, Half a Litre, The Long-Lived. Needs USPTO search and attorney review |
 | Q36 | Rename the Vesper March? | Overlaps with *BattleTech*'s Vesper Marches; keep as working name, rename before publication |
-| Q30 | Psychic and possession Focuses (*Sends the Mind Abroad*, *Carries a Passenger*) need a material basis or reframing to fit the technological foundation | **Partly resolved by Q38:** *Carries a Passenger* must use a relay-linked facsimile with a range limit (the Tethered Voice), not a carried one. *Sends the Mind Abroad* is still open; the *Dark Tower* review §4 recommends the Relay-Sense (an implant reading surviving old-world networks) |
+| Q30 | Psychic and possession Focuses (*Sends the Mind Abroad*, *Carries a Passenger*) need a material basis or reframing to fit the technological foundation | **Partly resolved by Q38, and applied to the rulebook (B.20):** *Carries a Passenger* must use a relay-linked facsimile with a range limit (the Tethered Voice), not a carried one. *Sends the Mind Abroad* is still open; the *Dark Tower* review §4 recommends the Relay-Sense (an implant reading surviving old-world networks) |
 
 ## 12. Superseded Concepts Archive
 
@@ -1167,6 +1167,7 @@ Charter Towns, Custodians, Blood Compacts, Passage Houses, and the Unregistered.
 | 2026-10-16 | Q39: formal register for binding instruments adopted as political rule P7; errors are grounds to challenge | **[CANON]** |
 | 2026-10-16 | Q40: Order of the Last Guns placed in a neighbouring province; the March receives its claimants and relic sidearms | **[CANON]** |
 | 2026-10-16 | Q41: in-world hunters' field guide handout goes in the Stalker chapter, cross-referenced in Occultist | **[CANON]** |
+| 2026-10-16 | Q37–Q41 applied to the master rulebook; *Carries a Passenger* rewritten as the Tethered Voice and moved to Old-World Focuses (B.20) | **[APPLIED — review]** |
 
 ---
 
@@ -1772,3 +1773,17 @@ Applied in [PR #19](https://github.com/SkroxiousDM/2d12GameSystem/pull/19) on br
 | `vhd-*.md` | Regenerated from the master with pandoc (they were v0.1 drafts using the old Vigor/Fate Points/Threat terms), with a header naming the Typst master as the source of truth |
 
 **Not yet applied:** the cover and title rebrand (Q16), the Vesper March rename (Q36), the basis for the psychic Focuses (Q30), file and folder names, and the `*-1.pdf` duplicate PDFs.
+
+### B.20 Implementation notes (v0.11) — Q37–Q41
+
+Applied on branch `feat/hollow-frontier-q37-q41-rename`, stacked on PR #19. Files changed: the master rulebook `.typ` and `.pdf`, `vhd-setting-rules.md`, `vhd-playbooks.md`, `vhd-focuses.md`, and `CHANGELOG.md`. As in B.19, only player-safe text went into the rulebook; GM truths stay in this document.
+
+| Ruling | Where it went in the rulebook | Choices made while applying (**[APPLIED — review]**) |
+|---|---|---|
+| Q37 | Frontier Rules §5.6 *The Returned* (new); §6 Bled bullet; design note | The degraded tag appears only as an observation ("doors react oddly, as if it half-belonged to a bloodline; no one agrees why"). A PC who survives a failed making leaves player control, like one who is made a vampire. The Long Levy appears only as a rumour |
+| Q38 | Frontier Focuses: *Carries a Passenger* rewritten and moved to Old-World Focuses (now Focus 9; former Focuses 4–9 renumbered 3–8) | The Passenger is a voice relayed from a fixed home site, with a default range of about a day's ride and a working relay letting it speak for a scene. *Devourer* became **Override** (Disrupt old-world effects only), *Feed Me, Heal You* became **Talk You Through It**, and *Let It Drive* became **★ Do Exactly What I Say**. Power tag *it eats what hurts me* became *the old works listen to it*. Costs and Power are unchanged. A design note warns GMs to place relays on long journeys |
+| Q39 | Frontier Rules §10.5 *Charter-Speech and Binding Instruments* (new); Old Lore skill row; design note | Reading is Standard 15; composing is Hard 18, or Standard 15 with a tag such as *fluent in the old pacts*. A flaw found by Discover becomes a tag for the challenger, never a verdict |
+| Q40 | Frontier Rules §9.2: Order paragraph and a new **★ Order Sidearm** artifact | The rulebook says "a neighbouring province" (it has no Vesper March text). The sidearm is ★, ignores Armour on vampires, gives a free bonus die on Persuade/Intimidate with those who remember the Order, and is locked to the armoury log; depletion 1 in d12 |
+| Q41 | Frontier Playbooks, Stalker §2.4 handout (sidebar); Occultist §6.4 cross-reference | Classes *Sleepers*, *Get*, *Sippers* (placeholders). Each gives what hunters saw and a wrong "Hunters say" explanation; the intro points the GM to threat ranks |
+
+**Not changed:** *Sends the Mind Abroad* (Q30 still open), the character sheet (it doesn't list Focuses), and `vhd-descriptors.md` (no content change).

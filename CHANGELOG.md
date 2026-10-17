@@ -6,9 +6,17 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Q37-Q41 rulings applied (2026-10-16)
+- **The returned** (Frontier Rules §5.6, new): survivors of a failed making are neither vampires nor dhampirs. NPCs only; a PC who survives a failed making leaves player control (§6).
+- **Carries a Passenger** rewritten and moved from Bloodline to **Old-World Focuses**. The Passenger is now a voice relayed from a fixed old-world home site, with a range. *Devourer* becomes **Override**, *Feed Me, Heal You* becomes **Talk You Through It**, and *Let It Drive* becomes **★ Do Exactly What I Say**. Frontier Focuses 4-9 are renumbered 3-8, and Carries a Passenger becomes Focus 9.
+- **Charter-speech** (Frontier Rules §10.5, new): binding instruments must be written or sworn in it. A flaw is grounds to challenge, not a verdict. Added to the Old Lore skill.
+- **The Order of the Last Guns** and the **★ Order Sidearm** artifact added to Old-World Artifacts (§9.2).
+- **The Hunters' Field Guide** handout added to the Stalker playbook (§2.4), with a cross-reference in the Occultist playbook.
+- `vhd-setting-rules.md`, `vhd-playbooks.md` and `vhd-focuses.md` regenerated from the master, with quotes normalised to ASCII. Master rulebook PDF rebuilt (Typst 0.15.0, same fonts).
+
 ### Added — Hollow Frontier design documents (2026-10-16)
 - `docs/VampireHunterD/hollow-world-setting-design-document.md`: the Hollow Frontier setting design document, v0.10. Q37–Q41 are resolved as canon: failed-conversion survivors are not dhampirs; no portable Digital Facsimiles; political rule P7 (the formal register for binding instruments); the Order of the Last Guns is placed in a neighbouring province; a hunters' field guide handout goes in the Stalker chapter. Q30 is partly resolved, and the decision log is updated.
-- `docs/VampireHunterD/hollow-world-dark-tower-elements.md`: a review of 16 *Dark Tower* elements adapted for Hollow World, with a clearance list. The rulebook text is unchanged; these rulings are not yet applied to the `.typ` master.
+- `docs/VampireHunterD/hollow-world-dark-tower-elements.md`: a review of 16 *Dark Tower* elements adapted for Hollow World, with a clearance list. The rulings are applied to the master in the entry above.
 
 ### Changed — Hollow Frontier setting lore (2026-10-16)
 - **Frontier Rules (Ch. VII) rewritten** to the Hollow Frontier canon (design doc Appendix B). Vampires are living, blood-dependent people rather than "Nobles": new Threat Ranks (Minor / Established / Great / Paramount), **Hard to Kill** (recovery needs blood), a weekly **Blood Debt** clock and **husks**; **the Bled** (plain blood loss, tiers 1-6) replaces the Kiss; day no longer switches vampires off (Sunlight Syndrome now covers vampires and dhampirs); **killing methods** (beheading, sustained fire) replace banes, with stakes inflicting *staked* and silver blocking recovery; folk remedies work only on vampires who *believe the old stories*; Old-World Works replace Noble science; contracts gain Commissions; Woe spends revised (Presence, Summon the Household, The Old Door, Blood Reserve). The Vampire Hunter D era text (12,090 AD, D himself) is removed from this chapter.
@@ -21,7 +29,7 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ### Not yet changed
 - Cover, credits, file and folder names and the "About This Book" text still say *Vampire Hunter D*; the publishable title is undecided.
-- The psychic Focuses (*Sends the Mind Abroad*, *Carries a Passenger*) have only had terminology updates; their basis is still under review.
+- *Sends the Mind Abroad* has only had terminology updates; its basis is still under review (Q30). *Carries a Passenger* was rewritten in the Q37-Q41 pass.
 - `*-1.pdf` copies of the rulebook and sheet were left as they are.
 
 ### Added — Vampire Hunter D master rulebook (2026-10-12)

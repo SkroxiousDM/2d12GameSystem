@@ -6,6 +6,9 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Decided — publishable title (2026-10-16)
+- **Testament of Dust** is the publishable title (Q16). The tagline is unchanged. The decision and its screen are recorded in `docs/HollowFrontier/design/hollow-world-setting-design-document.md` §10.4. The rulebook cover, running header and file names are not rebranded yet, and trademark clearance is still pending.
+
 ### Changed — Sends the Mind Abroad (2026-10-16)
 - **Sends the Mind Abroad** rebuilt on an old-world implant that rides surviving works and relays (Q30), instead of astral projection. It senses only through old works that still run, and gets the same open-sky rule as Carries a Passenger: 9+ on a d12 per scene through the moving lights, with a risk of being noticed. Abilities renamed with costs and Power unchanged: Walk Abroad, Feedback, Read What It Saw, Long Wire, ★ Take the Hand.
 

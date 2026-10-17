@@ -4,10 +4,10 @@
 
 | Field | Value |
 |---|---|
-| Project | *Hollow Frontier* (working title) setting for the 2d12 System. Internal codename: Hollow World. Publishable title to be chosen later |
+| Project | ***Testament of Dust*** (publishable title, Q16), a setting for the 2d12 System. Working title *Hollow Frontier*; internal codename Hollow World |
 | Repository | `SkroxiousDM/2d12GameSystem` — current source `docs/HollowFrontier/vampire-hunter-d-2d12-v2-master-rulebook.typ`; design documents in `docs/HollowFrontier/design/` |
-| Document version | 0.13 — Q30 resolved: *Sends the Mind Abroad* rebuilt on the Relay-Sense, with the open-sky rule |
-| Compiled | 2026-10-16 (v0.1); revised 2026-10-16 (v0.2–v0.13) |
+| Document version | 0.14 — Q16 resolved: publishable title *Testament of Dust* |
+| Compiled | 2026-10-16 (v0.1); revised 2026-10-16 (v0.2–v0.14) |
 | Purpose | Replace the *Vampire Hunter D* adaptation layer with an original setting while preserving the 2d12 engine and all character options |
 | Audience | Designer and GM. Sections marked **Player** may be adapted for player-facing chapters; everything marked **GM-only** must stay behind the screen |
 
@@ -989,15 +989,33 @@ Killing the vampire is possible. It is not equivalent to solving the crisis.
 - [ ] Remove the "unofficial fan adaptation" colophon and replace with original credits.
 - [ ] Remove every reference to D and franchise setting material.
 - [x] Rename the `docs/VampireHunterD/` folder (now `docs/HollowFrontier/`, v0.11).
-- [ ] Rename the `.typ` file, the `vhd-*.md` files and the remaining *Vampire Hunter D* file names (waiting on the publishable title, Q16).
+- [ ] Rename the `.typ` file, the `vhd-*.md` files and the remaining *Vampire Hunter D* file names. Unblocked: the title is *Testament of Dust* (Q16).
 - [ ] Build a provenance ledger for borrowed mechanics (Fate, Cypher, 2d20, Blades in the Dark, others) and confirm licence compliance against the official SRDs.
 - [ ] Apply the originality guardrails in §3.5 to all new setting text.
-- [ ] Choose and clear a publishable title (Q16). Neither working name is recommended for sale: "Hollow World" is a 1990 TSR *D&D* setting still in print, and "Hollow Frontier" is an existing post-collapse game on Steam.
+- [x] Choose a publishable title (Q16): ***Testament of Dust***. **Clearance is still open:** a USPTO search and attorney review are required before publication. Neither working name is for sale: "Hollow World" is a 1990 TSR *D&D* setting still in print, and "Hollow Frontier" is an existing post-collapse survival game on Steam.
 - [ ] Obtain U.S. IP attorney review before commercial release.
 
 ---
 
-### 10.4 Title and naming screen **[PROPOSED — Q16, Q36]**
+### 10.4 Title and naming screen **[Q16 RESOLVED — *Testament of Dust*; Q36 PROPOSED]**
+
+#### Decision (2026-10-16) **[CANON]**
+
+**Publishable title: *Testament of Dust*.** The tagline stays: *"Roads through a broken world. Blood behind every bargain."* No subtitle for now.
+
+- **Why it fits:** a testament is a will, and wills are the setting's engine (disputed inheritance, *The Second Testament*). Dust covers the frontier roads, the ruins, and the dry dead. It names no vampires, no blood, and no in-world term, so it doesn't spoil the mystery.
+- **How it was chosen:** the designer picked *Testament + qualifier* from the shortlist below. Screening showed "Testament" alone is crowded:
+  - Green Ronin's tabletop RPG [*Testament: Roleplaying in the Biblical Era*](https://greenronin.com/blog/2004/12/29/free_adventure_for_testament_r/) (2003)
+  - a post-apocalyptic fantasy video game, [*Testament: The Order of High Human*](https://store.steampowered.com/app/2176430/Testament_The_Order_of_HighHuman/) (2023)
+  - a tactical RPG, [*TESTAMENT*](https://turnbasedlovers.com/news/testament-an-upcoming-oldschool-style-tactical-rpg/)
+  - a [co-op board game](https://www.meeplemountain.com/reviews/testament/)
+  - *Hunt: Showdown 1896*'s [*Blood Testament*](https://www.crytek.com/news/blood-testament-comes-to-hunt-showdown-1896-on-september-8th) event (2026)
+
+  So the qualifier is part of the title, not a removable subtitle. Rejected along the way: *Testament of the Long-Lived*, *The Disputed Testament*, *Testament of the Dry Dead*, *Testament: Blood, Inheritance, and the Old World*, *The Ninth Testament*, *Testament of Glass*, *Testament Under Open Sky*, *The Lantern Testament*. Also screened out: *Hollow Testament* (a supernatural-noir comic and a 2018 film) and *Iron Testament* (a [post-apocalyptic strategy game](https://roosevelt.games/projects/iron-testament/)).
+- **Screen result (web, 2026-10-16):** no game, RPG or book titled *Testament of Dust* found. Nearby but distinct: Philip Pullman's *The Book of Dust*, Margaret Atwood's *The Testaments*, and the thrash-metal band Testament. **This is not trademark clearance.**
+- **Before publication:** USPTO search (classes 16 and 28 for print and games; 9 for digital), attorney review (§10.3), and a domain and handle check.
+
+#### Original screen (pre-decision)
 
 A quick web screen run on 2026-10-16 to look for existing games, tools, and books using each candidate name. **This is not trademark clearance.** The final choice still needs a USPTO search and the attorney review in §10.3.
 
@@ -1092,13 +1110,13 @@ Suggested format: **Title: Subtitle**, with the existing tagline *"Roads through
 | Q40 | Order of the Last Guns | Neighbouring province; the March gets claimants, refugees, and relic sidearms | §8.2 |
 | Q41 | Hunters' taxonomy handout | Yes; Stalker chapter, cross-referenced in Occultist; in-world only. Classes: Winterers, Strays, Tapsters | §10.2 |
 | Q42 | Satellite coverage under open sky | The moving lights: surviving orbital relays carry a Passenger's voice under open sky on 9+ on a d12 per scene; traffic can be overheard; Truth 11 adds a watcher | §5.15; rulebook Frontier Rules §9.3 |
+| Q16 | Publishable title | ***Testament of Dust***; tagline kept; no subtitle for now. Still needs a USPTO search and attorney review | §10.4 |
 | Q30 | Psychic and possession Focuses | *Carries a Passenger*: the Tethered Voice (Q38). *Sends the Mind Abroad*: the Relay-Sense, an old-world implant that rides surviving works and relays, under the same open-sky rule as the Passenger (Q42) | §5.15; rulebook Frontier Focuses 9 and 10 |
 
 ### 11.2 Still open
 
 | # | Question | Current proposal |
 |---|---|---|
-| Q16 | Publishable title | Shortlist in §10.4: Afterborn (recommended), Blood Inquest, Testament + qualifier, Half a Litre, The Long-Lived. Needs USPTO search and attorney review |
 | Q36 | Rename the Vesper March? | Overlaps with *BattleTech*'s Vesper Marches; keep as working name, rename before publication |
 
 ## 12. Superseded Concepts Archive
@@ -1177,6 +1195,7 @@ Charter Towns, Custodians, Blood Compacts, Passage Houses, and the Unregistered.
 | 2026-10-16 | Q42: the moving lights (surviving orbital relays) carry a Passenger's voice under open sky, 9+ on a d12 per scene, with an overhearing risk; Truth 11 adds an observation platform; rulebook Frontier Rules §9.3 added | **[CANON]** |
 | 2026-10-16 | Q30 resolved: *Sends the Mind Abroad* rebuilt on the Relay-Sense (old-world implant) and given the open-sky rule (Q42); abilities renamed, costs and Power unchanged | **[CANON — applied, review]** |
 | 2026-10-16 | Folder `docs/VampireHunterD/` renamed `docs/HollowFrontier/`; design documents moved to `docs/HollowFrontier/design/`. File names unchanged pending Q16 | **[APPLIED — review]** |
+| 2026-10-16 | Q16 resolved: publishable title ***Testament of Dust***, chosen over the §10.4 shortlist and two further screened rounds. The rulebook cover, running header and file names are not yet rebranded; trademark clearance still pending | **[CANON]** |
 
 ---
 

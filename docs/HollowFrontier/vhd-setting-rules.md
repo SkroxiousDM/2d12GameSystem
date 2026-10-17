@@ -341,7 +341,7 @@ On a clear night, a few lights cross the sky faster than any star and never twin
 
 - **Under open sky only:** roofs, earth, deep canyons, thick forest and storms (*Sudden Storm*) cut them off.
 
-- **Uses:** the Passenger can reach its bearer through them (*Carries a Passenger*). Some households keep old instruments that listen to them.
+- **Uses:** the Passenger can reach its bearer through them (*Carries a Passenger*), and a mind sent abroad can ride them (*Sends the Mind Abroad*). Some households keep old instruments that listen to them.
 
 - **Overheard:** anything sent through the moving lights may be heard by whoever is listening.
 

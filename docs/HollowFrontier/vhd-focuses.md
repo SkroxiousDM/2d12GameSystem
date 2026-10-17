@@ -248,21 +248,25 @@ Focus rules are unchanged from *Generic Focuses* §1:
 
 ### 10. Sends the Mind Abroad ◈
 
-> Your mind can leave your body and walk where you can't: through estate walls, into dreams, across the desert.
+> A sliver of old-work sits behind your ear. A teacher set it there, or a household surgeon, or you woke with it. When you close your eyes, your mind slips into whatever old works still run around you: the glass eyes in estate walls, the door that remembers every hand, the speaker in the chapel roof. Folk call it walking abroad.
 
-- **Power tags:** *my mind walks free*, *dreamsight*
+- **Power tags:** *my mind rides the old wires*, *eyes in every working wall*
 
 - **Weakness tag:** *my body lies helpless*
 
 - **PC link:** "\[PC\] watches over my body when I go walking. I trust no one else."
 
+- **Old works only:** you sense only through old-world works that still run: lenses, doors, speakers, instruments and the relays between them. Where none run, you are blind and deaf.
+
+- **Under open sky:** beyond your relays, the moving lights can carry you (Frontier Rules §9.3). At the start of a scene under open sky, roll a d12: on **9+** one is overhead, and for that scene you can use this Focus through it. You can look down on open ground within your range, or reach old works standing under open sky. Each time, the GM may compel *someone else is looking too* or spend 1 Woe to have you noticed.
+
 | Tier | Ability | Effect |
 |----|----|----|
-| 1 | **Astral Self** | Leave your body as an unseen astral form (range about 1 km). You use Occult for Stealth and Notice. Your body is helpless and *Impeded* while you're out. Returning costs 1 Pneuma. |
-| 2a | **Astral Strike** | Your astral form can Attack with Occult, inflicting mental statuses (*terrified*, *dazed*) even on vampires. |
-| 2b | **Dream Walker** | Enter a sleeper's dream, including a bled victim's. Ask 2 free Discover questions about what they saw, or Restore their fear statuses. |
-| 3a | **Far-Walker** | Your astral range becomes a day's ride, and you can bring one willing ally's mind with you. |
-| 3b | **★ Astral Avatar** | Once per scene, your astral form becomes solid enough to Fight. It uses your skills, and harm to it comes out of your **Pneuma** pool, not physical statuses. |
+| 1 | **Walk Abroad** | Send your senses into the working old works around you (range about 1 km). You use Occult for Stealth and Notice while you're out. Your body is helpless and *Impeded* while you're out. Returning costs 1 Pneuma. |
+| 2a | **Feedback** | Through a speaker, lamp or screen in the target's scene, Attack with Occult, inflicting mental statuses (*terrified*, *dazed*) even on vampires. |
+| 2b | **Read What It Saw** | Ask an old work in reach 2 free Discover questions about what it saw or heard (a door's record of hands, a lens's memory), or speak through it to a bled or frightened person and Restore their fear statuses. |
+| 3a | **Long Wire** | Your range becomes a day's ride along working relays, and you can bring one willing ally's senses with you while they touch you. |
+| 3b | **★ Take the Hand** | Once per scene, take hold of one old-world machine in reach that can move (a guardian, a lift, a turret, a loader) and Fight with it. It uses your skills, and harm to it comes out of your **Pneuma** pool, not physical statuses. |
 
 ### 11. Keeps the Old Faith
 
@@ -457,6 +461,8 @@ Focus rules are unchanged from *Generic Focuses* §1:
 - **Overlaps with playbooks:** *Heals the Bled* stacks with the Frontier Doctor's *Treat the Bled*, and *Holds the Line Until Dawn* stacks with the Warden. Both stacks are intended specialist builds; none of them reduce the same Power cost twice.
 
 - **Vampire-specific Focuses** (*Hunts the Kept*, *Seeks Revenge on a Vampire*) rely on killing strikes. If a campaign has few vampires, steer players toward *Hunts the Beasts of the Frontier* or *Collects the Bounty*.
+
+- **Sends the Mind Abroad** works through an old-world implant and the relays around it, not a spirit. It follows the same open-sky rule as Carries a Passenger, and the same advice on placing relays applies.
 
 - **Carries a Passenger** is an Old-World Focus. The Passenger is a voice relayed from a fixed old-world site, so it has a range; out of range the Focus does nothing except under open sky, where the moving lights give it a 1-in-3 chance each scene. On long journeys, place working relays often enough that the player isn't left without their Focus for whole sessions.
 

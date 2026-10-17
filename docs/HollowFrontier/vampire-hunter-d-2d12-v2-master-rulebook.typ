@@ -3379,7 +3379,7 @@ Old-world artifacts carry the standard quirk #strong[#emph[its owners will want 
 On a clear night, a few lights cross the sky faster than any star and never twinkle. They are old-world works, left overhead when the old world fell. Most are dead. A few still answer.
 
 - #strong[Under open sky only:] roofs, earth, deep canyons, thick forest and storms (#emph[Sudden Storm]) cut them off.
-- #strong[Uses:] the Passenger can reach its bearer through them (#emph[Carries a Passenger]). Some households keep old instruments that listen to them.
+- #strong[Uses:] the Passenger can reach its bearer through them (#emph[Carries a Passenger]), and a mind sent abroad can ride them (#emph[Sends the Mind Abroad]). Some households keep old instruments that listen to them.
 - #strong[Overheard:] anything sent through the moving lights may be heard by whoever is listening.
 - #strong[Optional Truth 11] (§2.2, #emph[The lights in the sky still move]): if it is in play, something up there is also watching.
 
@@ -5051,12 +5051,14 @@ A voice rides with you, through a relic at your ear, a grille in a buckle, a spe
 == 6. Occult Focuses
 === 10. Sends the Mind Abroad ◈
 #quote(block: true)[
-Your mind can leave your body and walk where you can\'t: through estate walls, into dreams, across the desert.
+A sliver of old-work sits behind your ear. A teacher set it there, or a household surgeon, or you woke with it. When you close your eyes, your mind slips into whatever old works still run around you: the glass eyes in estate walls, the door that remembers every hand, the speaker in the chapel roof. Folk call it walking abroad.
 ]
 
-- #strong[Power tags:] #emph[my mind walks free];, #emph[dreamsight]
+- #strong[Power tags:] #emph[my mind rides the old wires];, #emph[eyes in every working wall]
 - #strong[Weakness tag:] #emph[my body lies helpless]
 - #strong[PC link:] \"\[PC\] watches over my body when I go walking. I trust no one else.\"
+- #strong[Old works only:] you sense only through old-world works that still run: lenses, doors, speakers, instruments and the relays between them. Where none run, you are blind and deaf.
+- #strong[Under open sky:] beyond your relays, the moving lights can carry you (Frontier Rules §9.3). At the start of a scene under open sky, roll a d12: on #strong[9+] one is overhead, and for that scene you can use this Focus through it. You can look down on open ground within your range, or reach old works standing under open sky. Each time, the GM may compel #emph[someone else is looking too] or spend 1 Woe to have you noticed.
 
 #figure(
   [#table(
@@ -5064,11 +5066,11 @@ Your mind can leave your body and walk where you can\'t: through estate walls, i
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Astral Self];], [Leave your body as an unseen astral form (range about 1 km). You use Occult for Stealth and Notice. Your body is helpless and #emph[Impeded] while you\'re out. Returning costs 1 Pneuma.],
-    [2a], [#strong[Astral Strike];], [Your astral form can Attack with Occult, inflicting mental statuses (#emph[terrified];, #emph[dazed];) even on vampires.],
-    [2b], [#strong[Dream Walker];], [Enter a sleeper\'s dream, including a bled victim\'s. Ask 2 free Discover questions about what they saw, or Restore their fear statuses.],
-    [3a], [#strong[Far-Walker];], [Your astral range becomes a day\'s ride, and you can bring one willing ally\'s mind with you.],
-    [3b], [#strong[★ Astral Avatar];], [Once per scene, your astral form becomes solid enough to Fight. It uses your skills, and harm to it comes out of your #strong[Pneuma] pool, not physical statuses.],
+    [1], [#strong[Walk Abroad];], [Send your senses into the working old works around you (range about 1 km). You use Occult for Stealth and Notice while you\'re out. Your body is helpless and #emph[Impeded] while you\'re out. Returning costs 1 Pneuma.],
+    [2a], [#strong[Feedback];], [Through a speaker, lamp or screen in the target\'s scene, Attack with Occult, inflicting mental statuses (#emph[terrified];, #emph[dazed];) even on vampires.],
+    [2b], [#strong[Read What It Saw];], [Ask an old work in reach 2 free Discover questions about what it saw or heard (a door's record of hands, a lens's memory), or speak through it to a bled or frightened person and Restore their fear statuses.],
+    [3a], [#strong[Long Wire];], [Your range becomes a day\'s ride along working relays, and you can bring one willing ally\'s senses with you while they touch you.],
+    [3b], [#strong[★ Take the Hand];], [Once per scene, take hold of one old-world machine in reach that can move (a guardian, a lift, a turret, a loader) and Fight with it. It uses your skills, and harm to it comes out of your #strong[Pneuma] pool, not physical statuses.],
   )]
   , kind: table
   )
@@ -5320,6 +5322,7 @@ A vampire, a dhampir, a retainer, a monster. You love them anyway, and both worl
 - #strong[Dhampir as a Focus] lets any playbook carry afflicted blood: a dhampir Sellsword is the classic Hunter, but a dhampir Frontier Doctor or Broker plays very differently. The dhampir's edge is no longer raw power but access and information: reading blood, opening doors tied to her mother's line, and being wanted by people who matter. Sunlight Syndrome and the Thirst remain the price. #emph[Knows How They Die] is offered for tables that want a fighter. Use the table options if it outshines other Focuses.
 - #strong[Overlaps with playbooks:] #emph[Heals the Bled] stacks with the Frontier Doctor\'s #emph[Treat the Bled];, and #emph[Holds the Line Until Dawn] stacks with the Warden. Both stacks are intended specialist builds; none of them reduce the same Power cost twice.
 - #strong[Vampire-specific Focuses] (#emph[Hunts the Kept];, #emph[Seeks Revenge on a Vampire];) rely on killing strikes. If a campaign has few vampires, steer players toward #emph[Hunts the Beasts of the Frontier] or #emph[Collects the Bounty];.
+- #strong[Sends the Mind Abroad] works through an old-world implant and the relays around it, not a spirit. It follows the same open-sky rule as Carries a Passenger, and the same advice on placing relays applies.
 - #strong[Carries a Passenger] is an Old-World Focus. The Passenger is a voice relayed from a fixed old-world site, so it has a range; out of range the Focus does nothing except under open sky, where the moving lights give it a 1-in-3 chance each scene. On long journeys, place working relays often enough that the player isn't left without their Focus for whole sessions.
 - #strong[★ options] are all at Tier 3, as in #emph[Generic Focuses];, so a character can always choose a path that keeps their Refresh.
 - #strong[Tag-cap exceptions] (Bears an Old-World Relic --- The Relic Awakens; Forges Weapons Against the Night --- Masterwork): aligned with the #strong[Generic Focuses §9.2] fix --- both now add #strong[+1 above the normal +2 cap (maximum +3)] instead of ignoring it outright.

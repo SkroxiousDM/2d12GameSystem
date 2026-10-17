@@ -6,6 +6,9 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Sends the Mind Abroad (2026-10-16)
+- **Sends the Mind Abroad** rebuilt on an old-world implant that rides surviving works and relays (Q30), instead of astral projection. It senses only through old works that still run, and gets the same open-sky rule as Carries a Passenger: 9+ on a d12 per scene through the moving lights, with a risk of being noticed. Abilities renamed with costs and Power unchanged: Walk Abroad, Feedback, Read What It Saw, Long Wire, ★ Take the Hand.
+
 ### Changed — field guide, Order Sidearm, the moving lights (2026-10-16)
 - **Hunters' Field Guide:** classes renamed **Winterers**, **Strays** and **Tapsters** (were the placeholders Sleepers, Get, Sippers).
 - **The moving lights** (Frontier Rules §9.3, new): a few old-world works still cross the night sky. They work under open sky only and can be overheard; Optional Truth 11 adds a watcher.
@@ -38,7 +41,7 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ### Not yet changed
 - Cover, credits, file names and the "About This Book" text still say *Vampire Hunter D*; the publishable title is undecided.
-- *Sends the Mind Abroad* has only had terminology updates; its basis is still under review (Q30). *Carries a Passenger* was rewritten in the Q37-Q41 pass.
+- *Sends the Mind Abroad* has only had terminology updates; its basis was still under review (Q30; since rebuilt, see above). *Carries a Passenger* was rewritten in the Q37-Q41 pass.
 - `*-1.pdf` copies of the rulebook and sheet were left as they are.
 
 ### Added — Vampire Hunter D master rulebook (2026-10-12)

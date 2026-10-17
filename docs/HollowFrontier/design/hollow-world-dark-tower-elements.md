@@ -6,7 +6,7 @@
 |---|---|
 | Project | *Hollow Frontier* (internal codename: Hollow World), 2d12 System |
 | Companion to | *Hollow World — Setting Design Document* v0.9 |
-| Document version | 0.3 — field-guide names finalised; satellite coverage (Q42) added to the Tethered Voice |
+| Document version | 0.4 — Q30 resolved: the Relay-Sense adopted for *Sends the Mind Abroad*, with the open-sky rule |
 | Compiled | 2026-10-16 |
 | Purpose | Identify *Dark Tower* elements that fit Hollow World's canon and tone, and give each one an original adaptation |
 | Status | **[PROPOSED]** unless marked otherwise. Q37–Q41 are **[CANON]** (§6) |
@@ -316,12 +316,12 @@ The design document lists Q30 as open: *Sends the Mind Abroad* and *Carries a Pa
 
 | Focus | Option | Material basis | Canon check |
 |---|---|---|---|
-| *Sends the Mind Abroad* | **A. The Relay-Sense** | An inherited or surgically installed old-world implant (Cyborg Hunter adjacent) that picks up nearby sensor and relay networks: cameras, door logs, facility speakers. The character "sees far" only where the old networks still run | Keeps F1 and F3; the limits are geographic and investigable |
+| *Sends the Mind Abroad* | **A. The Relay-Sense [CANON — Q30]** | An inherited or surgically installed old-world implant (Cyborg Hunter adjacent) that picks up nearby sensor and relay networks: cameras, door logs, facility speakers. The character "sees far" only where the old networks still run | Keeps F1 and F3; the limits are geographic and investigable |
 | | **B. The Trained Trance** | Not supernatural. Old procedures of memory and observation (a monastery practice) plus a sedative preparation, producing remarkable deduction and recall that people experience as visions | Purely human; weaker but safe |
 | *Carries a Passenger* | ~~A. The Hosted Facsimile~~ | A Digital Facsimile stored in an implant or carried relic that talks only to the bearer | **Rejected (Q38):** no portable facsimiles |
 | | **B. The Tethered Voice [CANON — required by Q38]** | An earpiece relic linked to a facsimile at a fixed site. It works only within range of that site's relays, so the passenger "goes quiet" far from home | Fully consistent with Q21 |
 
-**Status.** Q38 rules out option A for *Carries a Passenger*, so it uses the Tethered Voice. **Q42** adds an open-sky exception: surviving orbital relays (*the moving lights*) carry the voice beyond its range on 9+ on a d12 per scene, and anyone with a receiver may overhear it. *Sends the Mind Abroad* stays open under Q30.
+**Status.** Q38 rules out option A for *Carries a Passenger*, so it uses the Tethered Voice. **Q42** adds an open-sky exception: surviving orbital relays (*the moving lights*) carry the voice beyond its range on 9+ on a d12 per scene, and anyone with a receiver may overhear it. *Sends the Mind Abroad* stays open under Q30. *Sends the Mind Abroad* now uses the Relay-Sense (Q30), under the same open-sky rule.
 
 **Recommendation.** Relay-Sense (A) for *Sends the Mind Abroad*, and Tethered Voice (B) for *Carries a Passenger*. Both keep every rule intact, and both give the player a reason to care about particular places and the people who control them, the way the kept specialists in D9 are tied to their compound.
 
@@ -355,7 +355,7 @@ All five were resolved on 2026-10-16 and logged in the design document's §13.
 
 Q41 was amended afterwards: the classes are **Winterers**, **Strays** and **Tapsters**.
 
-**Still open:** Q30 (*Sends the Mind Abroad*). The recommendation is the Relay-Sense (§4); consider letting it reach through the moving lights under the same limits.
+**Q30 resolved:** *Sends the Mind Abroad* uses the Relay-Sense (§4), with the same open-sky rule as the Tethered Voice: 9+ on a d12 per scene through the moving lights, with a risk of being noticed.
 
 ---
 

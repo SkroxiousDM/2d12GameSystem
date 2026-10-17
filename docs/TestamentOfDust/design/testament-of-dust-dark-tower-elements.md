@@ -1,11 +1,11 @@
-# Hollow Frontier — Dark Tower Elements Review
+# Testament of Dust — Dark Tower Elements Review
 
 > What Stephen King's *Dark Tower* can lend Hollow World, and what it must not.
 
 | Field | Value |
 |---|---|
 | Project | ***Testament of Dust*** (working title *Hollow Frontier*; internal codename Hollow World), 2d12 System |
-| Companion to | *Hollow World — Setting Design Document* v0.9 |
+| Companion to | *Testament of Dust — Setting Design Document* (`testament-of-dust-setting-design-document.md`) |
 | Document version | 0.4 — Q30 resolved: the Relay-Sense adopted for *Sends the Mind Abroad*, with the open-sky rule |
 | Compiled | 2026-10-16 |
 | Purpose | Identify *Dark Tower* elements that fit Hollow World's canon and tone, and give each one an original adaptation |

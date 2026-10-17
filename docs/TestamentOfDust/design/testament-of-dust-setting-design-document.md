@@ -1,13 +1,13 @@
-# Hollow Frontier — Setting Design Document
+# Testament of Dust — Setting Design Document
 
 > Roads through a broken world. Blood behind every bargain.
 
 | Field | Value |
 |---|---|
 | Project | ***Testament of Dust*** (publishable title, Q16), a setting for the 2d12 System. Working title *Hollow Frontier*; internal codename Hollow World |
-| Repository | `SkroxiousDM/2d12GameSystem` — current source `docs/HollowFrontier/vampire-hunter-d-2d12-v2-master-rulebook.typ`; design documents in `docs/HollowFrontier/design/` |
-| Document version | 0.14 — Q16 resolved: publishable title *Testament of Dust* |
-| Compiled | 2026-10-16 (v0.1); revised 2026-10-16 (v0.2–v0.14) |
+| Repository | `SkroxiousDM/2d12GameSystem` — current source `docs/TestamentOfDust/testament-of-dust-2d12-v2-master-rulebook.typ`; design documents in `docs/TestamentOfDust/design/`. Older entries below use the earlier paths (see B.21) |
+| Document version | 0.15 — rulebook rebranded to *Testament of Dust*; files and folder renamed (B.21) |
+| Compiled | 2026-10-16 (v0.1); revised 2026-10-16 (v0.2–v0.15) |
 | Purpose | Replace the *Vampire Hunter D* adaptation layer with an original setting while preserving the 2d12 engine and all character options |
 | Audience | Designer and GM. Sections marked **Player** may be adapted for player-facing chapters; everything marked **GM-only** must stay behind the screen |
 
@@ -985,11 +985,11 @@ Killing the vampire is possible. It is not equivalent to solving the crisis.
 
 ### 10.3 Clearance checklist (carried forward from the copyright review)
 
-- [ ] Remove "inspired by Vampire Hunter D" from the cover tagline.
-- [ ] Remove the "unofficial fan adaptation" colophon and replace with original credits.
-- [ ] Remove every reference to D and franchise setting material.
-- [x] Rename the `docs/VampireHunterD/` folder (now `docs/HollowFrontier/`, v0.11).
-- [ ] Rename the `.typ` file, the `vhd-*.md` files and the remaining *Vampire Hunter D* file names. Unblocked: the title is *Testament of Dust* (Q16).
+- [x] Remove "inspired by Vampire Hunter D" from the cover tagline (v0.15).
+- [x] Remove the "unofficial fan adaptation" colophon and replace with original credits (v0.15).
+- [x] Remove every reference to D and franchise setting material. The last three name references were removed in v0.15; a search of the rulebook and character sheet finds no franchise names or terms. Attorney review should confirm.
+- [x] Rename the `docs/VampireHunterD/` folder (`docs/HollowFrontier/` in v0.11; `docs/TestamentOfDust/` in v0.15).
+- [x] Rename the `.typ` file, the `vhd-*.md` files and the remaining *Vampire Hunter D* file names (v0.15, B.21).
 - [ ] Build a provenance ledger for borrowed mechanics (Fate, Cypher, 2d20, Blades in the Dark, others) and confirm licence compliance against the official SRDs.
 - [ ] Apply the originality guardrails in §3.5 to all new setting text.
 - [x] Choose a publishable title (Q16): ***Testament of Dust***. **Clearance is still open:** a USPTO search and attorney review are required before publication. Neither working name is for sale: "Hollow World" is a 1990 TSR *D&D* setting still in print, and "Hollow Frontier" is an existing post-collapse survival game on Steam.
@@ -1195,6 +1195,7 @@ Charter Towns, Custodians, Blood Compacts, Passage Houses, and the Unregistered.
 | 2026-10-16 | Q42: the moving lights (surviving orbital relays) carry a Passenger's voice under open sky, 9+ on a d12 per scene, with an overhearing risk; Truth 11 adds an observation platform; rulebook Frontier Rules §9.3 added | **[CANON]** |
 | 2026-10-16 | Q30 resolved: *Sends the Mind Abroad* rebuilt on the Relay-Sense (old-world implant) and given the open-sky rule (Q42); abilities renamed, costs and Power unchanged | **[CANON — applied, review]** |
 | 2026-10-16 | Folder `docs/VampireHunterD/` renamed `docs/HollowFrontier/`; design documents moved to `docs/HollowFrontier/design/`. File names unchanged pending Q16 | **[APPLIED — review]** |
+| 2026-10-16 | Rulebook rebranded to *Testament of Dust* (cover, credits, running header, metadata, character-sheet insert); folder renamed `docs/TestamentOfDust/`; rulebook, Markdown and design files renamed; stale `*-1.pdf` duplicates removed (B.21) | **[APPLIED — review]** |
 | 2026-10-16 | Q16 resolved: publishable title ***Testament of Dust***, chosen over the §10.4 shortlist and two further screened rounds. The rulebook cover, running header and file names are not yet rebranded; trademark clearance still pending | **[CANON]** |
 
 ---
@@ -1823,3 +1824,29 @@ Applied on branch `feat/hollow-frontier-q37-q41-rename`, stacked on PR #19. File
 - **Q42, the moving lights:** new Frontier Rules §9.3 (observable only). *Carries a Passenger* gains an open-sky bullet: 9+ on a d12 at the start of a scene under open sky lets the Passenger speak and use its abilities that scene. The GM may compel *someone else heard* or spend 1 Woe to have the message overheard. Design note updated. The rulebook never uses the word "satellite" (§7.6).
 
 **Follow-up (v0.13) — Q30, Sends the Mind Abroad:** rebuilt on the Relay-Sense, with the Passenger's open-sky rule. The quote and Power tags now describe an implant (*my mind rides the old wires*, *eyes in every working wall*). A new **Old works only** bullet says you are blind and deaf where nothing runs, and an **Under open sky** bullet gives 9+ on a d12 per scene through the moving lights, with the GM able to compel *someone else is looking too* or spend 1 Woe to have you noticed. The abilities are renamed with costs and Power unchanged: Astral Self → **Walk Abroad**, Astral Strike → **Feedback** (needs a speaker, lamp or screen in the target's scene), Dream Walker → **Read What It Saw** (Discover from a device's memory, or Restore fear statuses through a speaker), Far-Walker → **Long Wire** (an ally must touch you), ★ Astral Avatar → **★ Take the Hand** (drive a machine that can move; harm still comes out of Pneuma). The category stays Occult: in-world it's taught as an occult practice. §9.3 (the moving lights) and the Focus design notes are updated.
+
+### B.21 Implementation notes (v0.15) — Testament of Dust rebrand
+
+Applied on branch `feat/hollow-frontier-q37-q41-rename` (PR #20).
+
+| Area | Change |
+|---|---|
+| Cover | Title **TESTAMENT OF DUST**. The tagline is now *Post-Apocalyptic Frontier Gothic* (the "inspired by Vampire Hunter D" line is gone), and the motto *Roads through a broken world. Blood behind every bargain.* sits under "Master Rulebook" |
+| Credits | The fan-adaptation notice is replaced with "Testament of Dust is an original setting for the 2d12 System," the motto, and the existing mechanics-inspiration and trademark line. The compilation date is now 2026-10-16 |
+| Running header | `TESTAMENT OF DUST · 2D12 V2` (driven by `book-title`) |
+| Text | Introduction "About This Book" and the Generic Descriptors note no longer name Vampire Hunter D. Source-file comment header rewritten |
+| PDF metadata | Title "Testament of Dust — The 2d12 System · Version 2 — Master Rulebook"; keywords updated |
+| Character sheet | The Frontier insert's title band reads *Testament of Dust*; source comment and keywords updated. The file name stays `2d12-character-sheet-v2` because the sheet belongs to the engine, not the setting |
+
+**File map (old → new):**
+
+| Old path | New path |
+|---|---|
+| `docs/HollowFrontier/` | `docs/TestamentOfDust/` |
+| `vampire-hunter-d-2d12-v2-master-rulebook.typ` / `.pdf` | `testament-of-dust-2d12-v2-master-rulebook.typ` / `.pdf` |
+| `vhd-setting-rules.md`, `vhd-descriptors.md`, `vhd-playbooks.md`, `vhd-focuses.md` | `testament-of-dust-setting-rules.md`, `-descriptors.md`, `-playbooks.md`, `-focuses.md` |
+| `design/hollow-world-setting-design-document.md` | `design/testament-of-dust-setting-design-document.md` |
+| `design/hollow-world-dark-tower-elements.md` | `design/testament-of-dust-dark-tower-elements.md` |
+| `vampire-hunter-d-2d12-v2-master-rulebook-1.pdf`, `2d12-character-sheet-v2-1.pdf` | **Removed.** Stale exports from 2026-10-12 (92-page rulebook, old sheet); recoverable from git history |
+
+**Not renamed:** the branch name, the `art/` files, and the engine drafts (`2d12-system-proposal.md`, `playbooks.md`, `focuses.md`, the resting note), which carry no setting name. Historical entries in this document keep the paths that were current when they were written.

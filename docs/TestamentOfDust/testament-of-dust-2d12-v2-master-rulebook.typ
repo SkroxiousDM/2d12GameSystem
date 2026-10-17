@@ -1,10 +1,10 @@
 // =====================================================================
-//  VAMPIRE HUNTER D — THE 2d12 SYSTEM, VERSION 2
+//  TESTAMENT OF DUST — THE 2d12 SYSTEM, VERSION 2
 //  Master Rulebook · Post-Apocalyptic Frontier Gothic
 //  Compiled for SkroxiousDM · 2026-10-12
 //
 //  Single-file Typst source. Compile with:
-//      typst compile vampire-hunter-d-2d12-v2-master-rulebook.typ
+//      typst compile testament-of-dust-2d12-v2-master-rulebook.typ
 //
 //  Fonts (free, Google Fonts / OFL). Install them, or pass --font-path:
 //      EB Garamond   — body text
@@ -12,9 +12,7 @@
 //  If they are missing, Typst falls back to Libertinus Serif. Symbols
 //  (★ ◆ ◈ →) fall back to DejaVu Sans.
 //
-//  Unofficial fan adaptation for home play, based on Hideyuki Kikuchi's
-//  Vampire Hunter D novels and the anime films. Not affiliated with or
-//  endorsed by the rights holders.
+//  An original setting for the 2d12 System. Playtest draft.
 // =====================================================================
 
 // ---------------------------------------------------------------- palette
@@ -33,19 +31,19 @@
 #let symbol-font  = ("DejaVu Sans",)
 
 // ---------------------------------------------------------------- metadata
-#let book-title    = "Hollow Frontier"
+#let book-title    = "Testament of Dust"
 #let book-subtitle = "The 2d12 System · Version 2"
 #let book-kind     = "Master Rulebook"
-#let book-tagline  = "Post-Apocalyptic Frontier Gothic 
-inspired by  Vampire Hunter D"
+#let book-tagline  = "Post-Apocalyptic Frontier Gothic"
+#let book-motto    = "Roads through a broken world. Blood behind every bargain."
 #let book-author   = "SkroxiousDM"
-#let book-date     = "2026-10-12"
+#let book-date     = "2026-10-16"
 
 #set document(
   title: book-title + " — " + book-subtitle + " — " + book-kind,
   author: book-author,
-  date: datetime(year: 2026, month: 10, day: 31),
-  keywords: ("2d12", "Vampire Hunter D", "tabletop RPG", "rulebook"),
+  date: datetime(year: 2026, month: 10, day: 16),
+  keywords: ("2d12", "Testament of Dust", "tabletop RPG", "rulebook", "gothic", "post-apocalyptic"),
 )
 
 // ---------------------------------------------------------------- playbook art
@@ -266,6 +264,8 @@ inspired by  Vampire Hunter D"
     text(font: display-font, size: 17pt, weight: 700, fill: brass, tracking: 0.12em, book-subtitle)
     v(6pt)
     text(font: display-font, size: 13pt, fill: moon.darken(8%), tracking: 0.3em, upper(book-kind))
+    v(16pt)
+    text(size: 11pt, style: "italic", fill: moon.darken(10%), book-motto)
   }))
   #place(bottom + center, dy: -2.1cm, {
     set align(center)
@@ -298,7 +298,9 @@ inspired by  Vampire Hunter D"
     ]
     v(14pt)
     text(size: 9pt, fill: dust, style: "italic")[
-      An unofficial fan adaptation for home play, based on Hideyuki Kikuchi's Vampire Hunter D novels and the anime films. Not affiliated with or endorsed by the author, publishers or rights holders. The 2d12 System draws inspiration from Fate, the Cypher System, :Otherscape, Mouse Guard, Blades in the Dark and the 2d20 System; all trademarks belong to their owners.
+      #book-title is an original setting for the 2d12 System. \
+#book-motto \
+The 2d12 System draws inspiration from Fate, the Cypher System, :Otherscape, Mouse Guard, Blades in the Dark and the 2d20 System; all trademarks belong to their owners.
     ]
     v(14pt)
     text(size: 8.5pt, fill: dust)[Playtest draft — not yet playtested. Set in EB Garamond and Cinzel.]
@@ -347,7 +349,7 @@ inspired by  Vampire Hunter D"
 #columns(2, gutter: 6mm)[
 == About This Book
 
-This master rulebook collects every current document for running *Vampire Hunter D* with the 2d12 System into one volume. The generic engine comes first; the Frontier setting material builds on it.
+This master rulebook collects every current document for #emph[Testament of Dust] and the 2d12 System into one volume. The generic engine comes first; the Frontier setting material builds on it.
 
 #figure(table(columns: (13%, 30%, 57%),
   table.header([Ch.], [Chapter], [Contents]),
@@ -1310,7 +1312,7 @@ Each Descriptor gives (Core Rules §3.1):
 
 Each entry also has a #strong[hook];: one question to answer at character creation. The answer often becomes your first Belief or a relationship.
 
-Every Descriptor works in any genre. Choose one from this chapter or, in a Vampire Hunter D game, from the Frontier Descriptors.
+Every Descriptor works in any genre. Choose one from this chapter or, in a #emph[Testament of Dust] game, from the Frontier Descriptors.
 
 == 2. Quick Reference
 #figure(

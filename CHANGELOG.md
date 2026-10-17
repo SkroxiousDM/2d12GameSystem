@@ -6,6 +6,21 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Testament of Dust rebrand (2026-10-16)
+- **Rulebook rebranded to *Testament of Dust*:**
+  - Cover: title, tagline *Post-Apocalyptic Frontier Gothic*, and the motto *Roads through a broken world. Blood behind every bargain.*
+  - Credits: original-setting notice replaces the fan-adaptation notice.
+  - Running header (`TESTAMENT OF DUST · 2D12 V2`), PDF metadata and the Introduction text.
+  - The character sheet's Frontier insert.
+  - The last references to Vampire Hunter D are removed.
+- **Renamed:**
+  - `docs/HollowFrontier/` → `docs/TestamentOfDust/`
+  - `vampire-hunter-d-2d12-v2-master-rulebook.*` → `testament-of-dust-2d12-v2-master-rulebook.*`
+  - `vhd-*.md` → `testament-of-dust-*.md`
+  - `design/hollow-world-*.md` → `design/testament-of-dust-*.md`
+- **Removed:** the stale `vampire-hunter-d-2d12-v2-master-rulebook-1.pdf` and `2d12-character-sheet-v2-1.pdf` exports from 2026-10-12.
+- Rulebook and character-sheet PDFs rebuilt (Typst 0.15.0, same fonts). Paths in the entries below refer to the folder and file names in use at the time.
+
 ### Decided — publishable title (2026-10-16)
 - **Testament of Dust** is the publishable title (Q16). The tagline is unchanged. The decision and its screen are recorded in `docs/HollowFrontier/design/hollow-world-setting-design-document.md` §10.4. The rulebook cover, running header and file names are not rebranded yet, and trademark clearance is still pending.
 

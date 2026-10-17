@@ -1,9 +1,9 @@
-# 2d12 System — Hollow Frontier Setting Pack: Setting Rules
+# 2d12 System — Testament of Dust Setting Pack: Setting Rules
 
-> Markdown edition of **Chapter VII, Frontier Rules** in `vampire-hunter-d-2d12-v2-master-rulebook.typ`.
+> Markdown edition of **Chapter VII, Frontier Rules** in `testament-of-dust-2d12-v2-master-rulebook.typ`.
 > The Typst master is the source of truth; edit it first, then regenerate this file
 > (`pandoc -f typst -t gfm`). Synced 2026-10-16 (Q37-Q41 rulings). Supersedes the v0.1 draft of this file.
-> Pack files: **vhd-setting-rules.md** · **vhd-descriptors.md** · **vhd-playbooks.md** · **vhd-focuses.md**.
+> Pack files: **testament-of-dust-setting-rules.md** · **testament-of-dust-descriptors.md** · **testament-of-dust-playbooks.md** · **testament-of-dust-focuses.md**.
 
 ---
 The old world is buried beneath the present, but it has not fallen silent. This chapter covers the setting: Campaign Truths, day and night, vampires and the blood they need, the bled, dhampirs, how the afflicted die, old-world works, contracts and the long roads between towns.

@@ -1,7 +1,7 @@
 // =====================================================================
 //  THE 2d12 SYSTEM, VERSION 2 — CHARACTER SHEET
 //  Generic core sheet (2 pages) + Frontier insert (1 page)
-//  Built from: vampire-hunter-d-2d12-v2-master-rulebook.typ
+//  Built from: testament-of-dust-2d12-v2-master-rulebook.typ
 //
 //  Compile with:
 //      typst compile 2d12-character-sheet-v2.typ
@@ -28,7 +28,7 @@
 #set document(
   title: "The 2d12 System · Version 2 — Character Sheet",
   author: "SkroxiousDM",
-  keywords: ("2d12", "character sheet", "Vampire Hunter D", "tabletop RPG"),
+  keywords: ("2d12", "character sheet", "Testament of Dust", "tabletop RPG"),
 )
 
 #set page(paper: "us-letter", fill: paper,
@@ -383,7 +383,7 @@
 // =====================================================================
 //  PAGE 3 — FRONTIER INSERT
 // =====================================================================
-#title-band([INSERT], [Hollow Frontier], text(font: display-font, size: 8pt, fill: dust, tracking: 0.1em)[USE WITH FRONTIER RULES · CH. VII])
+#title-band([INSERT], [Testament of Dust], text(font: display-font, size: 8pt, fill: dust, tracking: 0.1em)[USE WITH FRONTIER RULES · CH. VII])
 
 #grid(columns: (1fr, 1fr), column-gutter: 14pt,
   // ---------- left

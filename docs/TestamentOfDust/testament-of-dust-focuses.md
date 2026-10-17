@@ -1,9 +1,9 @@
-# 2d12 System — Hollow Frontier Setting Pack: Focuses
+# 2d12 System — Testament of Dust Setting Pack: Focuses
 
-> Markdown edition of **Chapter X, Frontier Focuses** in `vampire-hunter-d-2d12-v2-master-rulebook.typ`.
+> Markdown edition of **Chapter X, Frontier Focuses** in `testament-of-dust-2d12-v2-master-rulebook.typ`.
 > The Typst master is the source of truth; edit it first, then regenerate this file
 > (`pandoc -f typst -t gfm`). Synced 2026-10-16 (Q37-Q41 rulings). Supersedes the v0.1 draft of this file.
-> Pack files: **vhd-setting-rules.md** · **vhd-descriptors.md** · **vhd-playbooks.md** · **vhd-focuses.md**.
+> Pack files: **testament-of-dust-setting-rules.md** · **testament-of-dust-descriptors.md** · **testament-of-dust-playbooks.md** · **testament-of-dust-focuses.md**.
 
 ---
 Twenty Focuses steeped in the Frontier: afflicted blood, bounties, relics and ruins, the old faith, villages holding the line until dawn, and the people who love what they should hate.

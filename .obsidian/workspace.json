@@ -14,10 +14,10 @@
             "state": {
               "type": "typst-source",
               "state": {
-                "file": "docs/VampireHunterD/vampire-hunter-d-2d12-v2-master-rulebook.typ"
+                "file": "docs/TestamentOfDust/testament-of-dust-2d12-v2-master-rulebook.typ"
               },
               "icon": "file-type",
-              "title": "vampire-hunter-d-2d12-v2-master-rulebook"
+              "title": "testament-of-dust-2d12-v2-master-rulebook"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "typst-preview",
               "state": {
-                "vaultPath": "docs/VampireHunterD/vampire-hunter-d-2d12-v2-master-rulebook.typ",
+                "vaultPath": "docs/TestamentOfDust/testament-of-dust-2d12-v2-master-rulebook.typ",
                 "themeOverride": null,
                 "pinned": false
               },
               "icon": "book-open",
-              "title": "Preview: vampire-hunter-d-2d12-v2-master-rulebook.typ"
+              "title": "Preview: testament-of-dust-2d12-v2-master-rulebook.typ"
             }
           }
         ]

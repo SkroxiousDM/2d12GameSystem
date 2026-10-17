@@ -335,6 +335,18 @@ Old-world artifacts carry the standard quirk ***its owners will want it back***:
 >
 > **Blood Locket** — *Tags:* holds a vampire's blood. *Ability:* that bloodline's doors and guardians half-recognise you (+1 die). *Depletion:* 1 in d12 (the blood spoils). *Quirk:* the bloodline's records note every door you open.
 
+### 9.3 The Moving Lights
+
+On a clear night, a few lights cross the sky faster than any star and never twinkle. They are old-world works, left overhead when the old world fell. Most are dead. A few still answer.
+
+- **Under open sky only:** roofs, earth, deep canyons, thick forest and storms (*Sudden Storm*) cut them off.
+
+- **Uses:** the Passenger can reach its bearer through them (*Carries a Passenger*). Some households keep old instruments that listen to them.
+
+- **Overheard:** anything sent through the moving lights may be heard by whoever is listening.
+
+- **Optional Truth 11** (§2.2, *The lights in the sky still move*): if it is in play, something up there is also watching.
+
 ## 10. Bounties, Commissions and Contracts
 
 Most sessions start with a contract. The contract is the party's shared **Goal**. A contract is a **Bounty** (a quarry), a **Commission** (an investigation), an **Escort** or a **Recovery**.

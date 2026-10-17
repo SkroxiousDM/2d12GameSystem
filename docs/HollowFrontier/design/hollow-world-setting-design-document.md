@@ -6,8 +6,8 @@
 |---|---|
 | Project | *Hollow Frontier* (working title) setting for the 2d12 System. Internal codename: Hollow World. Publishable title to be chosen later |
 | Repository | `SkroxiousDM/2d12GameSystem` — current source `docs/HollowFrontier/vampire-hunter-d-2d12-v2-master-rulebook.typ`; design documents in `docs/HollowFrontier/design/` |
-| Document version | 0.11 — Q37–Q41 applied to the master rulebook (B.20); rulebook folder renamed to `docs/HollowFrontier/` |
-| Compiled | 2026-10-16 (v0.1); revised 2026-10-16 (v0.2–v0.11) |
+| Document version | 0.12 — field-guide names finalised; Order Sidearm and Passenger range confirmed; the moving lights added (Q42) |
+| Compiled | 2026-10-16 (v0.1); revised 2026-10-16 (v0.2–v0.12) |
 | Purpose | Replace the *Vampire Hunter D* adaptation layer with an original setting while preserving the 2d12 engine and all character options |
 | Audience | Designer and GM. Sections marked **Player** may be adapted for player-facing chapters; everything marked **GM-only** must stay behind the screen |
 
@@ -649,6 +649,7 @@ Player text describes capabilities, needs, and costs only. Never the microscopic
 
 - **Bound to hardware:** a facsimile exists only where its machinery survives — a shrine, archive, hospital, or vault. It cannot travel.
 - **[CANON — Q38] No portable facsimiles.** No implant, relic, or carried device holds a facsimile. A facsimile may live in **fixed-route machinery** (a transit line, a canal-lock system) because it never leaves its installation. A facsimile may **speak at a distance** through surviving relays, such as an earpiece relic, a speaker grille, or a wall terminal, but only within range of its home site. Out of range, it goes quiet.
+- **[CANON — Q42] The moving lights.** A handful of old-world satellites (GM term; in-world *the moving lights*) survive from the abandonment of the high stations (§4.2). Most are dead. A few communication relays still answer from orbit. Under open sky, a facsimile's voice can reach a bearer through one while it is overhead: in play, **9+ on a d12 at the start of a scene**. Roofs, earth, deep canyons, thick forest and storms block it. Traffic through them can be **overheard** by anyone holding a working ground receiver, and a few households do. Who owns the receivers, and what they have heard, is a political question (P1). The facsimile is still hardware-bound: only its voice travels. Optional Truth 11 (*the lights in the sky still move*) adds that something up there is also **watching**: at least one surviving work is an observation platform still recording the ground. Who, if anyone, still reads its records is the GM's to decide.
 - **Built from records:** it holds what was recorded, not a living memory. It is confident, articulate, and incomplete.
 - **Out of date:** most do not know how much time has passed, and some refuse to believe it.
 - **Unreliable in the Wolfe sense:** a facsimile is a witness, like the Remembered (§5.11). It can be wrong, edited, or built to persuade.
@@ -979,7 +980,7 @@ Killing the vampire is possible. It is not equivalent to solving the crisis.
 - **Vampire feeding rules:** what a vampire character experiences and manages.
 - **GM setting chapter:** the longevity treatment, nanites, conversion, blood debt, afflicted-responsive systems, and limits of surviving knowledge.
 - **Adventures:** every clue states what it shows, what people believe it shows, and what remains uncertain.
-- **[CANON — Q41] Hunters' field guide handout.** The **Stalker** chapter includes an in-world hunters' classification of vampires (*Sleepers*, *Get*, *Sippers* — placeholder names) as a player-facing handout. The **Occultist** chapter cross-references it. It is written entirely in-world, accurate about what hunters observed and wrong about causes. It never states the GM truth (§5.10, F5). Threat ranks (B.5.1) stay the GM's actual measure. The GM key is in the *Dark Tower* review, D8.
+- **[CANON — Q41] Hunters' field guide handout.** The **Stalker** chapter includes an in-world hunters' classification of vampires (**Winterers**, **Strays**, **Tapsters**) as a player-facing handout. The **Occultist** chapter cross-references it. It is written entirely in-world, accurate about what hunters observed and wrong about causes. It never states the GM truth (§5.10, F5). Threat ranks (B.5.1) stay the GM's actual measure. The GM key is in the *Dark Tower* review, D8.
 
 ### 10.3 Clearance checklist (carried forward from the copyright review)
 
@@ -1088,7 +1089,8 @@ Suggested format: **Title: Subtitle**, with the existing tagline *"Roads through
 | Q38 | Portable facsimiles | No. Fixed-route hardware allowed; speech at a distance only through relays in range of the home site | §5.15 |
 | Q39 | Formal legal register | Adopted as P7; register errors are grounds to challenge, not automatic voiding | §7.3, §7.6 |
 | Q40 | Order of the Last Guns | Neighbouring province; the March gets claimants, refugees, and relic sidearms | §8.2 |
-| Q41 | Hunters' taxonomy handout | Yes; Stalker chapter, cross-referenced in Occultist; in-world only | §10.2 |
+| Q41 | Hunters' taxonomy handout | Yes; Stalker chapter, cross-referenced in Occultist; in-world only. Classes: Winterers, Strays, Tapsters | §10.2 |
+| Q42 | Satellite coverage under open sky | The moving lights: surviving orbital relays carry a Passenger's voice under open sky on 9+ on a d12 per scene; traffic can be overheard; Truth 11 adds a watcher | §5.15; rulebook Frontier Rules §9.3 |
 
 ### 11.2 Still open
 
@@ -1096,7 +1098,7 @@ Suggested format: **Title: Subtitle**, with the existing tagline *"Roads through
 |---|---|---|
 | Q16 | Publishable title | Shortlist in §10.4: Afterborn (recommended), Blood Inquest, Testament + qualifier, Half a Litre, The Long-Lived. Needs USPTO search and attorney review |
 | Q36 | Rename the Vesper March? | Overlaps with *BattleTech*'s Vesper Marches; keep as working name, rename before publication |
-| Q30 | Psychic and possession Focuses (*Sends the Mind Abroad*, *Carries a Passenger*) need a material basis or reframing to fit the technological foundation | **Partly resolved by Q38, and applied to the rulebook (B.20):** *Carries a Passenger* must use a relay-linked facsimile with a range limit (the Tethered Voice), not a carried one. *Sends the Mind Abroad* is still open; the *Dark Tower* review §4 recommends the Relay-Sense (an implant reading surviving old-world networks) |
+| Q30 | Psychic and possession Focuses (*Sends the Mind Abroad*, *Carries a Passenger*) need a material basis or reframing to fit the technological foundation | **Partly resolved by Q38, and applied to the rulebook (B.20):** *Carries a Passenger* must use a relay-linked facsimile with a range limit (the Tethered Voice), not a carried one. *Sends the Mind Abroad* is still open; the *Dark Tower* review §4 recommends the Relay-Sense (an implant reading surviving old-world networks). Consider whether the Relay-Sense can also reach through the moving lights (Q42); if it does, give it the same open-sky limit and overhearing risk |
 
 ## 12. Superseded Concepts Archive
 
@@ -1169,6 +1171,9 @@ Charter Towns, Custodians, Blood Compacts, Passage Houses, and the Unregistered.
 | 2026-10-16 | Q40: Order of the Last Guns placed in a neighbouring province; the March receives its claimants and relic sidearms | **[CANON]** |
 | 2026-10-16 | Q41: in-world hunters' field guide handout goes in the Stalker chapter, cross-referenced in Occultist | **[CANON]** |
 | 2026-10-16 | Q37–Q41 applied to the master rulebook; *Carries a Passenger* rewritten as the Tethered Voice and moved to Old-World Focuses (B.20) | **[APPLIED — review]** |
+| 2026-10-16 | Q41 amended: field-guide classes renamed **Winterers**, **Strays**, **Tapsters** | **[CANON]** |
+| 2026-10-16 | Order Sidearm numbers and the Passenger's default range confirmed as written in B.20 | **[CANON]** |
+| 2026-10-16 | Q42: the moving lights (surviving orbital relays) carry a Passenger's voice under open sky, 9+ on a d12 per scene, with an overhearing risk; Truth 11 adds an observation platform; rulebook Frontier Rules §9.3 added | **[CANON]** |
 | 2026-10-16 | Folder `docs/VampireHunterD/` renamed `docs/HollowFrontier/`; design documents moved to `docs/HollowFrontier/design/`. File names unchanged pending Q16 | **[APPLIED — review]** |
 
 ---
@@ -1783,9 +1788,15 @@ Applied on branch `feat/hollow-frontier-q37-q41-rename`, stacked on PR #19. File
 | Ruling | Where it went in the rulebook | Choices made while applying (**[APPLIED — review]**) |
 |---|---|---|
 | Q37 | Frontier Rules §5.6 *The Returned* (new); §6 Bled bullet; design note | The degraded tag appears only as an observation ("doors react oddly, as if it half-belonged to a bloodline; no one agrees why"). A PC who survives a failed making leaves player control, like one who is made a vampire. The Long Levy appears only as a rumour |
-| Q38 | Frontier Focuses: *Carries a Passenger* rewritten and moved to Old-World Focuses (now Focus 9; former Focuses 4–9 renumbered 3–8) | The Passenger is a voice relayed from a fixed home site, with a default range of about a day's ride and a working relay letting it speak for a scene. *Devourer* became **Override** (Disrupt old-world effects only), *Feed Me, Heal You* became **Talk You Through It**, and *Let It Drive* became **★ Do Exactly What I Say**. Power tag *it eats what hurts me* became *the old works listen to it*. Costs and Power are unchanged. A design note warns GMs to place relays on long journeys |
+| Q38 | Frontier Focuses: *Carries a Passenger* rewritten and moved to Old-World Focuses (now Focus 9; former Focuses 4–9 renumbered 3–8) | The Passenger is a voice relayed from a fixed home site, with a default range of about a day's ride and a working relay letting it speak for a scene. *Devourer* became **Override** (Disrupt old-world effects only), *Feed Me, Heal You* became **Talk You Through It**, and *Let It Drive* became **★ Do Exactly What I Say**. Power tag *it eats what hurts me* became *the old works listen to it*. Costs and Power are unchanged. A design note warns GMs to place relays on long journeys. **Range limit confirmed [CANON]; open-sky exception added (Q42).** |
 | Q39 | Frontier Rules §10.5 *Charter-Speech and Binding Instruments* (new); Old Lore skill row; design note | Reading is Standard 15; composing is Hard 18, or Standard 15 with a tag such as *fluent in the old pacts*. A flaw found by Discover becomes a tag for the challenger, never a verdict |
-| Q40 | Frontier Rules §9.2: Order paragraph and a new **★ Order Sidearm** artifact | The rulebook says "a neighbouring province" (it has no Vesper March text). The sidearm is ★, ignores Armour on vampires, gives a free bonus die on Persuade/Intimidate with those who remember the Order, and is locked to the armoury log; depletion 1 in d12 |
-| Q41 | Frontier Playbooks, Stalker §2.4 handout (sidebar); Occultist §6.4 cross-reference | Classes *Sleepers*, *Get*, *Sippers* (placeholders). Each gives what hunters saw and a wrong "Hunters say" explanation; the intro points the GM to threat ranks |
+| Q40 | Frontier Rules §9.2: Order paragraph and a new **★ Order Sidearm** artifact | The rulebook says "a neighbouring province" (it has no Vesper March text). The sidearm is ★, ignores Armour on vampires, gives a free bonus die on Persuade/Intimidate with those who remember the Order, and is locked to the armoury log; depletion 1 in d12. **Numbers confirmed [CANON].** |
+| Q41 | Frontier Playbooks, Stalker §2.4 handout (sidebar); Occultist §6.4 cross-reference | Classes **Winterers**, **Strays**, **Tapsters** (final; replaced the placeholders *Sleepers*, *Get*, *Sippers*). Each gives what hunters saw and a wrong "Hunters say" explanation; the intro points the GM to threat ranks |
 
 **Not changed:** *Sends the Mind Abroad* (Q30 still open), the character sheet (it doesn't list Focuses), and `vhd-descriptors.md` (no content change).
+
+**Follow-up (v0.12):**
+
+- **Field-guide names.** *Sleepers*, *Get* and *Sippers* became **Winterers** (they go to ground for a generation, like animals wintering), **Strays** (made and then let loose; the GM truth is that nobody maintains them) and **Tapsters** (they draw a little, the way a tapster draws from a cask). The text is unchanged otherwise.
+- **Confirmed [CANON]:** the Order Sidearm numbers and the Passenger's default range (about a day's ride).
+- **Q42, the moving lights:** new Frontier Rules §9.3 (observable only). *Carries a Passenger* gains an open-sky bullet: 9+ on a d12 at the start of a scene under open sky lets the Passenger speak and use its abilities that scene. The GM may compel *someone else heard* or spend 1 Woe to have the message overheard. Design note updated. The rulebook never uses the word "satellite" (§7.6).

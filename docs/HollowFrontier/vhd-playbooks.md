@@ -154,11 +154,11 @@ Hunters pass these notes from hand to hand. Give them to players as found knowle
 
 **The Kinds of the Kept, as Hunters Tell It**
 
-**Sleepers.** The oldest and the worst. They go to ground for a generation and wake hungry enough to empty a village. Cunning, patient, and they know every family in the valley. *Hunters say:* the old ones sleep by choice, to outlast their enemies. Find the sleeping place and burn it.
+**Winterers.** The oldest and the worst. They go to ground for a generation and wake hungry enough to empty a village. Cunning, patient, and they know every family in the valley. *Hunters say:* the old ones sleep by choice, to outlast their enemies. Find the sleeping place and burn it.
 
-**Get.** Newly made, and it shows: clumsy, greedy, careless with their kills. They seldom last more than a few years. *Hunters say:* the blood thins with every making, and a made one is a weak copy of its maker. Kill them young and you'll have little trouble.
+**Strays.** Newly made, and it shows: clumsy, greedy, careless with their kills. They seldom last more than a few years. *Hunters say:* the blood thins with every making, and a made one is a weak copy of its maker. Kill them young and you'll have little trouble.
 
-**Sippers.** They take a little and leave you living. Their donors wake dazed and remember nothing, and many go back willingly. They rarely kill. *Hunters say:* their bite carries a sleeping venom. Never let one near your neck, and never trust a town that seems glad of them.
+**Tapsters.** They take a little and leave you living, the way a tapster draws from a cask. Their donors wake dazed and remember nothing, and many go back willingly. They rarely kill. *Hunters say:* their bite carries a sleeping venom. Never let one near your neck, and never trust a town that seems glad of them.
 
 ## 3. Frontier Doctor
 

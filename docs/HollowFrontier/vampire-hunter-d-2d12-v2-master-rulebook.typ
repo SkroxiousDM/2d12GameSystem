@@ -3375,6 +3375,14 @@ Old-world artifacts carry the standard quirk #strong[#emph[its owners will want 
 #strong[Blood Locket] --- #emph[Tags:] holds a vampire's blood. #emph[Ability:] that bloodline's doors and guardians half-recognise you (+1 die). #emph[Depletion:] 1 in d12 (the blood spoils). #emph[Quirk:] the bloodline's records note every door you open.
 ]
 
+=== 9.3 The Moving Lights
+On a clear night, a few lights cross the sky faster than any star and never twinkle. They are old-world works, left overhead when the old world fell. Most are dead. A few still answer.
+
+- #strong[Under open sky only:] roofs, earth, deep canyons, thick forest and storms (#emph[Sudden Storm]) cut them off.
+- #strong[Uses:] the Passenger can reach its bearer through them (#emph[Carries a Passenger]). Some households keep old instruments that listen to them.
+- #strong[Overheard:] anything sent through the moving lights may be heard by whoever is listening.
+- #strong[Optional Truth 11] (§2.2, #emph[The lights in the sky still move]): if it is in play, something up there is also watching.
+
 == 10. Bounties, Commissions and Contracts
 Most sessions start with a contract. The contract is the party's shared #strong[Goal]. A contract is a #strong[Bounty] (a quarry), a #strong[Commission] (an investigation), an #strong[Escort] or a #strong[Recovery].
 
@@ -4030,11 +4038,11 @@ You hunt by day. While the vampire sleeps, you climb the estate walls, pick the 
 Hunters pass these notes from hand to hand. Give them to players as found knowledge. The guide is right about what hunters saw. Its explanations are another matter. The GM measures a vampire by threat rank (Frontier Rules §5.1), not by these classes.
 
 #sidebar("The Kinds of the Kept, as Hunters Tell It")[
-#strong[Sleepers.] The oldest and the worst. They go to ground for a generation and wake hungry enough to empty a village. Cunning, patient, and they know every family in the valley. #emph[Hunters say:] the old ones sleep by choice, to outlast their enemies. Find the sleeping place and burn it.
+#strong[Winterers.] The oldest and the worst. They go to ground for a generation and wake hungry enough to empty a village. Cunning, patient, and they know every family in the valley. #emph[Hunters say:] the old ones sleep by choice, to outlast their enemies. Find the sleeping place and burn it.
 
-#strong[Get.] Newly made, and it shows: clumsy, greedy, careless with their kills. They seldom last more than a few years. #emph[Hunters say:] the blood thins with every making, and a made one is a weak copy of its maker. Kill them young and you'll have little trouble.
+#strong[Strays.] Newly made, and it shows: clumsy, greedy, careless with their kills. They seldom last more than a few years. #emph[Hunters say:] the blood thins with every making, and a made one is a weak copy of its maker. Kill them young and you'll have little trouble.
 
-#strong[Sippers.] They take a little and leave you living. Their donors wake dazed and remember nothing, and many go back willingly. They rarely kill. #emph[Hunters say:] their bite carries a sleeping venom. Never let one near your neck, and never trust a town that seems glad of them.
+#strong[Tapsters.] They take a little and leave you living, the way a tapster draws from a cask. Their donors wake dazed and remember nothing, and many go back willingly. They rarely kill. #emph[Hunters say:] their bite carries a sleeping venom. Never let one near your neck, and never trust a town that seems glad of them.
 ]
 
 
@@ -5023,6 +5031,7 @@ A voice rides with you, through a relic at your ear, a grille in a buckle, a spe
 - #strong[Weakness tag:] #emph[it has its own plans]
 - #strong[PC link:] "\[PC\] is the only one the Passenger likes. That worries me."
 - #strong[Home site:] choose it with the GM at creation. The Passenger can't leave it; only its voice travels.
+- #strong[Under open sky:] out of range, the Passenger can still reach you through the moving lights (Frontier Rules §9.3). At the start of a scene under open sky, roll a d12: on #strong[9+] one is overhead, and the Passenger can speak and use its abilities for that scene. Each time it speaks this way, the GM may compel #emph[someone else heard] or spend 1 Woe to have the message overheard.
 
 #figure(
   [#table(
@@ -5311,7 +5320,7 @@ A vampire, a dhampir, a retainer, a monster. You love them anyway, and both worl
 - #strong[Dhampir as a Focus] lets any playbook carry afflicted blood: a dhampir Sellsword is the classic Hunter, but a dhampir Frontier Doctor or Broker plays very differently. The dhampir's edge is no longer raw power but access and information: reading blood, opening doors tied to her mother's line, and being wanted by people who matter. Sunlight Syndrome and the Thirst remain the price. #emph[Knows How They Die] is offered for tables that want a fighter. Use the table options if it outshines other Focuses.
 - #strong[Overlaps with playbooks:] #emph[Heals the Bled] stacks with the Frontier Doctor\'s #emph[Treat the Bled];, and #emph[Holds the Line Until Dawn] stacks with the Warden. Both stacks are intended specialist builds; none of them reduce the same Power cost twice.
 - #strong[Vampire-specific Focuses] (#emph[Hunts the Kept];, #emph[Seeks Revenge on a Vampire];) rely on killing strikes. If a campaign has few vampires, steer players toward #emph[Hunts the Beasts of the Frontier] or #emph[Collects the Bounty];.
-- #strong[Carries a Passenger] is an Old-World Focus. The Passenger is a voice relayed from a fixed old-world site, so it has a range; out of range the Focus does nothing. On long journeys, place working relays often enough that the player isn't left without their Focus for whole sessions.
+- #strong[Carries a Passenger] is an Old-World Focus. The Passenger is a voice relayed from a fixed old-world site, so it has a range; out of range the Focus does nothing except under open sky, where the moving lights give it a 1-in-3 chance each scene. On long journeys, place working relays often enough that the player isn't left without their Focus for whole sessions.
 - #strong[★ options] are all at Tier 3, as in #emph[Generic Focuses];, so a character can always choose a path that keeps their Refresh.
 - #strong[Tag-cap exceptions] (Bears an Old-World Relic --- The Relic Awakens; Forges Weapons Against the Night --- Masterwork): aligned with the #strong[Generic Focuses §9.2] fix --- both now add #strong[+1 above the normal +2 cap (maximum +3)] instead of ignoring it outright.
 

@@ -6,6 +6,12 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — field guide, Order Sidearm, the moving lights (2026-10-16)
+- **Hunters' Field Guide:** classes renamed **Winterers**, **Strays** and **Tapsters** (were the placeholders Sleepers, Get, Sippers).
+- **The moving lights** (Frontier Rules §9.3, new): a few old-world works still cross the night sky. They work under open sky only and can be overheard; Optional Truth 11 adds a watcher.
+- **Carries a Passenger:** out of range and under open sky, roll a d12 at the start of a scene; on 9+ the Passenger can speak and use its abilities that scene, at the risk of being overheard. The default range is unchanged.
+- **Order Sidearm** numbers confirmed as written.
+
 ### Changed — Hollow Frontier folder (2026-10-16)
 - `docs/VampireHunterD/` renamed **`docs/HollowFrontier/`**. The setting design document and the *Dark Tower* elements review moved to `docs/HollowFrontier/design/`. File names inside (`vampire-hunter-d-2d12-v2-master-rulebook.*`, `vhd-*.md`) are unchanged until the publishable title is chosen. Paths in older entries below refer to the old folder.
 

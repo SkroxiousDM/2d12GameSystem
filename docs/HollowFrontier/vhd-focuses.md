@@ -234,6 +234,8 @@ Focus rules are unchanged from *Generic Focuses* §1:
 
 - **Home site:** choose it with the GM at creation. The Passenger can't leave it; only its voice travels.
 
+- **Under open sky:** out of range, the Passenger can still reach you through the moving lights (Frontier Rules §9.3). At the start of a scene under open sky, roll a d12: on **9+** one is overhead, and the Passenger can speak and use its abilities for that scene. Each time it speaks this way, the GM may compel *someone else heard* or spend 1 Woe to have the message overheard.
+
 | Tier | Ability | Effect |
 |----|----|----|
 | 1 | **The Passenger** | Once per scene, ask a free Discover: the Passenger answers, truthfully but not always helpfully, and often out of date. It can talk to others through the relic, which is often a compel. **Range:** it speaks only within reach of its home site's relays, by default about a day's ride. Out of range it goes quiet and this Focus's abilities don't work. A working old-world relay (a lit terminal, a speaker grille, a site where the lights are still on) lets it speak for that scene; finding or waking one may take a Science roll. |
@@ -456,7 +458,7 @@ Focus rules are unchanged from *Generic Focuses* §1:
 
 - **Vampire-specific Focuses** (*Hunts the Kept*, *Seeks Revenge on a Vampire*) rely on killing strikes. If a campaign has few vampires, steer players toward *Hunts the Beasts of the Frontier* or *Collects the Bounty*.
 
-- **Carries a Passenger** is an Old-World Focus. The Passenger is a voice relayed from a fixed old-world site, so it has a range; out of range the Focus does nothing. On long journeys, place working relays often enough that the player isn't left without their Focus for whole sessions.
+- **Carries a Passenger** is an Old-World Focus. The Passenger is a voice relayed from a fixed old-world site, so it has a range; out of range the Focus does nothing except under open sky, where the moving lights give it a 1-in-3 chance each scene. On long journeys, place working relays often enough that the player isn't left without their Focus for whole sessions.
 
 - **★ options** are all at Tier 3, as in *Generic Focuses*, so a character can always choose a path that keeps their Refresh.
 

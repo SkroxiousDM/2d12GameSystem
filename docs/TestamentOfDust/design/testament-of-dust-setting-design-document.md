@@ -1,13 +1,13 @@
-# Hollow Frontier — Setting Design Document
+# Testament of Dust — Setting Design Document
 
 > Roads through a broken world. Blood behind every bargain.
 
 | Field | Value |
 |---|---|
-| Project | *Hollow Frontier* (working title) setting for the 2d12 System. Internal codename: Hollow World. Publishable title to be chosen later |
-| Repository | `SkroxiousDM/2d12GameSystem` — current source `docs/VampireHunterD/vampire-hunter-d-2d12-v2-master-rulebook.typ` |
-| Document version | 0.10 — Q37–Q41 resolved from the *Dark Tower* elements review; Q30 partly resolved |
-| Compiled | 2026-10-16 (v0.1); revised 2026-10-16 (v0.2–v0.10) |
+| Project | ***Testament of Dust*** (publishable title, Q16), a setting for the 2d12 System. Working title *Hollow Frontier*; internal codename Hollow World |
+| Repository | `SkroxiousDM/2d12GameSystem` — current source `docs/TestamentOfDust/testament-of-dust-2d12-v2-master-rulebook.typ`; design documents in `docs/TestamentOfDust/design/`. Older entries below use the earlier paths (see B.21) |
+| Document version | 0.15 — rulebook rebranded to *Testament of Dust*; files and folder renamed (B.21) |
+| Compiled | 2026-10-16 (v0.1); revised 2026-10-16 (v0.2–v0.15) |
 | Purpose | Replace the *Vampire Hunter D* adaptation layer with an original setting while preserving the 2d12 engine and all character options |
 | Audience | Designer and GM. Sections marked **Player** may be adapted for player-facing chapters; everything marked **GM-only** must stay behind the screen |
 
@@ -649,6 +649,8 @@ Player text describes capabilities, needs, and costs only. Never the microscopic
 
 - **Bound to hardware:** a facsimile exists only where its machinery survives — a shrine, archive, hospital, or vault. It cannot travel.
 - **[CANON — Q38] No portable facsimiles.** No implant, relic, or carried device holds a facsimile. A facsimile may live in **fixed-route machinery** (a transit line, a canal-lock system) because it never leaves its installation. A facsimile may **speak at a distance** through surviving relays, such as an earpiece relic, a speaker grille, or a wall terminal, but only within range of its home site. Out of range, it goes quiet.
+- **[CANON — Q30] The Relay-Sense.** *Sends the Mind Abroad* is an old-world neural implant: a sliver of old-work behind the ear that lets its bearer perceive through, and briefly drive, old-world devices on the surviving relays. It is not a spirit, and nothing leaves the body but signal. Implants are installed, not inherited. Teachers, household surgeons and salvagers fit them, often badly. Folklore calls it *walking abroad*. Its open-sky use rides the moving lights exactly like a facsimile's voice: 9+ on a d12 per scene, with a risk of being noticed by anyone else on the same works, and by Truth 11's watcher if it is in play.
+- **[CANON — Q42] The moving lights.** A handful of old-world satellites (GM term; in-world *the moving lights*) survive from the abandonment of the high stations (§4.2). Most are dead. A few communication relays still answer from orbit. Under open sky, a facsimile's voice can reach a bearer through one while it is overhead: in play, **9+ on a d12 at the start of a scene**. Roofs, earth, deep canyons, thick forest and storms block it. Traffic through them can be **overheard** by anyone holding a working ground receiver, and a few households do. Who owns the receivers, and what they have heard, is a political question (P1). The facsimile is still hardware-bound: only its voice travels. Optional Truth 11 (*the lights in the sky still move*) adds that something up there is also **watching**: at least one surviving work is an observation platform still recording the ground. Who, if anyone, still reads its records is the GM's to decide.
 - **Built from records:** it holds what was recorded, not a living memory. It is confident, articulate, and incomplete.
 - **Out of date:** most do not know how much time has passed, and some refuse to believe it.
 - **Unreliable in the Wolfe sense:** a facsimile is a witness, like the Remembered (§5.11). It can be wrong, edited, or built to persuade.
@@ -979,22 +981,41 @@ Killing the vampire is possible. It is not equivalent to solving the crisis.
 - **Vampire feeding rules:** what a vampire character experiences and manages.
 - **GM setting chapter:** the longevity treatment, nanites, conversion, blood debt, afflicted-responsive systems, and limits of surviving knowledge.
 - **Adventures:** every clue states what it shows, what people believe it shows, and what remains uncertain.
-- **[CANON — Q41] Hunters' field guide handout.** The **Stalker** chapter includes an in-world hunters' classification of vampires (*Sleepers*, *Get*, *Sippers* — placeholder names) as a player-facing handout. The **Occultist** chapter cross-references it. It is written entirely in-world, accurate about what hunters observed and wrong about causes. It never states the GM truth (§5.10, F5). Threat ranks (B.5.1) stay the GM's actual measure. The GM key is in the *Dark Tower* review, D8.
+- **[CANON — Q41] Hunters' field guide handout.** The **Stalker** chapter includes an in-world hunters' classification of vampires (**Winterers**, **Strays**, **Tapsters**) as a player-facing handout. The **Occultist** chapter cross-references it. It is written entirely in-world, accurate about what hunters observed and wrong about causes. It never states the GM truth (§5.10, F5). Threat ranks (B.5.1) stay the GM's actual measure. The GM key is in the *Dark Tower* review, D8.
 
 ### 10.3 Clearance checklist (carried forward from the copyright review)
 
-- [ ] Remove "inspired by Vampire Hunter D" from the cover tagline.
-- [ ] Remove the "unofficial fan adaptation" colophon and replace with original credits.
-- [ ] Remove every reference to D and franchise setting material.
-- [ ] Rename the `.typ` file and `docs/VampireHunterD/` folder.
+- [x] Remove "inspired by Vampire Hunter D" from the cover tagline (v0.15).
+- [x] Remove the "unofficial fan adaptation" colophon and replace with original credits (v0.15).
+- [x] Remove every reference to D and franchise setting material. The last three name references were removed in v0.15; a search of the rulebook and character sheet finds no franchise names or terms. Attorney review should confirm.
+- [x] Rename the `docs/VampireHunterD/` folder (`docs/HollowFrontier/` in v0.11; `docs/TestamentOfDust/` in v0.15).
+- [x] Rename the `.typ` file, the `vhd-*.md` files and the remaining *Vampire Hunter D* file names (v0.15, B.21).
 - [ ] Build a provenance ledger for borrowed mechanics (Fate, Cypher, 2d20, Blades in the Dark, others) and confirm licence compliance against the official SRDs.
 - [ ] Apply the originality guardrails in §3.5 to all new setting text.
-- [ ] Choose and clear a publishable title (Q16). Neither working name is recommended for sale: "Hollow World" is a 1990 TSR *D&D* setting still in print, and "Hollow Frontier" is an existing post-collapse game on Steam.
+- [x] Choose a publishable title (Q16): ***Testament of Dust***. **Clearance is still open:** a USPTO search and attorney review are required before publication. Neither working name is for sale: "Hollow World" is a 1990 TSR *D&D* setting still in print, and "Hollow Frontier" is an existing post-collapse survival game on Steam.
 - [ ] Obtain U.S. IP attorney review before commercial release.
 
 ---
 
-### 10.4 Title and naming screen **[PROPOSED — Q16, Q36]**
+### 10.4 Title and naming screen **[Q16 RESOLVED — *Testament of Dust*; Q36 PROPOSED]**
+
+#### Decision (2026-10-16) **[CANON]**
+
+**Publishable title: *Testament of Dust*.** The tagline stays: *"Roads through a broken world. Blood behind every bargain."* No subtitle for now.
+
+- **Why it fits:** a testament is a will, and wills are the setting's engine (disputed inheritance, *The Second Testament*). Dust covers the frontier roads, the ruins, and the dry dead. It names no vampires, no blood, and no in-world term, so it doesn't spoil the mystery.
+- **How it was chosen:** the designer picked *Testament + qualifier* from the shortlist below. Screening showed "Testament" alone is crowded:
+  - Green Ronin's tabletop RPG [*Testament: Roleplaying in the Biblical Era*](https://greenronin.com/blog/2004/12/29/free_adventure_for_testament_r/) (2003)
+  - a post-apocalyptic fantasy video game, [*Testament: The Order of High Human*](https://store.steampowered.com/app/2176430/Testament_The_Order_of_HighHuman/) (2023)
+  - a tactical RPG, [*TESTAMENT*](https://turnbasedlovers.com/news/testament-an-upcoming-oldschool-style-tactical-rpg/)
+  - a [co-op board game](https://www.meeplemountain.com/reviews/testament/)
+  - *Hunt: Showdown 1896*'s [*Blood Testament*](https://www.crytek.com/news/blood-testament-comes-to-hunt-showdown-1896-on-september-8th) event (2026)
+
+  So the qualifier is part of the title, not a removable subtitle. Rejected along the way: *Testament of the Long-Lived*, *The Disputed Testament*, *Testament of the Dry Dead*, *Testament: Blood, Inheritance, and the Old World*, *The Ninth Testament*, *Testament of Glass*, *Testament Under Open Sky*, *The Lantern Testament*. Also screened out: *Hollow Testament* (a supernatural-noir comic and a 2018 film) and *Iron Testament* (a [post-apocalyptic strategy game](https://roosevelt.games/projects/iron-testament/)).
+- **Screen result (web, 2026-10-16):** no game, RPG or book titled *Testament of Dust* found. Nearby but distinct: Philip Pullman's *The Book of Dust*, Margaret Atwood's *The Testaments*, and the thrash-metal band Testament. **This is not trademark clearance.**
+- **Before publication:** USPTO search (classes 16 and 28 for print and games; 9 for digital), attorney review (§10.3), and a domain and handle check.
+
+#### Original screen (pre-decision)
 
 A quick web screen run on 2026-10-16 to look for existing games, tools, and books using each candidate name. **This is not trademark clearance.** The final choice still needs a USPTO search and the attorney review in §10.3.
 
@@ -1087,15 +1108,16 @@ Suggested format: **Title: Subtitle**, with the existing tagline *"Roads through
 | Q38 | Portable facsimiles | No. Fixed-route hardware allowed; speech at a distance only through relays in range of the home site | §5.15 |
 | Q39 | Formal legal register | Adopted as P7; register errors are grounds to challenge, not automatic voiding | §7.3, §7.6 |
 | Q40 | Order of the Last Guns | Neighbouring province; the March gets claimants, refugees, and relic sidearms | §8.2 |
-| Q41 | Hunters' taxonomy handout | Yes; Stalker chapter, cross-referenced in Occultist; in-world only | §10.2 |
+| Q41 | Hunters' taxonomy handout | Yes; Stalker chapter, cross-referenced in Occultist; in-world only. Classes: Winterers, Strays, Tapsters | §10.2 |
+| Q42 | Satellite coverage under open sky | The moving lights: surviving orbital relays carry a Passenger's voice under open sky on 9+ on a d12 per scene; traffic can be overheard; Truth 11 adds a watcher | §5.15; rulebook Frontier Rules §9.3 |
+| Q16 | Publishable title | ***Testament of Dust***; tagline kept; no subtitle for now. Still needs a USPTO search and attorney review | §10.4 |
+| Q30 | Psychic and possession Focuses | *Carries a Passenger*: the Tethered Voice (Q38). *Sends the Mind Abroad*: the Relay-Sense, an old-world implant that rides surviving works and relays, under the same open-sky rule as the Passenger (Q42) | §5.15; rulebook Frontier Focuses 9 and 10 |
 
 ### 11.2 Still open
 
 | # | Question | Current proposal |
 |---|---|---|
-| Q16 | Publishable title | Shortlist in §10.4: Afterborn (recommended), Blood Inquest, Testament + qualifier, Half a Litre, The Long-Lived. Needs USPTO search and attorney review |
 | Q36 | Rename the Vesper March? | Overlaps with *BattleTech*'s Vesper Marches; keep as working name, rename before publication |
-| Q30 | Psychic and possession Focuses (*Sends the Mind Abroad*, *Carries a Passenger*) need a material basis or reframing to fit the technological foundation | **Partly resolved by Q38:** *Carries a Passenger* must use a relay-linked facsimile with a range limit (the Tethered Voice), not a carried one. *Sends the Mind Abroad* is still open; the *Dark Tower* review §4 recommends the Relay-Sense (an implant reading surviving old-world networks) |
 
 ## 12. Superseded Concepts Archive
 
@@ -1167,6 +1189,14 @@ Charter Towns, Custodians, Blood Compacts, Passage Houses, and the Unregistered.
 | 2026-10-16 | Q39: formal register for binding instruments adopted as political rule P7; errors are grounds to challenge | **[CANON]** |
 | 2026-10-16 | Q40: Order of the Last Guns placed in a neighbouring province; the March receives its claimants and relic sidearms | **[CANON]** |
 | 2026-10-16 | Q41: in-world hunters' field guide handout goes in the Stalker chapter, cross-referenced in Occultist | **[CANON]** |
+| 2026-10-16 | Q37–Q41 applied to the master rulebook; *Carries a Passenger* rewritten as the Tethered Voice and moved to Old-World Focuses (B.20) | **[APPLIED — review]** |
+| 2026-10-16 | Q41 amended: field-guide classes renamed **Winterers**, **Strays**, **Tapsters** | **[CANON]** |
+| 2026-10-16 | Order Sidearm numbers and the Passenger's default range confirmed as written in B.20 | **[CANON]** |
+| 2026-10-16 | Q42: the moving lights (surviving orbital relays) carry a Passenger's voice under open sky, 9+ on a d12 per scene, with an overhearing risk; Truth 11 adds an observation platform; rulebook Frontier Rules §9.3 added | **[CANON]** |
+| 2026-10-16 | Q30 resolved: *Sends the Mind Abroad* rebuilt on the Relay-Sense (old-world implant) and given the open-sky rule (Q42); abilities renamed, costs and Power unchanged | **[CANON — applied, review]** |
+| 2026-10-16 | Folder `docs/VampireHunterD/` renamed `docs/HollowFrontier/`; design documents moved to `docs/HollowFrontier/design/`. File names unchanged pending Q16 | **[APPLIED — review]** |
+| 2026-10-16 | Rulebook rebranded to *Testament of Dust* (cover, credits, running header, metadata, character-sheet insert); folder renamed `docs/TestamentOfDust/`; rulebook, Markdown and design files renamed; stale `*-1.pdf` duplicates removed (B.21) | **[APPLIED — review]** |
+| 2026-10-16 | Q16 resolved: publishable title ***Testament of Dust***, chosen over the §10.4 shortlist and two further screened rounds. The rulebook cover, running header and file names are not yet rebranded; trademark clearance still pending | **[CANON]** |
 
 ---
 
@@ -1220,7 +1250,7 @@ Supplementary reference (*Dark Tower* elements review, Q37–Q41):
 - Dark Tower Wiki — Blaine the Mono: https://darktower.fandom.com/wiki/Blaine_the_Mono
 - Full source list: companion *Dark Tower Elements Review*, §7
 
-Repository files reviewed for Appendix A: `docs/VampireHunterD/vampire-hunter-d-2d12-v2-master-rulebook.typ`, `vhd-focuses.md`, `vhd-setting-rules.md` in `SkroxiousDM/2d12GameSystem`.
+Repository files reviewed for Appendix A (then in `docs/VampireHunterD/`, now `docs/HollowFrontier/`): `vampire-hunter-d-2d12-v2-master-rulebook.typ`, `vhd-focuses.md`, `vhd-setting-rules.md` in `SkroxiousDM/2d12GameSystem`.
 
 Internal sources: Hollow Frontier refinement sessions of 2026-10-15 and 2026-10-16 (copyright review, rebrand concept, setting refinement, feeding rules, knowledge-layer decision), the open-question rulings of 2026-10-16, and the Broken Empire / Red Queen's War technology inventory session of 2026-10-16.
 
@@ -1771,4 +1801,52 @@ Applied in [PR #19](https://github.com/SkroxiousDM/2d12GameSystem/pull/19) on br
 | Introduction | Rules-describing lines (chapter table, Woe row, ◈ marker, tone sidebar) updated; *D himself* removed. Cover, credits, file header and "About This Book" branding left for the rebrand pass |
 | `vhd-*.md` | Regenerated from the master with pandoc (they were v0.1 drafts using the old Vigor/Fate Points/Threat terms), with a header naming the Typst master as the source of truth |
 
-**Not yet applied:** the cover and title rebrand (Q16), the Vesper March rename (Q36), the basis for the psychic Focuses (Q30), file and folder names, and the `*-1.pdf` duplicate PDFs.
+**Not yet applied:** the cover and title rebrand (Q16), the Vesper March rename (Q36), the basis for the psychic Focuses (Q30; since applied, see B.20), file and folder names, and the `*-1.pdf` duplicate PDFs.
+
+### B.20 Implementation notes (v0.11) — Q37–Q41
+
+Applied on branch `feat/hollow-frontier-q37-q41-rename`, stacked on PR #19. Files changed: the master rulebook `.typ` and `.pdf`, `vhd-setting-rules.md`, `vhd-playbooks.md`, `vhd-focuses.md`, and `CHANGELOG.md`. As in B.19, only player-safe text went into the rulebook; GM truths stay in this document.
+
+| Ruling | Where it went in the rulebook | Choices made while applying (**[APPLIED — review]**) |
+|---|---|---|
+| Q37 | Frontier Rules §5.6 *The Returned* (new); §6 Bled bullet; design note | The degraded tag appears only as an observation ("doors react oddly, as if it half-belonged to a bloodline; no one agrees why"). A PC who survives a failed making leaves player control, like one who is made a vampire. The Long Levy appears only as a rumour |
+| Q38 | Frontier Focuses: *Carries a Passenger* rewritten and moved to Old-World Focuses (now Focus 9; former Focuses 4–9 renumbered 3–8) | The Passenger is a voice relayed from a fixed home site, with a default range of about a day's ride and a working relay letting it speak for a scene. *Devourer* became **Override** (Disrupt old-world effects only), *Feed Me, Heal You* became **Talk You Through It**, and *Let It Drive* became **★ Do Exactly What I Say**. Power tag *it eats what hurts me* became *the old works listen to it*. Costs and Power are unchanged. A design note warns GMs to place relays on long journeys. **Range limit confirmed [CANON]; open-sky exception added (Q42).** |
+| Q39 | Frontier Rules §10.5 *Charter-Speech and Binding Instruments* (new); Old Lore skill row; design note | Reading is Standard 15; composing is Hard 18, or Standard 15 with a tag such as *fluent in the old pacts*. A flaw found by Discover becomes a tag for the challenger, never a verdict |
+| Q40 | Frontier Rules §9.2: Order paragraph and a new **★ Order Sidearm** artifact | The rulebook says "a neighbouring province" (it has no Vesper March text). The sidearm is ★, ignores Armour on vampires, gives a free bonus die on Persuade/Intimidate with those who remember the Order, and is locked to the armoury log; depletion 1 in d12. **Numbers confirmed [CANON].** |
+| Q41 | Frontier Playbooks, Stalker §2.4 handout (sidebar); Occultist §6.4 cross-reference | Classes **Winterers**, **Strays**, **Tapsters** (final; replaced the placeholders *Sleepers*, *Get*, *Sippers*). Each gives what hunters saw and a wrong "Hunters say" explanation; the intro points the GM to threat ranks |
+
+**Not changed:** *Sends the Mind Abroad* (Q30 still open), the character sheet (it doesn't list Focuses), and `vhd-descriptors.md` (no content change).
+
+**Follow-up (v0.12):**
+
+- **Field-guide names.** *Sleepers*, *Get* and *Sippers* became **Winterers** (they go to ground for a generation, like animals wintering), **Strays** (made and then let loose; the GM truth is that nobody maintains them) and **Tapsters** (they draw a little, the way a tapster draws from a cask). The text is unchanged otherwise.
+- **Confirmed [CANON]:** the Order Sidearm numbers and the Passenger's default range (about a day's ride).
+- **Q42, the moving lights:** new Frontier Rules §9.3 (observable only). *Carries a Passenger* gains an open-sky bullet: 9+ on a d12 at the start of a scene under open sky lets the Passenger speak and use its abilities that scene. The GM may compel *someone else heard* or spend 1 Woe to have the message overheard. Design note updated. The rulebook never uses the word "satellite" (§7.6).
+
+**Follow-up (v0.13) — Q30, Sends the Mind Abroad:** rebuilt on the Relay-Sense, with the Passenger's open-sky rule. The quote and Power tags now describe an implant (*my mind rides the old wires*, *eyes in every working wall*). A new **Old works only** bullet says you are blind and deaf where nothing runs, and an **Under open sky** bullet gives 9+ on a d12 per scene through the moving lights, with the GM able to compel *someone else is looking too* or spend 1 Woe to have you noticed. The abilities are renamed with costs and Power unchanged: Astral Self → **Walk Abroad**, Astral Strike → **Feedback** (needs a speaker, lamp or screen in the target's scene), Dream Walker → **Read What It Saw** (Discover from a device's memory, or Restore fear statuses through a speaker), Far-Walker → **Long Wire** (an ally must touch you), ★ Astral Avatar → **★ Take the Hand** (drive a machine that can move; harm still comes out of Pneuma). The category stays Occult: in-world it's taught as an occult practice. §9.3 (the moving lights) and the Focus design notes are updated.
+
+### B.21 Implementation notes (v0.15) — Testament of Dust rebrand
+
+Applied on branch `feat/hollow-frontier-q37-q41-rename` (PR #20).
+
+| Area | Change |
+|---|---|
+| Cover | Title **TESTAMENT OF DUST**. The tagline is now *Post-Apocalyptic Frontier Gothic* (the "inspired by Vampire Hunter D" line is gone), and the motto *Roads through a broken world. Blood behind every bargain.* sits under "Master Rulebook" |
+| Credits | The fan-adaptation notice is replaced with "Testament of Dust is an original setting for the 2d12 System," the motto, and the existing mechanics-inspiration and trademark line. The compilation date is now 2026-10-16 |
+| Running header | `TESTAMENT OF DUST · 2D12 V2` (driven by `book-title`) |
+| Text | Introduction "About This Book" and the Generic Descriptors note no longer name Vampire Hunter D. Source-file comment header rewritten |
+| PDF metadata | Title "Testament of Dust — The 2d12 System · Version 2 — Master Rulebook"; keywords updated |
+| Character sheet | The Frontier insert's title band reads *Testament of Dust*; source comment and keywords updated. The file name stays `2d12-character-sheet-v2` because the sheet belongs to the engine, not the setting |
+
+**File map (old → new):**
+
+| Old path | New path |
+|---|---|
+| `docs/HollowFrontier/` | `docs/TestamentOfDust/` |
+| `vampire-hunter-d-2d12-v2-master-rulebook.typ` / `.pdf` | `testament-of-dust-2d12-v2-master-rulebook.typ` / `.pdf` |
+| `vhd-setting-rules.md`, `vhd-descriptors.md`, `vhd-playbooks.md`, `vhd-focuses.md` | `testament-of-dust-setting-rules.md`, `-descriptors.md`, `-playbooks.md`, `-focuses.md` |
+| `design/hollow-world-setting-design-document.md` | `design/testament-of-dust-setting-design-document.md` |
+| `design/hollow-world-dark-tower-elements.md` | `design/testament-of-dust-dark-tower-elements.md` |
+| `vampire-hunter-d-2d12-v2-master-rulebook-1.pdf`, `2d12-character-sheet-v2-1.pdf` | **Removed.** Stale exports from 2026-10-12 (92-page rulebook, old sheet); recoverable from git history |
+
+**Not renamed:** the branch name, the `art/` files, and the engine drafts (`2d12-system-proposal.md`, `playbooks.md`, `focuses.md`, the resting note), which carry no setting name. Historical entries in this document keep the paths that were current when they were written.

@@ -1,12 +1,11 @@
-# 2d12 System — Hollow Frontier Setting Pack: Setting Rules
+# 2d12 System — Testament of Dust Setting Pack: Setting Rules
 
-> Markdown edition of **Chapter VII, Frontier Rules** in `vampire-hunter-d-2d12-v2-master-rulebook.typ`.
+> Markdown edition of **Chapter VII, Frontier Rules** in `testament-of-dust-2d12-v2-master-rulebook.typ`.
 > The Typst master is the source of truth; edit it first, then regenerate this file
-> (`pandoc -f typst -t gfm`). Synced 2026-10-16. Supersedes the v0.1 draft of this file.
-> Pack files: **vhd-setting-rules.md** · **vhd-descriptors.md** · **vhd-playbooks.md** · **vhd-focuses.md**.
+> (`pandoc -f typst -t gfm`). Synced 2026-10-16 (Q37-Q41 rulings). Supersedes the v0.1 draft of this file.
+> Pack files: **testament-of-dust-setting-rules.md** · **testament-of-dust-descriptors.md** · **testament-of-dust-playbooks.md** · **testament-of-dust-focuses.md**.
 
 ---
-
 The old world is buried beneath the present, but it has not fallen silent. This chapter covers the setting: Campaign Truths, day and night, vampires and the blood they need, the bled, dhampirs, how the afflicted die, old-world works, contracts and the long roads between towns.
 
 > Every door in this valley opens for someone. Find out who, and you'll know who rules it.
@@ -71,7 +70,7 @@ The 20 generic skills are renamed or kept as follows. Default pools are unchange
 |----|----|
 | **Ride** | Horses, cyborg horses, wagons, hover-vehicles, land-ships, and riding through a chase. |
 | **Frontier** | Wilderness survival, desert and wasteland travel, tracking, mutant animals, weather, finding water. |
-| **Old Lore** | History, households and bloodlines, etiquette and succession law, old-world ruins and records, the folklore of the afflicted. |
+| **Old Lore** | History, households and bloodlines, etiquette and succession law, charter-speech (§10.5), old-world ruins and records, the folklore of the afflicted. |
 | **Science** | Repairing, using and disabling machines, old and new; cyborg parts; old-world weapons and works. |
 | **Occult** | Rites, wards and religious practice; omens, relics and reliquaries; what people believe about the afflicted, and which customs they keep. |
 | **Medicine** | Surgery, poisons, mutations, blood loss and transfusion (§6). |
@@ -158,6 +157,20 @@ Sometimes a starved vampire is found dried, light and rigid, like a corpse a cen
 
 - Waking one takes about three people's worth of blood, absorbed over hours or days. It wakes at Blood Debt 5.
 
+### 5.6 The Returned
+
+Not everyone the Kept try to make becomes one of them. The making is dangerous and often fails, and most who fail die. A few survive as something else: the **returned**.
+
+- **What people see:** the returned are strong and grow fast, and most die young, rarely past thirty. Many are slow, literal or strange in their thinking; how much varies. They don't need blood.
+
+- **Not dhampirs:** folk often call them dhampirs, or cursed. They are neither. Dhampirs are born to vampire mothers (*Carries Her Mother's Blood*); the returned were made, and the making failed.
+
+- **Evidence:** old-world doors and instruments sometimes react to one of the returned oddly, as if it half-belonged to a bloodline. No one agrees why. Households that make them would rather no one asked.
+
+- **Levies:** some towns owe children under old charters. Rumour says the few who come back are the ones who failed.
+
+- **NPCs only:** the returned are not a player option. A PC who survives a failed making leaves player control (§6).
+
 ## 6. The Bled
 
 When a vampire feeds on someone — or anyone loses a great deal of blood — the victim gains the harmful status ***Bled***.
@@ -181,7 +194,7 @@ When a vampire feeds on someone — or anyone loses a great deal of blood — th
 
 - **Frontier law:** where optional Truth 8 is in play, anyone known to be bled is examined, confined or exiled. Hiding the marks is a common compel.
 
-- A PC who is Drained and made a vampire leaves player control.
+- A PC who is Drained and made a vampire, or who survives a failed making as one of the returned (§5.6), leaves player control.
 
 ## 7. Afflicted Blood: Sunlight Syndrome and the Thirst
 
@@ -308,6 +321,8 @@ Old-world machines and relics use **Module A — Cyphers & Artifacts**.
 
 ### 9.2 Old-World Artifacts
 
+**The Order of the Last Guns** (working name) was an order of armed charter-enforcers in a neighbouring province, destroyed there in a succession war. The Frontier sees only what it left behind: refugees, claimants and a few of its sidearms, which no one can make any more. Whoever carries one claims to speak for the old enforcing authority.
+
 Old-world artifacts carry the standard quirk ***its owners will want it back***: it can be compelled for Tychē Points, and the GM may spend 1 Woe to make its old owners, or their heirs, notice it.
 
 > **★ Old-World Longsword** — *Tags:* old-world steel, +1 Attack (conflict gear). *Ability:* counts as a killing method for beheading; ignores *Armour* on vampires. *Depletion:* none. *Quirk:* its owners will want it back.
@@ -316,7 +331,21 @@ Old-world artifacts carry the standard quirk ***its owners will want it back***:
 >
 > **★ Cybernetic Eye** — *Tags:* sees in the dark, sees heat. *Ability:* once per scene, free Discover about anything in your line of sight. *Depletion:* 1 in d12 (blind in that eye for a scene). *Quirk:* its owners will want it back.
 >
+> **★ Order Sidearm** — *Tags:* old-world revolver, +1 Attack (range), recognised on sight. *Ability:* ignores *Armour* on vampires. Worn openly, it is a claim to speak for the Order of the Last Guns: a free bonus die on Persuade and Intimidate with people who remember the Order. *Locked:* many fire only for someone registered in the Order's armoury log; for anyone else such a gun is a heavy club. *Depletion:* 1 in d12 (the last proper cartridges are spent until more are found). *Quirk:* its owners will want it back — and so will every claimant.
+>
 > **Blood Locket** — *Tags:* holds a vampire's blood. *Ability:* that bloodline's doors and guardians half-recognise you (+1 die). *Depletion:* 1 in d12 (the blood spoils). *Quirk:* the bloodline's records note every door you open.
+
+### 9.3 The Moving Lights
+
+On a clear night, a few lights cross the sky faster than any star and never twinkle. They are old-world works, left overhead when the old world fell. Most are dead. A few still answer.
+
+- **Under open sky only:** roofs, earth, deep canyons, thick forest and storms (*Sudden Storm*) cut them off.
+
+- **Uses:** the Passenger can reach its bearer through them (*Carries a Passenger*), and a mind sent abroad can ride them (*Sends the Mind Abroad*). Some households keep old instruments that listen to them.
+
+- **Overheard:** anything sent through the moving lights may be heard by whoever is listening.
+
+- **Optional Truth 11** (§2.2, *The lights in the sky still move*): if it is in play, something up there is also watching.
 
 ## 10. Bounties, Commissions and Contracts
 
@@ -349,6 +378,16 @@ A Hunter's reputation is a **power tag** gained at milestones (*the Hunter who b
 ### 10.4 Rival Hunters
 
 Rival crews use the **Faction Turn** rules (Module C.5) with a project clock on the same quarry. If their clock fills first, they claim the bounty, and the party's contract becomes a Disposition fight with the rivals (often a Negotiation or a Chase rather than a Fight).
+
+### 10.5 Charter-Speech and Binding Instruments
+
+Charters, testaments, compacts and levy agreements bind only if they are written or sworn in **charter-speech**: an archaic legal and liturgical form of the language. Notaries, clergy and record clerks can compose it, and so can some of the Kept. Most people can only recognise it.
+
+- **Reading** an instrument in charter-speech is an Old Lore roll vs. Standard 15. **Composing** one correctly is Old Lore vs. Hard 18, or Standard 15 with a tag such as *fluent in the old pacts*.
+
+- **Finding a flaw:** a Discover effect on an instrument (Old Lore or Investigate) can reveal an error in its charter-speech. The flaw becomes a tag, for example *the oath was sworn in the wrong form*.
+
+- **Grounds, not a verdict:** a flaw is grounds to challenge the instrument. It does not void it. The challenge is settled by a Negotiation, a Duel of Wills or the politics around it, and the flaw is a tag the challenger can use there. Whoever benefits from the instrument will argue that the error doesn't matter.
 
 ## 11. Setting Conflict Types
 
@@ -458,3 +497,7 @@ Use with Core Rules §9.2.
 - **Science vs. Occult:** keep the line blurred on purpose. The guideline in §3 stops arguments without forcing a fixed answer.
 
 - **Contracts as Goals** give the party a shared Goal each session, and personal Goals sit inside it.
+
+- **The returned (§5.6)** are NPCs only. They give failed makings a face and a body of evidence without adding a second dhampir option.
+
+- **Charter-speech (§10.5)** gives Old Lore a political edge: a flawed oath opens a dispute rather than ending one.

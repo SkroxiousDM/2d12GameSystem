@@ -1,12 +1,11 @@
-# 2d12 System — Hollow Frontier Setting Pack: Focuses
+# 2d12 System — Testament of Dust Setting Pack: Focuses
 
-> Markdown edition of **Chapter X, Frontier Focuses** in `vampire-hunter-d-2d12-v2-master-rulebook.typ`.
+> Markdown edition of **Chapter X, Frontier Focuses** in `testament-of-dust-2d12-v2-master-rulebook.typ`.
 > The Typst master is the source of truth; edit it first, then regenerate this file
-> (`pandoc -f typst -t gfm`). Synced 2026-10-16. Supersedes the v0.1 draft of this file.
-> Pack files: **vhd-setting-rules.md** · **vhd-descriptors.md** · **vhd-playbooks.md** · **vhd-focuses.md**.
+> (`pandoc -f typst -t gfm`). Synced 2026-10-16 (Q37-Q41 rulings). Supersedes the v0.1 draft of this file.
+> Pack files: **testament-of-dust-setting-rules.md** · **testament-of-dust-descriptors.md** · **testament-of-dust-playbooks.md** · **testament-of-dust-focuses.md**.
 
 ---
-
 Twenty Focuses steeped in the Frontier: afflicted blood, bounties, relics and ruins, the old faith, villages holding the line until dawn, and the people who love what they should hate.
 
 > Dhampirs enter play here, through Carries Her Mother's Blood.
@@ -36,13 +35,13 @@ Focus rules are unchanged from *Generic Focuses* §1:
 |----|----|----|----|----|
 | 1 | Carries Her Mother's Blood | Bloodline | Any | ◈ |
 | 2 | Was Kept and Got Out | Bloodline | Any | ◈ |
-| 3 | Carries a Passenger | Bloodline | Any | ◈ |
-| 4 | Hunts the Kept | Hunter | Sellsword, Stalker, Cyborg Hunter |  |
-| 5 | Collects the Bounty | Hunter | Broker, Sellsword, Rider |  |
-| 6 | Hunts the Beasts of the Frontier | Hunter | Rider, Mutant, Sellsword |  |
-| 7 | Seeks Revenge on a Vampire | Hunter | Any |  |
-| 8 | Bears an Old-World Relic | Old-World | Occultist, Stalker, Cyborg Hunter | ◈ |
-| 9 | Plunders the Old Estates | Old-World | Stalker, Occultist, Broker |  |
+| 3 | Hunts the Kept | Hunter | Sellsword, Stalker, Cyborg Hunter |  |
+| 4 | Collects the Bounty | Hunter | Broker, Sellsword, Rider |  |
+| 5 | Hunts the Beasts of the Frontier | Hunter | Rider, Mutant, Sellsword |  |
+| 6 | Seeks Revenge on a Vampire | Hunter | Any |  |
+| 7 | Bears an Old-World Relic | Old-World | Occultist, Stalker, Cyborg Hunter | ◈ |
+| 8 | Plunders the Old Estates | Old-World | Stalker, Occultist, Broker |  |
+| 9 | Carries a Passenger | Old-World | Any | ◈ |
 | 10 | Sends the Mind Abroad | Occult | Occultist, Frontier Doctor | ◈ |
 | 11 | Keeps the Old Faith | Occult | Warden, Frontier Doctor, Sellsword |  |
 | 12 | Heals the Bled | Village | Frontier Doctor, Occultist |  |
@@ -111,27 +110,9 @@ Focus rules are unchanged from *Generic Focuses* §1:
 | 3a | **Unbroken** | When you Resist Presence, intimidation or fear from a vampire with Pneuma, reduce the status by **3 tiers**, and the cost is 0 on a highest die of 5+. |
 | 3b | **★ Turn the Bond** | Once per session, in a Duel of Wills against your former household, gain a free bonus die on every roll. If you win, you also learn where it keeps its blood. |
 
-### 3. Carries a Passenger ◈
-
-> Something lives in you: a face in your palm, an eye on your shoulder, a voice only you can hear. It's old, rude, and hungry, and it has saved your life more than once.
-
-- **Power tags:** *a voice that knows things*, *it eats what hurts me*
-
-- **Weakness tag:** *it has its own plans*
-
-- **PC link:** "\[PC\] is the only one the Passenger likes. That worries me."
-
-| Tier | Ability | Effect |
-|----|----|----|
-| 1 | **The Passenger** | Once per scene, ask a free Discover: the Passenger answers, truthfully but not always helpfully. It can talk to others, which is often a compel. |
-| 2a | **Devourer** | Once per scene, the Passenger swallows a hostile effect it can reach (fire, gas, mist, a working, a cypher): **Disrupt** it for 0 Power. The GM may compel its appetite afterwards. |
-| 2b | **Feed Me, Heal You** | In the Players' Turn, spend 1 Check to feed it (earth, water, fire, or air). Next session, once per scene, it lowers one of your physical statuses by 2 tiers. |
-| 3a | **Older Than the Kept** | Once per scene, take a free bonus die on an Old Lore or Occult roll. The Passenger remembers the age before the fall. |
-| 3b | **★ Let It Drive** | Once per session, let the Passenger take your body for one action: it succeeds automatically with **4 Power**. Then the GM names the price it demands (a meal, a favour, a secret, a scene where it's in charge). |
-
 ## 4. Hunter Focuses
 
-### 4. Hunts the Kept
+### 3. Hunts the Kept
 
 > Your trade is the hardest one on the Frontier: you kill vampires.
 
@@ -149,7 +130,7 @@ Focus rules are unchanged from *Generic Focuses* §1:
 | 3a | **Find the Killing Way** | Upgrading a vampire's weakness tag into a killing method (Frontier Rules §8.1) costs **2 Power** instead of 3. |
 | 3b | **★ The Hunter's Mark** | Once per scene, mark a vampire you can see. Until the scene ends, all allies' Attacks against it inflict **+1 tier**, and it can't use *The Old Door* to escape. |
 
-### 5. Collects the Bounty
+### 4. Collects the Bounty
 
 > A Hunter is a professional. You take the job, you finish it, and you get paid.
 
@@ -167,7 +148,7 @@ Focus rules are unchanged from *Generic Focuses* §1:
 | 3a | **My Reputation Precedes Me** | Your reputation tag (Frontier Rules §10.3) counts as a free extra tag in Negotiation, adding up to **+1 above the normal +2 cap (maximum +3 from tags)**. Clients always pay half up front. |
 | 3b | **★ The Big Score** | Once per session, when you complete a contract, choose one extra reward: an artifact from the quarry's hoard, a Region Truth in your favour, or a second *vampire's bounty*. |
 
-### 6. Hunts the Beasts of the Frontier
+### 5. Hunts the Beasts of the Frontier
 
 > Not every monster is a vampire. Sand sharks, werewolves, mutant spiders, old-world bioweapons gone feral: you hunt them all.
 
@@ -185,7 +166,7 @@ Focus rules are unchanged from *Generic Focuses* §1:
 | 3a | **Bane of Beasts** | Your Attacks against monsters inflict **+1 tier**. |
 | 3b | **★ Monster-Slayer** | In Fights against monsters (not vampires), the enemy's Disposition starts **−3**, and minion beasts flee after your first successful Attack. |
 
-### 7. Seeks Revenge on a Vampire
+### 6. Seeks Revenge on a Vampire
 
 > A vampire took your family, your village, or your life as it was. You'll find it, and you'll end it.
 
@@ -205,7 +186,7 @@ Focus rules are unchanged from *Generic Focuses* §1:
 
 ## 5. Old-World Focuses
 
-### 8. Bears an Old-World Relic ◈
+### 7. Bears an Old-World Relic ◈
 
 > You carry a piece of the old world's power: a sword that cuts anything, a pendant that opens one family's doors, a gauntlet that hums when old-world works are near.
 
@@ -223,7 +204,7 @@ Focus rules are unchanged from *Generic Focuses* §1:
 | 3a | **Relic Sense** | You sense other old-world artifacts within a day's walk, and once per scene ask a free Discover about one you can see. |
 | 3b | **★ The Relic Awakens** | Your relic's tag may add **+1 above the normal +2 tag cap (maximum +3)**. Once per session, it acts by itself: one automatic success with **3 Power** spent on its listed Effects. |
 
-### 9. Plunders the Old Estates
+### 8. Plunders the Old Estates
 
 > Every abandoned estate holds treasure, machines, and traps. You go in for the first, use the second, and survive the third.
 
@@ -241,25 +222,51 @@ Focus rules are unchanged from *Generic Focuses* §1:
 | 3a | **Cypher Hoarder** | Your Cypher Limit is **+1**. |
 | 3b | **★ Thief of the Night** | You may attune one old-world artifact at no Refresh cost, and once per session, take an item from a vampire's presence without a roll, as long as the vampire isn't actively watching it. |
 
+### 9. Carries a Passenger ◈
+
+> A voice rides with you, through a relic at your ear, a grille in a buckle, a speaker no bigger than a coin. It speaks from an old-world site somewhere behind you: a shrine, an archive, a buried hospital. It says it was a person before the fall. It is rude, curious and out of date, and it has saved your life more than once.
+
+- **Power tags:** *a voice that knows things*, *the old works listen to it*
+
+- **Weakness tag:** *it has its own plans*
+
+- **PC link:** "\[PC\] is the only one the Passenger likes. That worries me."
+
+- **Home site:** choose it with the GM at creation. The Passenger can't leave it; only its voice travels.
+
+- **Under open sky:** out of range, the Passenger can still reach you through the moving lights (Frontier Rules §9.3). At the start of a scene under open sky, roll a d12: on **9+** one is overhead, and the Passenger can speak and use its abilities for that scene. Each time it speaks this way, the GM may compel *someone else heard* or spend 1 Woe to have the message overheard.
+
+| Tier | Ability | Effect |
+|----|----|----|
+| 1 | **The Passenger** | Once per scene, ask a free Discover: the Passenger answers, truthfully but not always helpfully, and often out of date. It can talk to others through the relic, which is often a compel. **Range:** it speaks only within reach of its home site's relays, by default about a day's ride. Out of range it goes quiet and this Focus's abilities don't work. A working old-world relay (a lit terminal, a speaker grille, a site where the lights are still on) lets it speak for that scene; finding or waking one may take a Science roll. |
+| 2a | **Override** | Once per scene, the Passenger takes hold of an old-world effect it can reach (a cypher, a guardian, a door, the lights, a trap or machine): **Disrupt** it for 0 Power. The GM may compel its curiosity afterwards. |
+| 2b | **Talk You Through It** | In the Players' Turn, spend 1 Check to bring it something it wants (a record, news of the present, a part for its site). Next session, once per scene, it talks you through field treatment: lower one of your physical statuses by 2 tiers. |
+| 3a | **Older Than the Kept** | Once per scene, take a free bonus die on an Old Lore or Occult roll. The Passenger remembers the age before the fall, or its records do. |
+| 3b | **★ Do Exactly What I Say** | Once per session, follow the Passenger's instructions exactly for one action: it succeeds automatically with **4 Power**. Then the GM names the price it demands (a record, a favour, a secret, a visit to its home site, a scene where you do only what it says). |
+
 ## 6. Occult Focuses
 
 ### 10. Sends the Mind Abroad ◈
 
-> Your mind can leave your body and walk where you can't: through estate walls, into dreams, across the desert.
+> A sliver of old-work sits behind your ear. A teacher set it there, or a household surgeon, or you woke with it. When you close your eyes, your mind slips into whatever old works still run around you: the glass eyes in estate walls, the door that remembers every hand, the speaker in the chapel roof. Folk call it walking abroad.
 
-- **Power tags:** *my mind walks free*, *dreamsight*
+- **Power tags:** *my mind rides the old wires*, *eyes in every working wall*
 
 - **Weakness tag:** *my body lies helpless*
 
 - **PC link:** "\[PC\] watches over my body when I go walking. I trust no one else."
 
+- **Old works only:** you sense only through old-world works that still run: lenses, doors, speakers, instruments and the relays between them. Where none run, you are blind and deaf.
+
+- **Under open sky:** beyond your relays, the moving lights can carry you (Frontier Rules §9.3). At the start of a scene under open sky, roll a d12: on **9+** one is overhead, and for that scene you can use this Focus through it. You can look down on open ground within your range, or reach old works standing under open sky. Each time, the GM may compel *someone else is looking too* or spend 1 Woe to have you noticed.
+
 | Tier | Ability | Effect |
 |----|----|----|
-| 1 | **Astral Self** | Leave your body as an unseen astral form (range about 1 km). You use Occult for Stealth and Notice. Your body is helpless and *Impeded* while you're out. Returning costs 1 Pneuma. |
-| 2a | **Astral Strike** | Your astral form can Attack with Occult, inflicting mental statuses (*terrified*, *dazed*) even on vampires. |
-| 2b | **Dream Walker** | Enter a sleeper's dream, including a bled victim's. Ask 2 free Discover questions about what they saw, or Restore their fear statuses. |
-| 3a | **Far-Walker** | Your astral range becomes a day's ride, and you can bring one willing ally's mind with you. |
-| 3b | **★ Astral Avatar** | Once per scene, your astral form becomes solid enough to Fight. It uses your skills, and harm to it comes out of your **Pneuma** pool, not physical statuses. |
+| 1 | **Walk Abroad** | Send your senses into the working old works around you (range about 1 km). You use Occult for Stealth and Notice while you're out. Your body is helpless and *Impeded* while you're out. Returning costs 1 Pneuma. |
+| 2a | **Feedback** | Through a speaker, lamp or screen in the target's scene, Attack with Occult, inflicting mental statuses (*terrified*, *dazed*) even on vampires. |
+| 2b | **Read What It Saw** | Ask an old work in reach 2 free Discover questions about what it saw or heard (a door's record of hands, a lens's memory), or speak through it to a bled or frightened person and Restore their fear statuses. |
+| 3a | **Long Wire** | Your range becomes a day's ride along working relays, and you can bring one willing ally's senses with you while they touch you. |
+| 3b | **★ Take the Hand** | Once per scene, take hold of one old-world machine in reach that can move (a guardian, a lift, a turret, a loader) and Fight with it. It uses your skills, and harm to it comes out of your **Pneuma** pool, not physical statuses. |
 
 ### 11. Keeps the Old Faith
 
@@ -454,6 +461,10 @@ Focus rules are unchanged from *Generic Focuses* §1:
 - **Overlaps with playbooks:** *Heals the Bled* stacks with the Frontier Doctor's *Treat the Bled*, and *Holds the Line Until Dawn* stacks with the Warden. Both stacks are intended specialist builds; none of them reduce the same Power cost twice.
 
 - **Vampire-specific Focuses** (*Hunts the Kept*, *Seeks Revenge on a Vampire*) rely on killing strikes. If a campaign has few vampires, steer players toward *Hunts the Beasts of the Frontier* or *Collects the Bounty*.
+
+- **Sends the Mind Abroad** works through an old-world implant and the relays around it, not a spirit. It follows the same open-sky rule as Carries a Passenger, and the same advice on placing relays applies.
+
+- **Carries a Passenger** is an Old-World Focus. The Passenger is a voice relayed from a fixed old-world site, so it has a range; out of range the Focus does nothing except under open sky, where the moving lights give it a 1-in-3 chance each scene. On long journeys, place working relays often enough that the player isn't left without their Focus for whole sessions.
 
 - **★ options** are all at Tier 3, as in *Generic Focuses*, so a character can always choose a path that keeps their Refresh.
 

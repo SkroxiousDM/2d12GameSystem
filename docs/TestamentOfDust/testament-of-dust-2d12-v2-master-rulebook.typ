@@ -1,10 +1,10 @@
 // =====================================================================
-//  VAMPIRE HUNTER D — THE 2d12 SYSTEM, VERSION 2
+//  TESTAMENT OF DUST — THE 2d12 SYSTEM, VERSION 2
 //  Master Rulebook · Post-Apocalyptic Frontier Gothic
 //  Compiled for SkroxiousDM · 2026-10-12
 //
 //  Single-file Typst source. Compile with:
-//      typst compile vampire-hunter-d-2d12-v2-master-rulebook.typ
+//      typst compile testament-of-dust-2d12-v2-master-rulebook.typ
 //
 //  Fonts (free, Google Fonts / OFL). Install them, or pass --font-path:
 //      EB Garamond   — body text
@@ -12,9 +12,7 @@
 //  If they are missing, Typst falls back to Libertinus Serif. Symbols
 //  (★ ◆ ◈ →) fall back to DejaVu Sans.
 //
-//  Unofficial fan adaptation for home play, based on Hideyuki Kikuchi's
-//  Vampire Hunter D novels and the anime films. Not affiliated with or
-//  endorsed by the rights holders.
+//  An original setting for the 2d12 System. Playtest draft.
 // =====================================================================
 
 // ---------------------------------------------------------------- palette
@@ -33,19 +31,19 @@
 #let symbol-font  = ("DejaVu Sans",)
 
 // ---------------------------------------------------------------- metadata
-#let book-title    = "Hollow Frontier"
+#let book-title    = "Testament of Dust"
 #let book-subtitle = "The 2d12 System · Version 2"
 #let book-kind     = "Master Rulebook"
-#let book-tagline  = "Post-Apocalyptic Frontier Gothic 
-inspired by  Vampire Hunter D"
+#let book-tagline  = "Post-Apocalyptic Frontier Gothic"
+#let book-motto    = "Roads through a broken world. Blood behind every bargain."
 #let book-author   = "SkroxiousDM"
-#let book-date     = "2026-10-12"
+#let book-date     = "2026-10-16"
 
 #set document(
   title: book-title + " — " + book-subtitle + " — " + book-kind,
   author: book-author,
-  date: datetime(year: 2026, month: 10, day: 31),
-  keywords: ("2d12", "Vampire Hunter D", "tabletop RPG", "rulebook"),
+  date: datetime(year: 2026, month: 10, day: 16),
+  keywords: ("2d12", "Testament of Dust", "tabletop RPG", "rulebook", "gothic", "post-apocalyptic"),
 )
 
 // ---------------------------------------------------------------- playbook art
@@ -266,6 +264,8 @@ inspired by  Vampire Hunter D"
     text(font: display-font, size: 17pt, weight: 700, fill: brass, tracking: 0.12em, book-subtitle)
     v(6pt)
     text(font: display-font, size: 13pt, fill: moon.darken(8%), tracking: 0.3em, upper(book-kind))
+    v(16pt)
+    text(size: 11pt, style: "italic", fill: moon.darken(10%), book-motto)
   }))
   #place(bottom + center, dy: -2.1cm, {
     set align(center)
@@ -298,7 +298,9 @@ inspired by  Vampire Hunter D"
     ]
     v(14pt)
     text(size: 9pt, fill: dust, style: "italic")[
-      An unofficial fan adaptation for home play, based on Hideyuki Kikuchi's Vampire Hunter D novels and the anime films. Not affiliated with or endorsed by the author, publishers or rights holders. The 2d12 System draws inspiration from Fate, the Cypher System, :Otherscape, Mouse Guard, Blades in the Dark and the 2d20 System; all trademarks belong to their owners.
+      #book-title is an original setting for the 2d12 System. \
+#book-motto \
+The 2d12 System draws inspiration from Fate, the Cypher System, :Otherscape, Mouse Guard, Blades in the Dark and the 2d20 System; all trademarks belong to their owners.
     ]
     v(14pt)
     text(size: 8.5pt, fill: dust)[Playtest draft — not yet playtested. Set in EB Garamond and Cinzel.]
@@ -347,7 +349,7 @@ inspired by  Vampire Hunter D"
 #columns(2, gutter: 6mm)[
 == About This Book
 
-This master rulebook collects every current document for running *Vampire Hunter D* with the 2d12 System into one volume. The generic engine comes first; the Frontier setting material builds on it.
+This master rulebook collects every current document for #emph[Testament of Dust] and the 2d12 System into one volume. The generic engine comes first; the Frontier setting material builds on it.
 
 #figure(table(columns: (13%, 30%, 57%),
   table.header([Ch.], [Chapter], [Contents]),
@@ -1310,7 +1312,7 @@ Each Descriptor gives (Core Rules §3.1):
 
 Each entry also has a #strong[hook];: one question to answer at character creation. The answer often becomes your first Belief or a relationship.
 
-Every Descriptor works in any genre. Choose one from this chapter or, in a Vampire Hunter D game, from the Frontier Descriptors.
+Every Descriptor works in any genre. Choose one from this chapter or, in a #emph[Testament of Dust] game, from the Frontier Descriptors.
 
 == 2. Quick Reference
 #figure(
@@ -3060,7 +3062,7 @@ The 20 generic skills are renamed or kept as follows. Default pools are unchange
     table.hline(),
     [#strong[Ride]], [Horses, cyborg horses, wagons, hover-vehicles, land-ships, and riding through a chase.],
     [#strong[Frontier]], [Wilderness survival, desert and wasteland travel, tracking, mutant animals, weather, finding water.],
-    [#strong[Old Lore]], [History, households and bloodlines, etiquette and succession law, old-world ruins and records, the folklore of the afflicted.],
+    [#strong[Old Lore]], [History, households and bloodlines, etiquette and succession law, charter-speech (§10.5), old-world ruins and records, the folklore of the afflicted.],
     [#strong[Science]], [Repairing, using and disabling machines, old and new; cyborg parts; old-world weapons and works.],
     [#strong[Occult]], [Rites, wards and religious practice; omens, relics and reliquaries; what people believe about the afflicted, and which customs they keep.],
     [#strong[Medicine]], [Surgery, poisons, mutations, blood loss and transfusion (§6).],
@@ -3158,6 +3160,15 @@ Sometimes a starved vampire is found dried, light and rigid, like a corpse a cen
 - A husk is #strong[unconscious and helpless]. Any killing strike against it succeeds automatically, and #strong[fire destroys it at once].
 - Waking one takes about three people's worth of blood, absorbed over hours or days. It wakes at Blood Debt 5.
 
+=== 5.6 The Returned
+Not everyone the Kept try to make becomes one of them. The making is dangerous and often fails, and most who fail die. A few survive as something else: the #strong[returned].
+
+- #strong[What people see:] the returned are strong and grow fast, and most die young, rarely past thirty. Many are slow, literal or strange in their thinking; how much varies. They don't need blood.
+- #strong[Not dhampirs:] folk often call them dhampirs, or cursed. They are neither. Dhampirs are born to vampire mothers (#emph[Carries Her Mother's Blood]); the returned were made, and the making failed.
+- #strong[Evidence:] old-world doors and instruments sometimes react to one of the returned oddly, as if it half-belonged to a bloodline. No one agrees why. Households that make them would rather no one asked.
+- #strong[Levies:] some towns owe children under old charters. Rumour says the few who come back are the ones who failed.
+- #strong[NPCs only:] the returned are not a player option. A PC who survives a failed making leaves player control (§6).
+
 == 6. The Bled
 When a vampire feeds on someone --- or anyone loses a great deal of blood --- the victim gains the harmful status #strong[#emph[Bled]].
 
@@ -3183,7 +3194,7 @@ When a vampire feeds on someone --- or anyone loses a great deal of blood --- th
 - #strong[Recovery:] 1 tier per full day of rest with food and water.
 - #strong[Transfusion:] with a willing donor and a transfusion kit, a Medicine roll vs. Standard 15 lowers Bled by 1 tier per Power. The donor gains Bled-1.
 - #strong[Frontier law:] where optional Truth 8 is in play, anyone known to be bled is examined, confined or exiled. Hiding the marks is a common compel.
-- A PC who is Drained and made a vampire leaves player control.
+- A PC who is Drained and made a vampire, or who survives a failed making as one of the returned (§5.6), leaves player control.
 
 == 7. Afflicted Blood: Sunlight Syndrome and the Thirst
 These rules apply to vampires and dhampirs (#emph[Carries Her Mother's Blood]).
@@ -3350,6 +3361,8 @@ Old-world machines and relics use #strong[Module A --- Cyphers & Artifacts].
   )
 
 === 9.2 Old-World Artifacts
+#strong[The Order of the Last Guns] (working name) was an order of armed charter-enforcers in a neighbouring province, destroyed there in a succession war. The Frontier sees only what it left behind: refugees, claimants and a few of its sidearms, which no one can make any more. Whoever carries one claims to speak for the old enforcing authority.
+
 Old-world artifacts carry the standard quirk #strong[#emph[its owners will want it back]]: it can be compelled for Tychē Points, and the GM may spend 1 Woe to make its old owners, or their heirs, notice it.
 
 #quote(block: true)[
@@ -3359,8 +3372,18 @@ Old-world artifacts carry the standard quirk #strong[#emph[its owners will want 
 
 #strong[★ Cybernetic Eye] --- #emph[Tags:] sees in the dark, sees heat. #emph[Ability:] once per scene, free Discover about anything in your line of sight. #emph[Depletion:] 1 in d12 (blind in that eye for a scene). #emph[Quirk:] its owners will want it back.
 
+#strong[★ Order Sidearm] --- #emph[Tags:] old-world revolver, +1 Attack (range), recognised on sight. #emph[Ability:] ignores #emph[Armour] on vampires. Worn openly, it is a claim to speak for the Order of the Last Guns: a free bonus die on Persuade and Intimidate with people who remember the Order. #emph[Locked:] many fire only for someone registered in the Order's armoury log; for anyone else such a gun is a heavy club. #emph[Depletion:] 1 in d12 (the last proper cartridges are spent until more are found). #emph[Quirk:] its owners will want it back --- and so will every claimant.
+
 #strong[Blood Locket] --- #emph[Tags:] holds a vampire's blood. #emph[Ability:] that bloodline's doors and guardians half-recognise you (+1 die). #emph[Depletion:] 1 in d12 (the blood spoils). #emph[Quirk:] the bloodline's records note every door you open.
 ]
+
+=== 9.3 The Moving Lights
+On a clear night, a few lights cross the sky faster than any star and never twinkle. They are old-world works, left overhead when the old world fell. Most are dead. A few still answer.
+
+- #strong[Under open sky only:] roofs, earth, deep canyons, thick forest and storms (#emph[Sudden Storm]) cut them off.
+- #strong[Uses:] the Passenger can reach its bearer through them (#emph[Carries a Passenger]), and a mind sent abroad can ride them (#emph[Sends the Mind Abroad]). Some households keep old instruments that listen to them.
+- #strong[Overheard:] anything sent through the moving lights may be heard by whoever is listening.
+- #strong[Optional Truth 11] (§2.2, #emph[The lights in the sky still move]): if it is in play, something up there is also watching.
 
 == 10. Bounties, Commissions and Contracts
 Most sessions start with a contract. The contract is the party's shared #strong[Goal]. A contract is a #strong[Bounty] (a quarry), a #strong[Commission] (an investigation), an #strong[Escort] or a #strong[Recovery].
@@ -3395,6 +3418,13 @@ A Hunter's reputation is a #strong[power tag] gained at milestones (#emph[the Hu
 
 === 10.4 Rival Hunters
 Rival crews use the #strong[Faction Turn] rules (Module C.5) with a project clock on the same quarry. If their clock fills first, they claim the bounty, and the party's contract becomes a Disposition fight with the rivals (often a Negotiation or a Chase rather than a Fight).
+
+=== 10.5 Charter-Speech and Binding Instruments
+Charters, testaments, compacts and levy agreements bind only if they are written or sworn in #strong[charter-speech]: an archaic legal and liturgical form of the language. Notaries, clergy and record clerks can compose it, and so can some of the Kept. Most people can only recognise it.
+
+- #strong[Reading] an instrument in charter-speech is an Old Lore roll vs. Standard 15. #strong[Composing] one correctly is Old Lore vs. Hard 18, or Standard 15 with a tag such as #emph[fluent in the old pacts].
+- #strong[Finding a flaw:] a Discover effect on an instrument (Old Lore or Investigate) can reveal an error in its charter-speech. The flaw becomes a tag, for example #emph[the oath was sworn in the wrong form].
+- #strong[Grounds, not a verdict:] a flaw is grounds to challenge the instrument. It does not void it. The challenge is settled by a Negotiation, a Duel of Wills or the politics around it, and the flaw is a tag the challenger can use there. Whoever benefits from the instrument will argue that the error doesn't matter.
 
 == 11. Setting Conflict Types
 These add to the conflict types in Core Rules §10.3. All use the standard scripting, Disposition and compromise rules.
@@ -3517,6 +3547,8 @@ Use with Core Rules §9.2.
 - #strong[Sunlight Syndrome] still limits dhampirs by day, when the rest of the party is strongest. That trade is the core of the dhampir's role.
 - #strong[Science vs. Occult:] keep the line blurred on purpose. The guideline in §3 stops arguments without forcing a fixed answer.
 - #strong[Contracts as Goals] give the party a shared Goal each session, and personal Goals sit inside it.
+- #strong[The returned (§5.6)] are NPCs only. They give failed makings a face and a body of evidence without adding a second dhampir option.
+- #strong[Charter-speech (§10.5)] gives Old Lore a political edge: a flawed oath opens a dispute rather than ending one.
 
 // =====================================================================
 //  CHAPTER — FRONTIER DESCRIPTORS
@@ -4004,6 +4036,17 @@ You hunt by day. While the vampire sleeps, you climb the estate walls, pick the 
 
 #strong[Relationships:] Ally --- a fence at the trading post, an estate servant who leaves the gate open, a mentor who taught you the walls. Rival --- a guardian machine you\'ve escaped twice, a thief who works for the vampires, a Hunter who thinks stealth is cowardice.
 
+=== 2.4 Handout --- The Hunters' Field Guide
+Hunters pass these notes from hand to hand. Give them to players as found knowledge. The guide is right about what hunters saw. Its explanations are another matter. The GM measures a vampire by threat rank (Frontier Rules §5.1), not by these classes.
+
+#sidebar("The Kinds of the Kept, as Hunters Tell It")[
+#strong[Winterers.] The oldest and the worst. They go to ground for a generation and wake hungry enough to empty a village. Cunning, patient, and they know every family in the valley. #emph[Hunters say:] the old ones sleep by choice, to outlast their enemies. Find the sleeping place and burn it.
+
+#strong[Strays.] Newly made, and it shows: clumsy, greedy, careless with their kills. They seldom last more than a few years. #emph[Hunters say:] the blood thins with every making, and a made one is a weak copy of its maker. Kill them young and you'll have little trouble.
+
+#strong[Tapsters.] They take a little and leave you living, the way a tapster draws from a cask. Their donors wake dazed and remember nothing, and many go back willingly. They rarely kill. #emph[Hunters say:] their bite carries a sleeping venom. Never let one near your neck, and never trust a town that seems glad of them.
+]
+
 
 #pagebreak(weak: true)
 == 3. Frontier Doctor
@@ -4370,6 +4413,8 @@ Use the Adept\'s #strong[Domain] rules (Generic Playbooks §8.1) unchanged: work
 - #strong[Instinct:] \"Always look at a stranger\'s reflection.\" / \"Never use my power in front of villagers.\"
 
 #strong[Relationships:] Ally --- a teacher who vanished into an estate, a village wise-woman, an old-world machine that likes you. Rival --- a psychic Hunter from a rival crew, a household\'s occultist, a priest who calls you a witch.
+
+#strong[Field guide:] Occultists read and argue over the hunters' field guide (Stalker §2.4). An Occultist may find that its causes are wrong; its observations are mostly right.
 
 
 #pagebreak(weak: true)
@@ -4741,13 +4786,13 @@ Focus rules are unchanged from #emph[Generic Focuses] §1:
     table.hline(),
     [1], [Carries Her Mother\'s Blood], [Bloodline], [Any], [◈],
     [2], [Was Kept and Got Out], [Bloodline], [Any], [◈],
-    [3], [Carries a Passenger], [Bloodline], [Any], [◈],
-    [4], [Hunts the Kept], [Hunter], [Sellsword, Stalker, Cyborg Hunter], [],
-    [5], [Collects the Bounty], [Hunter], [Broker, Sellsword, Rider], [],
-    [6], [Hunts the Beasts of the Frontier], [Hunter], [Rider, Mutant, Sellsword], [],
-    [7], [Seeks Revenge on a Vampire], [Hunter], [Any], [],
-    [8], [Bears an Old-World Relic], [Old-World], [Occultist, Stalker, Cyborg Hunter], [◈],
-    [9], [Plunders the Old Estates], [Old-World], [Stalker, Occultist, Broker], [],
+    [3], [Hunts the Kept], [Hunter], [Sellsword, Stalker, Cyborg Hunter], [],
+    [4], [Collects the Bounty], [Hunter], [Broker, Sellsword, Rider], [],
+    [5], [Hunts the Beasts of the Frontier], [Hunter], [Rider, Mutant, Sellsword], [],
+    [6], [Seeks Revenge on a Vampire], [Hunter], [Any], [],
+    [7], [Bears an Old-World Relic], [Old-World], [Occultist, Stalker, Cyborg Hunter], [◈],
+    [8], [Plunders the Old Estates], [Old-World], [Stalker, Occultist, Broker], [],
+    [9], [Carries a Passenger], [Old-World], [Any], [◈],
     [10], [Sends the Mind Abroad], [Occult], [Occultist, Frontier Doctor], [◈],
     [11], [Keeps the Old Faith], [Occult], [Warden, Frontier Doctor, Sellsword], [],
     [12], [Heals the Bled], [Village], [Frontier Doctor, Occultist], [],
@@ -4833,32 +4878,8 @@ You were a donor in a vampire household --- by birth, debt or choice. You got ou
   , kind: table
   )
 
-=== 3. Carries a Passenger ◈
-#quote(block: true)[
-Something lives in you: a face in your palm, an eye on your shoulder, a voice only you can hear. It\'s old, rude, and hungry, and it has saved your life more than once.
-]
-
-- #strong[Power tags:] #emph[a voice that knows things];, #emph[it eats what hurts me]
-- #strong[Weakness tag:] #emph[it has its own plans]
-- #strong[PC link:] \"\[PC\] is the only one the Passenger likes. That worries me.\"
-
-#figure(
-  [#table(
-    columns: (7.92%, 12.87%, 79.21%),
-    align: (auto,auto,auto,),
-    table.header([Tier], [Ability], [Effect],),
-    table.hline(),
-    [1], [#strong[The Passenger];], [Once per scene, ask a free Discover: the Passenger answers, truthfully but not always helpfully. It can talk to others, which is often a compel.],
-    [2a], [#strong[Devourer];], [Once per scene, the Passenger swallows a hostile effect it can reach (fire, gas, mist, a working, a cypher): #strong[Disrupt] it for 0 Power. The GM may compel its appetite afterwards.],
-    [2b], [#strong[Feed Me, Heal You];], [In the Players\' Turn, spend 1 Check to feed it (earth, water, fire, or air). Next session, once per scene, it lowers one of your physical statuses by 2 tiers.],
-    [3a], [#strong[Older Than the Kept];], [Once per scene, take a free bonus die on an Old Lore or Occult roll. The Passenger remembers the age before the fall.],
-    [3b], [#strong[★ Let It Drive];], [Once per session, let the Passenger take your body for one action: it succeeds automatically with #strong[4 Power];. Then the GM names the price it demands (a meal, a favour, a secret, a scene where it\'s in charge).],
-  )]
-  , kind: table
-  )
-
 == 4. Hunter Focuses
-=== 4. Hunts the Kept
+=== 3. Hunts the Kept
 #quote(block: true)[
 Your trade is the hardest one on the Frontier: you kill vampires.
 ]
@@ -4882,7 +4903,7 @@ Your trade is the hardest one on the Frontier: you kill vampires.
   , kind: table
   )
 
-=== 5. Collects the Bounty
+=== 4. Collects the Bounty
 #quote(block: true)[
 A Hunter is a professional. You take the job, you finish it, and you get paid.
 ]
@@ -4906,7 +4927,7 @@ A Hunter is a professional. You take the job, you finish it, and you get paid.
   , kind: table
   )
 
-=== 6. Hunts the Beasts of the Frontier
+=== 5. Hunts the Beasts of the Frontier
 #quote(block: true)[
 Not every monster is a vampire. Sand sharks, werewolves, mutant spiders, old-world bioweapons gone feral: you hunt them all.
 ]
@@ -4930,7 +4951,7 @@ Not every monster is a vampire. Sand sharks, werewolves, mutant spiders, old-wor
   , kind: table
   )
 
-=== 7. Seeks Revenge on a Vampire
+=== 6. Seeks Revenge on a Vampire
 #quote(block: true)[
 A vampire took your family, your village, or your life as it was. You\'ll find it, and you\'ll end it.
 ]
@@ -4955,7 +4976,7 @@ A vampire took your family, your village, or your life as it was. You\'ll find i
   )
 
 == 5. Old-World Focuses
-=== 8. Bears an Old-World Relic ◈
+=== 7. Bears an Old-World Relic ◈
 #quote(block: true)[
 You carry a piece of the old world\'s power: a sword that cuts anything, a pendant that opens one family\'s doors, a gauntlet that hums when old-world works are near.
 ]
@@ -4979,7 +5000,7 @@ You carry a piece of the old world\'s power: a sword that cuts anything, a penda
   , kind: table
   )
 
-=== 9. Plunders the Old Estates
+=== 8. Plunders the Old Estates
 #quote(block: true)[
 Every abandoned estate holds treasure, machines, and traps. You go in for the first, use the second, and survive the third.
 ]
@@ -5003,15 +5024,43 @@ Every abandoned estate holds treasure, machines, and traps. You go in for the fi
   , kind: table
   )
 
+=== 9. Carries a Passenger ◈
+#quote(block: true)[
+A voice rides with you, through a relic at your ear, a grille in a buckle, a speaker no bigger than a coin. It speaks from an old-world site somewhere behind you: a shrine, an archive, a buried hospital. It says it was a person before the fall. It is rude, curious and out of date, and it has saved your life more than once.
+]
+
+- #strong[Power tags:] #emph[a voice that knows things];, #emph[the old works listen to it]
+- #strong[Weakness tag:] #emph[it has its own plans]
+- #strong[PC link:] "\[PC\] is the only one the Passenger likes. That worries me."
+- #strong[Home site:] choose it with the GM at creation. The Passenger can't leave it; only its voice travels.
+- #strong[Under open sky:] out of range, the Passenger can still reach you through the moving lights (Frontier Rules §9.3). At the start of a scene under open sky, roll a d12: on #strong[9+] one is overhead, and the Passenger can speak and use its abilities for that scene. Each time it speaks this way, the GM may compel #emph[someone else heard] or spend 1 Woe to have the message overheard.
+
+#figure(
+  [#table(
+    columns: (7.92%, 12.87%, 79.21%),
+    align: (auto,auto,auto,),
+    table.header([Tier], [Ability], [Effect],),
+    table.hline(),
+    [1], [#strong[The Passenger];], [Once per scene, ask a free Discover: the Passenger answers, truthfully but not always helpfully, and often out of date. It can talk to others through the relic, which is often a compel. #strong[Range:] it speaks only within reach of its home site's relays, by default about a day's ride. Out of range it goes quiet and this Focus's abilities don't work. A working old-world relay (a lit terminal, a speaker grille, a site where the lights are still on) lets it speak for that scene; finding or waking one may take a Science roll.],
+    [2a], [#strong[Override];], [Once per scene, the Passenger takes hold of an old-world effect it can reach (a cypher, a guardian, a door, the lights, a trap or machine): #strong[Disrupt] it for 0 Power. The GM may compel its curiosity afterwards.],
+    [2b], [#strong[Talk You Through It];], [In the Players\' Turn, spend 1 Check to bring it something it wants (a record, news of the present, a part for its site). Next session, once per scene, it talks you through field treatment: lower one of your physical statuses by 2 tiers.],
+    [3a], [#strong[Older Than the Kept];], [Once per scene, take a free bonus die on an Old Lore or Occult roll. The Passenger remembers the age before the fall, or its records do.],
+    [3b], [#strong[★ Do Exactly What I Say];], [Once per session, follow the Passenger\'s instructions exactly for one action: it succeeds automatically with #strong[4 Power];. Then the GM names the price it demands (a record, a favour, a secret, a visit to its home site, a scene where you do only what it says).],
+  )]
+  , kind: table
+  )
+
 == 6. Occult Focuses
 === 10. Sends the Mind Abroad ◈
 #quote(block: true)[
-Your mind can leave your body and walk where you can\'t: through estate walls, into dreams, across the desert.
+A sliver of old-work sits behind your ear. A teacher set it there, or a household surgeon, or you woke with it. When you close your eyes, your mind slips into whatever old works still run around you: the glass eyes in estate walls, the door that remembers every hand, the speaker in the chapel roof. Folk call it walking abroad.
 ]
 
-- #strong[Power tags:] #emph[my mind walks free];, #emph[dreamsight]
+- #strong[Power tags:] #emph[my mind rides the old wires];, #emph[eyes in every working wall]
 - #strong[Weakness tag:] #emph[my body lies helpless]
 - #strong[PC link:] \"\[PC\] watches over my body when I go walking. I trust no one else.\"
+- #strong[Old works only:] you sense only through old-world works that still run: lenses, doors, speakers, instruments and the relays between them. Where none run, you are blind and deaf.
+- #strong[Under open sky:] beyond your relays, the moving lights can carry you (Frontier Rules §9.3). At the start of a scene under open sky, roll a d12: on #strong[9+] one is overhead, and for that scene you can use this Focus through it. You can look down on open ground within your range, or reach old works standing under open sky. Each time, the GM may compel #emph[someone else is looking too] or spend 1 Woe to have you noticed.
 
 #figure(
   [#table(
@@ -5019,11 +5068,11 @@ Your mind can leave your body and walk where you can\'t: through estate walls, i
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Astral Self];], [Leave your body as an unseen astral form (range about 1 km). You use Occult for Stealth and Notice. Your body is helpless and #emph[Impeded] while you\'re out. Returning costs 1 Pneuma.],
-    [2a], [#strong[Astral Strike];], [Your astral form can Attack with Occult, inflicting mental statuses (#emph[terrified];, #emph[dazed];) even on vampires.],
-    [2b], [#strong[Dream Walker];], [Enter a sleeper\'s dream, including a bled victim\'s. Ask 2 free Discover questions about what they saw, or Restore their fear statuses.],
-    [3a], [#strong[Far-Walker];], [Your astral range becomes a day\'s ride, and you can bring one willing ally\'s mind with you.],
-    [3b], [#strong[★ Astral Avatar];], [Once per scene, your astral form becomes solid enough to Fight. It uses your skills, and harm to it comes out of your #strong[Pneuma] pool, not physical statuses.],
+    [1], [#strong[Walk Abroad];], [Send your senses into the working old works around you (range about 1 km). You use Occult for Stealth and Notice while you\'re out. Your body is helpless and #emph[Impeded] while you\'re out. Returning costs 1 Pneuma.],
+    [2a], [#strong[Feedback];], [Through a speaker, lamp or screen in the target\'s scene, Attack with Occult, inflicting mental statuses (#emph[terrified];, #emph[dazed];) even on vampires.],
+    [2b], [#strong[Read What It Saw];], [Ask an old work in reach 2 free Discover questions about what it saw or heard (a door's record of hands, a lens's memory), or speak through it to a bled or frightened person and Restore their fear statuses.],
+    [3a], [#strong[Long Wire];], [Your range becomes a day\'s ride along working relays, and you can bring one willing ally\'s senses with you while they touch you.],
+    [3b], [#strong[★ Take the Hand];], [Once per scene, take hold of one old-world machine in reach that can move (a guardian, a lift, a turret, a loader) and Fight with it. It uses your skills, and harm to it comes out of your #strong[Pneuma] pool, not physical statuses.],
   )]
   , kind: table
   )
@@ -5275,6 +5324,8 @@ A vampire, a dhampir, a retainer, a monster. You love them anyway, and both worl
 - #strong[Dhampir as a Focus] lets any playbook carry afflicted blood: a dhampir Sellsword is the classic Hunter, but a dhampir Frontier Doctor or Broker plays very differently. The dhampir's edge is no longer raw power but access and information: reading blood, opening doors tied to her mother's line, and being wanted by people who matter. Sunlight Syndrome and the Thirst remain the price. #emph[Knows How They Die] is offered for tables that want a fighter. Use the table options if it outshines other Focuses.
 - #strong[Overlaps with playbooks:] #emph[Heals the Bled] stacks with the Frontier Doctor\'s #emph[Treat the Bled];, and #emph[Holds the Line Until Dawn] stacks with the Warden. Both stacks are intended specialist builds; none of them reduce the same Power cost twice.
 - #strong[Vampire-specific Focuses] (#emph[Hunts the Kept];, #emph[Seeks Revenge on a Vampire];) rely on killing strikes. If a campaign has few vampires, steer players toward #emph[Hunts the Beasts of the Frontier] or #emph[Collects the Bounty];.
+- #strong[Sends the Mind Abroad] works through an old-world implant and the relays around it, not a spirit. It follows the same open-sky rule as Carries a Passenger, and the same advice on placing relays applies.
+- #strong[Carries a Passenger] is an Old-World Focus. The Passenger is a voice relayed from a fixed old-world site, so it has a range; out of range the Focus does nothing except under open sky, where the moving lights give it a 1-in-3 chance each scene. On long journeys, place working relays often enough that the player isn't left without their Focus for whole sessions.
 - #strong[★ options] are all at Tier 3, as in #emph[Generic Focuses];, so a character can always choose a path that keeps their Refresh.
 - #strong[Tag-cap exceptions] (Bears an Old-World Relic --- The Relic Awakens; Forges Weapons Against the Night --- Masterwork): aligned with the #strong[Generic Focuses §9.2] fix --- both now add #strong[+1 above the normal +2 cap (maximum +3)] instead of ignoring it outright.
 

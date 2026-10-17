@@ -1,12 +1,12 @@
-# Hollow Frontier — Dark Tower Elements Review
+# Testament of Dust — Dark Tower Elements Review
 
 > What Stephen King's *Dark Tower* can lend Hollow World, and what it must not.
 
 | Field | Value |
 |---|---|
-| Project | *Hollow Frontier* (internal codename: Hollow World), 2d12 System |
-| Companion to | *Hollow World — Setting Design Document* v0.9 |
-| Document version | 0.2 — Q37–Q41 resolved; rulings applied to the design document v0.10 |
+| Project | ***Testament of Dust*** (working title *Hollow Frontier*; internal codename Hollow World), 2d12 System |
+| Companion to | *Testament of Dust — Setting Design Document* (`testament-of-dust-setting-design-document.md`) |
+| Document version | 0.4 — Q30 resolved: the Relay-Sense adopted for *Sends the Mind Abroad*, with the open-sky rule |
 | Compiled | 2026-10-16 |
 | Purpose | Identify *Dark Tower* elements that fit Hollow World's canon and tone, and give each one an original adaptation |
 | Status | **[PROPOSED]** unless marked otherwise. Q37–Q41 are **[CANON]** (§6) |
@@ -217,13 +217,13 @@ Following §3.5 of the design document (originality guardrails), King's work is 
 
 **Hollow World version.** An in-world hunters' classification. Each class is accurate about what hunters observed and wrong about why:
 
-| In-world class (placeholder names) | What hunters observe | What's actually going on (GM-only) |
+| In-world class | What hunters observe | What's actually going on (GM-only) |
 |---|---|---|
-| **Sleepers** | Ancient, cunning, vanish for decades, come back terribly hungry | Husk dormancy (§5.8) and revival debt; often Remembered, but not always |
-| **Get** | Newly made, clumsy, short-lived, hunted down fast | Improvised conversions with poor control and poor supply; they die because nobody maintains them, not because they are a lesser kind |
-| **Sippers** | Feed lightly, leave donors confused, rarely kill | Well-supplied, restrained vampires taking partial feedings (§5.5); the confusion comes from sedatives in a household, not from the bite |
+| **Winterers** | Ancient, cunning, vanish for decades, come back terribly hungry | Husk dormancy (§5.8) and revival debt; often Remembered, but not always |
+| **Strays** | Newly made, clumsy, short-lived, hunted down fast | Improvised conversions with poor control and poor supply; they die because nobody maintains them, not because they are a lesser kind |
+| **Tapsters** | Feed lightly, leave donors confused, rarely kill | Well-supplied, restrained vampires taking partial feedings (§5.5); the confusion comes from sedatives in a household, not from the bite |
 
-**Use [CANON — Q41].** The handout goes in the **Stalker** chapter and is cross-referenced in the **Occultist** chapter. Class names are placeholders. Give players the field guide as a handout. Let investigation pull it apart. Threat ranks (V37) stay as the GM's actual measure.
+**Use [CANON — Q41].** The handout goes in the **Stalker** chapter and is cross-referenced in the **Occultist** chapter. The classes are **Winterers**, **Strays** and **Tapsters**. Give players the field guide as a handout. Let investigation pull it apart. Threat ranks (V37) stay as the GM's actual measure.
 
 ---
 
@@ -316,12 +316,12 @@ The design document lists Q30 as open: *Sends the Mind Abroad* and *Carries a Pa
 
 | Focus | Option | Material basis | Canon check |
 |---|---|---|---|
-| *Sends the Mind Abroad* | **A. The Relay-Sense** | An inherited or surgically installed old-world implant (Cyborg Hunter adjacent) that picks up nearby sensor and relay networks: cameras, door logs, facility speakers. The character "sees far" only where the old networks still run | Keeps F1 and F3; the limits are geographic and investigable |
+| *Sends the Mind Abroad* | **A. The Relay-Sense [CANON — Q30]** | An inherited or surgically installed old-world implant (Cyborg Hunter adjacent) that picks up nearby sensor and relay networks: cameras, door logs, facility speakers. The character "sees far" only where the old networks still run | Keeps F1 and F3; the limits are geographic and investigable |
 | | **B. The Trained Trance** | Not supernatural. Old procedures of memory and observation (a monastery practice) plus a sedative preparation, producing remarkable deduction and recall that people experience as visions | Purely human; weaker but safe |
 | *Carries a Passenger* | ~~A. The Hosted Facsimile~~ | A Digital Facsimile stored in an implant or carried relic that talks only to the bearer | **Rejected (Q38):** no portable facsimiles |
 | | **B. The Tethered Voice [CANON — required by Q38]** | An earpiece relic linked to a facsimile at a fixed site. It works only within range of that site's relays, so the passenger "goes quiet" far from home | Fully consistent with Q21 |
 
-**Status.** Q38 rules out option A for *Carries a Passenger*, so it uses the Tethered Voice. *Sends the Mind Abroad* stays open under Q30.
+**Status.** Q38 rules out option A for *Carries a Passenger*, so it uses the Tethered Voice. **Q42** adds an open-sky exception: surviving orbital relays (*the moving lights*) carry the voice beyond its range on 9+ on a d12 per scene, and anyone with a receiver may overhear it. *Sends the Mind Abroad* stays open under Q30. *Sends the Mind Abroad* now uses the Relay-Sense (Q30), under the same open-sky rule.
 
 **Recommendation.** Relay-Sense (A) for *Sends the Mind Abroad*, and Tethered Voice (B) for *Carries a Passenger*. Both keep every rule intact, and both give the player a reason to care about particular places and the people who control them, the way the kept specialists in D9 are tied to their compound.
 
@@ -351,7 +351,11 @@ All five were resolved on 2026-10-16 and logged in the design document's §13.
 | Q40 | Where does the Order of the Last Guns (D4) belong? | **A neighbouring province.** The March receives claimants, refugees, and relic sidearms; the order's history stays offstage | §8.2 |
 | Q41 | Include the hunters' taxonomy (D8) as a player handout? | **Yes.** It goes in the Stalker chapter, cross-referenced in Occultist, written entirely in-world. Threat ranks remain the GM measure | §10.2 |
 
-**Still open:** Q30 (*Sends the Mind Abroad*). The recommendation is the Relay-Sense (§4).
+| Q42 | Can the Tethered Voice reach beyond range by satellite under open sky? | **Yes, intermittently.** The moving lights carry it on 9+ on a d12 per scene; it can be overheard; Truth 11 adds a watcher | §5.15 |
+
+Q41 was amended afterwards: the classes are **Winterers**, **Strays** and **Tapsters**.
+
+**Q30 resolved:** *Sends the Mind Abroad* uses the Relay-Sense (§4), with the same open-sky rule as the Tethered Voice: 9+ on a d12 per scene through the moving lights, with a risk of being noticed.
 
 ---
 

@@ -1,9 +1,9 @@
-# 2d12 System — Hollow Frontier Setting Pack: Descriptors
+# 2d12 System — Testament of Dust Setting Pack: Descriptors
 
-> Markdown edition of **Chapter VIII, Frontier Descriptors** in `vampire-hunter-d-2d12-v2-master-rulebook.typ`.
+> Markdown edition of **Chapter VIII, Frontier Descriptors** in `testament-of-dust-2d12-v2-master-rulebook.typ`.
 > The Typst master is the source of truth; edit it first, then regenerate this file
 > (`pandoc -f typst -t gfm`). Synced 2026-10-16. Supersedes the v0.1 draft of this file.
-> Pack files: **vhd-setting-rules.md** · **vhd-descriptors.md** · **vhd-playbooks.md** · **vhd-focuses.md**.
+> Pack files: **testament-of-dust-setting-rules.md** · **testament-of-dust-descriptors.md** · **testament-of-dust-playbooks.md** · **testament-of-dust-focuses.md**.
 
 ---
 

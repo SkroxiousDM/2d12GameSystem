@@ -1,12 +1,11 @@
-# 2d12 System — Hollow Frontier Setting Pack: Playbooks
+# 2d12 System — Testament of Dust Setting Pack: Playbooks
 
-> Markdown edition of **Chapter IX, Frontier Playbooks** in `vampire-hunter-d-2d12-v2-master-rulebook.typ`.
+> Markdown edition of **Chapter IX, Frontier Playbooks** in `testament-of-dust-2d12-v2-master-rulebook.typ`.
 > The Typst master is the source of truth; edit it first, then regenerate this file
-> (`pandoc -f typst -t gfm`). Synced 2026-10-16. Supersedes the v0.1 draft of this file.
-> Pack files: **vhd-setting-rules.md** · **vhd-descriptors.md** · **vhd-playbooks.md** · **vhd-focuses.md**.
+> (`pandoc -f typst -t gfm`). Synced 2026-10-16 (Q37-Q41 rulings). Supersedes the v0.1 draft of this file.
+> Pack files: **testament-of-dust-setting-rules.md** · **testament-of-dust-descriptors.md** · **testament-of-dust-playbooks.md** · **testament-of-dust-focuses.md**.
 
 ---
-
 Nine ways to earn a living hunting the things that hunt humanity. Six reskin the generic playbooks; the Mutant, the Cyborg Hunter and the Warden are new to the Frontier.
 
 > Sellsword · Stalker · Frontier Doctor · Broker · Rider · Occultist · Mutant · Cyborg Hunter · Warden
@@ -148,6 +147,18 @@ Nine ways to earn a living hunting the things that hunt humanity. Six reskin the
 - **Instinct:** "Always find three ways out." / "Never be in the estate when the sun sets."
 
 **Relationships:** Ally — a fence at the trading post, an estate servant who leaves the gate open, a mentor who taught you the walls. Rival — a guardian machine you've escaped twice, a thief who works for the vampires, a Hunter who thinks stealth is cowardice.
+
+### 2.4 Handout — The Hunters' Field Guide
+
+Hunters pass these notes from hand to hand. Give them to players as found knowledge. The guide is right about what hunters saw. Its explanations are another matter. The GM measures a vampire by threat rank (Frontier Rules §5.1), not by these classes.
+
+**The Kinds of the Kept, as Hunters Tell It**
+
+**Winterers.** The oldest and the worst. They go to ground for a generation and wake hungry enough to empty a village. Cunning, patient, and they know every family in the valley. *Hunters say:* the old ones sleep by choice, to outlast their enemies. Find the sleeping place and burn it.
+
+**Strays.** Newly made, and it shows: clumsy, greedy, careless with their kills. They seldom last more than a few years. *Hunters say:* the blood thins with every making, and a made one is a weak copy of its maker. Kill them young and you'll have little trouble.
+
+**Tapsters.** They take a little and leave you living, the way a tapster draws from a cask. Their donors wake dazed and remember nothing, and many go back willingly. They rarely kill. *Hunters say:* their bite carries a sleeping venom. Never let one near your neck, and never trust a town that seems glad of them.
 
 ## 3. Frontier Doctor
 
@@ -405,6 +416,8 @@ Use the Adept's **Domain** rules (Generic Playbooks §8.1) unchanged: workings w
 - **Instinct:** "Always look at a stranger's reflection." / "Never use my power in front of villagers."
 
 **Relationships:** Ally — a teacher who vanished into an estate, a village wise-woman, an old-world machine that likes you. Rival — a psychic Hunter from a rival crew, a household's occultist, a priest who calls you a witch.
+
+**Field guide:** Occultists read and argue over the hunters' field guide (Stalker §2.4). An Occultist may find that its causes are wrong; its observations are mostly right.
 
 ## 7. Mutant
 

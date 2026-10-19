@@ -681,11 +681,11 @@ Design intent: power comes at the cost of narrative flexibility. A low-Refresh c
     align: (auto,auto,auto,),
     table.header([Effect], [Cost], [What it does],),
     table.hline(),
-    [#strong[Attack];], [1 Power per tier], [Inflict a #strong[Status] (e.g. #emph[wounded-2];, #emph[rattled-1];, #emph[on fire-3];)],
+    [#strong[Attack];], [1 Power per tier], [Inflict a #strong[Status] (e.g. #emph[wounded-2];, #emph[rattled-1];, #emph[on fire-3];). In a conflict, an Attack removes Disposition instead (§10.5)],
     [#strong[Weaken];], [1], [Reduce one of the target\'s statuses by 1 tier, or #strong[Burn] one of its tags for the scene],
     [#strong[Create];], [2], [Create a #strong[Truth] that lasts for the scene (#emph[smoke cover];, #emph[crowd on our side];). One extra Power makes it last until resolved],
     [#strong[Enhance];], [1 per tier], [Give an ally a helpful status (#emph[inspired-2];)],
-    [#strong[Restore];], [1 per tier], [Reduce a harmful status on yourself or an ally],
+    [#strong[Restore];], [1 per tier], [Reduce a harmful status on yourself or an ally. Lasting injuries have limits (§6.6)],
     [#strong[Discover];], [1], [Ask the GM one question; you get a true, useful answer],
     [#strong[Advance];], [1 per segment], [Tick a #strong[progress clock] (§7)],
     [#strong[Disrupt];], [2], [Cancel or delay an enemy\'s prepared action, or take 1 point off the GM\'s Woe],
@@ -704,9 +704,13 @@ Any unspent Power → #strong[Momentum];.
 #colbreak()
 - #strong[Tier 6:] the target is #strong[Taken Out] of whatever that status represents (dead, unconscious, captured, convinced, routed), within the status's scope. A harmful status reaching tier 6 also gives one #strong[Scar] (§6.3). Death needs a lethal cause and established stakes.
 - Statuses modify rolls by #strong[± their tier] (use only the highest relevant harmful status and the highest relevant helpful status).
+- #strong[Same kind.] Harm is the same kind when it worsens the same injury, affliction or condition. Renaming it doesn't stop it stacking: another cut worsens #emph[wounded], renewed menace worsens #emph[terrified], but a fresh burn needn't stack with a concussion. The GM says whether new harm stacks #strong[before] you decide to Resist or accept an injury (§10.7).
+- #strong[Order.] Resistance and armour reduce incoming harm before it stacks. Harm reduced to tier 0 isn't recorded and doesn't stack. A status can't go above tier 6; extra tiers have no effect unless a rule says so.
+- #strong[What it hinders.] A status's name decides which rolls it affects: #emph[slashed thigh-3] hinders running and climbing, not reading a ledger. A status can also decide what is possible: no roll lets you use a hand you no longer have.
+- #strong[Life-threatening harm.] A physical status that reaches tier 6 can make you #strong[Dying] when lethal stakes are in play (§6.7).
 ]
 
-== 6. Resistance and Stress
+== 6. Resistance, Harm and Recovery
   #columns(2, gutter: 6mm)[
 When a consequence lands on you (a status, lost gear, a bad position), you may #strong[Resist];:
 
@@ -732,6 +736,21 @@ When a consequence lands on you (a status, lost gear, a bad position), you may #
 #set enum(numbering: "1.", start: 4)
 + #strong[Effect:] reduce the incoming status by #strong[2 tiers] (to 0 if that brings it below 1), or turn a severe consequence into a lesser one.
 ]
+
+#strong[Imposed harm, in order.] When an effect imposes a harmful status:
++ The GM names the status, its source and its incoming tier, and says whether it stacks with a status you already have (§5.1).
++ If you Resist, add any armour that applies (Playbook Rules §2.3) and pay the cost. A cost you can't fully pay makes you run dry (§6.1).
++ Record what is left with normal stacking. A status reduced to tier 0 isn't recorded.
+
+#strong[Once per application.] Resist each application of harm once. You can't make a second attempt against the same harm.
+
+#strong[What Resistance can't touch.] Resistance changes an imposed consequence. It doesn't reverse the action's success, restore lost Disposition or revoke an agreed outcome. Unless an ability says otherwise, you can't Resist:
+- ordinary Disposition loss in a conflict (§10.5);
+- an injury you accepted to cancel Disposition loss (§10.7);
+- a cost you accepted in a concession (§10.9), or any other cost you accepted as payment for a benefit;
+- a running-dry status (§6.2).
+
+#strong[Protected payments.] An effect that prevents incoming harm, cancels a consequence or clears a status as a side benefit (such as the 12 result above) can't remove an injury you accepted as payment, whichever action or Resistance produced it. Treatment, healing time and effects that explicitly heal an existing injury affect it normally (§6.6).
 
 === 6.1 Running Dry
 #strong[Trigger.] You #strong[run dry] when a positive cost brings a pool to 0 or is more than the points left in it. Finish the action or Resistance that caused the cost, then take a harmful #strong[running-dry status] for that pool (§6.2). Running dry does not, on its own, take you out, give you a Scar or refill the pool.
@@ -848,6 +867,12 @@ When a harmful status reaches #strong[tier 6], whether in one hit or through sta
 #strong[Scar effects.] A Scar is a lasting weakness tag, not a status. Apply it when it's relevant, and it can be compelled for Tychē Points. Rest, treatment, Restore and pool recovery don't remove a Scar; changing one takes an Advance, a milestone or an explicit ability. If a Scar and a harmful status describe the same impairment on the same roll, apply only the larger penalty. Your #strong[fourth Scar] retires the character from ordinary adventuring. Finish the immediate scene, then decide with the player how the character leaves. Retirement doesn't mean death.
 
 === 6.4 Being Taken Out
+#strong[Three ways out.] You are #strong[Taken Out] of a conflict when your Disposition reaches 0 (§10.5), when a harmful status reaches tier 6 within its scope (§6.3), or when an effect says so. Once you are out, you can't start another action, spend Effort or activate an ability unless its rules let you act while Taken Out.
+
+#strong[Forfeited Disposition.] However you are Taken Out, any Disposition you still have drops to 0. It can't be cancelled with an injury trade, passed to an ally or treated as an Attack, and it counts as lost when compromise is worked out. If every member of a side is Taken Out, that side loses at once (§10.8).
+
+#strong[Out isn't down.] Being Taken Out doesn't, on its own, make you unconscious, injured or dying. Describe it to fit the fiction: pinned down, disarmed, driven back, cut off, or too frightened to go on. Injury needs a status, death needs established lethal stakes (§6.7), and permanent harm needs an established consequence (§6.8).
+
 #strong[Resisting while out.] Being Taken Out doesn't automatically stop you Resisting, but the Resistance must be something you can still do. You can brace against pain while pinned down, but you can't dodge while fully #emph[bound], or use an act of will while unconscious. When a status first takes you out, finish any Resistance already under way. Resistance can't reverse a defeat, undo an accepted concession, or prevent a cost you accepted as payment. Once a conflict is settled, you can only Resist the consequences that were left open to it; you can't use Resistance to reopen the intent or delay settlement.
 
 #strong[Getting back in.] Clearing the condition that took you out lets you act again, but it doesn't give back forfeited Disposition. To rejoin a conflict that is still going, you need both of these:
@@ -895,10 +920,110 @@ There\'s no separate \"short rest\" / \"full rest\" split. Instead, resting esca
 
 #strong[No shortcut.] Running dry never gives a special recovery roll, an automatic refill, or a way around the rest cycle. You can't overrun a pool on purpose to replace a bad recovery roll or to jump to a fresh rest stage.
 
+#strong[Each layer recovers on its own.] Disposition, pools and statuses each recover only through their own procedure:
+- #strong[Disposition] is set fresh when a genuinely new conflict begins (§10.2). Fresh Disposition doesn't refill pools or clear statuses, and a brief pause in the same struggle isn't a new conflict.
+- #strong[Pools] recover through the rests above. A full pool doesn't heal an injury, and an injury doesn't stop pool recovery unless its rule says so.
+- #strong[Statuses] recover by their kind: a temporary state ends when its cause or duration ends; injuries need treatment and time (§6.6); afflictions follow their source.
+
+Winning a conflict, ending a scene or setting fresh Disposition is #strong[not a general reset].
+
 
 #strong[Advance option --- Hardened] #emph[(6 XP, one-time)]
 
 Your recovery die steps up one size at every stage, permanently: 1d6→1d8, 1d8→1d10, 1d10→1d12. The 4th rest of the day remains a full restore. This is a flat, single bump --- it does not scale further and doesn\'t interact with Edge, Effort Level, or pool growth from other Advances.
+]
+
+
+=== 6.6 Treatment and Healing
+#columns(2, gutter: 6mm)[
+#strong[Appropriate care.] Treatment must address the cause of the harm:
+
+#figure(
+  [#table(
+    columns: (44%, 56%),
+    align: (auto,auto,),
+    table.header([Harm], [Typical care],),
+    table.hline(),
+    [Wounds, blood loss, poison], [Medicine and suitable supplies],
+    [Fear, grief, shock], [Empathy, reassurance and safety],
+    [Confusion, cognitive disruption], [Diagnosis, rest or specialist care],
+    [Damaged machines or implants], [Science or Craft, tools and access],
+    [Curses, possession, corruption], [A fitting supernatural method or the source's stated cure],
+  )]
+  , kind: table
+  )
+
+A skill doesn't supply the tools, knowledge or fictional permission on its own.
+
+#strong[Routine care.] In safe conditions, when failure would add nothing, care needs no roll. It gives permission to treat, stabilises where nothing is uncertain, and meets the conditions for natural recovery. It #strong[generates no Power]. If ordinary treatment could remove one tier of a lasting injury and success is routine, remove that tier and mark the injury #emph[treated]; there's no surplus Power or Momentum. Roll only when an uncertain result matters, never just to farm Momentum.
+
+#strong[Emergency care] stops an injury getting worse: stopping bleeding, splinting a limb, pulling someone away from a harmful influence, isolating a damaged power cell. It doesn't normally reduce the tier. When the outcome is uncertain, roll the treatment skill vs. #strong[Standard 15], adjusted by Truths. On a success, the deterioration stops or treatment can begin. On a Success at a Cost, the same, with the normal cost. On a failure, the condition is still untreated; the GM announces any further consequence before another attempt.
+
+#strong[Restore on lasting injuries.] Restore costs 1 Power per tier (§5). It can clear a #strong[temporary] condition outright when the action removes its cause: putting out burning clothes reduces #emph[on fire], calming an ally reduces fear. #strong[Lasting injuries] are slower:
+- Ordinary treatment reduces a given lasting injury by #strong[at most 1 tier]. Mark it #emph[treated].
+- Further ordinary treatment can't reduce it again until a healing interval (below) actually removes a tier from it. Interrupting rest, changing healers, renaming the injury or starting a new scene doesn't clear the mark, and new harm to the same injury doesn't refresh it. A separate injury has its own mark.
+- Spare Power buys other fitting Effects or becomes Momentum as normal.
+- Abilities, cyphers and items that explicitly heal a stated number of tiers (such as #emph[healing gel]) follow their own text. Abilities that only change the cost of Restore don't lift the 1-tier limit.
+
+#strong[Care in a conflict.] Treating someone under opposition uses your action. Emergency care can be a Defend only where the conflict type or an ability allows its skill (such as #emph[Battlefield Surgeon]). Restoring Disposition keeps someone in the contest; it doesn't heal an injury unless the action also buys a healing effect.
+
+#strong[Healing intervals] #emph[(playtest values)]#strong[.] Once a lasting injury has had appropriate care and its cause has stopped, safe rest removes one tier per interval. Use the injury's current tier:
+
+#figure(
+  [#table(
+    columns: (26%, 74%),
+    align: (auto,auto,),
+    table.header([Current tier], [Safe recovery to remove 1 tier],),
+    table.hline(),
+    [1], [One full night],
+    [2], [One full day],
+    [3], [Three full days],
+    [4], [One full week],
+    [5], [Appropriate treatment, then one full week],
+    [6, not lethal], [Remove the incapacitating cause and set a recovery method],
+    [6, life-threatening], [Stabilise, then definitive care before natural recovery begins (§6.7)],
+  )]
+  , kind: table
+  )
+
+These are game-time intervals, not medical estimates. A full night is the normal overnight rest; a full day is 24 hours in recovery conditions; a full week is seven such days. Intervals can overlap pool rests. Recovery needs shelter, food and care that suit the injury. Light activity is fine; strenuous activity that aggravates the injury stops recovery.
+
+#strong[Timing.]
+- When an injury's tier changes, its next interval uses the new tier.
+- If treatment or healing lowers the tier, keep the qualifying time already spent. If that time already meets the new interval, remove one tier and start the next interval at zero. One change can complete only one interval.
+- If fresh harm raises the tier, discard progress and start a new interval at the higher tier. Separate injuries don't reset each other.
+- A brief interruption pauses recovery; it doesn't erase it. A bad roll on an unrelated action doesn't worsen an injury; that needs a relevant danger or a stated consequence.
+
+#strong[Afflictions] (poison, disease, possession, curses, ongoing exposure) don't follow the interval table. When the affliction is identified, its source sets what worsens it, what suppresses it, what allows recovery, and whether treatment cures it or only eases the symptoms. #emph[Bled], #emph[Sun-Sick] and the Thirst keep their own rules (Frontier Rules §6, §7), and vampires keep their blood-based recovery (Frontier Rules §5.2).
+]
+
+=== 6.7 Dying and Stabilisation
+#columns(2, gutter: 6mm)[
+#strong[Becoming Dying.] After Resistance and stacking, life-threatening physical harm that reaches tier 6 makes a living character #strong[Dying], if lethal stakes allow that outcome (§10.2). It also gives a Scar as normal (§6.3). The character is incapacitated and can't take ordinary actions. Start a #strong[3-segment Dying clock]. There is no extra #emph[dying] penalty; the injury already records the harm. Mental defeat, capture, exhaustion and ordinary fear never start a Dying clock, and a running-dry status is never lethal on its own.
+
+#strong[Cadence.] When Dying begins, set how the clock advances: at the end of each exchange after the one in which Dying began, during a scripted conflict; or after a stated fictional interval, outside one. The clock advances #strong[because the interval passes], not because someone attempts treatment. Several characters can act in the same interval without advancing it further. Moving into or out of a scripted conflict carries the existing deadline over; it doesn't advance the clock or grant extra time.
+
+#strong[Further harm.] Each further unmitigated physical harm that could worsen the mortal injury marks one extra segment, even though the injury stays at tier 6. One action or hazard can mark at most one extra segment. When the third segment is marked, the character dies.
+
+#strong[Stabilising.] An adjacent character with suitable means rolls Medicine vs. #strong[Hard 18], adjusted by Truths. An ability or a fitting supernatural method can offer another way.
+- #strong[Success:] the patient is stable and the clock stops.
+- #strong[Success at a Cost:] stable, with the normal cost.
+- #strong[Failure:] still Dying. The attempt uses the action, but doesn't advance the clock.
+
+Stabilising doesn't erase marked segments, reduce the injury, refill pools or return the patient to the conflict. A stable patient can be moved with care. If a new event makes them Dying again, the clock resumes from its recorded segments.
+
+#strong[Definitive care.] Emergency care can stabilise a tier-6 life-threatening injury but can't lower its tier. Lowering it below tier 6 takes #strong[definitive care]: a suitable procedure, facility or specialist, or an ability or item that explicitly heals the injury (such as #emph[Miracle Worker], #emph[Not on My Table] or #emph[healing gel]). The GM states what that requires when the injury is assessed and doesn't add requirements once they are met. When definitive care brings the injury below tier 6 and removes its immediate lethal cause, clear the Dying clock.
+
+#strong[Immediate death.] Use it only when the established outcome leaves no plausible time for rescue, or a specific killing method calls for it (such as a killing strike, Frontier Rules §5.2). Announce that danger before the roll, and allow Resistance, escape or interruption. Once such an outcome is fully resolved, don't add a Dying clock to undo it; equally, don't skip the clock for an ordinary mortal wound just because the description is graphic.
+
+#strong[Bled.] Blood loss keeps its own tiers 4--6 and its own stabilising rules (Frontier Rules §6). Don't run a Dying clock for #emph[Bled] as well.
+
+=== 6.8 Permanent Harm
+#strong[Where it comes from.] An injury doesn't become permanent just because its tier is high. Permanent harm needs an established permanent-injury stake, a specific effect or creature rule, a voluntary bargain, or a Scar-giving event. Tier 6 always gives a Scar (§6.3), but never by itself severs a limb, destroys an organ, lowers a maximum pool or causes any other permanent mechanical loss.
+
+#strong[The wound heals; the loss stays.] A permanent change can outlast the injury that caused it. When #emph[severed hand-4] has healed, the hand is still gone: the status measured the acute wound. Record the lasting change as a tag or a character fact, not as a status that never heals.
+
+#strong[Adapting.] Training, help, prostheses, old-world works or supernatural intervention can change how permanent harm affects play. A replacement doesn't automatically remove a related Scar, and a Scar doesn't make a replacement useless. Don't reduce maximum pools, Edge, skills or Refresh unless the effect or an agreed Advance says so.
 ]
 
 == 7. Progress Clocks
@@ -981,10 +1106,16 @@ Use a conflict when #strong[any two] of these are true:
 
 #colbreak()
 === 10.2 Setup
-+ #strong[Declare intent:] each side states what it wants if it wins.
++ #strong[Declare intent and stakes:] each side states what it wants if it wins. Establish what losing lets the other side do, whether death, permanent injury or capture is at stake, and what surrender or withdrawal could look like.
 + #strong[Choose the conflict type] (§10.3), which sets the skill for each action.
 + #strong[Disposition:] the leader of each side rolls #strong[2d12 + the type\'s Disposition skill + the highest Edge in that skill\'s pool];, halves the result (round up), and adds +1 per helper. That is the side\'s #strong[Disposition] (usually 7--12), divided among team members as the side chooses.
 + #strong[Track] Disposition as a number or a clock.
+
+#strong[Intent sets the scope.] Beating a side whose intent is to hold a doorway doesn't, by itself, let you kill them all, take everything they carry or achieve some unrelated goal.
+
+#strong[Lethal stakes.] A lethal outcome must be established before the roll or exchange that can produce it. Stakes can change mid-conflict when circumstances do, but never retroactively: the GM explains the new danger and lets those affected respond before it is resolved. Lethal stakes make death possible; they don't make every hit deadly.
+
+#strong[New conflict or the same one?] Set fresh Disposition only for a genuinely new conflict: a materially different intent or changed circumstances. Moving through a doorway, switching from a Fight to a Chase, or changing tactics in the same unresolved struggle continues the same conflict; carry over Disposition, used injury trades (§10.7) and Taken Out characters.
 ]
   
 === 10.3 Conflict Types
@@ -1047,7 +1178,32 @@ Each #strong[exchange] is three #strong[volleys];. Each side secretly #strong[sc
   , kind: table
   )
 
-Effort (including Effort for +1 Power), Momentum, Woe, Tychē Points, tags, and Truths all work normally. A PC who hits 0 Disposition is out of the conflict but not necessarily harmed; harm comes from compromise.
+Effort (including Effort for +1 Power), Momentum, Woe, Tychē Points, tags, and Truths all work normally.
+
+#block(breakable: false)[
+#strong[Three layers, three jobs.]
+
+#figure(
+  [#table(
+    columns: (25%, 75%),
+    align: (auto,auto,),
+    table.header([Layer], [What it measures],),
+    table.hline(),
+    [#strong[Disposition]], [Whether you can keep pursuing this conflict's intent. Reduced by Attacks and Feints; restored by Defend],
+    [#strong[Pools]], [Your capacity for Effort, abilities and Resistance. Spent by you; restored by rest (§6.5)],
+    [#strong[Statuses]], [What has actually happened to you. Inflicted by direct harm, injury trades, hazards and compromise; recovered by treatment and time (§6.6)],
+  )]
+  , kind: table
+  )
+]
+
+Losing one doesn't reduce the others. Apply more than one only when a rule says so.
+
+#strong[Conflict attacks.] An ordinary successful Attack or Feint removes Disposition, and nothing else: no pool points, no status. Describe the loss to fit the fiction (driven back, an opening lost, cut off, a glancing blow); the description doesn't create an injury. Armour and Resistance don't reduce Disposition loss unless an ability says so.
+
+#strong[Direct harm.] Outside a conflict, harmful effects inflict statuses (§5, §6). Inside one, an ability or hazard can inflict a status only if it says so; resolve that status separately from any Disposition loss. Don't add harm to an ordinary Attack just because the weapon is dangerous or the narration is violent.
+
+A PC at 0 Disposition is out of the conflict but not necessarily harmed (§6.4).
 
 === 10.6 Conflict Gear
 Gear in conflicts is written as an #strong[action tag] that only applies to the listed action(s). It counts toward the +2 tag cap.
@@ -1068,7 +1224,55 @@ Gear in conflicts is written as an #strong[action tag] that only applies to the 
   , kind: table
   )
 
-=== 10.7 Compromise
+=== 10.7 Accepting Injury
+#strong[The trade.] Once per character per conflict, when a successful Attack or Feint would remove your Disposition, you may accept a lasting injury to cancel some of that loss. Declare it before the loss is applied, even if the loss would take you out:
+
+#figure(
+  [#table(
+    columns: (50%, 50%),
+    align: (auto,auto,),
+    table.header([Injury you accept], [Disposition loss cancelled],),
+    table.hline(),
+    [Tier 2], [1],
+    [Tier 3], [2],
+    [Tier 4], [3],
+  )]
+  , kind: table
+  )
+
+Name the injury, say how taking it keeps you in the fight, and record it at once. It must follow from the action: a blade gives #emph[slashed forearm], not #emph[embarrassed]; an occult assault might give #emph[fractured concentration]. The injury stacks normally (§5.1) and must add a real cost: a new relevant status, or a worse one.
+
+#strong[You can't:]
+- pay with an injury you already have, or with a status that has no relevant effect or is wholly covered by an equal or worse status;
+- rename, split or file the injury somewhere irrelevant to dodge its cost;
+- accept an injury that would take a status to tier 6;
+- use the trade after you are Taken Out, or against voluntary costs, forfeited Disposition, or loss from Maneuvers, hazards or special effects (unless their rules allow it);
+- cancel a status, an execution or any outcome that isn't ordinary Disposition loss, or cancel more loss than the Attack or Feint inflicted;
+- invent a bodily injury to pay for a purely logistical setback.
+
+The trade cancels incoming loss. It doesn't restore Disposition already lost or raise your starting Disposition.
+
+#strong[It's a payment.] Armour, Resistance, cancellation effects and side benefits can't reduce or prevent an accepted injury (§6). It heals through treatment and time like any other injury.
+
+#strong[Shared loss.] When a rule moves Disposition loss between characters (such as #emph[Interpose]), each character can use their own unused trade against the share they take. Each point of loss can be cancelled only once. This doesn't create spillover where none exists.
+
+#strong[Refresh.] The trade refreshes only when a genuinely new conflict begins (§10.2).
+
+=== 10.8 Taken Out, Volleys and Mutual Defeat
+#strong[Finish the action first.] Complete all the costs, choices and effects of the action being resolved before applying removal it causes. After that, the removed character can't act (§6.4).
+
+#strong[Independent actions.] When two actions resolve independently in the same volley, both resolve even if one takes someone out. Neither cancels the other. Check victory after both.
+
+#strong[Side defeat.] When a side's Disposition reaches 0, or every member is Taken Out, that side loses. The winner achieves its intent, subject to compromise (§10.10). Don't make the losing side play out the same contest again; a new conflict needs a materially different intent or changed circumstances.
+
+#strong[Mutual defeat.] If both sides reach 0 in the same volley, neither wins outright. Resolve the compatible parts of both intents and a shared setback within the stakes. No compromise is calculated.
+
+=== 10.9 Conceding
+#strong[Offer it before the roll.] Before the next roll, a side may offer a concession instead of fighting on. State what the other side gains, what the conceding side keeps, what injuries, losses or obligations it accepts, and how the conflict ends. It must give the other side a meaningful success and fit the fiction: a mindless predator doesn't take surrender, so against one the offer may need an escape route or a sacrifice. If the sides don't agree, the conflict goes on. You can't offer a concession after the deciding roll.
+
+#strong[Settle it.] An accepted concession ends the conflict. Apply its terms with no roll to see whether they happen, and don't also apply compromise unless the terms include it. Costs accepted in a concession can't be Resisted or prevented afterwards; injuries in the terms heal normally. Conceding gives no automatic Tychē Point.
+
+=== 10.10 Compromise
 When one side hits 0 Disposition, the conflict ends. The winner gets their intent but #strong[pays a compromise] based on how much Disposition they have left:
 
 #figure(
@@ -1078,16 +1282,56 @@ When one side hits 0 Disposition, the conflict ends. The winner gets their inten
     table.header([Winner\'s Disposition left], [Compromise],),
     table.hline(),
     [Full or nearly full], [None or trivial],
-    [More than half], [Minor --- loser gets a small concession; winner takes a tier-1 status],
-    [Less than half], [Significant --- loser gets part of its intent; winner takes tier-2 statuses or loses gear],
-    [1--2 points], [Major --- near pyrrhic victory; heavy statuses, a lost ally, or a new danger clock],
+    [More than half], [Minor --- loser gets a small concession; winner takes a tier-2 status],
+    [Less than half], [Significant --- loser gets part of its intent; winner takes tier-3 statuses or loses gear],
+    [1--2 points], [Major --- near pyrrhic victory; tier-4 statuses, a lost ally, or a new danger clock],
   )]
   , kind: table
   )
 
-Players may #strong[Resist] compromise statuses as usual (§6).
+#strong[Settling the outcome.]
++ Determine the winner and the compromise.
++ State what the winner achieves and what the loser keeps or gains.
++ State every cost in full: who receives each injury and at what tier, and any non-injury costs. If there are alternative costs, state them now.
++ Credit existing injuries (below).
++ Resolve Resistance against what remains.
 
-=== 10.8 Keeping It Fast
+The listed tier doesn't apply to every member of the winning side; the costs say who pays.
+
+#strong[Existing injuries count once.] An injury taken during this conflict, including one accepted through the trade, pays for one injury cost assigned to that character if its current tier equals or exceeds the required tier. Each injury pays for one cost only. Injuries can't be pooled, split, moved between characters or credited against a non-injury cost. An injury already treated below the required tier no longer pays. Don't add injury costs because an existing injury pays for one.
+
+#strong[Resisting compromise.] Players may #strong[Resist] imposed compromise statuses as usual (§6), except costs they agreed to. Resistance can reduce or remove the injury, but it doesn't revoke the loser's gain or any other stated cost. Don't add a replacement cost because Resistance removed an injury.
+
+=== 10.11 NPCs and Harm
+- #strong[No injury trade.] Ordinary NPCs and minion groups can't use the injury trade. A named rival built as a full PC can; any other NPC needs a trait that grants it.
+- #strong[Resisting.] Ordinary NPCs don't have pools (§6.1). An NPC reduces harm only through its listed armour, traits or abilities. Even then, it gets at most one reduction per imposed status application, and that reduction can't touch Disposition loss or an accepted payment.
+- #strong[Defeat.] 0 Disposition defeats an NPC in this contest. Capture, escape, injury or death follow the stakes and the outcome. Use a Dying clock for an NPC only when rescuing them matters to play, and never use that shortcut to make a rescue impossible after offering it as a goal.
+- #strong[Special creatures.] Specific rules win: vampires keep #emph[Hard to Kill], killing strikes and blood-based recovery (Frontier Rules §5.2); machines and cyborgs shut down and are repaired rather than dying. An immunity stops an unsuitable status, but not Disposition loss in a contest the creature can lose.
+
+=== 10.12 Order of Resolution
++ Establish intent, stakes and exits (§10.2); script the volley.
++ Pay pre-roll costs (Effort for dice, Help); resolve any running dry (§6.1).
++ Roll and determine the result and Power.
++ Make post-roll choices (Effort for Power) and pay them; resolve any running dry.
++ Separate Disposition loss from statuses imposed by a rule.
++ Offer eligible injury trades (§10.7).
++ Apply the remaining Disposition loss.
++ Resist imposed statuses (§6); pay; resolve running dry from Resistance.
++ Stack what remains; resolve tier 6: scope, Scar, Dying (§6.3, §6.7).
++ Resolve any independent action in the same volley.
++ Check removal, victory and mutual defeat. Before the next roll, either side may offer a concession.
++ Settle compromise (§10.10).
++ Afterwards, recover each layer by its own procedure (§6.5, §6.6).
+
+#strong[Which rule wins.]
++ Explicit amendments and replacements in this damage cycle.
++ Current creature-specific rules and explicitly revised abilities.
++ The general procedures of this damage cycle.
++ Earlier general rules.
+
+A rule overrides another only on the subject it addresses. An ability that heals a status doesn't also restore Disposition, refresh an injury trade or erase a Scar.
+
+=== 10.13 Keeping It Fast
 - Disposition of 7--12 should resolve in one or two exchanges.
 - NPC sides script on index cards; minions act as a single group with one script.
 - Table guideline: about 15--20 minutes per conflict.
@@ -1190,6 +1434,7 @@ Settings rename and reskin playbooks (Adept becomes \"Hedge Witch\" in fantasy, 
 - #strong[Four pools] means more pool points to track. The sheet should put all four in one row with Edge beside each.
 - #strong[Conflict length:] with scripting used for every big contest, the conflict test (§10.1) is what stops overuse.
 - #strong[Running dry (revised R3):] running dry now imposes a status at tier 1 + overrun instead of an automatic Taken Out, and a Scar comes from tier 6 instead of from an empty pool. Playtest the 2-recovery-points-per-tier rate for depletion statuses, the one-Scar-per-event limit, and how often Resisting at an empty pool reaches tier 4 or higher.
+- #strong[Damage cycle (unified):] watch whether the once-per-conflict injury trade (tier 2/3/4 cancels 1/2/3 loss) is a hard choice or always taken, and whether it drags conflicts out. Also test the compromise tiers (now 2/3/4), the healing intervals, the 3-segment Dying clock, and whether the 1-tier treatment limit makes Restore-cost abilities (#emph[Field Medic], #emph[Field Surgeon]) feel too weak against lasting injuries.
 
 // =====================================================================
 //  CHAPTER — OPTIONAL MODULES
@@ -1781,6 +2026,8 @@ Wind, sun and years have worn you down to something hard and lasting.
     [#strong[Status];], [Tiered condition 1--6; tier 6 = Taken Out (§5.1)],
     [#strong[Truth];], [Scene, site, region, or campaign tag that shifts Difficulty by ±3 (§8)],
     [#strong[Disposition];], [Conflict \"hit points\" (§10)],
+    [#strong[Injury trade];], [Once per conflict, accept a tier-2/3/4 injury to cancel 1/2/3 Disposition loss (§10.7)],
+    [#strong[Dying];], [Life-threatening tier-6 physical harm: 3-segment clock; Medicine vs. Hard 18 stabilises (§6.7)],
     [#strong[Checks / Grind];], [Players\' Turn currency and the hardship clock (Module B)],
   )]
   , kind: table
@@ -1827,7 +2074,7 @@ Before a mission, choose your #strong[load];. During play, declare items from yo
   , kind: table
   )
 
-Armour that absorbs a tier-4+ hit is #emph[damaged] (−1 Armour) until repaired during downtime.
+Armour that absorbs a tier-4+ hit is #emph[damaged] (−1 Armour) until repaired during downtime. Armour never reduces Disposition loss, an injury you accepted as payment, or a running-dry status (Core Rules §6).
 
 === 2.4 Common Gear (any playbook)
 #figure(
@@ -5491,6 +5738,9 @@ Roll 2d12, take the *highest die*, and pay the cost minus Edge: *12* costs 0 and
 
 == Running Dry (Core Rules §6.1--6.3)
 A cost that empties a pool, or is more than what's left in it, imposes a running-dry status at *tier 1 + overrun* (overrun = cost − points left). Only Resistance and imposed costs can overrun; a cost of 0 never runs dry. The status stacks normally. At *tier 6* you are Taken Out within its scope and gain *one Scar* (at most one per event). The pool and the status recover separately: 2 recovery points remove 1 depletion tier.
+
+== Damage Cycle (Core Rules §6, §10)
+Attacks and Feints in a conflict remove *Disposition* only. *Injury trade:* once per conflict, accept a tier 2/3/4 injury to cancel 1/2/3 loss; it can't be Resisted. Treatment removes at most 1 tier of a lasting injury until healing time does. Tier-6 life-threatening harm makes you *Dying*: 3-segment clock, Medicine vs. Hard 18 to stabilise. Compromise statuses are tier 2/3/4.
 ])
 
 #grid(columns: (1fr, 1fr), column-gutter: 0.7cm,

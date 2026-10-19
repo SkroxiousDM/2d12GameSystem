@@ -59,10 +59,14 @@ The new section is inserted after §10.5 Actions and Effects. Later sections mov
 | Quick Reference, Damage Cycle | Disposition only | Adds shared track, side defeat, one trade per Attack or Feint |
 | §14.1 Known Risks | --- | New Shared Disposition entry |
 
-## Open items
+## Revised abilities
 
-These abilities were written for personal Disposition and are left unchanged pending a design decision:
+These abilities were written for personal Disposition and are revised for the shared track. Updated in the master and in `focuses.md`.
 
-- **Interpose** (Never Leaves Anyone Behind 2b): moves loss from an ally's Disposition to your own. With one shared track, there is nothing to move. It needs a new effect, for example letting you be the one participant who accepts the injury trade against an Attack or Feint aimed at an ally.
-- **Overwatch** (Never Misses 2a) and **Battlefield Surgeon** (Heals the Broken 2a): "restore Disposition to any ally" is now automatic, since every Defend restores the shared track. Overwatch's scene power and Battlefield Surgeon's tier-1 clear still work.
-- `focuses.md` keeps the old wording for these entries until the abilities are revised.
+| Ability | Before | After |
+|---|---|---|
+| **Interpose** (Never Leaves Anyone Behind 2b) | Once per exchange, take half an ally's Disposition loss (round up) from your own Disposition | When you accept an injury to cancel Disposition loss from an Attack or Feint, cancel 1 additional loss, up to the loss inflicted. All normal injury-trade restrictions apply |
+| **Overwatch** (Never Misses 2a) | Your Defend can restore Disposition to any ally | You may Defend with Shoot when covering fire can protect your side. The once-per-scene status cancel is unchanged |
+| **Battlefield Surgeon** (Heals the Broken 2a) | Defend with Medicine restores Disposition to any ally and clears one tier-1 status | You may Defend with Medicine when you can reach an ally and provide appropriate treatment. A successful Defend restores your side's Disposition normally and clears one tier-1 harmful status from that ally that your treatment can address |
+
+Interpose is now a passive bonus on your own injury trade, so it still works within the once-per-character trade limit and the one-trade-per-Attack-or-Feint limit (§10.8). With a tier-2/3/4 trade, it cancels 2/3/4 loss.

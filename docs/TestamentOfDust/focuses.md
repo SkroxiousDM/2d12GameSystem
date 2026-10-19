@@ -80,7 +80,7 @@ Focuses marked **◈ Weird** assume the supernatural, impossible technology, or 
 |---|---|---|
 | 1 | **Shield Bearer** | When an ally next to you takes a status, spend 1 point from any pool to reduce it by **1 tier** before they Resist. |
 | 2a | **Second Wind** | Once per scene, when an ally is Taken Out, you may act immediately to reach them. Your next roll to help or rescue them gets a **free bonus die**. |
-| 2b | **Interpose** | In conflicts, once per exchange, when an ally loses Disposition, you may take **half the loss (round up)** from your own Disposition instead. |
+| 2b | **Interpose** | When you accept an injury to cancel Disposition loss from an Attack or Feint, cancel **1 additional** Disposition loss, up to the loss inflicted. All normal injury-trade restrictions apply. |
 | 3a | **No One Left** | Once per session, when the party retreats or escapes, no one is left behind or captured. Each ally clears one tier-1 or tier-2 status. |
 | 3b | **★ Living Wall** | Once per scene, until your next action, all harm aimed at allies within reach hits you instead. You Resist each with Edge +1. |
 
@@ -163,7 +163,7 @@ Focuses marked **◈ Weird** assume the supernatural, impossible technology, or 
 | Tier | Ability | Effect |
 |---|---|---|
 | 1 | **Called Shot** | Once per roll with Shoot, a **free Weaken** effect: burn one of the target's tags (weapon, cover, mobility) for the scene. |
-| 2a | **Overwatch** | Once per scene, cancel a status of tier 2 or less about to hit an ally by shooting the source. In conflicts, your Defend can restore Disposition to **any** ally. |
+| 2a | **Overwatch** | Once per scene, cancel a status of tier 2 or less about to hit an ally by shooting the source. In conflicts, you may Defend with **Shoot** when covering fire can protect your side. |
 | 2b | **Trick Shot** | Ignore Truths about cover and angles. A free **Extra Feat** when you shoot objects (cut a rope, hit a switch, ricochet). |
 | 3a | **One Shot** | Once per session, a Shoot Attack against a non-major NPC **Takes them Out** on a success. |
 | 3b | **★ Sniper's Patience** | Spend a scene setting up (4-segment clock). Your shot gets **+2 bonus dice** for free and **+2 Power** on a success. |
@@ -231,7 +231,7 @@ Focuses marked **◈ Weird** assume the supernatural, impossible technology, or 
 | Tier | Ability | Effect |
 |---|---|---|
 | 1 | **Triage** | Once per scene, reduce an ally's harmful status by **1 tier** without a roll. |
-| 2a | **Battlefield Surgeon** | In conflicts, Defend with Medicine can restore Disposition to **any** ally and clear one tier-1 status. |
+| 2a | **Battlefield Surgeon** | In conflicts, you may Defend with **Medicine** when you can reach an ally and provide appropriate treatment. On a successful Defend, restore your side's Disposition normally and clear one tier-1 harmful status from that ally that your treatment can address. |
 | 2b | **Remedy** | In each Players' Turn, clear one Grind condition (Module B) from one ally **without spending a Check**. |
 | 3a | **Miracle Worker** | Once per session, bring an ally back from a tier-6 physical status. They return at tier 4 and are no longer Taken Out. |
 | 3b | **★ Physician's Care** | Allies you treat during a short rest recover **all** pool points, not just 1 + Edge. |

@@ -63,7 +63,9 @@ The new section is inserted after §10.5 Actions and Effects. Later sections mov
 
 §10.2 Setup now halves the existing result again: roll 2d12 + Disposition skill + highest Edge, halve (round up), add +1 per helper, then halve that total (round up). This matches the "half current result" condition from the 1,000-seed pacing batch, which scaled the complete result including helpers: average starting track 6.17 (range 3--9), average 5.96 volleys, median 5, 59.4% finished within six volleys (current formula: 11.81, 8.89, 9, 15.5%).
 
-The typical range in §10.2 and §10.14 changes from 7--12 to 4--7. Flat Disposition bonuses (playbook and focus abilities, vampire rank +2/+4/+6) are unchanged and add after setup, so they are now proportionally about twice as strong. Flagged in Known Risks.
+The typical range in §10.2 and §10.14 changes from 7--12 to 4--7. Flat bonuses and penalties to starting Disposition (playbook and focus abilities such as *Word Is Law* and *Monster-Slayer*, vampire rank +2/+4/+6, conditions) are added **before** the second halving, so they keep roughly the weight they had against the old track. A +4 bonus adds about 2 to the final total. Starting Disposition has a minimum of 1, so large penalties can't start a side at 0. The individual ability entries are unchanged; the general rule in §10.2 decides when they apply.
+
+Bonuses that act during the conflict (*Command*, *Crowd Work*, *Every Trick in the Book*, *Ride-By*) aren't starting bonuses and aren't halved.
 
 ## Revised abilities
 

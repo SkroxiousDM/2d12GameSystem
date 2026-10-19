@@ -8,6 +8,7 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ### Changed — Shared Disposition (2026-10-18)
 - **Starting Disposition halved (§10.2):** after the usual roll, halving and helpers, halve the total again (round up). Typical range is now 4--7 instead of 7--12; §10.14 and Known Risks updated to match.
+- **Flat starting bonuses before the second halving (§10.2):** flat bonuses and penalties to starting Disposition (abilities, vampire rank, conditions) are added before the final halving, so they keep roughly their old weight. Minimum starting Disposition is 1.
 - **New Core Rules §10.6 Shared Disposition:** each side has one Disposition total, not divided among participants. Attacks and Feints reduce the opposing side's total; Defend restores your side's. Ordinary loss doesn't inflict statuses, drain Pools or remove individuals. A side loses at 0 or when none of its participants can continue. One injury trade per Attack or Feint.
 - Conflict sections §10.6--10.13 renumbered to §10.7--10.14, with all cross-references updated.
 - Conforming edits to §6.3, §6.4 (Taken Out, forfeiture removed, getting back in), §6.6, §10.2, §10.5, §10.8, §10.9, §10.12, Riposte, the Quick Reference and Known Risks.

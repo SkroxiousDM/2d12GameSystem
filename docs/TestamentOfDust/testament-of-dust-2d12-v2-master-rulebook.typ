@@ -1110,7 +1110,7 @@ Use a conflict when #strong[any two] of these are true:
 === 10.2 Setup
 + #strong[Declare intent and stakes:] each side states what it wants if it wins. Establish what losing lets the other side do, whether death, permanent injury or capture is at stake, and what surrender or withdrawal could look like.
 + #strong[Choose the conflict type] (§10.3), which sets the skill for each action.
-+ #strong[Disposition:] the leader of each side rolls #strong[2d12 + the type\'s Disposition skill + the highest Edge in that skill\'s pool];, halves the result (round up), and adds +1 per helper. That is the side\'s #strong[Disposition] (usually 7--12), one shared total for the whole side (§10.6).
++ #strong[Disposition:] the leader of each side rolls #strong[2d12 + the type\'s Disposition skill + the highest Edge in that skill\'s pool];, halves the result (round up), and adds +1 per helper. Then #strong[halve that total] (round up). That is the side\'s #strong[Disposition] (usually 4--7), one shared total for the whole side (§10.6).
 + #strong[Track] Disposition as a number or a clock.
 
 #strong[Intent sets the scope.] Beating a side whose intent is to hold a doorway doesn't, by itself, let you kill them all, take everything they carry or achieve some unrelated goal.
@@ -1345,7 +1345,7 @@ The listed tier doesn't apply to every member of the winning side; the costs say
 A rule overrides another only on the subject it addresses. An ability that heals a status doesn't also restore Disposition, refresh an injury trade or erase a Scar.
 
 === 10.14 Keeping It Fast
-- Disposition of 7--12 should resolve in one or two exchanges.
+- Disposition of 4--7 should resolve in one or two exchanges.
 - NPC sides script on index cards; minions act as a single group with one script.
 - Table guideline: about 15--20 minutes per conflict.
 ]
@@ -1448,7 +1448,7 @@ Settings rename and reskin playbooks (Adept becomes \"Hedge Witch\" in fantasy, 
 - #strong[Conflict length:] with scripting used for every big contest, the conflict test (§10.1) is what stops overuse.
 - #strong[Running dry (revised R3):] running dry now imposes a status at tier 1 + overrun instead of an automatic Taken Out, and a Scar comes from tier 6 instead of from an empty pool. Playtest the 2-recovery-points-per-tier rate for depletion statuses, the one-Scar-per-event limit, and how often Resisting at an empty pool reaches tier 4 or higher.
 - #strong[Damage cycle (unified):] watch whether the once-per-conflict injury trade (tier 2/3/4 cancels 1/2/3 loss) is a hard choice or always taken, and whether it drags conflicts out. Also test the compromise tiers (now 2/3/4), the healing intervals, the 3-segment Dying clock, and whether the 1-tier treatment limit makes Restore-cost abilities (#emph[Field Medic], #emph[Field Surgeon]) feel too weak against lasting injuries.
-- #strong[Shared Disposition:] each side now has one Disposition track (§10.6), so ordinary loss no longer removes individuals. Simulated mirrored fights ran about 23.5% shorter than with personal Disposition, but the rolled 7--12 track still ran long against a one-to-two-exchange target; test smaller starting totals (fixed 5, or half the current formula). Also watch whether a lone remaining participant acting repeatedly feels heroic or too forgiving, and whether larger parties get too many injury trades.
+- #strong[Shared Disposition:] each side now has one Disposition track (§10.6), so ordinary loss no longer removes individuals. Simulated mirrored fights ran about 23.5% shorter than with personal Disposition, but the old rolled 7--12 track still ran long against a one-to-two-exchange target. Setup is now halved again (§10.2): in simulation this averaged about 6 (range 3--9) and about 6 volleys, close to a fixed track of 6. Compare it with a fixed track of 5 in play, and watch whether flat Disposition bonuses from abilities and vampire rank (sized for the old track) now swing conflicts too far. Also watch whether a lone remaining participant acting repeatedly feels heroic or too forgiving, and whether larger parties get too many injury trades.
 
 // =====================================================================
 //  CHAPTER — OPTIONAL MODULES

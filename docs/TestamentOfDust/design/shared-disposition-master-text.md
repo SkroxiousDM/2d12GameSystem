@@ -59,6 +59,12 @@ The new section is inserted after §10.5 Actions and Effects. Later sections mov
 | Quick Reference, Damage Cycle | Disposition only | Adds shared track, side defeat, one trade per Attack or Feint |
 | §14.1 Known Risks | --- | New Shared Disposition entry |
 
+## Starting Disposition halved
+
+§10.2 Setup now halves the existing result again: roll 2d12 + Disposition skill + highest Edge, halve (round up), add +1 per helper, then halve that total (round up). This matches the "half current result" condition from the 1,000-seed pacing batch, which scaled the complete result including helpers: average starting track 6.17 (range 3--9), average 5.96 volleys, median 5, 59.4% finished within six volleys (current formula: 11.81, 8.89, 9, 15.5%).
+
+The typical range in §10.2 and §10.14 changes from 7--12 to 4--7. Flat Disposition bonuses (playbook and focus abilities, vampire rank +2/+4/+6) are unchanged and add after setup, so they are now proportionally about twice as strong. Flagged in Known Risks.
+
 ## Revised abilities
 
 These abilities were written for personal Disposition and are revised for the shared track. Updated in the master and in `focuses.md`.

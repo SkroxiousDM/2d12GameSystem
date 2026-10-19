@@ -1106,11 +1106,11 @@ Use a conflict when #strong[any two] of these are true:
 - The outcome would #strong[change the story] (a relationship, a location, a faction, someone\'s life).
 - A single roll would feel #strong[anticlimactic] to the table.
 
-#colbreak()
+
 === 10.2 Setup
 + #strong[Declare intent and stakes:] each side states what it wants if it wins. Establish what losing lets the other side do, whether death, permanent injury or capture is at stake, and what surrender or withdrawal could look like.
 + #strong[Choose the conflict type] (§10.4), which sets the skill for each action.
-+ #strong[Disposition:] the leader of each side rolls #strong[2d12 + the type\'s Disposition skill + the highest Edge in that skill\'s pool];, halves the result (round up), and adds +1 per helper. Next, add every flat bonus or penalty to starting Disposition (from abilities, vampire rank, conditions and similar effects). Then #strong[halve that total] (round up, minimum 1). That is the side\'s #strong[Disposition] (usually 4--7), one shared total for the whole side (§10.7).
++ #strong[Disposition:] the leader of each side rolls #strong[2d12 + the type\'s Disposition skill + the highest Edge in that skill\'s pool];, divide the result by three (round down). Next,adds +1 per helper, add every flat bonus or penalty to starting Disposition (from abilities, vampire rank, conditions and similar effects). That is the side\'s #strong[Disposition] (usually 8--11), one shared total for the whole side (§10.7).
 + #strong[Superiority:] reduce the opposing side's starting Disposition by your Superiority (§10.3).
 + #strong[Track] Disposition as a number or a clock.
 
@@ -1130,7 +1130,7 @@ Preparation can weaken an opponent's position before a conflict begins. Gain 1 S
 Each category grants Superiority only once. Preparation must apply to the opposing side and the declared stakes of the conflict.
 
 After calculating starting Disposition and applying all other modifiers, reduce the opposing side's starting Disposition by your Superiority, to a minimum of 1. This adjusted value is its starting Disposition for all purposes, including recovery and compromise.
-
+#colbreak()
 Superiority is not tracked or spent after the conflict begins.
 
 Abilities retain their normal benefits when their results also qualify for Superiority. Evaluate the concrete information, position, or preparation—not the ability’s name. Rephrasing one advantage does not create additional categories; additional categories require distinct material advantages. Determine Superiority only at conflict setup.
@@ -1155,7 +1155,7 @@ Abilities retain their normal benefits when their results also qualify for Super
   )]
   , kind: table
   )
-#pagebreak()
+
 #columns(2, gutter: 6mm)[
   Settings can add types; each type needs one skill per action and a Disposition skill. A dash (---) means that action isn\'t available in that type.
 === 10.5 Scripting and Volleys

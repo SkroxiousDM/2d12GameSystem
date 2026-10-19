@@ -59,10 +59,32 @@ The new section is inserted after §10.5 Actions and Effects. Later sections mov
 | Quick Reference, Damage Cycle | Disposition only | Adds shared track, side defeat, one trade per Attack or Feint |
 | §14.1 Known Risks | --- | New Shared Disposition entry |
 
-## Open items
+## Starting Disposition halved
 
-These abilities were written for personal Disposition and are left unchanged pending a design decision:
+§10.2 Setup now halves the existing result again: roll 2d12 + Disposition skill + highest Edge, halve (round up), add +1 per helper, then halve that total (round up). This matches the "half current result" condition from the 1,000-seed pacing batch, which scaled the complete result including helpers: average starting track 6.17 (range 3--9), average 5.96 volleys, median 5, 59.4% finished within six volleys (current formula: 11.81, 8.89, 9, 15.5%).
 
-- **Interpose** (Never Leaves Anyone Behind 2b): moves loss from an ally's Disposition to your own. With one shared track, there is nothing to move. It needs a new effect, for example letting you be the one participant who accepts the injury trade against an Attack or Feint aimed at an ally.
-- **Overwatch** (Never Misses 2a) and **Battlefield Surgeon** (Heals the Broken 2a): "restore Disposition to any ally" is now automatic, since every Defend restores the shared track. Overwatch's scene power and Battlefield Surgeon's tier-1 clear still work.
-- `focuses.md` keeps the old wording for these entries until the abilities are revised.
+The typical range in §10.2 and §10.14 changes from 7--12 to 4--7. Flat bonuses and penalties to starting Disposition (playbook and focus abilities such as *Word Is Law* and *Monster-Slayer*, vampire rank +2/+4/+6, conditions) are added **before** the second halving, so they keep roughly the weight they had against the old track. A +4 bonus adds about 2 to the final total. Starting Disposition has a minimum of 1, so large penalties can't start a side at 0. The individual ability entries are unchanged; the general rule in §10.2 decides when they apply.
+
+Bonuses that act during the conflict (*Command*, *Crowd Work*, *Every Trick in the Book*, *Ride-By*) aren't starting bonuses and aren't halved.
+
+## Revised abilities
+
+These abilities were written for personal Disposition and are revised for the shared track. Updated in the master and in `focuses.md`.
+
+| Ability | Before | After |
+|---|---|---|
+| **Interpose** (Never Leaves Anyone Behind 2b) | Once per exchange, take half an ally's Disposition loss (round up) from your own Disposition | When you accept an injury to cancel Disposition loss from an Attack or Feint, cancel 1 additional loss, up to the loss inflicted. All normal injury-trade restrictions apply |
+| **Overwatch** (Never Misses 2a) | Your Defend can restore Disposition to any ally | You may Defend with Shoot when covering fire can protect your side. The once-per-scene status cancel is unchanged |
+| **Battlefield Surgeon** (Heals the Broken 2a) | Defend with Medicine restores Disposition to any ally and clears one tier-1 status | You may Defend with Medicine when you can reach an ally and provide appropriate treatment. A successful Defend restores your side's Disposition normally and clears one tier-1 harmful status from that ally that your treatment can address |
+
+Interpose is now a passive bonus on your own injury trade, so it still works within the once-per-character trade limit and the one-trade-per-Attack-or-Feint limit (§10.8). With a tier-2/3/4 trade, it cancels 2/3/4 loss.
+
+## Superiority (Core Rules §10.3)
+
+Added verbatim as §10.3, after Setup, with ASCII apostrophes. Setup gains step 4: reduce the opposing side's starting Disposition by your Superiority. Order of Resolution step 1 now sets starting Disposition and applies Superiority.
+
+Order of setup: roll and halve, add helpers, add flat bonuses and penalties, halve again (minimum 1), then subtract the opponent's Superiority (minimum 1).
+
+Renumbered again: §10.3 Conflict Types to §10.15 Keeping It Fast are now one higher (Shared Disposition is §10.7, Accepting Injury §10.9, Compromise §10.12). The Frontier Rules chapter has its own §10.3--10.5 (Reputation, Rival Hunters, Charter-Speech); those headings and their four references were left alone.
+
+To watch (Known Risks): 3 Superiority against a track of about 6 halves the opposition before play; preparation abilities such as *Ambusher* and *The Reveal* may double-count with Know Thy Battlefield or Know Thy Foe.

@@ -6,11 +6,22 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Added — Superiority (2026-10-18)
+- **New Core Rules §10.3 Superiority:** gain 1 Superiority each for Know Thy Foe, Know Thy Battlefield and Know Thy Players (maximum 3). After starting Disposition and all other modifiers, reduce the opposing side's starting Disposition by your Superiority, to a minimum of 1. The adjusted value counts as starting Disposition for recovery and compromise. Not tracked or spent once the conflict begins.
+- Setup (§10.2) gains a Superiority step; Order of Resolution, Quick Reference and Known Risks updated.
+- Core conflict sections §10.3--10.14 renumbered to §10.4--10.15, with all core cross-references updated. Frontier Rules §10.3--10.5 references are unchanged.
+
 ### Changed — Shared Disposition (2026-10-18)
+- **Starting Disposition halved (§10.2):** after the usual roll, halving and helpers, halve the total again (round up). Typical range is now 4--7 instead of 7--12; §10.14 and Known Risks updated to match.
+- **Flat starting bonuses before the second halving (§10.2):** flat bonuses and penalties to starting Disposition (abilities, vampire rank, conditions) are added before the final halving, so they keep roughly their old weight. Minimum starting Disposition is 1.
 - **New Core Rules §10.6 Shared Disposition:** each side has one Disposition total, not divided among participants. Attacks and Feints reduce the opposing side's total; Defend restores your side's. Ordinary loss doesn't inflict statuses, drain Pools or remove individuals. A side loses at 0 or when none of its participants can continue. One injury trade per Attack or Feint.
 - Conflict sections §10.6--10.13 renumbered to §10.7--10.14, with all cross-references updated.
 - Conforming edits to §6.3, §6.4 (Taken Out, forfeiture removed, getting back in), §6.6, §10.2, §10.5, §10.8, §10.9, §10.12, Riposte, the Quick Reference and Known Risks.
-- Record: `docs/TestamentOfDust/design/shared-disposition-master-text.md`. Interpose, Overwatch and Battlefield Surgeon are flagged for revision.
+- Record: `docs/TestamentOfDust/design/shared-disposition-master-text.md`.
+- **Revised for the shared track** (master and `focuses.md`):
+  - *Interpose:* when you accept an injury trade against an Attack or Feint, cancel 1 additional loss, up to the loss inflicted.
+  - *Overwatch:* you may Defend with Shoot when covering fire can protect your side.
+  - *Battlefield Surgeon:* you may Defend with Medicine when you can reach and treat an ally; a successful Defend restores Disposition normally and clears one tier-1 harmful status your treatment can address.
 
 ### Changed — Testament of Dust rebrand (2026-10-16)
 - **Rulebook rebranded to *Testament of Dust*:**

@@ -681,7 +681,7 @@ Design intent: power comes at the cost of narrative flexibility. A low-Refresh c
     align: (auto,auto,auto,),
     table.header([Effect], [Cost], [What it does],),
     table.hline(),
-    [#strong[Attack];], [1 Power per tier], [Inflict a #strong[Status] (e.g. #emph[wounded-2];, #emph[rattled-1];, #emph[on fire-3];). In a conflict, an Attack removes Disposition instead (§10.6)],
+    [#strong[Attack];], [1 Power per tier], [Inflict a #strong[Status] (e.g. #emph[wounded-2];, #emph[rattled-1];, #emph[on fire-3];). In a conflict, an Attack removes Disposition equal to its Power + 1 instead (§10.6)],
     [#strong[Weaken];], [1], [Reduce one of the target\'s statuses by 1 tier, or #strong[Burn] one of its tags for the scene],
     [#strong[Create];], [2], [Create a #strong[Truth] that lasts for the scene (#emph[smoke cover];, #emph[crowd on our side];). One extra Power makes it last until resolved],
     [#strong[Enhance];], [1 per tier], [Give an ally a helpful status (#emph[inspired-2];)],
@@ -1188,9 +1188,9 @@ Each #strong[exchange] is three #strong[volleys];. Each side secretly #strong[sc
     align: (auto,auto,),
     table.header([Action], [Default effect of Power],),
     table.hline(),
-    [#strong[Attack];], [Each Power removes 1 Disposition from the opposing side],
+    [#strong[Attack];], [Remove Disposition from the opposing side equal to the Power committed, +1],
     [#strong[Defend];], [Each Power restores 1 of your side\'s Disposition (up to the starting value)],
-    [#strong[Feint];], [Each Power removes 1 Disposition from the opposing side; the Feint ignores Defend],
+    [#strong[Feint];], [Remove Disposition from the opposing side equal to the Power committed, +1; the Feint ignores Defend],
     [#strong[Maneuver];], [Spend Power on: #strong[Impede] (1: opponent −3 on next roll), #strong[Gain Position] (1: +1 bonus die on next roll), #strong[Disarm] (3: remove an action type or burn a key tag for the rest of the conflict), or #strong[Create a Truth] (2)],
   )]
   , kind: table
@@ -1219,6 +1219,8 @@ Losing one doesn't reduce the others. Apply more than one only when a rule says 
 
 #strong[Conflict attacks.] An ordinary successful Attack or Feint removes Disposition, and nothing else: no pool points, no status. Describe the loss to fit the fiction (driven back, an opening lost, cut off, a glancing blow); the description doesn't create an injury. Armour and Resistance don't reduce Disposition loss unless an ability says so.
 
+#strong[Attack and Feint loss.] When a successful Attack or Feint applies its default Disposition-loss effect, it removes Disposition equal to the Power committed to that effect, plus 1. This bonus is Disposition loss, not additional Power. Apply an eligible injury trade afterward (§10.9).
+
 #strong[Direct harm.] Outside a conflict, harmful effects inflict statuses (§5, §6). Inside one, an ability or hazard can inflict a status only if it says so; resolve that status separately from any Disposition loss. Don't add harm to an ordinary Attack just because the weapon is dangerous or the narration is violent.
 
 A side at 0 Disposition loses the conflict (§10.7), but its members aren't necessarily harmed (§6.4).
@@ -1226,7 +1228,7 @@ A side at 0 Disposition loses the conflict (§10.7), but its members aren't nece
 === 10.7 Shared Disposition
 Each side has one Disposition total. Determine it normally, but do not divide it among participants.
 
-Successful Attacks and Feints reduce the opposing side's Disposition. Successful Defend actions restore your side's Disposition, up to its starting total. Ordinary Disposition loss does not inflict statuses, drain Pools, or individually remove participants.
+Successful Attacks and Feints reduce the opposing side's Disposition by the Power committed, plus 1 (§10.6). Successful Defend actions restore your side's Disposition, up to its starting total. Ordinary Disposition loss does not inflict statuses, drain Pools, or individually remove participants.
 
 A character stops participating when a status, explicit effect, voluntary withdrawal, or established circumstance prevents them from pursuing the side's objective. Their removal does not directly change shared Disposition.
 
@@ -1342,7 +1344,7 @@ The listed tier doesn't apply to every member of the winning side; the costs say
 + Pay pre-roll costs (Effort for dice, Help); resolve any running dry (§6.1).
 + Roll and determine the result and Power.
 + Make post-roll choices (Effort for Power) and pay them; resolve any running dry.
-+ Separate Disposition loss from statuses imposed by a rule.
++ Separate Disposition loss from statuses imposed by a rule. An Attack or Feint's default loss is its committed Power + 1 (§10.6).
 + Offer eligible injury trades (§10.9).
 + Apply the remaining Disposition loss.
 + Resist imposed statuses (§6); pay; resolve running dry from Resistance.
@@ -1465,6 +1467,7 @@ Settings rename and reskin playbooks (Adept becomes \"Hedge Witch\" in fantasy, 
 - #strong[Running dry (revised R3):] running dry now imposes a status at tier 1 + overrun instead of an automatic Taken Out, and a Scar comes from tier 6 instead of from an empty pool. Playtest the 2-recovery-points-per-tier rate for depletion statuses, the one-Scar-per-event limit, and how often Resisting at an empty pool reaches tier 4 or higher.
 - #strong[Damage cycle (unified):] watch whether the once-per-conflict injury trade (tier 2/3/4 cancels 1/2/3 loss) is a hard choice or always taken, and whether it drags conflicts out. Also test the compromise tiers (now 2/3/4), the healing intervals, the 3-segment Dying clock, and whether the 1-tier treatment limit makes Restore-cost abilities (#emph[Field Medic], #emph[Field Surgeon]) feel too weak against lasting injuries.
 - #strong[Shared Disposition:] each side now has one Disposition track (§10.7), so ordinary loss no longer removes individuals. Simulated mirrored fights ran about 23.5% shorter than with personal Disposition, but the old rolled 7--12 track still ran long against a one-to-two-exchange target. Setup is now halved again (§10.2): in simulation this averaged about 6 (range 3--9) and about 6 volleys, close to a fixed track of 6. Flat starting bonuses and penalties from abilities and vampire rank are applied before the second halving, so they keep roughly their old weight. Compare this with a fixed track of 5 in play. Also watch whether a lone remaining participant acting repeatedly feels heroic or too forgiving, and whether larger parties get too many injury trades.
+- #strong[Attack and Feint +1:] a successful Attack or Feint now removes its committed Power + 1 Disposition (§10.6). The +1 is loss, not Power, so it can't be spent on other effects, and the injury trade is applied after it. This keeps even a 1-Power hit meaningful against a starting track of about 6 and shortens conflicts. Watch whether Defend can keep pace, whether Feint becomes the default action, and how the +1 stacks with ability bonuses such as #emph[Crowd Work] and #emph[Every Trick in the Book].
 - #strong[Superiority:] up to 3 Superiority against a starting track of about 6 can halve the opposition before the first volley. Watch whether preparation becomes routine, how often both sides claim it, and whether it double-counts preparation abilities such as #emph[Ambusher] and #emph[The Reveal].
 
 // =====================================================================

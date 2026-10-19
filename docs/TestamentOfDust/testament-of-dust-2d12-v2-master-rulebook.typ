@@ -1132,6 +1132,8 @@ Each category grants Superiority only once. Preparation must apply to the opposi
 After calculating starting Disposition and applying all other modifiers, reduce the opposing side's starting Disposition by your Superiority, to a minimum of 1. This adjusted value is its starting Disposition for all purposes, including recovery and compromise.
 
 Superiority is not tracked or spent after the conflict begins.
+
+Abilities retain their normal benefits when their results also qualify for Superiority. Evaluate the concrete information, position, or preparation—not the ability’s name. Rephrasing one advantage does not create additional categories; additional categories require distinct material advantages. Determine Superiority only at conflict setup.
 ]
   
 === 10.4 Conflict Types

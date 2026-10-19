@@ -78,3 +78,13 @@ These abilities were written for personal Disposition and are revised for the sh
 | **Battlefield Surgeon** (Heals the Broken 2a) | Defend with Medicine restores Disposition to any ally and clears one tier-1 status | You may Defend with Medicine when you can reach an ally and provide appropriate treatment. A successful Defend restores your side's Disposition normally and clears one tier-1 harmful status from that ally that your treatment can address |
 
 Interpose is now a passive bonus on your own injury trade, so it still works within the once-per-character trade limit and the one-trade-per-Attack-or-Feint limit (§10.8). With a tier-2/3/4 trade, it cancels 2/3/4 loss.
+
+## Superiority (Core Rules §10.3)
+
+Added verbatim as §10.3, after Setup, with ASCII apostrophes. Setup gains step 4: reduce the opposing side's starting Disposition by your Superiority. Order of Resolution step 1 now sets starting Disposition and applies Superiority.
+
+Order of setup: roll and halve, add helpers, add flat bonuses and penalties, halve again (minimum 1), then subtract the opponent's Superiority (minimum 1).
+
+Renumbered again: §10.3 Conflict Types to §10.15 Keeping It Fast are now one higher (Shared Disposition is §10.7, Accepting Injury §10.9, Compromise §10.12). The Frontier Rules chapter has its own §10.3--10.5 (Reputation, Rival Hunters, Charter-Speech); those headings and their four references were left alone.
+
+To watch (Known Risks): 3 Superiority against a track of about 6 halves the opposition before play; preparation abilities such as *Ambusher* and *The Reveal* may double-count with Know Thy Battlefield or Know Thy Foe.

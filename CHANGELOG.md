@@ -6,6 +6,11 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Added — Superiority (2026-10-18)
+- **New Core Rules §10.3 Superiority:** gain 1 Superiority each for Know Thy Foe, Know Thy Battlefield and Know Thy Players (maximum 3). After starting Disposition and all other modifiers, reduce the opposing side's starting Disposition by your Superiority, to a minimum of 1. The adjusted value counts as starting Disposition for recovery and compromise. Not tracked or spent once the conflict begins.
+- Setup (§10.2) gains a Superiority step; Order of Resolution, Quick Reference and Known Risks updated.
+- Core conflict sections §10.3--10.14 renumbered to §10.4--10.15, with all core cross-references updated. Frontier Rules §10.3--10.5 references are unchanged.
+
 ### Changed — Shared Disposition (2026-10-18)
 - **Starting Disposition halved (§10.2):** after the usual roll, halving and helpers, halve the total again (round up). Typical range is now 4--7 instead of 7--12; §10.14 and Known Risks updated to match.
 - **Flat starting bonuses before the second halving (§10.2):** flat bonuses and penalties to starting Disposition (abilities, vampire rank, conditions) are added before the final halving, so they keep roughly their old weight. Minimum starting Disposition is 1.

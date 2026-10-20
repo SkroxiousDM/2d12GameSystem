@@ -1,72 +1,127 @@
-# Contributing to the 2d12 Game System
+# Contributing to the 2d12 System
 
-Thanks for your interest. This repo is the primary working source for the 2d12 Game System — an open-development tabletop RPG. Contributions, suggestions, errata, and discussion are welcome.
+This repository is the working source for **The 2d12 System** core rulebook and its settings. Errata, playtest reports, suggestions and pull requests are welcome.
 
-## How to contribute
+Read the [README](README.md) first for the layout, the books and how to build them.
 
-### Reporting an issue
+## Where Things Live
 
-If you spot something wrong, ambiguous, or contradictory, please open a GitHub Issue with:
+| You want to change | Edit this file |
+|---|---|
+| Core rules, Optional Modules, generic Descriptors, Playbooks or Focuses, the core Quick Reference | `docs/2d12System/the-2d12-system-v2-core-rulebook.typ` |
+| Frontier rules, Descriptors, Playbooks or Focuses, the Frontier Quick Reference | `docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ` |
+| The character sheet | `docs/2d12-character-sheet-v2.typ` |
+| Design reasoning, drafts, playtest reports | A new or existing file in `docs/design/` |
+| Aetas Obscura or GRENDEL | Their Markdown files (`docs/Aetas Obscura/`, `GRENDEL_Consolidated_Master_Rulebook.md`) |
 
-- **The chapter and section** (e.g. `Ch 11 — Combat, "Action Economy"`).
-- **The specific text** that's a problem (a sentence or paragraph).
-- **What's wrong** — typo, rules contradiction, missing definition, broken cross-reference, unbalanced mechanic, unclear wording.
-- **Suggested fix**, if you have one. Optional but appreciated.
+**Which book does a rule belong in?** If it works in any genre, it goes in the core rulebook. If it names Frontier things (vampires, dhampirs, the Bled, old-world works, Frontier skills), it goes in the setting book. The core rulebook mustn't refer to any specific setting. Talk about "setting rules" or "creature rank" in general terms instead.
 
-For rules-balance concerns, include the playtest situation that surfaced the issue (system mastery level of the players, level of opposition, what happened, what felt wrong).
+**Don't edit** anything in `docs/Archive/` or the v0.2 Markdown drafts (`docs/2d12-system-proposal.md`, `docs/playbooks.md`, `docs/focuses.md`). They're kept for history only.
 
-### Submitting a change
+## Reporting an Issue
 
-1. Fork the repo and create a topic branch off `main` (e.g. `fix/glossary-armour-entry`, `feat/disease-subsystem`, `errata/ch11-charge-clarification`).
-2. Make your edits to the relevant markdown file(s) under `docs/`.
-3. Keep the diff focused — one issue or feature per PR. Large multi-topic PRs are hard to review.
-4. Open a Pull Request with a clear description of *what* changed and *why*. Reference the related Issue if there is one.
+Open a GitHub Issue with:
 
-### Style conventions
+- **Book, chapter and section**, e.g. `The 2d12 System, Core Rules §10.6` or `Testament of Dust, Frontier Rules §5.2`.
+- **The text** that's a problem: quote the sentence or table row.
+- **What's wrong**: a typo, contradiction, missing definition, broken cross-reference, unbalanced mechanic or unclear wording.
+- **A suggested fix**, if you have one.
 
-- **Markdown.** All rules text lives in plain markdown. Use `##`/`###` headers; use tables sparingly and only when the structure actually warrants it.
-- **Chapter numbering.** Files are numbered to match reading order (`01-resolution-engine.md`, `11-combat.md`, etc.). Sub-chapters use a dot suffix (`15.1-armour.md`, `03.2-oracular-spellbook.md`). Appendices live in the 90s.
-- **Cross-references.** When you reference another chapter in body text, link the file: `[Ch 11 — Combat](11-combat.md)`. Don't cite by chapter name alone.
-- **Attribute names.** Use the canonical six-letter codes from Ch 4: **MIG, CON, DEX, AGI, REA, INS, CHA, WIL**. Don't use legacy names like "Strength."
-- **Tone.** Rules-facing prose is concise and procedural. Flavor and worldbuilding may be more literary, but should still be brief and serve play.
-- **Smart quotes.** Use `'` and `"` (ASCII) in source. Avoid Unicode smart-quote characters — they have historically introduced mojibake on this repo.
-- **Markdown hard breaks.** Preserve trailing-double-space hard breaks inside bullets/tables where they exist; they're load-bearing for some renderers.
+For balance concerns, describe the playtest: the characters, the opposition, what happened and what felt wrong.
 
-### What needs work
+## Submitting a Change
 
-See [`docs/99_gap_analysis.md`](99_gap_analysis.md) for the current list of known gaps and priorities. Quick wins, edits to existing chapters, and worked examples are especially welcome.
+All changes reach `main` through a pull request. Direct pushes, force-pushes and deleting `main` aren't allowed. The ruleset is in [`branch-rulesets/PRs and commits.json`](branch-rulesets/PRs%20and%20commits.json).
 
-If you want to write a larger new chapter (e.g. a disease subsystem, a bestiary, a sample adventure), please open an Issue first to align on scope and reading-order placement.
+1. **Branch** off an up-to-date `main` with a topic branch: `fix/core-10-6-feint-wording`, `feat/tod-new-focus`, `docs/readme`.
+2. **Edit** the Typst source, not the PDF.
+3. **Rebuild** the PDF for every book you changed (see [Building the PDFs](README.md#building-the-pdfs)) with the correct fonts installed. Check the affected pages for overflow, clipped text and broken tables. Commit the source and the PDF together.
+4. **Update the CHANGELOG** (see below).
+5. **Commit** using conventional commit messages (see below).
+6. **Open a pull request** into `main`. Say what changed and why, list the sections you touched, and link the related Issue.
+7. **Review.** A PR needs **two approving reviews**. Approval must come after the last push, and a new push dismisses earlier approvals.
 
-### Errata vs. revision
+Keep each PR to one topic. If a change touches both books, such as a core rule that the Frontier text also restates, update both books in the same PR.
 
-Two kinds of changes typically land:
+### Commit messages
 
-- **Errata** — fixing typos, broken cross-references, contradictions, undefined terms. Land freely.
-- **Revisions** — rebalancing a talent, rewriting a procedure, changing a derived-stat formula. Discuss in an Issue first, since these can ripple through other chapters.
+Every commit message must follow [Conventional Commits](https://www.conventionalcommits.org/):
 
-If your change affects more than one chapter, please update *all* affected chapters in the same PR, plus the glossary (`docs/90-core-glossary.md`) and conditions appendix (`docs/91-conditions-appendix.md`) if relevant.
+```
+<type>(<optional scope>)<optional !>: <description>
+```
 
-## Adding a new chapter
+Allowed types: `build`, `chore`, `ci`, `docs`, `feat`, `fix`, `perf`, `refactor`, `revert`, `style`, `test`.
 
-When you add a new chapter:
+Use these scopes so the history stays readable:
 
-1. Number it according to its place in the reading order.
-2. Add it to [`docs/00-document-map.md`](00-document-map.md).
-3. Update the gap analysis in [`docs/99_gap_analysis.md`](99_gap_analysis.md) if it closes a known gap.
-4. Add an entry to [`CHANGELOG.md`](CHANGELOG.md) under `## Unreleased`.
-5. If you introduce new game terms, add them to [`docs/90-core-glossary.md`](90-core-glossary.md); if you introduce new conditions, add them to [`docs/91-conditions-appendix.md`](91-conditions-appendix.md).
+| Scope | For |
+|---|---|
+| `core` | The 2d12 System core rulebook |
+| `tod` | Testament of Dust setting book |
+| `sheet` | Character sheet |
+| `aetas` | Aetas Obscura |
+| `grendel` | GRENDEL |
+| `repo` | README, CONTRIBUTING, rulesets, structure |
 
-## Licensing
+How to choose a type for rules work:
 
-By submitting a Pull Request, you agree that your contribution will be licensed under the same terms as the rest of the project: **Creative Commons Attribution-ShareAlike 4.0 International** (see [`LICENSE`](LICENSE)).
+- `feat`: a new rule, ability, Focus, Playbook or chapter.
+- `fix`: errata, such as a typo, contradiction or broken cross-reference.
+- `refactor`: a rewrite or renumbering that doesn't change how the game plays.
+- `style`: layout, fonts, colours or art placement only.
+- `docs`: repository documentation, design notes or playtest reports.
+- `build`: regenerated PDFs on their own.
 
-In short: anyone can share and adapt the material, including commercially, as long as they credit the project and license their derivative under the same terms.
+Add `!` for a change that breaks existing characters or cross-references, such as renumbered sections or a changed pool formula.
 
-## Code of conduct
+Examples:
 
-Be decent to one another. Focus criticism on the work, not the contributor. The project is open to all backgrounds, experience levels, and game-design philosophies; productive disagreement is welcome, hostility is not.
+```
+feat(core): Attack and Feint remove committed Power + 1 Disposition
+fix(tod): correct Hard to Kill reference to Frontier Rules §5.2
+refactor(core)!: renumber Core Rules §10.3–10.14
+docs(repo): rewrite README for the split books
+```
+
+### Changelog
+
+Add an entry under `## [Unreleased]` in [`CHANGELOG.md`](CHANGELOG.md). Use a heading in the form `### Added|Changed|Fixed|Removed — Short title (YYYY-MM-DD)`. Name the book and sections, and say what changed. Put the newest entry at the top.
+
+## Style Conventions
+
+### Rules text
+
+- **House names, always.** Use **Sōma, Akmē, Psychē, Pneuma** for the pools, plus **Tychē Points**, **Woe** and **Momentum**. Use the playbook names **Bellator, Furcifer, Savant, Interlocutor, Explorator, Adept**. Never use the working names (Vitality, Threat, Fate, Bruiser...) except in the terminology tables.
+- **Cross-references** give a chapter name and section, not a chapter number: `Core Rules §6.3`, `Generic Focuses §9.2`, `Frontier Rules §5.2`. A bare `§6` means the same chapter. Chapter numbers differ between books, so never write "Chapter II".
+- **Notation:** ★ Major (costs 1 Refresh), ◆ Capstone, ◈ Weird. Tags in italics (`#emph[marks on my throat]`), statuses with a tier (`#emph[wounded-2]`), Difficulty by name and target (`Standard 15`).
+- **Tone:** rules are short and procedural. Flavour can be more literary, but it should still be brief and help at the table.
+- **Canadian spelling** (the documents set `region: "CA"`): stabilise, armour, colour.
+
+### Typst
+
+- Each book is a single self-contained file. Use the existing helpers (`#chapter`, `#sidebar`, `#playbook-art-side`, `#figure(table(...))`) instead of formatting by hand.
+- Set new chapters with `#chapter(title, blurb, epigraph: ...)` so they get a divider page and a table-of-contents entry.
+- Use `--` and `---` for en and em dashes, as the existing source does.
+- Art goes in the book's own `art/` folder. Commit both the `.png` original and the `.jpg` used in the book.
+
+### When a change ripples
+
+If a change renumbers sections or changes a term, search **both** books, the character sheet and the Frontier Markdown editions for every reference, and fix them in the same PR. Update the Quick Reference of any book whose summary has changed.
+
+## Errata vs. Revisions
+
+- **Errata** (typos, broken references, contradictions, undefined terms): open a PR directly.
+- **Revisions** (rebalancing an ability, changing a procedure or formula, adding a chapter): open an Issue first to agree on the scope. Revisions usually need a design note in `docs/design/` or the book's Design Notes section, with what to watch for in playtest.
+
+## Rights in Contributions
+
+The material in this repository is **all rights reserved** (see the [README](README.md#license)). By opening a pull request, you confirm the contribution is your own work, and you grant SkroxiousDM the right to use, change and publish it as part of the 2d12 System and its settings.
+
+## Conduct
+
+Be decent to one another. Criticise the work, not the person. Disagreement is welcome; hostility isn't.
 
 ## Contact
 
-Open an Issue for anything. For larger design discussions, an Issue is also the right venue — keep the conversation in the open so other contributors can follow along and the history stays with the repo.
+Open an Issue for anything, including larger design discussions, so the conversation stays with the repository.

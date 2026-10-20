@@ -6,6 +6,14 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Master rulebook split into two books (2026-10-19)
+- **New core rulebook:** `docs/2d12System/the-2d12-system-v2-core-rulebook.typ` (+ PDF). Holds the Introduction, Core Rules, Optional Modules, Generic Descriptors, Generic Playbooks, Generic Focuses and the Quick Reference. Neutral visual style (charcoal, navy and pewter; Source Sans 3 headings; d12 motif) replaces the gothic cover and chapter art.
+- **Setting references removed from core:** afflictions, killing strikes, special creatures, Bled and Disposition modifiers now refer to setting rules in general terms ("creature rank" instead of "vampire rank"); the Optional Modules epigraph, Descriptor and Playbook blurbs no longer point to Frontier chapters; random-table "Frontier camp" is now "Remote camp". The Quick Reference "Day and Night" box is replaced by "The Four Currencies".
+- **New setting book:** `docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ` (+ PDF). Requires the core rulebook. Chapters renumbered: I Introduction, II Frontier Rules, III Frontier Descriptors, IV Frontier Playbooks, V Frontier Focuses, Appendix Frontier Quick Reference (Day and Night, Frontier skills, vampire Woe spends). Introduction explains that references to Core Rules, Optional Modules and the Generic chapters point to *The 2d12 System*, and recommends all three Optional Modules.
+- Generic playbook art moved to `docs/2d12System/art/playbooks/generic/`.
+- Old master rulebook source and PDFs moved to `docs/Archive/TestamentOfDust-master-v2/` (no longer maintained; art paths not updated there).
+- Markdown editions and character-sheet header updated to point at the new files.
+
 ### Added — Superiority (2026-10-18)
 - **New Core Rules §10.3 Superiority:** gain 1 Superiority each for Know Thy Foe, Know Thy Battlefield and Know Thy Players (maximum 3). After starting Disposition and all other modifiers, reduce the opposing side's starting Disposition by your Superiority, to a minimum of 1. The adjusted value counts as starting Disposition for recovery and compromise. Not tracked or spent once the conflict begins.
 - Setup (§10.2) gains a Superiority step; Order of Resolution, Quick Reference and Known Risks updated.

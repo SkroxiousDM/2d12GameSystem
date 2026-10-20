@@ -1,7 +1,7 @@
 // =====================================================================
 //  THE 2d12 SYSTEM, VERSION 2 — CHARACTER SHEET
 //  Generic core sheet (2 pages) + Frontier insert (1 page)
-//  Built from: testament-of-dust-2d12-v2-master-rulebook.typ
+//  Built from: 2d12System/the-2d12-system-v2-core-rulebook.typ and TestamentOfDust/testament-of-dust-v2-setting-book.typ (formerly the master rulebook)
 //
 //  Compile with:
 //      typst compile 2d12-character-sheet-v2.typ

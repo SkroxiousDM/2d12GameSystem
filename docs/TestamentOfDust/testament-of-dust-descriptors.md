@@ -1,6 +1,6 @@
 # 2d12 System — Testament of Dust Setting Pack: Descriptors
 
-> Markdown edition of **Chapter VIII, Frontier Descriptors** in `testament-of-dust-2d12-v2-master-rulebook.typ`.
+> Markdown edition of **Chapter III, Frontier Descriptors** in `testament-of-dust-v2-setting-book.typ`.
 > The Typst master is the source of truth; edit it first, then regenerate this file
 > (`pandoc -f typst -t gfm`). Synced 2026-10-16. Supersedes the v0.1 draft of this file.
 > Pack files: **testament-of-dust-setting-rules.md** · **testament-of-dust-descriptors.md** · **testament-of-dust-playbooks.md** · **testament-of-dust-focuses.md**.

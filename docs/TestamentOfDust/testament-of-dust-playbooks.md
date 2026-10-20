@@ -1,6 +1,6 @@
 # 2d12 System — Testament of Dust Setting Pack: Playbooks
 
-> Markdown edition of **Chapter IX, Frontier Playbooks** in `testament-of-dust-2d12-v2-master-rulebook.typ`.
+> Markdown edition of **Chapter IV, Frontier Playbooks** in `testament-of-dust-v2-setting-book.typ`.
 > The Typst master is the source of truth; edit it first, then regenerate this file
 > (`pandoc -f typst -t gfm`). Synced 2026-10-16 (Q37-Q41 rulings). Supersedes the v0.1 draft of this file.
 > Pack files: **testament-of-dust-setting-rules.md** · **testament-of-dust-descriptors.md** · **testament-of-dust-playbooks.md** · **testament-of-dust-focuses.md**.

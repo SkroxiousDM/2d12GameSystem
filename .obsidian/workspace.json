@@ -12,12 +12,24 @@
             "id": "61388ba6a52dbd3b",
             "type": "leaf",
             "state": {
-              "type": "typst-source",
+              "type": "markdown",
               "state": {
-                "file": "docs/TestamentOfDust/testament-of-dust-2d12-v2-master-rulebook.typ"
+                "file": "docs/Aetas Obscura/Magical Traditions.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "file-type",
-              "title": "testament-of-dust-2d12-v2-master-rulebook"
+              "icon": "lucide-file",
+              "title": "Magical Traditions"
             }
           }
         ]
@@ -206,19 +218,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "61388ba6a52dbd3b",
+  "active": "7b84c46cc61e5997",
   "lastOpenFiles": [
-    "docs/TestamentOfDust/testament-of-dust-2d12-v2-master-rulebook.pdf",
+    "docs/design/System components.md",
+    "docs/Archive/2d12 Version 1/18-downtime-and-campaign-loop.md",
     "docs/Untitled.canvas",
-    "docs/Archive",
+    "docs/Aetas Obscura/Magical Traditions.md",
+    "docs/Archive/2d12 Version 1",
     "docs/TestamentOfDust/testament-of-dust-2d12-v2-master-rulebook.typ",
+    "Typst Templates",
+    "docs/TestamentOfDust/testament-of-dust-2d12-v2-master-rulebook.pdf",
+    "docs/Archive",
     "docs/TestamentOfDust/testament-of-dust-2d12-v2-master-rulebook-2.pdf",
-    "docs/TestamentOfDust/design/unified-damage-cycle-master-text.md",
-    "docs/TestamentOfDust/design/shared-disposition-master-text.md",
-    "docs/TestamentOfDust/design/running-dry-r3-master-text.md",
-    "docs/TestamentOfDust/design/playtest-01-sample-characters-and-test-fight.md",
-    "docs/TestamentOfDust/design/opposition-statblocks and conflict play test1.md",
-    "docs/TestamentOfDust/design/opposition-statblocks and conflict play test 2.md",
+    "docs/design/unified-damage-cycle-master-text.md",
+    "docs/design/shared-disposition-master-text.md",
+    "docs/design/running-dry-r3-master-text.md",
+    "docs/design/playtest-01-sample-characters-and-test-fight.md",
+    "docs/design/opposition-statblocks and conflict play test1.md",
+    "docs/design/opposition-statblocks and conflict play test 2.md",
     "GRENDEL_Consolidated_Master_Rulebook.md",
     "docs/Archive/testament-of-dust-2d12-v2-master-rulebook-1.pdf",
     "docs/VampireHunterD/vhd-playbooks.md",
@@ -235,12 +252,9 @@
     "docs/VampireHunterD/art/playbooks/generic/02-furcifer.jpg",
     "docs/VampireHunterD/art/playbooks/generic",
     "docs/VampireHunterD/vampire-hunter-d-2d12-v2-master-rulebook-1.pdf",
-    "docs/VampireHunterD/2d12-character-sheet-v2-1.pdf",
-    "docs/VampireHunterD/2d12-character-sheet-v2.typ",
-    "docs/VampireHunterD/art/playbooks",
     "docs/VampireHunterD/2d12-System--Character-Sheet-v0.2.md",
-    "docs/02.4 Roles.md",
-    "docs/02-character-creation.md",
+    "docs/Archive/2d12 Version 1/02.4 Roles.md",
+    "docs/Archive/2d12 Version 1/02-character-creation.md",
     "docs/VampireHunterD/vhd-setting-rules.md",
     "docs/VampireHunterD/vhd-focuses.md",
     "docs/VampireHunterD/vhd-descriptors.md",
@@ -248,12 +262,9 @@
     "docs/VampireHunterD/focuses.md",
     "docs/VampireHunterD/How do pools regenerate. How does resting work.md",
     "docs/VampireHunterD/2d12-system-proposal.md",
-    "System components.md",
-    "Magical Traditions.md",
-    "mythographer-5e-0.0.2/lib/monster/TODO.md",
-    "mythographer-5e-0.0.2/README.md",
-    "owlbear-0.0.1/README.md",
-    "owlbear-0.0.1/CHANGELOG.md",
-    "Untitled.md"
+    "Typst Templates/mythographer-5e-0.0.2/lib/monster/TODO.md",
+    "Typst Templates/mythographer-5e-0.0.2/README.md",
+    "Typst Templates/owlbear-0.0.1/README.md",
+    "Typst Templates/owlbear-0.0.1/CHANGELOG.md"
   ]
 }

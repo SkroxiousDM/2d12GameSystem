@@ -34,7 +34,7 @@ For rules-balance concerns, include the playtest situation that surfaced the iss
 
 ### What needs work
 
-See [`docs/99_gap_analysis.md`](docs/99_gap_analysis.md) for the current list of known gaps and priorities. Quick wins, edits to existing chapters, and worked examples are especially welcome.
+See [`docs/99_gap_analysis.md`](99_gap_analysis.md) for the current list of known gaps and priorities. Quick wins, edits to existing chapters, and worked examples are especially welcome.
 
 If you want to write a larger new chapter (e.g. a disease subsystem, a bestiary, a sample adventure), please open an Issue first to align on scope and reading-order placement.
 
@@ -52,10 +52,10 @@ If your change affects more than one chapter, please update *all* affected chapt
 When you add a new chapter:
 
 1. Number it according to its place in the reading order.
-2. Add it to [`docs/00-document-map.md`](docs/00-document-map.md).
-3. Update the gap analysis in [`docs/99_gap_analysis.md`](docs/99_gap_analysis.md) if it closes a known gap.
+2. Add it to [`docs/00-document-map.md`](00-document-map.md).
+3. Update the gap analysis in [`docs/99_gap_analysis.md`](99_gap_analysis.md) if it closes a known gap.
 4. Add an entry to [`CHANGELOG.md`](CHANGELOG.md) under `## Unreleased`.
-5. If you introduce new game terms, add them to [`docs/90-core-glossary.md`](docs/90-core-glossary.md); if you introduce new conditions, add them to [`docs/91-conditions-appendix.md`](docs/91-conditions-appendix.md).
+5. If you introduce new game terms, add them to [`docs/90-core-glossary.md`](90-core-glossary.md); if you introduce new conditions, add them to [`docs/91-conditions-appendix.md`](91-conditions-appendix.md).
 
 ## Licensing
 

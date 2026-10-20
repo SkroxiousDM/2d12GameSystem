@@ -18,7 +18,7 @@ docs/
 
 ## Reading Order
 
-Start with the [document map](docs/00-document-map.md), then read in numerical order. The recommended first-pass reading order for new GMs is:
+Start with the [document map](00-document-map.md), then read in numerical order. The recommended first-pass reading order for new GMs is:
 
 1. **Resolution Engine** (01) — how the dice work.
 2. **Attributes** (04) — what the numbers mean.
@@ -29,11 +29,11 @@ Start with the [document map](docs/00-document-map.md), then read in numerical o
 
 ## Support Files
 
-- [`docs/00-document-map.md`](docs/00-document-map.md) — Source-to-filename mapping for the whole repository.
-- [`docs/90-core-glossary.md`](docs/90-core-glossary.md) — Working glossary appendix.
-- [`docs/91-conditions-appendix.md`](docs/91-conditions-appendix.md) — Master cross-reference of every named condition.
-- [`docs/92-derived-stats-reference.md`](docs/92-derived-stats-reference.md) — One-page derived-stats and resource sheet.
-- [`docs/99_gap_analysis.md`](docs/99_gap_analysis.md) — Current development planning and coverage review.
+- [`docs/00-document-map.md`](00-document-map.md) — Source-to-filename mapping for the whole repository.
+- [`docs/90-core-glossary.md`](90-core-glossary.md) — Working glossary appendix.
+- [`docs/91-conditions-appendix.md`](91-conditions-appendix.md) — Master cross-reference of every named condition.
+- [`docs/92-derived-stats-reference.md`](92-derived-stats-reference.md) — One-page derived-stats and resource sheet.
+- [`docs/99_gap_analysis.md`](99_gap_analysis.md) — Current development planning and coverage review.
 
 ## Contributing
 

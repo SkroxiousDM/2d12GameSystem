@@ -6,6 +6,11 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Attack and Feint remove Power + 1 (2026-10-20)
+- **Core Rules §10.6:** a successful Attack or Feint applying its default Disposition-loss effect removes Disposition equal to the Power committed, **plus 1**. The +1 is Disposition loss, not extra Power; eligible injury trades apply afterward (§10.9). Ability bonuses (*Crowd Work*, *Every Trick in the Book*) stack unchanged.
+- Conforming edits to the §4 Effects table (Attack row), the §10.6 actions table (Attack and Feint rows), §10.7 Shared Disposition, §10.14 Order of Resolution step 5, the Design Notes and the Quick Reference Damage Cycle box.
+- Applies to `docs/2d12System/the-2d12-system-v2-core-rulebook.typ` (replaces PR #25, which targeted the archived master rulebook). PDF rebuilt.
+
 ### Changed — Master rulebook split into two books (2026-10-19)
 - **New core rulebook:** `docs/2d12System/the-2d12-system-v2-core-rulebook.typ` (+ PDF). Holds the Introduction, Core Rules, Optional Modules, Generic Descriptors, Generic Playbooks, Generic Focuses and the Quick Reference. Neutral visual style (charcoal, navy and pewter; Source Sans 3 headings; d12 motif) replaces the gothic cover and chapter art.
 - **Setting references removed from core:** afflictions, killing strikes, special creatures, Bled and Disposition modifiers now refer to setting rules in general terms ("creature rank" instead of "vampire rank"); the Optional Modules epigraph, Descriptor and Playbook blurbs no longer point to Frontier chapters; random-table "Frontier camp" is now "Remote camp". The Quick Reference "Day and Night" box is replaced by "The Four Currencies".

@@ -129,7 +129,7 @@
 }
 
 #set page(paper: "us-letter", fill: paper,
-  margin: (top: 2.1cm, bottom: 1.5cm, inside: 2.2cm, outside: 2.0cm),
+  margin: (top: 1.5cm, bottom: 1.5cm, inside: 2cm, outside: 1.7cm),
   header: running-header, footer: running-footer, header-ascent: 35%, footer-descent: 35%)
 
 // ---------------------------------------------------------------- headings
@@ -605,7 +605,7 @@ Ten rated skills from a list of 20:
   )
 
 The playbook\'s anchor skill must sit at +3 or +4. The pyramid rule (each tier must have at least as many skills as the tier above it) still applies when you advance.
-#colbreak()
+
 #strong[Generic skill list by default pool:]
 
 #figure(
@@ -640,16 +640,17 @@ With a +2 cap, a third relevant tag is best used for burning or as Tychē Point 
 === 3.5 Beliefs, Instincts, Goals
 - #strong[Belief] --- a moral stance or conviction. \"The law protects the powerful; I protect everyone else.\"
 - #strong[Instinct] --- an if/then reflex. \"Always check the exits when entering a room.\" Acting on an Instinct lets you take that action without spending time.
-- #strong[Goal] --- a concrete objective for this session or mission. \"Get Mara out of the precinct before dawn.\"
+#colbreak()
+    - #strong[Goal] --- a concrete objective for this session or mission. \"Get Mara out of the precinct before dawn.\"
 
 Goals are rewritten each session; Beliefs and Instincts can change at milestones.
 
 === 3.6 Starting Resources
 - #strong[Tychē Points:] start each session with Tychē Points equal to your #strong[Refresh] (base 3; see §4.1).
 - #strong[Load-out:] chosen during play from the playbook\'s gear list (Blades-style light/normal/heavy load), not bought in advance.
-
-#colbreak(weak: true)
+  ]
 == 4. Tychē Points
+    #columns(2, gutter: 6mm)[
 #strong[Spend 1 Tychē Point to:]
 
 - #strong[Invoke] --- reroll all dice, or add +2 after rolling. This works with any tag or Truth you can justify, even one belonging to the scene or an enemy. Invokes are not limited by the tag cap.
@@ -660,7 +661,7 @@ Goals are rewritten each session; Beliefs and Instincts can change at milestones
 
 - #strong[Compels] --- the GM or another player offers a complication based on a weakness tag, Scar, Belief, or Instinct. Accept → +1 Tychē Point. Refuse → pay 1 Tychē Point.
 - #strong[Playing your Belief against your interests] (Mouse Guard): once per session, take +1 Tychē Point when your Belief causes trouble for you.
-
+#colbreak()
 === 4.1 Refresh
 - #strong[Base Refresh is 3.] At the start of each session, your Tychē Points reset to your Refresh (if you have more, keep them).
 - At creation you get #strong[1 playbook ability and your Tier 1 Focus ability for free];.
@@ -683,16 +684,17 @@ Design intent: power comes at the cost of narrative flexibility. A low-Refresh c
     table.hline(),
     [#strong[Attack];], [1 Power per tier], [Inflict a #strong[Status] (e.g. #emph[wounded-2];, #emph[rattled-1];, #emph[on fire-3];). In a conflict, an Attack removes Disposition instead (§10.6)],
     [#strong[Weaken];], [1], [Reduce one of the target\'s statuses by 1 tier, or #strong[Burn] one of its tags for the scene],
-    [#strong[Create];], [2], [Create a #strong[Truth] that lasts for the scene (#emph[smoke cover];, #emph[crowd on our side];). One extra Power makes it last until resolved],
+    [#strong[Create];], [3], [Create a #strong[Truth] that lasts for the scene (#emph[smoke cover];, #emph[crowd on our side];). One extra Power makes it last until resolved],
     [#strong[Enhance];], [1 per tier], [Give an ally a helpful status (#emph[inspired-2];)],
     [#strong[Restore];], [1 per tier], [Reduce a harmful status on yourself or an ally. Lasting injuries have limits (§6.6)],
     [#strong[Discover];], [1], [Ask the GM one question; you get a true, useful answer],
     [#strong[Advance];], [1 per segment], [Tick a #strong[progress clock] (§7)],
-    [#strong[Disrupt];], [2], [Cancel or delay an enemy\'s prepared action, or take 1 point off the GM\'s Woe],
+    [#strong[Disrupt];], [3], [Cancel or delay an enemy\'s prepared action, or take 1 point off the GM\'s Woe],
     [#strong[Extra Feat];], [1], [Achieve a second, related goal with the same action],
   )]
   , kind: table
   )
+  #pagebreak()
 #columns(2, gutter: 6mm)[
 Each point of Power buys an Effect. Players choose Effects that fit what their character did in the fiction.
   
@@ -701,9 +703,9 @@ Any unspent Power → #strong[Momentum];.
 === 5.1 Statuses
 - Statuses have #strong[tiers 1--6];.
 - #strong[Stacking:] a new status of the same kind raises the existing tier by the new tier minus 1 (minimum +1), so small hits accumulate slowly.
-#colbreak()
 - #strong[Tier 6:] the target is #strong[Taken Out] of whatever that status represents (dead, unconscious, captured, convinced, routed), within the status's scope. A harmful status reaching tier 6 also gives one #strong[Scar] (§6.3). Death needs a lethal cause and established stakes.
 - Statuses modify rolls by #strong[± their tier] (use only the highest relevant harmful status and the highest relevant helpful status).
+#colbreak()
 - #strong[Same kind.] Harm is the same kind when it worsens the same injury, affliction or condition. Renaming it doesn't stop it stacking: another cut worsens #emph[wounded], renewed menace worsens #emph[terrified], but a fresh burn needn't stack with a concussion. The GM says whether new harm stacks #strong[before] you decide to Resist or accept an injury (§10.9).
 - #strong[Order.] Resistance and armour reduce incoming harm before it stacks. Harm reduced to tier 0 isn't recorded and doesn't stack. A status can't go above tier 6; extra tiers have no effect unless a rule says so.
 - #strong[What it hinders.] A status's name decides which rolls it affects: #emph[slashed thigh-3] hinders running and climbing, not reading a ledger. A status can also decide what is possible: no roll lets you use a hand you no longer have.
@@ -759,7 +761,7 @@ When a consequence lands on you (a status, lost gear, a bad position), you may #
 
 - #strong[Overrun] = final cost − points left (minimum 0).
 - #strong[Incoming status tier] = 1 + overrun (recorded at tier 6 at most).
-
+#colbreak()
 Spend the points you have. A pool can't go below 0, and the unpaid excess does not move to another pool.
 
 #figure(
@@ -885,7 +887,7 @@ An ordinary Defend can't bring back a Taken Out ally unless its rules say it can
 
 
 
-    
+   #colbreak() 
 === 6.5 Rest and Recovery
 
 There\'s no separate \"short rest\" / \"full rest\" split. Instead, resting escalates through the day --- the longer you take, the more you recover:
@@ -903,13 +905,12 @@ There\'s no separate \"short rest\" / \"full rest\" split. Instead, resting esca
   )]
   , kind: table
   )
-#colbreak()
+
 - Roll the listed die and #strong[divide the result among Sōma, Akmē, Psychē, and Pneuma however you like] --- it doesn\'t have to go to whichever pool was drained most recently.
 
 - #strong[Edge does not affect this roll.] Edge only reduces Effort and Resistance cost (§2.4, §6); recovery stays flat so it can\'t stack with Edge\'s other benefits.
 - After the 4th rest, the cycle resets --- your next rest that day (or the start of a new day) is a 1d6 again.
 - Each PC rests and rolls independently. If two of five party members stop for 10 minutes to recover, the other three don\'t have to stop or roll.
-#colbreak()
 - #strong[Running dry has no automatic refill.] A pool at 0 comes back through these rests in the normal way. Its running-dry status recovers separately, as described below.
 
 #strong[Recovering running-dry statuses.] Restoring a pool doesn't clear its running-dry status, and clearing the status doesn't refill the pool. When you first record the status, choose its category:
@@ -933,11 +934,11 @@ Winning a conflict, ending a scene or setting fresh Disposition is #strong[not a
 #strong[Advance option --- Hardened] #emph[(6 XP, one-time)]
 
 Your recovery die steps up one size at every stage, permanently: 1d6→1d8, 1d8→1d10, 1d10→1d12. The 4th rest of the day remains a full restore. This is a flat, single bump --- it does not scale further and doesn\'t interact with Edge, Effort Level, or pool growth from other Advances.
-]
+
 
 
 === 6.6 Treatment and Healing
-#columns(2, gutter: 6mm)[
+
 #strong[Appropriate care.] Treatment must address the cause of the harm:
 
 #figure(
@@ -997,10 +998,9 @@ These are game-time intervals, not medical estimates. A full night is the normal
 - A brief interruption pauses recovery; it doesn't erase it. A bad roll on an unrelated action doesn't worsen an injury; that needs a relevant danger or a stated consequence.
 
 #strong[Afflictions] (poison, disease, possession, curses, ongoing exposure) don't follow the interval table. When the affliction is identified, its source sets what worsens it, what suppresses it, what allows recovery, and whether treatment cures it or only eases the symptoms. #emph[Bled], #emph[Sun-Sick] and the Thirst keep their own rules (Frontier Rules §6, §7), and vampires keep their blood-based recovery (Frontier Rules §5.2).
-]
 
 === 6.7 Dying and Stabilisation
-#columns(2, gutter: 6mm)[
+
 #strong[Becoming Dying.] After Resistance and stacking, life-threatening physical harm that reaches tier 6 makes a living character #strong[Dying], if lethal stakes allow that outcome (§10.2). It also gives a Scar as normal (§6.3). The character is incapacitated and can't take ordinary actions. Start a #strong[3-segment Dying clock]. There is no extra #emph[dying] penalty; the injury already records the harm. Mental defeat, capture, exhaustion and ordinary fear never start a Dying clock, and a running-dry status is never lethal on its own.
 
 #strong[Cadence.] When Dying begins, set how the clock advances: at the end of each exchange after the one in which Dying began, during a scripted conflict; or after a stated fictional interval, outside one. The clock advances #strong[because the interval passes], not because someone attempts treatment. Several characters can act in the same interval without advancing it further. Moving into or out of a scripted conflict carries the existing deadline over; it doesn't advance the clock or grant extra time.
@@ -1019,7 +1019,7 @@ Stabilising doesn't erase marked segments, reduce the injury, refill pools or re
 #strong[Immediate death.] Use it only when the established outcome leaves no plausible time for rescue, or a specific killing method calls for it (such as a killing strike, Frontier Rules §5.2). Announce that danger before the roll, and allow Resistance, escape or interruption. Once such an outcome is fully resolved, don't add a Dying clock to undo it; equally, don't skip the clock for an ordinary mortal wound just because the description is graphic.
 
 #strong[Bled.] Blood loss keeps its own tiers 4--6 and its own stabilising rules (Frontier Rules §6). Don't run a Dying clock for #emph[Bled] as well.
-
+#colbreak()
 === 6.8 Permanent Harm
 #strong[Where it comes from.] An injury doesn't become permanent just because its tier is high. Permanent harm needs an established permanent-injury stake, a specific effect or creature rule, a voluntary bargain, or a Scar-giving event. Tier 6 always gives a Scar (§6.3), but never by itself severs a limb, destroys an organ, lowers a maximum pool or causes any other permanent mechanical loss.
 
@@ -1110,7 +1110,7 @@ Use a conflict when #strong[any two] of these are true:
 === 10.2 Setup
 + #strong[Declare intent and stakes:] each side states what it wants if it wins. Establish what losing lets the other side do, whether death, permanent injury or capture is at stake, and what surrender or withdrawal could look like.
 + #strong[Choose the conflict type] (§10.4), which sets the skill for each action.
-+ #strong[Disposition:] the leader of each side rolls #strong[2d12 + the type\'s Disposition skill + the highest Edge in that skill\'s pool];, divide the result by three (round down). Next,adds +1 per helper, add every flat bonus or penalty to starting Disposition (from abilities, vampire rank, conditions and similar effects). That is the side\'s #strong[Disposition] (usually 8--11), one shared total for the whole side (§10.7).
++ #strong[Disposition:] the leader of each side rolls #strong[2d12 + the type\'s Disposition skill + the highest Edge in that skill\'s pool];, divide the result by three (round down). Next,add +1 per helper, add every flat bonus or penalty to starting Disposition (from abilities, vampire rank, conditions and similar effects). That is the side\'s #strong[Disposition] (usually 8--11), one shared total for the whole side (§10.7).
 + #strong[Superiority:] reduce the opposing side's starting Disposition by your Superiority (§10.3).
 + #strong[Track] Disposition as a number or a clock.
 
@@ -1351,7 +1351,7 @@ The listed tier doesn't apply to every member of the winning side; the costs say
 + Check removal, victory and mutual defeat. Before the next roll, either side may offer a concession.
 + Settle compromise (§10.12).
 + Afterwards, recover each layer by its own procedure (§6.5, §6.6).
-
+#colbreak()
 #strong[Which rule wins.]
 + Explicit amendments and replacements in this damage cycle.
 + Current creature-specific rules and explicitly revised abilities.
@@ -1359,14 +1359,14 @@ The listed tier doesn't apply to every member of the winning side; the costs say
 + Earlier general rules.
 
 A rule overrides another only on the subject it addresses. An ability that heals a status doesn't also restore Disposition, refresh an injury trade or erase a Scar.
-
+#colbreak()
 === 10.15 Keeping It Fast
-- Disposition of 4--7 should resolve in one or two exchanges.
+- Disposition of 8--11 should resolve in two or three exchanges.
 - NPC sides script on index cards; minions act as a single group with one script.
 - Table guideline: about 15--20 minutes per conflict.
 ]
   
-#pagebreak(weak: true)
+
 == 11. Playbooks
 #columns(2, gutter: 6mm)[
 Each playbook is a one-page sheet with:
@@ -1438,7 +1438,7 @@ Settings rename and reskin playbooks (Adept becomes \"Hedge Witch\" in fantasy, 
 - #strong[Later:] the sergeant\'s dread patron, a bound spirit, lashes out with #emph[terror-3];. Kade Resists with #strong[Pneuma] (Edge 0): highest die 7 → cost 2 Pneuma. The status drops to #emph[terror-1];.
 - #strong[Compel:] the GM compels #emph[Reckless];: \"You can\'t wait for backup; you go in now.\" Kade accepts and gains +1 Tychē Point.
 ]
-  
+#pagebreak()  
 == 14. Design Notes --- What Was Kept, Changed, Cut
 #figure(
   [#table(
@@ -1534,7 +1534,7 @@ The Grind turns time, distance, and hardship into slow, steady pressure. It pair
 === B.1 Session Structure
 #figure(
   [#table(
-    columns: (11%, 89%),
+    columns: (15%, 85%),
     align: (auto,auto,),
     table.header([Phase], [What happens],),
     table.hline(),
@@ -1553,7 +1553,7 @@ The Grind turns time, distance, and hardship into slow, steady pressure. It pair
 === B.3 Grind Conditions (taken in order)
 #figure(
   [#table(
-    columns: (10%, 17%, 33%, 40%),
+    columns: (13%, 22%, 30%, 35%),
     align: (auto,auto,auto,auto,),
     table.header([Order], [Condition], [Effect], [Cleared by],),
     table.hline(),
@@ -1588,7 +1588,7 @@ A journey is a #strong[Journey clock] (6 for a short trip, 8 for a hard trip, 12
     table.hline(),
     [#strong[Guide];], [Survival or Drive/Pilot], [#strong[Make Time] --- Advance the Journey clock],
     [#strong[Scout];], [Notice or Stealth], [#strong[Spot Trouble] --- Discover, or cancel one encounter the GM has prepared],
-    [#strong[Quartermaster];], [Survival or Craft], [#strong[Forage / Ration] --- clear Hungry for the party, or +1 Supplies],
+    [#strong[Quarter-master];], [Survival or Craft], [#strong[Forage / Ration] --- clear Hungry for the party, or +1 Supplies],
     [#strong[Lookout];], [Notice or Will], [#strong[Keep Watch] --- the party isn\'t surprised; Restore Shaken],
   )]
   , kind: table
@@ -1633,7 +1633,7 @@ Roll once per column or pick.
 
 #figure(
   [#table(
-    columns: (6.06%, 21.21%, 22.22%, 19.19%, 31.31%),
+    columns: (7%, 20%, 23%, 20%, 30%),
     align: (auto,auto,auto,auto,auto,),
     table.header([d12], [Terrain / Feature], [Atmosphere], [Hazard], [Secret],),
     table.hline(),
@@ -1743,8 +1743,9 @@ Every Descriptor works in any genre. Choose one from this chapter or, in a #emph
   )]
   , kind: table
   )
-#columns(2, gutter: 6mm)[
+#pagebreak()
 == 3. Descriptors
+#columns(2, gutter: 6mm)[
 === 1. Burly
 #quote(block: true)[
 You fill doorways. People step aside before you ask.
@@ -1920,7 +1921,7 @@ Your word is iron. Once you decide, the world bends or breaks against you.
 - #strong[Weakness tag:] #emph[rigid when plans change]
 - #strong[Suggested Instinct:] \"If I give my word, I keep it.\"
 - #strong[Hook:] What promise are you still keeping, and to whom?
-
+#colbreak()
 === 17. Restless
 #quote(block: true)[
 Stillness itches. You need to move, act, see what is over the next hill.
@@ -2694,12 +2695,13 @@ Every Adept has a #strong[Domain];: a broad power tag describing what they can d
 // =====================================================================
 #chapter("Generic Focuses", [Twenty-four setting-neutral Focuses complete the sentence: "...who [Focus]." Each one has two power tags, a weakness, a link to another player character, and tiered abilities with a choice at Tiers 2 and 3.], epigraph: [The verb of the character sentence.])
 
-#columns(2, gutter: 6mm)[
+
 == 1. Focus Rules
+#columns(2, gutter: 6mm)[
 === 1.1 What a Focus Gives You
 #figure(
   [#table(
-    columns: (22%, 78%),
+    columns: (25%, 75%),
     align: (auto,auto,),
     table.header([Element], [Detail],),
     table.hline(),
@@ -2716,6 +2718,7 @@ Every Adept has a #strong[Domain];: a broad power tag describing what they can d
 - #strong[The other option:] once you\'ve reached a tier, you may take its unchosen option later as a normal Advance.
 - #strong[★ Major:] costs 1 Refresh when taken (Core Rules §4.1). Every Focus has exactly one ★ option, always at Tier 3, so you can always choose a path that keeps your Refresh.
 - #strong[Any playbook can take any Focus.] The \"Suits\" line is a suggestion.
+#colbreak()
 - #strong[Changing Focus:] at a major milestone, with GM approval, you can swap your Focus. You keep Tier 1 of the new one and rebuy higher tiers with Advances.
 
 === 1.2 Weird Focuses ◈
@@ -2725,7 +2728,8 @@ Focuses marked #strong[◈ Weird] assume the supernatural, impossible technology
 - Free bonus dice from Focuses still count toward the #strong[+2 bonus die maximum];.
 - Abilities that add bonus above the tag cap only do so for the tag they name, and are limited to #strong[+1 above the normal +2 cap (maximum +3)] unless stated otherwise.
 - Only #strong[one cost reduction] applies to a single Effect (e.g. you can\'t combine two \"costs 1 Power instead of 2\" abilities).
-
+]
+  
 == 2. Quick Reference
 #figure(
   [#table(
@@ -2762,6 +2766,7 @@ Focuses marked #strong[◈ Weird] assume the supernatural, impossible technology
   )
 
 == 3. Combat Focuses
+#columns(2, gutter: 6mm)[
 === 1. Never Leaves Anyone Behind
 #quote(block: true)[
 Loyal to a fault. You go back for the fallen, every time.
@@ -2857,8 +2862,10 @@ Honour is for people who can afford to lose.
   )]
   , kind: table
   )
-
+]
+  
 == 4. Stealth & Precision Focuses
+#columns(2, gutter: 6mm)[
 === 5. Moves Like a Shadow
 #quote(block: true)[
 Silent, patient, and impossible to pin down.
@@ -2906,7 +2913,7 @@ Sniper, archer, gunslinger: steady breath and a sharp eye.
   )]
   , kind: table
   )
-
+#colbreak()
 === 7. Opens Every Lock
 #quote(block: true)[
 Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
@@ -2954,8 +2961,10 @@ You never walk into a room without knowing how to leave it.
   )]
   , kind: table
   )
-
+]
+#pagebreak()
 == 5. Knowledge Focuses
+#columns(2, gutter: 6mm)[
 === 9. Builds Impossible Things
 #quote(block: true)[
 An artificer, engineer, or inventor who makes what shouldn\'t work, work.
@@ -3051,8 +3060,9 @@ Historian, archaeologist, or keeper of lost lore.
   )]
   , kind: table
   )
-
+]
 == 6. Social Focuses
+#columns(2, gutter: 6mm)[
 === 13. Talks Their Way Out of Anything
 #quote(block: true)[
 Charm, quick wit, and the right words at the right time.
@@ -3100,7 +3110,7 @@ Spy, impostor, or actor: you can be anyone.
   )]
   , kind: table
   )
-
+#colbreak()
 === 15. Knows Everyone Worth Knowing
 #quote(block: true)[
 Fixer, socialite, or broker: you\'re one call away from anyone.
@@ -3148,8 +3158,10 @@ Noble, officer, executive, or chieftain: you hold authority, and it holds you.
   )]
   , kind: table
   )
-
+]
+  #pagebreak()
 == 7. Wilderness & Travel Focuses
+#columns(2, gutter: 6mm)[
 === 17. Runs With the Pack
 #quote(block: true)[
 Beast handler, rider, falconer, or dog-musher.
@@ -3197,7 +3209,7 @@ Explorer, navigator, or surveyor drawn to the blank parts of the map.
   )]
   , kind: table
   )
-
+#colbreak()
 === 19. Lives Off the Land
 #quote(block: true)[
 Survivalist, forager, or homesteader: you need nothing the world doesn\'t give.
@@ -3245,8 +3257,10 @@ Driver, pilot, sailor, or rider: you and your vehicle are one.
   )]
   , kind: table
   )
-
+]
+#pagebreak()
 == 8. Weird Focuses ◈
+#columns(2, gutter: 6mm)[
 === 21. Hunts the Things in the Dark ◈
 #quote(block: true)[
 Monster-hunter, exorcist, or investigator of the strange.
@@ -3294,7 +3308,7 @@ Touched by the spirit world, the Otherworld, or the deep net.
   )]
   , kind: table
   )
-
+#colbreak()
 === 23. Made a Bargain With Something Old ◈
 #quote(block: true)[
 Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
@@ -3342,8 +3356,9 @@ Mutant, cyborg, half-fae, or carrier of a strange bloodline.
   )]
   , kind: table
   )
-#colbreak()
+]
 == 9. Design Notes
+#columns(2, gutter: 6mm)[
 === 9.1 Coverage by Playbook
 #figure(
   [#table(

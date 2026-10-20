@@ -593,7 +593,7 @@
   footer-number-dx: -15.5%,
   footer-number-dy: 77%,
   footer-scale: 133%,
-  footer-fill: colors.titlegold,
+  footer-fill: rgb("5C4A28"), // Aetas Obscura patch: darker for legibility on the gold band
   footer-debug-circle-fill: none,
   footer-font: font-family.main,
   footer-size-number: font-size.normalsize, //or normal

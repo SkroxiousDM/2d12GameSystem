@@ -42,4 +42,5 @@ The root must be this folder, because the template loads its paper texture from 
 ## Template changes in the vendored copy
 
 - `lib/template.typ`: the footer's chapter number now restarts with each part, to match the chapter headings.
+- `lib/config.typ`: the footer text is a darker brown so it reads clearly on the gold band.
 - `assets/paper/`: only `default.jpg` is included.

@@ -34,7 +34,6 @@ These aren't converted to Version 2 yet:
 ├── README.md
 ├── CONTRIBUTING.md
 ├── CHANGELOG.md
-├── GRENDEL_Consolidated_Master_Rulebook.md   GRENDEL setting (in development)
 ├── Typst Templates/                          Third-party Typst templates (own licenses)
 ├── branch-rulesets/                          GitHub ruleset for main (PRs, conventional commits)
 └── docs/
@@ -45,13 +44,13 @@ These aren't converted to Version 2 yet:
     ├── TestamentOfDust/                      Testament of Dust setting book
     │   ├── testament-of-dust-v2-setting-book.typ  Source of truth
     │   ├── testament-of-dust-v2-setting-book.pdf
+    │   ├── 2d12-character-sheet-v2.typ / .pdf    Character sheet
     │   ├── testament-of-dust-*.md            Markdown editions of the Frontier chapters
     │   └── art/playbooks/                    Frontier playbook art
     ├── Aetas Obscura/                        Aetas Obscura setting (in development)
     ├── design/                               Design documents, playtest reports, rule drafts
-    ├── 2d12-character-sheet-v2.typ / .pdf    Character sheet
-    ├── 2d12-system-proposal.md               Original v0.2 design proposal
-    ├── playbooks.md, focuses.md              v0.2 Markdown drafts of the generic chapters
+    ├── Grendel/
+    │   ├── GRENDEL_Consolidated_Master_Rulebook.md   GRENDEL setting (in development)
     └── Archive/
         ├── 2d12 Version 1/                   The retired Version 1 rules
         └── TestamentOfDust-master-v2/        The combined master rulebook from before the split

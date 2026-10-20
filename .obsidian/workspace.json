@@ -6,16 +6,30 @@
       {
         "id": "b652f9ef2f42b5f6",
         "type": "tabs",
-        "dimension": 44.60659898477157,
+        "dimension": 58.185279187817265,
         "children": [
           {
             "id": "61388ba6a52dbd3b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -23,7 +37,7 @@
       {
         "id": "4b65b2bab8ecc103",
         "type": "tabs",
-        "dimension": 55.39340101522843,
+        "dimension": 41.81472081218274,
         "children": [
           {
             "id": "1af5f37d9da47b3a",
@@ -204,16 +218,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "7b84c46cc61e5997",
+  "active": "61388ba6a52dbd3b",
   "lastOpenFiles": [
     "docs/TestamentOfDust/2d12-character-sheet-v2.typ",
     "docs/TestamentOfDust/2d12-character-sheet-v2.pdf",
-    "docs/grendel/GRENDEL_Consolidated_Master_Rulebook.md",
-    "docs/grendel",
+    "docs/Grendel/GRENDEL_Consolidated_Master_Rulebook.md",
+    "docs/Grendel",
     "docs/2d12-character-sheet-v2.typ",
     "docs/2d12-character-sheet-v2.pdf",
     "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
-    "docs/Aetas Obscura/Magical Traditions.md",
+    "docs/AetasObscura/Magical Traditions.md",
     "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ",
     "docs/TestamentOfDust/testament-of-dust-v2-setting-book.pdf",
     "docs/Archive/TestamentOfDust-master-v2/testament-of-dust-2d12-v2-master-rulebook.typ",
@@ -229,16 +243,16 @@
     "docs/2d12System/art/playbooks/generic/03-savant.jpg",
     "docs/2d12System/art/playbooks/generic/02-furcifer.png",
     "docs/2d12System/art/playbooks/generic/02-furcifer.jpg",
-    "docs/design/rest-and-recovery.md",
-    "docs/design/System components.md",
+    "docs/Design/rest-and-recovery.md",
+    "docs/Design/System components.md",
     "docs/Archive/2d12 Version 1/18-downtime-and-campaign-loop.md",
     "docs/Untitled.canvas",
-    "docs/design/unified-damage-cycle-master-text.md",
-    "docs/design/shared-disposition-master-text.md",
-    "docs/design/running-dry-r3-master-text.md",
-    "docs/design/playtest-01-sample-characters-and-test-fight.md",
-    "docs/design/opposition-statblocks and conflict play test1.md",
-    "docs/design/opposition-statblocks and conflict play test 2.md",
+    "docs/Design/unified-damage-cycle-master-text.md",
+    "docs/Design/shared-disposition-master-text.md",
+    "docs/Design/running-dry-r3-master-text.md",
+    "docs/Design/playtest-01-sample-characters-and-test-fight.md",
+    "docs/Design/opposition-statblocks and conflict play test1.md",
+    "docs/Design/opposition-statblocks and conflict play test 2.md",
     "GRENDEL_Consolidated_Master_Rulebook.md",
     "docs/VampireHunterD/vhd-playbooks.md",
     "docs/VampireHunterD/2d12-System--Character-Sheet-v0.2.md",

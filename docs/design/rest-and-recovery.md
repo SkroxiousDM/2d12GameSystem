@@ -1,5 +1,3 @@
-
-
 **Rest and Recovery**
 
 There's no separate "short rest" / "full rest" split. Instead, resting escalates through the day — the longer you take, the more you recover:

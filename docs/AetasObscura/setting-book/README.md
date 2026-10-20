@@ -1,11 +1,10 @@
 # Aetas Obscura — Setting Book (2d12 System v2)
 
-The setting book for **Aetas Obscura**, the Darkening Age (500 AD), written for **The 2d12 System, Version 2**, and typeset with the **Mythographer 5e** Typst template.
+The setting book for **Aetas Obscura**, the Darkening Age (500 AD), written for **The 2d12 System, Version 2**, and typeset in the house style of the *Testament of Dust* setting book, recoloured in Byzantine violet and bronze.
 
 - `aetas-obscura-v2-setting-book.typ` — the single-file Typst source.
 - `aetas-obscura-v2-setting-book.pdf` — the compiled book (GM's edition).
 - `aetas-obscura-v2-player-book.typ` / `.pdf` — the **Player's Book**: a player-facing edition with the Secret History and all GM material removed.
-- `lib.typ`, `lib/`, `assets/` — a vendored copy of `Typst Templates/mythographer-5e-0.0.2`, so the book compiles on its own.
 
 ## Scope
 
@@ -31,17 +30,19 @@ Build it the same way, substituting `aetas-obscura-v2-player-book.typ`.
 
 ## Building
 
-Requires Typst 0.13+ and the template fonts (TeX Gyre Bonum, Gillius ADF No2), available from the Mythographer template's upstream repository (`sa1g/dnd-typst-template`, `fonts/`).
+Each book is a single self-contained Typst file. It needs Typst 0.13 or later, the `@preview/droplet` package (Typst downloads it automatically), and two free OFL fonts:
+
+- **EB Garamond** for body text;
+- **Cinzel** for headings and display type.
 
 ```sh
 cd docs/AetasObscura/setting-book
-typst compile --root . --font-path /path/to/fonts aetas-obscura-v2-setting-book.typ
+typst compile --font-path /path/to/fonts aetas-obscura-v2-setting-book.typ
+typst compile --font-path /path/to/fonts aetas-obscura-v2-player-book.typ
 ```
 
-The root must be this folder, because the template loads its paper texture from `/assets/paper/default.jpg`.
+If the fonts are missing, Typst falls back to Libertinus Serif.
 
-## Template changes in the vendored copy
+## Style
 
-- `lib/template.typ`: the footer's chapter number now restarts with each part, to match the chapter headings.
-- `lib/config.typ`: the footer text is a darker brown so it reads clearly on the gold band.
-- `assets/paper/`: only `default.jpg` is included.
+Modelled on `docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ`: parchment pages, Cinzel headings with bronze diamond rules, violet table headers with zebra rows, dark GM sidebars and running headers. Each part opens on a dark divider page with a black eclipsed sun over a ruined classical skyline (temple, aqueduct, domed church) and an "In this part" contents list. Chapters start on a new page.

@@ -12,24 +12,10 @@
             "id": "61388ba6a52dbd3b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Aetas Obscura/Magical Traditions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Magical Traditions"
+              "title": "New tab"
             }
           }
         ]
@@ -45,12 +31,12 @@
             "state": {
               "type": "typst-preview",
               "state": {
-                "vaultPath": "docs/TestamentOfDust/testament-of-dust-2d12-v2-master-rulebook.typ",
+                "vaultPath": "docs/2d12-character-sheet-v2.typ",
                 "themeOverride": null,
                 "pinned": false
               },
               "icon": "book-open",
-              "title": "Preview: testament-of-dust-2d12-v2-master-rulebook.typ"
+              "title": "Preview: 2d12-character-sheet-v2.typ"
             }
           }
         ]
@@ -220,16 +206,32 @@
   },
   "active": "7b84c46cc61e5997",
   "lastOpenFiles": [
+    "docs/grendel/GRENDEL_Consolidated_Master_Rulebook.md",
+    "docs/grendel",
+    "docs/2d12-character-sheet-v2.typ",
+    "docs/2d12-character-sheet-v2.pdf",
+    "docs/TestamentOfDust/2d12-character-sheet-v2.pdf",
+    "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
+    "docs/Aetas Obscura/Magical Traditions.md",
+    "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ",
+    "docs/TestamentOfDust/testament-of-dust-v2-setting-book.pdf",
+    "docs/Archive/TestamentOfDust-master-v2/testament-of-dust-2d12-v2-master-rulebook.typ",
+    "docs/Archive/TestamentOfDust-master-v2/testament-of-dust-2d12-v2-master-rulebook.pdf",
+    "docs/Archive/TestamentOfDust-master-v2/testament-of-dust-2d12-v2-master-rulebook-2.pdf",
+    "docs/2d12System/art/playbooks/generic/06-adept.png",
+    "docs/2d12System/art/playbooks/generic/06-adept.jpg",
+    "docs/2d12System/art/playbooks/generic/05-explorator.png",
+    "docs/2d12System/art/playbooks/generic/05-explorator.jpg",
+    "docs/2d12System/art/playbooks/generic/04-interlocutor.png",
+    "docs/2d12System/art/playbooks/generic/04-interlocutor.jpg",
+    "docs/2d12System/art/playbooks/generic/03-savant.png",
+    "docs/2d12System/art/playbooks/generic/03-savant.jpg",
+    "docs/2d12System/art/playbooks/generic/02-furcifer.png",
+    "docs/2d12System/art/playbooks/generic/02-furcifer.jpg",
+    "docs/design/rest-and-recovery.md",
     "docs/design/System components.md",
     "docs/Archive/2d12 Version 1/18-downtime-and-campaign-loop.md",
     "docs/Untitled.canvas",
-    "docs/Aetas Obscura/Magical Traditions.md",
-    "docs/Archive/2d12 Version 1",
-    "docs/TestamentOfDust/testament-of-dust-2d12-v2-master-rulebook.typ",
-    "Typst Templates",
-    "docs/TestamentOfDust/testament-of-dust-2d12-v2-master-rulebook.pdf",
-    "docs/Archive",
-    "docs/TestamentOfDust/testament-of-dust-2d12-v2-master-rulebook-2.pdf",
     "docs/design/unified-damage-cycle-master-text.md",
     "docs/design/shared-disposition-master-text.md",
     "docs/design/running-dry-r3-master-text.md",
@@ -237,21 +239,7 @@
     "docs/design/opposition-statblocks and conflict play test1.md",
     "docs/design/opposition-statblocks and conflict play test 2.md",
     "GRENDEL_Consolidated_Master_Rulebook.md",
-    "docs/Archive/testament-of-dust-2d12-v2-master-rulebook-1.pdf",
     "docs/VampireHunterD/vhd-playbooks.md",
-    "docs/VampireHunterD/vampire-hunter-d-2d12-v2-master-rulebook.typ",
-    "docs/VampireHunterD/art/playbooks/generic/06-adept.png",
-    "docs/VampireHunterD/art/playbooks/generic/06-adept.jpg",
-    "docs/VampireHunterD/art/playbooks/generic/05-explorator.png",
-    "docs/VampireHunterD/art/playbooks/generic/05-explorator.jpg",
-    "docs/VampireHunterD/art/playbooks/generic/04-interlocutor.png",
-    "docs/VampireHunterD/art/playbooks/generic/04-interlocutor.jpg",
-    "docs/VampireHunterD/art/playbooks/generic/03-savant.png",
-    "docs/VampireHunterD/art/playbooks/generic/03-savant.jpg",
-    "docs/VampireHunterD/art/playbooks/generic/02-furcifer.png",
-    "docs/VampireHunterD/art/playbooks/generic/02-furcifer.jpg",
-    "docs/VampireHunterD/art/playbooks/generic",
-    "docs/VampireHunterD/vampire-hunter-d-2d12-v2-master-rulebook-1.pdf",
     "docs/VampireHunterD/2d12-System--Character-Sheet-v0.2.md",
     "docs/Archive/2d12 Version 1/02.4 Roles.md",
     "docs/Archive/2d12 Version 1/02-character-creation.md",
@@ -264,7 +252,6 @@
     "docs/VampireHunterD/2d12-system-proposal.md",
     "Typst Templates/mythographer-5e-0.0.2/lib/monster/TODO.md",
     "Typst Templates/mythographer-5e-0.0.2/README.md",
-    "Typst Templates/owlbear-0.0.1/README.md",
-    "Typst Templates/owlbear-0.0.1/CHANGELOG.md"
+    "Typst Templates/owlbear-0.0.1/README.md"
   ]
 }

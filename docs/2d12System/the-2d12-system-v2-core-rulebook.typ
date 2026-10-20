@@ -3371,8 +3371,8 @@ Off-type combinations are encouraged: an #emph[Interlocutor who Masters a Weapon
   [The core procedures on one spread, for the table and the screen. Full rules are in Chapter II.],
   numbered: false, label-text: "Appendix")
 
-#grid(columns: (1fr, 1fr), column-gutter: 0.7cm, row-gutter: 0.4cm,
-[
+
+#columns(2,gutter:6mm)[
 == The Roll
 *2d12 + Skill + Modifiers vs. Difficulty.* Skill +0 to +4. Power tags +1 each, *maximum +2 per roll* (tag-cap exceptions: maximum +3). Weakness tags −1 each, no cap. Statuses ± tier. Truths shift Difficulty, not the roll (Core Rules §2.1).
 
@@ -3388,11 +3388,11 @@ Off-type combinations are encouraged: an #emph[Interlocutor who Masters a Weapon
   [Miss by 1–3], [*Success at a Cost*: 1 Power, and the GM adds a consequence or gains 1 Woe (player's choice)],
   [Miss by 4+], [*Failure*: the GM makes a move and gains 1 Woe])
 Unspent Power becomes *Momentum* (party pool, max 6).
-],
-[
+,
+
 == Doubles (Twists)
 If the two kept dice match: on a success, a *Critical* (+1 Power and a flourish). On a failure or cost, a *Complication* (GM gains 2 Woe or adds a complication now). *Double 12s* always succeed with +2 Power. *Double 1s* always bring a complication.
-
+#colbreak()
 == Bonus Dice
 Keep the best two dice; maximum +2 bonus dice.
 #table(columns: (34%, 66%),
@@ -3407,13 +3407,16 @@ Roll 2d12, take the *highest die*, and pay the cost minus Edge: *12* costs 0 and
 
 == Running Dry (Core Rules §6.1--6.3)
 A cost that empties a pool, or is more than what's left in it, imposes a running-dry status at *tier 1 + overrun* (overrun = cost − points left). Only Resistance and imposed costs can overrun; a cost of 0 never runs dry. The status stacks normally. At *tier 6* you are Taken Out within its scope and gain *one Scar* (at most one per event). The pool and the status recover separately: 2 recovery points remove 1 depletion tier.
-
+#colbreak()
 == Damage Cycle (Core Rules §6, §10)
+<<<<<<< Updated upstream
 Each side has *one shared Disposition* total, reduced at setup by the opponent's *Superiority* (0--3, minimum 1); Attacks and Feints remove their committed Power + 1 and nothing else, and Defend restores it. A side loses at 0 or when no participant can continue. *Injury trade:* one per Attack or Feint, once per conflict, accept a tier 2/3/4 injury to cancel 1/2/3 loss; it can't be Resisted. Treatment removes at most 1 tier of a lasting injury until healing time does. Tier-6 life-threatening harm makes you *Dying*: 3-segment clock, Medicine vs. Hard 18 to stabilise. Compromise statuses are tier 2/3/4.
 ])
+=======
+Each side has *one shared Disposition* total, reduced at setup by the opponent's *Superiority* (0--3, minimum 1); Attacks and Feints remove it, and Defend restores it. A side loses at 0 or when no participant can continue. *Injury trade:* one per Attack or Feint, once per conflict, accept a tier 2/3/4 injury to cancel 1/2/3 loss; it can't be Resisted. Treatment removes at most 1 tier of a lasting injury until healing time does. Tier-6 life-threatening harm makes you *Dying*: 3-segment clock, Medicine vs. Hard 18 to stabilise. Compromise statuses are tier 2/3/4.
+)
+>>>>>>> Stashed changes
 
-#grid(columns: (1fr, 1fr), column-gutter: 0.7cm,
-[
 == Rest and Recovery
 #table(columns: (16%, 52%, 32%),
   table.header([Rest], [Time], [Recovery]),
@@ -3422,8 +3425,7 @@ Each side has *one shared Disposition* total, reduced at setup by the opponent's
   [3rd], [1 hour], [1d10],
   [4th], [10 hours (overnight)], [All pools full])
 Divide the roll among Sōma, Akmē, Psychē and Pneuma however you like. Edge does not apply. *Hardened* (one-time Advance) raises each die one size.
-],
-[
+#colbreak()
 == The Four Currencies
 #table(columns: (30%, 22%, 48%),
   table.header([Resource], [Owner], [Job]),
@@ -3431,8 +3433,7 @@ Divide the roll among Sōma, Akmē, Psychē and Pneuma however you like. Edge do
   [Tychē Points], [Each PC], [Invoke tags, accept compels],
   [Momentum], [The party], [Surplus Power from strong rolls (max 6)],
   [Woe], [The GM], [Complications and escalation])
-])
-
+]
 #v(1fr)
 #align(center, ornament-rule(width: 40%))
 #v(6pt)

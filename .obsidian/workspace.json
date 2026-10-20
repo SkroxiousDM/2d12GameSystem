@@ -206,11 +206,12 @@
   },
   "active": "7b84c46cc61e5997",
   "lastOpenFiles": [
+    "docs/TestamentOfDust/2d12-character-sheet-v2.typ",
+    "docs/TestamentOfDust/2d12-character-sheet-v2.pdf",
     "docs/grendel/GRENDEL_Consolidated_Master_Rulebook.md",
     "docs/grendel",
     "docs/2d12-character-sheet-v2.typ",
     "docs/2d12-character-sheet-v2.pdf",
-    "docs/TestamentOfDust/2d12-character-sheet-v2.pdf",
     "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
     "docs/Aetas Obscura/Magical Traditions.md",
     "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ",
@@ -251,7 +252,6 @@
     "docs/VampireHunterD/How do pools regenerate. How does resting work.md",
     "docs/VampireHunterD/2d12-system-proposal.md",
     "Typst Templates/mythographer-5e-0.0.2/lib/monster/TODO.md",
-    "Typst Templates/mythographer-5e-0.0.2/README.md",
-    "Typst Templates/owlbear-0.0.1/README.md"
+    "Typst Templates/mythographer-5e-0.0.2/README.md"
   ]
 }

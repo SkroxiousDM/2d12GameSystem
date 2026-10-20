@@ -25,6 +25,7 @@ The player edition presents the world as an informed character knows it, followi
 - rewrites the factions, magi, places and timeline as public knowledge and rumour (no Nephilim or Watchers, no masks such as Isis behind Mary, no hidden origins or plans);
 - keeps the player rules, but drops the Breach clock table, the patron list and states, Woe spends, opposition and the bestiary;
 - drops the setting dial for the Secret History and the design notes.
+- reprints `Aetas-Obscura-Player-Primer.md` as the first appendix, lightly edited (its enforcers are no longer called "the Watchers", a cross-reference is added, and a table maps the Primer's folk names to the book's names).
 
 Build it the same way, substituting `aetas-obscura-v2-player-book.typ`.
 

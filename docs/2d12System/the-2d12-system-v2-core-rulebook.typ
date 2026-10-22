@@ -890,26 +890,26 @@ An ordinary Defend can't bring back a Taken Out ally unless its rules say it can
 
 === 6.5 Rest and Recovery
 
-There\'s no separate \"short rest\" / \"full rest\" split. Instead, resting escalates through the day --- the longer you take, the more you recover:
+Recovery follows four successive rest stages:
 
 #figure(
   [#table(
-    columns: (23%, 49%, 28%),
+    columns: (16%, 38%, 46%),
     align: (auto,auto,auto,),
-    table.header([Rest \# (per day)], [Time required], [Recovery die],),
+    table.header([Rest], [Time required], [Recovery],),
     table.hline(),
-    [1st], [A few seconds; 1 action if taken mid-encounter], [1d6],
-    [2nd], [10 minutes], [1d8],
-    [3rd], [1 hour], [1d10],
-    [4th], [10 hours (usually overnight)], [Restore all four pools to full],
+    [First], [A few seconds; one action during an encounter], [Roll 1d12, halve the result and round up],
+    [Second], [10 minutes], [Roll 1d12, halve the result and round up, then add 1],
+    [Third], [1 hour], [Roll 1d12, halve the result and round up, then add 2],
+    [Fourth], [10 hours, usually overnight], [Restore all four pools to full],
   )]
   , kind: table
   )
 
-- Roll the listed die and #strong[divide the result among Sōma, Akmē, Psychē, and Pneuma however you like] --- it doesn\'t have to go to whichever pool was drained most recently.
+- #strong[Divide the recovered points among Sōma, Akmē, Psychē and Pneuma however you wish], without exceeding a pool\'s maximum. They don\'t have to go to whichever pool was drained most recently.
 
-- #strong[Edge does not affect this roll.] Edge only reduces Effort cost and adds Resistance dice (§2.4, §6); recovery stays flat so it can\'t stack with Edge\'s other benefits.
-- After the 4th rest, the cycle resets --- your next rest that day (or the start of a new day) is a 1d6 again.
+- #strong[Edge does not apply to recovery.] Edge only reduces Effort cost and adds Resistance dice (§2.4, §6); recovery stays flat so it can\'t stack with Edge\'s other benefits.
+- After the 4th rest, the cycle resets --- your next rest that day (or the start of a new day) is a First rest again.
 - Each PC rests and rolls independently. If two of five party members stop for 10 minutes to recover, the other three don\'t have to stop or roll.
 - #strong[Running dry has no automatic refill.] A pool at 0 comes back through these rests in the normal way. Its running-dry status recovers separately, as described below.
 
@@ -933,7 +933,7 @@ Winning a conflict, ending a scene or setting fresh Disposition is #strong[not a
 
 #strong[Advance option --- Hardened] #emph[(6 XP, one-time)]
 
-Your recovery die steps up one size at every stage, permanently: 1d6→1d8, 1d8→1d10, 1d10→1d12. The 4th rest of the day remains a full restore. This is a flat, single bump --- it does not scale further and doesn\'t interact with Edge, Effort Level, or pool growth from other Advances.
+Recover #strong[1 additional point] whenever you make a recovery roll. This Advance may be taken only once. It does not change the fourth rest\'s full recovery.
 
 
 
@@ -3437,16 +3437,15 @@ A cost that empties a pool, or is more than what's left in it, imposes a running
 #colbreak()
 == Damage Cycle (Core Rules §6, §10)
 Each side has *one shared Disposition* total, reduced at setup by the opponent's *Superiority* (0--3, minimum 1); Attacks and Feints remove their committed Power + 1 and nothing else, and Defend restores it. A side loses at 0 or when no participant can continue. *Injury trade:* one per Attack or Feint, once per conflict, accept a tier 2/3/4 injury to cancel 1/2/3 loss; it can't be Resisted. Treatment removes at most 1 tier of a lasting injury until healing time does. Tier-6 life-threatening harm makes you *Dying*: 3-segment clock, Medicine vs. Hard 18 to stabilise. Compromise statuses are tier 2/3/4.
-)
 
 == Rest and Recovery
 #table(columns: (16%, 52%, 32%),
   table.header([Rest], [Time], [Recovery]),
-  [1st], [A few seconds; 1 action mid-encounter], [1d6],
-  [2nd], [10 minutes], [1d8],
-  [3rd], [1 hour], [1d10],
-  [4th], [10 hours (overnight)], [All pools full])
-Divide the roll among Sōma, Akmē, Psychē and Pneuma however you like. Edge does not apply. *Hardened* (one-time Advance) raises each die one size.
+  [First], [A few seconds; 1 action mid-encounter], [½ d12, round up],
+  [Second], [10 minutes], [½ d12, round up, +1],
+  [Third], [1 hour], [½ d12, round up, +2],
+  [Fourth], [10 hours (overnight)], [All pools full])
+Divide the points among Sōma, Akmē, Psychē and Pneuma, up to each pool's maximum. Edge does not apply. *Hardened* (one-time Advance): +1 point on every recovery roll.
 #colbreak()
 == The Four Currencies
 #table(columns: (30%, 22%, 48%),

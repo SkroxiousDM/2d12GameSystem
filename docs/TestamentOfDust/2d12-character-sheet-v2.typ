@@ -181,12 +181,14 @@
   // ---------- left column
   {
     sec([Skills], sub: [pyramid · each tier needs at least as many as the tier above])
-    for (val, nm, n) in (("+4", "Great", 1), ("+3", "Good", 2), ("+2", "Fair", 3), ("+1", "Average", 4)) {
+    for (val, nm, n) in (("+4", "Great", 1), ("+3", "Good", 2), ("+2", "Fair", 3), ("+1", "Average", 2), ("  ", "  ", 2)) {
       block(height: 18pt, spacing: 0pt, grid(columns: (17pt, 34pt, 1fr), align: bottom,
         text(font: display-font, size: 12pt, fill: blood, weight: 700, val),
         pad(bottom: 1.5pt, text(size: 7pt, style: "italic", fill: dust, nm)),
         grid(columns: (1fr,) * n, column-gutter: 5pt, ..range(n).map(_ => line(length: 100%, stroke: 0.55pt + ink)))))
     }
+    
+    
     v(2pt)
     wline(label: [Anchor skill #text(weight: 400, style: "italic", fill: dust, size: 7pt)[(must be +3 or +4)]])
     v(4pt)

@@ -13,10 +13,10 @@
             "state": {
               "type": "typst-source",
               "state": {
-                "file": "docs/2d12System/the-2d12-system-v2-core-rulebook.typ"
+                "file": "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ"
               },
               "icon": "file-type",
-              "title": "the-2d12-system-v2-core-rulebook"
+              "title": "testament-of-dust-v2-setting-book"
             }
           }
         ]
@@ -31,12 +31,12 @@
             "state": {
               "type": "typst-preview",
               "state": {
-                "vaultPath": "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
+                "vaultPath": "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ",
                 "themeOverride": null,
                 "pinned": false
               },
               "icon": "book-open",
-              "title": "Preview: the-2d12-system-v2-core-rulebook.typ"
+              "title": "Preview: testament-of-dust-v2-setting-book.typ"
             }
           }
         ]
@@ -98,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 409.5
   },
   "right": {
     "id": "0fd194131cd18d07",
@@ -206,12 +206,13 @@
   },
   "active": "9ee59ce1c5463758",
   "lastOpenFiles": [
-    "docs/TestamentOfDust/testament-of-dust-descriptors.md",
+    "docs/TestamentOfDust/testament-of-dust-v2-setting-book.pdf",
+    "docs/TestamentOfDust/2d12-character-sheet-v2.typ",
     "docs/TestamentOfDust/2d12-character-sheet-v2.pdf",
+    "docs/TestamentOfDust/testament-of-dust-descriptors.md",
     "docs/2d12System/the-2d12-system-v2-core-rulebook.pdf",
     "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
     "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ",
-    "docs/TestamentOfDust/2d12-character-sheet-v2.typ",
     "docs/2d12System/art/playbooks/generic/06-adept.png",
     "README.md",
     "docs/Grendel/GRENDEL_Consolidated_Master_Rulebook.md",
@@ -219,7 +220,6 @@
     "docs/2d12-character-sheet-v2.typ",
     "docs/2d12-character-sheet-v2.pdf",
     "docs/AetasObscura/Magical Traditions.md",
-    "docs/TestamentOfDust/testament-of-dust-v2-setting-book.pdf",
     "docs/Archive/TestamentOfDust-master-v2/testament-of-dust-2d12-v2-master-rulebook.typ",
     "docs/2d12System/art/playbooks/generic/06-adept.jpg",
     "docs/2d12System/art/playbooks/generic/05-explorator.png",

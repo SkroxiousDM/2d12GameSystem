@@ -251,7 +251,7 @@
     sec([Resist], sub: [roll 2 + Edge d12, keep the highest die])
     rows-table((1.2fr, 1fr, 1fr, 1fr, 1fr), ([Highest die], [Two 12s], [9–12], [5–8], [1–4]),
       (([*Cost*], [*0* + clear a tier-1], [*1*], [*2*], [*3*]),), size: 7pt)
-    text(size: 6.6pt)[*Effect:* the incoming status drops *2 tiers*, or a severe consequence becomes a lesser one. *Armour* reduces physical harm further.]
+    text(size: 6.6pt)[*Effect:* the incoming status drops *2 tiers*, or a severe consequence becomes a lesser one. *Armour* reduces physical harm further. *Negative Edge:* −1 rolls 1d12; −2 or lower rolls that many dice and keeps the *lowest*.]
     sec([Scars], sub: [weakness tags · the 4th retires the character])
     for n in range(1, 5) {
       block(height: 17.5pt, spacing: 0pt, grid(columns: (11pt, 44pt, 1fr), column-gutter: 4pt, align: bottom,

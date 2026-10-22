@@ -551,7 +551,7 @@ Base chance of doubles on 2d12 is about 8% (1 in 12).
 Four pools, each roughly 6--14:
 
 - #strong[Starting values:] the playbook sets the base (totals 36), plus 4 points to distribute and +2 from the Descriptor (42 total).
-- #strong[Edge:] the playbook gives #strong[3 points of Edge];, maximum 2 in any one pool at creation. Edge reduces the cost of Effort and Resistance from that pool.
+- #strong[Edge:] the playbook gives #strong[3 points of Edge];, maximum 2 in any one pool at creation. Edge reduces the cost of Effort from that pool and adds dice when you Resist with it (§6).
 - Pools are spent on #strong[Effort] (§2.4) and #strong[Resistance] (§6). They are your stress tracks.
 #figure(
   [#table(
@@ -698,19 +698,19 @@ Any unspent Power → #strong[Momentum];.
 When a consequence lands on you (a status, lost gear, a bad position), you may #strong[Resist];:
 
 + Choose the pool that fits (see §3.2: Sōma for harm, Akmē to dodge, Psychē against deception and confusion, Pneuma against fear and the supernatural).
-+ Roll #strong[2d12] and look at the #strong[highest die];.
-+ Pay the cost in pool points, #strong[minus that pool\'s Edge];:
++ Roll a number of d12s equal to #strong[2 + that pool\'s Edge] and read only the #strong[highest die];. If penalties take the pool's Edge below 0, see #strong[Negative Edge] below.
++ Pay the listed cost in pool points. #strong[Don\'t subtract Edge] from it; Edge has already helped by adding dice. If #strong[two or more dice show 12];, pay 0 and clear one tier-1 status:
 
 #figure(
   [#table(
-    columns: (29%, 55%, 16%),
-    align: (auto,auto,auto,),
-    table.header([Highest die], [Cost], [Chance],),
+    columns: (24%, 28%, 12%, 12%, 12%, 12%),
+    align: (auto,auto,center,center,center,center,),
+    table.header([Roll], [Cost], [2d], [3d], [4d], [5d],),
     table.hline(),
-    [12], [0 (and clear one tier-1 status)], [16%],
-    [9--11], [1], [40%],
-    [5--8], [2], [33%],
-    [1--4], [3], [11%],
+    [Two 12s], [0 + clear a tier-1], [1%], [2%], [4%], [6%],
+    [9--12], [1], [55%], [68%], [77%], [81%],
+    [5--8], [2], [33%], [26%], [19%], [13%],
+    [1--4], [3], [11%], [4%], [1%], [\<1%],
   )]
   , kind: table
   )
@@ -719,6 +719,28 @@ When a consequence lands on you (a status, lost gear, a bad position), you may #
 #set enum(numbering: "1.", start: 4)
 + #strong[Effect:] reduce the incoming status by #strong[2 tiers] (to 0 if that brings it below 1), or turn a severe consequence into a lesser one.
 ]
+
+The chance columns show Edge 0 to 3 (2d to 5d). A single 12 is simply a highest die in the 9--12 band. When an ability says your Edge #strong[counts as 1 higher] for a Resist, or gives #strong[Edge +1] to it, roll one more die; a penalty to Edge (such as #emph[Exposed] or #emph[Shaken]) rolls one fewer.
+
+#strong[Negative Edge.] Penalties can take Edge below 0 for a Resist:
+- #strong[Edge −1:] roll #strong[1d12];.
+- #strong[Edge −2 or lower:] roll a number of d12s equal to the Edge without its minus sign (2d12 at −2, 3d12 at −3, and so on), and read only the #strong[lowest die];.
+
+Pay the listed cost for the die you read. A single die can't give the double-12 result. When you keep the lowest, the double-12 result needs #strong[every die] to show 12. The chance columns show Edge −1 (1d), −2 (2d, lowest) and −3 (3d, lowest).
+
+#figure(
+  [#table(
+    columns: (22%, 33%, 15%, 15%, 15%),
+    align: (auto,auto,center,center,center,),
+    table.header([Roll], [Cost], [−1], [−2], [−3],),
+    table.hline(),
+    [All 12s], [0 + clear a tier-1], [---], [1%], [\<1%],
+    [9--12], [1], [33%], [10%], [4%],
+    [5--8], [2], [33%], [33%], [26%],
+    [1--4], [3], [33%], [56%], [70%],
+  )]
+  , kind: table
+  )
 
 #strong[Imposed harm, in order.] When an effect imposes a harmful status:
 + The GM names the status, its source and its incoming tier, and says whether it stacks with a status you already have (§5.1).
@@ -733,12 +755,12 @@ When a consequence lands on you (a status, lost gear, a bad position), you may #
 - a cost you accepted in a concession (§10.11), or any other cost you accepted as payment for a benefit;
 - a running-dry status (§6.2).
 
-#strong[Protected payments.] An effect that prevents incoming harm, cancels a consequence or clears a status as a side benefit (such as the 12 result above) can't remove an injury you accepted as payment, whichever action or Resistance produced it. Treatment, healing time and effects that explicitly heal an existing injury affect it normally (§6.6).
+#strong[Protected payments.] An effect that prevents incoming harm, cancels a consequence or clears a status as a side benefit (such as the double-12 result above) can't remove an injury you accepted as payment, whichever action or Resistance produced it. Treatment, healing time and effects that explicitly heal an existing injury affect it normally (§6.6).
 
 === 6.1 Running Dry
 #strong[Trigger.] You #strong[run dry] when a positive cost brings a pool to 0 or is more than the points left in it. Finish the action or Resistance that caused the cost, then take a harmful #strong[running-dry status] for that pool (§6.2). Running dry does not, on its own, take you out, give you a Scar or refill the pool.
 
-#strong[Overrun.] Work out the final cost after Edge, Tychē and every other permitted reduction, then compare it with the points left in the pool:
+#strong[Overrun.] Work out the final cost after Edge (for Effort), Tychē and every other permitted reduction, then compare it with the points left in the pool:
 
 - #strong[Overrun] = final cost − points left (minimum 0).
 - #strong[Incoming status tier] = 1 + overrun (recorded at tier 6 at most).
@@ -889,7 +911,7 @@ There\'s no separate \"short rest\" / \"full rest\" split. Instead, resting esca
 
 - Roll the listed die and #strong[divide the result among Sōma, Akmē, Psychē, and Pneuma however you like] --- it doesn\'t have to go to whichever pool was drained most recently.
 
-- #strong[Edge does not affect this roll.] Edge only reduces Effort and Resistance cost (§2.4, §6); recovery stays flat so it can\'t stack with Edge\'s other benefits.
+- #strong[Edge does not affect this roll.] Edge only reduces Effort cost and adds Resistance dice (§2.4, §6); recovery stays flat so it can\'t stack with Edge\'s other benefits.
 - After the 4th rest, the cycle resets --- your next rest that day (or the start of a new day) is a 1d6 again.
 - Each PC rests and rolls independently. If two of five party members stop for 10 minutes to recover, the other three don\'t have to stop or roll.
 - #strong[Running dry has no automatic refill.] A pool at 0 comes back through these rests in the normal way. Its running-dry status recovers separately, as described below.
@@ -1418,7 +1440,7 @@ Settings rename and reskin playbooks (Adept becomes \"Hedge Witch\" in fantasy, 
 #colbreak()
 - #strong[Effort, part 2:] Kade spends another 2 Akmē for #strong[+1 Power → 5 Power];.
 - #strong[Spend:] Advance the #emph[Reach the Cell] clock by 3 (3 Power), Discover (1 Power): \"Where is the key?\" --- \"On the sergeant\'s belt.\" 1 Power left → #strong[+1 Momentum];.
-- #strong[Later:] the sergeant\'s dread patron, a bound spirit, lashes out with #emph[terror-3];. Kade Resists with #strong[Pneuma] (Edge 0): highest die 7 → cost 2 Pneuma. The status drops to #emph[terror-1];.
+- #strong[Later:] the sergeant\'s dread patron, a bound spirit, lashes out with #emph[terror-3];. Kade Resists with #strong[Pneuma] (Edge 0), so 2d12: highest die 7 → cost 2 Pneuma. The status drops to #emph[terror-1];.
 - #strong[Compel:] the GM compels #emph[Reckless];: \"You can\'t wait for backup; you go in now.\" Kade accepts and gains +1 Tychē Point.
 ]
 #pagebreak()  
@@ -1443,6 +1465,7 @@ Settings rename and reskin playbooks (Adept becomes \"Hedge Witch\" in fantasy, 
 - #strong[Currency load:] pools + Tychē + Momentum + Woe is the upper limit for medium crunch. Keep spend menus short on the sheet.
 - #strong[Modifier range (revised):] max is skill +4, tags +2, helpful status up to +6, Tychē invoke +2. Statuses are now the largest swing. Playtest a ±3 status cap.
 - #strong[Effort for Power] may make high-Edge characters very efficient. Watch Edge-3 pools where Effort is free; consider a minimum cost of 1.
+- #strong[Resistance dice (revised):] Edge now adds Resistance dice (2 + Edge, keep the highest) instead of reducing the cost, and only a double 12 is free. Below Edge −1 you keep the lowest of |Edge| dice, so stacked penalties (such as #emph[Exposed] and #emph[Shaken] on a 0-Edge pool) make Resisting very expensive; watch how often that happens. High-Edge pools still pay about 1 per Resist, so watch whether Resistance drains pools faster than before, and whether the double-12 result (1--6%) is too rare to matter.
 - #strong[Four pools] means more pool points to track. The sheet should put all four in one row with Edge beside each.
 - #strong[Conflict length:] with scripting used for every big contest, the conflict test (§10.1) is what stops overuse.
 - #strong[Running dry (revised R3):] running dry now imposes a status at tier 1 + overrun instead of an automatic Taken Out, and a Scar comes from tier 6 instead of from an empty pool. Playtest the 2-recovery-points-per-tier rate for depletion statuses, the one-Scar-per-event limit, and how often Resisting at an empty pool reaches tier 4 or higher.
@@ -2038,7 +2061,7 @@ Wind, sun and years have worn you down to something hard and lasting.
     table.hline(),
     [#strong[Power];], [Successes generated by a roll; spent on Effects (§2.5, §5)],
     [#strong[Effort];], [Spend 3 − Edge from a pool for a bonus die (before rolling) or +1 Power (after a success) (§2.4)],
-    [#strong[Resist];], [Roll 2d12, pay pool points by highest die − Edge, reduce a status by 2 tiers (§6)],
+    [#strong[Resist];], [Roll 2 + Edge d12 and pay pool points by the highest die (no Edge reduction); at Edge −2 or lower, roll |Edge| dice and keep the lowest. Reduce a status by 2 tiers (§6)],
     [#strong[Status];], [Tiered condition 1--6; tier 6 = Taken Out (§5.1)],
     [#strong[Truth];], [Scene, site, region, or campaign tag that shifts Difficulty by ±3 (§8)],
     [#strong[Disposition];], [Conflict \"hit points\" (§10)],
@@ -3410,19 +3433,14 @@ Keep the best two dice; maximum +2 bonus dice.
   [Help], [An ally spends 1 pool point and shares the risk])
 
 == Resist (Core Rules §6)
-Roll 2d12, take the *highest die*, and pay the cost minus Edge: *12* costs 0 and clears a tier-1 status · *9–11* costs 1 · *5–8* costs 2 · *1–4* costs 3. This reduces the status by 2 tiers.
+Roll *2 + Edge* d12, take the *highest die*, and pay the listed cost (don't subtract Edge): *two or more 12s* cost 0 and clear a tier-1 status · *9–12* costs 1 · *5–8* costs 2 · *1–4* costs 3. This reduces the status by 2 tiers. *Negative Edge:* −1 rolls 1d12; −2 or lower rolls that many dice (2d12 at −2, 3d12 at −3) and keeps the *lowest*.
 
 == Running Dry (Core Rules §6.1--6.3)
 A cost that empties a pool, or is more than what's left in it, imposes a running-dry status at *tier 1 + overrun* (overrun = cost − points left). Only Resistance and imposed costs can overrun; a cost of 0 never runs dry. The status stacks normally. At *tier 6* you are Taken Out within its scope and gain *one Scar* (at most one per event). The pool and the status recover separately: 2 recovery points remove 1 depletion tier.
 #colbreak()
 == Damage Cycle (Core Rules §6, §10)
-<<<<<<< Updated upstream
 Each side has *one shared Disposition* total, reduced at setup by the opponent's *Superiority* (0--3, minimum 1); Attacks and Feints remove their committed Power + 1 and nothing else, and Defend restores it. A side loses at 0 or when no participant can continue. *Injury trade:* one per Attack or Feint, once per conflict, accept a tier 2/3/4 injury to cancel 1/2/3 loss; it can't be Resisted. Treatment removes at most 1 tier of a lasting injury until healing time does. Tier-6 life-threatening harm makes you *Dying*: 3-segment clock, Medicine vs. Hard 18 to stabilise. Compromise statuses are tier 2/3/4.
-])
-=======
-Each side has *one shared Disposition* total, reduced at setup by the opponent's *Superiority* (0--3, minimum 1); Attacks and Feints remove it, and Defend restores it. A side loses at 0 or when no participant can continue. *Injury trade:* one per Attack or Feint, once per conflict, accept a tier 2/3/4 injury to cancel 1/2/3 loss; it can't be Resisted. Treatment removes at most 1 tier of a lasting injury until healing time does. Tier-6 life-threatening harm makes you *Dying*: 3-segment clock, Medicine vs. Hard 18 to stabilise. Compromise statuses are tier 2/3/4.
 )
->>>>>>> Stashed changes
 
 == Rest and Recovery
 #table(columns: (16%, 52%, 32%),

@@ -171,9 +171,9 @@
   {
     grid(columns: (auto, 1fr, auto), column-gutter: 6pt, align: horizon,
       lbl(size: 6.5pt, fill: ink)[Rests today],
-      [#cb() d6 #h(5pt) #cb() d8 #h(5pt) #cb() d10 #h(5pt) #cb() Full],
+      [#cb() 1st #h(5pt) #cb() 2nd #h(5pt) #cb() 3rd #h(5pt) #cb() Full],
       [#cb() #lbl(fill: ink)[Hardened]])
-    note[*1st* a few seconds (1 action) *1d6* · *2nd* 10 minutes *1d8* · *3rd* 1 hour *1d10* · *4th* 10 hours: all pools full, then the cycle resets. Split the roll among the four pools. Edge doesn't apply. *Hardened* (one-time Advance): each die one size up.]
+    note[*1st* a few seconds (1 action) *1d12 ÷ 2* · *2nd* 10 minutes *1d12 ÷ 2 + 1* · *3rd* 1 hour *1d12 ÷ 2 + 2* (round halves up) · *4th* 10 hours: all pools full, then the cycle resets. Split the points among the four pools, up to each maximum. Edge doesn't apply. *Hardened* (one-time Advance): +1 point per recovery roll.]
   })
 
 #v(1pt)

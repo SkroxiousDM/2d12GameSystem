@@ -154,7 +154,7 @@
     [], align(center, lbl[Descriptor]), align(center, lbl[Playbook]), [], align(center, lbl[Focus]))
 })
 
-#sec([Pools & Edge], sub: [your stress tracks · Edge cuts the cost of Effort and Resistance])
+#sec([Pools & Edge], sub: [your stress tracks · Edge cuts Effort cost · adds Resist dice])
 #grid(columns: (1fr,) * 4, column-gutter: 7pt,
   pool([Sōma], [Wounds · poison · exhaustion · cold]),
   pool([Akmē], [Traps · falls · being caught or grabbed]),
@@ -248,9 +248,9 @@
     note[*Stacking:* a new status of the same kind adds its tier − 1 (min +1). *Tier 6:* Taken Out. Apply only the highest harmful and highest helpful status.]
   },
   {
-    sec([Resist], sub: [roll 2d12, keep the highest die])
-    rows-table((1.2fr, 1fr, 1fr, 1fr, 1fr), ([Highest die], [12], [9–11], [5–8], [1–4]),
-      (([*Cost − Edge*], [*0* + clear a tier-1], [*1*], [*2*], [*3*]),), size: 7pt)
+    sec([Resist], sub: [roll 2 + Edge d12, keep the highest die])
+    rows-table((1.2fr, 1fr, 1fr, 1fr, 1fr), ([Highest die], [Two 12s], [9–12], [5–8], [1–4]),
+      (([*Cost*], [*0* + clear a tier-1], [*1*], [*2*], [*3*]),), size: 7pt)
     text(size: 6.6pt)[*Effect:* the incoming status drops *2 tiers*, or a severe consequence becomes a lesser one. *Armour* reduces physical harm further.]
     sec([Scars], sub: [weakness tags · the 4th retires the character])
     for n in range(1, 5) {

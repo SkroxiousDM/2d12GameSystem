@@ -764,7 +764,7 @@ Pay the listed cost for the die you read. A single die can't give the double-12 
 
 - #strong[Overrun] = final cost − points left (minimum 0).
 - #strong[Incoming status tier] = 1 + overrun (recorded at tier 6 at most).
-#colbreak()
+
 Spend the points you have. A pool can't go below 0, and the unpaid excess does not move to another pool.
 
 #figure(
@@ -888,9 +888,6 @@ Returning doesn't restore any of your side's Disposition unless the ability says
 
 An ordinary Defend can't bring back a Taken Out ally unless its rules say it can. If you recover after the conflict is over, you act normally in the scenes that follow, subject to your remaining statuses.
 
-
-
-   #colbreak() 
 === 6.5 Rest and Recovery
 
 There\'s no separate \"short rest\" / \"full rest\" split. Instead, resting escalates through the day --- the longer you take, the more you recover:

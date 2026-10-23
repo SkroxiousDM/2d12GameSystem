@@ -154,7 +154,7 @@
     [], align(center, lbl[Descriptor]), align(center, lbl[Playbook]), [], align(center, lbl[Focus]))
 })
 
-#sec([Pools & Edge], sub: [your stress tracks · Edge cuts the cost of Effort and Resistance])
+#sec([Pools & Edge], sub: [your stress tracks · Edge cuts Effort cost · adds Resist dice])
 #grid(columns: (1fr,) * 4, column-gutter: 7pt,
   pool([Sōma], [Wounds · poison · exhaustion · cold]),
   pool([Akmē], [Traps · falls · being caught or grabbed]),
@@ -171,9 +171,9 @@
   {
     grid(columns: (auto, 1fr, auto), column-gutter: 6pt, align: horizon,
       lbl(size: 6.5pt, fill: ink)[Rests today],
-      [#cb() d6 #h(5pt) #cb() d8 #h(5pt) #cb() d10 #h(5pt) #cb() Full],
+      [#cb() 1st #h(5pt) #cb() 2nd #h(5pt) #cb() 3rd #h(5pt) #cb() Full],
       [#cb() #lbl(fill: ink)[Hardened]])
-    note[*1st* a few seconds (1 action) *1d6* · *2nd* 10 minutes *1d8* · *3rd* 1 hour *1d10* · *4th* 10 hours: all pools full, then the cycle resets. Split the roll among the four pools. Edge doesn't apply. *Hardened* (one-time Advance): each die one size up.]
+    note[*1st* a few seconds (1 action) *1d12 ÷ 2* · *2nd* 10 minutes *1d12 ÷ 2 + 1* · *3rd* 1 hour *1d12 ÷ 2 + 2* (round halves up) · *4th* 10 hours: all pools full, then the cycle resets. Split the points among the four pools, up to each maximum. Edge doesn't apply. *Hardened* (one-time Advance): +1 point per recovery roll.]
   })
 
 #v(1pt)
@@ -181,12 +181,14 @@
   // ---------- left column
   {
     sec([Skills], sub: [pyramid · each tier needs at least as many as the tier above])
-    for (val, nm, n) in (("+4", "Great", 1), ("+3", "Good", 2), ("+2", "Fair", 3), ("+1", "Average", 4)) {
+    for (val, nm, n) in (("+4", "Great", 1), ("+3", "Good", 2), ("+2", "Fair", 3), ("+1", "Average", 2), ("  ", "  ", 2)) {
       block(height: 18pt, spacing: 0pt, grid(columns: (17pt, 34pt, 1fr), align: bottom,
         text(font: display-font, size: 12pt, fill: blood, weight: 700, val),
         pad(bottom: 1.5pt, text(size: 7pt, style: "italic", fill: dust, nm)),
         grid(columns: (1fr,) * n, column-gutter: 5pt, ..range(n).map(_ => line(length: 100%, stroke: 0.55pt + ink)))))
     }
+    
+    
     v(2pt)
     wline(label: [Anchor skill #text(weight: 400, style: "italic", fill: dust, size: 7pt)[(must be +3 or +4)]])
     v(4pt)
@@ -248,10 +250,10 @@
     note[*Stacking:* a new status of the same kind adds its tier − 1 (min +1). *Tier 6:* Taken Out. Apply only the highest harmful and highest helpful status.]
   },
   {
-    sec([Resist], sub: [roll 2d12, keep the highest die])
-    rows-table((1.2fr, 1fr, 1fr, 1fr, 1fr), ([Highest die], [12], [9–11], [5–8], [1–4]),
-      (([*Cost − Edge*], [*0* + clear a tier-1], [*1*], [*2*], [*3*]),), size: 7pt)
-    text(size: 6.6pt)[*Effect:* the incoming status drops *2 tiers*, or a severe consequence becomes a lesser one. *Armour* reduces physical harm further.]
+    sec([Resist], sub: [roll 2 + Edge d12, keep the highest die])
+    rows-table((1.2fr, 1fr, 1fr, 1fr, 1fr), ([Highest die], [Two 12s], [9–12], [5–8], [1–4]),
+      (([*Cost*], [*0* + clear a tier-1], [*1*], [*2*], [*3*]),), size: 7pt)
+    text(size: 6.6pt)[*Effect:* the incoming status drops *2 tiers*, or a severe consequence becomes a lesser one. *Armour* reduces physical harm further. *Negative Edge:* −1 rolls 1d12; −2 or lower rolls that many dice and keeps the *lowest*.]
     sec([Scars], sub: [weakness tags · the 4th retires the character])
     for n in range(1, 5) {
       block(height: 17.5pt, spacing: 0pt, grid(columns: (11pt, 44pt, 1fr), column-gutter: 4pt, align: bottom,

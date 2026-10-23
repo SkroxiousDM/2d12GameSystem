@@ -34,7 +34,6 @@ These aren't converted to Version 2 yet:
 ├── README.md
 ├── CONTRIBUTING.md
 ├── CHANGELOG.md
-├── Typst Templates/                          Third-party Typst templates (own licenses)
 ├── branch-rulesets/                          GitHub ruleset for main (PRs, conventional commits)
 └── docs/
     ├── 2d12System/                           Core rulebook
@@ -96,4 +95,4 @@ Contributions go through pull requests into `main`, using conventional commit me
 
 Copyright © 2026 SkroxiousDM. **All rights reserved.**
 
-The 2d12 System, Testament of Dust, Aetas Obscura, GRENDEL and all text and art in this repository aren't licensed for reuse or redistribution yet. You may read them and use them in your own games at home. For anything else, including publishing, adapting or commercial use, ask first. The third-party templates in `Typst Templates/` keep their own licenses.
+The 2d12 System, Testament of Dust, Aetas Obscura, GRENDEL and all text and art in this repository aren't licensed for reuse or redistribution yet. You may read them and use them in your own games at home. For anything else, including publishing, adapting or commercial use, ask first.

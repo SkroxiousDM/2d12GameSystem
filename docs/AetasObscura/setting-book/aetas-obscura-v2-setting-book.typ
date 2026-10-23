@@ -1,52 +1,406 @@
-// =============================================================================
-// AETAS OBSCURA — Setting Book for The 2d12 System, Version 2
-// Built on the Mythographer 5e Typst template (vendored in this folder).
-// Compile from this folder:
-//   typst compile --root . --font-path <fonts> aetas-obscura-v2-setting-book.typ
-// Fonts: TeX Gyre Bonum, Gillius ADF No2 (see README.md).
-// =============================================================================
+// =====================================================================
+//  AETAS OBSCURA — A SETTING FOR THE 2d12 SYSTEM, VERSION 2
+//  Setting Book · The Darkening Age, Anno Domini 500
+//
+//  Single-file Typst source. Compile with:
+//      typst compile aetas-obscura-v2-setting-book.typ
+//
+//  Fonts (free, OFL). Install them, or pass --font-path:
+//      EB Garamond — body text
+//      Cinzel      — headings and display type
+//  If they are missing, Typst falls back to Libertinus Serif. Symbols
+//  fall back to DejaVu Sans. Uses the @preview/droplet package.
+//
+//  Requires the core rulebook
+//  (docs/2d12System/the-2d12-system-v2-core-rulebook.typ). Playtest draft.
+// =====================================================================
 
-#import "/lib.typ": *
+#let book-title    = "Aetas Obscura"
+#let book-subtitle = "A Setting for The 2d12 System · Version 2"
+#let book-kind     = "Setting Book"
+#let book-tagline  = "The Darkening Age · Anno Domini 500"
+#let book-motto    = "The legions are gone. The gods are starving. The walls are thin."
+#let book-author   = "SkroxiousDM"
+#let book-date     = "2026-10-20"
+#let book-note     = [The GM's edition. It contains the Secret History and all GM material.]
 
-// Stop TeX Gyre Bonum from setting "oe" as a ligature (Woe, does, Phoebe).
-#show regex("[Oo]e"): it => text(ligatures: false, it)
-// Let tables break across columns and pages.
-#show figure: set block(breakable: true)
+#let ruins(width: 21.59cm, fill: rgb("#0b0910")) = box(width: width, height: 3.6cm, {
+  let s = width / 21.59cm
+  place(polygon(fill: fill, (0.000cm * s, 3.600cm), (0.000cm * s, 3.200cm), (3.000cm * s, 3.100cm), (7.000cm * s, 3.150cm), (12.000cm * s, 3.200cm), (16.000cm * s, 3.100cm), (21.590cm * s, 3.150cm), (21.590cm * s, 3.600cm)))
+  place(polygon(fill: fill, (0.500cm * s, 3.600cm), (0.500cm * s, 2.150cm), (0.880cm * s, 2.150cm), (0.880cm * s, 3.600cm)))
+  place(polygon(fill: fill, (1.250cm * s, 3.150cm), (1.250cm * s, 1.050cm), (1.450cm * s, 0.800cm), (1.630cm * s, 1.150cm), (1.630cm * s, 3.150cm)))
+  place(polygon(fill: fill, (2.200cm * s, 3.150cm), (2.200cm * s, 2.850cm), (6.600cm * s, 2.850cm), (6.600cm * s, 3.150cm)))
+  place(polygon(fill: fill, (2.450cm * s, 2.850cm), (2.450cm * s, 1.150cm), (2.780cm * s, 1.150cm), (2.780cm * s, 2.850cm)))
+  place(polygon(fill: fill, (3.400cm * s, 2.850cm), (3.400cm * s, 1.150cm), (3.730cm * s, 1.150cm), (3.730cm * s, 2.850cm)))
+  place(polygon(fill: fill, (4.350cm * s, 2.850cm), (4.350cm * s, 1.150cm), (4.680cm * s, 1.150cm), (4.680cm * s, 2.850cm)))
+  place(polygon(fill: fill, (5.300cm * s, 2.850cm), (5.300cm * s, 1.150cm), (5.630cm * s, 1.150cm), (5.630cm * s, 2.850cm)))
+  place(polygon(fill: fill, (6.250cm * s, 2.850cm), (6.250cm * s, 1.150cm), (6.580cm * s, 1.150cm), (6.580cm * s, 2.850cm)))
+  place(polygon(fill: fill, (2.200cm * s, 1.150cm), (2.200cm * s, 0.850cm), (6.600cm * s, 0.850cm), (6.600cm * s, 1.150cm)))
+  place(polygon(fill: fill, (2.100cm * s, 0.850cm), (4.400cm * s, 0.000cm), (5.600cm * s, 0.400cm), (5.750cm * s, 0.200cm), (6.000cm * s, 0.550cm), (6.700cm * s, 0.850cm)))
+  place(polygon(fill: fill, (7.400cm * s, 1.000cm), (7.400cm * s, 0.600cm), (12.600cm * s, 0.600cm), (12.600cm * s, 1.000cm)))
+  place(polygon(fill: fill, (12.600cm * s, 0.600cm), (13.000cm * s, 0.750cm), (12.850cm * s, 1.000cm), (12.600cm * s, 1.000cm)))
+  place(polygon(fill: fill, (7.240cm * s, 3.150cm), (7.240cm * s, 1.000cm), (7.560cm * s, 1.000cm), (7.560cm * s, 3.150cm)))
+  place(polygon(fill: fill, (8.480cm * s, 3.150cm), (8.480cm * s, 1.000cm), (8.800cm * s, 1.000cm), (8.800cm * s, 3.150cm)))
+  place(polygon(fill: fill, (9.720cm * s, 3.150cm), (9.720cm * s, 1.000cm), (10.040cm * s, 1.000cm), (10.040cm * s, 3.150cm)))
+  place(polygon(fill: fill, (10.960cm * s, 3.150cm), (10.960cm * s, 1.000cm), (11.280cm * s, 1.000cm), (11.280cm * s, 3.150cm)))
+  place(polygon(fill: fill, (12.200cm * s, 3.150cm), (12.200cm * s, 1.000cm), (12.520cm * s, 1.000cm), (12.520cm * s, 3.150cm)))
+  place(polygon(fill: fill, (13.440cm * s, 3.150cm), (13.440cm * s, 2.050cm), (13.760cm * s, 2.050cm), (13.760cm * s, 3.150cm)))
+  place(polygon(fill: fill, (7.560cm * s, 1.000cm), (8.480cm * s, 1.000cm), (8.480cm * s, 1.460cm), (8.471cm * s, 1.370cm), (8.445cm * s, 1.284cm), (8.402cm * s, 1.204cm), (8.345cm * s, 1.135cm), (8.276cm * s, 1.078cm), (8.196cm * s, 1.035cm), (8.110cm * s, 1.009cm), (8.020cm * s, 1.000cm), (7.930cm * s, 1.009cm), (7.844cm * s, 1.035cm), (7.764cm * s, 1.078cm), (7.695cm * s, 1.135cm), (7.638cm * s, 1.204cm), (7.595cm * s, 1.284cm), (7.569cm * s, 1.370cm), (7.560cm * s, 1.460cm)))
+  place(polygon(fill: fill, (8.800cm * s, 1.000cm), (9.720cm * s, 1.000cm), (9.720cm * s, 1.460cm), (9.711cm * s, 1.370cm), (9.685cm * s, 1.284cm), (9.642cm * s, 1.204cm), (9.585cm * s, 1.135cm), (9.516cm * s, 1.078cm), (9.436cm * s, 1.035cm), (9.350cm * s, 1.009cm), (9.260cm * s, 1.000cm), (9.170cm * s, 1.009cm), (9.084cm * s, 1.035cm), (9.004cm * s, 1.078cm), (8.935cm * s, 1.135cm), (8.878cm * s, 1.204cm), (8.835cm * s, 1.284cm), (8.809cm * s, 1.370cm), (8.800cm * s, 1.460cm)))
+  place(polygon(fill: fill, (10.040cm * s, 1.000cm), (10.960cm * s, 1.000cm), (10.960cm * s, 1.460cm), (10.951cm * s, 1.370cm), (10.925cm * s, 1.284cm), (10.882cm * s, 1.204cm), (10.825cm * s, 1.135cm), (10.756cm * s, 1.078cm), (10.676cm * s, 1.035cm), (10.590cm * s, 1.009cm), (10.500cm * s, 1.000cm), (10.410cm * s, 1.009cm), (10.324cm * s, 1.035cm), (10.244cm * s, 1.078cm), (10.175cm * s, 1.135cm), (10.118cm * s, 1.204cm), (10.075cm * s, 1.284cm), (10.049cm * s, 1.370cm), (10.040cm * s, 1.460cm)))
+  place(polygon(fill: fill, (11.280cm * s, 1.000cm), (12.200cm * s, 1.000cm), (12.200cm * s, 1.460cm), (12.191cm * s, 1.370cm), (12.165cm * s, 1.284cm), (12.122cm * s, 1.204cm), (12.065cm * s, 1.135cm), (11.996cm * s, 1.078cm), (11.916cm * s, 1.035cm), (11.830cm * s, 1.009cm), (11.740cm * s, 1.000cm), (11.650cm * s, 1.009cm), (11.564cm * s, 1.035cm), (11.484cm * s, 1.078cm), (11.415cm * s, 1.135cm), (11.358cm * s, 1.204cm), (11.315cm * s, 1.284cm), (11.289cm * s, 1.370cm), (11.280cm * s, 1.460cm)))
+  place(polygon(fill: fill, (14.400cm * s, 3.150cm), (14.400cm * s, 1.950cm), (17.000cm * s, 1.950cm), (17.000cm * s, 3.150cm)))
+  place(polygon(fill: fill, (15.000cm * s, 1.950cm), (15.000cm * s, 1.500cm), (16.400cm * s, 1.500cm), (16.400cm * s, 1.950cm)))
+  place(polygon(fill: fill, (14.950cm * s, 1.500cm), (14.959cm * s, 1.383cm), (14.987cm * s, 1.268cm), (15.032cm * s, 1.160cm), (15.093cm * s, 1.059cm), (15.170cm * s, 0.970cm), (15.259cm * s, 0.893cm), (15.360cm * s, 0.832cm), (15.468cm * s, 0.787cm), (15.583cm * s, 0.759cm), (15.700cm * s, 0.750cm), (15.817cm * s, 0.759cm), (15.932cm * s, 0.787cm), (16.040cm * s, 0.832cm), (16.141cm * s, 0.893cm), (16.230cm * s, 0.970cm), (16.307cm * s, 1.059cm), (16.368cm * s, 1.160cm), (16.413cm * s, 1.268cm), (16.441cm * s, 1.383cm), (16.450cm * s, 1.500cm)))
+  place(polygon(fill: fill, (15.660cm * s, 0.770cm), (15.660cm * s, 0.200cm), (15.740cm * s, 0.200cm), (15.740cm * s, 0.770cm)))
+  place(polygon(fill: fill, (15.500cm * s, 0.410cm), (15.500cm * s, 0.330cm), (15.900cm * s, 0.330cm), (15.900cm * s, 0.410cm)))
+  place(polygon(fill: fill, (17.500cm * s, 3.150cm), (17.500cm * s, 1.350cm), (17.850cm * s, 1.350cm), (17.850cm * s, 3.150cm)))
+  place(polygon(fill: fill, (17.850cm * s, 1.350cm), (17.550cm * s, 1.350cm), (17.566cm * s, 1.189cm), (17.613cm * s, 1.034cm), (17.689cm * s, 0.892cm), (17.792cm * s, 0.767cm), (17.917cm * s, 0.664cm), (18.059cm * s, 0.588cm), (18.214cm * s, 0.541cm), (18.375cm * s, 0.525cm), (18.375cm * s, 0.825cm), (18.375cm * s, 0.825cm), (18.273cm * s, 0.835cm), (18.174cm * s, 0.865cm), (18.083cm * s, 0.913cm), (18.004cm * s, 0.979cm), (17.938cm * s, 1.058cm), (17.890cm * s, 1.149cm), (17.860cm * s, 1.248cm), (17.850cm * s, 1.350cm)))
+  place(polygon(fill: fill, (18.900cm * s, 3.150cm), (18.900cm * s, 2.250cm), (19.250cm * s, 2.250cm), (19.250cm * s, 3.150cm)))
+  place(polygon(fill: fill, (19.700cm * s, 3.150cm), (19.700cm * s, 0.450cm), (19.950cm * s, 0.300cm), (20.100cm * s, 0.550cm), (20.300cm * s, 0.250cm), (20.450cm * s, 0.550cm), (20.450cm * s, 3.150cm)))
+  place(polygon(fill: fill, (20.900cm * s, 3.600cm), (20.900cm * s, 2.450cm), (21.200cm * s, 2.450cm), (21.200cm * s, 3.600cm)))
+})
 
-#show: dnd-template.with(
-  default-config(lang: "en", title: "Aetas Obscura", subtitle: "The Darkening Age", author: "SkroxiousDM"),
+// ---------------------------------------------------------------- palette
+// Byzantine violet and bronze on parchment.
+#let ink      = rgb("#16121c")   // night, porphyry black
+#let ash      = rgb("#2c2535")   // smoke over a dark basilica
+#let paper    = rgb("#f4efe4")   // parchment
+#let tint     = rgb("#ebe4ec")   // table zebra, violet-washed
+#let violet   = rgb("#4b2a6b")   // Byzantine violet
+#let amethyst = rgb("#6d4796")   // lighter violet
+#let bronze   = rgb("#9a6b34")   // bronze
+#let dust     = rgb("#675d6d")   // muted text
+#let moon     = rgb("#ece2cd")   // pale gold-white
+
+#let body-font    = ("EB Garamond", "Libertinus Serif", "DejaVu Serif")
+#let display-font = ("Cinzel", "EB Garamond", "Libertinus Serif", "DejaVu Serif")
+#let symbol-font  = ("DejaVu Sans",)
+
+// ---------------------------------------------------------------- ornaments
+#let diamond(size: 5pt, fill: bronze) = box(baseline: -0.15em,
+  polygon(fill: fill, (0pt, size/2), (size/2, 0pt), (size, size/2), (size/2, size)))
+
+#let ornament-rule(width: 100%, color: bronze) = block(width: width, spacing: 0pt,
+  grid(columns: (1fr, auto, 1fr), align: horizon, column-gutter: 6pt,
+    line(length: 100%, stroke: 0.5pt + color),
+    { diamond(size: 4pt, fill: color); h(3pt); diamond(size: 7pt, fill: color); h(3pt); diamond(size: 4pt, fill: color) },
+    line(length: 100%, stroke: 0.5pt + color)))
+
+// a black sun in eclipse with a violet-and-bronze corona
+#let eclipse(r: 2cm) = box(width: 4*r, height: 4*r, {
+  place(circle(radius: 2*r, fill: gradient.radial(
+    (ink.transparentize(100%), 0%), (moon, 49%), (bronze.lighten(10%), 51.5%), (amethyst, 58%),
+    (violet.transparentize(40%), 70%), (ink.transparentize(100%), 100%))))
+  place(dx: r, dy: r, circle(radius: r, fill: rgb("#08060b"), stroke: 0.5pt + moon.transparentize(30%)))
+})
+
+// ---------------------------------------------------------------- base text
+#set text(font: body-font, size: 10.2pt, fill: ink, lang: "en", region: "CA",
+  hyphenate: true, number-type: "old-style")
+#set par(justify: true, leading: 0.62em, spacing: 0.95em)
+#show "★": it => text(font: symbol-font, size: 0.85em, fill: bronze, it)
+#show "◈": it => text(font: symbol-font, size: 0.9em, fill: violet, it)
+
+#set list(marker: (text(fill: violet, size: 0.7em, baseline: -0.15em)[◆], text(fill: bronze)[–]), indent: 0.4em, body-indent: 0.55em, spacing: 0.75em)
+#set enum(indent: 0.3em, body-indent: 0.5em, spacing: 0.75em, numbering: n => text(font: display-font, fill: violet, weight: 700, size: 0.85em)[#n.])
+#show strong: set text(weight: 700)
+#show emph: set text(fill: ash)
+#set columns(gutter: 7mm)
+
+// ---------------------------------------------------------------- headings
+// Level 1: part (made by #part on a divider page). Level 2: chapter.
+// Level 3: section. Level 4: subsection. Numbering is used only for counting.
+#set heading(numbering: "1.1")
+#show heading: set text(font: display-font, hyphenate: false)
+#show heading: set par(justify: false)
+
+#let roman(n) = numbering("I", n)
+
+#show heading.where(level: 1): it => block(width: 100%, spacing: 0pt, {
+  set align(center)
+  text(size: 30pt, fill: moon, weight: 700, tracking: 0.04em, it.body)
+})
+
+#show heading.where(level: 2): it => {
+  pagebreak(weak: true)
+  block(width: 100%, above: 0pt, below: 1.2em, sticky: true, {
+    context {
+      let n = counter(heading).at(it.location())
+      text(size: 8.5pt, fill: bronze, tracking: 0.35em, weight: 700)[#upper[Chapter] #n.at(1, default: 1)]
+    }
+    v(2pt)
+    block(below: 0pt, text(size: 21pt, fill: violet, weight: 700, tracking: 0.02em, it.body))
+    v(5pt)
+    ornament-rule(width: 100%)
+  })
+}
+
+#show heading.where(level: 3): it => block(above: 1.5em, below: 0.75em, sticky: true, width: 100%, {
+  text(size: 13pt, fill: violet, weight: 700, it.body)
+  v(-7pt)
+  grid(columns: (auto, 1fr), align: horizon, column-gutter: 4pt,
+    diamond(size: 5pt, fill: bronze), line(length: 100%, stroke: 0.6pt + bronze))
+})
+#show heading.where(level: 4): it => block(above: 1.2em, below: 0.55em, sticky: true,
+  text(size: 10.5pt, fill: ash, weight: 700, tracking: 0.02em, it.body))
+
+// ---------------------------------------------------------------- tables
+#show figure: set block(breakable: true, above: 0.9em, below: 1.1em)
+#show figure.where(kind: table): set align(left)
+#set table(
+  stroke: (x, y) => (
+    top: if y == 0 { 1pt + violet } else { none },
+    bottom: 0.4pt + bronze.lighten(40%),
+  ),
+  fill: (x, y) => if y == 0 { violet } else if calc.even(y) { tint } else { none },
+  inset: (x: 5pt, y: 4.2pt),
 )
+#show table: set text(size: 8.9pt, number-type: "lining", hyphenate: true)
+#show table: set par(justify: false, leading: 0.5em)
+#show table.cell.where(y: 0): set text(font: display-font, fill: paper, size: 7.6pt, weight: 700, tracking: 0.03em, hyphenate: false)
+#show table.cell.where(y: 0): set align(left + horizon)
 
-// ---------- House helpers --------------------------------------------------
-#let rule(title, body) = dnd-comment[#title][#body]
-#let gm(body) = dnd-sidebar()[For the Game Master][#body]
-#let pool(n) = smallcaps(n)
+// ---------------------------------------------------------------- page frame
+#let current-chapter() = {
+  let here-page = here().page()
+  let on-page = query(heading.where(level: 2)).filter(h => h.location().page() == here-page)
+  if on-page.len() > 0 { on-page.first() } else {
+    let before = query(heading.where(level: 2).before(here()))
+    if before.len() > 0 { before.last() } else { none }
+  }
+}
+#let running-header = context {
+  let ch = current-chapter()
+  if ch != none {
+    set text(font: display-font, size: 7.5pt, fill: dust, tracking: 0.12em)
+    grid(columns: (1fr, auto), align: (left + bottom, right + bottom),
+      upper(book-title + " · " + book-kind),
+      upper(ch.body))
+    v(-5pt)
+    line(length: 100%, stroke: 0.4pt + bronze)
+  }
+}
+#let running-footer = context {
+  set text(font: display-font, size: 8.5pt, fill: violet)
+  align(center, { diamond(size: 4pt, fill: bronze); h(8pt); counter(page).display("1"); h(8pt); diamond(size: 4pt, fill: bronze) })
+}
+
+#set page(paper: "us-letter", fill: paper,
+  margin: (top: 1.6cm, bottom: 1.6cm, inside: 2cm, outside: 1.7cm),
+  header: running-header, footer: running-footer, header-ascent: 35%, footer-descent: 35%)
+
+// ---------------------------------------------------------------- part divider
+#let part-contents = context {
+  let nxt = query(heading.where(level: 1).after(here()))
+  let sel = heading.where(level: 2).after(here())
+  if nxt.len() > 0 { sel = sel.before(nxt.first().location(), inclusive: false) }
+  let hs = query(sel)
+  if hs.len() > 0 {
+    set text(font: display-font, size: 8.8pt, fill: moon.darken(8%), tracking: 0.02em)
+    set par(justify: false, leading: 0.55em)
+    let entries = hs.map(h => link(h.location(), grid(columns: (1fr, auto), column-gutter: 6pt,
+      h.body, text(font: body-font, size: 9.5pt, fill: bronze.lighten(25%), number-type: "lining", str(counter(page).at(h.location()).first())))))
+    let half = calc.ceil(entries.len() / 2)
+    grid(columns: (1fr, 1fr), column-gutter: 1.2cm, row-gutter: 6pt,
+      stack(spacing: 6.5pt, ..entries.slice(0, half)),
+      stack(spacing: 6.5pt, ..entries.slice(half)))
+  }
+}
+
+#let part(title, blurb, label-text: none, epigraph: none) = {
+  pagebreak(weak: true)
+  page(fill: ink, header: none, footer: none, margin: (x: 2.2cm, top: 2.4cm, bottom: 0cm))[
+    #set text(fill: moon)
+    #place(bottom + center, ruins(fill: ash.darken(15%)))
+    #place(top + right, dx: 1.2cm, dy: -1.6cm, eclipse(r: 1.6cm))
+    #v(1.6cm)
+    #if label-text != none {
+      align(center, text(font: display-font, size: 11pt, fill: bronze.lighten(15%), tracking: 0.35em, weight: 700, upper(label-text)))
+      v(14pt)
+    }
+    #heading(level: 1, outlined: true, title)
+    #v(14pt)
+    #align(center, ornament-rule(width: 55%))
+    #v(16pt)
+    #align(center, block(width: 82%, {
+      set par(justify: false, leading: 0.7em)
+      text(size: 11.5pt, style: "italic", fill: moon.darken(6%), blurb)
+    }))
+    #if epigraph != none {
+      v(12pt)
+      align(center, block(width: 70%, text(size: 9.5pt, fill: bronze.lighten(20%), epigraph)))
+    }
+    #v(1.1cm)
+    #block(width: 100%, inset: (x: 0.4cm), {
+      align(center, text(font: display-font, size: 8pt, fill: bronze.lighten(15%), tracking: 0.3em, weight: 700)[IN THIS PART])
+      v(10pt)
+      part-contents
+    })
+  ]
+}
+
+// ---------------------------------------------------------------- boxes
+// Rule box: a self-contained rule with a title.
+#let rule(title, body) = block(width: 100%, breakable: true, inset: (left: 9pt, right: 7pt, y: 6pt),
+  fill: tint, stroke: (left: 2.5pt + violet), spacing: 0.9em, {
+    text(font: display-font, fill: violet, size: 8.8pt, weight: 700, tracking: 0.06em, upper(title))
+    v(2pt)
+    set text(size: 9.6pt)
+    body
+  })
+
+// Dark sidebar for the Game Master.
+#let sidebar(title, body) = block(width: 100%, breakable: true, inset: 10pt, radius: 1pt,
+  fill: ink, stroke: 0.8pt + bronze, spacing: 1.2em, {
+    set text(fill: moon, size: 9.6pt)
+    show strong: set text(fill: moon)
+    show emph: set text(fill: moon.darken(8%))
+    text(font: display-font, fill: bronze.lighten(20%), size: 9.5pt, weight: 700, tracking: 0.08em, upper(title))
+    v(4pt)
+    body
+  })
+#let gm(body) = sidebar("For the Game Master", body)
+
+// Read-aloud and quotations.
+#let readaloud(body) = block(width: 100%, inset: (left: 12pt, right: 8pt, y: 7pt),
+  stroke: (left: 2.2pt + violet), fill: tint.lighten(35%), spacing: 1em,
+  text(style: "italic", fill: ash, body))
+
+// Entry boxes (traditions, stat blocks) and place gazetteers.
+#let ititle(body) = block(above: 0.2em, below: 0.25em, sticky: true,
+  text(font: display-font, size: 10.2pt, fill: violet, weight: 700, tracking: 0.02em, body))
+#let isub(body) = block(above: 0.2em, below: 0.5em, sticky: true,
+  text(size: 9.6pt, style: "italic", fill: dust, body))
+#let entry(body) = block(width: 100%, breakable: true, inset: (x: 7pt, y: 5pt),
+  fill: tint.lighten(25%), stroke: (top: 1.2pt + violet, bottom: 0.6pt + bronze), spacing: 0.8em, {
+    set text(size: 9.8pt)
+    set par(spacing: 0.6em)
+    body
+  })
+#let gazetteer(body) = block(width: 100%, breakable: true, {
+  show: it => it
+  body
+})
+#let areatitle(body) = block(above: 1.1em, below: 0.4em, sticky: true, {
+  text(font: display-font, size: 11pt, fill: violet, weight: 700, body)
+  v(-6pt)
+  line(length: 100%, stroke: 0.4pt + bronze)
+})
+#let areasub(body) = block(above: 0.8em, below: 0.3em, sticky: true,
+  text(size: 10.4pt, style: "italic", weight: 700, fill: ash, body))
+
+#import "@preview/droplet:0.3.1": dropcap
+#let opening(letter, lead, rest) = dropcap(height: 3, gap: 4pt, hanging-indent: 0pt,
+  font: display-font, fill: violet, weight: 700)[#letter#smallcaps(lead)#rest]
+
 #let tbl(cols, ..cells) = figure(table(columns: cols, ..cells))
-
-#let statblock(name, line, body) = dnd-item[
-  = #name
-  == #line
-
+#let statblock(name, line, body) = entry[
+  #ititle[#name]
+  #isub[#line]
   #body
 ]
 
-#title-page(
-  title: text(40pt)[Aetas Obscura],
-  subtitle: [#v(8mm) #text(16pt)[The Darkening Age] \ #v(2mm) A Setting for The 2d12 System, Version 2],
-  authors: (
-    (name: [SkroxiousDM], organization: [github.com/SkroxiousDM/2d12GameSystem]),
-  ),
-  date: [Setting Book · First Edition · Anno Domini 500],
-)
+#set document(title: book-title + " — " + book-subtitle + " — " + book-kind, author: book-author,
+  keywords: ("2d12", "Aetas Obscura", "tabletop RPG", "late antiquity", "occult"))
 
-#show-outline()
+// =====================================================================
+//  COVER
+// =====================================================================
+#page(fill: ink, header: none, footer: none, margin: 0cm)[
+  #set text(fill: moon)
+  #place(top + left, rect(width: 100%, height: 100%, fill: gradient.linear(ink, ink, ash.darken(10%), violet.darken(45%), angle: 90deg)))
+  #place(top + center, dy: 2.6cm, eclipse(r: 3.1cm))
+  #place(bottom + left, ruins(fill: rgb("#0a080d")))
+  #place(bottom + left, rect(width: 100%, height: 1.2cm, fill: rgb("#0a080d")))
+  #place(top + center, dy: 1.5cm, text(font: display-font, size: 9pt, fill: bronze.lighten(20%), tracking: 0.5em, weight: 700, upper(book-tagline)))
+  #place(top + center, dy: 15.6cm, block(width: 92%, {
+    set align(center)
+    text(font: display-font, size: 44pt, weight: 900, fill: moon, tracking: 0.03em, upper(book-title))
+    v(8pt)
+    ornament-rule(width: 70%)
+    v(10pt)
+    text(font: display-font, size: 14pt, weight: 700, fill: bronze.lighten(20%), tracking: 0.1em, book-subtitle)
+    v(6pt)
+    text(font: display-font, size: 13pt, fill: moon.darken(8%), tracking: 0.3em, upper(book-kind))
+    v(16pt)
+    text(size: 11.5pt, style: "italic", fill: moon.darken(10%), book-motto)
+  }))
+  #place(bottom + center, dy: -4.0cm, {
+    set align(center)
+    text(font: display-font, size: 11pt, fill: moon, tracking: 0.2em, weight: 700, upper(book-author))
+    linebreak()
+    text(font: display-font, size: 9pt, fill: bronze.lighten(20%), tracking: 0.25em, book-date)
+  })
+]
 
-= #flex-heading[Prologue][Prologue]
+// =====================================================================
+//  COLOPHON
+// =====================================================================
+#page(header: none, footer: none)[
+  #v(1fr)
+  #align(center, block(width: 78%, {
+    set par(justify: false)
+    text(font: display-font, size: 20pt, fill: violet, weight: 700, book-title)
+    v(2pt)
+    text(font: display-font, size: 11pt, fill: ash, tracking: 0.08em, [#book-subtitle · #book-kind])
+    v(10pt)
+    ornament-rule(width: 60%)
+    v(12pt)
+    text(size: 10.5pt)[
+      Design, writing and development: *#book-author* \
+      Version 2 · First Edition · Anno Domini 500
+    ]
+    v(14pt)
+    text(size: 9.5pt, fill: dust, style: "italic", book-note)
+    v(14pt)
+    text(size: 9pt, fill: dust, style: "italic")[
+      #book-title is a setting for the 2d12 System. You need #emph[The 2d12 System] core rulebook to play. \
+      #book-motto
+    ]
+    v(14pt)
+    text(size: 8.5pt, fill: dust)[Playtest draft — not yet playtested. Set in EB Garamond and Cinzel.]
+  }))
+  #v(1fr)
+]
 
-== #flex-heading[Using This Book][Using This Book]
+// =====================================================================
+//  CONTENTS
+// =====================================================================
+#page(header: none, footer: none)[
+  #v(0.4cm)
+  #align(center, text(font: display-font, size: 24pt, fill: violet, weight: 700, tracking: 0.06em)[Contents])
+  #v(-2pt)
+  #align(center, ornament-rule(width: 45%))
+  #v(10pt)
+  #set par(justify: false)
+  #show outline.entry.where(level: 1): it => {
+    v(9pt, weak: true)
+    block(above: 9pt, below: 4pt, link(it.element.location(), grid(columns: (auto, 1fr, auto), column-gutter: 5pt, align: bottom,
+      text(font: display-font, size: 9.8pt, fill: violet, weight: 700, it.element.body),
+      box(width: 100%, repeat(text(fill: bronze, size: 7pt)[ · ])),
+      text(font: display-font, size: 9.8pt, fill: violet, weight: 700, it.page()))))
+  }
+  #show outline.entry.where(level: 2): it => block(above: 3.2pt, below: 3.2pt, link(it.element.location(),
+    grid(columns: (0.7em, auto, 1fr, auto), column-gutter: 3pt, align: bottom, [],
+      text(size: 9pt, it.element.body),
+      box(width: 100%, repeat(text(fill: bronze.lighten(30%), size: 6pt)[ . ])),
+      text(size: 9pt, number-type: "lining", it.page()))))
+  #show outline.entry.where(level: 3): it => block(above: 2.2pt, below: 2.2pt, link(it.element.location(),
+    grid(columns: (1.6em, auto, 1fr, auto), column-gutter: 3pt, align: bottom, [],
+      text(size: 7.9pt, fill: ash, it.element.body),
+      box(width: 100%, repeat(text(fill: bronze.lighten(45%), size: 5.5pt)[ . ])),
+      text(size: 7.9pt, fill: ash, number-type: "lining", it.page()))))
+  #columns(2, gutter: 0.9cm, outline(title: none, depth: 3, indent: 0pt))
+]
+
+#counter(page).update(1)
+#part("Prologue", [What this book is, what it needs from the core rules, and how it names things.])
+
+== Using This Book
 
 #columns(2)[
-  #dnd-dropcap[T][he Western Empire is gone][ — but in the year 500 most people do not quite believe it yet. Roman roads still carry the post. Roman law is still cited in Gothic courts. The Senate still meets. Beneath that brittle surface a hidden world of wizards, blood-drinkers, faerie Queens and starving gods is fighting over the bones of an age. This is *Aetas Obscura*, the Darkening Age.]
+  #opening[T][he Western Empire is gone][ — but in the year 500 most people do not quite believe it yet. Roman roads still carry the post. Roman law is still cited in Gothic courts. The Senate still meets. Beneath that brittle surface a hidden world of wizards, blood-drinkers, faerie Queens and starving gods is fighting over the bones of an age. This is *Aetas Obscura*, the Darkening Age.]
 
   This book is a *setting book*. It gives you the world, its factions, and the rules that make the world behave like itself at the table. It does not replace the core rules.
 
@@ -89,12 +443,13 @@
   The canon for this book is the *Aetas Obscura Setting Bible* and the faction references in `docs/AetasObscura`. The archived *2d12 Version 1* drafts (cultures, social class, backgrounds, ritual magic and sanity) were used as inspiration and rebuilt for Version 2. Design notes close the book.
 ]
 
-= #flex-heading[The Darkening Age][The Darkening Age]
 
-== #flex-heading[The Premise][The Premise]
+#part("The Darkening Age", [The world in the year 500: its peoples and faiths, the shape of reality, the Concordat of Hidden Powers, the factions, the magi, the places of power and the long history behind them.], label-text: "Part I", epigraph: ["We tell our students that we work to hold back the night. We do not tell them that the night has already swallowed half the lamps."])
+
+== The Premise
 
 #columns(2)[
-  #dnd-readaloud[
+  #readaloud[
     "The world is ending. It has been ending for a hundred years. The legions are gone, the gods are starving, and beneath the cracks in Rome the older things stir. We Sealed Ones have a name for this age: _Aetas Obscura_, the Darkening Age. We tell our students that we work to hold back the night. We do not tell them that the night has already swallowed half the lamps."
 
     — attributed to Theognostos of Smyrna, Magister of the Inner Seal, c. 497
@@ -136,7 +491,7 @@
   )
 ]
 
-== #flex-heading[The World in 500 AD][The World in 500 AD]
+== The World in 500 AD
 
 #columns(2)[
   A brief tour, west to east, of the map your players will move across.
@@ -184,7 +539,7 @@
   ]
 ]
 
-== #flex-heading[Cosmology][Cosmology]
+== Cosmology
 
 #columns(2)[
   === The Three Spheres
@@ -279,7 +634,7 @@
   )
 ]
 
-== #flex-heading[The Concordat of Hidden Powers][The Concordat]
+== The Concordat of Hidden Powers
 
 #columns(2)[
   In 287 BC, after a war between the Etruscan vampire-houses of Rome and the wizard-college of Alexandria nearly drowned Italy, a treaty was struck: the *Concordat of Hidden Powers* (_Concordia Potestatum Occultarum_). Long Night calls it the *Pact of the Long Night*, because its drafter was Morrigna.
@@ -312,7 +667,8 @@
   The Concordat's clauses have rules weight; see *Oaths, Guest-Right and Parley*.
 ]
 
-== #flex-heading[The Factions][The Factions]
+
+== The Factions
 
 #columns(2)[
   Each entry gives an overview, the people who matter, what the faction wants, and how to use it. *Tags* are suggested power and weakness tags for statting its members (see *Opposition of the Hidden World*).
@@ -478,7 +834,7 @@
   *Isis* has hated Mormo since the first Nile dynasties. Losing her temples, she slipped into the mask of *Mary Theotokos* and feeds quietly on Yahweh's pool, spending every drop on hunting Mormo. Her *Marian hunters* — widows, virgins, ascetics, grieving mothers — work rites that _really work_, because Isis loans their own harvested Pneuma back to them. If Yahweh notices, a war between gods runs through every congregation from Alexandria to Tolosa. Mormo's most dangerous dream is to *make him look*.
 ]
 
-== #flex-heading[Magi of the Age][Magi of the Age]
+== Magi of the Age
 
 #columns(2)[
   Twelve figures — some living, some dead, some legendary — woven into the year 500.
@@ -504,49 +860,49 @@
   Boetius, Myrddin and the estranged Ambrosius are all downstream of *Damaskios*. Tyana, Simon and Mug Ruith are the traditions the Concord _failed to absorb_. Bondos and Kartīr mirror Damaskios and Hypatia in dark glass. Gildas is the reader of your campaign.
 ]
 
-== #flex-heading[Places of Power][Places of Power]
+== Places of Power
 
 #columns(2)[
-  #dnd-area[
-    = Seats of the Concord
-    == The Old Seat, Alexandria
+  #gazetteer[
+    #areatitle[Seats of the Concord]
+    #areasub[The Old Seat, Alexandria]
     Pillared halls beneath the demolished Serapeum, warded so that "only a being of godhead may pass." Mostly empty. Hypatia's ghost — or a thoughtform of the Seat itself — walks there.
 
-    == The Castrum of Drepanum, Bithynia
+    #areasub[The Castrum of Drepanum, Bithynia]
     A Roman coastal fort fronted by a small school. Beneath: laboratories, the Hall of the Inner Seal, the executioner's chamber, and the vault of the Sword of Damocles.
 
-    == The Ephesian Keep
+    #areasub[The Ephesian Keep]
     A hidden third sub-crypt beneath the Basilica of St. John. Eleven sealed Brotherhood bindings, a pair of Edged-Seal blades in rotation, a watch of six Stylites, and the *Mask of Sennefer's Predecessor*, which the Voice has hunted for forty years.
 
-    == The Pillar of the Stylite, Syria
+    #areasub[The Pillar of the Stylite, Syria]
     A real pillar-saint prays on top. Beneath him, unknowing, new Stylites spend their first year in a cell.
 
-    = The Veiled Sphere
-    == Arctistor
+    #areatitle[The Veiled Sphere]
+    #areasub[Arctistor]
     Long Night's fortress of black glass and bone-white pillars. Gates in Iceland, the Carpathians and the high Caucasus.
 
-    == The Hall of Beaten Gold
+    #areasub[The Hall of Beaten Gold]
     The Burning Crown's sunlit palace of gold and olive-wood on a mountain that does not exist. Gates in Crete, Etruria and the Lebanon.
 
-    == The Cottage of the Crones
+    #areasub[The Cottage of the Crones]
     One small hut on the border of the Outer Dark. Almost impossible to reach.
 
-    = Places of the Enemy
-    == Sarra, the Deep Sahara
+    #areatitle[Places of the Enemy]
+    #areasub[Sarra, the Deep Sahara]
     The Brotherhood's temple-city, buried under a hundred feet of sand. It wakes in cycles of 333 years. The cycle ends in 502.
 
-    == The Drowned Library, off Sidon
+    #areasub[The Drowned Library, off Sidon]
     A pre-Phoenician complex held by the Order of Dagon, with tablets older than Sumer. Their contents are not safe to read.
 
-    == The Eridu Breach
+    #areasub[The Eridu Breach]
     A marsh in the Kosmos; a bleeding wall of fae-flesh in the Veil, held by a phalanx that has never broken.
 
-    == Pnakotus
+    #areasub[Pnakotus]
     The Yithian archive in the far southern desert. End-of-campaign material.
   ]
 ]
 
-== #flex-heading[Timeline of the Hidden World][Timeline]
+== Timeline of the Hidden World
 
 #columns(2)[
   === Deep Antiquity
@@ -591,9 +947,10 @@
   ]
 ]
 
-= #flex-heading[Rules of the Hidden World][Rules of the Hidden World]
 
-== #flex-heading[Campaign Truths][Campaign Truths]
+#part("Rules of the Hidden World", [The rules that make the world behave like itself: Campaign Truths, origins, the Art of Names, the Seven Seals, worship, dread and taint, the Veiled Sphere, the blood-drinkers, oaths, conflicts, Woe and the opposition.], label-text: "Part II", epigraph: [To name a thing in its true tongue is to compel it.])
+
+== Campaign Truths
 
 #columns(2)[
   Every 2d12 setting starts with *Campaign Truths*: facts that are always true and that the rules lean on. Aetas Obscura has five.
@@ -626,7 +983,7 @@
   )
 ]
 
-== #flex-heading[Skills of the Age][Skills of the Age]
+== Skills of the Age
 
 #columns(2)[
   The core skill list is renamed for the year 500. Ratings, the pyramid and default pools are unchanged.
@@ -657,12 +1014,12 @@
   - *Literacy* is not a skill. Characters of the *Lettered* and *Honoured* stations read; others read only if they have Letters +1 or more.
 ]
 
-== #flex-heading[Characters of the Age][Characters of the Age]
+== Characters of the Age
 
 #columns(2)[
   Make characters with the core rules: a *Descriptor*, a *Playbook* and a *Focus*. This chapter adds an *Origin* (culture and station) and an optional *Allegiance*, and shows how the core options look in the year 500.
 
-  #dnd-readaloud[
+  #readaloud[
     I am a _Haunted_ _Savant_ who _Remembers What Was Forgotten_ — a Syriac-speaking freedman of Edessa, indebted to the Concord.
   ]
 
@@ -764,10 +1121,11 @@
   )
 ]
 
-== #flex-heading[The Art of Names][The Art of Names]
+
+== The Art of Names
 
 #columns(2)[
-  #dnd-dropcap[T][o name a thing in its true tongue][ is to compel it. Every magus of the age — theurge, goēs, Mobed or druí — works by that law. What differs is the tongue, the price, and which Seal it puts at risk.]
+  #opening[T][o name a thing in its true tongue][ is to compel it. Every magus of the age — theurge, goēs, Mobed or druí — works by that law. What differs is the tongue, the price, and which Seal it puts at risk.]
 
   This chapter builds on the *Adept* playbook. The Adept's Domain, scope Difficulties, working cost, backlash and Ritual ability all apply as written. A tradition adds *where the power comes from*, *what it is good at*, and *what it costs*.
 
@@ -811,9 +1169,9 @@
   === The Traditions
   Each entry gives the tradition's *Domains*, its *Strength*, its *Price*, and the *Seals it endangers*.
 
-  #dnd-item[
-    = Theurgy
-    == The Concord's tradition · Neoplatonic ascent
+  #entry[
+    #ititle[Theurgy]
+    #isub[The Concord's tradition · Neoplatonic ascent]
 
     _Domains:_ light, warding, the soul and its ascent, the spheres and stars, healing, divination, banishing.
 
@@ -824,9 +1182,9 @@
     *Seals at risk:* rarely any. That is the point.
   ]
 
-  #dnd-item[
-    = Goeteia
-    == Name-binding sorcery · the Greek Magical Papyri
+  #entry[
+    #ititle[Goeteia]
+    #isub[Name-binding sorcery · the Greek Magical Papyri]
 
     _Domains:_ binding, curses, compulsion, the dead and the chthonic, love and hate, summoning daimones.
 
@@ -837,9 +1195,9 @@
     *Seals at risk:* III (the Mind), IV (Bondage), V (the Border). Goeteia breaks Seals easily.
   ]
 
-  #dnd-item[
-    = Magia
-    == The fire-and-word of the Mobedān
+  #entry[
+    #ititle[Magia]
+    #isub[The fire-and-word of the Mobedān]
 
     _Domains:_ fire, truth and the Lie, purity and purification, exposure of the dead, driving out _daēvas_ and _drujān_.
 
@@ -850,9 +1208,9 @@
     *Seals at risk:* rarely. Magia is distinct from the Concord but respected by it.
   ]
 
-  #dnd-item[
-    = Hermetica
-    == The science of correspondences
+  #entry[
+    #ititle[Hermetica]
+    #isub[The science of correspondences]
 
     _Domains:_ alchemy (_pharmakeia_), astrology, correspondences and sympathy, transmutation, automata, talismans.
 
@@ -863,9 +1221,9 @@
     *Seals at risk:* II (Shaping), VI (the River).
   ]
 
-  #dnd-item[
-    = Druidry and the Northern Arts
-    == The druí, the seiðkona, the galdr-singer
+  #entry[
+    #ititle[Druidry and the Northern Arts]
+    #isub[The druí, the seiðkona, the galdr-singer]
 
     _Domains:_ weather, beasts, shapeshifting by spirit-help, prophecy, battle-fury, the dead, the land.
 
@@ -878,9 +1236,9 @@
     In the year 500, druidic and Saxon magic are, in practice, the same art in different tongues. Christian Britons call both devilry.
   ]
 
-  #dnd-item[
-    = Gnostic Praxis
-    == Yeshua's working · the Apokryphon
+  #entry[
+    #ititle[Gnostic Praxis]
+    #isub[Yeshua's working · the Apokryphon]
 
     _Domains:_ only four, and they are fixed.
     - *Anabasis* — the ascent through the archons, naming and refusing each. The most dangerous working: a failed Anabasis Rite kills the initiate in their sleep.
@@ -895,9 +1253,9 @@
     *Seals at risk:* none — but a church that burns heretics.
   ]
 
-  #dnd-item[
-    = The Black Speech
-    == The language of the Outer Ones · never chosen
+  #entry[
+    #ititle[The Black Speech]
+    #isub[The language of the Outer Ones · never chosen]
 
     No one takes the Black Speech as a tradition. It is learned by accident and kept by temptation.
 
@@ -955,7 +1313,7 @@
   ]
 ]
 
-== #flex-heading[The Seven Seals][The Seven Seals]
+== The Seven Seals
 
 #columns(2)[
   The Concord teaches that reality is a sealed vessel and magi are its glaziers. Every great violation weakens the glass.
@@ -1005,10 +1363,10 @@
   The Sword is the classic young-wizard hook. Start an Adept under it if the player agrees.
 ]
 
-== #flex-heading[Worship and Hieratica][Worship and Hieratica]
+== Worship and Hieratica
 
 #columns(2)[
-  #dnd-dropcap[B][elief is irrelevant][. A cynical priest in good standing with a well-fed god can work wonders that a sincere outsider cannot. Hieratica is _borrowed_ power: a ration of the harvest a patron has gathered and chosen to lend back.]
+  #opening[B][elief is irrelevant][. A cynical priest in good standing with a well-fed god can work wonders that a sincere outsider cannot. Hieratica is _borrowed_ power: a ration of the harvest a patron has gathered and chosen to lend back.]
 
   === Patrons and Their Pools
   Every patron has a *pool state* that reflects how well it is feeding.
@@ -1063,7 +1421,8 @@
   ]
 ]
 
-== #flex-heading[Dread and Nemesion][Dread and Nemesion]
+
+== Dread and Nemesion
 
 #columns(2)[
   The hidden world wounds the mind in two ways. *Dread* is what horror does to you now. *Nemesion* is what the Outer Dark leaves behind.
@@ -1129,20 +1488,17 @@
   )
 
   ==== The Temptation
-  At _nemesion-2_ or more, you may *lean on the Dark* for any working or Rite roll: gain +1 Power and +1 tier of nemesion. The Brotherhood recruits with exactly this.
+  At _nemesion-2_ or more, you may *lean on the Dark* for any working or Rite roll: gain +1 Power and +1 tier of nemesion. The Brotherhood recruits with exactly this; Long Night buys the debts of those who take it.
 
   ==== Cleansing
   Nemesion is removed only by:
-  - a *Lytrosis* working (Gnostic) or a *Magia* purification by fire, each removing 1 tier per successful working, at a Difficulty of 12 + 3 per tier;
+  - a *Lytrosis* working or *Magia* fire-purification: 1 tier per success, at Difficulty 12 + 3 per tier;
   - a great Rite at a holy place (2 tiers);
-  - a bargain with Long Night, which knows the Dark better than anyone (any number of tiers, at a price).
+  - a bargain with Long Night (any number of tiers, at a price).
 
-  #gm[
-    Use _nemesion_ to make the cosmic stakes personal. A character at tier 3 is a problem for every faction at once: the Concord wants to test them, the Brotherhood wants to recruit them, and Long Night wants to buy their debts.
-  ]
 ]
 
-== #flex-heading[The Veiled Sphere][The Veiled Sphere]
+== The Veiled Sphere
 
 #columns(2)[
   === Crossing Over
@@ -1152,7 +1508,7 @@
   - *A working* — opening the Veil yourself is a Dramatic working (Hard 18) for an Adept whose Domain touches spirits, travel or the Veil.
 
   === Travelling by Resonance
-  The Veil is not mapped by distance but by *feeling*. To reach a place, describe what it _feels_ like and roll *Mysteria* or *Empathy*. Success brings you to a door that touches your goal. Failure brings you somewhere that feels the same: the sad place you meant, five feet over, leads to a cemetery on the other side of the Empire.
+  The Veil is not mapped by distance but by *feeling*. To reach a place, describe what it _feels_ like and roll *Mysteria* or *Empathy*. Success brings you to a door that touches your goal. Failure brings you somewhere that only _feels_ the same.
 
   === Time Runs Strangely
   When the party returns to the Kosmos, the GM rolls 1d12, or spends Woe to choose.
@@ -1191,7 +1547,7 @@
   - one Woe-free Special per session from the Fae Specials (see *Opposition*);
   - and a permanent weight-3 Debt the Queen may call once per session.
 
-  When the Knight dies, the Mantle goes home. Those who try to steal it in between are the Knight's real enemies.
+  When the Knight dies, the Mantle goes home.
 
   === Thresholds and Iron
   - A *home's threshold* is a ward. Fae, Hounds and Strigoi need to be invited, or must pay *2 Woe* to cross, and lose their Specials while inside unless invited. Lamiae cross freely but lose their Hunger-powers inside.
@@ -1202,7 +1558,7 @@
   A household can keep Free Folk — _lares_, kobolds, sprites — for regular offerings of milk, honeyed barley-bread and silver. Treat the household as a *Bound Servant* (core Adept ability) that any character can keep, but only in that home. Miss three offerings and it turns.
 ]
 
-== #flex-heading[The Blood-Drinkers][The Blood-Drinkers]
+== The Blood-Drinkers
 
 #columns(2)[
   Four species, one name, no love lost. Each uses the *Blood-Drinker* kind in *Opposition of the Hidden World* plus its court traits here.
@@ -1241,7 +1597,7 @@
   - *Killing methods:* unknown in the West. Let the players earn one.
 ]
 
-== #flex-heading[Oaths, Guest-Right and Parley][Oaths and Parley]
+== Oaths, Guest-Right and Parley
 
 #columns(2)[
   The Concordat's clauses are not etiquette. In play they are Truths with teeth.
@@ -1266,7 +1622,8 @@
   When a character swears a true oath — by a Seal, a Court, or a patron — write it as a power tag for as long as they keep it. Breaking it costs the tag, inflicts _forsworn-3_, and gives the GM 2 Woe.
 ]
 
-== #flex-heading[Conflicts of the Age][Conflicts of the Age]
+
+== Conflicts of the Age
 
 Scripted conflicts work as in the core rules. This setting renames some core types, removes *Hack / Netwar*, and adds five of its own.
 
@@ -1304,7 +1661,7 @@ Scripted conflicts work as in the core rules. This setting renames some core typ
   Court politics run over days or weeks: each exchange is a week, a feast, a session of the Senate. Use the core rules for long conflicts. The prize is an office, a marriage, a verdict or a ruin.
 ]
 
-== #flex-heading[Scene Truths][Scene Truths]
+== Scene Truths
 
 #columns(2)[
   These Truths join the core list. Create them with Momentum, Woe or Effects as the core rules allow.
@@ -1330,7 +1687,7 @@ Scripted conflicts work as in the core rules. This setting renames some core typ
   )
 ]
 
-== #flex-heading[Woe of the Hidden World][Woe of the Hidden World]
+== Woe of the Hidden World
 
 #columns(2)[
   The GM's Woe buys these setting-specific spends as well as the core ones.
@@ -1352,7 +1709,7 @@ Scripted conflicts work as in the core rules. This setting renames some core typ
   )
 ]
 
-== #flex-heading[Opposition of the Hidden World][Opposition]
+== Opposition of the Hidden World
 
 #tbl((1.3fr, 1fr, 1.1fr, 1fr, 0.9fr, 1.1fr),
     table.header[Rank][Grit][Best / Fair / Weak][Guard][Shrugs][Specials],
@@ -1376,33 +1733,20 @@ Scripted conflicts work as in the core rules. This setting renames some core typ
   - *Ratings* — Attack, Defend, Feint, Maneuver and Other.
   - *Tags* — power and weakness tags the PCs can Discover, burn and compel.
   - *Specials* — Woe-fuelled tricks. *Tell* — the visible sign before its best move.
-  - *Rank* — sets every number; see the table above.
 
   === Roles
   *Brute* (Attack; +1 Power on its first hit each exchange) · *Shooter* (Attack; a free die on its first Attack) · *Bulwark* (Defend; takes loss meant for an ally) · *Skirmisher* (Maneuver; a hit also costs 1 Disposition) · *Controller* (Maneuver; Create a Truth for 1 Woe once per scene) · *Trickster* (Feint; +2 Disposition from ambush) · *Leader* (Defend or Maneuver; minions +1).
 
   === Kinds
-  #rule[Mortal][
-    Soldiers, cultists, Stylites, priests, mobs. *Morale:* minions and Minor mortals flee or surrender at half Bodies or when their leader falls. *Can be talked to.* _Specials:_ *Volley* (2, area Attack) · *Dirty Trick* (1, Impede the target) · *Call for Help* (1 per minion) · *Fanatic* (0, ignores Morale) · *Minor Working* (1, a Significant working in one Domain).
-  ]
-  #rule[Blood-Drinker][
-    *Hard to Kill* and court traits (see *The Blood-Drinkers*). _Specials:_ *Feed* (1, after a melee win add _bled-2_ or _hollowed-2_ and recover 1 tier) · *Unnatural Strength* (1, +1 Power) · *Mesmerise* (1, _enthralled-2_) · *Fade* (2, Create _Deep Shadows_ and leave) · *Flesh-Mask* (0, passes as human until Discovered).
-  ]
-  #rule[Fae][
-    Sidhe, Free Folk, Knights' foes. *Bound by bargains:* a fae cannot break its own given word. *Can't kill* outside its Court unless it is a Knight or the victim is bound by birth or Debt; it wounds, steals, enthrals. _Specials:_ *Glamour* (1, Create a Truth of illusion) · *Bargain Offered* (0, offer a Debt for a benefit) · *Winter's Edge / Summer's Wrath* (1, +1 Power) · *Step Sideways* (2, into the Veil) · *Call the Hunt* (3, a Minion group of fae).
-  ]
-  #rule[Nephil][
-    A god in masquerade. Grit is +2 for its Rank. *Harvest:* while it has a living cult, it recovers 1 Disposition at the start of each exchange. *Can only be truly killed* with a relic-blade or after it is unveiled and starved. _Specials:_ *Divine Presence* (2, every PC Resists _shaken-2_) · *Lend Power* (1, a priest-ally gains +2 Power) · *Mask* (0, passes as human) · *Wrath of the Altar* (3, an area Attack while on holy ground).
-  ]
-  #rule[Outer-Touched][
-    Hybrids, Shoggoth-Born, the Reborn, things from beyond. *Dread aura:* first sight is an exposure of its Rank's tier (Minor 2, Established 3, Great 4, Paramount 5). *Unnatural:* Persuade and Argument don't work. _Specials:_ *Regenerate* (1, recover 2 tiers) · *Wrong Geometry* (1, a PC Impeded) · *Taint* (1, a hit adds _nemesion-1_) · *Engulf* (2, a grapple that is also a Dread exposure).
-  ]
-  #rule[Shade and Spirit][
-    The dead, daimones, genii loci. *Incorporeal:* immune to ordinary physical harm; Mysteria, relics and consecrated things harm it. _Specials:_ *Possess* (2, a Contest of Names to take a body) · *Chill* (1, _numbed-2_) · *Whisper* (1, a Dread exposure of tier 2) · *Bound to Place* (0, cannot leave its site).
-  ]
+  - *Mortal.* Soldiers, cultists, Stylites, priests, mobs. *Morale:* minions and Minor mortals flee or surrender at half Bodies or when their leader falls. *Can be talked to.* _Specials:_ *Volley* (2, area Attack) · *Dirty Trick* (1, Impede the target) · *Call for Help* (1 per minion) · *Fanatic* (0, ignores Morale) · *Minor Working* (1, a Significant working in one Domain).
+  - *Blood-Drinker.* *Hard to Kill* and court traits (see *The Blood-Drinkers*). _Specials:_ *Feed* (1, after a melee win add _bled-2_ or _hollowed-2_ and recover 1 tier) · *Unnatural Strength* (1, +1 Power) · *Mesmerise* (1, _enthralled-2_) · *Fade* (2, Create _Deep Shadows_ and leave) · *Flesh-Mask* (0, passes as human until Discovered).
+  - *Fae.* Sidhe, Free Folk, Knights' foes. *Bound by bargains:* a fae cannot break its own given word. *Can't kill* outside its Court unless it is a Knight or the victim is bound by birth or Debt; it wounds, steals, enthrals. _Specials:_ *Glamour* (1, Create a Truth of illusion) · *Bargain Offered* (0, offer a Debt for a benefit) · *Winter's Edge / Summer's Wrath* (1, +1 Power) · *Step Sideways* (2, into the Veil) · *Call the Hunt* (3, a Minion group of fae).
+  - *Nephil.* A god in masquerade. Grit is +2 for its Rank. *Harvest:* while it has a living cult, it recovers 1 Disposition at the start of each exchange. *Can only be truly killed* with a relic-blade or after it is unveiled and starved. _Specials:_ *Divine Presence* (2, every PC Resists _shaken-2_) · *Lend Power* (1, a priest-ally gains +2 Power) · *Mask* (0, passes as human) · *Wrath of the Altar* (3, an area Attack while on holy ground).
+  - *Outer-Touched.* Hybrids, Shoggoth-Born, the Reborn, things from beyond. *Dread aura:* first sight is an exposure of its Rank's tier (Minor 2, Established 3, Great 4, Paramount 5). *Unnatural:* Persuade and Argument don't work. _Specials:_ *Regenerate* (1, recover 2 tiers) · *Wrong Geometry* (1, a PC Impeded) · *Taint* (1, a hit adds _nemesion-1_) · *Engulf* (2, a grapple that is also a Dread exposure).
+  - *Shade and Spirit.* The dead, daimones, genii loci. *Incorporeal:* immune to ordinary physical harm; Mysteria, relics and consecrated things harm it. _Specials:_ *Possess* (2, by Contest of Names) · *Chill* (1, _numbed-2_) · *Whisper* (1, tier-2 Dread) · *Bound to Place* (0).
 ]
 
-== #flex-heading[A Bestiary of the Year 500][A Bestiary]
+== A Bestiary of the Year 500
 
 #columns(2)[
   Ready-to-run statblocks. Adjust Rank to taste.
@@ -1526,9 +1870,10 @@ Scripted conflicts work as in the core rules. This setting renames some core typ
   ]
 ]
 
-= #flex-heading[Appendices][Appendices]
 
-== #flex-heading[Glossary][Glossary]
+#part("Appendices", [Glossary, quick reference and design notes.])
+
+== Glossary
 
 #columns(2)[
   - *Akosmoi, Daimones* — "the un-worlded ones"; the Outer Ones.
@@ -1567,7 +1912,7 @@ Scripted conflicts work as in the core rules. This setting renames some core typ
   - *Woe* — the GM's pool.
 ]
 
-== #flex-heading[Quick Reference][Quick Reference]
+== Quick Reference
 
 #columns(2)[
   === Five Campaign Truths
@@ -1598,7 +1943,7 @@ Scripted conflicts work as in the core rules. This setting renames some core typ
   Outcast · Servile · Common · Lettered · Honoured.
 ]
 
-== #flex-heading[Design Notes][Design Notes]
+== Design Notes
 
 #columns(2)[
   This book is built on the *Version 2* core. The *Version 1* archive was used as inspiration. Here is where its ideas went.

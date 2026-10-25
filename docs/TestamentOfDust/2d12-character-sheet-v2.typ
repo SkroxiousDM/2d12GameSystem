@@ -209,7 +209,7 @@
   // ---------- right column
   {
     sec([Tags], sub: [Descriptor · Playbook · Focus])
-    grid(columns: (1fr, auto), lbl[Power tags · +1 each, max +2 per roll], lbl[Burned])
+    grid(columns: (1fr, auto), lbl[Power tags · +1 each, max +2 per roll · can be compelled], lbl[Burned])
     v(1pt)
     for i in range(6) {
       block(height: 15.5pt, spacing: 0pt, grid(columns: (1fr, 14pt), align: bottom,
@@ -227,7 +227,7 @@
       stack(spacing: 2.5pt, box(width: 100%, height: 30pt, stroke: 0.6pt + dust, fill: field-bg, radius: 2pt), align(center, lbl[Refresh])),
       text(size: 6.8pt)[
         *Spend 1:* Invoke (reroll all, or +2 after rolling) · Declare a minor fact · Resist harder (cost 0). \
-        *Earn:* accept a compel (+1; refuse = pay 1) · your Belief costs you (1/session) · MVP vote (+1 next session). \
+        *Earn:* accept a meaningful compel on any tag, Belief or Instinct (+1; refuse = pay 1) · your Belief costs you (1/session) · MVP vote (+1 next session). \
         #text(fill: dust)[Refresh base 3, minimum 1.]
       ])
   })
@@ -247,7 +247,7 @@
         pad(bottom: 6pt, line(length: 100%, stroke: 0.5pt + ash)), tiers()))
     }
     v(2pt)
-    note[*Stacking:* a new status of the same kind adds its tier − 1 (min +1). *Tier 6:* Taken Out. Apply only the highest harmful and highest helpful status.]
+    note[*Stacking:* a new status of the same kind adds its tier − 1 (min +1). *Tier 6:* Taken Out. Apply only the highest harmful and highest helpful status. *Record* each status's scope and what ends it; it applies only within that scope.]
   },
   {
     sec([Resist], sub: [roll 2 + Edge d12, keep the highest die])

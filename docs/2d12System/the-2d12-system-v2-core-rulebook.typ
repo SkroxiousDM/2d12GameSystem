@@ -614,6 +614,7 @@ Characters carry 6--8 #strong[character tags] from Descriptor, Focus, and Playbo
 
 - #strong[Power tags] (e.g. #emph[ex-navy marksman];, #emph[silver tongue];, #emph[grandfather\'s revolver];): +1 each when relevant, #strong[max +2 per roll];.
 - #strong[Weakness tags] (e.g. #emph[owes the wrong people];, #emph[bad knee];): −1 when relevant, or compel for a Tychē Point (§4).
+- #strong[Any tag can be compelled.] A power tag can also cause trouble when its meaning creates a concrete complication. It keeps its normal benefits (§4).
 - #strong[Burning a tag:] mark a power tag as burned to gain an automatic +1 Power on a success. It stays unusable until you recover it (a downtime action or a milestone). Burning ignores the +2 cap.
 
 With a +2 cap, a third relevant tag is best used for burning or as Tychē Point invoke material.
@@ -640,8 +641,15 @@ Goals are rewritten each session; Beliefs and Instincts can change at milestones
 
 #strong[Earn Tychē Points by:]
 
-- #strong[Compels] --- the GM or another player offers a complication based on a weakness tag, Scar, Belief, or Instinct. Accept → +1 Tychē Point. Refuse → pay 1 Tychē Point.
+- #strong[Compels] --- the GM or another player offers a meaningful complication based on any character tag (power, weakness, or Scar), Belief, or Instinct. Accept → +1 Tychē Point. Refuse → pay 1 Tychē Point.
 - #strong[Playing your Belief against your interests] (Mouse Guard): once per session, take +1 Tychē Point when your Belief causes trouble for you.
+
+#strong[Compels]
+
+- #strong[Meaningful.] The complication must change the situation: an obstacle, obligation, exposure, hard choice, or lost opportunity. Flavour or a minor inconvenience doesn't count.
+- #strong[Clear offer.] Before you accept, know which tag justifies it, what will happen, and what it commits your character to. You otherwise control how your character responds.
+- #strong[Limits.] A compel must follow from the tag's established meaning. It adds no numerical penalty, can't cancel a success already resolved, and an existing penalty doesn't earn Tychē just because a tag explains it.
+- #emph[Feared duellist:] a rival challenges you before an audience whose support you need. #emph[Devoted healer:] you stay to treat a dying enemy and lose the chance to pursue their commander.
 #colbreak()
 === 4.1 Refresh
 - #strong[Base Refresh is 3.] At the start of each session, your Tychē Points reset to your Refresh (if you have more, keep them).
@@ -665,7 +673,7 @@ Design intent: power comes at the cost of narrative flexibility. A low-Refresh c
     table.hline(),
     [#strong[Attack];], [1 Power per tier], [Inflict a #strong[Status] (e.g. #emph[wounded-2];, #emph[rattled-1];, #emph[on fire-3];). In a conflict, an Attack removes Disposition equal to its Power + 1 instead (§10.6)],
     [#strong[Weaken];], [1], [Reduce one of the target\'s statuses by 1 tier, or #strong[Burn] one of its tags for the scene],
-    [#strong[Create];], [3], [Create a #strong[Truth] that lasts for the scene (#emph[smoke cover];, #emph[crowd on our side];). One extra Power makes it last until resolved],
+    [#strong[Create];], [3], [Create a #strong[Truth] that lasts for the scene (#emph[smoke cover];, #emph[crowd on our side];). It may end sooner if its removal condition is met. One extra Power makes it last until its removal condition is met. State its scope and removal condition (§8)],
     [#strong[Enhance];], [1 per tier], [Give an ally a helpful status (#emph[inspired-2];)],
     [#strong[Restore];], [1 per tier], [Reduce a harmful status on yourself or an ally. Lasting injuries have limits (§6.6)],
     [#strong[Discover];], [1], [Ask the GM one question; you get a true, useful answer],
@@ -675,7 +683,6 @@ Design intent: power comes at the cost of narrative flexibility. A low-Refresh c
   )]
   , kind: table
   )
-  #pagebreak()
 #columns(2, gutter: 6mm)[
 Each point of Power buys an Effect. Players choose Effects that fit what their character did in the fiction.
   
@@ -683,13 +690,14 @@ Any unspent Power → #strong[Momentum];.
 
 === 5.1 Statuses
 - Statuses have #strong[tiers 1--6];.
+- #strong[Recording a status.] When you create a status, record its name and tier, its #strong[scope] (who or what it affects, and in which circumstances), and its #strong[removal condition] (the event, recovery, treatment, or change that ends it). The scope must follow from the fiction. Normal recovery and removal rules still apply. #emph[Mapped patrol routes-2] --- evading the patrols you watched; ends when the routes change.
 - #strong[Stacking:] a new status of the same kind raises the existing tier by the new tier minus 1 (minimum +1), so small hits accumulate slowly.
 - #strong[Tier 6:] the target is #strong[Taken Out] of whatever that status represents (dead, unconscious, captured, convinced, routed), within the status's scope. A harmful status reaching tier 6 also gives one #strong[Scar] (§6.3). Death needs a lethal cause and established stakes.
 - Statuses modify rolls by #strong[± their tier] (use only the highest relevant harmful status and the highest relevant helpful status).
 #colbreak()
 - #strong[Same kind.] Harm is the same kind when it worsens the same injury, affliction or condition. Renaming it doesn't stop it stacking: another cut worsens #emph[wounded], renewed menace worsens #emph[terrified], but a fresh burn needn't stack with a concussion. The GM says whether new harm stacks #strong[before] you decide to Resist or accept an injury (§10.9).
 - #strong[Order.] Resistance and armour reduce incoming harm before it stacks. Harm reduced to tier 0 isn't recorded and doesn't stack. A status can't go above tier 6; extra tiers have no effect unless a rule says so.
-- #strong[What it hinders.] A status's name decides which rolls it affects: #emph[slashed thigh-3] hinders running and climbing, not reading a ledger. A status can also decide what is possible: no roll lets you use a hand you no longer have.
+- #strong[What it hinders.] A status modifies only rolls within its recorded scope: #emph[slashed thigh-3] hinders running and climbing, not reading a ledger. A status can also decide what is possible: no roll lets you use a hand you no longer have. If circumstances change, review its scope; don't broaden it just because its name allows another reading.
 - #strong[Life-threatening harm.] A physical status that reaches tier 6 can make you #strong[Dying] when lethal stakes are in play (§6.7).
 ]
 
@@ -1047,6 +1055,7 @@ Stabilising doesn't erase marked segments, reduce the injury, refill pools or re
 - #strong[Campaign Truths:] 3--5 world statements agreed at session zero (#emph[Magic is real but feared];, #emph[The Corporation owns the police];).
 #colbreak()
 - #strong[Creating Truths:] players use the #strong[Create] effect or spend #strong[2 Momentum];; the GM spends #strong[2 Woe];.
+- #strong[Recording a Truth.] When a Truth is created, or an existing fact first matters mechanically, state its #strong[scope] (the people, objects, place, or circumstances it affects) and its #strong[removal condition]. It only applies within its scope. It also ends when its duration expires; a removal condition never extends a duration (§5). #emph[Smoke fills the courtyard] --- sight-based actions in the courtyard; ends when the smoke clears.
 - #strong[Removing Truths:] use the Weaken or Create effect as a counter (\"I kill the lights\" removes #emph[Brightly Lit];), at GM discretion.
 
 See #strong[Module C] for using Truths to drive a sandbox campaign.

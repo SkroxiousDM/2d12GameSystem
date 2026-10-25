@@ -6,6 +6,15 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Compels from any tag; scope and removal for statuses and Truths (2026-10-25)
+- **Core Rules §4 Tychē Points:** any character tag (power, weakness or Scar), Belief or Instinct can justify a compel. New *Compels* subsection: the complication must be meaningful, the offer must be clear before acceptance, and a compel adds no numerical penalty, can't cancel a resolved success, and doesn't pay for an existing penalty.
+- **Core Rules §3.4 Tags:** reminder that power tags can be compelled and keep their normal benefits.
+- **Core Rules §5.1 Statuses:** new statuses record a scope and a removal condition. *What it hinders* now refers to the recorded scope and forbids broadening it.
+- **Core Rules §8 Truths:** new Truths (or existing facts that first matter mechanically) state a scope and a removal condition. A removal condition never extends a Truth's duration.
+- **Core Rules §5 Effects table (Create):** a scene Truth may end sooner when its removal condition is met. The extra Power now makes it last until its removal condition is met.
+- Removed the forced page break after the §5 Effects table so the section flows under it. PDF rebuilt (61 → 62 pages).
+- **Character sheet:** the power-tag label notes that power tags can be compelled; the Tychē *Earn* line covers meaningful compels on any tag, Belief or Instinct; the Statuses note asks you to record each status's scope and what ends it. Layout unchanged; PDF rebuilt.
+
 ### Changed — Attack and Feint remove Power + 1 (2026-10-20)
 - **Core Rules §10.6:** a successful Attack or Feint applying its default Disposition-loss effect removes Disposition equal to the Power committed, **plus 1**. The +1 is Disposition loss, not extra Power; eligible injury trades apply afterward (§10.9). Ability bonuses (*Crowd Work*, *Every Trick in the Book*) stack unchanged.
 - Conforming edits to the §4 Effects table (Attack row), the §10.6 actions table (Attack and Feint rows), §10.7 Shared Disposition, §10.14 Order of Resolution step 5, the Design Notes and the Quick Reference Damage Cycle box.

@@ -22,10 +22,8 @@ The rules come as separate books. The core rulebook is the complete engine. Each
 
 ### Settings in development
 
-These aren't converted to Version 2 yet:
-
 - **Aetas Obscura**: late-antique cosmic horror around 500 AD. Setting bible, factions and adventure hooks are in [`docs/Aetas Obscura/`](docs/Aetas%20Obscura/).
-- **GRENDEL**: apocalyptic adventures in a fantasy Iron Age. An editorial consolidation is in [`GRENDEL_Consolidated_Master_Rulebook.md`](GRENDEL_Consolidated_Master_Rulebook.md).
+
 
 ## Repository Layout
 
@@ -48,8 +46,6 @@ These aren't converted to Version 2 yet:
     │   └── art/playbooks/                    Frontier playbook art
     ├── Aetas Obscura/                        Aetas Obscura setting (in development)
     ├── design/                               Design documents, playtest reports, rule drafts
-    ├── Grendel/
-    │   ├── GRENDEL_Consolidated_Master_Rulebook.md   GRENDEL setting (in development)
     └── Archive/
         ├── 2d12 Version 1/                   The retired Version 1 rules
         └── TestamentOfDust-master-v2/        The combined master rulebook from before the split

@@ -754,7 +754,7 @@ Weapons and gear use the equipment rules in #emph[Generic Playbooks] §2 (load, 
     [1], [Steel neck guard], [#emph[Armour 1] against bites only; Bled from bites gains 1 fewer tier],
     [1], [Crossbow and wooden bolts], [#emph[+1 Attack] (range), #emph[bolts are stakes] (#emph[staked] at range, Hard 18)],
     [1], [Revolver or rifle], [#emph[+1 Attack] (range)],
-    [2], [Laser rifle (rare, old-world)], [#emph[+1 Attack] (range), #emph[burns through armour];; depletion 1 in d12 (power cell)],
+    [2], [Laser rifle (rare, old-world)], [#emph[+1 Attack] (range), #emph[burns through armour], #emph[Escalation];; depletion 1 in d12 (power cell)],
     [1], [Long cloak and wide hat], [+1 Sōma Edge when Resisting Sun-Sick; #emph[+1 Feint] in the dark],
     [1], [Signal mirrors], [By day, create #emph[Sunlit] in a room with a window or opening for one scene (2 Power)],
     [1], [True-light lamp (rare relic)], [Create #emph[False Dawn] for one exchange (2 Power); depletion 1 in d12],
@@ -765,6 +765,12 @@ Weapons and gear use the equipment rules in #emph[Generic Playbooks] §2 (load, 
   )]
   , kind: table
   )
+
+#strong[Escalation (Core Rules §9.3).] Each of these gives the GM #strong[+1 Woe], once per scene:
+
+- #strong[Old-world weapons carried openly:] the laser rifle, the #emph[Order Sidearm] (§9.2), any artifact weapon.
+- #strong[Hunter's tools carried openly where a vampire rules] (#emph[Their Own House], §13, or a town that serves a household): stakes, silver, crossbows.
+- #strong[Actions:] waking an old-world work you don't understand; breaking into a sealed estate room; feeding, or showing afflicted blood, before witnesses.
 
 == 9. Old-World Works
 Old-world machines and relics use #strong[Module A --- Cyphers & Artifacts].
@@ -805,7 +811,7 @@ Old-world artifacts carry the standard quirk #strong[#emph[its owners will want 
 
 #strong[★ Cybernetic Eye] --- #emph[Tags:] sees in the dark, sees heat. #emph[Ability:] once per scene, free Discover about anything in your line of sight. #emph[Depletion:] 1 in d12 (blind in that eye for a scene). #emph[Quirk:] its owners will want it back.
 
-#strong[★ Order Sidearm] --- #emph[Tags:] old-world revolver, +1 Attack (range), recognised on sight. #emph[Ability:] ignores #emph[Armour] on vampires. Worn openly, it is a claim to speak for the Order of the Last Guns: a free bonus die on Persuade and Intimidate with people who remember the Order. #emph[Locked:] many fire only for someone registered in the Order's armoury log; for anyone else such a gun is a heavy club. #emph[Depletion:] 1 in d12 (the last proper cartridges are spent until more are found). #emph[Quirk:] its owners will want it back --- and so will every claimant.
+#strong[★ Order Sidearm] --- #emph[Tags:] old-world revolver, +1 Attack (range), recognised on sight, Escalation. #emph[Ability:] ignores #emph[Armour] on vampires. Worn openly, it is a claim to speak for the Order of the Last Guns: a free bonus die on Persuade and Intimidate with people who remember the Order. #emph[Locked:] many fire only for someone registered in the Order's armoury log; for anyone else such a gun is a heavy club. #emph[Depletion:] 1 in d12 (the last proper cartridges are spent until more are found). #emph[Quirk:] its owners will want it back --- and so will every claimant.
 
 #strong[Blood Locket] --- #emph[Tags:] holds a vampire's blood. #emph[Ability:] that bloodline's doors and guardians half-recognise you (+1 die). #emph[Depletion:] 1 in d12 (the blood spoils). #emph[Quirk:] the bloodline's records note every door you open.
 ]
@@ -858,6 +864,9 @@ Charters, testaments, compacts and levy agreements bind only if they are written
 - #strong[Reading] an instrument in charter-speech is an Old Lore roll vs. Standard 15. #strong[Composing] one correctly is Old Lore vs. Hard 18, or Standard 15 with a tag such as #emph[fluent in the old pacts].
 - #strong[Finding a flaw:] a Discover effect on an instrument (Old Lore or Investigate) can reveal an error in its charter-speech. The flaw becomes a tag, for example #emph[the oath was sworn in the wrong form].
 - #strong[Grounds, not a verdict:] a flaw is grounds to challenge the instrument. It does not void it. The challenge is settled by a Negotiation, a Duel of Wills or the politics around it, and the flaw is a tag the challenger can use there. Whoever benefits from the instrument will argue that the error doesn't matter.
+
+=== 10.6 Ill Omens
+A crow on the steeple, a stopped clock, a dog that won't cross the threshold. #strong[Once per contract], one player may declare an #strong[Ill Omen] and describe it. The GM gains #strong[2 Woe + 1 per PC] at once; at the end of the scene, #strong[every PC gains 1 Tychē Point] (within the cap, Core Rules §4.1). Reading an omen is an Occult roll, with Power buying Discover as normal. An omen is a warning, not a prophecy.
 
 == 11. Setting Conflict Types
 These add to the conflict types in Core Rules §10.4. All use the standard scripting, Disposition and compromise rules.
@@ -949,6 +958,8 @@ Pick 1--3 for each scene, in addition to the #strong[time Truth] (§4).
   , kind: table
   )
 
+Any of these can be #strong[rank 2] when the fiction is severe (#emph[Dust Storm 2] in a full blow, #emph[Thick Mist 2] in the river bottoms; Core Rules §8).
+
 == 14. Woe Spends: Vampires
 Use with Core Rules §9.2.
 
@@ -1006,6 +1017,14 @@ Each Descriptor gives (Core Rules §3.1):
   )
 
 Each entry also has a #strong[Frontier hook];: one question to answer at character creation. The answer often becomes your first Belief or a relationship.
+
+=== 1.1 Hidden Truths
+Some Frontier pasts are better kept quiet: marks on a throat, a mother nobody named, years served in a household. At creation, you may mark #strong[one] tag from your Descriptor, Focus or playbook as a #strong[Hidden Truth];, agreed privately with the GM.
+
+- #strong[While it's hidden:] #strong[+1 Refresh];. This doesn't count toward the advancement Refresh limit (Core Rules §12.2). The tag gives no bonus and can't be invoked or compelled. If you use an ability tied to it where others can see, the GM may treat that as revealing it.
+- #strong[Revealing it:] reveal it yourself in a scene where it matters. You lose the +1 Refresh, #strong[gain 1 Tychē Point] at once, and the tag works normally from then on.
+- #strong[Forced into the open:] another character can uncover it with a Discover effect, or the GM can spend #strong[2 Woe] to reveal it at a dramatic moment. You still gain the Tychē Point.
+- #strong[Good candidates:] #emph[Bitten], #emph[Coveted] and #emph[Doomed] (Descriptors); #emph[Carries Her Mother's Blood] with an unknown mother, #emph[Was Kept and Got Out] and #emph[Once Served a Household] (Focuses).
 
 == 2. Quick Reference
 #figure(
@@ -1800,6 +1819,7 @@ Use the Adept\'s #strong[Domain] rules (Generic Playbooks §8.1) unchanged: work
     [6], [#strong[Familiar];], [You have a doll, a bat, a homunculus, or a small old-world drone, with 1 power tag and 1 weakness. It can scout (one free Discover per scene where it can reach), carry messages, or handle simple tasks. It can\'t fight.],
     [7], [#strong[★ Second Domain];], [Gain a second Domain. Workings in it use the same rules.],
     [8], [#strong[★ Unleash];], [Once per scene, a working hits #strong[every target] in an area or group: each one receives the full Attack effects you buy. Afterwards, take #emph[Weary] or lose 3 points from your casting pool.],
+    [9], [#strong[Hex];], [Once per scene, before an NPC you can see makes a roll, spend #strong[1 Tychē Point];: that roll brings a complication whatever it shows, as if it were a twist (Core Rules §2.6). The GM may spend 2 Woe to cancel it as normal, unless the hex works through a folk remedy the target believes in (#emph[believers], Frontier Rules §8.1).],
     [◆], [#strong[Ascendant];], [Once per session, a Heroic-scope working succeeds automatically with #strong[5 Power];, no ritual required. If you use it again before your next downtime, gain a Pneuma or Psychē Scar.],
   )]
   , kind: table
@@ -2181,6 +2201,7 @@ Sheriff, militia captain, or the old soldier who keeps the village alive. You do
 - #strong[Warden] is strongest in sieges and weaker on estate raids. Make sure the campaign has both, or let the Warden\'s traps travel (Trapmaker works anywhere).
 - #strong[Free bonus dice] (Stake Driver, Horse-Bond, Targeting eye, Combat Mode, Full Transformation) still count toward the +2 bonus die maximum.
 - #strong[★ count:] each playbook has two Major abilities and a free capstone, as in #emph[Generic Playbooks];.
+- #strong[Hex] gives the Occultist a ninth ability. It costs a Tychē Point and the GM can buy it off for 2 Woe, so it trades one problem for another rather than winning a fight. Watch whether it lands on every boss roll.
 
 // =====================================================================
 //  CHAPTER — FRONTIER FOCUSES

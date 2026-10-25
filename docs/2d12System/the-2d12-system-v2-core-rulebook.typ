@@ -430,7 +430,7 @@ The source documents used the working names on the left. This book uses the hous
 - #strong[Skill:] +0 to +4 (from the skill pyramid; untrained = +0).
 - #strong[Tags:] +1 per relevant #strong[power tag];, #strong[maximum +2 per roll];. −1 per relevant #strong[weakness tag] (no cap).
 - #strong[Statuses:] ± the tier of the highest relevant harmful status and the highest relevant helpful status.
-- #strong[Truths:] shift Difficulty by steps (§8), not the roll.
+- #strong[Truths:] shift Difficulty by steps (§8), not the roll: one step per rank, ±3 steps at most.
 
 Why 2d12 summed: it produces a bell curve (2--24, average 13) --- predictable for skilled characters, swingy at the extremes, and big enough that +1 modifiers matter without dominating.
 
@@ -512,17 +512,39 @@ Example: Effort Level 2 lets you buy one bonus die before the roll, then spend a
   )]
   , kind: table
   )
-#colbreak()
 #strong[Power] = 1 for meeting the target, +1 for every full 3 points over it. Power is spent on #strong[Effects] (§5). Any Power you don\'t spend becomes #strong[Momentum] (party pool, max 6).
 
 === 2.6 Doubles (Twists)
 If your two #strong[kept] dice show the same number:
 
 - #strong[On a success:] Critical --- +1 Power and add a narrative flourish.
-- #strong[On a failure or cost:] Complication --- the GM gains 2 Woe or introduces a complication right away.
+- #strong[On a failure or cost:] Complication --- the GM introduces a complication right away.
 - #strong[Double 12s:] always a success with +2 Power. #strong[Double 1s:] always a complication, even on a success.
+- #strong[Buying it off.] When the dice give you a complication (a twist, or a Risky roll, §2.7), you may cancel it by giving the GM #strong[2 Woe]: a problem now, or a problem later. If you keep it and the GM can't think of a fitting complication, the GM gains the 2 Woe instead.
+- #strong[NPCs.] When the dice give an NPC a complication, the GM may spend #strong[2 Woe] to cancel it. Otherwise the GM describes the complication, or invites the players to.
 
 Base chance of doubles on 2d12 is about 8% (1 in 12).
+
+#colbreak()
+=== 2.7 Risky Rolls (Optional)
+Some rolls aren't harder, just more dangerous. Before a roll, the GM may call it #strong[Risky 1], #strong[2] or #strong[3].
+
+- #strong[Risk die.] Roll one extra d12 of a different colour with the others. It's never kept, doesn't add to the total and doesn't count toward the bonus dice maximum.
+- #strong[Complication.] If the Risk die shows the rating or lower, a complication occurs after the roll is resolved, whatever the result and on top of any twist. You can buy it off for 2 Woe (§2.6).
+- #strong[Raising the stakes.] The GM may spend #strong[1 Woe] to make a roll Risky 1, or to raise its rating by 1 (maximum 3). Settings may make some hazards Risky by default.
+
+#figure(
+  [#table(
+    columns: (22%, 34%, 44%),
+    align: (auto,auto,auto,),
+    table.header([Rating], [Risk die shows], [Chance of a complication],),
+    table.hline(),
+    [Risky 1], [1], [about 8%],
+    [Risky 2], [1--2], [about 17%],
+    [Risky 3], [1--3], [25%],
+  )]
+  , kind: table
+  )
   ]
     
 == 3. Character Creation
@@ -622,8 +644,7 @@ With a +2 cap, a third relevant tag is best used for burning or as Tychē Point 
 === 3.5 Beliefs, Instincts, Goals
 - #strong[Belief] --- a moral stance or conviction. \"The law protects the powerful; I protect everyone else.\"
 - #strong[Instinct] --- an if/then reflex. \"Always check the exits when entering a room.\" Acting on an Instinct lets you take that action without spending time.
-#colbreak()
-    - #strong[Goal] --- a concrete objective for this session or mission. \"Get Mara out of the precinct before dawn.\"
+- #strong[Goal] --- a concrete objective for this session or mission. \"Get Mara out of the precinct before dawn.\"
 
 Goals are rewritten each session; Beliefs and Instincts can change at milestones.
 
@@ -642,6 +663,7 @@ Goals are rewritten each session; Beliefs and Instincts can change at milestones
 #strong[Earn Tychē Points by:]
 
 - #strong[Compels] --- the GM or another player offers a meaningful complication based on any character tag (power, weakness, or Scar), Belief, or Instinct. Accept → +1 Tychē Point. Refuse → pay 1 Tychē Point.
+- #strong[Compel yourself] --- propose a compel on one of your own tags, your Belief or your Instinct. If the GM agrees it meets the rules below, take the complication and gain +1 Tychē Point. Facing it can also earn XP (§12.1).
 
 #strong[Compels]
 
@@ -651,7 +673,8 @@ Goals are rewritten each session; Beliefs and Instincts can change at milestones
 - #emph[Feared duellist:] a rival challenges you before an audience whose support you need. #emph[Devoted healer:] you stay to treat a dying enemy and lose the chance to pursue their commander.
 #colbreak()
 === 4.1 Refresh
-- #strong[Base Refresh is 3.] At the start of each session, your Tychē Points reset to your Refresh (if you have more, keep them).
+- #strong[Base Refresh is 3.] At the start of each session, your Tychē Points reset to your Refresh (if you have more, keep them, up to the cap).
+- #strong[Tychē cap.] You can hold at most #strong[Refresh + 3] Tychē Points. Any you would gain above the cap are lost.
 - At creation you get #strong[1 playbook ability and your Tier 1 Focus ability for free];.
 - You may take #strong[up to 2 additional playbook abilities at creation, at 1 Refresh each];.
 - Abilities marked #strong[★ (Major)] cost #strong[1 Refresh] whenever you take them, including through advancement.
@@ -672,7 +695,7 @@ Design intent: power comes at the cost of narrative flexibility. A low-Refresh c
     table.hline(),
     [#strong[Attack];], [1 Power per tier], [Inflict a #strong[Status] (e.g. #emph[wounded-2];, #emph[rattled-1];, #emph[on fire-3];). In a conflict, an Attack removes Disposition equal to its Power + 1 instead (§10.6)],
     [#strong[Weaken];], [1], [Reduce one of the target\'s statuses by 1 tier, or #strong[Burn] one of its tags for the scene],
-    [#strong[Create];], [3], [Create a #strong[Truth] that lasts for the scene (#emph[smoke cover];, #emph[crowd on our side];). It may end sooner if its removal condition is met. One extra Power makes it last until its removal condition is met. State its scope and removal condition (§8)],
+    [#strong[Create];], [3], [Create a #strong[Truth] that lasts for the scene (#emph[smoke cover];, #emph[crowd on our side];). It may end sooner if its removal condition is met. One extra Power makes it last until its removal condition is met. State its scope, rank (1, or 2 for double the Power) and removal condition (§8)],
     [#strong[Enhance];], [1 per tier], [Give an ally a helpful status (#emph[inspired-2];)],
     [#strong[Restore];], [1 per tier], [Reduce a harmful status on yourself or an ally. Lasting injuries have limits (§6.6)],
     [#strong[Discover];], [1], [Ask the GM one question; you get a true, useful answer],
@@ -1050,16 +1073,17 @@ Stabilising doesn't erase marked segments, reduce the injury, refill pools or re
 #columns(2, gutter: 6mm)[
 #strong[Truths] are tags that describe the scene, location, faction, or campaign.
 
-- #strong[Scene Truths:] #emph[Pitch Dark];, #emph[Knee-Deep Water];, #emph[Hostile Crowd];. Each relevant Truth raises or lowers Difficulty by one step (±3), makes an action impossible or possible, or can be invoked with a Tychē Point.
+- #strong[Scene Truths:] #emph[Pitch Dark];, #emph[Knee-Deep Water];, #emph[Hostile Crowd];. Each relevant Truth raises or lowers Difficulty by one step (±3) per rank, makes an action impossible or possible, or can be invoked with a Tychē Point.
+- #strong[Rank.] A Truth is rank 1 unless a number follows its name: #emph[Pitch Dark 2] shifts Difficulty by two steps (±6). Rank 2 is the most a Truth can have; anything stronger makes the action impossible.
+- #strong[Truth cap.] Easier and harder Truths cancel step for step. Whatever is left shifts a roll's Difficulty by at most #strong[three steps] (±9).
 - #strong[Campaign Truths:] 3--5 world statements agreed at session zero (#emph[Magic is real but feared];, #emph[The Corporation owns the police];).
 #colbreak()
-- #strong[Creating Truths:] players use the #strong[Create] effect or spend #strong[2 Momentum];; the GM spends #strong[2 Woe];.
-- #strong[Recording a Truth.] When a Truth is created, or an existing fact first matters mechanically, state its #strong[scope] (the people, objects, place, or circumstances it affects) and its #strong[removal condition]. It only applies within its scope. It also ends when its duration expires; a removal condition never extends a duration (§5). #emph[Smoke fills the courtyard] --- sight-based actions in the courtyard; ends when the smoke clears.
-- #strong[Removing Truths:] use the Weaken or Create effect as a counter (\"I kill the lights\" removes #emph[Brightly Lit];), at GM discretion.
+- #strong[Creating Truths:] players use the #strong[Create] effect or spend #strong[2 Momentum];; the GM spends #strong[2 Woe];. A new Truth is rank 1. Pay the same cost again, at once or later, to raise it to rank 2. The GM may also allow this for an existing Truth when the fiction supports it (#emph[Thick Mist] thickening into #emph[Thick Mist 2]).
+- #strong[Recording a Truth.] When a Truth is created, or an existing fact first matters mechanically, state its #strong[scope] (the people, objects, place, or circumstances it affects), its #strong[rank] and its #strong[removal condition]. It only applies within its scope. It also ends when its duration expires; a removal condition never extends a duration (§5). #emph[Smoke fills the courtyard] --- sight-based actions in the courtyard; ends when the smoke clears.
+- #strong[Removing Truths:] use the Weaken or Create effect as a counter (\"I kill the lights\" removes #emph[Brightly Lit];), at GM discretion. Each counter lowers a Truth by one rank, and a rank-1 Truth that is countered is gone.
 
 See #strong[Module C] for using Truths to drive a sandbox campaign.
 ]
-#pagebreak() 
 == 9. Momentum and Woe
   #columns(2, gutter: 6mm)[
 === 9.1 Momentum (shared by the party, max 6)
@@ -1080,9 +1104,11 @@ See #strong[Module C] for using Truths to drive a sandbox campaign.
   )]
   , kind: table
   )
+
+#strong[Paying with Woe.] When the party is short, any spend in this table except #emph[Reduce Woe] can be paid in whole or in part by giving the GM 1 Woe per Momentum, with the GM's approval. Bonus dice can always be paid this way (§2.4).
 #colbreak()
 === 9.2 Woe (the GM\'s pool)
-#strong[Starting Woe:] 2 per PC at the start of a session. #strong[GM gains Woe from:] players buying dice with Woe, Success at a Cost (if chosen), failures (+1), complications from doubles (+2), refused compels, and dangerous scene Truths (+1 per scene).
+#strong[Starting Woe:] 2 per PC at the start of a session. #strong[GM gains Woe from:] players buying dice or other Momentum spends with Woe, Success at a Cost (if chosen), failures (+1), complications bought off (+2), refused compels, Escalation (+1, §9.3), and dangerous scene Truths (+1 per scene).
 
 #figure(
   [#table(
@@ -1097,9 +1123,18 @@ See #strong[Module C] for using Truths to drive a sandbox campaign.
     [Create a Truth], [2],
     [Reinforcements], [1 per minion, 3 for a significant NPC],
     [Interrupt in a conflict (change an NPC\'s scripted action)], [3],
+    [Cancel an NPC's complication from the dice (§2.6)], [2],
+    [Make a roll Risky 1, or raise its Risk by 1 (§2.7)], [1],
   )]
   , kind: table
   )
+
+=== 9.3 Escalation
+Some acts and items make a situation more dangerous just by being there. They carry the #strong[Escalation] tag. It gives no bonus and doesn't count toward the tag cap.
+
+- #strong[Escalation items.] Openly carrying an Escalation item into a scene gives the GM #strong[+1 Woe], once per item per scene. An item hidden before the scene starts doesn't count until it's drawn.
+- #strong[Escalation actions.] Declaring an Escalation action (reading a forbidden text, waking a dead machine, breaking a sacred taboo) gives the GM #strong[+1 Woe] before any roll.
+- #strong[Keep it rare.] A playbook's starting kit should hold no more than one or two Escalation items. Settings list their own.
 ]
 
 == 10. Conflict System
@@ -1421,7 +1456,7 @@ Settings rename and reskin playbooks (Adept becomes \"Hedge Witch\" in fantasy, 
 - Did your #strong[Instinct] get you into trouble or save the day?
 - Did you face consequences from a #strong[weakness tag or Scar];?
 
-#strong[MVP vote:] the table votes on one standout moment each session; that player gets +1 Tychē Point at the next session (above Refresh).
+#strong[MVP vote:] the table votes on one standout moment each session; that player gets +1 Tychē Point at the next session (above Refresh, within the cap).
 
 #colbreak()
 === 12.2 Spending XP (every 6 XP = 1 Advance)
@@ -1461,7 +1496,7 @@ Settings rename and reskin playbooks (Adept becomes \"Hedge Witch\" in fantasy, 
     [#strong[:Otherscape];], [Power/weakness tags, statuses with tiers, effects, burning tags], [Power comes from roll margin; tag cap +2], [Themebooks, Improve/Abandon tracks],
     [#strong[Mouse Guard];], [Full conflict scripting, Disposition, compromise, BIG, weapons as action bonuses, the Grind (Module B)], [Disposition from 2d12; actions spend Power], [Nature, Persona],
     [#strong[Blades];], [Playbooks, resistance, stress-as-currency, clocks, load-out], [Stress tracks are the four pools], [Action dice pools, Position/Effect grid, crew sheets],
-    [#strong[2d20];], [Momentum, Woe, Truths, sandbox Truth tools (Module C)], [Momentum from unspent Power; Truths shift Difficulty], [d20 roll-under, complication range],
+    [#strong[2d20];], [Momentum, Woe, Truths, Module C, buy-offs, Escalation], [Momentum from unspent Power; Truths shift Difficulty; complication range → Risk die (§2.7)], [d20 roll-under],
   )]
   , kind: table
   )
@@ -1634,7 +1669,7 @@ Truths become the backbone of an open-world campaign: regions, sites, and factio
 === C.2 Site Sheets
 Each location gets a short sheet:
 
-- #strong[3 Truths] (at least one hidden)
+- #strong[3 Truths] (at least one hidden; at most one at rank 2)
 - #strong[A Woe seed:] 1--3 Woe the GM adds when the party arrives
 - #strong[A danger clock] (what happens if the party lingers)
 - #strong[A secret] (something worth discovering)
@@ -2103,6 +2138,7 @@ Before a mission, choose your #strong[load];. During play, declare items from yo
 - Every item is a #strong[power tag] when it\'s relevant, e.g. #emph[crowbar] helps Athletics to force a door. Item tags count toward the #strong[+2 tag cap];.
 - #strong[Weapons] also give one or more #strong[conflict action tags] (Core Rules §10.8), e.g. #emph[+1 Attack];.
 - #strong[Quality:] a fine or advanced item gives one extra benefit listed in its entry (it doesn\'t raise the cap).
+- #strong[Escalation:] some items carry the #emph[Escalation] tag (Core Rules §9.3). Carried openly into a scene, each gives the GM 1 Woe.
 
 === 2.3 Armour and Shields
 #figure(
@@ -3409,7 +3445,7 @@ Off-type combinations are encouraged: an #emph[Interlocutor who Masters a Weapon
 
 #columns(2,gutter:6mm)[
 == The Roll
-*2d12 + Skill + Modifiers vs. Difficulty.* Skill +0 to +4. Power tags +1 each, *maximum +2 per roll* (tag-cap exceptions: maximum +3). Weakness tags −1 each, no cap. Statuses ± tier. Truths shift Difficulty, not the roll (Core Rules §2.1).
+*2d12 + Skill + Modifiers vs. Difficulty.* Skill +0 to +4. Power tags +1 each, *maximum +2 per roll* (tag-cap exceptions: maximum +3). Weakness tags −1 each, no cap. Statuses ± tier. Truths shift Difficulty, not the roll: one step per rank (max rank 2), *±3 steps at most* (Core Rules §2.1, §8).
 
 == Difficulty
 #table(columns: (1fr, auto),
@@ -3426,7 +3462,7 @@ Unspent Power becomes *Momentum* (party pool, max 6).
 ,
 
 == Doubles (Twists)
-If the two kept dice match: on a success, a *Critical* (+1 Power and a flourish). On a failure or cost, a *Complication* (GM gains 2 Woe or adds a complication now). *Double 12s* always succeed with +2 Power. *Double 1s* always bring a complication.
+If the two kept dice match: on a success, a *Critical* (+1 Power and a flourish). On a failure or cost, a *Complication*. *Double 12s* always succeed with +2 Power. *Double 1s* always bring a complication. *Buy off* a complication from the dice by giving the GM 2 Woe; the GM spends 2 Woe to cancel an NPC's. *Risky 1--3* (optional): roll a Risk die; at or under the rating, a complication.
 #colbreak()
 == Bonus Dice
 Keep the best two dice; maximum +2 bonus dice.

@@ -200,9 +200,9 @@
       #text(fill: dust)[\*Renamed per setting. A skill's default pool pays its Effort and Resistance; the GM may allow another pool when the fiction fits.]
     ]
     note[
-      *Roll 2d12 + Skill + Tags (max +2) ± Status* vs. Difficulty: Easy 12 · Standard 15 · Hard 18 · Formidable 21 · Heroic 24. Truths shift Difficulty ±3. \
+      *Roll 2d12 + Skill + Tags (max +2) ± Status* vs. Difficulty: Easy 12 · Standard 15 · Hard 18 · Formidable 21 · Heroic 24. Truths shift Difficulty ±3 per rank (±9 max). \
       *Meet it:* Success, 1 Power (+1 per full 3 over). *Miss by 1–3:* Success at a Cost (a consequence or GM +1 Woe, your choice). *Miss by 4+:* Failure, GM +1 Woe. \
-      *Doubles:* success +1 Power; failure or cost, GM +2 Woe or a complication. Double 12s: success, +2 Power. Double 1s: always a complication. \
+      *Doubles:* success +1 Power; failure or cost, a complication (buy off: GM +2 Woe). Double 12s: success, +2 Power. Double 1s: always a complication. \
       *Bonus dice:* Effort · Momentum (1, then 2) · give the GM 1 Woe · Help. Unspent Power → party *Momentum* (max 6).
     ]
   },
@@ -227,8 +227,8 @@
       stack(spacing: 2.5pt, box(width: 100%, height: 30pt, stroke: 0.6pt + dust, fill: field-bg, radius: 2pt), align(center, lbl[Refresh])),
       text(size: 6.8pt)[
         *Spend 1:* Invoke (reroll all, or +2 after rolling) · Declare a minor fact · Resist harder (cost 0). \
-        *Earn:* accept a meaningful compel on any tag, Belief or Instinct (+1; refuse = pay 1) · your Belief costs you (1/session) · MVP vote (+1 next session). \
-        #text(fill: dust)[Refresh base 3, minimum 1.]
+        *Earn:* accept a meaningful compel on any tag, Belief or Instinct, or compel yourself (+1; refuse = pay 1) · your Belief costs you (1/session) · MVP vote (+1 next session). \
+        #text(fill: dust)[Refresh base 3, minimum 1. Hold at most Refresh + 3.]
       ])
   })
 

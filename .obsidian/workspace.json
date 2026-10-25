@@ -13,13 +13,26 @@
             "state": {
               "type": "typst-source",
               "state": {
-                "file": "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ"
+                "file": "docs/2d12System/the-2d12-system-v2-core-rulebook.typ"
               },
               "icon": "file-type",
-              "title": "testament-of-dust-v2-setting-book"
+              "title": "the-2d12-system-v2-core-rulebook"
+            }
+          },
+          {
+            "id": "d6a11289309a236e",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "docs/2d12System/the-2d12-system-v2-core-rulebook.typ"
+              },
+              "icon": "file-type",
+              "title": "the-2d12-system-v2-core-rulebook"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "22d9c47ef0428a89",
@@ -31,12 +44,12 @@
             "state": {
               "type": "typst-preview",
               "state": {
-                "vaultPath": "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ",
+                "vaultPath": "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
                 "themeOverride": null,
                 "pinned": false
               },
               "icon": "book-open",
-              "title": "Preview: testament-of-dust-v2-setting-book.typ"
+              "title": "Preview: the-2d12-system-v2-core-rulebook.typ"
             }
           }
         ]
@@ -204,15 +217,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "9ee59ce1c5463758",
+  "active": "d6a11289309a236e",
   "lastOpenFiles": [
+    "docs/2d12System/the-2d12-system-v2-core-rulebook.pdf",
+    "docs/AetasObscura/esoteric_order_of_dagon.md",
+    "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
+    "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ",
     "docs/TestamentOfDust/testament-of-dust-v2-setting-book.pdf",
     "docs/TestamentOfDust/2d12-character-sheet-v2.typ",
     "docs/TestamentOfDust/2d12-character-sheet-v2.pdf",
     "docs/TestamentOfDust/testament-of-dust-descriptors.md",
-    "docs/2d12System/the-2d12-system-v2-core-rulebook.pdf",
-    "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
-    "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ",
     "docs/2d12System/art/playbooks/generic/06-adept.png",
     "README.md",
     "docs/Grendel/GRENDEL_Consolidated_Master_Rulebook.md",
@@ -250,7 +264,6 @@
     "docs/VampireHunterD/vhd-descriptors.md",
     "docs/VampireHunterD/playbooks.md",
     "docs/VampireHunterD/focuses.md",
-    "docs/VampireHunterD/How do pools regenerate. How does resting work.md",
-    "docs/VampireHunterD/2d12-system-proposal.md"
+    "docs/VampireHunterD/How do pools regenerate. How does resting work.md"
   ]
 }

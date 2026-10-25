@@ -642,7 +642,6 @@ Goals are rewritten each session; Beliefs and Instincts can change at milestones
 #strong[Earn Tychē Points by:]
 
 - #strong[Compels] --- the GM or another player offers a meaningful complication based on any character tag (power, weakness, or Scar), Belief, or Instinct. Accept → +1 Tychē Point. Refuse → pay 1 Tychē Point.
-- #strong[Playing your Belief against your interests] (Mouse Guard): once per session, take +1 Tychē Point when your Belief causes trouble for you.
 
 #strong[Compels]
 

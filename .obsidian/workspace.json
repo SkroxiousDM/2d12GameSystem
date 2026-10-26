@@ -4,42 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "c4ef9ceb7146355c",
+        "id": "ba7150aa64378838",
         "type": "tabs",
+        "dimension": 46.65757162346521,
         "children": [
           {
-            "id": "9ee59ce1c5463758",
+            "id": "834813745a238ca3",
             "type": "leaf",
             "state": {
-              "type": "typst-source",
+              "type": "markdown",
               "state": {
-                "file": "docs/2d12System/the-2d12-system-v2-core-rulebook.typ"
+                "file": "CONTRIBUTING.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "file-type",
-              "title": "the-2d12-system-v2-core-rulebook"
-            }
-          },
-          {
-            "id": "d6a11289309a236e",
-            "type": "leaf",
-            "state": {
-              "type": "typst-source",
-              "state": {
-                "file": "docs/2d12System/the-2d12-system-v2-core-rulebook.typ"
-              },
-              "icon": "file-type",
-              "title": "the-2d12-system-v2-core-rulebook"
+              "icon": "lucide-file",
+              "title": "CONTRIBUTING"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "22d9c47ef0428a89",
+        "id": "0c9ccba4eae04618",
         "type": "tabs",
+        "dimension": 53.34242837653479,
         "children": [
           {
-            "id": "4939a03b6e8a4ece",
+            "id": "61b02e5c5a67ddfa",
             "type": "leaf",
             "state": {
               "type": "typst-preview",
@@ -217,11 +218,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "d6a11289309a236e",
+  "active": "834813745a238ca3",
   "lastOpenFiles": [
+    "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
     "docs/2d12System/the-2d12-system-v2-core-rulebook.pdf",
     "docs/AetasObscura/esoteric_order_of_dagon.md",
-    "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
     "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ",
     "docs/TestamentOfDust/testament-of-dust-v2-setting-book.pdf",
     "docs/TestamentOfDust/2d12-character-sheet-v2.typ",

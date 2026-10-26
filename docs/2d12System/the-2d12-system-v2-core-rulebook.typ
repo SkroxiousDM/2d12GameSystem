@@ -74,7 +74,7 @@
 })
 
 // ---------------------------------------------------------------- base text
-#set text(font: body-font, size: 10.4pt, fill: ink, lang: "en", region: "CA",
+#set text(font: body-font, size: 10.3pt, fill: ink, lang: "en", region: "CA",
   hyphenate: true, number-type: "old-style")
 #set par(justify: true, leading: 0.62em, spacing: 0.95em)
 #show "★": it => text(font: symbol-font, size: 0.85em, fill: ember, it)
@@ -108,7 +108,7 @@
 }
 
 #set page(paper: "us-letter", fill: paper,
-  margin: (top: 1.5cm, bottom: 1.5cm, inside: 2cm, outside: 1.7cm),
+  margin: (top: 1.5cm, bottom: 1.5cm, inside: 2cm, outside: 1.5cm),
   header: running-header, footer: running-footer, header-ascent: 35%, footer-descent: 35%)
 
 // ---------------------------------------------------------------- headings
@@ -331,12 +331,12 @@ Testament of Dust is my own answer to some of those questions, but I did not arr
   [The 2d12 System is a setting-neutral engine for tabletop roleplaying. This chapter explains what this book contains, how its rules are named and how settings build on it.],
   epigraph: [Roll 2d12 + Skill + Modifiers vs. Difficulty.])
 
-#columns(2, gutter: 6mm)[
+#columns(2, gutter: 5mm)[
 == About This Book
 
-This core rulebook holds the complete, setting-neutral rules of the 2d12 System: the engine, three optional modules, and generic Descriptors, Playbooks and Focuses that work in any genre. Setting books, such as #emph[Testament of Dust], build on it and need it to play.
+This core rulebook holds the complete, setting-neutral rules of the 2d12 System: the engine, three optional modules, and generic Descriptors, Playbooks and Focuses that work in any genre.
 
-#figure(table(columns: (13%, 30%, 57%),
+#figure(table(columns: (10%, 20%, 70%),
   table.header([Ch.], [Chapter], [Contents]),
   [I], [Introduction], [Terminology, renamed stats, notation, settings],
   [II], [Core Rules], [The 2d12 roll, character creation, Tychē Points, Effects, Resistance and recovery, clocks, Truths, Momentum and Woe, the conflict system, playbooks, advancement],
@@ -348,7 +348,18 @@ This core rulebook holds the complete, setting-neutral rules of the 2d12 System:
 ))
 
 When a rule here mentions another chapter, it uses that chapter's name and section number. For example, *Core Rules §4.1* means Chapter II, section 4.1. A bare reference such as *§6* points to a section in the same chapter. Setting books use the same chapter names when they refer back to this book.
-#colbreak()
+== Notation
+
+- *★ Major.* An ability that costs *1 Refresh* when you take it, at creation or through advancement.
+- *◆ Capstone.* Unlocked after *12 Advances* if you have at least 4 abilities from that playbook. It costs no Refresh, and each character can have one.
+- *◈ Weird.* A Focus that assumes the supernatural, strange technology or other weird elements. Each setting decides which ◈ Focuses it allows and how its world reacts to them.
+- *Tags* are written in _italics_, such as _scarred knuckles_. *Statuses* add a tier, such as _wounded-2_.
+- *Difficulty* is written by name and target, such as *Standard 15* or *Hard 18*.
+
+#sidebar("Settings")[
+  The 2d12 System has no setting of its own. A setting book adds Campaign Truths, a skill list, its own Descriptors, Playbooks and Focuses, and special rules for its creatures and dangers. Where a setting rule and a general rule conflict, the setting rule wins. The first setting is #emph[Testament of Dust], a post-apocalyptic frontier gothic.
+]
+ #colbreak() 
 == Terminology and Renamed Stats
 
 The source documents used the working names on the left. This book uses the house names on the right everywhere: in rules text, tables, abilities, gear and playbook names.
@@ -379,17 +390,7 @@ The source documents used the working names on the left. This book uses the hous
 - *Names left as they are.* In-world names that use the everyday words keep them, because they describe the fiction rather than a stat: the *Spirit Duel* conflict type and the abilities *Spirit Sight* and *Steady Mind*. Credits to the source games (Fate, Fate Core, 2d20) also keep their original names.
 
 #colbreak()
-== Notation
 
-- *★ Major.* An ability that costs *1 Refresh* when you take it, at creation or through advancement.
-- *◆ Capstone.* Unlocked after *12 Advances* if you have at least 4 abilities from that playbook. It costs no Refresh, and each character can have one.
-- *◈ Weird.* A Focus that assumes the supernatural, strange technology or other weird elements. Each setting decides which ◈ Focuses it allows and how its world reacts to them.
-- *Tags* are written in _italics_, such as _scarred knuckles_. *Statuses* add a tier, such as _wounded-2_.
-- *Difficulty* is written by name and target, such as *Standard 15* or *Hard 18*.
-
-#sidebar("Settings")[
-  The 2d12 System has no setting of its own. A setting book adds Campaign Truths, a skill list, its own Descriptors, Playbooks and Focuses, and special rules for its creatures and dangers. Where a setting rule and a general rule conflict, the setting rule wins. The first setting is #emph[Testament of Dust], a post-apocalyptic frontier gothic.
-]
 ]
 // =====================================================================
 //  CHAPTER — CORE RULES
@@ -521,11 +522,11 @@ If your two #strong[kept] dice show the same number:
 - #strong[On a failure or cost:] Complication --- the GM introduces a complication right away.
 - #strong[Double 12s:] always a success with +2 Power. #strong[Double 1s:] always a complication, even on a success.
 - #strong[Buying it off.] When the dice give you a complication (a twist, or a Risky roll, §2.7), you may cancel it by giving the GM #strong[2 Woe]: a problem now, or a problem later. If you keep it and the GM can't think of a fitting complication, the GM gains the 2 Woe instead.
+#colbreak()
 - #strong[NPCs.] When the dice give an NPC a complication, the GM may spend #strong[2 Woe] to cancel it. Otherwise the GM describes the complication, or invites the players to.
 
 Base chance of doubles on 2d12 is about 8% (1 in 12).
 
-#colbreak()
 === 2.7 Risky Rolls (Optional)
 Some rolls aren't harder, just more dangerous. Before a roll, the GM may call it #strong[Risky 1], #strong[2] or #strong[3].
 
@@ -630,12 +631,12 @@ The playbook\'s anchor skill must sit at +3 or +4. The pyramid rule (each tier m
 \*Arcana is renamed per setting: Mysticism, Faith, Psionics, Weirdness, or removed entirely in mundane games.
 
 The default pool pays for Effort and Resistance. The GM can allow another pool when the fiction supports it (Intimidate with Sōma = looming; with Pneuma = cold menace).
-
 === 3.4 Tags
 Characters carry 6--8 #strong[character tags] from Descriptor, Focus, and Playbook:
 
 - #strong[Power tags] (e.g. #emph[ex-navy marksman];, #emph[silver tongue];, #emph[grandfather\'s revolver];): +1 each when relevant, #strong[max +2 per roll];.
 - #strong[Weakness tags] (e.g. #emph[owes the wrong people];, #emph[bad knee];): −1 when relevant, or compel for a Tychē Point (§4).
+#colbreak()
 - #strong[Any tag can be compelled.] A power tag can also cause trouble when its meaning creates a concrete complication. It keeps its normal benefits (§4).
 - #strong[Burning a tag:] mark a power tag as burned to gain an automatic +1 Power on a success. It stays unusable until you recover it (a downtime action or a milestone). Burning ignores the +2 cap.
 
@@ -671,14 +672,16 @@ Goals are rewritten each session; Beliefs and Instincts can change at milestones
 - #strong[Clear offer.] Before you accept, know which tag justifies it, what will happen, and what it commits your character to. You otherwise control how your character responds.
 - #strong[Limits.] A compel must follow from the tag's established meaning. It adds no numerical penalty, can't cancel a success already resolved, and an existing penalty doesn't earn Tychē just because a tag explains it.
 - #emph[Feared duellist:] a rival challenges you before an audience whose support you need. #emph[Devoted healer:] you stay to treat a dying enemy and lose the chance to pursue their commander.
-#colbreak()
+
 === 4.1 Refresh
 - #strong[Base Refresh is 3.] At the start of each session, your Tychē Points reset to your Refresh (if you have more, keep them, up to the cap).
 - #strong[Tychē cap.] You can hold at most #strong[Refresh + 3] Tychē Points. Any you would gain above the cap are lost.
 - At creation you get #strong[1 playbook ability and your Tier 1 Focus ability for free];.
+#colbreak()
 - You may take #strong[up to 2 additional playbook abilities at creation, at 1 Refresh each];.
 - Abilities marked #strong[★ (Major)] cost #strong[1 Refresh] whenever you take them, including through advancement.
 - An #strong[attuned artifact] (Module A) costs 1 Refresh while you keep it.
+#colbreak()
 - #strong[Minimum Refresh is 1.] You can never trade away your last Tychē Point.
 - The advancement option \"+1 Refresh\" (§12) lets you buy Refresh back.
 
@@ -715,14 +718,15 @@ Any unspent Power → #strong[Momentum];.
 - #strong[Recording a status.] When you create a status, record its name and tier, its #strong[scope] (who or what it affects, and in which circumstances), and its #strong[removal condition] (the event, recovery, treatment, or change that ends it). The scope must follow from the fiction. Normal recovery and removal rules still apply. #emph[Mapped patrol routes-2] --- evading the patrols you watched; ends when the routes change.
 - #strong[Stacking:] a new status of the same kind raises the existing tier by the new tier minus 1 (minimum +1), so small hits accumulate slowly.
 - #strong[Tier 6:] the target is #strong[Taken Out] of whatever that status represents (dead, unconscious, captured, convinced, routed), within the status's scope. A harmful status reaching tier 6 also gives one #strong[Scar] (§6.3). Death needs a lethal cause and established stakes.
-- Statuses modify rolls by #strong[± their tier] (use only the highest relevant harmful status and the highest relevant helpful status).
 #colbreak()
+- Statuses modify rolls by #strong[± their tier] (use only the highest relevant harmful status and the highest relevant helpful status).
+
 - #strong[Same kind.] Harm is the same kind when it worsens the same injury, affliction or condition. Renaming it doesn't stop it stacking: another cut worsens #emph[wounded], renewed menace worsens #emph[terrified], but a fresh burn needn't stack with a concussion. The GM says whether new harm stacks #strong[before] you decide to Resist or accept an injury (§10.9).
 - #strong[Order.] Resistance and armour reduce incoming harm before it stacks. Harm reduced to tier 0 isn't recorded and doesn't stack. A status can't go above tier 6; extra tiers have no effect unless a rule says so.
 - #strong[What it hinders.] A status modifies only rolls within its recorded scope: #emph[slashed thigh-3] hinders running and climbing, not reading a ledger. A status can also decide what is possible: no roll lets you use a hand you no longer have. If circumstances change, review its scope; don't broaden it just because its name allows another reading.
 - #strong[Life-threatening harm.] A physical status that reaches tier 6 can make you #strong[Dying] when lethal stakes are in play (§6.7).
 ]
-
+#pagebreak()
 == 6. Resistance, Harm and Recovery
   #columns(2, gutter: 6mm)[
 When a consequence lands on you (a status, lost gear, a bad position), you may #strong[Resist];:
@@ -838,7 +842,7 @@ Overrun beyond tier 6 has no extra effect unless a rule or an established stake 
 + At tier 6, apply the status's scope, then record one Scar (§6.3).
 + Recover the pool and the status separately (§6.5).
 ]
-
+#colbreak()
 === 6.2 Running-Dry Statuses
 The status must fit both the pool and the action that drained it:
 
@@ -944,7 +948,6 @@ Recovery follows four successive rest stages:
 - #strong[Running dry has no automatic refill.] A pool at 0 comes back through these rests in the normal way. Its running-dry status recovers separately, as described below.
 
 #strong[Recovering running-dry statuses.] Restoring a pool doesn't clear its running-dry status, and clearing the status doesn't refill the pool. When you first record the status, choose its category:
-
 - #strong[Depletion] (exhaustion, strain, temporary overload): the default, unless the source makes it an injury or affliction. It recovers through rest, as described below.
 - #strong[Injury] (real physical damage): recovers through treatment, Restore and healing time, like any wound.
 - #strong[Affliction] (supernatural or ongoing cause): recovers only as its source allows.
@@ -964,8 +967,6 @@ Winning a conflict, ending a scene or setting fresh Disposition is #strong[not a
 #strong[Advance option --- Hardened] #emph[(6 XP, one-time)]
 
 Recover #strong[1 additional point] whenever you make a recovery roll. This Advance may be taken only once. It does not change the fourth rest\'s full recovery.
-
-
 
 === 6.6 Treatment and Healing
 
@@ -1049,11 +1050,15 @@ Stabilising doesn't erase marked segments, reduce the injury, refill pools or re
 #strong[Immediate death.] Use it only when the established outcome leaves no plausible time for rescue, or a specific killing method calls for it (such as a creature's killing strike in a setting book). Announce that danger before the roll, and allow Resistance, escape or interruption. Once such an outcome is fully resolved, don't add a Dying clock to undo it; equally, don't skip the clock for an ordinary mortal wound just because the description is graphic.
 
 #strong[Setting-specific harm.] If a setting gives a condition (such as blood loss) its own tiers and stabilising rules, use those instead of a Dying clock, not as well.
-#colbreak()
+
+    
 === 6.8 Permanent Harm
 #strong[Where it comes from.] An injury doesn't become permanent just because its tier is high. Permanent harm needs an established permanent-injury stake, a specific effect or creature rule, a voluntary bargain, or a Scar-giving event. Tier 6 always gives a Scar (§6.3), but never by itself severs a limb, destroys an organ, lowers a maximum pool or causes any other permanent mechanical loss.
 
-#strong[The wound heals; the loss stays.] A permanent change can outlast the injury that caused it. When #emph[severed hand-4] has healed, the hand is still gone: the status measured the acute wound. Record the lasting change as a tag or a character fact, not as a status that never heals.
+#strong[The wound heals; the loss stays.] A permanent change can outlast the injury that caused it. When #emph[severed hand-4] has
+
+healed, the hand is still gone: the status measured the acute
+wound. Record the lasting change as a tag or a character fact, not as a status that never heals.
 
 #strong[Adapting.] Training, help, prostheses, old-world works or supernatural intervention can change how permanent harm affects play. A replacement doesn't automatically remove a related Scar, and a Scar doesn't make a replacement useless. Don't reduce maximum pools, Edge, skills or Refresh unless the effect or an agreed Advance says so.
 ]
@@ -1084,6 +1089,7 @@ Stabilising doesn't erase marked segments, reduce the injury, refill pools or re
 
 See #strong[Module C] for using Truths to drive a sandbox campaign.
 ]
+  
 == 9. Momentum and Woe
   #columns(2, gutter: 6mm)[
 === 9.1 Momentum (shared by the party, max 6)
@@ -1106,7 +1112,7 @@ See #strong[Module C] for using Truths to drive a sandbox campaign.
   )
 
 #strong[Paying with Woe.] When the party is short, any spend in this table except #emph[Reduce Woe] can be paid in whole or in part by giving the GM 1 Woe per Momentum, with the GM's approval. Bonus dice can always be paid this way (§2.4).
-#colbreak()
+
 === 9.2 Woe (the GM\'s pool)
 #strong[Starting Woe:] 2 per PC at the start of a session. #strong[GM gains Woe from:] players buying dice or other Momentum spends with Woe, Success at a Cost (if chosen), failures (+1), complications bought off (+2), refused compels, Escalation (+1, §9.3), and dangerous scene Truths (+1 per scene).
 
@@ -1133,6 +1139,7 @@ See #strong[Module C] for using Truths to drive a sandbox campaign.
 Some acts and items make a situation more dangerous just by being there. They carry the #strong[Escalation] tag. It gives no bonus and doesn't count toward the tag cap.
 
 - #strong[Escalation items.] Openly carrying an Escalation item into a scene gives the GM #strong[+1 Woe], once per item per scene. An item hidden before the scene starts doesn't count until it's drawn.
+#colbreak()
 - #strong[Escalation actions.] Declaring an Escalation action (reading a forbidden text, waking a dead machine, breaking a sacred taboo) gives the GM #strong[+1 Woe] before any roll.
 - #strong[Keep it rare.] A playbook's starting kit should hold no more than one or two Escalation items. Settings list their own.
 ]
@@ -1168,15 +1175,14 @@ Preparation can weaken an opponent's position before a conflict begins. Gain 1 S
 
 - #strong[Know Thy Foe:] Obtain information that reveals an exploitable weakness, motive, fear, or vulnerability.
 - #strong[Know Thy Battlefield:] Secure an advantageous position or understand circumstances that materially favour your approach.
+
 - #strong[Know Thy Players:] Put a plan, alliance, resource, or other preparation into place that materially improves your position.
 
 Each category grants Superiority only once. Preparation must apply to the opposing side and the declared stakes of the conflict.
 
 After calculating starting Disposition and applying all other modifiers, reduce the opposing side's starting Disposition by your Superiority, to a minimum of 1. This adjusted value is its starting Disposition for all purposes, including recovery and compromise.
-#colbreak()
-Superiority is not tracked or spent after the conflict begins.
-
-Abilities retain their normal benefits when their results also qualify for Superiority. Evaluate the concrete information, position, or preparation—not the ability’s name. Rephrasing one advantage does not create additional categories; additional categories require distinct material advantages. Determine Superiority only at conflict setup.
+  
+Superiority is not tracked or spent after the conflict begins. Abilities retain their normal benefits when their results also qualify for Superiority. Evaluate the concrete information, position, or preparation—not the ability’s name. Rephrasing one advantage does not create additional categories; additional categories require distinct material advantages. Determine Superiority only at conflict setup.
 ]
   
 === 10.4 Conflict Types
@@ -1204,7 +1210,7 @@ Abilities retain their normal benefits when their results also qualify for Super
 === 10.5 Scripting and Volleys
 Each #strong[exchange] is three #strong[volleys];. Each side secretly #strong[scripts] three actions in order, then they are revealed one volley at a time.
 
-- #strong[Rotation:] every team member must act once in an exchange before anyone acts twice (Mouse Guard rule).
+- #strong[Rotation:] every team member must act once in an exchange before anyone acts twice.
 - #strong[Changing your script:] spend 2 Momentum (players) or 3 Woe (GM) to swap one unrevealed action.
 - #strong[Independent:] roll against Standard 15 (adjusted by Truths and the opposition\'s tags).
 - #strong[Versus:] both sides roll; the higher total wins, and the margin over the loser\'s total decides Power (meet = 1, +1 per full 3).
@@ -1396,7 +1402,7 @@ The listed tier doesn't apply to every member of the winning side; the costs say
 + Check removal, victory and mutual defeat. Before the next roll, either side may offer a concession.
 + Settle compromise (§10.12).
 + Afterwards, recover each layer by its own procedure (§6.5, §6.6).
-#colbreak()
+
 #strong[Which rule wins.]
 + Explicit amendments and replacements in this damage cycle.
 + Current creature-specific rules and explicitly revised abilities.
@@ -1404,7 +1410,7 @@ The listed tier doesn't apply to every member of the winning side; the costs say
 + Earlier general rules.
 
 A rule overrides another only on the subject it addresses. An ability that heals a status doesn't also restore Disposition, refresh an injury trade or erase a Scar.
-#colbreak()
+
 === 10.15 Keeping It Fast
 - Disposition of 8--11 should resolve in two or three exchanges.
 - NPC sides script on index cards; minions act as a single group with one script.
@@ -1413,7 +1419,7 @@ A rule overrides another only on the subject it addresses. An ability that heals
   
 
 == 11. Playbooks
-#columns(2, gutter: 6mm)[
+#columns(2, gutter: 5mm)[
 Each playbook is a one-page sheet with:
 
 - #strong[Base pools and Edge]
@@ -1425,7 +1431,7 @@ Each playbook is a one-page sheet with:
 - #strong[Relationship prompts:] 1 ally and 1 rival
 Settings rename and reskin playbooks (Adept becomes \"Hedge Witch\" in fantasy, \"Netrunner\" in cyberpunk) but keep the structure.
 ]
-  
+ 
 === 11.1 Generic Core Playbooks
 #figure(
   [#table(
@@ -1469,15 +1475,14 @@ Settings rename and reskin playbooks (Adept becomes \"Hedge Witch\" in fantasy, 
 - #strong[+1 Effort Level] (to Level 2 after 3 Advances; Level 3 after 9 Advances)
 ]
 
-#pagebreak()
+
 == 13. Example of Play
-#columns(2, gutter: 6mm)[
+#columns(2, gutter: 5mm)[
 #strong[Kade];, a #emph[Reckless Furcifer who Never Leaves Anyone Behind] (Akmē Edge 1, Effort Level 2), is creeping through a warehouse to free a captured friend. Scene Truths: #emph[Dim Lighting];, #emph[Patrolling Guards];.
 
 - #strong[Roll:] Stealth +3, power tag #emph[quiet boots] +1, power tag #emph[knows this district] +1 (tags capped at +2). The GM sets Hard 18 but #emph[Dim Lighting] lowers it to Standard 15. Kade needs 10+ on the dice.
 - #strong[Effort, part 1:] Kade spends 3 − 1 Edge = 2 Akmē for a bonus die → 3d12 keep 2.
 - #strong[Result:] dice show 9, 9, 4 → keep 9 + 9 = 18, +5 = 23. That\'s 8 over → #strong[3 Power];, plus #strong[doubles on a success → +1 = 4 Power];.
-#colbreak()
 - #strong[Effort, part 2:] Kade spends another 2 Akmē for #strong[+1 Power → 5 Power];.
 - #strong[Spend:] Advance the #emph[Reach the Cell] clock by 3 (3 Power), Discover (1 Power): \"Where is the key?\" --- \"On the sergeant\'s belt.\" 1 Power left → #strong[+1 Momentum];.
 - #strong[Later:] the sergeant\'s dread patron, a bound spirit, lashes out with #emph[terror-3];. Kade Resists with #strong[Pneuma] (Edge 0), so 2d12: highest die 7 → cost 2 Pneuma. The status drops to #emph[terror-1];.

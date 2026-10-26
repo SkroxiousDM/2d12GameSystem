@@ -4,53 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "ba7150aa64378838",
+        "id": "3ac15bb9b6cf7bb9",
         "type": "tabs",
-        "dimension": 46.65757162346521,
         "children": [
           {
-            "id": "834813745a238ca3",
+            "id": "a97ee5e1252bae34",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "typst-source",
               "state": {
-                "file": "CONTRIBUTING.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "docs/2d12System/the-2d12-system-v2-core-rulebook.typ"
               },
-              "icon": "lucide-file",
-              "title": "CONTRIBUTING"
-            }
-          }
-        ]
-      },
-      {
-        "id": "0c9ccba4eae04618",
-        "type": "tabs",
-        "dimension": 53.34242837653479,
-        "children": [
-          {
-            "id": "61b02e5c5a67ddfa",
-            "type": "leaf",
-            "state": {
-              "type": "typst-preview",
-              "state": {
-                "vaultPath": "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
-                "themeOverride": null,
-                "pinned": false
-              },
-              "icon": "book-open",
-              "title": "Preview: the-2d12-system-v2-core-rulebook.typ"
+              "icon": "file-type",
+              "title": "the-2d12-system-v2-core-rulebook"
             }
           }
         ]
@@ -218,16 +184,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "834813745a238ca3",
+  "active": "a97ee5e1252bae34",
   "lastOpenFiles": [
-    "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
     "docs/2d12System/the-2d12-system-v2-core-rulebook.pdf",
+    "docs/TestamentOfDust/testament-of-dust-descriptors.md",
+    "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
+    "CONTRIBUTING.md",
     "docs/AetasObscura/esoteric_order_of_dagon.md",
     "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ",
     "docs/TestamentOfDust/testament-of-dust-v2-setting-book.pdf",
     "docs/TestamentOfDust/2d12-character-sheet-v2.typ",
     "docs/TestamentOfDust/2d12-character-sheet-v2.pdf",
-    "docs/TestamentOfDust/testament-of-dust-descriptors.md",
     "docs/2d12System/art/playbooks/generic/06-adept.png",
     "README.md",
     "docs/Grendel/GRENDEL_Consolidated_Master_Rulebook.md",
@@ -264,7 +231,6 @@
     "docs/VampireHunterD/vhd-focuses.md",
     "docs/VampireHunterD/vhd-descriptors.md",
     "docs/VampireHunterD/playbooks.md",
-    "docs/VampireHunterD/focuses.md",
-    "docs/VampireHunterD/How do pools regenerate. How does resting work.md"
+    "docs/VampireHunterD/focuses.md"
   ]
 }

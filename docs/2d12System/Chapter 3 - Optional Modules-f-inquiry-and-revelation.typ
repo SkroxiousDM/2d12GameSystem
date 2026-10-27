@@ -1,17 +1,17 @@
 // =====================================================================
 //  CHAPTER III — OPTIONAL MODULES
-//  MODULE D · INQUIRY & REVELATION  (drop-in; paste after Module C)
+//  MODULE F · INQUIRY & REVELATION  (drop-in; paste after Module E)
 //  Uses only helpers from the core file: sidebar(), figure(table(...)).
 // =====================================================================
 
-== Module D: Inquiry & Revelation
+== Module F: Inquiry & Revelation
 
 #columns(2, gutter: 6mm)[
 Use this module when a mystery is the point of the game: a murder, a vanished caravan, a forbidden text, a buried ruin. It separates *finding* from *understanding*. Finding the clue is never the challenge. Reading it correctly is.
 
 The module changes nothing outside Inquiry scenes. Conflicts, travel, Resistance, Momentum and Woe all work as written.
 
-=== D.1 The Core Rule
+=== F.1 The Core Rule
 
 #quote(block: true)[
   If a scene holds a *core clue*, and a character has a fitting skill rated *+1 or higher*, that character finds it. No roll. No cost. No failure.
@@ -22,7 +22,7 @@ The module changes nothing outside Inquiry scenes. Conflicts, travel, Resistance
 - *Description.* The player says what the character does and which skill it uses, or the GM offers the clue unprompted to a character who clearly has it.
 - *Stuck groups.* If nobody has a fitting skill, the clue floats (§D.6) to another source. A core clue is never locked behind a missing skill.
 
-=== D.2 Insight: The Extra Layer
+=== F.2 Insight: The Extra Layer
 
 A core clue gets you to the next scene. *Insight* is everything beyond that: motive, timing, who else was involved, what the culprit will do next, a shortcut, an ally. Insight is optional, and you can gain it in two ways.
 
@@ -38,7 +38,7 @@ Probe is cheap but risky. Buy is safe but drains the pool you also need for Resi
   *Sōma:* long vigils, exhumations, hard physical labour. *Akmē:* meticulous search, tailing, lock and mechanism work. *Psychē:* deduction, records, anatomy, languages. *Pneuma:* reading people, rites, dread places, the uncanny. The GM may allow a different pool when the fiction supports it (Core Rules §3.3).
 ]
 
-=== D.3 What an Insight Can Be
+=== F.3 What an Insight Can Be
 
 When you gain an Insight, choose one. The GM may veto a choice that does not fit the scene.
 
@@ -50,14 +50,14 @@ When you gain an Insight, choose one. The GM may veto a choice that does not fit
 
 If no Insight fits, nothing happens and no points are lost. Buy costs are refunded.
 
-=== D.4 Boosted Skills and Recovery
+=== F.4 Boosted Skills and Recovery
 
 - *Boosted skill.* At creation, mark one skill you hold at +1 or higher. When you Buy an Insight with it, regain 1 point to the paying pool. Mark another skill each time you have taken 4 Advances.
 - *Recovery.* Pools recover as usual (Core Rules §6). The GM may also offer a *refresh opportunity*: a night in an archive, a round of drinks in the right tavern, a meal with a scholar. Each restores 2 points to the pool that fits.
 - *Help.* One ally may Help a Probe as normal (Core Rules §2.4), or contribute a relevant skill to a Buy. Add +1 point of discount per helper, to a minimum cost of 1.
 - *Tags.* A power tag that applies to the skill adds +1 to a Probe, as usual. Burning one gives +1 Power.
 
-=== D.5 Danger and the Clock
+=== F.5 Danger and the Clock
 
 Inquiry has no failure state, so it needs pressure from somewhere else. Pressure comes from the opposition, not from missed rolls.
 
@@ -66,7 +66,7 @@ Inquiry has no failure state, so it needs pressure from somewhere else. Pressure
 - *Danger is a separate scene.* A scene either asks "what do we learn?" (Inquiry) or "what do we survive?" (Conflict, Hazard). A scene that is both is two scenes: finish one, then start the other.
 - *Clues never depend on winning a fight.* Winning may give Insight, but a core clue must be reachable even if the group loses, flees or is captured.
 
-=== D.6 Building a Case
+=== F.6 Building a Case
 
 Work backward from the Truth, then forward through scenes.
 
@@ -88,7 +88,7 @@ Work backward from the Truth, then forward through scenes.
 
 Scene types: *Introduction*, *Core* (holds core clues), *Alternate* (another route to a clue), *Subplot*, *Action* (Conflict or Hazard), *Reaction* (the opposition responds) and *Conclusion*.
 
-=== D.7 Running Inquiry
+=== F.7 Running Inquiry
 
 - *Cover the skills.* Build an Investigator Matrix, a table of the party's skills against the case's scenes. Give each PC a scene where their skills matter most.
 - *Be generous.* Give information freely. Let players chase red herrings. Give minor NPCs a past and a want.
@@ -97,7 +97,7 @@ Scene types: *Introduction*, *Core* (holds core clues), *Alternate* (another rou
 - *Share the world.* A good Insight lets the player describe the contact, the rumour or the detail, within the Truths already established.
 - *Prompt early.* For the first session or two, remind players what their skills can do.
 
-=== D.8 Weird Methods
+=== F.8 Weird Methods
 
 Oracles, divinations, scrying, speaking to the dead and similar methods are tools that produce *clues*, not answers. An Arcana-style skill finds core clues like any other. The result is a true but partial, symbolic or conditional reading. Use Pneuma for the Buy or Probe. Opponents who expect scrying can block it, mislead it, or leave a false trail with their own working. Let the setting decide whether such evidence counts as proof.
 

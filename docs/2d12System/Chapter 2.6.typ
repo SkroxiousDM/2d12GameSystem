@@ -1,3 +1,5 @@
+
+
 == 6. Resistance, Harm and Recovery
   #columns(2, gutter: 6mm)[
 When a consequence lands on you (a status, lost gear, a bad position), you may #strong[Resist];:

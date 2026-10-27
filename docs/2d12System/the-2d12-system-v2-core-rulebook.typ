@@ -832,7 +832,8 @@ Overrun beyond tier 6 has no extra effect unless a rule or an established stake 
 #strong[Empty pools.] An empty pool has no penalty of its own. It doesn't remove Disposition or take you out; its running-dry status does that work. You can keep acting with other resources or with actions that cost nothing. The pool stays at 0 until rest restores it (§6.5). There is no automatic refill.
 
 #strong[NPCs.] Ordinary NPCs don't have pools and never run dry. Spending Woe on an NPC creates no status, and Woe can't be overrun: if the GM can't pay an ability's Woe cost, the NPC can't use that ability. An NPC built with full PC pools runs dry normally.
-
+    
+#block(breakable: false)[
 #sidebar("Running Dry in Order")[
   #set enum(numbering: n => text(font: display-font, fill: brass, weight: 700, size: 0.85em)[#n.])
 + Pay each cost when its rule says.
@@ -841,6 +842,7 @@ Overrun beyond tier 6 has no extra effect unless a rule or an established stake 
 + Stack it with the same status if you already have it (§5.1).
 + At tier 6, apply the status's scope, then record one Scar (§6.3).
 + Recover the pool and the status separately (§6.5).
+]
 ]
 #colbreak()
 === 6.2 Running-Dry Statuses
@@ -1062,9 +1064,45 @@ wound. Record the lasting change as a tag or a character fact, not as a status t
 
 #strong[Adapting.] Training, help, prostheses, old-world works or supernatural intervention can change how permanent harm affects play. A replacement doesn't automatically remove a related Scar, and a Scar doesn't make a replacement useless. Don't reduce maximum pools, Edge, skills or Refresh unless the effect or an agreed Advance says so.
 ]
+=== 6.9 Legacy (Optional)
+#columns(2, gutter: 4mm)[
+When a character dies, something of them can outlast the death. The death itself is not softened: the Dying clock (§6.7) or an immediate death resolves as written, and nothing here stops it. Legacy only decides what the table keeps afterwards.
 
+#strong[When it applies.] A Legacy Pool is created when a #strong[player character dies] (the third Dying segment is marked, or immediate death is resolved). Retirement from a fourth Scar (§6.3) does not create one unless the group agrees. A named NPC ally the party cared about may leave a pool of 2, if the GM allows it.
+
+#strong[Starting value.] Set the pool when the character dies:
+- #strong[2 points], plus
+- #strong[1 point] for every session the character appeared in, plus
+- #strong[1 point] if the death advanced one of the character's Beliefs or Goals (the player and GM agree that it did).
+#colbreak()
+The pool holds at most #strong[6 points]. Legacy points don't decay, and rest doesn't restore them. Once the pool is empty, the legacy is spent. Each dead character has their own pool. The player keeps the dead character's sheet at the table as a reference.
+
+#strong[Who can spend.] A living PC may spend from a pool if their character is #strong[linked] to the dead one: the Focus link, an ally or rival prompt, a shared Belief, or a bond the group agrees to. The table may vote to extend this to others. A player may spend at most #strong[1 Legacy point per scene], from one pool.
+]
+  
+#figure(table(columns: (20%, 5%, 75%),
+  table.header([Spend], [Cost], [Effect]),
+  [#strong[A Trick They Knew]], [1], [For one roll outside a conflict, use the dead character's rating in one of their skills if it is higher than yours. You may also use one of their power tags as if it were yours (it counts toward the +2 tag cap). Describe how they showed you.],
+  [#strong[A Helping Hand]], [1], [When you act on one of the dead character's Beliefs or Goals, gain +1 bonus die on that roll (it counts toward the +2 bonus die maximum). It can't be used on a roll that contradicts that Belief or Goal.],
+  [#strong[A Story They Told Me]], [1], [Make a free #emph[Discover] (as if you had spent 1 Power) about something the dead character knew or could plausibly have known. Give the answer as something they once said to you. The GM answers truthfully but may limit it to what they knew.],
+  [#strong[Unfinished Business]], [0], [When the party completes or decisively advances something the dead character left undone, add #strong[1 point] to that pool (once per matter, up to the cap).],
+))
+#columns(2, gutter: 4mm)[
+#strong[Against the grain.] If you spend Legacy in a way that contradicts the dead character's Belief, the GM gains #strong[1 Woe]. The effect still works; the dead have opinions.
+
+#strong[Keepsake (optional).] When a character dies, the player may choose one of their power tags to pass on. It becomes a #strong[Keepsake tag] on an object or a person the character left behind (a lucky charm, not the sword). The holder may burn it once for an automatic +1 Power on a success (§3.4). The tag is gone for good once burned. Keepsake tags don't count toward the holder's own tags until burned, and each death leaves at most one.
+
+#strong[Echo (optional).] When the last point is spent, the group may name the dead character's legacy as a #strong[Region or Campaign Truth] (#emph[Mara's Ferry is trusted on the river]). The GM approves it and records its scope, rank and removal condition (§8). It has no clock, since the character paid for it.
+#colbreak()
+#sidebar("Legacy in Brief")[
+  + Character dies: pool = 2 + 1 per session appeared in + 1 if the death advanced a Belief or Goal (max 6).
+  + Linked PCs spend 1 point per scene: skill and tag, bonus die, or a free Discover.
+  + Finishing the dead character's business refills 1 point. Acting against their Belief gives the GM 1 Woe.
+  + The pool doesn't decay or rest-restore. At 0, it is spent.
+]
+]
 == 7. Progress Clocks
-#columns(2, gutter: 6mm)[
+#columns(2, gutter: 4mm)[
 - #strong[Sizes:] 4 (simple), 6 (complex), 8 (daunting), 12 (epic).
 - #strong[Player clocks] tick with the #strong[Advance] effect (1 Power = 1 segment).
 - #strong[Danger clocks] tick when the GM spends Woe (1 Woe = 1 segment) or on failures.
@@ -1139,7 +1177,7 @@ See #strong[Module C] for using Truths to drive a sandbox campaign.
 Some acts and items make a situation more dangerous just by being there. They carry the #strong[Escalation] tag. It gives no bonus and doesn't count toward the tag cap.
 
 - #strong[Escalation items.] Openly carrying an Escalation item into a scene gives the GM #strong[+1 Woe], once per item per scene. An item hidden before the scene starts doesn't count until it's drawn.
-#colbreak()
+
 - #strong[Escalation actions.] Declaring an Escalation action (reading a forbidden text, waking a dead machine, breaking a sacred taboo) gives the GM #strong[+1 Woe] before any roll.
 - #strong[Keep it rare.] A playbook's starting kit should hold no more than one or two Escalation items. Settings list their own.
 ]
@@ -1166,8 +1204,8 @@ Use a conflict when #strong[any two] of these are true:
 
 #strong[Intent sets the scope.] Beating a side whose intent is to hold a doorway doesn't, by itself, let you kill them all, take everything they carry or achieve some unrelated goal.
 
-#strong[Lethal stakes.] A lethal outcome must be established before the roll or exchange that can produce it. Stakes can change mid-conflict when circumstances do, but never retroactively: the GM explains the new danger and lets those affected respond before it is resolved. Lethal stakes make death possible; they don't make every hit deadly.
-
+#strong[Lethal stakes.] A lethal outcome must be established before the roll or exchange that can produce it. Stakes can change mid-conflict when circumstances do, but never #colbreak()
+retroactively: the GM explains the new danger and lets those affected respond before it is resolved. Lethal stakes make death possible; they don't make every hit deadly.
 #strong[New conflict or the same one?] Set fresh Disposition only for a genuinely new conflict: a materially different intent or changed circumstances. Moving through a doorway, switching from a Fight to a Chase, or changing tactics in the same unresolved struggle continues the same conflict; carry over Disposition, used injury trades (§10.9) and Taken Out characters.
 
 === 10.3 Superiority
@@ -1204,7 +1242,7 @@ Superiority is not tracked or spent after the conflict begins. Abilities retain 
   )]
   , kind: table
   )
-
+#pagebreak()
 #columns(2, gutter: 6mm)[
   Settings can add types; each type needs one skill per action and a Disposition skill. A dash (---) means that action isn\'t available in that type.
 === 10.5 Scripting and Volleys
@@ -1284,7 +1322,7 @@ A character stops participating when a status, explicit effect, voluntary withdr
 A side loses when its Disposition reaches zero or none of its participants can continue pursuing its objective. Complete independently resolving actions before checking victory. Resolve mutual defeat and compromise normally.
 
 Injury trades protect shared Disposition, with no more than one participant accepting an injury against each Attack or Feint.
-
+#block(breakable: false)[
 === 10.8 Conflict Gear
 Gear in conflicts is written as an #strong[action tag] that only applies to the listed action(s). It counts toward the +2 tag cap.
 
@@ -1303,7 +1341,7 @@ Gear in conflicts is written as an #strong[action tag] that only applies to the 
   )]
   , kind: table
   )
-
+]
 === 10.9 Accepting Injury
 #strong[The trade.] Injury trades protect your side's shared Disposition (§10.7). Once per character per conflict, when a successful Attack or Feint would reduce your side's Disposition, you may accept a lasting injury to cancel some of that loss. No more than one participant may accept an injury against each Attack or Feint. Declare it before the loss is applied, even if the loss would reduce your side to 0:
 
@@ -1368,14 +1406,14 @@ When one side hits 0 Disposition, the conflict ends. The winner gets their inten
   )]
   , kind: table
   )
-
+#block(breakable: false)[
 #strong[Settling the outcome.]
 + Determine the winner and the compromise.
 + State what the winner achieves and what the loser keeps or gains.
 + State every cost in full: who receives each injury and at what tier, and any non-injury costs. If there are alternative costs, state them now.
 + Credit existing injuries (below).
 + Resolve Resistance against what remains.
-
+]
 The listed tier doesn't apply to every member of the winning side; the costs say who pays.
 
 #strong[Existing injuries count once.] An injury taken during this conflict, including one accepted through the trade, pays for one injury cost assigned to that character if its current tier equals or exceeds the required tier. Each injury pays for one cost only. Injuries can't be pooled, split, moved between characters or credited against a non-injury cost. An injury already treated below the required tier no longer pays. Don't add injury costs because an existing injury pays for one.

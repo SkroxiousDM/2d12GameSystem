@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CONTRIBUTING.md",
+                "file": "docs/2d12System/Chapter 2 - Core rules.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CONTRIBUTING"
+              "title": "Chapter 2 - Core rules"
+            }
+          },
+          {
+            "id": "70e854483a9f3bc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/2d12System/Chapter 2.6.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 2.6"
+            }
+          },
+          {
+            "id": "5b278d96e7b01b14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/2d12System/Chapter 2.7.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 2.7"
             }
           },
           {
@@ -127,14 +175,15 @@
               "title": "Chapter 6 - Focuses"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
-        "id": "69bc5ddefab7c758",
+        "id": "ddc68bec3e32f9d6",
         "type": "tabs",
         "children": [
           {
-            "id": "70e854483a9f3bc2",
+            "id": "e54f0220d188753b",
             "type": "leaf",
             "state": {
               "type": "typst-source",
@@ -144,33 +193,8 @@
               "icon": "file-type",
               "title": "the-2d12-system-v2-core-rulebook"
             }
-          },
-          {
-            "id": "92560d408adae623",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/2d12System/Chapter 7 - Appendix - Quick Reference.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Chapter 7 - Appendix - Quick Reference"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -335,12 +359,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "a97ee5e1252bae34",
+  "active": "7b84c46cc61e5997",
   "lastOpenFiles": [
-    "docs/2d12System/Chapter 1 - Introduction.md",
     "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
-    "docs/2d12System/Chapter 7 - Appendix - Quick Reference.md",
+    "docs/2d12System/Chapter 2.7.md",
+    "docs/2d12System/Chapter 2.6.md",
     "docs/2d12System/Chapter 2 - Core rules.md",
+    "CONTRIBUTING.md",
+    "docs/2d12System/Chapter 1 - Introduction.md",
+    "docs/2d12System/Chapter 7 - Appendix - Quick Reference.md",
     "docs/2d12System/Chapter 3 - Optional Modules.md",
     "docs/2d12System/Chapter 4 -  Descriptors.md",
     "docs/2d12System/Chapter 6 - Focuses.md",
@@ -348,7 +375,6 @@
     "Untitled",
     "docs/2d12System/the-2d12-system-v2-core-rulebook.pdf",
     "docs/TestamentOfDust/testament-of-dust-descriptors.md",
-    "CONTRIBUTING.md",
     "docs/AetasObscura/esoteric_order_of_dagon.md",
     "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ",
     "docs/TestamentOfDust/testament-of-dust-v2-setting-book.pdf",
@@ -380,8 +406,6 @@
     "docs/Design/playtest-01-sample-characters-and-test-fight.md",
     "docs/Design/opposition-statblocks and conflict play test1.md",
     "docs/Design/opposition-statblocks and conflict play test 2.md",
-    "GRENDEL_Consolidated_Master_Rulebook.md",
-    "docs/VampireHunterD/vhd-playbooks.md",
-    "docs/VampireHunterD/2d12-System--Character-Sheet-v0.2.md"
+    "GRENDEL_Consolidated_Master_Rulebook.md"
   ]
 }

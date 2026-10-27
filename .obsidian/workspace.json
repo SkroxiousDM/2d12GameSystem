@@ -59,12 +59,60 @@
             "id": "bbf39b46fefc7a7f",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Playtest tools.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Playtest tools"
+            }
+          },
+          {
+            "id": "90fb527dd03d62ed",
+            "type": "leaf",
+            "state": {
               "type": "typst-source",
               "state": {
-                "file": "docs/2d12System/Chapter 3 - Optional Modules - d-downtime.typ"
+                "file": "docs/2d12System/Chapter 2.6.typ"
               },
               "icon": "file-type",
-              "title": "Chapter 3 - Optional Modules - d-downtime"
+              "title": "Chapter 2.6"
+            }
+          },
+          {
+            "id": "170ad7eba0c3ee89",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "docs/2d12System/the-2d12-system-v2-core-rulebook.typ"
+              },
+              "icon": "file-type",
+              "title": "the-2d12-system-v2-core-rulebook"
+            }
+          },
+          {
+            "id": "08a837924de1eef1",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "docs/2d12System/the-2d12-system-v2-core-rulebook.typ"
+              },
+              "icon": "file-type",
+              "title": "the-2d12-system-v2-core-rulebook"
             }
           },
           {
@@ -116,24 +164,24 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
-        "id": "d52d64dc1df907cc",
+        "id": "97101c8da0f411b7",
         "type": "tabs",
         "children": [
           {
-            "id": "e57c7c5d6e889367",
+            "id": "e8625297df78f826",
             "type": "leaf",
             "state": {
               "type": "typst-preview",
               "state": {
-                "vaultPath": "docs/2d12System/Chapter 3 - Optional Modules - d-downtime.typ",
+                "vaultPath": "docs/2d12System/Chapter 2.6.typ",
                 "themeOverride": null,
                 "pinned": false
               },
               "icon": "book-open",
-              "title": "Preview: Chapter 3 - Optional Modules - d-downtime.typ"
+              "title": "Preview: Chapter 2.6.typ"
             }
           }
         ]
@@ -301,23 +349,29 @@
       "bases:Create new base": false
     }
   },
-  "active": "bbf39b46fefc7a7f",
+  "active": "90fb527dd03d62ed",
   "lastOpenFiles": [
-    "docs/2d12System/Chapter 3 - Optional Modules-f-inquiry-and-revelation.typ",
-    "docs/2d12System/Chapter 3 - Optional Modules - d-downtime.typ",
-    "docs/2d12System/Chapter 4 -  Descriptors.typ",
-    "docs/2d12System/Chapter 3 - Optional Modules - d-downtime.md",
-    "docs/2d12System/Chapter 3 - Optional Modules-e-factions.typ",
-    "docs/2d12System/Chapter 2.6.typ",
-    "docs/2d12System/Chapter 2.7.typ",
-    "docs/2d12System/Chapter 3 - Optional Modules.typ",
-    "docs/2d12System/Chapter 5 - Playbooks.typ",
-    "docs/2d12System/Chapter 6 - Focuses.typ",
+    "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
+    "docs/2d12System/chapter-3-optional-modules.typ",
+    "docs/2d12System/chapter-7-appendix-a-quick-reference.typ",
+    "docs/2d12System/chapter-6-focuses.typ",
+    "docs/2d12System/chapter-4-descriptors.typ",
+    "docs/2d12System/chapter-5-playbooks.typ",
+    "docs/2d12System/chapter-3-module-a-cyphers-and-artifacts.typ",
+    "docs/2d12System/chapter-3-module-e-factions.typ",
     "docs/2d12System/Chapter 1 - Introduction.typ",
+    "README.md",
     "docs/2d12System/Chapter 2 - Core rules.typ",
+    "docs/2d12System/chapter-3-module-d-downtime.typ",
+    "docs/2d12System/chapter-3-module-c-truth-driven-sandbox.md",
+    "docs/2d12System/chapter-3-module-b-the-grind-and-travel.md",
+    "docs/2d12System/chapter-3-module-a-cyphers-and-artifacts.md",
+    "docs/Playtest tools.md",
+    "docs/2d12System/Chapter 3 - Module D - Downtime.md",
+    "docs/Design/opposition-statblocks and conflict play test 2.md",
+    "docs/2d12System/Chapter 3 - Optional Modules - d-downtime.md",
     "docs/2d12System/Chapter 4 -  Descriptors.md",
     "docs/2d12System/Chapter 3 - Optional Modules.md",
-    "docs/Design/opposition-statblocks and conflict play test 2.md",
     "docs/2d12System/Chapter 6 - Focuses.md",
     "CONTRIBUTING.md",
     "CHANGELOG.md",
@@ -332,7 +386,6 @@
     "docs/TestamentOfDust/testament-of-dust-descriptors.md",
     "docs/AetasObscura/esoteric_order_of_dagon.md",
     "docs/2d12System/art/playbooks/generic/06-adept.png",
-    "README.md",
     "docs/Grendel/GRENDEL_Consolidated_Master_Rulebook.md",
     "docs/AetasObscura/Magical Traditions.md",
     "docs/2d12System/art/playbooks/generic/06-adept.jpg",
@@ -344,11 +397,6 @@
     "docs/2d12System/art/playbooks/generic/03-savant.jpg",
     "docs/2d12System/art/playbooks/generic/02-furcifer.png",
     "docs/2d12System/art/playbooks/generic/02-furcifer.jpg",
-    "docs/Design/rest-and-recovery.md",
-    "docs/Design/System components.md",
-    "docs/Archive/2d12 Version 1/18-downtime-and-campaign-loop.md",
-    "docs/Untitled.canvas",
-    "docs/Design/unified-damage-cycle-master-text.md",
-    "docs/Design/shared-disposition-master-text.md"
+    "docs/Untitled.canvas"
   ]
 }

@@ -56,51 +56,15 @@
             }
           },
           {
-            "id": "5b278d96e7b01b14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/2d12System/Chapter 2.7.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Chapter 2.7"
-            }
-          },
-          {
             "id": "0caa8ce0f9103957",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "typst-source",
               "state": {
-                "file": "docs/2d12System/Chapter 3 - Optional Modules.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "docs/2d12System/the-2d12-system-v2-core-rulebook.typ"
               },
-              "icon": "lucide-file",
-              "title": "Chapter 3 - Optional Modules"
+              "icon": "file-type",
+              "title": "the-2d12-system-v2-core-rulebook"
             }
           },
           {
@@ -179,19 +143,21 @@
         "currentTab": 2
       },
       {
-        "id": "ddc68bec3e32f9d6",
+        "id": "d52d64dc1df907cc",
         "type": "tabs",
         "children": [
           {
-            "id": "e54f0220d188753b",
+            "id": "e57c7c5d6e889367",
             "type": "leaf",
             "state": {
-              "type": "typst-source",
+              "type": "typst-preview",
               "state": {
-                "file": "docs/2d12System/the-2d12-system-v2-core-rulebook.typ"
+                "vaultPath": "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
+                "themeOverride": null,
+                "pinned": false
               },
-              "icon": "file-type",
-              "title": "the-2d12-system-v2-core-rulebook"
+              "icon": "book-open",
+              "title": "Preview: the-2d12-system-v2-core-rulebook.typ"
             }
           }
         ]
@@ -359,21 +325,26 @@
       "bases:Create new base": false
     }
   },
-  "active": "7b84c46cc61e5997",
+  "active": "0caa8ce0f9103957",
   "lastOpenFiles": [
+    "CONTRIBUTING.md",
+    "CHANGELOG.md",
     "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
+    "docs/2d12System/the-2d12-system-v2-core-rulebook.pdf",
+    "docs/2d12System/Chapter 3 - Optional Modules.md",
+    "docs/AetasObscura/setting-book/aetas-obscura-v2-player-book.pdf",
+    "docs/AetasObscura/brotherhood_of_the_black_pharaoh.md",
+    "docs/AetasObscura/98-Adventure_Hooks.md",
+    "docs/Design/module-d-inquiry-and-revelation.typ",
     "docs/2d12System/Chapter 2.7.md",
     "docs/2d12System/Chapter 2.6.md",
     "docs/2d12System/Chapter 2 - Core rules.md",
-    "CONTRIBUTING.md",
     "docs/2d12System/Chapter 1 - Introduction.md",
     "docs/2d12System/Chapter 7 - Appendix - Quick Reference.md",
-    "docs/2d12System/Chapter 3 - Optional Modules.md",
     "docs/2d12System/Chapter 4 -  Descriptors.md",
     "docs/2d12System/Chapter 6 - Focuses.md",
     "docs/2d12System/Chapter 5 - Playbooks.md",
     "Untitled",
-    "docs/2d12System/the-2d12-system-v2-core-rulebook.pdf",
     "docs/TestamentOfDust/testament-of-dust-descriptors.md",
     "docs/AetasObscura/esoteric_order_of_dagon.md",
     "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ",
@@ -384,8 +355,6 @@
     "README.md",
     "docs/Grendel/GRENDEL_Consolidated_Master_Rulebook.md",
     "docs/Grendel",
-    "docs/2d12-character-sheet-v2.typ",
-    "docs/2d12-character-sheet-v2.pdf",
     "docs/AetasObscura/Magical Traditions.md",
     "docs/2d12System/art/playbooks/generic/06-adept.jpg",
     "docs/2d12System/art/playbooks/generic/05-explorator.png",
@@ -404,8 +373,6 @@
     "docs/Design/shared-disposition-master-text.md",
     "docs/Design/running-dry-r3-master-text.md",
     "docs/Design/playtest-01-sample-characters-and-test-fight.md",
-    "docs/Design/opposition-statblocks and conflict play test1.md",
-    "docs/Design/opposition-statblocks and conflict play test 2.md",
-    "GRENDEL_Consolidated_Master_Rulebook.md"
+    "docs/Design/opposition-statblocks and conflict play test1.md"
   ]
 }

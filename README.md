@@ -6,7 +6,7 @@ The **2d12 System** is a setting-neutral tabletop roleplaying engine. Every acti
 
 That one roll tells you whether you succeed, how much **Power** you earn and whether doubles twist the result. Around it sit four pools that double as stress (**Sōma, Akmē, Psychē, Pneuma**), tags and Truths, **Tychē Points**, a shared **Momentum** pool and the GM's **Woe**, plus scripted conflicts. Characters are built from a sentence: *"I am a [Descriptor] [Playbook] who [Focus]."*
 
-The system draws on Fate, the Cypher System, :Otherscape, Mouse Guard, Blades in the Dark and the 2d20 System. All trademarks belong to their owners.
+The system draws on Fate, the Cypher System, :Otherscape, Mouse Guard, Torchbearer, Blades in the Dark, Gumshoe, Imperium Maledictum,  Reign, and the 2d20 System. All trademarks belong to their owners.
 
 **Status:** Version 2, playtest draft.
 

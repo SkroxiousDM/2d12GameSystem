@@ -18,6 +18,14 @@
 
 #import "common.typ": *
 
+#set document(
+  title: book-title + " — " + book-subtitle + " — " + book-kind,
+  author: book-author,
+  date: book-date,
+  keywords: ("2d12", "tabletop RPG", "rulebook", "core rules", "setting-neutral"),
+)
+#show: apply-style
+
 // =====================================================================
 //  COVER
 // =====================================================================

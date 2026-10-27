@@ -527,7 +527,7 @@ Doctor, field medic, herbalist, or combat surgeon.
   )]
   , kind: table
   )
-
+#colbreak()
 === 11. Solves the Unsolvable
 #quote(block: true)[
 Detective, investigator, or analyst: you follow the thread to the end.

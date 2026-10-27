@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3ac15bb9b6cf7bb9",
+        "id": "b63453bbf99d9b56",
         "type": "tabs",
         "children": [
           {
-            "id": "a97ee5e1252bae34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CONTRIBUTING.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CONTRIBUTING"
-            }
-          },
-          {
-            "id": "70e854483a9f3bc2",
+            "id": "7aa6f6322e6f3252",
             "type": "leaf",
             "state": {
               "type": "typst-source",
@@ -41,147 +17,26 @@
               },
               "icon": "file-type",
               "title": "the-2d12-system-v2-core-rulebook"
-            }
-          },
-          {
-            "id": "0caa8ce0f9103957",
-            "type": "leaf",
-            "state": {
-              "type": "typst-source",
-              "state": {
-                "file": "docs/2d12System/Chapter 3 - Optional Modules-e-factions.typ"
-              },
-              "icon": "file-type",
-              "title": "Chapter 3 - Optional Modules-e-factions"
-            }
-          },
-          {
-            "id": "bbf39b46fefc7a7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Playtest tools.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Playtest tools"
-            }
-          },
-          {
-            "id": "90fb527dd03d62ed",
-            "type": "leaf",
-            "state": {
-              "type": "typst-source",
-              "state": {
-                "file": "docs/2d12System/Chapter 2.6.typ"
-              },
-              "icon": "file-type",
-              "title": "Chapter 2.6"
-            }
-          },
-          {
-            "id": "170ad7eba0c3ee89",
-            "type": "leaf",
-            "state": {
-              "type": "typst-source",
-              "state": {
-                "file": "docs/2d12System/the-2d12-system-v2-core-rulebook.typ"
-              },
-              "icon": "file-type",
-              "title": "the-2d12-system-v2-core-rulebook"
-            }
-          },
-          {
-            "id": "08a837924de1eef1",
-            "type": "leaf",
-            "state": {
-              "type": "typst-source",
-              "state": {
-                "file": "docs/2d12System/the-2d12-system-v2-core-rulebook.typ"
-              },
-              "icon": "file-type",
-              "title": "the-2d12-system-v2-core-rulebook"
-            }
-          },
-          {
-            "id": "9e99fb9b5f979fba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/2d12System/Chapter 4 -  Descriptors.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Chapter 4 -  Descriptors"
-            }
-          },
-          {
-            "id": "4e8c063540059e79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/2d12System/Chapter 5 - Playbooks.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Chapter 5 - Playbooks"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
-        "id": "97101c8da0f411b7",
+        "id": "ccc1bd1c29287046",
         "type": "tabs",
         "children": [
           {
-            "id": "e8625297df78f826",
+            "id": "e5edf012f900d0d2",
             "type": "leaf",
             "state": {
               "type": "typst-preview",
               "state": {
-                "vaultPath": "docs/2d12System/Chapter 2.6.typ",
+                "vaultPath": "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
                 "themeOverride": null,
                 "pinned": false
               },
               "icon": "book-open",
-              "title": "Preview: Chapter 2.6.typ"
+              "title": "Preview: the-2d12-system-v2-core-rulebook.typ"
             }
           }
         ]
@@ -349,20 +204,32 @@
       "bases:Create new base": false
     }
   },
-  "active": "90fb527dd03d62ed",
+  "active": "e5edf012f900d0d2",
   "lastOpenFiles": [
-    "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
-    "docs/2d12System/chapter-3-optional-modules.typ",
-    "docs/2d12System/chapter-7-appendix-a-quick-reference.typ",
     "docs/2d12System/chapter-6-focuses.typ",
-    "docs/2d12System/chapter-4-descriptors.typ",
-    "docs/2d12System/chapter-5-playbooks.typ",
-    "docs/2d12System/chapter-3-module-a-cyphers-and-artifacts.typ",
-    "docs/2d12System/chapter-3-module-e-factions.typ",
-    "docs/2d12System/Chapter 1 - Introduction.typ",
+    "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
+    "docs/2d12System/chapter-2.9-momentum-and-woe.typ",
+    "docs/2d12System/chapter-2.13-example-of-play.typ",
+    "docs/2d12System/chapter-2.12-advancement.typ",
+    "docs/2d12System/chapter-2.11.playbooks.typ",
+    "docs/2d12System/chapter-2.10-conflict-system.typ",
+    "docs/2d12System/chapter-2.14-design-notes.typ",
+    "docs/2d12System/chapter-2-core-rules.typ",
+    "docs/2d12System/chapter-1-introduction.typ",
+    "docs/2d12System/chapter-2.7-progress-clocks.typ",
+    "docs/2d12System/10.md",
+    "docs/2d12System/chapter-2.5-effects.md",
+    "docs/2d12System/chapter-2.4-tyche-points.md",
+    "docs/2d12System/chapter-2.3-character-creation.md",
+    "docs/2d12System/14.md",
+    "docs/2d12System/13.md",
+    "docs/2d12System/12.md",
+    "docs/2d12System/11.md",
+    "docs/2d12System/9.md",
+    "docs/2d12System/8.md",
+    "docs/2d12System/chapter-2.2-core-resolution.md",
+    "docs/2d12System/chapter-2.1-design-pillars.typ.md",
     "README.md",
-    "docs/2d12System/Chapter 2 - Core rules.typ",
-    "docs/2d12System/chapter-3-module-d-downtime.typ",
     "docs/2d12System/chapter-3-module-c-truth-driven-sandbox.md",
     "docs/2d12System/chapter-3-module-b-the-grind-and-travel.md",
     "docs/2d12System/chapter-3-module-a-cyphers-and-artifacts.md",
@@ -375,19 +242,7 @@
     "docs/2d12System/Chapter 6 - Focuses.md",
     "CONTRIBUTING.md",
     "CHANGELOG.md",
-    "docs/AetasObscura/brotherhood_of_the_black_pharaoh.md",
-    "docs/AetasObscura/98-Adventure_Hooks.md",
-    "docs/2d12System/Chapter 2.7.md",
-    "docs/2d12System/Chapter 2.6.md",
-    "docs/2d12System/Chapter 2 - Core rules.md",
-    "docs/2d12System/Chapter 1 - Introduction.md",
-    "docs/2d12System/Chapter 7 - Appendix - Quick Reference.md",
-    "docs/2d12System/Chapter 5 - Playbooks.md",
-    "docs/TestamentOfDust/testament-of-dust-descriptors.md",
-    "docs/AetasObscura/esoteric_order_of_dagon.md",
     "docs/2d12System/art/playbooks/generic/06-adept.png",
-    "docs/Grendel/GRENDEL_Consolidated_Master_Rulebook.md",
-    "docs/AetasObscura/Magical Traditions.md",
     "docs/2d12System/art/playbooks/generic/06-adept.jpg",
     "docs/2d12System/art/playbooks/generic/05-explorator.png",
     "docs/2d12System/art/playbooks/generic/05-explorator.jpg",

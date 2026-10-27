@@ -1,3 +1,5 @@
+#import "common.typ": *
+
 == 7. Progress Clocks
 #columns(2, gutter: 6mm)[
 - #strong[Sizes:] 4 (simple), 6 (complex), 8 (daunting), 12 (epic).

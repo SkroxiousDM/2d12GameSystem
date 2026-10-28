@@ -79,11 +79,11 @@ Focuses marked #strong[◈ Weird] assume the supernatural, impossible technology
 
 #include "chapter-6.4-stealth-and-precision-focuses.typ"
 
-#include "chapter-6.5-wilderness-focuses.typ"
+#include "chapter-6.5-knowledge-focuses.typ"
 
-#include "chapter-6.6-knowledge-focuses.typ"
+#include "chapter-6.6-social-focuses.typ"
 
-#include "chapter-6.7-social-focuses.typ"
+#include "chapter-6.7-wilderness-focuses.typ"
 
 #include "chapter-6.8-weird-focuses.typ"
 

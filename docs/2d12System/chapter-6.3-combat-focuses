@@ -1,4 +1,4 @@
-#import "common.typ" : *
+#import "common.typ": *
 
 == 3. Combat Focuses
 #columns(2, gutter: 6mm)[

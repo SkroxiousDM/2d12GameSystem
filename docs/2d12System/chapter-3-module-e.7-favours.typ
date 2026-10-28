@@ -1,4 +1,4 @@
-im#import "common.typ": *
+#import "common.typ": *
 
 === E.7 Favors and Obligations
 
@@ -33,6 +33,8 @@ Do not require a faction roll to confirm what the party already accomplished. Ca
 
 Distinct consequences can follow one achievement, but never award duplicate progress or duplicate modifiers for the same work. One bad PC roll does not automatically damage a whole faction; consequences must reach its people or resources.
 
+#strong[One contribution.] If a PC endeavour does the work a faction's project action would do (the party sabotages the project itself), that endeavour replaces the faction's own roll for that project this turn. Never count both for the same work.
+
 === E.9 Commitments and Strain
 
 A faction normally takes one major project action per World Turn without automatic Strain. Exceptional deployment can exhaust a capability.
@@ -41,6 +43,8 @@ Mark one relevant Quality as Strained when the faction takes an additional major
 
 A Strained Quality operates one rating lower, minimum 0. Strain does not stack on that Quality and is not also an adverse Truth for the same exhaustion. A faction can take at most one additional major action per turn; declare it and mark Strain before resolving that additional action. It must strain the primary Quality of that action, which must not already be Strained. Thus additional actions cannot be repeated indefinitely.
 
+#strong[Timing.] Strain from an additional or exceptional action is marked when the action is #emph[declared] (E.10, step 2), so that action and every other action that phase use the lowered rating.
+
 Clear Strain after one full World Turn in which the affected capability is not used for a major action or exceptional commitment, provided recovery remains plausible. Ordinary background activity does not prevent recovery. Strain alone reducing effective Cohesion to 0 does not trigger Fracture; use permanent Cohesion for E.12.
 
 Exhaustion is not destruction. Rest can recover tired guards; it cannot rebuild a burned warehouse. Track persistent losses separately.
@@ -48,6 +52,8 @@ Exhaustion is not destruction. Rest can recover tired guards; it cannot rebuild 
 === E.10 World Turns
 
 Choose one cadence: each in-world week, between adventures, or another agreed meaningful interval. Do not take extra turns simply because a session ended. This procedure replaces Module C.5 while Module E is enabled.
+
+#strong[With Module D.] The cadence is between adventures: one World Turn per stay. Strain (E.9), Fracture clocks (E.12) and project clocks count in World Turns. A long stay doesn't recover Strain faster, and a short one doesn't skip it.
 
 + Resolve known consequences of recent play; update Standing, obligations, assets, and exceptions.
 + Declare each active faction's project action, primary Quality, intended outcome, and any exceptional commitment.
@@ -86,7 +92,11 @@ A faction may spend its action obstructing a known project if it has a credible 
 
 On success, spend Power to remove uncompleted progress, one segment per Power. Remove no more than is present and discard excess. A defending faction may devote its own action to countermeasures, producing appropriate protection or removing the obstructing capability. Do not add a free reaction roll for every attempted disruption.
 
+Declare obstruction or countermeasures in step 2 as the faction's one major action. A faction that defends does not also advance its own project.
+
 Apply all same-turn progress and disruption to a clock together before checking completion. A clock that completes cannot later be “unticked”: reversing its established result needs a new undertaking.
+
+If two clocks with contradictory result Truths complete in the same turn, neither result is established as written: the GM and players agree on a compromise Truth, and both factions are Strained.
 
 PCs can use Advance to remove progress when sabotage or delay directly supports that effect. Establish the affected project before the roll. A played scene replaces the equivalent off-screen work, not the whole faction's unrelated activity.
 
@@ -96,7 +106,7 @@ A project grants its declared result, not every benefit the victor might want. C
 
 === E.11 Conflict, Objectives, and Pressure
 
-Use core Argument, Negotiation, or Battle conflicts when the action deserves a played conflict. Retain normal core Disposition, scripting, Power, concessions, and compromise. Do not import Levels of Success, legacy attributes, or spendable Social Superiority.
+Use core Argument, Negotiation, or Battle conflicts when the action deserves a played conflict. Use normal core Disposition, scripting, Power, concessions, and compromise.
 
 Standing grants no automatic Superiority. Insider intelligence, an arranged audience, or a secured guarantee can qualify as actual preparation under the core's categories and cap. Evaluate distinct advantages, not labels. Combat receives no direct Standing modifier.
 

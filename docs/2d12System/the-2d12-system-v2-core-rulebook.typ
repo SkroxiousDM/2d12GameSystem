@@ -81,13 +81,13 @@
     text(size: 9pt, fill: dust, style: "italic")[
       The 2d12 System is a setting-neutral tabletop roleplaying engine. Settings are published as separate books; the first is #emph[Testament of Dust]. \
 Acknowledgements & Inspirations
-Testament of Dust owes a heartfelt thank-you to the creators of Blades in the Dark, Cypher System, Fate, Mouse Guard, 2d20, and Imperium Maledictum.
+Testament of Dust owes a heartfelt thank-you to the creators of Blades in the Dark, :Otherworld, Cypher System, Fate, Torchbearer, Gumshoe, 2d20, Reign, and Imperium Maledictum.
 
 In different ways, these games helped shape the questions behind this one: What makes a risk worth taking? What should success cost? How do a character’s beliefs and obligations become part of play? And what keeps people moving when the world is larger, stranger, and less forgiving than they are?
 
 Thank you for the examples, the challenges, and the moments that made me stop and reconsider a rule—or an entire approach. Sometimes the inspiration was a particular idea. Sometimes it was the feeling a game could create at the table. Sometimes it was simply the encouragement to believe that another way of doing things was possible.
 
-Testament of Dust is my own answer to some of those questions, but I did not arrive at them alone. This acknowledgement is a small expression of gratitude for the work that helped me get here.
+2D12 system is my own answer to some of those questions, but I did not arrive at them alone. This acknowledgement is a small expression of gratitude for the work that helped me get here.
     ]
     v(14pt)
     text(size: 8.5pt, fill: dust)[Playtest draft — not yet playtested. Set in EB Garamond and Source Sans 3.]

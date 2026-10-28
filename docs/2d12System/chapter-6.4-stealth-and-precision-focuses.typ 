@@ -1,3 +1,4 @@
+#import "common.typ": *
   
 == 4. Stealth & Precision Focuses
 #columns(2, gutter: 6mm)[

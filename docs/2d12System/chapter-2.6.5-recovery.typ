@@ -129,14 +129,16 @@ Stabilising doesn't erase marked segments, reduce the injury, refill pools or re
 
 #strong[Setting-specific harm.] If a setting gives a condition (such as blood loss) its own tiers and stabilising rules, use those instead of a Dying clock, not as well.
 
+#strong[After a death.] See §6.9 for what a death leaves behind.
+
     
 === 6.8 Permanent Harm
 #strong[Where it comes from.] An injury doesn't become permanent just because its tier is high. Permanent harm needs an established permanent-injury stake, a specific effect or creature rule, a voluntary bargain, or a Scar-giving event. Tier 6 always gives a Scar (§6.3), but never by itself severs a limb, destroys an organ, lowers a maximum pool or causes any other permanent mechanical loss.
 
-#strong[The wound heals; the loss stays.] A permanent change can outlast the injury that caused it. When #emph[severed hand-4] has
-
-healed, the hand is still gone: the status measured the acute
+#strong[The wound heals; the loss stays.] A permanent change can outlast the injury that caused it. When #emph[severed hand-4] has healed, the hand is still gone: the status measured the acute
 wound. Record the lasting change as a tag or a character fact, not as a status that never heals.
 
 #strong[Adapting.] Training, help, prostheses, old-world works or supernatural intervention can change how permanent harm affects play. A replacement doesn't automatically remove a related Scar, and a Scar doesn't make a replacement useless. Don't reduce maximum pools, Edge, skills or Refresh unless the effect or an agreed Advance says so.
+
+#include "drafts/legacy-pool-6.9.typ"
 ]

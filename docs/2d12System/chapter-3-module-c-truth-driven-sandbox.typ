@@ -73,12 +73,16 @@ A #strong[rumour] is an unconfirmed Truth. When players confirm it (Discover, in
 Between sessions (or each in-world week), the GM takes a #strong[World Turn];:
 
 + Each active faction rolls #strong[2d12 + its rating (+1 to +4)] vs. Standard 15 for its current project.
-+ Power ticks the faction\'s #strong[project clock] (6 or 8 segments).
++ Power ticks the faction\'s #strong[project clock] (sized by the change it makes, below).
 + When a clock fills, the faction #strong[creates, removes, or changes a Region or Campaign Truth] (e.g. #emph[The Guild controls the river] replaces #emph[The river is free];).
 + PCs who hear about it can respond; PC actions can tick faction clocks forward or back using Advance.
+
+A faction project changes a Site Truth with an 8-segment clock, a Region Truth with a 12-segment clock, and a Campaign Truth only through a major arc (C.6).
 
 === C.6 Player Influence on Truths
 - #strong[Discover] effects and Momentum spends reveal hidden Truths.
 - #strong[Create] effects and 2 Momentum create Scene Truths; bigger changes need a progress clock (8 segments for a Site Truth, 12 for a Region Truth).
 - Major arcs can rewrite Campaign Truths. These are the \"legacy\" moments of the campaign.
+
+#include "drafts/module-c-7-8-entanglements-long-knives.typ"
 ]

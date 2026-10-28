@@ -183,3 +183,4 @@ An escort may make a friendly checkpoint automatic. It cannot make every later n
 #include "drafts/module-e-1a-starting-cluster.typ"
 
 #include "chapter-3-module-e.7-favours.typ"
+]

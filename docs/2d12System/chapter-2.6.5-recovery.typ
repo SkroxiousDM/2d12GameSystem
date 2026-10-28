@@ -141,4 +141,3 @@ wound. Record the lasting change as a tag or a character fact, not as a status t
 #strong[Adapting.] Training, help, prostheses, old-world works or supernatural intervention can change how permanent harm affects play. A replacement doesn't automatically remove a related Scar, and a Scar doesn't make a replacement useless. Don't reduce maximum pools, Edge, skills or Refresh unless the effect or an agreed Advance says so.
 
 #include "drafts/legacy-pool-6.9.typ"
-]

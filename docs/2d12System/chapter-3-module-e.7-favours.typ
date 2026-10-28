@@ -192,5 +192,4 @@ If the association undertakes an additional urgent funding action that turn, Tre
 )
 
 For a faction record, copy E.1 and leave space for five ratings, five Strain marks, Standing, personal exceptions, one project clock, and outstanding promises. Keep rating explanations concrete and show the players changes their characters can observe.
-]
 

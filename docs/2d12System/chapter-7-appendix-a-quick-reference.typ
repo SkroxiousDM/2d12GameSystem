@@ -55,12 +55,12 @@ Each side has *one shared Disposition* total, reduced at setup by the opponent's
   [Second], [10 minutes], [½ d12, round up, +1],
   [Third], [1 hour], [½ d12, round up, +2],
   [Fourth], [10 hours (overnight)], [All pools full])
-Divide the points among Sōma, Akmē, Psychē and Pneuma, up to each pool's maximum. Edge does not apply. *Hardened* (one-time Advance): +1 point on every recovery roll.
+Divide the points among Sōma, Mētis, Psychē and Pneuma, up to each pool's maximum. Edge does not apply. *Hardened* (one-time Advance): +1 point on every recovery roll.
 #colbreak()
 == The Four Currencies
 #table(columns: (30%, 22%, 48%),
   table.header([Resource], [Owner], [Job]),
-  [Pools (Sōma, Akmē, Psychē, Pneuma)], [Each PC], [Effort and Resistance],
+  [Pools (Sōma, Mētis, Psychē, Pneuma)], [Each PC], [Effort and Resistance],
   [Tychē Points], [Each PC], [Invoke tags, accept compels],
   [Momentum], [The party], [Surplus Power from strong rolls (max 6)],
   [Woe], [The GM], [Complications and escalation])

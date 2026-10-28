@@ -1,0 +1,89 @@
+name: Build core rulebook
+
+on:
+  push:
+    branches:
+      - main
+      - beliefs-world-other-self
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: core-rulebook-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  compile:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Prepare output directory
+        run: |
+          mkdir -p build/core-beliefs
+          printf 'Commit: %s\nRef: %s\n' "$GITHUB_SHA" "$GITHUB_REF" > build/core-beliefs/build-info.txt
+
+      - name: Install Typst
+        uses: typst-community/setup-typst@v4
+        with:
+          typst-version: '0.13.1'
+
+      - name: Fetch book fonts
+        run: |
+          set -euo pipefail
+          {
+            git clone --depth 1 --filter=blob:none --sparse https://github.com/google/fonts.git .build-fonts
+            git -C .build-fonts sparse-checkout set ofl/ebgaramond ofl/sourcesans3
+            git -C .build-fonts rev-parse HEAD
+            test -n "$(find .build-fonts/ofl/ebgaramond -name '*.ttf' -print -quit)"
+            test -n "$(find .build-fonts/ofl/sourcesans3 -name '*.ttf' -print -quit)"
+          } 2>&1 | tee build/core-beliefs/font-setup.log
+
+      - name: Record compiler and available fonts
+        run: |
+          set -euo pipefail
+          typst --version | tee -a build/core-beliefs/build-info.txt
+          typst fonts --font-path .build-fonts/ofl > build/core-beliefs/fonts.txt
+          grep -Fx 'EB Garamond' build/core-beliefs/fonts.txt
+          grep -Fx 'Source Sans 3' build/core-beliefs/fonts.txt
+
+      - name: Compile the full core rulebook
+        run: |
+          set -euo pipefail
+          typst compile --root . --font-path .build-fonts/ofl \
+            docs/2d12System/the-2d12-system-v2-core-rulebook.typ \
+            build/core-beliefs/2d12-core-beliefs-review.pdf \
+            2>&1 | tee build/core-beliefs/compile.log
+          test -s build/core-beliefs/2d12-core-beliefs-review.pdf
+
+      - name: Upload PDF and diagnostic logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: core-rulebook-${{ github.run_number }}
+          path: build/core-beliefs/
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Write review summary
+        if: always()
+        run: |
+          {
+            echo '## Core rulebook build'
+            echo "Source commit: $GITHUB_SHA"
+            if test -s build/core-beliefs/2d12-core-beliefs-review.pdf; then
+              echo 'PDF produced. Download the workflow artifact for visual layout review.'
+            else
+              echo 'No complete PDF produced. Inspect the job logs and diagnostic artifact.'
+            fi
+            echo 'This workflow does not commit generated files or certify visual layout.'
+          } >> "$GITHUB_STEP_SUMMARY"

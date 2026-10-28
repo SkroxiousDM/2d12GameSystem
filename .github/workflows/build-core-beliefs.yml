@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - beliefs-world-other-self
   workflow_dispatch:
 
 permissions:
@@ -72,7 +71,7 @@ jobs:
           name: core-rulebook-${{ github.run_number }}
           path: build/core-beliefs/
           if-no-files-found: warn
-          retention-days: 14
+          retention-days: 2
 
       - name: Write review summary
         if: always()

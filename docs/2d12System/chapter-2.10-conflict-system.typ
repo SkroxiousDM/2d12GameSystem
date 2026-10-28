@@ -122,10 +122,6 @@ Effort (including Effort for +1 Power), Momentum, Woe, Tychē Points, tags, and 
 
 Losing one doesn't reduce the others. Apply more than one only when a rule says so.
 
-#strong[Hazard Truths and Woe.] A hazard Truth that endangers participants is a dangerous Scene Truth (§9.2): the GM gains the usual +1 Woe for the scene.
-
-#strong[Other conflict types.] Scenery is whatever the contest is fought over. In an Argument it might be a crowd, a witness or a document. In a Hack, it might be an access point or a shared network. In a Chase, it might be a market stall or a bridge. Pick the nearest scenery action and rename its pieces.
-  
 ==== Scenery Maneuvers
 A Maneuver can use the scene itself. Instead of one of the four listed options, spend Power on a #strong[scenery action] from the table below.
 
@@ -142,11 +138,15 @@ A Maneuver can use the scene itself. Instead of one of the four listed options, 
   [#strong[Grab a Ride] (swing, slide, vault)], [A fixture and a clear path], [2], [Gain Position and move to any spot in the scene. You can't be Impeded this volley.], [You land hard: tier-1 #emph[winded].],
   [#strong[Tip & Drop] (statue, boulder, cargo)], [A heavy object and something below it], [3], [Remove 3 Disposition from the opposing side, with no +1 bonus.], [Debris reaches an ally: one participant on your side takes tier-1 #emph[struck].],
   [#strong[Floor Collapse]], [A support (beam, line, bridge)], [3], [Create a rank-2 Truth (#emph[Collapsing Floor]) in the area. It is scoped to that area.], [You are hit by the snap: tier-1 #emph[stunned], or a lost tag.],
-  [#strong[Carpet Pull]], [A floor covering and unwarned foes], [2], [Impede every opposing participant's next roll this exchange (- 3).], [You are left holding the carpet: your next Defend is at - 1.],
-  [#strong[Drape Drop] (curtains, nets, sails)], [Hangings or a net], [1], [Impede one opponent (tangled). The cloth can't be used again.], [Your weapon is tangled: your next action is at - 1.],
+  [#strong[Carpet Pull]], [A floor covering and unwarned foes], [2], [Impede every opposing participant's next roll this exchange (−3).], [You are left holding the carpet: your next Defend is at −1.],
+  [#strong[Drape Drop] (curtains, nets, sails)], [Hangings or a net], [1], [Impede one opponent (tangled). The cloth can't be used again.], [Your weapon is tangled: your next action is at −1.],
   [#strong[Shove 'Em Off] (ledge, rail, stairs)], [An edge and an adjacent target], [3], [One opposing participant loses their next scripted action while they recover.], [You are pulled along: tier-2 #emph[off balance] unless you Resist. A fall is lethal only if lethal stakes are established (§10.2).],
   [#strong[Make a Hazard] (brazier, barrel, tank)], [Fuel, fluid or something breakable], [2], [Create a rank-1 Truth (#emph[Burning], #emph[Slick Floor]) scoped to the area.], [You are in the area: the Truth applies to you.],
 ))
+
+#strong[Hazard Truths and Woe.] A hazard Truth that endangers participants is a dangerous Scene Truth (§9.2): the GM gains the usual +1 Woe for the scene.
+
+#strong[Other conflict types.] Scenery is whatever the contest is fought over. In an Argument it might be a crowd, a witness or a document. In a Hack, it might be an access point or a shared network. In a Chase, it might be a market stall or a bridge. Pick the nearest scenery action and rename its pieces.
 
 #strong[Conflict attacks.] An ordinary successful Attack or Feint removes Disposition, and nothing else: no pool points, no status. Describe the loss to fit the fiction (driven back, an opening lost, cut off, a glancing blow); the description doesn't create an injury. Armour and Resistance don't reduce Disposition loss unless an ability says so.
 

@@ -28,6 +28,8 @@ Prepare full records only for active factions. A name, purpose, and Standing suf
 
 The party may found or lead a faction. Give it ratings justified by its actual people and resources; do not purchase a second character sheet with personal pool points. Leadership grants only the authority its governing structure recognizes.
 
+#include "drafts/module-e-1a-starting-cluster.typ"
+
 === E.2 Organizational Qualities
 
 #table(columns: (26%, 74%),
@@ -179,8 +181,6 @@ Support has one concrete application:
 Do not award all three for the same contribution. Stronger Qualities increase feasible reach, reliability, and scale, not an automatic numerical bonus. Might +4 can organize support beyond Might +1; it does not grant +4 Fight.
 
 An escort may make a friendly checkpoint automatic. It cannot make every later negotiation easier simply because it exists. Personnel face the real risks of deployment, and a borrowed resource is not freely duplicable or permanently transferred.
-
-#include "drafts/module-e-1a-starting-cluster.typ"
 
 #include "chapter-3-module-e.7-favours.typ"
 ]

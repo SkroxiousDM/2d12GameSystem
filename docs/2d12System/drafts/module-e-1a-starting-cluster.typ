@@ -1,4 +1,4 @@
-// DRAFT. Insert in chapter-3-module-e-factions.typ after E.6 and before the E.7 include.
+// DRAFT. Included in chapter-3-module-e-factions.typ after E.1 and before E.2.
 // Uses Module E vocabulary (Qualities, Standing, Strain, projects). References C.7 for the story map.
 
 === E.1A Building the Starting Cluster (Long Knives)

@@ -140,6 +140,11 @@ Thank you for the examples, the challenges, and the moments that made me stop an
 #include "chapter-3-optional-modules.typ"
 
 // =====================================================================
+//  CHAPTER — ADVERSARIES (GM)
+// =====================================================================
+#include "chapter-adversaries.typ"
+
+// =====================================================================
 //  CHAPTER — GENERIC DESCRIPTORS
 // =====================================================================
 #include "chapter-4-descriptors.typ"

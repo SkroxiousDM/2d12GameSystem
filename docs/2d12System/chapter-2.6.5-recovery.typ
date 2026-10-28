@@ -18,7 +18,7 @@ Recovery follows four successive rest stages:
   , kind: table
   )
 
-- #strong[Divide the recovered points among Sōma, Akmē, Psychē and Pneuma however you wish], without exceeding a pool\'s maximum. They don\'t have to go to whichever pool was drained most recently.
+- #strong[Divide the recovered points among Sōma, Mētis, Psychē and Pneuma however you wish], without exceeding a pool\'s maximum. They don\'t have to go to whichever pool was drained most recently.
 
 - #strong[Edge does not apply to recovery.] Edge only reduces Effort cost and adds Resistance dice (§2.4, §6); recovery stays flat so it can\'t stack with Edge\'s other benefits.
 - After the 4th rest, the cycle resets --- your next rest that day (or the start of a new day) is a First rest again.

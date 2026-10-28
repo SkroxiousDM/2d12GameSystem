@@ -35,7 +35,7 @@ Four pools, each roughly 6--14:
     table.header([Pool], [Covers], [Resists],),
     table.hline(),
     [#strong[Sōma];], [Strength, endurance, toughness], [Wounds, poison, exhaustion, cold],
-    [#strong[Akmē];], [Speed, precision, stealth, reflexes], [Traps, falls, being caught or grabbed],
+    [#strong[Mētis];], [Speed, precision, stealth, reflexes], [Traps, falls, being caught or grabbed],
     [#strong[Psychē];], [Intellect, perception, memory, cunning], [Confusion, illusion, deception, madness from knowledge],
     [#strong[Pneuma];], [Will, presence, faith, emotional core, the supernatural], [Fear, despair, possession, corruption, social pressure],
   )]
@@ -68,7 +68,7 @@ The playbook\'s anchor skill must sit at +3 or +4. The pyramid rule (each tier m
   [#table(
     columns: (23%, 24%, 28%, 25%),
     align: (auto,auto,auto,auto,),
-    table.header([Sōma], [Akmē], [Psychē], [Pneuma],),
+    table.header([Sōma], [Mētis], [Psychē], [Pneuma],),
     table.hline(),
     [Athletics], [Shoot], [Notice], [Will],
     [Brawl], [Stealth], [Investigate], [Persuade],

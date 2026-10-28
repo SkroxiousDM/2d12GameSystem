@@ -11,8 +11,8 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
   [#table(
     columns: (26%, 74%),
     align: (auto,auto,),
-    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [7 / 8 / 13 / 8],
-    [#strong[Edge];], [Psychē 2, plus 1 in Pneuma or Akmē],
+    [#strong[Base pools (Sōm / Mēt / Psy / Pne)];], [7 / 8 / 13 / 8],
+    [#strong[Edge];], [Psychē 2, plus 1 in Pneuma or Mētis],
     [#strong[Anchor skill];], [Lore or Investigate],
     [#strong[Suggested skills];], [+4 Lore · +3 Investigate, Medicine · +2 Notice, Tech, Empathy · +1 Persuade, Will, Craft, Arcana],
     [#strong[XP trigger];], [Address a challenge with knowledge or insight],

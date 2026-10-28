@@ -11,8 +11,8 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
   [#table(
     columns: (25%, 75%),
     align: (auto,auto,),
-    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [7 / 9 / 9 / 11],
-    [#strong[Edge];], [Pneuma 2, plus 1 in Psychē or Akmē],
+    [#strong[Base pools (Sōm / Mēt / Psy / Pne)];], [7 / 9 / 9 / 11],
+    [#strong[Edge];], [Pneuma 2, plus 1 in Psychē or Mētis],
     [#strong[Anchor skill];], [Persuade],
     [#strong[Suggested skills];], [+4 Persuade · +3 Empathy, Deceive · +2 Will, Notice, Intimidate · +1 Lore, Fight, Stealth, Investigate],
     [#strong[XP trigger];], [Address a challenge with charm, lies, or bargaining],

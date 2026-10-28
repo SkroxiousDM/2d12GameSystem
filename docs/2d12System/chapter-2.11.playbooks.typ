@@ -19,7 +19,7 @@ Settings rename and reskin playbooks (Adept becomes \"Hedge Witch\" in fantasy, 
   [#table(
     columns: (11%, 15%, 15%, 37%, 22%),
     align: (auto,auto,auto,auto,auto,),
-    table.header([Playbook], [Anchor], [Base pools (Sōm / Akm / Psy / Pne)], [XP trigger], [Concept],),
+    table.header([Playbook], [Anchor], [Base pools (Sōm / Mēt / Psy / Pne)], [XP trigger], [Concept],),
     table.hline(),
     [#strong[Bellator];], [Fight or Brawl], [12/10/6/8], [Address a challenge with force or threats], [Front-line muscle],
     [#strong[Furcifer];], [Stealth], [8/12/8/8], [Address a challenge with stealth or precision], [Infiltrator, scout, thief],

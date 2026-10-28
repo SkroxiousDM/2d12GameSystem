@@ -10,10 +10,10 @@
     table.header([Playbook], [Main pool], [Conflict role], [Exploration role], [Social role],),
     table.hline(),
     [Bellator], [Sōma], [Attack / Defend], [Endurance, forcing obstacles], [Intimidation],
-    [Furcifer], [Akmē], [Feint / Maneuver], [Infiltration, security], [Deception],
+    [Furcifer], [Mētis], [Feint / Maneuver], [Infiltration, security], [Deception],
     [Savant], [Psychē], [Maneuver (Discover, analysis)], [Investigation, healing], [Expertise],
     [Interlocutor], [Pneuma], [Argument and Negotiation lead], [Contacts, disguise], [Persuasion],
-    [Explorator], [Sōma/Akmē], [Ranged Attack, ambush], [Travel, Grind, tracking], [Local knowledge],
+    [Explorator], [Sōma/Mētis], [Ranged Attack, ambush], [Travel, Grind, tracking], [Local knowledge],
     [Adept], [Pneuma/Psychē], [Flexible (Domain)], [Supernatural or tech access], [Varies by Domain],
   )]
   , kind: table

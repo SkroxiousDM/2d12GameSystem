@@ -11,8 +11,8 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
   [#table(
     columns: (26%, 74%),
     align: (auto,auto,),
-    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [12 / 10 / 6 / 8],
-    [#strong[Edge];], [Sōma 2, plus 1 in Akmē or Pneuma],
+    [#strong[Base pools (Sōm / Mēt / Psy / Pne)];], [12 / 10 / 6 / 8],
+    [#strong[Edge];], [Sōma 2, plus 1 in Mētis or Pneuma],
     [#strong[Anchor skill];], [Fight or Brawl],
     [#strong[Suggested skills];], [+4 Fight · +3 Athletics, Endure · +2 Brawl, Intimidate, Shoot · +1 Notice, Will, Survival, Medicine],
     [#strong[XP trigger];], [Address a challenge with force or threats],

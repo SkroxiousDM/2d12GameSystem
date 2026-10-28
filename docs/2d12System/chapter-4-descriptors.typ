@@ -38,22 +38,22 @@ Every Descriptor works in any genre. Choose one from this chapter or, when playi
     [3], [Compassionate], [Pneuma], [#emph[a kind word opens doors];], [#emph[can\'t turn away suffering];],
     [4], [Cunning], [Psychē], [#emph[three moves ahead];], [#emph[trusts no one\'s plan but mine];],
     [5], [Curious], [Psychē], [#emph[has to know why];], [#emph[pokes at what\'s best left alone];],
-    [6], [Furtive], [Akmē], [#emph[keeps to the edges];], [#emph[uneasy in the open];],
+    [6], [Furtive], [Mētis], [#emph[keeps to the edges];], [#emph[uneasy in the open];],
     [7], [Hardy], [Sōma], [#emph[shrugs off the cold];], [#emph[ignores my own injuries];],
     [8], [Haunted], [Pneuma], [#emph[has seen the dark];], [#emph[the past won\'t stay buried];],
-    [9], [Light-Fingered], [Akmē], [#emph[quick hands];], [#emph[can\'t resist a pocket];],
+    [9], [Light-Fingered], [Mētis], [#emph[quick hands];], [#emph[can\'t resist a pocket];],
     [10], [Loyal], [Pneuma], [#emph[stands by my own];], [#emph[blind to my friends\' faults];],
     [11], [Methodical], [Psychē], [#emph[measures twice];], [#emph[slow under pressure];],
-    [12], [Nimble], [Akmē], [#emph[light on my feet];], [#emph[too quick to trust my footing];],
+    [12], [Nimble], [Mētis], [#emph[light on my feet];], [#emph[too quick to trust my footing];],
     [13], [Observant], [Psychē], [#emph[misses nothing];], [#emph[distracted by detail];],
     [14], [Reckless], [Sōma], [#emph[charges in first];], [#emph[never looks before leaping];],
     [15], [Relentless], [Sōma], [#emph[never stops coming];], [#emph[doesn\'t know when to quit];],
     [16], [Resolute], [Pneuma], [#emph[iron will];], [#emph[rigid when plans change];],
-    [17], [Restless], [Akmē], [#emph[can\'t sit still];], [#emph[poor at waiting];],
+    [17], [Restless], [Mētis], [#emph[can\'t sit still];], [#emph[poor at waiting];],
     [18], [Scholarly], [Psychē], [#emph[well read];], [#emph[lives in books, not boots];],
     [19], [Serene], [Pneuma], [#emph[calm in the storm];], [#emph[slow to anger, slower to act];],
-    [20], [Sly], [Akmē], [#emph[always an angle];], [#emph[nobody takes my word];],
-    [21], [Steady], [Akmē], [#emph[hands like stone];], [#emph[slow to start];],
+    [20], [Sly], [Mētis], [#emph[always an angle];], [#emph[nobody takes my word];],
+    [21], [Steady], [Mētis], [#emph[hands like stone];], [#emph[slow to start];],
     [22], [Stubborn], [Sōma], [#emph[will not be moved];], [#emph[can\'t admit I\'m wrong];],
     [23], [Suspicious], [Psychē], [#emph[notices what\'s off];], [#emph[sees enemies everywhere];],
     [24], [Weathered], [Sōma], [#emph[seen worse than this];], [#emph[old wounds ache];],
@@ -123,7 +123,7 @@ A locked door is a question. You\'ve never been good at leaving questions alone.
 You keep to walls and corners. Being noticed has never gone well for you.
 ]
 
-- #strong[Pool:] +2 Akmē
+- #strong[Pool:] +2 Mētis
 - #strong[Power tag:] #emph[keeps to the edges]
 - #strong[Weakness tag:] #emph[uneasy in the open]
 - #strong[Suggested Instinct:] \"If I enter a room, I check the shadows first.\"
@@ -156,7 +156,7 @@ Something from your past follows you. Some nights you can almost hear it.
 Things find their way into your hands. You rarely remember deciding to take them.
 ]
 
-- #strong[Pool:] +2 Akmē
+- #strong[Pool:] +2 Mētis
 - #strong[Power tag:] #emph[quick hands]
 - #strong[Weakness tag:] #emph[can\'t resist a pocket]
 - #strong[Suggested Instinct:] \"If something valuable is left unattended, I take it.\"
@@ -189,7 +189,7 @@ Haste makes mistakes. You check everything twice and trust your notes.
 You move like water, over walls and through gaps others never see.
 ]
 
-- #strong[Pool:] +2 Akmē
+- #strong[Pool:] +2 Mētis
 - #strong[Power tag:] #emph[light on my feet]
 - #strong[Weakness tag:] #emph[too quick to trust my footing]
 - #strong[Suggested Instinct:] \"If the ground gives way, I move before I think.\"
@@ -244,7 +244,7 @@ Your word is iron. Once you decide, the world bends or breaks against you.
 Stillness itches. You need to move, act, see what is over the next hill.
 ]
 
-- #strong[Pool:] +2 Akmē
+- #strong[Pool:] +2 Mētis
 - #strong[Power tag:] #emph[can\'t sit still]
 - #strong[Weakness tag:] #emph[poor at waiting]
 - #strong[Suggested Instinct:] \"If things go quiet, I go looking for trouble.\"
@@ -277,7 +277,7 @@ Storms rage around you. Inside, you are still water.
 There is always another way in, another word to say, another deal to make.
 ]
 
-- #strong[Pool:] +2 Akmē
+- #strong[Pool:] +2 Mētis
 - #strong[Power tag:] #emph[always an angle]
 - #strong[Weakness tag:] #emph[nobody takes my word]
 - #strong[Suggested Instinct:] \"If there\'s a shortcut, I find it.\"
@@ -288,7 +288,7 @@ There is always another way in, another word to say, another deal to make.
 Your hands don\'t shake. When everyone else panics, you are the one who aims.
 ]
 
-- #strong[Pool:] +2 Akmē
+- #strong[Pool:] +2 Mētis
 - #strong[Power tag:] #emph[hands like stone]
 - #strong[Weakness tag:] #emph[slow to start]
 - #strong[Suggested Instinct:] \"If the moment is tense, I breathe and take my time.\"

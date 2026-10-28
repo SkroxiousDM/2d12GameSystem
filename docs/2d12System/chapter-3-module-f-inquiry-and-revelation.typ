@@ -31,7 +31,7 @@ A core clue gets you to the next scene. *Insight* is everything beyond that: mot
 Probe is cheap but risky. Buy is safe but drains the pool you also need for Resistance and Effort. Players should have to choose between them.
 
 #sidebar("Which pool pays?")[
-  *Sōma:* long vigils, exhumations, hard physical labour. *Akmē:* meticulous search, tailing, lock and mechanism work. *Psychē:* deduction, records, anatomy, languages. *Pneuma:* reading people, rites, dread places, the uncanny. The GM may allow a different pool when the fiction supports it (Core Rules §3.3).
+  *Sōma:* long vigils, exhumations, hard physical labour. *Mētis:* meticulous search, tailing, lock and mechanism work. *Psychē:* deduction, records, anatomy, languages. *Pneuma:* reading people, rites, dread places, the uncanny. The GM may allow a different pool when the fiction supports it (Core Rules §3.3).
 ]
 
 === F.3 What an Insight Can Be

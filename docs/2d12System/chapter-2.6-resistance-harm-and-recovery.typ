@@ -4,7 +4,7 @@
   #columns(2, gutter: 6mm)[
 When a consequence lands on you (a status, lost gear, a bad position), you may #strong[Resist];:
 
-+ Choose the pool that fits (see §3.2: Sōma for harm, Akmē to dodge, Psychē against deception and confusion, Pneuma against fear and the supernatural).
++ Choose the pool that fits (see §3.2: Sōma for harm, Mētis to dodge, Psychē against deception and confusion, Pneuma against fear and the supernatural).
 + Roll a number of d12s equal to #strong[2 + that pool\'s Edge] and read only the #strong[highest die];. If penalties take the pool's Edge below 0, see #strong[Negative Edge] below.
 + Pay the listed cost in pool points. #strong[Don\'t subtract Edge] from it; Edge has already helped by adding dice. If #strong[two or more dice show 12];, pay 0 and clear one tier-1 status:
 
@@ -126,7 +126,7 @@ The status must fit both the pool and the action that drained it:
     table.header([Pool], [Example running-dry statuses],),
     table.hline(),
     [Sōma], [#emph[physically exhausted];, #emph[muscular strain];],
-    [Akmē], [#emph[unsteady];, #emph[reflexes overloaded];],
+    [Mētis], [#emph[unsteady];, #emph[reflexes overloaded];],
     [Psychē], [#emph[mentally exhausted];, #emph[cognitive overload];],
     [Pneuma], [#emph[resolve fractured];, #emph[spiritually drained];],
   )]

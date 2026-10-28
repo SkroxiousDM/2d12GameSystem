@@ -10,7 +10,7 @@
     align: (auto,auto,auto,auto,),
     table.header([Resource], [Owner], [Job], [Borrowed from],),
     table.hline(),
-    [#strong[Pools] (Sōma / Akmē / Psychē / Pneuma)], [Each PC], [Physical, mental and spiritual cost --- Effort and Resistance], [Cypher + Blades stress],
+    [#strong[Pools] (Sōma / Mētis / Psychē / Pneuma)], [Each PC], [Physical, mental and spiritual cost --- Effort and Resistance], [Cypher + Blades stress],
     [#strong[Tychē Points];], [Each PC], [Narrative authority --- invoke tags, accept compels], [Fate],
     [#strong[Momentum];], [The party (shared)], [Tactical surplus from strong rolls], [2d20],
     [#strong[Woe];], [The GM], [Mirror of Momentum --- complications and escalation], [2d20],

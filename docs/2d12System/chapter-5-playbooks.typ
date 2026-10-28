@@ -112,17 +112,17 @@ Armour that absorbs a tier-4+ hit is #emph[damaged] (−1 Armour) until repaired
   )]
   , kind: table
   )
-
+#pagebreak()
 #include "chapter-5.3-bellator.typ"
-
+#pagebreak()
 #include "chapter-5.4-furcifer.typ"
-
+#pagebreak()
 #include "chapter-5.5-savant.typ"
-
+#pagebreak()
 #include "chapter-5.6-interlocutor.typ"
-
+#pagebreak()
 #include "chapter-5.7-explorator.typ"
-
+#pagebreak()
 #include "chapter-5.8-adept.typ"
-
+#pagebreak()
 #include "chapter-5.9-design-notes.typ"

@@ -31,11 +31,9 @@ Declining a compel uses the normal refusal rule above; simply acting against a B
 - #strong[Base Refresh is 3.] At the start of each session, your Tychē Points reset to your Refresh (if you have more, keep them, up to the cap).
 - #strong[Tychē cap.] You can hold at most #strong[Refresh + 3] Tychē Points. Any you would gain above the cap are lost.
 - At creation you get #strong[1 playbook ability and your Tier 1 Focus ability for free].
-#colbreak()
 - You may take #strong[up to 2 additional playbook abilities at creation, at 1 Refresh each].
 - Abilities marked #strong[★ (Major)] cost #strong[1 Refresh] whenever you take them, including through advancement.
 - An #strong[attuned artifact] (Module A) costs 1 Refresh while you keep it.
-#colbreak()
 - #strong[Minimum Refresh is 1.] You can never trade away your last Tychē Point.
 - The advancement option "+1 Refresh" (§12) lets you buy Refresh back.
 

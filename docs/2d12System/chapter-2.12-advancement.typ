@@ -15,7 +15,6 @@ The Belief question awards at most #strong[1 XP per session], not 1 XP per Belie
 
 #strong[MVP vote:] the table votes on one standout moment each session; that player gets +1 Tychē Point at the next session (above Refresh, within the cap).
 
-#colbreak()
 === 12.2 Spending XP (every 6 XP = 1 Advance)
 - +1 to a skill (following the pyramid rule)
 - +3 to one pool, or +1 Edge (max 3 Edge per pool)

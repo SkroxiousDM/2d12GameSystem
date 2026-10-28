@@ -55,7 +55,7 @@ Wants: what it is after in this scene
 One line: who it is and what it wants. Pick a #strong[Kind]: Vampire, Human, Beast or Guardian (§4).
 
 === Step 2 — Rank
-Rank is how dangerous it is #emph[now], the same way vampire Threat Ranks work. It sets every number.
+Rank is how dangerous it is #emph[now]. It sets every number.
 
 #figure(table(columns: (20%, 8%, 17%, 9%, 9%, 17%, 20%),
   table.header([Rank], [Grit = Threat], [Best / Fair / Weak], [Guard], [Shrugs], [Tags: power / weakness], [Specials]),
@@ -249,7 +249,6 @@ Spend on the Best action early. Unspent Woe at session end is wasted tension.
 
 === 6.5 Reinforcements
 Reinforcements add their Grit to the side's Disposition, even above the starting value. Defend cannot restore above the original start.
-]
 
 === 6.6 Minion Bodies
 Minion groups have Bodies (3--6) instead of Shrugs. Each successful Attack outside a conflict drops 1 Body. Extra Power spent on Extra Feat drops another. At half Bodies or fewer, ratings drop by 1. At zero, the group is gone. Morale usually ends it sooner.
@@ -267,11 +266,10 @@ Minion groups have Bodies (3--6) instead of Shrugs. Each successful Attack outsi
 
 === 6.9 Other Conflict Types
 The same card runs any type in Core §10.4. Swap Attack, Defend, Feint and Maneuver for that type's skills and keep the ratings, Grit and Woe costs. Rename Specials to fit: Hostage becomes a leverage threat in an Argument, Lockdown a sealed network in a Hack.
-
+#colbreak()
 == 7. Templates
 Seven generic cards. Reskin freely. Ratings follow the Rank table.
 
-#columns(2, gutter: 6mm)[
 #statblock("RAIDER BAND", "Human · Minion group (4 Bodies) · Shooter", "3")[
 Grit 3 · Guard +0 · Bodies 4 · Armour 0 \
 Attack +4 · Defend +2 · Feint +0 · Maneuver +2 · Other +2 \
@@ -337,7 +335,7 @@ Specials: Self-Repair (1), Lockdown (2). \
 Tell: "Please remain where you are." \
 Wants: guests kept safe, intruders out.
 ]
-
+  
 #statblock("THE IRON MARSHAL", "Human · Great · Leader · Boss", "8")[
 Grit 8 · Guard +2 · Shrugs 2 · Armour 1 (house mail) \
 Attack +5 · Defend +8 · Feint +3 · Maneuver +5 · Other +5 \
@@ -349,7 +347,8 @@ Tell: she sets down her glass. \
 Wants: the intruders alive, kneeling and useful.
 ]
 ]
-
+  
+#pagebreak()
 === 7.1 Boss Phases
 Phase changes are free narration with a mechanical trigger. They cost no Woe.
 

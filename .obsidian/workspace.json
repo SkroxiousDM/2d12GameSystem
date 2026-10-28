@@ -13,30 +13,10 @@
             "state": {
               "type": "typst-source",
               "state": {
-                "file": "docs/2d12System/the-2d12-system-v2-core-rulebook.typ"
+                "file": "docs/2d12System/chapter-adversaries.typ"
               },
               "icon": "file-type",
-              "title": "the-2d12-system-v2-core-rulebook"
-            }
-          }
-        ]
-      },
-      {
-        "id": "ccc1bd1c29287046",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e5edf012f900d0d2",
-            "type": "leaf",
-            "state": {
-              "type": "typst-preview",
-              "state": {
-                "vaultPath": "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
-                "themeOverride": null,
-                "pinned": false
-              },
-              "icon": "book-open",
-              "title": "Preview: the-2d12-system-v2-core-rulebook.typ"
+              "title": "chapter-adversaries"
             }
           }
         ]
@@ -204,19 +184,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "e5edf012f900d0d2",
+  "active": "7aa6f6322e6f3252",
   "lastOpenFiles": [
-    "docs/2d12System/chapter-6-focuses.typ",
+    "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ",
     "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
-    "docs/2d12System/chapter-2.9-momentum-and-woe.typ",
-    "docs/2d12System/chapter-2.13-example-of-play.typ",
+    "docs/TestamentOfDust/testament-of-dust-focuses.md",
+    "docs/TestamentOfDust/testament-of-dust-focuses.typ",
+    "docs/2d12System/chapter-adversaries.typ",
+    "docs/TestamentOfDust/testament-of-dust-playbooks.md",
+    "docs/TestamentOfDust/testament-of-dust-playbooks.typ",
+    "docs/TestamentOfDust/testament-of-dust-descriptors.md",
+    "docs/TestamentOfDust/testament-of-dust-descriptors.typ",
+    "docs/TestamentOfDust/testament-of-dust-setting-rules.typ",
+    "docs/TestamentOfDust/testament-of-dust-setting-rules.md",
     "docs/2d12System/chapter-2.12-advancement.typ",
-    "docs/2d12System/chapter-2.11.playbooks.typ",
-    "docs/2d12System/chapter-2.10-conflict-system.typ",
-    "docs/2d12System/chapter-2.14-design-notes.typ",
-    "docs/2d12System/chapter-2-core-rules.typ",
-    "docs/2d12System/chapter-1-introduction.typ",
-    "docs/2d12System/chapter-2.7-progress-clocks.typ",
+    "docs/2d12System/chapter-2.4-tyche-points.typ",
+    "docs/2d12System/chapter-5.3-bellator.typ",
+    "docs/2d12System/drafts/README.md",
+    "docs/2d12System/common-setup.md",
     "docs/2d12System/10.md",
     "docs/2d12System/chapter-2.5-effects.md",
     "docs/2d12System/chapter-2.4-tyche-points.md",
@@ -236,12 +221,6 @@
     "docs/Playtest tools.md",
     "docs/2d12System/Chapter 3 - Module D - Downtime.md",
     "docs/Design/opposition-statblocks and conflict play test 2.md",
-    "docs/2d12System/Chapter 3 - Optional Modules - d-downtime.md",
-    "docs/2d12System/Chapter 4 -  Descriptors.md",
-    "docs/2d12System/Chapter 3 - Optional Modules.md",
-    "docs/2d12System/Chapter 6 - Focuses.md",
-    "CONTRIBUTING.md",
-    "CHANGELOG.md",
     "docs/2d12System/art/playbooks/generic/06-adept.png",
     "docs/2d12System/art/playbooks/generic/06-adept.jpg",
     "docs/2d12System/art/playbooks/generic/05-explorator.png",

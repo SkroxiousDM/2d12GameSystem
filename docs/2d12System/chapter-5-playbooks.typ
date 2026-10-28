@@ -14,7 +14,7 @@
     align: (auto,auto,),
     table.header([Element], [Detail],),
     table.hline(),
-    [#strong[Base pools];], [Sōma / Akmē / Psychē / Pneuma, totalling 36. Add 4 points of your choice and +2 from your Descriptor],
+    [#strong[Base pools];], [Sōma / Mētis / Psychē / Pneuma, totalling 36. Add 4 points of your choice and +2 from your Descriptor],
     [#strong[Edge];], [3 points: the fixed Edge listed, plus 1 point from the listed choices],
     [#strong[Anchor skill];], [Must be rated +3 or +4 in your pyramid],
     [#strong[Suggested skills];], [A recommended pyramid; change it freely],
@@ -66,7 +66,7 @@ Before a mission, choose your #strong[load];. During play, declare items from yo
     table.hline(),
     [#strong[Light];], [3], [You blend in; nothing obvious marks you as armed or burdened],
     [#strong[Normal];], [5], [You look ready for trouble],
-    [#strong[Heavy];], [7], [You\'re #emph[encumbered];: Akmē Effort costs +1 and Stealth Difficulty is one step higher],
+    [#strong[Heavy];], [7], [You\'re #emph[encumbered];: Mētis Effort costs +1 and Stealth Difficulty is one step higher],
   )]
   , kind: table
   )
@@ -89,7 +89,7 @@ Before a mission, choose your #strong[load];. During play, declare items from yo
     table.header([Item], [Load], [Effect],),
     table.hline(),
     [#strong[Light armour];], [1], [#emph[Armour 1];: when you Resist physical harm, reduce it by 1 extra tier],
-    [#strong[Heavy armour];], [2], [#emph[Armour 2];: reduce by 2 extra tiers; Akmē Effort +1 while worn],
+    [#strong[Heavy armour];], [2], [#emph[Armour 2];: reduce by 2 extra tiers; Mētis Effort +1 while worn],
     [#strong[Shield / riot shield / energy barrier];], [1], [#emph[+1 Defend] in Fight conflicts; counts as cover outside conflicts],
   )]
   , kind: table

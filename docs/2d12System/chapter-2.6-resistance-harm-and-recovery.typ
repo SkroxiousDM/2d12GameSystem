@@ -196,3 +196,4 @@ Returning doesn't restore any of your side's Disposition unless the ability says
 An ordinary Defend can't bring back a Taken Out ally unless its rules say it can. If you recover after the conflict is over, you act normally in the scenes that follow, subject to your remaining statuses.
 
 #include "chapter-2.6.5-recovery.typ"
+]

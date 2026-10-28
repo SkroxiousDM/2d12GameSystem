@@ -28,6 +28,8 @@ Prepare full records only for active factions. A name, purpose, and Standing suf
 
 The party may found or lead a faction. Give it ratings justified by its actual people and resources; do not purchase a second character sheet with personal pool points. Leadership grants only the authority its governing structure recognizes.
 
+#include "drafts/module-e-1a-starting-cluster.typ"
+
 === E.2 Organizational Qualities
 
 #table(columns: (26%, 74%),
@@ -53,6 +55,8 @@ Qualities measure capability, not fixed population or geographical size. A small
 Explain every nonzero rating through concrete assets. Influence +3 might mean couriers, shipping agents, and sympathetic officials. It does not mean the faction knows every secret.
 
 A Quality of 0 does not prohibit its members from acting as individuals. It means the organization cannot independently mount a major action in that field without establishing the missing capability or securing outside support.
+
+A permanent Cohesion of 0 is a #emph[crisis] when a faction has fallen to it (E.12). A faction built at Cohesion 0 begins with its Fracture clock created and no automatic tick that turn.
 
 ==== Assets and reach
 
@@ -172,10 +176,11 @@ A Quality establishes what support the faction can organize; Standing, authority
 Support has one concrete application:
 - Permission: equipment, credentials, transport, or access makes the action possible, or removes the need for a particular roll.
 - A scoped Truth: actual conditions change Difficulty under Core Rules §8.
-- Active Help: a participating ally uses the core Help procedure, pays its normal cost, and shares the risk. Define an accompanying NPC normally if its pool expenditure needs tracking; Qualities are not personal pools.
+- Active Help: a participating ally uses the core Help procedure, pays its normal cost, and shares the risk. A faction's accompanying NPC pays the Help cost from its own pools if it is built with them. An ordinary NPC has no pools and cannot Help (§6.1); an ally who can is a named NPC built with pools. Qualities are not personal pools.
 
 Do not award all three for the same contribution. Stronger Qualities increase feasible reach, reliability, and scale, not an automatic numerical bonus. Might +4 can organize support beyond Might +1; it does not grant +4 Fight.
 
 An escort may make a friendly checkpoint automatic. It cannot make every later negotiation easier simply because it exists. Personnel face the real risks of deployment, and a borrowed resource is not freely duplicable or permanently transferred.
 
 #include "chapter-3-module-e.7-favours.typ"
+]

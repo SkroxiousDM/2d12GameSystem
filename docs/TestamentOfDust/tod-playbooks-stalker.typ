@@ -9,7 +9,7 @@ You hunt by day. While the vampire sleeps, you climb the estate walls, pick the 
   [#table(
     columns: (25%, 75%),
     align: (auto,auto,),
-    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [8 / 12 / 8 / 8],
+    [#strong[Base pools (Sōm / Mēt / Psy / Pne)];], [8 / 12 / 8 / 8],
     [#strong[Edge];], [Mētis 2, plus 1 in Psychē or Sōma],
     [#strong[Anchor skill];], [Stealth],
     [#strong[Suggested skills];], [+4 Stealth · +3 Notice, Craft · +2 Athletics, Deceive, Shoot · +1 Fight, Science, Investigate, Old Lore],

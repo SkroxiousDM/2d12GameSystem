@@ -9,8 +9,8 @@ Sheriff, militia captain, or the old soldier who keeps the village alive. You do
   [#table(
     columns: (25%, 75%),
     align: (auto,auto,),
-    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [10 / 9 / 9 / 8],
-    [#strong[Edge];], [Sōma 1, Psychē 1, plus 1 in Pneuma or Akmē],
+    [#strong[Base pools (Sōm / Mēt / Psy / Pne)];], [10 / 9 / 9 / 8],
+    [#strong[Edge];], [Sōma 1, Psychē 1, plus 1 in Pneuma or Mētis],
     [#strong[Anchor skill];], [Craft],
     [#strong[Suggested skills];], [+4 Craft · +3 Old Lore, Shoot · +2 Notice, Intimidate, Endure · +1 Persuade, Fight, Frontier, Will],
     [#strong[XP trigger];], [Address a challenge by preparing, protecting, or fortifying],

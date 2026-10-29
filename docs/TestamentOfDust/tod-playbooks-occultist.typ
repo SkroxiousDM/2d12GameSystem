@@ -9,7 +9,7 @@ Psychic, curse-witch, hypnotist, or scavenger of old-world machines. You use the
   [#table(
     columns: (25%, 75%),
     align: (auto,auto,),
-    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [7 / 8 / 9 / 12],
+    [#strong[Base pools (Sōm / Mēt / Psy / Pne)];], [7 / 8 / 9 / 12],
     [#strong[Edge];], [Pneuma 2 (Occult) or Psychē 2 (Science), plus 1 in any other pool],
     [#strong[Anchor skill];], [Occult (psychic powers, curses, sorcery) or Science (old-world machines, gadgets)],
     [#strong[Suggested skills];], [+4 Occult · +3 Old Lore, Will · +2 Notice, Medicine, Persuade · +1 Investigate, Empathy, Deceive, Science],

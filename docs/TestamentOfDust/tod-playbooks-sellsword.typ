@@ -9,8 +9,8 @@ Muscle for hire. You stand between the village and the thing coming out of the d
   [#table(
     columns: (27%, 73%),
     align: (auto,auto,),
-    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [12 / 10 / 6 / 8],
-    [#strong[Edge];], [Sōma 2, plus 1 in Akmē or Pneuma],
+    [#strong[Base pools (Sōm / Mēt / Psy / Pne)];], [12 / 10 / 6 / 8],
+    [#strong[Edge];], [Sōma 2, plus 1 in Mētis or Pneuma],
     [#strong[Anchor skill];], [Fight or Brawl],
     [#strong[Suggested skills];], [+4 Fight · +3 Athletics, Endure · +2 Brawl, Intimidate, Shoot · +1 Notice, Will, Frontier, Ride],
     [#strong[XP trigger];], [Address a challenge with force or threats],

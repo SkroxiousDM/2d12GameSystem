@@ -9,7 +9,7 @@ The only doctor for a hundred kilometres. You sew up Hunters, deliver babies, an
   [#table(
     columns: (25%, 75%),
     align: (auto,auto,),
-    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [7 / 8 / 13 / 8],
+    [#strong[Base pools (Sōm / Mēt / Psy / Pne)];], [7 / 8 / 13 / 8],
     [#strong[Edge];], [Psychē 2, plus 1 in Pneuma or Mētis],
     [#strong[Anchor skill];], [Medicine or Old Lore],
     [#strong[Suggested skills];], [+4 Medicine · +3 Old Lore, Investigate · +2 Notice, Science, Empathy · +1 Will, Shoot, Ride, Persuade],

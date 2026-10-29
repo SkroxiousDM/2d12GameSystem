@@ -9,8 +9,8 @@ Contracts, rumours, debts, and deals. You find the work, set the price, and make
   [#table(
     columns: (25%, 75%),
     align: (auto,auto,),
-    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [7 / 9 / 9 / 11],
-    [#strong[Edge];], [Pneuma 2, plus 1 in Psychē or Akmē],
+    [#strong[Base pools (Sōm / Mēt / Psy / Pne)];], [7 / 9 / 9 / 11],
+    [#strong[Edge];], [Pneuma 2, plus 1 in Psychē or Mētis],
     [#strong[Anchor skill];], [Persuade],
     [#strong[Suggested skills];], [+4 Persuade · +3 Empathy, Deceive · +2 Notice, Old Lore, Will · +1 Investigate, Shoot, Ride, Intimidate],
     [#strong[XP trigger];], [Address a challenge with charm, lies, or bargaining],

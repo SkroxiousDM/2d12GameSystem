@@ -1,0 +1,29 @@
+name: rename-akme
+
+on:
+  push:
+    branches: [akme-to-metis-tod]
+    paths: ['.github/workflows/rename-akme.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  rename:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Replace Akmē with Mētis
+        run: |
+          export LC_ALL=C.UTF-8
+          grep -rlE 'Akm|AKM|akm' docs/TestamentOfDust --include='*.md' --include='*.typ' | xargs -r sed -i -E 's/Akmē/Mētis/g; s/Akmê/Mētis/g; s/AKMĒ/MĒTIS/g; s/akmē/mētis/g; s/\bAkme\b/Mētis/g; s/\bAkm\b/Mēt/g'
+          git diff --stat
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/TestamentOfDust
+          git diff --cached --quiet || git commit -m "Rename Akmē to Mētis in Testament of Dust files"
+          git push

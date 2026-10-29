@@ -14,20 +14,16 @@
 #let symbol-font  = ("DejaVu Sans",)
 
 // ---------------------------------------------------------------- metadata
+// The #set document(...) call lives in the main book file; a document set
+// rule in an imported module has no effect on the importing document.
 #let book-title    = "Testament of Dust"
 #let book-subtitle = "A Setting for The 2d12 System · Version 2"
 #let book-kind     = "Setting Book"
 #let book-tagline  = "Post-Apocalyptic Frontier Gothic"
 #let book-motto    = "Roads through a broken world. Blood behind every bargain."
 #let book-author   = "SkroxiousDM"
-#let book-date     = datetime.today(offset: -6)
-
-#set document(
-  title: book-title + " — " + book-subtitle + " — " + book-kind,
-  author: book-author,
-  date: datetime.today(offset: -6),
-  keywords: ("2d12", "Testament of Dust", "tabletop RPG", "setting book", "gothic", "post-apocalyptic"),
-)
+#let book-date-obj = datetime.today(offset: -6)
+#let book-date     = book-date-obj.display("[year]-[month]-[day]")
 
 // ---------------------------------------------------------------- playbook art
 // full-figure ink-and-watercolour vignettes, toned to the page parchment
@@ -77,22 +73,6 @@
   place(dx: 1.25*r, dy: 1.20*r, circle(radius: 0.07*r, fill: blood.darken(25%)))
 })
 
-// ---------------------------------------------------------------- base text
-#set text(font: body-font, size: 10.4pt, fill: ink, lang: "en", region: "CA",
-  hyphenate: true, number-type: "old-style")
-#set par(justify: true, leading: 0.62em, spacing: 0.95em)
-#show "★": it => text(font: symbol-font, size: 0.85em, fill: ember, it)
-#show "◆": it => text(font: symbol-font, size: 0.85em, fill: brass, it)
-#show "◈": it => text(font: symbol-font, size: 0.9em, fill: blood, it)
-#show "→": it => text(font: symbol-font, size: 0.85em, it)
-#show "✓": it => text(font: symbol-font, size: 0.85em, it)
-#show "✗": it => text(font: symbol-font, size: 0.85em, it)
-
-#set list(marker: (text(fill: blood, size: 0.7em, baseline: -0.15em)[◆], text(fill: brass)[–]), indent: 0.4em, body-indent: 0.55em, spacing: 0.75em)
-#set enum(indent: 0.3em, body-indent: 0.5em, spacing: 0.75em, numbering: n => text(font: display-font, fill: blood, weight: 700, size: 0.85em)[#n.])
-#show strong: set text(fill: ink.lighten(0%), weight: 700)
-#show emph: set text(fill: ash)
-
 // ---------------------------------------------------------------- page frame
 #let running-header = context {
   let chs = query(heading.where(level: 1).before(here()))
@@ -110,59 +90,6 @@
   set text(font: display-font, size: 8.5pt, fill: blood)
   align(center, { diamond(size: 4pt, fill: brass); h(8pt); counter(page).display("1"); h(8pt); diamond(size: 4pt, fill: brass) })
 }
-
-#set page(paper: "us-letter", fill: paper,
-  margin: (top: 1.5cm, bottom: 1.5cm, inside: 2cm, outside: 1.7cm),
-  header: running-header, footer: running-footer, header-ascent: 35%, footer-descent: 35%)
-
-// ---------------------------------------------------------------- headings
-#set heading(numbering: none)
-#show heading: set text(font: display-font, hyphenate: false)
-#show heading: set par(justify: false)
-
-// level 1 is only produced by #chapter(), which styles it on the divider page
-#show heading.where(level: 1): it => block(width: 100%, spacing: 0pt, {
-  set align(center)
-  if it.numbering != none {
-    text(size: 11pt, fill: brass, tracking: 0.35em, weight: 700)[#upper[Chapter] #counter(heading).display("I")]
-    v(14pt)
-  }
-  text(size: 30pt, fill: moon, weight: 700, tracking: 0.04em, it.body)
-})
-
-#show heading.where(level: 2): it => block(above: 1.6em, below: 0.85em, sticky: true, width: 100%, {
-  text(size: 15pt, fill: blood, weight: 700, it.body)
-  v(-7pt)
-  grid(columns: (auto, 1fr), align: horizon, column-gutter: 4pt,
-    diamond(size: 5pt, fill: brass), line(length: 100%, stroke: 0.7pt + brass))
-})
-#show heading.where(level: 3): it => block(above: 1.3em, below: 0.6em, sticky: true,
-  text(size: 11.5pt, fill: ash, weight: 700, tracking: 0.02em, it.body))
-#show heading.where(level: 4): it => block(above: 1.1em, below: 0.5em, sticky: true,
-  text(font: body-font, size: 11pt, style: "italic", fill: blood, weight: 700, it.body))
-
-// ---------------------------------------------------------------- tables
-#show figure.where(kind: table): set block(breakable: true)
-#show figure.where(kind: table): set align(left)
-#show figure: set block(breakable: true, above: 0.9em, below: 1.1em)
-#set table(
-  stroke: (x, y) => (
-    top: if y == 0 { 1pt + blood } else { none },
-    bottom: 0.4pt + brass.lighten(35%),
-  ),
-  fill: (x, y) => if y == 0 { blood } else if calc.even(y) { tint } else { none },
-  inset: (x: 5pt, y: 4.2pt),
-)
-#show table: set text(size: 8.9pt, number-type: "lining", hyphenate: false)
-#show table: set par(justify: false, leading: 0.5em)
-#show table.cell.where(y: 0): set text(font: display-font, fill: paper, size: 7.8pt, weight: 700, tracking: 0.03em)
-#show table.cell.where(y: 0): set align(left + horizon)
-#show table.hline: none
-
-// ---------------------------------------------------------------- quotes
-#show quote.where(block: true): it => block(width: 100%, inset: (left: 12pt, right: 8pt, y: 7pt),
-  stroke: (left: 2.2pt + blood), fill: tint.lighten(30%), spacing: 1em,
-  text(style: "italic", fill: ash, it.body))
 
 // ---------------------------------------------------------------- helpers
 #let horizontalrule = v(0.6em) + ornament-rule(width: 40%) + v(0.6em)
@@ -226,4 +153,82 @@
       chapter-contents
     })
   ]
+}
+
+// ---------------------------------------------------------------- house style
+// Use as:  #show: apply-style   (once, in the main book file).
+// Set/show rules in an imported module do not reach the importing file, so
+// they are wrapped in this template function.
+#let apply-style(doc) = {
+  // base text
+  set text(font: body-font, size: 10.4pt, fill: ink, lang: "en", region: "CA",
+    hyphenate: true, number-type: "old-style")
+  set par(justify: true, leading: 0.62em, spacing: 0.95em)
+  show "★": it => text(font: symbol-font, size: 0.85em, fill: ember, it)
+  show "◆": it => text(font: symbol-font, size: 0.85em, fill: brass, it)
+  show "◈": it => text(font: symbol-font, size: 0.9em, fill: blood, it)
+  show "→": it => text(font: symbol-font, size: 0.85em, it)
+  show "✓": it => text(font: symbol-font, size: 0.85em, it)
+  show "✗": it => text(font: symbol-font, size: 0.85em, it)
+
+  set list(marker: (text(fill: blood, size: 0.7em, baseline: -0.15em)[◆], text(fill: brass)[–]), indent: 0.4em, body-indent: 0.55em, spacing: 0.75em)
+  set enum(indent: 0.3em, body-indent: 0.5em, spacing: 0.75em, numbering: n => text(font: display-font, fill: blood, weight: 700, size: 0.85em)[#n.])
+  show strong: set text(fill: ink.lighten(0%), weight: 700)
+  show emph: set text(fill: ash)
+
+  // page frame
+  set page(paper: "us-letter", fill: paper,
+    margin: (top: 1.5cm, bottom: 1.5cm, inside: 2cm, outside: 1.7cm),
+    header: running-header, footer: running-footer, header-ascent: 35%, footer-descent: 35%)
+
+  // headings
+  set heading(numbering: none)
+  show heading: set text(font: display-font, hyphenate: false)
+  show heading: set par(justify: false)
+
+  // level 1 is only produced by #chapter(), which styles it on the divider page
+  show heading.where(level: 1): it => block(width: 100%, spacing: 0pt, {
+    set align(center)
+    if it.numbering != none {
+      text(size: 11pt, fill: brass, tracking: 0.35em, weight: 700)[#upper[Chapter] #counter(heading).display("I")]
+      v(14pt)
+    }
+    text(size: 30pt, fill: moon, weight: 700, tracking: 0.04em, it.body)
+  })
+
+  show heading.where(level: 2): it => block(above: 1.6em, below: 0.85em, sticky: true, width: 100%, {
+    text(size: 15pt, fill: blood, weight: 700, it.body)
+    v(-7pt)
+    grid(columns: (auto, 1fr), align: horizon, column-gutter: 4pt,
+      diamond(size: 5pt, fill: brass), line(length: 100%, stroke: 0.7pt + brass))
+  })
+  show heading.where(level: 3): it => block(above: 1.3em, below: 0.6em, sticky: true,
+    text(size: 11.5pt, fill: ash, weight: 700, tracking: 0.02em, it.body))
+  show heading.where(level: 4): it => block(above: 1.1em, below: 0.5em, sticky: true,
+    text(font: body-font, size: 11pt, style: "italic", fill: blood, weight: 700, it.body))
+
+  // tables
+  show figure.where(kind: table): set block(breakable: true)
+  show figure.where(kind: table): set align(left)
+  show figure: set block(breakable: true, above: 0.9em, below: 1.1em)
+  set table(
+    stroke: (x, y) => (
+      top: if y == 0 { 1pt + blood } else { none },
+      bottom: 0.4pt + brass.lighten(35%),
+    ),
+    fill: (x, y) => if y == 0 { blood } else if calc.even(y) { tint } else { none },
+    inset: (x: 5pt, y: 4.2pt),
+  )
+  show table: set text(size: 8.9pt, number-type: "lining", hyphenate: false)
+  show table: set par(justify: false, leading: 0.5em)
+  show table.cell.where(y: 0): set text(font: display-font, fill: paper, size: 7.8pt, weight: 700, tracking: 0.03em)
+  show table.cell.where(y: 0): set align(left + horizon)
+  show table.hline: none
+
+  // quotes
+  show quote.where(block: true): it => block(width: 100%, inset: (left: 12pt, right: 8pt, y: 7pt),
+    stroke: (left: 2.2pt + blood), fill: tint.lighten(30%), spacing: 1em,
+    text(style: "italic", fill: ash, it.body))
+
+  doc
 }

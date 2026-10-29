@@ -3,7 +3,8 @@
 //  Setting Book · Post-Apocalyptic Frontier Gothic
 //  Compiled for SkroxiousDM · 2026-10-19
 //
-//  Single-file Typst source. Compile with:
+//  Multi-file Typst source (the tod-*.typ files in this folder).
+//  Compile from this folder so the art/ paths resolve:
 //      typst compile testament-of-dust-v2-setting-book.typ
 //
 //  Fonts (free, Google Fonts / OFL). Install them, or pass --font-path:
@@ -187,13 +188,13 @@ The source documents used the working names on the left. This book uses the hous
 ]
 ]
   
-#include "testament-of-dust-setting-rules.typ"
+#include "tod-setting-rules.typ"
 
-#include "testament-of-dust-descriptors.typ"
+#include "tod-descriptors.typ"
   
-#include "testament-of-dust-playbooks.typ"
+#include "tod-playbooks.typ"
 
-#include "testament-of-dust-focuses.typ"
+#include "tod-focuses.typ"
 
 // =====================================================================
 //  APPENDIX — FRONTIER QUICK REFERENCE
@@ -240,4 +241,4 @@ Full effects in Frontier Rules §14; use with Core Rules §9.2.
 #v(1fr)
 #align(center, ornament-rule(width: 40%))
 #v(6pt)
-#align(center, text(font: display-font, size: 9pt, fill: dust, tracking: 0.2em)[END OF THE SETTING BOOK · 2026-10-19])
+#align(center, text(font: display-font, size: 9pt, fill: dust, tracking: 0.2em)[END OF THE SETTING BOOK · #book-date])

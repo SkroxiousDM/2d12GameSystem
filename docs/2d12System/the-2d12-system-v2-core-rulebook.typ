@@ -71,7 +71,7 @@
     v(12pt)
     text(size: 10.5pt)[
       Design, writing and development: *#book-author* \
-      Version 2 · Core compilation dated *#book-date*
+      Version 2 · Core compilation dated *#book-date.display()*
     ]
     v(14pt)
     text(size: 9.5pt, fill: ash)[
@@ -166,7 +166,7 @@ Thank you for the examples, the challenges, and the moments that made me stop an
 #v(1fr)
 #align(center, ornament-rule(width: 40%))
 #v(6pt)
-#align(center, text(font: display-font, size: 9pt, fill: dust, tracking: 0.2em)[END OF THE CORE RULEBOOK · #book-date])
+#align(center, text(font: display-font, size: 9pt, fill: dust, tracking: 0.2em)[END OF THE CORE RULEBOOK · #book-date.display()])
 
 
 

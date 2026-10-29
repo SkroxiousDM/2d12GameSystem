@@ -58,7 +58,7 @@ Agree on these at session zero. The first five are the #strong[core Truths]. Rep
   )]
   , kind: table
   )
-
+#pagebreak()
 == 3. Skill List
 The 20 generic skills are renamed or kept as follows. Default pools are unchanged unless noted.
 
@@ -123,7 +123,7 @@ When the party must survive until morning, the GM sets a #strong[Dawn clock] (us
 - When it fills, the scene becomes #strong[Dawn].
 
 Use the Dawn clock as a #strong[racing clock] against the vampire's own clock (#emph[Breach the Village 8], #emph[Take the Girl 6]). Dawn doesn't destroy a vampire; it forces a choice: withdraw, or fight on while the sun takes its toll.
-
+#pagebreak()
 == 5. Vampires
 === 5.1 Threat Ranks
 Rank measures how dangerous a vampire is #strong[now] --- its resources, supply, allies and access to old works --- not its age. A vampire who remembers the world before the fall can be any rank; one made last decade can be Paramount.

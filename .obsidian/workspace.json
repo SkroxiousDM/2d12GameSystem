@@ -11,24 +11,32 @@
             "id": "7aa6f6322e6f3252",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "typst-source",
               "state": {
-                "file": "CONTRIBUTING.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ"
               },
-              "icon": "lucide-file",
-              "title": "CONTRIBUTING"
+              "icon": "file-type",
+              "title": "testament-of-dust-v2-setting-book"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1197d9b0827b289d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a89fec587e71049",
+            "type": "leaf",
+            "state": {
+              "type": "typst-preview",
+              "state": {
+                "vaultPath": "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ",
+                "themeOverride": null,
+                "pinned": false
+              },
+              "icon": "book-open",
+              "title": "Preview: testament-of-dust-v2-setting-book.typ"
             }
           }
         ]
@@ -196,13 +204,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "7aa6f6322e6f3252",
+  "active": "7b84c46cc61e5997",
   "lastOpenFiles": [
+    "docs/Design/rules-audit.md",
     "docs/TestamentOfDust/tod-setting-rules.typ",
+    "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ",
+    "CONTRIBUTING.md",
     "CHANGELOG.md",
     "docs/TestamentOfDust/tod-playbooks.typ",
     "docs/TestamentOfDust/tod-focuses.typ",
-    "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ",
     "docs/TestamentOfDust/tod-setting-rules-8.typ",
     "docs/TestamentOfDust/tod-descriptors.typ",
     "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
@@ -232,7 +242,6 @@
     "docs/TestamentOfDust/testament-of-dust-playbooks.md",
     "docs/TestamentOfDust/testament-of-dust-descriptors.md",
     "docs/TestamentOfDust/testament-of-dust-setting-rules.md",
-    "docs/2d12System/drafts/README.md",
     "docs/2d12System/art/playbooks/generic/06-adept.png",
     "docs/2d12System/art/playbooks/generic/06-adept.jpg",
     "docs/2d12System/art/playbooks/generic/05-explorator.png",

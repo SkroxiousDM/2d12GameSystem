@@ -157,7 +157,7 @@
 #sec([Pools & Edge], sub: [your stress tracks · Edge cuts Effort cost · adds Resist dice])
 #grid(columns: (1fr,) * 4, column-gutter: 7pt,
   pool([Sōma], [Wounds · poison · exhaustion · cold]),
-  pool([Akmē], [Traps · falls · being caught or grabbed]),
+  pool([Mētis], [Traps · falls · being caught or grabbed]),
   pool([Psychē], [Confusion · illusion · deception · madness]),
   pool([Pneuma], [Fear · despair · possession · corruption]))
 #v(5pt)
@@ -194,7 +194,7 @@
     v(4pt)
     note[
       *Sōma* Athletics · Brawl · Fight · Endure · Survival \
-      *Akmē* Shoot · Stealth · Drive/Pilot · Craft \
+      *Mētis* Shoot · Stealth · Drive/Pilot · Craft \
       *Psychē* Notice · Investigate · Lore · Tech · Medicine · Deceive \
       *Pneuma* Will · Persuade · Intimidate · Empathy · Arcana\* \
       #text(fill: dust)[\*Renamed per setting. A skill's default pool pays its Effort and Resistance; the GM may allow another pool when the fiction fits.]
@@ -314,7 +314,7 @@
   // ---------- right
   {
     sec([Load & Gear])
-    [#cb() *Light 3* #h(8pt) #cb() *Normal 5* #h(8pt) #cb() *Heavy 7* #h(4pt) #text(size: 6.4pt, style: "italic", fill: dust)[encumbered: Akmē Effort +1, Stealth one step harder]]
+    [#cb() *Light 3* #h(8pt) #cb() *Normal 5* #h(8pt) #cb() *Heavy 7* #h(4pt) #text(size: 6.4pt, style: "italic", fill: dust)[encumbered: Mētis Effort +1, Stealth one step harder]]
     v(3pt)
     grid(columns: (1fr, 18pt, 1fr), column-gutter: 5pt, lbl[Item], align(center, lbl[Load]), lbl[Tags · action bonus])
     v(3pt)
@@ -328,7 +328,7 @@
     grid(columns: (auto, auto, 1fr), column-gutter: 10pt, align: horizon,
       [*Armour* #h(3pt) #cb() 1 #h(4pt) #cb() 2], [#cb() *Damaged* #text(size: 6.4pt, style: "italic", fill: dust)[(−1)]], [#cb() *Shield* #text(size: 6.4pt, style: "italic", fill: dust)[+1 Defend]])
     v(2pt)
-    text(size: 6.4pt, style: "italic", fill: dust)[Light armour (1 load) is Armour 1; heavy (2 load) is Armour 2 and Akmē Effort +1. When you Resist physical harm, reduce it by that many extra tiers. A tier-4+ hit damages armour until repaired in downtime.]
+    text(size: 6.4pt, style: "italic", fill: dust)[Light armour (1 load) is Armour 1; heavy (2 load) is Armour 2 and Mētis Effort +1. When you Resist physical harm, reduce it by that many extra tiers. A tier-4+ hit damages armour until repaired in downtime.]
 
     sec([Cyphers], sub: [Module A])
     [#lbl(fill: ink, size: 6.5pt)[Cypher limit] #h(4pt) #cb() 2 #h(4pt) #cb() 3]
@@ -393,7 +393,7 @@
     sec([Frontier Skills], sub: [replace the generic list on page 1])
     note[
       *Sōma* Athletics · Brawl · Fight · Endure · *Frontier* \
-      *Akmē* Shoot · Stealth · *Ride* · Craft \
+      *Mētis* Shoot · Stealth · *Ride* · Craft \
       *Psychē* Notice · Investigate · *Old Lore* · *Science* · Medicine · Deceive \
       *Pneuma* Will · Persuade · Intimidate · Empathy · *Occult* \
       #text(fill: dust)[Renamed: Survival → Frontier · Drive/Pilot → Ride · Lore → Old Lore · Tech → Science · Arcana → Occult. If Science and Occult both fit, choose one and keep it for that device or effect for the scene.]
@@ -414,8 +414,8 @@
     v(3pt)
     rows-table((24pt, 1fr), ([Tier], [Effect]), (
       ([1], [A donation's worth. Pale and tired; clears after a night's rest with food and water.]),
-      ([2], [Light-headed: −1 on Sōma and Akmē rolls.]),
-      ([3], [Weak: −2 on Sōma and Akmē rolls, and gain _Weary_.]),
+      ([2], [Light-headed: −1 on Sōma and Mētis rolls.]),
+      ([3], [Weak: −2 on Sōma and Mētis rolls, and gain _Weary_.]),
       ([4], [Critical: the next harm of any kind Takes you Out. Medicine to stabilise.]),
       ([5], [Dying: Taken Out. Dies at scene end unless stabilised (Medicine, Hard 18) or transfused.]),
       ([6], [*Drained:* dead, unless someone has the reason and the means to make you one of them.]),
@@ -430,7 +430,7 @@
     grid(columns: (52pt, auto), column-gutter: 6pt, align: horizon,
       text(font: display-font, size: 9pt, fill: blood, weight: 700)[Sun-Sick], tiers())
     v(2pt)
-    note(size: 6.5pt)[In direct sun under the *Day* Truth: +1 tier at the start of each outdoor scene (+2 under _Merciless Sun_). Penalty applies to Sōma and Akmē rolls. Resist with Sōma; a wide hat, dark cloak or partial shade is +1 Sōma Edge for that Resist. No dhampir healing while Sun-Sick. A scene in shade: −2 tiers; night clears it. *Tier 6:* collapse; a whole day in the sun adds a Sōma Scar.]
+    note(size: 6.5pt)[In direct sun under the *Day* Truth: +1 tier at the start of each outdoor scene (+2 under _Merciless Sun_). Penalty applies to Sōma and Mētis rolls. Resist with Sōma; a wide hat, dark cloak or partial shade is +1 Sōma Edge for that Resist. No dhampir healing while Sun-Sick. A scene in shade: −2 tiers; night clears it. *Tier 6:* collapse; a whole day in the sun adds a Sōma Scar.]
     v(3pt)
     grid(columns: (52pt, auto), column-gutter: 6pt, align: horizon,
       text(font: display-font, size: 9pt, fill: blood, weight: 700)[Thirst], tiers(from: 0))

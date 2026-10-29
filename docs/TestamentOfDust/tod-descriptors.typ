@@ -1,3 +1,5 @@
+#import "tod-common.typ" : *
+
 // =====================================================================
 //  CHAPTER — FRONTIER DESCRIPTORS
 // =====================================================================
@@ -46,15 +48,15 @@ Some Frontier pasts are better kept quiet: marks on a throat, a mother nobody na
     [7], [Cunning], [Psychē], [#emph[always a second plan];], [#emph[too clever by half];],
     [8], [Devout], [Pneuma], [#emph[faith the dark can feel];], [#emph[won\'t break my vows];],
     [9], [Doomed], [Pneuma], [#emph[nothing left to lose];], [#emph[death rides beside me];],
-    [10], [Feral], [Akmē], [#emph[senses of a beast];], [#emph[forgets my manners];],
+    [10], [Feral], [Mētis], [#emph[senses of a beast];], [#emph[forgets my manners];],
     [11], [Frontier-Hard], [Sōma], [#emph[grew up on the Frontier];], [#emph[slow to trust strangers];],
     [12], [Gentle], [Pneuma], [#emph[people open up to me];], [#emph[can\'t kill without cause];],
     [13], [Greedy], [Psychē], [#emph[knows what everything\'s worth];], [#emph[a price for everything];],
     [14], [Hollow-Eyed], [Psychē], [#emph[seen too much to scare];], [#emph[nightmares every night];],
     [15], [Mutated], [Sōma], [#emph[body of the wastes];], [#emph[they call me monster];],
-    [16], [Reckless], [Akmē], [#emph[first through the door];], [#emph[doesn\'t wait];],
+    [16], [Reckless], [Mētis], [#emph[first through the door];], [#emph[doesn\'t wait];],
     [17], [Scarred], [Sōma], [#emph[survived worse than this];], [#emph[old wounds ache];],
-    [18], [Silent], [Akmē], [#emph[says nothing, sees everything];], [#emph[people don\'t know where they stand];],
+    [18], [Silent], [Mētis], [#emph[says nothing, sees everything];], [#emph[people don\'t know where they stand];],
     [19], [Superstitious], [Psychē], [#emph[knows every folk charm];], [#emph[jumps at shadows];],
     [20], [Vengeful], [Sōma], [#emph[I don\'t forget];], [#emph[will drop anything for revenge];],
   )]
@@ -166,7 +168,7 @@ A seer, a vampire, or a doctor told you how you\'ll die. You believe them.
 Raised in the wastes, by animals, mutants, or no one at all.
 ]
 
-- #strong[Pool:] +2 Akmē
+- #strong[Pool:] +2 Mētis
 - #strong[Power tag:] #emph[senses of a beast]
 - #strong[Weakness tag:] #emph[forgets my manners]
 - #strong[Suggested Instinct:] \"Always sleep with my back to a wall.\"
@@ -232,7 +234,7 @@ The old wars and the old-world experiments left their mark on your bloodline: sc
 Waiting gets people killed too. You\'d rather it be on your terms.
 ]
 
-- #strong[Pool:] +2 Akmē
+- #strong[Pool:] +2 Mētis
 - #strong[Power tag:] #emph[first through the door]
 - #strong[Weakness tag:] #emph[doesn\'t wait]
 - #strong[Suggested Instinct:] \"Always charge when they hesitate.\"
@@ -254,7 +256,7 @@ Claw marks, burns, a missing finger. Every one is a story and a lesson.
 You speak rarely. People fill the silence with the truth.
 ]
 
-- #strong[Pool:] +2 Akmē
+- #strong[Pool:] +2 Mētis
 - #strong[Power tag:] #emph[says nothing, sees everything]
 - #strong[Weakness tag:] #emph[people don\'t know where they stand]
 - #strong[Suggested Instinct:] \"Always listen before I speak.\"

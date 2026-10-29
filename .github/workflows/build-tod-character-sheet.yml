@@ -1,0 +1,71 @@
+name: Build Testament of Dust character sheet
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: tod-character-sheet-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  compile:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Prepare output directory
+        run: |
+          mkdir -p build/tod-character-sheet
+          printf 'Commit: %s\nRef: %s\n' "$GITHUB_SHA" "$GITHUB_REF" > build/tod-character-sheet/build-info.txt
+      - name: Install Typst
+        uses: typst-community/setup-typst@v4
+        with:
+          typst-version: '0.13.1'
+      - name: Fetch sheet fonts
+        run: |
+          set -euo pipefail
+          {
+            git clone --depth 1 --filter=blob:none --sparse https://github.com/google/fonts.git .build-fonts
+            git -C .build-fonts sparse-checkout set ofl/ebgaramond ofl/cinzel
+            git -C .build-fonts rev-parse HEAD
+            test -n "$(find .build-fonts/ofl/ebgaramond -name '*.ttf' -print -quit)"
+            test -n "$(find .build-fonts/ofl/cinzel -name '*.ttf' -print -quit)"
+          } 2>&1 | tee build/tod-character-sheet/font-setup.log
+      - name: Record compiler and available fonts
+        run: |
+          set -euo pipefail
+          typst --version | tee -a build/tod-character-sheet/build-info.txt
+          typst fonts --font-path .build-fonts/ofl > build/tod-character-sheet/fonts.txt
+          grep -Fx 'EB Garamond' build/tod-character-sheet/fonts.txt
+          grep -Fx 'Cinzel' build/tod-character-sheet/fonts.txt
+      - name: Compile character sheet
+        run: |
+          set -euo pipefail
+          typst compile --root . --font-path .build-fonts/ofl docs/TestamentOfDust/2d12-character-sheet-v2.typ build/tod-character-sheet/2d12-character-sheet-v2.pdf 2>&1 | tee build/tod-character-sheet/compile.log
+          test -s build/tod-character-sheet/2d12-character-sheet-v2.pdf
+      - name: Upload PDF and diagnostic logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tod-character-sheet-${{ github.run_number }}
+          path: build/tod-character-sheet/
+          if-no-files-found: warn
+          retention-days: 2
+      - name: Write review summary
+        if: always()
+        run: |
+          {
+            echo '## Testament of Dust character sheet build'
+            echo "Source commit: $GITHUB_SHA"
+            if test -s build/tod-character-sheet/2d12-character-sheet-v2.pdf; then
+              echo 'PDF produced. Download the workflow artifact for visual layout review.'
+            else
+              echo 'No complete PDF produced. Inspect the job logs and diagnostic artifact.'
+            fi
+            echo 'This workflow does not commit generated files or certify visual layout.'
+          } >> "$GITHUB_STEP_SUMMARY"

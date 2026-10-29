@@ -13,10 +13,277 @@
             "state": {
               "type": "typst-source",
               "state": {
-                "file": "docs/2d12System/chapter-adversaries.typ"
+                "file": "docs/TestamentOfDust/tod-playbooks.typ"
               },
               "icon": "file-type",
-              "title": "chapter-adversaries"
+              "title": "tod-playbooks"
+            }
+          },
+          {
+            "id": "ab4e34614be18bc4",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "docs/TestamentOfDust/tod-playbooks.typ"
+              },
+              "icon": "file-type",
+              "title": "tod-playbooks"
+            }
+          },
+          {
+            "id": "d33c8f8b391caac0",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "docs/TestamentOfDust/tod-playbooks.typ"
+              },
+              "icon": "file-type",
+              "title": "tod-playbooks"
+            }
+          },
+          {
+            "id": "ee7635466c031353",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "docs/TestamentOfDust/tod-playbooks.typ"
+              },
+              "icon": "file-type",
+              "title": "tod-playbooks"
+            }
+          },
+          {
+            "id": "f4c9e422cc2922e4",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "docs/TestamentOfDust/tod-playbooks.typ"
+              },
+              "icon": "file-type",
+              "title": "tod-playbooks"
+            }
+          },
+          {
+            "id": "0724b5c05a385549",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "docs/TestamentOfDust/tod-playbooks.typ"
+              },
+              "icon": "file-type",
+              "title": "tod-playbooks"
+            }
+          },
+          {
+            "id": "ecb1c45ba2d4d7b9",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "docs/TestamentOfDust/tod-playbooks.typ"
+              },
+              "icon": "file-type",
+              "title": "tod-playbooks"
+            }
+          },
+          {
+            "id": "c14edbf9393e0a97",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "docs/TestamentOfDust/tod-playbooks.typ"
+              },
+              "icon": "file-type",
+              "title": "tod-playbooks"
+            }
+          },
+          {
+            "id": "22e06a501412c975",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "docs/TestamentOfDust/tod-playbooks.typ"
+              },
+              "icon": "file-type",
+              "title": "tod-playbooks"
+            }
+          },
+          {
+            "id": "abd48b5b0c3e3937",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "docs/TestamentOfDust/tod-focuses.typ"
+              },
+              "icon": "file-type",
+              "title": "tod-focuses"
+            }
+          },
+          {
+            "id": "658a2a6c82920178",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "docs/TestamentOfDust/tod-focuses.typ"
+              },
+              "icon": "file-type",
+              "title": "tod-focuses"
+            }
+          },
+          {
+            "id": "19f576873e1975e3",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "docs/TestamentOfDust/tod-focuses.typ"
+              },
+              "icon": "file-type",
+              "title": "tod-focuses"
+            }
+          },
+          {
+            "id": "5c7c2fc7d4f4af84",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "docs/TestamentOfDust/tod-focuses.typ"
+              },
+              "icon": "file-type",
+              "title": "tod-focuses"
+            }
+          },
+          {
+            "id": "c023832aab26cd66",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "docs/TestamentOfDust/tod-focuses.typ"
+              },
+              "icon": "file-type",
+              "title": "tod-focuses"
+            }
+          },
+          {
+            "id": "1f4e0d541a8a3886",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "docs/TestamentOfDust/tod-focuses.typ"
+              },
+              "icon": "file-type",
+              "title": "tod-focuses"
+            }
+          },
+          {
+            "id": "3223231f4e9d0e8d",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "docs/TestamentOfDust/tod-focuses.typ"
+              },
+              "icon": "file-type",
+              "title": "tod-focuses"
+            }
+          },
+          {
+            "id": "77e5c5db873f0b9b",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ"
+              },
+              "icon": "file-type",
+              "title": "testament-of-dust-v2-setting-book"
+            }
+          },
+          {
+            "id": "531d4d91129f0f46",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "docs/TestamentOfDust/tod-setting-rules.typ"
+              },
+              "icon": "file-type",
+              "title": "tod-setting-rules"
+            }
+          },
+          {
+            "id": "8b5f121d5d5d2806",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "docs/TestamentOfDust/tod-setting-rules-8.typ"
+              },
+              "icon": "file-type",
+              "title": "tod-setting-rules-8"
+            }
+          },
+          {
+            "id": "67216357368cc60b",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "docs/TestamentOfDust/tod-descriptors.typ"
+              },
+              "icon": "file-type",
+              "title": "tod-descriptors"
+            }
+          }
+        ],
+        "currentTab": 19
+      },
+      {
+        "id": "2ed6ed47e5d93720",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce7606468700a293",
+            "type": "leaf",
+            "state": {
+              "type": "typst-preview",
+              "state": {
+                "vaultPath": "docs/TestamentOfDust/tod-descriptors.typ",
+                "themeOverride": null,
+                "pinned": false
+              },
+              "icon": "book-open",
+              "title": "Preview: tod-descriptors.typ"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f55d5b0b7b18d50d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "54e7f65f33dc0823",
+            "type": "leaf",
+            "state": {
+              "type": "typst-source",
+              "state": {
+                "file": "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ"
+              },
+              "icon": "file-type",
+              "title": "testament-of-dust-v2-setting-book"
             }
           }
         ]
@@ -184,43 +451,44 @@
       "bases:Create new base": false
     }
   },
-  "active": "7aa6f6322e6f3252",
+  "active": "67216357368cc60b",
   "lastOpenFiles": [
+    "docs/TestamentOfDust/tod-setting-rules-15-design-notes.typ",
     "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ",
-    "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
+    "docs/TestamentOfDust/tod-descriptors.typ",
+    "docs/TestamentOfDust/tod-common.typ",
+    "docs/TestamentOfDust/tod-playbooks.typ",
+    "docs/TestamentOfDust/tod-playbooks-broker.typ",
+    "docs/TestamentOfDust/tod-playbooks-cyborg-hunter.typ",
+    "docs/TestamentOfDust/tod-playbooks-frontier-doctor.typ",
+    "docs/TestamentOfDust/tod-playbooks-mutant.typ",
+    "docs/TestamentOfDust/tod-playbooks-occultist.typ",
+    "docs/TestamentOfDust/tod-playbooks-rider.typ",
+    "docs/TestamentOfDust/tod-setting-rules-15-design-notes.md",
+    "docs/TestamentOfDust/tod-setting-rules-8.md",
+    "docs/TestamentOfDust/tod-common.md",
+    "docs/TestamentOfDust/tod-focuses-occult.md",
+    "docs/TestamentOfDust/tod-focuses-household.md",
+    "docs/TestamentOfDust/tod-focuses-frontier.md",
+    "docs/TestamentOfDust/tod-focuses-village.md",
+    "docs/TestamentOfDust/tod-focuses-oldworld.md",
+    "docs/TestamentOfDust/tod-focuses-hunter.md",
+    "docs/TestamentOfDust/tod-focuses-bloodline.md",
+    "docs/TestamentOfDust/tod-playbooks-warden.md",
+    "docs/TestamentOfDust/tod-playbooks-cyborg-hunter.md",
+    "docs/TestamentOfDust/tod-playbooks-mutant.md",
+    "docs/TestamentOfDust/tod-playbooks-occultist.md",
+    "docs/TestamentOfDust/tod-playbooks-rider.md",
+    "docs/TestamentOfDust/tod-playbooks-broker.md",
+    "docs/TestamentOfDust/tod-playbooks-frontier-doctor.md",
+    "docs/TestamentOfDust/tod-playbooks-stalker.md",
+    "docs/TestamentOfDust/tod-playbooks-sellsword.md",
     "docs/TestamentOfDust/testament-of-dust-focuses.md",
-    "docs/TestamentOfDust/testament-of-dust-focuses.typ",
-    "docs/2d12System/chapter-adversaries.typ",
     "docs/TestamentOfDust/testament-of-dust-playbooks.md",
-    "docs/TestamentOfDust/testament-of-dust-playbooks.typ",
     "docs/TestamentOfDust/testament-of-dust-descriptors.md",
-    "docs/TestamentOfDust/testament-of-dust-descriptors.typ",
-    "docs/TestamentOfDust/testament-of-dust-setting-rules.typ",
     "docs/TestamentOfDust/testament-of-dust-setting-rules.md",
-    "docs/2d12System/chapter-2.12-advancement.typ",
-    "docs/2d12System/chapter-2.4-tyche-points.typ",
-    "docs/2d12System/chapter-5.3-bellator.typ",
     "docs/2d12System/drafts/README.md",
     "docs/2d12System/common-setup.md",
-    "docs/2d12System/10.md",
-    "docs/2d12System/chapter-2.5-effects.md",
-    "docs/2d12System/chapter-2.4-tyche-points.md",
-    "docs/2d12System/chapter-2.3-character-creation.md",
-    "docs/2d12System/14.md",
-    "docs/2d12System/13.md",
-    "docs/2d12System/12.md",
-    "docs/2d12System/11.md",
-    "docs/2d12System/9.md",
-    "docs/2d12System/8.md",
-    "docs/2d12System/chapter-2.2-core-resolution.md",
-    "docs/2d12System/chapter-2.1-design-pillars.typ.md",
-    "README.md",
-    "docs/2d12System/chapter-3-module-c-truth-driven-sandbox.md",
-    "docs/2d12System/chapter-3-module-b-the-grind-and-travel.md",
-    "docs/2d12System/chapter-3-module-a-cyphers-and-artifacts.md",
-    "docs/Playtest tools.md",
-    "docs/2d12System/Chapter 3 - Module D - Downtime.md",
-    "docs/Design/opposition-statblocks and conflict play test 2.md",
     "docs/2d12System/art/playbooks/generic/06-adept.png",
     "docs/2d12System/art/playbooks/generic/06-adept.jpg",
     "docs/2d12System/art/playbooks/generic/05-explorator.png",

@@ -66,7 +66,7 @@ The 20 generic skills are renamed or kept as follows. Default pools are unchange
   [#table(
     columns: (25.74%, 23.76%, 27.72%, 22.77%),
     align: (auto,auto,auto,auto,),
-    table.header([Sōma], [Akmē], [Psychē], [Pneuma],),
+    table.header([Sōma], [Mētis], [Psychē], [Pneuma],),
     table.hline(),
     [Athletics], [Shoot], [Notice], [Will],
     [Brawl], [Stealth], [Investigate], [Persuade],
@@ -204,8 +204,8 @@ When a vampire feeds on someone --- or anyone loses a great deal of blood --- th
     table.header([Bled tier], [Effect],),
     table.hline(),
     [#strong[1]], [A donation's worth. Pale and tired. No roll penalty; clears after a night's rest with food and water.],
-    [#strong[2]], [Light-headed: −1 on Sōma and Akmē rolls.],
-    [#strong[3]], [Weak: −2 on Sōma and Akmē rolls, and gain #emph[Weary].],
+    [#strong[2]], [Light-headed: −1 on Sōma and Mētis rolls.],
+    [#strong[3]], [Weak: −2 on Sōma and Mētis rolls, and gain #emph[Weary].],
     [#strong[4]], [Critical: the next harm of any kind Takes you Out. Needs a Medicine roll to stabilise.],
     [#strong[5]], [Dying: Taken Out. Dies at the end of the scene unless stabilised (Medicine vs. Hard 18) or given a transfusion.],
     [#strong[6]], [#strong[Drained]. Dead --- unless someone has both the reason and the means to make you one of them.],
@@ -241,7 +241,7 @@ Under the #strong[Day] Truth, in direct sunlight, the afflicted gain #strong[#em
   , kind: table
   )
 
-- Sun-Sick is a harmful status: it applies its tier as a penalty to physical rolls (Sōma and Akmē skills).
+- Sun-Sick is a harmful status: it applies its tier as a penalty to physical rolls (Sōma and Mētis skills).
 - Resist with #strong[Sōma] as normal. A wide hat, a dark cloak or partial shade counts as #strong[+1 Sōma Edge] for that Resist.
 - While Sun-Sick is at tier 1+, abilities and rules that heal the afflicted (vampire recovery, #emph[Mother's Blood], #emph[Dhampir Regeneration]) don't work.
 - A vampire at Sun-Sick 4+ also gains #emph[burning-1] each scene in the sun.

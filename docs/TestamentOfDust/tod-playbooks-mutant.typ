@@ -10,7 +10,7 @@ The old wars and the old world\'s experiments made your bloodline something more
     columns: (25%, 75%),
     align: (auto,auto,),
     [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [11 / 11 / 6 / 8],
-    [#strong[Edge];], [Sōma 1, Akmē 1, plus 1 in Sōma, Akmē, or Pneuma],
+    [#strong[Edge];], [Sōma 1, Mētis 1, plus 1 in Sōma, Mētis, or Pneuma],
     [#strong[Anchor skill];], [Athletics or Stealth],
     [#strong[Suggested skills];], [+4 Athletics · +3 Brawl, Stealth · +2 Frontier, Endure, Intimidate · +1 Notice, Fight, Deceive, Will],
     [#strong[XP trigger];], [Address a challenge with your mutations or your monstrous nature],

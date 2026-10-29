@@ -10,7 +10,7 @@ Torn apart by a vampire or a monster, and put back together with steel, wire, an
     columns: (24%, 76%),
     align: (auto,auto,),
     [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [12 / 9 / 9 / 6],
-    [#strong[Edge];], [Sōma 1, Psychē 1, plus 1 in Sōma or Akmē],
+    [#strong[Edge];], [Sōma 1, Psychē 1, plus 1 in Sōma or Mētis],
     [#strong[Anchor skill];], [Shoot or Fight],
     [#strong[Suggested skills];], [+4 Shoot · +3 Fight, Science · +2 Endure, Notice, Intimidate · +1 Athletics, Ride, Investigate, Medicine],
     [#strong[XP trigger];], [Address a challenge with your implants or overwhelming firepower],

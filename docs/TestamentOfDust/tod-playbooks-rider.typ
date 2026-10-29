@@ -9,8 +9,8 @@ Born in the saddle and raised on the open Frontier. You find the tracks, read th
   [#table(
     columns: (26%, 74%),
     align: (auto,auto,),
-    [#strong[Base pools (Sōm / Akm / Psy / Pne)];], [11 / 11 / 7 / 7],
-    [#strong[Edge];], [Sōma 1, Akmē 1, plus 1 in any pool],
+    [#strong[Base pools (Sōm / Mēt / Psy / Pne)];], [11 / 11 / 7 / 7],
+    [#strong[Edge];], [Sōma 1, Mētis 1, plus 1 in any pool],
     [#strong[Anchor skill];], [Frontier],
     [#strong[Suggested skills];], [+4 Frontier · +3 Ride, Shoot · +2 Notice, Athletics, Endure · +1 Stealth, Fight, Medicine, Old Lore],
     [#strong[XP trigger];], [Address a challenge with endurance or the land],

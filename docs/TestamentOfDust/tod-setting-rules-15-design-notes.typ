@@ -1,5 +1,4 @@
 #import "tod-common.typ" : *
-#show: apply-style
 
 == 15. Design Notes
 - #strong[Hard to Kill (§5.2)] keeps the two-stage fight --- wear it down, then a killing strike --- but ties recovery to blood. Wounding a vampire makes it hungrier, and a hungry vampire is a different problem. Watch how long this makes fights; if too long, allow the killing strike as part of the final Attack instead of a separate roll.

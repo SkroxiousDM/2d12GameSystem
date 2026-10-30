@@ -10,7 +10,7 @@
     table.hline(),
     [#strong[Attack];], [1 Power per tier], [Inflict a #strong[Status] (e.g. #emph[wounded-2];, #emph[rattled-1];, #emph[on fire-3];). In a conflict, an Attack removes Disposition equal to its Power + 1 instead (§10.6)],
     [#strong[Weaken];], [1], [Reduce one of the target\'s statuses by 1 tier, or #strong[Burn] one of its tags for the scene],
-    [#strong[Create];], [3], [Create a #strong[Truth] that lasts for the scene (#emph[smoke cover];, #emph[crowd on our side];). It may end sooner if its removal condition is met. One extra Power makes it last until its removal condition is met. State its scope, rank (1, or 2 for double the Power) and removal condition (§8)],
+    [#strong[Create];], [2 Power per rank], [Create a #strong[Truth] that lasts for the scene (#emph[smoke cover];, #emph[crowd on our side];). It may end sooner if its removal condition is met. One extra Power makes it last until its removal condition is met. State its scope, rank (1 costs 2 Power; 2 costs 4 Power before discounts) and removal condition (§8)],
     [#strong[Enhance];], [1 per tier], [Give an ally a helpful status (#emph[inspired-2];)],
     [#strong[Restore];], [1 per tier], [Reduce a harmful status on yourself or an ally. Lasting injuries have limits (§6.6)],
     [#strong[Discover];], [1], [Ask the GM one question; you get a true, useful answer],
@@ -22,6 +22,8 @@
   )
 #columns(2, gutter: 6mm)[
 Each point of Power buys an Effect. Players choose Effects that fit what their character did in the fiction.
+
+#strong[Create costs and discounts.] The baseline is 2 Power per Truth rank, equally inside and outside conflicts. Each explicit Create discount from an ability or item reduces the cost by 1 Power, to a minimum of 1. A relevant tag or Truth does not grant a Create discount merely by being relevant. Discounts must be stated in the ability or item entry. Larger-scale Truth changes still require their normal clocks or major arcs (Module C.6).
   
 Any unspent Power → #strong[Momentum];.
 

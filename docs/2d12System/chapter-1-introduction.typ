@@ -27,7 +27,7 @@ This core rulebook holds the complete, setting-neutral rules of the 2d12 System:
 When a rule here mentions another chapter, it uses that chapter's name and section number. For example, *Core Rules §4.1* means Chapter II, section 4.1. A bare reference such as *§6* points to a section in the same chapter. Setting books use the same chapter names when they refer back to this book.
 == Notation
 
-- *★ Major.* An ability that costs *1 Refresh* when you take it, at creation or through advancement.
+- *★ Major.* An ability that costs *1 Refresh* when you take it, at creation or through advancement. Taken as a creation extra, it costs *2 Refresh total*, including the extra ability's 1-Refresh price (Generic Playbooks §1.1–1.2).
 - *◆ Capstone.* Unlocked after *12 Advances* if you have at least 4 abilities from that playbook. It costs no Refresh, and each character can have one.
 - *◈ Weird.* A Focus that assumes the supernatural, strange technology or other weird elements. Each setting decides which ◈ Focuses it allows and how its world reacts to them.
 - *Tags* are written in _italics_, such as _scarred knuckles_. *Statuses* add a tier, such as _wounded-2_.

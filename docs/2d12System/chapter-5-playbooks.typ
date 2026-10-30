@@ -20,7 +20,7 @@
     [#strong[Suggested skills];], [A recommended pyramid; change it freely],
     [#strong[Playbook tags];], [Choose #strong[2] power tags from the playbook\'s list],
     [#strong[XP trigger];], [One playbook behaviour that earns XP (Core Rules §12.1)],
-    [#strong[Special abilities];], [1 free at creation; up to 2 more at creation for 1 Refresh each],
+    [#strong[Special abilities];], [1 free at creation; up to 2 more at creation for 1 Refresh each, plus any ★ Major cost (2 Refresh total for a ★ creation extra)],
     [#strong[Starting equipment];], [Signature items (choose 1 of 2), playbook kit, and always-carried items],
     [#strong[BIG examples];], [Sample Beliefs, Goals, and Instincts],
     [#strong[Relationships];], [1 ally and 1 rival from the playbook\'s list],
@@ -29,7 +29,7 @@
   )
 
 === 1.2 Ability Notation
-- #strong[★ Major] --- costs #strong[1 Refresh] whenever you take it (creation or advancement).
+- #strong[★ Major] --- costs #strong[1 Refresh] whenever you take it (creation or advancement). If taken as one of the up to two creation extras, add the extra ability's 1-Refresh price: #strong[2 Refresh total], not 3. A non-veteran Major taken through advancement costs 1 Refresh; veteran costs below remain additional.
 - #strong[◆ Capstone] --- unlocked after #strong[12 Advances] if you have #strong[at least 4 abilities from this playbook];. Costs no Refresh. One capstone per character.
 - #strong[Veteran abilities:] after 6 Advances, you may take an ability from another playbook as an Advance. It costs 1 Refresh in addition to any ★ cost.
 

@@ -161,7 +161,7 @@ Haggling with a client is a #strong[Negotiation] conflict if it meets the confli
 A Hunter's reputation is a #strong[power tag] gained at milestones (#emph[the Hunter who burned the Roth estate]). It counts as a tag on Persuade and Intimidate with Frontier folk. A #strong[bad reputation] (#emph[took the money and ran]) is a weakness tag that clients and rivals compel.
 
 === 10.4 Rival Hunters
-Rival crews use the #strong[Faction Turn] rules (Module C.5) with a project clock on the same quarry. If their clock fills first, they claim the bounty, and the party's contract becomes a Disposition fight with the rivals (often a Negotiation or a Chase rather than a Fight).
+Rival crews use the #strong[World Turn] rules (Module E.10 when Module E is in use; otherwise Module C.5) with a project clock on the same quarry. With Modules D and E, resolve one World Turn per stay. If their clock fills first, they claim the bounty, and the party's contract becomes a Disposition conflict with the rivals (often a Negotiation or a Chase rather than a Fight).
 
 === 10.5 Charter-Speech and Binding Instruments
 Charters, testaments, compacts and levy agreements bind only if they are written or sworn in #strong[charter-speech]: an archaic legal and liturgical form of the language. Notaries, clergy and record clerks can compose it, and so can some of the Kept. Most people can only recognise it.

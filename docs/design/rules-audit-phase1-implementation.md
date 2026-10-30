@@ -29,6 +29,11 @@ Implement the recorded rulings in current core and Testament of Dust Typst sourc
 - This documentation update synchronizes `docs/design/area-rule-and-interpose-rewrite.md` and this tracker with those source edits. These are review-branch source integrations, not a merged or built release. Historical playtest rolls and outcomes, main, encounter budgets and vampire rules were not changed by the integration.
 - No Typst compilation, PDF rebuild, layout check, numerical recalibration, full active-source sweep or playtest rerun is claimed.
 
+## Frontier Descriptor names on review branch
+
+- Commit `e58b93a`: `docs/TestamentOfDust/tod-descriptors.typ` renames setting Descriptor 7 from Cunning to Scheming and setting Descriptor 16 from Reckless to Headlong in both the Quick Reference table and entry headings. Numbers, pools, tags, Instincts, hooks and other mechanics remain unchanged. The generic Cunning and Reckless Descriptors and historical playtest records remain untouched.
+- This resolves the setting Descriptor *name collisions* in the current setting-book source. A separate current-facing reference sweep and later Typst/PDF verification remain outstanding; this does not mark other setting-neutrality work complete.
+
 ## Remaining implementation by decision
 
 1. Disposition: core conflict setup and Quick Reference reconciled in Batch 2. Reconcile other summaries and changelog. P, Grit and Encounter Budget recalibration remain Phase 4.
@@ -39,7 +44,7 @@ Implement the recorded rulings in current core and Testament of Dust Typst sourc
 6. Recovery: replace legacy short-rest and 1 + Edge wording with pool recovery. Classify Bled as an injury and label its modifier exceptions. Bled death alignment needs the flagged rewrite below.
 7. Major creation extras: core pricing clarified in Batch 1. Reconcile setting explanations, sheet instructions and other summaries. R2 is superseded; do not rewrite historical test arithmetic.
 8. Legacy: remove the active subsystem, death triggers, includes and instructions; reconcile pillars, sheet, Quick Reference, draft notes and changelog. Do not remove ordinary uses of the word legacy unrelated to that currency.
-9. Setting neutrality: move vampire-specific Adversaries content into the setting book, make D.6a generic, state that Frontier reskins replace the six generic playbooks, prohibit Walks Between Worlds in the Frontier, and flag replacement Descriptor names.
+9. Setting neutrality: move vampire-specific Adversaries content into the setting book, make D.6a generic, state that Frontier reskins replace the six generic playbooks, and prohibit Walks Between Worlds in the Frontier. The setting Descriptor names are selected and updated; sweep other current-facing references to old setting names without changing generic descriptors or historical records.
 
 ## Unresolved details and playtest flags
 
@@ -50,11 +55,11 @@ Implement the recorded rulings in current core and Testament of Dust Typst sourc
 - Recovery abilities: whether Field Medic and Field Surgeon lift the 1-tier treatment limit is deferred to playtesting; do not grant that exception in this pass.
 - Bled: exact replacement of Bled-5/Bled-6 death text needs a deliberate rewrite to align with core. Do not treat either the old override or an invented replacement as a new confirmed ruling.
 - Truth layers: Echo, capstones, Rewrite History, Ancestor's Notes and the 3-5 Campaign Truth limit remain deferred to playtesting.
-- Descriptor collisions: setting Reckless and Cunning must be renamed; replacement names have not been selected.
+- Descriptor names: setting Cunning → Scheming and Reckless → Headlong are selected and updated in `tod-descriptors.typ`; remaining reference and layout checks are tracked above and below, not an unresolved naming decision.
 - Numerical balance: P, Grit, Encounter Budget and all fight reruns remain deferred until the audit is complete.
 
 ## Verification still required
 
 - Search all active source files for superseded rules and unconverted references, including earlier area splash and per-member Disposition language. Distinguish current rules from historical design records and playtest results.
-- Reconcile character-sheet instructions, remaining Quick Reference topics, changelog and other draft status against actual completed edits.
+- Reconcile character-sheet instructions, remaining Quick Reference topics, changelog and other draft status against actual completed edits. Check other current-facing references to the renamed setting Descriptors.
 - Validate diffs to preserve unrelated text. Compile and rebuild PDFs only in the later rebuild pass; no build verification is claimed here.

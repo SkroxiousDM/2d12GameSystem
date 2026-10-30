@@ -14,7 +14,7 @@ A #strong[killing method] is a tag that lets an Attack take a vampire to #strong
     [#strong[Beheading]], [Killing method], [The one sure way. The blade must be able to cut through (#emph[heavy], #emph[fine], or a dhampir's strength).],
     [#strong[Fire] (sustained)], [Killing method against a vampire with a tier-4+ physical status; destroys a husk at once], [A burning house, a funeral pyre.],
     [#strong[Sunlight]], [No killing strike, but stops recovery and burns over time (§7.1)], [A collapsed vampire left in direct sun for a full day is destroyed.],
-    [#strong[Stake through the heart]], [Not a killing method. Inflicts #emph[staked]: the vampire can't act or recover while the stake stays in], [Finish it with beheading or fire --- or bargain with it while it's helpless.],
+    [#strong[Stake through the heart]], [Not a killing method. Inflicts the special condition #emph[staked]: the vampire can't act or recover while the stake stays in], [Use the Staking procedure below. Finish it with beheading or fire --- or bargain with it while it's helpless.],
     [#strong[Silver]], [Not a killing method. Wounds from #emph[silvered] weapons can't be recovered until the next full day], [An old custom. No one remembers why it works.],
     [#strong[Crosses, garlic, running water, invitations]], [No physical effect], [Folk practice. Some vampires believe in them anyway (below).],
   )]
@@ -24,6 +24,39 @@ A #strong[killing method] is a tag that lets an Attack take a vampire to #strong
 #strong[Believers:] a vampire may carry the weakness tag #emph[believes the old stories], or a specific one (#emph[won't cross running water], #emph[can't bear the cross]). Against that vampire, the folk remedy works as a #strong[compel], not a law of nature: the vampire accepts it (the GM gains 1 Woe) or the GM spends 1 Woe to defy it.
 
 Any personal weakness tag of a vampire can be #strong[upgraded to a killing method] with 3 Power from Discover and Create effects, or a downtime clock (8 segments).
+
+==== Staking
+A stake through the heart does not destroy a vampire. It pins the vampire in a helpless state until someone removes it.
+
+#strong[Making the attempt.] You need a wooden stake or a weapon explicitly capable of driving one through the heart, and a clear opportunity to reach it. A weapon's ordinary Attack bonus does not, by itself, grant permission to stake at range.
+
+Declare the attempt before rolling. Use Fight or Brawl in reach, or Shoot with a weapon explicitly capable of delivering a stake at range.
+
+Set the base Difficulty by the vampire's Rank:
+
+#figure(table(columns: (55%, 45%),
+  table.header([Vampire Rank], [Base Difficulty]),
+  [Minor], [Hard 18],
+  [Established], [Formidable 21],
+  [Great], [Epic 27],
+  [Paramount], [Divine 30],
+))
+
+Reduce the Difficulty by one step --- 3 points --- for each tier of the vampire's highest negative status. Use only the highest tier; do not add statuses together. There is no minimum Difficulty.
+
+#strong[Result.] On a Success or Success at a Cost, the vampire gains #emph[staked]. This is a special condition, not a tiered status: do not buy its tiers with Power or stack it with other statuses.
+
+While staked, the vampire cannot act or recover. It remains alive. Staking does not itself inflict tier-6 harm, trigger a killing strike, or destroy the vampire.
+
+On a Success at a Cost, apply the normal cost as well as the successful staking. On a failure, the stake does not take hold; resolve failure normally.
+
+#strong[Staking during a conflict.] A staking attempt uses your scripted Attack action. Resolve its roll against the staking Difficulty instead of the usual independent or versus roll. It inflicts #emph[staked] instead of ordinary Attack Disposition loss.
+
+Staking one vampire does not directly reduce its side's shared Disposition. If other participants can continue pursuing that side's intent, the conflict continues. If none can, resolve that side's defeat normally.
+
+#strong[Removing the stake.] Another character within reach can remove the stake if they have the means to do so. With no meaningful opposition or uncertainty, no roll is needed. Under pressure, removing it takes an action and any roll the circumstances require.
+
+Once the stake is removed, #emph[staked] ends. The vampire retains its other statuses, Blood Debt and other recorded conditions. Removing a stake does not refill pools, restore Disposition or undo a settled conflict outcome.
 
 === 8.2 Currency and Wealth
 The setting's currency is the #strong[mark]. The 2d12 System doesn't track coins; use these story tags instead:
@@ -53,11 +86,11 @@ Weapons and gear use the equipment rules in #emph[Generic Playbooks] §2 (load, 
     align: (auto,auto,auto,),
     table.header([Load], [Item], [Tags],),
     table.hline(),
-    [0], [Wooden stake, belt knife, flint striker, water skin], [#emph[stake] (inflicts #emph[staked])],
+    [0], [Wooden stake, belt knife, flint striker, water skin], [#emph[stake] (use the Staking procedure, §8.1)],
     [1], [Silver-edged knife or blade], [#emph[silvered]],
     [1], [Charms: garlic bundle, cross, saint's medal], [#emph[steadies the nerves] (+1 Pneuma Edge against fear); works on #emph[believers] only (§8.1)],
     [1], [Steel neck guard], [#emph[Armour 1] against bites only; Bled from bites gains 1 fewer tier],
-    [1], [Crossbow and wooden bolts], [#emph[+1 Attack] (range), #emph[bolts are stakes] (#emph[staked] at range, Hard 18)],
+    [1], [Crossbow and wooden bolts], [#emph[+1 Attack] (range), #emph[bolts are stakes] (may stake at range using Shoot; use §8.1 instead of a fixed Hard 18)],
     [1], [Revolver or rifle], [#emph[+1 Attack] (range)],
     [2], [Laser rifle (rare, old-world)], [#emph[+1 Attack] (range), #emph[burns through armour], #emph[Escalation];; depletion 1 in d12 (power cell)],
     [1], [Long cloak and wide hat], [+1 Sōma Edge when Resisting Sun-Sick; #emph[+1 Feint] in the dark],

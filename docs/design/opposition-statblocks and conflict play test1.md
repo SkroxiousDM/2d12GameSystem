@@ -35,7 +35,7 @@ Wants: what it's after in this scene
 | Field | Meaning |
 |---|---|
 | **Grit** | The NPC's Disposition in a conflict. NPC sides don't roll for Disposition: add up the Grit of everyone on the side. |
-| **Guard** | Added to Standard 15 when a PC's **independent** roll targets this NPC in a conflict. This is the "opposition's tags" adjustment from Core §10.4. |
+| **Guard** | Added to Standard 15 when a PC's **independent** roll targets this NPC in a conflict. This is the "opposition's tags" adjustment from Core §10.5. |
 | **Shrugs** | Free Resists per scene: each one reduces an incoming status by 2 tiers. More cost 1 Woe each. |
 | **Armour** | The same as PC Armour: −1 tier of physical harm per point. |
 | **Ratings** | Its bonus on each conflict action. **Other** covers any roll outside a conflict (Notice, Stealth and so on) unless a tag makes it Best. |

@@ -1,6 +1,6 @@
 # Area Rule and Interpose rewrites
 
-Approved draft wording from the rules-audit discussion. The Area Rule is provisional for playtesting. This document does not yet integrate the rewrites into the Typst rulebook sources. Historical playtest rolls and outcomes remain unchanged.
+Approved draft wording from the rules-audit discussion. The Area Rule remains provisional for playtesting. The rewrites are now integrated into current Typst sources on `rules-audit/area-rule-interpose`; this note remains the design record, not an additional rules source. Historical playtest rolls and outcomes remain unchanged.
 
 ## Area Rule
 
@@ -52,6 +52,10 @@ Declare Interpose before the original target rolls Resistance or applies any har
 
 For example, a guardian with Interpose can step into a shock-baton strike that would inflict jolted-3 on an ally. The guardian receives jolted-3 and uses its own eligible reduction. It cannot intercept ordinary Disposition loss or shield that ally from a blast that already catches them both.
 
-## Integration work still pending
+## Integration status
 
-Reconcile the core Area Rule, Unleash abilities, the Adversaries chapter's Bulwark trait and current-facing statblock guidance. Preserve historical playtest rolls and outcomes. Update the Phase 1 implementation tracker when these source edits are actually applied. No compilation, PDF rebuild or playtest verification is claimed by this draft.
+- Core Rules §§10.16–10.17 are in `docs/2d12System/chapter-2.10-area-and-interpose.typ`, included by `chapter-2-core-rules.typ` after the conflict system.
+- Generic Adept Unleash (`docs/2d12System/chapter-5.8-adept.typ`) and Testament of Dust Occultist Unleash (`docs/TestamentOfDust/tod-playbooks-occultist.typ`) refer to the provisional Area Rule and distinguish shared Disposition loss from explicitly inflicted statuses.
+- The current Adversaries chapter (`docs/2d12System/chapter-adversaries.typ`) replaces the obsolete Area Rule, Bulwark Disposition-transfer wording and main-target-only Heavy Hitter phrasing. The Quick Reference (`docs/2d12System/chapter-7-appendix-a-quick-reference.typ`) summarizes §§10.16–10.17.
+- Source integration is recorded on this branch in commits `ee3978a` and `5434f07`. It does not establish that all other active sources have been swept or reconciled.
+- Typst compilation, PDF rebuild, layout checks and playtest verification have not been performed for these changes. The Area Rule and its balance consequences remain provisional. The Phase 1 implementation tracker records outstanding work.

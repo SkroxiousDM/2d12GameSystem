@@ -1,6 +1,6 @@
 # Phase 1 rulings: implementation tracker
 
-Controlling decisions: `docs/design/rules-audit-phase1-decisions.md`.
+Controlling decisions: `docs/design/rules-audit-phase1-decisions.md`. Area Rule and Interpose draft: `docs/design/area-rule-and-interpose-rewrite.md`.
 
 ## Scope
 
@@ -20,13 +20,20 @@ Implement the recorded rulings in current core and Testament of Dust Typst sourc
 - Shared Disposition explicitly has no per-member shares or spill-over. Other individual-removal procedures are unchanged.
 - Maneuver Create costs 2 Power per rank; Floor Collapse costs 4 Power; Make a Hazard remains 2.
 - Quick Reference now includes the matching setup and Create rules and retains the Superiority playtest flag.
-- No Area Rule, Interpose, setting killing-strike, recovery, Legacy, character-sheet, changelog or numerical-recalibration changes are made in this batch.
+- No Area Rule, Interpose, setting killing-strike, recovery, Legacy, character-sheet, changelog or numerical-recalibration changes were made in this batch.
+
+## Area Rule and Interpose integration on review branch
+
+- Commit `ee3978a`: Core Rules §§10.16–10.17 added in `docs/2d12System/chapter-2.10-area-and-interpose.typ` and included immediately after the conflict-system source. The Area Rule is explicitly provisional for playtesting. Adept and Occultist Unleash now use that rule: shared Disposition loss once plus 1 per additional opposing participant, full-tier explicitly inflicted statuses on each affected character, and no status from an ordinary conflict Attack without an explicit grant.
+- Commit `5434f07`: current `docs/2d12System/chapter-adversaries.typ` now summarizes area effects and Bulwark Interpose in line with Core §§10.16–10.17; Heavy Hitter no longer says bonus Power hits only the main target. `docs/2d12System/chapter-7-appendix-a-quick-reference.typ` now summarizes both procedures.
+- This documentation update synchronizes `docs/design/area-rule-and-interpose-rewrite.md` and this tracker with those source edits. These are review-branch source integrations, not a merged or built release. Historical playtest rolls and outcomes, main, encounter budgets and vampire rules were not changed by the integration.
+- No Typst compilation, PDF rebuild, layout check, numerical recalibration, full active-source sweep or playtest rerun is claimed.
 
 ## Remaining implementation by decision
 
 1. Disposition: core conflict setup and Quick Reference reconciled in Batch 2. Reconcile other summaries and changelog. P, Grit and Encounter Budget recalibration remain Phase 4.
 2. Flat modifiers: core procedure and Quick Reference updated in Batch 2. PC/opposition symmetry, opposition eligibility and Rider balance remain playtest flags; reconcile other affected text.
-3. Shared Disposition: core clarification added in Batch 2. Reconcile adversary abilities and other current rule text; Interpose redirects a specific harm, not shared Disposition loss. Keep historical test results intact.
+3. Shared Disposition: core clarification added in Batch 2. Area Rule, Interpose, Adversaries and Quick Reference integrated on the review branch. Continue the active-source consistency sweep for other superseded per-member, splash or Disposition-transfer wording; do not rewrite historical test results.
 4. Killing strikes: implement target-Rank difficulties 15/18/21/24, separate beheading status-tier difficulties 15/18/21/24/27/30, significant complication with 2-Woe buy-off, fire at broken tier 5, and staking as a special case. Tier-6 targets follow Scar and Dying with no killing-strike roll.
 5. Create: core Effects, conflict Maneuver, scenery costs and Quick Reference updated in Batches 1-2. Reconcile explicit item/ability discounts and other summaries; consistency sweep remains pending.
 6. Recovery: replace legacy short-rest and 1 + Edge wording with pool recovery. Classify Bled as an injury and label its modifier exceptions. Bled death alignment needs the flagged rewrite below.
@@ -38,8 +45,8 @@ Implement the recorded rulings in current core and Testament of Dust Typst sourc
 
 - Superiority: PC/opposition symmetry and opposition eligibility for the automatic win remain playtest questions. Do not silently resolve them. Simultaneous reduction of both sides to 0 at setup also needs review; do not invent an automatic-win tie ruling.
 - Rider: retain the +7 Chase stack and flag it for playtesting.
-- Area Rule: deferred to playtesting; do not choose a new scaling model.
-- Interpose: scope the redirected specific harm explicitly and check the one-reduction cap; do not treat ordinary shared Disposition loss as an individual hit.
+- Area Rule: provisional scaling is now integrated on the review branch, not confirmed by playtesting. Test large groups, full-tier statuses with separate Resistance costs, Unleash and NPC area Specials; do not silently select another scaling model.
+- Interpose: redirected harm is an imposed status, not ordinary shared Disposition loss. Apply before the original target's Resistance or reduction, enforce NPC one-reduction-per-status limits, and test the area-effect and excluded-cost boundaries.
 - Recovery abilities: whether Field Medic and Field Surgeon lift the 1-tier treatment limit is deferred to playtesting; do not grant that exception in this pass.
 - Bled: exact replacement of Bled-5/Bled-6 death text needs a deliberate rewrite to align with core. Do not treat either the old override or an invented replacement as a new confirmed ruling.
 - Truth layers: Echo, capstones, Rewrite History, Ancestor's Notes and the 3-5 Campaign Truth limit remain deferred to playtesting.
@@ -48,6 +55,6 @@ Implement the recorded rulings in current core and Testament of Dust Typst sourc
 
 ## Verification still required
 
-- Search all active source files for superseded rules and unconverted references.
-- Reconcile character-sheet instructions, Quick Reference, changelog and draft status against actual completed edits.
+- Search all active source files for superseded rules and unconverted references, including earlier area splash and per-member Disposition language. Distinguish current rules from historical design records and playtest results.
+- Reconcile character-sheet instructions, remaining Quick Reference topics, changelog and other draft status against actual completed edits.
 - Validate diffs to preserve unrelated text. Compile and rebuild PDFs only in the later rebuild pass; no build verification is claimed here.

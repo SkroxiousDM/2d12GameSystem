@@ -16,9 +16,9 @@ Use a conflict when #strong[any two] of these are true:
 === 10.2 Setup
 + #strong[Declare intent and stakes:] each side states what it wants if it wins. Establish what losing lets the other side do, whether death, permanent injury or capture is at stake, and what surrender or withdrawal could look like.
 + #strong[Choose the conflict type] (§10.4), which sets the skill for each action.
-+ #strong[Disposition:] the leader of each side rolls #strong[2d12 + the type\'s Disposition skill + the highest Edge in that skill\'s pool];, divide the result by three (round down). Next,add +1 per helper, add every flat bonus or penalty to starting Disposition (from abilities, creature rank, conditions and similar effects). That is the side\'s #strong[Disposition] (usually 8--11), one shared total for the whole side (§10.7).
-+ #strong[Superiority:] reduce the opposing side's starting Disposition by your Superiority (§10.3).
-+ #strong[Track] Disposition as a number or a clock.
++ #strong[Disposition:] the leader of each side rolls #strong[2d12 + the type\'s Disposition skill + the highest Edge in that skill\'s pool]; divide the result by three (round down). Next, add +1 per helper and every flat bonus or penalty to starting Disposition (from abilities, creature rank, conditions and similar effects) at full value. Flat modifiers have no stacking cap. After all these modifiers, apply a #strong[minimum of 1], before Superiority. That is the side\'s #strong[Disposition] (usually 8--11), one shared total for the whole side (§10.7).
++ #strong[Superiority:] reduce the opposing side's starting Disposition by your Superiority (§10.3). Only this reduction can bring starting Disposition to 0; resolve that trivial conflict as described there.
++ #strong[Track] Disposition as a number or a clock if the conflict continues.
 
 #strong[Intent sets the scope.] Beating a side whose intent is to hold a doorway doesn't, by itself, let you kill them all, take everything they carry or achieve some unrelated goal.
 
@@ -36,7 +36,11 @@ Preparation can weaken an opponent's position before a conflict begins. Gain 1 S
 
 Each category grants Superiority only once. Preparation must apply to the opposing side and the declared stakes of the conflict.
 
-After calculating starting Disposition and applying all other modifiers, reduce the opposing side's starting Disposition by your Superiority, to a minimum of 1. This adjusted value is its starting Disposition for all purposes, including recovery and compromise.
+After calculating starting Disposition, applying all other modifiers and enforcing the minimum of 1 (§10.2), reduce the opposing side's starting Disposition by your Superiority, to a minimum of 0. This adjusted value is its starting Disposition for all purposes, including recovery and compromise.
+
+#strong[Overwhelming preparation.] If Superiority reduces the opposing side's starting Disposition to 0, the conflict is trivial: hand-wave it as a win at no cost, within the declared intent and stakes. Do not script volleys or make further conflict rolls. Refer to the #strong[none or trivial] row of compromise (§10.12); this automatic win imposes no compromise cost. A low roll or negative flat modifiers alone cannot trigger this result.
+
+// PLAYTEST: PC/opposition symmetry and opposition eligibility for this automatic win remain unresolved; see docs/design/rules-audit-phase1-implementation.md.
   
 Superiority is not tracked or spent after the conflict begins. Abilities retain their normal benefits when their results also qualify for Superiority. Evaluate the concrete information, position, or preparation—not the ability’s name. Rephrasing one advantage does not create additional categories; additional categories require distinct material advantages. Determine Superiority only at conflict setup.
 ]
@@ -96,7 +100,7 @@ Each #strong[exchange] is three #strong[volleys];. Each side secretly #strong[sc
     [#strong[Attack];], [Remove Disposition from the opposing side equal to the Power committed, +1],
     [#strong[Defend];], [Each Power restores 1 of your side\'s Disposition (up to the starting value)],
     [#strong[Feint];], [Remove Disposition from the opposing side equal to the Power committed, +1; the Feint ignores Defend],
-    [#strong[Maneuver];], [Spend Power on: #strong[Impede] (1: opponent −3 on next roll), #strong[Gain Position] (1: +1 bonus die on next roll), #strong[Disarm] (3: remove an action type or burn a key tag for the rest of the conflict), or #strong[Create a Truth] (2)],
+    [#strong[Maneuver];], [Spend Power on: #strong[Impede] (1: opponent −3 on next roll), #strong[Gain Position] (1: +1 bonus die on next roll), #strong[Disarm] (3: remove an action type or burn a key tag for the rest of the conflict), or #strong[Create a Truth] (2 per rank; explicit discounts follow §5)],
   )]
   , kind: table
   )
@@ -137,7 +141,7 @@ A Maneuver can use the scene itself. Instead of one of the four listed options, 
   table.header([Action], [Needs], [Power], [Result], [Danger]),
   [#strong[Grab a Ride] (swing, slide, vault)], [A fixture and a clear path], [2], [Gain Position and move to any spot in the scene. You can't be Impeded this volley.], [You land hard: tier-1 #emph[winded].],
   [#strong[Tip & Drop] (statue, boulder, cargo)], [A heavy object and something below it], [3], [Remove 3 Disposition from the opposing side, with no +1 bonus.], [Debris reaches an ally: one participant on your side takes tier-1 #emph[struck].],
-  [#strong[Floor Collapse]], [A support (beam, line, bridge)], [3], [Create a rank-2 Truth (#emph[Collapsing Floor]) in the area. It is scoped to that area.], [You are hit by the snap: tier-1 #emph[stunned], or a lost tag.],
+  [#strong[Floor Collapse]], [A support (beam, line, bridge)], [4], [Create a rank-2 Truth (#emph[Collapsing Floor]) in the area. It is scoped to that area.], [You are hit by the snap: tier-1 #emph[stunned], or a lost tag.],
   [#strong[Carpet Pull]], [A floor covering and unwarned foes], [2], [Impede every opposing participant's next roll this exchange (−3).], [You are left holding the carpet: your next Defend is at −1.],
   [#strong[Drape Drop] (curtains, nets, sails)], [Hangings or a net], [1], [Impede one opponent (tangled). The cloth can't be used again.], [Your weapon is tangled: your next action is at −1.],
   [#strong[Shove 'Em Off] (ledge, rail, stairs)], [An edge and an adjacent target], [3], [One opposing participant loses their next scripted action while they recover.], [You are pulled along: tier-2 #emph[off balance] unless you Resist. A fall is lethal only if lethal stakes are established (§10.2).],
@@ -157,7 +161,7 @@ A Maneuver can use the scene itself. Instead of one of the four listed options, 
 A side at 0 Disposition loses the conflict (§10.7), but its members aren't necessarily harmed (§6.4).
 
 === 10.7 Shared Disposition
-Each side has one Disposition total. Determine it normally, but do not divide it among participants.
+Each side has one Disposition total. Determine it normally, but do not divide it among participants. There are no per-member Disposition shares and no spill-over between members: Disposition loss applies to the side's shared total.
 
 Successful Attacks and Feints reduce the opposing side's Disposition by the Power committed, plus 1 (§10.6). Successful Defend actions restore your side's Disposition, up to its starting total. Ordinary Disposition loss does not inflict statuses, drain Pools, or individually remove participants.
 
@@ -271,7 +275,7 @@ The listed tier doesn't apply to every member of the winning side; the costs say
 - #strong[Special creatures.] Specific rules win: creatures with their own setting rules (such as being hard to kill, killing strikes or unusual recovery) keep them; machines and cyborgs shut down and are repaired rather than dying. An immunity stops an unsuitable status, but not Disposition loss in a contest the creature can lose.
 
 === 10.14 Order of Resolution
-+ Establish intent, stakes and exits (§10.2); set starting Disposition and apply Superiority (§10.3); script the volley.
++ Establish intent, stakes and exits (§10.2); set starting Disposition and apply Superiority (§10.3). If overwhelming preparation resolves the conflict, stop here; otherwise script the volley.
 + Pay pre-roll costs (Effort for dice, Help); resolve any running dry (§6.1).
 + Roll and determine the result and Power.
 + Make post-roll choices (Effort for Power) and pay them; resolve any running dry.

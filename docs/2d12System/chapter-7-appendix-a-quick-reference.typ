@@ -39,14 +39,20 @@ Keep the best two dice; maximum +2 bonus dice.
   [Woe], [Give the GM 1 Woe per die],
   [Help], [An ally spends 1 pool point and shares the risk])
 
+== Create (Core Rules §5)
+2 Power per Truth rank, in or out of conflict: rank 1 costs 2; rank 2 costs 4. Each explicit ability/item discount is −1 Power, minimum 1. Floor Collapse costs 4 Power (Core Rules §10.6).
+
 == Resist (Core Rules §6)
 Roll *2 + Edge* d12, take the *highest die*, and pay the listed cost (don't subtract Edge): *two or more 12s* cost 0 and clear a tier-1 status · *9–12* costs 1 · *5–8* costs 2 · *1–4* costs 3. This reduces the status by 2 tiers. *Negative Edge:* −1 rolls 1d12; −2 or lower rolls that many dice (2d12 at −2, 3d12 at −3) and keeps the *lowest*.
 
 == Running Dry (Core Rules §6.1--6.3)
 A cost that empties a pool, or is more than what's left in it, imposes a running-dry status at *tier 1 + overrun* (overrun = cost − points left). Only Resistance and imposed costs can overrun; a cost of 0 never runs dry. The status stacks normally. At *tier 6* you are Taken Out within its scope and gain *one Scar* (at most one per event). The pool and the status recover separately: 2 recovery points remove 1 depletion tier.
 #colbreak()
+== Conflict Setup (Core Rules §10.2–10.3)
+Roll 2d12 + Disposition skill + highest Edge in its pool; divide by 3, round down, then add +1 per helper and all flat modifiers at full value. No flat-modifier stacking cap; minimum 1 before *Superiority* (0--3). Superiority alone can reduce starting Disposition to 0: hand-wave the conflict as a win at no cost (Core Rules §10.12, none or trivial). PC/opposition symmetry and opposition eligibility remain playtest flags.
+
 == Damage Cycle (Core Rules §6, §10)
-Each side has *one shared Disposition* total, reduced at setup by the opponent's *Superiority* (0--3, minimum 1); Attacks and Feints remove their committed Power + 1 and nothing else, and Defend restores it. A side loses at 0 or when no participant can continue. *Injury trade:* one per Attack or Feint, once per conflict, accept a tier 2/3/4 injury to cancel 1/2/3 loss; it can't be Resisted. Treatment removes at most 1 tier of a lasting injury until healing time does. Tier-6 life-threatening harm makes you *Dying*: 3-segment clock, Medicine vs. Hard 18 to stabilise. Compromise statuses are tier 2/3/4.
+Each side has *one shared Disposition* total, with no per-member shares or spill-over. Attacks and Feints remove their committed Power + 1 and nothing else, and Defend restores it up to its starting value. A side loses at 0 or when no participant can continue. *Injury trade:* one per Attack or Feint, once per conflict, accept a tier 2/3/4 injury to cancel 1/2/3 loss; it can't be Resisted. Treatment removes at most 1 tier of a lasting injury until healing time does. Tier-6 life-threatening harm makes you *Dying*: 3-segment clock, Medicine vs. Hard 18 to stabilise. Compromise statuses are tier 2/3/4.
 
 == Rest and Recovery
 #table(columns: (16%, 52%, 32%),

@@ -149,7 +149,7 @@ All six use 42 pool points (playbook base 36 + 4 chosen + 2 from the Descriptor)
 
 ## Conflict Setup
 
-- **Type:** Fight (Core §10.3). Attack: Fight / Brawl / Shoot · Defend: Athletics / Endure · Feint: Deceive · Maneuver: Notice / Stealth.
+- **Type:** Fight (Core §10.4). Attack: Fight / Brawl / Shoot · Defend: Athletics / Endure · Feint: Deceive · Maneuver: Notice / Stealth.
 - **Scene Truths:** none (flat baseline).
 - **Starting Woe:** 0 (R1). **Momentum:** A 0, B 0.
 
@@ -255,7 +255,7 @@ Volley 3 is not played.
 
 **Ash Road wins** with 4 of 12 Disposition left (Tin 2, Oriel 2).
 
-### Compromise (Core §10.7)
+### Compromise (Core §10.12)
 
 Less than half Disposition left means a **Significant** compromise: the loser gets part of its intent, and the winner takes tier-2 statuses or loses gear.
 
@@ -307,7 +307,7 @@ GM Woe at the end: **3**, all bought by players for bonus dice.
 
 7. **Fights between two PC teams:** who holds Woe, and whether each side has its own Momentum (R1).
 8. **Attack targeting:** in a versus roll, is the target the opposing actor? In an independent roll, can the attacker choose any target (R3)?
-9. **Occultist workings inside a Fight conflict:** can Occult replace Fight or Shoot (R5)? The Domain rules suggest yes, but §10.3 lists fixed skills.
+9. **Occultist workings inside a Fight conflict:** can Occult replace Fight or Shoot (R5)? The Domain rules suggest yes, but §10.4 lists fixed skills.
 10. **Doubles on Disposition rolls:** do they have any effect?
 11. **★ abilities taken at creation:** does a ★ ability taken as one of the two extra creation abilities cost 1 Refresh or 2 (R2)?
 
@@ -318,7 +318,7 @@ GM Woe at the end: **3**, all bought by players for bonus dice.
     - letting Ride stand in for Maneuver when mounted, or
     - widening Cinder's Help to any mounted roll.
 14. **The scripting matrix worked as intended.** Wren's Maneuver beat Tin's Attack, her Impede hurt Juno's very next roll, and her Feint was wasted against an Attack. The rock-paper-scissors decisions mattered.
-15. **Pace was on target, apart from Unleash.** Two exchanges and five volleys sits inside §10.8's "one or two exchanges" goal.
+15. **Pace was on target, apart from Unleash.** Two exchanges and five volleys sits inside the historical "one or two exchanges" goal; current pacing guidance is in Core §10.15.
 
 ### Suggested next tests
 

@@ -16,7 +16,8 @@
 == Difficulty
 #table(columns: (1fr, auto),
   table.header([Difficulty], [Target]),
-  [Routine], [No roll], [Easy], [12], [Standard], [15], [Hard], [18], [Formidable], [21], [Heroic], [24])
+  [Trivial], [No roll], [Routine], [9], [Easy], [12], [Standard], [15], [Hard], [18], [Formidable], [21], [Heroic], [24], [Epic], [27], [Divine], [30])
+Each step is 3 points; no minimum target. A target below Routine 9 does not automatically become Trivial (Core Rules §2.2).
 
 == Outcomes
 #table(columns: (34%, 66%),

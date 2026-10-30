@@ -35,10 +35,24 @@
             "id": "a7482e9da91accbe",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/design/rules-audit.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "rules-audit"
             }
           },
           {
@@ -227,6 +241,7 @@
   },
   "active": "a7482e9da91accbe",
   "lastOpenFiles": [
+    "docs/design/rules-audit-phase1-decisions.md",
     "docs/Playtest tools.md",
     "docs/2d12System/chapter-7-appendix-a-quick-reference.typ",
     "docs/2d12System/chapter-6-focuses.typ",
@@ -261,7 +276,6 @@
     "docs/06-magic-rewrite.md",
     "docs/06.1-runic-spellbook.md",
     "CHANGELOG.md",
-    "Character Sheet.md",
-    "docs/Setting/the_church_of_the_one_god.md"
+    "Character Sheet.md"
   ]
 }

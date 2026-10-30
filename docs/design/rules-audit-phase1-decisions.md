@@ -32,7 +32,7 @@ Date: 2026-10-29. Source: `docs/design/rules-audit.md`, Phase 1 (rules decisions
 - Failure: a significant complication that can be bought off for 2 Woe.
 - Fire kills only at tier 5 ("broken").
 - Staking (C7) remains a special case.
-- Assumption to confirm: a target at tier 6 is resolved by Scar and Dying (10.14), with no killing-strike roll.
+- A target at tier 6 is resolved by Scar and Dying (10.14), with no killing-strike roll.
 
 ## 5. Create baseline cost (B1, C12, D2, E1, G5)
 
@@ -52,9 +52,8 @@ Date: 2026-10-29. Source: `docs/design/rules-audit.md`, Phase 1 (rules decisions
 ## 7. Refresh cost of a star ability as a creation extra (G1)
 
 - A star (Major) ability costs 1 Refresh when taken through advancement.
-- Taken as a creation extra it costs 2 Refresh in total.
+- Taken as a creation extra it costs 2 Refresh in total (the full price, not 2 on top of the base 1).
 - Supersedes Playtest 01 ruling R2; do not fold R2 into core in Phase 4.
-- Confirm reading: "2 in total" is the full price, not 2 on top of the base 1.
 
 ## 8. Legacy and Truth layers (K3, K4, K5, P11, H4, F3, D8, K7, E9)
 

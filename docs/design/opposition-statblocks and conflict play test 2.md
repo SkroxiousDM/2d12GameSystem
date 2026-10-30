@@ -10,7 +10,7 @@ A light method for statting vampires, humans, beasts and old-world guardians. A 
 
 ## Design Principles
 
-1. **NPCs don't have pools.** They don't track Sōma, Akmē, Psychē or Pneuma. Their staying power is **Grit**, which is their Disposition share in conflicts, and **Shrugs**, which are free Resists outside them.
+1. **NPCs don't have pools.** They don't track Sōma, Mētis, Psychē or Pneuma. Their staying power is **Grit**, which is their Disposition share in conflicts, and **Shrugs**, which are free Resists outside them.
 2. **Tags are already counted.** An NPC's ratings include its tags. Tags still matter: PCs Discover them, Burn them (Weaken, Disarm, Called Shot) and compel weaknesses.
 3. **Woe is the fuel.** NPCs don't use Effort. They buy bonus dice with Woe (1 per die, max +2 as normal) and fire Specials with Woe.
 4. **One action is clearly best.** Every statblock has one action it is clearly best at, and a **Tell** that hints at it. That gives players something to script around.
@@ -484,3 +484,4 @@ The GM spends **Kennel and Guardians (2 Woe)**: a second hound pack arrives and 
 6. **Tier-2 compromise statuses are only a pool tax.** One Resist or Shrug always clears tier 2. So Significant compromises cost 0–3 pool points and nothing more. Option: Significant gives tier 3, Major gives tier 4.
 7. **There's a lot of Woe.** Test A opened with 10 Woe, and it fed a Woe die on almost every NPC roll, a 2-Woe reinforcement and a 3-Woe script change. Session Woe (2 per PC) plus introduction Woe stack. Consider only paying introduction Woe when the vampire first appears in the campaign, not every scene.
 8. **The Doctor and the Rider got more to do against NPCs.** Ilse's Maneuver drew Vale's Feint (and she lost to a critical). Juno's Ride-By and Gain Position set up the whole exchange. A Medicine Defend option for the Doctor is still worth adding.
+

@@ -10,16 +10,17 @@
 #columns(2, gutter: 5mm)[
 == About This Book
 
-This core rulebook holds the complete, setting-neutral rules of the 2d12 System: the engine, three optional modules, and generic Descriptors, Playbooks and Focuses that work in any genre.
+This core rulebook holds the complete, setting-neutral rules of the 2d12 System: the engine, six optional modules, and generic Descriptors, Playbooks and Focuses that work in any genre.
 
 #figure(table(columns: (10%, 20%, 70%),
   table.header([Ch.], [Chapter], [Contents]),
   [I], [Introduction], [Terminology, renamed stats, notation, settings],
   [II], [Core Rules], [The 2d12 roll, character creation, Tychē Points, Effects, Resistance and recovery, clocks, Truths, Momentum and Woe, the conflict system, playbooks, advancement],
-  [III], [Optional Modules], [Module A Cyphers & Artifacts · Module B The Grind & Travel · Module C Truth-Driven Sandbox],
-  [IV], [Generic Descriptors], [Descriptor rules and 24 setting-neutral Descriptors, six per pool],
-  [V], [Generic Playbooks], [Playbook and equipment rules; Bellator, Furcifer, Savant, Interlocutor, Explorator, Adept],
-  [VI], [Generic Focuses], [Focus rules and 24 setting-neutral Focuses],
+  [III], [Optional Modules], [Module A Cyphers & Artifacts · Module B The Grind & Travel · Module C Truth-Driven Sandbox · Module D Downtime · Module E Factions · Module F Inquiry & Revelation],
+  [IV], [Adversaries], [GM rules for adversaries and opposition],
+  [V], [Generic Descriptors], [Descriptor rules and 24 setting-neutral Descriptors, six per pool],
+  [VI], [Generic Playbooks], [Playbook and equipment rules; Bellator, Furcifer, Savant, Interlocutor, Explorator, Adept],
+  [VII], [Generic Focuses], [Focus rules and 24 setting-neutral Focuses],
   [App.], [Quick Reference], [The roll, Difficulty, outcomes, bonus dice, recovery and the four currencies at a glance],
 ))
 

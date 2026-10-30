@@ -82,9 +82,9 @@ The Role names the Best action and gives one trait. Assign Fair to two other act
 
 #figure(table(columns: (14%, 14%, 72%),
   table.header([Role], [Best], [Role trait]),
-  [Brute], [Attack], [#strong[Heavy Hitter.] First successful Attack each exchange gets +1 Power (main target only). Outside conflicts, its Harm is +1 tier.],
+  [Brute], [Attack], [#strong[Heavy Hitter.] First successful Attack each exchange gets +1 Power. Resolve area effects under Core Rules §10.16; do not multiply this bonus across shared Disposition. Outside conflicts, its Harm is +1 tier.],
   [Shooter], [Attack], [#strong[Dead Aim.] Free bonus die on its first Attack each scene.],
-  [Bulwark], [Defend], [#strong[Interpose.] Once per exchange, it takes Disposition loss meant for an ally. Outside conflicts, it takes a hit meant for an ally.],
+  [Bulwark], [Defend], [#strong[Interpose.] Once per exchange, it may intercept an ally's imposed status before Resistance or harm reduction, using its own normal reduction instead. No shared Disposition loss is redirected. Outside conflicts, it may likewise intercept fitting harm without a separate frequency limit. Follow the full timing, exclusions and area restrictions in Core Rules §10.17.],
   [Skirmisher], [Maneuver], [#strong[Hit and Run.] A successful Maneuver also removes 1 Disposition from the opponent.],
   [Controller], [Maneuver], [#strong[Shape the Ground.] Once per scene, Create a Truth for 1 Woe (not 2) or for 1 Power from a Maneuver.],
   [Trickster], [Feint], [#strong[Ambush.] If the PCs have not noticed it when the conflict begins, its side starts with +2 Disposition.],
@@ -110,7 +110,7 @@ Pick Specials from the Kind menu up to the Rank limit. Price a new one:
   [3], [Changes the scene: a significant reinforcement, recover 2 tiers or 3 Disposition, a danger-clock tick plus an effect.],
 ))
 
-#strong[Area Rule.] An area effect puts its full Power on one target and 1 on each other opposing member. Bonus Power (Heavy Hitter and the like) hits only the main target. Splash never spills over.
+#strong[Area Rule (provisional for playtesting).] Use Core Rules §10.16. Establish the area and everyone it can reach; there is no automatic ally/enemy selection. An area Attack or Feint removes its committed Power + 1 from shared Disposition once, plus 1 per additional opposing participant affected. No individual shares or spill-over. Explicit statuses apply at full purchased or listed tier to every affected character, with separate Resistance or NPC reduction. An ordinary conflict Attack gains no status merely for being an area effect. Apply both layers only when an explicit rule grants both. At most one participant may accept an injury trade against the combined loss of a single area Attack or Feint.
 ]
 
 == 4. Kind Packages
@@ -225,7 +225,7 @@ Each exchange is three volleys. Script three actions in order.
 - Disarm on an already scripted action cancels it. The GM may pay 3 Woe to change it.
 
 === 6.3 Action Results
-- #strong[Attack.] On a win, remove Power + 1 from the opposing side's Disposition. No status unless a Special says so.
+- #strong[Attack.] On a win, remove committed Power + 1 from the opposing side's shared Disposition once. An area Attack adds 1 per additional opposing participant affected (Core Rules §10.16). No status unless a Special says so.
 - #strong[Defend.] Each Power restores 1 Grit, up to starting Grit.
 - #strong[Feint.] As Attack, but ignores Defend.
 - #strong[Maneuver.] Power buys Impede (1), Gain Position (1), Disarm (3), Create a Truth (2) or a scenery action.

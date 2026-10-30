@@ -6,6 +6,11 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Removed — Legacy subsystem from active rules (2026-10-30)
+- **Core Rules §§6.7–6.8:** removed the include that activated draft §6.9 Legacy and replaced the death-trigger cross-reference with a reminder that death creates no separate points or automatic Truth. The Dying clock, Scars, permanent harm and ordinary fictional remembrance are unchanged (commit `21dabc1`).
+- **Historical draft:** `docs/2d12System/drafts/legacy-pool-6.9.typ` is retained with an explicit retired-status header; its Legacy Pool, death-triggered points, spend menu, optional Keepsake and Echo are not active rules (commit `9f15041`). The drafts README now distinguishes active and retired fragments (commit `12509ff`).
+- The four-currency pillar remains pools, Tychē Points, Momentum and Woe. Echo and other Region/Campaign Truth exceptions remain playtest questions; no free Truth rule replaces Legacy. The active-source reference sweep and current-branch Typst/PDF verification remain outstanding. Earlier entries below are historical records, not current rules.
+
 ### Changed — Compels from any tag; scope and removal for statuses and Truths (2026-10-25)
 - **Core Rules §4 Tychē Points:** any character tag (power, weakness or Scar), Belief or Instinct can justify a compel. New *Compels* subsection: the complication must be meaningful, the offer must be clear before acceptance, and a compel adds no numerical penalty, can't cancel a resolved success, and doesn't pay for an existing penalty.
 - **Core Rules §3.4 Tags:** reminder that power tags can be compelled and keep their normal benefits.
@@ -116,7 +121,7 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 - `CONTRIBUTING.md` — contribution workflow, style conventions, and licensing notes.
 - `CHANGELOG.md` — this file.
 - Conditions Appendix: **Madness** row added to the Master List, and a clarifying note distinguishing Madness from Irrational.
-- Core Glossary: definitions for 22 previously-blank terms (Concealment, Disguise, Leadership, Resolve resistance, War Magic, Power source, Truth, Fumble, NPC, Role, Culture, Background, Environment, Environmental trait, Morale, Concentration, Immobile, Desperate Action, Deadly, Armour, Evasion, Attack of Opportunity, Fear Check). Also added Action, Alacrity, Courage, Defence, and Madness entries that were referenced elsewhere but never glossed. Each entry now includes chapter cross-references.
+- Core Glossary: definitions for 22 previously-blank terms (Concealment, Disguise, Leadership, Resolve resistance, War Magic, Power source, Truth, Fumble, NPC, Role, Culture, Background, Environment, Environmental trait, Morale, Concentration, Immobile, Desperate Action, Deadly, Armour, Evasion, Attack of Opportunity, Fear Check). Also added Action, Alacrity, Courage, Defence, and Madness entries that were referenced elsewhere but never gloss. Each entry now includes chapter cross-references.
 
 ### Changed
 - Talents (Ch 6): renamed the second `Duellist` talent (defensive one-handed weapons) to **`Fencer`** to disambiguate from the existing `Duelist` (Advantage + critical-severity bonus). Sub-effects renamed accordingly to `Fencer Feint` and `Fencer Guard`. Mechanics unchanged.

@@ -34,6 +34,12 @@ Implement the recorded rulings in current core and Testament of Dust Typst sourc
 - Commit `e58b93a`: `docs/TestamentOfDust/tod-descriptors.typ` renames setting Descriptor 7 from Cunning to Scheming and setting Descriptor 16 from Reckless to Headlong in both the Quick Reference table and entry headings. Numbers, pools, tags, Instincts, hooks and other mechanics remain unchanged. The generic Cunning and Reckless Descriptors and historical playtest records remain untouched.
 - This resolves the setting Descriptor *name collisions* in the current setting-book source. A separate current-facing reference sweep and later Typst/PDF verification remain outstanding; this does not mark other setting-neutrality work complete.
 
+## Legacy retirement on review branch
+
+- Commit `21dabc1`: `docs/2d12System/chapter-2.6.5-recovery.typ` no longer includes `drafts/legacy-pool-6.9.typ`. Core §6.7 now states that a resolved death creates no separate points or automatic Truth; the Dying clock, Scars, permanent harm and fictional remembrance remain unchanged.
+- Commit `12509ff`: `docs/2d12System/drafts/README.md` distinguishes active drafts from retired Legacy and notes that prior compilation does not verify this branch. Commit `9f15041`: the retained `legacy-pool-6.9.typ` has an explicit retired historical-draft header and no longer instructs inclusion or a Quick Reference row. Its rules body is preserved as history, not active rules.
+- The active four currencies remain pools, Tychē Points, Momentum and Woe. There is no death-triggered Legacy Pool, spend menu, optional Keepsake or Echo procedure in the active rulebook. This record and the changelog do not complete the active-source reference sweep or Typst/PDF verification. Echo and other Region/Campaign Truth exceptions remain deferred to playtesting.
+
 ## Remaining implementation by decision
 
 1. Disposition: core conflict setup and Quick Reference reconciled in Batch 2. Reconcile other summaries and changelog. P, Grit and Encounter Budget recalibration remain Phase 4.
@@ -43,7 +49,7 @@ Implement the recorded rulings in current core and Testament of Dust Typst sourc
 5. Create: core Effects, conflict Maneuver, scenery costs and Quick Reference updated in Batches 1-2. Reconcile explicit item/ability discounts and other summaries; consistency sweep remains pending.
 6. Recovery: replace legacy short-rest and 1 + Edge wording with pool recovery. Classify Bled as an injury and label its modifier exceptions. Bled death alignment needs the flagged rewrite below.
 7. Major creation extras: core pricing clarified in Batch 1. Reconcile setting explanations, sheet instructions and other summaries. R2 is superseded; do not rewrite historical test arithmetic.
-8. Legacy: remove the active subsystem, death triggers, includes and instructions; reconcile pillars, sheet, Quick Reference, draft notes and changelog. Do not remove ordinary uses of the word legacy unrelated to that currency.
+8. Legacy: active §6.9 include and death-trigger reference removed, historical draft and drafts README marked retired, changelog and this tracker updated. Finish the active-source sweep for remaining Legacy currency, death-trigger, §6.9 or obsolete instruction references; inspect the sheet and Quick Reference for consistency. Preserve historical records and ordinary uses of the word legacy. Do not activate Echo or other deferred Truth exceptions.
 9. Setting neutrality: move vampire-specific Adversaries content into the setting book, make D.6a generic, state that Frontier reskins replace the six generic playbooks, and prohibit Walks Between Worlds in the Frontier. The setting Descriptor names are selected and updated; sweep other current-facing references to old setting names without changing generic descriptors or historical records.
 
 ## Unresolved details and playtest flags
@@ -60,6 +66,6 @@ Implement the recorded rulings in current core and Testament of Dust Typst sourc
 
 ## Verification still required
 
-- Search all active source files for superseded rules and unconverted references, including earlier area splash and per-member Disposition language. Distinguish current rules from historical design records and playtest results.
+- Search all active source files for superseded rules and unconverted references, including earlier area splash and per-member Disposition language. Distinguish current rules from historical design records and playtest results. Include leftover Legacy currency, death-trigger and §6.9 references in that sweep.
 - Reconcile character-sheet instructions, remaining Quick Reference topics, changelog and other draft status against actual completed edits. Check other current-facing references to the renamed setting Descriptors.
 - Validate diffs to preserve unrelated text. Compile and rebuild PDFs only in the later rebuild pass; no build verification is claimed here.

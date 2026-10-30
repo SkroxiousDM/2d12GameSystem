@@ -149,7 +149,27 @@ Vampires survive wounds that would kill anyone else.
 - A vampire's physical statuses #strong[can't go above tier 5] unless the Attack uses a #strong[killing method] (§8.1). At tier 5 the vampire is #emph[broken]: it can still act, at −2 on physical rolls.
 - #strong[Recovery needs blood.] A wounded or broken vampire that rests a full day #strong[and] takes at least half a litre of blood recovers all physical statuses. Without blood, it recovers only 1 tier per day.
 - #strong[Wounds make it hungry.] Each time a vampire is #emph[broken], tick its #strong[Blood Debt clock] (§5.4) by 1.
-- In a scripted conflict against a vampire, reducing its Disposition to 0 achieves the winning side's intent. If the intent is "destroy it", one PC must also make a #strong[killing strike]: one roll vs. Hard 18 using a killing method. On a failure, the vampire escapes or recovers, and the compromise is at least Significant.
+
+==== Killing Strikes
+In a scripted conflict, reducing a vampire side's shared Disposition to 0 wins the declared conflict; it does not by itself destroy each vampire on that side. If destroying a particular vampire is within the established lethal stakes, name that vampire and use an eligible killing method against it.
+
+Make one killing-strike roll against the named vampire using a fitting skill and method. Set the base Difficulty by the vampire's Rank:
+
+#figure(table(columns: (55%, 45%),
+  table.header([Vampire Rank], [Base Difficulty]),
+  [Minor], [Hard 18],
+  [Established], [Formidable 21],
+  [Great], [Epic 27],
+  [Paramount], [Divine 30],
+))
+
+Reduce the Difficulty by one step --- 3 points --- for each tier of the target's highest negative status. Use only the highest tier; do not add different statuses together. There is no minimum Difficulty.
+
+A success destroys the vampire. On a failure, it is not destroyed: the GM states a significant complication that fits the stakes, such as escape, a rescue attempt or a dangerous reversal. The players may #strong[give the GM 2 Woe] to buy off that complication. Buying off the complication does not turn the failed strike into a success.
+
+Resolve the established conflict outcome and compromise separately. A failed killing strike does not automatically impose a Significant compromise.
+
+Beheading follows this procedure. There is no separate beheading difficulty table or tier-4+ status prerequisite. Staking remains a separate special case (§8.1).
 
 === 5.3 Vampire Traits
 Each vampire has #strong[3--5 power tags] and #strong[at least 1 weakness tag], for example: #emph[the old hospital opens for me], #emph[a hundred donors], #emph[remembers the founding], #emph[faster than you can see], #emph[sees perfectly in the dark];; and #emph[starving], #emph[the doors don't know me], #emph[obsessed with the past], #emph[proud beyond reason], #emph[my supply runs through one man], #emph[believes the old stories] (§8.1). Players can learn them with #strong[Discover].

@@ -31,7 +31,7 @@ Choose #strong[2 Implants];. Each is a power tag that ignores load, plus a rule.
     table.header([Implant], [Tag], [Rule],),
     table.hline(),
     [#strong[Arm cannon];], [#emph[built-in gun];], [#emph[+1 Attack] (range); can\'t be disarmed],
-    [#strong[Blade arm];], [#emph[built-in blade];], [#emph[+1 Attack];; counts as beheading (a killing method) against a vampire with a tier-4+ physical status],
+    [#strong[Blade arm];], [#emph[built-in blade];], [#emph[+1 Attack];; permits beheading using the killing-strike procedure (Frontier Rules §5.2)],
     [#strong[Armour plating];], [#emph[plated];], [#emph[Armour 1];; stacks with worn light armour],
     [#strong[Targeting eye];], [#emph[locks on];], [Once per scene, free bonus die on a Shoot roll],
     [#strong[Booster legs];], [#emph[jumps and sprints];], [#emph[+1 Maneuver] in Fights and Chases on foot],
@@ -73,7 +73,7 @@ Choose #strong[2 Implants];. Each is a power tag that ignores load, plus a rule.
     align: (auto,auto,),
     table.header([Option], [Item],),
     table.hline(),
-    [#strong[A];], [#strong[Stake launcher] (2) --- #emph[+1 Attack] (range), #emph[fires stakes];: inflicts #emph[staked] at range at Standard 15 against a #emph[broken] vampire],
+    [#strong[A];], [#strong[Stake launcher] (2) --- #emph[+1 Attack] (range), #emph[fires stakes];: may stake at range using Shoot under Frontier Rules §8.1],
     [#strong[B];], [#strong[Old-world laser rifle] (2) --- #emph[+1 Attack] (range), #emph[burns through armour];, depletion 1 in d12 (power cell)],
   )]
   , kind: table

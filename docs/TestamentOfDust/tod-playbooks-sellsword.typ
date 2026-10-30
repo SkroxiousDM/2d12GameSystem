@@ -51,7 +51,7 @@ Muscle for hire. You stand between the village and the thing coming out of the d
     table.header([Option], [Item],),
     table.hline(),
     [#strong[A];], [#strong[Longsword & stake belt] (2) --- #emph[+1 Attack];, #emph[stakes always at hand] (you never need to declare a stake as load)],
-    [#strong[B];], [#strong[Great-axe] (2) --- #emph[+1 Attack];, #emph[heavy enough to behead];: counts as beheading (a killing method) against a vampire with a tier-4+ physical status],
+    [#strong[B];], [#strong[Great-axe] (2) --- #emph[+1 Attack];, #emph[heavy enough to behead];: permits beheading using the killing-strike procedure (Frontier Rules §5.2)],
   )]
   , kind: table
   )
@@ -66,7 +66,7 @@ Muscle for hire. You stand between the village and the thing coming out of the d
     table.hline(),
     [1], [Leather and mail coat (light armour)],
     [2], [Plate cuirass and gorget (heavy armour; also counts as a steel neck guard)],
-    [1], [Throwing stakes ×3 --- #emph[+1 Attack] (range), #emph[staked] at Hard 18],
+    [1], [Throwing stakes ×3 --- #emph[+1 Attack] (range); may stake at range using Shoot under Frontier Rules §8.1],
     [1], [Chain and manacles],
     [1], [Whetstone and oil],
     [1], [Flask of Frontier whiskey],

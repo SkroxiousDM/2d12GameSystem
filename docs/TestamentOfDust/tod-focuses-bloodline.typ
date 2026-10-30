@@ -32,7 +32,7 @@ Dhampir. Born to one of the Kept, and carrying a little of what she is. Tougher 
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [3a (alt)], [#strong[Knows How They Die];], [Your Attacks against the afflicted inflict #strong[+1 tier] when they are #emph[Sun-Sick];, #emph[starving] or #emph[broken];, and your blade counts as beheading (a killing method) against an afflicted target with a tier-4+ physical status.],
+    [3a (alt)], [#strong[Knows How They Die];], [Your Attacks against the afflicted inflict #strong[+1 tier] when they are #emph[Sun-Sick];, #emph[starving] or #emph[broken];, and your blade permits beheading using the killing-strike procedure (Frontier Rules §5.2).],
   )]
   , kind: table
   )

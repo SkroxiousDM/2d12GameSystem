@@ -3,7 +3,7 @@
 // =====================================================================
 //  CHAPTER — OPTIONAL MODULES
 // =====================================================================
-#chapter("Optional Modules", [Six drop-in modules for longer campaigns: one-use cyphers and dangerous artifacts, the grinding cost of travel and hardship, a sandbox where the world itself is written in Truths, downtime, factons and investigation.], epigraph: [Use any, all, or none. A setting book may recommend some.])
+#chapter("Optional Modules", [Six drop-in modules for longer campaigns: one-use cyphers and dangerous artifacts, the grinding cost of travel and hardship, a sandbox where the world itself is written in Truths, downtime, factions and investigation.], epigraph: [Use any, all, or none. A setting book may recommend some.])
 
 
 #include "chapter-3-module-a-cyphers-and-artifacts.typ"

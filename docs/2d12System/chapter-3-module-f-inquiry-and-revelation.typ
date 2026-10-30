@@ -16,7 +16,7 @@ The module changes nothing outside Inquiry scenes. Conflicts, travel, Resistance
 - *Core clue.* A fact the group needs to reach the next scene or to understand the Truth of the case. Every Inquiry scene has at least one.
 - *Fitting skill.* Any skill from the setting's skill list that the GM can reasonably tie to the clue. Several skills can reach the same clue by different routes.
 - *Description.* The player says what the character does and which skill it uses, or the GM offers the clue unprompted to a character who clearly has it.
-- *Stuck groups.* If nobody has a fitting skill, the clue floats (§D.6) to another source. A core clue is never locked behind a missing skill.
+- *Stuck groups.* If nobody has a fitting skill, the clue floats (§F.6) to another source. A core clue is never locked behind a missing skill.
 
 === F.2 Insight: The Extra Layer
 

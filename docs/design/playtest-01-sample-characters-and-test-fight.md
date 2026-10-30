@@ -35,7 +35,7 @@ All six use 42 pool points (playbook base 36 + 4 chosen + 2 from the Descriptor)
 
 | | |
 |---|---|
-| **Pools (Sōm / Akm / Psy / Pne)** | 16 / 10 / 6 / 10 |
+| **Pools (Sōm / Mēt / Psy / Pne)** | 16 / 10 / 6 / 10 |
 | **Edge** | Sōma 2, Pneuma 1 |
 | **Skills** | +4 Fight · +3 Athletics, Endure · +2 Brawl, Intimidate, Shoot · +1 Notice, Will, Frontier, Ride |
 | **Power tags** | built like a wall, veteran of a dozen hunts (playbook) · survived worse than this (Descriptor) · stubborn as stone, I've seen the sun come up before (Focus) |
@@ -53,7 +53,7 @@ All six use 42 pool points (playbook base 36 + 4 chosen + 2 from the Descriptor)
 | | |
 |---|---|
 | **Pools** | 10 / 15 / 9 / 8 |
-| **Edge** | Akmē 2, Psychē 1 |
+| **Edge** | Mētis 2, Psychē 1 |
 | **Skills** | +4 Stealth · +3 Notice, Fight · +2 Athletics, Deceive, Shoot · +1 Craft, Science, Investigate, Old Lore |
 | **Power tags** | light on my feet, eyes in the back of my head · says nothing, sees everything · no rules in a fight, eye for a cheap shot |
 | **Weakness tags** | people don't know where they stand · no one trusts me in a fair fight |
@@ -89,7 +89,7 @@ All six use 42 pool points (playbook base 36 + 4 chosen + 2 from the Descriptor)
 | | |
 |---|---|
 | **Pools** | 14 / 11 / 9 / 8 |
-| **Edge** | Sōma 1, Psychē 1, Akmē 1 |
+| **Edge** | Sōma 1, Psychē 1, Mētis 1 |
 | **Skills** | +4 Shoot · +3 Fight, Science · +2 Endure, Notice, Intimidate · +1 Athletics, Ride, Investigate, Medicine |
 | **Implants** | Arm cannon (built-in gun: +1 Attack range, can't be disarmed) · Targeting eye (locks on: free bonus die on a Shoot roll once per scene) |
 | **Power tags** | steel where bone used to be, ex-militia soldier · I don't forget · steady breath, eye like a hawk |
@@ -107,7 +107,7 @@ All six use 42 pool points (playbook base 36 + 4 chosen + 2 from the Descriptor)
 | | |
 |---|---|
 | **Pools** | 12 / 14 / 8 / 8 |
-| **Edge** | Sōma 1, Akmē 2 |
+| **Edge** | Sōma 1, Mētis 2 |
 | **Skills** | +4 Frontier · +3 Ride, Shoot · +2 Notice, Athletics, Fight · +1 Stealth, Endure, Medicine, Old Lore |
 | **Power tags** | dead-eye, one with my horse · senses of a beast · my horse knows the way, faster than anything on the Frontier |
 | **Weakness tags** | forgets my manners · can't leave the horse behind |
@@ -125,7 +125,7 @@ All six use 42 pool points (playbook base 36 + 4 chosen + 2 from the Descriptor)
 | | |
 |---|---|
 | **Pools** | 9 / 9 / 10 / 14 |
-| **Edge** | Pneuma 2, Akmē 1 |
+| **Edge** | Pneuma 2, Mētis 1 |
 | **Domain** | psychic force (Occult; each working costs 1 Pneuma) |
 | **Skills** | +4 Occult · +3 Old Lore, Will · +2 Notice, Deceive, Persuade · +1 Investigate, Empathy, Endure, Athletics |
 | **Power tags** | disciplined mind, sees what others can't · nothing left to lose · patron's gift (extra Domain tag from Focus T1), knows the old names |
@@ -178,7 +178,7 @@ Bram rolled doubles on the Disposition roll. The rules don't say whether doubles
 
 ### Volley 1 — Wren Maneuver vs Tin Attack (versus)
 
-- **Wren:** Stealth +4, light on my feet +1, says nothing, sees everything +1 = **+6**. Ghost makes her first Stealth Effort free, so she gets a bonus die for 0 Akmē.
+- **Wren:** Stealth +4, light on my feet +1, says nothing, sees everything +1 = **+6**. Ghost makes her first Stealth Effort free, so she gets a bonus die for 0 Mētis.
   - 3d12 [12, 3, 11] → keep 12 + 11 + 6 = **29**
 - **Tin:** Shoot +4, arm cannon +1, steady breath +1 = **+6**. He switches on ★ Combat Mode (free die for the scene) and fires the Targeting eye (free die, once per scene).
   - 4d12 [11, 8, 9, 5] → keep 11 + 9 + 6 = **26**
@@ -242,7 +242,7 @@ Ilse is out, so Iron Lantern has two actors. Under the rotation rule both must a
 
 - **Tin:** **+6** with the arm cannon. Combat Mode gives a free die. He rolls against Standard 15.
   - 3d12 [9, 7, 4] → keep 9 + 7 + 6 = **22** vs 15: 7 over, for **3 Power**.
-  - **Overclock:** Effort for Power on an implant roll gives +2 for 2 Akmē (11 → 9), making **5 Power**, and he takes glitched-1.
+  - **Overclock:** Effort for Power on an implant roll gives +2 for 2 Mētis (11 → 9), making **5 Power**, and he takes glitched-1.
   - **Called Shot:** a free Weaken burns Bram's great-axe tag for the scene.
 - **Targets:** Tin picks Bram (R3), 2 → 0. The other 3 spill over to Wren, 2 → 0.
 - **Iron Lantern is at 0 Disposition, and the conflict ends.** Wren's Feint was scripted into an Attack, so it did nothing, which is exactly how the matrix is meant to work. The arm cannon puts a round through the axe haft, then sweeps Wren out of the smoke.
@@ -274,7 +274,7 @@ All three Resist rolls came up 12. Each has a 16% chance, so all three together 
 
 ### Character State After the Fight
 
-| Character | Sōm / Akm / Psy / Pne | Tychē | Notes |
+| Character | Sōm / Mēt / Psy / Pne | Tychē | Notes |
 |---|---|---|---|
 | Bram | 12 / 10 / 6 / 10 | 1 | great-axe tag burned for the scene |
 | Wren | 10 / 15 / 9 / 8 | 2 | Ghost made her Effort free |

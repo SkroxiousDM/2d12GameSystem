@@ -2,7 +2,7 @@
 
 == 8. How the Afflicted Die, and Hunter's Gear
 === 8.1 Killing Methods and Folklore
-A #strong[killing method] is a tag that lets an Attack take a vampire to #strong[tier 6: destroyed] (§5.2).
+A #strong[killing method] establishes how a vampire can be destroyed. It does not make an ordinary conflict Attack inflict a status. Resolve killing strikes, including beheading, under §5.2. Staking follows its separate procedure below.
 
 
 #figure(
@@ -11,8 +11,8 @@ A #strong[killing method] is a tag that lets an Attack take a vampire to #strong
     align: (auto,auto,auto,),
     table.header([Method], [Effect], [Notes],),
     table.hline(),
-    [#strong[Beheading]], [Killing method], [The one sure way. The blade must be able to cut through (#emph[heavy], #emph[fine], or a dhampir's strength).],
-    [#strong[Fire] (sustained)], [Killing method against a vampire with a tier-4+ physical status; destroys a husk at once], [A burning house, a funeral pyre.],
+    [#strong[Beheading]], [Killing method; use §5.2], [The blade must be able to cut through (#emph[heavy], #emph[fine], or sufficient strength). No tier-4+ status prerequisite.],
+    [#strong[Fire] (sustained)], [Killing method against a vampire #emph[broken] at physical status tier 5; destroys a husk at once], [A burning house, a funeral pyre. Reaching 0 shared Disposition does not itself make a vampire broken.],
     [#strong[Sunlight]], [No killing strike, but stops recovery and burns over time (§7.1)], [A collapsed vampire left in direct sun for a full day is destroyed.],
     [#strong[Stake through the heart]], [Not a killing method. Inflicts the special condition #emph[staked]: the vampire can't act or recover while the stake stays in], [Use the Staking procedure below. Finish it with beheading or fire --- or bargain with it while it's helpless.],
     [#strong[Silver]], [Not a killing method. Wounds from #emph[silvered] weapons can't be recovered until the next full day], [An old custom. No one remembers why it works.],
@@ -83,7 +83,7 @@ Weapons and gear use the equipment rules in #emph[Generic Playbooks] §2 (load, 
 #figure(
   [#table(
     columns: (8%, 32%, 60%),
-    align: (auto,auto,auto,),
+    align: (auto,auto,),
     table.header([Load], [Item], [Tags],),
     table.hline(),
     [0], [Wooden stake, belt knife, flint striker, water skin], [#emph[stake] (use the Staking procedure, §8.1)],

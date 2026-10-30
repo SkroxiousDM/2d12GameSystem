@@ -165,6 +165,8 @@ Make one killing-strike roll against the named vampire using a fitting skill and
 
 Reduce the Difficulty by one step --- 3 points --- for each tier of the target's highest negative status. Use only the highest tier; do not add different statuses together. There is no minimum Difficulty.
 
+#strong[Ability reductions stack.] Apply every killing-strike Difficulty reduction whose conditions you meet, in addition to the reduction from the target's highest negative status. Each one-step reduction lowers the target by 3. There is no minimum Difficulty. These reductions do not apply to staking unless an ability explicitly says they do.
+
 A success destroys the vampire. On a failure, it is not destroyed: the GM states a significant complication that fits the stakes, such as escape, a rescue attempt or a dangerous reversal. The players may #strong[give the GM 2 Woe] to buy off that complication. Buying off the complication does not turn the failed strike into a success.
 
 Resolve the established conflict outcome and compromise separately. A failed killing strike does not automatically impose a Significant compromise.

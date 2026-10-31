@@ -106,11 +106,11 @@ Recorded from the designer's subsequent rulings and implemented on `boss-phases-
 - Recovery and reinforcements do not reverse phases, refresh them or hide revealed Specials.
 - Last Stand costs 2 Woe and postpones defeat at 0 shared Disposition for exactly one additional volley. Both sides participate under the normal scripting and rotation rules.
 - Last Stand can extend a side only once per conflict; multiple bearers do not stack or chain it. It does not restore Disposition, waive incapacitation or activate new phases. Resolve defeat or mutual defeat after the additional volley.
-- **Still open:** Fail-safe source implementation under §11, Quick Reference reconciliation, compilation, layout checks and playtesting.
+- **Still open:** Quick Reference reconciliation, compilation, layout checks and playtesting. Fail-safe timing and source implementation are recorded in §11.
 
 ## 11. Fail-safe final-defeat timing
 
-Status: timing model approved by the designer. This decision record does not claim source implementation, reference reconciliation, compilation or playtest verification.
+Status: timing model approved by the designer and implemented in `954b71e` on `boss-phases-fixed-thresholds`. The Guardian Special row and Adversaries §6.11 are updated. The source commit diff was checked: only that row and the new procedure changed. This does not claim reference reconciliation, compilation, layout or playtest verification.
 
 - Fail-safe remains a defeat-triggered compromise effect, not an extra action or another Last Stand. It costs 3 Woe and must already be revealed and available.
 - After all actions in the volley resolve, check removal, victory and mutual defeat. An active Guardian may activate Fail-safe when its side's defeat at 0 shared Disposition becomes final, before compromise is settled.
@@ -121,7 +121,7 @@ Status: timing model approved by the designer. This decision record does not cla
 - Fail-safe removes no shared Disposition, restores none, grants no action or additional volley, and does not reopen a settled outcome or turn the Guardian's side's defeat into a victory.
 - It does not trigger on a setup win from Superiority, an accepted concession, mutual defeat, or defeat solely because no participant can continue.
 - The detonation destroys the Guardian.
-- **Implementation pending:** replace the Guardian Special row and add Adversaries §6.11; synchronize the implementation tracker and changelog. Quick Reference reconciliation and the remaining verification pass are separate work.
+- **Remaining closeout:** changelog and boss-phase design-summary reconciliation, Quick Reference coverage, broader reference checks, compilation, layout and playtesting. Updating this decision record and the implementation tracker does not complete those tasks.
 
 ## Follow-on edits
 

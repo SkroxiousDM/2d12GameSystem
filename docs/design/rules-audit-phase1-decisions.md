@@ -106,7 +106,22 @@ Recorded from the designer's subsequent rulings and implemented on `boss-phases-
 - Recovery and reinforcements do not reverse phases, refresh them or hide revealed Specials.
 - Last Stand costs 2 Woe and postpones defeat at 0 shared Disposition for exactly one additional volley. Both sides participate under the normal scripting and rotation rules.
 - Last Stand can extend a side only once per conflict; multiple bearers do not stack or chain it. It does not restore Disposition, waive incapacitation or activate new phases. Resolve defeat or mutual defeat after the additional volley.
-- **Still open:** Fail-safe timing, Quick Reference reconciliation, compilation, layout checks and playtesting.
+- **Still open:** Fail-safe source implementation under §11, Quick Reference reconciliation, compilation, layout checks and playtesting.
+
+## 11. Fail-safe final-defeat timing
+
+Status: timing model approved by the designer. This decision record does not claim source implementation, reference reconciliation, compilation or playtest verification.
+
+- Fail-safe remains a defeat-triggered compromise effect, not an extra action or another Last Stand. It costs 3 Woe and must already be revealed and available.
+- After all actions in the volley resolve, check removal, victory and mutual defeat. An active Guardian may activate Fail-safe when its side's defeat at 0 shared Disposition becomes final, before compromise is settled.
+- A Taken Out Guardian or one otherwise removed from participation cannot activate it. Reaching 0 shared Disposition does not itself remove the Guardian.
+- If Last Stand postpones defeat, defer Fail-safe until the additional volley ends. The Guardian must still be active and have the Special available then.
+- Establish the blast's reach from the Guardian's position and the fiction. Each PC within reach receives burned-3 as an additional compromise injury assigned to that character. Preserve the existing PC-only targeting; no broader NPC or bystander effect is selected here.
+- Add these injuries before crediting existing injuries and resolving Resistance under Core Rules §10.12. Existing injuries count once, and imposed compromise injuries may be Resisted normally. Do not add a replacement cost because Resistance removes an injury.
+- Fail-safe removes no shared Disposition, restores none, grants no action or additional volley, and does not reopen a settled outcome or turn the Guardian's side's defeat into a victory.
+- It does not trigger on a setup win from Superiority, an accepted concession, mutual defeat, or defeat solely because no participant can continue.
+- The detonation destroys the Guardian.
+- **Implementation pending:** replace the Guardian Special row and add Adversaries §6.11; synchronize the implementation tracker and changelog. Quick Reference reconciliation and the remaining verification pass are separate work.
 
 ## Follow-on edits
 

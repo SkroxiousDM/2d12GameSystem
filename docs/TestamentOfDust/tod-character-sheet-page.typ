@@ -4,7 +4,7 @@
 // =====================================================================
 //  PAGE 3 — FRONTIER INSERT
 // =====================================================================
-#title-band([INSERT], [Testament of Dust], text(font: display-font, size: 8pt, fill: dust, tracking: 0.1em)[USE WITH FRONTIER RULES · CH. VII])
+#title-band([INSERT], [Testament of Dust], text(font: display-font, size: 8pt, fill: dust, tracking: 0.1em)[USE WITH FRONTIER RULES · CH. II])
 
 #grid(columns: (1fr, 1fr), column-gutter: 14pt,
   // ---------- left
@@ -66,15 +66,31 @@
     ), size: 6.7pt, inset: (x: 3pt, y: 2.8pt))
     text(size: 6.4pt)[*0–2* no effect · *3–4* −1 Pneuma rolls when blood is visible; others notice · *5* each scene with a bleeding human, Resist with Pneuma or move toward them · *6* Blood Crisis: feed from the nearest source this scene, or refuse, collapse (Taken Out) and gain a Pneuma Scar; then Thirst drops to 3. #text(fill: dust)[\*If taken by force, gain a Pneuma Scar the first time (_I've tasted it_).]]
 
-    sec([Killing Methods & Gear], sub: [load in brackets])
+    sec([Hunter's Gear], sub: [load in brackets])
     set text(size: 6.8pt)
     grid(columns: (1fr, 1fr), row-gutter: 6pt, column-gutter: 6pt,
-      [#cb() Wooden stake (0) · _staked_], [#cb() Silver-edged blade (1) · _silvered_],
-      [#cb() Steel neck guard (1) · bites: Bled −1 tier], [#cb() Crossbow & wooden bolts (1)],
+      [#cb() Wooden stake (0) · _staked_ (§8.1)], [#cb() Silver-edged blade (1) · _silvered_],
+      [#cb() Steel neck guard (1) · bites: Bled −1 tier], [#cb() Crossbow & wooden bolts (1) · may stake at range],
       [#cb() Revolver or rifle (1) · +1 Attack], [#cb() Laser rifle (2) · depl. 1 in d12],
       [#cb() Long cloak & wide hat (1)], [#cb() Signal mirrors (1) · _Sunlit_],
       [#cb() Horse or mule (0) · _sure-footed_], [#cb() Cyborg horse (0) · _tireless_],
       [#cb() Transfusion kit (1) · +1 vs. Bled], [#cb() Charms (1) · believers only])
+
+    sec([Killing Strikes], sub: [Frontier §5.2])
+    note(size: 6.5pt)[Within established lethal stakes, name one vampire and use a fitting skill and eligible killing method. Base Difficulty: *Minor 18 · Established 21 · Great 27 · Paramount 30*. Subtract 3 per tier of its *highest negative status* only, then apply every eligible killing-strike ability reduction. No minimum Difficulty.
+
+    Success destroys the named vampire. Failure does not: the GM states a significant complication. Give the GM *2 Woe* to buy off that complication, not to make the strike succeed. Settle conflict outcome and compromise separately; failure does not automatically impose a Significant compromise.
+
+    *Beheading:* eligible blade or sufficient strength; no tier-4+ prerequisite or separate Difficulty table. *Sustained fire:* requires a vampire broken at physical status tier 5. A husk's killing strike succeeds automatically; fire destroys it at once. Reaching 0 shared Disposition does not itself wound, break or destroy a vampire.]
+
+    sec([Staking], sub: [Frontier §8.1 · not a killing method])
+    note(size: 6.5pt)[A stake is *not a killing method*. Declare the attempt and establish an opportunity to reach the heart. Use Fight or Brawl in reach, or Shoot with a weapon explicitly able to deliver a stake at range.
+
+    Use base Difficulty *18 / 21 / 27 / 30* by Rank, reduced by 3 per tier of the highest negative status; no minimum. Killing-strike ability reductions do not apply unless explicitly allowed.
+
+    Success or Success at a Cost inflicts _staked_: no actions or recovery while the stake remains. It is not tiered, does not destroy the vampire and does not itself inflict tier-6 harm. Apply the normal cost on Success at a Cost; resolve failure normally.
+
+    In a conflict, staking uses the scripted Attack but replaces its normal roll and Disposition loss. Removing one vampire does not subtract Disposition; the side loses only if none can continue or another defeat condition is met.]
   })
 
 #grid(columns: (1fr, 1fr), column-gutter: 14pt,

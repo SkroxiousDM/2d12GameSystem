@@ -127,7 +127,7 @@ Stabilising doesn't erase marked segments, reduce the injury, refill pools or re
 
 #strong[Immediate death.] Use it only when the established outcome leaves no plausible time for rescue, or a specific killing method calls for it (such as a creature's killing strike in a setting book). Announce that danger before the roll, and allow Resistance, escape or interruption. Once such an outcome is fully resolved, don't add a Dying clock to undo it; equally, don't skip the clock for an ordinary mortal wound just because the description is graphic.
 
-#strong[Setting-specific harm.] If a setting gives a condition (such as blood loss) its own tiers and stabilising rules, use those instead of a Dying clock, not as well.
+#strong[Setting-specific harm.] Follow a setting condition's explicit rules for tiers, stabilisation and lethal outcomes. Those rules may replace the core Dying procedure or expressly use it. Do not add a second death clock or deadline. Where the setting invokes core Dying, use this section except where the setting explicitly changes it.
 
 #strong[After a death.] Resolve the death and its established consequences. The group may remember the character through Beliefs, relationships, keepsakes or later story developments; death creates no separate points or automatic Truth.
 

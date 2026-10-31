@@ -229,7 +229,11 @@ The trade cancels incoming loss. It doesn't restore Disposition already lost or 
 
 #strong[Independent actions.] When two actions resolve independently in the same volley, both resolve even if one takes someone out. Neither cancels the other. Check victory after both.
 
-#strong[Side defeat.] When a side's Disposition reaches 0, or none of its participants can continue pursuing its objective, that side loses (§10.7). The winner achieves its intent, subject to compromise (§10.12). Don't make the losing side play out the same contest again; a new conflict needs a materially different intent or changed circumstances.
+#strong[Side defeat.] When a side's Disposition reaches 0, or none of its participants can continue pursuing its objective, that side loses (§10.7). Complete independently resolving actions before checking defeat. The winner achieves its intent, subject to compromise (§10.12).
+
+#strong[Last Stand exception.] An explicit ability may postpone defeat at 0 Disposition for one additional volley. This does not restore Disposition or permit an incapacitated participant to act. Follow Adversaries §6.10, then settle defeat or mutual defeat. Do not activate new Boss Phases while defeat is pending.
+
+Don't make the losing side play out the same contest again; a new conflict needs a materially different intent or changed circumstances.
 
 #strong[Mutual defeat.] If both sides reach 0 in the same volley, neither wins outright. Resolve the compatible parts of both intents and a shared setback within the stakes. No compromise is calculated.
 
@@ -285,8 +289,9 @@ The listed tier doesn't apply to every member of the winning side; the costs say
 + Resist imposed statuses (§6); pay; resolve running dry from Resistance.
 + Stack what remains; resolve tier 6: scope, Scar, Dying (§6.3, §6.7).
 + Resolve any independent action in the same volley.
-+ Check removal, victory and mutual defeat. Before the next roll, either side may offer a concession.
-+ Settle compromise (§10.12).
++ Check removal, victory and mutual defeat after all actions in the volley have resolved. An eligible Last Stand may postpone defeat for one additional volley (Adversaries §6.10).
++ If neither side has been defeated and no defeat is pending, check applicable Boss Phases (Adversaries §7.1). Before the next roll, either side may offer a concession.
++ When the conflict ends, settle its outcome and any compromise (§10.12). Resolve mutual defeat under §10.10.
 + Afterwards, recover each layer by its own procedure (§6.5, §6.6).
 
 #strong[Which rule wins.]

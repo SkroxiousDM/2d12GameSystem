@@ -134,16 +134,22 @@ This setting book holds everything specific to #emph[Testament of Dust]: the Fro
 #figure(table(columns: (13%, 30%, 57%),
   table.header([Ch.], [Chapter], [Contents]),
   [I], [Introduction], [What you need, terminology, renamed stats, notation],
-  [II], [Frontier Rules], [The Frontier setting: Campaign Truths, skills, day and night, vampires, the Bled, afflicted blood, killing methods, old-world works, contracts, conflicts, travel, Woe spends],
+  [II], [Frontier Rules], [The Frontier setting: Campaign Truths, skills, day and night, vampires, the Bled, afflicted blood, killing methods, old-world works, contracts, conflicts, travel, Woe spends and Frontier Opposition (§16)],
   [III], [Frontier Descriptors], [20 Descriptors with Frontier hooks],
   [IV], [Frontier Playbooks], [Sellsword, Stalker, Frontier Doctor, Broker, Rider, Occultist, Mutant, Cyborg Hunter, Warden],
   [V], [Frontier Focuses], [20 setting Focuses, including the dhampir Focus],
   [App.], [Frontier Quick Reference], [Day and night, Frontier skills and vampire Woe spends at a glance],
 ))
 
-#strong[What comes from the core rulebook.] References to *Core Rules*, *Optional Modules*, *Generic Descriptors*, *Generic Playbooks* and *Generic Focuses* point to #emph[The 2d12 System]. For example, *Core Rules §4.1* means section 4.1 of the Core Rules chapter in that book. References to the Frontier chapters point to this book, and a bare reference such as *§6* points to a section in the same chapter. Where a Frontier rule and a core rule conflict, the Frontier rule wins.
+#strong[What comes from the core rulebook.] References to *Core Rules*, *Optional Modules*, *Adversaries*, *Generic Descriptors*, *Generic Playbooks* and *Generic Focuses* point to #emph[The 2d12 System]. For example, *Core Rules §4.1* means section 4.1 of the Core Rules chapter in that book. References to the Frontier chapters point to this book, and a bare reference such as *§6* points to a section in the same chapter. Where a Frontier rule and a core rule conflict, the Frontier rule wins.
 
-#strong[Optional Modules.] On the Frontier, all three modules in #emph[The 2d12 System] are recommended: Cyphers & Artifacts for old-world works, The Grind & Travel for the long roads between towns, and the Truth-Driven Sandbox for a world written in Campaign Truths.
+#strong[Character options.] Use the nine Frontier Playbooks in this book. The six Frontier reskins replace their generic counterparts; they are not additional choices alongside them (Frontier Playbooks, Playbook Overview).
+
+Generic Focuses remain available except where the setting restricts or replaces them. #emph[Walks Between Worlds] is not available in Testament of Dust. See Frontier Focuses §1 for availability and replacement guidance.
+
+#strong[Building opposition.] Use the core Adversaries chapter for construction, Roles, encounter budgets, shared Disposition, Boss Phases, Last Stand and Fail-safe. Frontier Rules §16 adds the Vampire package, vampire construction exceptions, retainer-clan Specials and Frontier example cards.
+
+#strong[Optional Modules.] The following three core modules are recommended for the Frontier: Cyphers & Artifacts for old-world works, The Grind & Travel for the long roads between towns, and the Truth-Driven Sandbox for a world written in Campaign Truths.
 #colbreak()
 == Terminology and Renamed Stats
 
@@ -159,6 +165,8 @@ The source documents used the working names on the left. This book uses the hous
   [Mind], [*Psychē*], [Pool: intellect, perception, memory, cunning. Resists confusion, illusion, deception],
   [Spirit], [*Pneuma*], [Pool: will, presence, faith, the supernatural. Resists fear, despair, possession, corruption],
 ))
+
+The following table identifies generic core playbook names for reference; it is not a list of selectable Frontier playbooks. Use the replacements listed in Frontier Playbooks, Playbook Overview.
 
 #figure(table(columns: (24%, 22%, 54%),
   table.header([Working name], [House name], [Generic core playbook]),
@@ -179,7 +187,7 @@ The source documents used the working names on the left. This book uses the hous
 
 - *★ Major.* An ability that costs *1 Refresh* when you take it, at creation or through advancement.
 - *◆ Capstone.* Unlocked after *12 Advances* if you have at least 4 abilities from that playbook. It costs no Refresh, and each character can have one.
-- *◈ Weird.* A Focus that assumes the supernatural, old-world works or afflicted blood. On the Frontier every ◈ Focus is allowed, but the marker shows which ones draw the attention of vampire households, Occultists and frightened villagers.
+- *◈ Weird.* A Focus that assumes the supernatural, old-world works or afflicted blood. All Weird Focuses presented in this setting book are available; generic Focus availability is governed by Frontier Focuses §1. The marker shows which options draw the attention of vampire households, Occultists and frightened villagers.
 - *Tags* are written in _italics_, such as _marks on my throat_. *Statuses* add a tier, such as _wounded-2_.
 - *Difficulty* is written by name and target, such as *Standard 15* or *Hard 18*.
 

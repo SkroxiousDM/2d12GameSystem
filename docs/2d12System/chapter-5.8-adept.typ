@@ -62,7 +62,7 @@ Every Adept has a #strong[Domain];: a broad power tag describing what they can d
     [5], [#strong[Ritual];], [Given time, materials, and a safe place, run a working as a #strong[progress clock] instead of a single roll (8 segments for Formidable, 12 for Heroic). Ritual results can create Site or Region Truths.],
     [6], [#strong[Bound Servant];], [You have a minor spirit, construct, or drone with one power tag and one weakness. It can scout (one free Discover per scene in places it can reach), carry messages, or handle simple tasks. It can\'t fight.],
     [7], [#strong[★ Second Domain];], [Gain a second Domain. Workings in it use the same rules.],
-    [8], [#strong[★ Unleash];], [Once per scene, a working hits #strong[every target] in an area or group: each one receives the full Attack effects you buy. Afterwards, take #emph[Weary] or lose 3 points from your casting pool.],
+    [8], [#strong[★ Unleash];], [Once per scene, a working hits #strong[every target] in an area or group, following the #strong[Area Rule] (Core Rules §10.16, provisional for playtesting). Explicitly inflicted statuses apply at full tier to every affected character. In conflicts, apply normal Disposition loss once to the opposing side, plus 1 per additional opposing participant affected; do not multiply full loss by the number of targets or add a status to an ordinary conflict Attack. Afterwards, take #emph[Weary] or lose 3 points from your casting pool.],
     [◆], [#strong[Ascendant];], [Once per session, a Heroic-scope working succeeds automatically with #strong[5 Power];, no ritual required. If you use it again before your next downtime, gain a Pneuma or Psychē Scar.],
   )]
   , kind: table

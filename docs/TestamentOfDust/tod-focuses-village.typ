@@ -65,7 +65,7 @@ Stakes that don\'t splinter, bolts that fly true, blades that can cut a vampire\
     table.hline(),
     [1], [#strong[Hunter\'s Smith];], [In the Players\' Turn, spend 1 Check to either give one weapon an extra quality, or arm the party with fine stakes (every ally has a #emph[stake] tag for the mission, 0 load).],
     [2a], [#strong[Silvered and Blessed];], [Weapons you make count as #emph[silvered];, or as beheading (a killing method) if they\'re blades.],
-    [2b], [#strong[Field Armourer];], [In a short rest, repair #emph[damaged] armour and broken weapons. Your allies\' armour absorbs a tier-4+ hit once per mission without being damaged.],
+    [2b], [#strong[Field Armourer];], [With 10 minutes, suitable tools and access to the equipment, repair #emph[damaged] armour and broken weapons. Your allies\' armour absorbs a tier-4+ hit once per mission without being damaged.],
     [3a], [#strong[Masterwork];], [One weapon you make (choose its owner) may add #strong[+1 above the normal +2 tag cap (maximum +3)];.],
     [3b], [#strong[★ Old-World Steel];], [Run a downtime clock (8 segments) to make a weapon artifact equal to an Old-World Longsword (Frontier Rules §9.2). Its quirk is #emph[my weapons carry my mark];.],
   )]

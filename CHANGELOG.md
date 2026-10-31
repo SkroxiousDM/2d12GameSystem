@@ -6,6 +6,36 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Bled, recovery abilities and split character sheet (2026-10-30)
+- **Frontier Rules §6:** Bled is a physical injury with explicit penalty and natural-recovery exceptions. Bled-4/5 impose −4/−5 on Sōma and Mētis rolls; tier 4 no longer makes unrelated harm automatically Take you Out. Only Bled-6 uses core Dying, subject to lethal stakes, with a three-segment clock and a Scar instead of immediate death; the tier-5 scene-end death deadline is removed (commit `bf4a32b`).
+- **Transfusion:** retains Standard 15, one tier removed per Power and donor Bled-1; explicitly bypasses the ordinary one-tier treatment limit and treated restriction. Suitable transfusion can provide definitive care at Bled-6. Clear the Dying clock when Bled drops below 6 and its immediate lethal cause ends; no pool refill or Scar removal.
+- **Related abilities:** Treat the Bled makes stabilising Dying from Bled Standard 15 instead of Hard 18 and retains kit-free transfusion; obsolete treatment-frequency wording removed. Not on My Table retains its tier-5 rescue and wakes the patient after 10 minutes of safe care. Field Armourer repairs take 10 minutes with suitable tools and access. Field Surgeon and Give of Yourself's tier-5 ceiling are unchanged (commit `bb1f9bb`).
+- **Character sheet:** Frontier insert split into `docs/TestamentOfDust/tod-character-sheet-page.typ` and connected to the main sheet with explicit helper scope, preserving Mētis terminology. Bled table, recovery and transfusion reminders updated; the core pool-0/half-max-return note replaced by running dry (commit `3954cea`).
+- Phase 1 tracker records these scoped source edits as complete. Grind wording, remaining recovery-reference sweep and controlling-decision reconciliation remain pending. No Typst compilation, PDF rebuild, split-sheet or expanded-panel layout verification, or playtest verification is claimed.
+
+### Changed — Setting-neutral downtime reputation guidance (2026-10-30)
+- **Module D.6a:** replaced the Frontier milestone citation with generic character-growth or setting-rule guidance for reputation tags; D.4 Connect does not grant such a tag by itself. An explicit tag-cap exception applies only within its ability's stated scope.
+- Retained the generic Bellator capstone *Legend of the Field* as the Campaign Truth example, and removed the setting-specific *My Reputation Precedes Me* and *A Name the Kept Know* examples from core. The previously clarified contact Truth distinction remains unchanged (commit `d4fdb5f`).
+- Phase 1 tracker marks D.6a's setting-neutrality revision complete. Other setting-neutrality and Truth-layer questions remain open; no new reputation-award procedure or broad capstone exception is introduced. No Typst compilation, PDF rebuild, layout check or playtest verification is claimed.
+
+### Changed — Downtime contact Truth clarification (2026-10-30)
+- **Module D.4 Connect:** added a cross-reference to D.6a for contact Truths.
+- **Module D.6a:** a contact Truth describes a relationship with a named person; state what that relationship makes possible and whom it concerns. It does not by itself grant a reputation tag or change faction Standing (commit `d44c38e`).
+- This scoped contact Truth clarification remains complete; broader D.6a setting-neutrality was completed separately in `d4fdb5f`. No new duration, rank, discount or guaranteed service is introduced, and deferred Truth-layer questions remain unresolved.
+- No Typst compilation, PDF rebuild, layout check or playtest verification is claimed.
+
+### Changed — Frontier vampire killing strikes (2026-10-30)
+- **Frontier Rules §5.2:** Killing-strike Difficulty now scales by vampire Rank: Minor 18, Established 21, Great 27, Paramount 30. Reduce it by 3 for each tier of the target's highest negative status, with no minimum; eligible ability reductions stack.
+- A successful strike destroys the named vampire. Failure brings a significant complication; players may give the GM 2 Woe to buy it off. Buying off the complication does not turn the failed strike into a success. Failure does not automatically impose a Significant compromise.
+- **Frontier Rules §8.1:** Beheading follows the common killing-strike procedure, with no tier-4+ status prerequisite. Sustained fire requires a vampire to be broken at physical status tier 5; the husk exception remains. Staking remains separate. Killing-strike ability reductions do not apply to staking unless an ability explicitly says they do.
+- Updated affected Frontier playbook, Focus and gear references to use the new procedure, including staking references for stake-capable ranged weapons (commit `b2ec517`).
+- Killing-strike procedure implemented in `09ae687`; method-table and general stacking reconciliation in `2aa4f5d`. No Typst compilation, PDF rebuild or playtest verification is claimed.
+
+### Removed — Legacy subsystem from active rules (2026-10-30)
+- **Core Rules §§6.7–6.8:** removed the include that activated draft §6.9 Legacy and replaced the death-trigger cross-reference with a reminder that death creates no separate points or automatic Truth. The Dying clock, Scars, permanent harm and ordinary fictional remembrance are unchanged (commit `21dabc1`).
+- **Historical draft:** `docs/2d12System/drafts/legacy-pool-6.9.typ` is retained with an explicit retired-status header; its Legacy Pool, death-triggered points, spend menu, optional Keepsake and Echo are not active rules (commit `9f15041`). The drafts README now distinguishes active and retired fragments (commit `12509ff`).
+- The four-currency pillar remains pools, Tychē Points, Momentum and Woe. Echo and other Region/Campaign Truth exceptions remain playtest questions; no free Truth rule replaces Legacy. The active-source reference sweep and current-branch Typst/PDF verification remain outstanding. Earlier entries below are historical records, not current rules.
+
 ### Changed — Compels from any tag; scope and removal for statuses and Truths (2026-10-25)
 - **Core Rules §4 Tychē Points:** any character tag (power, weakness or Scar), Belief or Instinct can justify a compel. New *Compels* subsection: the complication must be meaningful, the offer must be clear before acceptance, and a compel adds no numerical penalty, can't cancel a resolved success, and doesn't pay for an existing penalty.
 - **Core Rules §3.4 Tags:** reminder that power tags can be compelled and keep their normal benefits.
@@ -116,7 +146,7 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 - `CONTRIBUTING.md` — contribution workflow, style conventions, and licensing notes.
 - `CHANGELOG.md` — this file.
 - Conditions Appendix: **Madness** row added to the Master List, and a clarifying note distinguishing Madness from Irrational.
-- Core Glossary: definitions for 22 previously-blank terms (Concealment, Disguise, Leadership, Resolve resistance, War Magic, Power source, Truth, Fumble, NPC, Role, Culture, Background, Environment, Environmental trait, Morale, Concentration, Immobile, Desperate Action, Deadly, Armour, Evasion, Attack of Opportunity, Fear Check). Also added Action, Alacrity, Courage, Defence, and Madness entries that were referenced elsewhere but never glossed. Each entry now includes chapter cross-references.
+- Core Glossary: definitions for 22 previously-blank terms (Concealment, Disguise, Leadership, Resolve resistance, War Magic, Power source, Truth, Fumble, NPC, Role, Culture, Background, Environment, Environmental trait, Morale, Concentration, Immobile, Desperate Action, Deadly, Armour, Evasion, Attack of Opportunity, Fear Check). Also added Action, Alacrity, Courage, Defence, and Madness entries that were referenced elsewhere but never gloss. Each entry now includes chapter cross-references.
 
 ### Changed
 - Talents (Ch 6): renamed the second `Duellist` talent (defensive one-handed weapons) to **`Fencer`** to disambiguate from the existing `Duelist` (Advantage + critical-severity bonus). Sub-effects renamed accordingly to `Fencer Feint` and `Fencer Guard`. Mechanics unchanged.

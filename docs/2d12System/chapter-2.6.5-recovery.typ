@@ -7,7 +7,7 @@ Recovery follows four successive rest stages:
 #figure(
   [#table(
     columns: (16%, 38%, 46%),
-    align: (auto,auto,auto,),
+    align: (auto,auto,),
     table.header([Rest], [Time required], [Recovery],),
     table.hline(),
     [First], [A few seconds; one action during an encounter], [Roll 1d12, halve the result and round up],
@@ -129,7 +129,7 @@ Stabilising doesn't erase marked segments, reduce the injury, refill pools or re
 
 #strong[Setting-specific harm.] If a setting gives a condition (such as blood loss) its own tiers and stabilising rules, use those instead of a Dying clock, not as well.
 
-#strong[After a death.] See §6.9 for what a death leaves behind.
+#strong[After a death.] Resolve the death and its established consequences. The group may remember the character through Beliefs, relationships, keepsakes or later story developments; death creates no separate points or automatic Truth.
 
     
 === 6.8 Permanent Harm
@@ -139,5 +139,3 @@ Stabilising doesn't erase marked segments, reduce the injury, refill pools or re
 wound. Record the lasting change as a tag or a character fact, not as a status that never heals.
 
 #strong[Adapting.] Training, help, prostheses, old-world works or supernatural intervention can change how permanent harm affects play. A replacement doesn't automatically remove a related Scar, and a Scar doesn't make a replacement useless. Don't reduce maximum pools, Edge, skills or Refresh unless the effect or an agreed Advance says so.
-
-#include "drafts/legacy-pool-6.9.typ"

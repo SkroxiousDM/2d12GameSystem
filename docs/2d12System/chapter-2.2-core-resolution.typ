@@ -19,15 +19,20 @@ Why 2d12 summed: it produces a bell curve (2--24, average 13) --- predictable fo
     align: (auto,auto,auto,),
     table.header([Difficulty], [Target], [Example],),
     table.hline(),
-    [Routine], [---], [No roll; it happens],
+    [Trivial], [---], [No roll; it happens],
+    [Routine], [9], [Climb a rough wall with plenty of handholds],
     [Easy], [12], [Climb a knotted rope],
     [Standard], [15], [Pick a decent lock],
     [Hard], [18], [Track someone over bare rock],
     [Formidable], [21], [Talk down a warlord in front of his troops],
-    [Heroic], [24], [Things legends are made of],
+    [Heroic], [24], [Hold a collapsing gate long enough for a village to escape],
+    [Epic], [27], [Things legends are made of],
+    [Divine], [30], [Miraculous],
   )]
   , kind: table
   )
+
+Each step of Difficulty is 3 points. Apply increases and reductions without a minimum target. A reduced target below Routine 9 remains a numerical target; it does not automatically become Trivial. Trivial means the action requires no roll. Roll only when uncertainty or the consequences make resolving the action worthwhile.
 
 === 2.3 Odds Reference
 Chance to hit the number needed on the dice (after subtracting your bonuses):

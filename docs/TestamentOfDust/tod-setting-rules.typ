@@ -149,7 +149,29 @@ Vampires survive wounds that would kill anyone else.
 - A vampire's physical statuses #strong[can't go above tier 5] unless the Attack uses a #strong[killing method] (§8.1). At tier 5 the vampire is #emph[broken]: it can still act, at −2 on physical rolls.
 - #strong[Recovery needs blood.] A wounded or broken vampire that rests a full day #strong[and] takes at least half a litre of blood recovers all physical statuses. Without blood, it recovers only 1 tier per day.
 - #strong[Wounds make it hungry.] Each time a vampire is #emph[broken], tick its #strong[Blood Debt clock] (§5.4) by 1.
-- In a scripted conflict against a vampire, reducing its Disposition to 0 achieves the winning side's intent. If the intent is "destroy it", one PC must also make a #strong[killing strike]: one roll vs. Hard 18 using a killing method. On a failure, the vampire escapes or recovers, and the compromise is at least Significant.
+
+==== Killing Strikes
+In a scripted conflict, reducing a vampire side's shared Disposition to 0 wins the declared conflict; it does not by itself destroy each vampire on that side. If destroying a particular vampire is within the established lethal stakes, name that vampire and use an eligible killing method against it.
+
+Make one killing-strike roll against the named vampire using a fitting skill and method. Set the base Difficulty by the vampire's Rank:
+
+#figure(table(columns: (55%, 45%),
+  table.header([Vampire Rank], [Base Difficulty]),
+  [Minor], [Hard 18],
+  [Established], [Formidable 21],
+  [Great], [Epic 27],
+  [Paramount], [Divine 30],
+))
+
+Reduce the Difficulty by one step --- 3 points --- for each tier of the target's highest negative status. Use only the highest tier; do not add different statuses together. There is no minimum Difficulty.
+
+#strong[Ability reductions stack.] Apply every killing-strike Difficulty reduction whose conditions you meet, in addition to the reduction from the target's highest negative status. Each one-step reduction lowers the target by 3. There is no minimum Difficulty. These reductions do not apply to staking unless an ability explicitly says they do.
+
+A success destroys the vampire. On a failure, it is not destroyed: the GM states a significant complication that fits the stakes, such as escape, a rescue attempt or a dangerous reversal. The players may #strong[give the GM 2 Woe] to buy off that complication. Buying off the complication does not turn the failed strike into a success.
+
+Resolve the established conflict outcome and compromise separately. A failed killing strike does not automatically impose a Significant compromise.
+
+Beheading follows this procedure. There is no separate beheading difficulty table or tier-4+ status prerequisite. Staking remains a separate special case (§8.1).
 
 === 5.3 Vampire Traits
 Each vampire has #strong[3--5 power tags] and #strong[at least 1 weakness tag], for example: #emph[the old hospital opens for me], #emph[a hundred donors], #emph[remembers the founding], #emph[faster than you can see], #emph[sees perfectly in the dark];; and #emph[starving], #emph[the doors don't know me], #emph[obsessed with the past], #emph[proud beyond reason], #emph[my supply runs through one man], #emph[believes the old stories] (§8.1). Players can learn them with #strong[Discover].
@@ -194,8 +216,7 @@ Not everyone the Kept try to make becomes one of them. The making is dangerous a
 - #strong[NPCs only:] the returned are not a player option. A PC who survives a failed making leaves player control (§6).
 
 == 6. The Bled
-When a vampire feeds on someone --- or anyone loses a great deal of blood --- the victim gains the harmful status #strong[#emph[Bled]].
-
+When a vampire feeds on someone --- or anyone loses a great deal of blood --- the victim gains the harmful status #strong[#emph[Bled]]. Bled is a physical injury caused by blood loss, not depletion or a supernatural affliction. Resist with #strong[Sōma] when the blood is taken.
 
 #figure(
   [#table(
@@ -203,20 +224,22 @@ When a vampire feeds on someone --- or anyone loses a great deal of blood --- th
     align: (auto,auto,),
     table.header([Bled tier], [Effect],),
     table.hline(),
-    [#strong[1]], [A donation's worth. Pale and tired. No roll penalty; clears after a night's rest with food and water.],
+    [#strong[1]], [A donation's worth. Pale and tired. No roll penalty; clears after a full night's safe rest with food and water.],
     [#strong[2]], [Light-headed: −1 on Sōma and Mētis rolls.],
     [#strong[3]], [Weak: −2 on Sōma and Mētis rolls, and gain #emph[Weary].],
-    [#strong[4]], [Critical: the next harm of any kind Takes you Out. Needs a Medicine roll to stabilise.],
-    [#strong[5]], [Dying: Taken Out. Dies at the end of the scene unless stabilised (Medicine vs. Hard 18) or given a transfusion.],
-    [#strong[6]], [#strong[Drained]. Dead --- unless someone has both the reason and the means to make you one of them.],
+    [#strong[4]], [Critical blood loss: −4 on Sōma and Mētis rolls. Further blood loss stacks normally; unrelated harm does not automatically Take you Out.],
+    [#strong[5]], [Severe blood loss: −5 on Sōma and Mētis rolls. This tier alone does not make you Dying or impose a death deadline.],
+    [#strong[6]], [#strong[Drained]: Taken Out and gain a Scar under Core Rules §6.3. If lethal stakes allow, start the core three-segment Dying clock (§6.7); reaching this tier does not cause immediate death.],
   )]
   , kind: table
   )
 
+#strong[Penalty exception.] Bled's listed roll penalties replace the normal penalty equal to status tier; do not apply both. Bled hinders physical activity using Sōma or Mētis within that scope.
+
 - #strong[Gaining tiers:] a measured feeding inflicts Bled-1. A hard feeding is an Attack (+2 or more). Stacking rules apply.
-- #strong[Resisting:] Resist with #strong[Sōma] when the blood is taken.
-- #strong[Recovery:] 1 tier per full day of rest with food and water.
-- #strong[Transfusion:] with a willing donor and a transfusion kit, a Medicine roll vs. Standard 15 lowers Bled by 1 tier per Power. The donor gains Bled-1.
+- #strong[Recovery:] pools and Bled recover separately. Restoring pools does not remove Bled. Once further blood loss has stopped, Bled-1 clears after a full night's safe rest with food and water. At tiers 2--5, appropriate care and a full day of safe rest with food and water remove one tier. These intervals replace the core injury-healing intervals for Bled. At tier 6, definitive care is required before natural recovery begins.
+- #strong[Dying from Bled:] only Bled reaching tier 6 can make you Dying. Use Core Rules §6.7 for the Dying clock, stabilisation, further harm and definitive care; there is no separate scene-end death deadline. Stabilising stops the clock but does not lower Bled, restore pools or return you to ordinary action.
+- #strong[Transfusion:] with a willing donor and a transfusion kit, a Medicine roll vs. Standard 15 lowers Bled by 1 tier per Power. The donor gains Bled-1. This is an explicit exception to the ordinary one-tier injury-treatment limit and its #emph[treated] restriction: a treated Bled injury can still benefit from transfusion. At Bled-6, suitable transfusion can provide definitive care under Core Rules §6.7. When it lowers Bled below tier 6 and removes the immediate lethal cause, clear the Dying clock. It does not restore pools or erase a Scar.
 - #strong[Frontier law:] where optional Truth 8 is in play, anyone known to be bled is examined, confined or exiled. Hiding the marks is a common compel.
 - A PC who is Drained and made a vampire, or who survives a failed making as one of the returned (§5.6), leaves player control.
 

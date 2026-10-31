@@ -35,7 +35,7 @@ You hunt by day. While the vampire sleeps, you climb the estate walls, pick the 
     [5], [#strong[Quick Reflexes];], [You always act first when violence breaks out. In conflicts, changing one of your scripted actions costs #strong[1 Momentum] instead of 2.],
     [6], [#strong[Escape Artist];], [When you Resist capture, restraint, falls, or traps with Mētis, the cost is #strong[0 on a highest die of 5+];.],
     [7], [#strong[★ Flashback];], [Once per mission, declare a flashback to something you prepared earlier. Pay Momentum by plausibility: 0 (obvious), 1 (reasonable), 2 (a stretch), 3 (wild). Then roll as normal; on a success, it happened.],
-    [8], [#strong[★ Strike While It Sleeps];], [Against an unaware, #emph[Impeded];, or sleeping target, Attack effects cost #strong[half Power (round up)];. A killing strike against a sleeping vampire is #strong[Standard 15] instead of Hard 18.],
+    [8], [#strong[★ Strike While It Sleeps];], [Against an unaware, #emph[Impeded];, or sleeping target, Attack effects cost #strong[half Power (round up)];. Killing strikes against sleeping vampires are #strong[one step easier] (−3 Difficulty; Frontier Rules §5.2). This reduction stacks with other applicable killing-strike reductions.],
     [◆], [#strong[Nobody Sees Me Coming];], [Once per session, declare you\'re already somewhere you could plausibly have reached. Your first roll there gets #strong[+2 bonus dice for free];, and the GM can\'t spend Woe to reveal you during that roll.],
   )]
   , kind: table
@@ -50,7 +50,7 @@ You hunt by day. While the vampire sleeps, you climb the estate walls, pick the 
     align: (auto,auto,),
     table.header([Option], [Item],),
     table.hline(),
-    [#strong[A];], [#strong[Wooden throwing needles] (1) --- #emph[+1 Attack] (range), #emph[silent];, #emph[staked] at Hard 18],
+    [#strong[A];], [#strong[Wooden throwing needles] (1) --- #emph[+1 Attack] (range), #emph[silent];; may stake at range using Shoot under Frontier Rules §8.1],
     [#strong[B];], [#strong[Grapple-line gauntlet] (1) --- #emph[+1 Maneuver];, #emph[climbs any wall];; Advance a climbing or entry clock +1 per roll],
   )]
   , kind: table

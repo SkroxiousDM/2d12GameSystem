@@ -6,6 +6,13 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Clarified — Major-ability acquisition prices (2026-10-31)
+- Core Rules §4.1, the compact §11 Playbooks summary and the Frontier Playbooks overview now explicitly distinguish the first playbook ability's additional-slot exemption from the Major surcharge, and state that a Major creation extra costs 2 Refresh total (`0f5f93a`).
+- The setting introduction's Major notation and character-sheet Playbook Abilities reminder now state the same totals and preserve the separate veteran surcharge (`ad7e9e5`). Ordinary creation extras cost 1 Refresh; a first Major playbook ability costs 1 Refresh; minimum Refresh remains 1.
+- Own-playbook advancement Majors still cost an Advance and 1 Refresh; veteran Majors cost an Advance and 2 Refresh total. Focus prices and tier access, capstone requirements, artifact costs and ability effects are unchanged.
+- Phase 1 implementation tracking records these five scoped wording fixes as complete in source, not an exhaustive reference sweep or Phase 1 closure. Historical playtest arithmetic is preserved; superseded ruling R2 is not reinstated.
+- Both source commit diffs were reviewed. No Typst compilation, PDF rebuild, character-sheet layout check or playtest validation is claimed; the longer sheet reminder still needs build and layout verification.
+
 ### Changed — Boss phases and one-volley Last Stand (2026-10-30)
 - Adversaries §7.1 uses fixed thresholds based on the side's final starting shared Disposition after setup modifiers and Superiority. Half and Desperate are rounded down; phase checks follow volley resolution and defeat checks.
 - Boss Special availability now follows the Opening/Half schedule: 1 Special = 0/1; 2 = 1/1; 3 = 1/2; 4 = 2/2. Reveals do not waive costs or restrictions.

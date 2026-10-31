@@ -32,9 +32,9 @@ Sheriff, militia captain, or the old soldier who keeps the village alive. You do
     [2], [#strong[Garlic and Iron];], [With a scene of work and village help, ward a whole building or village: create #emph[Warded Village] or #emph[Custom of Invitation] as a #strong[Site Truth] (Frontier Rules §13) until a vampire breaks it (6-segment danger clock).],
     [3], [#strong[Militia Captain];], [Once per scene, rally villagers into a minion group with 1 power tag (#emph[pitchforks and torches];) and 1 weakness (#emph[break and run];).],
     [4], [#strong[Night Watch];], [The party can\'t be surprised while you\'re on watch. When you\'re the Lookout (Module B.5), you get a free bonus die.],
-    [5], [#strong[Hold the Gate];], [In a #strong[Siege of the Night];, your side\'s Disposition is #strong[+2];, and you get #emph[+1 Defend] as a free action tag.],
+    [5], [#strong[Hold the Gate];], [In a #strong[Siege Until Dawn];, your side\'s Disposition is #strong[+2];, and you get #emph[+1 Defend] as a free action tag.],
     [6], [#strong[Local Law];], [Your authority is a power tag with locals (#emph[by order of the Warden];). Once per scene, a successful Intimidate or Persuade with villagers removes #emph[Hostile Crowd] or stops a mob.],
-    [7], [#strong[★ Hold Until Dawn];], [Once per Siege of the Night, tick the #strong[Dawn clock] by 2 extra segments.],
+    [7], [#strong[★ Hold Until Dawn];], [Once per Siege Until Dawn, tick the #strong[Dawn clock] by 2 extra segments.],
     [8], [#strong[★ Killing Ground];], [In an area you prepared (with #emph[Trapped] or #emph[Warded Village];), allies\' Attacks inflict #strong[+1 tier];, and vampires can\'t use #emph[The Old Door] to leave.],
     [◆], [#strong[Nothing Gets In];], [Your village becomes a #strong[Region Truth] (#emph[\"The Kept can\'t take \[village\]\"];). A vampire must fill a 12-segment danger clock before it can enter. Once per session, any PC who retreats there clears one tier-1 or tier-2 status.],
   )]
@@ -82,3 +82,4 @@ Sheriff, militia captain, or the old soldier who keeps the village alive. You do
 - #strong[Instinct:] \"Always check the doors at dusk.\" / \"Never leave the village when a stranger\'s in town.\"
 
 #strong[Relationships:] Ally --- the mayor, the blacksmith, a widow whose husband died on the wall. Rival --- a Hunter who wants to use the village as bait, a council member who\'d rather pay tribute, a vampire who has tried before.
+

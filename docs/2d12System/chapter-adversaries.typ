@@ -201,7 +201,7 @@ Each exchange is three volleys. Script three actions in order.
 - #strong[Attack.] On a win, remove committed Power + 1 from the opposing side's shared Disposition once. An area Attack adds 1 per additional opposing participant affected (Core Rules §10.16). No status unless a Special says so.
 - #strong[Defend.] Each Power restores 1 of your side's shared Disposition, up to the side's starting value. It does not restore a personal Grit track or return a Taken Out participant.
 - #strong[Feint.] As Attack, but ignores Defend.
-- #strong[Maneuver.] Power buys Impede (1), Gain Position (1), Disarm (3), Create a Truth (2) or a scenery action.
+- #strong[Maneuver.] Power buys Impede (1), Gain Position (1), Disarm (3), Create a Truth (2 Power per rank; explicit discounts follow Core Rules §5) or a scenery action.
 - #strong[Independent rolls] against an adversary use Standard 15 plus its Guard.
 - #strong[Versus rolls] set Power by margin: meet = 1, +1 per full 3.
 

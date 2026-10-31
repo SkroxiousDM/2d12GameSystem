@@ -138,7 +138,7 @@ This setting book holds everything specific to #emph[Testament of Dust]: the Fro
   [III], [Frontier Descriptors], [20 Descriptors with Frontier hooks],
   [IV], [Frontier Playbooks], [Sellsword, Stalker, Frontier Doctor, Broker, Rider, Occultist, Mutant, Cyborg Hunter, Warden],
   [V], [Frontier Focuses], [20 setting Focuses, including the dhampir Focus],
-  [App.], [Frontier Quick Reference], [Day and night, Frontier skills and vampire Woe spends at a glance],
+  [App.], [Frontier Quick Reference], [Day and night, killing strikes, staking, Frontier skills and vampire Woe spends at a glance],
 ))
 
 #strong[What comes from the core rulebook.] References to *Core Rules*, *Optional Modules*, *Adversaries*, *Generic Descriptors*, *Generic Playbooks* and *Generic Focuses* point to #emph[The 2d12 System]. For example, *Core Rules §4.1* means section 4.1 of the Core Rules chapter in that book. References to the Frontier chapters point to this book, and a bare reference such as *§6* points to a section in the same chapter. Where a Frontier rule and a core rule conflict, the Frontier rule wins.

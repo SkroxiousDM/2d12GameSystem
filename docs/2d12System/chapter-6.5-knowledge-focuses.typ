@@ -45,7 +45,7 @@ Doctor, field medic, herbalist, or combat surgeon.
     [2a], [#strong[Battlefield Surgeon];], [In conflicts, you may Defend with #strong[Medicine] when you can reach an ally and provide appropriate treatment. On a successful Defend, restore your side\'s Disposition normally and clear one tier-1 harmful status from that ally that your treatment can address.],
     [2b], [#strong[Remedy];], [In each Players\' Turn, clear one Grind condition (Module B) from one ally #strong[without spending a Check];.],
     [3a], [#strong[Miracle Worker];], [Once per session, bring an ally back from a tier-6 physical status. They return at tier 4 and are no longer Taken Out.],
-    [3b], [#strong[★ Physician\'s Care];], [Allies you treat during a short rest recover #strong[all] pool points, not just 1 + Edge.],
+    [3b], [#strong[★ Physician\'s Care];], [Allies you treat during a rest recover #strong[all] pool points.],
   )]
   , kind: table
   )

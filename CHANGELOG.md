@@ -6,6 +6,13 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Bled, recovery abilities and split character sheet (2026-10-30)
+- **Frontier Rules §6:** Bled is a physical injury with explicit penalty and natural-recovery exceptions. Bled-4/5 impose −4/−5 on Sōma and Mētis rolls; tier 4 no longer makes unrelated harm automatically Take you Out. Only Bled-6 uses core Dying, subject to lethal stakes, with a three-segment clock and a Scar instead of immediate death; the tier-5 scene-end death deadline is removed (commit `bf4a32b`).
+- **Transfusion:** retains Standard 15, one tier removed per Power and donor Bled-1; explicitly bypasses the ordinary one-tier treatment limit and treated restriction. Suitable transfusion can provide definitive care at Bled-6. Clear the Dying clock when Bled drops below 6 and its immediate lethal cause ends; no pool refill or Scar removal.
+- **Related abilities:** Treat the Bled makes stabilising Dying from Bled Standard 15 instead of Hard 18 and retains kit-free transfusion; obsolete treatment-frequency wording removed. Not on My Table retains its tier-5 rescue and wakes the patient after 10 minutes of safe care. Field Armourer repairs take 10 minutes with suitable tools and access. Field Surgeon and Give of Yourself's tier-5 ceiling are unchanged (commit `bb1f9bb`).
+- **Character sheet:** Frontier insert split into `docs/TestamentOfDust/tod-character-sheet-page.typ` and connected to the main sheet with explicit helper scope, preserving Mētis terminology. Bled table, recovery and transfusion reminders updated; the core pool-0/half-max-return note replaced by running dry (commit `3954cea`).
+- Phase 1 tracker records these scoped source edits as complete. Grind wording, remaining recovery-reference sweep and controlling-decision reconciliation remain pending. No Typst compilation, PDF rebuild, split-sheet or expanded-panel layout verification, or playtest verification is claimed.
+
 ### Changed — Setting-neutral downtime reputation guidance (2026-10-30)
 - **Module D.6a:** replaced the Frontier milestone citation with generic character-growth or setting-rule guidance for reputation tags; D.4 Connect does not grant such a tag by itself. An explicit tag-cap exception applies only within its ability's stated scope.
 - Retained the generic Bellator capstone *Legend of the Field* as the Campaign Truth example, and removed the setting-specific *My Reputation Precedes Me* and *A Name the Kept Know* examples from core. The previously clarified contact Truth distinction remains unchanged (commit `d4fdb5f`).

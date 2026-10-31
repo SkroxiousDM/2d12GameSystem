@@ -6,6 +6,13 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Frontier vampire killing strikes (2026-10-30)
+- **Frontier Rules §5.2:** Killing-strike Difficulty now scales by vampire Rank: Minor 18, Established 21, Great 27, Paramount 30. Reduce it by 3 for each tier of the target's highest negative status, with no minimum; eligible ability reductions stack.
+- A successful strike destroys the named vampire. Failure brings a significant complication; players may give the GM 2 Woe to buy it off. Buying off the complication does not turn the failed strike into a success. Failure does not automatically impose a Significant compromise.
+- **Frontier Rules §8.1:** Beheading follows the common killing-strike procedure, with no tier-4+ status prerequisite. Sustained fire requires a vampire to be broken at physical status tier 5; the husk exception remains. Staking remains separate. Killing-strike ability reductions do not apply to staking unless an ability explicitly says they do.
+- Updated affected Frontier playbook, Focus and gear references to use the new procedure, including staking references for stake-capable ranged weapons (commit `b2ec517`).
+- Killing-strike procedure implemented in `09ae687`; method-table and general stacking reconciliation in `2aa4f5d`. No Typst compilation, PDF rebuild or playtest verification is claimed.
+
 ### Removed — Legacy subsystem from active rules (2026-10-30)
 - **Core Rules §§6.7–6.8:** removed the include that activated draft §6.9 Legacy and replaced the death-trigger cross-reference with a reminder that death creates no separate points or automatic Truth. The Dying clock, Scars, permanent harm and ordinary fictional remembrance are unchanged (commit `21dabc1`).
 - **Historical draft:** `docs/2d12System/drafts/legacy-pool-6.9.typ` is retained with an explicit retired-status header; its Legacy Pool, death-triggered points, spend menu, optional Keepsake and Echo are not active rules (commit `9f15041`). The drafts README now distinguishes active and retired fragments (commit `12509ff`).

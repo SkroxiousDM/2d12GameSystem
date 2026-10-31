@@ -16,6 +16,10 @@
 
 Choose from the nine Frontier playbooks in this chapter. Mutant, Cyborg Hunter and Warden are additional Frontier options. References to Generic Playbooks explain shared procedures or identify a reskin's source; they do not make the six generic playbooks available in this setting.
 
+#strong[Ability costs.] Use Generic Playbooks §§1.1–1.2. Your first playbook ability at creation has no additional-slot cost; if it is ★ Major, pay 1 Refresh. You may buy up to two additional playbook abilities at creation: ordinary extras cost 1 Refresh each, and ★ Major extras cost 2 Refresh total each. Purchases must leave at least 1 Refresh.
+
+Through advancement, a new own-playbook ability costs an Advance, plus 1 Refresh if ★ Major. After 6 Advances, a veteran ability from another playbook costs an Advance and 1 Refresh in addition to any Major cost: 2 Refresh total for a veteran Major. Focus abilities follow their own tier-access rules; they are not additional playbook abilities bought at creation.
+
 #figure(
   [#table(
     columns: (4.95%, 13.86%, 10.89%, 12.87%, 22.77%, 34.65%),

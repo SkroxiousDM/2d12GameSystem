@@ -6,10 +6,15 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Setting-neutral downtime reputation guidance (2026-10-30)
+- **Module D.6a:** replaced the Frontier milestone citation with generic character-growth or setting-rule guidance for reputation tags; D.4 Connect does not grant such a tag by itself. An explicit tag-cap exception applies only within its ability's stated scope.
+- Retained the generic Bellator capstone *Legend of the Field* as the Campaign Truth example, and removed the setting-specific *My Reputation Precedes Me* and *A Name the Kept Know* examples from core. The previously clarified contact Truth distinction remains unchanged (commit `d4fdb5f`).
+- Phase 1 tracker marks D.6a's setting-neutrality revision complete. Other setting-neutrality and Truth-layer questions remain open; no new reputation-award procedure or broad capstone exception is introduced. No Typst compilation, PDF rebuild, layout check or playtest verification is claimed.
+
 ### Changed — Downtime contact Truth clarification (2026-10-30)
 - **Module D.4 Connect:** added a cross-reference to D.6a for contact Truths.
-- **Module D.6a:** a contact Truth describes a relationship with a named person; state what that relationship makes possible and whom it concerns. It does not by itself grant a reputation tag or change faction Standing.
-- Phase 1 tracker records this scoped clarification as complete. The rest of D.6a's setting-neutrality work remains pending; no new duration, rank, discount or guaranteed service is introduced, and deferred Truth-layer questions remain unresolved.
+- **Module D.6a:** a contact Truth describes a relationship with a named person; state what that relationship makes possible and whom it concerns. It does not by itself grant a reputation tag or change faction Standing (commit `d44c38e`).
+- This scoped contact Truth clarification remains complete; broader D.6a setting-neutrality was completed separately in `d4fdb5f`. No new duration, rank, discount or guaranteed service is introduced, and deferred Truth-layer questions remain unresolved.
 - No Typst compilation, PDF rebuild, layout check or playtest verification is claimed.
 
 ### Changed — Frontier vampire killing strikes (2026-10-30)

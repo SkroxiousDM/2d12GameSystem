@@ -48,10 +48,11 @@ Implement the recorded rulings in current core and Testament of Dust Typst sourc
 - Commit `527dd62`: `CHANGELOG.md` records the revised procedure and related reconciliation under Unreleased.
 - These are source and documentation integrations on `rules-audit/area-rule-interpose`, not a merged or built release. This implementation record supersedes the old pending item for Rank difficulties 15/18/21/24 and a separate beheading status-tier Difficulty table; it does not make additional designer rulings. Reconcile the controlling decision document and other current-facing summaries with the revised procedure in the remaining consistency pass. No full active-source sweep, character-sheet reconciliation, Typst compilation, PDF rebuild, layout check, numerical recalibration or playtest rerun is claimed.
 
-## Contact Truth clarification on review branch
+## D.4/D.6a reputation guidance on review branch
 
-- `docs/2d12System/chapter-3-module-d-downtime.typ`: D.4 Connect now cross-references D.6a. The D.6a contact Truth bullet describes a relationship with a named person, requires stating what it makes possible and whom it concerns, and says it does not by itself grant a reputation tag or change faction Standing.
-- The D.4/D.6a contact Truth clarification is complete in source and recorded in the changelog. Only this scoped clarification is complete: the rest of D.6a's setting-neutrality work remains pending, including its Frontier milestone reference and named examples. No new duration, rank, discount or guaranteed service is introduced, and deferred Truth-layer questions remain unresolved.
+- Commit `d44c38e`: `docs/2d12System/chapter-3-module-d-downtime.typ` makes D.4 Connect cross-reference D.6a. The D.6a contact Truth bullet describes a relationship with a named person, requires stating what it makes possible and whom it concerns, and says it does not by itself grant a reputation tag or change faction Standing.
+- Commit `d4fdb5f`: D.6a now explains reputation tags without a Frontier milestone dependency, applies tag-cap exceptions only within an ability's stated scope, and uses the generic Bellator capstone *Legend of the Field* as its Campaign Truth example in place of setting-specific names. The contact Truth clarification is retained.
+- D.6a's setting-neutrality revision is complete in source and recorded in the changelog. Other setting-neutrality work remains pending, including moving vampire-specific Adversaries content, Frontier reskin and Walks Between Worlds statements, and current-facing reference sweeps. No new reputation-award procedure, duration, rank, discount or guaranteed service is introduced; deferred Truth-layer questions remain unresolved.
 - No Typst compilation, PDF rebuild, layout check or playtest verification is claimed.
 
 ## Remaining implementation by decision
@@ -64,7 +65,7 @@ Implement the recorded rulings in current core and Testament of Dust Typst sourc
 6. Recovery: replace legacy short-rest and 1 + Edge wording with pool recovery. Classify Bled as an injury and label its modifier exceptions. Bled death alignment needs the flagged rewrite below.
 7. Major creation extras: core pricing clarified in Batch 1. Reconcile setting explanations, sheet instructions and other summaries. R2 is superseded; do not rewrite historical test arithmetic.
 8. Legacy: active §6.9 include and death-trigger reference removed, historical draft and drafts README marked retired, changelog and this tracker updated. Finish the active-source sweep for remaining Legacy currency, death-trigger, §6.9 or obsolete instruction references; inspect the sheet and Quick Reference for consistency. Preserve historical records and ordinary uses of the word legacy. Do not activate Echo or other deferred Truth exceptions.
-9. Setting neutrality: move vampire-specific Adversaries content into the setting book, make D.6a generic, state that Frontier reskins replace the six generic playbooks, and prohibit Walks Between Worlds in the Frontier. D.4/D.6a contact Truth wording is clarified, but the rest of D.6a's setting-neutrality work remains pending. The setting Descriptor names are selected and updated; sweep other current-facing references to old setting names without changing generic descriptors or historical records.
+9. Setting neutrality: D.6a's generic reputation guidance and D.4 contact Truth cross-reference are integrated on the review branch. Still move vampire-specific Adversaries content into the setting book, state that Frontier reskins replace the six generic playbooks, prohibit Walks Between Worlds in the Frontier, and sweep other current-facing references to old setting Descriptor names without changing generic descriptors or historical records.
 
 ## Unresolved details and playtest flags
 

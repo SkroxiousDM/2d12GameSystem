@@ -4,7 +4,40 @@
 **Master file:** `docs/TestamentOfDust/testament-of-dust-2d12-v2-master-rulebook.typ`
 **Branch:** `rules/shared-disposition` (built on `main`)
 **Date:** 18 October 2026
-**Status:** Added for playtest.
+**Status:** Historical consolidation record — superseded in part. Not current rules.
+
+> This document records the shared-Disposition integration on the
+> `rules/shared-disposition` branch dated 18 October 2026. Its procedures,
+> section numbers and references describe that version of the combined
+> master rulebook; they are not instructions for the current split books.
+>
+> In particular, the double-halving setup formula, flat modifiers applied
+> before the second halving, the approximately-6 starting-track baseline
+> and the minimum-1 restriction after Superiority are superseded.
+> The current procedure divides the Disposition roll by 3, rounds down,
+> then adds helpers and flat modifiers at full value. Enforce minimum 1
+> before applying Superiority; Superiority alone may reduce starting
+> Disposition to 0.
+>
+> The shared-side Disposition principle remains in use, but this record
+> does not define its current complete procedure. Its ability rewrites,
+> including Interpose, and its section references must be checked against
+> the current rules rather than copied as authoritative text.
+>
+> For current procedures, consult the active core rulebook,
+> `docs/2d12System/the-2d12-system-v2-core-rulebook.typ`, especially
+> Core Rules §§10.2–10.3 and §10.7, together with
+> `docs/design/rules-audit-phase1-decisions.md`.
+> Implementation and outstanding verification are tracked in
+> `docs/design/rules-audit-phase1-implementation.md`.
+>
+> The original text and simulation figures below are preserved as
+> history, not validation of the current formula. References below to
+> “now,” “current formula” or “added verbatim” describe the recorded
+> integration at that time. This notice selects no ruling on
+> PC/opposition symmetry, opposition eligibility for an automatic setup
+> win or simultaneous reduction of both sides to 0; those questions
+> remain unresolved.
 
 This branch replaces personal Disposition allocations with one shared Disposition track per side. The rule text is added verbatim as Core Rules §10.6. Passages that assumed personal Disposition are updated to match.
 

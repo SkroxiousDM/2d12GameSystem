@@ -5,6 +5,17 @@
 #chapter("Frontier Playbooks", [Nine ways to earn a living hunting the things that hunt humanity. Six reskin the generic playbooks; the Mutant, the Cyborg Hunter and the Warden are new to the Frontier.], epigraph: [Sellsword · Stalker · Frontier Doctor · Broker · Rider · Occultist · Mutant · Cyborg Hunter · Warden])
 
 == Playbook Overview
+#strong[Use Frontier playbooks.] In Testament of Dust, the six Frontier reskins replace their generic counterparts; they are not additional choices alongside them:
+
+- Sellsword replaces Bellator.
+- Stalker replaces Furcifer.
+- Frontier Doctor replaces Savant.
+- Broker replaces Interlocutor.
+- Rider replaces Explorator.
+- Occultist replaces Adept.
+
+Choose from the nine Frontier playbooks in this chapter. Mutant, Cyborg Hunter and Warden are additional Frontier options. References to Generic Playbooks explain shared procedures or identify a reskin's source; they do not make the six generic playbooks available in this setting.
+
 #figure(
   [#table(
     columns: (4.95%, 13.86%, 10.89%, 12.87%, 22.77%, 34.65%),

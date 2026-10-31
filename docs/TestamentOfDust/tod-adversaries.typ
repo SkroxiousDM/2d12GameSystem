@@ -93,9 +93,9 @@ Wants: no witnesses.
 #frontier-statblock("BOUNTY VETERAN", "Human · Established · Brute", "5")[
 Grit 5 · Guard +1 · Shrugs 1 · Armour 1 (oilskin and mail) \
 Attack +6 · Defend +4 · Feint +2 · Maneuver +4 · Other +4 \
-Harm: wounded (silver-and-wood shotgun), +1 tier from Heavy Hitter \
+Harm: wounded (silver-and-wood shotgun), +1 tier outside conflicts from Heavy Hitter \
 Power: silver-and-wood shot, twenty years of hunts, a name the Kept know · Weakness: greedy for the bounty \
-Kind: Morale; can be bargained with. Role: Heavy Hitter. \
+Kind: Morale; can be bargained with. Role: Heavy Hitter (+1 Power on its first successful Attack each exchange; no status from an ordinary conflict Attack). \
 Specials: Last Stand (2), Call for Help (1 per minion: two hired guns). \
 Tell: he thumbs back both hammers. \
 Wants: the bounty, and the credit.

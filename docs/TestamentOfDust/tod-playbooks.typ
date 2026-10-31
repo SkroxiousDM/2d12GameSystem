@@ -78,7 +78,7 @@ Through advancement, a new own-playbook ability costs an Advance, plus 1 Refresh
     [Occultist], [Pneuma/Psychē], [Flexible (Domain), Duel of Wills], [Supernatural and old-world access], [Varies by Domain],
     [Mutant], [Sōma/Mētis], [Attack / Maneuver], [Climbing, hiding, wastelands], [Monsters and servants],
     [Cyborg Hunter], [Sōma], [Ranged Attack, heavy firepower], [Old-world machines, estates], [Intimidation],
-    [Warden], [Sōma/Psychē], [Siege of the Night, Defend], [Preparation, fortification], [Villagers, local law],
+    [Warden], [Sōma/Psychē], [Siege Until Dawn, Defend], [Preparation, fortification], [Villagers, local law],
   )]
   , kind: table
   )

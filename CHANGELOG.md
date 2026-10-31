@@ -6,6 +6,24 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Boss phases and one-volley Last Stand (2026-10-30)
+- Adversaries §7.1 uses fixed thresholds based on the side's final starting shared Disposition after setup modifiers and Superiority. Half and Desperate are rounded down; phase checks follow volley resolution and defeat checks.
+- Boss Special availability now follows the Opening/Half schedule: 1 Special = 0/1; 2 = 1/1; 3 = 1/2; 4 = 2/2. Reveals do not waive costs or restrictions.
+- Desperate uses Weak for Defend and adds +2 to the designated Best action. A Defend-best boss therefore uses Weak +2.
+- Command ends when its Leader stops participating; Half grants no additional Command bonus.
+- Reinforcements increase current and starting shared Disposition, raising the recovery cap without changing phase references or reversing activated phases.
+- Last Stand grants one additional volley at 0 shared Disposition for 2 Woe, once per side per conflict, without stacking or restoring Disposition.
+- Added the Iron Marshal worked example and supporting setup, checklist and conflict-resolution edits (`9c89972`, `c07ea90`).
+- Restored Hedge Adept Guard +1 after a transcription error (`7dfc168`).
+- Source integration is complete on `boss-phases-fixed-thresholds`; Fail-safe review, Quick Reference reconciliation, compilation, PDF rebuilding, layout checks and playtesting remain outstanding.
+
+### Documentation — Phase 1 decision reconciliation (2026-10-30)
+- Reconciled the controlling decisions with the implemented Rank/status killing-strike procedure, Bled and transfusion rules, selected setting Descriptor names, boss phases and Last Stand (`2ac0a32`).
+- Recorded the current starting-Disposition formula: roll / 3 rounded down, then helpers and flat modifiers at full value; minimum 1 before Superiority. This supersedes the 2026-10-18 double-halving formula.
+- Recorded Superiority's ability to reduce starting Disposition to 0. PC/opposition symmetry, opposition eligibility and simultaneous-zero setup remain unresolved.
+- Marked the boss-phase design draft as integrated and amended on the review branch.
+- This documentation pass does not complete the active-source sweep, setting-neutrality work, build verification, numerical recalibration or playtesting.
+
 ### Changed — Bled, recovery abilities and split character sheet (2026-10-30)
 - **Frontier Rules §6:** Bled is a physical injury with explicit penalty and natural-recovery exceptions. Bled-4/5 impose −4/−5 on Sōma and Mētis rolls; tier 4 no longer makes unrelated harm automatically Take you Out. Only Bled-6 uses core Dying, subject to lethal stakes, with a three-segment clock and a Scar instead of immediate death; the tier-5 scene-end death deadline is removed (commit `bf4a32b`).
 - **Transfusion:** retains Standard 15, one tier removed per Power and donor Bled-1; explicitly bypasses the ordinary one-tier treatment limit and treated restriction. Suitable transfusion can provide definitive care at Bled-6. Clear the Dying clock when Bled drops below 6 and its immediate lethal cause ends; no pool refill or Scar removal.
@@ -59,11 +77,15 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 - Markdown editions and character-sheet header updated to point at the new files.
 
 ### Added — Superiority (2026-10-18)
+Historical entry: the minimum-1 restriction on Superiority is superseded by the Phase 1 ruling recorded above. The original implementation description below is retained as history.
+
 - **New Core Rules §10.3 Superiority:** gain 1 Superiority each for Know Thy Foe, Know Thy Battlefield and Know Thy Players (maximum 3). After starting Disposition and all other modifiers, reduce the opposing side's starting Disposition by your Superiority, to a minimum of 1. The adjusted value counts as starting Disposition for recovery and compromise. Not tracked or spent once the conflict begins.
 - Setup (§10.2) gains a Superiority step; Order of Resolution, Quick Reference and Known Risks updated.
 - Core conflict sections §10.3--10.14 renumbered to §10.4--10.15, with all core cross-references updated. Frontier Rules §10.3--10.5 references are unchanged.
 
 ### Changed — Shared Disposition (2026-10-18)
+Historical entry: the double-halving formula, flat-modifier ordering and injury-trade version of Interpose below are superseded by the current Phase 1 rules. The shared-side Disposition principle remains; consult current Core Rules for its procedure.
+
 - **Starting Disposition halved (§10.2):** after the usual roll, halving and helpers, halve the total again (round up). Typical range is now 4--7 instead of 7--12; §10.14 and Known Risks updated to match.
 - **Flat starting bonuses before the second halving (§10.2):** flat bonuses and penalties to starting Disposition (abilities, vampire rank, conditions) are added before the final halving, so they keep roughly their old weight. Minimum starting Disposition is 1.
 - **New Core Rules §10.6 Shared Disposition:** each side has one Disposition total, not divided among participants. Attacks and Feints reduce the opposing side's total; Defend restores your side's. Ordinary loss doesn't inflict statuses, drain Pools or remove individuals. A side loses at 0 or when none of its participants can continue. One injury trade per Attack or Feint.
@@ -81,7 +103,6 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
   - Credits: original-setting notice replaces the fan-adaptation notice.
   - Running header (`TESTAMENT OF DUST · 2D12 V2`), PDF metadata and the Introduction text.
   - The character sheet's Frontier insert.
-  - The last references to Vampire Hunter D are removed.
 - **Renamed:**
   - `docs/HollowFrontier/` → `docs/TestamentOfDust/`
   - `vampire-hunter-d-2d12-v2-master-rulebook.*` → `testament-of-dust-2d12-v2-master-rulebook.*`

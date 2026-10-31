@@ -39,7 +39,7 @@ Choose #strong[2 Mutations];. Each is a power tag that ignores load, plus a rule
     [#strong[Venom];], [#emph[poisonous];], [Spend 1 Power on an Attack to add #emph[poisoned-1];, which rises by 1 each scene until treated],
     [#strong[Elastic body];], [#emph[stretches and squeezes];], [Reach 5 m; fit through any gap a hand can pass],
     [#strong[Burrower] (sand or soil)], [#emph[swims through earth];], [Move under sand or soft soil; #emph[+1 Maneuver] in desert Fights],
-    [#strong[Regeneration];], [#emph[heals fast];], [A short rest restores #strong[2 + Edge] Sōma and lowers one physical status by 1],
+    [#strong[Regeneration];], [#emph[heals fast];], [A short rest restores #strong[2] Sōma and lowers one physical status by 1],
     [#strong[Mimic];], [#emph[voices and faces];], [Copy a voice you\'ve heard, or reshape your face for a scene (#emph[+1 Feint];)],
     [#strong[Shapeshifter] (retainer clan)], [#emph[beast form];], [Turn into one animal (wolf, bat, panther) for a scene; you keep your pools and skills but can\'t use gear],
   )]

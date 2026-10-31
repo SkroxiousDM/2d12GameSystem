@@ -8,14 +8,6 @@
 // =====================================================================
 #chapter("Adversaries", [Build opposition on an index card, budget the fight, script it, and run it through the conflict system. Terse reference for the GM.], epigraph: [Every adversary has one thing it is clearly best at. Show the table the Tell.])
 
-#let statblock(name, line, threat, body) = block(breakable: false, width: 100%, inset: 7pt, stroke: 0.6pt + luma(120), radius: 2pt, above: 8pt, below: 8pt)[
-  #grid(columns: (1fr, auto), text(weight: 700, name), text(weight: 700)[Threat #threat])
-  #text(size: 9pt, style: "italic", line)
-  #v(2pt)
-  #set text(size: 9pt)
-  #body
-]
-
 == 1. Principles
 #columns(2, gutter: 6mm)[
 - #strong[No pools.] Adversaries do not track Sōma, Mētis, Psychē or Pneuma. #strong[Grit] contributes to their side's starting shared Disposition; it is not a personal track. #strong[Shrugs] are free Resists.
@@ -52,7 +44,7 @@ Wants: what it is after in this scene
 == 3. Building an Adversary
 #columns(2, gutter: 6mm)[
 === Step 1 — Concept and Kind
-One line: who it is and what it wants. Pick a #strong[Kind]: Vampire, Human, Beast or Guardian (§4).
+One line: who it is and what it wants. Pick a #strong[Kind]: Human, Beast or Guardian (§4), or a Kind supplied by the setting.
 
 === Step 2 — Rank
 Rank is how dangerous it is #emph[now]. It sets every number.
@@ -60,12 +52,12 @@ Rank is how dangerous it is #emph[now]. It sets every number.
 #figure(table(columns: (20%, 8%, 17%, 9%, 9%, 17%, 20%),
   table.header([Rank], [Grit = Threat], [Best / Fair / Weak], [Guard], [Shrugs], [Tags: power / weakness], [Specials]),
   [Minion group (3--6 Bodies)], [3], [+4 / +2 / +0], [+0], [Bodies], [2 / 1], [1 group trait],
-  [Minor], [3], [+5 / +3 / +1], [+0], [0], [2 / 1 (vampire 3 / 1)], [1],
-  [Established], [5], [+6 / +4 / +2], [+1], [1], [3 / 1 (vampire 4 / 1)], [2],
-  [Great], [8], [+8 / +5 / +3], [+2], [2], [4 / 2 (vampire 5 / 2)], [3],
+  [Minor], [3], [+5 / +3 / +1], [+0], [0], [2 / 1], [1],
+  [Established], [5], [+6 / +4 / +2], [+1], [1], [3 / 1], [2],
+  [Great], [8], [+8 / +5 / +3], [+2], [2], [4 / 2], [3],
   [Paramount], [12], [+10 / +7 / +4], [+3], [3], [5 / 2], [4],
 ))
-Vampire Grit already includes the Threat Rank Disposition bonus (+0 / +2 / +4 / +6). Do not add it again.
+Settings supply any Kind-specific construction exceptions.
 
 #strong[Tiers.] Minion groups are the mob. Minor and Established are rivals. Great and Paramount are bosses.
 
@@ -93,7 +85,7 @@ The Role names the Best action and gives one trait. Assign Fair to two other act
 
 === Step 4 — Tags
 Write as many as the Rank allows.
-- #strong[Power tags] explain the Best action: faster than you can see, old-world steel, a hundred donors.
+- #strong[Power tags] explain the Best action: faster than you can see, hardened steel, well-drilled formation.
 - #strong[Weakness tags] are levers PCs can find with Discover: proud beyond reason, fears fire, fixed in place.
 - #strong[Burning a power tag] (Weaken 1, Disarm 3, Called Shot) lowers the rating it supports by 1 for the scene. If the tag powers a Special, the Special is off for the scene instead.
 - #strong[Using a Discovered weakness] gives the PC +1 on the roll.
@@ -114,36 +106,16 @@ Pick Specials from the Kind menu up to the Rank limit. Price a new one:
 ]
 
 == 4. Kind Packages
-=== Vampire
-- #strong[Hard to Kill.] Physical statuses stop at tier 5 without a killing method. Tier 5 is broken (−2 on physical rolls).
-- #strong[Blood Debt.] −1 to all ratings at 4 segments, −2 at 5. Being broken ticks the clock.
-- #strong[Pride, Sun-Sick and killing methods] all apply.
-- #strong[Killing strike.] A vampire side at 0 shared Disposition is defeated, not automatically wounded or destroyed. Name an eligible vampire and follow Testament of Dust, Frontier Rules §5.2, within the established lethal stakes; shared Disposition loss grants no physical status.
-- #strong[Introduction Woe,] paid once, the first time it appears in the campaign: Minor 1, Established 3, Great 5, Paramount 8.
-- #strong[Woe Spends] (Presence, Uncanny Speed, Summon the Household) are open to every vampire and do not count against Specials.
-
-#figure(table(columns: (22%, 8%, 70%),
-  table.header([Special], [Woe], [Effect]),
-  [Feed], [1], [After it wins a versus Attack in melee, add Bled-2 to that PC's compromise (Bled-2 on the hit outside conflicts). It recovers 1 tier of physical status.],
-  [Unnatural Strength], [1], [+1 Power on a successful Attack. Outside conflicts, +2 tiers.],
-  [Terrible Patience], [1], [Ignore one status or Blood Debt penalty for one roll.],
-  [Fade], [2], [Create the Truth Deep Shadows. It may be gone when the light returns.],
-  [Blood Price], [3], [Paramount only. Tick the campaign danger clock by 1 and restore 3 of its side's shared Disposition (up to the side's starting value).],
-))
-
 === Human
 - #strong[Morale.] Outside conflicts, a minion group or Minor flees or surrenders at half Bodies or when its leader is Taken Out, unless a Leader still stands.
 - #strong[Can be talked to.] Persuade, Intimidate, bribes, Argument and Negotiation all work.
 - #strong[Gear is in the ratings.] Write Armour separately.
-- Build Great or Paramount rival hunters as full PCs.
 
 #figure(table(columns: (22%, 14%, 64%),
   table.header([Special], [Woe], [Effect]),
   [Volley], [2], [Group or Shooter. An area Attack.],
   [Dirty Trick], [1], [Any success also Impedes the target (−3 next roll).],
   [Call for Help], [1 per minion / 3], [Reinforcements arrive and add their Grit to the side.],
-  [Shadow-meld], [0], [Retainer clan, once per scene. Step between shadows. May swap one revealed action for a Maneuver.],
-  [Beast Form], [1], [Retainer clan. Attack becomes Best for the scene, and it gains the Beast package.],
   [Hostage], [2], [Create the Truth "a knife at their throat." Attacks against its side are one step harder.],
   [Last Stand], [2], [Once per side per conflict. After a volley leaves its side at 0 shared Disposition, an active bearer may spend 2 Woe to postpone defeat for one additional volley. Follow §6.10.],
   [Fanatic], [0], [Ignores Morale.],
@@ -166,9 +138,9 @@ Pick Specials from the Kind menu up to the Rank limit. Price a new one:
 ))
 
 === Guardian
-- #strong[Unfeeling.] Immune to fear, Intimidate, Persuade, Duel of Wills and Pneuma statuses. No Morale; it never flees.
+- #strong[Unfeeling.] Immune to fear, Intimidate, Persuade and Pneuma statuses. No Morale; it never flees.
 - #strong[Protocol.] It scripts in a pattern. One Discover reveals its next exchange's script.
-- #strong[Machine.] The glitched status lowers all ratings by its tier. A PC with access can use Science as Attack (shutdown) or Maneuver (override).
+- #strong[Machine.] The glitched status lowers all ratings by its tier. A PC with access can use Tech as Attack (shutdown) or Maneuver (override).
 - #strong[Simple machines] have no Feint. Thinking constructs Feint normally.
 
 #figure(table(columns: (22%, 8%, 70%),
@@ -200,7 +172,7 @@ Let #strong[P] be the party's expected Disposition: about 8 plus party size. Spe
 
 - #strong[Mix at least two Roles.] A Controller with a Skirmisher pack and a Minor Brute gives players script decisions.
 - #strong[Keep actors to party size + 1 or fewer.] Put extra bodies into minion groups.
-- #strong[Count Woe separately.] Session Woe (2 per PC) plus a vampire's introduction Woe stacks fast. If the encounter already carries introduction Woe, treat Hard as Standard plus Woe.
+- #strong[Count Woe separately.] Session Woe (2 per PC) and any setting-specific introduction Woe can stack quickly. If the encounter already carries introduction Woe, treat Hard as Standard plus Woe.
 - #strong[Disposition-cutting PC abilities] (such as −2 or −3 to the opposing side) apply after the budget.
 - #strong[Superiority] (Know Thy Foe, Know Thy Battlefield, Know Thy Players) lowers adversary Disposition by 1 each, up to 3. Players who scout earn a cheaper fight.
 - #strong[Variance warning.] The PCs' own Disposition roll is the biggest swing in a fight. Adversary Grit is fixed. On a Hard fight, tell the table early if the roll came up low and offer exits.
@@ -212,7 +184,7 @@ Let #strong[P] be the party's expected Disposition: about 8 plus party size. Spe
 + State intent, stakes and exits for both sides (Core Rules §10.2). State whether death is possible before any roll.
 + Add up Grit across the side to determine its starting shared Disposition. Apply all setup modifiers, including Ambush, then Superiority. If Superiority resolves the conflict at setup, stop; do not script volleys or activate Boss Phases.
 + If the side includes a boss, record its final starting shared Disposition as the #strong[phase reference]. Record Half and Desperate thresholds, rounding down (§7.1). These values remain fixed for this conflict.
-+ Set Woe: 2 per PC plus Difficulty extras plus introduction Woe.
++ Set Woe: 2 per PC plus Difficulty extras plus any setting-specific introduction Woe.
 + Write the side's script on index cards. Minion groups share one script.
 
 === 6.2 Scripting
@@ -271,7 +243,7 @@ Minion groups have Bodies (3--6) instead of Shrugs. Each successful Attack outsi
 === 6.8 Outside Conflicts
 - #strong[Passive opposition.] Difficulty = 12 + the adversary's relevant rating. A Minor's Defend (Fair +3) gives 15; an Established Steward's Defend (+6) gives 18.
 - #strong[Active opposition.] Roll versus: 2d12 + rating.
-- #strong[Harm to adversaries.] Attack Power inflicts statuses as normal. Shrugs and Armour cut them down. Tier 6 is Taken Out. Vampires stop at tier 5 without a killing method.
+- #strong[Harm to adversaries.] Attack Power inflicts statuses as normal. Shrugs and Armour cut them down. Tier 6 is Taken Out. Apply any creature-specific exceptions supplied by the setting.
 
 === 6.9 Other Conflict Types
 The same card runs any type in Core §10.4. Swap Attack, Defend, Feint and Maneuver for that type's skills and keep the ratings, Grit and Woe costs. Rename Specials to fit: Hostage becomes a leverage threat in an Argument, Lockdown a sealed network in a Hack.
@@ -318,87 +290,10 @@ This is an explicit Special effect, not an ordinary Attack. It removes no shared
 
 The detonation destroys the Guardian.
 #colbreak()
-== 7. Templates
-Seven generic cards. Reskin freely. Ratings follow the Rank table.
-
-#statblock("RAIDER BAND", "Human · Minion group (4 Bodies) · Shooter", "3")[
-Grit 3 · Guard +0 · Bodies 4 · Armour 0 \
-Attack +4 · Defend +2 · Feint +0 · Maneuver +2 · Other +2 \
-Harm: wounded (carbines) \
-Power: plenty of bullets, know the ground · Weakness: break and run \
-Kind: Morale. Role: Dead Aim. \
-Group trait: Volley (2): area Attack. \
-Tell: hats come off as rifles shoulder. \
-Wants: the strongbox, no heroics.
+== 7. Bosses and Examples
+Build cards with §3 and use the generic procedures above. Settings can supply additional Kind packages, construction exceptions and example cards without changing the shared core procedures.
 ]
 
-#statblock("HOUND PACK", "Beast · Minion group (5 Bodies) · Skirmisher", "3")[
-Grit 3 · Guard +0 · Bodies 5 · Armour 0 \
-Attack +2 · Defend +2 · Feint — · Maneuver +4 · Other +2 (Notice +4) \
-Harm: wounded (bites) \
-Power: noses for blood, run as a pack · Weakness: fears fire \
-Kind: no Feint, Morale (scatter if the handler falls). Role: Hit and Run. \
-Group trait: Pack Tactics (0). \
-Tell: the circling tightens. \
-Wants: drive the prey toward the den.
-]
-
-#statblock("KNIFE IN THE DARK", "Human (retainer clan) · Minor · Trickster", "3")[
-Grit 3 · Guard +0 · Shrugs 0 · Armour 0 \
-Attack +3 · Defend +1 · Feint +5 · Maneuver +3 · Other +3 \
-Harm: wounded (paired knives) \
-Power: one with the shadows, a knife for every hand · Weakness: the oath before my life \
-Kind: Morale. Role: Ambush. \
-Specials: Dirty Trick (1). \
-Tell: the nearest lamp gutters. \
-Wants: no witnesses.
-]
-
-#statblock("BOUNTY VETERAN", "Human · Established · Brute", "5")[
-Grit 5 · Guard +1 · Shrugs 1 · Armour 1 (oilskin and mail) \
-Attack +6 · Defend +4 · Feint +2 · Maneuver +4 · Other +4 \
-Harm: wounded (silver-and-wood shotgun), +1 tier from Heavy Hitter \
-Power: silver-and-wood shot, twenty years of hunts, a name the Kept know · Weakness: greedy for the bounty \
-Kind: Morale; can be bargained with. Role: Heavy Hitter. \
-Specials: Last Stand (2), Call for Help (1 per minion: two hired guns). \
-Tell: he thumbs back both hammers. \
-Wants: the bounty, and the credit.
-]
-
-#statblock("HEDGE ADEPT", "Human · Established · Controller", "5")[
-Grit 5 · Guard +1 · Shrugs 1 · Armour 0 \
-Attack +2 · Defend +4 · Feint +4 · Maneuver +6 · Other +4 (Lore +6) \
-Harm: wounded or shaken (rite) \
-Power: binding rites, a ledger of debts, hands that never shake, sees in the dark · Weakness: proud beyond reason \
-Kind: Morale. Role: Shape the Ground. \
-Specials: Dirty Trick (1), Hostage (2). \
-Tell: he straightens his cuffs. \
-Wants: finish the rite before dawn.
-]
-
-#statblock("GATE WARDEN", "Guardian · Established · Bulwark", "5")[
-Grit 5 · Guard +1 · Shrugs 1 · Armour 1 \
-Attack +4 · Defend +6 · Feint +2 · Maneuver +4 · Other +4 (Science +6) \
-Harm: wounded (shock-baton) \
-Power: old-world steel, knows every corridor, obeys the bloodline · Weakness: answers to the old codes \
-Kind: Unfeeling, Protocol, Machine. Role: Interpose. \
-Specials: Self-Repair (1), Lockdown (2). \
-Tell: "Please remain where you are." \
-Wants: guests kept safe, intruders out.
-]
-  
-#statblock("THE IRON MARSHAL", "Human · Great · Leader · Boss", "8")[
-Grit 8 · Guard +2 · Shrugs 2 · Armour 1 (house mail) \
-Attack +5 · Defend +8 · Feint +3 · Maneuver +5 · Other +5 \
-Harm: wounded (old-world sabre) \
-Power: remembers the founding, a hundred sworn swords, the house is armed, never loses a flank · Weakness: proud beyond reason, believes the old stories \
-Kind: Morale (Fanatic in her presence). Role: Command. \
-Specials: Call for Help (1 per minion / 3), Hostage (2), Last Stand (2). \
-Tell: she sets down her glass. \
-Wants: the intruders alive, kneeling and useful.
-]
-]
-  
 #pagebreak()
 === 7.1 Boss Phases
 Boss Phases mark changes in a boss's tactics as its side loses ground. Phase changes cost no Woe. Using a revealed Special or calling reinforcements still costs the listed Woe.
@@ -483,30 +378,10 @@ Record a new phase reference only when a genuinely new conflict begins.
 
 Changing location, conflict type or tactics within the same unresolved struggle does not reset the reference, activated phases or Special availability. Carry them forward alongside shared Disposition and participation.
 
-==== Example: The Iron Marshal
-The Iron Marshal has Grit 8 and begins with a Raider Band contributing Grit 3. Their combined Disposition is 11. The PCs' 2 Superiority reduces it to 9.
+=== 7.2 Running an Exchange
+Script three actions for each side, reveal one volley at a time and follow Core Rules §10.14. Show each adversary's Tell before its designated Best action. Resolve all actions in the volley before checking removal and defeat, then check applicable Boss Phases if the conflict continues.
 
-Record phase reference 9, Half 4 and Desperate 3.
-
-The Marshal has three listed Specials. The GM chooses Call for Help as her Opening Special. Hostage and Last Stand remain unavailable until Half. Command operates normally from Opening.
-
-At the end of a volley, the opposition has 4 shared Disposition and the Marshal remains active. Half activates: reveal Hostage and Last Stand. Command grants no additional +1.
-
-A reinforcement with Grit 3 later joins. Current Disposition rises from 4 to 7, and starting Disposition rises from 9 to 12. Defend can recover up to 12, but the phase reference stays 9 and the thresholds remain 4 and 3.
-
-A later volley leaves the side at 3 Disposition. Desperate activates. The Marshal's designated Best action is Defend: replace its +8 with Weak +3, then add +2, for Defend +5.
-
-Recovering above 3 does not reverse Desperate.
-
-If a later volley leaves her side at 0 while she remains active, the GM may spend 2 Woe on Last Stand. Her side receives one final volley, using her already activated phase benefits, then loses unless the result is mutual defeat.
-
-=== 7.2 Example Exchange
-Party of three, P = 11. Opposition: Bounty Veteran (5), Knife in the Dark (3) and a Hound Pack (3), Threat 11: a Standard fight. Woe pool: 6.
-
-- Volley 1: the party scripts Attack. The Pack scripts Maneuver and the GM spends 1 Woe on a bonus die. The Pack wins by 4: Impede on the attacker.
-- Volley 2: the Knife scripts Feint, ignoring Defend. Tell: the lamp gutters. The Veteran scripts Attack with Heavy Hitter.
-- Volley 3: a PC spends 2 Momentum to change a script. The GM may answer with 3 Woe to Interrupt.
-- If a status or explicit effect Takes Out the Pack, remove it from participation without subtracting its 3 Grit from shared Disposition. Ordinary Disposition loss does not individually remove the Pack. Offer a concession when the side's shared Disposition drops under about 4; its original starting total remains 11 before setup modifiers.
+Removing a participant does not subtract its Grit from shared Disposition. Reinforcements follow §6.5; Last Stand follows §6.10; Fail-safe follows §6.11. Apply the established intent and stakes when settling the outcome.
 
 == 8. Quick Checklist
 - Intent, stakes and exits set before any roll.

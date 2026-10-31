@@ -6,6 +6,13 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Fixed — Reference-sweep contradictions (2026-10-31)
+- Core Rules §14.1 design notes now describe the current Disposition setup formula and modifier ordering instead of prescribing the superseded double-halving model. Adjacent Attack/Feint and Superiority notes no longer use the approximately-6 starting track as the current baseline. Earlier simulation figures are retained as historical results; numerical recalibration and fight reruns remain deferred to Phase 4.
+- Frontier Rules §15 design notes now describe Bled-6 as Taken Out and a Scar, with the core three-segment Dying clock when lethal stakes permit, rather than immediate death. The note also identifies Bled's existing penalty, recovery and transfusion exceptions and distinguishes the Thirst's separate rules. The underlying Frontier procedures are unchanged.
+- Heals the Broken, Tier 3b: Physician's Care now reads, “Allies you treat during a rest recover all pool points.” Replaced the undefined “short rest” trigger and obsolete “1 + Edge” comparison with the designer-selected wording. No additional treatment restrictions, status healing, Scar removal or rest-cycle reset were added.
+- Source corrections implemented in `fe510ba`. The commit diff was verified: five lines replaced across three files, with no unrelated changes.
+- These fixes resolve three identified active-source contradictions, not the broader reference sweep or Phase 1. No Typst compilation, PDF rebuild, layout check, numerical recalibration or playtest validation is claimed.
+
 ### Clarified — Major-ability acquisition prices (2026-10-31)
 - Core Rules §4.1, the compact §11 Playbooks summary and the Frontier Playbooks overview now explicitly distinguish the first playbook ability's additional-slot exemption from the Major surcharge, and state that a Major creation extra costs 2 Refresh total (`0f5f93a`).
 - The setting introduction's Major notation and character-sheet Playbook Abilities reminder now state the same totals and preserve the separate veteran surcharge (`ad7e9e5`). Ordinary creation extras cost 1 Refresh; a first Major playbook ability costs 1 Refresh; minimum Refresh remains 1.

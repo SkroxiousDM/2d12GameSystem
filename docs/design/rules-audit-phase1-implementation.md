@@ -109,32 +109,109 @@ Implement the recorded rulings in current core and Testament of Dust Typst sourc
 
 ## Remaining implementation by decision
 
-1. Disposition: core conflict setup and Quick Reference reconciled in Batch 2. The documentation closeout records changelog supersession of the double-halving formula. Reconcile other summaries. P, Grit and Encounter Budget recalibration remain Phase 4. Active §14.1 design-note reconciliation is complete in `fe510ba`; earlier double-halving simulation results are explicitly historical. Other summary checks and Phase 4 recalibration remain pending.
-2. Flat modifiers: core procedure and Quick Reference updated in Batch 2. PC/opposition symmetry, opposition eligibility and Rider balance remain playtest flags; reconcile other affected text.
-3. Shared Disposition: core clarification added in Batch 2. Area Rule, Interpose, Adversaries and Quick Reference integrated on the review branch. The scoped Adversaries Grit, recovery and example corrections in `fc63b96` are complete. Leader eligibility, boss-phase triggers and Last Stand are implemented in `9c89972` and `c07ea90`; Fail-safe timing and source implementation are complete in `954b71e`. Continue the broader active-source consistency sweep for superseded per-member, splash or Disposition-transfer wording; do not rewrite historical test results. Reconcile remaining Fail-safe documentation and Quick Reference coverage of the new boss, Last Stand and Fail-safe rules.
-4. Killing strikes: revised Rank/status procedure, affected playbook/Focus/gear references, killing-method table, explicit stacking rule and changelog integrated (see commits above). The former pending Rank 15/18/21/24 and separate beheading Difficulty-table implementation is superseded. Controlling-decision reconciliation is complete in `2ac0a32`. Reconcile the character sheet, Quick Reference and other current-facing summaries; sweep active sources for obsolete thresholds, automatic Significant-compromise wording and staking conflation. Verify tier-6 handling against the implemented source and core Scar/Dying rules without inventing a new ruling. Builds and playtesting remain deferred.
-5. Create: core Effects, conflict Maneuver, scenery costs and Quick Reference updated in Batches 1-2. Reconcile explicit item/ability discounts and other summaries; consistency sweep remains pending.
-6. Recovery: Bled injury classification, labelled exceptions, tier-6 core Dying, explicit transfusion exception, related ability timing and sheet reminders are integrated (commits above). Controlling-decision reconciliation is complete in `2ac0a32`. Still reconcile remaining references, check Module B and the unchanged Grind short-rest wording, and sweep active sources for legacy short-rest and 1 + Edge recovery text. Verify split-sheet assembly and layout in the later build pass; do not mark the full recovery item complete. The Frontier §15 Bled-6 design-note correction and the designer-selected Physician's Care rest wording are complete in `fe510ba`. This resolves those specific references, not the remaining recovery sweep, Module B vocabulary review or build verification.
-7. Major creation extras: core pricing clarified in Batch 1. The five scoped core, setting and sheet wording reconciliations are complete in `0f5f93a` and `ad7e9e5`, with the documentation entry above and a matching changelog record. Continue the broader summary/reference sweep and verify sheet layout during the later build pass; no exhaustive ability-entry audit or build verification is claimed. R2 is superseded; do not rewrite historical test arithmetic.
-8. Legacy: active §6.9 include and death-trigger reference removed, historical draft and drafts README marked retired, changelog and this tracker updated. Finish the active-source sweep for remaining Legacy currency, death-trigger, §6.9 or obsolete instruction references; inspect the sheet and Quick Reference for consistency. Preserve historical records and ordinary uses of the word legacy. Do not activate Echo or other deferred Truth exceptions.
-9. Setting neutrality: D.6a's generic reputation guidance and D.4 contact Truth cross-reference are integrated on the review branch. Still move vampire-specific Adversaries content into the setting book, state that Frontier reskins replace the six generic playbooks, prohibit Walks Between Worlds in the Frontier, and sweep other current-facing references to old setting Descriptor names without changing generic descriptors or historical records.
+The entries below distinguish completed source integrations from remaining reference checks and documentation reconciliation. Source completion does not imply compilation, layout verification, playtest validation or Phase 1 closure.
+
+1. Disposition
+   - Complete in scope: core conflict setup and Quick Reference use the current formula; changelog supersession of double-halving is recorded. Active §14.1 design notes were reconciled in `fe510ba`, with earlier simulation results explicitly labelled historical.
+   - Remaining: sweep other active summaries, examples and current-facing documents for double-halving, flat modifiers applied before a second halving, or the approximately-6 starting track presented as the current baseline.
+   - Deferred: P, Grit and Encounter Budget recalibration and fight reruns belong to Phase 4. Do not rewrite historical simulation or playtest results.
+
+2. Flat modifiers and Superiority
+   - Complete in scope: core setup and Quick Reference apply flat modifiers at full value without a stacking cap, enforce minimum 1 before Superiority, and allow Superiority alone to reduce starting Disposition to 0.
+   - Remaining: reconcile affected abilities, examples and summaries with that ordering. Preserve explicitly historical descriptions of superseded rules.
+   - Deferred: PC/opposition symmetry, opposition eligibility for an automatic setup win, simultaneous-zero setup and Rider balance remain playtest/review questions. Do not select new rulings during reference cleanup.
+
+3. Shared Disposition, Area Rule and adversary procedures
+   - Complete in scope: the core shared-side model, provisional Area Rule, Interpose and scoped Adversaries corrections are integrated. Leader eligibility, fixed boss-phase thresholds and Last Stand are implemented in `9c89972` and `c07ea90`; Fail-safe timing and source implementation are complete in `954b71e`.
+   - Remaining: sweep active rules, abilities, Specials, examples and summaries for personal Disposition shares, splash, spill-over, participant-removal subtraction and unsupported Disposition-transfer wording. Ordinary shared Disposition loss must not itself inflict individual harm or remove a participant.
+   - Summary reconciliation: add or verify Quick Reference coverage of boss phases, Last Stand and Fail-safe, including the Last Stand exception to defeat at 0. Check that phase references remain fixed through recovery and reinforcements and that defeated sides do not activate new phases.
+   - Documentation reconciliation: verify and update remaining Fail-safe changelog, boss-phase design-summary and PR-status notes. Do not present completed timing implementation as an unresolved design decision.
+   - Preserve historical drafts and playtest outcomes; identify superseded procedures rather than rewriting recorded events.
+
+4. Killing strikes
+   - Complete in scope: the revised Rank/status procedure, affected playbook/Focus/gear references, killing-method table, explicit ability-reduction stacking rule, controlling decisions and changelog are integrated.
+   - Remaining: reconcile the character sheet, Quick References and other current-facing summaries. Sweep for obsolete Rank difficulties, a separate beheading status-tier table, a tier-4+ beheading prerequisite, automatic Significant-compromise language and staking conflated with killing strikes.
+   - Verify that summaries preserve the current base difficulties of 18 / 21 / 27 / 30, reduction by the highest negative status only, eligible ability reductions, no minimum Difficulty and the distinction between buying off a failure complication and succeeding.
+   - Verify tier-6 handling against the implemented creature-specific rules and core Scar/Dying procedures. Do not invent a general tier-6 replacement rule or remove an explicit creature exception.
+
+5. Create
+   - Complete in scope: core Effects, conflict Maneuver, scenery costs and Quick Reference use the 2-Power-per-rank baseline; rank 2 and Floor Collapse cost 4 Power.
+   - Remaining: inspect active ability, item, Special and summary references for old baseline costs, ambiguous flat-price shorthand and discounts that do not state their relationship to the baseline.
+   - Known reference to reconcile: Adversaries §6.3 lists “Create a Truth (2)” without “per rank”; verify and clarify the intended shorthand against the controlling decision.
+   - Review before editing: reconcile the controlling discount wording with reminders allowing only one cost reduction and with bespoke free or fixed-price effects such as Lost Knowledge. Distinguish ordinary discounts from explicit exceptions; do not silently introduce stacking or reprice an ability.
+
+6. Recovery, Bled and treatment
+   - Complete in scope: Bled injury classification, listed penalty and recovery exceptions, tier-6 core Dying, explicit transfusion exception, related ability timing, sheet reminders and controlling decisions are integrated.
+   - Subsequent source reconciliation: `fe510ba` corrects the Frontier §15 Bled-6 design note and gives Physician's Care the designer-selected text, “Allies you treat during a rest recover all pool points.” Those specific contradictions are resolved.
+   - Remaining: sweep other active sources for legacy pool-recovery formulas, obsolete Bled penalties or death deadlines, and text that treats pool restoration as automatic status healing.
+   - Inspect Module B and other explicit exceptions before changing “short rest” or “full rest” wording. Distinguish a valid exception from an undefined trigger; do not remove an ability benefit merely because its terminology needs reconciliation.
+   - Check related treatment and definitive-care references without granting Field Medic or Field Surgeon an unselected exception to the one-tier lasting-injury treatment limit.
+   - Later verification: validate split-sheet assembly and the expanded recovery/Bled panels during the build and layout pass. Do not mark the entire recovery item complete from these scoped corrections.
+
+7. Major creation extras and acquisition summaries
+   - Complete in scope: core pricing was clarified in Batch 1. The five approved core, setting and character-sheet wording reconciliations are complete in `0f5f93a` and `ad7e9e5`, with tracker and changelog records.
+   - Remaining: inspect other active acquisition summaries and ability entries for wording that confuses the Major surcharge with an additional-slot or veteran surcharge. Verify consistency without changing Focus access, capstone requirements, artifact costs or ability effects.
+   - Preserve the distinction between a first playbook ability's additional-slot exemption and its Major cost. Major creation extras cost 2 Refresh total; the veteran surcharge remains additional.
+   - R2 remains superseded. Do not rewrite historical test arithmetic or reinstate that ruling in Phase 4.
+   - Later verification: check the longer character-sheet reminder in the compiled layout.
+
+8. Legacy retirement
+   - Complete in scope: the active Legacy include and death-trigger reference are removed; the retained draft and drafts README identify the subsystem as retired; tracker and changelog records are present.
+   - Remaining: search active sources and current-facing summaries for Legacy currency, death-triggered points, spend menus, automatic death-created Truths, obsolete §6.9 references and instructions that would reactivate the retired fragment.
+   - Check the character sheet, Quick Reference, introductory pillars and relevant ability text for consistency with the four-currency model.
+   - Preserve archived rules, historical playtest records, fictional remembrance and ordinary non-mechanical uses of “legacy.” Do not activate Echo or another deferred Truth exception as a replacement subsystem.
+
+9. Setting neutrality and Frontier option references
+   - Complete in recorded scope: D.4/D.6a generic contact/reputation guidance and the setting Descriptor heading/table renames are integrated.
+   - Source observed during the read-only sweep: core Adversaries delegates setting-specific packages; `tod-adversaries.typ` supplies Frontier Opposition and is connected through the setting's §15 fragment; the setting introduction states the Frontier playbook replacement policy; Frontier Focus Rules explicitly exclude Walks Between Worlds.
+   - Status reconciliation required: verify those observed changes against the controlling decision and their implementation history, then update older pending statements in this tracker and other current-facing status documents. Do not treat the old checklist wording as proof that the source changes are absent, or mark the full setting-neutrality item complete without checking references.
+   - Remaining: sweep core and setting cross-references, option summaries and navigation text. Check current-facing uses of Scheming and Headlong while preserving generic Cunning and Reckless and historical records.
+   - Known references to reconcile: the Frontier sheet still names Chapter VII, and the Frontier Opposition header comment still describes its include connection as pending.
 
 ## Unresolved details and playtest flags
 
-- Superiority: PC/opposition symmetry and opposition eligibility for the automatic win remain playtest questions. Do not silently resolve them. Simultaneous reduction of both sides to 0 at setup also needs review; do not invent an automatic-win tie ruling.
-- Rider: retain the +7 Chase stack and flag it for playtesting.
-- Area Rule: provisional scaling is now integrated on the review branch, not confirmed by playtesting. Test large groups, full-tier statuses with separate Resistance costs, Unleash and NPC area Specials; do not silently select another scaling model.
-- Interpose: redirected harm is an imposed status, not ordinary shared Disposition loss. Apply before the original target's Resistance or reduction, enforce NPC one-reduction-per-status limits, and test the area-effect and excluded-cost boundaries.
-- Recovery abilities: whether Field Medic and Field Surgeon lift the 1-tier treatment limit is deferred to playtesting; do not grant that exception in this pass.
-- Bled: core Dying only at tier 6 and transfusion as an explicit treatment-limit exception are selected and integrated in `bf4a32b`, with ability and sheet updates above. This is no longer an unresolved death-rule decision. Decision-document reconciliation is complete; remaining reference reconciliation, layout checks and playtesting stay pending.
-- Truth layers: Echo, capstones, Rewrite History, Ancestor's Notes and the 3-5 Campaign Truth limit remain deferred to playtesting.
-- Descriptor names: setting Cunning → Scheming and Reckless → Headlong are selected and updated in `tod-descriptors.typ`; remaining reference and layout checks are tracked above and below, not an unresolved naming decision.
-- Fail-safe: timing is selected and source implementation is complete in `954b71e`; it is no longer an unresolved timing ruling. Test active-participant eligibility, Special availability, Last Stand deferral, excluded outcomes, blast reach, injury credit and Resistance. Remaining documentation and build checks are tracked above.
-- Boss phases and Last Stand: source implementation is complete, not playtest validation. Reconcile the Quick Reference and test threshold crossings, skipped thresholds, reinforcement recovery and the final-volley procedure.
-- Numerical balance: P, Grit, Encounter Budget and all fight reruns remain deferred until the audit is complete.
+These are deferred design or validation questions, not permission to change the selected procedures during editorial cleanup.
+
+- Superiority: test PC/opposition symmetry and opposition eligibility for the automatic setup win. Simultaneous reduction of both sides to 0 still requires review; no automatic-win tie ruling is selected.
+- Rider: retain the +7 Chase stack against vampires and flag it for playtesting rather than adjusting it in the reference pass.
+- Area Rule: the integrated scaling remains provisional. Test larger groups, full-tier statuses with separate Resistance costs, Unleash and NPC area Specials. Do not substitute another scaling model without a ruling.
+- Interpose: test interception timing, fictional eligibility, area restrictions and excluded costs. Preserve redirection of an imposed status rather than shared Disposition loss, with at most one NPC reduction per status.
+- Recovery abilities: whether Field Medic and Field Surgeon lift the one-tier lasting-injury treatment limit remains deferred. Their cost reductions do not receive that exception in this pass.
+- Bled: core Dying at tier 6 and transfusion's explicit treatment-limit exception are selected and implemented, not unresolved death-rule decisions. Test their interaction with stabilisation, definitive care, further harm and separate pool/status recovery.
+- Truth layers: Echo, capstones, Rewrite History, Ancestor's Notes and the 3–5 Campaign Truth limit remain deferred to playtesting. Do not infer a general Region/Campaign Truth exception from an individual entry.
+- Boss phases: test threshold crossings, skipped thresholds, multiple thresholds reached together, recovery, reinforcement increases and active-boss eligibility. The phase reference remains fixed.
+- Last Stand: test the one-additional-volley procedure, action rotation, the no-recovery restriction, participant removal, mutual defeat and the once-per-side limit.
+- Fail-safe: timing is selected and source implementation is complete. Test active-Guardian eligibility, Special availability, Last Stand deferral, excluded outcomes, blast reach, existing-injury credit and Resistance.
+- Numerical balance: P, Grit, Encounter Budget and fight reruns remain deferred until the audit is complete and Phase 4 begins.
 
 ## Verification still required
 
-- Search all active source files for superseded rules and unconverted references, including earlier area splash and per-member Disposition language. Distinguish current rules from historical design records and playtest results. Include leftover Legacy currency, death-trigger and §6.9 references in that sweep.
-- Reconcile character-sheet instructions, remaining Quick Reference topics and other current-facing summaries against actual completed edits. Check other current-facing references to the renamed setting Descriptors. The scoped four-file documentation closeout does not complete these sweeps.
-- Validate diffs to preserve unrelated text. Compile and rebuild PDFs only in the later rebuild pass; no build verification is claimed here.
+### Active-source and reference sweep
+- Complete the read-only sweep across active core and setting sources, character sheets, Quick References, current-facing Markdown documents and included fragments. The initial targeted pass was not exhaustive.
+- Check all relevant playbook, Focus, item, Special and example entries, not just the passages already corrected.
+- Distinguish active rules and current-status documents from retired drafts, archives and historical playtest records.
+- Verify the complete text of any file whose retrieval was truncated before claiming full coverage.
+- Record findings by file and section, distinguishing contradictions, ambiguous wording, missing summary coverage, stale status text and deferred design questions.
+
+### Documentation reconciliation
+- Reconcile tracker, controlling decisions, design-summary status, changelog and PR description against verified source changes.
+- Preserve completed scoped fixes, including Major-pricing reconciliation and `fe510ba`; do not reopen them merely because the broader item remains unfinished.
+- Correct stale setting-neutrality and Fail-safe status statements after verifying their implementation history.
+- Preserve historical entries and test arithmetic. Label superseded rules clearly instead of rewriting recorded outcomes.
+- Keep remaining work explicit; no documentation update alone closes Phase 1.
+
+### Diff and branch review
+- Verify each correction diff preserves unrelated rules, profile statistics, costs, tags and option eligibility.
+- Review the complete PR diff against current main before merge; individual commit checks do not substitute for that review.
+- Do not merge, rebase or change main as part of a read-only audit or documentation-only update.
+
+### Build and layout verification — later pass
+- Compile the core rulebook, setting book and character sheet; rebuild the intended PDFs.
+- Verify split-sheet assembly, included fragments and cross-references.
+- Check expanded design-note text, recovery/Bled panels, the Major-pricing reminder, tables, page flow and navigation labels.
+- Record the actual build results. Prior compilation or source-diff inspection does not verify the current branch's output.
+
+### Playtesting and recalibration — deferred
+- Run the selected post-audit tests for the procedures and open questions listed above.
+- Perform Phase 4 numerical recalibration and fight reruns only at the planned stage.
+- Record source completion, build verification and playtest validation separately.

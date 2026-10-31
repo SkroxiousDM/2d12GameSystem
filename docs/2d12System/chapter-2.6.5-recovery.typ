@@ -18,6 +18,8 @@ Recovery follows four successive rest stages:
   , kind: table
   )
 
+#strong[Short rests and full rests.] A #strong[short rest] means completing any one of the first, second or third rests above. Restrictions on short-rest recovery apply to all three stages; ability benefits triggered by a short rest trigger on completing any of those stages, subject to their stated requirements and frequency limits. A #strong[full rest] means completing the fourth rest; full-rest ability benefits trigger on that completion. These terms do not create additional rest stages, change their durations or reset the successive rest cycle.
+
 - #strong[Divide the recovered points among Sōma, Mētis, Psychē and Pneuma however you wish], without exceeding a pool\'s maximum. They don\'t have to go to whichever pool was drained most recently.
 
 - #strong[Edge does not apply to recovery.] Edge only reduces Effort cost and adds Resistance dice (§2.4, §6); recovery stays flat so it can\'t stack with Edge\'s other benefits.

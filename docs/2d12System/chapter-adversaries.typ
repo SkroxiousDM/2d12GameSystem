@@ -88,7 +88,7 @@ The Role names the Best action and gives one trait. Assign Fair to two other act
   [Skirmisher], [Maneuver], [#strong[Hit and Run.] A successful Maneuver also removes 1 Disposition from the opponent.],
   [Controller], [Maneuver], [#strong[Shape the Ground.] Once per scene, Create a Truth for 1 Woe (not 2) or for 1 Power from a Maneuver.],
   [Trickster], [Feint], [#strong[Ambush.] If the PCs have not noticed it when the conflict begins, its side starts with +2 Disposition.],
-  [Leader], [Defend or Maneuver], [#strong[Command.] While it has Disposition, minion groups on its side get +1 to all ratings, and changing its side's script costs 2 Woe (not 3).],
+  [Leader], [Defend or Maneuver], [#strong[Command.] While the Leader remains an active participant in the conflict, minion groups on its side get +1 to all ratings, and changing its side's script costs 2 Woe instead of 3. Both benefits end when the Leader is Taken Out or otherwise leaves the conflict. Boss Phases grant no additional Command bonus.],
 ))
 
 === Step 4 — Tags
@@ -145,7 +145,7 @@ Pick Specials from the Kind menu up to the Rank limit. Price a new one:
   [Shadow-meld], [0], [Retainer clan, once per scene. Step between shadows. May swap one revealed action for a Maneuver.],
   [Beast Form], [1], [Retainer clan. Attack becomes Best for the scene, and it gains the Beast package.],
   [Hostage], [2], [Create the Truth "a knife at their throat." Attacks against its side are one step harder.],
-  [Last Stand], [2], [At 0 Disposition, it still takes its next scripted action this exchange.],
+  [Last Stand], [2], [Once per side per conflict. After a volley leaves its side at 0 shared Disposition, an active bearer may spend 2 Woe to postpone defeat for one additional volley. Follow §6.10.],
   [Fanatic], [0], [Ignores Morale.],
 ))
 
@@ -209,8 +209,9 @@ Let #strong[P] be the party's expected Disposition: about 8 plus party size. Spe
 == 6. Running Adversaries
 #columns(2, gutter: 6mm)[
 === 6.1 Setup
-+ State intent, stakes and exits for both sides (Core §10.2). State whether death is possible before any roll.
-+ Add up Grit across the side: that is its starting Disposition. Apply Superiority. Ambush adds +2.
++ State intent, stakes and exits for both sides (Core Rules §10.2). State whether death is possible before any roll.
++ Add up Grit across the side to determine its starting shared Disposition. Apply all setup modifiers, including Ambush, then Superiority. If Superiority resolves the conflict at setup, stop; do not script volleys or activate Boss Phases.
++ If the side includes a boss, record its final starting shared Disposition as the #strong[phase reference]. Record Half and Desperate thresholds, rounding down (§7.1). These values remain fixed for this conflict.
 + Set Woe: 2 per PC plus Difficulty extras plus introduction Woe.
 + Write the side's script on index cards. Minion groups share one script.
 
@@ -248,13 +249,21 @@ Gain Woe from player-bought dice, failures (+1), Escalation (+1), dangerous scen
 Spend on the Best action early. Unspent Woe at session end is wasted tension.
 
 === 6.5 Reinforcements
-Reinforcements add their Grit to the side's Disposition, even above the starting value. Defend cannot restore above the original start.
+Reinforcements add their Grit to both the side's current shared Disposition and its starting Disposition. The increased starting value becomes the cap for Defend and other Disposition recovery.
+
+Removing a participant does not, by itself, subtract its Grit from current shared Disposition or lower starting Disposition.
+
+Reinforcements arrive at the time specified by their rule or Special. Their arrival grants no immediate extra action or free script change. They participate under the normal scripting and rotation rules.
+
+For Boss Phases, reinforcements and recovery do not change the recorded phase reference or either threshold, reverse an activated phase or allow it to activate again (§7.1).
+
+Reinforcements cannot reopen a settled conflict outcome. During a Last Stand volley, apply §6.10.
 
 === 6.6 Minion Bodies
 Minion groups have Bodies (3--6) instead of Shrugs. Each successful Attack outside a conflict drops 1 Body. Extra Power spent on Extra Feat drops another. At half Bodies or fewer, ratings drop by 1. At zero, the group is gone. Morale usually ends it sooner.
 
 === 6.7 When Adversaries Win Or Lose
-- #strong[Defeat.] A side at 0 Disposition is defeated, not necessarily dead. Capture, flight or death follow the stakes.
+- #strong[Defeat.] A side at 0 shared Disposition is defeated, not necessarily dead. Capture, flight or death follow the stakes. Last Stand may postpone this defeat for one additional volley (§6.10); it does not restore Disposition or cancel the eventual defeat.
 - #strong[No injury trade.] Ordinary adversaries and minion groups cannot use it (Core §10.13). A named rival built as a full PC can.
 - #strong[Compromise.] When the PCs win, the Disposition they have left sets the cost: Minor tier 2, Significant tier 3, Major tier 4. When adversaries win, they take compromise statuses too, and may Shrug them.
 - #strong[Concession.] Offer one before the next roll (Core §10.11), usually when the side's shared Disposition is at or below one third of its starting value. Humans accept. Beasts flee. Guardians never offer. A Boss falls back to a prepared position and starts a danger clock.
@@ -266,6 +275,29 @@ Minion groups have Bodies (3--6) instead of Shrugs. Each successful Attack outsi
 
 === 6.9 Other Conflict Types
 The same card runs any type in Core §10.4. Swap Attack, Defend, Feint and Maneuver for that type's skills and keep the ratings, Grit and Woe costs. Rename Specials to fit: Hostage becomes a leverage threat in an Argument, Lockdown a sealed network in a Hack.
+
+=== 6.10 Last Stand
+Last Stand gives a defeated side one final volley. It does not give an individual an extra action outside the normal volley.
+
+#strong[Activation.] After resolving all actions in a volley, check removal and victory normally. If a side has reached 0 shared Disposition, at least one participant can still pursue its objective, and an active participant has Last Stand available, the GM may spend 2 Woe to activate it.
+
+Activate Last Stand before settling the outcome or compromise. A Taken Out participant cannot activate it. It cannot be used when the side loses because none of its participants can continue, or when both sides are defeated in the same volley.
+
+#strong[One additional volley.] Postpone the side's defeat and resolve exactly one more volley. Both sides act under the normal action interaction, scripting and rotation rules.
+
+Use the next unrevealed action in each side's script. If no scripted action remains, each side secretly scripts one action for this final volley, then reveals it normally. This is not a new exchange: do not refresh exchange-limited abilities or tick clocks merely for scripting this additional action.
+
+Changing an unrevealed action still costs the normal Momentum or Woe. Last Stand itself grants no free script change.
+
+#strong[Defeat remains pending.] The side using Last Stand remains at 0 shared Disposition throughout the final volley. Defend, reinforcement Grit and other Disposition recovery cannot raise its current Disposition during this volley. Reinforcements may still arrive and participate if their timing and the normal scripting rules permit, but they do not cancel the pending defeat.
+
+Resolve explicit statuses, hazards and other effects normally. Last Stand does not restore a Taken Out participant, prevent removal or grant permission to act through an incapacitating condition.
+
+#strong[Phases.] Reaching 0 does not activate Half or Desperate. Previously activated phase benefits remain available to an active boss during the final volley, but no new phase activates while defeat is pending.
+
+#strong[End the conflict.] After the additional volley, the side using Last Stand loses. If the opposing side is also defeated by then, resolve mutual defeat normally. Otherwise settle the winner's intent and compromise using the final state of the conflict.
+
+Last Stand can extend a side's participation only once per conflict. Multiple bearers do not stack, refresh or chain additional Last Stand volleys.
 #colbreak()
 == 7. Templates
 Seven generic cards. Reskin freely. Ratings follow the Rank table.
@@ -294,7 +326,7 @@ Wants: drive the prey toward the den.
 
 #statblock("KNIFE IN THE DARK", "Human (retainer clan) · Minor · Trickster", "3")[
 Grit 3 · Guard +0 · Shrugs 0 · Armour 0 \
-Attack +3 · Defend +1 · Feint +5 · Maneuver +3 · Other +3 (Stealth +5) \
+Attack +3 · Defend +1 · Feint +5 · Maneuver +3 · Other +3 \
 Harm: wounded (paired knives) \
 Power: one with the shadows, a knife for every hand · Weakness: the oath before my life \
 Kind: Morale. Role: Ambush. \
@@ -315,7 +347,7 @@ Wants: the bounty, and the credit.
 ]
 
 #statblock("HEDGE ADEPT", "Human · Established · Controller", "5")[
-Grit 5 · Guard +1 · Shrugs 1 · Armour 0 \
+Grit 5 · Guard +0 · Shrugs 1 · Armour 0 \
 Attack +2 · Defend +4 · Feint +4 · Maneuver +6 · Other +4 (Lore +6) \
 Harm: wounded or shaken (rite) \
 Power: binding rites, a ledger of debts, hands that never shake, sees in the dark · Weakness: proud beyond reason \
@@ -350,14 +382,104 @@ Wants: the intruders alive, kneeling and useful.
   
 #pagebreak()
 === 7.1 Boss Phases
-Phase changes are free narration with a mechanical trigger. They cost no Woe.
+Boss Phases mark changes in a boss's tactics as its side loses ground. Phase changes cost no Woe. Using a revealed Special or calling reinforcements still costs the listed Woe.
 
-#figure(table(columns: (24%, 76%),
-  table.header([Threshold], [Change]),
-  [Start], [Boss uses its Role trait and one Special. The Tell is clear.],
-  [Half Grit], [Reveal a second Special. Call reinforcements for 1 Woe per minion. A Leader's minions gain +1.],
-  [One third Grit], [Desperate: Best action +2, Defend drops to Weak. Offer a deal or an exit.],
+Use this procedure for an adversary designated as a boss. Great and Paramount adversaries normally qualify. A lower-rank adversary does not gain Boss Phases merely because it leads an encounter.
+
+==== Fixed Phase Thresholds
+At the end of conflict setup, after all modifiers and Superiority, record the boss side's shared Disposition as its #strong[phase reference]. Record two thresholds:
+
+- #strong[Half:] half the phase reference, rounded down.
+- #strong[Desperate:] one third of the phase reference, rounded down.
+
+The phase reference is fixed for this conflict. It is not the boss's personal Grit or a separate Disposition track.
+
+If Superiority resolves the conflict at setup, do not activate Boss Phases.
+
+==== Specials Available by Phase
+The number of listed Specials determines how many are available at Opening and how many become available at Half.
+
+Before the conflict begins, choose which Specials are available at Opening. Keep the remaining Specials unavailable until Half activates.
+
+#figure(table(
+  columns: (24%, 38%, 38%),
+  table.header([Listed Specials], [Available at Opening], [Revealed at Half]),
+  [1], [None], [1],
+  [2], [1], [Remaining 1],
+  [3], [1], [Remaining 2],
+  [4], [2], [Remaining 2],
 ))
+
+A Special cannot be used before it is available. Revealing a Special makes it available; it does not activate it, pay its Woe cost or waive its timing, requirements or limits.
+
+Role traits, Kind traits and general Woe spends that do not count against the boss's Special allowance are available normally. They are not locked behind a phase unless their own rules say otherwise.
+
+Once revealed, a Special remains available for the rest of the conflict, subject to its normal limits. Recovery and reinforcements do not hide it again or refresh an expended use.
+
+==== Checking Phases
+Opening begins if the conflict continues after setup.
+
+After each volley, resolve all actions, then check removal, victory and mutual defeat normally. If neither side has been defeated and the boss remains an active participant, activate any untriggered phase whose threshold the side's current shared Disposition is at or below.
+
+Each phase activates once per conflict. If both thresholds are met in the same check, activate Half first, then Desperate.
+
+A phase grants no immediate extra action, reinforcement or free script change. Its benefits apply to subsequent actions, not to actions already resolved.
+
+#figure(table(
+  columns: (16%, 28%, 56%),
+  table.header([Phase], [Trigger], [Change]),
+  [Opening],
+  [The conflict continues after setup],
+  [The boss begins with its Role trait and its Opening Specials available. Show a clear Tell.],
+  [Half],
+  [Shared Disposition is at or below the Half threshold],
+  [Reveal any remaining Specials. Show a clear change in tactics. The boss may call reinforcements under the normal rules and costs. A Leader's minions benefit from Command only while that Leader remains active; this phase grants no additional +1.],
+  [Desperate],
+  [Shared Disposition is at or below the Desperate threshold],
+  [Defend uses the boss's Weak rating. Its designated Best action gains +2 to its rating. If that action is Defend, use Weak +2. Show a desperate tactic, offer a deal or reveal an exit.],
+))
+
+#strong[Designated Best action.] This is the action assigned Best on the boss's card before phase adjustments. Do not choose a new Best action because current ratings are tied or another action has become higher.
+
+At Desperate, replace Defend's rating with Weak first, then apply the +2 if Defend is the designated Best action. Apply other relevant bonuses and penalties normally.
+
+#strong[Half reveals the remainder.] Every boss with one or more listed Specials gains access to its remaining Specials at Half. A boss with only one Special begins with no listed Specials available, but retains its normal actions, Role trait, Kind traits and any general Woe spends.
+
+==== Recovery and Reinforcements
+Recovery and reinforcements do not reverse an activated phase, allow it to activate again or change either threshold.
+
+Reinforcements add their Grit to both the side's current shared Disposition and its starting Disposition (§6.5). The increased starting value is the cap for Defend and other Disposition recovery. The recorded phase reference remains unchanged.
+
+Removing a participant does not, by itself, subtract its Grit or lower either Disposition value.
+
+==== Taking Out the Boss or Leader
+A Taken Out boss cannot activate a new phase or use phase benefits to act unless another rule explicitly permits it. Previously activated phases remain recorded; they do not restore the boss to participation.
+
+Command's minion-rating bonus and reduced script-change cost end when the Leader is Taken Out or otherwise leaves the conflict. Boss Phases do not reactivate Command.
+
+Last Stand does not activate a new phase at 0 Disposition. An active boss may use previously activated phase benefits during its side's Last Stand volley (§6.10).
+
+==== Continuing the Same Conflict
+Record a new phase reference only when a genuinely new conflict begins.
+
+Changing location, conflict type or tactics within the same unresolved struggle does not reset the reference, activated phases or Special availability. Carry them forward alongside shared Disposition and participation.
+
+==== Example: The Iron Marshal
+The Iron Marshal has Grit 8 and begins with a Raider Band contributing Grit 3. Their combined Disposition is 11. The PCs' 2 Superiority reduces it to 9.
+
+Record phase reference 9, Half 4 and Desperate 3.
+
+The Marshal has three listed Specials. The GM chooses Call for Help as her Opening Special. Hostage and Last Stand remain unavailable until Half. Command operates normally from Opening.
+
+At the end of a volley, the opposition has 4 shared Disposition and the Marshal remains active. Half activates: reveal Hostage and Last Stand. Command grants no additional +1.
+
+A reinforcement with Grit 3 later joins. Current Disposition rises from 4 to 7, and starting Disposition rises from 9 to 12. Defend can recover up to 12, but the phase reference stays 9 and the thresholds remain 4 and 3.
+
+A later volley leaves the side at 3 Disposition. Desperate activates. The Marshal's designated Best action is Defend: replace its +8 with Weak +3, then add +2, for Defend +5.
+
+Recovering above 3 does not reverse Desperate.
+
+If a later volley leaves her side at 0 while she remains active, the GM may spend 2 Woe on Last Stand. Her side receives one final volley, using her already activated phase benefits, then loses unless the result is mutual defeat.
 
 === 7.2 Example Exchange
 Party of three, P = 11. Opposition: Bounty Veteran (5), Knife in the Dark (3) and a Hound Pack (3), Threat 11: a Standard fight. Woe pool: 6.
@@ -370,8 +492,14 @@ Party of three, P = 11. Opposition: Bounty Veteran (5), Knife in the Dark (3) an
 == 8. Quick Checklist
 - Intent, stakes and exits set before any roll.
 - Threat budget near P. Mix at least two Roles.
-- Superiority applied. Ambush counted.
-- Three scripted actions per exchange, with no pattern.
-- One Tell per adversary, shown before its Best action.
+- All setup modifiers and Superiority applied. Ambush counted.
+- For a boss, phase reference and both thresholds recorded after setup.
+- Opening Specials chosen; remaining Specials marked for Half.
+- Three scripted actions per exchange, following rotation.
+- One Tell per adversary, shown before its designated Best action.
 - Woe tracked and spent each exchange.
+- After each volley, removal, victory and mutual defeat checked before new phases.
+- Activated phases retained through recovery, reinforcements and changes within the same conflict.
+- Command ends when its Leader stops participating.
 - Concession offered near one third of the side's starting shared Disposition.
+- If Last Stand activates, resolve one additional volley, then settle defeat or mutual defeat.

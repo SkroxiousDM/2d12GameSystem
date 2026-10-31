@@ -283,7 +283,7 @@
         align(center, box(width: 22pt, wbox(h: 12pt)))))
     }
     v(3pt)
-    note[*At creation:* 1 free ability (plus your Tier 1 Focus ability); up to 2 more for 1 Refresh each. *★ Major* costs 1 Refresh whenever taken. *Veteran* (6 Advances): another playbook's ability, +1 Refresh. *◆ Capstone:* 12 Advances and 4+ abilities from this playbook; no Refresh; one per character.]
+    note[*Creation:* first playbook ability has no extra-slot cost; ★ Major still costs 1 Refresh. Tier 1 Focus is free. Up to 2 extra playbook abilities: ordinary 1 Refresh each, ★ Major 2 Refresh total each. Minimum Refresh 1. *Advancement:* new ability costs an Advance; ★ adds 1 Refresh. *Veteran* (after 6 Advances): another playbook's ability, +1 Refresh in addition to any ★ cost. *◆ Capstone:* 12 Advances and 4+ abilities from this playbook; no Refresh; one per character.]
     v(2pt)
     wline(label: [XP trigger])
 

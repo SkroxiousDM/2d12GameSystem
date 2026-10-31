@@ -2,11 +2,13 @@
 
 Date: 2026-10-29. Source: `docs/design/rules-audit.md`, Phase 1 (rules decisions). All rulings are by the designer. Items marked **Playtest** are deferred to the post-audit playtest.
 
+Reconciliation: This document includes subsequent designer rulings implemented on `boss-phases-fixed-thresholds`. Superseded instructions are identified below. Implementation status is tracked separately in `rules-audit-phase1-implementation.md`; a recorded ruling does not imply that all references, builds or playtests have been verified.
+
 ## 1. Starting Disposition formula (P2, H1, H2, M1)
 
 - Use the Section 10.2 formula: (2d12 + Disposition skill + highest Edge) / 3, round down, then +1 per helper and all flat modifiers at full value.
 - Typical band: 8-11. P scales with this band; exact P, Grit and Encounter Budget constants are set in Phase 4.
-- The changelog entry of 2026-10-18 ("halve twice") is superseded and must be rewritten.
+- The 2026-10-18 changelog's double-halving formula is superseded. Preserve that entry as history, label the superseded formula explicitly and record the current formula under Unreleased.
 - Verify by playtest after the audit.
 
 ## 2. Floor and cap on stacked flat modifiers (D1, E2)
@@ -14,8 +16,8 @@ Date: 2026-10-29. Source: `docs/design/rules-audit.md`, Phase 1 (rules decisions
 - No cap on stacked flat modifiers.
 - Negative flat modifiers cannot reduce starting Disposition below 1.
 - Only Superiority (10.3) can reduce starting Disposition to 0. A start of 0 from Superiority hand-waves the conflict as a win at no cost (the "none or trivial" row of 10.12).
-- Edit required: 10.3 currently says "to a minimum of 1".
-- **Playtest:** Rider +7 in a Chase against vampires; whether PCs and opposition need symmetric floors; whether the opposition may claim the hand-wave against PCs (a PC side is not expected to start at 0).
+- Implemented in Core Rules §§10.2–10.3 and the Quick Reference: apply all flat modifiers, enforce minimum 1, then apply Superiority, which alone may reduce starting Disposition to 0.
+- **Playtest/review:** Rider +7 in a Chase against vampires; whether PCs and opposition need symmetric floors; whether the opposition may claim the automatic setup win against PCs; and simultaneous reduction of both sides to 0 at setup. No automatic-win tie ruling is selected here.
 
 ## 3. Remove the per-member Disposition model (M2)
 
@@ -27,12 +29,18 @@ Date: 2026-10-29. Source: `docs/design/rules-audit.md`, Phase 1 (rules decisions
 
 ## 4. Killing strike (B5, M4, C6, P10)
 
-- Difficulty scales with the target's Rank: 15 / 18 / 21 / 24.
-- Beheading uses a separate difficulty by the target's negative-status tier: tier 5 = 15, tier 4 = 18, tier 3 = 21, tier 2 = 24, tier 1 = 27, no negative status = 30.
-- Failure: a significant complication that can be bought off for 2 Woe.
-- Fire kills only at tier 5 ("broken").
-- Staking (C7) remains a special case.
-- A target at tier 6 is resolved by Scar and Dying (10.14), with no killing-strike roll.
+The revised procedure implemented in commits `09ae687`, `b2ec517` and `2aa4f5d` supersedes the earlier Rank difficulties 15/18/21/24 and separate beheading status-tier Difficulty table.
+
+- Base Difficulty by vampire Rank: Minor 18, Established 21, Great 27, Paramount 30.
+- Reduce Difficulty by 3 per tier of the target's highest negative status. Use only the highest tier; do not add different statuses together. There is no minimum Difficulty.
+- Apply eligible ability reductions in addition to the highest-status reduction. Each one-step reduction lowers Difficulty by 3.
+- A successful killing strike destroys the named vampire.
+- Failure brings a significant complication. Players may give the GM 2 Woe to buy off that complication. Buying it off does not make the strike succeed, and failure does not automatically impose a Significant compromise.
+- Resolve the established conflict outcome and compromise separately. Reaching 0 shared Disposition does not itself inflict physical harm or destroy a vampire.
+- Beheading uses the common killing-strike procedure, with an eligible blade or sufficient strength. There is no separate status-tier Difficulty table or tier-4+ status prerequisite.
+- Sustained fire requires a vampire broken at physical status tier 5; fire destroys a husk at once.
+- Staking remains a separate procedure. Killing-strike ability reductions do not apply to staking unless an ability explicitly permits them.
+- **Verification still required:** reconcile tier-6 handling with the implemented creature-specific rules and core Scar/Dying procedures. The earlier blanket tier-6 summary is not treated as a verified replacement for those procedures.
 
 ## 5. Create baseline cost (B1, C12, D2, E1, G5)
 
@@ -44,10 +52,14 @@ Date: 2026-10-29. Source: `docs/design/rules-audit.md`, Phase 1 (rules decisions
 
 ## 6. Recovery vocabulary (F2, C2, D11, C3, G2)
 
-- Replace all legacy "short rest" and "1 + Edge" text with pool recovery as defined in 6.5 (Edge does not apply).
-- Bled is an injury. Its penalties follow the "plus or minus tier" rule or are marked as exceptions.
-- Bled-5 and Bled-6 death rules are reworked to align with the core Dying clock; any difference is an explicit replacement (A3).
-- **Playtest:** whether Restore-cost abilities (Field Medic, Field Surgeon) lift the 1-tier limit on lasting injuries. Until then the limit is unchanged.
+- Pool recovery follows Core Rules §6.5; Edge does not apply. Sweep active sources for obsolete "short rest" and "1 + Edge" formulas. Inspect Module B's Grind wording before changing any setting or module exception.
+- Bled is a physical injury. Its listed penalties and natural-recovery intervals are explicit exceptions, not additional penalties applied alongside the ordinary status-tier penalty.
+- Bled-4/5 impose −4/−5 on Sōma and Mētis rolls. Unrelated harm does not automatically Take Out a Bled-4 character.
+- Bled-5 has no scene-end death deadline. Bled reaching tier 6 causes Taken Out and a Scar; when lethal stakes permit, use the core three-segment Dying clock rather than immediate death.
+- Transfusion retains Standard 15, one Bled tier removed per Power and donor Bled-1. It explicitly bypasses the ordinary one-tier treatment limit and treated restriction.
+- Suitable transfusion can provide definitive care at Bled-6. Clear the Dying clock when Bled drops below 6 and the immediate lethal cause ends. Transfusion does not refill pools or remove Scars.
+- Related ability and character-sheet integrations are recorded in the implementation tracker. Remaining reference sweeps, sheet assembly and layout verification are not complete.
+- **Playtest:** whether Field Medic and Field Surgeon lift the one-tier limit on lasting injuries. Until then, the limit remains unchanged for those abilities.
 
 ## 7. Refresh cost of a star ability as a creation extra (G1)
 
@@ -67,7 +79,49 @@ Date: 2026-10-29. Source: `docs/design/rules-audit.md`, Phase 1 (rules decisions
 - Module D.6a is made generic and stays in core.
 - Generic playbooks are not used in the Frontier: the 6 generic playbooks are reskinned for the Frontier setting.
 - Walks Between Worlds is not allowed in the Frontier.
-- Descriptor collisions (Reckless, Cunning): rename the setting descriptors; core keeps its names.
+- Setting Descriptor Cunning is renamed Scheming; setting Reckless is renamed Headlong. Core retains its generic Descriptor names. The setting headings and reference table are updated; remaining current-facing reference and layout checks are separate work.
+
+## 10. Boss phases, Command and Last Stand
+
+Recorded from the designer's subsequent rulings and implemented on `boss-phases-fixed-thresholds`.
+
+- Use the boss side's final starting shared Disposition after all setup modifiers and Superiority as a fixed phase reference.
+- Half is half that reference, rounded down. Desperate is one third, rounded down.
+- Resolve the volley's actions and check removal, victory and mutual defeat before activating phases. A defeated side does not activate a new phase.
+- Each phase activates once per conflict. If both thresholds are reached in the same check, activate Half before Desperate.
+- Listed Specials follow this Opening/Half schedule:
+
+  | Listed Specials | Available at Opening | Revealed at Half |
+  |---|---:|---:|
+  | 1 | 0 | 1 |
+  | 2 | 1 | 1 |
+  | 3 | 1 | 2 |
+  | 4 | 2 | 2 |
+
+- Revealing a Special makes it available, not free. Its costs, requirements, timing and use limits remain.
+- Role traits, Kind traits and general Woe spends outside the Special allowance remain available normally.
+- At Desperate, Defend uses Weak. The designated Best action gains +2; if that action is Defend, use Weak +2.
+- Command applies only while its Leader remains an active participant. Half grants no additional Command bonus.
+- Reinforcements increase both current and starting shared Disposition by their Grit. The increased starting value is the recovery cap; the phase reference and thresholds do not change.
+- Recovery and reinforcements do not reverse phases, refresh them or hide revealed Specials.
+- Last Stand costs 2 Woe and postpones defeat at 0 shared Disposition for exactly one additional volley. Both sides participate under the normal scripting and rotation rules.
+- Last Stand can extend a side only once per conflict; multiple bearers do not stack or chain it. It does not restore Disposition, waive incapacitation or activate new phases. Resolve defeat or mutual defeat after the additional volley.
+- **Still open:** Quick Reference reconciliation, compilation, layout checks and playtesting. Fail-safe timing and source implementation are recorded in §11.
+
+## 11. Fail-safe final-defeat timing
+
+Status: timing model approved by the designer and implemented in `954b71e` on `boss-phases-fixed-thresholds`. The Guardian Special row and Adversaries §6.11 are updated. The source commit diff was checked: only that row and the new procedure changed. This does not claim reference reconciliation, compilation, layout or playtest verification.
+
+- Fail-safe remains a defeat-triggered compromise effect, not an extra action or another Last Stand. It costs 3 Woe and must already be revealed and available.
+- After all actions in the volley resolve, check removal, victory and mutual defeat. An active Guardian may activate Fail-safe when its side's defeat at 0 shared Disposition becomes final, before compromise is settled.
+- A Taken Out Guardian or one otherwise removed from participation cannot activate it. Reaching 0 shared Disposition does not itself remove the Guardian.
+- If Last Stand postpones defeat, defer Fail-safe until the additional volley ends. The Guardian must still be active and have the Special available then.
+- Establish the blast's reach from the Guardian's position and the fiction. Each PC within reach receives burned-3 as an additional compromise injury assigned to that character. Preserve the existing PC-only targeting; no broader NPC or bystander effect is selected here.
+- Add these injuries before crediting existing injuries and resolving Resistance under Core Rules §10.12. Existing injuries count once, and imposed compromise injuries may be Resisted normally. Do not add a replacement cost because Resistance removes an injury.
+- Fail-safe removes no shared Disposition, restores none, grants no action or additional volley, and does not reopen a settled outcome or turn the Guardian's side's defeat into a victory.
+- It does not trigger on a setup win from Superiority, an accepted concession, mutual defeat, or defeat solely because no participant can continue.
+- The detonation destroys the Guardian.
+- **Remaining closeout:** changelog and boss-phase design-summary reconciliation, Quick Reference coverage, broader reference checks, compilation, layout and playtesting. Updating this decision record and the implementation tracker does not complete those tasks.
 
 ## Follow-on edits
 

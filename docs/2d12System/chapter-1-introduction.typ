@@ -10,14 +10,14 @@
 #columns(2, gutter: 5mm)[
 == About This Book
 
-This core rulebook holds the complete, setting-neutral rules of the 2d12 System: the engine, six optional modules, and generic Descriptors, Playbooks and Focuses that work in any genre.
+This core rulebook holds the complete, setting-neutral rules of the 2d12 System: the engine, six optional modules, generic adversary-building and conflict procedures, and generic Descriptors, Playbooks and Focuses. Settings determine which character options are available and supply their own creatures, dangers and exceptions.
 
 #figure(table(columns: (10%, 20%, 70%),
   table.header([Ch.], [Chapter], [Contents]),
   [I], [Introduction], [Terminology, renamed stats, notation, settings],
   [II], [Core Rules], [The 2d12 roll, character creation, Tychē Points, Effects, Resistance and recovery, clocks, Truths, Momentum and Woe, the conflict system, playbooks, advancement],
   [III], [Optional Modules], [Module A Cyphers & Artifacts · Module B The Grind & Travel · Module C Truth-Driven Sandbox · Module D Downtime · Module E Factions · Module F Inquiry & Revelation],
-  [IV], [Adversaries], [GM rules for adversaries and opposition],
+  [IV], [Adversaries], [GM rules for building and running opposition: Rank, Kind, Roles, encounter budgets, shared Disposition, Boss Phases, Last Stand and Fail-safe],
   [V], [Generic Descriptors], [Descriptor rules and 24 setting-neutral Descriptors, six per pool],
   [VI], [Generic Playbooks], [Playbook and equipment rules; Bellator, Furcifer, Savant, Interlocutor, Explorator, Adept],
   [VII], [Generic Focuses], [Focus rules and 24 setting-neutral Focuses],
@@ -34,7 +34,7 @@ When a rule here mentions another chapter, it uses that chapter's name and secti
 - *Difficulty* is written by name and target, such as *Standard 15* or *Hard 18*.
 
 #sidebar("Settings")[
-  The 2d12 System has no setting of its own. A setting book adds Campaign Truths, a skill list, its own Descriptors, Playbooks and Focuses, and special rules for its creatures and dangers. Where a setting rule and a general rule conflict, the setting rule wins. The first setting is #emph[Testament of Dust], a post-apocalyptic frontier gothic.
+  The 2d12 System has no setting of its own. A setting book adds Campaign Truths, a skill list, its own Descriptors, Playbooks and Focuses, and special rules for its creatures and dangers. Where a setting rule and a general rule conflict, the setting rule wins. The core Adversaries chapter supplies the shared construction and running procedures. Setting books supply additional Kind packages, creature-specific exceptions and setting-specific example cards. A setting may replace generic character options or exclude options that do not fit its world. The first setting is #emph[Testament of Dust], a post-apocalyptic frontier gothic.
 ]
  #colbreak() 
 == Terminology and Renamed Stats

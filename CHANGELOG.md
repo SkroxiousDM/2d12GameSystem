@@ -6,6 +6,38 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Fixed — Reference-sweep contradictions (2026-10-31)
+- Core Rules §14.1 design notes now describe the current Disposition setup formula and modifier ordering instead of prescribing the superseded double-halving model. Adjacent Attack/Feint and Superiority notes no longer use the approximately-6 starting track as the current baseline. Earlier simulation figures are retained as historical results; numerical recalibration and fight reruns remain deferred to Phase 4.
+- Frontier Rules §15 design notes now describe Bled-6 as Taken Out and a Scar, with the core three-segment Dying clock when lethal stakes permit, rather than immediate death. The note also identifies Bled's existing penalty, recovery and transfusion exceptions and distinguishes the Thirst's separate rules. The underlying Frontier procedures are unchanged.
+- Heals the Broken, Tier 3b: Physician's Care now reads, “Allies you treat during a rest recover all pool points.” Replaced the undefined “short rest” trigger and obsolete “1 + Edge” comparison with the designer-selected wording. No additional treatment restrictions, status healing, Scar removal or rest-cycle reset were added.
+- Source corrections implemented in `fe510ba`. The commit diff was verified: five lines replaced across three files, with no unrelated changes.
+- These fixes resolve three identified active-source contradictions, not the broader reference sweep or Phase 1. No Typst compilation, PDF rebuild, layout check, numerical recalibration or playtest validation is claimed.
+
+### Clarified — Major-ability acquisition prices (2026-10-31)
+- Core Rules §4.1, the compact §11 Playbooks summary and the Frontier Playbooks overview now explicitly distinguish the first playbook ability's additional-slot exemption from the Major surcharge, and state that a Major creation extra costs 2 Refresh total (`0f5f93a`).
+- The setting introduction's Major notation and character-sheet Playbook Abilities reminder now state the same totals and preserve the separate veteran surcharge (`ad7e9e5`). Ordinary creation extras cost 1 Refresh; a first Major playbook ability costs 1 Refresh; minimum Refresh remains 1.
+- Own-playbook advancement Majors still cost an Advance and 1 Refresh; veteran Majors cost an Advance and 2 Refresh total. Focus prices and tier access, capstone requirements, artifact costs and ability effects are unchanged.
+- Phase 1 implementation tracking records these five scoped wording fixes as complete in source, not an exhaustive reference sweep or Phase 1 closure. Historical playtest arithmetic is preserved; superseded ruling R2 is not reinstated.
+- Both source commit diffs were reviewed. No Typst compilation, PDF rebuild, character-sheet layout check or playtest validation is claimed; the longer sheet reminder still needs build and layout verification.
+
+### Changed — Boss phases and one-volley Last Stand (2026-10-30)
+- Adversaries §7.1 uses fixed thresholds based on the side's final starting shared Disposition after setup modifiers and Superiority. Half and Desperate are rounded down; phase checks follow volley resolution and defeat checks.
+- Boss Special availability now follows the Opening/Half schedule: 1 Special = 0/1; 2 = 1/1; 3 = 1/2; 4 = 2/2. Reveals do not waive costs or restrictions.
+- Desperate uses Weak for Defend and adds +2 to the designated Best action. A Defend-best boss therefore uses Weak +2.
+- Command ends when its Leader stops participating; Half grants no additional Command bonus.
+- Reinforcements increase current and starting shared Disposition, raising the recovery cap without changing phase references or reversing activated phases.
+- Last Stand grants one additional volley at 0 shared Disposition for 2 Woe, once per side per conflict, without stacking or restoring Disposition.
+- Added the Iron Marshal worked example and supporting setup, checklist and conflict-resolution edits (`9c89972`, `c07ea90`).
+- Restored Hedge Adept Guard +1 after a transcription error (`7dfc168`).
+- Source integration is complete on `boss-phases-fixed-thresholds`; Fail-safe review, Quick Reference reconciliation, compilation, PDF rebuilding, layout checks and playtesting remain outstanding.
+
+### Documentation — Phase 1 decision reconciliation (2026-10-30)
+- Reconciled the controlling decisions with the implemented Rank/status killing-strike procedure, Bled and transfusion rules, selected setting Descriptor names, boss phases and Last Stand (`2ac0a32`).
+- Recorded the current starting-Disposition formula: roll / 3 rounded down, then helpers and flat modifiers at full value; minimum 1 before Superiority. This supersedes the 2026-10-18 double-halving formula.
+- Recorded Superiority's ability to reduce starting Disposition to 0. PC/opposition symmetry, opposition eligibility and simultaneous-zero setup remain unresolved.
+- Marked the boss-phase design draft as integrated and amended on the review branch.
+- This documentation pass does not complete the active-source sweep, setting-neutrality work, build verification, numerical recalibration or playtesting.
+
 ### Changed — Bled, recovery abilities and split character sheet (2026-10-30)
 - **Frontier Rules §6:** Bled is a physical injury with explicit penalty and natural-recovery exceptions. Bled-4/5 impose −4/−5 on Sōma and Mētis rolls; tier 4 no longer makes unrelated harm automatically Take you Out. Only Bled-6 uses core Dying, subject to lethal stakes, with a three-segment clock and a Scar instead of immediate death; the tier-5 scene-end death deadline is removed (commit `bf4a32b`).
 - **Transfusion:** retains Standard 15, one tier removed per Power and donor Bled-1; explicitly bypasses the ordinary one-tier treatment limit and treated restriction. Suitable transfusion can provide definitive care at Bled-6. Clear the Dying clock when Bled drops below 6 and its immediate lethal cause ends; no pool refill or Scar removal.
@@ -59,11 +91,15 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 - Markdown editions and character-sheet header updated to point at the new files.
 
 ### Added — Superiority (2026-10-18)
+Historical entry: the minimum-1 restriction on Superiority is superseded by the Phase 1 ruling recorded above. The original implementation description below is retained as history.
+
 - **New Core Rules §10.3 Superiority:** gain 1 Superiority each for Know Thy Foe, Know Thy Battlefield and Know Thy Players (maximum 3). After starting Disposition and all other modifiers, reduce the opposing side's starting Disposition by your Superiority, to a minimum of 1. The adjusted value counts as starting Disposition for recovery and compromise. Not tracked or spent once the conflict begins.
 - Setup (§10.2) gains a Superiority step; Order of Resolution, Quick Reference and Known Risks updated.
 - Core conflict sections §10.3--10.14 renumbered to §10.4--10.15, with all core cross-references updated. Frontier Rules §10.3--10.5 references are unchanged.
 
 ### Changed — Shared Disposition (2026-10-18)
+Historical entry: the double-halving formula, flat-modifier ordering and injury-trade version of Interpose below are superseded by the current Phase 1 rules. The shared-side Disposition principle remains; consult current Core Rules for its procedure.
+
 - **Starting Disposition halved (§10.2):** after the usual roll, halving and helpers, halve the total again (round up). Typical range is now 4--7 instead of 7--12; §10.14 and Known Risks updated to match.
 - **Flat starting bonuses before the second halving (§10.2):** flat bonuses and penalties to starting Disposition (abilities, vampire rank, conditions) are added before the final halving, so they keep roughly their old weight. Minimum starting Disposition is 1.
 - **New Core Rules §10.6 Shared Disposition:** each side has one Disposition total, not divided among participants. Attacks and Feints reduce the opposing side's total; Defend restores your side's. Ordinary loss doesn't inflict statuses, drain Pools or remove individuals. A side loses at 0 or when none of its participants can continue. One injury trade per Attack or Feint.

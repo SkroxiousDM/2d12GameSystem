@@ -52,7 +52,11 @@ The revised procedure implemented in commits `09ae687`, `b2ec517` and `2aa4f5d` 
 
 ## 6. Recovery vocabulary (F2, C2, D11, C3, G2)
 
-- Pool recovery follows Core Rules §6.5; Edge does not apply. Sweep active sources for obsolete "short rest" and "1 + Edge" formulas. Inspect Module B's Grind wording before changing any setting or module exception.
+- Pool recovery follows Core Rules §6.5; Edge does not apply.
+- Subsequent designer ruling: a short rest means completing any one of the first, second or third rests in the successive recovery cycle. Short-rest recovery restrictions apply to all three stages. Ability benefits triggered by a short rest also trigger on completing any of those stages, subject to their stated requirements and frequency limits.
+- Subsequent designer ruling: a full rest means completing the fourth rest. Full-rest ability benefits trigger on that completion. These definitions do not add rest stages, alter their durations or reset the successive rest cycle. Implemented in `3fe0680`.
+- Mutant Regeneration and Mother's Blood restore a flat 2 Sōma, without Edge (`281e38a`). Their other benefits and restrictions remain unchanged. Module B's recovery-layer and treatment-limit reminders are implemented in `bd227c6`.
+- Remaining reference work: check active recovery wording and formulas against these selected procedures. “Short rest” and “full rest” are now defined terms, not inherently obsolete wording. Preserve explicit exceptions and distinguish pool restoration from status healing.
 - Bled is a physical injury. Its listed penalties and natural-recovery intervals are explicit exceptions, not additional penalties applied alongside the ordinary status-tier penalty.
 - Bled-4/5 impose −4/−5 on Sōma and Mētis rolls. Unrelated harm does not automatically Take Out a Bled-4 character.
 - Bled-5 has no scene-end death deadline. Bled reaching tier 6 causes Taken Out and a Scar; when lethal stakes permit, use the core three-segment Dying clock rather than immediate death.
@@ -106,22 +110,22 @@ Recorded from the designer's subsequent rulings and implemented on `boss-phases-
 - Recovery and reinforcements do not reverse phases, refresh them or hide revealed Specials.
 - Last Stand costs 2 Woe and postpones defeat at 0 shared Disposition for exactly one additional volley. Both sides participate under the normal scripting and rotation rules.
 - Last Stand can extend a side only once per conflict; multiple bearers do not stack or chain it. It does not restore Disposition, waive incapacitation or activate new phases. Resolve defeat or mutual defeat after the additional volley.
-- **Still open:** Quick Reference reconciliation, compilation, layout checks and playtesting. Fail-safe timing and source implementation are recorded in §11.
+- **Source-summary status:** scoped Quick Reference coverage of boss phases, Last Stand and Fail-safe is implemented in `a89ec97`. Broader reference checks, compilation, PDF rebuilding, layout verification and playtesting remain outstanding. Fail-safe timing and source implementation are recorded in §11.
 
 ## 11. Fail-safe final-defeat timing
 
-Status: timing model approved by the designer and implemented in `954b71e` on `boss-phases-fixed-thresholds`. The Guardian Special row and Adversaries §6.11 are updated. The source commit diff was checked: only that row and the new procedure changed. This does not claim reference reconciliation, compilation, layout or playtest verification.
+Status: timing model approved by the designer and implemented in `954b71e` on `boss-phases-fixed-thresholds`. The Guardian Special row and Adversaries §6.11 are updated. The source commit diff was checked: only that row and the new procedure changed. Scoped Quick Reference coverage was subsequently added in `a89ec97`. These completions do not establish exhaustive reference clearance, compilation, layout or playtest verification.
 
 - Fail-safe remains a defeat-triggered compromise effect, not an extra action or another Last Stand. It costs 3 Woe and must already be revealed and available.
 - After all actions in the volley resolve, check removal, victory and mutual defeat. An active Guardian may activate Fail-safe when its side's defeat at 0 shared Disposition becomes final, before compromise is settled.
 - A Taken Out Guardian or one otherwise removed from participation cannot activate it. Reaching 0 shared Disposition does not itself remove the Guardian.
-- If Last Stand postpones defeat, defer Fail-safe until the additional volley ends. The Guardian must still be active and have the Special available then.
+- If Last Stand postpones defeat, defer Fail-safe until the additional volley ends. The Guardian must still be active and have Fail-safe available then.
 - Establish the blast's reach from the Guardian's position and the fiction. Each PC within reach receives burned-3 as an additional compromise injury assigned to that character. Preserve the existing PC-only targeting; no broader NPC or bystander effect is selected here.
 - Add these injuries before crediting existing injuries and resolving Resistance under Core Rules §10.12. Existing injuries count once, and imposed compromise injuries may be Resisted normally. Do not add a replacement cost because Resistance removes an injury.
-- Fail-safe removes no shared Disposition, restores none, grants no action or additional volley, and does not reopen a settled outcome or turn the Guardian's side's defeat into a victory.
+- Fail-safe removes no shared Disposition, restores none, grants no action or additional volley, and does not reopen a settled conflict outcome or turn the Guardian's side's defeat into a victory.
 - It does not trigger on a setup win from Superiority, an accepted concession, mutual defeat, or defeat solely because no participant can continue.
 - The detonation destroys the Guardian.
-- **Remaining closeout:** changelog and boss-phase design-summary reconciliation, Quick Reference coverage, broader reference checks, compilation, layout and playtesting. Updating this decision record and the implementation tracker does not complete those tasks.
+- **Remaining closeout:** changelog and boss-phase design-summary reconciliation, broader reference checks, compilation, PDF rebuilding, layout and playtesting. Scoped Quick Reference source coverage is complete; its rendered layout remains unverified. Updating this decision record and the implementation tracker does not complete those tasks.
 
 ## Follow-on edits
 

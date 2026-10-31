@@ -269,7 +269,9 @@ Under the #strong[Day] Truth, in direct sunlight, the afflicted gain #strong[#em
 - While Sun-Sick is at tier 1+, abilities and rules that heal the afflicted (vampire recovery, #emph[Mother's Blood], #emph[Dhampir Regeneration]) don't work.
 - A vampire at Sun-Sick 4+ also gains #emph[burning-1] each scene in the sun.
 - #strong[Recovery:] a full scene in shade or darkness lowers Sun-Sick by 2 tiers. At night it clears completely.
-- #strong[Tier 6:] collapse. Taken Out until carried into shade. A dhampir left for a whole day gains a Sōma Scar. A vampire left in direct sun for a full day is destroyed.
+- #strong[Normal cap:] Sun-Sick cannot rise above tier 5 through ordinary gains or stacking. Only full-day exposure, below, advances it to tier 6.
+- #strong[Tier 5:] collapse. Taken Out until carried into shade.
+- #strong[Full-day exposure:] a dhampir at Sun-Sick 5 who is left in the sun for a full day advances to #strong[Sun-Sick 6] and gains a Sōma Scar. A vampire at Sun-Sick 5 who is left in direct sun for a full day advances to #strong[Sun-Sick 6] and is destroyed as a killing blow; do not start a Dying clock.
 
 === 7.2 The Thirst
 Dhampirs have a #strong[Thirst] status, tier 0--6. It doesn't penalise rolls until tier 3. A dhampir has no weekly need for blood; the Thirst rises only from what happens to them.

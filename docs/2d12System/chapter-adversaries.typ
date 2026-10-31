@@ -178,7 +178,7 @@ Pick Specials from the Kind menu up to the Rank limit. Price a new one:
   [Self-Repair], [1], [Restore 2 of its side's shared Disposition (up to the side's starting value) or 2 tiers of physical status.],
   [Lockdown], [2], [Create the Truth Sealed Doors.],
   [Shock Field], [1], [A PC who loses a versus roll to it in melee adds jolted-2 to their compromise.],
-  [Fail-safe], [3], [At 0 Disposition it blows up: every PC within reach adds burned-3 to their compromise.],
+  [Fail-safe], [3], [When its side's defeat at 0 shared Disposition becomes final, an active Guardian with this Special available may detonate. Each PC within the blast's established reach adds burned-3 as an additional compromise injury. Resolve under §6.11.],
   [Calls the Works], [2], [Another guardian arrives.],
 ))
 
@@ -298,6 +298,25 @@ Resolve explicit statuses, hazards and other effects normally. Last Stand does n
 #strong[End the conflict.] After the additional volley, the side using Last Stand loses. If the opposing side is also defeated by then, resolve mutual defeat normally. Otherwise settle the winner's intent and compromise using the final state of the conflict.
 
 Last Stand can extend a side's participation only once per conflict. Multiple bearers do not stack, refresh or chain additional Last Stand volleys.
+
+=== 6.11 Fail-safe
+Fail-safe is a defeat-triggered Special, not a scripted action. It costs 3 Woe and must already be available.
+
+#strong[Trigger.] Resolve all actions in the volley and check removal, victory and mutual defeat normally. When the Guardian's side loses at 0 shared Disposition, an active Guardian with Fail-safe available may detonate before compromise is settled.
+
+The Guardian must remain an active participant when it activates Fail-safe. Being Taken Out or otherwise removed prevents activation. Reaching 0 shared Disposition does not, by itself, remove it.
+
+#strong[Last Stand.] If Last Stand postpones defeat, defer Fail-safe until the additional volley ends. The Guardian must still be active and have Fail-safe available at that time. Fail-safe grants no further volley and does not restore Disposition.
+
+#strong[Blast.] Establish the blast's reach from the Guardian's position and the fiction. Each PC within that reach adds #emph[burned-3] as an additional compromise injury assigned to that character.
+
+This is an explicit Special effect, not an ordinary Attack. It removes no shared Disposition and grants no additional scripted action.
+
+#strong[Settlement.] Add these injuries before crediting existing injuries and resolving Resistance under Core Rules §10.12. Existing injuries count once, and imposed compromise injuries may be Resisted normally. Do not add a replacement cost because Resistance removes an injury.
+
+#strong[Limits.] Fail-safe does not trigger when Superiority resolves the conflict at setup, when an accepted concession ends it, when the side loses solely because no participant can continue, or on mutual defeat. It does not reopen a settled outcome or turn the Guardian's side's defeat into a victory.
+
+The detonation destroys the Guardian.
 #colbreak()
 == 7. Templates
 Seven generic cards. Reskin freely. Ratings follow the Rank table.

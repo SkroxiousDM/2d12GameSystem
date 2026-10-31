@@ -58,7 +58,7 @@ Implement the recorded rulings in current core and Testament of Dust Typst sourc
 
 - Commit `d44c38e`: `docs/2d12System/chapter-3-module-d-downtime.typ` makes D.4 Connect cross-reference D.6a. The D.6a contact Truth bullet describes a relationship with a named person, requires stating what it makes possible and whom it concerns, and says it does not by itself grant a reputation tag or change faction Standing.
 - Commit `d4fdb5f`: D.6a now explains reputation tags without a Frontier milestone dependency, applies tag-cap exceptions only within an ability's stated scope, and uses the generic Bellator capstone *Legend of the Field* as its Campaign Truth example in place of setting-specific names. The contact Truth clarification is retained.
-- D.6a's setting-neutrality revision is complete in source and recorded in the changelog. Other setting-neutrality work remains pending, including moving vampire-specific Adversaries content, Frontier reskin and Walks Between Worlds statements, and current-facing reference sweeps. No new reputation-award procedure, duration, rank, discount or guaranteed service is introduced; deferred Truth-layer questions remain unresolved.
+- D.6a's setting-neutrality revision is complete in source and recorded in the changelog. Frontier opposition relocation, playbook replacement statements and the Walks Between Worlds exclusion were subsequently implemented on `boss-phases-fixed-thresholds`; see the verified implementation-history entry below. Remaining current-facing reference sweeps and build checks are separate work. No new reputation-award procedure, duration, rank, discount or guaranteed service is introduced; deferred Truth-layer questions remain unresolved.
 - No Typst compilation, PDF rebuild, layout check or playtest verification is claimed.
 
 ## Recovery and Bled integration on review branch
@@ -107,6 +107,18 @@ Implement the recorded rulings in current core and Testament of Dust Typst sourc
 - The commit diff was verified: exactly five lines replaced across the three files, with no unrelated changes. These three identified contradictions are resolved in source; this does not complete the broader reference sweep or Phase 1.
 - Remaining work includes other recovery and Create references, Quick Reference coverage, navigation references and audit-status reconciliation identified by the sweep. Typst compilation, PDF rebuilding, layout checks, numerical recalibration and playtesting were not performed.
 
+## Verified relocation and subsequent reference reconciliation
+
+- Frontier opposition was staged in `46fca4d`, connected after setting §15 in `c0361c0`, and removed from core Adversaries in `9108fd8`. The include connection and current core/setting division were inspected; these are completed source integrations, not pending relocation tasks.
+- Commit `91a0abd` states the six Frontier playbook replacements and excludes Walks Between Worlds. Follow-up `b296a12` restores unrelated Focus suitability entries changed in that commit. Commit `a53341e` aligns both introductions with the opposition and option policy. Preserve the corrected suitability entries.
+- Commit `f4cc313` marks the shared-Disposition consolidation record historical and superseded in part, preserving its original procedures and simulation results.
+- Commit `a89ec97` adds core Quick Reference coverage of boss phases, Last Stand and Fail-safe and the Last Stand exception to defeat at 0.
+- Commit `1b96bd4` adds killing-strike and staking summaries to the Frontier sheet and Quick Reference, reconciles the core setting-specific-harm and Dying reminders, and corrects the sheet's Frontier Rules chapter label to Chapter II.
+- Commit `e247e22` implements the selected Sun-Sick normal cap at tier 5, collapse at tier 5 and full-day progression to tier 6. Commit `f381a2b` reconciles the dhampir character-sheet reminder. The previously identified Sun-Sick Scar ambiguity now has a selected source rule.
+- Commit `73c48c2` corrects repository README sheet links and edition/build-status descriptions, records completed Legacy retirement documentation in the drafts README, and updates the Frontier Opposition include comment. No mechanics or historical draft body were changed.
+- Commit `a128ec9` clarifies Adversaries §6.3's Create shorthand as 2 Power per rank with a cross-reference to Core Rules §5 and updates the setting appendix contents description to include killing strikes and staking. Only those two lines changed.
+- These scoped source changes and their inspected diffs do not complete the exhaustive reference sweep, compilation, PDF rebuilding, layout checks or playtest validation. Changelog, controlling-decision and design-summary reconciliation remain separate where not yet updated.
+
 ## Remaining implementation by decision
 
 The entries below distinguish completed source integrations from remaining reference checks and documentation reconciliation. Source completion does not imply compilation, layout verification, playtest validation or Phase 1 closure.
@@ -124,25 +136,28 @@ The entries below distinguish completed source integrations from remaining refer
 3. Shared Disposition, Area Rule and adversary procedures
    - Complete in scope: the core shared-side model, provisional Area Rule, Interpose and scoped Adversaries corrections are integrated. Leader eligibility, fixed boss-phase thresholds and Last Stand are implemented in `9c89972` and `c07ea90`; Fail-safe timing and source implementation are complete in `954b71e`.
    - Remaining: sweep active rules, abilities, Specials, examples and summaries for personal Disposition shares, splash, spill-over, participant-removal subtraction and unsupported Disposition-transfer wording. Ordinary shared Disposition loss must not itself inflict individual harm or remove a participant.
-   - Summary reconciliation: add or verify Quick Reference coverage of boss phases, Last Stand and Fail-safe, including the Last Stand exception to defeat at 0. Check that phase references remain fixed through recovery and reinforcements and that defeated sides do not activate new phases.
+   - Complete in scoped summary coverage: `a89ec97` adds boss phases, Last Stand and Fail-safe to the core Quick Reference, including the Last Stand exception to defeat at 0. The later Dying-summary correction in `1b96bd4` preserves that coverage.
+   - Remaining summary verification: check other current-facing references and the compiled Quick Reference layout. Continue checking that phase references remain fixed through recovery and reinforcements and that defeated sides do not activate new phases.
    - Documentation reconciliation: verify and update remaining Fail-safe changelog, boss-phase design-summary and PR-status notes. Do not present completed timing implementation as an unresolved design decision.
    - Preserve historical drafts and playtest outcomes; identify superseded procedures rather than rewriting recorded events.
 
 4. Killing strikes
    - Complete in scope: the revised Rank/status procedure, affected playbook/Focus/gear references, killing-method table, explicit ability-reduction stacking rule, controlling decisions and changelog are integrated.
-   - Remaining: reconcile the character sheet, Quick References and other current-facing summaries. Sweep for obsolete Rank difficulties, a separate beheading status-tier table, a tier-4+ beheading prerequisite, automatic Significant-compromise language and staking conflated with killing strikes.
+   - Complete in scoped summary reconciliation: `1b96bd4` adds separate killing-strike and staking procedures to the Frontier character sheet and Quick Reference and clarifies the core Dying reminder.
+   - Remaining: sweep other current-facing summaries and ability/item references for obsolete Rank difficulties, a separate beheading status-tier table, a tier-4+ beheading prerequisite, automatic Significant-compromise language and staking conflated with killing strikes. Verify the expanded summaries during the later build and layout pass.
    - Verify that summaries preserve the current base difficulties of 18 / 21 / 27 / 30, reduction by the highest negative status only, eligible ability reductions, no minimum Difficulty and the distinction between buying off a failure complication and succeeding.
    - Verify tier-6 handling against the implemented creature-specific rules and core Scar/Dying procedures. Do not invent a general tier-6 replacement rule or remove an explicit creature exception.
 
 5. Create
    - Complete in scope: core Effects, conflict Maneuver, scenery costs and Quick Reference use the 2-Power-per-rank baseline; rank 2 and Floor Collapse cost 4 Power.
    - Remaining: inspect active ability, item, Special and summary references for old baseline costs, ambiguous flat-price shorthand and discounts that do not state their relationship to the baseline.
-   - Known reference to reconcile: Adversaries §6.3 lists “Create a Truth (2)” without “per rank”; verify and clarify the intended shorthand against the controlling decision.
+   - Completed shorthand reconciliation: `a128ec9` changes Adversaries §6.3 to “Create a Truth (2 Power per rank; explicit discounts follow Core Rules §5)”. This does not resolve discount stacking or reprice bespoke effects.
    - Review before editing: reconcile the controlling discount wording with reminders allowing only one cost reduction and with bespoke free or fixed-price effects such as Lost Knowledge. Distinguish ordinary discounts from explicit exceptions; do not silently introduce stacking or reprice an ability.
 
 6. Recovery, Bled and treatment
    - Complete in scope: Bled injury classification, listed penalty and recovery exceptions, tier-6 core Dying, explicit transfusion exception, related ability timing, sheet reminders and controlling decisions are integrated.
    - Subsequent source reconciliation: `fe510ba` corrects the Frontier §15 Bled-6 design note and gives Physician's Care the designer-selected text, “Allies you treat during a rest recover all pool points.” Those specific contradictions are resolved.
+   - Subsequent tier-6 reconciliation: `1b96bd4` clarifies that setting conditions may expressly use core Dying rather than necessarily replacing it. The selected Sun-Sick progression is implemented in `e247e22`, with the sheet reminder reconciled in `f381a2b`; do not continue listing that Scar relationship as an unselected ruling.
    - Remaining: sweep other active sources for legacy pool-recovery formulas, obsolete Bled penalties or death deadlines, and text that treats pool restoration as automatic status healing.
    - Inspect Module B and other explicit exceptions before changing “short rest” or “full rest” wording. Distinguish a valid exception from an undefined trigger; do not remove an ability benefit merely because its terminology needs reconciliation.
    - Check related treatment and definitive-care references without granting Field Medic or Field Surgeon an unselected exception to the one-tier lasting-injury treatment limit.
@@ -163,10 +178,10 @@ The entries below distinguish completed source integrations from remaining refer
 
 9. Setting neutrality and Frontier option references
    - Complete in recorded scope: D.4/D.6a generic contact/reputation guidance and the setting Descriptor heading/table renames are integrated.
-   - Source observed during the read-only sweep: core Adversaries delegates setting-specific packages; `tod-adversaries.typ` supplies Frontier Opposition and is connected through the setting's §15 fragment; the setting introduction states the Frontier playbook replacement policy; Frontier Focus Rules explicitly exclude Walks Between Worlds.
-   - Status reconciliation required: verify those observed changes against the controlling decision and their implementation history, then update older pending statements in this tracker and other current-facing status documents. Do not treat the old checklist wording as proof that the source changes are absent, or mark the full setting-neutrality item complete without checking references.
+   - Verified source implementation: Frontier opposition relocation is recorded in `46fca4d`, `c0361c0` and `9108fd8`; Frontier playbook replacements and the Walks Between Worlds exclusion in `91a0abd`, with unrelated suitability entries restored in `b296a12`; introduction alignment in `a53341e`. These scoped implementation tasks are complete.
+   - Remaining status reconciliation: update other current-facing status documents that still describe those implemented changes as pending. Implementation-history verification does not complete the full setting-neutrality reference sweep or build checks.
    - Remaining: sweep core and setting cross-references, option summaries and navigation text. Check current-facing uses of Scheming and Headlong while preserving generic Cunning and Reckless and historical records.
-   - Known references to reconcile: the Frontier sheet still names Chapter VII, and the Frontier Opposition header comment still describes its include connection as pending.
+   - Completed navigation correction: the Frontier sheet names Chapter II following `1b96bd4`. The inspected Descriptor chapter uses Scheming and Headlong consistently in its headings and reference table; references elsewhere still require the broader sweep.
 
 ## Unresolved details and playtest flags
 

@@ -185,7 +185,7 @@ The following table identifies generic core playbook names for reference; it is 
 #colbreak()
 == Notation
 
-- *★ Major.* An ability that costs *1 Refresh* when you take it, at creation or through advancement.
+- *★ Major.* An ability with a *1-Refresh Major cost* whenever taken. As an additional playbook ability at creation, it costs *2 Refresh total*: 1 for the additional ability and 1 for Major. A first playbook ability has no additional-slot cost, but its Major cost still applies. Veteran surcharges remain additional (Generic Playbooks §§1.1–1.2).
 - *◆ Capstone.* Unlocked after *12 Advances* if you have at least 4 abilities from that playbook. It costs no Refresh, and each character can have one.
 - *◈ Weird.* A Focus that assumes the supernatural, old-world works or afflicted blood. All Weird Focuses presented in this setting book are available; generic Focus availability is governed by Frontier Focuses §1. The marker shows which options draw the attention of vampire households, Occultists and frightened villagers.
 - *Tags* are written in _italics_, such as _marks on my throat_. *Statuses* add a tier, such as _wounded-2_.

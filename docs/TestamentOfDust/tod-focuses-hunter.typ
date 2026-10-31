@@ -16,7 +16,7 @@ Your trade is the hardest one on the Frontier: you kill vampires.
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Know Your Quarry];], [Once per scene, Discover one of a vampire\'s weakness tags without rolling.],
-    [2a], [#strong[Killing Mastery];], [Your killing strikes (Frontier Rules §5.2) are #strong[Standard 15] instead of Hard 18.],
+    [2a], [#strong[Killing Mastery];], [Your killing strikes are #strong[one step easier] (−3 Difficulty; Frontier Rules §5.2). This reduction stacks with other applicable killing-strike reductions.],
     [2b], [#strong[Steel Against Presence];], [When you Resist a vampire\'s Presence or intimidation with Pneuma, the cost is #strong[0 on a highest die of 5+];.],
     [3a], [#strong[Find the Killing Way];], [Upgrading a vampire\'s weakness tag into a killing method (Frontier Rules §8.1) costs #strong[2 Power] instead of 3.],
     [3b], [#strong[★ The Hunter\'s Mark];], [Once per scene, mark a vampire you can see. Until the scene ends, all allies\' Attacks against it inflict #strong[+1 tier];, and it can\'t use #emph[The Old Door] to escape.],
@@ -91,7 +91,7 @@ A vampire took your family, your village, or your life as it was. You\'ll find i
     [2a], [#strong[Cold Fury];], [When you Resist the named vampire\'s Presence, intimidation or fear, the cost is #strong[0];.],
     [2b], [#strong[Nothing Held Back];], [When you burn a tag against the named vampire or its servants, gain #strong[+2 Power] instead of +1.],
     [3a], [#strong[Its Servants Die First];], [The named vampire\'s servants and retainers start conflicts against you with #strong[−2 Disposition];.],
-    [3b], [#strong[★ This Ends Tonight];], [When you face the named vampire, gain a free bonus die on every roll against it, and your killing strikes are #strong[Standard 15];. If it escapes you, gain a Pneuma Scar.],
+    [3b], [#strong[★ This Ends Tonight];], [When you face the named vampire, gain a free bonus die on every roll against it, and killing strikes against it are #strong[one step easier] (−3 Difficulty; Frontier Rules §5.2). This reduction stacks with other applicable killing-strike reductions. If it escapes you, gain a Pneuma Scar.],
   )]
   , kind: table
   )

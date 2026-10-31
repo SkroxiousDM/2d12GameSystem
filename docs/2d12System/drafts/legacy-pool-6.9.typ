@@ -1,7 +1,10 @@
-// DRAFT. Insert after 6.8 Permanent Harm in chapter-2.6.5-recovery.typ.
-// Also add at the end of 6.7: (See §6.9 for what a death leaves behind.)
-// Also add a Legacy row to the Quick Reference currency table.
-// Playtest values: starting pool 2 + sessions + Belief bonus, cap 6.
+// RETIRED HISTORICAL DRAFT — not included in the active rulebook.
+// Phase 1 decision §8 retired the Legacy subsystem; chapter-2.6.5-recovery.typ
+// no longer includes this fragment. Do not insert it into §6.9 or add a Legacy
+// currency row to the Quick Reference. The mechanics below are retained only
+// as historical design text, not playable rules. Echo and other exceptions to
+// Region/Campaign Truth creation remain deferred to playtesting.
+// Historical playtest values: starting pool 2 + sessions + Belief bonus, cap 6.
 
 === 6.9 Legacy
 When a character dies, something of them can outlast the death. The death itself is not softened: the Dying clock (§6.7) or an immediate death resolves as written, and nothing here stops it. Legacy only decides what the table keeps afterwards.

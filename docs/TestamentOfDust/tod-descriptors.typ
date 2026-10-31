@@ -45,7 +45,7 @@ Some Frontier pasts are better kept quiet: marks on a throat, a mother nobody na
     [4], [Charming], [Pneuma], [#emph[a smile that opens doors];], [#emph[can\'t resist a pretty face];],
     [5], [Cold], [Pneuma], [#emph[nothing shows on my face];], [#emph[pushes people away];],
     [6], [Coveted], [Pneuma], [#emph[beauty the vampires notice];], [#emph[the Kept want me];],
-    [7], [Cunning], [Psychē], [#emph[always a second plan];], [#emph[too clever by half];],
+    [7], [Scheming], [Psychē], [#emph[always a second plan];], [#emph[too clever by half];],
     [8], [Devout], [Pneuma], [#emph[faith the dark can feel];], [#emph[won\'t break my vows];],
     [9], [Doomed], [Pneuma], [#emph[nothing left to lose];], [#emph[death rides beside me];],
     [10], [Feral], [Mētis], [#emph[senses of a beast];], [#emph[forgets my manners];],
@@ -54,7 +54,7 @@ Some Frontier pasts are better kept quiet: marks on a throat, a mother nobody na
     [13], [Greedy], [Psychē], [#emph[knows what everything\'s worth];], [#emph[a price for everything];],
     [14], [Hollow-Eyed], [Psychē], [#emph[seen too much to scare];], [#emph[nightmares every night];],
     [15], [Mutated], [Sōma], [#emph[body of the wastes];], [#emph[they call me monster];],
-    [16], [Reckless], [Mētis], [#emph[first through the door];], [#emph[doesn\'t wait];],
+    [16], [Headlong], [Mētis], [#emph[first through the door];], [#emph[doesn\'t wait];],
     [17], [Scarred], [Sōma], [#emph[survived worse than this];], [#emph[old wounds ache];],
     [18], [Silent], [Mētis], [#emph[says nothing, sees everything];], [#emph[people don\'t know where they stand];],
     [19], [Superstitious], [Psychē], [#emph[knows every folk charm];], [#emph[jumps at shadows];],
@@ -130,7 +130,7 @@ You have the kind of beauty the Kept collect: as brides, as servants, as trophie
 - #strong[Suggested Instinct:] \"Always cover my face when I travel at night.\"
 - #strong[Frontier hook:] Which vampire household has already sent for you?
 
-=== 7. Cunning
+=== 7. Scheming
 #quote(block: true)[
 You win by thinking. Fights are for people who planned badly.
 ]
@@ -229,7 +229,7 @@ The old wars and the old-world experiments left their mark on your bloodline: sc
 - #strong[Suggested Instinct:] \"Always wear the hood in town.\"
 - #strong[Frontier hook:] What is your mutation, and who first called you monster?
 
-=== 16. Reckless
+=== 16. Headlong
 #quote(block: true)[
 Waiting gets people killed too. You\'d rather it be on your terms.
 ]

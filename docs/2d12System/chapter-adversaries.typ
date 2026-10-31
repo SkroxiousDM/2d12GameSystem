@@ -18,7 +18,7 @@
 
 == 1. Principles
 #columns(2, gutter: 6mm)[
-- #strong[No pools.] Adversaries do not track Sōma, Mētis, Psychē or Pneuma. Staying power is #strong[Grit] (their Disposition) and #strong[Shrugs] (free Resists).
+- #strong[No pools.] Adversaries do not track Sōma, Mētis, Psychē or Pneuma. #strong[Grit] contributes to their side's starting shared Disposition; it is not a personal track. #strong[Shrugs] are free Resists.
 - #strong[Tags are already counted.] Ratings include tags. PCs still Discover, Burn and compel them.
 - #strong[Woe is fuel.] Adversaries buy bonus dice (1 Woe each, max +2) and fire Specials with Woe. They never use Effort.
 - #strong[One best action.] Every card has one clearly best action and a #strong[Tell] that hints at it. Give the players something to script around.
@@ -40,7 +40,7 @@ Wants: what it is after in this scene
 ```
 #figure(table(columns: (16%, 84%),
   table.header([Field], [Meaning]),
-  [Grit], [The adversary's Disposition. Add up Grit across a side; adversary sides do not roll for Disposition.],
+  [Grit], [The adversary's contribution to its side's starting shared Disposition. Add up Grit across a side; adversary sides do not roll for Disposition. Do not track or deplete individual Grit shares.],
   [Guard], [Added to Standard 15 when a PC's independent roll targets this adversary.],
   [Shrugs], [Free Resists per scene; each cuts an incoming status by 2 tiers. Extra Shrugs cost 1 Woe.],
   [Armour], [−1 tier of physical harm per point.],
@@ -82,9 +82,9 @@ The Role names the Best action and gives one trait. Assign Fair to two other act
 
 #figure(table(columns: (14%, 14%, 72%),
   table.header([Role], [Best], [Role trait]),
-  [Brute], [Attack], [#strong[Heavy Hitter.] First successful Attack each exchange gets +1 Power (main target only). Outside conflicts, its Harm is +1 tier.],
+  [Brute], [Attack], [#strong[Heavy Hitter.] First successful Attack each exchange gets +1 Power. Resolve area effects under Core Rules §10.16; do not multiply this bonus across shared Disposition. Outside conflicts, its Harm is +1 tier.],
   [Shooter], [Attack], [#strong[Dead Aim.] Free bonus die on its first Attack each scene.],
-  [Bulwark], [Defend], [#strong[Interpose.] Once per exchange, it takes Disposition loss meant for an ally. Outside conflicts, it takes a hit meant for an ally.],
+  [Bulwark], [Defend], [#strong[Interpose.] Once per exchange, it may intercept an ally's imposed status before Resistance or harm reduction, using its own normal reduction instead. No shared Disposition loss is redirected. Outside conflicts, it may likewise intercept fitting harm without a separate frequency limit. Follow the full timing, exclusions and area restrictions in Core Rules §10.17.],
   [Skirmisher], [Maneuver], [#strong[Hit and Run.] A successful Maneuver also removes 1 Disposition from the opponent.],
   [Controller], [Maneuver], [#strong[Shape the Ground.] Once per scene, Create a Truth for 1 Woe (not 2) or for 1 Power from a Maneuver.],
   [Trickster], [Feint], [#strong[Ambush.] If the PCs have not noticed it when the conflict begins, its side starts with +2 Disposition.],
@@ -110,7 +110,7 @@ Pick Specials from the Kind menu up to the Rank limit. Price a new one:
   [3], [Changes the scene: a significant reinforcement, recover 2 tiers or 3 Disposition, a danger-clock tick plus an effect.],
 ))
 
-#strong[Area Rule.] An area effect puts its full Power on one target and 1 on each other opposing member. Bonus Power (Heavy Hitter and the like) hits only the main target. Splash never spills over.
+#strong[Area Rule (provisional for playtesting).] Use Core Rules §10.16. Establish the area and everyone it can reach; there is no automatic ally/enemy selection. An area Attack or Feint removes its committed Power + 1 from shared Disposition once, plus 1 per additional opposing participant affected. No individual shares or spill-over. Explicit statuses apply at full purchased or listed tier to every affected character, with separate Resistance or NPC reduction. An ordinary conflict Attack gains no status merely for being an area effect. Apply both layers only when an explicit rule grants both. At most one participant may accept an injury trade against the combined loss of a single area Attack or Feint.
 ]
 
 == 4. Kind Packages
@@ -118,7 +118,7 @@ Pick Specials from the Kind menu up to the Rank limit. Price a new one:
 - #strong[Hard to Kill.] Physical statuses stop at tier 5 without a killing method. Tier 5 is broken (−2 on physical rolls).
 - #strong[Blood Debt.] −1 to all ratings at 4 segments, −2 at 5. Being broken ticks the clock.
 - #strong[Pride, Sun-Sick and killing methods] all apply.
-- #strong[Killing strike.] A vampire at 0 Disposition counts as tier-4+ physical harm for killing methods. The strike's Difficulty scales with Rank.
+- #strong[Killing strike.] A vampire side at 0 shared Disposition is defeated, not automatically wounded or destroyed. Name an eligible vampire and follow Testament of Dust, Frontier Rules §5.2, within the established lethal stakes; shared Disposition loss grants no physical status.
 - #strong[Introduction Woe,] paid once, the first time it appears in the campaign: Minor 1, Established 3, Great 5, Paramount 8.
 - #strong[Woe Spends] (Presence, Uncanny Speed, Summon the Household) are open to every vampire and do not count against Specials.
 
@@ -128,7 +128,7 @@ Pick Specials from the Kind menu up to the Rank limit. Price a new one:
   [Unnatural Strength], [1], [+1 Power on a successful Attack. Outside conflicts, +2 tiers.],
   [Terrible Patience], [1], [Ignore one status or Blood Debt penalty for one roll.],
   [Fade], [2], [Create the Truth Deep Shadows. It may be gone when the light returns.],
-  [Blood Price], [3], [Paramount only. Tick the campaign danger clock by 1 and recover 3 Disposition (up to starting).],
+  [Blood Price], [3], [Paramount only. Tick the campaign danger clock by 1 and restore 3 of its side's shared Disposition (up to the side's starting value).],
 ))
 
 === Human
@@ -175,7 +175,7 @@ Pick Specials from the Kind menu up to the Rank limit. Price a new one:
   table.header([Special], [Woe], [Effect]),
   [Suppressing Fire], [2], [An area Attack.],
   [Scan], [1], [Cancel a Stealth-based Maneuver's effect, or reveal a hidden PC.],
-  [Self-Repair], [1], [Restore 2 Disposition (up to starting) or 2 tiers of physical status.],
+  [Self-Repair], [1], [Restore 2 of its side's shared Disposition (up to the side's starting value) or 2 tiers of physical status.],
   [Lockdown], [2], [Create the Truth Sealed Doors.],
   [Shock Field], [1], [A PC who loses a versus roll to it in melee adds jolted-2 to their compromise.],
   [Fail-safe], [3], [At 0 Disposition it blows up: every PC within reach adds burned-3 to their compromise.],
@@ -219,14 +219,14 @@ Each exchange is three volleys. Script three actions in order.
 - Every actor, minion groups included, acts once before anyone acts twice.
 - Open with the strongest actor's Best action.
 - Never script one action three times. Players read patterns.
-- Put one Defend or Maneuver in when Grit is under half.
+- Put one Defend or Maneuver in when the side's shared Disposition is under half its starting value.
 - Show the Tell on the volley before the Best action.
 - If a member is out, any remaining teammate takes its scripted action as long as rotation allows. If none can, it is lost.
 - Disarm on an already scripted action cancels it. The GM may pay 3 Woe to change it.
 
 === 6.3 Action Results
-- #strong[Attack.] On a win, remove Power + 1 from the opposing side's Disposition. No status unless a Special says so.
-- #strong[Defend.] Each Power restores 1 Grit, up to starting Grit.
+- #strong[Attack.] On a win, remove committed Power + 1 from the opposing side's shared Disposition once. An area Attack adds 1 per additional opposing participant affected (Core Rules §10.16). No status unless a Special says so.
+- #strong[Defend.] Each Power restores 1 of your side's shared Disposition, up to the side's starting value. It does not restore a personal Grit track or return a Taken Out participant.
 - #strong[Feint.] As Attack, but ignores Defend.
 - #strong[Maneuver.] Power buys Impede (1), Gain Position (1), Disarm (3), Create a Truth (2) or a scenery action.
 - #strong[Independent rolls] against an adversary use Standard 15 plus its Guard.
@@ -257,7 +257,7 @@ Minion groups have Bodies (3--6) instead of Shrugs. Each successful Attack outsi
 - #strong[Defeat.] A side at 0 Disposition is defeated, not necessarily dead. Capture, flight or death follow the stakes.
 - #strong[No injury trade.] Ordinary adversaries and minion groups cannot use it (Core §10.13). A named rival built as a full PC can.
 - #strong[Compromise.] When the PCs win, the Disposition they have left sets the cost: Minor tier 2, Significant tier 3, Major tier 4. When adversaries win, they take compromise statuses too, and may Shrug them.
-- #strong[Concession.] Offer one before the next roll (Core §10.11), usually at or below one third Grit. Humans accept. Beasts flee. Guardians never offer. A Boss falls back to a prepared position and starts a danger clock.
+- #strong[Concession.] Offer one before the next roll (Core §10.11), usually when the side's shared Disposition is at or below one third of its starting value. Humans accept. Beasts flee. Guardians never offer. A Boss falls back to a prepared position and starts a danger clock.
 
 === 6.8 Outside Conflicts
 - #strong[Passive opposition.] Difficulty = 12 + the adversary's relevant rating. A Minor's Defend (Fair +3) gives 15; an Established Steward's Defend (+6) gives 18.
@@ -365,7 +365,7 @@ Party of three, P = 11. Opposition: Bounty Veteran (5), Knife in the Dark (3) an
 - Volley 1: the party scripts Attack. The Pack scripts Maneuver and the GM spends 1 Woe on a bonus die. The Pack wins by 4: Impede on the attacker.
 - Volley 2: the Knife scripts Feint, ignoring Defend. Tell: the lamp gutters. The Veteran scripts Attack with Heavy Hitter.
 - Volley 3: a PC spends 2 Momentum to change a script. The GM may answer with 3 Woe to Interrupt.
-- If the Pack goes down, 3 Grit is gone and the rest hold 8. Offer a concession when they drop under about 4.
+- If a status or explicit effect Takes Out the Pack, remove it from participation without subtracting its 3 Grit from shared Disposition. Ordinary Disposition loss does not individually remove the Pack. Offer a concession when the side's shared Disposition drops under about 4; its original starting total remains 11 before setup modifiers.
 
 == 8. Quick Checklist
 - Intent, stakes and exits set before any roll.
@@ -374,4 +374,4 @@ Party of three, P = 11. Opposition: Bounty Veteran (5), Knife in the Dark (3) an
 - Three scripted actions per exchange, with no pattern.
 - One Tell per adversary, shown before its Best action.
 - Woe tracked and spent each exchange.
-- Concession offered near one third Grit.
+- Concession offered near one third of the side's starting shared Disposition.

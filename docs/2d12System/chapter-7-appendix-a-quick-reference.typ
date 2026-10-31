@@ -16,7 +16,8 @@
 == Difficulty
 #table(columns: (1fr, auto),
   table.header([Difficulty], [Target]),
-  [Routine], [No roll], [Easy], [12], [Standard], [15], [Hard], [18], [Formidable], [21], [Heroic], [24])
+  [Trivial], [No roll], [Routine], [9], [Easy], [12], [Standard], [15], [Hard], [18], [Formidable], [21], [Heroic], [24], [Epic], [27], [Divine], [30])
+Each step is 3 points; no minimum target. A target below Routine 9 does not automatically become Trivial (Core Rules §2.2).
 
 == Outcomes
 #table(columns: (34%, 66%),
@@ -53,6 +54,12 @@ Roll 2d12 + Disposition skill + highest Edge in its pool; divide by 3, round dow
 
 == Damage Cycle (Core Rules §6, §10)
 Each side has *one shared Disposition* total, with no per-member shares or spill-over. Attacks and Feints remove their committed Power + 1 and nothing else, and Defend restores it up to its starting value. A side loses at 0 or when no participant can continue. *Injury trade:* one per Attack or Feint, once per conflict, accept a tier 2/3/4 injury to cancel 1/2/3 loss; it can't be Resisted. Treatment removes at most 1 tier of a lasting injury until healing time does. Tier-6 life-threatening harm makes you *Dying*: 3-segment clock, Medicine vs. Hard 18 to stabilise. Compromise statuses are tier 2/3/4.
+
+== Area Effects (Core Rules §10.16; provisional)
+Establish the area and everyone it can reach; allies are not automatically excluded. An area Attack or Feint removes normal shared Disposition loss once, plus 1 per additional opposing participant affected. Explicit statuses apply at full tier to everyone affected, with separate Resistance or NPC reduction. Area alone adds no status to an ordinary conflict Attack; apply both layers only if a rule grants both. One eligible injury trade at most against the combined loss of that Attack or Feint. No Disposition outside conflicts.
+
+== Interpose (Core Rules §10.17)
+Bulwark: once per exchange, redirect an ally's entire imposed status before their Resistance or reduction; use your own normal Resistance or NPC reduction, with at most one NPC reduction per status. Outside conflicts, no separate frequency limit. Must be able to intercept; cannot redirect shared Disposition loss, injury payments, running-dry statuses, agreed concession costs or compromise costs. Cannot shield an ally from an area effect already affecting both of you.
 
 == Rest and Recovery
 #table(columns: (16%, 52%, 32%),

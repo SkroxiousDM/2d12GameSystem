@@ -103,6 +103,7 @@ Historical entry: the double-halving formula, flat-modifier ordering and injury-
   - Credits: original-setting notice replaces the fan-adaptation notice.
   - Running header (`TESTAMENT OF DUST · 2D12 V2`), PDF metadata and the Introduction text.
   - The character sheet's Frontier insert.
+  - The last references to Vampire Hunter D are removed.
 - **Renamed:**
   - `docs/HollowFrontier/` → `docs/TestamentOfDust/`
   - `vampire-hunter-d-2d12-v2-master-rulebook.*` → `testament-of-dust-2d12-v2-master-rulebook.*`

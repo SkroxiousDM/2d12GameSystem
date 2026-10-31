@@ -347,7 +347,7 @@ Wants: the bounty, and the credit.
 ]
 
 #statblock("HEDGE ADEPT", "Human · Established · Controller", "5")[
-Grit 5 · Guard +0 · Shrugs 1 · Armour 0 \
+Grit 5 · Guard +1 · Shrugs 1 · Armour 0 \
 Attack +2 · Defend +4 · Feint +4 · Maneuver +6 · Other +4 (Lore +6) \
 Harm: wounded or shaken (rite) \
 Power: binding rites, a ledger of debts, hands that never shake, sees in the dark · Weakness: proud beyond reason \

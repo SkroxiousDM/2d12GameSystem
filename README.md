@@ -18,7 +18,7 @@ The rules come as separate books. The core rulebook is the complete engine. Each
 |---|---|---|---|
 | **The 2d12 System** (core rulebook) | Core Rules, Optional Modules (Cyphers & Artifacts, The Grind & Travel, Truth-Driven Sandbox), Generic Descriptors, Playbooks and Focuses, Quick Reference | [`.typ`](docs/2d12System/the-2d12-system-v2-core-rulebook.typ) | [PDF](docs/2d12System/the-2d12-system-v2-core-rulebook.pdf) |
 | **Testament of Dust** (setting book) | Post-apocalyptic frontier gothic: Frontier Rules, Frontier Descriptors, Playbooks and Focuses, Frontier Quick Reference | [`.typ`](docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ) | [PDF](docs/TestamentOfDust/testament-of-dust-v2-setting-book.pdf) |
-| **Character sheet** | Generic core sheet (2 pages) and a Frontier insert (1 page) | [`.typ`](docs/2d12-character-sheet-v2.typ) | [PDF](docs/2d12-character-sheet-v2.pdf) |
+| **Character sheet** | Generic core sheet and Frontier insert; current-branch pagination awaits build verification | [`.typ`](docs/TestamentOfDust/2d12-character-sheet-v2.typ) | [PDF](docs/TestamentOfDust/2d12-character-sheet-v2.pdf) |
 
 ### Settings in development
 
@@ -42,7 +42,7 @@ The rules come as separate books. The core rulebook is the complete engine. Each
     │   ├── testament-of-dust-v2-setting-book.typ  Source of truth
     │   ├── testament-of-dust-v2-setting-book.pdf
     │   ├── 2d12-character-sheet-v2.typ / .pdf    Character sheet
-    │   ├── testament-of-dust-*.md            Markdown editions of the Frontier chapters
+    │   ├── tod-*.typ                        Included setting chapters and sheet fragment
     │   └── art/playbooks/                    Frontier playbook art
     ├── Aetas Obscura/                        Aetas Obscura setting (in development)
     ├── design/                               Design documents, playtest reports, rule drafts
@@ -51,7 +51,9 @@ The rules come as separate books. The core rulebook is the complete engine. Each
         └── TestamentOfDust-master-v2/        The combined master rulebook from before the split
 ```
 
-The **Typst files are the source of truth**. The Markdown files in `docs/TestamentOfDust/` are editions of the Frontier chapters for reading on GitHub. The v0.2 Markdown in `docs/` and everything in `docs/Archive/` is kept for history and isn't maintained.
+The **Typst files are the source of truth**. The setting book assembles its chapters from the included `tod-*.typ` files; separate Frontier Markdown editions are not present in the current setting directory. The v0.2 Markdown in `docs/` and everything in `docs/Archive/` is kept for history and isn't maintained.
+
+Committed PDFs may predate the current review-branch source changes. Their presence does not establish current-branch compilation or layout verification.
 
 ## Reading Order
 

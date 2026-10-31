@@ -1,6 +1,6 @@
 #import "tod-common.typ" : *
-// Setting-only opposition fragment. Included by tod-setting-rules.typ
-// after §15 when the relocation is connected. No core chapter import.
+// Setting-only opposition fragment. Included after §15 by
+// tod-setting-rules-15-design-notes.typ. No core chapter import.
 
 == 16. Frontier Opposition
 Build adversaries using #emph[The 2d12 System], Adversaries. This section supplies the Frontier's Vampire package, construction exceptions, household Specials and setting-specific example cards.

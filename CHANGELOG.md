@@ -6,6 +6,12 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Downtime contact Truth clarification (2026-10-30)
+- **Module D.4 Connect:** added a cross-reference to D.6a for contact Truths.
+- **Module D.6a:** a contact Truth describes a relationship with a named person; state what that relationship makes possible and whom it concerns. It does not by itself grant a reputation tag or change faction Standing.
+- Phase 1 tracker records this scoped clarification as complete. The rest of D.6a's setting-neutrality work remains pending; no new duration, rank, discount or guaranteed service is introduced, and deferred Truth-layer questions remain unresolved.
+- No Typst compilation, PDF rebuild, layout check or playtest verification is claimed.
+
 ### Changed — Frontier vampire killing strikes (2026-10-30)
 - **Frontier Rules §5.2:** Killing-strike Difficulty now scales by vampire Rank: Minor 18, Established 21, Great 27, Paramount 30. Reduce it by 3 for each tier of the target's highest negative status, with no minimum; eligible ability reductions stack.
 - A successful strike destroys the named vampire. Failure brings a significant complication; players may give the GM 2 Woe to buy it off. Buying off the complication does not turn the failed strike into a success. Failure does not automatically impose a Significant compromise.

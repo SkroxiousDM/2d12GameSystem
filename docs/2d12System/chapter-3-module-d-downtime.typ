@@ -46,7 +46,7 @@ Downtime is the stretch between expeditions when the party is safe enough to rec
 - Spend Power as usual. The result benefits all participants.
 - Participants need not pay equally. Non-participants pay nothing.
 
-#figure( [#table( columns: (19%, 15%, 22%, 44%), align: (auto,auto,auto,auto,), table.header([Endeavour], [Tag], [Skill], [Typical Effects],), table.hline(), [#strong[Recuperate];], [Light], [Medicine, Empathy, Craft], [Restore; restore a burned tag; mark an injury #emph[treated] (−1 tier)], [#strong[Prepare];], [Strenuous], [Survival, Persuade, Drive/Pilot], [Create a Truth (#emph[Provisioned];, #emph[Passage Arranged];); Discover], [#strong[Make and Mend];], [Strenuous], [Craft, Tech], [Advance a project clock; Create; restore a depleted artifact], [#strong[Investigate];], [Light], [Investigate, Lore, Notice], [Discover; confirm a rumour (C.4)], [#strong[Develop];], [Light], [Varies], [Advance a Scar or loss-adaptation clock (D.5)], [#strong[Connect];], [Light], [Persuade, Empathy, Intimidate], [Create a contact Truth; subtle cypher (A.1); Advance a faction clock only if the affected project is established (E.10)], [#strong[Sustain];], [Strenuous], [Craft, Persuade, Lore], [Remove Upkeep segments], )] , kind: table )
+#figure( [#table( columns: (19%, 15%, 22%, 44%), align: (auto,auto,auto,auto,), table.header([Endeavour], [Tag], [Skill], [Typical Effects],), table.hline(), [#strong[Recuperate];], [Light], [Medicine, Empathy, Craft], [Restore; restore a burned tag; mark an injury #emph[treated] (−1 tier)], [#strong[Prepare];], [Strenuous], [Survival, Persuade, Drive/Pilot], [Create a Truth (#emph[Provisioned];, #emph[Passage Arranged];); Discover], [#strong[Make and Mend];], [Strenuous], [Craft, Tech], [Advance a project clock; Create; restore a depleted artifact], [#strong[Investigate];], [Light], [Investigate, Lore, Notice], [Discover; confirm a rumour (C.4)], [#strong[Develop];], [Light], [Varies], [Advance a Scar or loss-adaptation clock (D.5)], [#strong[Connect];], [Light], [Persuade, Empathy, Intimidate], [Create a contact Truth (D.6a); subtle cypher (A.1); Advance a faction clock only if the affected project is established (E.10)], [#strong[Sustain];], [Strenuous], [Craft, Persuade, Lore], [Remove Upkeep segments], )] , kind: table )
 
 For an unlisted activity, the GM names a skill, a Light or Strenuous tag and the nearest Effects.
 
@@ -73,7 +73,7 @@ Downtime does not create reputation. How others see the party is already covered
 - #strong[Standing] (E.3) changes only through consequential deeds a faction learns of and attributes to the party.
 - A #strong[reputation tag] is earned at a milestone (Testament of Dust, Frontier Rules §10.3) and follows the character. It counts toward the +2 tag cap unless a Focus says otherwise (#emph[My Reputation Precedes Me]).
 - A #strong[capstone Truth] (#emph[Legend of the Field], #emph[A Name the Kept Know]) is a Campaign Truth. It applies as the capstone says.
-- A #strong[contact Truth] (D.4 Connect) belongs to a named person. It is not reputation or Standing.
+- A #strong[contact Truth] (D.4 Connect) describes a relationship with a named person. State what that relationship makes possible and whom it concerns. It does not by itself grant a reputation tag or change faction Standing.
 
 Momentum, Woe and scene-scale Create effects cannot buy reputation (E.11). A relationship Truth (E.3) and a reputation tag apply independently: one shifts Difficulty and the other adds to the roll.
 

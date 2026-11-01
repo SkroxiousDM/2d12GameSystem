@@ -19,7 +19,7 @@ Your trade is the hardest one on the Frontier: you kill vampires.
     [2a], [#strong[Killing Mastery];], [Your killing strikes are #strong[one step easier] (−3 Difficulty; Frontier Rules §5.2). This reduction stacks with other applicable killing-strike reductions.],
     [2b], [#strong[Steel Against Presence];], [When you Resist a vampire\'s Presence or intimidation with Pneuma, the cost is #strong[0 on a highest die of 5+];.],
     [3a], [#strong[Find the Killing Way];], [Upgrading a vampire\'s weakness tag into a killing method (Frontier Rules §8.1) costs #strong[2 Power] instead of 3.],
-    [3b], [#strong[★ The Hunter\'s Mark];], [Once per scene, mark a vampire you can see. Until the scene ends, all allies\' Attacks against it inflict #strong[+1 tier];, and it can\'t use #emph[The Old Door] to escape.],
+    [3b], [#strong[★ The Hunter\'s Mark];], [Once per scene, mark a vampire you can see. Until the scene ends, all allies’ Attacks against it outside conflicts inflict #strong[+1 tier];. During conflicts, allies’ successful Attacks against it gain #strong[+1 Power] that can be committed only to that Attack’s Disposition-loss effect; this bonus grants no individual status, cannot buy another Effect and cannot become Momentum. It can’t use #emph[The Old Door] to escape.],
   )]
   , kind: table
   )
@@ -66,7 +66,7 @@ Not every monster is a vampire. Sand sharks, werewolves, mutant spiders, old-wor
     [1], [#strong[Beast Lore];], [Once per scene, Discover a monster\'s weakness tag (not a vampire\'s) without rolling.],
     [2a], [#strong[Baited Trap];], [Spend 1 Power to Create #emph[Baited Trap];. A beast that enters it is #emph[Impeded] until it breaks free (an Athletics roll vs. Hard 18).],
     [2b], [#strong[Harvest];], [After killing a monster, spend a scene to harvest it for one cypher (tier 2--3) that matches its power: venom, hide, a gland, an eye.],
-    [3a], [#strong[Bane of Beasts];], [Your Attacks against monsters inflict #strong[+1 tier];.],
+    [3a], [#strong[Bane of Beasts];], [Your Attacks against monsters outside conflicts inflict #strong[+1 tier];. During conflicts, your successful Attacks against monsters gain #strong[+1 Power] that can be committed only to that Attack’s Disposition-loss effect; this bonus grants no individual status, cannot buy another Effect and cannot become Momentum.],
     [3b], [#strong[★ Monster-Slayer];], [In Fights against monsters (not vampires), the enemy\'s Disposition starts #strong[−3];, and minion beasts flee after your first successful Attack.],
   )]
   , kind: table

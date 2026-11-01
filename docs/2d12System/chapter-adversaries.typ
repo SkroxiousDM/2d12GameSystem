@@ -132,7 +132,7 @@ Pick Specials from the Kind menu up to the Rank limit. Price a new one:
   [Pounce], [1], [Free bonus die on its first Attack in a scene. If it wins, it Impedes the target.],
   [Savage Bite], [1], [+1 Power on a successful Attack.],
   [Thick Hide], [0], [Armour 1.],
-  [Venom / Infection], [2], [Hit or compromise adds poisoned-2, rising 1 tier per scene until treated.],
+  [Venom / Infection], [2], [After a successful Attack during a conflict, record one deferred poisoned-2 application against the target. Resolve it when the conflict ends under §6.12, regardless of the outcome; compromise does not cause another application. Outside conflicts, inflict poisoned-2 on the hit instead. Once inflicted, the poisoned status rises by 1 tier per scene until treated.],
   [Howl], [2], [A minion pack (Grit 3) arrives at the end of the exchange.],
   [Bolt], [2], [It leaves the scene.],
 ))

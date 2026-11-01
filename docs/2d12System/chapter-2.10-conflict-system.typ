@@ -243,7 +243,7 @@ Don't make the losing side play out the same contest again; a new conflict needs
 #strong[Settle it.] An accepted concession ends the conflict. Apply its terms with no roll to see whether they happen, and don't also apply compromise unless the terms include it. Costs accepted in a concession can't be Resisted or prevented afterwards; injuries in the terms heal normally. Conceding gives no automatic Tychē Point.
 
 === 10.12 Compromise
-When one side hits 0 Disposition, the conflict ends. The winner gets their intent but #strong[pays a compromise] based on how much Disposition they have left:
+When a side's defeat at 0 Disposition becomes final, settle the conflict's outcome and compromise. Last Stand may postpone that defeat for one additional volley (§10.10; Adversaries §6.10). The winner gets their intent but #strong[pays a compromise] based on how much Disposition they have left:
 
 #figure(
   [#table(

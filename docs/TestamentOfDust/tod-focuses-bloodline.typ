@@ -67,3 +67,4 @@ You were a donor in a vampire household --- by birth, debt or choice. You got ou
     [3b], [#strong[★ Turn the Bond];], [Once per session, in a Duel of Wills against your former household, gain a free bonus die on every roll. If you win, you also learn where it keeps its blood.],
   )]
   , kind: table
+  )

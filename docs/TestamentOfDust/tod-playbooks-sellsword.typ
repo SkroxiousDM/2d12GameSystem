@@ -36,7 +36,7 @@ Muscle for hire. You stand between the village and the thing coming out of the d
     [6], [#strong[Pain Tolerance];], [Ignore the roll penalty from harmful physical statuses of tier 1--2. At tier 3+, the penalty is reduced by 1. This also applies to #emph[Sun-Sick];.],
     [7], [#strong[★ Blood Fury];], [Once per scene, enter a fury: you get #strong[+1 bonus die] (free) on Fight, Brawl, and Athletics rolls for the rest of the scene. You can\'t script Defend or retreat. At scene end, lose 2 Sōma or take #emph[Weary];. If you have afflicted blood, gain +1 Thirst.],
     [8], [#strong[★ Last One Standing];], [Once per scene, when a status would reach tier 6 on you, keep acting until the end of the scene. Then you\'re Taken Out as normal.],
-    [◆], [#strong[A Name the Kept Know];], [Your reputation is a #strong[Campaign Truth] (#emph[\"Vampires have heard of \[name\]\"];). In Fight conflicts, vampire and retainer Disposition starts #strong[−2];. Once per session, a vampire\'s pride compel against you costs nothing.],
+    [◆], [#strong[A Name the Kept Know];], [Your reputation is a #strong[Campaign Truth] (#emph[\"Vampires have heard of \[name\]\"];). In Fight conflicts, reduce the opposing side’s starting shared Disposition by 2 if that side includes a vampire or retainer. Apply this reduction once, regardless of how many vampires or retainers participate. Once per session, a vampire\'s pride compel against you costs nothing.],
   )]
   , kind: table
   )

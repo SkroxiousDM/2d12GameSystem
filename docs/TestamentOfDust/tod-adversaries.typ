@@ -157,6 +157,6 @@ If a later volley leaves her side at 0 while she remains active, the GM may spen
 Party of three, P = 11. Opposition: Bounty Veteran (5), Knife in the Dark (3) and a Hound Pack (3), Threat 11: a Standard fight. Woe pool: 6.
 
 - Volley 1: the party scripts Attack. The Pack scripts Maneuver and the GM spends 1 Woe on a bonus die. The Pack wins by 4: Impede on the attacker.
-- Volley 2: the Knife scripts Feint, ignoring Defend. Tell: the lamp gutters. The Veteran scripts Attack with Heavy Hitter.
-- Volley 3: a PC spends 2 Momentum to change a script. The GM may answer with 3 Woe to Interrupt.
+- Volley 2: the Knife scripts Feint, ignoring Defend. Tell: the lamp gutters.
+- Volley 3: the Veteran scripts Attack with Heavy Hitter. A PC spends 2 Momentum to change a script. The GM may answer with 3 Woe to Interrupt.
 - If a status or explicit effect Takes Out the Pack, remove it from participation without subtracting its 3 Grit from shared Disposition. Ordinary Disposition loss does not individually remove the Pack. Offer a concession when the side's shared Disposition drops under about 4; its original starting total remains 11 before setup modifiers.

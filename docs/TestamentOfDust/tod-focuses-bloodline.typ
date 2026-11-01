@@ -19,7 +19,7 @@ Dhampir. Born to one of the Kept, and carrying a little of what she is. Tougher 
     [2a], [#strong[Dhampir Regeneration];], [Once per scene, lower one physical status by #strong[2 tiers] (no roll). Not in direct sunlight. Thirst +1.],
     [2b], [#strong[Read the Blood];], [Touch or taste a blood sample (a scene, no roll) to learn: whether it is afflicted, a dhampir's, or ordinary; whether the afflicted person it came from was well fed or starving; and roughly how long ago it was shed. With #strong[1 Power] from a Discover effect, also learn whether two afflicted samples share a bloodline. Thirst +1 each time.],
     [3a], [#strong[Mother's Key];], [Old-world systems tied to your mother's line accept you as one of her line. #strong[Once per session], make one such system open, start, stop or show its records --- no roll. On systems of other lines, #emph[my mother's blood] gives a free bonus die. The GM may spend #strong[2 Woe] to have the system note your visit somewhere someone will notice.],
-    [3b], [#strong[★ Awaken the Blood];], [Once per scene, let your mother's blood rise (#emph[Thirst];): until the scene ends, you get #strong[+2 bonus dice] free on physical rolls, your Attacks inflict #strong[+1 tier];, and your physical statuses can't go above tier 5. Afterwards, Thirst +2, and anyone who saw it treats you as one of the Kept.],
+    [3b], [#strong[★ Awaken the Blood];], [Once per scene, let your mother's blood rise (#emph[Thirst];): until the scene ends, you get #strong[+2 bonus dice] free on physical rolls, your Attacks inflict #strong[+1 tier];, and your physical statuses can't go above tier 5, except that full-day exposure advances Sun-Sick from tier 5 to tier 6 under Frontier Rules §7.1. Afterwards, Thirst +2, and anyone who saw it treats you as one of the Kept.],
   )]
   , kind: table
   )
@@ -67,4 +67,3 @@ You were a donor in a vampire household --- by birth, debt or choice. You got ou
     [3b], [#strong[★ Turn the Bond];], [Once per session, in a Duel of Wills against your former household, gain a free bonus die on every roll. If you win, you also learn where it keeps its blood.],
   )]
   , kind: table
-  )

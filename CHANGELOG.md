@@ -6,6 +6,20 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed and clarified — Residual Phase 1 abilities, items and Specials (2026-11-01)
+- P1: Monster-Slayer and Its Servants Die First apply their setup reduction once to the opposing side's starting shared Disposition when that side includes a qualifying participant, including mixed sides. Normal setup ordering and the minimum-1 floor apply.
+- P2: Deadly Precision and Strike While It Sleeps preserve outside-conflict half-price Attack effects. In conflicts, p committed Power removes 2p + 1 shared Disposition, with the +1 applied once and no individual status or additional Power for other Effects. The Stalker's separate killing-strike reduction remains.
+- P3–P4: Bring Them In Alive uses capture-alive intent and normal conflict loss, preserving outside-conflict subdual and the bounty benefit. Baited Trap uses the Maneuver's −3 next-roll Impede effect instead of a persistent restraint or Athletics escape roll.
+- These six ability replacements are implemented in `1bace6c`. That commit also accidentally shortened Furcifer's signature-equipment alignment tuple; `26f11c5` restores exactly that line. The initial commit is not a clean six-line-only diff.
+- IS-01: moved the Bounty Veteran's Attack from Volley 2 to Volley 3 in Frontier Opposition §16.6, leaving one opposition actor per volley (`c1af5f0`; exactly two lines replaced).
+- IS-02: added Adversaries §6.12 deferred Special injury settlement (`8f1a825`; 17 lines added) and linked Feed and Shock Field (`297e512`; two rows replaced). Each qualifying paid activation records a separate tier-2 application, resolved at conflict end regardless of outcome after any Last Stand deferral. Pending records are not statuses. Resolve eligible Resistance/reduction and stacking separately before ordinary compromise credit; existing injuries cannot discharge the applications, but injuries actually remaining may satisfy ordinary compromise costs. Concessions cannot waive the pending effects; they remain resistable imposed effects. Fail-safe's separate procedure is unchanged.
+- IS-03: Venom / Infection now records deferred poisoned-2 on a successful conflict Attack, without a second compromise application. Outside-conflict poisoning and progression after actual infliction remain (`b969a14`; one row replaced).
+- IS-04: The House Answers creates one rank-1 scene Truth with explicit facility scope and removal condition, ending at scene end or earlier removal; its purchase includes no higher rank, extended duration or Site-Truth change. Listed Woe cost and prerequisite remain (`fff09c9`; one row replaced).
+- IS-05a–c: Interlocutor's bribery item directly grants a once-per-mission rank-1 scene Truth without Power; Savant's reagents are an actual tier-2 Create cypher; Ember-Brand's 1-Power rider inflicts a separate burning-1 status when a status is inflicted, not from ordinary conflict loss (`21eb5f6`; three lines replaced across three files).
+- IS-05d: the tier-4 true-light capsule applies fixed Sun-Sick +2 to one vampire instead of ordinary conflict Attack loss, using its entire output with no surplus Power or Momentum; the husk-only killing-method restriction remains (`55728a9`; one row replaced).
+- Complete commit diffs for these source changes and the alignment correction were inspected. All approved P1–P4 and IS-01–IS-05 source replacements are complete within scope, not exhaustive reference clearance or Phase 1 closure.
+- No Typst compilation, PDF rebuild, rendered-layout verification, numerical recalibration or playtest validation was performed. Older supplemental-record and status reconciliation remains separate; historical entries below are preserved.
+
 ### Clarified — Frontier Attack bonuses and Sun-Sick precedence (2026-10-31)
 - Awaken the Blood's physical-status cap does not block the full-day Sun-Sick advance from tier 5 to tier 6 under Frontier Rules §7.1 (`57e9bfd`). The closing Typst figure delimiter accidentally removed in that commit was restored separately in `aa06849`.
 - Awaken the Blood, Knows How They Die, Full Transformation, Serum and Killing Ground retain +1 status tier on eligible Attacks outside conflicts. During conflicts, their eligible successful Attacks instead gain +1 Power restricted to that Attack's Disposition-loss effect.
@@ -233,3 +247,4 @@ Initial public commit of the 2d12 Game System repository.
 - Derived Stats Reference (Ch 92)
 - Critical Wound and Fumble tables (`docs/tables/`)
 - Burning-Wheel-style conflict module (experimental, alternate variant)
+

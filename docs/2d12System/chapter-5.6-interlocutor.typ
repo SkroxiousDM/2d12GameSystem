@@ -49,7 +49,7 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
 #figure(
   [#table(
     columns: (10%, 50%, 40%),
-    align: (auto,auto,),
+    align: (auto,auto,auto,),
     table.header([Genre], [Option A], [Option B],),
     table.hline(),
     [Fantasy], [#strong[Signet ring & letters of introduction] (0) --- #emph[carries a name that opens doors];], [#strong[Rapier] (1) --- #emph[+1 Attack];, #emph[+1 Feint];, #emph[duelling style];],

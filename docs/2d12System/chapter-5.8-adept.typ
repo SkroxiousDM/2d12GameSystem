@@ -74,7 +74,7 @@ Every Adept has a #strong[Domain];: a broad power tag describing what they can d
 #figure(
   [#table(
     columns: (10%, 37%, 53%),
-    align: (auto,auto,),
+    align: (auto,auto,auto,),
     table.header([Genre], [Option A], [Option B],),
     table.hline(),
     [Fantasy], [#strong[Staff or wand] (1) --- #emph[conduit];; +1 to workings, #emph[+1 Defend] (staff)], [#strong[Holy symbol or ancestral talisman] (0) --- #emph[faith made solid];; Resist supernatural harm with Edge +1],

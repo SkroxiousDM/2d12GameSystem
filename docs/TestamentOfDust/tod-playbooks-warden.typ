@@ -35,7 +35,7 @@ Sheriff, militia captain, or the old soldier who keeps the village alive. You do
     [5], [#strong[Hold the Gate];], [In a #strong[Siege Until Dawn];, your side\'s Disposition is #strong[+2];, and you get #emph[+1 Defend] as a free action tag.],
     [6], [#strong[Local Law];], [Your authority is a power tag with locals (#emph[by order of the Warden];). Once per scene, a successful Intimidate or Persuade with villagers removes #emph[Hostile Crowd] or stops a mob.],
     [7], [#strong[★ Hold Until Dawn];], [Once per Siege Until Dawn, tick the #strong[Dawn clock] by 2 extra segments.],
-    [8], [#strong[★ Killing Ground];], [In an area you prepared (with #emph[Trapped] or #emph[Warded Village];), allies\' Attacks inflict #strong[+1 tier];, and vampires can\'t use #emph[The Old Door] to leave.],
+    [8], [#strong[★ Killing Ground];], [In an area you prepared (with #emph[Trapped] or #emph[Warded Village];), allies\' Attacks outside conflicts inflict #strong[+1 tier];. During conflicts, allies\' successful Attacks in that area gain #strong[+1 Power] that can be committed only to that Attack's Disposition-loss effect; this bonus grants no individual status, cannot buy another Effect and cannot become Momentum. Vampires can\'t use #emph[The Old Door] to leave the prepared area.],
     [◆], [#strong[Nothing Gets In];], [Your village becomes a #strong[Region Truth] (#emph[\"The Kept can\'t take \[village\]\"];). A vampire must fill a 12-segment danger clock before it can enter. Once per session, any PC who retreats there clears one tier-1 or tier-2 status.],
   )]
   , kind: table

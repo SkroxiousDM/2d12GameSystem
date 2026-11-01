@@ -2,6 +2,8 @@
 
 Controlling decisions: `docs/design/rules-audit-phase1-decisions.md`. Area Rule and Interpose draft: `docs/design/area-rule-and-interpose-rewrite.md`.
 
+Latest bounded reconciliation: see "Residual P1–P4 and IS-01–IS-05 completion (2026-11-01)" at the end of this tracker. Earlier checkpoints remain historical; source completion does not imply exhaustive clearance or Phase 1 closure.
+
 ## Scope
 
 Implement the recorded rulings in current core and Testament of Dust Typst sources, the character sheet, Quick Reference, changelog and draft-status notes. Preserve historical playtest rolls and outcomes. PDF rebuilding, numerical recalibration and test reruns are deferred. This tracker records implementation, not additional designer rulings.
@@ -257,3 +259,39 @@ These are deferred design or validation questions, not permission to change the 
 - These two named Frontier sweep findings are complete in scoped source implementation, not the entire active-source sweep or Phase 1. Other findings, including remote harm, companion timing, Shared Spirit, Create pricing/stacking and Domain backlash reconciliation, remain open.
 - The changelog and Frontier option sweep report have not been updated for these completions. Their reconciliation remains pending; preserve original dated findings as history and add subsequent resolution notes. This tracker-only update does not change either file or the controlling decisions document.
 - No Typst compilation, PDF rebuild, layout verification, numerical recalibration or playtest was performed. Source completion, diff verification and later build/playtest validation remain separate.
+
+## Residual P1–P4 and IS-01–IS-05 completion (2026-11-01)
+
+Branch: `boss-phases-fixed-thresholds`. Source checkpoint: `55728a9e46c9fe329d0420488448040eed7a83da`. Selected procedures are recorded in controlling decisions §12 (`116892e`). P1–P4 and IS-01–IS-05 are residual-pass identifiers, not the original audit's ID series. These scoped completions supersede pending wording only for the named passages; the older implementation history, supplemental records and broader remaining-task categories are preserved.
+
+### Source ledger and diff verification
+
+| Finding | Files / passages | Source commits and inspected diff |
+|---|---|---|
+| P1 | `tod-focuses-hunter.typ`: Monster-Slayer; Its Servants Die First | Once-only mixed-side starting-shared-Disposition reductions, retaining eligibility, setup ordering and minimum 1. |
+| P2 | `chapter-5.4-furcifer.typ`: Deadly Precision; `tod-playbooks-stalker.typ`: Strike While It Sleeps | Outside-conflict half-price purchases retained; conflict loss is 2p + 1, not status tiers or extra general Power. Killing-strike benefit retained. |
+| P3–P4 | `tod-focuses-hunter.typ`: Bring Them In Alive; Baited Trap | Capture-alive intent with ordinary conflict loss; −3 next-roll Impede instead of persistent restraint. |
+| P1–P4 batch | Three files above; six ability rows | `1bace6c` replaced seven lines: six intended rows plus one unintended Furcifer signature-equipment alignment line. `26f11c5` restores exactly that line to `align: (auto,auto,auto,),`. Net: six ability-row replacements. Do not describe the initial commit as a clean six-line-only diff. |
+| IS-01 | `tod-adversaries.typ` §16.6 | `c1af5f0`: exactly two lines replaced, moving the Veteran's Attack from Volley 2 to Volley 3. Other example text unchanged. |
+| IS-02 | `chapter-adversaries-part-2.typ` §6.12; Feed in `tod-adversaries.typ`; Shock Field in `chapter-adversaries.typ` | `8f1a825`: 17 lines inserted; `297e512`: exactly two Special rows replaced. Outcome-independent deferred applications, separate Resistance/reduction/stacking before compromise credit; Fail-safe unchanged. |
+| IS-03 | `chapter-adversaries.typ`: Venom / Infection | `b969a14`: exactly one row replaced. Deferred poisoned-2; no duplicate compromise application; outside-conflict effect and post-infliction progression retained. |
+| IS-04 | `tod-setting-rules-8.typ` §14: The House Answers | `fff09c9`: exactly one row replaced. Fixed rank-1 scene Truth; recorded facility scope/removal; no higher rank, extension or Site change in this purchase. |
+| IS-05a–c | `chapter-5.6-interlocutor.typ` bribery kit; `chapter-5.5-savant.typ` reagents; Module A Ember-Brand example | `21eb5f6`: exactly three lines replaced across three files. Free once-per-mission rank-1 scene bribery Truth; actual tier-2 Create cypher; separate burning-1 rider triggered by inflicting a status, not ordinary conflict loss. |
+| IS-05d | `tod-setting-rules-8.typ` §9.1: true-light capsule | `55728a9`: exactly one row replaced. Fixed Sun-Sick +2 on one vampire replaces conflict Attack loss; full tier-4 output, no surplus Power/Momentum; husk restriction retained. |
+
+All complete source commit diffs above, including the corrective alignment commit, were inspected. No approved source replacements from these batches remain queued. Full mechanical file preservation was checked where recorded; source/diff inspection is not compilation or layout validation.
+
+### Actual inspection coverage and limitations
+
+- At checkpoint `1739b0b`, the bounded ability pass completely retrieved six generic playbook files (`chapter-5.3-bellator.typ` through `chapter-5.8-adept.typ`), six generic Focus-category files (Combat, Stealth & Precision, Knowledge, Social, Wilderness & Travel, Weird), nine Frontier playbook files and seven Frontier Focus-category files. Four overview files (`chapter-5-playbooks.typ`, `chapter-6-focuses.typ`, `tod-playbooks.typ`, `tod-focuses.typ`) and five core supporting fragments (Effects, Truths, Conflict System, Resistance/Harm, Area Effects/Interpose) were also retrieved completely. Clearance was limited to the inspected ability/setup/Create/Attack/status interactions, not every passage in those files.
+- At checkpoint `26f11c5`, the Items/Specials/example pass freshly retrieved seven files completely: `chapter-adversaries.typ`, `chapter-adversaries-part-2.typ`, Module A, Module C, `chapter-2.13-example-of-play.typ`, `tod-adversaries.typ`, and `tod-setting-rules-8.typ`. The first Adversaries part-2 request failed; retry resolved the reading gap. Playbook equipment checks used the earlier complete reads as supporting evidence, not fresh retrievals of all fifteen playbook files.
+- Scoped consistent passages included shared-side role bonuses, named fixed Create prices, explicit status permissions, reinforcement/recovery caps, cypher surplus distinctions, the Iron Marshal phase example, the repaired Bounty Veteran card and no-Grit-subtraction reminders. Full-file retrieval did not grant blanket interaction clearance.
+- The duplicate `chapter-6.4-stealth-and-precision-focuses.typ ` filename with a trailing space was not inspected; the normal filename is the one included by the Focus overview. Included recovery and Module C draft fragments were not automatically cleared. Historical project statblocks/playtests were supporting historical material, not current-source validation; their rolls and outcomes were not rewritten.
+- IS-01 through IS-05 are resolved only within the selected passages above. Broader current-facing Markdown, summary, example and include/navigation coverage remains open. The separate killing-strike/staking/tier-6, recovery/Bled/treatment, Major acquisition, Legacy and setting-neutrality passes remain required, followed by central reconciliation and scoped Phase 1 closure review.
+
+### Documentation status and preserved deferrals
+
+- Controlling decisions §12 is reconciled for these batches in `116892e`; root Unreleased entries are added in `7dd91b4`. The latter diff has the intended 14-line insertion plus one extra final blank line, with historical wording unchanged. This tracker update does not claim full reconciliation of earlier supplemental records, the Frontier sweep, original historical audit, boss-phase design summary or PR description.
+- Preserve earlier supplemental completion records as evidence of their own scope. Do not reopen their selected procedures from an older pending checkpoint or claim that this latest-batches-only pass reconciles the entire older backlog.
+- Create discount stacking/fixed-price interactions, higher-layer Truth exceptions, Superiority symmetry/simultaneous-zero setup, Rider balance, provisional Area Rule/Interpose tests, treatment-limit questions and boss/Last Stand/Fail-safe/Bled testing remain deferred. Baited Trap consumption/reuse/repeated-trigger behavior was not selected by its next-roll wording. No numerical recalibration or fight rerun is absorbed into this pass.
+- Phase 1 remains open. Source implementation, reference clearance, build verification, playtest validation and release completion are separate statuses. No Typst compilation, PDF rebuild, rendered-layout verification, numerical recalibration or playtest validation was performed for these batches. Full PR diff review against current main remains a pre-merge gate; main is unchanged.

@@ -111,6 +111,23 @@ This is an explicit Special effect, not an ordinary Attack. It removes no shared
 #strong[Limits.] Fail-safe does not trigger when Superiority resolves the conflict at setup, when an accepted concession ends it, when the side loses solely because no participant can continue, or on mutual defeat. It does not reopen a settled outcome or turn the Guardian's side's defeat into a victory.
 
 The detonation destroys the Guardian.
+
+=== 6.12 Deferred Special Injuries
+Use this procedure for Feed, Shock Field and any Special that explicitly refers to it. It does not replace Fail-safe's separate compromise procedure (§6.11).
+
+#strong[Record each application.] Each qualifying paid activation records one incoming status application against the affected PC: Bled-2 for Feed or jolted-2 for Shock Field. Record the Special, target, incoming status and tier, and trigger order. Every additional application requires another qualifying trigger and payment of the listed Woe cost; this procedure adds no once-per-PC limit.
+
+#strong[Pending is not inflicted.] A deferred record is not an active status. It imposes no penalty, does not stack or cause tier-6 consequences, and cannot be treated or healed before application. It does not change shared Disposition or remove a participant when recorded.
+
+#strong[Every outcome.] Recorded applications remain due when the conflict ends, whether the affected PC's side wins, loses, accepts a concession or suffers mutual defeat. Finalize the outcome after any Last Stand deferral before resolving them. An accepted concession must acknowledge pending applications; its terms cannot waive them. They remain imposed Special effects, not agreed concession payments, and do not become unresistable merely because a concession ends the conflict.
+
+#strong[Resolve in trigger order.] Before applying ordinary compromise's existing-injury credit, resolve every recorded application in the order it was triggered. Apply eligible Resistance and harm reduction separately to each incoming application, then stack what remains normally. Do not combine applications into one larger incoming status before Resistance. Resolve any resulting tier-6 outcome, Scar or Dying procedure normally.
+
+#strong[No existing-injury payment.] An existing injury cannot discharge a deferred application through compromise credit. This does not prevent normal stacking with an existing status of the same kind. An application reduced to tier 0 is not recorded as a status and creates no replacement cost.
+
+#strong[Then settle compromise.] Resolve ordinary compromise if the outcome calls for it. An injury actually remaining after these Special applications may satisfy one ordinary compromise injury cost under Core Rules §10.12, subject to its normal timing, tier and one-credit-per-injury requirements. Pending records alone provide no injury credit.
+
+#strong[The outcome stays settled.] Deferred injuries and consequences of Resisting them do not restore Disposition, reopen the conflict's outcome or grant another action or volley. Clear each deferred record after its application has been resolved.
 #colbreak()
 == 7. Bosses and Examples
 Build cards with §3 and use the generic procedures above. Settings can supply additional Kind packages, construction exceptions and example cards without changing the shared core procedures.

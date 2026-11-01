@@ -45,7 +45,7 @@ Crosses don't burn anything, whatever the stories say. But the rites are older t
     [2a], [#strong[Consecrate];], [In a scene of prayer, bless water or blades. The old rites call for silver in the water: blessed water and blades count as #emph[silvered] (Frontier Rules §8.1) for the mission.],
     [2b], [#strong[Last Rites];], [Once per scene, every ally who can hear your prayer restores 2 Pneuma, and Resists fear with Edge +1 until the scene ends.],
     [3a], [#strong[Faith Unbroken];], [When you Resist fear, Presence or despair with Pneuma, the cost is #strong[0 on a highest die of 5+];.],
-    [3b], [#strong[★ Holy Ground];], [Once per session, sanctify a place: create the Truth #emph[Holy Ground] for the scene. Believers can't enter without defying a compel, and every vampire Woe spend there costs #strong[+1] while the faithful stand together.],
+    [3b], [#strong[★ Holy Ground];], [Once per session, sanctify a place: create the Truth #emph[Holy Ground] for the scene without spending Power. Believers can't enter without defying a compel, and every vampire Woe spend there costs #strong[+1] while the faithful stand together.],
   )]
   , kind: table
   )

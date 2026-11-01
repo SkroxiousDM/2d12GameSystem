@@ -49,7 +49,7 @@ Quiet, precise, and always three exits ahead. Thieves, spies, scouts, assassins,
 #figure(
   [#table(
     columns: (10%, 34%, 56%),
-    align: (auto,auto,),
+    align: (auto,auto,auto,),
     table.header([Genre], [Option A], [Option B],),
     table.hline(),
     [Fantasy], [#strong[Twin daggers] (1) --- #emph[+1 Attack];, #emph[+1 Feint];], [#strong[Shortbow & black-fletched arrows] (1) --- #emph[+1 Attack] (range), #emph[silent shots];],

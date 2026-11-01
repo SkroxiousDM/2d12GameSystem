@@ -30,7 +30,7 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Silver Tongue];], [When you Persuade or Deceive, creating a story tag about a target\'s attitude (#emph[convinced];, #emph[trusts us];, #emph[fooled];) costs #strong[1 Power] instead of 2.],
+    [1], [#strong[Silver Tongue];], [When you Create a Truth about a target\'s attitude with Persuade or Deceive (#emph[convinced];, #emph[trusts us];, #emph[fooled];), reduce its Power cost by 1, to a minimum of 1.],
     [2], [#strong[Read the Room];], [Spend 1 Power on Discover to learn an NPC\'s #strong[Belief, Goal, or Instinct];. You get #strong[+1] (counts as a tag) against them for the scene.],
     [3], [#strong[Network];], [Once per session, declare a #strong[contact] in the current location as a story tag (#emph[contact: harbourmaster Elsa];). The GM gives them a quirk or something they want in return.],
     [4], [#strong[Smooth Recovery];], [Once per scene, turn a failed Persuade, Deceive, or Empathy roll into a #strong[Success at a Cost];.],
@@ -49,7 +49,7 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
 #figure(
   [#table(
     columns: (10%, 50%, 40%),
-    align: (auto,auto,auto,),
+    align: (auto,auto,),
     table.header([Genre], [Option A], [Option B],),
     table.hline(),
     [Fantasy], [#strong[Signet ring & letters of introduction] (0) --- #emph[carries a name that opens doors];], [#strong[Rapier] (1) --- #emph[+1 Attack];, #emph[+1 Feint];, #emph[duelling style];],

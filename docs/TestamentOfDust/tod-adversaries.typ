@@ -38,7 +38,7 @@ Vampire Grit already includes the Threat Rank Disposition bonus (+0 / +2 / +4 / 
 
 #figure(table(columns: (22%, 8%, 70%),
   table.header([Special], [Woe], [Effect]),
-  [Feed], [1], [After it wins a versus Attack in melee, add Bled-2 to that PC's compromise (Bled-2 on the hit outside conflicts). It recovers 1 tier of physical status.],
+  [Feed], [1], [After it wins a versus Attack in melee during a conflict, record one deferred Bled-2 application against that PC. Resolve it when the conflict ends under core Adversaries §6.12, regardless of the outcome. Outside conflicts, inflict Bled-2 on the hit instead. It recovers 1 tier of physical status.],
   [Unnatural Strength], [1], [+1 Power on a successful Attack. Outside conflicts, +2 tiers.],
   [Terrible Patience], [1], [Ignore one status or Blood Debt penalty for one roll.],
   [Fade], [2], [Create the Truth Deep Shadows. It may be gone when the light returns.],

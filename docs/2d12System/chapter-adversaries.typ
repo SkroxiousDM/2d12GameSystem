@@ -149,7 +149,7 @@ Pick Specials from the Kind menu up to the Rank limit. Price a new one:
   [Scan], [1], [Cancel a Stealth-based Maneuver's effect, or reveal a hidden PC.],
   [Self-Repair], [1], [Restore 2 of its side's shared Disposition (up to the side's starting value) or 2 tiers of physical status.],
   [Lockdown], [2], [Create the Truth Sealed Doors.],
-  [Shock Field], [1], [A PC who loses a versus roll to it in melee adds jolted-2 to their compromise.],
+  [Shock Field], [1], [During a conflict, when a PC loses a versus roll to it in melee, record one deferred jolted-2 application against that PC. Resolve it when the conflict ends under §6.12, regardless of the outcome.],
   [Fail-safe], [3], [When its side's defeat at 0 shared Disposition becomes final, an active Guardian with this Special available may detonate. Each PC within the blast's established reach adds burned-3 as an additional compromise injury. Resolve under §6.11.],
   [Calls the Works], [2], [Another guardian arrives.],
 ))

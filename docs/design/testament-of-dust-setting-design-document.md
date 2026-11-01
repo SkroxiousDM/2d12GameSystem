@@ -2,6 +2,32 @@
 
 > Roads through a broken world. Blood behind every bargain.
 
+> **Status: Historical design snapshot — superseded in part. Not a current rules or canon authority.**
+>
+> This document preserves the setting-design checkpoint recorded as
+> version 0.15, dated 16 October 2026. Its [CANON], [APPLIED], [PROPOSED]
+> and [OPEN] labels describe decisions and implementation status at
+> that checkpoint; they do not establish their current status.
+>
+> Source paths, replacement instructions, reproduced mechanics and
+> references to “current” rules below are historical. In particular,
+> the combined-master structure and reproduced recovery, Attack,
+> killing-strike, Bled, Sun-Sick and Woe-spend procedures must not be
+> copied into current source without checking subsequent decisions.
+>
+> For current rules, consult the active split-book Typst sources:
+> `docs/2d12System/the-2d12-system-v2-core-rulebook.typ` and
+> `docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ`,
+> together with their included chapters and fragments.
+> Subsequent Phase 1 rulings and implementation status are recorded in
+> `docs/design/rules-audit-phase1-decisions.md` and
+> `docs/design/rules-audit-phase1-implementation.md`.
+>
+> The original text below is preserved as history. This classification
+> does not independently adopt, revoke or resolve any individual lore
+> decision, proposed mechanic or open question. It does not establish
+> current-source clearance, build verification or playtest validation.
+
 | Field | Value |
 |---|---|
 | Project | ***Testament of Dust*** (publishable title, Q16), a setting for the 2d12 System. Working title *Hollow Frontier*; internal codename Hollow World |

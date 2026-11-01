@@ -18,10 +18,10 @@ A sliver of old-work sits behind your ear. A teacher set it there, or a househol
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Walk Abroad];], [Send your senses into the working old works around you (range about 1 km). You use Occult for Stealth and Notice while you\'re out. Your body is helpless and #emph[Impeded] while you\'re out. Returning costs 1 Pneuma.],
-    [2a], [#strong[Feedback];], [Through a speaker, lamp or screen in the target\'s scene, Attack with Occult, inflicting mental statuses (#emph[terrified];, #emph[dazed];) even on vampires.],
+    [2a], [#strong[Feedback];], [Through a speaker, lamp or screen in the target's scene, Attack with Occult, even against vampires. In conflicts, resolve normal Attack Disposition loss against the opposing side; Feedback does not itself inflict an individual status. Outside conflicts, spend Attack Power to inflict a fitting mental status, such as #emph[terrified] or #emph[dazed], using the normal Attack effect.],
     [2b], [#strong[Read What It Saw];], [Ask an old work in reach 2 free Discover questions about what it saw or heard (a door's record of hands, a lens's memory), or speak through it to a bled or frightened person and Restore their fear statuses.],
     [3a], [#strong[Long Wire];], [Your range becomes a day\'s ride along working relays, and you can bring one willing ally\'s senses with you while they touch you.],
-    [3b], [#strong[★ Take the Hand];], [Once per scene, take hold of one old-world machine in reach that can move (a guardian, a lift, a turret, a loader) and Fight with it. It uses your skills, and harm to it comes out of your #strong[Pneuma] pool, not physical statuses.],
+    [3b], [#strong[★ Take the Hand];], [Once per scene, take hold of one old-world machine in reach that can move—a guardian, lift, turret or loader—and Fight with it using your skills. Ordinary shared Disposition loss does not drain your Pneuma. When an explicit effect imposes physical harm on the controlled machine, establish the incoming status and tier, then apply eligible Resistance and harm reduction normally. Instead of recording the remaining physical status on the machine, lose 1 Pneuma per remaining tier. Harm reduced to tier 0 causes no converted loss. This loss is an imposed cost and follows the normal running-dry rules.],
   )]
   , kind: table
   )

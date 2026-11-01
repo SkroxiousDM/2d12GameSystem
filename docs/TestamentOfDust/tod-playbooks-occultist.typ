@@ -22,7 +22,7 @@ Psychic, curse-witch, hypnotist, or scavenger of old-world machines. You use the
 ]
 
 === 6.1 Core Feature --- Domain (free)
-Use the Adept\'s #strong[Domain] rules (Generic Playbooks §8.1) unchanged: workings with your anchor skill, scope sets Difficulty, each working costs 1 point from Pneuma (Occult) or Psychē (Science), and doubles on a failure cause backlash.
+Use the Adept\'s #strong[Domain] rules (Generic Playbooks §8.1) unchanged: workings with your anchor skill, scope sets Difficulty, each working costs 1 point from Pneuma (Occult) or Psychē (Science), and doubles on a failure or Success at a Cost cause backlash, following the Adept's Domain rules.
 
 #strong[Setting Domains:]
 

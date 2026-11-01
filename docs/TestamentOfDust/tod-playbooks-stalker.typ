@@ -67,7 +67,7 @@ You hunt by day. While the vampire sleeps, you climb the estate walls, pick the 
     [1], [Padded dark jacket (light armour)],
     [1], [Lockpicks and an old-world key-probe --- #emph[opens what\'s closed];, works on old-world locks at +1 step Difficulty],
     [1], [Long knives and garrotte --- #emph[+1 Attack];, #emph[+1 Feint];],
-    [1], [Smoke pellets ×2 --- #emph[+1 Feint];, Create #emph[Thick Mist] (1 Power)],
+    [1], [Smoke pellets ×2 --- #emph[+1 Feint];, Create #emph[Thick Mist] as a rank-1 scene Truth for #strong[1 Power];. It covers one small area established when the pellet is used and lasts until the scene ends or the smoke is dispersed.],
     [1], [Climbing spikes and silk rope (15 m)],
     [1], [Hooded lantern and mirror shard --- by day, throws sunlight into a dark room (#emph[Sunlit] for one exchange)],
   )]

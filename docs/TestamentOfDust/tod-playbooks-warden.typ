@@ -66,7 +66,7 @@ Sheriff, militia captain, or the old soldier who keeps the village alive. You do
     table.hline(),
     [1], [Leather coat and steel neck guard (light armour; neck guard)],
     [1], [Wire, nails, and bear traps --- #emph[+1] on Trapmaker and Craft for defences],
-    [1], [Garlic, crosses, and lamp oil --- #emph[Warded] for a doorway (1 Power)],
+    [1], [Garlic, crosses, and lamp oil --- Create #emph[Warded] as a rank-1 scene Truth affecting one prepared doorway for #strong[1 Power];. It lasts until the scene ends or the warding materials are disturbed or removed.],
     [1], [Flares and a signal bell --- wake the whole village],
     [1], [Hatchet and stakes --- #emph[+1 Attack];, #emph[stakes];],
     [1], [Lantern and oil],

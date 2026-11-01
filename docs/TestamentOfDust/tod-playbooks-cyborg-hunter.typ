@@ -44,7 +44,7 @@ Choose #strong[2 Implants];. Each is a power tag that ignores load, plus a rule.
   , kind: table
   )
 
-#strong[Glitches:] doubles on a failure or a Success at a Cost on an implant roll cause #emph[glitched-2] (−2 on rolls with your implants) as well as the normal complication. Science (Restore) or a short rest with tools clears it. old-world works that disrupts machines (an EMP, an estate\'s defences) can inflict #emph[glitched] as an Attack.
+#strong[Glitches:] doubles on a failure or a Success at a Cost on an implant roll cause #emph[glitched-2] (−2 on rolls with your implants) as well as the normal complication. Science (Restore) or a short rest with tools clears it. old-world-works that disrupts machines (an EMP, an estate\'s defences) can inflict #emph[glitched] as an Attack.
 === 8.2 Special Abilities
 #figure(
   [#table(

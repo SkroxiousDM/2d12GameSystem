@@ -6,6 +6,14 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Clarified — Frontier Attack bonuses and Sun-Sick precedence (2026-10-31)
+- Awaken the Blood's physical-status cap does not block the full-day Sun-Sick advance from tier 5 to tier 6 under Frontier Rules §7.1 (`57e9bfd`). The closing Typst figure delimiter accidentally removed in that commit was restored separately in `aa06849`.
+- Awaken the Blood, Knows How They Die, Full Transformation, Serum and Killing Ground retain +1 status tier on eligible Attacks outside conflicts. During conflicts, their eligible successful Attacks instead gain +1 Power restricted to that Attack's Disposition-loss effect.
+- The Charge uses the same restricted +1 Power during the first exchange of a mounted Fight; it gains no outside-conflict benefit.
+- This bonus Power grants no individual status, cannot buy another Effect and cannot become Momentum. Existing target restrictions, activation conditions, durations, costs and other benefits remain.
+- Ability conversions implemented in `27f9818` and `327041f`. Both diffs were inspected: six ability lines replaced across five source files, with no unrelated changes.
+- These scoped source fixes do not close Phase 1 or the broader Frontier sweep. No Typst compilation, PDF rebuild, layout verification or playtest validation is claimed.
+
 ### Fixed — Reference-sweep contradictions (2026-10-31)
 - Core Rules §14.1 design notes now describe the current Disposition setup formula and modifier ordering instead of prescribing the superseded double-halving model. Adjacent Attack/Feint and Superiority notes no longer use the approximately-6 starting track as the current baseline. Earlier simulation figures are retained as historical results; numerical recalibration and fight reruns remain deferred to Phase 4.
 - Frontier Rules §15 design notes now describe Bled-6 as Taken Out and a Scar, with the core three-segment Dying clock when lethal stakes permit, rather than immediate death. The note also identifies Bled's existing penalty, recovery and transfusion exceptions and distinguishes the Thirst's separate rules. The underlying Frontier procedures are unchanged.

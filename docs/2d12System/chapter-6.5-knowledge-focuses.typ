@@ -90,7 +90,7 @@ Historian, archaeologist, or keeper of lost lore.
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Echoes of the Past];], [At any old or abandoned place, ask one free Discover question about its history.],
-    [2a], [#strong[Lost Knowledge];], [Once per session, you\'ve read about this before: Create a story tag (#emph[ancient weakness];, #emph[forgotten route];) for #strong[0 Power];.],
+    [2a], [#strong[Lost Knowledge];], [Once per session, you\'ve read about this before: Create a rank-1 scene Truth (#emph[ancient weakness];, #emph[forgotten route];) for #strong[0 Power];.],
     [2b], [#strong[Relic Hunter];], [When you find cyphers or treasure, roll or draw #strong[twice] and choose. You identify artifacts automatically.],
     [3a], [#strong[Living Archive];], [Lore rolls about history, legends, and old cultures are #strong[two Difficulty steps lower];.],
     [3b], [#strong[★ Rewrite History];], [Prove a Campaign Truth is false with a 12-segment research clock. When it fills, the Truth changes (Module C).],

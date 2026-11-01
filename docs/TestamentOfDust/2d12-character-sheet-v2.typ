@@ -340,7 +340,7 @@
         line(length: 100%, stroke: 0.5pt + ash), wbox(h: 12pt), line(length: 100%, stroke: 0.5pt + ash)))
     }
     v(3pt)
-    note[*Use:* an action, usually no roll. It makes Power equal to its tier, spent only on its listed Effects. *Over the limit:* at scene end the GM gains 1 Woe per extra cypher and may roll Volatile (d12): 1–4 one fires · 5–8 one is ruined · 9–12 nothing yet.]
+    note[*Use:* an action, usually no roll. It makes Power equal to its tier, spent only on its listed Effects. For a fixed listed Truth result, surplus Power may buy rank or duration only where permitted; remaining Power becomes Momentum. Surplus grants no otherwise prohibited upgrade or bypass of Site/Region clocks (Module A.1). *Over the limit:* at scene end the GM gains 1 Woe per extra cypher and may roll Volatile (d12): 1–4 one fires · 5–8 one is ruined · 9–12 nothing yet.]
 
     sec([Artifacts], sub: [Module A · attune to 2 at most])
     for k in range(2) {

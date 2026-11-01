@@ -69,7 +69,7 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
     table.hline(),
     [1], [Fine clothes for court], [Formal wear & accessories], [Holo-fashion wardrobe],
     [1], [Disguise kit & wigs], [Disguise kit & fake IDs], [Holo-disguise emitter],
-    [1], [Purse of gold --- #emph[money talks] (1 use per mission: Create tag #emph[bribed];)], [Credit card --- #emph[money talks] (same)], [Credit stick --- #emph[money talks] (same)],
+    [1], [Purse of gold --- #emph[money talks] (once per mission, directly establish #emph[bribed] as one rank-1 scene Truth without spending Power. Record who was bribed, the scope of their cooperation and the removal condition. It ends with the scene or earlier if that condition is met)], [Credit card --- #emph[money talks] (same)], [Credit stick --- #emph[money talks] (same)],
     [1], [Bottle of fine wine], [Gift basket / bottle of scotch], [Rare off-world delicacy],
     [1], [Forged seals & papers], [Forged documents], [Spoofed ID chip],
     [1], [Brocaded doublet (light armour)], [Armoured coat (light armour)], [Deflector jacket (light armour)],

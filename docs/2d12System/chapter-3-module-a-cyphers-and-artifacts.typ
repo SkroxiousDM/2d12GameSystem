@@ -51,7 +51,7 @@ Cyphers are frequent, disposable power-ups that encourage players to use them ra
 #strong[Artifact format:]
 
 #quote(block: true)[
-#strong[★ Ember-Brand] (longsword) --- #emph[Tags:] blade of living flame, +1 Attack (conflict gear). #emph[Ability:] spend 1 Power to add #emph[burning] to any status you inflict. #emph[Depletion:] 1 in d12 (goes cold until bathed in a forge). #emph[Quirk:] #emph[cannot be hidden];.
+#strong[★ Ember-Brand] (longsword) --- #emph[Tags:] blade of living flame, +1 Attack (conflict gear). #emph[Ability:] when you inflict a status, spend 1 Power to also inflict a separate #emph[burning-1] status on the same target. Resolve its Resistance, eligible harm reduction and stacking separately. Ordinary conflict Disposition loss alone does not trigger this ability. #emph[Depletion:] 1 in d12 (goes cold until bathed in a forge). #emph[Quirk:] #emph[cannot be hidden];.
 ]
 ]
   

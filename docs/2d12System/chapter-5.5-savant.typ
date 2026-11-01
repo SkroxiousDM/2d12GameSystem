@@ -72,7 +72,7 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
     [1], [Herbalist\'s kit], [Full first-aid kit], [Advanced medkit],
     [1], [Quarterstaff --- #emph[+1 Defend];], [Taser --- #emph[+1 Maneuver];], [Stun baton --- #emph[+1 Maneuver];],
     [1], [Scroll case with maps], [Tablet with offline maps], [Star charts / topographic uplink],
-    [1], [Alchemist\'s reagents (1 cypher-like use: Create smoke, light, or acid)], [Chemistry kit], [Nanite sample kit],
+    [1], [Alchemist\'s reagents (one tier-2 cypher; listed Effect: Create a Truth representing smoke, light, or acid. Use the normal cypher procedure in Module A.1)], [Chemistry kit], [Nanite sample kit],
   )]
   , kind: table
   )

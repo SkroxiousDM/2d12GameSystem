@@ -16,7 +16,7 @@ Your horse is half-machine, tireless, and as stubborn as you. You\'ve crossed de
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Cyborg Steed];], [You own a cyborg horse (vehicle, 0 load) with tags #emph[never tires] and #emph[armoured flank];. Once per scene, it gives free Help on a Ride, Frontier, or Fight roll.],
-    [2a], [#strong[The Charge];], [In the first exchange of a mounted Fight, your Attacks inflict #strong[+1 tier];.],
+    [2a], [#strong[The Charge];], [In the first exchange of a mounted Fight, your successful Attacks gain #strong[+1 Power] that can be committed only to that Attack's Disposition-loss effect; this bonus grants no individual status, cannot buy another Effect and cannot become Momentum.],
     [2b], [#strong[Upgraded];], [Your horse gains one Implant from the Cyborg Hunter list (Frontier Playbooks §8.1).],
     [3a], [#strong[Never Caught];], [In Chases, your side\'s Disposition is #strong[+3];, and changing your scripted action costs 1 Momentum.],
     [3b], [#strong[★ Bond of Steel];], [Your horse becomes a companion that acts on its own in conflicts (one action per exchange, #emph[+1 Attack];), takes its own statuses, and can\'t be Taken Out by minions.],

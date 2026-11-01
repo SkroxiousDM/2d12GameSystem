@@ -41,7 +41,7 @@ Crosses don't burn anything, whatever the stories say. But the rites are older t
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Holy Symbol];], [Your cross creates #emph[Warded] for 1 Power against any vampire who #emph[believes the old stories] (Frontier Rules §8.1). Against other vampires it does nothing, but you and allies who can see it gain +1 Pneuma Edge against fear.],
+    [1], [#strong[Holy Symbol];], [Your cross creates #emph[Warded] as a rank-1 scene Truth for #strong[1 Power];, protecting you and allies close enough to shelter behind the displayed cross, only against vampires who #emph[believe the old stories] (Frontier Rules §8.1). It lasts until the scene ends or you stop displaying the cross. Against other vampires it does nothing, but you and allies who can see it gain +1 Pneuma Edge against fear.],
     [2a], [#strong[Consecrate];], [In a scene of prayer, bless water or blades. The old rites call for silver in the water: blessed water and blades count as #emph[silvered] (Frontier Rules §8.1) for the mission.],
     [2b], [#strong[Last Rites];], [Once per scene, every ally who can hear your prayer restores 2 Pneuma, and Resists fear with Edge +1 until the scene ends.],
     [3a], [#strong[Faith Unbroken];], [When you Resist fear, Presence or despair with Pneuma, the cost is #strong[0 on a highest die of 5+];.],

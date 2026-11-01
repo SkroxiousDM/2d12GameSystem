@@ -313,7 +313,7 @@ Use with Core Rules §9.2.
     [#strong[The Old Door]], [2], [The vampire leaves through a way only its bloodline can open, or a passage nobody knew was there],
     [#strong[Kennel and Guardians]], [2], [Trained animals, mutant creatures or old-world guardians that answer to it arrive as a minion group],
     [#strong[Uncanny Speed]], [1], [The vampire acts first or changes its scripted action for 1 Woe (instead of 3). Not at Blood Debt 4+],
-    [#strong[The House Answers]], [3], [Requires #emph[Their Own House]. Create a facility Truth (#emph[Shifting Halls], #emph[Sealed Doors], #emph[Lights Fail], #emph[Gravity Fails])],
+    [#strong[The House Answers]], [3], [Requires #emph[Their Own House]. Create one rank-1 scene Truth (#emph[Shifting Halls], #emph[Sealed Doors], #emph[Lights Fail], #emph[Gravity Fails]). Establish the affected part of the facility and its removal condition when used. It lasts until the scene ends or its removal condition is met, whichever comes first. This purchase includes no higher rank, extended duration or Site-Truth change.],
     [#strong[Blood Reserve]], [3], [Once per session, if blood is at hand (stored, a donor, a victim), a #emph[broken] vampire feeds and recovers 2 tiers of physical status. It leaves evidence],
     [#strong[Weather Turns]], [2], [Create a weather Truth for the scene; requires old weather works nearby],
     [#strong[Retainer]], [3], [A significant retainer or ally arrives],

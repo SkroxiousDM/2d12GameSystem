@@ -121,7 +121,7 @@ Old-world machines and relics use #strong[Module A --- Cyphers & Artifacts].
     align: (auto,auto,auto,auto,),
     table.header([d12], [Cypher], [Tier], [Effect],),
     table.hline(),
-    [1], [True-light capsule], [4], [Attack (#emph[Sun-Sick] +2) against one vampire; a killing method only against a husk],
+    [1], [True-light capsule], [4], [Apply #emph[Sun-Sick] +2 to one vampire; in conflicts, this replaces ordinary Attack Disposition loss. This fixed activation uses the capsule's entire tier-4 output and generates no surplus Power or Momentum. A killing method only against a husk],
     [2], [Blood ampoule], [3], [Restore 3 Sōma; a dhampir also loses 2 Thirst],
     [3], [Mist grenade], [3], [Create #emph[Thick Mist] for a scene],
     [4], [Gravity disc], [4], [Create #emph[Weightless] in a small area, or carry a heavy load as light],

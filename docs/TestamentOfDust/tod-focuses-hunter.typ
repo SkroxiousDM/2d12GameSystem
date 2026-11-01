@@ -41,7 +41,7 @@ A Hunter is a professional. You take the job, you finish it, and you get paid.
     table.hline(),
     [1], [#strong[Professional];], [At the start of each contract, the party gains #strong[+1 Momentum];. Once per contract, ask a free Discover: \"What isn\'t the client telling us?\"],
     [2a], [#strong[Beat the Competition];], [When rival Hunters race you for a bounty (Frontier Rules §10.4), their project clock ticks #strong[1 less] each World Turn, and you gain +1 Advance on any roll that gets ahead of them.],
-    [2b], [#strong[Bring Them In Alive];], [Your Attacks can inflict #emph[subdued] instead of harm. A target Taken Out by #emph[subdued] is captured, and a living quarry is worth #strong[one step more] bounty.],
+    [2b], [#strong[Bring Them In Alive];], [Your Attacks outside conflicts can inflict #emph[subdued] instead of physical harm; a target Taken Out by #emph[subdued] is captured alive. In conflicts, you may declare taking the quarry alive as your side's intent. Resolve your Attacks with normal shared Disposition loss: this ability grants no individual status or automatic participant removal. If your side wins and achieves that intent, the quarry is captured alive, subject to the established stakes and normal compromise. A living quarry is worth #strong[one step more] bounty.],
     [3a], [#strong[My Reputation Precedes Me];], [Your reputation tag (Frontier Rules §10.3) counts as a free extra tag in Negotiation, adding up to #strong[+1 above the normal +2 cap (maximum +3 from tags)];. Clients always pay half up front.],
     [3b], [#strong[★ The Big Score];], [Once per session, when you complete a contract, choose one extra reward: an artifact from the quarry\'s hoard, a Region Truth in your favour, or a second #emph[vampire\'s bounty];.],
   )]
@@ -64,10 +64,10 @@ Not every monster is a vampire. Sand sharks, werewolves, mutant spiders, old-wor
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Beast Lore];], [Once per scene, Discover a monster\'s weakness tag (not a vampire\'s) without rolling.],
-    [2a], [#strong[Baited Trap];], [Spend 1 Power to Create #emph[Baited Trap];. A beast that enters it is #emph[Impeded] until it breaks free (an Athletics roll vs. Hard 18).],
+    [2a], [#strong[Baited Trap];], [Spend 1 Power to Create #emph[Baited Trap];. A beast that enters it suffers the Maneuver's Impede effect: #strong[−3 on its next roll];. This imposes no individual status and does not restrain the beast until it escapes.],
     [2b], [#strong[Harvest];], [After killing a monster, spend a scene to harvest it for one cypher (tier 2--3) that matches its power: venom, hide, a gland, an eye.],
     [3a], [#strong[Bane of Beasts];], [Your Attacks against monsters outside conflicts inflict #strong[+1 tier];. During conflicts, your successful Attacks against monsters gain #strong[+1 Power] that can be committed only to that Attack’s Disposition-loss effect; this bonus grants no individual status, cannot buy another Effect and cannot become Momentum.],
-    [3b], [#strong[★ Monster-Slayer];], [In Fights against monsters (not vampires), the enemy\'s Disposition starts #strong[−3];, and minion beasts flee after your first successful Attack.],
+    [3b], [#strong[★ Monster-Slayer];], [In Fight conflicts, reduce the opposing side's starting shared Disposition by #strong[3] if that side includes a monster other than a vampire. Apply this reduction once, regardless of how many qualifying monsters participate; vampires on the same side do not prevent it. Normal setup ordering and the minimum-1 floor apply. Minion beasts flee after your first successful Attack.],
   )]
   , kind: table
   )
@@ -90,7 +90,7 @@ A vampire took your family, your village, or your life as it was. You\'ll find i
     [1], [#strong[The One];], [Name your vampire. You always know when you\'re within a day\'s ride of it, and once per session ask a free Discover about it.],
     [2a], [#strong[Cold Fury];], [When you Resist the named vampire\'s Presence, intimidation or fear, the cost is #strong[0];.],
     [2b], [#strong[Nothing Held Back];], [When you burn a tag against the named vampire or its servants, gain #strong[+2 Power] instead of +1.],
-    [3a], [#strong[Its Servants Die First];], [The named vampire\'s servants and retainers start conflicts against you with #strong[−2 Disposition];.],
+    [3a], [#strong[Its Servants Die First];], [In conflicts against you, reduce the opposing side's starting shared Disposition by #strong[2] if that side includes a servant or retainer of the named vampire. Apply this reduction once, regardless of how many qualifying servants or retainers participate, even if the named vampire or unrelated opponents also participate. Normal setup ordering and the minimum-1 floor apply.],
     [3b], [#strong[★ This Ends Tonight];], [When you face the named vampire, gain a free bonus die on every roll against it, and killing strikes against it are #strong[one step easier] (−3 Difficulty; Frontier Rules §5.2). This reduction stacks with other applicable killing-strike reductions. If it escapes you, gain a Pneuma Scar.],
   )]
   , kind: table

@@ -98,6 +98,45 @@ Add an entry under `## [Unreleased]` in [`CHANGELOG.md`](CHANGELOG.md). Use a he
 - **Tone:** rules are short and procedural. Flavour can be more literary, but it should still be brief and help at the table.
 - **Canadian spelling** (the documents set `region: "CA"`): stabilise, armour, colour.
 
+### Large Markdown documents
+
+For any `.md` file larger than 25 KB (25,000 bytes), review whether it
+should use a small GitHub-readable index plus smaller linked content
+files. This structure is recommended to reduce truncation risk in
+connector and AI-assisted workflows and make bounded edits easier to
+review. Smaller files do not guarantee complete tool responses.
+
+- Keep the existing entry-point filename where practical. Use relative
+  Markdown links; do not depend on unsupported inline include directives.
+- Aim for content files of approximately 5–10 KB, allowing larger files
+  where necessary to keep a complete subsection, table, list or procedure
+  together. Keep the index small.
+- Partition at existing headings. Preserve original wording, section
+  numbers, identifiers and document order; preserve chronology for
+  histories, changelogs and playtest records.
+- Choose names that reflect the document's role. Do not label controlling
+  decisions or maintained reference material as historical merely because
+  they have been split.
+- Keep scope, precedence, supersession and visibility guidance available
+  when a reader opens an individual file. Clearly separate any new
+  navigation or context wrappers from preserved source text.
+- Verify preservation mechanically. Concatenating the original content
+  bodies in order must reproduce the pre-migration source byte for byte.
+  If wrappers are added, record their exact boundaries and verify body
+  hashes separately.
+- Review incoming links, heading anchors and relative paths. Provide
+  forwarding entries or update affected current references where needed;
+  do not silently rewrite historical references.
+- Keep structural migrations separate from rules changes, status
+  reconciliation and new completion claims. If migration is staged,
+  retain the original entry point until every replacement record is
+  present and verified.
+
+The threshold prompts review, not automatic splitting. Respect the
+existing restrictions on archives and historical drafts; partitioning
+those files requires an explicitly agreed scope. Generated files or
+documents with tooling dependencies may need a different approach.
+
 ### Typst
 
 - Each book is assembled from a Typst entry point and included chapter or fragment files. Follow the entry point's `#include` and `#import` statements to locate the passage you need to change. Edit that passage in its existing source file; change the entry point only when its own content, assembly order or includes need updating. Preserve the existing helper imports and scope, and use the established helpers (`#chapter`, `#sidebar`, `#playbook-art-side`, `#figure(table(...))`) instead of formatting by hand.

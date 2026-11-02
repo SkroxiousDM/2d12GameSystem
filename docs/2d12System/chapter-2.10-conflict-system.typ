@@ -253,8 +253,8 @@ When a side's defeat at 0 Disposition becomes final, settle the conflict's outco
     table.hline(),
     [Full or nearly full], [None or trivial],
     [Half or more], [Minor --- loser gets a small concession; winner takes a tier-2 status],
-    [Less than half], [Significant --- loser gets part of its intent; winner takes tier-3 statuses or loses gear],
-    [1--2 points], [Major --- near pyrrhic victory; tier-4 statuses, a lost ally, or a new danger clock],
+    [¼ or more, but less than ½], [Significant --- loser gets part of its intent; winner takes tier-3 statuses or loses gear],
+    [Less than ¼], [Major --- near pyrrhic victory; tier-4 statuses, a lost ally, or a new danger clock],
   )]
   , kind: table
   )

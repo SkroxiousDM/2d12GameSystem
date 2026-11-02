@@ -3,7 +3,7 @@
 Status: Integrated and amended in the core Typst sources on `boss-phases-fixed-thresholds` (`9c89972`, companion conflict-procedure changes in `c07ea90`). This design document mirrors that branch's integrated rules; it is not evidence of a merged, compiled or playtested release.
 
 Current rules sources:
-- `docs/2d12System/chapter-adversaries.typ` §§6.1, 6.5, 6.10 and 7.1.
+- `docs/2d12System/chapter-adversaries-part-2.typ` §§6.1, 6.5, 6.10–6.12 and 7.1, included by `chapter-adversaries.typ`.
 - `docs/2d12System/chapter-2.10-conflict-system.typ` §§10.10 and 10.14.
 
 The integrated source takes precedence if this design summary diverges.
@@ -76,7 +76,7 @@ Record a new phase reference only when a genuinely new conflict begins. Changing
 
 ## Remaining verification
 
-- Fail-safe timing remains open.
-- Quick Reference reconciliation and the broader active-source sweep remain pending.
+- Fail-safe's final-defeat timing was selected and implemented in `954b71e`, in the Guardian Special row and Adversaries §6.11. It is not an unresolved timing decision.
+- Scoped Quick Reference coverage of Boss Phases, Last Stand and Fail-safe was implemented in `a89ec97`. Broader active-source/reference clearance and rendered Quick Reference verification remain outstanding.
 - No current-branch Typst compilation, PDF rebuild, layout verification or playtest validation is claimed.
 - Numerical recalibration and fight reruns remain deferred.

@@ -1,250 +1,27 @@
 # Changelog
 
-All notable changes to the 2d12 Game System will be documented here.
-
-Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Dates are ISO 8601 (YYYY-MM-DD).
+This file is the changelog entry point. Existing entries have been moved verbatim into the numbered files below, preserving their original document order and release classification.
 
 ## [Unreleased]
 
-### Changed and clarified — Residual Phase 1 abilities, items and Specials (2026-11-01)
-- P1: Monster-Slayer and Its Servants Die First apply their setup reduction once to the opposing side's starting shared Disposition when that side includes a qualifying participant, including mixed sides. Normal setup ordering and the minimum-1 floor apply.
-- P2: Deadly Precision and Strike While It Sleeps preserve outside-conflict half-price Attack effects. In conflicts, p committed Power removes 2p + 1 shared Disposition, with the +1 applied once and no individual status or additional Power for other Effects. The Stalker's separate killing-strike reduction remains.
-- P3–P4: Bring Them In Alive uses capture-alive intent and normal conflict loss, preserving outside-conflict subdual and the bounty benefit. Baited Trap uses the Maneuver's −3 next-roll Impede effect instead of a persistent restraint or Athletics escape roll.
-- These six ability replacements are implemented in `1bace6c`. That commit also accidentally shortened Furcifer's signature-equipment alignment tuple; `26f11c5` restores exactly that line. The initial commit is not a clean six-line-only diff.
-- IS-01: moved the Bounty Veteran's Attack from Volley 2 to Volley 3 in Frontier Opposition §16.6, leaving one opposition actor per volley (`c1af5f0`; exactly two lines replaced).
-- IS-02: added Adversaries §6.12 deferred Special injury settlement (`8f1a825`; 17 lines added) and linked Feed and Shock Field (`297e512`; two rows replaced). Each qualifying paid activation records a separate tier-2 application, resolved at conflict end regardless of outcome after any Last Stand deferral. Pending records are not statuses. Resolve eligible Resistance/reduction and stacking separately before ordinary compromise credit; existing injuries cannot discharge the applications, but injuries actually remaining may satisfy ordinary compromise costs. Concessions cannot waive the pending effects; they remain resistable imposed effects. Fail-safe's separate procedure is unchanged.
-- IS-03: Venom / Infection now records deferred poisoned-2 on a successful conflict Attack, without a second compromise application. Outside-conflict poisoning and progression after actual infliction remain (`b969a14`; one row replaced).
-- IS-04: The House Answers creates one rank-1 scene Truth with explicit facility scope and removal condition, ending at scene end or earlier removal; its purchase includes no higher rank, extended duration or Site-Truth change. Listed Woe cost and prerequisite remain (`fff09c9`; one row replaced).
-- IS-05a–c: Interlocutor's bribery item directly grants a once-per-mission rank-1 scene Truth without Power; Savant's reagents are an actual tier-2 Create cypher; Ember-Brand's 1-Power rider inflicts a separate burning-1 status when a status is inflicted, not from ordinary conflict loss (`21eb5f6`; three lines replaced across three files).
-- IS-05d: the tier-4 true-light capsule applies fixed Sun-Sick +2 to one vampire instead of ordinary conflict Attack loss, using its entire output with no surplus Power or Momentum; the husk-only killing-method restriction remains (`55728a9`; one row replaced).
-- Complete commit diffs for these source changes and the alignment correction were inspected. All approved P1–P4 and IS-01–IS-05 source replacements are complete within scope, not exhaustive reference clearance or Phase 1 closure.
-- No Typst compilation, PDF rebuild, rendered-layout verification, numerical recalibration or playtest validation was performed. Older supplemental-record and status reconciliation remains separate; historical entries below are preserved.
+New Unreleased entries belong here, above the history links. The linked Unreleased records remain unreleased; moving them does not publish a release or mark an audit complete.
 
-### Clarified — Frontier Attack bonuses and Sun-Sick precedence (2026-10-31)
-- Awaken the Blood's physical-status cap does not block the full-day Sun-Sick advance from tier 5 to tier 6 under Frontier Rules §7.1 (`57e9bfd`). The closing Typst figure delimiter accidentally removed in that commit was restored separately in `aa06849`.
-- Awaken the Blood, Knows How They Die, Full Transformation, Serum and Killing Ground retain +1 status tier on eligible Attacks outside conflicts. During conflicts, their eligible successful Attacks instead gain +1 Power restricted to that Attack's Disposition-loss effect.
-- The Charge uses the same restricted +1 Power during the first exchange of a mounted Fight; it gains no outside-conflict benefit.
-- This bonus Power grants no individual status, cannot buy another Effect and cannot become Momentum. Existing target restrictions, activation conditions, durations, costs and other benefits remain.
-- Ability conversions implemented in `27f9818` and `327041f`. Both diffs were inspected: six ability lines replaced across five source files, with no unrelated changes.
-- These scoped source fixes do not close Phase 1 or the broader Frontier sweep. No Typst compilation, PDF rebuild, layout verification or playtest validation is claimed.
+### Existing Unreleased records
 
-### Fixed — Reference-sweep contradictions (2026-10-31)
-- Core Rules §14.1 design notes now describe the current Disposition setup formula and modifier ordering instead of prescribing the superseded double-halving model. Adjacent Attack/Feint and Superiority notes no longer use the approximately-6 starting track as the current baseline. Earlier simulation figures are retained as historical results; numerical recalibration and fight reruns remain deferred to Phase 4.
-- Frontier Rules §15 design notes now describe Bled-6 as Taken Out and a Scar, with the core three-segment Dying clock when lethal stakes permit, rather than immediate death. The note also identifies Bled's existing penalty, recovery and transfusion exceptions and distinguishes the Thirst's separate rules. The underlying Frontier procedures are unchanged.
-- Heals the Broken, Tier 3b: Physician's Care now reads, “Allies you treat during a rest recover all pool points.” Replaced the undefined “short rest” trigger and obsolete “1 + Edge” comparison with the designer-selected wording. No additional treatment restrictions, status healing, Scar removal or rest-cycle reset were added.
-- Source corrections implemented in `fe510ba`. The commit diff was verified: five lines replaced across three files, with no unrelated changes.
-- These fixes resolve three identified active-source contradictions, not the broader reference sweep or Phase 1. No Typst compilation, PDF rebuild, layout check, numerical recalibration or playtest validation is claimed.
-
-### Clarified — Major-ability acquisition prices (2026-10-31)
-- Core Rules §4.1, the compact §11 Playbooks summary and the Frontier Playbooks overview now explicitly distinguish the first playbook ability's additional-slot exemption from the Major surcharge, and state that a Major creation extra costs 2 Refresh total (`0f5f93a`).
-- The setting introduction's Major notation and character-sheet Playbook Abilities reminder now state the same totals and preserve the separate veteran surcharge (`ad7e9e5`). Ordinary creation extras cost 1 Refresh; a first Major playbook ability costs 1 Refresh; minimum Refresh remains 1.
-- Own-playbook advancement Majors still cost an Advance and 1 Refresh; veteran Majors cost an Advance and 2 Refresh total. Focus prices and tier access, capstone requirements, artifact costs and ability effects are unchanged.
-- Phase 1 implementation tracking records these five scoped wording fixes as complete in source, not an exhaustive reference sweep or Phase 1 closure. Historical playtest arithmetic is preserved; superseded ruling R2 is not reinstated.
-- Both source commit diffs were reviewed. No Typst compilation, PDF rebuild, character-sheet layout check or playtest validation is claimed; the longer sheet reminder still needs build and layout verification.
-
-### Changed — Boss phases and one-volley Last Stand (2026-10-30)
-- Adversaries §7.1 uses fixed thresholds based on the side's final starting shared Disposition after setup modifiers and Superiority. Half and Desperate are rounded down; phase checks follow volley resolution and defeat checks.
-- Boss Special availability now follows the Opening/Half schedule: 1 Special = 0/1; 2 = 1/1; 3 = 1/2; 4 = 2/2. Reveals do not waive costs or restrictions.
-- Desperate uses Weak for Defend and adds +2 to the designated Best action. A Defend-best boss therefore uses Weak +2.
-- Command ends when its Leader stops participating; Half grants no additional Command bonus.
-- Reinforcements increase current and starting shared Disposition, raising the recovery cap without changing phase references or reversing activated phases.
-- Last Stand grants one additional volley at 0 shared Disposition for 2 Woe, once per side per conflict, without stacking or restoring Disposition.
-- Added the Iron Marshal worked example and supporting setup, checklist and conflict-resolution edits (`9c89972`, `c07ea90`).
-- Restored Hedge Adept Guard +1 after a transcription error (`7dfc168`).
-- Source integration is complete on `boss-phases-fixed-thresholds`; Fail-safe review, Quick Reference reconciliation, compilation, PDF rebuilding, layout checks and playtesting remain outstanding.
-
-### Documentation — Phase 1 decision reconciliation (2026-10-30)
-- Reconciled the controlling decisions with the implemented Rank/status killing-strike procedure, Bled and transfusion rules, selected setting Descriptor names, boss phases and Last Stand (`2ac0a32`).
-- Recorded the current starting-Disposition formula: roll / 3 rounded down, then helpers and flat modifiers at full value; minimum 1 before Superiority. This supersedes the 2026-10-18 double-halving formula.
-- Recorded Superiority's ability to reduce starting Disposition to 0. PC/opposition symmetry, opposition eligibility and simultaneous-zero setup remain unresolved.
-- Marked the boss-phase design draft as integrated and amended on the review branch.
-- This documentation pass does not complete the active-source sweep, setting-neutrality work, build verification, numerical recalibration or playtesting.
-
-### Changed — Bled, recovery abilities and split character sheet (2026-10-30)
-- **Frontier Rules §6:** Bled is a physical injury with explicit penalty and natural-recovery exceptions. Bled-4/5 impose −4/−5 on Sōma and Mētis rolls; tier 4 no longer makes unrelated harm automatically Take you Out. Only Bled-6 uses core Dying, subject to lethal stakes, with a three-segment clock and a Scar instead of immediate death; the tier-5 scene-end death deadline is removed (commit `bf4a32b`).
-- **Transfusion:** retains Standard 15, one tier removed per Power and donor Bled-1; explicitly bypasses the ordinary one-tier treatment limit and treated restriction. Suitable transfusion can provide definitive care at Bled-6. Clear the Dying clock when Bled drops below 6 and its immediate lethal cause ends; no pool refill or Scar removal.
-- **Related abilities:** Treat the Bled makes stabilising Dying from Bled Standard 15 instead of Hard 18 and retains kit-free transfusion; obsolete treatment-frequency wording removed. Not on My Table retains its tier-5 rescue and wakes the patient after 10 minutes of safe care. Field Armourer repairs take 10 minutes with suitable tools and access. Field Surgeon and Give of Yourself's tier-5 ceiling are unchanged (commit `bb1f9bb`).
-- **Character sheet:** Frontier insert split into `docs/TestamentOfDust/tod-character-sheet-page.typ` and connected to the main sheet with explicit helper scope, preserving Mētis terminology. Bled table, recovery and transfusion reminders updated; the core pool-0/half-max-return note replaced by running dry (commit `3954cea`).
-- Phase 1 tracker records these scoped source edits as complete. Grind wording, remaining recovery-reference sweep and controlling-decision reconciliation remain pending. No Typst compilation, PDF rebuild, split-sheet or expanded-panel layout verification, or playtest verification is claimed.
-
-### Changed — Setting-neutral downtime reputation guidance (2026-10-30)
-- **Module D.6a:** replaced the Frontier milestone citation with generic character-growth or setting-rule guidance for reputation tags; D.4 Connect does not grant such a tag by itself. An explicit tag-cap exception applies only within its ability's stated scope.
-- Retained the generic Bellator capstone *Legend of the Field* as the Campaign Truth example, and removed the setting-specific *My Reputation Precedes Me* and *A Name the Kept Know* examples from core. The previously clarified contact Truth distinction remains unchanged (commit `d4fdb5f`).
-- Phase 1 tracker marks D.6a's setting-neutrality revision complete. Other setting-neutrality and Truth-layer questions remain open; no new reputation-award procedure or broad capstone exception is introduced. No Typst compilation, PDF rebuild, layout check or playtest verification is claimed.
-
-### Changed — Downtime contact Truth clarification (2026-10-30)
-- **Module D.4 Connect:** added a cross-reference to D.6a for contact Truths.
-- **Module D.6a:** a contact Truth describes a relationship with a named person; state what that relationship makes possible and whom it concerns. It does not by itself grant a reputation tag or change faction Standing (commit `d44c38e`).
-- This scoped contact Truth clarification remains complete; broader D.6a setting-neutrality was completed separately in `d4fdb5f`. No new duration, rank, discount or guaranteed service is introduced, and deferred Truth-layer questions remain unresolved.
-- No Typst compilation, PDF rebuild, layout check or playtest verification is claimed.
-
-### Changed — Frontier vampire killing strikes (2026-10-30)
-- **Frontier Rules §5.2:** Killing-strike Difficulty now scales by vampire Rank: Minor 18, Established 21, Great 27, Paramount 30. Reduce it by 3 for each tier of the target's highest negative status, with no minimum; eligible ability reductions stack.
-- A successful strike destroys the named vampire. Failure brings a significant complication; players may give the GM 2 Woe to buy it off. Buying off the complication does not turn the failed strike into a success. Failure does not automatically impose a Significant compromise.
-- **Frontier Rules §8.1:** Beheading follows the common killing-strike procedure, with no tier-4+ status prerequisite. Sustained fire requires a vampire to be broken at physical status tier 5; the husk exception remains. Staking remains separate. Killing-strike ability reductions do not apply to staking unless an ability explicitly says they do.
-- Updated affected Frontier playbook, Focus and gear references to use the new procedure, including staking references for stake-capable ranged weapons (commit `b2ec517`).
-- Killing-strike procedure implemented in `09ae687`; method-table and general stacking reconciliation in `2aa4f5d`. No Typst compilation, PDF rebuild or playtest verification is claimed.
-
-### Removed — Legacy subsystem from active rules (2026-10-30)
-- **Core Rules §§6.7–6.8:** removed the include that activated draft §6.9 Legacy and replaced the death-trigger cross-reference with a reminder that death creates no separate points or automatic Truth. The Dying clock, Scars, permanent harm and ordinary fictional remembrance are unchanged (commit `21dabc1`).
-- **Historical draft:** `docs/2d12System/drafts/legacy-pool-6.9.typ` is retained with an explicit retired-status header; its Legacy Pool, death-triggered points, spend menu, optional Keepsake and Echo are not active rules (commit `9f15041`). The drafts README now distinguishes active and retired fragments (commit `12509ff`).
-- The four-currency pillar remains pools, Tychē Points, Momentum and Woe. Echo and other Region/Campaign Truth exceptions remain playtest questions; no free Truth rule replaces Legacy. The active-source reference sweep and current-branch Typst/PDF verification remain outstanding. Earlier entries below are historical records, not current rules.
-
-### Changed — Compels from any tag; scope and removal for statuses and Truths (2026-10-25)
-- **Core Rules §4 Tychē Points:** any character tag (power, weakness or Scar), Belief or Instinct can justify a compel. New *Compels* subsection: the complication must be meaningful, the offer must be clear before acceptance, and a compel adds no numerical penalty, can't cancel a resolved success, and doesn't pay for an existing penalty.
-- **Core Rules §3.4 Tags:** reminder that power tags can be compelled and keep their normal benefits.
-- **Core Rules §5.1 Statuses:** new statuses record a scope and a removal condition. *What it hinders* now refers to the recorded scope and forbids broadening it.
-- **Core Rules §8 Truths:** new Truths (or existing facts that first matter mechanically) state a scope and a removal condition. A removal condition never extends a Truth's duration.
-- **Core Rules §5 Effects table (Create):** a scene Truth may end sooner when its removal condition is met. The extra Power now makes it last until its removal condition is met.
-- Removed the forced page break after the §5 Effects table so the section flows under it. PDF rebuilt (61 → 62 pages).
-- **Character sheet:** the power-tag label notes that power tags can be compelled; the Tychē *Earn* line covers meaningful compels on any tag, Belief or Instinct; the Statuses note asks you to record each status's scope and what ends it. Layout unchanged; PDF rebuilt.
-
-### Changed — Attack and Feint remove Power + 1 (2026-10-20)
-- **Core Rules §10.6:** a successful Attack or Feint applying its default Disposition-loss effect removes Disposition equal to the Power committed, **plus 1**. The +1 is Disposition loss, not extra Power; eligible injury trades apply afterward (§10.9). Ability bonuses (*Crowd Work*, *Every Trick in the Book*) stack unchanged.
-- Conforming edits to the §4 Effects table (Attack row), the §10.6 actions table (Attack and Feint rows), §10.7 Shared Disposition, §10.14 Order of Resolution step 5, the Design Notes and the Quick Reference Damage Cycle box.
-- Applies to `docs/2d12System/the-2d12-system-v2-core-rulebook.typ` (replaces PR #25, which targeted the archived master rulebook). PDF rebuilt.
-
-### Changed — Master rulebook split into two books (2026-10-19)
-- **New core rulebook:** `docs/2d12System/the-2d12-system-v2-core-rulebook.typ` (+ PDF). Holds the Introduction, Core Rules, Optional Modules, Generic Descriptors, Generic Playbooks, Generic Focuses and the Quick Reference. Neutral visual style (charcoal, navy and pewter; Source Sans 3 headings; d12 motif) replaces the gothic cover and chapter art.
-- **Setting references removed from core:** afflictions, killing strikes, special creatures, Bled and Disposition modifiers now refer to setting rules in general terms ("creature rank" instead of "vampire rank"); the Optional Modules epigraph, Descriptor and Playbook blurbs no longer point to Frontier chapters; random-table "Frontier camp" is now "Remote camp". The Quick Reference "Day and Night" box is replaced by "The Four Currencies".
-- **New setting book:** `docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ` (+ PDF). Requires the core rulebook. Chapters renumbered: I Introduction, II Frontier Rules, III Frontier Descriptors, IV Frontier Playbooks, V Frontier Focuses, Appendix Frontier Quick Reference (Day and Night, Frontier skills, vampire Woe spends). Introduction explains that references to Core Rules, Optional Modules and the Generic chapters point to *The 2d12 System*, and recommends all three Optional Modules.
-- Generic playbook art moved to `docs/2d12System/art/playbooks/generic/`.
-- Old master rulebook source and PDFs moved to `docs/Archive/TestamentOfDust-master-v2/` (no longer maintained; art paths not updated there).
-- Markdown editions and character-sheet header updated to point at the new files.
-
-### Added — Superiority (2026-10-18)
-Historical entry: the minimum-1 restriction on Superiority is superseded by the Phase 1 ruling recorded above. The original implementation description below is retained as history.
-
-- **New Core Rules §10.3 Superiority:** gain 1 Superiority each for Know Thy Foe, Know Thy Battlefield and Know Thy Players (maximum 3). After starting Disposition and all other modifiers, reduce the opposing side's starting Disposition by your Superiority, to a minimum of 1. The adjusted value counts as starting Disposition for recovery and compromise. Not tracked or spent once the conflict begins.
-- Setup (§10.2) gains a Superiority step; Order of Resolution, Quick Reference and Known Risks updated.
-- Core conflict sections §10.3--10.14 renumbered to §10.4--10.15, with all core cross-references updated. Frontier Rules §10.3--10.5 references are unchanged.
-
-### Changed — Shared Disposition (2026-10-18)
-Historical entry: the double-halving formula, flat-modifier ordering and injury-trade version of Interpose below are superseded by the current Phase 1 rules. The shared-side Disposition principle remains; consult current Core Rules for its procedure.
-
-- **Starting Disposition halved (§10.2):** after the usual roll, halving and helpers, halve the total again (round up). Typical range is now 4--7 instead of 7--12; §10.14 and Known Risks updated to match.
-- **Flat starting bonuses before the second halving (§10.2):** flat bonuses and penalties to starting Disposition (abilities, vampire rank, conditions) are added before the final halving, so they keep roughly their old weight. Minimum starting Disposition is 1.
-- **New Core Rules §10.6 Shared Disposition:** each side has one Disposition total, not divided among participants. Attacks and Feints reduce the opposing side's total; Defend restores your side's. Ordinary loss doesn't inflict statuses, drain Pools or remove individuals. A side loses at 0 or when none of its participants can continue. One injury trade per Attack or Feint.
-- Conflict sections §10.6--10.13 renumbered to §10.7--10.14, with all cross-references updated.
-- Conforming edits to §6.3, §6.4 (Taken Out, forfeiture removed, getting back in), §6.6, §10.2, §10.5, §10.8, §10.9, §10.12, Riposte, the Quick Reference and Known Risks.
-- Record: `docs/TestamentOfDust/design/shared-disposition-master-text.md`.
-- **Revised for the shared track** (master and `focuses.md`):
-  - *Interpose:* when you accept an injury trade against an Attack or Feint, cancel 1 additional loss, up to the loss inflicted.
-  - *Overwatch:* you may Defend with Shoot when covering fire can protect your side.
-  - *Battlefield Surgeon:* you may Defend with Medicine when you can reach and treat an ally; a successful Defend restores Disposition normally and clears one tier-1 harmful status your treatment can address.
-
-### Changed — Testament of Dust rebrand (2026-10-16)
-- **Rulebook rebranded to *Testament of Dust*:**
-  - Cover: title, tagline *Post-Apocalyptic Frontier Gothic*, and the motto *Roads through a broken world. Blood behind every bargain.*
-  - Credits: original-setting notice replaces the fan-adaptation notice.
-  - Running header (`TESTAMENT OF DUST · 2D12 V2`), PDF metadata and the Introduction text.
-  - The character sheet's Frontier insert.
-  - The last references to Vampire Hunter D are removed.
-- **Renamed:**
-  - `docs/HollowFrontier/` → `docs/TestamentOfDust/`
-  - `vampire-hunter-d-2d12-v2-master-rulebook.*` → `testament-of-dust-2d12-v2-master-rulebook.*`
-  - `vhd-*.md` → `testament-of-dust-*.md`
-  - `design/hollow-world-*.md` → `design/testament-of-dust-*.md`
-- **Removed:** the stale `vampire-hunter-d-2d12-v2-master-rulebook-1.pdf` and `2d12-character-sheet-v2-1.pdf` exports from 2026-10-12.
-- Rulebook and character-sheet PDFs rebuilt (Typst 0.15.0, same fonts). Paths in the entries below refer to the folder and file names in use at the time.
-
-### Decided — publishable title (2026-10-16)
-- **Testament of Dust** is the publishable title (Q16). The tagline is unchanged. The decision and its screen are recorded in `docs/HollowFrontier/design/hollow-world-setting-design-document.md` §10.4. The rulebook cover, running header and file names are not rebranded yet, and trademark clearance is still pending.
-
-### Changed — Sends the Mind Abroad (2026-10-16)
-- **Sends the Mind Abroad** rebuilt on an old-world implant that rides surviving works and relays (Q30), instead of astral projection. It senses only through old works that still run, and gets the same open-sky rule as Carries a Passenger: 9+ on a d12 per scene through the moving lights, with a risk of being noticed. Abilities renamed with costs and Power unchanged: Walk Abroad, Feedback, Read What It Saw, Long Wire, ★ Take the Hand.
-
-### Changed — field guide, Order Sidearm, the moving lights (2026-10-16)
-- **Hunters' Field Guide:** classes renamed **Winterers**, **Strays** and **Tapsters** (were the placeholders Sleepers, Get, Sippers).
-- **The moving lights** (Frontier Rules §9.3, new): a few old-world works still cross the night sky. They work under open sky only and can be overheard; Optional Truth 11 adds a watcher.
-- **Carries a Passenger:** out of range and under open sky, roll a d12 at the start of a scene; on 9+ the Passenger can speak and use its abilities that scene, at the risk of being overheard. The default range is unchanged.
-- **Order Sidearm** numbers confirmed as written.
-
-### Changed — Hollow Frontier folder (2026-10-16)
-- `docs/VampireHunterD/` renamed **`docs/HollowFrontier/`**. The setting design document and the *Dark Tower* elements review moved to `docs/HollowFrontier/design/`. File names inside (`vampire-hunter-d-2d12-v2-master-rulebook.*`, `vhd-*.md`) are unchanged until the publishable title is chosen. Paths in older entries below refer to the old folder.
-
-### Changed — Q37-Q41 rulings applied (2026-10-16)
-- **The returned** (Frontier Rules §5.6, new): survivors of a failed making are neither vampires nor dhampirs. NPCs only; a PC who survives a failed making leaves player control (§6).
-- **Carries a Passenger** rewritten and moved from Bloodline to **Old-World Focuses**. The Passenger is now a voice relayed from a fixed old-world home site, with a range. *Devourer* becomes **Override**, *Feed Me, Heal You* becomes **Talk You Through It**, and *Let It Drive* becomes **★ Do Exactly What I Say**. Frontier Focuses 4-9 are renumbered 3-8, and Carries a Passenger becomes Focus 9.
-- **Charter-speech** (Frontier Rules §10.5, new): binding instruments must be written or sworn in it. A flaw is grounds to challenge, not a verdict. Added to the Old Lore skill.
-- **The Order of the Last Guns** and the **★ Order Sidearm** artifact added to Old-World Artifacts (§9.2).
-- **The Hunters' Field Guide** handout added to the Stalker playbook (§2.4), with a cross-reference in the Occultist playbook.
-- `vhd-setting-rules.md`, `vhd-playbooks.md` and `vhd-focuses.md` regenerated from the master, with quotes normalised to ASCII. Master rulebook PDF rebuilt (Typst 0.15.0, same fonts).
-
-### Added — Hollow Frontier design documents (2026-10-16)
-- `docs/HollowFrontier/design/hollow-world-setting-design-document.md`: the Hollow Frontier setting design document, v0.10. Q37–Q41 are resolved as canon: failed-conversion survivors are not dhampirs; no portable Digital Facsimiles; political rule P7 (the formal register for binding instruments); the Order of the Last Guns is placed in a neighbouring province; a hunters' field guide handout goes in the Stalker chapter. Q30 is partly resolved, and the decision log is updated.
-- `docs/HollowFrontier/design/hollow-world-dark-tower-elements.md`: a review of 16 *Dark Tower* elements adapted for Hollow World, with a clearance list. The rulings are applied to the master in the entry above.
-
-### Changed — Hollow Frontier setting lore (2026-10-16)
-- **Frontier Rules (Ch. VII) rewritten** to the Hollow Frontier canon (design doc Appendix B). Vampires are living, blood-dependent people rather than "Nobles": new Threat Ranks (Minor / Established / Great / Paramount), **Hard to Kill** (recovery needs blood), a weekly **Blood Debt** clock and **husks**; **the Bled** (plain blood loss, tiers 1-6) replaces the Kiss; day no longer switches vampires off (Sunlight Syndrome now covers vampires and dhampirs); **killing methods** (beheading, sustained fire) replace banes, with stakes inflicting *staked* and silver blocking recovery; folk remedies work only on vampires who *believe the old stories*; Old-World Works replace Noble science; contracts gain Commissions; Woe spends revised (Presence, Summon the Household, The Old Door, Blood Reserve). The Vampire Hunter D era text (12,090 AD, D himself) is removed from this chapter.
-- **Dhampir Focus reworked** (Appendix A): *Carries the Blood of the Nobility* becomes **Carries Her Mother's Blood** (Mother's Blood, Dhampir Regeneration, Read the Blood, Mother's Key, Awaken the Blood; optional *Knows How They Die*; new Known/Unknown mother table options). The Thirst now drops with a cup of human blood and clears with half a litre; tier 6 is a **Blood Crisis** choice.
-- Dependent entries revised: *Was Kissed and Lived* becomes **Was Kept and Got Out**; *Heals the Kissed* becomes **Heals the Bled**; *Hunts the Nobility* becomes **Hunts the Kept**; *Seeks Revenge on a Noble*, *Bears a Noble Relic*, *Plunders the Castles of the Night* and *Once Served the Nobility* renamed; *Keeps the Old Faith* rebuilt around believers and silvered water; Frontier Doctor *Treat the Bled* and capstone **The Blood Bank**; stake and mirror gear, Bodyguard, Ward Against the Night, Toxic Blood, Little Blood Left, Warden wards and the Quick Reference updated.
-- Global terminology in the setting chapters: Noble → vampire / the Kept, Noble Lore → **Old Lore**, castle → estate, Barbarois → retainers, the Capital → the city (Capital-Born → **City-Born**), dala → mark, the Gaze → Presence, Undying → Hard to Kill.
-- Character sheet Frontier insert updated to match (Bled track, afflicted blood, revised Thirst table, killing methods and gear, day and night).
-- `vhd-setting-rules.md`, `vhd-descriptors.md`, `vhd-playbooks.md` and `vhd-focuses.md` regenerated from the master with pandoc, replacing the v0.1 drafts.
-- Master rulebook and character sheet PDFs rebuilt (Typst 0.15.0, same fallback fonts as the previous build).
-
-### Not yet changed
-- Cover, credits, file names and the "About This Book" text still say *Vampire Hunter D*; the publishable title is undecided.
-- *Sends the Mind Abroad* has only had terminology updates; its basis was still under review (Q30; since rebuilt, see above). *Carries a Passenger* was rewritten in the Q37-Q41 pass.
-- `*-1.pdf` copies of the rulebook and sheet were left as they are.
-
-### Added — Vampire Hunter D master rulebook (2026-10-12)
-- `docs/VampireHunterD/2d12-character-sheet-v2.typ` and compiled `.pdf` — new three-page character sheet built from the master rulebook: two generic pages (pools with Edge, skill pyramid, tags, Tychē, BIG, statuses, Resist, Scars, the four-rest recovery tracker and Hardened, abilities, Focus, XP, load and armour, Cyphers and Artifacts, the Grind and Checks) plus a Frontier insert (Frontier skills and playbooks, wealth, the Kiss, Noble blood with Sun-Sick and Thirst, banes and Hunter's gear, day and night, bounties, Campaign Truths). Styled to match the rulebook.
-
-### Changed — Vampire Hunter D master rulebook (2026-10-12)
-- Pools renamed throughout: **Vitality → Sōma**, **Alacrity → Akmē** (Psychē and Pneuma unchanged). Terminology table corrected; pool shorthand is now *Sōm / Akm / Psy / Pne*.
-- Generic core playbooks renamed throughout: **Bruiser → Bellator**, **Operator → Furcifer**, **Sage → Savant**, **Face → Interlocutor**, **Wayfarer → Explorator** (Adept unchanged). Fixed the Core Rules §11.1 table, which listed Explorator twice; added a playbook-name table to Terminology.
-
-### Removed — Vampire Hunter D master rulebook (2026-10-12)
-- `docs/VampireHunterD/2d12-System--Character-Sheet-v0.2.md` and `.pdf`, replaced by the v2 sheet.
-
-### Added
-- `LICENSE` — project is now released under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
-- `CONTRIBUTING.md` — contribution workflow, style conventions, and licensing notes.
-- `CHANGELOG.md` — this file.
-- Conditions Appendix: **Madness** row added to the Master List, and a clarifying note distinguishing Madness from Irrational.
-- Core Glossary: definitions for 22 previously-blank terms (Concealment, Disguise, Leadership, Resolve resistance, War Magic, Power source, Truth, Fumble, NPC, Role, Culture, Background, Environment, Environmental trait, Morale, Concentration, Immobile, Desperate Action, Deadly, Armour, Evasion, Attack of Opportunity, Fear Check). Also added Action, Alacrity, Courage, Defence, and Madness entries that were referenced elsewhere but never gloss. Each entry now includes chapter cross-references.
-
-### Changed
-- Talents (Ch 6): renamed the second `Duellist` talent (defensive one-handed weapons) to **`Fencer`** to disambiguate from the existing `Duelist` (Advantage + critical-severity bonus). Sub-effects renamed accordingly to `Fencer Feint` and `Fencer Guard`. Mechanics unchanged.
-- Core Glossary: retitled from "Core Glossary Draft" to "Core Glossary"; merged the "Terms left blank" table into the main alphabetical table; corrected the Attribute entry to use **Might (MIG)** per Ch 4 rather than the legacy "Strength" name.
-
-### Fixed
-- Stripped leftover `[file:N]` reference markers from an earlier doc-conversion process across the glossary.
-- Stripped leftover `[1]`, `[2]`, `[3]` footnote markers from drafting passes across Ch 1, 4, 5, 7, 9, 10, 11, 12, 21, 22, the Burning-wheel module, and others.
-- Fixed UTF-8 mojibake (`â€™` → `'`, `â€"` → em dash, etc.) in the Core Glossary.
+1. [Latest Phase 1 entries: 2026-11-01 and 2026-10-31](docs/changelog-history/01-unreleased-latest-phase1.md)
+2. [Entries dated 2026-10-30](docs/changelog-history/02-unreleased-2026-10-30.md)
+3. [Entries dated 2026-10-25 through 2026-10-18](docs/changelog-history/03-unreleased-2026-10-25-to-10-18.md)
+4. [Rebrand and setting history, including the following undated status note](docs/changelog-history/04-unreleased-rebrand-and-setting-history.md)
+5. [Early and undated Unreleased entries](docs/changelog-history/05-unreleased-early-and-undated-entries.md)
 
 ## [0.1.0] — 2026-05-25
 
-Initial public commit of the 2d12 Game System repository.
+- [Original release record](docs/changelog-history/06-release-0.1.0.md)
 
-### Included
-- Resolution Engine (Ch 1)
-- Cultures, Backgrounds, and Roles (Ch 2, 2b)
-- Magic core and four spellbooks: Runic, Oracular, Druidic, Ritualistic (Ch 3, 3.1, 3.2, 3.4, 3.9)
-- Attributes (Ch 4)
-- Skills (Ch 5)
-- Talents (~148 entries) (Ch 6)
-- Fate and Fortune (Ch 7)
-- Resting and Recovery (Ch 8)
-- Falling (Ch 9)
-- Pursuit (Ch 10)
-- Combat (Ch 11)
-- Social Conflict (Ch 12)
-- Connections, Reputation, Favors (Ch 13)
-- Effects and Conditions (Ch 14)
-- Equipment, Armour, Weapons, Adventuring Gear, Wealth & Trade (Ch 15, 15.1, 15.2, 15.3, 15.4)
-- Sanity and Madness (Ch 16)
-- Cults (Ch 17)
-- Downtime (Ch 18)
-- Exploration and Travel (Ch 19)
-- GM Toolkit (Ch 20)
-- Advancement (Ch 21)
-- Investigation (Ch 22)
-- Core Glossary (Ch 90)
-- Conditions Cross-Reference Appendix (Ch 91)
-- Derived Stats Reference (Ch 92)
-- Critical Wound and Fumble tables (`docs/tables/`)
-- Burning-Wheel-style conflict module (experimental, alternate variant)
+## Reading the preserved records
 
+- Read numbered files in order to follow the original changelog sequence. Numbers identify document order, not new release versions.
+- Original dates, undated entries, historical paths and supersession notes are unchanged. Do not infer dates or release status for undated entries.
+- Earlier descriptions may be superseded by later entries or current rules. Moving an entry does not reconcile its historical status wording.
+- The original introduction and formatting note are retained in the first history file.
+- Existing links to individual headings in the former single-file changelog require separate compatibility review.

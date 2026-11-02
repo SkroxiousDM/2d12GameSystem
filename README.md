@@ -33,22 +33,24 @@ The rules come as separate books. The core rulebook is the complete engine. Each
 ├── CONTRIBUTING.md
 ├── CHANGELOG.md
 ├── branch-rulesets/                          GitHub ruleset for main (PRs, conventional commits)
-└── docs/
-    ├── 2d12System/                           Core rulebook
-    │   ├── the-2d12-system-v2-core-rulebook.typ   Source of truth
-    │   ├── the-2d12-system-v2-core-rulebook.pdf
-    │   └── art/playbooks/generic/            Generic playbook art
-    ├── TestamentOfDust/                      Testament of Dust setting book
-    │   ├── testament-of-dust-v2-setting-book.typ  Source of truth
-    │   ├── testament-of-dust-v2-setting-book.pdf
-    │   ├── 2d12-character-sheet-v2.typ / .pdf    Character sheet
-    │   ├── testament-of-dust-*.md            Markdown editions of the Frontier chapters
-    │   └── art/playbooks/                    Frontier playbook art
-    ├── Aetas Obscura/                        Aetas Obscura setting (in development)
-    ├── design/                               Design documents, playtest reports, rule drafts
-    └── Archive/
-        ├── 2d12 Version 1/                   The retired Version 1 rules
-        └── TestamentOfDust-master-v2/        The combined master rulebook from before the split
+├── docs/
+│   ├── 2d12System/                           Core rulebook
+│   │   ├── the-2d12-system-v2-core-rulebook.typ   Source of truth
+│   │   └── art/playbooks/generic/            Generic playbook art
+│   ├── TestamentOfDust/                      Testament of Dust setting book
+│   │   ├── testament-of-dust-v2-setting-book.typ  Source of truth
+│   │   ├── 2d12-character-sheet-v2.typ   Character sheet
+│   │   ├── testament-of-dust-*.md            Markdown editions of the Frontier chapters
+│   │   └── art/playbooks/                    Frontier playbook art
+│   ├── Aetas Obscura/                        Aetas Obscura setting (in development)
+│   ├── design/                               Design documents, playtest reports, rule drafts
+│   └── Archive/
+│       ├── 2d12 Version 1/                   The retired Version 1 rules
+│       └── TestamentOfDust-master-v2/        The combined master rulebook from before the split
+└── pdfs/
+    ├── the-2d12-system-v2-core-rulebook.pdf
+    ├── testament-of-dust-v2-setting-book.pdf
+    └── 2d12-character-sheet-v2.pdf
 ```
 
 The **Typst files are the source of truth**. The Markdown files in `docs/TestamentOfDust/` are editions of the Frontier chapters for reading on GitHub. The v0.2 Markdown in `docs/` and everything in `docs/Archive/` is kept for history and isn't maintained.

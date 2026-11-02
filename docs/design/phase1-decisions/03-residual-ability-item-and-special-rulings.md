@@ -1,0 +1,41 @@
+## 12. Residual playbook, Focus, item and Special rulings (2026-11-01)
+
+Scope: designer-selected P1–P4 and IS-02–IS-05 procedures, implemented on `boss-phases-fixed-thresholds` through source checkpoint `55728a9e46c9fe329d0420488448040eed7a83da`. These finding IDs belong to the residual passes, not the original audit's ID series. IS-01 is an example correction, recorded in the implementation tracker rather than a new rules decision. Earlier checkpoints and broader remaining work are preserved; this section does not reconcile the entire older documentation backlog.
+
+### 12.1 Mixed-side setup penalties (P1)
+
+- Monster-Slayer reduces the opposing side's starting shared Disposition by 3 once in Fight conflicts if it includes at least one monster other than a vampire. Multiple qualifying monsters do not multiply the reduction; vampires on the same side do not prevent it. Preserve minion beasts fleeing after the user's first successful Attack.
+- Its Servants Die First reduces the opposing side's starting shared Disposition by 2 once in conflicts against the user if it includes a servant or retainer of the named vampire. The named vampire and unrelated opponents may also participate. Preserve its existing conflict-type scope.
+- Both follow CD-06's shared-side application model, normal setup ordering and the minimum-1 floor. Neither creates personal shares or per-participant deductions.
+
+### 12.2 Precision Attacks, capture and traps (P2–P4)
+
+- Deadly Precision and Strike While It Sleeps preserve their eligibility conditions and outside-conflict half-price Attack purchases, rounding up. In conflicts, p Power committed to the successful Attack's Disposition-loss effect removes 2p + 1 shared Disposition. Apply +1 once; this purchase grants no individual status, automatic participant removal or additional Power for other Effects. Strike While It Sleeps retains its separate sleeping-vampire killing-strike reduction and explicit stacking statement.
+- Bring Them In Alive preserves outside-conflict subdued statuses and the one-step bounty increase. During conflicts, capture alive is the side's declared intent; Attacks use normal shared loss with no individual status or automatic removal. Capture follows the side winning and achieving that intent, subject to established stakes and normal compromise.
+- Baited Trap retains its 1-Power Create price and beast-entry trigger. It applies the Maneuver's −3 next-roll Impede effect, not a tiered status or persistent restraint. The Athletics-versus-Hard-18 escape requirement is removed. No trap consumption, reuse or repeated-trigger ruling is selected by this wording.
+- Source: `1bace6c`. That commit also accidentally shortened Furcifer's signature-equipment alignment tuple; `26f11c5` restores exactly that line to `align: (auto,auto,auto,),`. Preserve both commits in the history; do not describe the initial diff as six-line-only.
+
+### 12.3 Deferred Special injuries (IS-02–IS-03)
+
+- Feed retains its 1-Woe cost and winning melee versus-Attack trigger; Shock Field retains its 1-Woe cost and PC-losing-melee-versus-roll trigger. During conflicts, each qualifying paid activation records one deferred Bled-2 or jolted-2 application respectively.
+- Adversaries §6.12 resolves recorded applications at conflict end after any Last Stand deferral, regardless of victory, defeat, concession or mutual defeat. Concessions must acknowledge them and cannot waive them; they remain imposed effects, not unresistable agreed payments.
+- Each application retains its target, incoming status/tier and trigger order. Further applications require another qualifying trigger and payment; no new once-per-PC cap is added. Pending records are not active statuses: no penalties, stacking, tier-6 consequences or treatment before application, and no shared-Disposition change or participant removal when recorded.
+- Resolve applications in trigger order, applying eligible Resistance and harm reduction separately before normal stacking and tier-6 consequences. Do not combine applications before Resistance. An existing injury cannot discharge a deferred application, and reduction to tier 0 creates no replacement cost.
+- Resolve these applications before ordinary compromise's existing-injury credit. An injury actually remaining may satisfy one ordinary compromise injury cost under the normal timing, tier and one-credit-per-injury requirements. Pending records provide no credit. Neither the injuries nor Resistance consequences reopen the settled outcome or grant an action or volley.
+- Feed's outside-conflict Bled-2 and physical-status recovery benefit remain unchanged; only its injury application is deferred. Fail-safe retains its separate §6.11 compromise procedure.
+- Venom / Infection retains its 2-Woe price. A successful conflict Attack records one deferred poisoned-2 application against the target under §6.12; compromise does not cause a second application. Outside conflicts it inflicts poisoned-2 on the hit. Poison rises by 1 tier per scene until treated only once inflicted, not while pending.
+- Source: §6.12 in `8f1a825`; Feed and Shock Field rows in `297e512`; Venom / Infection in `b969a14`.
+
+### 12.4 Named Truth grants, reagents and artifact harm (IS-04–IS-05)
+
+- The House Answers retains its listed 3-Woe price and Their Own House requirement. It creates one rank-1 scene Truth, with the affected part of the facility and removal condition established when used. It ends with the scene or earlier removal; the purchase includes no higher rank, extended duration or Site-Truth change (`fff09c9`).
+- Interlocutor's purse of gold and equivalent credit items directly establish one rank-1 scene bribed Truth without Power, once per mission. Record recipient, scope of cooperation and removal condition; it ends with the scene or earlier removal. This is not unlimited cooperation or a general Create discount.
+- Savant's alchemist's reagents are one actual tier-2 cypher with Create as the listed Effect for a Truth representing smoke, light or acid, following Module A.1. Chemistry and nanite-kit entries remain unchanged.
+- Ember-Brand's 1-Power expenditure, when the user inflicts a status, adds a separate burning-1 status on the same target. Resolve its Resistance, eligible harm reduction and stacking separately. Ordinary shared Disposition loss alone does not trigger it; tags, depletion and quirk remain unchanged.
+- True-light capsule retains tier 4, one-vampire targeting and its husk-only killing-method restriction. Its fixed Sun-Sick +2 effect replaces ordinary Attack Disposition loss in conflicts. The full tier-4 output is used; no surplus Power or Momentum is generated.
+- Source: bribery, reagents and Ember-Brand in `21eb5f6`; capsule in `55728a9`. These are scoped exceptions and effects, not a general revision of cypher surplus or Truth-layer procedures.
+
+### 12.5 Completion and validation limits
+
+P1–P4 and IS-01–IS-05 are complete in their selected source scope; no approved source replacement from these batches remains queued. This is not exhaustive ability/item/Special/example or repository-wide reference clearance. Discount interactions, higher-layer Truth questions, Superiority symmetry, Rider balance, Area Rule/Interpose tests and the other previously deferred questions remain deferred. No Typst compilation, PDF rebuild, rendered-layout verification, numerical recalibration or playtest validation was performed. Phase 1 remains open. Source implementation, reference clearance, build verification, playtest validation and release completion are separate statuses.
+

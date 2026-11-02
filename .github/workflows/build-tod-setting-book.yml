@@ -10,6 +10,7 @@ permissions:
 concurrency:
   group: book-pdf-commit-${{ github.ref }}
   cancel-in-progress: false
+  queue: max
 jobs:
   compile:
     runs-on: ubuntu-24.04

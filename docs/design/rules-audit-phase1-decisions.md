@@ -168,6 +168,19 @@ Scope: designer-selected P1–P4 and IS-02–IS-05 procedures, implemented on `b
 
 P1–P4 and IS-01–IS-05 are complete in their selected source scope; no approved source replacement from these batches remains queued. This is not exhaustive ability/item/Special/example or repository-wide reference clearance. Discount interactions, higher-layer Truth questions, Superiority symmetry, Rider balance, Area Rule/Interpose tests and the other previously deferred questions remain deferred. No Typst compilation, PDF rebuild, rendered-layout verification, numerical recalibration or playtest validation was performed. Phase 1 remains open. Source implementation, reference clearance, build verification, playtest validation and release completion are separate statuses.
 
+## 13. Compromise bands and Momentum summary reconciliation (2026-11-01)
+
+Scope: designer-selected DC-01 and subsequent quarter-based compromise bands, plus CS-02 summary reconciliation, implemented through `13eb87ac2308233143c0b3e23aed464f0e674e97`. These identifiers belong to the residual passes, not the original audit's ID series.
+
+- Preserve the existing full-or-nearly-full none/trivial compromise row.
+- Outside that row, Minor applies when the winner retains half or more of starting Disposition.
+- Significant applies when the winner retains one quarter or more, but less than half.
+- Major applies when the winner retains less than one quarter. This supersedes the fixed 1–2-points threshold.
+- Compare remaining Disposition directly with starting Disposition; no rounding rule is introduced. Exactly half is Minor; exactly one quarter is Significant.
+- `3d9d570` implements the original exactly-half Minor boundary. `13eb87a` implements the subsequent Significant/Major bands while preserving that Minor row. Compromise consequences, injury credit, Resistance and Last Stand timing remain unchanged.
+- CS-02 clarifies the design-pillars Momentum description to include unspent roll Power and permitted unspent cypher Power (`13eb87a`). It records an existing selected procedure, not a new Momentum-generation rule. Named restrictions and full-output exceptions, permitted upgrades, Momentum's cap and decay, and Site/Region-clock requirements remain unchanged.
+- Source implementation and inspected commit diffs do not establish exhaustive reference clearance, compilation, rendered-layout verification or playtest validation. Earlier deferrals and broader remaining work are preserved. Phase 1 remains open.
+
 ## Follow-on edits
 
 - Phase 4 item 2: do not fold R2 into core.

@@ -6,6 +6,12 @@ This file is the changelog entry point. Existing entries have been moved verbati
 
 New Unreleased entries belong here, above the history links. The linked Unreleased records remain unreleased; moving them does not publish a release or mark an audit complete.
 
+### Setting-neutrality corrections SN-01–SN-04 — 2026-11-03
+
+- Corrected the generic treatment example in Core Rules §6.6 to use Tech rather than the Testament of Dust skill Science, while preserving Craft and the need for tools and access. Made generic Adversaries §6.12 take each deferred Special's status and tier from that Special instead of hardcoding the setting's Feed/Bled example; Shock Field remains the generic example. Both fixes were committed as `a4322184dec11e100580e7426c57fe80100a2a22`; its complete diff was inspected (two files, three line replacements, no unintended changes).
+- Corrected the core-book colophon to credit The 2d12 System rather than Testament of Dust while retaining the explicit separate-setting reference. Replaced “old-world works” with “advanced technology” in Core Rules §6.8 adaptation guidance. These editorial fixes were committed as `fe83b4df164c56c95903c659b0be0f6ecc27e32c`; its complete diff was inspected (two files, two line replacements, no unintended changes).
+- These are scoped source and editorial corrections, not blanket setting-neutrality clearance or new mechanics. The remaining active core fragments, Modules E–F and nested includes, generic Descriptors/Playbooks/Focuses, Quick Reference and helpers were not cleared in this pass. Phase 1 remains open. No Typst compilation, PDF rebuild, layout verification, playtest, merge or release is claimed.
+
 ### Last One Standing: continued action without delayed mortality — 2026-11-02
 
 - Implemented designer-selected choice 1 in `docs/TestamentOfDust/tod-playbooks-sellsword.typ` §1.1 by commit `bbeabd63ccb953d04d2f0fd91f6e6418bd6bb40f`: once per scene, a harmful status reaching tier 6 after Resistance and stacking permits continued action despite that status's Taken Out or incapacitating outcome until scene end. Record its normal Scar immediately and retain applicable penalties.

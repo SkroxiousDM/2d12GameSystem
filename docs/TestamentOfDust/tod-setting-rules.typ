@@ -146,14 +146,14 @@ Rank measures how dangerous a vampire is #strong[now] --- its resources, supply,
 === 5.2 Hard to Kill
 Vampires survive wounds that would kill anyone else.
 
-- A vampire's physical statuses #strong[can't go above tier 5] unless the Attack uses a #strong[killing method] (§8.1). At tier 5 the vampire is #emph[broken]: it can still act, at −2 on physical rolls.
+- A vampire's physical statuses normally stop at tier 5 unless an eligible killing method or an explicit creature-specific rule permits otherwise (§8.1, §7.1). At physical status tier 5 the vampire is broken: it can still act, at −2 on physical rolls, unless the status specifies a different outcome. Sun-Sick 5 instead causes collapse and Taken Out; its full-day progression to tier 6 follows §7.1.
 - #strong[Recovery needs blood.] A wounded or broken vampire that rests a full day #strong[and] takes at least half a litre of blood recovers all physical statuses. Without blood, it recovers only 1 tier per day.
 - #strong[Wounds make it hungry.] Each time a vampire is #emph[broken], tick its #strong[Blood Debt clock] (§5.4) by 1.
 
 ==== Killing Strikes
 In a scripted conflict, reducing a vampire side's shared Disposition to 0 wins the declared conflict; it does not by itself destroy each vampire on that side. If destroying a particular vampire is within the established lethal stakes, name that vampire and use an eligible killing method against it.
 
-Make one killing-strike roll against the named vampire using a fitting skill and method. Set the base Difficulty by the vampire's Rank:
+Unless a rule explicitly makes the killing strike automatic, make one killing-strike roll against the named vampire using a fitting skill and eligible method. Set the base Difficulty by the vampire's Rank:
 
 #figure(table(columns: (55%, 45%),
   table.header([Vampire Rank], [Base Difficulty]),
@@ -170,6 +170,8 @@ Reduce the Difficulty by one step --- 3 points --- for each tier of the target's
 A success destroys the vampire. On a failure, it is not destroyed: the GM states a significant complication that fits the stakes, such as escape, a rescue attempt or a dangerous reversal. The players may #strong[give the GM 2 Woe] to buy off that complication. Buying off the complication does not turn the failed strike into a success.
 
 Resolve the established conflict outcome and compromise separately. A failed killing strike does not automatically impose a Significant compromise.
+
+An automatic killing strike requires no roll and uses only the outcome specified by its rule. Do not calculate killing-strike Difficulty or apply Difficulty reductions, and do not use the failed-strike complication or its 2-Woe buy-off. Full-day direct-sun exposure against a vampire follows this automatic procedure (§7.1). Automatic destruction does not restore Disposition, erase compromise costs or reopen a settled conflict outcome.
 
 Beheading follows this procedure. There is no separate beheading difficulty table or tier-4+ status prerequisite. Staking remains a separate special case (§8.1).
 
@@ -285,7 +287,7 @@ Lowering or clearing Sun-Sick, stabilising the dhampir or clearing the Dying clo
 
 If renewed exposure makes the dhampir Dying again before that clock has been cleared, resume it from its recorded segments. Apply the core rules for further harm; ordinary Sun-Sick gains still cannot advance the status above tier 5.
 
-A vampire at Sun-Sick 5 who is left in direct sun for a full day advances to Sun-Sick 6 and is destroyed as a killing blow. Do not start a Dying clock.
+Full-day exposure to direct sunlight is a killing method against vampires. A vampire at Sun-Sick 5 who is left in direct sun for a full day advances to Sun-Sick 6 and suffers an automatic killing strike: it is destroyed without a roll. Do not start a Dying clock.
 
 These sunlight-specific stabilisation and recovery rules do not stabilise or clear a Dying clock caused by a separate injury.
 

@@ -6,6 +6,14 @@ This file is the changelog entry point. Existing entries have been moved verbati
 
 New Unreleased entries belong here, above the history links. The linked Unreleased records remain unreleased; moving them does not publish a release or mark an audit complete.
 
+### Sun-Sick 6: Dying, rescue and Scars — 2026-11-02
+
+- Clarified Frontier Rules §7.1 in `docs/TestamentOfDust/tod-setting-rules.typ`, source commit `852c81b919d29684fb9ae1ee195d0385851c0940`: a dhampir reaching Sun-Sick 6 through full-day exposure remains Taken Out and gains the normal Sōma Scar, subject to core episode/event limits; when established lethal stakes permit, start the core three-segment Dying clock. Becoming Dying does not give an additional Scar.
+- Selected both sunlight-specific rescue provisions: removal from harmful sunlight automatically stabilises sunlight-caused Dying without erasing recorded segments; existing shade/darkness recovery counts as definitive care when it lowers Sun-Sick below 6 and harmful exposure has ended, clearing that clock. Recovery and clock clearance do not remove the Scar. Repeated exposure follows core Scar Recorded and Dying rules; these rescue provisions do not stabilise or clear a clock caused by a separate injury.
+- Preserved the tier-5 cap on ordinary Sun-Sick gains and stacking, existing exposure and recovery rates, and the vampire's full-day destruction outcome without a Dying clock. The source commit changed one file with 17 additions and 1 deletion; its complete diff was inspected with no unintended changes found.
+- Recorded the scoped designer ruling under §4 of the [foundational controlling decisions](docs/design/phase1-decisions/01-foundational-decisions.md) in commit `8eceb9e0efd3d5fbee2d549960c7e816ed87c959`: 10 additions, no deletions, one file; the complete diff was inspected and existing rulings and the broader verification warning were preserved.
+- This entry reconciles only the named Sun-Sick source implementation and controlling ruling. The broader killing-strike/staking/tier-6 pass, general §5.2 cap and Quick Reference exception wording, other reference coverage and tracker reconciliation remain separate work. Phase 1 remains open. No Typst compilation, PDF rebuild, rendered-layout verification, numerical recalibration, fight rerun or playtest validation is claimed. Full PR diff review against current main remains a pre-merge gate; no merge, release, PR-text update or change to main is included.
+
 ### Documentation reconciliation — 2026-11-02
 
 - Replaced the [historical setting-design entry point](docs/design/testament-of-dust-setting-design-document.md) with the reviewed Option B navigation index in commit `661272f0099317c84814cf089abfa54f0eb08390`. The 23 historical records were unchanged by that commit. The 20,242-byte index retains the historical-status warning, current-source links and document-order navigation; its Git blob SHA is `82959bcd73dbf954dabfe3580280497fb8aa54af`.

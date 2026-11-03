@@ -218,14 +218,14 @@ The following table identifies generic core playbook names for reference; it is 
 - *Dusk:* the GM gains +2 Woe. Vampires come out.
 - *Night:* vampires and dhampirs ignore darkness. A scene at night with a vampire present adds +1 Woe at the start.
 - *Dawn:* a vampire still in direct light at the end of the scene gains _Sun-Sick_ at tier 2 at once.
-- *Hard to Kill:* a vampire's physical statuses can't go above tier 5 without a *killing method*: beheading, or sustained fire on a broken vampire (Frontier Rules §5.2, §8.1).
+- *Hard to Kill:* a vampire's physical statuses can't go above tier 5 without a *killing method*: beheading, or sustained fire on a broken vampire; staked meets fire's prerequisite under the restricted equivalence (Frontier Rules §5.2, §8.1).
 
 == Killing Strikes (Frontier Rules §5.2)
 Within established lethal stakes, name one vampire and use a fitting skill and eligible killing method. Base Difficulty: *Minor 18 · Established 21 · Great 27 · Paramount 30*. Subtract 3 per tier of its *highest negative status* only, then apply every eligible killing-strike ability reduction. No minimum Difficulty.
 
 Success destroys the named vampire. Failure does not: the GM states a significant complication. Give the GM *2 Woe* to buy off that complication, not to make the strike succeed. Settle conflict outcome and compromise separately; failure does not automatically impose a Significant compromise.
 
-*Beheading:* eligible blade or sufficient strength; no tier-4+ prerequisite or separate Difficulty table. *Sustained fire:* requires a vampire broken at physical status tier 5. A husk's killing strike succeeds automatically; fire destroys it at once. Reaching 0 shared Disposition does not itself wound, break or destroy a vampire.
+*Beheading:* eligible blade or sufficient strength; no tier-4+ prerequisite or separate Difficulty table. *Sustained fire:* requires a vampire broken at physical status tier 5; a staked vampire meets this prerequisite under the restricted equivalence (Frontier Rules §8.1). A husk's killing strike succeeds automatically; fire destroys it at once. Reaching 0 shared Disposition does not itself wound, break or destroy a vampire.
 
 == Staking (Frontier Rules §8.1)
 A stake is *not a killing method*. Declare the attempt and establish an opportunity to reach the heart. Use Fight or Brawl in reach, or Shoot with a weapon explicitly able to deliver a stake at range.
@@ -233,6 +233,8 @@ A stake is *not a killing method*. Declare the attempt and establish an opportun
 Use base Difficulty *18 / 21 / 27 / 30* by Rank, reduced by 3 per tier of the highest negative status; no minimum. Killing-strike ability reductions do not apply unless explicitly allowed.
 
 Success or Success at a Cost inflicts _staked_: no actions or recovery while the stake remains. It is not tiered, does not destroy the vampire and does not itself inflict tier-6 harm. Apply the normal cost on Success at a Cost; resolve failure normally.
+
+*Restricted equivalence:* while staked, count as broken at physical tier 5 only for sustained-fire eligibility. For subsequent killing-strike rolls, use effective tier 5 (−15 Difficulty) or a higher actual negative-status tier, not both; eligible ability reductions still apply. No effect on staking rolls, other tests, roll penalties, Blood Debt, recovery eligibility or ability triggers; staked is not sleeping or a husk. It cannot be bought in tiers, stacked, reduced by status-tier healing or raised to 6; additional stakes grant no further benefit. No Scar, Dying, destruction, extra action, volley or automatic killing strike from staking. Removing the stake ends both equivalences, not actual statuses or settled outcomes.
 
 In a conflict, staking uses the scripted Attack but replaces its normal roll and Disposition loss. Removing one vampire does not subtract Disposition; the side loses only if none can continue or another defeat condition is met.
 

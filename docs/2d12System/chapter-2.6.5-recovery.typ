@@ -61,7 +61,7 @@ Recover #strong[1 additional point] whenever you make a recovery roll. This Adva
     [Wounds, blood loss, poison], [Medicine and suitable supplies],
     [Fear, grief, shock], [Empathy, reassurance and safety],
     [Confusion, cognitive disruption], [Diagnosis, rest or specialist care],
-    [Damaged machines or implants], [Science or Craft, tools and access],
+    [Damaged machines or implants], [Tech or Craft, tools and access],
     [Curses, possession, corruption], [A fitting supernatural method or the source's stated cure],
   )]
   , kind: table

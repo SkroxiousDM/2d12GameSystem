@@ -113,9 +113,9 @@ This is an explicit Special effect, not an ordinary Attack. It removes no shared
 The detonation destroys the Guardian.
 
 === 6.12 Deferred Special Injuries
-Use this procedure for Feed, Shock Field and any Special that explicitly refers to it. It does not replace Fail-safe's separate compromise procedure (§6.11).
+Use this procedure for any Special that explicitly refers to it. It does not replace Fail-safe's separate compromise procedure (§6.11).
 
-#strong[Record each application.] Each qualifying paid activation records one incoming status application against the affected PC: Bled-2 for Feed or jolted-2 for Shock Field. Record the Special, target, incoming status and tier, and trigger order. Every additional application requires another qualifying trigger and payment of the listed Woe cost; this procedure adds no once-per-PC limit.
+#strong[Record each application.] Each qualifying paid activation records one incoming status application against the affected PC, using the status and tier specified by that Special (for example, jolted-2 for Shock Field). Record the Special, target, incoming status and tier, and trigger order. Every additional application requires another qualifying trigger and payment of the listed Woe cost; this procedure adds no once-per-PC limit.
 
 #strong[Pending is not inflicted.] A deferred record is not an active status. It imposes no penalty, does not stack or cause tier-6 consequences, and cannot be treated or healed before application. It does not change shared Disposition or remove a participant when recorded.
 

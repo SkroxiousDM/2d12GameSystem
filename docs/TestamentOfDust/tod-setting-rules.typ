@@ -271,7 +271,23 @@ Under the #strong[Day] Truth, in direct sunlight, the afflicted gain #strong[#em
 - #strong[Recovery:] a full scene in shade or darkness lowers Sun-Sick by 2 tiers. At night it clears completely.
 - #strong[Normal cap:] Sun-Sick cannot rise above tier 5 through ordinary gains or stacking. Only full-day exposure, below, advances it to tier 6.
 - #strong[Tier 5:] collapse. Taken Out until carried into shade.
-- #strong[Full-day exposure:] a dhampir at Sun-Sick 5 who is left in the sun for a full day advances to #strong[Sun-Sick 6] and gains a Sōma Scar. A vampire at Sun-Sick 5 who is left in direct sun for a full day advances to #strong[Sun-Sick 6] and is destroyed as a killing blow; do not start a Dying clock.
+
+==== Full-day Exposure and Sun-Sick 6
+Ordinary Sun-Sick gains and stacking cannot raise the status above tier 5. Only the full-day exposure described here advances it to tier 6.
+
+A dhampir at Sun-Sick 5 who is left in the sun for a full day advances to Sun-Sick 6 and remains Taken Out. Record one Sōma Scar under Core Rules §6.3, subject to its one-per-episode and one-per-event limits. This is the normal Scar for reaching tier 6, not an additional Scar for becoming Dying.
+
+If established lethal stakes permit, this is life-threatening physical harm: start the core three-segment Dying clock and follow Core Rules §6.7. Otherwise, apply the incapacitation and Scar without starting a Dying clock.
+
+For a dhampir Dying from Sun-Sick, removal from harmful sunlight stabilises them and stops the Dying clock. This does not erase marked segments, lower Sun-Sick or return them to ordinary action. A full scene in shade or darkness lowers Sun-Sick by 2 tiers as normal; at night it clears completely. When this recovery lowers Sun-Sick below tier 6 and the harmful exposure has ended, it counts as definitive care for this condition: clear the sunlight-caused Dying clock.
+
+Lowering or clearing Sun-Sick, stabilising the dhampir or clearing the Dying clock does not remove the Sōma Scar. Repeated exposure during the same episode follows the core Scar Recorded rules.
+
+If renewed exposure makes the dhampir Dying again before that clock has been cleared, resume it from its recorded segments. Apply the core rules for further harm; ordinary Sun-Sick gains still cannot advance the status above tier 5.
+
+A vampire at Sun-Sick 5 who is left in direct sun for a full day advances to Sun-Sick 6 and is destroyed as a killing blow. Do not start a Dying clock.
+
+These sunlight-specific stabilisation and recovery rules do not stabilise or clear a Dying clock caused by a separate injury.
 
 === 7.2 The Thirst
 Dhampirs have a #strong[Thirst] status, tier 0--6. It doesn't penalise rolls until tier 3. A dhampir has no weekly need for blood; the Thirst rises only from what happens to them.

@@ -16,9 +16,9 @@ The rules come as separate books. The core rulebook is the complete engine. Each
 
 | Book | What it contains | Source | PDF |
 |---|---|---|---|
-| **The 2d12 System** (core rulebook) | Core Rules, Optional Modules (Cyphers & Artifacts, The Grind & Travel, Truth-Driven Sandbox), Generic Descriptors, Playbooks and Focuses, Quick Reference | [`.typ`](docs/2d12System/the-2d12-system-v2-core-rulebook.typ) | [PDF](docs/2d12System/the-2d12-system-v2-core-rulebook.pdf) |
-| **Testament of Dust** (setting book) | Post-apocalyptic frontier gothic: Frontier Rules, Frontier Descriptors, Playbooks and Focuses, Frontier Quick Reference | [`.typ`](docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ) | [PDF](docs/TestamentOfDust/testament-of-dust-v2-setting-book.pdf) |
-| **Character sheet** | Generic core sheet (2 pages) and a Frontier insert (1 page) | [`.typ`](docs/2d12-character-sheet-v2.typ) | [PDF](docs/2d12-character-sheet-v2.pdf) |
+| **The 2d12 System** (core rulebook) | Core Rules, Optional Modules (Cyphers & Artifacts, The Grind & Travel, Truth-Driven Sandbox), Generic Descriptors, Playbooks and Focuses, Quick Reference | [`.typ`](docs/2d12System/the-2d12-system-v2-core-rulebook.typ) | [PDF](pdf/the-2d12-system-v2-core-rulebook.pdf) |
+| **Testament of Dust** (setting book) | Post-apocalyptic frontier gothic: Frontier Rules, Frontier Descriptors, Playbooks and Focuses, Frontier Quick Reference | [`.typ`](docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ) | [PDF](pdf/testament-of-dust-v2-setting-book.pdf) |
+| **Character sheet** | Generic core sheet (2 pages) and a Frontier insert (1 page) | [`.typ`](docs/2d12-character-sheet-v2.typ) | [PDF](pdf/2d12-character-sheet-v2.pdf) |
 
 ### Settings in development
 

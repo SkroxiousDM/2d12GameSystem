@@ -81,7 +81,7 @@
 
     Success destroys the named vampire. Failure does not: the GM states a significant complication. Give the GM *2 Woe* to buy off that complication, not to make the strike succeed. Settle conflict outcome and compromise separately; failure does not automatically impose a Significant compromise.
 
-    *Beheading:* eligible blade or sufficient strength; no tier-4+ prerequisite or separate Difficulty table. *Sustained fire:* requires a vampire broken at physical status tier 5. A husk's killing strike succeeds automatically; fire destroys it at once. Reaching 0 shared Disposition does not itself wound, break or destroy a vampire.]
+    *Beheading:* eligible blade or sufficient strength; no tier-4+ prerequisite or separate Difficulty table. *Sustained fire:* requires a vampire broken at physical status tier 5; a staked vampire meets this prerequisite under the restricted equivalence (Frontier §8.1). A husk's killing strike succeeds automatically; fire destroys it at once. Reaching 0 shared Disposition does not itself wound, break or destroy a vampire.]
 
     sec([Staking], sub: [Frontier §8.1 · not a killing method])
     note(size: 6.5pt)[A stake is *not a killing method*. Declare the attempt and establish an opportunity to reach the heart. Use Fight or Brawl in reach, or Shoot with a weapon explicitly able to deliver a stake at range.
@@ -90,13 +90,15 @@
 
     Success or Success at a Cost inflicts _staked_: no actions or recovery while the stake remains. It is not tiered, does not destroy the vampire and does not itself inflict tier-6 harm. Apply the normal cost on Success at a Cost; resolve failure normally.
 
+    *Restricted equivalence:* while staked, count as broken at physical tier 5 only for sustained-fire eligibility. For subsequent killing-strike rolls, use effective tier 5 (−15 Difficulty) or a higher actual negative-status tier, not both; eligible ability reductions still apply. No effect on staking rolls, other tests, roll penalties, Blood Debt, recovery eligibility or ability triggers; staked is not sleeping or a husk. It cannot be bought in tiers, stacked, reduced by status-tier healing or raised to 6; additional stakes grant no further benefit. No Scar, Dying, destruction, extra action, volley or automatic killing strike from staking. Removing the stake ends both equivalences, not actual statuses or settled outcomes.
+
     In a conflict, staking uses the scripted Attack but replaces its normal roll and Disposition loss. Removing one vampire does not subtract Disposition; the side loses only if none can continue or another defeat condition is met.]
   })
 
 #grid(columns: (1fr, 1fr), column-gutter: 14pt,
   {
     sec([Day & Night], sub: [every scene has a time Truth])
-    note(size: 6.5pt)[*Day:* direct sun gives vampires and dhampirs _Sun-Sick_; vampires keep indoors but aren't helpless. *Dusk:* GM +2 Woe; vampires come out. *Night:* vampires and dhampirs ignore darkness; +1 Woe per scene with a vampire present. *Dawn:* a vampire in direct light at the scene's end gains _Sun-Sick_ 2. *Hard to Kill:* a vampire's physical statuses stop at tier 5 without a *killing method* (beheading, or fire on a broken vampire).]
+    note(size: 6.5pt)[*Day:* direct sun gives vampires and dhampirs _Sun-Sick_; vampires keep indoors but aren't helpless. *Dusk:* GM +2 Woe; vampires come out. *Night:* vampires and dhampirs ignore darkness; +1 Woe per scene with a vampire present. *Dawn:* a vampire in direct light at the scene's end gains _Sun-Sick_ 2. *Hard to Kill:* a vampire's physical statuses stop at tier 5 without a *killing method* (beheading, or fire on a broken vampire; staked meets fire's prerequisite under Frontier §8.1 only).]
   },
   {
     sec([Bounties & Contracts])

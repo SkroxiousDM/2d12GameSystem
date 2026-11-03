@@ -28,3 +28,23 @@ This file is a navigation index. The numbered history files preserve the previou
 - [Area Rule and Interpose draft](area-rule-and-interpose-rewrite.md)
 
 Separate completion reports and the root changelog remain unchanged by this migration.
+
+## Documentation reconciliation — 2026-11-02
+
+### Historical setting-design index
+
+- [The setting-design document](testament-of-dust-setting-design-document.md) is now a navigation index for 23 historical records. Commit `661272f0099317c84814cf089abfa54f0eb08390` replaced only that entry point with the reviewed Option B index; the 23 historical records were not changed by that commit.
+- The 20,242-byte index has Git blob SHA `82959bcd73dbf954dabfe3580280497fb8aa54af`. It retains the historical-status warning, current-source links and document-order navigation. All 145 original heading destinations are represented: 144 explicit forwarding entries and the document title. An additional forwarding entry preserves the stale Appendix B `DRAFT` alias alongside the actual `APPLIED` heading.
+- Compatibility navigation is two-step: an old fragment identifies an entry in the index, and its link opens the containing historical record rather than the original subsection directly. Historical status labels, reproduced procedures and source paths are not current rules clearance or new lore decisions.
+
+### Local browser check and validation limits
+
+- Local headless Chromium 134.0.6998.35 tested a reconstructed index whose bytes matched the committed blob SHA. With Mistune 3.1.3 rendering, all 146 fragment checks passed and all 145 forwarding-link click checks reached the expected destinations across 23 local historical-record fixtures. Both the actual Appendix B heading and stale `DRAFT` alias passed; no failures were recorded.
+- This was not a live GitHub browser test. All requests were served locally; destination fixtures were reconstructed historical sections rather than fresh repository downloads. The title heading ID was assigned in the local test setup. GitHub's automatic heading-ID generation and handling of custom HTML IDs remain unverified.
+- These navigation checks do not establish Typst compilation, PDF rebuild, rendered rulebook layout, numerical recalibration, mechanical reference clearance or playtest validation.
+
+### Remaining documentation commits and Phase 1 status
+
+- This tracker-only reconciliation does not complete the three-document reconciliation. The root changelog still requires its own separate exact-content confirmation and commit; this update does not modify it or any historical record.
+- Earlier checkpoints and supplemental completion records retain their original scope. The broader audit work, remaining-task categories and preserved deferrals recorded in the implementation history remain open; this note neither reopens scoped completions nor clears uninspected passages.
+- Phase 1 remains open. Source implementation, reference clearance, build verification, playtest validation and release completion remain separate statuses. The full PR diff review against current main remains a pre-merge gate; this documentation update does not merge the branch or change main.

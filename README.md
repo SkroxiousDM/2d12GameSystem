@@ -47,7 +47,7 @@ The rules come as separate books. The core rulebook is the complete engine. Each
 │   └── Archive/
 │       ├── 2d12 Version 1/                   The retired Version 1 rules
 │       └── TestamentOfDust-master-v2/        The combined master rulebook from before the split
-└── pdfs/
+└── pdf/
     ├── the-2d12-system-v2-core-rulebook.pdf
     ├── testament-of-dust-v2-setting-book.pdf
     └── 2d12-character-sheet-v2.pdf

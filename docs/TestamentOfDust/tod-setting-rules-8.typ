@@ -48,6 +48,15 @@ Reduce the Difficulty by one step --- 3 points --- for each tier of the vampire'
 
 While staked, the vampire cannot act or recover. It remains alive. Staking does not itself inflict tier-6 harm, trigger a killing strike, or destroy the vampire.
 
+#strong[Restricted staking equivalence.]
+While staked, a vampire counts as broken at physical status tier 5 solely for meeting sustained fire's killing-method prerequisite. For subsequent killing-strike rolls, treat staked as a tier-5 negative status: reduce Difficulty by 15, or use the reduction from a higher actual negative status instead. Do not add these reductions together. Eligible killing-strike ability reductions apply additionally, as normal.
+
+These equivalences apply to no other purpose. They do not affect staking rolls or other tests, impose a status-tier roll penalty, count as becoming broken for Blood Debt, recovery eligibility or ability triggers, or make the vampire sleeping or a husk.
+
+Staked remains an untiered special condition. It cannot be purchased in tiers, stacked, reduced by status-tier healing, or advanced to tier 6. Additional stakes provide no further mechanical benefit. Staking does not itself cause a Scar, Dying or destruction, and grants no additional action, extra volley or automatic killing strike.
+
+The vampire cannot act or recover while the stake remains. Removing the stake ends staked and both equivalences. Its actual statuses and other recorded conditions remain; removing the stake does not restore Disposition or undo a settled conflict outcome.
+
 On a Success at a Cost, apply the normal cost as well as the successful staking. On a failure, the stake does not take hold; resolve failure normally.
 
 #strong[Staking during a conflict.] A staking attempt uses your scripted Attack action. Resolve its roll against the staking Difficulty instead of the usual independent or versus roll. It inflicts #emph[staked] instead of ordinary Attack Disposition loss.

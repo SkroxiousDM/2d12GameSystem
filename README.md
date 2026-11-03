@@ -40,7 +40,6 @@ The rules come as separate books. The core rulebook is the complete engine. Each
 │   ├── TestamentOfDust/                      Testament of Dust setting book
 │   │   ├── testament-of-dust-v2-setting-book.typ  Source of truth
 │   │   ├── 2d12-character-sheet-v2.typ   Character sheet
-│   │   ├── testament-of-dust-*.md            Markdown editions of the Frontier chapters
 │   │   └── art/playbooks/                    Frontier playbook art
 │   ├── Aetas Obscura/                        Aetas Obscura setting (in development)
 │   ├── design/                               Design documents, playtest reports, rule drafts
@@ -53,7 +52,7 @@ The rules come as separate books. The core rulebook is the complete engine. Each
     └── 2d12-character-sheet-v2.pdf
 ```
 
-The **Typst files are the source of truth**. The Markdown files in `docs/TestamentOfDust/` are editions of the Frontier chapters for reading on GitHub. The v0.2 Markdown in `docs/` and everything in `docs/Archive/` is kept for history and isn't maintained.
+The **Typst files are the source of truth**. Everything in `docs/Archive/` is kept for history and isn't maintained.
 
 ## Reading Order
 
@@ -66,7 +65,7 @@ Cross-references give a chapter name and section: *Core Rules §6.3* means secti
 
 ## Building the PDFs
 
-The books are single-file [Typst](https://typst.app) documents. Compile each one from its own folder so the relative art paths resolve:
+The books are multi-file [Typst](https://typst.app) documents. Compile each one from its own folder so the relative art paths resolve:
 
 ```sh
 cd docs/2d12System
@@ -93,4 +92,4 @@ Contributions go through pull requests into `main`, using conventional commit me
 
 Copyright © 2026 SkroxiousDM. **All rights reserved.**
 
-The 2d12 System, Testament of Dust, Aetas Obscura, GRENDEL and all text and art in this repository aren't licensed for reuse or redistribution yet. You may read them and use them in your own games at home. For anything else, including publishing, adapting or commercial use, ask first.
+The 2d12 System, Testament of Dust, Aetas Obscura, and all text and art in this repository aren't licensed for reuse or redistribution yet. You may read them and use them in your own games at home. For anything else, including publishing, adapting or commercial use, ask first.

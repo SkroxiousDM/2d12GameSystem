@@ -4,7 +4,7 @@ The **2d12 System** is a setting-neutral tabletop roleplaying engine. Every acti
 
 > **2d12 + Skill + Modifiers vs. Difficulty**
 
-That one roll tells you whether you succeed, how much **Power** you earn and whether doubles twist the result. Around it sit four pools that double as stress (**Sōma, Akmē, Psychē, Pneuma**), tags and Truths, **Tychē Points**, a shared **Momentum** pool and the GM's **Woe**, plus scripted conflicts. Characters are built from a sentence: *"I am a [Descriptor] [Playbook] who [Focus]."*
+That one roll tells you whether you succeed, how much **Power** you earn and whether doubles twist the result. Around it sit four pools that double as stress (**Sōma, Mētis, Psychē, Pneuma**), tags and Truths, **Tychē Points**, a shared **Momentum** pool and the GM's **Woe**, plus scripted conflicts. Characters are built from a sentence: *"I am a [Descriptor] [Playbook] who [Focus]."*
 
 The system draws on Fate, the Cypher System, :Otherscape, Mouse Guard, Torchbearer, Blades in the Dark, Gumshoe, Imperium Maledictum,  Reign, and the 2d20 System. All trademarks belong to their owners.
 
@@ -16,9 +16,9 @@ The rules come as separate books. The core rulebook is the complete engine. Each
 
 | Book | What it contains | Source | PDF |
 |---|---|---|---|
-| **The 2d12 System** (core rulebook) | Core Rules, Optional Modules (Cyphers & Artifacts, The Grind & Travel, Truth-Driven Sandbox), Generic Descriptors, Playbooks and Focuses, Quick Reference | [`.typ`](docs/2d12System/the-2d12-system-v2-core-rulebook.typ) | [PDF](docs/2d12System/the-2d12-system-v2-core-rulebook.pdf) |
-| **Testament of Dust** (setting book) | Post-apocalyptic frontier gothic: Frontier Rules, Frontier Descriptors, Playbooks and Focuses, Frontier Quick Reference | [`.typ`](docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ) | [PDF](docs/TestamentOfDust/testament-of-dust-v2-setting-book.pdf) |
-| **Character sheet** | Generic core sheet and Frontier insert; current-branch pagination awaits build verification | [`.typ`](docs/TestamentOfDust/2d12-character-sheet-v2.typ) | [PDF](docs/TestamentOfDust/2d12-character-sheet-v2.pdf) |
+| **The 2d12 System** (core rulebook) | Core Rules, Optional Modules (Cyphers & Artifacts, The Grind & Travel, Truth-Driven Sandbox), Generic Descriptors, Playbooks and Focuses, Quick Reference | [`.typ`](docs/2d12System/the-2d12-system-v2-core-rulebook.typ) | [PDF](pdf/the-2d12-system-v2-core-rulebook.pdf) |
+| **Testament of Dust** (setting book) | Post-apocalyptic frontier gothic: Frontier Rules, Frontier Descriptors, Playbooks and Focuses, Frontier Quick Reference | [`.typ`](docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ) | [PDF](pdf/testament-of-dust-v2-setting-book.pdf) |
+| **Character sheet** | Generic core sheet and Frontier insert; current-branch pagination awaits build verification | [`.typ`](docs/TestamentOfDust/2d12-character-sheet-v2.typ) | [PDF](pdf/2d12-character-sheet-v2.pdf) |
 
 ### Settings in development
 
@@ -27,31 +27,33 @@ The rules come as separate books. The core rulebook is the complete engine. Each
 
 ## Repository Layout
 
-```
+```text
 .
 ├── README.md
 ├── CONTRIBUTING.md
 ├── CHANGELOG.md
 ├── branch-rulesets/                          GitHub ruleset for main (PRs, conventional commits)
-└── docs/
-    ├── 2d12System/                           Core rulebook
-    │   ├── the-2d12-system-v2-core-rulebook.typ   Source of truth
-    │   ├── the-2d12-system-v2-core-rulebook.pdf
-    │   └── art/playbooks/generic/            Generic playbook art
-    ├── TestamentOfDust/                      Testament of Dust setting book
-    │   ├── testament-of-dust-v2-setting-book.typ  Source of truth
-    │   ├── testament-of-dust-v2-setting-book.pdf
-    │   ├── 2d12-character-sheet-v2.typ / .pdf    Character sheet
-    │   ├── tod-*.typ                        Included setting chapters and sheet fragment
-    │   └── art/playbooks/                    Frontier playbook art
-    ├── Aetas Obscura/                        Aetas Obscura setting (in development)
-    ├── design/                               Design documents, playtest reports, rule drafts
-    └── Archive/
-        ├── 2d12 Version 1/                   The retired Version 1 rules
-        └── TestamentOfDust-master-v2/        The combined master rulebook from before the split
+├── docs/
+│   ├── 2d12System/                           Core rulebook
+│   │   ├── the-2d12-system-v2-core-rulebook.typ   Source of truth
+│   │   └── art/playbooks/generic/            Generic playbook art
+│   ├── TestamentOfDust/                      Testament of Dust setting book
+│   │   ├── testament-of-dust-v2-setting-book.typ  Source of truth
+│   │   ├── 2d12-character-sheet-v2.typ       Character sheet assembly
+│   │   ├── tod-*.typ                        Included setting chapters and sheet fragment
+│   │   └── art/playbooks/                    Frontier playbook art
+│   ├── Aetas Obscura/                        Aetas Obscura setting (in development)
+│   ├── design/                               Design documents, playtest reports, rule drafts
+│   └── Archive/
+│       ├── 2d12 Version 1/                   The retired Version 1 rules
+│       └── TestamentOfDust-master-v2/        The combined master rulebook from before the split
+└── pdf/
+    ├── the-2d12-system-v2-core-rulebook.pdf
+    ├── testament-of-dust-v2-setting-book.pdf
+    └── 2d12-character-sheet-v2.pdf
 ```
 
-The **Typst files are the source of truth**. The setting book assembles its chapters from the included `tod-*.typ` files; separate Frontier Markdown editions are not present in the current setting directory. The v0.2 Markdown in `docs/` and everything in `docs/Archive/` is kept for history and isn't maintained.
+The **Typst files are the source of truth**. The setting book assembles its chapters from the included `tod-*.typ` files; separate Frontier Markdown editions are not present in the current setting directory. Historical v0.2 Markdown drafts and everything in `docs/Archive/` are kept for history and aren't maintained.
 
 Committed PDFs may predate the current review-branch source changes. Their presence does not establish current-branch compilation or layout verification.
 
@@ -66,7 +68,7 @@ Cross-references give a chapter name and section: *Core Rules §6.3* means secti
 
 ## Building the PDFs
 
-The books are single-file [Typst](https://typst.app) documents. Compile each one from its own folder so the relative art paths resolve:
+The books are multi-file [Typst](https://typst.app) documents. Compile each one from its own folder so the relative art paths resolve:
 
 ```sh
 cd docs/2d12System
@@ -93,4 +95,4 @@ Contributions go through pull requests into `main`, using conventional commit me
 
 Copyright © 2026 SkroxiousDM. **All rights reserved.**
 
-The 2d12 System, Testament of Dust, Aetas Obscura, GRENDEL and all text and art in this repository aren't licensed for reuse or redistribution yet. You may read them and use them in your own games at home. For anything else, including publishing, adapting or commercial use, ask first.
+The 2d12 System, Testament of Dust, Aetas Obscura, and all text and art in this repository aren't licensed for reuse or redistribution yet. You may read them and use them in your own games at home. For anything else, including publishing, adapting or commercial use, ask first.

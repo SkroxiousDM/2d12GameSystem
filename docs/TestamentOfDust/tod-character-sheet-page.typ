@@ -49,7 +49,13 @@
     grid(columns: (52pt, auto), column-gutter: 6pt, align: horizon,
       text(font: display-font, size: 9pt, fill: blood, weight: 700)[Sun-Sick], tiers())
     v(2pt)
-    note(size: 6.5pt)[In direct sun under the *Day* Truth: +1 tier at the start of each outdoor scene (+2 under _Merciless Sun_). Penalty applies to Sōma and Mētis rolls. Resist with Sōma; a wide hat, dark cloak or partial shade is +1 Sōma Edge for that Resist. No dhampir healing while Sun-Sick. A scene in shade: −2 tiers; night clears it. *Normal cap:* tier 5; ordinary gains and stacking cannot raise it further. *Tier 5:* collapse; Taken Out until carried into shade. *Full-day exposure:* a dhampir at tier 5 left in the sun for a full day advances to tier 6 and gains a Sōma Scar.]
+    note(size: 6.5pt)[In direct sun under the *Day* Truth: +1 tier at the start of each outdoor scene (+2 under _Merciless Sun_). Penalty applies to Sōma and Mētis rolls. Resist with Sōma; a wide hat, dark cloak or partial shade is +1 Sōma Edge for that Resist. No dhampir healing while Sun-Sick. A scene in shade: −2 tiers; night clears it. *Normal cap:* tier 5; ordinary gains and stacking cannot raise it further. *Tier 5:* collapse; Taken Out until carried into shade.
+
+    *Full-day exposure:* a dhampir at tier 5 left in the sun for a full day advances to tier 6 and remains Taken Out. Record one Sōma Scar under the core Scar limits. If established lethal stakes permit, start the core 3-segment Dying clock; otherwise apply incapacitation and the Scar without Dying.
+
+    *Rescue:* removal from harmful sunlight stabilises a dhampir Dying from Sun-Sick and stops the clock without erasing segments, lowering Sun-Sick or returning them to ordinary action. A full scene in shade or darkness lowers Sun-Sick by 2 tiers; night clears it. When this recovery lowers Sun-Sick below 6 and harmful exposure has ended, it is definitive care: clear the sunlight-caused Dying clock. These provisions do not stabilise or clear a clock caused by a separate injury.
+
+    Recovery and stabilisation do not remove the Scar. Repeated exposure follows the core Scar Recorded rules; if renewed exposure makes the dhampir Dying again before clock clearance, resume its recorded segments. Apply core further-harm rules; ordinary Sun-Sick gains still cannot exceed tier 5. Full procedure: Frontier Rules §7.1; Core Rules §§6.3 and 6.7.]
     v(3pt)
     grid(columns: (52pt, auto), column-gutter: 6pt, align: horizon,
       text(font: display-font, size: 9pt, fill: blood, weight: 700)[Thirst], tiers(from: 0))

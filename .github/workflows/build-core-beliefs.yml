@@ -1,15 +1,16 @@
 name: Build core rulebook
-
 on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'pdf/**'
   workflow_dispatch:
-
 permissions:
-  contents: read
-
+  contents: write
 concurrency:
-  group: core-rulebook-${{ github.ref }}
-  cancel-in-progress: true
-
+  group: book-pdf-commit-${{ github.ref }}
+  cancel-in-progress: false
+  queue: max
 jobs:
   compile:
     runs-on: ubuntu-24.04
@@ -18,21 +19,17 @@ jobs:
       run:
         shell: bash
     steps:
-      - name: Check out source
+      - name: Check out source branch
         uses: actions/checkout@v4
         with:
-          persist-credentials: false
-
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
       - name: Prepare output directory
-        run: |
-          mkdir -p build/core-beliefs
-          printf 'Commit: %s\nRef: %s\n' "$GITHUB_SHA" "$GITHUB_REF" > build/core-beliefs/build-info.txt
-
+        run: mkdir -p build/core-beliefs pdf
       - name: Install Typst
         uses: typst-community/setup-typst@v4
         with:
           typst-version: '0.13.1'
-
       - name: Fetch book fonts
         run: |
           set -euo pipefail
@@ -43,43 +40,48 @@ jobs:
             test -n "$(find .build-fonts/ofl/ebgaramond -name '*.ttf' -print -quit)"
             test -n "$(find .build-fonts/ofl/sourcesans3 -name '*.ttf' -print -quit)"
           } 2>&1 | tee build/core-beliefs/font-setup.log
-
       - name: Record compiler and available fonts
         run: |
           set -euo pipefail
-          typst --version | tee -a build/core-beliefs/build-info.txt
+          git rev-parse HEAD > build/core-beliefs/source-commit.txt
+          typst --version | tee build/core-beliefs/build-info.txt
           typst fonts --font-path .build-fonts/ofl > build/core-beliefs/fonts.txt
           grep -Fx 'EB Garamond' build/core-beliefs/fonts.txt
           grep -Fx 'Source Sans 3' build/core-beliefs/fonts.txt
-
       - name: Compile the full core rulebook
         run: |
           set -euo pipefail
-          typst compile --root . --font-path .build-fonts/ofl \
-            docs/2d12System/the-2d12-system-v2-core-rulebook.typ \
-            build/core-beliefs/2d12-core-beliefs-review.pdf \
-            2>&1 | tee build/core-beliefs/compile.log
-          test -s build/core-beliefs/2d12-core-beliefs-review.pdf
-
+          typst compile --root . --font-path .build-fonts/ofl docs/2d12System/the-2d12-system-v2-core-rulebook.typ pdf/the-2d12-system-v2-core-rulebook.pdf 2>&1 | tee build/core-beliefs/compile.log
+          test -s pdf/the-2d12-system-v2-core-rulebook.pdf
+      - name: Commit generated PDF
+        env:
+          TARGET_BRANCH: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f -- pdf/the-2d12-system-v2-core-rulebook.pdf
+          if git diff --cached --quiet; then
+            echo 'Core rulebook PDF is unchanged.'
+            exit 0
+          fi
+          git commit -m 'docs: update core rulebook PDF [skip ci]'
+          git push origin "HEAD:refs/heads/$TARGET_BRANCH"
       - name: Upload PDF and diagnostic logs
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: core-rulebook-${{ github.run_number }}
-          path: build/core-beliefs/
+          path: |
+            pdf/the-2d12-system-v2-core-rulebook.pdf
+            build/core-beliefs/
           if-no-files-found: warn
           retention-days: 2
-
-      - name: Write review summary
+      - name: Write build summary
         if: always()
         run: |
           {
             echo '## Core rulebook build'
-            echo "Source commit: $GITHUB_SHA"
-            if test -s build/core-beliefs/2d12-core-beliefs-review.pdf; then
-              echo 'PDF produced. Download the workflow artifact for visual layout review.'
-            else
-              echo 'No complete PDF produced. Inspect the job logs and diagnostic artifact.'
-            fi
-            echo 'This workflow does not commit generated files or certify visual layout.'
+            echo 'Repository output: pdf/the-2d12-system-v2-core-rulebook.pdf'
+            echo 'See the commit step for publication status and the artifact for diagnostic logs.'
           } >> "$GITHUB_STEP_SUMMARY"

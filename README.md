@@ -18,7 +18,7 @@ The rules come as separate books. The core rulebook is the complete engine. Each
 |---|---|---|---|
 | **The 2d12 System** (core rulebook) | Core Rules, Optional Modules (Cyphers & Artifacts, The Grind & Travel, Truth-Driven Sandbox), Generic Descriptors, Playbooks and Focuses, Quick Reference | [`.typ`](docs/2d12System/the-2d12-system-v2-core-rulebook.typ) | [PDF](pdf/the-2d12-system-v2-core-rulebook.pdf) |
 | **Testament of Dust** (setting book) | Post-apocalyptic frontier gothic: Frontier Rules, Frontier Descriptors, Playbooks and Focuses, Frontier Quick Reference | [`.typ`](docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ) | [PDF](pdf/testament-of-dust-v2-setting-book.pdf) |
-| **Character sheet** | Generic core sheet and Frontier insert; current-branch pagination awaits build verification | [`.typ`](docs/TestamentOfDust/2d12-character-sheet-v2.typ) | [PDF](pdf/2d12-character-sheet-v2.pdf) |
+| **Character sheet** | Generic core sheet (2 pages) and a Frontier insert (1 page) | [`.typ`](docs/2d12-character-sheet-v2.typ) | [PDF](pdf/2d12-character-sheet-v2.pdf) |
 
 ### Settings in development
 
@@ -39,8 +39,7 @@ The rules come as separate books. The core rulebook is the complete engine. Each
 │   │   └── art/playbooks/generic/            Generic playbook art
 │   ├── TestamentOfDust/                      Testament of Dust setting book
 │   │   ├── testament-of-dust-v2-setting-book.typ  Source of truth
-│   │   ├── 2d12-character-sheet-v2.typ       Character sheet assembly
-│   │   ├── tod-*.typ                        Included setting chapters and sheet fragment
+│   │   ├── 2d12-character-sheet-v2.typ   Character sheet
 │   │   └── art/playbooks/                    Frontier playbook art
 │   ├── Aetas Obscura/                        Aetas Obscura setting (in development)
 │   ├── design/                               Design documents, playtest reports, rule drafts

@@ -42,7 +42,7 @@ All you have to do is survive the night. You\'ve done it before.
     [1], [#strong[Buy Time];], [Once per night, any successful roll that delays the enemy also ticks the #strong[Dawn clock] by 1.],
     [2a], [#strong[First Light];], [When the scene becomes #strong[Dawn];, every ally restores 3 points to one pool.],
     [2b], [#strong[Stand Fast];], [At night, while defending a place or a person, your Edge counts as #strong[1 higher] when you Resist.],
-    [3a], [#strong[Light a Fire];], [Once per session, create #emph[False Dawn] for one exchange with flares, fire, or faith, without spending Power.],
+    [3a], [#strong[Light a Fire];], [Once per session, create #emph[False Dawn] for one exchange with flares, fire, or faith, without spending Power. Apply its full effects under Frontier Rules §§7.1 and 13.],
     [3b], [#strong[★ Not Until the Sun Rises];], [Once per night, you can\'t be Taken Out until Dawn. When Dawn comes, take #emph[Weary] and a tier-4 physical status.],
   )]
   , kind: table

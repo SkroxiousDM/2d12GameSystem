@@ -6,7 +6,7 @@ Each playbook is a one-page sheet with:
 
 - #strong[Base pools and Edge]
 - #strong[Anchor skill] (must be +3 or +4)
-- #strong[Special abilities:] 1 free at start (6--8 options); more cost Refresh at creation or come from advancement. Major abilities are marked ★.
+- #strong[Special abilities:] your first playbook ability at creation has no additional-slot cost; if it is ★ Major, pay 1 Refresh. You may buy up to 2 additional playbook abilities at creation: ordinary extras cost 1 Refresh each, and ★ Major extras cost 2 Refresh total each. Later abilities use advancement. See Generic Playbooks §§1.1–1.2 for the full acquisition rules and veteran surcharge.
 #colbreak()
 - #strong[XP trigger:] one playbook-specific behaviour that earns XP
 - #strong[Load-out list:] playbook items plus generic items, Blades-style light/normal/heavy load

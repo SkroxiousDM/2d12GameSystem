@@ -4,7 +4,7 @@
 // =====================================================================
 //  PAGE 3 — FRONTIER INSERT
 // =====================================================================
-#title-band([INSERT], [Testament of Dust], text(font: display-font, size: 8pt, fill: dust, tracking: 0.1em)[USE WITH FRONTIER RULES · CH. VII])
+#title-band([INSERT], [Testament of Dust], text(font: display-font, size: 8pt, fill: dust, tracking: 0.1em)[USE WITH FRONTIER RULES · CH. II])
 
 #grid(columns: (1fr, 1fr), column-gutter: 14pt,
   // ---------- left
@@ -49,7 +49,13 @@
     grid(columns: (52pt, auto), column-gutter: 6pt, align: horizon,
       text(font: display-font, size: 9pt, fill: blood, weight: 700)[Sun-Sick], tiers())
     v(2pt)
-    note(size: 6.5pt)[In direct sun under the *Day* Truth: +1 tier at the start of each outdoor scene (+2 under _Merciless Sun_). Penalty applies to Sōma and Mētis rolls. Resist with Sōma; a wide hat, dark cloak or partial shade is +1 Sōma Edge for that Resist. No dhampir healing while Sun-Sick. A scene in shade: −2 tiers; night clears it. *Tier 6:* collapse; a whole day in the sun adds a Sōma Scar.]
+    note(size: 6.5pt)[In direct sun under the *Day* Truth: +1 tier at the start of each outdoor scene (+2 under _Merciless Sun_). Penalty applies to Sōma and Mētis rolls. Resist with Sōma; a wide hat, dark cloak or partial shade is +1 Sōma Edge for that Resist. No dhampir healing while Sun-Sick. A scene in shade: −2 tiers; night clears it. *Normal cap:* tier 5; ordinary gains and stacking cannot raise it further. *Tier 5:* collapse; Taken Out until carried into shade.
+
+    *Full-day exposure:* a dhampir at tier 5 left in the sun for a full day advances to tier 6 and remains Taken Out. Record one Sōma Scar under the core Scar limits. If established lethal stakes permit, start the core 3-segment Dying clock; otherwise apply incapacitation and the Scar without Dying.
+
+    *Rescue:* removal from harmful sunlight stabilises a dhampir Dying from Sun-Sick and stops the clock without erasing segments, lowering Sun-Sick or returning them to ordinary action. A full scene in shade or darkness lowers Sun-Sick by 2 tiers; night clears it. When this recovery lowers Sun-Sick below 6 and harmful exposure has ended, it is definitive care: clear the sunlight-caused Dying clock. These provisions do not stabilise or clear a clock caused by a separate injury.
+
+    Recovery and stabilisation do not remove the Scar. Repeated exposure follows the core Scar Recorded rules; if renewed exposure makes the dhampir Dying again before clock clearance, resume its recorded segments. Apply core further-harm rules; ordinary Sun-Sick gains still cannot exceed tier 5. Full procedure: Frontier Rules §7.1; Core Rules §§6.3 and 6.7.]
     v(3pt)
     grid(columns: (52pt, auto), column-gutter: 6pt, align: horizon,
       text(font: display-font, size: 9pt, fill: blood, weight: 700)[Thirst], tiers(from: 0))
@@ -66,21 +72,39 @@
     ), size: 6.7pt, inset: (x: 3pt, y: 2.8pt))
     text(size: 6.4pt)[*0–2* no effect · *3–4* −1 Pneuma rolls when blood is visible; others notice · *5* each scene with a bleeding human, Resist with Pneuma or move toward them · *6* Blood Crisis: feed from the nearest source this scene, or refuse, collapse (Taken Out) and gain a Pneuma Scar; then Thirst drops to 3. #text(fill: dust)[\*If taken by force, gain a Pneuma Scar the first time (_I've tasted it_).]]
 
-    sec([Killing Methods & Gear], sub: [load in brackets])
+    sec([Hunter's Gear], sub: [load in brackets])
     set text(size: 6.8pt)
     grid(columns: (1fr, 1fr), row-gutter: 6pt, column-gutter: 6pt,
-      [#cb() Wooden stake (0) · _staked_], [#cb() Silver-edged blade (1) · _silvered_],
-      [#cb() Steel neck guard (1) · bites: Bled −1 tier], [#cb() Crossbow & wooden bolts (1)],
+      [#cb() Wooden stake (0) · _staked_ (§8.1)], [#cb() Silver-edged blade (1) · _silvered_],
+      [#cb() Steel neck guard (1) · bites: Bled −1 tier], [#cb() Crossbow & wooden bolts (1) · may stake at range],
       [#cb() Revolver or rifle (1) · +1 Attack], [#cb() Laser rifle (2) · depl. 1 in d12],
       [#cb() Long cloak & wide hat (1)], [#cb() Signal mirrors (1) · _Sunlit_],
       [#cb() Horse or mule (0) · _sure-footed_], [#cb() Cyborg horse (0) · _tireless_],
       [#cb() Transfusion kit (1) · +1 vs. Bled], [#cb() Charms (1) · believers only])
+
+    sec([Killing Strikes], sub: [Frontier §5.2])
+    note(size: 6.5pt)[Within established lethal stakes, name one vampire and use a fitting skill and eligible killing method. Base Difficulty: *Minor 18 · Established 21 · Great 27 · Paramount 30*. Subtract 3 per tier of its *highest negative status* only, then apply every eligible killing-strike ability reduction. No minimum Difficulty.
+
+    Success destroys the named vampire. Failure does not: the GM states a significant complication. Give the GM *2 Woe* to buy off that complication, not to make the strike succeed. Settle conflict outcome and compromise separately; failure does not automatically impose a Significant compromise.
+
+    *Beheading:* eligible blade or sufficient strength; no tier-4+ prerequisite or separate Difficulty table. *Sustained fire:* requires a vampire broken at physical status tier 5; a staked vampire meets this prerequisite under the restricted equivalence (Frontier §8.1). A husk's killing strike succeeds automatically; fire destroys it at once. Reaching 0 shared Disposition does not itself wound, break or destroy a vampire.]
+
+    sec([Staking], sub: [Frontier §8.1 · not a killing method])
+    note(size: 6.5pt)[A stake is *not a killing method*. Declare the attempt and establish an opportunity to reach the heart. Use Fight or Brawl in reach, or Shoot with a weapon explicitly able to deliver a stake at range.
+
+    Use base Difficulty *18 / 21 / 27 / 30* by Rank, reduced by 3 per tier of the highest negative status; no minimum. Killing-strike ability reductions do not apply unless explicitly allowed.
+
+    Success or Success at a Cost inflicts _staked_: no actions or recovery while the stake remains. It is not tiered, does not destroy the vampire and does not itself inflict tier-6 harm. Apply the normal cost on Success at a Cost; resolve failure normally.
+
+    *Restricted equivalence:* while staked, count as broken at physical tier 5 only for sustained-fire eligibility. For subsequent killing-strike rolls, use effective tier 5 (−15 Difficulty) or a higher actual negative-status tier, not both; eligible ability reductions still apply. No effect on staking rolls, other tests, roll penalties, Blood Debt, recovery eligibility or ability triggers; staked is not sleeping or a husk. It cannot be bought in tiers, stacked, reduced by status-tier healing or raised to 6; additional stakes grant no further benefit. No Scar, Dying, destruction, extra action, volley or automatic killing strike from staking. Removing the stake ends both equivalences, not actual statuses or settled outcomes.
+
+    In a conflict, staking uses the scripted Attack but replaces its normal roll and Disposition loss. Removing one vampire does not subtract Disposition; the side loses only if none can continue or another defeat condition is met.]
   })
 
 #grid(columns: (1fr, 1fr), column-gutter: 14pt,
   {
     sec([Day & Night], sub: [every scene has a time Truth])
-    note(size: 6.5pt)[*Day:* direct sun gives vampires and dhampirs _Sun-Sick_; vampires keep indoors but aren't helpless. *Dusk:* GM +2 Woe; vampires come out. *Night:* vampires and dhampirs ignore darkness; +1 Woe per scene with a vampire present. *Dawn:* a vampire in direct light at the scene's end gains _Sun-Sick_ 2. *Hard to Kill:* a vampire's physical statuses stop at tier 5 without a *killing method* (beheading, or fire on a broken vampire).]
+    note(size: 6.5pt)[*Day:* direct sun gives vampires and dhampirs _Sun-Sick_; vampires keep indoors but aren't helpless. *Dusk:* GM +2 Woe; vampires come out. *Night:* vampires and dhampirs ignore darkness; +1 Woe per scene with a vampire present. *Dawn:* a vampire in direct light at the scene's end gains _Sun-Sick_ 2. *Hard to Kill:* a vampire's physical statuses stop at tier 5 without a *killing method* (beheading, or fire on a broken vampire; staked meets fire's prerequisite under Frontier §8.1 only).]
   },
   {
     sec([Bounties & Contracts])

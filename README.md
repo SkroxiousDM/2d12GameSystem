@@ -27,7 +27,7 @@ The rules come as separate books. The core rulebook is the complete engine. Each
 
 ## Repository Layout
 
-```
+```text
 .
 ├── README.md
 ├── CONTRIBUTING.md
@@ -52,7 +52,9 @@ The rules come as separate books. The core rulebook is the complete engine. Each
     └── 2d12-character-sheet-v2.pdf
 ```
 
-The **Typst files are the source of truth**. Everything in `docs/Archive/` is kept for history and isn't maintained.
+The **Typst files are the source of truth**. The setting book assembles its chapters from the included `tod-*.typ` files; separate Frontier Markdown editions are not present in the current setting directory. Historical v0.2 Markdown drafts and everything in `docs/Archive/` are kept for history and aren't maintained.
+
+Committed PDFs may predate the current review-branch source changes. Their presence does not establish current-branch compilation or layout verification.
 
 ## Reading Order
 

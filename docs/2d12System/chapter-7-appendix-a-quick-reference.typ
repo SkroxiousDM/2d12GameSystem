@@ -53,13 +53,45 @@ A cost that empties a pool, or is more than what's left in it, imposes a running
 Roll 2d12 + Disposition skill + highest Edge in its pool; divide by 3, round down, then add +1 per helper and all flat modifiers at full value. No flat-modifier stacking cap; minimum 1 before *Superiority* (0--3). Superiority alone can reduce starting Disposition to 0: hand-wave the conflict as a win at no cost (Core Rules §10.12, none or trivial). PC/opposition symmetry and opposition eligibility remain playtest flags.
 
 == Damage Cycle (Core Rules §6, §10)
-Each side has *one shared Disposition* total, with no per-member shares or spill-over. Attacks and Feints remove their committed Power + 1 and nothing else, and Defend restores it up to its starting value. A side loses at 0 or when no participant can continue. *Injury trade:* one per Attack or Feint, once per conflict, accept a tier 2/3/4 injury to cancel 1/2/3 loss; it can't be Resisted. Treatment removes at most 1 tier of a lasting injury until healing time does. Tier-6 life-threatening harm makes you *Dying*: 3-segment clock, Medicine vs. Hard 18 to stabilise. Compromise statuses are tier 2/3/4.
+Each side has *one shared Disposition* total, with no per-member shares or spill-over. Attacks and Feints remove their committed Power + 1 and nothing else, and Defend restores it up to its starting value. After all actions in the volley resolve, a side loses at 0 or when no participant can continue. *Last Stand* may postpone defeat at 0 for one additional volley (Adversaries §6.10); it does not restore Disposition. *Injury trade:* one per Attack or Feint, once per conflict, accept a tier 2/3/4 injury to cancel 1/2/3 loss; it can't be Resisted. Ordinary treatment removes at most 1 tier of a given lasting injury; mark it treated until a healing interval removes a tier. Explicit healing and treatment exceptions follow their own text (Core Rules §6.6). After Resistance and stacking, tier-6 life-threatening physical harm makes a living character *Dying* if lethal stakes permit: 3-segment clock, Medicine vs. Hard 18 to stabilise. Follow explicit creature and setting exceptions; a resolved killing method does not gain a rescue clock afterward. Compromise statuses are tier 2/3/4.
 
 == Area Effects (Core Rules §10.16; provisional)
 Establish the area and everyone it can reach; allies are not automatically excluded. An area Attack or Feint removes normal shared Disposition loss once, plus 1 per additional opposing participant affected. Explicit statuses apply at full tier to everyone affected, with separate Resistance or NPC reduction. Area alone adds no status to an ordinary conflict Attack; apply both layers only if a rule grants both. One eligible injury trade at most against the combined loss of that Attack or Feint. No Disposition outside conflicts.
 
 == Interpose (Core Rules §10.17)
 Bulwark: once per exchange, redirect an ally's entire imposed status before their Resistance or reduction; use your own normal Resistance or NPC reduction, with at most one NPC reduction per status. Outside conflicts, no separate frequency limit. Must be able to intercept; cannot redirect shared Disposition loss, injury payments, running-dry statuses, agreed concession costs or compromise costs. Cannot shield an ally from an area effect already affecting both of you.
+
+== Boss Phases (Adversaries §7.1)
+For a designated boss, record its side's final starting shared Disposition after setup modifiers and Superiority as the fixed *phase reference*. *Half:* half that reference, rounded down. *Desperate:* one third, rounded down. No phases if Superiority ends the conflict at setup.
+
+After each volley, resolve all actions and check removal, victory and mutual defeat first. If neither side is defeated, no defeat is pending and the boss remains active, activate each untriggered phase whose threshold is met. Each activates once; if both are met, Half activates before Desperate. Benefits apply to later actions, not resolved ones.
+
+#table(columns: (34%, 33%, 33%),
+  table.header([Listed Specials], [Opening], [Revealed at Half]),
+  [1], [0], [1],
+  [2], [1], [1],
+  [3], [1], [2],
+  [4], [2], [2])
+
+Choose Opening Specials before the conflict. Revealing a Special makes it available, not free; retain its costs, requirements and limits. Role traits, Kind traits and general Woe spends outside the Special allowance remain available normally. Half grants no extra Command bonus.
+
+At *Desperate*, Defend uses Weak and the designated Best action gains +2. If Defend is the designated Best action, use Weak +2. Command's benefits require an active Leader.
+
+Recovery and reinforcements do not change phase references, reverse phases or refresh uses. Reinforcements add Grit to current and starting shared Disposition, raising the recovery cap. Removing a participant subtracts no Grit and lowers neither total.
+
+== Last Stand (Adversaries §6.10)
+*2 Woe; once per side per conflict.* After a volley leaves the side at 0 shared Disposition, an active bearer with Last Stand available may postpone defeat if a participant can still pursue the objective. Activate before settlement; not on mutual defeat or defeat because no participant can continue.
+
+Resolve exactly one additional volley with both sides, normal action interactions and rotation. Use the next scripted action; if none remains, secretly script one. This is not a new exchange: no refresh of exchange-limited abilities or clock tick merely for scripting it. Script changes retain their normal cost.
+
+The side stays at 0: Defend, reinforcement Grit and other recovery cannot raise its current Disposition. No new Boss Phase activates; existing phase benefits remain usable by an active boss. Last Stand does not restore an incapacitated participant or stack or chain with another bearer. After the volley, the side loses; if the opponent is also defeated, resolve mutual defeat.
+
+== Fail-safe (Adversaries §6.11)
+*3 Woe; active Guardian; Special already available.* When its side's defeat at 0 shared Disposition becomes final, the Guardian may detonate before compromise. If Last Stand postpones defeat, wait until its additional volley ends; the Guardian must still be active and Fail-safe available.
+
+Establish the blast's reach from the Guardian's position and the fiction. Each PC within reach adds _burned-3_ as an additional compromise injury assigned to that PC. Add these before existing-injury credit and Resistance (Core Rules §10.12). Existing injuries count once; imposed injuries may be Resisted normally. No replacement cost because Resistance removes an injury.
+
+The detonation destroys the Guardian. It grants no action, volley or Disposition change and cannot reopen a settled outcome. No trigger on a Superiority setup win, accepted concession, mutual defeat or defeat solely because no participant can continue.
 
 == Rest and Recovery
 #table(columns: (16%, 52%, 32%),

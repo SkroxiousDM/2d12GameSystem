@@ -42,7 +42,7 @@ You study the old world, the rise of the Kept, and the founders whose names are 
     [1], [#strong[Archive Mind];], [Once per scene, ask a free Discover with Old Lore about a place, a vampire house, or an ancient device.],
     [2a], [#strong[Decipher];], [Science rolls to use or read old-world machines are #strong[one step easier] when you can study the controls.],
     [2b], [#strong[Genealogist];], [When you learn a vampire\'s name, you also learn its house, its rivals, and one weakness tag.],
-    [3a], [#strong[History Repeats];], [Once per session, create a #strong[Site Truth] from history: a forgotten passage, a buried weapon, an old treaty a vampire must honour.],
+    [3a], [#strong[History Repeats];], [Once per session, directly establish a #strong[Site Truth] from history without spending Power or completing a progress clock: a forgotten passage, a buried weapon, an old treaty a vampire must honour.],
     [3b], [#strong[★ The Ancestor\'s Notes];], [Once per session, with GM approval, reveal an ancient secret as a #strong[Region or Campaign Truth];: a weakness shared by a whole bloodline, a hidden estate, the reason a vampire won\'t die.],
   )]
   , kind: table

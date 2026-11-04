@@ -23,8 +23,9 @@ Focus rules are unchanged from #emph[Generic Focuses] §1:
   , kind: table
   )
 
-- #strong[◈ Weird] Focuses assume afflicted blood, old-world works, or the supernatural. In this setting all are allowed; the marker shows which ones draw attention from vampire households, Occultists, and frightened villagers.
-- #strong[Generic Focuses:] the 24 Focuses in #emph[Generic Focuses] also work here. Good fits are #emph[Never Leaves Anyone Behind];, #emph[Masters a Weapon];, #emph[Moves Like a Shadow];, #emph[Never Misses];, #emph[Opens Every Lock];, #emph[Talks Their Way Out of Anything];, #emph[Lives Off the Land];, and #emph[Made a Bargain With Something Old];. Use the setting Focuses below in place of #emph[Hunts the Things in the Dark] and #emph[Is More Than Human];.
+- #strong[◈ Weird] Focuses assume afflicted blood, old-world works or the supernatural. All Weird Focuses presented in this setting book are available. The marker shows which ones draw attention from vampire households, Occultists and frightened villagers. Generic Weird Focuses remain subject to the exclusions below.
+- #strong[Generic Focuses:] generic Focuses are available on the Frontier except as restricted or replaced here. Good fits are #emph[Never Leaves Anyone Behind];, #emph[Masters a Weapon];, #emph[Moves Like a Shadow];, #emph[Never Misses];, #emph[Opens Every Lock];, #emph[Talks Their Way Out of Anything];, #emph[Lives Off the Land];, and #emph[Made a Bargain With Something Old];. Use the setting Focuses below in place of #emph[Hunts the Things in the Dark] and #emph[Is More Than Human];.
+- #strong[Unavailable: Walks Between Worlds.] The generic Focus #emph[Walks Between Worlds] is not available in Testament of Dust. Its inclusion in the core rulebook does not grant access to it in this setting.
 - #strong[Shared reminders:] free bonus dice count toward the +2 maximum; only one cost reduction applies to a single Effect; abilities that add bonus above the tag cap are limited to #strong[+1 above the normal +2 cap (maximum +3)] unless stated otherwise (Generic Focuses §9.2).
 
 == 2. Quick Reference

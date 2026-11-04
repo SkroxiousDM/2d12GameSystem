@@ -12,7 +12,7 @@
     table.hline(),
     [#strong[Pools] (Sōma / Mētis / Psychē / Pneuma)], [Each PC], [Physical, mental and spiritual cost --- Effort and Resistance], [Cypher + Blades stress],
     [#strong[Tychē Points];], [Each PC], [Narrative authority --- invoke tags, accept compels], [Fate],
-    [#strong[Momentum];], [The party (shared)], [Tactical surplus from strong rolls], [2d20],
+    [#strong[Momentum];], [The party (shared)], [Tactical surplus from unspent roll Power and permitted unspent cypher Power], [2d20],
     [#strong[Woe];], [The GM], [Mirror of Momentum --- complications and escalation], [2d20],
   )]
   , kind: table

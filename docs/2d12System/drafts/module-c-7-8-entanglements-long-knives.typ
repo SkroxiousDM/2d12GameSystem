@@ -1,5 +1,5 @@
-// DRAFT. Append to chapter-3-module-c-truth-driven-sandbox.typ, inside the columns block, after C.6.
-// Also add to the end of C.5: A faction project changes a Site Truth with an 8-segment clock, a Region Truth with a 12-segment clock, and a Campaign Truth only through a major arc (C.6). Change the 6 or 8 segment project clock to match.
+// DRAFT. Included in chapter-3-module-c-truth-driven-sandbox.typ inside the columns block after C.6.
+// C.5 already records Site projects at 8 segments, Region projects at 12, and Campaign changes through a major arc (C.6).
 
 === C.7 Session Zero: Entanglements
 Use this at the start of a campaign, after players have picked a Descriptor, Playbook and Focus but before Beliefs, Goals and tags are final. It takes about 60 to 90 minutes for four players. The result is a #strong[story map] and your first Campaign Truths.

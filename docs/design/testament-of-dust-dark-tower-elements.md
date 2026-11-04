@@ -312,16 +312,16 @@ Following §3.5 of the design document (originality guardrails), King's work is 
 
 ## 4. Contribution to Q30 (Psychic and Possession Focuses)
 
-The design document lists Q30 as open: *Sends the Mind Abroad* and *Carries a Passenger* need a material basis. The Dark Tower's captive psychics and mad machines suggest these options:
+The original Q30 question asked for a material basis for *Sends the Mind Abroad* and *Carries a Passenger*. The options below preserve that comparison; the selected procedures are the Relay-Sense and the Tethered Voice, as recorded below.
 
 | Focus | Option | Material basis | Canon check |
 |---|---|---|---|
-| *Sends the Mind Abroad* | **A. The Relay-Sense [CANON — Q30]** | An inherited or surgically installed old-world implant (Cyborg Hunter adjacent) that picks up nearby sensor and relay networks: cameras, door logs, facility speakers. The character "sees far" only where the old networks still run | Keeps F1 and F3; the limits are geographic and investigable |
+| *Sends the Mind Abroad* | **A. The Relay-Sense [CANON — Q30]** | An installed old-world Relay-Sense (Cyborg Hunter adjacent), not an inherited trait. Its nanites move from one host to another when the current host dies. It picks up nearby sensor and relay networks: cameras, door logs, facility speakers. The character "sees far" only where the old networks still run | Keeps F1 and F3; the limits are geographic and investigable |
 | | **B. The Trained Trance** | Not supernatural. Old procedures of memory and observation (a monastery practice) plus a sedative preparation, producing remarkable deduction and recall that people experience as visions | Purely human; weaker but safe |
 | *Carries a Passenger* | ~~A. The Hosted Facsimile~~ | A Digital Facsimile stored in an implant or carried relic that talks only to the bearer | **Rejected (Q38):** no portable facsimiles |
 | | **B. The Tethered Voice [CANON — required by Q38]** | An earpiece relic linked to a facsimile at a fixed site. It works only within range of that site's relays, so the passenger "goes quiet" far from home | Fully consistent with Q21 |
 
-**Status.** Q38 rules out option A for *Carries a Passenger*, so it uses the Tethered Voice. **Q42** adds an open-sky exception: surviving orbital relays (*the moving lights*) carry the voice beyond its range on 9+ on a d12 per scene, and anyone with a receiver may overhear it. *Sends the Mind Abroad* stays open under Q30. *Sends the Mind Abroad* now uses the Relay-Sense (Q30), under the same open-sky rule.
+**Status.** Q38 rules out option A for *Carries a Passenger*, so it uses the Tethered Voice. **Q42** adds an open-sky exception: surviving orbital relays (*the moving lights*) carry the voice beyond its range on 9+ on a d12 per scene, and anyone with a receiver may overhear it. **Q30 is resolved:** *Sends the Mind Abroad* uses the Relay-Sense under the same open-sky rule.
 
 **Recommendation.** Relay-Sense (A) for *Sends the Mind Abroad*, and Tethered Voice (B) for *Carries a Passenger*. Both keep every rule intact, and both give the player a reason to care about particular places and the people who control them, the way the kept specialists in D9 are tied to their compound.
 
@@ -376,3 +376,4 @@ Q41 was amended afterwards: the classes are **Winterers**, **Strays** and **Taps
 - [Dark Tower Wiki — Charyou Tree](https://darktower.fandom.com/wiki/Charyou_Tree)
 - [Reactor — Wizard and Glass, "Reaping"](https://reactormag.com/a-read-of-the-dark-tower-constant-reader-tackles-wizard-and-glass-qcome-reapq-chapter-9-reaping/)
 - [Stephen King Wiki — Tull](https://stephenking.fandom.com/wiki/Tull)
+

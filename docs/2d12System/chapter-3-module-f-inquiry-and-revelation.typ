@@ -39,7 +39,7 @@ Probe is cheap but risky. Buy is safe but drains the pool you also need for Resi
 When you gain an Insight, choose one. The GM may veto a choice that does not fit the scene.
 
 - *Detail.* A true fact that deepens a clue you already have. It can help you solve the case, but it is never required to reach the next scene.
-- *Edge.* Create a Truth that fits what you learned (_the guard captain is afraid of the cellar_). It lasts for the scene, or until the case ends if the group spends an extra Power or point.
+- *Edge.* Directly establish one rank-1 scene Truth that fits what you learned (_the guard captain is afraid of the cellar_), without a further Create purchase. To make it last until the case ends, spend 1 additional Power from the Probe or, when Buying the Insight, 1 additional point from the Buy’s paying pool. Record its scope and removal condition normally; it may end sooner if that condition is met.
 - *Contact.* Name an ally, informant or source, and say how you know them. The GM adds a short tag.
 - *Spotlight.* Show real expertise in front of others. You gain a free invoke of one tag or Truth about your standing, once per scene. Use this to shine, not to win a fight.
 - *Foresight.* The GM tells you one thing the opposition is about to do.

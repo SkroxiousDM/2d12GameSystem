@@ -2,7 +2,7 @@
 
 == 8. How the Afflicted Die, and Hunter's Gear
 === 8.1 Killing Methods and Folklore
-A #strong[killing method] establishes how a vampire can be destroyed. It does not make an ordinary conflict Attack inflict a status. Resolve killing strikes, including beheading, under §5.2. Staking follows its separate procedure below.
+A killing method establishes how a vampire can be destroyed. It does not make an ordinary conflict Attack inflict a status or grant an additional action. Resolve rolled killing strikes, including beheading, under §5.2. Explicit automatic killing strikes use their stated procedure, including full-day direct-sun exposure under §7.1. Staking remains a separate procedure and is not itself a killing method.
 
 
 #figure(
@@ -13,7 +13,7 @@ A #strong[killing method] establishes how a vampire can be destroyed. It does no
     table.hline(),
     [#strong[Beheading]], [Killing method; use §5.2], [The blade must be able to cut through (#emph[heavy], #emph[fine], or sufficient strength). No tier-4+ status prerequisite.],
     [#strong[Fire] (sustained)], [Killing method against a vampire #emph[broken] at physical status tier 5; destroys a husk at once], [A burning house, a funeral pyre. Reaching 0 shared Disposition does not itself make a vampire broken.],
-    [#strong[Sunlight]], [No killing strike, but stops recovery and burns over time (§7.1)], [A collapsed vampire left in direct sun for a full day is destroyed.],
+    [#strong[Sunlight]], [Full-day direct-sun exposure is a killing method; use §7.1], [A vampire at Sun-Sick 5 left in direct sun for a full day reaches Sun-Sick 6 and is destroyed by an automatic killing strike, without a roll or Dying clock. Ordinary exposure still follows Sun-Sick's listed gains and tier-5 cap.],
     [#strong[Stake through the heart]], [Not a killing method. Inflicts the special condition #emph[staked]: the vampire can't act or recover while the stake stays in], [Use the Staking procedure below. Finish it with beheading or fire --- or bargain with it while it's helpless.],
     [#strong[Silver]], [Not a killing method. Wounds from #emph[silvered] weapons can't be recovered until the next full day], [An old custom. No one remembers why it works.],
     [#strong[Crosses, garlic, running water, invitations]], [No physical effect], [Folk practice. Some vampires believe in them anyway (below).],
@@ -47,6 +47,15 @@ Reduce the Difficulty by one step --- 3 points --- for each tier of the vampire'
 #strong[Result.] On a Success or Success at a Cost, the vampire gains #emph[staked]. This is a special condition, not a tiered status: do not buy its tiers with Power or stack it with other statuses.
 
 While staked, the vampire cannot act or recover. It remains alive. Staking does not itself inflict tier-6 harm, trigger a killing strike, or destroy the vampire.
+
+#strong[Restricted staking equivalence.]
+While staked, a vampire counts as broken at physical status tier 5 solely for meeting sustained fire's killing-method prerequisite. For subsequent killing-strike rolls, treat staked as a tier-5 negative status: reduce Difficulty by 15, or use the reduction from a higher actual negative status instead. Do not add these reductions together. Eligible killing-strike ability reductions apply additionally, as normal.
+
+These equivalences apply to no other purpose. They do not affect staking rolls or other tests, impose a status-tier roll penalty, count as becoming broken for Blood Debt, recovery eligibility or ability triggers, or make the vampire sleeping or a husk.
+
+Staked remains an untiered special condition. It cannot be purchased in tiers, stacked, reduced by status-tier healing, or advanced to tier 6. Additional stakes provide no further mechanical benefit. Staking does not itself cause a Scar, Dying or destruction, and grants no additional action, extra volley or automatic killing strike.
+
+The vampire cannot act or recover while the stake remains. Removing the stake ends staked and both equivalences. Its actual statuses and other recorded conditions remain; removing the stake does not restore Disposition or undo a settled conflict outcome.
 
 On a Success at a Cost, apply the normal cost as well as the successful staking. On a failure, the stake does not take hold; resolve failure normally.
 
@@ -121,7 +130,7 @@ Old-world machines and relics use #strong[Module A --- Cyphers & Artifacts].
     align: (auto,auto,auto,auto,),
     table.header([d12], [Cypher], [Tier], [Effect],),
     table.hline(),
-    [1], [True-light capsule], [4], [Attack (#emph[Sun-Sick] +2) against one vampire; a killing method only against a husk],
+    [1], [True-light capsule], [4], [Apply #emph[Sun-Sick] +2 to one vampire; in conflicts, this replaces ordinary Attack Disposition loss. This fixed activation uses the capsule's entire tier-4 output and generates no surplus Power or Momentum. A killing method only against a husk],
     [2], [Blood ampoule], [3], [Restore 3 Sōma; a dhampir also loses 2 Thirst],
     [3], [Mist grenade], [3], [Create #emph[Thick Mist] for a scene],
     [4], [Gravity disc], [4], [Create #emph[Weightless] in a small area, or carry a heavy load as light],
@@ -313,7 +322,7 @@ Use with Core Rules §9.2.
     [#strong[The Old Door]], [2], [The vampire leaves through a way only its bloodline can open, or a passage nobody knew was there],
     [#strong[Kennel and Guardians]], [2], [Trained animals, mutant creatures or old-world guardians that answer to it arrive as a minion group],
     [#strong[Uncanny Speed]], [1], [The vampire acts first or changes its scripted action for 1 Woe (instead of 3). Not at Blood Debt 4+],
-    [#strong[The House Answers]], [3], [Requires #emph[Their Own House]. Create a facility Truth (#emph[Shifting Halls], #emph[Sealed Doors], #emph[Lights Fail], #emph[Gravity Fails])],
+    [#strong[The House Answers]], [3], [Requires #emph[Their Own House]. Create one rank-1 scene Truth (#emph[Shifting Halls], #emph[Sealed Doors], #emph[Lights Fail], #emph[Gravity Fails]). Establish the affected part of the facility and its removal condition when used. It lasts until the scene ends or its removal condition is met, whichever comes first. This purchase includes no higher rank, extended duration or Site-Truth change.],
     [#strong[Blood Reserve]], [3], [Once per session, if blood is at hand (stored, a donor, a victim), a #emph[broken] vampire feeds and recovers 2 tiers of physical status. It leaves evidence],
     [#strong[Weather Turns]], [2], [Create a weather Truth for the scene; requires old weather works nearby],
     [#strong[Retainer]], [3], [A significant retainer or ally arrives],

@@ -8,15 +8,15 @@ Read the [README](README.md) first for the layout, the books and how to build th
 
 | You want to change | Edit this file |
 |---|---|
-| Core rules, Optional Modules, generic Descriptors, Playbooks or Focuses, the core Quick Reference | `docs/2d12System/the-2d12-system-v2-core-rulebook.typ` |
-| Frontier rules, Descriptors, Playbooks or Focuses, the Frontier Quick Reference | `docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ` |
-| The character sheet | `docs/2d12-character-sheet-v2.typ` |
+| Core rules, Optional Modules, generic Descriptors, Playbooks or Focuses, the core Quick Reference | The relevant chapter or included fragment under `docs/2d12System/`. The assembly entry point is `docs/2d12System/the-2d12-system-v2-core-rulebook.typ`. |
+| Frontier rules, Descriptors, Playbooks or Focuses, the Frontier Quick Reference | The relevant `tod-*.typ` chapter or included fragment under `docs/TestamentOfDust/`, or the assembly entry point where that passage is defined. The assembly entry point is `docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ`. |
+| The character sheet | `docs/TestamentOfDust/2d12-character-sheet-v2.typ`; Frontier insert: `docs/TestamentOfDust/tod-character-sheet-page.typ` |
 | Design reasoning, drafts, playtest reports | A new or existing file in `docs/design/` |
 | Aetas Obscura or GRENDEL | Their Markdown files (`docs/Aetas Obscura/`, `GRENDEL_Consolidated_Master_Rulebook.md`) |
 
 **Which book does a rule belong in?** If it works in any genre, it goes in the core rulebook. If it names Frontier things (vampires, dhampirs, the Bled, old-world works, Frontier skills), it goes in the setting book. The core rulebook mustn't refer to any specific setting. Talk about "setting rules" or "creature rank" in general terms instead.
 
-**Don't edit** anything in `docs/Archive/` or the v0.2 Markdown drafts (`docs/2d12-system-proposal.md`, `docs/playbooks.md`, `docs/focuses.md`). They're kept for history only.
+**Don't edit** anything in `docs/Archive/` or the v0.2 Markdown drafts (`docs/design/2d12-system-proposal.md`, `docs/design/playbooks.md`, `docs/design/focuses.md`). They're kept for history only.
 
 ## Reporting an Issue
 
@@ -98,16 +98,57 @@ Add an entry under `## [Unreleased]` in [`CHANGELOG.md`](CHANGELOG.md). Use a he
 - **Tone:** rules are short and procedural. Flavour can be more literary, but it should still be brief and help at the table.
 - **Canadian spelling** (the documents set `region: "CA"`): stabilise, armour, colour.
 
+### Large Markdown documents
+
+For any `.md` file larger than 25 KB (25,000 bytes), review whether it
+should use a small GitHub-readable index plus smaller linked content
+files. This structure is recommended to reduce truncation risk in
+connector and AI-assisted workflows and make bounded edits easier to
+review. Smaller files do not guarantee complete tool responses.
+
+- Keep the existing entry-point filename where practical. Use relative
+  Markdown links; do not depend on unsupported inline include directives.
+- Aim for content files of approximately 5–10 KB, allowing larger files
+  where necessary to keep a complete subsection, table, list or procedure
+  together. Keep the index small.
+- Partition at existing headings. Preserve original wording, section
+  numbers, identifiers and document order; preserve chronology for
+  histories, changelogs and playtest records.
+- Choose names that reflect the document's role. Do not label controlling
+  decisions or maintained reference material as historical merely because
+  they have been split.
+- Keep scope, precedence, supersession and visibility guidance available
+  when a reader opens an individual file. Clearly separate any new
+  navigation or context wrappers from preserved source text.
+- Verify preservation mechanically. Concatenating the original content
+  bodies in order must reproduce the pre-migration source byte for byte.
+  If wrappers are added, record their exact boundaries and verify body
+  hashes separately.
+- Review incoming links, heading anchors and relative paths. Provide
+  forwarding entries or update affected current references where needed;
+  do not silently rewrite historical references.
+- Keep structural migrations separate from rules changes, status
+  reconciliation and new completion claims. If migration is staged,
+  retain the original entry point until every replacement record is
+  present and verified.
+
+The threshold prompts review, not automatic splitting. Respect the
+existing restrictions on archives and historical drafts; partitioning
+those files requires an explicitly agreed scope. Generated files or
+documents with tooling dependencies may need a different approach.
+
 ### Typst
 
-- Each book is a single self-contained file. Use the existing helpers (`#chapter`, `#sidebar`, `#playbook-art-side`, `#figure(table(...))`) instead of formatting by hand.
+- Each book is assembled from a Typst entry point and included chapter or fragment files. Follow the entry point's `#include` and `#import` statements to locate the passage you need to change. Edit that passage in its existing source file; change the entry point only when its own content, assembly order or includes need updating. Preserve the existing helper imports and scope, and use the established helpers (`#chapter`, `#sidebar`, `#playbook-art-side`, `#figure(table(...))`) instead of formatting by hand.
 - Set new chapters with `#chapter(title, blurb, epigraph: ...)` so they get a divider page and a table-of-contents entry.
 - Use `--` and `---` for en and em dashes, as the existing source does.
 - Art goes in the book's own `art/` folder. Commit both the `.png` original and the `.jpg` used in the book.
 
 ### When a change ripples
 
-If a change renumbers sections or changes a term, search **both** books, the character sheet and the Frontier Markdown editions for every reference, and fix them in the same PR. Update the Quick Reference of any book whose summary has changed.
+If a change renumbers sections or changes a term, search the active Typst sources for both books, including their chapter and fragment files, the character sheet and Frontier insert, and the relevant current-facing Markdown documentation. Follow includes and imports rather than checking only the assembly entry points. Separate Frontier Markdown editions are not present in the current setting directory; do not treat historical Markdown drafts as maintained rule editions.
+
+Update affected current references in the same PR and update the Quick Reference of any book whose summary has changed. Preserve archived rules, dated playtest records and historical findings; where their status could be mistaken for current guidance, add a scoped historical or supersession notice rather than rewriting recorded rules, rolls or outcomes. Source-reference checks do not establish compilation, rendered-layout verification or playtest validation.
 
 ## Errata vs. Revisions
 

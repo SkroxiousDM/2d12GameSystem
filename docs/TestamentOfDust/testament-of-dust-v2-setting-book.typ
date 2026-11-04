@@ -134,16 +134,22 @@ This setting book holds everything specific to #emph[Testament of Dust]: the Fro
 #figure(table(columns: (13%, 30%, 57%),
   table.header([Ch.], [Chapter], [Contents]),
   [I], [Introduction], [What you need, terminology, renamed stats, notation],
-  [II], [Frontier Rules], [The Frontier setting: Campaign Truths, skills, day and night, vampires, the Bled, afflicted blood, killing methods, old-world works, contracts, conflicts, travel, Woe spends],
+  [II], [Frontier Rules], [The Frontier setting: Campaign Truths, skills, day and night, vampires, the Bled, afflicted blood, killing methods, old-world works, contracts, conflicts, travel, Woe spends and Frontier Opposition (§16)],
   [III], [Frontier Descriptors], [20 Descriptors with Frontier hooks],
   [IV], [Frontier Playbooks], [Sellsword, Stalker, Frontier Doctor, Broker, Rider, Occultist, Mutant, Cyborg Hunter, Warden],
   [V], [Frontier Focuses], [20 setting Focuses, including the dhampir Focus],
-  [App.], [Frontier Quick Reference], [Day and night, Frontier skills and vampire Woe spends at a glance],
+  [App.], [Frontier Quick Reference], [Day and night, killing strikes, staking, Frontier skills and vampire Woe spends at a glance],
 ))
 
-#strong[What comes from the core rulebook.] References to *Core Rules*, *Optional Modules*, *Generic Descriptors*, *Generic Playbooks* and *Generic Focuses* point to #emph[The 2d12 System]. For example, *Core Rules §4.1* means section 4.1 of the Core Rules chapter in that book. References to the Frontier chapters point to this book, and a bare reference such as *§6* points to a section in the same chapter. Where a Frontier rule and a core rule conflict, the Frontier rule wins.
+#strong[What comes from the core rulebook.] References to *Core Rules*, *Optional Modules*, *Adversaries*, *Generic Descriptors*, *Generic Playbooks* and *Generic Focuses* point to #emph[The 2d12 System]. For example, *Core Rules §4.1* means section 4.1 of the Core Rules chapter in that book. References to the Frontier chapters point to this book, and a bare reference such as *§6* points to a section in the same chapter. Where a Frontier rule and a core rule conflict, the Frontier rule wins.
 
-#strong[Optional Modules.] On the Frontier, all three modules in #emph[The 2d12 System] are recommended: Cyphers & Artifacts for old-world works, The Grind & Travel for the long roads between towns, and the Truth-Driven Sandbox for a world written in Campaign Truths.
+#strong[Character options.] Use the nine Frontier Playbooks in this book. The six Frontier reskins replace their generic counterparts; they are not additional choices alongside them (Frontier Playbooks, Playbook Overview).
+
+Generic Focuses remain available except where the setting restricts or replaces them. #emph[Walks Between Worlds] is not available in Testament of Dust. See Frontier Focuses §1 for availability and replacement guidance.
+
+#strong[Building opposition.] Use the core Adversaries chapter for construction, Roles, encounter budgets, shared Disposition, Boss Phases, Last Stand and Fail-safe. Frontier Rules §16 adds the Vampire package, vampire construction exceptions, retainer-clan Specials and Frontier example cards.
+
+#strong[Optional Modules.] The following three core modules are recommended for the Frontier: Cyphers & Artifacts for old-world works, The Grind & Travel for the long roads between towns, and the Truth-Driven Sandbox for a world written in Campaign Truths.
 #colbreak()
 == Terminology and Renamed Stats
 
@@ -159,6 +165,8 @@ The source documents used the working names on the left. This book uses the hous
   [Mind], [*Psychē*], [Pool: intellect, perception, memory, cunning. Resists confusion, illusion, deception],
   [Spirit], [*Pneuma*], [Pool: will, presence, faith, the supernatural. Resists fear, despair, possession, corruption],
 ))
+
+The following table identifies generic core playbook names for reference; it is not a list of selectable Frontier playbooks. Use the replacements listed in Frontier Playbooks, Playbook Overview.
 
 #figure(table(columns: (24%, 22%, 54%),
   table.header([Working name], [House name], [Generic core playbook]),
@@ -177,9 +185,9 @@ The source documents used the working names on the left. This book uses the hous
 #colbreak()
 == Notation
 
-- *★ Major.* An ability that costs *1 Refresh* when you take it, at creation or through advancement.
+- *★ Major.* An ability with a *1-Refresh Major cost* whenever taken. As an additional playbook ability at creation, it costs *2 Refresh total*: 1 for the additional ability and 1 for Major. A first playbook ability has no additional-slot cost, but its Major cost still applies. Veteran surcharges remain additional (Generic Playbooks §§1.1–1.2).
 - *◆ Capstone.* Unlocked after *12 Advances* if you have at least 4 abilities from that playbook. It costs no Refresh, and each character can have one.
-- *◈ Weird.* A Focus that assumes the supernatural, old-world works or afflicted blood. On the Frontier every ◈ Focus is allowed, but the marker shows which ones draw the attention of vampire households, Occultists and frightened villagers.
+- *◈ Weird.* A Focus that assumes the supernatural, old-world works or afflicted blood. All Weird Focuses presented in this setting book are available; generic Focus availability is governed by Frontier Focuses §1. The marker shows which options draw the attention of vampire households, Occultists and frightened villagers.
 - *Tags* are written in _italics_, such as _marks on my throat_. *Statuses* add a tier, such as _wounded-2_.
 - *Difficulty* is written by name and target, such as *Standard 15* or *Hard 18*.
 
@@ -210,7 +218,25 @@ The source documents used the working names on the left. This book uses the hous
 - *Dusk:* the GM gains +2 Woe. Vampires come out.
 - *Night:* vampires and dhampirs ignore darkness. A scene at night with a vampire present adds +1 Woe at the start.
 - *Dawn:* a vampire still in direct light at the end of the scene gains _Sun-Sick_ at tier 2 at once.
-- *Hard to Kill:* a vampire's physical statuses can't go above tier 5 without a *killing method*: beheading, or sustained fire on a broken vampire (Frontier Rules §5.2, §8.1).
+- *Hard to Kill:* a vampire's physical statuses can't go above tier 5 without a *killing method*: beheading, or sustained fire on a broken vampire; staked meets fire's prerequisite under the restricted equivalence (Frontier Rules §5.2, §8.1).
+
+== Killing Strikes (Frontier Rules §5.2)
+Within established lethal stakes, name one vampire and use a fitting skill and eligible killing method. Base Difficulty: *Minor 18 · Established 21 · Great 27 · Paramount 30*. Subtract 3 per tier of its *highest negative status* only, then apply every eligible killing-strike ability reduction. No minimum Difficulty.
+
+Success destroys the named vampire. Failure does not: the GM states a significant complication. Give the GM *2 Woe* to buy off that complication, not to make the strike succeed. Settle conflict outcome and compromise separately; failure does not automatically impose a Significant compromise.
+
+*Beheading:* eligible blade or sufficient strength; no tier-4+ prerequisite or separate Difficulty table. *Sustained fire:* requires a vampire broken at physical status tier 5; a staked vampire meets this prerequisite under the restricted equivalence (Frontier Rules §8.1). A husk's killing strike succeeds automatically; fire destroys it at once. Reaching 0 shared Disposition does not itself wound, break or destroy a vampire.
+
+== Staking (Frontier Rules §8.1)
+A stake is *not a killing method*. Declare the attempt and establish an opportunity to reach the heart. Use Fight or Brawl in reach, or Shoot with a weapon explicitly able to deliver a stake at range.
+
+Use base Difficulty *18 / 21 / 27 / 30* by Rank, reduced by 3 per tier of the highest negative status; no minimum. Killing-strike ability reductions do not apply unless explicitly allowed.
+
+Success or Success at a Cost inflicts _staked_: no actions or recovery while the stake remains. It is not tiered, does not destroy the vampire and does not itself inflict tier-6 harm. Apply the normal cost on Success at a Cost; resolve failure normally.
+
+*Restricted equivalence:* while staked, count as broken at physical tier 5 only for sustained-fire eligibility. For subsequent killing-strike rolls, use effective tier 5 (−15 Difficulty) or a higher actual negative-status tier, not both; eligible ability reductions still apply. No effect on staking rolls, other tests, roll penalties, Blood Debt, recovery eligibility or ability triggers; staked is not sleeping or a husk. It cannot be bought in tiers, stacked, reduced by status-tier healing or raised to 6; additional stakes grant no further benefit. No Scar, Dying, destruction, extra action, volley or automatic killing strike from staking. Removing the stake ends both equivalences, not actual statuses or settled outcomes.
+
+In a conflict, staking uses the scripted Attack but replaces its normal roll and Disposition loss. Removing one vampire does not subtract Disposition; the side loses only if none can continue or another defeat condition is met.
 
 == Frontier Skills
 Renamed skills (Frontier Rules §3). All other generic skills keep their names.

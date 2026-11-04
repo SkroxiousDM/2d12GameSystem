@@ -18,6 +18,8 @@ Recovery follows four successive rest stages:
   , kind: table
   )
 
+#strong[Short rests and full rests.] A #strong[short rest] means completing any one of the first, second or third rests above. Restrictions on short-rest recovery apply to all three stages; ability benefits triggered by a short rest trigger on completing any of those stages, subject to their stated requirements and frequency limits. A #strong[full rest] means completing the fourth rest; full-rest ability benefits trigger on that completion. These terms do not create additional rest stages, change their durations or reset the successive rest cycle.
+
 - #strong[Divide the recovered points among Sōma, Mētis, Psychē and Pneuma however you wish], without exceeding a pool\'s maximum. They don\'t have to go to whichever pool was drained most recently.
 
 - #strong[Edge does not apply to recovery.] Edge only reduces Effort cost and adds Resistance dice (§2.4, §6); recovery stays flat so it can\'t stack with Edge\'s other benefits.
@@ -59,7 +61,7 @@ Recover #strong[1 additional point] whenever you make a recovery roll. This Adva
     [Wounds, blood loss, poison], [Medicine and suitable supplies],
     [Fear, grief, shock], [Empathy, reassurance and safety],
     [Confusion, cognitive disruption], [Diagnosis, rest or specialist care],
-    [Damaged machines or implants], [Science or Craft, tools and access],
+    [Damaged machines or implants], [Tech or Craft, tools and access],
     [Curses, possession, corruption], [A fitting supernatural method or the source's stated cure],
   )]
   , kind: table
@@ -123,11 +125,11 @@ These are game-time intervals, not medical estimates. A full night is the normal
 
 Stabilising doesn't erase marked segments, reduce the injury, refill pools or return the patient to the conflict. A stable patient can be moved with care. If a new event makes them Dying again, the clock resumes from its recorded segments.
 
-#strong[Definitive care.] Emergency care can stabilise a tier-6 life-threatening injury but can't lower its tier. Lowering it below tier 6 takes #strong[definitive care]: a suitable procedure, facility or specialist, or an ability or item that explicitly heals the injury (such as #emph[Miracle Worker], #emph[Not on My Table] or #emph[healing gel]). The GM states what that requires when the injury is assessed and doesn't add requirements once they are met. When definitive care brings the injury below tier 6 and removes its immediate lethal cause, clear the Dying clock.
+#strong[Definitive care.] Emergency care can stabilise a tier-6 life-threatening injury but can't lower its tier. Lowering it below tier 6 takes #strong[definitive care]: a suitable procedure, facility or specialist, or an ability or item that explicitly heals the injury (such as #emph[Miracle Worker] or #emph[healing gel]). The GM states what that requires when the injury is assessed and doesn't add requirements once they are met. When definitive care brings the injury below tier 6 and removes its immediate lethal cause, clear the Dying clock.
 
 #strong[Immediate death.] Use it only when the established outcome leaves no plausible time for rescue, or a specific killing method calls for it (such as a creature's killing strike in a setting book). Announce that danger before the roll, and allow Resistance, escape or interruption. Once such an outcome is fully resolved, don't add a Dying clock to undo it; equally, don't skip the clock for an ordinary mortal wound just because the description is graphic.
 
-#strong[Setting-specific harm.] If a setting gives a condition (such as blood loss) its own tiers and stabilising rules, use those instead of a Dying clock, not as well.
+#strong[Setting-specific harm.] Follow a setting condition's explicit rules for tiers, stabilisation and lethal outcomes. Those rules may replace the core Dying procedure or expressly use it. Do not add a second death clock or deadline. Where the setting invokes core Dying, use this section except where the setting explicitly changes it.
 
 #strong[After a death.] Resolve the death and its established consequences. The group may remember the character through Beliefs, relationships, keepsakes or later story developments; death creates no separate points or automatic Truth.
 
@@ -138,4 +140,4 @@ Stabilising doesn't erase marked segments, reduce the injury, refill pools or re
 #strong[The wound heals; the loss stays.] A permanent change can outlast the injury that caused it. When #emph[severed hand-4] has healed, the hand is still gone: the status measured the acute
 wound. Record the lasting change as a tag or a character fact, not as a status that never heals.
 
-#strong[Adapting.] Training, help, prostheses, old-world works or supernatural intervention can change how permanent harm affects play. A replacement doesn't automatically remove a related Scar, and a Scar doesn't make a replacement useless. Don't reduce maximum pools, Edge, skills or Refresh unless the effect or an agreed Advance says so.
+#strong[Adapting.] Training, help, prostheses, advanced technology or supernatural intervention can change how permanent harm affects play. A replacement doesn't automatically remove a related Scar, and a Scar doesn't make a replacement useless. Don't reduce maximum pools, Edge, skills or Refresh unless the effect or an agreed Advance says so.

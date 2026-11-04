@@ -37,7 +37,7 @@ Quiet, precise, and always three exits ahead. Thieves, spies, scouts, assassins,
     [5], [#strong[Quick Reflexes];], [You always act first when violence breaks out. In conflicts, changing one of your scripted actions costs #strong[1 Momentum] instead of 2.],
     [6], [#strong[Escape Artist];], [When you Resist capture, restraint, falls, or traps with Mētis, the cost is #strong[0 on a highest die of 5+];.],
     [7], [#strong[★ Flashback];], [Once per mission, declare a flashback to something you prepared earlier. Pay Momentum by plausibility: 0 (obvious), 1 (reasonable), 2 (a stretch), 3 (wild). Then roll as normal; on a success, it happened.],
-    [8], [#strong[★ Deadly Precision];], [Against an unaware or #emph[Impeded] target, Attack effects cost #strong[half Power (round up)];: 2 Power buys a tier-3 or tier-4 status.],
+    [8], [#strong[★ Deadly Precision];], [Against an unaware or #emph[Impeded] target, Attack effects outside conflicts cost #strong[half Power (round up)];: 2 Power buys a tier-3 or tier-4 status. During conflicts, each Power committed to your successful Attack's Disposition-loss effect buys the effect normally purchased with 2 Power: remove twice the committed Power, plus 1, from the opposing side's shared Disposition. Apply the +1 once; this purchase grants no individual status or automatic participant removal and creates no additional Power for other Effects.],
     [◆], [#strong[Nobody Sees Me Coming];], [Once per session, declare you\'re already somewhere you could plausibly have reached. Your first roll there gets #strong[+2 bonus dice for free];, and the GM can\'t spend Woe to reveal you during that roll.],
   )]
   , kind: table

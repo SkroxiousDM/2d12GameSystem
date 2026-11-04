@@ -31,7 +31,7 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
     table.header([\#], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Juggernaut];], [When you Resist physical harm with Sōma, reduce the status by #strong[3 tiers] instead of 2.],
-    [2], [#strong[Brutal];], [Once per roll, when you spend Power on Attack with Fight or Brawl, the status gains #strong[+1 tier for free];.],
+    [2], [#strong[Brutal];], [Once per roll, when you spend Power on Attack with Fight or Brawl: outside conflicts, the status gains #strong[+1 tier for free];; during conflicts, a successful Attack gains #strong[+1 Power] that can be committed only to that Attack’s Disposition-loss effect. This bonus grants no individual status, cannot buy another Effect and cannot become Momentum.],
     [3], [#strong[Bodyguard];], [When an ally within reach would suffer a consequence, you may take it instead. If you Resist it, your Edge counts as 1 higher for that roll.],
     [4], [#strong[Cleave];], [When you attack a group or minions, you get #strong[one free Extra Feat] per roll (hit a second target, break their line, and so on).],
     [5], [#strong[Menacing];], [You may use #strong[Sōma] for Intimidate Effort and Resistance. When you succeed on Intimidate against minions, spend 1 Momentum to make them flee, surrender, or freeze.],

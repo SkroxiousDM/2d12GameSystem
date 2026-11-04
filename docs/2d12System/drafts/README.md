@@ -36,12 +36,17 @@ paragraphs sit below the scenery table.
 - Module D result 11 (reputation Truth) is dropped; results 11 and 12 are
   one faction result.
 
+## Completed retirement documentation
+
+- The retained Legacy draft has an explicit retired-status header and
+  directs readers not to restore its include or Quick Reference row
+  (`9f15041`).
+- Legacy retirement is recorded in the changelog and Phase 1
+  implementation tracker. The historical mechanics remain preserved,
+  not active.
+
 ## Open items
 
-- The Legacy draft header still needs an explicit retired-status notice
-  and removal of its insertion instructions.
-- Record the Legacy retirement in the changelog and Phase 1
-  implementation tracker.
 - Complete the active-source sweep for remaining Legacy currency,
   death-trigger and §6.9 references. Preserve historical playtest
   records and ordinary narrative uses of the word legacy.

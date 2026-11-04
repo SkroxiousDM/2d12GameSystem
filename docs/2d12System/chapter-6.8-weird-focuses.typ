@@ -18,7 +18,7 @@ Monster-hunter, exorcist, or investigator of the strange.
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Monster Lore];], [Once per scene, Discover a supernatural creature\'s weakness tag without rolling.],
-    [2a], [#strong[Bane];], [Your Attacks against a creature whose weakness you\'ve exploited inflict #strong[+1 tier];.],
+    [2a], [#strong[Bane];], [Against a creature whose weakness you’ve exploited, your Attacks outside conflicts inflict #strong[+1 tier];. During conflicts, your successful Attacks against that creature gain #strong[+1 Power] that can be committed only to that Attack’s Disposition-loss effect; this bonus grants no individual status, cannot buy another Effect and cannot become Momentum.],
     [2b], [#strong[Ward the Threshold];], [Spend a scene preparing a location. For one night, supernatural creatures must beat #strong[Formidable 21] to cross it.],
     [3a], [#strong[Unshake-able];], [When you Resist fear, possession, or corruption with Pneuma, the cost is #strong[0 on a highest die of 5+];, and you reduce the status by 3 tiers.],
     [3b], [#strong[★ Nemesis];], [Name a supernatural foe. You always sense its direction, and your rolls against it get a #strong[free bonus die];.],

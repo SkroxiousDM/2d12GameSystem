@@ -3,7 +3,7 @@
 == 9. Momentum and Woe
   #columns(2, gutter: 6mm)[
 === 9.1 Momentum (shared by the party, max 6)
-#strong[Gain:] unspent Power from rolls. #strong[Decay:] lose 1 Momentum at the end of each scene.
+#strong[Gain:] unspent Power from rolls, plus unspent cypher Power as permitted by Module A.1. #strong[Decay:] lose 1 Momentum at the end of each scene.
 
 #figure(
   [#table(

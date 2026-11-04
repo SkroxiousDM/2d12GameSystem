@@ -16,10 +16,10 @@ Your horse is half-machine, tireless, and as stubborn as you. You\'ve crossed de
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Cyborg Steed];], [You own a cyborg horse (vehicle, 0 load) with tags #emph[never tires] and #emph[armoured flank];. Once per scene, it gives free Help on a Ride, Frontier, or Fight roll.],
-    [2a], [#strong[The Charge];], [In the first exchange of a mounted Fight, your Attacks inflict #strong[+1 tier];.],
+    [2a], [#strong[The Charge];], [In the first exchange of a mounted Fight, your successful Attacks gain #strong[+1 Power] that can be committed only to that Attack's Disposition-loss effect; this bonus grants no individual status, cannot buy another Effect and cannot become Momentum.],
     [2b], [#strong[Upgraded];], [Your horse gains one Implant from the Cyborg Hunter list (Frontier Playbooks §8.1).],
     [3a], [#strong[Never Caught];], [In Chases, your side\'s Disposition is #strong[+3];, and changing your scripted action costs 1 Momentum.],
-    [3b], [#strong[★ Bond of Steel];], [Your horse becomes a companion that acts on its own in conflicts (one action per exchange, #emph[+1 Attack];), takes its own statuses, and can\'t be Taken Out by minions.],
+    [3b], [#strong[★ Bond of Steel];], [Once per scene, your horse can reach you or one ally in the current scene and carry the rescued character to a nearby safe position, provided it can physically reach and carry them. It can rescue a Taken Out character, but does not heal statuses, restore Disposition or return that character to participation in the current conflict. This rescue grants no Attack, additional scripted action or extra volley.],
   )]
   , kind: table
   )
@@ -65,7 +65,7 @@ Brothers, sisters, cousins: a Hunter clan that rides together, fights together, 
     table.hline(),
     [1], [#strong[Family Tactics];], [When you Help your kin PC (from your PC link), or they Help you, the Help costs #strong[0] pool points.],
     [2a], [#strong[Kin Rider];], [An NPC sibling or cousin rides with you: a minion group of one with 2 power tags and 1 weakness.],
-    [2b], [#strong[Shared Spirit];], [In conflicts, each kin on your side (PC or NPC) adds #strong[+1 Disposition];.],
+    [2b], [#strong[Shared Spirit];], [Each kin participating on your side, PC or NPC, adds #strong[+1] to your side's starting shared Disposition. A kin who joins after setup adds 1 to both current and starting shared Disposition, following the reinforcement rules. This increases the recovery cap but does not change established boss-phase references or reverse activated phases. A kin leaving or being Taken Out does not automatically subtract Disposition.],
     [3a], [#strong[Avenge My Kin];], [When a kin is Taken Out, gain a free bonus die on every roll against whoever did it until the scene ends.],
     [3b], [#strong[★ The Family Name];], [Your clan is a #strong[Region Truth] (#emph[\"Nobody crosses the \[name\] clan\"];). Once per session, call on the clan: a warband (Generic Focuses #emph[Warband];) joins you for one mission.],
   )]

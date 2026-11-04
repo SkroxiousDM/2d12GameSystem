@@ -4,7 +4,27 @@
 **Master file:** `docs/TestamentOfDust/testament-of-dust-2d12-v2-master-rulebook.typ`
 **Branch:** `rules/unified-damage-cycle` (built on `running-dry-r3`)
 **Date:** 18 October 2026
-**Status:** Consolidated for playtest. Items marked **[Playtest value]** are new numbers that still need testing.
+**Status:** Historical consolidation record — superseded in part. Not current rules.
+
+> This document records the unified-damage-cycle integration on
+> `rules/unified-damage-cycle` dated 18 October 2026. Its combined-master
+> path, section numbers, implementation claims and references to “now”
+> or “authoritative” describe that historical checkpoint, not the current
+> split books.
+>
+> Personal-Disposition forfeiture, removal accounting and requirements
+> to restore an individual's Disposition before returning to a conflict
+> are superseded by the current shared-side model. Removing a participant
+> does not automatically subtract shared Disposition, and ordinary shared
+> Disposition loss does not itself inflict an individual status, drain a
+> pool or remove a participant.
+>
+> For current procedures, consult the active core and setting Typst
+> sources together with `rules-audit-phase1-decisions.md` and
+> `rules-audit-phase1-implementation.md`. The original text below is
+> preserved as history, not a current implementation or verification
+> ledger. This notice selects no new recovery, creature-specific or
+> playtest ruling.
 
 This branch puts the whole damage cycle into the master rulebook: the injury trade, concession, compromise settlement, treatment, healing intervals, dying, permanent harm and NPC handling, plus all the fixes from the consistency and loophole review. It sits on top of the Running Dry R3 changes (`running-dry-r3`, PR #21), so it replaces that PR. The master rulebook is now the authoritative text. This file records where each part came from and what was adapted.
 

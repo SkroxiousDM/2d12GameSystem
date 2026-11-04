@@ -283,7 +283,7 @@
         align(center, box(width: 22pt, wbox(h: 12pt)))))
     }
     v(3pt)
-    note[*At creation:* 1 free ability (plus your Tier 1 Focus ability); up to 2 more for 1 Refresh each. *★ Major* costs 1 Refresh whenever taken. *Veteran* (6 Advances): another playbook's ability, +1 Refresh. *◆ Capstone:* 12 Advances and 4+ abilities from this playbook; no Refresh; one per character.]
+    note[*Creation:* first playbook ability has no extra-slot cost; ★ Major still costs 1 Refresh. Tier 1 Focus is free. Up to 2 extra playbook abilities: ordinary 1 Refresh each, ★ Major 2 Refresh total each. Minimum Refresh 1. *Advancement:* new ability costs an Advance; ★ adds 1 Refresh. *Veteran* (after 6 Advances): another playbook's ability, +1 Refresh in addition to any ★ cost. *◆ Capstone:* 12 Advances and 4+ abilities from this playbook; no Refresh; one per character.]
     v(2pt)
     wline(label: [XP trigger])
 
@@ -340,7 +340,7 @@
         line(length: 100%, stroke: 0.5pt + ash), wbox(h: 12pt), line(length: 100%, stroke: 0.5pt + ash)))
     }
     v(3pt)
-    note[*Use:* an action, usually no roll. It makes Power equal to its tier, spent only on its listed Effects. *Over the limit:* at scene end the GM gains 1 Woe per extra cypher and may roll Volatile (d12): 1–4 one fires · 5–8 one is ruined · 9–12 nothing yet.]
+    note[*Use:* an action, usually no roll. It makes Power equal to its tier, spent only on its listed Effects. For a fixed listed Truth result, surplus Power may buy rank or duration only where permitted; remaining Power becomes Momentum. Surplus grants no otherwise prohibited upgrade or bypass of Site/Region clocks (Module A.1). *Over the limit:* at scene end the GM gains 1 Woe per extra cypher and may roll Volatile (d12): 1–4 one fires · 5–8 one is ruined · 9–12 nothing yet.]
 
     sec([Artifacts], sub: [Module A · attune to 2 at most])
     for k in range(2) {

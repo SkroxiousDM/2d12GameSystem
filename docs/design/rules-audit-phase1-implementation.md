@@ -1,99 +1,93 @@
 # Phase 1 rulings: implementation tracker
 
-Controlling decisions: `docs/design/rules-audit-phase1-decisions.md`. Area Rule and Interpose draft: `docs/design/area-rule-and-interpose-rewrite.md`.
+This file is a navigation index. The numbered history files preserve the previous tracker's wording and document order; they are not independent current-status ledgers.
 
-## Scope
+## How to read the history
 
-Implement the recorded rulings in current core and Testament of Dust Typst sources, the character sheet, Quick Reference, changelog and draft-status notes. Preserve historical playtest rolls and outcomes. PDF rebuilding, numerical recalibration and test reruns are deferred. This tracker records implementation, not additional designer rulings.
+- Read the files in numeric order. Numbers identify original document order, not newly assigned dates or audit IDs.
+- Earlier pending statements remain historical. Consult subsequent entries for scoped completions and supersessions; do not treat an earlier checkpoint as the latest status.
+- References such as “below” and “at the end of this tracker” retain their original wording and refer to the original document sequence.
+- Source implementation, reference clearance, build verification, playtest validation and release completion remain separate statuses.
+- This structural migration makes no new rules decisions and does not close Phase 1.
 
-## Batch 1
+## Implementation history
 
-- Core Effects: Create baseline changed from 3 to 2 Power per Truth rank; rank 2 costs 4. Baseline applies in and out of conflict. Each explicit ability/item discount is -1, minimum 1.
-- Generic Playbooks and core Introduction: a Major ability taken as a creation extra costs 2 Refresh total. Normal Major cost and the existing veteran surcharge remain distinct.
-- No other Phase 1 implementation is completed by this batch.
+1. [Opening, scope and initial batches](phase1-implementation-history/01-opening-and-initial-batches.md)
+2. [Area Rule, adversaries, Descriptor names and Legacy](phase1-implementation-history/02-area-adversaries-and-retirements.md)
+3. [Killing strikes, reputation guidance and recovery](phase1-implementation-history/03-frontier-strikes-reputation-and-recovery.md)
+4. [Boss phases, Fail-safe, Major pricing and contradiction fixes](phase1-implementation-history/04-bosses-pricing-and-contradiction-fixes.md)
+5. [Relocation, Frontier options and recovery mappings](phase1-implementation-history/05-relocation-options-and-recovery-mappings.md)
+6. [Remaining implementation by decision — historical checkpoint](phase1-implementation-history/06-remaining-implementation-checkpoint.md)
+7. [Unresolved details and verification — historical checkpoint](phase1-implementation-history/07-deferrals-and-verification-checkpoint.md)
+8. [Subsequent Frontier findings](phase1-implementation-history/08-subsequent-frontier-findings.md)
+9. [Residual P1–P4 and IS-01–IS-05 completion](phase1-implementation-history/09-residual-p1-p4-and-is-completion.md)
 
-## Batch 2
+## Related records
 
-- Conflict setup retains roll / 3, rounded down, then helpers and flat modifiers at full value; typical band remains 8-11.
-- Flat Disposition modifiers have no stacking cap. Enforce minimum 1 after modifiers and before Superiority.
-- Superiority can reduce starting Disposition to 0. Resolve overwhelming preparation as a win at no cost, without scripting volleys, within intent and stakes, referencing the none-or-trivial row of 10.12. The order-of-resolution procedure stops at setup for this outcome.
-- Shared Disposition explicitly has no per-member shares or spill-over. Other individual-removal procedures are unchanged.
-- Maneuver Create costs 2 Power per rank; Floor Collapse costs 4 Power; Make a Hazard remains 2.
-- Quick Reference now includes the matching setup and Create rules and retains the Superiority playtest flag.
-- No Area Rule, Interpose, setting killing-strike, recovery, Legacy, character-sheet, changelog or numerical-recalibration changes were made in this batch.
+- [Controlling decisions](rules-audit-phase1-decisions.md)
+- [Area Rule and Interpose draft](area-rule-and-interpose-rewrite.md)
 
-## Area Rule and Interpose integration on review branch
+Separate completion reports and the root changelog remain unchanged by this migration.
 
-- Commit `ee3978a`: Core Rules §§10.16–10.17 added in `docs/2d12System/chapter-2.10-area-and-interpose.typ` and included immediately after the conflict-system source. The Area Rule is explicitly provisional for playtesting. Adept and Occultist Unleash now use that rule: shared Disposition loss once plus 1 per additional opposing participant, full-tier explicitly inflicted statuses on each affected character, and no status from an ordinary conflict Attack without an explicit grant.
-- Commit `5434f07`: current `docs/2d12System/chapter-adversaries.typ` now summarizes area effects and Bulwark Interpose in line with Core §§10.16–10.17; Heavy Hitter no longer says bonus Power hits only the main target. `docs/2d12System/chapter-7-appendix-a-quick-reference.typ` now summarizes both procedures.
-- This documentation update synchronizes `docs/design/area-rule-and-interpose-rewrite.md` and this tracker with those source edits. These are review-branch source integrations, not a merged or built release. Historical playtest rolls and outcomes, main, encounter budgets and vampire rules were not changed by the integration.
-- No Typst compilation, PDF rebuild, layout check, numerical recalibration, full active-source sweep or playtest rerun is claimed.
+## Documentation reconciliation — 2026-11-02
 
-## Adversaries shared-Disposition cleanup on review branch
+### Historical setting-design index
 
-- Commit `fc63b96`: `docs/2d12System/chapter-adversaries.typ` now identifies Grit as a contribution to the side's starting shared Disposition, not a personal track. Defend, Blood Price and Self-Repair restore the side's shared total; scripting and concession reminders use the side's shared Disposition. The Hound Pack example no longer subtracts the Pack's Grit when a status or explicit effect removes it, and 0 shared Disposition no longer grants a vampire physical harm.
-- These specific Adversaries corrections are complete in source. The broader active-source sweep for per-member, splash, spill-over and transfer language is still pending. Leader eligibility, boss-phase triggers, Last Stand and Fail-safe remain unchanged pending review; no new trigger ruling is claimed. Historical playtest results and drafts were not rewritten, and no Typst/PDF or playtest verification is claimed.
+- [The setting-design document](testament-of-dust-setting-design-document.md) is now a navigation index for 23 historical records. Commit `661272f0099317c84814cf089abfa54f0eb08390` replaced only that entry point with the reviewed Option B index; the 23 historical records were not changed by that commit.
+- The 20,242-byte index has Git blob SHA `82959bcd73dbf954dabfe3580280497fb8aa54af`. It retains the historical-status warning, current-source links and document-order navigation. All 145 original heading destinations are represented: 144 explicit forwarding entries and the document title. An additional forwarding entry preserves the stale Appendix B `DRAFT` alias alongside the actual `APPLIED` heading.
+- Compatibility navigation is two-step: an old fragment identifies an entry in the index, and its link opens the containing historical record rather than the original subsection directly. Historical status labels, reproduced procedures and source paths are not current rules clearance or new lore decisions.
 
-## Frontier Descriptor names on review branch
+### Local browser check and validation limits
 
-- Commit `e58b93a`: `docs/TestamentOfDust/tod-descriptors.typ` renames setting Descriptor 7 from Cunning to Scheming and setting Descriptor 16 from Reckless to Headlong in both the Quick Reference table and entry headings. Numbers, pools, tags, Instincts, hooks and other mechanics remain unchanged. The generic Cunning and Reckless Descriptors and historical playtest records remain untouched.
-- This resolves the setting Descriptor *name collisions* in the current setting-book source. A separate current-facing reference sweep and later Typst/PDF verification remain outstanding; this does not mark other setting-neutrality work complete.
+- Local headless Chromium 134.0.6998.35 tested a reconstructed index whose bytes matched the committed blob SHA. With Mistune 3.1.3 rendering, all 146 fragment checks passed and all 145 forwarding-link click checks reached the expected destinations across 23 local historical-record fixtures. Both the actual Appendix B heading and stale `DRAFT` alias passed; no failures were recorded.
+- This was not a live GitHub browser test. All requests were served locally; destination fixtures were reconstructed historical sections rather than fresh repository downloads. The title heading ID was assigned in the local test setup. GitHub's automatic heading-ID generation and handling of custom HTML IDs remain unverified.
+- These navigation checks do not establish Typst compilation, PDF rebuild, rendered rulebook layout, numerical recalibration, mechanical reference clearance or playtest validation.
 
-## Legacy retirement on review branch
+### Remaining documentation commits and Phase 1 status
 
-- Commit `21dabc1`: `docs/2d12System/chapter-2.6.5-recovery.typ` no longer includes `drafts/legacy-pool-6.9.typ`. Core §6.7 now states that a resolved death creates no separate points or automatic Truth; the Dying clock, Scars, permanent harm and fictional remembrance remain unchanged.
-- Commit `12509ff`: `docs/2d12System/drafts/README.md` distinguishes active drafts from retired Legacy and notes that prior compilation does not verify this branch. Commit `9f15041`: the retained `legacy-pool-6.9.typ` has an explicit retired historical-draft header and no longer instructs inclusion or a Quick Reference row. Its rules body is preserved as history, not active rules.
-- The active four currencies remain pools, Tychē Points, Momentum and Woe. There is no death-triggered Legacy Pool, spend menu, optional Keepsake or Echo procedure in the active rulebook. This record and the changelog do not complete the active-source reference sweep or Typst/PDF verification. Echo and other Region/Campaign Truth exceptions remain deferred to playtesting.
+- This tracker-only reconciliation does not complete the three-document reconciliation. The root changelog still requires its own separate exact-content confirmation and commit; this update does not modify it or any historical record.
+- Earlier checkpoints and supplemental completion records retain their original scope. The broader audit work, remaining-task categories and preserved deferrals recorded in the implementation history remain open; this note neither reopens scoped completions nor clears uninspected passages.
+- Phase 1 remains open. Source implementation, reference clearance, build verification, playtest validation and release completion remain separate statuses. The full PR diff review against current main remains a pre-merge gate; this documentation update does not merge the branch or change main.
 
-## Revised Frontier killing strikes on review branch
+## Last One Standing: scoped source completion — 2026-11-02
 
-- Commit `09ae687`: `docs/TestamentOfDust/tod-setting-rules.typ` integrates the revised §5.2 procedure. Base Difficulty is Minor 18, Established 21, Great 27, Paramount 30; reduce it by 3 per tier of the target's highest negative status, with no minimum. A successful strike destroys the named vampire. Failure brings a significant complication with a 2-Woe buy-off; buying it off does not turn failure into success, and failure does not automatically impose a Significant compromise.
-- Commit `b2ec517`: affected Frontier playbook, Focus and gear references use the revised procedure, including staking references for stake-capable ranged weapons.
-- Commit `2aa4f5d`: `docs/TestamentOfDust/tod-setting-rules-8.typ` reconciles §8.1 killing methods. Beheading uses the common killing-strike procedure with no tier-4+ prerequisite; sustained fire requires a vampire broken at physical status tier 5, retaining the husk exception. Staking remains separate. The general §5.2 text explicitly stacks eligible ability reductions; those reductions do not apply to staking unless an ability explicitly says so.
-- Commit `527dd62`: `CHANGELOG.md` records the revised procedure and related reconciliation under Unreleased.
-- These are source and documentation integrations on `rules-audit/area-rule-interpose`, not a merged or built release. This implementation record supersedes the old pending item for Rank difficulties 15/18/21/24 and a separate beheading status-tier Difficulty table; it does not make additional designer rulings. Reconcile the controlling decision document and other current-facing summaries with the revised procedure in the remaining consistency pass. No full active-source sweep, character-sheet reconciliation, Typst compilation, PDF rebuild, layout check, numerical recalibration or playtest rerun is claimed.
+- Designer-selected choice 1 permits continued action without delaying Dying or death. Implemented in `docs/TestamentOfDust/tod-playbooks-sellsword.typ` §1.1, Last One Standing, by commit `bbeabd63ccb953d04d2f0fd91f6e6418bd6bb40f` (`rules: clarify Last One Standing without delaying Dying`). The complete diff was inspected: one file, 1 addition and 1 deletion, replacing only the ability row; no unintended changes were found.
+- Once per scene, a harmful status reaching tier 6 after Resistance and stacking can trigger continued action despite that status's Taken Out or incapacitating outcome until scene end. Record the status and its normal Scar immediately and retain applicable penalties. If the harm makes the character Dying, start and advance the core clock normally, including further harm. The ability does not stabilise, delay death or prevent a resolved immediate-death outcome, and ends on death.
+- The exception applies only to the triggering status; other conditions can still prevent action. It grants no extra actions, pool or Disposition restoration, postponed defeat or reopening of a settled conflict. At scene end apply any remaining incapacitation from that status; if its incapacitating condition has been removed, the ability imposes no new Taken Out result. This does not grant recovery from a separate earlier Sun-Sick 5 collapse.
+- This entry records the named source implementation only. The Last One Standing controlling-decision reconciliation and other reference coverage remain separate. Its changelog entry requires separate exact-content confirmation and commit after this tracker checkpoint. Earlier Sun-Sick/staking tracker reconciliation and the broader killing-strike/staking/tier-6 pass are not completed by this update. Existing tracker text, nine history links and historical checkpoint wording are preserved.
+- No Typst compilation, PDF rebuild, rendered-layout verification, numerical recalibration, fight rerun or playtest validation was performed. The expanded ability row's rendered fit remains unverified. Phase 1 remains open; full PR diff review against current main remains a pre-merge gate. No merge, release, PR-text update or change to main is included.
 
-## D.4/D.6a reputation guidance on review branch
+## Setting-neutrality corrections SN-01–SN-04 — 2026-11-03
 
-- Commit `d44c38e`: `docs/2d12System/chapter-3-module-d-downtime.typ` makes D.4 Connect cross-reference D.6a. The D.6a contact Truth bullet describes a relationship with a named person, requires stating what it makes possible and whom it concerns, and says it does not by itself grant a reputation tag or change faction Standing.
-- Commit `d4fdb5f`: D.6a now explains reputation tags without a Frontier milestone dependency, applies tag-cap exceptions only within an ability's stated scope, and uses the generic Bellator capstone *Legend of the Field* as its Campaign Truth example in place of setting-specific names. The contact Truth clarification is retained.
-- D.6a's setting-neutrality revision is complete in source and recorded in the changelog. Other setting-neutrality work remains pending, including moving vampire-specific Adversaries content, Frontier reskin and Walks Between Worlds statements, and current-facing reference sweeps. No new reputation-award procedure, duration, rank, discount or guaranteed service is introduced; deferred Truth-layer questions remain unresolved.
-- No Typst compilation, PDF rebuild, layout check or playtest verification is claimed.
+- SN-01 and SN-02 were implemented in commit `a4322184dec11e100580e7426c57fe80100a2a22` (`rules: remove setting dependencies from treatment and deferred injuries`). Core Rules §6.6 in `docs/2d12System/chapter-2.6.5-recovery.typ` names the generic skill Tech rather than setting-specific Science for damaged machines or implants; Craft, tools and access remain. Generic Adversaries §6.12 in `docs/2d12System/chapter-adversaries-part-2.typ` now applies to Specials that explicitly refer to it and takes the incoming status and tier from the Special, with generic Shock Field as the example. The hardcoded Feed/Bled example was removed; timing, payment, Resistance, stacking and compromise procedures remain unchanged. The complete commit diff was inspected: two files, three line replacements and no unintended changes.
+- SN-03 and SN-04 were implemented in commit `fe83b4df164c56c95903c659b0be0f6ecc27e32c` (`docs: remove Testament of Dust wording from generic core`). The core-book colophon now attributes the acknowledgement to The 2d12 System, retaining its separate-setting identification of Testament of Dust. Core Rules §6.8 substitutes “advanced technology” for “old-world works” in adaptation guidance. The complete commit diff was inspected: two files, two line replacements and no unintended changes. No new mechanics were introduced.
+- This records only the four named corrections. The prior read-only setting-neutrality pass covered 14 active source files and identified uninspected active core fragments, Modules E–F and nested includes, generic Descriptors/Playbooks/Focuses, Quick Reference and common helpers. That broader audit and Phase 1 remain open; no exhaustive setting-neutrality clearance is claimed. No Typst compilation, PDF rebuild, rendered-layout verification or playtest validation was performed. Full PR diff review against current main remains a pre-merge gate; this update does not merge or release the branch.
 
-## Recovery and Bled integration on review branch
+## Scoped recovery-reference and Blood Bank reconciliation — 2026-11-03
 
-- Commit `bf4a32b`: `docs/TestamentOfDust/tod-setting-rules.typ` §6 classifies Bled as a physical injury and labels its penalty and natural-recovery exceptions. Bled-4/5 impose −4/−5 on Sōma and Mētis rolls; unrelated harm no longer automatically Takes Out a Bled-4 character. Only Bled-6 starts core Dying, subject to lethal stakes, with Taken Out and a Scar rather than immediate death. The Bled-5 scene-end death deadline is removed.
-- Transfusion retains Standard 15, one Bled tier removed per Power and donor Bled-1. It explicitly bypasses the ordinary one-tier treatment limit and treated restriction. Suitable transfusion can supply definitive care at Bled-6; clear the Dying clock when Bled falls below 6 and the immediate lethal cause ends. Pools and Scars are not restored by transfusion.
-- Commit `bb1f9bb`: `tod-playbooks-frontier-doctor.typ` makes Treat the Bled apply Standard 15 instead of Hard 18 to stabilising Dying from Bled, retains kit-free transfusion and removes the obsolete frequency comparison. Not on My Table retains its tier-5 rescue and wakes the patient after 10 minutes of safe care. `tod-focuses-village.typ` gives Field Armourer a 10-minute repair time with suitable tools and access. Field Surgeon and Give of Yourself's tier-5 ceiling remain unchanged.
-- Commit `3954cea`: split the Frontier insert into `docs/TestamentOfDust/tod-character-sheet-page.typ` on this branch, retaining Mētis terminology. `2d12-character-sheet-v2.typ` connects the page with explicit helper scope and replaces the obsolete pool-0/half-max-return reminder with running dry. The Frontier page mirrors the revised Bled table, recovery and transfusion rules. The Grind wording is unchanged.
-- These scoped source edits and their changelog record are complete, not the entire recovery consistency pass. Reconcile the controlling decision document and remaining summaries; check Module B before changing the Grind's short-rest language, and finish the active-source sweep for old recovery formulas. Compilation, PDF rebuilding, expanded-panel layout checks and playtesting remain pending; no build or verification is claimed.
+### Source completions and selected procedures
 
-## Remaining implementation by decision
+RT-01–RT-03 identify findings in this bounded recovery-reference pass, not original audit IDs or the earlier residual P/IS series. All four complete source commit diffs below were inspected.
 
-1. Disposition: core conflict setup and Quick Reference reconciled in Batch 2. Reconcile other summaries and changelog. P, Grit and Encounter Budget recalibration remain Phase 4.
-2. Flat modifiers: core procedure and Quick Reference updated in Batch 2. PC/opposition symmetry, opposition eligibility and Rider balance remain playtest flags; reconcile other affected text.
-3. Shared Disposition: core clarification added in Batch 2. Area Rule, Interpose, Adversaries and Quick Reference integrated on the review branch. The scoped Adversaries Grit, recovery and example corrections in `fc63b96` are complete. Continue the broader active-source consistency sweep for other superseded per-member, splash or Disposition-transfer wording; do not rewrite historical test results. Review Leader eligibility, boss-phase triggers, Last Stand and Fail-safe without assuming new rules.
-4. Killing strikes: revised Rank/status procedure, affected playbook/Focus/gear references, killing-method table, explicit stacking rule and changelog integrated on the review branch (see commits above). The former pending Rank 15/18/21/24 and separate beheading Difficulty-table implementation is superseded. Reconcile the controlling decision document, character sheet, Quick Reference and other current-facing summaries; sweep active sources for obsolete thresholds, automatic Significant-compromise wording and staking conflation. Verify tier-6 handling against the implemented source and core Scar/Dying rules without inventing a new ruling. Builds and playtesting remain deferred.
-5. Create: core Effects, conflict Maneuver, scenery costs and Quick Reference updated in Batches 1-2. Reconcile explicit item/ability discounts and other summaries; consistency sweep remains pending.
-6. Recovery: Bled injury classification, labelled exceptions, tier-6 core Dying, explicit transfusion exception, related ability timing and sheet reminders are integrated (commits above). Still reconcile the controlling decision document and remaining references, check Module B and the unchanged Grind short-rest wording, and sweep active sources for legacy short-rest and 1 + Edge recovery text. Verify split-sheet assembly and layout in the later build pass; do not mark the full recovery item complete.
-7. Major creation extras: core pricing clarified in Batch 1. Reconcile setting explanations, sheet instructions and other summaries. R2 is superseded; do not rewrite historical test arithmetic.
-8. Legacy: active §6.9 include and death-trigger reference removed, historical draft and drafts README marked retired, changelog and this tracker updated. Finish the active-source sweep for remaining Legacy currency, death-trigger, §6.9 or obsolete instruction references; inspect the sheet and Quick Reference for consistency. Preserve historical records and ordinary uses of the word legacy. Do not activate Echo or other deferred Truth exceptions.
-9. Setting neutrality: D.6a's generic reputation guidance and D.4 contact Truth cross-reference are integrated on the review branch. Still move vampire-specific Adversaries content into the setting book, state that Frontier reskins replace the six generic playbooks, prohibit Walks Between Worlds in the Frontier, and sweep other current-facing references to old setting Descriptor names without changing generic descriptors or historical records.
+| Item | Source and verified scope | Commit / diff |
+|---|---|---|
+| RT-01: Chemist | `docs/TestamentOfDust/tod-playbooks-frontier-doctor.typ` §3.1. Selected Option A: 1 Check makes one standard tier-3 healing gel, mind-seal patch or blood ampoule, using Frontier Rules §9.1; iron tonic stays tier 2 and restores 1 Bled tier. | `580eb0a35a77c648c1e16aa917137593fa2c55f9`; one file, 1 addition / 1 deletion, Chemist row only. |
+| RT-02: Sun-Sick sheet summary | `docs/TestamentOfDust/tod-character-sheet-page.typ`, Sun-Sick note only. Adds the already selected Sun-Sick 6 Dying, rescue, definitive-care, separate-injury, Scar and repeated-exposure reminders; Bled, Thirst and surrounding sections are unchanged. | `785029e13bda02da9f56f4b5570c4cd94d53fc67`; one file, 7 additions / 1 deletion. |
+| RT-03: ordinary treatment summary | `docs/2d12System/chapter-7-appendix-a-quick-reference.typ`, Damage Cycle treatment passage only. Qualifies ordinary treatment, records treated until a healing interval removes a tier and preserves explicit healing/treatment exceptions under Core Rules §6.6. | `38652010669e94c1a999b7c8f7f234028bdd87b0`; one file, 1 addition / 1 deletion. |
+| The Blood Bank | Doctor §3.1 capstone row only. Selected Option B and boundary 1: no-roll transfusion removes up to 3 Bled tiers once per patient per scene; fixed output grants no Power/Momentum, other Effects or Restore-efficiency multiplication. Normal rolled transfusions remain available. | `0b66dc4a812c7403cdd369018de310b01454b19a`; one file, 1 addition / 1 deletion; Chemist and all other rows preserved. |
 
-## Unresolved details and playtest flags
+Transfusion requirements and donor Bled-1 remain unchanged, including Treat the Bled's kit exception. Suitable transfusion can provide definitive care at Bled-6; clear Dying only when Bled falls below 6 and the immediate lethal cause has ended. The capstone grants no pool restoration, Scar removal, reversal of resolved death or automatic return to an ongoing conflict. Its once-per-session half-litre supply and Region Truth remain separate benefits. The approved source row also changes the Region Truth example's escaped quotation marks to unescaped quotation marks; no separate quotation correction was made. No unintended source changes were found in the inspected diffs.
 
-- Superiority: PC/opposition symmetry and opposition eligibility for the automatic win remain playtest questions. Do not silently resolve them. Simultaneous reduction of both sides to 0 at setup also needs review; do not invent an automatic-win tie ruling.
-- Rider: retain the +7 Chase stack and flag it for playtesting.
-- Area Rule: provisional scaling is now integrated on the review branch, not confirmed by playtesting. Test large groups, full-tier statuses with separate Resistance costs, Unleash and NPC area Specials; do not silently select another scaling model.
-- Interpose: redirected harm is an imposed status, not ordinary shared Disposition loss. Apply before the original target's Resistance or reduction, enforce NPC one-reduction-per-status limits, and test the area-effect and excluded-cost boundaries.
-- Recovery abilities: whether Field Medic and Field Surgeon lift the 1-tier treatment limit is deferred to playtesting; do not grant that exception in this pass.
-- Bled: core Dying only at tier 6 and transfusion as an explicit treatment-limit exception are selected and integrated in `bf4a32b`, with ability and sheet updates above. This is no longer an unresolved death-rule decision. Remaining decision-document/reference reconciliation, layout checks and playtesting stay pending.
-- Truth layers: Echo, capstones, Rewrite History, Ancestor's Notes and the 3-5 Campaign Truth limit remain deferred to playtesting.
-- Descriptor names: setting Cunning → Scheming and Reckless → Headlong are selected and updated in `tod-descriptors.typ`; remaining reference and layout checks are tracked above and below, not an unresolved naming decision.
-- Numerical balance: P, Grit, Encounter Budget and all fight reruns remain deferred until the audit is complete.
+### Controlling-decision reconciliation
 
-## Verification still required
+- `e3f7ed4f2be07074db20def421a06dd8b22501ad` appends the selected Chemist and Blood Bank procedures to `docs/design/phase1-decisions/03-residual-ability-item-and-special-rulings.md`. Complete diff inspected: one file, 9 additions, no deletions; all prior text preserved.
+- `2b3645d3b67d68c8c029fc12afdc09efe33bbe5d` inserts a scoped reconciliation subsection under §6 in `docs/design/phase1-decisions/01-foundational-decisions.md`, linking the ability rulings and recording RT-02/RT-03 without changing the existing treatment-limit deferral. Complete diff inspected: one file, 8 additions, no deletions; all prior rulings, historical checkpoint wording and deferrals preserved.
+- These entries reconcile only the named selections and source changes. They do not reconcile unrelated earlier pending statements, Last One Standing, the full historical audit, broader setting-neutrality work or the entire older backlog. The decision index and nine implementation-history records remain unchanged by this tracker update.
 
-- Search all active source files for superseded rules and unconverted references, including earlier area splash and per-member Disposition language. Distinguish current rules from historical design records and playtest results. Include leftover Legacy currency, death-trigger and §6.9 references in that sweep.
-- Reconcile character-sheet instructions, remaining Quick Reference topics, changelog and other draft status against actual completed edits. Check other current-facing references to the renamed setting Descriptors.
-- Validate diffs to preserve unrelated text. Compile and rebuild PDFs only in the later rebuild pass; no build verification is claimed here.
+### Inspection limits, remaining work and validation
+
+- The bounded recovery pass freshly retrieved the foundational decisions; Frontier rules and gear/cypher continuation; setting-book entry point/Quick Reference; character-sheet assembly and Frontier insert; Doctor, Mutant and Cyborg Hunter playbooks; and all seven Frontier Focus-category files. It used earlier retrieved core recovery, treatment, module, ability and Quick Reference text as supporting evidence, not fresh retrievals of every core file. The remaining Frontier playbooks and Frontier adversary file were not freshly retrieved for this recovery-specific pass. Full-file retrieval is not blanket mechanical clearance.
+- The inspected Bled rules and sheet summary agreed on selected penalties, separate pool/status recovery, special recovery intervals, tier-6 Dying and the transfusion exception. This does not clear every Bled source or interaction. Mother's Blood/Dhampir Regeneration sunlight reminders, other healing/return-from-incapacitation interactions, and remaining source/reference coverage stay open. No replacement is approved for those passages by this reconciliation.
+- Field Medic/Field Surgeon treatment-limit questions remain deferred: improved Restore efficiency alone grants no general exception. Higher-layer Truth questions and the other existing deferrals remain unchanged. These completions do not close the recovery/Bled/treatment or killing-strike/staking/tier-6 passes.
+- No Typst compilation, PDF rebuild, rendered-layout verification, numerical recalibration, fight rerun or playtest validation was performed. The expanded Doctor rows, sheet note and Quick Reference passage have unverified rendered fit. Source implementation, reference clearance, build verification and playtest validation remain separate statuses.
+- This tracker reconciliation leaves the changelog untouched; changelog reconciliation remains separately scoped and requires its own exact-content confirmation. Phase 1 remains open. Full PR diff review against current main remains a pre-merge gate. No merge, release, PR-text update or change to main is included.

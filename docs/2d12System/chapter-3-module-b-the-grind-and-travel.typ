@@ -42,11 +42,15 @@ The Grind turns time, distance, and hardship into slow, steady pressure. It pair
 
 Grind conditions are statuses for Restore, but #strong[they don\'t stack] --- each is a separate condition.
 
+#strong[Conditions and pools recover separately.] Pool recovery follows Core Rules §6.5, subject to the Grind restrictions listed above. Clearing a Grind condition does not itself refill pools or reset the rest cycle; restoring pool points does not itself clear a Grind condition. Apply any explicit ability or item exception as written.
+
 === B.4 Checks (Players\' Turn)
 - #strong[Earn Checks] during the GM\'s Turn by #strong[applying one of your weakness tags or Scars to your own roll] (−1). You earn 1 Check, or 2 if the penalty makes the roll fail.
 - #strong[Everyone gets 1 free Check] in the Players\' Turn.
 - #strong[Spend 1 Check] for one Players\' Turn action: a recovery roll against a Grind condition or status, a downtime clock roll, a research or crafting roll, restoring a burned tag, attuning an artifact, or a scene that pursues your Goal.
 - #strong[Sharing:] you can give a Check to another PC whose scene you take part in.
+
+#strong[Treatment limits still apply.] Spending a Check on treatment does not bypass Core Rules §6.6: ordinary treatment reduces a given lasting injury by at most 1 tier, and its treated restriction remains. An effect that only changes Restore's Power cost does not lift that limit; an ability, cypher or item that explicitly heals a stated number of tiers follows its own text. Clearing a condition or treating an injury does not remove a Scar.
 
 This makes weaknesses a deliberate resource: hurt yourself now to earn recovery and downtime later.
 

@@ -31,7 +31,7 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
     table.header([\#], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Encyclopedic];], [Once per scene, ask one Discover question about a subject covered by your Lore #strong[without rolling];.],
-    [2], [#strong[Analyze];], [When you study a foe or obstacle, each Discover you buy also reveals #strong[one weakness tag] of the target. Creating a story tag that exploits a revealed weakness costs #strong[1 Power] instead of 2.],
+    [2], [#strong[Analyze];], [When you study a foe or obstacle, each Discover you buy also reveals #strong[one weakness tag] of the target. When you Create a Truth that exploits a revealed weakness, reduce its Power cost by 1, to a minimum of 1.],
     [3], [#strong[Field Medic];], [Restore effects from Medicine cost #strong[1 Power per 2 tiers];. You can treat #emph[Sick] (Module B) at Standard Difficulty instead of Hard.],
     [4], [#strong[Steady Mind];], [When you Resist confusion, illusion, deception, or forbidden knowledge with Psychē, reduce the status by #strong[3 tiers];.],
     [5], [#strong[Decipher];], [Codes, unknown languages, and ancient devices give way. Each success on a deciphering roll Advances its clock #strong[+1 extra segment];.],
@@ -72,7 +72,7 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
     [1], [Herbalist\'s kit], [Full first-aid kit], [Advanced medkit],
     [1], [Quarterstaff --- #emph[+1 Defend];], [Taser --- #emph[+1 Maneuver];], [Stun baton --- #emph[+1 Maneuver];],
     [1], [Scroll case with maps], [Tablet with offline maps], [Star charts / topographic uplink],
-    [1], [Alchemist\'s reagents (1 cypher-like use: Create smoke, light, or acid)], [Chemistry kit], [Nanite sample kit],
+    [1], [Alchemist\'s reagents (one tier-2 cypher; listed Effect: Create a Truth representing smoke, light, or acid. Use the normal cypher procedure in Module A.1)], [Chemistry kit], [Nanite sample kit],
   )]
   , kind: table
   )

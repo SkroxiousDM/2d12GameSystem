@@ -4,7 +4,27 @@
 **Intended master file:** `docs/TestamentOfDust/testament-of-dust-2d12-v2-master-rulebook.typ` (SkroxiousDM/2d12GameSystem)
 **Revision:** R3 (consolidated)
 **Date:** 18 October 2026
-**Status:** Finalized for playtest. Items marked **[Playtest value]** are new numbers that still need testing.
+**Status:** Historical R3 design record — superseded in part. Not current rules.
+
+> This document records the Running Dry R3 design checkpoint dated
+> 18 October 2026. Its intended combined-master path, section numbers,
+> references to “current” rules and replacement instructions describe
+> that checkpoint, not the current split books.
+>
+> Its personal-Disposition removal accounting, forfeited points,
+> return requirement to restore at least 1 Disposition and reference
+> to permitted spillover are superseded by the current shared-side
+> model. Removing a participant does not automatically subtract shared
+> Disposition. Ordinary shared Disposition loss does not itself inflict
+> an individual status, drain a pool or remove a participant.
+>
+> For current procedures, consult the active core and setting Typst
+> sources together with `rules-audit-phase1-decisions.md` and
+> `rules-audit-phase1-implementation.md`. The original rule text,
+> terminology, interaction checks and playtest questions below are
+> preserved as history, not instructions to replace current source.
+> This notice selects no new recovery, Scar, creature-specific or
+> playtest ruling.
 
 ---
 

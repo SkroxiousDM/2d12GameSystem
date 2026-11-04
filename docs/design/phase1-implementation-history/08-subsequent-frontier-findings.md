@@ -1,0 +1,12 @@
+## Subsequent Frontier findings: Sun-Sick precedence and Attack bonuses
+
+- Designer-selected Sun-Sick precedence is implemented in `57e9bfd`: Awaken the Blood's tier-5 physical-status cap does not prevent the full-day advance from Sun-Sick 5 to Sun-Sick 6 under Frontier Rules §7.1. Ordinary Sun-Sick gains, collapse and the existing full-day outcomes are unchanged.
+- Commit `57e9bfd` also accidentally removed the file's final Typst figure-closing parenthesis. Corrective commit `aa06849` restores only that closing line; its diff was verified as one line added. The selected rule clarification remains intact. No compilation is claimed from this syntax repair.
+- Designer-selected Attack bonus conversion is implemented in `27f9818` and `327041f`. Awaken the Blood, Knows How They Die, Full Transformation, Serum and Killing Ground retain +1 status tier on eligible Attacks outside conflicts; during conflicts, eligible successful Attacks gain +1 Power restricted to that Attack's Disposition-loss effect.
+- The Charge uses the same restricted +1 Power only in the first exchange of a mounted Fight and gains no outside-conflict benefit. All six abilities preserve their existing targets, conditions, durations, costs and other benefits. The Awaken the Blood Sun-Sick exception is retained.
+- This bonus Power grants no individual status, cannot buy another Effect and cannot become Momentum. It does not convert ordinary shared Disposition loss into individual harm.
+- Both Attack-conversion diffs were verified: six ability lines replaced across five files, with no unrelated changes. The restored Bloodline Focuses closing delimiter remains intact.
+- These two named Frontier sweep findings are complete in scoped source implementation, not the entire active-source sweep or Phase 1. Other findings, including remote harm, companion timing, Shared Spirit, Create pricing/stacking and Domain backlash reconciliation, remain open.
+- The changelog and Frontier option sweep report have not been updated for these completions. Their reconciliation remains pending; preserve original dated findings as history and add subsequent resolution notes. This tracker-only update does not change either file or the controlling decisions document.
+- No Typst compilation, PDF rebuild, layout verification, numerical recalibration or playtest was performed. Source completion, diff verification and later build/playtest validation remain separate.
+

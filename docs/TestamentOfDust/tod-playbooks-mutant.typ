@@ -39,7 +39,7 @@ Choose #strong[2 Mutations];. Each is a power tag that ignores load, plus a rule
     [#strong[Venom];], [#emph[poisonous];], [Spend 1 Power on an Attack to add #emph[poisoned-1];, which rises by 1 each scene until treated],
     [#strong[Elastic body];], [#emph[stretches and squeezes];], [Reach 5 m; fit through any gap a hand can pass],
     [#strong[Burrower] (sand or soil)], [#emph[swims through earth];], [Move under sand or soft soil; #emph[+1 Maneuver] in desert Fights],
-    [#strong[Regeneration];], [#emph[heals fast];], [A short rest restores #strong[2 + Edge] Sōma and lowers one physical status by 1],
+    [#strong[Regeneration];], [#emph[heals fast];], [A short rest restores #strong[2] Sōma and lowers one physical status by 1],
     [#strong[Mimic];], [#emph[voices and faces];], [Copy a voice you\'ve heard, or reshape your face for a scene (#emph[+1 Feint];)],
     [#strong[Shapeshifter] (retainer clan)], [#emph[beast form];], [Turn into one animal (wolf, bat, panther) for a scene; you keep your pools and skills but can\'t use gear],
   )]
@@ -58,7 +58,7 @@ Choose #strong[2 Mutations];. Each is a power tag that ignores load, plus a rule
     [4], [#strong[Waste-Hardened];], [Ignore the #emph[Exposed] and #emph[Sick] Grind conditions when they come from radiation, poison, or bad water.],
     [5], [#strong[Monstrous Presence];], [You may use #strong[Sōma] for Intimidate Effort and Resistance. Against minions, a successful Intimidate makes them flee for 1 Momentum.],
     [6], [#strong[Hunter\'s Senses];], [You can smell blood, fear, and the afflicted. Once per scene, free Discover: \"Who here is not what they seem?\"],
-    [7], [#strong[★ Full Transformation];], [Once per scene, release your monstrous form: free #strong[+1 bonus die] on Brawl, Athletics, and Stealth, and your Attacks inflict #strong[+1 tier];, for the rest of the scene. You can\'t speak or use gear. Afterwards, take #emph[Weary];, and any humans present treat you as a threat.],
+    [7], [#strong[★ Full Transformation];], [Once per scene, release your monstrous form: free #strong[+1 bonus die] on Brawl, Athletics, and Stealth for the rest of the scene. While transformed, your Attacks outside conflicts inflict #strong[+1 tier];. During conflicts, your successful Attacks gain #strong[+1 Power] that can be committed only to that Attack's Disposition-loss effect; this bonus grants no individual status, cannot buy another Effect and cannot become Momentum. You can\'t speak or use gear. Afterwards, take #emph[Weary];, and any humans present treat you as a threat.],
     [8], [#strong[★ Living Weapon];], [Choose one Mutation. Its tag may add #strong[+1 above the normal +2 cap (maximum +3 from tags)];, and successful rolls using it gain #strong[+1 Power];.],
     [◆], [#strong[The Clan Remembers];], [Your people are a #strong[Region Truth] (#emph[\"\[name\]\'s clan watches the Frontier\"];). Once per session, the clan sends help: a minion group with 2 power tags, or a safe hiding place for the party.],
   )]

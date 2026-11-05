@@ -142,7 +142,6 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 - `docs/VampireHunterD/2d12-System--Character-Sheet-v0.2.md` and `.pdf`, replaced by the v2 sheet.
 
 ### Added
-- `LICENSE` — project is now released under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
 - `CONTRIBUTING.md` — contribution workflow, style conventions, and licensing notes.
 - `CHANGELOG.md` — this file.
 - Conditions Appendix: **Madness** row added to the Master List, and a clarifying note distinguishing Madness from Irrational.

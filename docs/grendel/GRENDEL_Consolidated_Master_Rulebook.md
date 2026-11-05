@@ -3621,7 +3621,7 @@ Each effect can be chosen once per action; successes can fund a combination. Som
 ### Starting-role overview (PLAYER24)
 
 | Role | Age | Vigour | Will | Resources base | Kith & Kin base | Honed skill points | Knowledge choices |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | Fledgeling | 14–20 | 6 | 2 | 2 | 1 | 4 | 1 |
 | Huscarl | 18–35 | 5 | 3 | 3 | 2 | 6 | 2 |
 | Veteran | 31–45 | 4 | 4 | 4 | 3 | 8 | 3 |

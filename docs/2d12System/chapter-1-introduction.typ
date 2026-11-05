@@ -36,7 +36,7 @@ When a rule here mentions another chapter, it uses that chapter's name and secti
 #sidebar("Settings")[
   The 2d12 System has no setting of its own. A setting book adds Campaign Truths, a skill list, its own Descriptors, Playbooks and Focuses, and special rules for its creatures and dangers. Where a setting rule and a general rule conflict, the setting rule wins. The first setting is #emph[Testament of Dust], a post-apocalyptic frontier gothic.
 ]
- #colbreak() 
+
 == Terminology and Renamed Stats
 
 The source documents used the working names on the left. This book uses the house names on the right everywhere: in rules text, tables, abilities, gear and playbook names.

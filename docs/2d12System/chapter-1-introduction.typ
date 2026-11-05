@@ -34,7 +34,7 @@ When a rule here mentions another chapter, it uses that chapter's name and secti
 - *Difficulty* is written by name and target, such as *Standard 15* or *Hard 18*.
 
 #sidebar("Settings")[
-  The 2d12 System has no setting of its own. A setting book adds Campaign Truths, a skill list, its own Descriptors, Playbooks and Focuses, and special rules for its creatures and dangers. Where a setting rule and a general rule conflict, the setting rule wins. The first setting is #emph[Testament of Dust], a post-apocalyptic frontier gothic.
+  The 2d12 System has no setting of its own. A setting book adds Campaign Truths, a skill list, its own Descriptors, Playbooks and Focuses, and special rules for its creatures and dangers. Where a setting rule and a general rule conflict, the setting rule wins.
 ]
 
 == Terminology and Renamed Stats

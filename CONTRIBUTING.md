@@ -12,11 +12,10 @@ Read the [README](README.md) first for the layout, the books and how to build th
 | Frontier rules, Descriptors, Playbooks or Focuses, the Frontier Quick Reference | `docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ` |
 | The character sheet | `docs/2d12-character-sheet-v2.typ` |
 | Design reasoning, drafts, playtest reports | A new or existing file in `docs/design/` |
-| Aetas Obscura or GRENDEL | Their Markdown files (`docs/Aetas Obscura/`, `GRENDEL_Consolidated_Master_Rulebook.md`) |
 
 **Which book does a rule belong in?** If it works in any genre, it goes in the core rulebook. If it names Frontier things (vampires, dhampirs, the Bled, old-world works, Frontier skills), it goes in the setting book. The core rulebook mustn't refer to any specific setting. Talk about "setting rules" or "creature rank" in general terms instead.
 
-**Don't edit** anything in `docs/Archive/` or the v0.2 Markdown drafts (`docs/2d12-system-proposal.md`, `docs/playbooks.md`, `docs/focuses.md`). They're kept for history only.
+**Don't edit** anything in `docs/Archive/`. They're kept for history only.
 
 ## Reporting an Issue
 

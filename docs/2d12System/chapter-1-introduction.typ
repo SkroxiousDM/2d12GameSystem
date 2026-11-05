@@ -37,34 +37,29 @@ When a rule here mentions another chapter, it uses that chapter's name and secti
   The 2d12 System has no setting of its own. A setting book adds Campaign Truths, a skill list, its own Descriptors, Playbooks and Focuses, and special rules for its creatures and dangers. Where a setting rule and a general rule conflict, the setting rule wins.
 ]
 
-== Terminology and Renamed Stats
+== Terminology 
 
-The source documents used the working names on the left. This book uses the house names on the right everywhere: in rules text, tables, abilities, gear and playbook names.
-
-#figure(table(columns: (24%, 22%, 54%),
-  table.header([Working name], [House name], [What it is]),
-  [Threat], [*Woe*], [The GM's pool: complications and escalation],
-  [Momentum], [*Momentum*], [The party's shared pool of surplus Power (unchanged)],
-  [Fate / Fate Points], [*Tychē* / *Tychē Points*], [Each PC's narrative currency: invoke tags, accept compels; set by Refresh],
-  [Vitality], [*Sōma*], [Pool: strength, endurance, toughness. Resists wounds, poison, exhaustion, cold],
-  [Alacrity], [*Mētis*], [Pool: speed, precision, stealth, reflexes. Resists traps, falls, being caught],
-  [Mind], [*Psychē*], [Pool: intellect, perception, memory, cunning. Resists confusion, illusion, deception],
-  [Spirit], [*Pneuma*], [Pool: will, presence, faith, the supernatural. Resists fear, despair, possession, corruption],
+#figure(table(columns: (22%, 54%),
+  table.header([House name], [What it is]),
+  [*Woe*], [The GM's pool: complications and escalation],
+  [*Momentum*], [The party's shared pool of surplus Power ],
+  [*Tychē* / *Tychē Points*], [Each PC's narrative currency: invoke tags, accept compels; set by Refresh],
+  [*Sōma*], [Pool: strength, endurance, toughness, vitality. Resists wounds, poison, exhaustion, cold],
+  [*Mētis*], [Pool: alacrity, speed, precision, stealth, reflexes. Resists traps, falls, being caught],
+  [*Psychē*], [Pool: mind, intellect, perception, memory, cunning. Resists confusion, illusion, deception],
+  [*Pneuma*], [Pool: spirit, will, presence, faith, the supernatural. Resists fear, despair, possession, corruption],
 ))
 
-#figure(table(columns: (24%, 22%, 54%),
-  table.header([Working name], [House name], [Generic core playbook]),
-  [Bruiser], [*Bellator*], [Front-line muscle; anchor Fight or Brawl],
-  [Operator], [*Furcifer*], [Infiltrator, scout, thief; anchor Stealth],
-  [Sage], [*Savant*], [Scholar, detective, scientist; anchor Lore or Investigate],
-  [Face], [*Interlocutor*], [Diplomat, con artist, leader; anchor Persuade],
-  [Wayfarer], [*Explorator*], [Ranger, pilot, explorer; anchor Survival],
-  [Adept], [*Adept*], [Mage, psychic, hacker; anchor Arcana or Tech (unchanged)],
+#figure(table(columns: (22%, 54%),
+  table.header([House name], [Generic core playbook]),
+  [*Bellator*], [Front-line muscle; anchor Fight or Brawl],
+  [*Furcifer*], [Infiltrator, scout, thief; anchor Stealth],
+  [*Savant*], [Scholar, detective, scientist; anchor Lore or Investigate],
+  [*Interlocutor*], [Diplomat, con artist, leader; anchor Persuade],
+  [*Explorator*], [Ranger, pilot, explorer; anchor Survival],
+  [*Adept*], [Mage, psychic, hacker; anchor Arcana or Tech],
 ))
 
 - *Pool shorthand.* Playbook stat blocks list base pools as *Sōm / Mēt / Psy / Pne* (Sōma / Mētis / Psychē / Pneuma).
 - *Scars* take the name of the pool most tied to the condition that caused them: a *Pneuma Scar*, a *Psychē Scar* (Core Rules §6.3).
-- *Names left as they are.* In-world names that use the everyday words keep them, because they describe the fiction rather than a stat: the *Spirit Duel* conflict type and the abilities *Spirit Sight* and *Steady Mind*. Credits to the source games (Fate, Fate Core, 2d20) also keep their original names.
-
-#colbreak()
 ]

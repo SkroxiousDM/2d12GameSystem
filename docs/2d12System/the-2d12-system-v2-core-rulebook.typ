@@ -79,7 +79,8 @@
     ]
     v(14pt)
     text(size: 9pt, fill: dust, style: "italic")[
-      The 2d12 System is a setting-neutral tabletop roleplaying engine. Settings are published as separate books; the first is #emph[Testament of Dust]. \
+      The 2d12 System is a setting-neutral tabletop roleplaying engine. Settings are published as separate books;
+ the first is #emph[Testament of Dust]. \
 Acknowledgements & Inspirations
 Testament of Dust owes a heartfelt thank-you to the creators of Blades in the Dark, :Otherworld, Cypher System, Fate, Torchbearer, Gumshoe, 2d20, Reign, and Imperium Maledictum.
 

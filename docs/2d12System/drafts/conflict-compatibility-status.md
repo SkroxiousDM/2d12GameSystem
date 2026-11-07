@@ -2,12 +2,13 @@
 
 Recorded: 2026-11-07. Branch: `draft/conflict-system-rewrite`.
 
-This is a source-edit ledger for compatibility batches 13–49, not a
-completion certificate for the full rewrite. Earlier batches are outside
-this ledger's scope. Batch 36 created this record; batch 50 extends it
-through batch 49. These ledger-only batches do not change rules, resolve
-balance questions or update the root changelog or Phase 1 implementation
-tracker.
+This is a source-edit ledger for compatibility batches 13–49 and the later
+source integrations recorded below, not a completion certificate for the
+full rewrite. Earlier batches are outside this ledger's scope. Batch 36
+created this record; batch 50 extended it through batch 49. The later-source
+extension preserves that historical table and adds scoped follow-up status.
+These ledger-only updates do not change rules, resolve balance questions
+or update the root changelog or Phase 1 implementation tracker.
 
 ## Completed source batches
 
@@ -54,7 +55,44 @@ not establish successful compilation, rendered layout or playtest results.
 | 48 | `180dd8f06b8f5a28670216965a3d8e75b9627083` | Weird: Nemesis and Apex Form free bonus dice respect the normal cap and grant no extra scripted turn. |
 | 49 | `6311493953181d47c88d737baa06330af434d32e` | Combat: Second Wind's bonus-dice cap, Cheap Shot tag scope/removal and Improvised Arsenal's action-tag boundary. |
 
-## Limits of the individual-entry clarifications
+## Later source integrations
+
+The following commits extend the record beyond the batch 49 snapshot.
+Rows use an established batch number where explicit; descriptive scopes
+avoid assigning unverified batch numbers to the other source commits.
+Each row records source integration only, not full reconciliation or
+build/playtest validation.
+
+| Work | Commit | Scope and status |
+|---|---|---|
+| Second Wind and Command replacements | `50b06b39b200c16856299d659c0d4baeb8a6a770` | Scoped source replacements for Second Wind's rescue response and Command's rotation benefit; supersede treating the earlier generic reminders as the final entries. |
+| Smooth Recovery replacement | `8583a3131ea8aaac96a3421c1631cc406ddff5d0` | Scoped source replacement defining independent-failure conversion; the earlier versus-interaction question is no longer the current entry's unresolved mapping. |
+| Withdrawal, evasion and escape replacements | `b0c2c252c5770e1deff6f47f44ee865001f9ff77` | Party withdrawal, personal evasion and escape ability replacements committed; preserve their explicit scope rather than substituting generic reminders. |
+| Entry, identity and Taken Out interventions | `91464fd6d937fb59bf0b69a789bf3556f3807bc7` | Scoped source replacements for entry, identity protection and Taken Out interventions. Does not resolve unrelated Resistance-threshold questions. |
+| Borrowed Might, Ward the Threshold, The Reveal and Immunity | `76e59ce5762752b515640d2aabbbbbed7dc3cd26` | Scoped replacements implement patron-powered automatic action, ward crossing, case-related setup/compromise and legal-referral procedures. The Reveal remains a setup/compromise exception, not automatic success. |
+| Batch 51: conflict procedures and split | `b5b1827d42f6fad7b008d2ef7c222b0c46edf8f1` | Implements free setup Help, versus doubles/Woe and supplementary permissions in §10; splits the source before §10.8 with an explicit include. |
+| Batch 51: resolution and Effects | `f9c2ca265b6231843854ca1ef6c95d46c6bb6c4f` | Reconciles Core Rules §§2 and 5 with §10: ordinary versus setup Help, Difficulty outcomes, exceptional doubles, Woe exceptions and Effects permissions. Quick Reference and broader records remain pending. |
+| Batch 52: Furcifer | `ca671c6a1e27c4a433cd9209e13a69658ec527c8` | Implements the participant-specific opening, Opportunist and Deadly Precision with timing, component, stacking, area and finishing limits. Updates the decision package and adds `batch-52-implementation-status.md`; broader summaries and validation remain pending. |
+
+### Decision records versus source implementation
+
+- `918ead36134c750cf4834a38526e4fd9bc576c45` recorded Batch 51's approved decisions in `batch-51-core-rulings.md`; that documentation commit alone did not implement them. Use the two Batch 51 source commits above for implementation status.
+- `01d7d369c39c7b21acf152e6a11cee63163c2064` recorded Batch 52's approved proposals; active Furcifer implementation followed in `ca671c6a1e27c4a433cd9209e13a69658ec527c8`.
+
+### Current follow-up to historical questions
+
+- Setup Help's pool-point cost, exceptional doubles against opposed totals, ordinary-failure Woe for versus losses/ties/trumped actions, and supplementary-Effect permissions are settled and implemented by Batch 51. They remain in the historical list below as earlier findings, not current unresolved core rulings.
+- Batch 52 resolves the recorded Opportunist/Deadly Precision trigger, timing and component questions in active Furcifer source. Its intentional offensive increase remains unplaytested; inspect `batch-52-implementation-status.md` for scoped remaining work.
+- Later ability replacements listed above supersede the corresponding earlier pending-entry notes. Preserve the dated findings and original blob SHAs; do not treat a source edit as proof that every related setting entry or summary is reconciled.
+- Perfect Strike's shared exceptional-doubles procedure is settled by Batch 51. This does not by itself certify every affected entry or summary.
+- Highest-die Resistance thresholds under negative Edge, uninspected setting exceptions and unrelated deferred rulings are not settled by these integrations.
+- Quick Reference, the broader audit/status documents, root changelog and Phase 1 tracker still need their own reconciliation. This ledger extension does not amend those files.
+
+## Historical limits of the individual-entry clarifications
+
+The following notes describe the batches 39–49 snapshot. Read them with
+the later integrations and current follow-up above, not as a fresh claim
+that every listed question remains open.
 
 Batches 39–49 preserve the listed numerical benefits. Their targeted
 clarifications do not certify every entry in the affected files as fully
@@ -83,21 +121,32 @@ without resolving the substantive questions it identifies.
 
 ## Source roles
 
-- `../chapter-2-core-rules.typ` includes the active conflict sources
-  `../chapter-2.10-conflict-system.typ` and
-  `../chapter-2.10-area-and-interpose.typ`.
+- `../chapter-2-core-rules.typ` includes `../chapter-2.10-conflict-system.typ`
+  (introduction and §§10.1–10.7), which includes
+  `../chapter-2.10-conflict-system-aftermath.typ` (§§10.8–10.16).
+  The core chapter also includes `../chapter-2.10-area-and-interpose.typ`
+  (Area Effects §10.17 and Interpose §10.18). Do not include the aftermath
+  file a second time in the parent assembly.
 - `chapter-2.10-conflict-system-rewrite.md` is a design proposal, not the
   included conflict source.
 - `conflict-shared-rules.md` records the approved design standard. It is
   not proof that every individual ability or setting entry is amended.
+- `batch-51-core-rulings.md` records approved decisions; use the source
+  commits above for current implementation status.
+- `batch-52-furcifer-rulings.md` records the approved Furcifer package and
+  its source integration; `batch-52-implementation-status.md` records
+  scoped completion and remaining reconciliation/validation.
 - `legacy-pool-6.9.typ` is retired historical text. It grants no active
   currency, Keepsake or Echo rule.
-- See `README.md` for included fragments, module replacements and credits.
+- See `README.md` for included fragments, module replacements and credits;
+  its older conflict-source description still needs reconciliation.
 
-## Remaining rulings and review questions
+## Historical remaining rulings and review questions
 
-These are recorded questions, not new restrictions or resolved decisions.
-Check the current affected entry before changing it.
+These are the questions recorded through batch 49, preserved as history.
+The first three are superseded by Batch 51 as noted above. Other items
+remain tracked for review or playtesting unless a separately verified
+source decision resolves them; this extension does not re-audit them.
 
 - Core conflict setup Help's pool-point cost.
 - Exceptional doubles against opposed totals and Woe generation for
@@ -117,9 +166,11 @@ Check the current affected entry before changing it.
 ## Verification still required
 
 1. Continue auditing individual abilities and setting exceptions against
-   the active branch, including Deadly Precision, Awaken the Blood,
-   The Reveal and staking interactions. The dated individual-entry audit
-   and targeted clarifications above do not complete this task.
+   the active branch. Deadly Precision and The Reveal now have the scoped
+   replacements recorded above; verify related summaries and interactions
+   rather than treating those entries as untouched. Awaken the Blood,
+   staking interactions and uninspected entries still require review.
+   The dated individual-entry audit and this ledger do not complete it.
 2. Complete the active-source sweep for retired Legacy currency, death
    triggers and obsolete section references; preserve historical records
    and ordinary narrative uses of the word legacy.
@@ -128,7 +179,9 @@ Check the current affected entry before changing it.
    changelog already records Legacy retirement; the drafts README's
    request to verify tracker/changelog coverage is not evidence that
    those records are absent. The full compatibility-batch ledger here
-   has not itself been copied into either record.
+   has not itself been copied into either record. Reconcile Quick Reference,
+   the drafts README, decision-status notes and the dated ability audit
+   with the later integrations while preserving historical findings.
 4. Compile the current core and setting books, rebuild PDFs and inspect
    rendered layout, tables, cross-references and character-sheet panels.
 5. Run the relevant playtests and recalibrate numerical guidance. Historical

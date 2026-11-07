@@ -165,9 +165,11 @@ For a single request check, establish burden before applying relationship and ot
 
 PCs roll normal Skills. Pools pay for Effort and Resistance; do not add a pool as an attribute. Persuade, Deceive, and Intimidate reflect different methods and consequences. Evidence, compensation, leverage, and timing can change the request's feasibility or relevant Truths.
 
-Use normal core outcomes, Power, doubles, and currencies. A Success at a Cost grants the agreed help with the normal consequence-or-Woe choice. Failure does not secure the help and produces an appropriate move. A failed request cannot be repeated unchanged: introduce materially new terms or circumstances.
+For that single request check, use normal core outcomes, Power, doubles, and currencies. A Success at a Cost grants the agreed help with the normal consequence-or-Woe choice. Failure does not secure the help and produces an appropriate move. A failed request cannot be repeated unchanged: introduce materially new terms or circumstances.
 
 Extra Power can improve agreed scope, speed, or discretion where normal Effects and the fiction support it. It cannot buy permanent Standing or unlimited resources.
+
+#strong[When the request is a conflict.] Establish each side's intent and stakes, then use the selected conflict type's action skills, shared Disposition and scripting. The burden ladder above is for a single request check, not a replacement target for every volley: independent tests normally use Standard 15 with applicable Truths and explicit modifiers; versus tests use opposed totals. A trumped action makes no roll. Apply the restricted failure and cost consequences in Core Rules §10.7 rather than adding the single-check GM move. Victory grants the agreed intent within the stakes, subject to compromise, not unrestricted command of the faction (Core Rules §10.2, §10.5--10.6, §10.12--10.13).
 
 === E.6 Faction Support in Party Scenes
 
@@ -176,9 +178,13 @@ A Quality establishes what support the faction can organize; Standing, authority
 Support has one concrete application:
 - Permission: equipment, credentials, transport, or access makes the action possible, or removes the need for a particular roll.
 - A scoped Truth: actual conditions change Difficulty under Core Rules §8.
-- Active Help: a participating ally uses the core Help procedure, pays its normal cost, and shares the risk. A faction's accompanying NPC pays the Help cost from its own pools if it is built with them. An ordinary NPC has no pools and cannot Help (§6.1); an ally who can is a named NPC built with pools. Qualities are not personal pools.
+- Active Help: a participating ally uses the core Help procedure, pays its normal cost, and shares the risk. A faction's accompanying NPC pays the Help cost from its own pools if it is built with them. An ordinary NPC has no pools and cannot pay ordinary Help costs (§6.1); use a named NPC built with pools unless an explicit rule permits another helping benefit. Qualities are not personal pools. Free Help, where explicitly granted, waives the stated cost, not relevance, risk or the bonus-dice cap.
 
 Do not award all three for the same contribution. Stronger Qualities increase feasible reach, reliability, and scale, not an automatic numerical bonus. Might +4 can organize support beyond Might +1; it does not grant +4 Fight.
+
+#strong[Accompanying allies.] Distinguish an independently acting participant from a supporting asset. A participant enters continuous rotation, uses its listed skills or ratings and is bound by the side's stakes. An asset supplies its stated benefit without gaining an independent turn. Do not count one companion twice or give it a separate Disposition track merely because it accompanies the party. Removing it subtracts no shared Disposition, though a side loses if nobody can continue pursuing its objective (Core Rules §10.9).
+
+Setup Help supplies +1 Disposition per eligible helper instead of also granting an ordinary Help die; its pool-point cost remains an open ruling (§10.2). A faction's size, Quality or number of fictional personnel does not by itself grant that many eligible helpers. Apply the normal contribution and participation requirements.
 
 An escort may make a friendly checkpoint automatic. It cannot make every later negotiation easier simply because it exists. Personnel face the real risks of deployment, and a borrowed resource is not freely duplicable or permanently transferred.
 

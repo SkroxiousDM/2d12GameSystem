@@ -21,7 +21,7 @@ Monster-hunter, exorcist, or investigator of the strange.
     [2a], [#strong[Bane];], [Against a creature whose weakness you\'ve exploited, your successful conflict Attacks remove #strong[1 additional Disposition] when applying ordinary Attack Disposition loss. When an Attack instead inflicts a harmful status, increase that status by #strong[1 tier];. If an explicit effect inflicts both, choose one component for this bonus, never both. This adds no status to an ordinary conflict Attack and does not improve staking, killing strikes or other creature-specific finishing procedures.],
     [2b], [#strong[Ward the Threshold];], [Spend a scene preparing a location. For one night, supernatural creatures must beat #strong[Formidable 21] to cross it.],
     [3a], [#strong[Unshake-able];], [When you Resist fear, possession, or corruption with Pneuma, the cost is #strong[0 on a highest die of 5+];, and you reduce the status by 3 tiers.],
-    [3b], [#strong[★ Nemesis];], [Name a supernatural foe. You always sense its direction, and your rolls against it get a #strong[free bonus die];.],
+    [3b], [#strong[★ Nemesis];], [Name a supernatural foe. You always sense its direction, and your rolls against it get a #strong[free bonus die];. This die counts toward the normal +2 bonus-dice cap and grants no additional scripted turn (Core Rules §2.4, §10.5).],
   )]
   , kind: table
   )
@@ -92,7 +92,7 @@ Mutant, cyborg, half-fae, or carrier of a strange bloodline.
     [1], [#strong[Gift];], [Choose a trait (claws, enhanced senses, night vision, gills, wings, cyber-arm). Its tag may add #strong[+1 above the normal +2 cap (maximum +3)] on related rolls. Gain +2 to one pool.],
     [2a], [#strong[Second Trait];], [Choose another trait. It also may add #strong[+1 above the normal cap (maximum +3)];.],
     [2b], [#strong[Regeneration];], [A short rest clears #strong[one tier-1 physical status];. A full rest clears 2 tiers from every physical status. This heals existing statuses; it does not prevent an accepted payment from being recorded, restore Disposition, refresh injury trades or erase Scars.],
-    [3a], [#strong[Apex Form];], [Once per scene, unleash your nature: a #strong[free bonus die] on Sōma and Mētis skills for the scene. At scene end, take #emph[Weary] as an accepted payment. Prevention, redirection, Resistance and incidental clearing benefits cannot cancel that payment; once recorded, it recovers normally.],
+    [3a], [#strong[Apex Form];], [Once per scene, unleash your nature: a #strong[free bonus die] on Sōma and Mētis skills for the scene. This die counts toward the normal +2 bonus-dice cap and grants no additional scripted turn (Core Rules §2.4, §10.5). At scene end, take #emph[Weary] as an accepted payment. Prevention, redirection, Resistance and incidental clearing benefits cannot cancel that payment; once recorded, it recovers normally.],
     [3b], [#strong[★ Beyond Limits];], [Gain #strong[+1 Edge] in two pools (max 3 each).],
   )]
   , kind: table

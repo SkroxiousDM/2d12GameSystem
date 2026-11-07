@@ -44,7 +44,7 @@ Choose #strong[2 Implants];. Each is a power tag that ignores load, plus a rule.
   , kind: table
   )
 
-#strong[Glitches:] doubles on a failure or a Success at a Cost on an implant roll cause #emph[glitched-2] (−2 on rolls with your implants) as well as the normal complication. Science (Restore) or a short rest with tools clears it. old-world works that disrupts machines (an EMP, an estate\'s defences) can inflict #emph[glitched] as an Attack.
+#strong[Glitches:] doubles on a failure or a Success at a Cost on an implant roll cause #emph[glitched-2] (−2 on rolls with your implants) as well as the normal complication. Science (Restore) or a short rest with tools clears it. old-world works that disrupts machines (an EMP, an estate\'s defences) can inflict #emph[glitched] as an Attack. This explicit glitch consequence still applies in conflicts; an ordinary conflict Attack does not inflict a status merely because an implant narrates it.
 === 8.2 Special Abilities
 #figure(
   [#table(
@@ -53,13 +53,13 @@ Choose #strong[2 Implants];. Each is a power tag that ignores load, plus a rule.
     table.header([\#], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Extra Implant];], [Gain one more Implant. You can take this ability up to twice.],
-    [2], [#strong[Self-Repair];], [You can use Science on yourself to Restore physical statuses and #emph[glitched];. Once per scene, a short rest also restores 2 Sōma.],
-    [3], [#strong[Overclock];], [When you use Effort for Power on a roll with an implant, gain #strong[+2 Power] instead of +1, but take #emph[glitched-1];.],
-    [4], [#strong[Little Blood Left];], [#emph[Bled] gains #strong[1 fewer tier] on you. You ignore the #emph[Hungry & Thirsty] Grind condition.],
-    [5], [#strong[Heavy Ordnance];], [When you Shoot at a group or minions, gain #strong[one free Extra Feat] per roll.],
+    [2], [#strong[Self-Repair];], [You can use Science on yourself to Restore physical statuses and #emph[glitched];. Once per scene, a short rest also restores 2 Sōma. Pool recovery and status healing are separate; neither restores shared Disposition, refreshes an injury trade or erases a Scar.],
+    [3], [#strong[Overclock];], [When you use Effort for Power on a roll with an implant, gain #strong[+2 Power] instead of +1, but take #emph[glitched-1] as an accepted payment. Armour, Resistance, prevention, redirection and incidental clearing benefits cannot reduce or cancel that payment. Once recorded, it can be repaired normally.],
+    [4], [#strong[Little Blood Left];], [#emph[Bled] gains #strong[1 fewer tier] on you. This reduces imposed blood loss, not Bled accepted as payment for a benefit. You ignore the #emph[Hungry & Thirsty] Grind condition.],
+    [5], [#strong[Heavy Ordnance];], [When you Shoot at a group or minions, gain #strong[one free Extra Feat] per roll. Free waives the Power cost; it does not grant another scripted action or bypass the declared stakes.],
     [6], [#strong[Machine Tongue];], [You can talk to old-world machines. Science rolls to command, disable, or read guardian machines and estate systems are one step easier, and you get a free Discover in any vampire estate.],
     [7], [#strong[★ Combat Mode];], [Once per scene, switch to combat mode: free #strong[+1 bonus die] on Shoot, Fight, and Athletics for the rest of the scene. While it lasts, Pneuma Effort costs +1 and you can\'t use Empathy.],
-    [8], [#strong[★ Rebuilt Again];], [Once per session, when you\'re Taken Out by physical harm, you get back up at the end of the scene with that status at tier 3 and #emph[glitched-3];.],
+    [8], [#strong[★ Rebuilt Again];], [Once per session, when you\'re Taken Out by physical harm, you get back up at the end of the scene with that status at tier 3 and #emph[glitched-3];. Returning does not reverse a settled conflict outcome, restore shared Disposition or erase a Scar.],
     [◆], [#strong[More Machine Than Man];], [Like a vampire, you\'re #strong[Hard to Kill];: your physical statuses #strong[can\'t go above tier 5] unless the Attack uses Science, an EMP, or an equivalent killing method the GM names. Gain a Pneuma Scar (#emph[more machine than man];) when you take this capstone.],
   )]
   , kind: table

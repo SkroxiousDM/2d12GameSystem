@@ -39,7 +39,7 @@ Choose #strong[2 Mutations];. Each is a power tag that ignores load, plus a rule
     [#strong[Venom];], [#emph[poisonous];], [Spend 1 Power on an Attack to add #emph[poisoned-1];, which rises by 1 each scene until treated],
     [#strong[Elastic body];], [#emph[stretches and squeezes];], [Reach 5 m; fit through any gap a hand can pass],
     [#strong[Burrower] (sand or soil)], [#emph[swims through earth];], [Move under sand or soft soil; #emph[+1 Maneuver] in desert Fights],
-    [#strong[Regeneration];], [#emph[heals fast];], [A short rest restores #strong[2 + Edge] Sōma and lowers one physical status by 1],
+    [#strong[Regeneration];], [#emph[heals fast];], [A short rest restores #strong[2 + Edge] Sōma and lowers one physical status by 1. Pool recovery and status healing are separate; neither restores Disposition, refreshes an injury trade or erases a Scar.],
     [#strong[Mimic];], [#emph[voices and faces];], [Copy a voice you\'ve heard, or reshape your face for a scene (#emph[+1 Feint];)],
     [#strong[Shapeshifter] (retainer clan)], [#emph[beast form];], [Turn into one animal (wolf, bat, panther) for a scene; you keep your pools and skills but can\'t use gear],
   )]
@@ -54,13 +54,13 @@ Choose #strong[2 Mutations];. Each is a power tag that ignores load, plus a rule
     table.hline(),
     [1], [#strong[Further Mutation];], [Gain one more Mutation. You can take this ability up to twice.],
     [2], [#strong[Old Oath];], [Retainer clans and household servants recognise your blood. Once per scene, Persuade or Intimidate with them is one step easier, or ask a free Discover about their tricks.],
-    [3], [#strong[Toxic Blood];], [Anything that bites or drinks from you gains #emph[poisoned-2];. #emph[Bled] from feeding gains #strong[1 fewer tier] on you.],
+    [3], [#strong[Toxic Blood];], [Anything that bites or drinks from you gains #emph[poisoned-2];. #emph[Bled] from feeding gains #strong[1 fewer tier] on you. This reduction applies to imposed blood loss, not Bled accepted as payment for a benefit.],
     [4], [#strong[Waste-Hardened];], [Ignore the #emph[Exposed] and #emph[Sick] Grind conditions when they come from radiation, poison, or bad water.],
     [5], [#strong[Monstrous Presence];], [You may use #strong[Sōma] for Intimidate Effort and Resistance. Against minions, a successful Intimidate makes them flee for 1 Momentum.],
     [6], [#strong[Hunter\'s Senses];], [You can smell blood, fear, and the afflicted. Once per scene, free Discover: \"Who here is not what they seem?\"],
-    [7], [#strong[★ Full Transformation];], [Once per scene, release your monstrous form: free #strong[+1 bonus die] on Brawl, Athletics, and Stealth, and your Attacks inflict #strong[+1 tier];, for the rest of the scene. You can\'t speak or use gear. Afterwards, take #emph[Weary];, and any humans present treat you as a threat.],
+    [7], [#strong[★ Full Transformation];], [Once per scene, release your monstrous form: gain a free #strong[+1 bonus die] on Brawl, Athletics, and Stealth for the rest of the scene. While transformed, your successful conflict Attacks remove #strong[1 additional Disposition] when applying ordinary Attack Disposition loss. When an Attack instead inflicts a harmful status, increase that status by #strong[1 tier];. If an explicit effect inflicts both, choose one component for this bonus, never both. This bonus adds no status to an ordinary conflict Attack and does not improve staking or killing strikes. You can\'t speak or use gear. Afterwards, take #emph[Weary] as an accepted payment; prevention, redirection, Resistance and incidental clearing benefits cannot cancel that payment. Any humans present treat you as a threat.],
     [8], [#strong[★ Living Weapon];], [Choose one Mutation. Its tag may add #strong[+1 above the normal +2 cap (maximum +3 from tags)];, and successful rolls using it gain #strong[+1 Power];.],
-    [◆], [#strong[The Clan Remembers];], [Your people are a #strong[Region Truth] (#emph[\"\[name\]\'s clan watches the Frontier\"];). Once per session, the clan sends help: a minion group with 2 power tags, or a safe hiding place for the party.],
+    [◆], [#strong[The Clan Remembers];], [Your people are a #strong[Region Truth] (#emph[\"\[name\]\'s clan watches the Frontier\"];). Once per session, the clan sends help: a minion group with 2 power tags, or a safe hiding place for the party. If the group fights independently, it is one participant in your side\'s script and continuous rotation, and one participant for area-effect Disposition bonuses. It has no separate Disposition track; its arrival grants no extra scripted action or retroactive setup Help, and its removal does not directly subtract shared Disposition.],
   )]
   , kind: table
   )

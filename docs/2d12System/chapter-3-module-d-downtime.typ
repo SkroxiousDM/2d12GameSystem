@@ -7,7 +7,7 @@ Downtime is the stretch between expeditions when the party is safe enough to rec
 === D.1 When It Applies
 
 - #strong[Haven.] Downtime begins when the party reaches a place with shelter, food and enough safety that nobody expects an attack tonight: a village, outpost, monastery, camp or home base. The GM decides.
-- #strong[Field rests stay separate.] Core Rules §6.5 rests, and Module B's night's rest and Grind-condition recovery, work as written. They give no Checks or endeavours.
+- #strong[Field rests stay separate.] Core Rules §6.5 rests, and Module B's night's rest and Grind-condition recovery, work as written. They give no Checks or endeavours. Reaching a haven is not itself a general reset: pools, statuses and Scars still follow their own recovery procedures. Healing does not refund an accepted payment or refresh an injury trade.
 - #strong[A stay ends] when the party leaves the haven or is forced out. Finished work stands; clocks keep their progress.
 - #strong[Replaces Module B.4.] If you use Module D, the Players' Turn follows these rules.
 
@@ -39,6 +39,8 @@ Downtime is the stretch between expeditions when the party is safe enough to rec
 - #strong[Success at a Cost:] the GM adds a consequence, or the stay pool gains 1 Woe (player's choice, §2.5). #strong[Failure:] the effort doesn't take; the GM announces any consequence before another attempt, and the stay pool gains 1 Woe.
 - #strong[Light or Strenuous.] A character with a lasting injury who takes a Strenuous endeavour does not progress that injury's healing interval this interval (§6.6).
 
+#strong[Scenes that become conflicts.] Use Core Rules §10.1 to choose the procedure: a consequential negotiation or other actively opposed struggle with several meaningful tactical choices may need a scripted conflict, not one endeavour roll. The normal Standard 15 and general Effect menu above do not replace conflict action interactions, versus tests or the restricted action effects. Inside that conflict, use §10.5--10.7 for scripting, costs, failures and complications. Spending Checks or receiving free Help grants no extra scripted turn, free actor reassignment or rotation bypass. A shared endeavour does not create a separate Disposition track for each contributor.
+
 #strong[Shared endeavours.] A shared endeavour has one goal for the party or a subgroup. It costs #strong[2 Checks, paid from the participants' pooled Checks].
 
 - Choose a lead. Each participant describes their contribution.
@@ -50,8 +52,8 @@ Downtime is the stretch between expeditions when the party is safe enough to rec
 
 For an unlisted activity, the GM names a skill, a Light or Strenuous tag and the nearest Effects.
 
-- #strong[Recuperate] counts as appropriate care (§6.6). It does not change treatment limits: at most 1 tier per lasting injury, then #emph[treated] until a healing interval removes a tier. It restores #strong[one] burned tag (§3.4). It cannot remove a Scar, refill pools (the 4th rest already does) or clear an affliction beyond what its source allows.
-- #strong[Prepare] can supply Superiority (§10.3) only against a #strong[named opposition declared beforehand], only one category per stay, and only if the preparation is concrete. The cap of 3 per conflict still applies.
+- #strong[Recuperate] counts as appropriate care (§6.6). It does not change treatment limits: at most 1 tier per lasting injury, then #emph[treated] until a healing interval removes a tier. It restores #strong[one] burned tag (§3.4). It cannot remove a Scar, refill pools (the 4th rest already does) or clear an affliction beyond what its source allows. Treating an injury does not itself return a Taken Out participant to an ongoing conflict; the explicit return requirements in §6.4 still apply.
+- #strong[Prepare] can supply Superiority (§10.3) only against a #strong[named opposition declared beforehand], only one category per stay, and only if the preparation is concrete. The cap of 3 per conflict still applies. Distinct categories need distinct material advantages; repeating or renaming one preparation does not supply several categories. Apply earned Superiority during conflict setup after other modifiers and the minimum of 1. A prepared asset can also help an action when relevant, but does not automatically provide every kind of benefit.
 
 === D.5 Projects 
   A #strong[project] is any goal too big for one endeavour. Use an #strong[8- or 12-segment clock] (§7), ticked by Advance. Each roll toward it costs 1 Check.
@@ -89,4 +91,4 @@ Momentum, Woe and scene-scale Create effects cannot buy reputation (E.11). A rel
 - #strong[World update.] Take the World Turn here, after endeavours resolve, so the stay's results (Standing changes, evidence Truths, completed favors) are part of E.10 step 1. Without Module E, tick only clocks tied to established plans or deadlines. The GM may spend Stay Woe to tick danger clocks, but never to advance a faction project (E.10).
 - #strong[Close.] Discard leftover Checks and Stay Woe. Record unfinished projects, write a Goal, prepare to depart.
 
-#strong[Example.] The party spends an ordinary week (2 free Checks each) at a river outpost. Ysolde has a tier-3 injury; Brannock needs a new tool kit. The event is d12 = 9: the outpost is short-handed (#emph[Short-Handed];). They choose Ordinary upkeep (1 tick). Ysolde takes Recuperate (Light): routine care, no roll, and the injury is marked #emph[treated] (tier 3 to tier 2). She does nothing Strenuous, so her healing interval continues. Brannock starts an 8-segment kit project; he and Ysolde pool 2 Checks for a shared Make and Mend push. Brannock rolls Craft, Ysolde Helps, and 3 Power Advances 3 segments. At the close the clock keeps its progress, and each player writes a Goal. ]
+#strong[Example.] The party spends an ordinary week (2 free Checks each) at a river outpost. Ysolde has a tier-3 injury; Brannock needs a new tool kit. The event is d12 = 9: the outpost is short-handed (#emph[Short-Handed];). They choose Ordinary upkeep (1 tick). Ysolde spends 1 Check on Recuperate (Light): routine care, no roll, and the injury is marked #emph[treated] (tier 3 to tier 2). She does nothing Strenuous, so her healing interval continues under §6.6; the stay's week does not replace that procedure. Brannock and an uninjured companion pool 2 Checks for a shared Make and Mend push on an 8-segment kit project. Brannock rolls Craft, the companion Helps within the normal bonus-dice cap, and 3 Power Advances 3 segments. Ysolde does not join that Strenuous endeavour. At the close the project clock keeps its progress, and each player writes a Goal. ]

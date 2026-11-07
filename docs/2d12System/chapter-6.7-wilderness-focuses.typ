@@ -21,7 +21,7 @@ Beast handler, rider, falconer, or dog-musher.
     [2a], [#strong[Pack Tactics];], [Your animals give #strong[free Help] once per scene. Free waives the pool-point cost, not relevance, bonus-dice limits or participation risks, and grants no independent turn.],
     [2b], [#strong[Beast Lore];], [Once per scene, Discover a creature\'s weakness tag without rolling.],
     [3a], [#strong[★ The Pack];], [Gain a group of animals (hounds, ravens, horses) with 2 power tags and 1 weakness. It acts as one group and takes statuses as a single target. If it acts independently in a conflict, it is one participant in your side\'s three-action script, continuous rotation and area-effect Disposition bonuses, not one per animal. It has no personal Disposition track or injury trade unless explicitly granted one; its removal does not directly subtract shared Disposition.],
-    [3b], [#strong[Trusted Mount];], [Gain a superb mount (or upgrade one). In Chase conflicts your side gets #strong[+3 starting Disposition];, and the mount carries 3 extra load. Changing conflict type within the same unresolved struggle does not refresh Disposition or reapply setup bonuses.],
+    [3b], [#strong[Trusted Mount];], [Gain a superb mount (or upgrade one). In Chase conflicts your side gets #strong[+3 starting Disposition];, and the mount carries 3 extra load. Apply the +3 at full value with other flat starting-Disposition modifiers, before the minimum of 1 and opposing Superiority (Core Rules §10.2--10.3). Changing conflict type within the same unresolved struggle does not refresh Disposition or reapply setup bonuses.],
   )]
   , kind: table
   )
@@ -41,7 +41,7 @@ Explorer, navigator, or surveyor drawn to the blank parts of the map.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Carto-grapher];], [Any area you\'ve travelled becomes a #strong[map] (story tag). It permanently lowers travel Difficulty there by one step.],
+    [1], [#strong[Carto-grapher];], [Any area you\'ve travelled becomes a #strong[map] (story tag). It permanently lowers travel Difficulty there by one step. Apply this reduction when testing against a travel Difficulty in that area, including an eligible independent conflict test; do not convert it into a modifier to opposing totals in a versus test (Core Rules §10.5).],
     [2a], [#strong[Shortcut];], [Once per journey, skip one leg entirely (no rolls, no Supplies spent).],
     [2b], [#strong[First Contact];], [Your first Persuade or Empathy roll with a new people or culture gets a #strong[free bonus die];. The normal bonus-dice cap applies.],
     [3a], [#strong[Discoverer];], [Once per session, discover a new site (Module C). You define #strong[one of its three Truths];.],

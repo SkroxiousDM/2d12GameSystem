@@ -28,15 +28,15 @@ Contracts, rumours, debts, and deals. You find the work, set the price, and make
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Silver Tongue];], [When you Create a social story tag with Persuade or Deceive (#emph[the mayor is on our side];), it costs #strong[1 Power] instead of 2.],
-    [2], [#strong[Contract Lawyer];], [When you negotiate a contract (Frontier Rules §10.2), a success raises the fee #strong[one free step];. A client who breaks a deal with you gains the weakness tag #emph[broke their word to \[name\]];.],
+    [1], [#strong[Silver Tongue];], [When you Create a social story tag with Persuade or Deceive (#emph[the mayor will hear us out];), it costs #strong[1 Power] instead of 2. During a conflict, the tag establishes leverage or a supporting attitude; it cannot grant the disputed objective, reverse a resolved outcome or bypass the action interaction.],
+    [2], [#strong[Contract Lawyer];], [When you successfully negotiate a contract (Frontier Rules §10.2), raise the fee #strong[one free step];. Apply this once to the completed negotiation: after the single-roll result, or after winning a Negotiation conflict, not after each successful volley. A client who breaks a deal with you gains the weakness tag #emph[broke their word to \[name\]];.],
     [3], [#strong[Ear to the Ground];], [When you arrive in a settlement, ask one free #strong[Discover] about local rumours. When you confirm a rumour (Module C.4), add #strong[+2] to the d12.],
     [4], [#strong[Smooth It Over];], [On a successful Persuade, spend 1 Power to remove #emph[Frightened Villagers] or #emph[Feared and Despised] for the party for the scene.],
     [5], [#strong[Read the Room];], [Once per scene, ask a free Discover about what one person present wants most.],
     [6], [#strong[Courtly Manners];], [You know household etiquette. In a Duel of Wills, you may use #strong[Persuade] to Defend. Compelling a vampire\'s pride (Frontier Rules §5.3) costs you nothing once per scene.],
-    [7], [#strong[★ Contacts Everywhere];], [Once per session, declare a useful contact in this town. Pay Momentum by plausibility: 0 (obvious), 1 (reasonable), 2 (a stretch), 3 (wild). They exist and owe you one favour.],
-    [8], [#strong[★ Hired Guns];], [Once per mission, spend a wealth tag (#emph[a fat purse] or better) to hire a minion group with 2 power tags and 1 weakness. It acts as one group and fights for you for the mission.],
-    [◆], [#strong[The Word on the Frontier];], [Your word is a #strong[Region Truth] (#emph[\"\[name\]\'s deal is law here\"];). Once per session, end a Negotiation or Argument conflict in your favour; the compromise is at most Minor.],
+    [7], [#strong[★ Contacts Everywhere];], [Once per session, declare a useful contact in this town. Pay Momentum by plausibility: 0 (obvious), 1 (reasonable), 2 (a stretch), 3 (wild). They exist and owe you one favour. This cannot contradict resolved events or retroactively recalculate Superiority after setup.],
+    [8], [#strong[★ Hired Guns];], [Once per mission, spend a wealth tag (#emph[a fat purse] or better) to hire a minion group with 2 power tags and 1 weakness. It acts as one group and fights for you for the mission. It is one participant in your side\'s three-action script, continuous rotation and area-effect Disposition bonuses, with no personal Disposition track. Hiring it grants no extra scripted action or retroactive setup Help; its removal does not directly subtract shared Disposition.],
+    [◆], [#strong[The Word on the Frontier];], [Your word is a #strong[Region Truth] (#emph[\"\[name\]\'s deal is law here\"];). Once per session, before the next roll in an unresolved Negotiation or Argument conflict, end it in your favour; the compromise is at most Minor. This is an explicit exception to ordinary victory and compromise. It cannot be used after the deciding roll to reverse a settled defeat.],
   )]
   , kind: table
   )

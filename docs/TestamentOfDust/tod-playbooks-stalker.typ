@@ -28,15 +28,15 @@ You hunt by day. While the vampire sleeps, you climb the estate walls, pick the 
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Ghost];], [When you spend Effort on a Stealth roll, your first use of Effort costs 0 pool points. Once per scene, when spotted, spend 1 Momentum to declare you were never seen; you\'re in a nearby hidden position.],
+    [1], [#strong[Ghost];], [When you spend Effort on a Stealth roll, your first use of Effort costs 0 pool points. Once per scene, when spotted, spend 1 Momentum to declare you were never seen; you\'re in a nearby hidden position. Declare this when the spotting is established, before resolving consequences from being spotted. It does not undo resolved actions, Disposition loss, injuries or a settled defeat, and does not cancel an independently resolving action.],
     [2], [#strong[Coffin Finder];], [Once per day inside an estate, ruin, or lair, ask a free #strong[Discover];: \"Where does it sleep?\" or \"Where\'s the weak point in this place?\"],
-    [3], [#strong[Light Fingers];], [When you succeed on a theft, plant, or sabotage roll (Stealth or Craft), gain a #strong[free Extra Feat];.],
+    [3], [#strong[Light Fingers];], [When you succeed on a theft, plant, or sabotage roll (Stealth or Craft), gain a #strong[free Extra Feat];. Free waives the Power cost; it grants no additional scripted action and cannot bypass the interaction or declared stakes.],
     [4], [#strong[Infiltrator];], [Once per roll, ignore one Truth that would raise the Difficulty of sneaking, climbing, or bypassing security, including estate Truths such as #emph[Guardian Machines] or #emph[Shifting Halls];.],
-    [5], [#strong[Quick Reflexes];], [You always act first when violence breaks out. In conflicts, changing one of your scripted actions costs #strong[1 Momentum] instead of 2.],
-    [6], [#strong[Escape Artist];], [When you Resist capture, restraint, falls, or traps with Mētis, the cost is #strong[0 on a highest die of 5+];.],
-    [7], [#strong[★ Flashback];], [Once per mission, declare a flashback to something you prepared earlier. Pay Momentum by plausibility: 0 (obvious), 1 (reasonable), 2 (a stretch), 3 (wild). Then roll as normal; on a success, it happened.],
+    [5], [#strong[Quick Reflexes];], [Outside scripted conflicts, you always act first when violence breaks out. In conflicts, changing one of your unrevealed scripted actions costs #strong[1 Momentum] instead of 2, at the normal script-change timing. It grants no extra opening action, initiative cancellation or free actor reassignment.],
+    [6], [#strong[Escape Artist];], [When you Resist capture, restraint, falls, or traps with Mētis, the cost is #strong[0 on a highest die of 5+];. This does not permit Resistance against shared Disposition loss, accepted payments or a settled conflict outcome.],
+    [7], [#strong[★ Flashback];], [Once per mission, declare a flashback to something you prepared earlier. Pay Momentum by plausibility: 0 (obvious), 1 (reasonable), 2 (a stretch), 3 (wild). Then roll as normal; on a success, it happened. A flashback cannot contradict resolved events, reverse paid costs or outcomes, or retroactively recalculate Superiority after conflict setup.],
     [8], [#strong[★ Strike While It Sleeps];], [Against an unaware, #emph[Impeded];, or sleeping target, Attack effects cost #strong[half Power (round up)];. Killing strikes against sleeping vampires are #strong[one step easier] (−3 Difficulty; Frontier Rules §5.2). This reduction stacks with other applicable killing-strike reductions.],
-    [◆], [#strong[Nobody Sees Me Coming];], [Once per session, declare you\'re already somewhere you could plausibly have reached. Your first roll there gets #strong[+2 bonus dice for free];, and the GM can\'t spend Woe to reveal you during that roll.],
+    [◆], [#strong[Nobody Sees Me Coming];], [Once per session, declare you\'re already somewhere you could plausibly have reached. Your first roll there gets #strong[+2 bonus dice for free];, and the GM can\'t spend Woe to reveal you during that roll. This grants no additional scripted action and cannot contradict resolved events or reverse a settled outcome.],
   )]
   , kind: table
   )
@@ -84,7 +84,7 @@ You hunt by day. While the vampire sleeps, you climb the estate walls, pick the 
 #strong[Relationships:] Ally --- a fence at the trading post, an estate servant who leaves the gate open, a mentor who taught you the walls. Rival --- a guardian machine you\'ve escaped twice, a thief who works for the vampires, a Hunter who thinks stealth is cowardice.
 
 === 2.4 Handout --- The Hunters' Field Guide
-Hunters pass these notes from hand to hand. Give them to players as found knowledge. The guide is right about what hunters saw. Its explanations are another matter. The GM measures a vampire by threat rank (Frontier Rules §5.1), not by these classes.
+Hunters pass these notes from hand to hand. Give them to players as found knowledge. The guide is right about what hunters saw. Its explanations are another matter. The GM measures a vampire by threat rank (Frontier Rules §5.1), not by these classes. This handout grants no exception to the creature, staking or killing-strike rules.
 
 #sidebar("The Kinds of the Kept, as Hunters Tell It")[
 #strong[Winterers.] The oldest and the worst. They go to ground for a generation and wake hungry enough to empty a village. Cunning, patient, and they know every family in the valley. #emph[Hunters say:] the old ones sleep by choice, to outlast their enemies. Find the sleeping place and burn it.

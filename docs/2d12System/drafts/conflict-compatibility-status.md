@@ -2,11 +2,12 @@
 
 Recorded: 2026-11-07. Branch: `draft/conflict-system-rewrite`.
 
-This is a source-edit ledger for compatibility batches 13–35, not a
+This is a source-edit ledger for compatibility batches 13–49, not a
 completion certificate for the full rewrite. Earlier batches are outside
-this ledger's scope. Batch 36 adds this record only. It does not change
-rules, resolve balance questions or update the root changelog or Phase 1
-implementation tracker.
+this ledger's scope. Batch 36 created this record; batch 50 extends it
+through batch 49. These ledger-only batches do not change rules, resolve
+balance questions or update the root changelog or Phase 1 implementation
+tracker.
 
 ## Completed source batches
 
@@ -38,6 +39,47 @@ not establish successful compilation, rendered layout or playtest results.
 | 33 | `ca6f7f37b9951ddeaa9e4a21403a5218c969db18` | Faction request checks, support exceptions and accompanying participants/assets. |
 | 34 | `849a8fea9da8d3c638e83f356250c5efb0c8d548` | Worked-example advancement/recovery assumptions and the unexplained guard cost result. |
 | 35 | `ba5e4b2be2588112f569710b1cca5880f882b8cd` | Draft-status documentation, Legacy header completion and active source pointers. |
+| 36 | `c77a91f9fabfc04f4d6a355e661fef6789b6eb11` | Documentation only: created this compatibility ledger and remaining-work record. |
+| 37 | `83cc15a52f3a2321fdb65b93a752af8d4ceac98f` | Documentation only: recorded unresolved Furcifer and combat Focus findings in `conflict-ability-audit.md`; no ability amended. |
+| 38 | `220b5942a1f60eb5060887c36c163ba10bfb4649` | Focus design notes: corrected The Reveal's classification; preserved its ability entry and unresolved rulings. |
+| 39 | `c79f9f83dafe058fe9c3e4155f4442d6d5d1b2fd` | Bellator: Pain Tolerance's penalty-only scope and Legend of the Field's flat setup modifier. |
+| 40 | `225cffd044d3aee919ce332ac13d871ff07d9ce5` | Savant: Decipher's clock-only bonus and Master of the Field's Difficulty-versus-total boundary. |
+| 41 | `d93b17eae05e950742636c12315a8fefd976103b` | Interlocutor: Command's recovery cap, Inspire's Enhance scope and Word Is Law's flat setup modifier. |
+| 42 | `1223ec990df73b5cbcb71d802277661cd4807681` | Explorator: Pathfinder's Journey-clock bonus and Ambusher/At the Helm setup modifiers. |
+| 43 | `b55741f8ba9fc1d5c9f2293c00b0a61791326ec5` | Adept: Focused Channel waives the base working cost, not separate costs, payments or Backlash. |
+| 44 | `b6dd3fbe5ded3d753f0487c672e3126e680ee4c6` | Stealth/Precision: Bypass's clock bonus, Master Key's Difficulty boundary and Clean Getaway's setup modifier. |
+| 45 | `5c367623812bf6cc1845ffb4e5f6adf8116080ea` | Knowledge: Jury-Rig tag scope/removal, Case File's clock bonus and Living Archive's Difficulty boundary. |
+| 46 | `437e0d65f6376fb9fd6fb3607f4f64b3ff8f07a7` | Social: Quick Change tag scope/removal and Command the Field's flat setup modifier. |
+| 47 | `fbc8518788545c8020f3550670caef0d6b007ba9` | Wilderness/Travel: Trusted Mount's flat setup modifier and Cartographer's travel Difficulty boundary. |
+| 48 | `180dd8f06b8f5a28670216965a3d8e75b9627083` | Weird: Nemesis and Apex Form free bonus dice respect the normal cap and grant no extra scripted turn. |
+| 49 | `6311493953181d47c88d737baa06330af434d32e` | Combat: Second Wind's bonus-dice cap, Cheap Shot tag scope/removal and Improvised Arsenal's action-tag boundary. |
+
+## Limits of the individual-entry clarifications
+
+Batches 39–49 preserve the listed numerical benefits. Their targeted
+clarifications do not certify every entry in the affected files as fully
+reviewed or resolved. In particular:
+
+- Second Wind's bonus-dice-cap reminder does not settle its immediate-action
+  timing, script replacement, rotation or Taken Out permissions.
+- Perfect Strike's exceptional-doubles interaction remains open.
+- Menacing and Unstoppable were not revised by the Bellator batch.
+- Smooth Recovery's versus interaction and Command's rotation-exception
+  details were not revised by the Interlocutor batch.
+- The Reveal is not an automatic-success ability. Batch 38 corrected the
+  design notes, not its +4 Disposition benefit or named compromise exception.
+  Its eligible-conflict scope and compromise interpretation still need
+  explicit review before replacement wording is adopted.
+- Explicit escape, automatic-entry, pursuit-ending and Taken Out benefits
+  were not silently replaced by generic reminders.
+- Existing highest-die Resistance thresholds, including Trap Sense and
+  Unshakeable, were not changed to settle negative-Edge interactions.
+- Borrowed Might, Not Yet and Ward the Threshold were not amended by
+  batch 48's bonus-dice reminders.
+
+Read `conflict-ability-audit.md` as dated inspection findings, not a current
+completion checklist. Later source edits can change its recorded blob SHAs
+without resolving the substantive questions it identifies.
 
 ## Source roles
 
@@ -74,10 +116,10 @@ Check the current affected entry before changing it.
 
 ## Verification still required
 
-1. Audit individual abilities and setting exceptions against the active
-   branch, including the earlier review list for Deadly Precision, Awaken
-   the Blood, The Reveal and staking interactions. This ledger does not
-   classify each as complete or pending without that inspection.
+1. Continue auditing individual abilities and setting exceptions against
+   the active branch, including Deadly Precision, Awaken the Blood,
+   The Reveal and staking interactions. The dated individual-entry audit
+   and targeted clarifications above do not complete this task.
 2. Complete the active-source sweep for retired Legacy currency, death
    triggers and obsolete section references; preserve historical records
    and ordinary narrative uses of the word legacy.

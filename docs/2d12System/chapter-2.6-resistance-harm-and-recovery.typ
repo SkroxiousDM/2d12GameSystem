@@ -49,6 +49,14 @@ Pay the listed cost for the die you read. A single die can't give the double-12 
   , kind: table
   )
 
+#strong[Resistance result and ability thresholds.] The Resistance result is the die read by the normal procedure: highest at Edge 0 or higher, the single die at Edge −1, and lowest at Edge −2 or lower. When an ability changes a Resistance cost or effect on a stated die threshold, check that threshold against this result. For these abilities, wording such as \"on a highest die of 5+\" means \"when the Resistance result is 5+\"; do not inspect a different die to qualify. An ability that intentionally uses a different die must expressly say that it overrides the normal Resistance result.
+
+Meeting a threshold grants only the stated benefit. It does not change which die is read, add dice, alter Edge or permit Resistance against an excluded consequence. A threshold-based cost benefit and a separately listed effect are distinct. If an ability says the cost is 0 on a result of 5+ and reduces a status by 3 tiers, the threshold governs the zero cost only; the listed reduction applies whenever you legally use that ability to Resist unless its text expressly makes the reduction conditional too.
+
+Apply the existing special double-12 procedure normally, including the all-dice-12 requirement when reading the lowest. An ability that makes the cost 0 does not itself grant that procedure's tier-1 status-clearing benefit. A zero final cost does not run the pool dry (§6.1), and protected-payment restrictions still apply.
+
+#emph[Example:] at Edge −2, dice of 3 and 10 give a Resistance result of 3. An ability's 5+ zero-cost threshold is not met; use the normal cost for 3, while retaining any independently listed effect improvement. Dice of 5, 9 and 12 at Edge −3 give a result of 5 and meet the threshold.
+
 #strong[Imposed harm, in order.] When an effect imposes a harmful status:
 + The GM names the status, its source and its incoming tier, and says whether it stacks with a status you already have (§5.1).
 + If you Resist, add any armour that applies (Playbook Rules §2.3) and pay the cost. A cost you can't fully pay makes you run dry (§6.1).

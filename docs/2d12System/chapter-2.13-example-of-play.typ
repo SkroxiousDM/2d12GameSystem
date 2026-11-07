@@ -2,7 +2,7 @@
 
 == 13. Example of Play
 #columns(2, gutter: 5mm)[
-#strong[Kade];, a #emph[Reckless Furcifer who Never Leaves Anyone Behind] (Mētis Edge 1, Effort Level 2), is creeping through a warehouse to free a captured friend. Scene Truths: #emph[Dim Lighting];, #emph[Patrolling Guards];.
+#strong[Kade];, a #emph[Reckless Furcifer who Never Leaves Anyone Behind] (Mētis Edge 1, Effort Level 2), is creeping through a warehouse to free a captured friend. Kade has advanced beyond creation and purchased Effort Level 2; a new character starts at Level 1 (§2.4, §12.2). He has enough Mētis to pay both Effort costs below. Scene Truths: #emph[Dim Lighting];, #emph[Patrolling Guards];.
 
 - #strong[Roll:] Stealth +3, power tag #emph[quiet boots] +1, power tag #emph[knows this district] +1 (tags capped at +2). The GM sets Hard 18 but #emph[Dim Lighting] lowers it to Standard 15. Kade needs 10+ on the dice.
 - #strong[Effort, part 1:] Kade spends 3 − 1 Edge = 2 Mētis for a bonus die → 3d12 keep 2.
@@ -15,7 +15,7 @@
 
 === 13.1 A Scripted Conflict
 #columns(2, gutter: 5mm)[
-Later, Kade, Mira and Tarin confront two guards at the warehouse gate. This is a separate example: the earlier scene's Truths and terror status have ended. The PCs want to get their rescued friend through the gate; the guards want to hold them until reinforcements arrive. All three PCs can contribute. The group establishes capture and nonlethal injury as stakes, not death.
+Later, Kade, Mira and Tarin confront two guards at the warehouse gate. This is a separate example. The earlier lighting and patrol Truths no longer apply at this location; Kade's temporary terror has been cleared through appropriate care after the spirit's influence ended (§6.6), not merely because the scene changed. His earlier pool expenditure is not automatically refunded. The PCs want to get their rescued friend through the gate; the guards want to hold them until reinforcements arrive. All three PCs can contribute. The group establishes capture and nonlethal injury as stakes, not death.
 
 #strong[Setup.] Mira leads with Fight +3 and the highest Edge in its pool, 1. Her setup dice are 7 and 8: 7 + 8 + 3 + 1 = 19. Divide by 3 and round down to 6, then add +1 for each of her two eligible helpers: #strong[starting Disposition 8]. There are no other flat modifiers or Superiority. Setup Help supplies these points, not extra Help dice; its pool-point cost remains an open ruling (§10.2).
 
@@ -25,7 +25,7 @@ The guards contribute Grit 5 and 3, so their side also starts at #strong[8 Dispo
 
 #strong[Volley 1 --- Maneuver versus Maneuver.] Both actions resolve independently. Kade uses Stealth +3 and one relevant tag for +1 to slip around the first guard and open a path. His dice are 7 and 6, for a total of 17. The guard has Guard +1, so Kade's target is Standard 15 + 1 = 16; no Truth changes it here. He succeeds with #strong[1 Power] and buys Gain Position.
 
-The guard's independent Maneuver totals 14 against Standard 15: Success at a Cost, with 1 Power. The GM uses that Power for Impede. No additional status or Disposition loss is added as an ordinary cost; the conflict restrictions in §10.7 apply. This example uses an adversary's cost result and does not settle the open Woe ruling for losing versus tests.
+The guard's independent Maneuver totals 15 against Standard 15: an ordinary success with 1 Power. The GM spends that Power on Impede. This result needs no Success-at-a-Cost consequence and adds no status or Disposition loss.
 
 Neither Maneuver changes Disposition. Gain Position waits for the PCs' next scripted action, and Impede affects that same next action. They do not apply to an intervening Resistance roll.
 
@@ -33,7 +33,7 @@ Neither Maneuver changes Disposition. Gain Position waits for the PCs' next scri
 
 Mira wins by 3, producing 1 Power plus 1 for the full 3-point margin: #strong[2 Power]. She commits both to Attack, removing #strong[3 shared Disposition] (2 Power + 1). The guards fall from 8 to 5. Their losing Defend restores nothing. No particular guard loses Grit, leaves the rotation or receives a wound merely from that loss. Both pending Maneuver benefits are now spent (§10.6).
 
-#strong[Volley 3 --- Defend versus Feint.] Tarin's Defend is trumped: he makes no roll and restores no Disposition. The first guard's Feint rolls independently and succeeds with 2 Power, committed to remove 3 PC Disposition.
+#strong[Volley 3 --- Defend versus Feint.] Tarin's Defend is trumped: he makes no roll and restores no Disposition. The first guard'sFeint rolls independently and succeeds with 2 Power, committed to remove 3 PC Disposition.
 
 Before applying that loss, Tarin accepts a new lasting #emph[sprained shoulder-3], describing how he holds the gate open while the others push through. The injury follows from the action and preserves the side's position. A tier-3 injury cancels 2 incoming loss, so the PCs lose only 1 Disposition, falling from 8 to #strong[7]. Tarin marks his once-per-conflict injury trade used; at most one participant could trade against this Feint (§10.11).
 

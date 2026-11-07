@@ -57,7 +57,7 @@ In a scripted conflict, a working uses an otherwise permitted scripted action; D
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Focused Channel];], [Workings inside your Domain cost #strong[0 pool points] if you don\'t use Effort on that roll.],
+    [1], [#strong[Focused Channel];], [Workings inside your Domain cost #strong[0 pool points] if you don\'t use Effort on that roll. This waives the normal 1-point working cost only, not separate ability costs or accepted payments. It does not suppress Backlash or other applicable consequences.],
     [2], [#strong[Ward];], [You can create protective statuses (#emph[warded-X];) with Enhance. While warded, an ally reduces supernatural or tech-based harm by #strong[+1 tier] when Resisting. This protection does not reduce shared Disposition loss, running-dry statuses or accepted payments.],
     [3], [#strong[Sense the Unseen];], [Once per scene, ask a free Discover question about #strong[hidden supernatural or technological forces] nearby. You always notice when such forces are used near you.],
     [4], [#strong[Overchannel];], [When you use Effort for Power on a working, gain #strong[+2 Power] instead of +1, but take #emph[strained-1] as an accepted payment. Armour, Resistance, prevention, redirection and incidental clearing benefits cannot reduce or cancel it. Once recorded, it recovers normally.],

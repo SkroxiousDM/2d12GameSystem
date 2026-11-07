@@ -21,7 +21,7 @@ Silent, patient, and impossible to pin down.
     [2a], [#strong[Vanish];], [Once per scene, after any roll, become hidden if there\'s any cover nearby. No roll needed. This changes your position going forward; it does not undo resolved effects, Disposition loss, injuries or a settled outcome, cancel an independently resolving action or grant an additional scripted turn.],
     [2b], [#strong[Shadow Escort];], [Up to #strong[two allies] can use your Stealth result instead of rolling their own.],
     [3a], [#strong[Unseen Hand];], [Any action you take while hidden gains #strong[+1 Power] on a success.],
-    [3b], [#strong[★ Living Shadow];], [Once per session, pass through a guarded or blocked area unnoticed (no roll) and arrive at a point you choose.],
+    [3b], [#strong[★ Living Shadow];], [Once per session, describe a concealed route through one guarded or blocked area and name a destination on the other side. You reach it unnoticed without a roll, provided the route could physically accommodate you. Ordinary locks, patrols and surveillance do not prevent this passage. Declare before attempting the crossing. During a scripted conflict, use this between exchanges, before either side scripts the next one. It moves only you and what you carry; it does not open the route for others. If unnoticed passage was your sole conflict objective, you achieve it and leave that conflict without compromise. Otherwise, continue from your new position without refreshing Disposition or other conflict resources.],
   )]
   , kind: table
   )

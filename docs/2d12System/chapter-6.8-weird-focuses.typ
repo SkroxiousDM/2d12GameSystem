@@ -67,7 +67,7 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
     table.hline(),
     [1], [#strong[Patron\'s Gift];], [Gain a #strong[minor Domain] (Generic Playbooks §8.1) tied to your patron. You can perform Easy and Standard workings with Arcana, paying Pneuma. If you\'re already an Adept, your Domain gets #strong[+1 power tag] instead. Domain permission grants no additional scripted turn and does not bypass action interactions or declared stakes.],
     [2a], [#strong[Ask the Patron];], [Once per session, ask #strong[two] Discover questions. The GM gains 1 Woe.],
-    [2b], [#strong[Not Yet];], [Once per session, when you\'d be Taken Out, your patron intervenes: you stay at tier 5. The GM gets a free compel on #emph[the debt comes due] next session.],
+    [2b], [#strong[Not Yet];], [Once per session, after normal reduction and stacking are determined, when an imposed harmful status would reach #strong[tier 6] on you, invoke your patron. Record that status at #strong[tier 5] instead. You are not Taken Out by that increase and gain no Scar from reaching tier 6, because the status does not reach it. Other statuses and restrictions still apply. The GM receives one free compel on #emph[the debt comes due] next session. This cannot prevent shared-Disposition defeat, reverse death or a settled outcome, or reduce an accepted payment.],
     [3a], [#strong[Greater Gift];], [Your patron Domain works up to #strong[Formidable 21];.],
     [3b], [#strong[★ Borrowed Might];], [Once per session, call on your patron\'s power directly: gain #strong[4 Power] to spend on any Effects without a roll. The GM gains 3 Woe.],
   )]

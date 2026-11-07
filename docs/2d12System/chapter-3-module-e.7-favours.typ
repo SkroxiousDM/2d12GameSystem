@@ -14,6 +14,8 @@ Knowingly refusing a feasible agreed obligation normally costs one Standing; sev
 
 Calling in an earned favor does not reduce Standing. Repaying one does not automatically improve it. Falling Standing does not erase outstanding promises. A favor transfers only with the debtor's consent.
 
+#strong[Agreed costs and actual assistance.] A favor grants its stated service, not automatic success on every later task, free Help, an extra scripted turn or control over another participant. If a promise is part of an accepted concession or another benefit's payment, generic prevention, Resistance, redirection or incidental clearing cannot erase that accepted cost (Core Rules §10.7). Renegotiation requires agreement; later healing of an injury does not refund the benefit or revoke the concession.
+
 === E.8 Adventures and Strategic Advantages
 
 Before an undertaking, explain its likely strategic effect when the characters can reasonably foresee it. “Secure the bridge and our forces can cross this turn with a rank-1 advantage” gives the players a meaningful choice.
@@ -34,6 +36,8 @@ Do not require a faction roll to confirm what the party already accomplished. Ca
 Distinct consequences can follow one achievement, but never award duplicate progress or duplicate modifiers for the same work. One bad PC roll does not automatically damage a whole faction; consequences must reach its people or resources.
 
 #strong[One contribution.] If a PC endeavour does the work a faction's project action would do (the party sabotages the project itself), that endeavour replaces the faction's own roll for that project this turn. Never count both for the same work.
+
+A played conflict still uses its permitted action effects. Advance or Discover requires an appropriate action or explicit exception; this strategic summary does not add them to every ordinary Maneuver. Ordinary Attack or Feint Disposition loss is not project progress, and a victory grants the stated objective within the stakes rather than completing unrelated clocks (Core Rules §10.6, §10.12).
 
 === E.9 Commitments and Strain
 
@@ -108,6 +112,8 @@ A project grants its declared result, not every benefit the victor might want. C
 
 Use core Argument, Negotiation, or Battle conflicts when the action deserves a played conflict. Use normal core Disposition, scripting, Power, concessions, and compromise.
 
+Each side has one shared Disposition total, not a track for every faction member. Complete independently resolving actions before checking victory. Defeat does not itself inflict injury, permanent organizational loss or every objective the winner could want. Resolve mutual defeat under Core Rules §10.12; a winner's compromise uses §10.13 and its outcome-first package, with eligible existing injuries credited once rather than automatic extra injuries. E.10's compromise Truth for contradictory completed project clocks is a separate organizational procedure, not a played conflict's compromise grade.
+
 Standing grants no automatic Superiority. Insider intelligence, an arranged audience, or a secured guarantee can qualify as actual preparation under the core's categories and cap. Evaluate distinct advantages, not labels. Combat receives no direct Standing modifier.
 
 State strategic objectives separately:
@@ -124,13 +130,15 @@ Winning a battle does not automatically create stable government. Occupation may
 
 Use Woe normally during PC scenes to introduce supported complications, reinforcements, or danger-clock progress. Hostility is a motive, not an unlimited Woe source. A completed World Turn project establishes its result without an extra Woe payment; a new scene complication uses the normal rules. Never charge twice for the same event.
 
+Inside scripted conflicts, ordinary failure does not also authorise an unrelated GM move, automatic injury or extra Disposition loss. Ordinary Success at a Cost likewise adds no status or extra loss without explicit permission. Specials, hazards, Risky rolls and other explicit consequences retain their stated effects and timing (Core Rules §10.7). Woe cannot retroactively change a revealed script or cancel independently resolving actions through generic complication wording. The core's unresolved Woe ruling for losing versus tests remains open.
+
 Woe cannot directly buy a Standing reduction. It can expose evidence or create circumstances that cause one. Momentum and scene-scale Create effects likewise cannot buy permanent reputation.
 
 === E.12 Damage, Crisis, and Reorganization
 
 Target the capability actually harmed. Destroying payroll may damage Treasure; exposing agents may damage Influence; losing an estate may damage Territory; defeat may damage Might; betrayal may provoke a Cohesion crisis.
 
-Use an asset loss, setback, adverse Truth, or Strain for limited harm. Permanent rating loss requires a lasting reduction in organizational capacity, established by the stakes or a completed undertaking. Do not subtract a rating point merely for losing any roll.
+Use an asset loss, setback, adverse Truth, or Strain for limited harm. Permanent rating loss requires a lasting reduction in organizational capacity, established by the stakes or a completed undertaking. Do not subtract a rating point merely for losing any roll. Ordinary shared Disposition loss does not directly reduce a Quality, mark Strain, remove an asset or tick Fracture; those need their own established consequence or explicit trigger.
 
 ==== Fracture
 

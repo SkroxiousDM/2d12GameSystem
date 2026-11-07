@@ -41,7 +41,7 @@ Spy, impostor, or actor: you can be anyone.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Quick Change];], [Create a disguise story tag for #strong[1 Power];, even without a disguise kit. This grants no additional scripted action and cannot by itself settle the disputed conflict objective.],
+    [1], [#strong[Quick Change];], [Create a disguise story tag for #strong[1 Power];, even without a disguise kit. State the tag\'s scope and removal condition normally. This grants no additional scripted action and cannot by itself settle the disputed conflict objective.],
     [2a], [#strong[Mimic];], [You can copy voices, mannerisms, and handwriting. Impersonating a specific person gets a #strong[free bonus die];. The normal bonus-dice cap applies.],
     [2b], [#strong[Deep Cover];], [Keep a cover identity as a permanent story tag with its own contact. The GM must spend #strong[2 Woe] to blow your cover.],
     [3a], [#strong[Belongs Anywhere];], [Ignore Truths about social barriers (#emph[members only];, #emph[high security];, #emph[closed community];).],
@@ -92,7 +92,7 @@ Noble, officer, executive, or chieftain: you hold authority, and it holds you.
     [1], [#strong[Rank];], [Choose where your authority applies (a realm, company, fleet, or clan). There, Create the Truth #emph[by my order] for #strong[1 Power];. The Truth provides authority or leverage; it does not automatically grant the disputed objective or bypass action interactions.],
     [2a], [#strong[Retainers];], [Gain loyal servants or aides as a group tag. They give free Help once per scene and handle errands. Free Help waives the pool-point cost, not relevance, bonus-dice limits or participation risks. These benefits grant no independent combat turn, personal Disposition or injury trade.],
     [2b], [#strong[Immunity];], [Once per session, avoid arrest or legal consequences through your status.],
-    [3a], [#strong[Command the Field];], [In Battle conflicts, your side gets #strong[+4 starting Disposition];. Changing conflict type within the same unresolved struggle does not refresh Disposition or reapply setup bonuses.],
+    [3a], [#strong[Command the Field];], [In Battle conflicts, your side gets #strong[+4 starting Disposition];. Apply the +4 at full value with other flat starting-Disposition modifiers, before the minimum of 1 and opposing Superiority (Core Rules §10.2--10.3). Changing conflict type within the same unresolved struggle does not refresh Disposition or reapply setup bonuses.],
     [3b], [#strong[★ Holdings];], [Gain a holding (keep, office, ship, estate) as a site with #strong[3 Truths you choose];. Once per Players\' Turn, one action there costs no Check.],
   )]
   , kind: table

@@ -1,6 +1,6 @@
 # Boss Phases — Fixed Thresholds
 
-Status: Proposed draft for playtesting. Intended replacement for Adversaries §7.1; not yet integrated into the published chapter.
+Status: Proposed draft for playtesting. Intended replacement for Adversaries §7.1; not yet integrated into the published chapter. The recovery/reinforcement paragraph below has been reconciled with the approved fixed-starting-Disposition ruling in `reinforcements-disposition-cap-ruling.md`; this does not approve or implement the remaining phase proposal.
 
 ## 7.1 Boss Phases
 
@@ -31,7 +31,9 @@ Each phase activates once per conflict. If both thresholds are met in the same c
 
 Recovery and reinforcements do not reverse an activated phase, allow it to activate again or change either phase threshold.
 
-Reinforcements add their Grit to both the side’s current shared Disposition and its starting Disposition. The increased starting value is the cap for Defend and other Disposition recovery, but the recorded phase reference remains unchanged. Removing a participant does not, by itself, subtract its Grit or lower either value.
+Reinforcements add their Grit to current shared Disposition only, even above the side’s starting value. Starting Disposition remains the normal recovery cap and compromise reference. The phase reference and its thresholds remain fixed at their setup values.
+
+Removing a participant does not, by itself, subtract its Grit or change any of these references.
 
 ### Taking out the boss or Leader
 

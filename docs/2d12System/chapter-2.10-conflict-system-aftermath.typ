@@ -33,6 +33,17 @@ A group represented by one rules entry is one participant for rotation and area-
 
 Setup Help costs no pool points, requires a meaningful contribution before the leader rolls and grants only +1 starting Disposition per eligible helper unless expressly stated otherwise. Ordinary free Help waives its pool-point cost, not relevance, bonus-dice limits or participation risks. Removing a companion or group subtracts no Disposition, but may defeat the side if nobody remains able to pursue the objective.
 
+==== Starting Disposition and Reinforcements
+At the end of setup, record the side's adjusted starting Disposition after all modifiers and Superiority. This value remains fixed for the conflict and determines its normal Disposition-recovery cap and compromise reference (§10.13).
+
+Reinforcements add their listed Grit to the side's current shared Disposition, even above its starting value. They do not increase starting Disposition or its normal recovery cap.
+
+Defend and other Disposition-recovery effects restore only up to that starting value unless an explicit rule states otherwise. If current Disposition is already at or above the cap, those effects restore nothing; they do not reduce the existing total. This limits recovery, not other permitted supplementary purchases on a successful Defend (§10.6).
+
+Removing a participant does not subtract its Grit from current or starting Disposition. Reinforcement arrival grants no additional scripted action, free actor reassignment or recalculation of setup.
+
+Record new starting Disposition only for a genuinely new conflict. Changing location, tactics or conflict type within the same unresolved struggle does not qualify (§10.2).
+
 === 10.10 Conflict Gear and Assets
 Equipment normally provides an action tag, counting toward the normal +2 tag cap. It may also have one explicitly written distinctive quality. Do not invent qualities during resolution.
 #figure(table(columns: (70%, 30%),
@@ -110,6 +121,8 @@ Compare the winner's remaining Disposition with its adjusted starting value:
   [Three-quarters or more], [Major],
 ))
 Use proportions without rounding.
+
+Use the winner's original adjusted starting value recorded at setup. If remaining Disposition equals or exceeds it, the winner has lost no starting Disposition for compromise purposes. Reinforcement Disposition does not create a larger compromise denominator, a separate loss ledger or a requirement to reconstruct losses before help arrived. Setup outcomes at 0 use §10.3 instead; overwhelming preparation and simultaneous setup defeat require no winner's compromise calculation.
 
 ==== What Compromise Means
 The winner achieves its intent, but the loser earns a proportionate concession:

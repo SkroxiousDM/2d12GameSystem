@@ -93,7 +93,7 @@ Defeat does not automatically inflict injury, destroy every creature present or 
 Do not apply a proposed compromise status early to lower finishing Difficulty. A failed finishing attempt does not automatically reopen the conflict or add a compromise grade. A special attack procedure must state how it changes the normal interaction and what happens to the opposing action; substituting a Difficulty alone does not settle that question.
 
 ==== Mutual Defeat
-If both sides are defeated in the same volley, neither wins outright. Resolve compatible parts of both intents and a shared setback within the stakes. Neither receives an incompatible outcome automatically. Calculate no winner's compromise.
+If both sides are defeated in the same volley, or both start at 0 Disposition after Superiority (§10.3), neither wins outright. Resolve compatible parts of both intents and a shared setback within the stakes. Neither receives an incompatible outcome automatically. Calculate no winner's compromise. For simultaneous setup defeat, do not script exchanges; apply the setup boundaries in §10.3.
 
 ==== Concession
 Before the next roll, propose an end to the conflict. State what the opponent gains, what your side retains, all injuries, losses, promises or obligations, and how the immediate struggle ends.
@@ -157,7 +157,7 @@ Creature-specific rules remain in force. Immunity may stop an unsuitable status 
 === 10.15 Order of Resolution
 + Establish objectives, stakes, participants and exits.
 + Calculate starting Disposition and Superiority.
-+ Resolve overwhelming preparation immediately, if applicable.
++ After determining both adjusted totals, resolve overwhelming preparation or simultaneous setup defeat, if applicable.
 + Script the exchange and assign actors.
 + Reveal the next volley.
 + Determine the interaction.

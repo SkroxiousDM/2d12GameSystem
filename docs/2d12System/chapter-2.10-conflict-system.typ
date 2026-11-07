@@ -38,6 +38,8 @@ Complete these steps before scripting:
 + Record the adjusted starting Disposition.
 + Establish the acting order and script the first exchange.
 
+Resolve setup outcomes only after both sides' adjusted starting Disposition is known. If both totals are 0, use simultaneous setup defeat (§10.3).
+
 ==== Intent and Stakes
 Each side states what it gains by winning. Establish what losing allows the opposition to do and whether capture, death, permanent injury, exposure, or another lasting consequence is possible. Discuss what withdrawal or concession could look like.
 
@@ -86,7 +88,17 @@ Each category applies once. Preparation must materially affect the opposing side
 After all other starting-Disposition modifiers and the minimum of 1, reduce the opposing side's Disposition by your Superiority, to a minimum of 0. Superiority is not tracked or spent after setup.
 
 ==== Overwhelming Preparation
-If Superiority reduces a side's starting Disposition to 0, resolve the conflict as a victory for its opponent at no cost, within the declared intent and stakes. Do not script exchanges or calculate a further compromise. A low roll or negative flat modifiers alone cannot produce this result.
+Apply each side's Superiority to its opponent after calculating both sides' starting Disposition, including all flat modifiers and the minimum of 1. Determine both adjusted totals before resolving the setup outcome.
+
+- If only one side starts at 0 Disposition, its opponent wins at no cost, within the declared intent and stakes. Do not script exchanges or calculate a further compromise.
+- If both sides start at 0 Disposition, resolve mutual defeat under §10.12. Neither side receives an outright victory or the no-cost victory benefit. Resolve compatible parts of both intents and a shared setback within the declared stakes. Neither side automatically achieves an outcome incompatible with the other.
+- If neither side starts at 0, record both adjusted starting totals and proceed to scripting.
+
+Simultaneous setup defeat produces no winner's compromise. Do not script exchanges for this outcome, restore either total to 1, reroll setup, compare negative remainders or break the result by comparing Superiority.
+
+A setup defeat does not itself inflict an injury, drain a pool, Take Out a particular participant or satisfy a creature-specific finishing requirement. Any resulting consequence must follow the declared stakes and the mutual-defeat outcome.
+
+A low roll or negative flat modifiers alone cannot produce setup defeat; only opposing Superiority can reduce starting Disposition from the minimum of 1 to 0.
 
 // PLAYTEST: retain the existing PC/opposition symmetry and eligibility flag.
 

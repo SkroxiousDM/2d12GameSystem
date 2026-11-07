@@ -2,14 +2,18 @@
 
 Date: 2026-11-07. Branch: `draft/conflict-system-rewrite`.
 
-Status: approved decision package, pending active-source implementation.
+Status: approved decision package, implemented in active Furcifer source on this review branch; broader summaries, root changelog and validation remain pending.
 This document records the 37 proposed answers and replacement entries
 approved in the conversation. It is not an included rulebook source.
-Committing it does not amend active Typst rules, reconcile other trackers,
-compile books, rebuild PDFs or establish playtest validation.
+The source implementation is in `../chapter-5.4-furcifer.typ`, not this
+Markdown file. Neither this record nor the source integration establishes
+successful compilation, rendered layout or playtest validation.
 
 The batch 51 decision package in `batch-51-core-rulings.md` guides this
-drafting; its active-source implementation remains pending.
+implementation. Its shared procedures are now integrated in Core Rules
+§§2, 5 and 10 by `b5b1827d42f6fad7b008d2ef7c222b0c46edf8f1` and
+`f9c2ca265b6231843854ca1ef6c95d46c6bb6c4f`; summary/status reconciliation
+remains separate work.
 
 ## 1. Shared eligibility: questions 1–6
 
@@ -33,7 +37,7 @@ drafting; its active-source implementation remains pending.
 
 7. Check once after revealing the volley and describing approaches, before
    either action rolls or resolves. Outside scripted conflicts, check
-   immediately before the roll.
+   immediately before the roll or automatic resolution.
 8. For independent actions, pending Impede qualifies the designated
    opposing actor at that check. Its application and expiry during their
    roll do not retroactively remove eligibility for the same volley.
@@ -158,8 +162,8 @@ during the opposing roll.
 
 These abilities do not consume or extend Impede. Meeting both triggers
 qualifies only once. Outside scripted conflicts, check unawareness
-immediately before rolling. Resolve whether your action reveals your
-presence from what actually happens.
+immediately before the roll or automatic resolution. Resolve whether your
+action reveals your presence from what actually happens.
 
 ### Opportunist
 
@@ -208,12 +212,15 @@ Disposition loss. This combination is intentional but unplaytested. The
 participant-specific Impede trigger, material relevance and once-per-action
 limits constrain its availability.
 
-Implement the shared opening and replacement entries in active Furcifer
-source and reconcile relevant shared rules, audit status and summaries
-before claiming rulebook implementation. Preserve historical inspection
-findings as history rather than treating this document as a source edit.
-Batch 51's permission and mixed-spending proposals must also be reconciled
-with active sources.
+The shared opening, replacement entries and shared limits are integrated
+in active Furcifer source. Outside-conflict timing explicitly includes
+automatic resolution to express question 15's approved no-roll permission.
+The scoped implementation status is in `batch-52-implementation-status.md`.
+Historical inspection findings remain historical; broader summary, audit
+and root changelog reconciliation remain pending. Batch 51's shared
+procedures are implemented in active Core Rules §§2, 5 and 10, not
+certified as fully reconciled throughout every summary or validated by
+playtesting.
 
 No compilation, PDF rebuild, rendered-layout inspection or playtest is
 claimed by this document.

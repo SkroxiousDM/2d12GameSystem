@@ -1,6 +1,6 @@
 # Shared Conflict Rules
 
-Status: approved design standard for the Chapter 2.10 rewrite and subsequent ability amendments. This draft is not yet integrated into the compiled Typst book. Individual ability entries remain unchanged until amended separately.
+Status: approved design standard for the Chapter 2.10 rewrite and subsequent ability amendments. The shared rules have been incorporated into active Typst sources on the review branch; this is source integration, not a verified compilation or PDF rebuild. Check `../chapter-2.10-conflict-system.typ` and `../chapter-2.10-area-and-interpose.typ` for current conflict implementation. Individual ability and setting amendments require entry-by-entry verification; this document does not certify that all are complete.
 
 ## Approved decisions
 
@@ -114,6 +114,6 @@ Do not award a second Scar for the same event merely because both a general rule
 
 ## Integration boundaries
 
-Apply this standard when amending abilities. Do not silently redesign numerical benefits beyond the approved offensive-bonus translation. Deadly Precision, Awaken the Blood, The Reveal and staking interactions still require explicit replacement text and review.
+Apply this standard when amending abilities. Do not silently redesign numerical benefits beyond the approved offensive-bonus translation. The earlier review list identified Deadly Precision, Awaken the Blood, The Reveal and staking interactions as requiring explicit replacement text and review; verify their current entries before treating any of those amendments as complete or still pending.
 
 The standard does not by itself convert a status-tier discount into a Disposition multiplier, remove a named ability's compromise exception, define a resource-damage conversion, or settle every special-action interaction. Record such decisions explicitly in the affected entry.

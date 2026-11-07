@@ -6,7 +6,7 @@
 #strong[Roll 2d12 + Skill + Modifiers vs. Difficulty.]
 
 - #strong[Skill:] +0 to +4 (from the skill pyramid; untrained = +0).
-- #strong[Tags:] +1 per relevant #strong[power tag];, #strong[maximum +2 per roll];. −1 per relevant #strong[weakness tag] (no cap).
+- #strong[Tags:] +1 per relevant #strong[power tag];, #strong[maximum +2 per roll];. −1 per relevant #strong[weakness tag] (no cap). Apply an explicit tag-cap exception only within its stated scope; the usual +1 exception permits at most +3 from tags.
 - #strong[Statuses:] ± the tier of the highest relevant harmful status and the highest relevant helpful status.
 - #strong[Truths:] shift Difficulty by steps (§8), not the roll: one step per rank, ±3 steps at most.
 
@@ -74,14 +74,16 @@ You can add d12s to the roll and #strong[keep the best two];. Maximum #strong[+2
   , kind: table
   )
 
-#strong[Effort (revised).] Each use of Effort costs 3 − Edge from the relevant pool. You may use Effort a number of times per roll equal to your #strong[Effort Level] (1 at start; 2 and 3 are unlocked by advancement). Each use buys one of:
+#strong[Effort (revised).] Each use of Effort costs 3 − Edge from the relevant pool, minimum 0. You may use Effort a number of times per roll equal to your #strong[Effort Level] (1 at start; 2 and 3 are unlocked by advancement). Each use buys one of:
 
 - #strong[+1 bonus die] --- declared before rolling.
 - #strong[+1 Power] --- declared #strong[after] a Success or Success at a Cost (Cypher\'s \"effort on damage\"). It cannot turn a failure into a success.
 
 Example: Effort Level 2 lets you buy one bonus die before the roll, then spend again for +1 Power if you succeed.
 
-#strong[Free benefits and setup Help.] Free bonus dice still count toward the +2 bonus-dice cap. Free Help waives its pool-point cost, not relevance or participation risks. Conflict setup Help grants +1 Disposition per eligible helper instead of also granting the ordinary Help bonus die (§10.2). Free does not grant an additional scripted turn (§10.5).
+#strong[Pay each cost.] Effort and ordinary Help are voluntary costs and must be paid in full; they cannot overrun an insufficient pool unless an explicit rule allows it (§6.1). Spending the exact last points still runs the pool dry. Pay each separately listed cost when its rule says; do not combine or split payments to change running-dry consequences. A final cost of 0 never runs the pool dry. If paying a cost takes you out, finish the action whose cost caused it, but do not buy more Effort or activate more abilities for that action. Complete independently resolving actions before checking victory.
+
+#strong[Free benefits and setup Help.] Free bonus dice still count toward the +2 bonus-dice cap. Free Help waives its pool-point cost, not relevance or participation risks. Conflict setup Help grants +1 Disposition per eligible helper instead of also granting the ordinary Help bonus die (§10.2). Setup Help's pool-point cost remains an open ruling; the benefit clarification does not settle it. Free does not grant an additional scripted turn (§10.5).
 
 === 2.5 Outcomes
 #figure(

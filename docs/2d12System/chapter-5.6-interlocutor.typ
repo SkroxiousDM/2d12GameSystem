@@ -30,15 +30,15 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Silver Tongue];], [When you Persuade or Deceive, creating a story tag about a target\'s attitude (#emph[convinced];, #emph[trusts us];, #emph[fooled];) costs #strong[1 Power] instead of 2.],
-    [2], [#strong[Read the Room];], [Spend 1 Power on Discover to learn an NPC\'s #strong[Belief, Goal, or Instinct];. You get #strong[+1] (counts as a tag) against them for the scene.],
-    [3], [#strong[Network];], [Once per session, declare a #strong[contact] in the current location as a story tag (#emph[contact: harbourmaster Elsa];). The GM gives them a quirk or something they want in return.],
+    [1], [#strong[Silver Tongue];], [When you Persuade or Deceive, creating a story tag about a target\'s attitude (#emph[convinced];, #emph[trusts us];, #emph[fooled];) costs #strong[1 Power] instead of 2. During a conflict, the tag establishes leverage or a supporting attitude; it cannot grant the disputed objective, reverse a resolved outcome or bypass the action interaction.],
+    [2], [#strong[Read the Room];], [Spend 1 Power on Discover to learn an NPC\'s #strong[Belief, Goal, or Instinct];. You get #strong[+1] (counts as a tag) against them for the scene. The normal tag cap applies. Information may support applicable Superiority at setup, but does not recalculate it mid-conflict.],
+    [3], [#strong[Network];], [Once per session, declare a #strong[contact] in the current location as a story tag (#emph[contact: harbourmaster Elsa];). The GM gives them a quirk or something they want in return. This cannot contradict resolved events or retroactively recalculate Superiority after setup.],
     [4], [#strong[Smooth Recovery];], [Once per scene, turn a failed Persuade, Deceive, or Empathy roll into a #strong[Success at a Cost];.],
-    [5], [#strong[Many Faces];], [With a moment to prepare, Create the story tag #emph[I belong here] for #strong[1 Power];. It lasts the scene and removes one Truth that would raise the Difficulty of mingling or entry.],
+    [5], [#strong[Many Faces];], [With a moment to prepare, Create the story tag #emph[I belong here] for #strong[1 Power];. It lasts the scene and removes one Truth that would raise the Difficulty of mingling or entry. This grants no extra scripted action and does not by itself settle a contested conflict objective.],
     [6], [#strong[Command];], [In conflicts, your team #strong[ignores the rotation rule] for one volley per exchange. Once per exchange, an ally\'s Defend restores #strong[+1 Disposition];.],
     [7], [#strong[★ Inspire];], [You can spend #strong[your Tychē Points on allies\' rolls];. Enhance effects you create for allies cost #strong[1 Power per 2 tiers];.],
-    [8], [#strong[★ Crowd Work];], [You influence a group as if it were one person. In Argument or Negotiation conflicts against a crowd or council, your Attacks remove #strong[+1 Disposition];.],
-    [◆], [#strong[Word Is Law];], [Once per session, a non-villain NPC agrees to a reasonable request #strong[without a roll];. In Argument and Negotiation conflicts, your side starts with #strong[+4 Disposition];.],
+    [8], [#strong[★ Crowd Work];], [You influence a group as if it were one person. In Argument or Negotiation conflicts against a crowd or council, your successful Attacks remove #strong[1 additional Disposition] when applying ordinary Attack Disposition loss. This is additional loss, not Power or a harmful status; it does not grant additional actions or multiply by the crowd\'s fictional headcount.],
+    [◆], [#strong[Word Is Law];], [Once per session, a non-villain NPC agrees to a reasonable request #strong[without a roll];. In Argument and Negotiation conflicts, your side starts with #strong[+4 Disposition];. Changing conflict type within the same unresolved struggle does not refresh Disposition or reapply setup bonuses.],
   )]
   , kind: table
   )

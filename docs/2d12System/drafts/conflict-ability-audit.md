@@ -9,6 +9,46 @@ erratum, compiled-book check or playtest. The active source and the
 approved shared standard must be read together; unresolved mappings need
 explicit decisions before replacement text is committed.
 
+## Follow-up status: 2026-11-07
+
+The inspection below is preserved as a historical snapshot. Its quotations,
+blob SHAs, findings and requested decisions describe the inspected version,
+not a claim that every question remains unresolved in the current source.
+This addendum records subsequent source integrations, not a fresh complete
+ability audit or new designer ruling.
+
+| Historical finding | Subsequent integration | Remaining boundary |
+|---|---|---|
+| Opportunist's Impeded-status trigger and timing | Batch 52, `ca671c6a1e27c4a433cd9209e13a69658ec527c8`, replaces it with the individual-opponent shared opening, materially relevant unawareness or pending Impede, and pre-resolution timing including automatic resolution. | No blanket status-based eligibility or script inspection; broader setting/reference checks and playtesting remain pending. |
+| Deadly Precision's trigger, conflict benefit and component choice | The same Batch 52 commit supplies +1 ordinary Attack Disposition loss with at least 1 committed Power, or one qualifying single-target status purchase at half purchased tier rounded up; it records stacking, area and finishing limits. | No doubled Power/loss, new harmful-status permission or discount to a shared area-status purchase. The intentional combined offensive increase remains unplaytested. |
+| Second Wind's immediate-response ambiguity | `50b06b39b200c16856299d659c0d4baeb8a6a770` commits the scoped Second Wind rescue replacement, alongside Command's rotation replacement. | Read the replacement entry for its permissions; neither this record nor the earlier bonus-die reminder certifies unrelated rescue/return abilities. |
+| No One Left's explicit retreat/escape benefit | `b0c2c252c5770e1deff6f47f44ee865001f9ff77` commits the scoped withdrawal, evasion and escape replacements. | Preserve the actual entry's explicit exception and payment boundaries; source integration is not validation of every pursuit or setting interaction. |
+| Perfect Strike's exceptional-doubles dependency | Batch 51 implements the opposing-total procedure in §10 through `b5b1827d42f6fad7b008d2ef7c222b0c46edf8f1` and reconciles §2 through `f9c2ca265b6231843854ca1ef6c95d46c6bb6c4f`. Ability-created doubles use the same procedure. | The shared ruling is settled; this is not a claim that every affected entry or summary has been inspected. |
+| Escape Artist's highest-die threshold under negative Edge | No resolution is claimed by these integrations. | Keep the recorded question open; do not silently replace highest with kept/read. |
+| The Reveal follow-up | `76e59ce5762752b515640d2aabbbbbed7dc3cd26` commits its scoped case-related setup/compromise replacement, together with Borrowed Might, Ward the Threshold and Immunity. | The Reveal is not automatic success; broader interactions, setting references and playtesting are not certified. |
+
+Related source work includes Smooth Recovery's independent-failure
+conversion in `8583a3131ea8aaac96a3421c1631cc406ddff5d0` and entry,
+identity-protection and Taken Out interventions in
+`91464fd6d937fb59bf0b69a789bf3556f3807bc7`. These scoped replacements do
+not settle unrelated thresholds, Awaken the Blood, staking interactions
+or uninspected generic/setting entries.
+
+The compatibility ledger was extended in
+`ceea15187019ba2d9ed34f9d5effd49e27945b0f`. The core Quick Reference was
+reconciled with Batches 51–52 in
+`ec778fc22c48789df1245cf828352835c2ec4a37`; this is summary source work,
+not a compiled-layout check. See `batch-52-implementation-status.md` for
+Batch 52's scoped record. Remaining documentation, root changelog and
+Phase 1 tracker reconciliation, active-source sweeps, compilation, PDF
+rebuilding and playtesting remain separate tasks.
+
+## Historical inspection record
+
+The sections below retain the original inspection findings. References
+to a current entry, an open ruling or a needed decision are relative to
+that snapshot; consult the follow-up above and active source for status.
+
 ## Inspected source snapshots
 
 | Source | Git blob SHA at inspection |

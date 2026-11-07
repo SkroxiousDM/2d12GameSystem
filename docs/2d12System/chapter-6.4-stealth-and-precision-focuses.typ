@@ -65,10 +65,10 @@ Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Bypass];], [Each success on a lock, safe, or security clock Advances it #strong[+1 extra segment];.],
+    [1], [#strong[Bypass];], [Each success on a lock, safe, or security clock Advances it #strong[+1 extra segment];. The bonus advances that progress clock only; it is not additional Power or Disposition loss and grants no additional scripted action or action-interaction bypass (Core Rules §5, §10.5--10.6).],
     [2a], [#strong[Back Door];], [Once per location, Create the Truth #emph[I know a way in] for #strong[1 Power];. It establishes access or leverage, not automatic victory over an unrelated conflict objective or permission to contradict resolved events.],
     [2b], [#strong[Trap Sense];], [You always notice traps and alarms before triggering them. Resisting traps costs #strong[0 on a highest die of 5+];. This does not permit Resistance against shared Disposition loss, accepted payments or settled outcomes.],
-    [3a], [#strong[Master Key];], [Ordinary locks open without a roll. Complex security is #strong[two Difficulty steps lower];.],
+    [3a], [#strong[Master Key];], [Ordinary locks open without a roll. Complex security is #strong[two Difficulty steps lower];. The two-step reduction applies when testing against a Difficulty, including an eligible independent conflict test; do not convert it into a modifier to opposing totals in a versus test (Core Rules §10.5).],
     [3b], [#strong[★ Vault Breaker];], [Once per mission, declare a security layer already cracked: fill one security clock completely.],
   )]
   , kind: table
@@ -90,7 +90,7 @@ You never walk into a room without knowing how to leave it.
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Exit Strategy];], [When you enter a new scene, ask one free Discover question about exits or escape routes.],
-    [2a], [#strong[Clean Getaway];], [In Chase conflicts where you\'re fleeing, your side gets #strong[+3 starting Disposition];. Changing conflict type within the same unresolved struggle does not refresh Disposition or reapply setup bonuses.],
+    [2a], [#strong[Clean Getaway];], [In Chase conflicts where you\'re fleeing, your side gets #strong[+3 starting Disposition];. Apply the +3 at full value with other flat starting-Disposition modifiers, before the minimum of 1 and opposing Superiority (Core Rules §10.2--10.3). Changing conflict type within the same unresolved struggle does not refresh Disposition or reapply setup bonuses.],
     [2b], [#strong[Contin-gency];], [Once per mission, when things go wrong, reveal a prepared fallback (stashed gear, a getaway vehicle, a safe house) as a story tag. No Momentum needed. This cannot contradict resolved events, reverse paid costs or settled outcomes, or retroactively recalculate Superiority after setup.],
     [3a], [#strong[Not Here];], [Once per session, escape any scene with every ally who can follow, before the next status lands.],
     [3b], [#strong[★ Dead Man\'s Switch];], [You can\'t be held. When captured or Taken Out, you escape at the start of the next scene. The GM gains 2 Woe.],

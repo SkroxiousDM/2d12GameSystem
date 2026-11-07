@@ -15,11 +15,11 @@ Dhampir. Born to one of the Kept, and carrying a little of what she is. Tougher 
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Mother's Blood];], [You notice fresh blood anywhere in the scene, and by scent or taste you can tell the blood of the afflicted from ordinary blood. A short rest restores #strong[2 + Edge] Sōma (not in direct sunlight). Some old-world doors and instruments respond to you: when you try to make one work, #emph[my mother's blood] counts as a tag, and works best on things tied to her line. You're subject to #strong[Sunlight Syndrome] and #strong[the Thirst] (Frontier Rules §7).],
-    [2a], [#strong[Dhampir Regeneration];], [Once per scene, lower one physical status by #strong[2 tiers] (no roll). Not in direct sunlight. Thirst +1.],
+    [1], [#strong[Mother's Blood];], [You notice fresh blood anywhere in the scene, and by scent or taste you can tell the blood of the afflicted from ordinary blood. A short rest restores #strong[2 + Edge] Sōma (not in direct sunlight). This pool recovery does not clear statuses, restore Disposition or erase Scars. Some old-world doors and instruments respond to you: when you try to make one work, #emph[my mother's blood] counts as a tag, and works best on things tied to her line. You're subject to #strong[Sunlight Syndrome] and #strong[the Thirst] (Frontier Rules §7).],
+    [2a], [#strong[Dhampir Regeneration];], [Once per scene, lower one physical status by #strong[2 tiers] (no roll). Not in direct sunlight. Thirst +1 as an accepted payment; prevention, redirection and incidental clearing benefits cannot cancel that payment. Healing an existing status does not restore pools or Disposition, refresh injury trades or erase Scars.],
     [2b], [#strong[Read the Blood];], [Touch or taste a blood sample (a scene, no roll) to learn: whether it is afflicted, a dhampir's, or ordinary; whether the afflicted person it came from was well fed or starving; and roughly how long ago it was shed. With #strong[1 Power] from a Discover effect, also learn whether two afflicted samples share a bloodline. Thirst +1 each time.],
-    [3a], [#strong[Mother's Key];], [Old-world systems tied to your mother's line accept you as one of her line. #strong[Once per session], make one such system open, start, stop or show its records --- no roll. On systems of other lines, #emph[my mother's blood] gives a free bonus die. The GM may spend #strong[2 Woe] to have the system note your visit somewhere someone will notice.],
-    [3b], [#strong[★ Awaken the Blood];], [Once per scene, let your mother's blood rise (#emph[Thirst];): until the scene ends, you get #strong[+2 bonus dice] free on physical rolls, your Attacks inflict #strong[+1 tier];, and your physical statuses can't go above tier 5. Afterwards, Thirst +2, and anyone who saw it treats you as one of the Kept.],
+    [3a], [#strong[Mother's Key];], [Old-world systems tied to your mother's line accept you as one of her line. #strong[Once per session], make one such system open, start, stop or show its records --- no roll. On systems of other lines, #emph[my mother's blood] gives a free bonus die. The GM may spend #strong[2 Woe] to have the system note your visit somewhere someone will notice. Free bonus dice respect the normal cap; this benefit does not grant an additional scripted turn or reverse resolved events.],
+    [3b], [#strong[★ Awaken the Blood];], [Once per scene, let your mother's blood rise (#emph[Thirst];): until the scene ends, you get #strong[+2 bonus dice] free on physical rolls, and your physical statuses can't go above tier 5. Your successful conflict Attacks remove #strong[1 additional Disposition] when applying ordinary Attack Disposition loss. When an Attack instead inflicts a harmful status, increase that status by #strong[1 tier];. If an explicit effect inflicts both, choose one component for this bonus, never both. This adds no status to an ordinary conflict Attack and does not improve staking or killing strikes. The bonus dice respect the normal cap. Afterwards, Thirst +2 as an accepted payment, and anyone who saw it treats you as one of the Kept. Prevention, redirection and incidental clearing benefits cannot cancel that payment.],
   )]
   , kind: table
   )
@@ -32,7 +32,7 @@ Dhampir. Born to one of the Kept, and carrying a little of what she is. Tougher 
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [3a (alt)], [#strong[Knows How They Die];], [Your Attacks against the afflicted inflict #strong[+1 tier] when they are #emph[Sun-Sick];, #emph[starving] or #emph[broken];, and your blade permits beheading using the killing-strike procedure (Frontier Rules §5.2).],
+    [3a (alt)], [#strong[Knows How They Die];], [Against afflicted targets that are #emph[Sun-Sick];, #emph[starving] or #emph[broken];, your successful conflict Attacks remove #strong[1 additional Disposition] when applying ordinary Attack Disposition loss. When an Attack instead inflicts a harmful status, increase that status by #strong[1 tier];. If an explicit effect inflicts both, choose one component for this bonus, never both. This adds no status to an ordinary conflict Attack and does not improve staking or killing strikes. Your blade separately permits beheading using the killing-strike procedure (Frontier Rules §5.2).],
   )]
   , kind: table
   )
@@ -60,11 +60,11 @@ You were a donor in a vampire household --- by birth, debt or choice. You got ou
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Household Ways];], [#emph[Bled] gains #strong[1 fewer tier] on you. You get a free bonus die to Notice or Empathy when judging a vampire's hunger or a household's customs.],
+    [1], [#strong[Household Ways];], [#emph[Bled] gains #strong[1 fewer tier] on you. This reduces imposed blood loss, not Bled accepted as payment for a benefit. You get a free bonus die to Notice or Empathy when judging a vampire's hunger or a household's customs, subject to the normal bonus-dice cap.],
     [2a], [#strong[Old Ties];], [Once per session, a retainer or donor still loyal to you gives a Discover answer or a small favour. The household can find you the same way (the GM spends 1 Woe).],
     [2b], [#strong[One of Them, Almost];], [Retainers and donors take you for one of their own. Deceive rolls to pass among them are #strong[two steps easier];.],
     [3a], [#strong[Unbroken];], [When you Resist Presence, intimidation or fear from a vampire with Pneuma, reduce the status by #strong[3 tiers];, and the cost is 0 on a highest die of 5+.],
-    [3b], [#strong[★ Turn the Bond];], [Once per session, in a Duel of Wills against your former household, gain a free bonus die on every roll. If you win, you also learn where it keeps its blood.],
+    [3b], [#strong[★ Turn the Bond];], [Once per session, in a Duel of Wills against your former household, gain a free bonus die on every roll, subject to the normal bonus-dice cap. If you win, you also learn where it keeps its blood.],
   )]
   , kind: table
   )

@@ -2,7 +2,7 @@
 
 == 6. Resistance, Harm and Recovery
   #columns(2, gutter: 6mm)[
-When a consequence lands on you (a status, lost gear, a bad position), you may #strong[Resist];:
+When an imposed consequence lands on you (a status, lost gear, a bad position), you may #strong[Resist], subject to the exclusions below:
 
 + Choose the pool that fits (see §3.2: Sōma for harm, Mētis to dodge, Psychē against deception and confusion, Pneuma against fear and the supernatural).
 + Roll a number of d12s equal to #strong[2 + that pool\'s Edge] and read only the #strong[highest die];. If penalties take the pool's Edge below 0, see #strong[Negative Edge] below.
@@ -56,13 +56,15 @@ Pay the listed cost for the die you read. A single die can't give the double-12 
 
 #strong[Once per application.] Resist each application of harm once. You can't make a second attempt against the same harm.
 
-#strong[What Resistance can't touch.] Resistance changes an imposed consequence. It doesn't reverse the action's success, restore lost Disposition or revoke an agreed outcome. Unless an ability says otherwise, you can't Resist:
+#strong[What Resistance can't touch.] Resistance changes an imposed consequence. It doesn't reverse the action's success, restore lost Disposition or revoke an agreed outcome. You can't Resist:
 - ordinary Disposition loss in a conflict (§10.6);
-- an injury you accepted to cancel Disposition loss (§10.9);
-- a cost you accepted in a concession (§10.11), or any other cost you accepted as payment for a benefit;
+- an injury you accepted to cancel Disposition loss (§10.11);
+- a cost you accepted in a concession (§10.12), or any other cost you accepted as payment for a benefit;
 - a running-dry status (§6.2).
 
-#strong[Protected payments.] An effect that prevents incoming harm, cancels a consequence or clears a status as a side benefit (such as the double-12 result above) can't remove an injury you accepted as payment, whichever action or Resistance produced it. Treatment, healing time and effects that explicitly heal an existing injury affect it normally (§6.6).
+An exception must expressly identify the protected payment or Disposition effect it changes. Generic permission to cancel harm or a consequence is not enough (§10.7). Imposed compromise statuses remain Resistable under §10.13; Resistance does not revoke the loser's concession, and removing an injury does not create a replacement cost.
+
+#strong[Protected payments.] Prevention, redirection, immunity, Resistance and effects that clear a status as an incidental benefit (such as the double-12 result above) can't prevent or remove an accepted payment, whichever action or Resistance produced the clearing benefit. This includes injury trades, running-dry statuses, agreed concession costs and other accepted payments. Treatment, healing time and effects that explicitly heal an existing injury affect it normally (§6.6); later healing doesn't refund the benefit, restore Disposition, refresh the trade or erase a Scar.
 
 === 6.1 Running Dry
 #strong[Trigger.] You #strong[run dry] when a positive cost brings a pool to 0 or is more than the points left in it. Finish the action or Resistance that caused the cost, then take a harmful #strong[running-dry status] for that pool (§6.2). Running dry does not, on its own, take you out, give you a Scar or refill the pool.
@@ -94,7 +96,7 @@ Overrun beyond tier 6 has no extra effect unless a rule or an established stake 
 
 #strong[Which costs can overrun.] Only #strong[Resistance] and costs #strong[imposed] on you. Effort, Help and ability activation costs must be paid in full unless the ability says it can overrun. You may spend your exact last points on purpose: the pool runs dry and you take a tier-1 status. A cost you accept as payment for a benefit is not an imposed cost.
 
-#strong[Pay as you go.] Pay each cost at the point its rule says, and resolve any running dry straight away. If that status takes you out, finish only the action or Resistance whose cost caused it: you can't add more Effort, buy more Power or activate more abilities for that action. The action still resolves. If it is one of two independent actions in a volley, both resolve before victory is checked.
+#strong[Pay as you go.] Pay each cost at the point its rule says, and resolve any running dry straight away. If that status takes you out, finish only the action or Resistance whose cost caused it: you can't add more Effort, buy more Power or activate more abilities for that action. The action still resolves. If it is one of two independent actions in a volley, both resolve before victory is checked (§10.12).
 
 #strong[Separate costs stay separate.] Each cost listed separately is its own payment. You can't split one cost into smaller payments, or combine separate costs, to change overrun or stacking. When one effect takes several points from the same pool at once, total them as one imposed cost unless the effect says otherwise. Costs from different pools are resolved separately.
 
@@ -142,13 +144,15 @@ The status must fit both the pool and the action that drained it:
 #strong[It is a cost.] Armour, Resistance and effects that cancel incoming consequences can't prevent or reduce a running-dry status. Once recorded, it can be treated, Restored or healed like any existing status, within the limits of the effect used. A clearing benefit from the same Resistance or action can't clear the status that paid for it.
 
 === 6.3 Tier 6 and Scars
-When a harmful status reaches #strong[tier 6], whether in one hit or through stacking:
+When a harmful status reaches #strong[tier 6], whether in one hit or through stacking, apply this general procedure unless a specific rule expressly replaces its breaking-point outcome:
 
 + Resolve its tier-6 outcome (§5.1).
 + Apply removal within the status's scope (below).
 + Record #strong[one Scar], subject to the limits below.
 
-#strong[Scope.] If the status leaves you unable to pursue your side's intent in the current conflict, you are #strong[Taken Out]. Your side's shared Disposition doesn't change (§10.7). If none of a side's participants can continue pursuing its objective, that side loses at once. If the status only stops one activity (#emph[bound] stops you moving, not talking), apply that restriction and stay in the conflict. Set the scope of a non-damage status when it is inflicted, and don't widen it at tier 6. Either way, the status still gives its Scar.
+#strong[Specific replacements.] Named creature tracks and conditions use an explicit breaking-point replacement only where stated (§10.14). Sun-Sick uses its listed collapse and prolonged-exposure consequences; Thirst uses Blood Crisis and its listed Scar consequences; neither adds an unstated generic tier-6 Scar. Bled retains this core Scar procedure. Apply limits against duplicate Scars from one event.
+
+#strong[Scope.] If the status leaves you unable to pursue your side's intent in the current conflict, you are #strong[Taken Out]. Your side's shared Disposition doesn't change (§10.9). If none of a side's participants can continue pursuing its objective, that side loses; complete independently resolving actions before checking victory (§10.12). If the status only stops one activity (#emph[bound] stops you moving, not talking), apply that restriction and stay in the conflict. Set the scope of a non-damage status when it is inflicted, and don't widen it at tier 6. Under the general procedure, either result still gives its Scar.
 
 #strong[Not lethal by default.] A running-dry status at tier 6 is not deadly on its own. Death needs a lethal cause and established stakes. Tier 6 doesn't, by itself, cost you a limb, lower a maximum pool or impose any other permanent loss; those need an established consequence, a specific effect or an agreement.
 
@@ -171,7 +175,7 @@ When a harmful status reaches #strong[tier 6], whether in one hit or through sta
   )
 
 #strong[Scar limits.]
-- #strong[One per episode.] A status gives a Scar the first time it reaches tier 6. More harm while it stays at tier 6, or lowering it and raising it again in the same episode, gives no further Scar.
+- #strong[One per episode.] A status gives a Scar the first time it reaches tier 6 under this general procedure. More harm while it stays at tier 6, or lowering it and raising it again in the same episode, gives no further Scar.
 - #strong[One per event.] A single action or hazard can give a character at most one Scar, even if it takes several statuses to tier 6. Only an ability that says so can give more than one.
 - #strong[Scar Recorded.] Mark every status that reached tier 6 in a Scar-giving event as #emph[Scar Recorded] for the rest of the continuous ordeal, even if the status is later cleared. Remove the mark only when the status is fully cleared #strong[and] the scene or ordeal is over. The mark is bookkeeping only, not a status or a penalty.
 - Don't split one condition into several differently named statuses to gain or avoid Scars.
@@ -179,9 +183,9 @@ When a harmful status reaches #strong[tier 6], whether in one hit or through sta
 #strong[Scar effects.] A Scar is a lasting weakness tag, not a status. Apply it when it's relevant, and it can be compelled for Tychē Points. Rest, treatment, Restore and pool recovery don't remove a Scar; changing one takes an Advance, a milestone or an explicit ability. If a Scar and a harmful status describe the same impairment on the same roll, apply only the larger penalty. Your #strong[fourth Scar] retires the character from ordinary adventuring. Finish the immediate scene, then decide with the player how the character leaves. Retirement doesn't mean death.
 
 === 6.4 Being Taken Out
-#strong[Three ways out.] You are #strong[Taken Out] of a conflict when a harmful status reaches tier 6 within its scope (§6.3), when an effect says so, when you voluntarily withdraw, or when an established circumstance prevents you from pursuing your side's objective (§10.7). Ordinary Disposition loss never takes an individual out. Once you are out, you can't start another action, spend Effort or activate an ability unless its rules let you act while Taken Out.
+#strong[Ways out.] You are #strong[Taken Out] of a conflict when a harmful status reaches tier 6 within its scope (§6.3), when an effect says so, when you voluntarily withdraw, or when an established circumstance prevents you from pursuing your side's objective (§10.9). Ordinary Disposition loss never takes an individual out. Once you are out, you can't start another action, spend Effort or activate an ability unless its rules let you act while Taken Out.
 
-#strong[Disposition stays with the side.] Being Taken Out doesn't directly change your side's shared Disposition. Your side loses your skills, abilities and help, and if none of its participants can continue pursuing its objective, it loses at once (§10.7, §10.10).
+#strong[Disposition stays with the side.] Being Taken Out doesn't directly change your side's shared Disposition. Your side loses your skills, abilities and help, and if none of its participants can continue pursuing its objective, it loses after independent actions finish (§10.9, §10.12).
 
 #strong[Out isn't down.] Being Taken Out doesn't, on its own, make you unconscious, injured or dying. Describe it to fit the fiction: pinned down, disarmed, driven back, cut off, or too frightened to go on. Injury needs a status, death needs established lethal stakes (§6.7), and permanent harm needs an established consequence (§6.8).
 

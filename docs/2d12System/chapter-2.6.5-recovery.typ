@@ -39,7 +39,7 @@ Recovery follows four successive rest stages:
 - #strong[Pools] recover through the rests above. A full pool doesn't heal an injury, and an injury doesn't stop pool recovery unless its rule says so.
 - #strong[Statuses] recover by their kind: a temporary state ends when its cause or duration ends; injuries need treatment and time (§6.6); afflictions follow their source.
 
-Winning a conflict, ending a scene or setting fresh Disposition is #strong[not a general reset].
+Winning a conflict, ending a scene or setting fresh Disposition is #strong[not a general reset]. Later healing does not refund an accepted payment, refresh an injury trade or erase a Scar (§10.7).
 
 
 #strong[Advance option --- Hardened] #emph[(6 XP, one-time)]
@@ -69,7 +69,7 @@ A skill doesn't supply the tools, knowledge or fictional permission on its own.
 
 #strong[Routine care.] In safe conditions, when failure would add nothing, care needs no roll. It gives permission to treat, stabilises where nothing is uncertain, and meets the conditions for natural recovery. It #strong[generates no Power]. If ordinary treatment could remove one tier of a lasting injury and success is routine, remove that tier and mark the injury #emph[treated]; there's no surplus Power or Momentum. Roll only when an uncertain result matters, never just to farm Momentum.
 
-#strong[Emergency care] stops an injury getting worse: stopping bleeding, splinting a limb, pulling someone away from a harmful influence, isolating a damaged power cell. It doesn't normally reduce the tier. When the outcome is uncertain, roll the treatment skill vs. #strong[Standard 15], adjusted by Truths. On a success, the deterioration stops or treatment can begin. On a Success at a Cost, the same, with the normal cost. On a failure, the condition is still untreated; the GM announces any further consequence before another attempt.
+#strong[Emergency care] stops an injury getting worse: stopping bleeding, splinting a limb, pulling someone away from a harmful influence, isolating a damaged power cell. It doesn't normally reduce the tier. When the outcome is uncertain, roll the treatment skill vs. #strong[Standard 15], adjusted by Truths. On a success, the deterioration stops or treatment can begin. On a Success at a Cost, the same, with the normal cost. On a failure, the condition is still untreated; the GM announces any further consequence before another attempt. During scripted conflicts, use the conflict-specific consequence restrictions (§10.7).
 
 #strong[Restore on lasting injuries.] Restore costs 1 Power per tier (§5). It can clear a #strong[temporary] condition outright when the action removes its cause: putting out burning clothes reduces #emph[on fire], calming an ally reduces fear. #strong[Lasting injuries] are slower:
 - Ordinary treatment reduces a given lasting injury by #strong[at most 1 tier]. Mark it #emph[treated].
@@ -77,7 +77,7 @@ A skill doesn't supply the tools, knowledge or fictional permission on its own.
 - Spare Power buys other fitting Effects or becomes Momentum as normal.
 - Abilities, cyphers and items that explicitly heal a stated number of tiers (such as #emph[healing gel]) follow their own text. Abilities that only change the cost of Restore don't lift the 1-tier limit.
 
-#strong[Care in a conflict.] Treating someone under opposition uses your action. Emergency care can be a Defend only where the conflict type or an ability allows its skill (such as #emph[Battlefield Surgeon]). Restoring Disposition keeps your side in the contest; it doesn't heal an injury unless the action also buys a healing effect.
+#strong[Care in a conflict.] Treating someone under opposition uses your action. Emergency care can be a Defend only where the conflict type or an ability allows its skill (such as #emph[Battlefield Surgeon]). Restoring Disposition keeps your side in the contest; it doesn't heal an injury unless the action's rules also provide a healing effect. Healing an injury does not return a Taken Out ally unless the return requirements in §6.4 are met.
 
 #strong[Healing intervals] #emph[(playtest values)]#strong[.] Once a lasting injury has had appropriate care and its cause has stopped, safe rest removes one tier per interval. Use the injury's current tier:
 
@@ -110,7 +110,7 @@ These are game-time intervals, not medical estimates. A full night is the normal
 
 === 6.7 Dying and Stabilisation
 
-#strong[Becoming Dying.] After Resistance and stacking, life-threatening physical harm that reaches tier 6 makes a living character #strong[Dying], if lethal stakes allow that outcome (§10.2). It also gives a Scar as normal (§6.3). The character is incapacitated and can't take ordinary actions. Start a #strong[3-segment Dying clock]. There is no extra #emph[dying] penalty; the injury already records the harm. Mental defeat, capture, exhaustion and ordinary fear never start a Dying clock, and a running-dry status is never lethal on its own.
+#strong[Becoming Dying.] After Resistance and stacking, life-threatening physical harm that reaches tier 6 makes a living character #strong[Dying], if lethal stakes allow that outcome (§10.2). It also gives a Scar as normal (§6.3), unless an explicit breaking-point replacement applies. The character is incapacitated and can't take ordinary actions. Start a #strong[3-segment Dying clock]. There is no extra #emph[dying] penalty; the injury already records the harm. Mental defeat, capture, exhaustion and ordinary fear never start a Dying clock, and a running-dry status is never lethal on its own.
 
 #strong[Cadence.] When Dying begins, set how the clock advances: at the end of each exchange after the one in which Dying began, during a scripted conflict; or after a stated fictional interval, outside one. The clock advances #strong[because the interval passes], not because someone attempts treatment. Several characters can act in the same interval without advancing it further. Moving into or out of a scripted conflict carries the existing deadline over; it doesn't advance the clock or grant extra time.
 
@@ -118,22 +118,22 @@ These are game-time intervals, not medical estimates. A full night is the normal
 
 #strong[Stabilising.] An adjacent character with suitable means rolls Medicine vs. #strong[Hard 18], adjusted by Truths. An ability or a fitting supernatural method can offer another way.
 - #strong[Success:] the patient is stable and the clock stops.
-- #strong[Success at a Cost:] stable, with the normal cost.
+- #strong[Success at a Cost:] stable, with the normal cost, subject to §10.7 inside conflicts.
 - #strong[Failure:] still Dying. The attempt uses the action, but doesn't advance the clock.
 
 Stabilising doesn't erase marked segments, reduce the injury, refill pools or return the patient to the conflict. A stable patient can be moved with care. If a new event makes them Dying again, the clock resumes from its recorded segments.
 
 #strong[Definitive care.] Emergency care can stabilise a tier-6 life-threatening injury but can't lower its tier. Lowering it below tier 6 takes #strong[definitive care]: a suitable procedure, facility or specialist, or an ability or item that explicitly heals the injury (such as #emph[Miracle Worker], #emph[Not on My Table] or #emph[healing gel]). The GM states what that requires when the injury is assessed and doesn't add requirements once they are met. When definitive care brings the injury below tier 6 and removes its immediate lethal cause, clear the Dying clock.
 
-#strong[Immediate death.] Use it only when the established outcome leaves no plausible time for rescue, or a specific killing method calls for it (such as a creature's killing strike in a setting book). Announce that danger before the roll, and allow Resistance, escape or interruption. Once such an outcome is fully resolved, don't add a Dying clock to undo it; equally, don't skip the clock for an ordinary mortal wound just because the description is graphic.
+#strong[Immediate death.] Use it only when the established outcome leaves no plausible time for rescue, or a specific killing method calls for it (such as a creature's killing strike in a setting book). Announce that danger before the roll, and allow Resistance, escape or interruption where their rules permit it; accepted payments cannot be cancelled through these general options. Once such an outcome is fully resolved, don't add a Dying clock to undo it; equally, don't skip the clock for an ordinary mortal wound just because the description is graphic. Resolve permitted post-conflict finishing procedures before compromise (§10.12).
 
-#strong[Setting-specific harm.] If a setting gives a condition (such as blood loss) its own tiers and stabilising rules, use those instead of a Dying clock, not as well.
+#strong[Setting-specific harm.] Use a condition's specific tiers, treatment and breaking-point rules where stated. Replace the core Dying clock only if its rule explicitly supplies an alternative death or stabilisation procedure; different condition tiers alone do not replace it. Testament of Dust's Bled uses its own tiers and recovery rules but retains the core three-segment Dying clock at lethal Bled-6. Do not run a second death deadline alongside it.
 
 #strong[After a death.] Resolve the death and its established consequences. The group may remember the character through Beliefs, relationships, keepsakes or later story developments; death creates no separate points or automatic Truth.
 
     
 === 6.8 Permanent Harm
-#strong[Where it comes from.] An injury doesn't become permanent just because its tier is high. Permanent harm needs an established permanent-injury stake, a specific effect or creature rule, a voluntary bargain, or a Scar-giving event. Tier 6 always gives a Scar (§6.3), but never by itself severs a limb, destroys an organ, lowers a maximum pool or causes any other permanent mechanical loss.
+#strong[Where it comes from.] An injury doesn't become permanent just because its tier is high. Permanent harm needs an established permanent-injury stake, a specific effect or creature rule, a voluntary bargain, or a Scar-giving event. Generic harmful tier 6 gives a Scar (§6.3), subject to explicit breaking-point replacements, but never by itself severs a limb, destroys an organ, lowers a maximum pool or causes any other permanent mechanical loss.
 
 #strong[The wound heals; the loss stays.] A permanent change can outlast the injury that caused it. When #emph[severed hand-4] has healed, the hand is still gone: the status measured the acute
 wound. Record the lasting change as a tag or a character fact, not as a status that never heals.

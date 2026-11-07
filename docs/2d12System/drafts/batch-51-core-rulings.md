@@ -2,11 +2,34 @@
 
 Date: 2026-11-07. Branch: `draft/conflict-system-rewrite`.
 
-Status: approved decision package, pending active-source implementation.
-This document records the answers and proposed rule text approved in the
-conversation. It is not an included rulebook source. Committing this file
-does not amend the active Typst rules, reconcile other trackers, compile
-books, rebuild PDFs or establish playtest validation.
+Status: approved decisions implemented in active Core Rules §§2, 5 and 10;
+core Quick Reference source reconciliation is complete. Broader reference
+reconciliation, compilation, rendered-layout checks and playtesting remain
+pending.
+
+This document preserves the answers and proposed rule text approved in the
+conversation. It is not an included rulebook source. Source implementation
+is recorded below; committing this decision record alone does not amend
+the active Typst rules or establish build/playtest validation.
+
+## Implementation record
+
+| Integration | Commit | Scope |
+|---|---|---|
+| Conflict procedures | `b5b1827d42f6fad7b008d2ef7c222b0c46edf8f1` | Implements free setup Help, exceptional versus doubles, versus-Woe treatment, mixed spending and supplementary permissions/limits in §10. Splits the conflict source before §10.8 and includes the aftermath file once. |
+| Core Resolution and Effects | `f9c2ca265b6231843854ca1ef6c95d46c6bb6c4f` | Reconciles §§2 and 5 with the implemented §10 procedure, including setup Help, Difficulty versus opposed outcomes, exceptional doubles and Effects boundaries. |
+| Core Quick Reference | `ec778fc22c48789df1245cf828352835c2ec4a37` | Reconciles the summary with Batches 51–52, including free setup Help, versus outcomes, automatic success and supplementary spending. Expanded layout is not yet verified. |
+| Compatibility ledger | `ceea15187019ba2d9ed34f9d5effd49e27945b0f` | Records the later source commits and distinguishes superseded historical questions from current pending work; not a new rules implementation. |
+| Dated audit and drafts README | `630f5367ab9eb56fa9fe08663a9a25c451299137` | Preserves historical findings, adds follow-up status and documents the current source assembly. This decision-status correction supersedes its README reminder that Batch 51's status still needs updating. |
+
+Active sources: `../chapter-2.2-core-resolution.typ`,
+`../chapter-2.5-effects.typ`, `../chapter-2.10-conflict-system.typ` and
+`../chapter-2.10-conflict-system-aftermath.typ`. The first conflict file
+includes the aftermath file; do not include it twice in the parent book.
+The core Quick Reference is `../chapter-7-appendix-a-quick-reference.typ`.
+
+The numbered decisions and proposed replacements below remain the approved
+design record, not a claim that every later entry uses identical wording.
 
 ## 1. Setup Help: questions 1–5
 
@@ -208,22 +231,34 @@ other supplementary Effects.
 All purchases share the action's earned Power budget. The same Power
 cannot fund two Effects.
 
-## Implementation boundaries
+## Implementation boundaries and remaining work
 
 This package makes substantive decisions, not merely copyedits. Preserve
 existing restrictions on declared stakes, protected payments and
 independently resolving actions unless an express exception identifies
 a change.
 
-Implement and reconcile these decisions in active Core Rules §2, §5 and
-§10 and affected summaries before claiming rulebook implementation.
-Existing OPEN comments and historical ledger statements require contextual
-updates, not deletion of historical records.
+These decisions are implemented in active Core Rules §§2, 5 and 10, with
+the core Quick Reference reconciled as recorded above. Related historical
+ledger findings and the dated audit now have contextual follow-up rather
+than deleted history. This does not certify every other summary, setting
+reference, ability entry or shared design note as reconciled.
 
-This package does not by itself complete entry-specific replacements for
-Second Wind, Deadly Precision, Borrowed Might or other named exceptions.
-Its Perfect Strike doubles decision supplies the shared procedure, not a
-claim that every affected entry has been reconciled.
+The package alone did not complete named ability replacements. Subsequent
+scoped source integrations include Second Wind in
+`50b06b39b200c16856299d659c0d4baeb8a6a770`, Deadly Precision in
+`ca671c6a1e27c4a433cd9209e13a69658ec527c8`, and Borrowed Might in
+`76e59ce5762752b515640d2aabbbbbed7dc3cd26`. Its Perfect Strike decision
+supplies the shared doubles procedure, not a claim that every affected
+entry has been inspected or every special interaction validated.
+
+Remaining work includes root changelog and Phase 1 implementation-tracker
+reconciliation, other current-facing status/shared-guidance updates,
+relevant generic/setting reference checks and active-source sweeps.
+Deferred decisions and provisional balance flags remain separate from
+this implementation record. Compile the books, rebuild PDFs, inspect the
+split chapter and expanded tables/Quick Reference, and run playtests
+before claiming build or balance validation.
 
 No compilation, PDF rebuild, rendered-layout inspection or playtest is
 claimed by this document.

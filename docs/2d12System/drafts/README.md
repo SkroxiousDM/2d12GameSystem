@@ -23,7 +23,7 @@ values remain provisional.
 | conflict-shared-rules.md | Approved design standard and review guidance; not a blanket claim that every individual ability has been amended. |
 | conflict-compatibility-status.md | Historical batches 13–49 ledger plus later source integrations and scoped supersession notes; not a full-rewrite completion certificate. |
 | conflict-ability-audit.md | Dated batch 37 inspection with preserved quotations/blob SHAs and a later follow-up addendum. Historical open questions are not all current unresolved rulings. |
-| batch-51-core-rulings.md | Approved decision package; active Core Rules §§2, 5 and 10 implementation is recorded by the source commits below. The decision document's older pending-implementation status still needs reconciliation. |
+| batch-51-core-rulings.md | Approved decisions implemented in active Core Rules §§2, 5 and 10, with core Quick Reference source reconciliation complete. Includes supporting commits and remaining reference/build/playtest boundaries; not a fully validated release. |
 | batch-52-furcifer-rulings.md | Approved 37-ruling Furcifer package, updated to record its scoped active-source implementation. |
 | batch-52-implementation-status.md | Scoped Batch 52 implementation and remaining reconciliation/validation record. |
 
@@ -75,10 +75,10 @@ replacement rule.
   Legacy retirement already has coverage; do not infer its absence from
   the older README request to verify it. This update does not perform a
   fresh root-document audit or amend those records.
-- Reconcile Batch 51's decision-document status and other remaining
-  shared guidance/status notes. Quick Reference source reconciliation
-  is recorded above, not pending as an untouched source; its expanded
-  layout still requires verification.
+- Reconcile other remaining shared guidance/status notes. Batch 51's
+  decision-document status and core Quick Reference source reconciliation
+  are now recorded, not pending as untouched files; broader references
+  and the expanded layout still require verification.
 - Complete the active-source sweep for remaining Legacy currency,
   death-trigger and §6.9 references. Preserve historical playtest
   records and ordinary narrative uses of the word legacy.

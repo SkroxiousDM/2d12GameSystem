@@ -25,17 +25,17 @@ Sheriff, militia captain, or the old soldier who keeps the village alive. You do
 #figure(
   [#table(
     columns: (5%, 20%, 75%),
-    align: (auto,auto,auto,),
+    align: (auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Trapmaker];], [Spend a scene preparing an area. Create the Truth #emph[Trapped] there for free. The first enemy to enter takes an Attack with Power equal to your Craft rating (no roll).],
     [2], [#strong[Garlic and Iron];], [With a scene of work and village help, ward a whole building or village: create #emph[Warded Village] or #emph[Custom of Invitation] as a #strong[Site Truth] (Frontier Rules §13) until a vampire breaks it (6-segment danger clock).],
-    [3], [#strong[Militia Captain];], [Once per scene, rally villagers into a minion group with 1 power tag (#emph[pitchforks and torches];) and 1 weakness (#emph[break and run];).],
+    [3], [#strong[Militia Captain];], [Once per scene, rally villagers into a minion group with 1 power tag (#emph[pitchforks and torches];) and 1 weakness (#emph[break and run];). If they fight independently, the militia is one participant in your side\'s three-action script and continuous rotation, and one participant for area-effect Disposition bonuses. Rallying them grants no extra scripted action and no retroactive setup Help or Disposition. Their removal does not directly subtract shared Disposition.],
     [4], [#strong[Night Watch];], [The party can\'t be surprised while you\'re on watch. When you\'re the Lookout (Module B.5), you get a free bonus die.],
-    [5], [#strong[Hold the Gate];], [In a #strong[Siege of the Night];, your side\'s Disposition is #strong[+2];, and you get #emph[+1 Defend] as a free action tag.],
+    [5], [#strong[Hold the Gate];], [In a #strong[Siege Until Dawn];, your side\'s Disposition is #strong[+2];, and you get #emph[+1 Defend] as a free action tag. Free waives a cost; it does not grant an additional action or bypass the normal tag cap.],
     [6], [#strong[Local Law];], [Your authority is a power tag with locals (#emph[by order of the Warden];). Once per scene, a successful Intimidate or Persuade with villagers removes #emph[Hostile Crowd] or stops a mob.],
-    [7], [#strong[★ Hold Until Dawn];], [Once per Siege of the Night, tick the #strong[Dawn clock] by 2 extra segments.],
-    [8], [#strong[★ Killing Ground];], [In an area you prepared (with #emph[Trapped] or #emph[Warded Village];), allies\' Attacks inflict #strong[+1 tier];, and vampires can\'t use #emph[The Old Door] to leave.],
+    [7], [#strong[★ Hold Until Dawn];], [Once per Siege Until Dawn, tick the #strong[Dawn clock] by 2 extra segments.],
+    [8], [#strong[★ Killing Ground];], [In an area you prepared (with #emph[Trapped] or #emph[Warded Village];), allies\' successful conflict Attacks remove #strong[1 additional Disposition] when applying ordinary Attack Disposition loss. When an Attack instead inflicts a harmful status, increase that status by #strong[1 tier];. If an explicit effect inflicts both, choose one component for this bonus, never both. This bonus adds no status to an ordinary conflict Attack and does not improve staking or killing strikes. Vampires in the prepared area can\'t use #emph[The Old Door] to leave.],
     [◆], [#strong[Nothing Gets In];], [Your village becomes a #strong[Region Truth] (#emph[\"The Kept can\'t take \[village\]\"];). A vampire must fill a 12-segment danger clock before it can enter. Once per session, any PC who retreats there clears one tier-1 or tier-2 status.],
   )]
   , kind: table

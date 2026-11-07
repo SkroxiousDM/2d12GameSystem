@@ -62,11 +62,9 @@ The leader normally rolls #strong[2d12 + Disposition skill + highest Edge in tha
 
 Flat starting-Disposition modifiers have no stacking cap. The adjusted result is the side's starting Disposition for recovery limits and compromise.
 
-Helping this setup roll grants the listed +1 Disposition per helper; it does not also grant the ordinary Help bonus die unless a specific rule says otherwise.
+Helping establish starting Disposition costs no pool points. Before the leader rolls, each helper explains a meaningful contribution and commits to the side's stakes. Each eligible helper adds +1 Disposition, without an ordinary Help bonus die. A free-Help ability provides no additional setup bonus unless expressly stated. A character unable to contribute cannot help. Later unavailability or removal does not subtract the helper's contribution or recalculate starting Disposition.
 
 #strong[Adversary exception.] Sides built with Grit use the Adversaries setup procedure instead of the leader's Disposition roll. Preserve explicit exceptions such as Guard when resolving independent tests.
-
-// OPEN: setup Help's pool-point cost is not settled by the bonus clarification.
 
 ==== Continuing the Same Conflict
 Set fresh Disposition only for a genuinely new conflict with a materially different objective or changed circumstances. Passing through a doorway, changing tactics, or turning a Fight into a Chase does not by itself begin a new conflict. Carry forward:
@@ -157,7 +155,9 @@ Both actors roll. The higher total wins. The winner gains 1 Power, plus 1 for ev
 
 On an exact tie, neither action gains Power or produces its normal effect. Costs already paid remain spent. Resolve applicable doubles complications. Success at a Cost does not turn the losing versus roll into a successful action.
 
-// OPEN: exceptional doubles versus opposed totals, and the Woe treatment of losing versus tests, require explicit rulings.
+Double 12s do not override a higher opposing total or break an exact tie. Ordinary successful doubles add +1 Power; winning double 12s add +2 instead. Losing or tied doubles grant no Power or normal action effect. Double 1s always cause their normal complication but do not automatically lose; successful double 1s also gain the ordinary +1 critical Power. Apply this equally to rolled doubles and doubles created by an explicit ability, including Perfect Strike.
+
+Losing or tying a versus test generates no ordinary-failure Woe, symmetrically for player and GM actors. A trumped action likewise generates none. Separately applicable complications and explicit Woe rules still resolve normally (§10.7).
 
 ==== Free, Immediate and Automatic Effects
 Free removes only the stated resource cost. It grants no extra turn, rotation bypass or permission to act while Taken Out. A passive benefit or a benefit explicitly requiring no action can apply without consuming a scripted action.
@@ -174,13 +174,13 @@ Describe how the action pursues your side's objective.
 - #strong[Maneuver:] establish an advantage: flank or obstruct, shift an audience's attention, or block a path.
 
 ==== Attack
-Remove opposing Disposition equal to the Power committed to this effect, plus 1. An Attack need not represent bodily harm. It may drive an opponent back, expose a weakness, advance an argument, or bring pursuers closer.
+Commit at least 1 Power to remove opposing Disposition equal to the Power committed to this effect, plus 1. Apply the +1 base loss once per action, not per purchase. Without a commitment, remove no Disposition. An Attack need not represent bodily harm. It may drive an opponent back, expose a weakness, advance an argument, or bring pursuers closer.
 
 ==== Defend
-Restore 1 Disposition per Power committed, up to your side's starting value. Defend restores the ability to pursue the objective. It does not heal statuses, restore Pools, repair equipment or reverse an established consequence. Winning a versus test also prevents the opposing action's normal effect.
+Restore 1 Disposition per Power committed, up to your side's starting value. Without committed Power, restore none unless a specific ability grants recovery independently. Defend restores the ability to pursue the objective. It does not heal statuses, restore Pools, repair equipment or reverse an established consequence. Winning a versus test also prevents the opposing action's normal effect.
 
 ==== Feint
-Remove opposing Disposition equal to the Power committed to this effect, plus 1. Feint bypasses Defend but is trumped by Attack. Against Maneuver, both resolve independently: Feint may advance its objective while Maneuver establishes an advantage.
+Commit at least 1 Power to remove opposing Disposition equal to the Power committed to this effect, plus 1. Apply the +1 base loss once per action, not per purchase. Without a commitment, remove no Disposition. Feint bypasses Defend but is trumped by Attack. Against Maneuver, both resolve independently: Feint may advance its objective while Maneuver establishes an advantage.
 
 ==== Maneuver
 Spend Power on these effects:
@@ -192,6 +192,22 @@ Spend Power on these effects:
   [Create a Truth], [2 per rank], [Establish a justified Truth, applying explicit discounts and the normal minimum cost.],
 ))
 Buy Impede, Gain Position and Disarm no more than once each from a single Maneuver. They may be bought again through later successful actions. Create a Truth may be purchased at a higher rank for its normal cost.
+
+==== Supplementary Effects
+A successful action may buy its primary effect and the supplementary Effects permitted below, using the general prices in §5. Fictional relevance is necessary but does not unlock a prohibited purchase. No primary purchase is mandatory: all earned Power may fund permitted supplementary Effects. Each purchase draws from the same Power budget; never spend the same Power twice.
+
+Winning a versus test prevents the opposing action's normal effect even if all Power funds supplementary Effects. Prevention comes from winning the interaction, not purchasing loss or recovery. Independent opposing actions still resolve. An exception grants only its stated purchase, trigger, cost, frequency and scope; a special procedure that replaces ordinary Maneuver effects retains that restriction.
+
+- #strong[Weaken:] explicit ability only, on any scripted action. Use Maneuver's priced Disarm to disable a specific weapon, asset or key tag; general Weaken is not a cheaper Disarm. Called Shot retains only its named permission and duration.
+- #strong[Create:] Maneuver only unless an explicit exception permits another action. Cheap Shot's named Attack purchase does not unlock Create on every Attack or other supplementary Effects.
+- #strong[Enhance:] Defend or Maneuver; other actions require an explicit exception.
+- #strong[Restore:] Defend; other actions require an explicit exception, including Maneuver.
+- #strong[Discover:] any successful scripted action, only when the answer follows from that action. This does not permit unrelated questioning or remote investigation.
+- #strong[Advance:] Attack or Maneuver; other actions require an explicit exception. Progress a separate, established clock that the action genuinely advances. Do not duplicate Disposition, convert segments automatically into Disposition loss or bypass a still-disputed objective. If completion would settle the conflict, establish that relationship before scripting, not during spending.
+- #strong[Disrupt:] Maneuver only unless an explicit exception permits another action. For its normal 3 Power, cancel or delay an established prepared action outside the opposing side's committed script, or remove 1 available GM Woe. Do not generically cancel, replace, reveal or delay a committed scripted action; an ability or scenery procedure must expressly permit that interference. Removing Woe cannot reverse an existing spend or cancel an accepted payment.
+- #strong[Extra Feat:] any successful scripted action. Add one related secondary accomplishment within the action's scope, not another turn, roll or scripted action. Do not duplicate primary Disposition effects, disguise a prohibited purchase, cancel an independent opposing action or achieve an objective outside the stakes.
+
+Discover costs 1 Power per question and Advance 1 per segment; repeat purchases are allowed. Enhance and Restore retain their normal tier prices, scope, stacking and treatment rules. Create retains normal rank pricing, explicit discounts and minimum cost. Disrupt is limited to once per Maneuver. Extra Feat is limited to once per action unless expressly overridden; a free Extra Feat waives cost, not that limit. Impede, Gain Position and Disarm retain their once-each-per-Maneuver limits. These permissions do not authorize harmful-status purchases on ordinary Attacks or Feints.
 
 ==== Temporary Effects and Ongoing Conditions
 Impede and Gain Position apply to the affected side's next scripted action, including across an exchange boundary. If that action is trumped or otherwise makes no roll, the effect expires unused. Neither applies to unrelated Resistance or incidental rolls. Gain Position counts toward the normal bonus-dice cap.
@@ -219,13 +235,13 @@ Apply each bonus to one component only. If an explicit effect inflicts both Disp
 Use normal Effort, Momentum, Woe, Tychē Points, tags and Truths subject to these restrictions.
 
 ==== Ordinary Failure
-An ordinary failed action produces no action effect and generates the usual 1 Woe. It does not also authorise an unrelated GM move, automatic injury or additional Disposition loss. The failed action and opposing action establish what happened in the volley.
+An ordinary failed independent test produces no action effect and generates the usual 1 Woe. It does not also authorise an unrelated GM move, automatic injury or additional Disposition loss. Losing or tying a versus test, or being trumped, generates no ordinary-failure Woe. Apply this symmetrically to player and GM actors; costs already paid remain spent. Doubles complications, explicit ability costs, scenery Dangers and other separately triggered Woe rules still apply normally. The failed action and opposing action establish what happened in the volley.
 
 ==== Success at a Cost
 On an independent test missing by 1--3, gain 1 Power as usual. The player chooses either 1 Woe for the GM or an immediate, proportionate complication arising from the action. An ordinary cost cannot impose an additional status or extra Disposition loss unless an explicit rule permits it. Suitable costs include exposing an approach, losing access to a minor asset or establishing a limited adverse fact. Scenery actions use their listed Danger when the consequence option is chosen.
 
 ==== Doubles
-Apply critical Power normally. Doubles complications also apply, within the established stakes and action's scale. They do not cancel an independent action or retroactively change the script. Use the normal rules for buying off a complication with Woe.
+Apply critical Power under §2.6 and §10.5, including the opposing-total rule for exceptional doubles. Doubles complications also apply, within the established stakes and action's scale. They do not cancel an independent action or retroactively change the script. Use the normal rules for buying off a complication with Woe.
 
 ==== Explicit Risks and Harm
 Abilities, hazards, Risky rolls, scenery Dangers and other explicit rules may impose their stated consequences. Resolve these separately from ordinary Disposition loss.
@@ -236,192 +252,6 @@ Generic wording such as ignore harm, cancel a consequence, take the hit or prote
 Generic prevention, redirection, immunity, Resistance and incidental clearing benefits cannot prevent or remove an accepted injury trade, a running-dry status generated by paying a cost, an agreed concession cost or another consequence accepted as payment for a benefit. An exception must expressly identify the protected payment it affects.
 
 Once recorded, a status can be treated or healed through the applicable procedure. Later healing does not refund the benefit, restore Disposition, refresh an injury trade or erase a Scar.
-
-=== 10.8 Scenery Maneuvers
-A Maneuver may exploit an established feature: a Scene Truth or established fact. If it is not established, create or discover it first. Name the feature when scripting. If it is unavailable at resolution, the Maneuver produces no scenery effect; do not substitute another feature for free. Each feature supports one scenery action per conflict unless its nature clearly permits reuse.
 ]
-#figure(table(columns: (17%, 20%, 8%, 30%, 25%),
-  table.header([Action], [Requirement], [Power], [Result], [Danger]),
-  [Grab a Ride], [A fixture and clear path], [2], [Gain Position and move to another reachable location; ignore Impede this volley.], [Tier-1 winded.],
-  [Tip & Drop], [A heavy object and a target below], [3], [Remove 3 opposing Disposition, without the Attack bonus.], [An ally takes tier-1 struck.],
-  [Floor Collapse], [A support that can be broken], [4], [Create rank-2 Collapsing Floor in the affected area.], [Tier-1 stunned or a lost tag.],
-  [Carpet Pull], [A suitable covering and unwarned foes], [2], [Impede each opposing participant's next action roll this exchange.], [Your next Defend takes −1.],
-  [Drape Drop], [Hangings, netting or similar material], [1], [Impede the opposing side's next action.], [Your next action takes −1.],
-  [Shove 'Em Off], [An edge and an adjacent target], [3], [One opponent loses their next scripted action while recovering.], [Tier-2 off balance.],
-  [Make a Hazard], [Fuel, fluid or a breakable container], [2], [Create a rank-1 hazardous Truth in the area.], [You are also exposed to it.],
-))
-#columns(2, gutter: 6mm)[
-The GM may trigger the listed Danger for 1 Woe. Danger statuses are Resistable normally. A fall is lethal only with established lethal stakes. Describe results consistently: a collapsing floor or spreading fire affects everyone within its established scope. Dangerous Scene Truths generate Woe normally.
 
-In other types, scenery might be a witness, document, crowd, access point, market stall or bridge. Adapt the nearest effect only when its requirements and consequences remain meaningful.
-
-=== 10.9 Shared Disposition and Participation
-Each side has one shared total. Do not divide it among participants; there are no individual shares or spill-over. Ordinary Disposition loss removes no particular participant.
-
-A participant stops acting when a status, explicit effect, withdrawal or established circumstance prevents contribution to the objective. Their removal does not directly reduce shared Disposition. A side loses at 0 Disposition or when none of its participants can continue pursuing its objective. Finish independent actions before checking victory.
-
-==== Companions and Groups
-Distinguish a participant, which takes assigned actions and is bound by the side's stakes, from an asset, which supplies tags, information or explicitly permitted helping benefits without independent turns. Do not count the same companion twice merely because it can perform both functions.
-
-An independently acting companion occupies a place in continuous rotation, uses its listed skills or ratings and can be prevented from acting or Taken Out. It has no separate Disposition track or injury trade unless explicitly granted one.
-
-A group represented by one rules entry is one participant for rotation and area-effect Disposition bonuses, not one per fictional body. Apply specific Bodies or mass-combat rules only where provided.
-
-Setup Help requires contribution to the objective. Free Help waives its normal resource cost, not relevance, bonus-dice limits or participation risks. Removing a companion or group subtracts no Disposition, but may defeat the side if nobody remains able to pursue the objective.
-
-=== 10.10 Conflict Gear and Assets
-Equipment normally provides an action tag, counting toward the normal +2 tag cap. It may also have one explicitly written distinctive quality. Do not invent qualities during resolution.
-#figure(table(columns: (70%, 30%),
-  table.header([Asset], [Typical tag]),
-  [Sword or knife], [+1 Attack],
-  [Shield or prepared cover], [+1 Defend],
-  [Spear, polearm or scoped rifle], [+1 Maneuver],
-  [Smoke grenade or false papers], [+1 Feint],
-  [Relevant evidence], [+1 Attack in an Argument],
-  [Prepared treaty draft], [+1 Maneuver in a Negotiation],
-))
-An asset helps only when its use explains how it applies.
-
-==== Optional Distinctive Qualities
-- #strong[Sword:] before the first exchange is scripted, assign its +1 tag to one action category for the conflict instead of always using Attack.
-- #strong[Axe:] when at least 1 Power is committed to a successful Attack's Disposition effect, remove 1 additional Disposition. Take −1 on Defend while using it.
-- #strong[Shield:] once per conflict, after a successful Defend, restore 1 additional Disposition.
-- #strong[Knife:] against a cumbersome weapon at established close range, Disarm costs 2 Power instead of 3.
-- #strong[Bow:] while the opponent cannot reach you and lacks an effective ranged response, Attack versus Attack is a versus test instead of independent.
-
-Additional Disposition loss is not Power. A distinctive quality does not automatically grant a second tag.
-
-==== Non-Combat Assets
-Evidence, promises, maps, supplies, local contacts, fortifications and plans may be assets. Evidence supports what it establishes; a promise helps only if the recipient values it; a map helps while relevant; supplies and fortifications must first be secured.
-
-Explain arguments through direct dialogue or third-person description. Award no bonus merely for theatrical delivery.
-
-==== Changing Equipment
-Declare active equipment before scripting each exchange. Switching does not refresh a once-per-conflict quality, erase a continuing drawback or restore a lost asset.
-
-=== 10.11 Accepting Injury
-Once per character per conflict, accept a lasting injury to cancel some loss from a successful Attack or Feint. Declare before applying loss. Only one participant may trade against each Attack or Feint.
-#figure(table(columns: (60%, 40%),
-  table.header([Accepted injury], [Loss cancelled]),
-  [Tier 2], [1], [Tier 3], [2], [Tier 4], [3],
-))
-Name the injury and explain how it preserves the side's position. It must follow from the action, have a relevant effect, be new or worsen a status, and remain below tier 6 after stacking.
-
-You cannot:
-- Pay with an injury already present or an irrelevant or wholly redundant status.
-- Trade after being Taken Out.
-- Cancel more loss than inflicted.
-- Cancel loss from Maneuvers, hazards, voluntary costs or special effects unless permitted.
-- Cancel an execution, imposed status or anything other than ordinary Attack or Feint Disposition loss.
-- Invent bodily injury to pay for a purely logistical setback.
-
-An accepted injury is a payment: Armour, Resistance, cancellation and side benefits cannot prevent or reduce it. It recovers through treatment and time. The trade cancels incoming loss, not loss already suffered, and does not raise starting Disposition. Refresh only for a genuinely new conflict.
-
-=== 10.12 Defeat, Mutual Defeat and Concession
-==== Finish the Action
-Complete costs, choices and effects before removing a participant because of that action. Independent actions both resolve even if one takes its opponent out. Check victory afterward.
-
-==== Defeat and Finishing Procedures
-The winner achieves its intent within the stakes, subject to compromise. Do not repeat the same unresolved contest; a new conflict requires a materially different objective or changed circumstances.
-
-Defeat does not automatically inflict injury, destroy every creature present or satisfy a creature-specific killing requirement. Where a finishing procedure is required, victory secures the opportunity to attempt it. Complete the deciding volley, determine victory or mutual defeat, resolve any permitted finishing procedure, then settle compromise and aftermath.
-
-Do not apply a proposed compromise status early to lower finishing Difficulty. A failed finishing attempt does not automatically reopen the conflict or add a compromise grade. A special attack procedure must state how it changes the normal interaction and what happens to the opposing action; substituting a Difficulty alone does not settle that question.
-
-==== Mutual Defeat
-If both sides are defeated in the same volley, neither wins outright. Resolve compatible parts of both intents and a shared setback within the stakes. Neither receives an incompatible outcome automatically. Calculate no winner's compromise.
-
-==== Concession
-Before the next roll, propose an end to the conflict. State what the opponent gains, what your side retains, all injuries, losses, promises or obligations, and how the immediate struggle ends.
-
-Offer meaningful success that fits the situation. A mindless predator may require an escape opportunity or sacrifice rather than surrender. If accepted, apply the terms without another roll. Do not also apply compromise unless included. Agreed costs cannot be Resisted or cancelled; injuries recover normally. If rejected, continue. Conceding grants no automatic Tychē Point.
-
-=== 10.13 Compromise
-Compare the winner's remaining Disposition with its adjusted starting value:
-#figure(table(columns: (65%, 35%),
-  table.header([Starting Disposition lost], [Compromise]),
-  [None], [None],
-  [More than 0, less than half], [Minor],
-  [At least half, less than three-quarters], [Significant],
-  [Three-quarters or more], [Major],
-))
-Use proportions without rounding.
-
-==== What Compromise Means
-The winner achieves its intent, but the loser earns a proportionate concession:
-- #strong[Minor:] limited concession, delay, obligation, expenditure or complication.
-- #strong[Significant:] substantial concession, restricted terms, important loss, serious injury or meaningful part of the loser's objective.
-- #strong[Major:] narrow victory at a major price: lasting obligation, severe injury, important loss or powerful new danger.
-
-These are consequence packages, not mandatory lists. Do not automatically add injury to an adequate non-injury concession. Compromise cannot simply reverse the result or grant the loser's complete incompatible objective.
-
-==== Negotiating Terms
-+ Establish the grade.
-+ The loser proposes terms.
-+ Confirm what the winner achieves.
-+ Confirm what the loser retains or gains.
-+ State all costs and who pays.
-+ Credit eligible existing injuries.
-+ Resolve eligible Resistance.
-+ Record the binding result.
-
-Keep terms proportionate, relevant and within the stakes. If agreement proves difficult, the GM adjudicates using these limits. Disagreement does not cancel earned compromise.
-
-==== Injury Guidance
-When appropriate to the package, use tier 2 for Minor, tier 3 for Significant and tier 4 for Major as starting guidance, not automatic injuries, minimum costs or penalties for everyone.
-
-==== Existing Injuries
-An injury suffered during this conflict satisfies one injury cost assigned to that character if its current tier meets or exceeds the required tier. Each injury counts once. Do not pool, split, transfer or credit injuries against non-injury consequences. An injury treated below the required tier no longer satisfies the cost. Add no replacement injury because an existing one satisfies the first.
-
-==== Resistance
-Imposed compromise statuses may be Resisted normally; agreed payments cannot. Resistance may remove an injury but does not revoke the loser's concession or another stated consequence. Add no replacement cost because Resistance removed the injury.
-
-==== Binding Results
-Victory, concessions, promises and consequences stand. Genuinely new events may change them; do not ignore or immediately reroll them because someone dislikes the result.
-
-=== 10.14 NPCs and Harm
-Ordinary NPCs and minion groups cannot trade injury. A named rival built as a full PC may; others require an explicit trait.
-
-Ordinary NPCs have no Pools and reduce imposed harm only through listed Armour, traits or abilities. Apply at most one reduction per imposed status application, never to ordinary Disposition loss or an accepted payment.
-
-NPC defeat establishes defeat in this contest, not automatic injury or death. Capture, escape, injury and death follow the stakes and outcome. Use a Dying clock when rescue matters, not to make an accepted rescue objective impossible.
-
-Creature-specific rules remain in force. Immunity may stop an unsuitable status without stopping Disposition loss in a contest the creature can lose.
-
-#strong[Specific breaking points.] Generic harmful tier-6 statuses follow the normal Scar procedure. A named creature track or condition with an explicit breaking-point replacement uses that outcome instead of an unstated generic Scar. Sun-Sick and Thirst use their listed setting consequences; Bled retains the core tier-6 Scar procedure. A tier-5 ceiling grants no immunity to payments, sunlight or removal outside its stated scope. Award no duplicate Scar merely because both a general rule and its replacement describe one event.
-
-=== 10.15 Order of Resolution
-+ Establish objectives, stakes, participants and exits.
-+ Calculate starting Disposition and Superiority.
-+ Resolve overwhelming preparation immediately, if applicable.
-+ Script the exchange and assign actors.
-+ Reveal the next volley.
-+ Determine the interaction.
-+ Pay pre-roll costs; resolve running dry.
-+ Roll and determine Power.
-+ Make permitted post-roll choices and pay their costs.
-+ Allocate Power.
-+ Calculate Disposition loss separately from statuses.
-+ Offer eligible injury trades.
-+ Apply remaining Disposition loss.
-+ Resist eligible statuses, stack what remains and resolve tier 6, including explicit creature exceptions.
-+ Complete any independent opposing action.
-+ Check removal, victory and mutual defeat.
-+ Before the next roll, allow concession proposals.
-+ Resolve permitted creature finishing procedures before compromise.
-+ Settle compromise or concession.
-+ Recover each layer only through its own procedure.
-
-Specific rules override general rules only on the subject addressed. Healing a status does not restore Disposition, refresh an injury trade or remove a Scar.
-
-=== 10.16 Keeping It Fast
-- Use full conflicts only when several tactical decisions matter.
-- Record objectives and starting Disposition visibly.
-- Use three cards or entries for each script.
-- Keep one continuous acting order per side.
-- Treat minion groups as one coordinated participant unless separation matters.
-- Describe volleys briefly; reserve extended narration for decisive moments.
-- Negotiate one coherent compromise package, not accumulating penalties.
-
-Disposition around 8--11 is the initial pacing target. Aim for two or three exchanges and roughly 15--20 minutes, then adjust through playtesting rather than adding steps.
-]
+#include "chapter-2.10-conflict-system-aftermath.typ"

@@ -81,6 +81,8 @@ You can add d12s to the roll and #strong[keep the best two];. Maximum #strong[+2
 
 Example: Effort Level 2 lets you buy one bonus die before the roll, then spend again for +1 Power if you succeed.
 
+#strong[Free benefits and setup Help.] Free bonus dice still count toward the +2 bonus-dice cap. Free Help waives its pool-point cost, not relevance or participation risks. Conflict setup Help grants +1 Disposition per eligible helper instead of also granting the ordinary Help bonus die (§10.2). Free does not grant an additional scripted turn (§10.5).
+
 === 2.5 Outcomes
 #figure(
   [#table(
@@ -97,6 +99,10 @@ Example: Effort Level 2 lets you buy one bonus die before the roll, then spend a
   )
 #strong[Power] = 1 for meeting the target, +1 for every full 3 points over it. Power is spent on #strong[Effects] (§5). Any Power you don\'t spend becomes #strong[Momentum] (party pool, max 6).
 
+#strong[Scripted conflict exception.] Use the interaction procedure in §10.5 and consequence restrictions in §10.7. An ordinary failed conflict action does not also authorise an unrelated GM move, automatic injury or extra Disposition loss. Independent Success at a Cost still grants 1 Power, with the restricted cost options in §10.7. Losing a versus test is not converted to success by missing the opponent's total by 1--3. A trumped action makes no roll and produces no effect.
+
+#strong[Automatic success.] An explicitly granted automatic success replaces the roll for an otherwise permitted action, not an additional turn or a bypass of the interaction. Apply the listed Power and the opposed-automatic-success procedure in §10.5. With no roll, there is no dice-based critical or complication.
+
 === 2.6 Doubles (Twists)
 If your two #strong[kept] dice show the same number:
 
@@ -108,6 +114,9 @@ If your two #strong[kept] dice show the same number:
 - #strong[NPCs.] When the dice give an NPC a complication, the GM may spend #strong[2 Woe] to cancel it. Otherwise the GM describes the complication, or invites the players to.
 
 Base chance of doubles on 2d12 is about 8% (1 in 12).
+
+#strong[In conflicts.] Doubles complications remain within the established stakes and action's scale; they do not cancel independently resolving actions or retroactively change scripts (§10.7).
+// OPEN: exceptional doubles against opposed totals, and Woe for losing versus tests, remain unresolved; see §10.5.
 
 === 2.7 Risky Rolls (Optional)
 Some rolls aren't harder, just more dangerous. Before a roll, the GM may call it #strong[Risky 1], #strong[2] or #strong[3].

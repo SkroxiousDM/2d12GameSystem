@@ -8,23 +8,26 @@
     align: (auto,auto,auto,),
     table.header([Effect], [Cost], [What it does],),
     table.hline(),
-    [#strong[Attack];], [1 Power per tier], [Inflict a #strong[Status] (e.g. #emph[wounded-2];, #emph[rattled-1];, #emph[on fire-3];). In a conflict, an ordinary Attack removes Disposition equal to the Power committed to that effect + 1 instead (§10.6); it inflicts no status unless an explicit rule permits one],
-    [#strong[Weaken];], [1], [Reduce one of the target\'s statuses by 1 tier, or #strong[Burn] one of its tags for the scene],
+    [#strong[Attack];], [1 Power per tier], [Inflict a #strong[Status] (e.g. #emph[wounded-2];, #emph[rattled-1];, #emph[on fire-3];). In a conflict, an ordinary Attack instead requires at least 1 Power committed to Disposition loss and removes the committed Power + 1 Disposition (§10.6). Apply the +1 base loss once per action; no commitment means no loss. It inflicts no status unless an explicit rule permits one],
+    [#strong[Weaken];], [1], [Reduce one of the target\'s statuses by 1 tier, or #strong[Burn] one of its tags for the scene. During scripted conflicts, requires an explicit ability; ordinary asset denial uses Maneuver's Disarm (§10.6)],
     [#strong[Create];], [2 Power per rank], [Create a #strong[Truth] that lasts for the scene (#emph[smoke cover];, #emph[crowd on our side];). It may end sooner if its removal condition is met. One extra Power makes it last until its removal condition is met. State its scope, rank (1 costs 2 Power; 2 costs 4 Power before discounts) and removal condition (§8)],
     [#strong[Enhance];], [1 per tier], [Give an ally a helpful status (#emph[inspired-2];)],
     [#strong[Restore];], [1 per tier], [Reduce a harmful status on yourself or an ally. Lasting injuries have limits (§6.6)],
     [#strong[Discover];], [1], [Ask the GM one question; you get a true, useful answer],
     [#strong[Advance];], [1 per segment], [Tick a #strong[progress clock] (§7)],
-    [#strong[Disrupt];], [3], [Cancel or delay an enemy\'s prepared action, or take 1 point off the GM\'s Woe],
-    [#strong[Extra Feat];], [1], [Achieve a second, related goal with the same action],
+    [#strong[Disrupt];], [3], [Cancel or delay an enemy\'s prepared action, or take 1 point off the GM\'s Woe. During scripted conflicts, use only as permitted by §10.6; this grants no generic interference with committed scripts],
+    [#strong[Extra Feat];], [1], [Achieve a second, related goal with the same action. During scripted conflicts, at most once per action unless explicitly overridden; no extra turn or roll, prohibited purchase or duplicate Disposition effect (§10.6)],
   )]
   , kind: table
   )
 #columns(2, gutter: 6mm)[
 Each point of Power buys an Effect. Players choose Effects that fit what their character did in the fiction.
 
-#strong[Conflict boundaries.] The general Effect list grants no additional scripted turn, action-interaction bypass or objective outside the declared stakes. Resolve the scripted action under §10.5--10.6; explicit abilities may permit additional purchases such as Create on an Attack. A trumped action produces no effect. Do not use Disrupt, Extra Feat or a supporting Truth to retroactively cancel resolved actions or reopen a settled outcome.
-// OPEN: the complete action-by-action permission list for supplementary general Effects remains unresolved.
+#strong[Conflict boundaries.] The general Effect list gives prices and functions, not permission to purchase every Effect with every scripted action. During conflicts, use the action-specific permissions and purchase limits in §10.6. Fictional relevance is necessary but does not unlock a prohibited purchase.
+
+A successful action may spend all earned Power on permitted supplementary Effects; no primary-effect purchase is mandatory. All purchases share one Power budget. Winning a versus test prevents the opposing action's normal effect even when no Power is spent on Disposition loss or recovery. Independent opposing actions still resolve. A trumped action produces no effect.
+
+Specific exceptions grant only their stated purchase, trigger, cost, frequency and scope. No general Effect grants another scripted action, expands declared stakes or reopens a settled outcome. Do not use Disrupt, Extra Feat or a supporting Truth to retroactively cancel resolved actions.
 
 #strong[Separate bonuses.] Additional Power, additional Disposition loss and additional status tiers are distinct. Apply a bonus only to its stated component; do not apply one offensive bonus to both loss and a status. Ordinary conflict Attacks and Feints do not drain pools or create injuries through narration alone (§10.6).
 

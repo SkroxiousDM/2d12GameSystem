@@ -210,7 +210,13 @@ The source documents used the working names on the left. This book uses the hous
 - *Dusk:* the GM gains +2 Woe. Vampires come out.
 - *Night:* vampires and dhampirs ignore darkness. A scene at night with a vampire present adds +1 Woe at the start.
 - *Dawn:* a vampire still in direct light at the end of the scene gains _Sun-Sick_ at tier 2 at once.
-- *Hard to Kill:* a vampire's physical statuses can't go above tier 5 without a *killing method*: beheading, or sustained fire on a broken vampire (Frontier Rules §5.2, §8.1).
+- *Hard to Kill:* physical statuses normally stop at tier 5; specific creature rules can override this. Sun-Sick 5 causes collapse and Taken Out, not ordinary broken activity (Frontier Rules §5.2, §7.1).
+
+== Sun-Sick (Frontier Rules §7.1)
+Ordinary gains and stacking stop at tier 5; collapse at 5 alone grants no Scar or Dying. Full-day exposure while at 5 advances to 6. A dhampir remains Taken Out, records one Sōma Scar under core limits, and starts core Dying only with established lethal stakes. Removal from harmful sunlight stabilises without erasing segments. A full scene in shade/darkness removes 2 tiers; night clears Sun-Sick. Recovery below 6 with harmful exposure ended is definitive care and clears the sunlight-caused clock, not the Scar. Repeated exposure follows core Scar Recorded and further-harm rules; renewed Dying before clock clearance resumes recorded segments. Separate injuries retain their own consequences. Recovery restores no pools or Disposition and does not automatically return ordinary action. Full-day direct-sun exposure of a vampire at Sun-Sick 5 instead causes an automatic killing strike: destruction, no roll or Dying clock.
+
+== Restricted Staking Equivalence (Frontier Rules §8.1)
+Staking is not a killing method and _staked_ remains untiered: the vampire cannot act or recover while the stake remains. Solely for sustained fire's prerequisite, a staked vampire counts as broken at physical status tier 5. For subsequent killing-strike rolls, use a −15 Difficulty reduction or the reduction from a higher actual negative status, never both; eligible killing-strike ability reductions apply additionally. No equivalence for staking rolls, other tests, status penalties, Blood Debt, recovery eligibility or ability triggers; no automatic strike, Scar, Dying or destruction. Extra stakes add no benefit. Removing the stake ends the condition and both equivalences, not actual statuses or a settled outcome.
 
 == Frontier Skills
 Renamed skills (Frontier Rules §3). All other generic skills keep their names.

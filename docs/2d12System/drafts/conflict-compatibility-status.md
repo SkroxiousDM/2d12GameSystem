@@ -79,11 +79,14 @@ build/playtest validation.
 | Adversaries initial two-file split | `e5700156c7bffa1c4285392c38b673f8a50f67cc` | Structural-only split preserving the existing entry point and explicitly passing the statblock helper; subsequently extended to three files below. |
 | Adversaries Special procedures and three-file split | `b833e4097d81ec9b45a1a15e2cfa288478965816` | Implements Last Stand §6.10, separate Fail-safe §6.11, and outcome-independent Feed/Shock Field deferred injuries §6.12; integrates rows, resolution/participation/recovery/concession references and checklist. Splits before Boss Phases into part three, preserving the seven templates and worked exchange. File hashes match prepared source; no compilation, PDF, layout or playtest certification. |
 | Venom / Infection reconciliation | `6f9a68307a1f2d98fc950cb9b2077a64e15a8467` | Adds the 2-Woe successful-Attack deferred poisoned-2 application to §6.12, with no second application from compromise. Independent successful Attacks qualify; inflicted poison progresses, pending records do not. Preserves the outside-conflict paid hit. Four targeted replacements across the main file and part two; part three/templates unchanged. |
+| Vampire relocation and Frontier adversary section | `ad6680cdadde890d9e73c48b9fd9dca53076976f` | Moves vampire construction exceptions, the Vampire Kind package/Specials and retainer-clan options into Frontier Rules §16 in `tod-adversaries.typ`, included once through the existing setting assembly. Generalizes all three core Adversaries fragments while retaining generic procedures. Feed explicitly retains Core Adversaries §6.12 timing. Five approved source files; committed hashes matched the prepared relocation. Broader neutrality sweep and build validation remain pending. |
+| Frontier playbook replacement statement | `ba1e55f54e71bccfed1162e0702e539cd7565986` | Adds the approved replacement statement below the Frontier overview table. The six reskins replace their generic counterparts; Mutant, Cyborg Hunter and Warden remain additional options. Generic references do not grant the replaced ability lists. Four added lines only; no Focus-eligibility, ability-cost or advancement changes. |
 
 ### Decision records versus source implementation
 
 - `918ead36134c750cf4834a38526e4fd9bc576c45` recorded Batch 51's approved decisions in `batch-51-core-rulings.md`; that documentation commit alone did not implement them. Use the two Batch 51 source commits above for implementation status.
 - `01d7d369c39c7b21acf152e6a11cee63163c2064` recorded Batch 52's approved proposals; active Furcifer implementation followed in `ca671c6a1e27c4a433cd9209e13a69658ec527c8`.
+- `a3e61c5c397ba226b398c29bdc704e3c806dfbcb` corrects Phase 1 decision 9 and its implementation tracker: Walks Between Worlds is allowed in Testament of Dust under its technological interpretation. This supersedes the earlier exclusion; it does not alter the Focus's mechanics or introduce a new technological mechanism.
 
 ### Adversaries current status (2026-11-07)
 
@@ -93,7 +96,19 @@ Last Stand postpones eligible defeat for one normal final volley and cannot be r
 
 Source assembly is now `../chapter-adversaries.typ` (opening and §§1–5) → `../chapter-adversaries-part-2.typ` (§§6.1–6.12 and seven templates) → `../chapter-adversaries-part-3.typ` (Boss Phases, example and checklist). The first call passes `statblock` explicitly. Keep these imports/calls once; do not separately include parts two or three in the parent rulebook. Rejoining the split after removing its new scaffolding reproduces the prepared implementation; committed file hashes were checked. Those checks establish source preservation, not successful rendering.
 
-This documentation-only reconciliation updates this ledger and `docs/design/rules-audit-phase1-implementation.md`. Root changelog coverage of the new Adversaries commits, other decision/status records, Quick Reference and setting summaries, and the wider active-source sweep remain pending. Encounter constants, phase/Special balance, negative-Edge/highest-die and unrelated deferred rulings remain open for their own review or playtesting. Phase 1 and the full compatibility audit remain open. No compilation, PDF rebuild, rendered-layout verification or playtest is claimed.
+This documentation-only follow-up updates this ledger and `docs/design/rules-audit-phase1-implementation.md`. The accompanying Unreleased entry records the scoped Adversaries and Frontier changes. Continue reconciling other decision/status documents, Quick Reference and setting summaries, the drafts README and dated audit findings; do not treat this record update as completion of that broader sweep. Encounter constants, phase/Special balance, negative-Edge/highest-die and unrelated deferred rulings remain open for their own review or playtesting. Phase 1 and the full compatibility audit remain open. No compilation, PDF rebuild, rendered-layout verification or playtest is claimed.
+
+### Frontier setting-source follow-up (2026-11-07)
+
+The scoped vampire relocation and Frontier playbook replacement statement are implemented by the source commits above. They are no longer pending source tasks.
+
+Feed now resides in `docs/TestamentOfDust/tod-adversaries.typ`, Frontier Rules §16.2, and explicitly uses Core Adversaries §6.12. The shared deferred procedure remains in core and accepts setting Specials only through an explicit reference. Last Stand, Fail-safe, Boss Phases and the generic Human/Beast/Guardian packages remain core procedures.
+
+The setting loads §16 through its existing chain: `tod-setting-rules.typ` → `tod-setting-rules-15-design-notes.typ` → `tod-adversaries.typ`. Keep that include once; do not separately include the new fragment in the parent setting book. Existing Frontier Rules section numbers and chapter order are retained.
+
+Walks Between Worlds remains available under its technological interpretation. The replacement statement concerns playbooks, not generic Focus eligibility.
+
+The accompanying changelog and Phase 1 tracker updates record these completed scopes. Descriptor-reference and wider active-source/setting sweeps, other summary and decision-document reconciliation, numerical calibration, compilation, PDF rebuilding, layout verification and playtesting remain pending. This record does not close Phase 1 or certify complete setting neutrality.
 
 ### Current follow-up to historical questions
 
@@ -103,7 +118,7 @@ This documentation-only reconciliation updates this ledger and `docs/design/rule
 - Perfect Strike's shared exceptional-doubles procedure is settled by Batch 51. This does not by itself certify every affected entry or summary.
 - Highest-die Resistance thresholds under negative Edge, uninspected setting exceptions and unrelated deferred rulings are not settled by these integrations.
 - The dated Adversaries integrations above settle their recorded boss-phase and Special procedure questions, not encounter calibration or every other Special interaction. Simultaneous setup defeat uses current Core Rules §§10.3 and 10.12; Superiority symmetry/eligibility remain separate playtest flags.
-- The core Quick Reference's Batches 51–52, automatic-success and spending reconciliation is recorded in `ec778fc22c48789df1245cf828352835c2ec4a37` and the Phase 1 tracker. That source integration does not certify new Adversaries summary coverage or rendered layout. This update synchronizes the two trackers for the Adversaries work only; broader audit/status records and root changelog coverage of the new Adversaries commits remain pending.
+- The core Quick Reference's Batches 51–52, automatic-success and spending reconciliation is recorded in `ec778fc22c48789df1245cf828352835c2ec4a37` and the Phase 1 tracker. That source integration does not certify new Adversaries summary coverage or rendered layout. This update synchronizes the two trackers for the recorded Adversaries and Frontier scope only; broader audit/status and summary reconciliation remain pending. The accompanying Unreleased entry now records these scoped changes.
 
 ## Historical limits of the individual-entry clarifications
 
@@ -193,13 +208,11 @@ source decision resolves them; this extension does not re-audit them.
 2. Complete the active-source sweep for retired Legacy currency, death
    triggers and obsolete section references; preserve historical records
    and ordinary narrative uses of the word legacy.
-3. Reconcile the root `CHANGELOG.md` and other decision/status records with
-   controlling decisions and actual source commits, including coverage of
-   the new Adversaries work. This update synchronizes the Phase 1 tracker
-   and this ledger for that scope only. Earlier root changelog coverage of
-   Legacy and later conflict work remains recorded, not erased or presumed
-   absent. Reconcile remaining Quick Reference/setting summaries, the drafts
-   README and dated ability audit while preserving historical findings.
+3. The accompanying Unreleased entry records the scoped Adversaries and
+   Frontier changes. Continue reconciling other decision/status documents,
+   Quick Reference and setting summaries, the drafts README and dated audit
+   findings; do not treat this record update as completion of that broader
+   sweep. Earlier changelog coverage and historical findings are preserved.
 4. Compile the current core and setting books, rebuild PDFs and inspect
    rendered layout, tables, cross-references and character-sheet panels.
 5. Run the relevant playtests and recalibrate numerical guidance. Historical

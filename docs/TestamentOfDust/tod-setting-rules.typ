@@ -146,7 +146,7 @@ Rank measures how dangerous a vampire is #strong[now] --- its resources, supply,
 === 5.2 Hard to Kill
 Vampires survive wounds that would kill anyone else.
 
-- A vampire's physical statuses #strong[can't go above tier 5] unless the Attack uses a #strong[killing method] (§8.1). At tier 5 the vampire is #emph[broken]: it can still act, at −2 on physical rolls. This protection does not prevent objective-based defeat or cancel an accepted payment; ordinary Disposition loss does not create a physical status.
+- A vampire's physical statuses normally stop at tier 5 unless an eligible killing method or an explicit creature-specific rule permits otherwise (§8.1, §7.1). At physical status tier 5 the vampire is #emph[broken]: it can still act, at −2 on physical rolls, unless the status specifies a different outcome. Sun-Sick 5 instead causes collapse and Taken Out; its full-day progression to tier 6 follows §7.1. This protection does not prevent objective-based defeat or cancel an accepted payment; ordinary Disposition loss does not create a physical status.
 - #strong[Recovery needs blood.] A wounded or broken vampire that rests a full day #strong[and] takes at least half a litre of blood recovers all physical statuses. Without blood, it recovers only 1 tier per day. Status recovery does not restore shared Disposition or undo a settled outcome.
 - #strong[Wounds make it hungry.] Each time a vampire is #emph[broken], tick its #strong[Blood Debt clock] (§5.4) by 1.
 
@@ -155,7 +155,7 @@ In a scripted conflict, reducing a vampire side's shared Disposition to 0 wins t
 
 #strong[Timing.] Complete the deciding volley, including all independent actions, and determine victory or mutual defeat first. Resolve any killing strike the outcome permits before settling compromise. Do not apply a proposed compromise status early solely to reduce the killing-strike Difficulty.
 
-Make one killing-strike roll against the named vampire using a fitting skill and method. Set the base Difficulty by the vampire's Rank:
+Unless a rule explicitly makes the killing strike automatic, make one killing-strike roll against the named vampire using a fitting skill and eligible method. Set the base Difficulty by the vampire's Rank:
 
 #figure(table(columns: (55%, 45%),
   table.header([Vampire Rank], [Base Difficulty]),
@@ -172,6 +172,8 @@ Reduce the Difficulty by one step --- 3 points --- for each tier of the target's
 A success destroys the vampire. On a failure, it is not destroyed: the GM states a significant complication that fits the stakes, such as escape, a rescue attempt or a dangerous reversal. The players may #strong[give the GM 2 Woe] to buy off that complication. Buying off the complication does not turn the failed strike into a success.
 
 Resolve the established conflict outcome and compromise separately. A failed killing strike does not automatically impose a Significant compromise, reopen the original conflict or reset Disposition.
+
+#strong[Automatic killing strikes.] An automatic killing strike requires no roll and uses only the outcome specified by its rule. Do not calculate killing-strike Difficulty or apply Difficulty reductions, and do not use the failed-strike complication or its 2-Woe buy-off. Full-day direct-sun exposure against a vampire follows §7.1. Automatic destruction grants no additional action, restores no Disposition, erases no compromise cost and does not reopen a settled conflict outcome.
 
 Beheading follows this procedure. There is no separate beheading difficulty table or tier-4+ status prerequisite. Staking remains a separate special case (§8.1).
 
@@ -271,9 +273,25 @@ Under the #strong[Day] Truth, in direct sunlight, the afflicted gain #strong[#em
 - While Sun-Sick is at tier 1+, abilities and rules that heal the afflicted (vampire recovery, #emph[Mother's Blood], #emph[Dhampir Regeneration]) don't work.
 - A vampire at Sun-Sick 4+ also gains #emph[burning-1] each scene in the sun.
 - #strong[Recovery:] a full scene in shade or darkness lowers Sun-Sick by 2 tiers. At night it clears completely.
-- #strong[Tier 6:] collapse. Taken Out until carried into shade. A dhampir left for a whole day gains a Sōma Scar. A vampire left in direct sun for a full day is destroyed.
+- #strong[Normal cap:] Sun-Sick cannot rise above tier 5 through ordinary gains or stacking. Only the full-day exposure procedure below advances it to tier 6.
+- #strong[Tier 5:] collapse. Taken Out until carried into shade. Tier-5 collapse alone does not grant a Scar or start a Dying clock.
 
-#strong[Specific breaking-point rule.] Sun-Sick uses the collapse and prolonged-exposure consequences listed here instead of the generic tier-6 Scar trigger. Reaching Sun-Sick 6 does not itself grant an additional Scar. This exception does not prevent a separate harmful status, such as burning, from producing its own outcome under the core rules and Scar limits. Recovering from Sun-Sick does not restore shared Disposition or undo a settled defeat.
+==== Full-day Exposure and Sun-Sick 6
+A dhampir at Sun-Sick 5 who is left in the sun for a full day advances to Sun-Sick 6 and remains Taken Out. Record one Sōma Scar under Core Rules §6.3, subject to its episode and event limits. This is the normal Scar for reaching tier 6, not an additional Scar for becoming Dying.
+
+If established lethal stakes permit, this is life-threatening physical harm: start the core three-segment Dying clock and follow Core Rules §6.7. Otherwise, apply incapacitation and the Scar without starting a Dying clock.
+
+#strong[Rescue and stabilisation.] For a dhampir Dying from Sun-Sick, removal from harmful sunlight stabilises them and stops the Dying clock. This does not erase marked segments, lower Sun-Sick or return them to ordinary action.
+
+#strong[Definitive care.] A full scene in shade or darkness lowers Sun-Sick by 2 tiers as normal; at night it clears completely. When this recovery lowers Sun-Sick below tier 6 and harmful exposure has ended, it counts as definitive care for this condition: clear the sunlight-caused Dying clock.
+
+Stabilising the dhampir, lowering or clearing Sun-Sick, and clearing the Dying clock do not remove the Sōma Scar. Repeated exposure during the same episode follows the core Scar Recorded rules.
+
+If renewed exposure makes the dhampir Dying again before that clock has been cleared, resume it from its recorded segments. Apply the core rules for further harm; ordinary Sun-Sick gains still cannot advance the status above tier 5.
+
+#strong[Vampires.] Full-day exposure to direct sunlight is a killing method against vampires. A vampire at Sun-Sick 5 who is left in direct sun for a full day advances to Sun-Sick 6 and suffers an automatic killing strike: it is destroyed without a roll. Do not start a Dying clock.
+
+#strong[Separate consequences.] These sunlight-specific stabilisation and recovery rules do not stabilise or clear a Dying clock caused by a separate injury. A separate harmful status, such as burning, follows its own core consequences and Scar limits. Recovering from Sun-Sick does not restore pools or shared Disposition, erase Scars or undo a settled conflict outcome.
 
 === 7.2 The Thirst
 Dhampirs have a #strong[Thirst] status, tier 0--6. It doesn't penalise rolls until tier 3. A dhampir has no weekly need for blood; the Thirst rises only from what happens to them.

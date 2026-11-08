@@ -21,8 +21,8 @@ Vampire Grit already includes the Threat Rank Disposition bonus (+0 / +2 / +4 / 
 The construction table makes the inherited Rank-based tag allowances explicit; it does not add tags beyond them. Frontier Rules §5.3 supplies tag examples and the Pride procedure. Apply that procedure, Blood Debt (§5.4), killing methods (§8.1) and Sunlight Syndrome (§7.1) only in their stated scopes.
 
 === 16.2 Vampire Kind Package
-- #strong[Hard to Kill.] Physical statuses stop at tier 5 without a killing method. Tier 5 is broken (−2 on physical rolls).
-- #strong[Blood Debt.] −1 to all ratings at 4 segments, −2 at 5. Being broken ticks the clock.
+- #strong[Hard to Kill.] Physical statuses normally stop at tier 5 unless an eligible killing method or explicit creature-specific rule permits otherwise (Frontier Rules §5.2, §7.1). Tier 5 is normally broken (−2 on physical rolls); Sun-Sick 5 instead causes collapse and Taken Out. Full-day direct-sun exposure of a vampire at Sun-Sick 5 advances it to 6 and destroys it by an automatic killing strike, without a roll or Dying clock (§7.1).
+- #strong[Blood Debt.] −1 to all ratings at 4 segments, −2 at 5. Being broken ticks the clock. Staked's restricted equivalence for sustained fire and subsequent killing-strike Difficulty does not count as becoming broken for Blood Debt or other ability triggers (§8.1).
 - #strong[Pride, Sun-Sick and killing methods] all apply.
 - #strong[Killing strike.] A vampire side at 0 shared Disposition is defeated, not automatically wounded or destroyed. Name an eligible vampire and follow Frontier Rules §5.2, within the established lethal stakes; shared Disposition loss grants no physical status. Complete independent actions, determine victory or mutual defeat, resolve any permitted finishing procedure, then settle compromise (Core Rules §10.12).
 - #strong[Introduction Woe,] paid once, the first time it appears in the campaign: Minor 1, Established 3, Great 5, Paramount 8.

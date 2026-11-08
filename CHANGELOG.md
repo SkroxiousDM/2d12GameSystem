@@ -209,5 +209,4 @@ Initial public commit of the 2d12 Game System repository.
 - Core Glossary (Ch 90)
 - Conditions Cross-Reference Appendix (Ch 91)
 - Derived Stats Reference (Ch 92)
-- Critical Wound and Fumble tables (`docs/tables/`)
 - Burning-Wheel-style conflict module (experimental, alternate variant)

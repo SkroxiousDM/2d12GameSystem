@@ -6,6 +6,12 @@ Original Phase 1 decisions: `docs/design/rules-audit-phase1-decisions.md`. Area 
 
 Implement the recorded rulings in current core and Testament of Dust Typst sources, the character sheet, Quick Reference, changelog and draft-status notes. Preserve historical playtest rolls and outcomes. PDF rebuilding, numerical recalibration and test reruns are deferred. This tracker records implementation, not additional designer rulings.
 
+## Walks Between Worlds decision correction (2026-11-07)
+
+The designer confirms that Walks Between Worlds is allowed in Testament of Dust using its technological interpretation. The matching update to Phase 1 decision 9 supersedes the earlier exclusion. Remove the prohibition from current pending-work instructions; do not introduce it into Frontier Focus eligibility or the setting-book introduction. The inspected active Frontier Focus rules already permit generic Weird Focuses. This record does not invent a technological mechanism, replace the Focus's mechanics or certify a complete setting-reference sweep.
+
+The vampire-content relocation, explicit Frontier playbook replacement statement, descriptor-reference sweep and remaining setting-neutrality work stay pending. This correction updates the two Phase 1 records only; gameplay source, other audit records, changelog, PDFs and historical playtest results are unchanged.
+
 ## Later conflict integration and reconciliation (2026-11-07)
 
 This section records work on `draft/conflict-system-rewrite`. It supplements the historical implementation entries below; it does not certify the full Phase 1 audit, all compatibility batches or a merged/built release.
@@ -87,7 +93,7 @@ Still pending: root changelog coverage of these new Adversaries commits; other d
 
 - Commit `d44c38e`: `docs/2d12System/chapter-3-module-d-downtime.typ` makes D.4 Connect cross-reference D.6a. The D.6a contact Truth bullet describes a relationship with a named person, requires stating what it makes possible and whom it concerns, and says it does not by itself grant a reputation tag or change faction Standing.
 - Commit `d4fdb5f`: D.6a now explains reputation tags without a Frontier milestone dependency, applies tag-cap exceptions only within an ability's stated scope, and uses the generic Bellator capstone *Legend of the Field* as its Campaign Truth example in place of setting-specific names. The contact Truth clarification is retained.
-- D.6a's setting-neutrality revision is complete in source and recorded in the changelog. Other setting-neutrality work remains pending, including moving vampire-specific Adversaries content, Frontier reskin and Walks Between Worlds statements, and current-facing reference sweeps. No new reputation-award procedure, duration, rank, discount or guaranteed service is introduced; deferred Truth-layer questions remain unresolved.
+- D.6a's setting-neutrality revision is complete in source and recorded in the changelog. Other setting-neutrality work remains pending, including moving vampire-specific Adversaries content, the Frontier playbook replacement statement, and current-facing reference sweeps. Walks Between Worlds remains allowed under the 2026-11-07 technological-interpretation ruling; no exclusion is pending. No new reputation-award procedure, duration, rank, discount or guaranteed service is introduced; deferred Truth-layer questions remain unresolved.
 - No Typst compilation, PDF rebuild, layout check or playtest verification is claimed.
 
 ## Recovery and Bled integration on review branch
@@ -108,7 +114,7 @@ Still pending: root changelog coverage of these new Adversaries commits; other d
 6. Recovery: Bled injury classification, labelled exceptions, tier-6 core Dying, explicit transfusion exception, related ability timing and sheet reminders are integrated (commits above). Still reconcile the controlling decision document and remaining references, check Module B and the unchanged Grind short-rest wording, and sweep active sources for legacy short-rest and 1 + Edge recovery text. Verify split-sheet assembly and layout in the later build pass; do not mark the full recovery item complete.
 7. Major creation extras: core pricing clarified in Batch 1. Reconcile setting explanations, sheet instructions and other summaries. R2 is superseded; do not rewrite historical test arithmetic.
 8. Legacy: active §6.9 include and death-trigger reference removed, historical draft and drafts README marked retired, changelog and this tracker updated. Finish the active-source sweep for remaining Legacy currency, death-trigger, §6.9 or obsolete instruction references; inspect the sheet and Quick Reference for consistency. Preserve historical records and ordinary uses of the word legacy. Do not activate Echo or other deferred Truth exceptions.
-9. Setting neutrality: D.6a's generic reputation guidance and D.4 contact Truth cross-reference are integrated on the review branch. Still move vampire-specific Adversaries content into the setting book, state that Frontier reskins replace the six generic playbooks, prohibit Walks Between Worlds in the Frontier, and sweep other current-facing references to old setting Descriptor names without changing generic descriptors or historical records.
+9. Setting neutrality: D.6a's generic reputation guidance and D.4 contact Truth cross-reference are integrated on the review branch. Still move vampire-specific Adversaries content into the setting book, state that Frontier reskins replace the six generic playbooks, and sweep other current-facing references to old setting Descriptor names without changing generic descriptors or historical records. Walks Between Worlds is allowed in Testament of Dust under its technological interpretation (designer correction, 2026-11-07); do not add a Frontier prohibition or change its mechanics as part of this cleanup.
 
 ## Unresolved details and playtest flags
 

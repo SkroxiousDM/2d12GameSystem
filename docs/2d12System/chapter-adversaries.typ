@@ -54,7 +54,7 @@ Wants: what it is after in this scene
 == 3. Building an Adversary
 #columns(2, gutter: 6mm)[
 === Step 1 — Concept and Kind
-One line: who it is and what it wants. Pick a #strong[Kind]: Vampire, Human, Beast or Guardian (§4).
+One line: who it is and what it wants. Pick a #strong[Kind]: Human, Beast or Guardian (§4), or a Kind supplied by the setting.
 
 === Step 2 — Rank
 Rank is how dangerous it is #emph[now]. It sets every number.
@@ -62,12 +62,12 @@ Rank is how dangerous it is #emph[now]. It sets every number.
 #figure(table(columns: (20%, 8%, 17%, 9%, 9%, 17%, 20%),
   table.header([Rank], [Grit = Threat], [Best / Fair / Weak], [Guard], [Shrugs], [Tags: power / weakness], [Specials]),
   [Minion group (3--6 Bodies)], [3], [+4 / +2 / +0], [+0], [Bodies], [2 / 1], [1 group trait],
-  [Minor], [3], [+5 / +3 / +1], [+0], [0], [2 / 1 (vampire 3 / 1)], [1],
-  [Established], [5], [+6 / +4 / +2], [+1], [1], [3 / 1 (vampire 4 / 1)], [2],
-  [Great], [8], [+8 / +5 / +3], [+2], [2], [4 / 2 (vampire 5 / 2)], [3],
+  [Minor], [3], [+5 / +3 / +1], [+0], [0], [2 / 1], [1],
+  [Established], [5], [+6 / +4 / +2], [+1], [1], [3 / 1], [2],
+  [Great], [8], [+8 / +5 / +3], [+2], [2], [4 / 2], [3],
   [Paramount], [12], [+10 / +7 / +4], [+3], [3], [5 / 2], [4],
 ))
-Vampire Grit already includes the Threat Rank Disposition bonus (+0 / +2 / +4 / +6). Do not add it again.
+Settings supply any Kind-specific construction exceptions; do not add a setting bonus again when its listed Grit already includes it.
 
 #strong[Tiers.] Minion groups are the mob. Minor and Established are rivals. Great and Paramount can serve as bosses, but Rank alone does not grant Boss Phases. Explicit phased-boss designation follows §7.1.
 
@@ -120,23 +120,6 @@ This is pricing guidance, not an unrestricted spend menu. Write a Special's trig
 ]
 
 == 4. Kind Packages
-=== Vampire
-- #strong[Hard to Kill.] Physical statuses stop at tier 5 without a killing method. Tier 5 is broken (−2 on physical rolls).
-- #strong[Blood Debt.] −1 to all ratings at 4 segments, −2 at 5. Being broken ticks the clock.
-- #strong[Pride, Sun-Sick and killing methods] all apply.
-- #strong[Killing strike.] A vampire side at 0 shared Disposition is defeated, not automatically wounded or destroyed. Name an eligible vampire and follow Testament of Dust, Frontier Rules §5.2, within the established lethal stakes; shared Disposition loss grants no physical status. Complete independent actions, determine victory or mutual defeat, resolve any permitted finishing procedure, then settle compromise (Core Rules §10.12).
-- #strong[Introduction Woe,] paid once, the first time it appears in the campaign: Minor 1, Established 3, Great 5, Paramount 8.
-- #strong[Woe Spends] (Presence, Uncanny Speed, Summon the Household) are open to every vampire and do not count against Specials.
-
-#figure(table(columns: (22%, 8%, 70%),
-  table.header([Special], [Woe], [Effect]),
-  [Feed], [1], [After it wins a versus Attack in melee against a PC, record one deferred Bled-2 application against that PC (§6.12). Outside conflicts, Bled-2 on the hit. It recovers 1 tier of physical status when used, not at deferred settlement.],
-  [Unnatural Strength], [1], [+1 Power on a successful Attack. Outside conflicts, +2 tiers.],
-  [Terrible Patience], [1], [Ignore one status or Blood Debt penalty for one roll.],
-  [Fade], [2], [Create the Truth Deep Shadows. It may be gone when the light returns.],
-  [Blood Price], [3], [Paramount only. Tick the campaign danger clock by 1 and restore 3 of its side's shared Disposition (up to the side's starting value).],
-))
-
 === Human
 - #strong[Morale.] Outside conflicts, a minion group or Minor flees or surrenders at half Bodies or when its leader is Taken Out, unless a Leader still stands.
 - #strong[Can be talked to.] Persuade, Intimidate, bribes, Argument and Negotiation all work.
@@ -148,8 +131,6 @@ This is pricing guidance, not an unrestricted spend menu. Write a Special's trig
   [Volley], [2], [Group or Shooter. An area Attack.],
   [Dirty Trick], [1], [Any success also Impedes the opposing side's next scripted action (−3 on its action roll), not a tiered status or a penalty to Resistance. Pending Impedes do not stack and expire if that action makes no roll.],
   [Call for Help], [1 per minion / 3], [Reinforcements arrive and add their Grit to the side.],
-  [Shadow-meld], [0], [Retainer clan, once per scene. Step between shadows. May swap one revealed action for a Maneuver.],
-  [Beast Form], [1], [Retainer clan. Attack becomes Best for the scene, and it gains the Beast package.],
   [Hostage], [2], [Create the Truth "a knife at their throat." Attacks against its side are one step harder.],
   [Last Stand], [2], [Defeat-triggered. At an eligible defeat at 0 shared Disposition, postpone defeat for one final volley for both sides (§6.10). Once per side per conflict; no personal extra action.],
   [Fanatic], [0], [Ignores Morale.],
@@ -188,7 +169,7 @@ This is pricing guidance, not an unrestricted spend menu. Write a Special's trig
   [Calls the Works], [2], [Another guardian arrives.],
 ))
 
-#strong[Special procedures and remaining scope.] Last Stand uses §6.10; Fail-safe uses its separate compromise procedure in §6.11; Feed, Shock Field and Venom / Infection use the outcome-independent deferred-injury procedure in §6.12. These are explicit Special exceptions, not ordinary Attack effects or permissions to cancel protected payments. Shadow-meld expressly permits changing a revealed action but does not permit actor reassignment, undoing resolved effects or cancelling independent actions retroactively. This reconciliation does not settle unstated interactions of other Specials.
+#strong[Special procedures and remaining scope.] Last Stand uses §6.10; Fail-safe uses its separate compromise procedure in §6.11; Shock Field, Venom / Infection and any setting Special that explicitly refers to it use the outcome-independent deferred-injury procedure in §6.12. These are explicit Special exceptions, not ordinary Attack effects or permissions to cancel protected payments. A setting supplies its own additional Kind packages and Special entries; the shared procedures grant no unstated trigger, extra turn or actor reassignment. Other unstated interactions remain open.
 
 == 5. Encounter Budget
 #columns(2, gutter: 6mm)[
@@ -208,7 +189,7 @@ This is pricing guidance, not an unrestricted spend menu. Write a Special's trig
 
 - #strong[Mix at least two Roles.] A Controller with a Skirmisher pack and a Minor Brute gives players script decisions.
 - #strong[Keep actors to party size + 1 or fewer.] Put extra bodies into minion groups.
-- #strong[Count Woe separately.] Session Woe (2 per PC) plus a vampire's introduction Woe stacks fast. If the encounter already carries introduction Woe, treat Hard as Standard plus Woe.
+- #strong[Count Woe separately.] Session Woe (2 per PC) plus any setting-provided introduction Woe can stack fast. If the encounter already carries introduction Woe, treat Hard as Standard plus Woe.
 - #strong[Disposition-cutting PC abilities] (such as −2 or −3 to the opposing side) apply after the budget.
 - #strong[Superiority] (Know Thy Foe, Know Thy Battlefield, Know Thy Players) lowers opposing Disposition by 1 per eligible distinct category, up to 3, after other setup modifiers and the minimum of 1. Only Superiority can reduce an adjusted start to 0. Determine both sides' adjusted totals first: if only one is 0, its opponent wins at no cost within the stakes; if both are 0, resolve simultaneous setup defeat as mutual defeat without scripting or a winner's compromise (Core Rules §10.3, §10.12). Symmetry and eligibility retain the core playtest flags.
 - #strong[Variance warning.] The PCs' Disposition roll can materially change the matchup; adversary Grit is fixed. If the result makes the struggle unusually dangerous, signpost it and offer exits rather than treating the legacy difficulty label as a guarantee.

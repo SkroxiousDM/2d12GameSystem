@@ -6,8 +6,8 @@
 === 6.1 Setup
 + State intent, stakes and exits for both sides (Core §10.2). State whether death is possible before any roll.
 + Before calculating starting Disposition, record any eligible phased-boss designation and fixed Start/Half Special assignments (§7.1). Designate at most one phased boss per side; designation adds no Grit or Woe.
-+ Add up Grit across the side. Apply Ambush (+2 when eligible) and other flat setup modifiers at full value, then a minimum of 1, then opposing Superiority. Determine both sides' adjusted totals before resolving setup. If only one is 0, its opponent wins at no cost within stakes; if both are 0, resolve mutual defeat. Neither outcome activates phases or proceeds to scripting. Record the original adjusted starting Disposition for recovery limits and compromise; do not divide Grit or add vampire rank bonuses again.
-+ Set Woe: 2 per PC plus Difficulty extras plus introduction Woe, counting introduction Woe only once in the campaign and retaining any already established session balance.
++ Add up Grit across the side. Apply Ambush (+2 when eligible) and other flat setup modifiers at full value, then a minimum of 1, then opposing Superiority. Determine both sides' adjusted totals before resolving setup. If only one is 0, its opponent wins at no cost within stakes; if both are 0, resolve mutual defeat. Neither outcome activates phases or proceeds to scripting. Record the original adjusted starting Disposition for recovery limits and compromise; do not divide Grit or add an already included setting bonus again.
++ Set Woe: 2 per PC plus Difficulty extras plus any setting-provided introduction Woe, counting introduction Woe only once in the campaign and retaining any already established session balance.
 + Commit one three-action script for the side, assigning an eligible participant to each action. A minion group is one participant, not one actor per Body.
 
 === 6.2 Scripting
@@ -56,12 +56,12 @@ Minion groups have Bodies (3--6) instead of Shrugs. Each successful Attack outsi
 - #strong[Defeat.] A side loses at 0 Disposition or when nobody can continue pursuing its objective. Complete independent actions before checking victory. An eligible Last Stand may postpone defeat at 0 for one final volley (§6.10); finish that extension before finishing procedures or settlement. Defeat is not automatic death or injury; outcomes stay within intent and stakes. Removal subtracts no Disposition. If both sides are defeated in the same volley, or both start at 0 after Superiority, use mutual defeat, not a winner's compromise (Core Rules §10.3, §10.12). Simultaneous setup defeat scripts no exchanges and does not itself inflict injury, drain pools, Take Out an individual or satisfy a finishing requirement.
 - #strong[No injury trade.] Ordinary adversaries and minion groups cannot use it (Core §10.14). A named rival built as a full PC can, subject to §10.11: once per character per conflict, at most one participant per Attack or Feint.
 - #strong[Compromise.] Resolve deferred Special applications before ordinary existing-injury credit; include any eligible Fail-safe assignments under §6.11. Neither procedure changes the ordinary compromise grade. Use the winner's original adjusted starting Disposition recorded at setup, unchanged by reinforcements. Remaining Disposition at or above that start means none lost; use the final remaining total, not cumulative loss or a separate reinforcement ledger. Use the starting Disposition lost: none = None; more than 0 but less than half = Minor; at least half but less than three-quarters = Significant; three-quarters or more = Major, without rounding. Negotiate one outcome-first package. Injury tiers 2/3/4 guide its severity, not automatic additions. Credit eligible existing injuries once. NPCs may use eligible reduction against imposed compromise statuses, not agreed payments; Resistance does not revoke the loser's concession or create a replacement injury cost (Core §10.13).
-- #strong[Concession.] Offer one before the next roll (Core §10.12); one third of starting shared Disposition is a tactical prompt, not a restriction. Propose concrete gains and retained interests suited to the opponent: humans may surrender, beasts may be distracted or allowed to flee, and a Boss may negotiate retreat. Guardians do not normally offer concessions. If accepted, apply the agreed terms without another roll or an additional compromise unless included. Recorded Feed and Shock Field applications remain imposed, Resistable Special effects under §6.12; concession terms must acknowledge them and cannot waive them or turn them into protected payments. Do not add an unstated retreat benefit or danger-clock tick.
+- #strong[Concession.] Offer one before the next roll (Core §10.12); one third of starting shared Disposition is a tactical prompt, not a restriction. Propose concrete gains and retained interests suited to the opponent: humans may surrender, beasts may be distracted or allowed to flee, and a Boss may negotiate retreat. Guardians do not normally offer concessions. If accepted, apply the agreed terms without another roll or an additional compromise unless included. Recorded deferred Special applications remain imposed, Resistable Special effects under §6.12; concession terms must acknowledge them and cannot waive them or turn them into protected payments. Do not add an unstated retreat benefit or danger-clock tick.
 
 === 6.8 Outside Conflicts
 - #strong[Passive opposition.] Difficulty = 12 + the adversary's relevant rating. A Minor's Defend (Fair +3) gives 15; an Established Steward's Defend (+6) gives 18. This outside-conflict procedure does not replace Standard 15 + Guard for independent conflict tests.
 - #strong[Active opposition.] Roll versus: 2d12 + rating.
-- #strong[Harm to adversaries.] Attack Power inflicts statuses as normal. Apply at most one eligible NPC reduction per application. Tier 6 applies the status's established scope and breaking-point procedure; explicit creature replacements apply only where stated. Vampires stop at tier 5 without a killing method. Do not introduce Disposition loss outside conflicts.
+- #strong[Harm to adversaries.] Attack Power inflicts statuses as normal. Apply at most one eligible NPC reduction per application. Tier 6 applies the status's established scope and breaking-point procedure; explicit creature replacements apply only where stated. Apply any explicit creature-specific status ceiling from the setting. Do not introduce Disposition loss outside conflicts.
 
 === 6.9 Other Conflict Types
 The same card runs any type in Core §10.4. Swap Attack, Defend, Feint and Maneuver for that type's skills and keep the ratings, Grit and Woe costs. Rename Specials to fit: Hostage becomes a leverage threat in an Argument, Lockdown a sealed network in a Hack. A reskin still needs a plausible approach and cannot widen intent, stakes or effect permissions.
@@ -92,9 +92,9 @@ Fail-safe is a separate defeat-triggered Special, not an action or a deferred ap
 #strong[Additional injuries and credit.] These explicit Special assignments are due even if the winner otherwise owes no injury or its ordinary compromise grade is None. They do not increase the ordinary grade or require unrelated injuries. Settle the assignments alongside any ordinary compromise costs under Core Rules §10.13: credit each eligible existing injury at most once across the complete settlement, never once for Fail-safe and again for another injury cost. Apply eligible Resistance and reduction to imposed injuries normally. Agreed payments remain protected. Resistance removing an injury creates no replacement cost and does not cancel a separate consequence.
 
 === 6.12 Deferred Special Injuries
-Feed, Shock Field and Venom / Infection use this procedure. Fail-safe instead uses §6.11; no other Special is brought into this procedure merely by similar wording.
+Shock Field, Venom / Infection and any setting Special that explicitly refers to it use this procedure. Fail-safe instead uses §6.11; no other Special is brought into this procedure merely by similar wording.
 
-#strong[Record each application.] Each qualifying paid activation records one incoming application against the affected target: Special, target, status, tier and trigger order. Feed records Bled-2 after its successful versus Attack in melee; Shock Field records jolted-2 when a PC loses a versus roll to the Guardian in melee, not only on Attack. Venom / Infection records poisoned-2 after a successful Attack; it does not require a versus win if the Attack resolves independently. Each Special retains its listed target restrictions. A tie or trumped no-roll action does not qualify. Each further application needs another qualifying trigger and another payment; there is no once-per-PC cap. This creates no new outside-conflict Shock Field procedure. Feed's outside-conflict Bled-2 and its immediate recovery benefit remain as listed.
+#strong[Record each application.] Each qualifying paid activation records one incoming application against the affected target: Special, target, status, tier and trigger order. Shock Field records jolted-2 when a PC loses a versus roll to the Guardian in melee, not only on Attack. Venom / Infection records poisoned-2 after a successful Attack; it does not require a versus win if the Attack resolves independently. Each Special retains its listed target restrictions. A tie or trumped no-roll action does not qualify. Each further application needs another qualifying trigger and another payment; there is no once-per-PC cap. This creates no new outside-conflict Shock Field procedure. Setting Specials retain their listed outside-conflict effects and immediate benefits; deferral applies only to the recorded status application.
 
 #strong[Pending is not inflicted.] A record is not an active status. It imposes no penalty, does not stack or cause tier-6 consequences, cannot be treated or healed yet, and changes neither Disposition nor participation when recorded.
 
@@ -132,7 +132,7 @@ Tell: the circling tightens. \
 Wants: drive the prey toward the den.
 ]
 
-#statblock("KNIFE IN THE DARK", "Human (retainer clan) · Minor · Trickster", "3")[
+#statblock("KNIFE IN THE DARK", "Human · Minor · Trickster", "3")[
 Grit 3 · Guard +0 · Shrugs 0 · Armour 0 \
 Attack +3 · Defend +1 · Feint +5 · Maneuver +3 · Other +3 (Stealth +5) \
 Harm: wounded (paired knives) \
@@ -147,7 +147,7 @@ Wants: no witnesses.
 Grit 5 · Guard +1 · Shrugs 1 · Armour 1 (oilskin and mail) \
 Attack +6 · Defend +4 · Feint +2 · Maneuver +4 · Other +4 \
 Harm: wounded (silver-and-wood shotgun), +1 tier from Heavy Hitter \
-Power: silver-and-wood shot, twenty years of hunts, a name the Kept know · Weakness: greedy for the bounty \
+Power: silver-and-wood shot, twenty years of hunts, a veteran hunter's reputation · Weakness: greedy for the bounty \
 Kind: Morale; can be bargained with. Role: Heavy Hitter. \
 Specials: Last Stand (2), Call for Help (1 per minion: two hired guns). \
 Tell: he thumbs back both hammers. \

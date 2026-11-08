@@ -10,3 +10,6 @@
 - #strong[Contracts as Goals] give the party a shared Goal each session, and personal Goals sit inside it.
 - #strong[The returned (§5.6)] are NPCs only. They give failed makings a face and a body of evidence without adding a second dhampir option.
 - #strong[Charter-speech (§10.5)] gives Old Lore a political edge: a flawed oath opens a dispute rather than ending one.
+
+#pagebreak()
+#include "tod-adversaries.typ"

@@ -41,7 +41,7 @@ The table counts ordinary activated Specials only. Passive and defeat-triggered 
 
 Unlocking or revelation is not activation. Normal trigger, action requirement, declaration timing, Woe cost, targets, fictional permission and participation restrictions remain. The committed action must still permit use. There is no extra turn, free script change, actor reassignment or automatic permission to act while Taken Out.
 
-Half unlocks an #strong[owned] reinforcement option only; it grants no new Special, automatic arrival, free cost or alternative arrival procedure. Apply §6.5 for Disposition accounting. Availability does not activate a Special or bypass its procedure: Last Stand uses §6.10, Fail-safe uses §6.11, and Feed and Shock Field use §6.12.
+Half unlocks an #strong[owned] reinforcement option only; it grants no new Special, automatic arrival, free cost or alternative arrival procedure. Apply §6.5 for Disposition accounting. Availability does not activate a Special or bypass its procedure: Last Stand uses §6.10, Fail-safe uses §6.11, and deferred Specials use §6.12 when their entries explicitly refer to it.
 
 ==== Phase Checks and Benefit Timing
 Complete the volley's actions, including independent actions and any expressly permitted effects that must resolve before victory. Then determine removal, victory or mutual defeat. Only if the conflict continues and the designated boss remains able to participate, compare current shared Disposition with each unactivated threshold. Activate every eligible phase whose threshold is met.
@@ -97,7 +97,7 @@ Before any reveal, the party commits Attack, Defend, Defend, assigned to three e
 - Last Stand: eligible unlocked bearer, 2 Woe, one final volley per side per conflict; pending defeat cannot be recovered.
 - Final outcome, eligible Fail-safe activation, finishing procedure, deferred applications, then injury credit and settlement.
 - Fail-safe: active eligible Guardian, 3 Woe, established PC blast reach; no mutual-defeat or concession trigger.
-- Feed/Shock Field: each paid record resolved individually in trigger order after every outcome; imposed injuries remain Resistable.
+- Deferred Specials: each paid record resolved individually in trigger order after every outcome; imposed injuries remain Resistable.
 - Finishing procedures before compromise; reinforcement Grit changes current Disposition, not original start or recovery cap.
 - Concessions negotiated before the next roll; compromise settled as one package.
 

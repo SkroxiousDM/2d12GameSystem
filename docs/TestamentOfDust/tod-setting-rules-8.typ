@@ -2,7 +2,7 @@
 
 == 8. How the Afflicted Die, and Hunter's Gear
 === 8.1 Killing Methods and Folklore
-A #strong[killing method] establishes how a vampire can be destroyed. It does not make an ordinary conflict Attack inflict a status. Resolve killing strikes, including beheading, under §5.2. Staking follows its separate procedure below.
+A #strong[killing method] establishes how a vampire can be destroyed. It does not make an ordinary conflict Attack inflict a status or grant an additional action. Resolve rolled killing strikes, including beheading, under §5.2. Explicit automatic killing strikes use their stated procedure, including full-day direct-sun exposure under §7.1. Staking follows its separate procedure below and is not itself a killing method.
 
 
 #figure(
@@ -13,7 +13,7 @@ A #strong[killing method] establishes how a vampire can be destroyed. It does no
     table.hline(),
     [#strong[Beheading]], [Killing method; use §5.2], [The blade must be able to cut through (#emph[heavy], #emph[fine], or sufficient strength). No tier-4+ status prerequisite.],
     [#strong[Fire] (sustained)], [Killing method against a vampire #emph[broken] at physical status tier 5, or a #emph[staked] vampire under the restricted equivalence below; destroys a husk at once], [A burning house, a funeral pyre. Reaching 0 shared Disposition does not itself make a vampire broken.],
-    [#strong[Sunlight]], [No killing strike, but stops recovery and burns over time (§7.1)], [A collapsed vampire left in direct sun for a full day is destroyed.],
+    [#strong[Sunlight]], [Full-day direct-sun exposure is a killing method; use §7.1], [A vampire at Sun-Sick 5 left in direct sun for a full day reaches Sun-Sick 6 and is destroyed by an automatic killing strike, without a roll or Dying clock. Ordinary exposure still follows Sun-Sick's listed gains and tier-5 cap.],
     [#strong[Stake through the heart]], [Not a killing method. Inflicts the special condition #emph[staked]: the vampire can't act or recover while the stake stays in], [Use the Staking procedure below. Finish it with beheading or fire --- or bargain with it while it's helpless.],
     [#strong[Silver]], [Not a killing method. Wounds from #emph[silvered] weapons can't be recovered until the next full day], [An old custom. No one remembers why it works.],
     [#strong[Crosses, garlic, running water, invitations]], [No physical effect], [Folk practice. Some vampires believe in them anyway (below).],

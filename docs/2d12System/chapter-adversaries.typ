@@ -166,7 +166,7 @@ This is pricing guidance, not an unrestricted spend menu. Write a Special's trig
   [Pounce], [1], [Free bonus die on its first Attack in a scene. If it wins, apply Impede to the opposing side's next scripted action under Core Rules §10.6.],
   [Savage Bite], [1], [+1 Power on a successful Attack.],
   [Thick Hide], [0], [Armour 1.],
-  [Venom / Infection], [2], [Hit or compromise adds poisoned-2, rising 1 tier per scene until treated.],
+  [Venom / Infection], [2], [After a successful Attack during a conflict, pay 2 Woe to record one deferred poisoned-2 application against the target. Resolve it when the conflict ends under §6.12, regardless of the outcome; compromise does not cause another application. Outside conflicts, inflict poisoned-2 on the hit instead, paying the same listed cost. Once inflicted, the poisoned status rises by 1 tier per scene until treated; a pending record does not progress.],
   [Howl], [2], [A minion pack (Grit 3) arrives at the end of the exchange.],
   [Bolt], [2], [It leaves the scene.],
 ))
@@ -188,7 +188,7 @@ This is pricing guidance, not an unrestricted spend menu. Write a Special's trig
   [Calls the Works], [2], [Another guardian arrives.],
 ))
 
-#strong[Special procedures and remaining scope.] Last Stand uses §6.10; Fail-safe uses its separate compromise procedure in §6.11; Feed and Shock Field use the outcome-independent deferred-injury procedure in §6.12. These are explicit Special exceptions, not ordinary Attack effects or permissions to cancel protected payments. Shadow-meld expressly permits changing a revealed action but does not permit actor reassignment, undoing resolved effects or cancelling independent actions retroactively. This pass does not change Venom / Infection or settle unstated interactions of other Specials.
+#strong[Special procedures and remaining scope.] Last Stand uses §6.10; Fail-safe uses its separate compromise procedure in §6.11; Feed, Shock Field and Venom / Infection use the outcome-independent deferred-injury procedure in §6.12. These are explicit Special exceptions, not ordinary Attack effects or permissions to cancel protected payments. Shadow-meld expressly permits changing a revealed action but does not permit actor reassignment, undoing resolved effects or cancelling independent actions retroactively. This reconciliation does not settle unstated interactions of other Specials.
 
 == 5. Encounter Budget
 #columns(2, gutter: 6mm)[

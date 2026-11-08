@@ -1,0 +1,140 @@
+name: Playtest feedback
+description: Report observations, rules friction, balance concerns or successful results from any playtest.
+title: "[Playtest]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit one finding per issue. Reports of things that worked are welcome too.
+        Describe what happened before proposing a fix; a suggested change is not an adopted ruling.
+        Use the exact rules revision tested, not historical test assumptions. Omit personal or sensitive player information.
+        For encounter recalibration, the session worksheet is at docs/playtest/encounter-recalibration-session-template.md on the playtest branch.
+  - type: dropdown
+    id: test-type
+    attributes:
+      label: Test type
+      description: Choose the primary focus. Describe overlapping areas in the session context.
+      options:
+        - Encounter recalibration and opposition budgets
+        - Scripted conflicts and action interactions
+        - Area effects, Resistance and Interpose
+        - Adversaries, Boss Phases and Specials
+        - Playbooks, Focuses, abilities and gear
+        - Recovery, injury, Scars and Dying
+        - Frontier creatures, blood, sunlight and staking
+        - Travel, downtime and optional modules
+        - Character creation and advancement
+        - Truths, narrative currency and campaign play
+        - Rules clarity, reference sheets and layout
+        - General session experience or other
+    validations:
+      required: true
+  - type: dropdown
+    id: finding-type
+    attributes:
+      label: Finding type
+      options:
+        - Rules ambiguity or conflicting text
+        - Suspected mechanical or procedure bug
+        - Balance or pacing concern
+        - Usability or reference problem
+        - Positive result or successful interaction
+        - Session observation or other
+    validations:
+      required: true
+  - type: input
+    id: rules-revision
+    attributes:
+      label: Rules revision tested
+      description: Give the branch and commit SHA, or the document version/date if the commit is unknown. Do not guess.
+      placeholder: "playtest at <commit SHA>; source or PDF version"
+    validations:
+      required: true
+  - type: input
+    id: session-reference
+    attributes:
+      label: Session reference
+      description: Session ID and date; link a session record if available. State if this was a solo procedure check rather than table play.
+      placeholder: "Session ID / date / live table, solo check or simulation / record link"
+    validations:
+      required: true
+  - type: textarea
+    id: session-context
+    attributes:
+      label: Session context and setup
+      description: Include only the details relevant to this finding. For a non-conflict test, mark conflict-specific details not applicable.
+      placeholder: |
+        Test question and prediction:
+        Party size, character builds/Advances and starting resources:
+        Conflict type or other procedure:
+        Opposition, Grit/Threat, Roles and Specials:
+        Intent, stakes, Scene Truths and preparation/Superiority:
+        Starting Disposition and opening Woe breakdown:
+        Optional modules, house rules or temporary rulings:
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result and rules basis
+      description: Explain what you expected and cite the relevant file/section or ability. Distinguish a rule from a prediction or legacy difficulty label; unknown is acceptable.
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed result
+      description: Describe the sequence and outcome, including what worked. Separate observations from interpretations. Do not infer individual injuries from ordinary shared Disposition loss.
+      placeholder: |
+        Relevant actions, rolls and Power spending:
+        Resources spent, statuses and pending effects:
+        Outcome, elapsed time/volleys and compromise, if applicable:
+        Where the result differed from the prediction:
+    validations:
+      required: true
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact on this test
+      description: This is the reporter's assessment, not an assigned development priority.
+      options:
+        - Prevented completion or required stopping
+        - Required a temporary ruling or workaround
+        - Completed but materially affected decisions, balance or pacing
+        - Minor friction or presentation issue
+        - No problem observed / positive finding
+        - Uncertain
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and repeatability
+      description: Add session-log links, dice/seed records, screenshots or relevant excerpts. If repeated, give occurrences and attempts; otherwise state that this is one observation. Do not discard inconvenient runs.
+      placeholder: |
+        Relevant log or attachment:
+        Steps or situation needed to repeat:
+        Occurrences / attempts, if known:
+        Differences between runs and possible confounding factors:
+    validations:
+      required: false
+  - type: textarea
+    id: comparison
+    attributes:
+      label: Calibration or paired-run comparison
+      description: Optional. For recalibration, identify the legacy/candidate budget and Woe, what changed, what stayed fixed, and each outcome. A single result does not validate an encounter difficulty band.
+      placeholder: |
+        Run IDs and conditions:
+        Threat/Grit and adjusted starting Disposition:
+        Opening Woe by source:
+        Controlled variable and other differences:
+        Outcome, resource costs, duration and compromise for each run:
+    validations:
+      required: false
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested follow-up or change
+      description: Optional. Identify the next test or a possible fix without treating it as an approved rule. No solution is required to report a finding.
+    validations:
+      required: false

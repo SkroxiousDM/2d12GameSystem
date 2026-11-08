@@ -7,8 +7,10 @@ source integrations recorded below, not a completion certificate for the
 full rewrite. Earlier batches are outside this ledger's scope. Batch 36
 created this record; batch 50 extended it through batch 49. The later-source
 extension preserves that historical table and adds scoped follow-up status.
-These ledger-only updates do not change rules, resolve balance questions
-or update the root changelog or Phase 1 implementation tracker.
+Historical ledger-only updates did not change rules, resolve balance questions
+or update the root changelog or Phase 1 implementation tracker. The dated
+Adversaries reconciliation below also updates the Phase 1 tracker, but not
+the root changelog or gameplay source.
 
 ## Completed source batches
 
@@ -73,11 +75,25 @@ build/playtest validation.
 | Batch 51: conflict procedures and split | `b5b1827d42f6fad7b008d2ef7c222b0c46edf8f1` | Implements free setup Help, versus doubles/Woe and supplementary permissions in §10; splits the source before §10.8 with an explicit include. |
 | Batch 51: resolution and Effects | `f9c2ca265b6231843854ca1ef6c95d46c6bb6c4f` | Reconciles Core Rules §§2 and 5 with §10: ordinary versus setup Help, Difficulty outcomes, exceptional doubles, Woe exceptions and Effects permissions. Quick Reference and broader records remain pending. |
 | Batch 52: Furcifer | `ca671c6a1e27c4a433cd9209e13a69658ec527c8` | Implements the participant-specific opening, Opportunist and Deadly Precision with timing, component, stacking, area and finishing limits. Updates the decision package and adds `batch-52-implementation-status.md`; broader summaries and validation remain pending. |
+| Adversaries Boss Phases and core reconciliation | `fef2b6f9f2d89ebe6dc5f38c8f5746b05ff484de` | Implements explicit fixed boss designation, Special allocation, fixed thresholds, final-total checks, next-volley benefits, Desperate precedence and participation/return boundaries. Reconciles versus doubles/Woe, Power spending, simultaneous setup defeat and reinforcement recovery/compromise references. Does not validate encounter constants or phase balance. |
+| Adversaries initial two-file split | `e5700156c7bffa1c4285392c38b673f8a50f67cc` | Structural-only split preserving the existing entry point and explicitly passing the statblock helper; subsequently extended to three files below. |
+| Adversaries Special procedures and three-file split | `b833e4097d81ec9b45a1a15e2cfa288478965816` | Implements Last Stand §6.10, separate Fail-safe §6.11, and outcome-independent Feed/Shock Field deferred injuries §6.12; integrates rows, resolution/participation/recovery/concession references and checklist. Splits before Boss Phases into part three, preserving the seven templates and worked exchange. File hashes match prepared source; no compilation, PDF, layout or playtest certification. |
+| Venom / Infection reconciliation | `6f9a68307a1f2d98fc950cb9b2077a64e15a8467` | Adds the 2-Woe successful-Attack deferred poisoned-2 application to §6.12, with no second application from compromise. Independent successful Attacks qualify; inflicted poison progresses, pending records do not. Preserves the outside-conflict paid hit. Four targeted replacements across the main file and part two; part three/templates unchanged. |
 
 ### Decision records versus source implementation
 
 - `918ead36134c750cf4834a38526e4fd9bc576c45` recorded Batch 51's approved decisions in `batch-51-core-rulings.md`; that documentation commit alone did not implement them. Use the two Batch 51 source commits above for implementation status.
 - `01d7d369c39c7b21acf152e6a11cee63163c2064` recorded Batch 52's approved proposals; active Furcifer implementation followed in `ca671c6a1e27c4a433cd9209e13a69658ec527c8`.
+
+### Adversaries current status (2026-11-07)
+
+Boss Phases and the scoped Last Stand, Fail-safe, Feed, Shock Field and Venom / Infection procedures are implemented on `draft/conflict-system-rewrite`. Earlier incomplete-trigger, timing and package-credit findings are historical for these entries, not current unanswered decisions. The current costs, tiers, outcome boundaries, phase availability and target restrictions remain those of the implemented source; this ledger adds no rule.
+
+Last Stand postpones eligible defeat for one normal final volley and cannot be rescued through Disposition recovery or reinforcement Grit. Fail-safe is a separate final-defeat compromise effect: detonation/assignment before finishing, actual compromise injury settlement afterward. Feed, Shock Field and Venom / Infection record separately paid applications that resolve after the final outcome and permitted finishing, regardless of outcome, with eligible Resistance/reduction, stacking and subsequent one-time injury credit. Pending records grant no immediate status effect; poison progression starts only once inflicted.
+
+Source assembly is now `../chapter-adversaries.typ` (opening and §§1–5) → `../chapter-adversaries-part-2.typ` (§§6.1–6.12 and seven templates) → `../chapter-adversaries-part-3.typ` (Boss Phases, example and checklist). The first call passes `statblock` explicitly. Keep these imports/calls once; do not separately include parts two or three in the parent rulebook. Rejoining the split after removing its new scaffolding reproduces the prepared implementation; committed file hashes were checked. Those checks establish source preservation, not successful rendering.
+
+This documentation-only reconciliation updates this ledger and `docs/design/rules-audit-phase1-implementation.md`. Root changelog coverage of the new Adversaries commits, other decision/status records, Quick Reference and setting summaries, and the wider active-source sweep remain pending. Encounter constants, phase/Special balance, negative-Edge/highest-die and unrelated deferred rulings remain open for their own review or playtesting. Phase 1 and the full compatibility audit remain open. No compilation, PDF rebuild, rendered-layout verification or playtest is claimed.
 
 ### Current follow-up to historical questions
 
@@ -86,7 +102,8 @@ build/playtest validation.
 - Later ability replacements listed above supersede the corresponding earlier pending-entry notes. Preserve the dated findings and original blob SHAs; do not treat a source edit as proof that every related setting entry or summary is reconciled.
 - Perfect Strike's shared exceptional-doubles procedure is settled by Batch 51. This does not by itself certify every affected entry or summary.
 - Highest-die Resistance thresholds under negative Edge, uninspected setting exceptions and unrelated deferred rulings are not settled by these integrations.
-- Quick Reference, the broader audit/status documents, root changelog and Phase 1 tracker still need their own reconciliation. This ledger extension does not amend those files.
+- The dated Adversaries integrations above settle their recorded boss-phase and Special procedure questions, not encounter calibration or every other Special interaction. Simultaneous setup defeat uses current Core Rules §§10.3 and 10.12; Superiority symmetry/eligibility remain separate playtest flags.
+- The core Quick Reference's Batches 51–52, automatic-success and spending reconciliation is recorded in `ec778fc22c48789df1245cf828352835c2ec4a37` and the Phase 1 tracker. That source integration does not certify new Adversaries summary coverage or rendered layout. This update synchronizes the two trackers for the Adversaries work only; broader audit/status records and root changelog coverage of the new Adversaries commits remain pending.
 
 ## Historical limits of the individual-entry clarifications
 
@@ -138,6 +155,8 @@ without resolving the substantive questions it identifies.
   scoped completion and remaining reconciliation/validation.
 - `legacy-pool-6.9.typ` is retired historical text. It grants no active
   currency, Keepsake or Echo rule.
+- The Adversaries entry point imports/calls parts two and three through the
+  chain documented above; these fragments are not separate rulebook chapters.
 - See `README.md` for included fragments, module replacements and credits;
   its older conflict-source description still needs reconciliation.
 
@@ -174,14 +193,13 @@ source decision resolves them; this extension does not re-audit them.
 2. Complete the active-source sweep for retired Legacy currency, death
    triggers and obsolete section references; preserve historical records
    and ordinary narrative uses of the word legacy.
-3. Reconcile the root `CHANGELOG.md` and Phase 1 implementation tracker
-   with the controlling decisions and actual source commits. The root
-   changelog already records Legacy retirement; the drafts README's
-   request to verify tracker/changelog coverage is not evidence that
-   those records are absent. The full compatibility-batch ledger here
-   has not itself been copied into either record. Reconcile Quick Reference,
-   the drafts README, decision-status notes and the dated ability audit
-   with the later integrations while preserving historical findings.
+3. Reconcile the root `CHANGELOG.md` and other decision/status records with
+   controlling decisions and actual source commits, including coverage of
+   the new Adversaries work. This update synchronizes the Phase 1 tracker
+   and this ledger for that scope only. Earlier root changelog coverage of
+   Legacy and later conflict work remains recorded, not erased or presumed
+   absent. Reconcile remaining Quick Reference/setting summaries, the drafts
+   README and dated ability audit while preserving historical findings.
 4. Compile the current core and setting books, rebuild PDFs and inspect
    rendered layout, tables, cross-references and character-sheet panels.
 5. Run the relevant playtests and recalibrate numerical guidance. Historical

@@ -49,7 +49,15 @@
     grid(columns: (52pt, auto), column-gutter: 6pt, align: horizon,
       text(font: display-font, size: 9pt, fill: blood, weight: 700)[Sun-Sick], tiers())
     v(2pt)
-    note(size: 6.5pt)[In direct sun under the *Day* Truth: +1 tier at the start of each outdoor scene (+2 under _Merciless Sun_). Penalty applies to Sōma and Mētis rolls. Resist with Sōma; a wide hat, dark cloak or partial shade is +1 Sōma Edge for that Resist. No dhampir healing while Sun-Sick. A scene in shade: −2 tiers; night clears it. *Tier 6:* collapse; a whole day in the sun adds a Sōma Scar.]
+    note(size: 6.5pt)[In direct sun under the *Day* Truth: +1 tier at the start of each outdoor scene (+2 under _Merciless Sun_). Penalty applies to Sōma and Mētis rolls. Resist with Sōma; a wide hat, dark cloak or partial shade is +1 Sōma Edge for that Resist. No dhampir healing while Sun-Sick. A full scene in shade or darkness removes 2 tiers; night clears it.
+
+    *Normal cap:* tier 5; ordinary gains and stacking cannot raise it further. *Tier 5:* collapse; Taken Out until carried into shade. Collapse alone causes no Scar or Dying.
+
+    *Full-day exposure:* a dhampir at tier 5 left in the sun for a full day advances to tier 6 and remains Taken Out. Record one Sōma Scar under core limits. Start the core 3-segment Dying clock only if established lethal stakes permit.
+
+    *Rescue:* removal from harmful sunlight stabilises sunlight-caused Dying without erasing marked segments, lowering Sun-Sick or restoring ordinary action. When shade/darkness recovery lowers Sun-Sick below 6 and harmful exposure has ended, clear that clock as definitive care. These provisions do not stabilise or clear Dying caused by another injury.
+
+    Recovery does not remove the Scar or restore pools or Disposition. Repeated exposure follows core Scar Recorded rules; renewed Dying before clock clearance resumes recorded segments. Ordinary Sun-Sick gains remain capped at 5. Full procedure: Frontier Rules §7.1; Core Rules §§6.3 and 6.7.]
     v(3pt)
     grid(columns: (52pt, auto), column-gutter: 6pt, align: horizon,
       text(font: display-font, size: 9pt, fill: blood, weight: 700)[Thirst], tiers(from: 0))
@@ -75,12 +83,15 @@
       [#cb() Long cloak & wide hat (1)], [#cb() Signal mirrors (1) · _Sunlit_],
       [#cb() Horse or mule (0) · _sure-footed_], [#cb() Cyborg horse (0) · _tireless_],
       [#cb() Transfusion kit (1) · +1 vs. Bled], [#cb() Charms (1) · believers only])
+
+    sec([Restricted Staking Equivalence], sub: [Frontier §8.1])
+    note(size: 6.5pt)[_Staked_ remains untiered: no actions or recovery while the stake remains. Solely for sustained fire, count the vampire as broken at physical status tier 5. For a subsequent killing-strike roll, reduce Difficulty by 15 or by 3 per tier of a higher actual negative status, never both; eligible killing-strike ability reductions still apply. No equivalence for staking rolls, other tests, status penalties, Blood Debt, recovery eligibility or ability triggers. Staking gives no automatic killing strike, Scar, Dying or destruction. Extra stakes add no benefit. Removing the stake ends the condition and both equivalences; actual statuses remain.]
   })
 
 #grid(columns: (1fr, 1fr), column-gutter: 14pt,
   {
     sec([Day & Night], sub: [every scene has a time Truth])
-    note(size: 6.5pt)[*Day:* direct sun gives vampires and dhampirs _Sun-Sick_; vampires keep indoors but aren't helpless. *Dusk:* GM +2 Woe; vampires come out. *Night:* vampires and dhampirs ignore darkness; +1 Woe per scene with a vampire present. *Dawn:* a vampire in direct light at the scene's end gains _Sun-Sick_ 2. *Hard to Kill:* a vampire's physical statuses stop at tier 5 without a *killing method* (beheading, or fire on a broken vampire).]
+    note(size: 6.5pt)[*Day:* direct sun gives vampires and dhampirs _Sun-Sick_; vampires keep indoors but aren't helpless. *Dusk:* GM +2 Woe; vampires come out. *Night:* vampires and dhampirs ignore darkness; +1 Woe per scene with a vampire present. *Dawn:* a vampire in direct light at the scene's end gains _Sun-Sick_ 2. *Hard to Kill:* physical statuses normally stop at tier 5; specific exceptions apply. Sun-Sick 5 causes collapse, not ordinary broken activity. A vampire at Sun-Sick 5 left in direct sun for a full day reaches tier 6 and is destroyed by an automatic killing strike, with no roll or Dying clock (§7.1).]
   },
   {
     sec([Bounties & Contracts])

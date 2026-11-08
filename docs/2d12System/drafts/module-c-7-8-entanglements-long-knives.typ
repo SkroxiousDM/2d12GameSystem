@@ -1,5 +1,5 @@
-// DRAFT. Append to chapter-3-module-c-truth-driven-sandbox.typ, inside the columns block, after C.6.
-// Also add to the end of C.5: A faction project changes a Site Truth with an 8-segment clock, a Region Truth with a 12-segment clock, and a Campaign Truth only through a major arc (C.6). Change the 6 or 8 segment project clock to match.
+// Included by chapter-3-module-c-truth-driven-sandbox.typ inside its columns block after C.6.
+// C.5 supplies the basic faction-turn procedure; Module E replaces it when enabled.
 
 === C.7 Session Zero: Entanglements
 Use this at the start of a campaign, after players have picked a Descriptor, Playbook and Focus but before Beliefs, Goals and tags are final. It takes about 60 to 90 minutes for four players. The result is a #strong[story map] and your first Campaign Truths.
@@ -29,16 +29,18 @@ Use this at the start of a campaign, after players have picked a Descriptor, Pla
 
 #strong[Campaign Truths.] Finish by writing #strong[3 to 5 Campaign Truths] (§8) from the map. Each Situation is a candidate, and each Organization that most PCs touch gives one. Mark Organizations that conflict with each other as #strong[faction candidates] for C.8.
 
-#strong[Lines into factions.] When a line joins a PC to an Organization, label it so it converts directly into Module E records:
-- #emph[Sworn member of], #emph[commissioned by]: a membership or office Truth (E.4).
-- #emph[Patron of], #emph[funded by]: a patronage record (E.4).
-- #emph[Owes], #emph[is owed by]: a favor or obligation (E.7).
-- #emph[Fears], #emph[feuds with], #emph[hunted by]: adverse starting Standing (E.3).
-- #emph[Betrayed], #emph[estranged from]: a personal exception (E.4).
-Props and Sets connected to an Organization become assets in its record.
+#strong[Lines into factions.] When a line joins a PC to an Organization, use it to propose the appropriate Module E record, keeping organizational policy separate from personal ties and authority:
+- #emph[Sworn member of], #emph[commissioned by]: a membership or office Truth (E.4). Establish the recognized appointment or process and record its permissions, jurisdiction, duties, duration and removal condition; a line does not grant unlimited command.
+- #emph[Patron of], #emph[funded by]: a patronage record (E.4), stating what is supplied, the service expected, limits and ending conditions.
+- #emph[Owes], #emph[is owed by]: a favor or obligation (E.7). Agree the service, limits, notice and settlement terms rather than treating the line as an unlimited debt.
+- #emph[Feuds with], #emph[hunted by]: grounds for adverse starting Standing when they describe the faction's policy toward the party (E.3). Record the actual relationship; #emph[fears] alone does not establish hostility or change Standing.
+- #emph[Betrayed], #emph[estranged from]: a personal exception when the history concerns that PC rather than the whole party (E.4). It replaces the normal relationship Truth for its subject instead of stacking with it.
+Props and Sets connected to an Organization are candidate assets. Record them as usable faction assets only when ownership, control, access and operational reach support that use (E.2). A line showing interest in a relic or a disputed estate does not itself give the faction possession or the full resources of that place.
+
+#strong[Relationships are not automatic bonuses.] Record relevant Truths with scope, rank and removal condition. A named ally or faction connection does not itself grant free Help, an independent turn, a personal Disposition track or a preparation bonus. Apply the relevant Help, participation and Superiority requirements when the resource actually contributes (Core Rules §10.2--10.3, §10.9; Module E.6).
 
 === C.8 Building Factions: Long Knives
-If Module E is in use, use E.1A instead. Without Module E, build the starting factions for C.5 like this.
+If Module E is in use, use E.1A instead. Without Module E, build the starting factions for C.5 like this. Do not also generate a second starting cluster through this procedure.
 
 1. #strong[Place.] Name the location. Record it as the first Region Truth (C.1).
 2. #strong[Gather.] List the groups the PCs' lines point to: Organizations from the map, plus fragments of them. Note what each wants in the area and who would oppose it.
@@ -52,3 +54,5 @@ If Module E is in use, use E.1A instead. Without Module E, build the starting fa
 6. #strong[Reaction.] Give each other faction a response as a linked clock (§7), opened by the incident.
 7. #strong[Future.] Write the result Truth each clock creates if the PCs do nothing. Make at least one visible to the players, and bad enough that they want to act.
 8. #strong[Involvement.] Note how each PC is pulled in. Appeals from factions should be biased and based on limited information.
+
+#strong[The incident is starting history.] Step 5 establishes an event already completed before ordinary play. It is not permission to cancel a PC's resolved action, skip an ongoing conflict or declare a new faction project complete in response to resistance. Once play begins, use C.5 or Module E's replacement procedure, and respect established intent, stakes and action timing. Campaign-scale changes still require a major arc rather than an ordinary completed Site or Region clock.

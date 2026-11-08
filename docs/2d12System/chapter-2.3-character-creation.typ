@@ -94,7 +94,7 @@ With a +2 cap, a third relevant tag is best used for burning or as Tychē Point 
 ==== Three Different Jobs
 - #strong[Beliefs] state convictions and commitments: why you act. Write one World, one Other, and one Self Belief.
 - #strong[Goal] states a concrete objective for this session or mission: what you want to accomplish next.
-- #strong[Instinct] states an if/then reflex: how you habitually respond. Acting on an Instinct lets you take that action without spending time.
+- #strong[Instinct] states an if/then reflex: how you habitually respond. Acting on an Instinct lets you take that action without spending time, subject to normal resolution and the conflict timing limits below.
 
 Goals are rewritten each session; Beliefs and Instincts can change at milestones (§12.3). Beliefs can justify compels (§4) and meaningful decisions can earn XP (§12.1). They do not create an additional resource.
 
@@ -178,7 +178,7 @@ When [trigger], I [habitual response].
 
 #emph[Example:] "When we enter an unfamiliar place, I identify an escape route before settling in."
 
-Acting on an Instinct lets you take that action without spending time. It does not guarantee success or remove a roll when the normal resolution rules require one.
+Acting on an Instinct lets you take that action without spending time. It does not guarantee success or remove a roll when the normal resolution rules require one. During a scripted conflict, it grants no extra action, interrupt, free script change, actor reassignment or rotation bypass. Resolve a consequential response through an otherwise permitted action or explicit ability; an Instinct cannot rescue a trumped action, allow action while Taken Out or retroactively cancel a resolved effect (§10.5).
 
 ==== Review Before Play
 Read your three Beliefs, Goal, and Instinct aloud. Check that:
@@ -214,6 +214,6 @@ The GM might offer a delegation in exchange for escorting a vulnerable supply ca
 - #strong[Self:] I believe [personal principle]; I will live by it by [commitment], even when [pressure or cost].
 
 === 3.6 Starting Resources
-- #strong[Tychē Points:] start each session with Tychē Points equal to your #strong[Refresh] (base 3; see §4.1).
-- #strong[Load-out:] chosen during play from the playbook's gear list (Blades-style light/normal/heavy load), not bought in advance.
+- #strong[Tychē Points:] at the start of a session, reset to your #strong[Refresh] (base 3), keeping any higher balance up to the Refresh + 3 cap (§4.1). Beliefs and connections grant no extra starting points.
+- #strong[Load-out:] choose light, normal or heavy load before the mission, then declare playbook-kit items during play as needed and mark their load; do not buy a complete item list in advance. Signature items are chosen at creation and count against load when carried; always-carried items and items marked (0) follow their listed rules (Generic Playbooks §2.1). During conflicts, declare active equipment before scripting each exchange; declaring or switching gear does not itself change the assigned script (§10.10).
 ]

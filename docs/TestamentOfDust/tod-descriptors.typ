@@ -24,6 +24,8 @@ Each Descriptor gives (Core Rules §3.1):
 
 Each entry also has a #strong[Frontier hook];: one question to answer at character creation. The answer often becomes your first Belief or a relationship.
 
+#strong[Descriptions are not extra mechanics.] A Descriptor grants its listed benefits, not unstated immunities or outcomes. #emph[Scarred] does not itself record a mechanical Scar toward retirement. #emph[Doomed] does not authorise death without established lethal stakes. Descriptive tags do not automatically inflict statuses, change Disposition or override creature-specific finishing procedures.
+
 === 1.1 Hidden Truths
 Some Frontier pasts are better kept quiet: marks on a throat, a mother nobody named, years served in a household. At creation, you may mark #strong[one] tag from your Descriptor, Focus or playbook as a #strong[Hidden Truth];, agreed privately with the GM.
 
@@ -31,6 +33,8 @@ Some Frontier pasts are better kept quiet: marks on a throat, a mother nobody na
 - #strong[Revealing it:] reveal it yourself in a scene where it matters. You lose the +1 Refresh, #strong[gain 1 Tychē Point] at once, and the tag works normally from then on.
 - #strong[Forced into the open:] another character can uncover it with a Discover effect, or the GM can spend #strong[2 Woe] to reveal it at a dramatic moment. You still gain the Tychē Point.
 - #strong[Good candidates:] #emph[Bitten], #emph[Coveted] and #emph[Doomed] (Descriptors); #emph[Carries Her Mother's Blood] with an unknown mother, #emph[Was Kept and Got Out] and #emph[Once Served a Household] (Focuses).
+
+#strong[Who learns it.] When a secret is revealed, establish who learns it and how. A revelation changes what those characters know going forward; it does not retroactively cancel a resolved action, injury, Disposition loss, accepted payment or settled outcome. Discovering a secret during a conflict does not recalculate Superiority after setup or by itself award an unrelated conflict objective.
 
 == 2. Quick Reference
 #figure(

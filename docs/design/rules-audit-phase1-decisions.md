@@ -66,7 +66,7 @@ Date: 2026-10-29. Source: `docs/design/rules-audit.md`, Phase 1 (rules decisions
 - Vampire content moves from core Adversaries to the Testament of Dust setting book.
 - Module D.6a is made generic and stays in core.
 - Generic playbooks are not used in the Frontier: the 6 generic playbooks are reskinned for the Frontier setting.
-- Walks Between Worlds is not allowed in the Frontier.
+- **Updated designer ruling, 2026-11-07:** Walks Between Worlds is allowed in Testament of Dust using its technological interpretation. This supersedes the 2026-10-29 exclusion; do not introduce a Frontier ban or change the Focus's mechanics as part of setting-neutrality cleanup.
 - Descriptor collisions (Reckless, Cunning): rename the setting descriptors; core keeps its names.
 
 ## Follow-on edits

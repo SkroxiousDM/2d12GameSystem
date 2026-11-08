@@ -15,11 +15,11 @@ Your horse is half-machine, tireless, and as stubborn as you. You\'ve crossed de
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Cyborg Steed];], [You own a cyborg horse (vehicle, 0 load) with tags #emph[never tires] and #emph[armoured flank];. Once per scene, it gives free Help on a Ride, Frontier, or Fight roll.],
-    [2a], [#strong[The Charge];], [In the first exchange of a mounted Fight, your Attacks inflict #strong[+1 tier];.],
+    [1], [#strong[Cyborg Steed];], [You own a cyborg horse (vehicle, 0 load) with tags #emph[never tires] and #emph[armoured flank];. Once per scene, it gives free Help on a Ride, Frontier, or Fight roll. Free Help waives its pool-point cost, not relevance, bonus-dice limits or participation risks. This benefit grants no independent turn.],
+    [2a], [#strong[The Charge];], [In the first exchange of a mounted Fight, your successful Attacks remove #strong[1 additional Disposition] when applying ordinary Attack Disposition loss. When an Attack instead inflicts a harmful status, increase that status by #strong[1 tier];. If an explicit effect inflicts both, choose one component for this bonus, never both. This bonus adds no status to an ordinary conflict Attack and does not improve staking or killing strikes.],
     [2b], [#strong[Upgraded];], [Your horse gains one Implant from the Cyborg Hunter list (Frontier Playbooks §8.1).],
-    [3a], [#strong[Never Caught];], [In Chases, your side\'s Disposition is #strong[+3];, and changing your scripted action costs 1 Momentum.],
-    [3b], [#strong[★ Bond of Steel];], [Your horse becomes a companion that acts on its own in conflicts (one action per exchange, #emph[+1 Attack];), takes its own statuses, and can\'t be Taken Out by minions.],
+    [3a], [#strong[Never Caught];], [In Chases, your side\'s Disposition is #strong[+3];, and changing your scripted action costs 1 Momentum. This changes one unrevealed action at the normal timing; it grants no extra turn or free reassignment.],
+    [3b], [#strong[★ Bond of Steel];], [Your horse becomes a companion that acts on its own in conflicts (one action per exchange, #emph[+1 Attack];), takes its own statuses, and can\'t be Taken Out by minions. Its action occupies one of your side\'s three scripted volleys, not an additional volley. It participates in continuous rotation, has no personal Disposition track, and its removal does not directly subtract shared Disposition.],
   )]
   , kind: table
   )
@@ -63,11 +63,11 @@ Brothers, sisters, cousins: a Hunter clan that rides together, fights together, 
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Family Tactics];], [When you Help your kin PC (from your PC link), or they Help you, the Help costs #strong[0] pool points.],
+    [1], [#strong[Family Tactics];], [When you Help your kin PC (from your PC link), or they Help you, the Help costs #strong[0] pool points. Relevance, bonus-dice limits and participation risks still apply.],
     [2a], [#strong[Kin Rider];], [An NPC sibling or cousin rides with you: a minion group of one with 2 power tags and 1 weakness.],
-    [2b], [#strong[Shared Spirit];], [In conflicts, each kin on your side (PC or NPC) adds #strong[+1 Disposition];.],
+    [2b], [#strong[Shared Spirit];], [At conflict setup, each participating kin on your side (PC or NPC) adds #strong[+1 Disposition];. Count each kin character once and each kin group participant once, not every fictional member of a single group. Joining later does not retroactively recalculate starting Disposition.],
     [3a], [#strong[Avenge My Kin];], [When a kin is Taken Out, gain a free bonus die on every roll against whoever did it until the scene ends.],
-    [3b], [#strong[★ The Family Name];], [Your clan is a #strong[Region Truth] (#emph[\"Nobody crosses the \[name\] clan\"];). Once per session, call on the clan: a warband (Generic Focuses #emph[Warband];) joins you for one mission.],
+    [3b], [#strong[★ The Family Name];], [Your clan is a #strong[Region Truth] (#emph[\"Nobody crosses the \[name\] clan\"];). Once per session, call on the clan: a warband (Generic Focuses #emph[Warband];) joins you for one mission. It acts as one group participant for scripting, rotation and area-effect Disposition bonuses; it has no separate Disposition track.],
   )]
   , kind: table
   )

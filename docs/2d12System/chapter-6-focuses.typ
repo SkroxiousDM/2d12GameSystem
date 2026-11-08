@@ -35,9 +35,12 @@
 Focuses marked #strong[◈ Weird] assume the supernatural, impossible technology, or both. In mundane settings the GM removes them from the list. Every other Focus works in any genre.
 
 === 1.3 Shared Rules Reminders
-- Free bonus dice from Focuses still count toward the #strong[+2 bonus die maximum];.
+- Free bonus dice from Focuses still count toward the #strong[+2 bonus die maximum];. Free waives only the stated resource cost, not action requirements, rotation or participation limits.
 - Abilities that add bonus above the tag cap only do so for the tag they name, and are limited to #strong[+1 above the normal +2 cap (maximum +3)] unless stated otherwise.
-- Only #strong[one cost reduction] applies to a single Effect (e.g. you can\'t combine two \"costs 1 Power instead of 2\" abilities).
+- #strong[Cost reductions:] for Effects other than Create, only one cost reduction applies to a single Effect unless an explicit rule says otherwise. #strong[Create is an explicit exception:] each stated Create discount reduces its cost by 1 Power, to a minimum of 1, from the baseline 2 Power per Truth rank (Core Rules §5). Relevance alone supplies no discount.
+- #strong[Automatic success:] use the ability's listed Power for an otherwise permitted action under Core Rules §10.5. It does not rescue a trumped action, grant an extra turn, change the script or win the whole conflict by itself. No roll produces no dice-based critical or complication.
+- #strong[Separate benefits:] additional Power, Disposition loss and status tiers affect only their stated component. Ordinary conflict Attacks and Feints inflict no status or pool loss without explicit permission (§10.6). A general Effect reference does not settle the open supplementary action-permission list (§5).
+- #strong[Healing and payments:] Restore-cost discounts do not lift the ordinary 1-tier lasting-injury treatment limit (§6.6). Generic prevention, redirection, Resistance and incidental clearing cannot cancel protected payments (§10.7). Later healing does not restore Disposition, refresh an injury trade or erase a Scar, and returning a Taken Out ally to an ongoing conflict requires explicit permission (§6.4).
 ]
   
 == 2. Quick Reference

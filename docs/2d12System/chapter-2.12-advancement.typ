@@ -18,11 +18,19 @@ The Belief question awards at most #strong[1 XP per session], not 1 XP per Belie
 === 12.2 Spending XP (every 6 XP = 1 Advance)
 - +1 to a skill (following the pyramid rule)
 - +3 to one pool, or +1 Edge (max 3 Edge per pool)
-- A new playbook special ability (★ abilities also cost 1 Refresh)
+- A new playbook special ability (★ abilities also cost 1 Refresh; veteran acquisition costs are additional, below)
 - A new power tag, or rewrite a weakness tag into a power tag
 - #strong[+1 Refresh] (buys back Refresh spent on abilities or artifacts; max base 3 + 1 per 3 Advances)
-- A Focus ability from the next tier (requires 3 Advances per tier)
+- A higher-tier Focus ability: Tier 2 after 3 Advances; Tier 3 after 6 Advances. Taking the ability costs an Advance; reaching the threshold does not grant it automatically (Focus Rules §1.1).
 - #strong[+1 Effort Level] (to Level 2 after 3 Advances; Level 3 after 9 Advances)
+
+#strong[Focus choices.] Tier 1 is gained at creation. At Tiers 2 and 3, choose one of the tier's two options when buying that ability. Once eligible for the tier, its unchosen option can be taken later as a normal Advance. A ★ option also costs 1 Refresh when taken. These prerequisites and prices follow Focus Rules §1.1, not an additional charge for each lower tier.
+
+#strong[Veteran abilities.] After 6 Advances, an ability from another playbook may be taken as an Advance. It costs 1 Refresh in addition to any ★ cost: a veteran ★ ability therefore costs 2 Refresh. This is a different acquisition route from a creation extra; do not charge the creation-extra price again (Playbook Rules §1.2).
+
+#strong[Capstones.] A capstone unlocks after 12 Advances if the character has at least 4 abilities from that playbook. It costs no Refresh, and a character can have only one capstone. Use the detailed playbook rule for its acquisition; this summary adds no automatic award or additional XP price (Playbook Rules §1.2).
+
+#strong[Refresh limits.] Apply the minimum Refresh of 1 and the current Refresh cap when making purchases (§4.1). The minimum concerns the Refresh rating, not current Tychē Points. New abilities retain their action requirements, timing and protected-payment limits; an Advance does not grant an extra scripted turn or reset an ongoing conflict.
 
 === 12.3 Reviewing Beliefs and Instincts
 Review the relevance of your Beliefs at session end; ordinary revisions happen at milestones. Reaffirm, revise, or replace them to reflect development in play.

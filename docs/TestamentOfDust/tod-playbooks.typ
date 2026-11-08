@@ -24,6 +24,10 @@
   , kind: table
   )
 
+#strong[Frontier playbooks replace the generic versions.] In Testament of Dust, use Sellsword instead of Bellator, Stalker instead of Furcifer, Frontier Doctor instead of Savant, Broker instead of Interlocutor, Rider instead of Explorator, and Occultist instead of Adept. These six Frontier playbooks replace their corresponding generic versions; the generic versions are not additional character options in this setting. Mutant, Cyborg Hunter and Warden are additional Frontier playbooks.
+
+References to generic playbooks explain the underlying system or identify a reskin's source; they do not grant access to the replaced generic ability lists.
+
 #strong[Dhampirs] are not a playbook. Any playbook can take the Focus #emph[Carries Her Mother\'s Blood] (#emph[Frontier Focuses];).
 
 #strong[Skill names] follow #emph[Frontier Rules] §3 (Ride, Frontier, Old Lore, Science, Occult).

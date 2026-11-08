@@ -146,12 +146,14 @@ Rank measures how dangerous a vampire is #strong[now] --- its resources, supply,
 === 5.2 Hard to Kill
 Vampires survive wounds that would kill anyone else.
 
-- A vampire's physical statuses #strong[can't go above tier 5] unless the Attack uses a #strong[killing method] (§8.1). At tier 5 the vampire is #emph[broken]: it can still act, at −2 on physical rolls.
-- #strong[Recovery needs blood.] A wounded or broken vampire that rests a full day #strong[and] takes at least half a litre of blood recovers all physical statuses. Without blood, it recovers only 1 tier per day.
+- A vampire's physical statuses #strong[can't go above tier 5] unless the Attack uses a #strong[killing method] (§8.1). At tier 5 the vampire is #emph[broken]: it can still act, at −2 on physical rolls. This protection does not prevent objective-based defeat or cancel an accepted payment; ordinary Disposition loss does not create a physical status.
+- #strong[Recovery needs blood.] A wounded or broken vampire that rests a full day #strong[and] takes at least half a litre of blood recovers all physical statuses. Without blood, it recovers only 1 tier per day. Status recovery does not restore shared Disposition or undo a settled outcome.
 - #strong[Wounds make it hungry.] Each time a vampire is #emph[broken], tick its #strong[Blood Debt clock] (§5.4) by 1.
 
 ==== Killing Strikes
-In a scripted conflict, reducing a vampire side's shared Disposition to 0 wins the declared conflict; it does not by itself destroy each vampire on that side. If destroying a particular vampire is within the established lethal stakes, name that vampire and use an eligible killing method against it.
+In a scripted conflict, reducing a vampire side's shared Disposition to 0 wins the declared conflict; it does not by itself destroy each vampire on that side. If destroying a particular vampire is within the established lethal stakes, name that vampire and use an eligible killing method against it. Where destruction requires this finishing procedure, victory secures the opportunity to attempt it rather than automatic destruction.
+
+#strong[Timing.] Complete the deciding volley, including all independent actions, and determine victory or mutual defeat first. Resolve any killing strike the outcome permits before settling compromise. Do not apply a proposed compromise status early solely to reduce the killing-strike Difficulty.
 
 Make one killing-strike roll against the named vampire using a fitting skill and method. Set the base Difficulty by the vampire's Rank:
 
@@ -165,11 +167,11 @@ Make one killing-strike roll against the named vampire using a fitting skill and
 
 Reduce the Difficulty by one step --- 3 points --- for each tier of the target's highest negative status. Use only the highest tier; do not add different statuses together. There is no minimum Difficulty.
 
-#strong[Ability reductions stack.] Apply every killing-strike Difficulty reduction whose conditions you meet, in addition to the reduction from the target's highest negative status. Each one-step reduction lowers the target by 3. There is no minimum Difficulty. These reductions do not apply to staking unless an ability explicitly says they do.
+#strong[Ability reductions stack.] Apply every killing-strike Difficulty reduction whose conditions you meet, in addition to the reduction from the target's highest negative status. Each one-step reduction lowers the target by 3. There is no minimum Difficulty. These reductions do not apply to staking unless an ability explicitly says they do. Bonuses to status tiers or ordinary Disposition loss do not modify a killing strike unless expressly stated.
 
 A success destroys the vampire. On a failure, it is not destroyed: the GM states a significant complication that fits the stakes, such as escape, a rescue attempt or a dangerous reversal. The players may #strong[give the GM 2 Woe] to buy off that complication. Buying off the complication does not turn the failed strike into a success.
 
-Resolve the established conflict outcome and compromise separately. A failed killing strike does not automatically impose a Significant compromise.
+Resolve the established conflict outcome and compromise separately. A failed killing strike does not automatically impose a Significant compromise, reopen the original conflict or reset Disposition.
 
 Beheading follows this procedure. There is no separate beheading difficulty table or tier-4+ status prerequisite. Staking remains a separate special case (§8.1).
 
@@ -203,7 +205,7 @@ Every vampire needs blood regularly. The GM tracks each vampire NPC's hunger on 
 === 5.5 Husks
 Sometimes a starved vampire is found dried, light and rigid, like a corpse a century dead. Stories say such bodies can wake. Stories also say they burn like kindling.
 
-- A husk is #strong[unconscious and helpless]. Any killing strike against it succeeds automatically, and #strong[fire destroys it at once].
+- A husk is #strong[unconscious and helpless]. Any killing strike against it succeeds automatically, and #strong[fire destroys it at once]. These specific finishing exceptions do not grant an extra scripted action or destroy other participants on its side.
 - Waking one takes about three people's worth of blood, absorbed over hours or days. It wakes at Blood Debt 5.
 
 === 5.6 The Returned
@@ -216,7 +218,7 @@ Not everyone the Kept try to make becomes one of them. The making is dangerous a
 - #strong[NPCs only:] the returned are not a player option. A PC who survives a failed making leaves player control (§6).
 
 == 6. The Bled
-When a vampire feeds on someone --- or anyone loses a great deal of blood --- the victim gains the harmful status #strong[#emph[Bled]]. Bled is a physical injury caused by blood loss, not depletion or a supernatural affliction. Resist with #strong[Sōma] when the blood is taken.
+When a vampire feeds on someone --- or anyone loses a great deal of blood --- the victim gains the harmful status #strong[#emph[Bled]]. Bled is a physical injury caused by blood loss, not depletion or a supernatural affliction. Resist with #strong[Sōma] when the blood is taken, unless the Bled is an accepted payment.
 
 #figure(
   [#table(
@@ -234,12 +236,12 @@ When a vampire feeds on someone --- or anyone loses a great deal of blood --- th
   , kind: table
   )
 
-#strong[Penalty exception.] Bled's listed roll penalties replace the normal penalty equal to status tier; do not apply both. Bled hinders physical activity using Sōma or Mētis within that scope.
+#strong[Penalty exception.] Bled's listed roll penalties replace the normal penalty equal to status tier; do not apply both. Bled hinders physical activity using Sōma or Mētis within that scope. Bled retains the core tier-6 Scar procedure, including its limits against duplicate Scars.
 
-- #strong[Gaining tiers:] a measured feeding inflicts Bled-1. A hard feeding is an Attack (+2 or more). Stacking rules apply.
+- #strong[Gaining tiers:] a measured feeding inflicts Bled-1. A hard feeding is an Attack (+2 or more). Stacking rules apply. Ordinary conflict Attacks do not inflict Bled merely because their narration includes a bite; an explicit effect must grant the status.
 - #strong[Recovery:] pools and Bled recover separately. Restoring pools does not remove Bled. Once further blood loss has stopped, Bled-1 clears after a full night's safe rest with food and water. At tiers 2--5, appropriate care and a full day of safe rest with food and water remove one tier. These intervals replace the core injury-healing intervals for Bled. At tier 6, definitive care is required before natural recovery begins.
 - #strong[Dying from Bled:] only Bled reaching tier 6 can make you Dying. Use Core Rules §6.7 for the Dying clock, stabilisation, further harm and definitive care; there is no separate scene-end death deadline. Stabilising stops the clock but does not lower Bled, restore pools or return you to ordinary action.
-- #strong[Transfusion:] with a willing donor and a transfusion kit, a Medicine roll vs. Standard 15 lowers Bled by 1 tier per Power. The donor gains Bled-1. This is an explicit exception to the ordinary one-tier injury-treatment limit and its #emph[treated] restriction: a treated Bled injury can still benefit from transfusion. At Bled-6, suitable transfusion can provide definitive care under Core Rules §6.7. When it lowers Bled below tier 6 and removes the immediate lethal cause, clear the Dying clock. It does not restore pools or erase a Scar.
+- #strong[Transfusion:] with a willing donor and a transfusion kit, a Medicine roll vs. Standard 15 lowers Bled by 1 tier per Power. The donor gains Bled-1 as an accepted payment; prevention, reduction, redirection, Resistance and incidental clearing benefits cannot cancel it. Once recorded, it recovers normally. This is an explicit exception to the ordinary one-tier injury-treatment limit and its #emph[treated] restriction: a treated Bled injury can still benefit from transfusion. At Bled-6, suitable transfusion can provide definitive care under Core Rules §6.7. When it lowers Bled below tier 6 and removes the immediate lethal cause, clear the Dying clock. It does not restore pools or erase a Scar.
 - #strong[Frontier law:] where optional Truth 8 is in play, anyone known to be bled is examined, confined or exiled. Hiding the marks is a common compel.
 - A PC who is Drained and made a vampire, or who survives a failed making as one of the returned (§5.6), leaves player control.
 
@@ -270,6 +272,8 @@ Under the #strong[Day] Truth, in direct sunlight, the afflicted gain #strong[#em
 - A vampire at Sun-Sick 4+ also gains #emph[burning-1] each scene in the sun.
 - #strong[Recovery:] a full scene in shade or darkness lowers Sun-Sick by 2 tiers. At night it clears completely.
 - #strong[Tier 6:] collapse. Taken Out until carried into shade. A dhampir left for a whole day gains a Sōma Scar. A vampire left in direct sun for a full day is destroyed.
+
+#strong[Specific breaking-point rule.] Sun-Sick uses the collapse and prolonged-exposure consequences listed here instead of the generic tier-6 Scar trigger. Reaching Sun-Sick 6 does not itself grant an additional Scar. This exception does not prevent a separate harmful status, such as burning, from producing its own outcome under the core rules and Scar limits. Recovering from Sun-Sick does not restore shared Disposition or undo a settled defeat.
 
 === 7.2 The Thirst
 Dhampirs have a #strong[Thirst] status, tier 0--6. It doesn't penalise rolls until tier 3. A dhampir has no weekly need for blood; the Thirst rises only from what happens to them.
@@ -306,6 +310,8 @@ Dhampirs have a #strong[Thirst] status, tier 0--6. It doesn't penalise rolls unt
   )]
   , kind: table
   )
+
+#strong[Specific breaking-point rule.] Thirst uses Blood Crisis and its listed Scar consequences instead of the generic tier-6 Scar trigger. Reaching Thirst 6 does not itself add a Scar or Take you Out before you make the Blood Crisis choice. Feeding does not grant an unstated tier-6 Scar; the separately listed first forced-feeding Scar still applies when its condition is met. Refusing grants the listed Pneuma Scar, not a duplicate generic Scar. Apply core limits against duplicate Scars from one event. Lowering Thirst does not restore shared Disposition, reopen a settled outcome or erase a recorded Scar.
 
 #strong[Never feeding] is a Belief, not a rule. Blood Crisis keeps the choice, and the cost of refusing, with the player.
 

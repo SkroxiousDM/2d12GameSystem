@@ -6,7 +6,7 @@
 #strong[Roll 2d12 + Skill + Modifiers vs. Difficulty.]
 
 - #strong[Skill:] +0 to +4 (from the skill pyramid; untrained = +0).
-- #strong[Tags:] +1 per relevant #strong[power tag];, #strong[maximum +2 per roll];. −1 per relevant #strong[weakness tag] (no cap).
+- #strong[Tags:] +1 per relevant #strong[power tag];, #strong[maximum +2 per roll];. −1 per relevant #strong[weakness tag] (no cap). Apply an explicit tag-cap exception only within its stated scope; the usual +1 exception permits at most +3 from tags.
 - #strong[Statuses:] ± the tier of the highest relevant harmful status and the highest relevant helpful status.
 - #strong[Truths:] shift Difficulty by steps (§8), not the roll: one step per rank, ±3 steps at most.
 
@@ -69,19 +69,29 @@ You can add d12s to the roll and #strong[keep the best two];. Maximum #strong[+2
     [#strong[Effort] (Cypher)], [3 points from the relevant pool, minus that pool\'s Edge (min 0)],
     [#strong[Momentum] (2d20)], [1 for the first die, 2 for the second],
     [#strong[Woe] (2d20)], [Give the GM 1 Woe per die],
-    [#strong[Help];], [An ally spends 1 point from a pool and risks sharing the consequences],
+    [#strong[Ordinary Help];], [An ally spends 1 point from a pool and risks sharing the consequences],
   )]
   , kind: table
   )
 
-#strong[Effort (revised).] Each use of Effort costs 3 − Edge from the relevant pool. You may use Effort a number of times per roll equal to your #strong[Effort Level] (1 at start; 2 and 3 are unlocked by advancement). Each use buys one of:
+#strong[Effort (revised).] Each use of Effort costs 3 − Edge from the relevant pool, minimum 0. You may use Effort a number of times per roll equal to your #strong[Effort Level] (1 at start; 2 and 3 are unlocked by advancement). Each use buys one of:
 
 - #strong[+1 bonus die] --- declared before rolling.
 - #strong[+1 Power] --- declared #strong[after] a Success or Success at a Cost (Cypher\'s \"effort on damage\"). It cannot turn a failure into a success.
 
 Example: Effort Level 2 lets you buy one bonus die before the roll, then spend again for +1 Power if you succeed.
 
+#strong[Pay each cost.] Effort and ordinary Help are voluntary costs and must be paid in full; they cannot overrun an insufficient pool unless an explicit rule allows it (§6.1). Spending the exact last points still runs the pool dry. Pay each separately listed cost when its rule says; do not combine or split payments to change running-dry consequences. A final cost of 0 never runs the pool dry. If paying a cost takes you out, finish the action whose cost caused it, but do not buy more Effort or activate more abilities for that action. Complete independently resolving actions before checking victory.
+
+#strong[Free benefits and setup Help.] Free bonus dice still count toward the +2 bonus-dice cap. Ordinary free Help waives its pool-point cost, not relevance or participation risks.
+
+Conflict setup Help costs no pool points. Before the leader rolls, each eligible helper explains a meaningful contribution and commits to the side's stakes. Each adds +1 starting Disposition, without an ordinary Help bonus die (§10.2). A free-Help ability adds no further setup benefit unless expressly stated.
+
+A character unable to contribute cannot help. Later unavailability does not subtract their contribution or recalculate starting Disposition. Free benefits grant no additional scripted turn (§10.5).
+
 === 2.5 Outcomes
+For tests against a Difficulty, use the following outcomes. Versus tests use opposing totals under §10.5 instead.
+
 #figure(
   [#table(
     columns: (24%, 76%),
@@ -97,17 +107,32 @@ Example: Effort Level 2 lets you buy one bonus die before the roll, then spend a
   )
 #strong[Power] = 1 for meeting the target, +1 for every full 3 points over it. Power is spent on #strong[Effects] (§5). Any Power you don\'t spend becomes #strong[Momentum] (party pool, max 6).
 
+#strong[Scripted conflict exception.] Use the interaction procedure in §10.5 and consequence restrictions in §10.7. An ordinary failed independent conflict test generates its usual 1 Woe, but does not also authorise an unrelated GM move, automatic injury or extra Disposition loss.
+
+Losing or tying a versus test generates no ordinary-failure Woe. A trumped action makes no roll, produces no effect and generates no ordinary-failure Woe. Apply this symmetrically to player and GM actors. Costs already paid remain spent; separately triggered complications and explicit Woe rules still apply.
+
+Independent Success at a Cost grants 1 Power with the restricted cost options in §10.7. Losing a versus test by 1--3 does not qualify.
+
+#strong[Automatic success.] An explicitly granted automatic success replaces the roll for an otherwise permitted action, not an additional turn or a bypass of the interaction. Apply the listed Power and the opposed-automatic-success procedure in §10.5. With no roll, there is no dice-based critical or complication.
+
 === 2.6 Doubles (Twists)
 If your two #strong[kept] dice show the same number:
 
 - #strong[On a success:] Critical --- +1 Power and add a narrative flourish.
 - #strong[On a failure or cost:] Complication --- the GM introduces a complication right away.
-- #strong[Double 12s:] always a success with +2 Power. #strong[Double 1s:] always a complication, even on a success.
+- #strong[Double 12s on an independent test:] always succeed and add +2 Power instead of the ordinary +1 doubles critical.
+- #strong[Double 1s:] always cause their normal complication, but do not automatically lose. Successful double 1s also receive the ordinary +1 critical Power.
 - #strong[Buying it off.] When the dice give you a complication (a twist, or a Risky roll, §2.7), you may cancel it by giving the GM #strong[2 Woe]: a problem now, or a problem later. If you keep it and the GM can't think of a fitting complication, the GM gains the 2 Woe instead.
 #colbreak()
 - #strong[NPCs.] When the dice give an NPC a complication, the GM may spend #strong[2 Woe] to cancel it. Otherwise the GM describes the complication, or invites the players to.
 
 Base chance of doubles on 2d12 is about 8% (1 in 12).
+
+#strong[Versus tests.] Compare opposing totals normally. Double 12s do not override a higher opposing total or break an exact tie. Winning ordinary doubles add +1 Power to the margin-based award; winning double 12s add +2 instead. Losing or tied doubles grant no Power or normal action effect. Double 1s still cause their normal complication even on a loss or tie; they do not automatically lose.
+
+Apply these procedures equally to rolled doubles and doubles created by an explicit ability, including Perfect Strike.
+
+#strong[In conflicts.] Doubles complications remain within the established stakes and action's scale; they do not cancel independently resolving actions or retroactively change scripts (§10.7).
 
 === 2.7 Risky Rolls (Optional)
 Some rolls aren't harder, just more dangerous. Before a roll, the GM may call it #strong[Risky 1], #strong[2] or #strong[3].

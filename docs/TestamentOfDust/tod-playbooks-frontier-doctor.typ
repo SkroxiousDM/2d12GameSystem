@@ -28,14 +28,14 @@ The only doctor for a hundred kilometres. You sew up Hunters, deliver babies, an
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Field Surgeon];], [Restore effects from your Medicine rolls remove #strong[2 tiers per Power];. (One cost reduction per Effect.)],
+    [1], [#strong[Field Surgeon];], [Restore effects from your Medicine rolls remove #strong[2 tiers per Power];. (One cost reduction per Effect.) Increased Restore output does not override lasting-injury treatment limits unless another rule explicitly does so.],
     [2], [#strong[Treat the Bled];], [Your Medicine rolls to stabilise a character Dying from #emph[Bled] are #strong[Standard 15] instead of Hard 18. You can give a transfusion without a kit. Other treatment limits remain unchanged unless another ability explicitly overrides them.],
     [3], [#strong[Read the Body];], [When you examine a victim, a corpse, or a slain creature, ask #strong[2 free Discover] questions about what did it and how.],
     [4], [#strong[Anatomy of Monsters];], [When you tell an ally a creature\'s weak point (a Discover you made this scene), that ally\'s next successful Attack on it gains #strong[+1 Power];.],
     [5], [#strong[Chemist];], [In the Players\' Turn, spend 1 Check to make one cypher from: #emph[healing gel] (tier 2), #emph[mind-seal patch] (tier 2), #emph[blood ampoule] (tier 2), or #emph[iron tonic] (tier 2: Restore #emph[Bled] by 1 tier).],
     [6], [#strong[Bedside Manner];], [Use Medicine or Empathy to Restore fear and despair statuses. Once per scene, a successful roll removes #emph[Frightened Villagers] from the scene.],
     [7], [#strong[★ Not on My Table];], [Once per session, when an ally is Taken Out by physical harm, they don\'t die: they\'re stabilised at tier 5, and wake after 10 minutes of safe care.],
-    [8], [#strong[★ Serum];], [With a sample of a specific vampire\'s blood, run a downtime clock (6 segments). When it fills, you turn one of its weakness tags into a #strong[killing method] (Frontier Rules §8.1), and the party\'s Attacks against it inflict #strong[+1 tier];.],
+    [8], [#strong[★ Serum];], [With a sample of a specific vampire\'s blood, run a downtime clock (6 segments). When it fills, you turn one of its weakness tags into a #strong[killing method] (Frontier Rules §8.1). The party\'s successful conflict Attacks against it remove #strong[1 additional Disposition] when applying ordinary Attack Disposition loss. When an Attack instead inflicts a harmful status, increase that status by #strong[1 tier];. If an explicit effect inflicts both, choose one component for this bonus, never both. This bonus adds no status to an ordinary conflict Attack and does not improve staking or killing strikes.],
     [◆], [#strong[The Blood Bank];], [You run a reliable blood exchange. Transfusions you oversee need no roll, and once per session you can supply half a litre of blood to anyone who needs it. This becomes a #strong[Region Truth] (#emph[\"The doctor keeps blood\"];), and vampire households will send for you, or send against you.],
   )]
   , kind: table
@@ -50,7 +50,7 @@ The only doctor for a hundred kilometres. You sew up Hunters, deliver babies, an
     align: (auto,auto,),
     table.header([Option], [Item],),
     table.hline(),
-    [#strong[A];], [#strong[Doctor\'s bag] (1) --- #emph[surgeon\'s tools];; once per scene, a Restore removes +1 extra tier],
+    [#strong[A];], [#strong[Doctor\'s bag] (1) --- #emph[surgeon\'s tools];; once per scene, a Restore removes +1 extra tier; this does not override lasting-injury treatment limits],
     [#strong[B];], [#strong[Old-world medical scanner] (1) --- once per scene, free Discover about one body\'s condition, poisons, or mutations. Depletion 1 in d12 (needs a new power cell)],
   )]
   , kind: table

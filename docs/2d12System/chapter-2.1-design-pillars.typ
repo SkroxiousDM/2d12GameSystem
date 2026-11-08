@@ -21,7 +21,7 @@
 #block[
 #set enum(numbering: "1.", start: 2)
 + #strong[One roll, many outputs.] A single 2d12 roll tells you whether you succeed, how well (Power), and whether something twists (doubles).
-+ #strong[Fiction is mechanical.] Tags (on characters and items) and Truths (on scenes and the world) are the only modifiers. No hidden situational math.
++ #strong[Fiction is mechanical.] Tags, statuses and Truths give recorded fictional circumstances mechanical weight. Apply skills and explicit ability or procedure modifiers as their rules state; do not invent hidden situational math. Truths normally shift Difficulty, while tags and relevant statuses modify the roll (§2, §5, §8).
 + #strong[Characters are driven, not just capable.] Beliefs, Goals, and Instincts are the primary engine for earning Tychē Points and XP.
 ]
 ]

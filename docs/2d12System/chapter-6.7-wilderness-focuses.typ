@@ -18,10 +18,10 @@ Beast handler, rider, falconer, or dog-musher.
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Handler];], [Calm or command ordinary animals with Empathy. If you have an Animal Companion, it gains #strong[+1 power tag];.],
-    [2a], [#strong[Pack Tactics];], [Your animals give #strong[free Help] once per scene.],
+    [2a], [#strong[Pack Tactics];], [Your animals give #strong[free Help] once per scene. Free waives the pool-point cost, not relevance, bonus-dice limits or participation risks, and grants no independent turn.],
     [2b], [#strong[Beast Lore];], [Once per scene, Discover a creature\'s weakness tag without rolling.],
-    [3a], [#strong[★ The Pack];], [Gain a group of animals (hounds, ravens, horses) with 2 power tags and 1 weakness. It acts as one group and takes statuses as a single target.],
-    [3b], [#strong[Trusted Mount];], [Gain a superb mount (or upgrade one). In Chase conflicts your side gets #strong[+3 Disposition];, and the mount carries 3 extra load.],
+    [3a], [#strong[★ The Pack];], [Gain a group of animals (hounds, ravens, horses) with 2 power tags and 1 weakness. It acts as one group and takes statuses as a single target. If it acts independently in a conflict, it is one participant in your side\'s three-action script, continuous rotation and area-effect Disposition bonuses, not one per animal. It has no personal Disposition track or injury trade unless explicitly granted one; its removal does not directly subtract shared Disposition.],
+    [3b], [#strong[Trusted Mount];], [Gain a superb mount (or upgrade one). In Chase conflicts your side gets #strong[+3 starting Disposition];, and the mount carries 3 extra load. Apply the +3 at full value with other flat starting-Disposition modifiers, before the minimum of 1 and opposing Superiority (Core Rules §10.2--10.3). Changing conflict type within the same unresolved struggle does not refresh Disposition or reapply setup bonuses.],
   )]
   , kind: table
   )
@@ -41,11 +41,11 @@ Explorer, navigator, or surveyor drawn to the blank parts of the map.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Carto-grapher];], [Any area you\'ve travelled becomes a #strong[map] (story tag). It permanently lowers travel Difficulty there by one step.],
+    [1], [#strong[Carto-grapher];], [Any area you\'ve travelled becomes a #strong[map] (story tag). It permanently lowers travel Difficulty there by one step. Apply this reduction when testing against a travel Difficulty in that area, including an eligible independent conflict test; do not convert it into a modifier to opposing totals in a versus test (Core Rules §10.5).],
     [2a], [#strong[Shortcut];], [Once per journey, skip one leg entirely (no rolls, no Supplies spent).],
-    [2b], [#strong[First Contact];], [Your first Persuade or Empathy roll with a new people or culture gets a #strong[free bonus die];.],
+    [2b], [#strong[First Contact];], [Your first Persuade or Empathy roll with a new people or culture gets a #strong[free bonus die];. The normal bonus-dice cap applies.],
     [3a], [#strong[Discoverer];], [Once per session, discover a new site (Module C). You define #strong[one of its three Truths];.],
-    [3b], [#strong[★ Lands Unknown];], [When the party enters an uncharted region, you name #strong[one Region Truth];.],
+    [3b], [#strong[★ Lands Unknown];], [When the party enters an uncharted region, you name #strong[one Region Truth];. This cannot contradict resolved events or retroactively recalculate Superiority after setup.],
   )]
   , kind: table
   )
@@ -66,8 +66,8 @@ Survivalist, forager, or homesteader: you need nothing the world doesn\'t give.
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Forager\'s Eye];], [The party loses Supplies only #strong[every other leg];. You clear #emph[Hungry & Thirsty] with an Easy Survival roll.],
-    [2a], [#strong[Shelter Builder];], [Allies who rest in a camp you built each clear #strong[one Grind condition];.],
-    [2b], [#strong[Natural Remedies];], [Use Survival in place of Medicine for Restore effects, using what you gather.],
+    [2a], [#strong[Shelter Builder];], [Allies who rest in a camp you built each clear #strong[one Grind condition];. This recovery does not restore Disposition, refresh injury trades or erase Scars.],
+    [2b], [#strong[Natural Remedies];], [Use Survival in place of Medicine for Restore effects, using what you gather. This substitutes the skill; normal lasting-injury treatment limits still apply unless explicitly overridden.],
     [3a], [#strong[Hardened];], [Your personal Grind clock is #strong[2 segments larger];, and you ignore #emph[Exposed];.],
     [3b], [#strong[★ Living Larder];], [The party never runs out of Supplies in any wild terrain that supports life.],
   )]
@@ -89,10 +89,10 @@ Driver, pilot, sailor, or rider: you and your vehicle are one.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Signature Vehicle];], [Gain a vehicle (horse and cart, truck, canoe, starship) with #strong[2 power tags];, or give your existing one 2 more.],
-    [2a], [#strong[Stunt Driver];], [In Chase conflicts, your Maneuvers gain #strong[+1 Power];.],
-    [2b], [#strong[Grease Monkey];], [Repair your vehicle in the field with Craft. Restore on vehicle statuses costs #strong[1 Power per 2 tiers];.],
-    [3a], [#strong[Ace];], [Once per scene, reroll a Drive/Pilot roll for free.],
+    [1], [#strong[Signature Vehicle];], [Gain a vehicle (horse and cart, truck, canoe, starship) with #strong[2 power tags];, or give your existing one 2 more. These tags remain subject to normal relevance and tag-cap rules; owning the vehicle grants no independent scripted turn.],
+    [2a], [#strong[Stunt Driver];], [In Chase conflicts, your successful Maneuvers gain #strong[+1 Power];. This cannot turn a failure or a trumped action into a success.],
+    [2b], [#strong[Grease Monkey];], [Repair your vehicle in the field with Craft. Restore on vehicle statuses costs #strong[1 Power per 2 tiers];. Repairs do not restore shared Disposition, refresh injury trades or erase Scars.],
+    [3a], [#strong[Ace];], [Once per scene, reroll a Drive/Pilot roll for free. Declare this after reading the dice but before spending Power or applying the roll\'s consequences. It rerolls the same action, not an additional action, and cannot reopen a settled outcome.],
     [3b], [#strong[★ Legendary Ride];], [Your vehicle becomes an #strong[artifact] with one special ability (ram, jump, stealth mode, impossible speed). It costs no attunement Refresh.],
   )]
   , kind: table

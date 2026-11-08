@@ -8,7 +8,7 @@ Truths become the backbone of an open-world campaign: regions, sites, and factio
 #figure(
   [#table(
     columns: (20%, 50%, 30%),
-    align: (auto,auto,auto,),
+    align: (auto,auto,),
     table.header([Layer], [Example], [Lifespan],),
     table.hline(),
     [#strong[Campaign];], [#emph[The old empire\'s roads still hold its magic];], [Changes only through major arcs],
@@ -19,6 +19,8 @@ Truths become the backbone of an open-world campaign: regions, sites, and factio
   , kind: table
   )
 
+Record scope, rank and removal condition when a Truth matters mechanically (Core Rules §8). Its layer describes scale and persistence, not a larger numerical rank: rank 2 remains the maximum, and the net Difficulty shift remains capped at three steps. A removal condition does not extend a Scene Truth beyond its duration.
+
 === C.2 Site Sheets
 Each location gets a short sheet:
 
@@ -27,6 +29,8 @@ Each location gets a short sheet:
 - #strong[A danger clock] (what happens if the party lingers)
 - #strong[A secret] (something worth discovering)
 - #strong[Rumours] (see C.4)
+
+State the danger clock's actual trigger or deadline. Its presence is not permission to add a tick or an unrelated GM move to every ordinary failed conflict action; use Core Rules §7 and §10.7.
 
 === C.3 Truth Generator Tables (d12)
 Roll once per column or pick.
@@ -54,7 +58,7 @@ Roll once per column or pick.
   )
 
 === C.4 Rumours
-A #strong[rumour] is an unconfirmed Truth. When players confirm it (Discover, investigation, or arriving), the GM rolls d12:
+A #strong[rumour] is an unconfirmed claim, not yet an established Truth. When players test it through Discover, investigation or arriving, the GM rolls d12 to determine what is actually true:
 
 #figure(
   [#table(
@@ -69,20 +73,28 @@ A #strong[rumour] is an unconfirmed Truth. When players confirm it (Discover, in
   , kind: table
   )
 
+Resolve an unsettled rumour with this table; do not use it to retroactively overturn a fact already established by successful investigation. Record the actual finding, including any meaningful difference from the claim. Discovering a hidden Truth reveals what exists; it is not the same as creating a desired fact.
+
 === C.5 Faction Turns
-Between sessions (or each in-world week), the GM takes a #strong[World Turn];:
+#strong[Module E replacement.] If Module E is enabled, use its World Turn procedure (E.10) instead of this section's faction action procedure; do not run both. With Module D, that World Turn takes place after the stay's endeavours (D.7). Retain the rest of Module C.
+
+Without Module E, between sessions (or each in-world week), the GM takes a #strong[World Turn];:
 
 + Each active faction rolls #strong[2d12 + its rating (+1 to +4)] vs. Standard 15 for its current project.
 + Power ticks the faction\'s #strong[project clock] (sized by the change it makes, below).
-+ When a clock fills, the faction #strong[creates, removes, or changes a Region or Campaign Truth] (e.g. #emph[The Guild controls the river] replaces #emph[The river is free];).
++ When a clock fills, the faction #strong[creates, removes, or changes the appropriate Site or Region Truth] (e.g. #emph[The Guild controls the river] replaces #emph[The river is free];). Campaign Truths still require a major arc, not an ordinary completed clock.
 + PCs who hear about it can respond; PC actions can tick faction clocks forward or back using Advance.
 
-A faction project changes a Site Truth with an 8-segment clock, a Region Truth with a 12-segment clock, and a Campaign Truth only through a major arc (C.6).
+A faction project changes a Site Truth with an 8-segment clock, a Region Truth with a 12-segment clock, and a Campaign Truth only through a major arc (C.6). Under Module E, use its declared-project, capability and action rules rather than substituting this basic rating roll.
 
 === C.6 Player Influence on Truths
 - #strong[Discover] effects and Momentum spends reveal hidden Truths.
 - #strong[Create] effects and 2 Momentum create Scene Truths; bigger changes need a progress clock (8 segments for a Site Truth, 12 for a Region Truth).
 - Major arcs can rewrite Campaign Truths. These are the \"legacy\" moments of the campaign.
+
+Create costs 2 Power per Truth rank before explicit discounts; a 2-Momentum creation starts at rank 1, with the same cost again to raise it to rank 2 (Core Rules §5, §8). A Scene Truth cannot bypass a larger project's scale merely by naming a lasting regional outcome.
+
+#strong[Acting in a conflict.] Use permitted scripted actions and explicit exceptions for Discover, Advance or other Effects not on the ordinary action menu (§10.6). A faction project clock is not shared Disposition: winning a conflict achieves its stated intent within the stakes, not automatic completion of every related project. A Truth can establish a scenery feature, but exploiting it requires the scenery Maneuver's own requirements and Power cost (§10.8). Preparation can justify Superiority only when its distinct category and relevance are established (§10.3).
 
 #include "drafts/module-c-7-8-entanglements-long-knives.typ"
 ]

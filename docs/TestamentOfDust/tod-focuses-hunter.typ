@@ -16,10 +16,10 @@ Your trade is the hardest one on the Frontier: you kill vampires.
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Know Your Quarry];], [Once per scene, Discover one of a vampire\'s weakness tags without rolling.],
-    [2a], [#strong[Killing Mastery];], [Your killing strikes are #strong[one step easier] (−3 Difficulty; Frontier Rules §5.2). This reduction stacks with other applicable killing-strike reductions.],
+    [2a], [#strong[Killing Mastery];], [Your killing strikes are #strong[one step easier] (−3 Difficulty; Frontier Rules §5.2). This reduction stacks with other applicable killing-strike reductions. It does not reduce staking Difficulty unless an explicit rule says so.],
     [2b], [#strong[Steel Against Presence];], [When you Resist a vampire\'s Presence or intimidation with Pneuma, the cost is #strong[0 on a highest die of 5+];.],
     [3a], [#strong[Find the Killing Way];], [Upgrading a vampire\'s weakness tag into a killing method (Frontier Rules §8.1) costs #strong[2 Power] instead of 3.],
-    [3b], [#strong[★ The Hunter\'s Mark];], [Once per scene, mark a vampire you can see. Until the scene ends, all allies\' Attacks against it inflict #strong[+1 tier];, and it can\'t use #emph[The Old Door] to escape.],
+    [3b], [#strong[★ The Hunter\'s Mark];], [Once per scene, mark a vampire you can see. Until the scene ends, allies\' successful conflict Attacks against it remove #strong[1 additional Disposition] when applying ordinary Attack Disposition loss. When an Attack instead inflicts a harmful status, increase that status by #strong[1 tier];. If an explicit effect inflicts both, choose one component for this bonus, never both. This adds no status to an ordinary conflict Attack and does not improve staking or killing strikes. The marked vampire can\'t use #emph[The Old Door] to escape.],
   )]
   , kind: table
   )
@@ -66,8 +66,8 @@ Not every monster is a vampire. Sand sharks, werewolves, mutant spiders, old-wor
     [1], [#strong[Beast Lore];], [Once per scene, Discover a monster\'s weakness tag (not a vampire\'s) without rolling.],
     [2a], [#strong[Baited Trap];], [Spend 1 Power to Create #emph[Baited Trap];. A beast that enters it is #emph[Impeded] until it breaks free (an Athletics roll vs. Hard 18).],
     [2b], [#strong[Harvest];], [After killing a monster, spend a scene to harvest it for one cypher (tier 2--3) that matches its power: venom, hide, a gland, an eye.],
-    [3a], [#strong[Bane of Beasts];], [Your Attacks against monsters inflict #strong[+1 tier];.],
-    [3b], [#strong[★ Monster-Slayer];], [In Fights against monsters (not vampires), the enemy\'s Disposition starts #strong[−3];, and minion beasts flee after your first successful Attack.],
+    [3a], [#strong[Bane of Beasts];], [Against monsters, your successful conflict Attacks remove #strong[1 additional Disposition] when applying ordinary Attack Disposition loss. When an Attack instead inflicts a harmful status, increase that status by #strong[1 tier];. If an explicit effect inflicts both, choose one component for this bonus, never both. This adds no status to an ordinary conflict Attack and does not improve staking, killing strikes or other creature-specific finishing procedures.],
+    [3b], [#strong[★ Monster-Slayer];], [In Fights against monsters (not vampires), the enemy\'s Disposition starts #strong[−3];, and minion beasts flee after your first successful Attack. Changing conflict type within the same unresolved struggle does not reapply the starting reduction.],
   )]
   , kind: table
   )
@@ -90,8 +90,8 @@ A vampire took your family, your village, or your life as it was. You\'ll find i
     [1], [#strong[The One];], [Name your vampire. You always know when you\'re within a day\'s ride of it, and once per session ask a free Discover about it.],
     [2a], [#strong[Cold Fury];], [When you Resist the named vampire\'s Presence, intimidation or fear, the cost is #strong[0];.],
     [2b], [#strong[Nothing Held Back];], [When you burn a tag against the named vampire or its servants, gain #strong[+2 Power] instead of +1.],
-    [3a], [#strong[Its Servants Die First];], [The named vampire\'s servants and retainers start conflicts against you with #strong[−2 Disposition];.],
-    [3b], [#strong[★ This Ends Tonight];], [When you face the named vampire, gain a free bonus die on every roll against it, and killing strikes against it are #strong[one step easier] (−3 Difficulty; Frontier Rules §5.2). This reduction stacks with other applicable killing-strike reductions. If it escapes you, gain a Pneuma Scar.],
+    [3a], [#strong[Its Servants Die First];], [The named vampire\'s servants and retainers start conflicts against you with #strong[−2 Disposition];. This is a setup modifier; changing conflict type within the same unresolved struggle does not reapply it.],
+    [3b], [#strong[★ This Ends Tonight];], [When you face the named vampire, gain a free bonus die on every roll against it, subject to the normal bonus-dice cap, and killing strikes against it are #strong[one step easier] (−3 Difficulty; Frontier Rules §5.2). This reduction stacks with other applicable killing-strike reductions, but does not reduce staking Difficulty unless explicitly permitted. If it escapes you, gain a Pneuma Scar.],
   )]
   , kind: table
   )

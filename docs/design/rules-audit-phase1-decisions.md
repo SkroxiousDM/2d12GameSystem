@@ -2,6 +2,18 @@
 
 Date: 2026-10-29. Source: `docs/design/rules-audit.md`, Phase 1 (rules decisions). All rulings are by the designer. Items marked **Playtest** are deferred to the post-audit playtest.
 
+## Later Frontier sunlight and restricted-staking decisions (2026-11-08)
+
+These later selected rulings supersede older sunlight-cap and staking reminders only within the scopes below. They do not replace the rest of Phase 1 or reopen settled core Scar/Dying and killing-strike procedures.
+
+- **Sun-Sick (Frontier Rules §7.1):** ordinary gains and stacking stop at tier 5. Tier 5 causes collapse and Taken Out, not ordinary broken activity, and alone grants no Scar or Dying. Full-day exposure at 5 advances to 6. A dhampir records the normal Sōma Scar subject to core episode/event limits and starts core Dying only with established lethal stakes. Removal from harmful sunlight stabilises without erasing recorded segments; recovery below 6 with harmful exposure ended is definitive care and clears the sunlight-caused clock, not the Scar. Repeated exposure, renewed Dying and further harm follow the recorded-segment and core Scar Recorded boundaries. Separate injuries retain their own consequences. Recovery restores no pools or shared Disposition and does not undo a settled outcome.
+- **Vampires and sunlight:** full-day direct-sun exposure of a vampire at Sun-Sick 5 advances it to 6 and causes an automatic killing strike: destruction without a roll or Dying clock. Automatic strikes use only their specified outcome, not Difficulty reductions or the failed-strike complication/buy-off. Hard to Kill admits this explicit creature-specific exception.
+- **Awaken the Blood:** its tier-5 physical-status ceiling does not prevent the full-day Sun-Sick progression specified by §7.1. Its other benefits, costs and finishing exclusions are unchanged.
+- **Restricted staking equivalence (Frontier Rules §8.1):** staked remains an untiered special condition, not a killing method. The vampire cannot act or recover while the stake remains. Solely for sustained fire's prerequisite it counts as broken at physical status tier 5. Subsequent killing-strike rolls use a −15 Difficulty reduction or the reduction from a higher actual negative status, never both; eligible killing-strike ability reductions apply additionally.
+- The staking equivalences do not apply to staking rolls, other tests, status penalties, Blood Debt, recovery eligibility or ability triggers, and do not make the vampire sleeping or a husk. Staked cannot be purchased in tiers, stacked, reduced by status-tier healing or advanced to 6. Extra stakes add no benefit. Staking grants no automatic strike, extra action/volley, Scar, Dying or destruction. Removing the stake ends the condition and both equivalences, not actual statuses, recorded conditions or a settled outcome.
+
+These are implemented selections, not unresolved sunlight/staking/Awaken the Blood decisions. The implementation tracker records their source commits and summary follow-ups. Broader compatibility review, compilation, rendered-layout inspection and playtesting are not certified by this decision record. The original numbered decisions below retain their checkpoint wording; read them with the later rulings and implementation follow-ups.
+
 ## 1. Starting Disposition formula (P2, H1, H2, M1)
 
 - Use the Section 10.2 formula: (2d12 + Disposition skill + highest Edge) / 3, round down, then +1 per helper and all flat modifiers at full value.

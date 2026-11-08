@@ -12,7 +12,7 @@ A #strong[killing method] establishes how a vampire can be destroyed. It does no
     table.header([Method], [Effect], [Notes],),
     table.hline(),
     [#strong[Beheading]], [Killing method; use §5.2], [The blade must be able to cut through (#emph[heavy], #emph[fine], or sufficient strength). No tier-4+ status prerequisite.],
-    [#strong[Fire] (sustained)], [Killing method against a vampire #emph[broken] at physical status tier 5; destroys a husk at once], [A burning house, a funeral pyre. Reaching 0 shared Disposition does not itself make a vampire broken.],
+    [#strong[Fire] (sustained)], [Killing method against a vampire #emph[broken] at physical status tier 5, or a #emph[staked] vampire under the restricted equivalence below; destroys a husk at once], [A burning house, a funeral pyre. Reaching 0 shared Disposition does not itself make a vampire broken.],
     [#strong[Sunlight]], [No killing strike, but stops recovery and burns over time (§7.1)], [A collapsed vampire left in direct sun for a full day is destroyed.],
     [#strong[Stake through the heart]], [Not a killing method. Inflicts the special condition #emph[staked]: the vampire can't act or recover while the stake stays in], [Use the Staking procedure below. Finish it with beheading or fire --- or bargain with it while it's helpless.],
     [#strong[Silver]], [Not a killing method. Wounds from #emph[silvered] weapons can't be recovered until the next full day], [An old custom. No one remembers why it works.],
@@ -48,6 +48,15 @@ Reduce the Difficulty by one step --- 3 points --- for each tier of the vampire'
 
 While staked, the vampire cannot act or recover. It remains alive. Staking does not itself inflict tier-6 harm, trigger a killing strike, or destroy the vampire.
 
+#strong[Restricted staking equivalence.]
+While staked, a vampire counts as broken at physical status tier 5 solely for meeting sustained fire's killing-method prerequisite. For subsequent killing-strike rolls, treat staked as a tier-5 negative status: reduce Difficulty by 15, or use the reduction from a higher actual negative status instead. Do not add these reductions together. Eligible killing-strike ability reductions apply additionally, as normal.
+
+These equivalences apply to no other purpose. They do not affect staking rolls or other tests, impose a status-tier roll penalty, count as becoming broken for Blood Debt, recovery eligibility or ability triggers, or make the vampire sleeping or a husk.
+
+Staked remains an untiered special condition. It cannot be purchased in tiers, stacked, reduced by status-tier healing, or advanced to tier 6. Additional stakes provide no further mechanical benefit. Staking does not itself cause a Scar, Dying or destruction, and grants no additional action, extra volley or automatic killing strike.
+
+The vampire cannot act or recover while the stake remains. Removing the stake ends staked and both equivalences. Its actual statuses and other recorded conditions remain; removing the stake does not restore Disposition or undo a settled conflict outcome.
+
 On a Success at a Cost, apply the normal cost as well as the successful staking. On a failure, the stake does not take hold; resolve failure normally.
 
 #strong[Staking during a conflict.] A staking attempt uses your scripted Attack action. Resolve its roll against the staking Difficulty instead of the usual independent or versus roll. It inflicts #emph[staked] instead of ordinary Attack Disposition loss.
@@ -56,7 +65,7 @@ Staking one vampire does not directly reduce its side's shared Disposition. If o
 
 #strong[Removing the stake.] Another character within reach can remove the stake if they have the means to do so. With no meaningful opposition or uncertainty, no roll is needed. Under pressure, removing it takes an action and any roll the circumstances require.
 
-Once the stake is removed, #emph[staked] ends. The vampire retains its other statuses, Blood Debt and other recorded conditions. Removing a stake does not refill pools, restore Disposition or undo a settled conflict outcome.
+Once the stake is removed, #emph[staked] and both restricted equivalences end. The vampire retains its other statuses, Blood Debt and other recorded conditions. Removing a stake does not refill pools, restore Disposition or undo a settled conflict outcome.
 
 === 8.2 Currency and Wealth
 The setting's currency is the #strong[mark]. The 2d12 System doesn't track coins; use these story tags instead:

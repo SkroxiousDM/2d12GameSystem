@@ -165,7 +165,7 @@ Unless a rule explicitly makes the killing strike automatic, make one killing-st
   [Paramount], [Divine 30],
 ))
 
-Reduce the Difficulty by one step --- 3 points --- for each tier of the target's highest negative status. Use only the highest tier; do not add different statuses together. There is no minimum Difficulty.
+Reduce the Difficulty by one step --- 3 points --- for each tier of the target's highest negative status. Use only the highest tier; do not add different statuses together. There is no minimum Difficulty. For a staked vampire, apply the restricted tier-5 equivalence in §8.1: use a reduction of 15 or the reduction from a higher actual negative status, never both.
 
 #strong[Ability reductions stack.] Apply every killing-strike Difficulty reduction whose conditions you meet, in addition to the reduction from the target's highest negative status. Each one-step reduction lowers the target by 3. There is no minimum Difficulty. These reductions do not apply to staking unless an ability explicitly says they do. Bonuses to status tiers or ordinary Disposition loss do not modify a killing strike unless expressly stated.
 

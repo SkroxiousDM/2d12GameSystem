@@ -29,7 +29,7 @@ Each exchange is three volleys. Commit three actions and their actors before the
 - #strong[Versus rolls:] the higher total wins with 1 Power, +1 per full 3 points over the opponent. Double 12s do not override a higher total or break a tie. Winning ordinary doubles add +1 Power; winning double 12s add +2 instead. Losing or tied doubles grant no Power or normal action effect. Double 1s cause their complication without automatically losing; successful double 1s also gain the ordinary critical Power. Apply the same procedure to ability-created doubles. An exact tie produces no normal action effect or Power. Losing by 1--3 does not qualify for Success at a Cost. Versus losses, ties and trumped actions generate no ordinary-failure Woe (Core Rules §2.6, §10.5--10.7).
 - #strong[Supplementary spending.] Use Core Rules §10.6 for each action's permissions and limits. No primary purchase is mandatory; all Power may fund permitted supplementary Effects, without double spending. Winning versus prevents the opposing normal effect even if no Power funds loss or recovery; independent opposing actions still resolve. Exceptions grant only their stated scope.
 - #strong[Automatic success.] Replace only an otherwise permitted action's roll, not its interaction or assigned turn. Use listed Power; in versus it wins unless both automatically succeed, then tie unless expressly overridden. No extra action, rescue of a trumped action or dice-based critical/complication follows.
-- #strong[Resolution order.] Trumped actions make no roll and produce no effect. Both independent actions finish before checking victory, even if one defeats a side or takes an actor out. For a phased boss, check phase thresholds only after removal and victory are determined and the conflict continues (§7.1).
+- #strong[Resolution order.] Trumped actions make no roll and produce no effect. Both independent actions finish before checking victory, even if one defeats a side or takes an actor out. Check eligible Last Stand before final settlement (§6.10). For a phased boss, check thresholds only after removal and victory are determined and the conflict continues without pending defeat (§7.1). Use §§6.11--6.12 for Special aftermath timing.
 
 === 6.4 Woe Economy
 Gain Woe from player-bought dice, eligible independent failures (+1), Escalation (+1), dangerous scene Truths (+1 per scene) and bought-off complications (+2). Versus losses, ties and trumped actions generate no ordinary-failure Woe, symmetrically for player and GM actors. Separately triggered complications, explicit costs and scenery Dangers retain their own rules (Core Rules §10.7).
@@ -47,16 +47,16 @@ Gain Woe from player-bought dice, eligible independent failures (+1), Escalation
 Spend on the Best action early. Unspent Woe at session end is wasted tension. An ordinary failed conflict action does not also authorise an unrelated GM move or extra harm. Independent Success at a Cost follows Core Rules §10.7; ordinary costs add no status or extra Disposition loss without explicit permission. Complications respect stakes and independent-action timing.
 
 === 6.5 Reinforcements
-Reinforcements add their listed Grit to current shared Disposition only, even above the original adjusted starting value. They do not raise starting Disposition, the normal recovery cap or the compromise reference (Core Rules §10.9, §10.13). Defend and other recovery restore only up to the original start unless explicitly overridden. At or above the cap, restore nothing and do not remove an existing excess; other permitted Defend purchases remain available. Removal subtracts no Grit. Joining participants enter continuous rotation under Core Rules §10.5; arrival grants no extra scripted action, free actor reassignment or setup recalculation. Only a genuinely new conflict establishes a new start. Boss phase references and thresholds remain fixed (§7.1).
+Reinforcements add their listed Grit to current shared Disposition only, even above the original adjusted starting value. They do not raise starting Disposition, the normal recovery cap or the compromise reference (Core Rules §10.9, §10.13). Defend and other recovery restore only up to the original start unless explicitly overridden. At or above the cap, restore nothing and do not remove an existing excess; other permitted Defend purchases remain available. Removal subtracts no Grit. Joining participants enter continuous rotation under Core Rules §10.5; arrival grants no extra scripted action, free actor reassignment or setup recalculation. Only a genuinely new conflict establishes a new start. Boss phase references and thresholds remain fixed (§7.1). During a Last Stand volley, reinforcement arrival remains legal under its own timing, but its Grit cannot raise the pending-defeat side above 0 (§6.10).
 
 === 6.6 Minion Bodies
 Minion groups have Bodies (3--6) instead of Shrugs. Each successful Attack outside a conflict drops 1 Body. Extra Power spent on Extra Feat drops another. At half Bodies or fewer, ratings drop by 1. At zero, the group is gone. Morale usually ends it sooner. Ordinary conflict Disposition loss removes no Bodies and does not deplete an individual Grit share. A group represented by one entry is one participant for rotation and area-effect loss bonuses.
 
 === 6.7 When Adversaries Win Or Lose
-- #strong[Defeat.] A side loses at 0 Disposition or when nobody can continue pursuing its objective. Complete independent actions before checking victory. Defeat is not automatic death or injury; outcomes stay within intent and stakes. Removal subtracts no Disposition. If both sides are defeated in the same volley, or both start at 0 after Superiority, use mutual defeat, not a winner's compromise (Core Rules §10.3, §10.12). Simultaneous setup defeat scripts no exchanges and does not itself inflict injury, drain pools, Take Out an individual or satisfy a finishing requirement.
+- #strong[Defeat.] A side loses at 0 Disposition or when nobody can continue pursuing its objective. Complete independent actions before checking victory. An eligible Last Stand may postpone defeat at 0 for one final volley (§6.10); finish that extension before finishing procedures or settlement. Defeat is not automatic death or injury; outcomes stay within intent and stakes. Removal subtracts no Disposition. If both sides are defeated in the same volley, or both start at 0 after Superiority, use mutual defeat, not a winner's compromise (Core Rules §10.3, §10.12). Simultaneous setup defeat scripts no exchanges and does not itself inflict injury, drain pools, Take Out an individual or satisfy a finishing requirement.
 - #strong[No injury trade.] Ordinary adversaries and minion groups cannot use it (Core §10.14). A named rival built as a full PC can, subject to §10.11: once per character per conflict, at most one participant per Attack or Feint.
-- #strong[Compromise.] Use the winner's original adjusted starting Disposition recorded at setup, unchanged by reinforcements. Remaining Disposition at or above that start means none lost; use the final remaining total, not cumulative loss or a separate reinforcement ledger. Use the starting Disposition lost: none = None; more than 0 but less than half = Minor; at least half but less than three-quarters = Significant; three-quarters or more = Major, without rounding. Negotiate one outcome-first package. Injury tiers 2/3/4 guide its severity, not automatic additions. Credit eligible existing injuries once. NPCs may use eligible reduction against imposed compromise statuses, not agreed payments; Resistance does not revoke the loser's concession or create a replacement injury cost (Core §10.13).
-- #strong[Concession.] Offer one before the next roll (Core §10.12); one third of starting shared Disposition is a tactical prompt, not a restriction. Propose concrete gains and retained interests suited to the opponent: humans may surrender, beasts may be distracted or allowed to flee, and a Boss may negotiate retreat. Guardians do not normally offer concessions. If accepted, apply the agreed terms without another roll or an additional compromise unless included. Do not add an unstated retreat benefit or danger-clock tick.
+- #strong[Compromise.] Resolve deferred Special applications before ordinary existing-injury credit; include any eligible Fail-safe assignments under §6.11. Neither procedure changes the ordinary compromise grade. Use the winner's original adjusted starting Disposition recorded at setup, unchanged by reinforcements. Remaining Disposition at or above that start means none lost; use the final remaining total, not cumulative loss or a separate reinforcement ledger. Use the starting Disposition lost: none = None; more than 0 but less than half = Minor; at least half but less than three-quarters = Significant; three-quarters or more = Major, without rounding. Negotiate one outcome-first package. Injury tiers 2/3/4 guide its severity, not automatic additions. Credit eligible existing injuries once. NPCs may use eligible reduction against imposed compromise statuses, not agreed payments; Resistance does not revoke the loser's concession or create a replacement injury cost (Core §10.13).
+- #strong[Concession.] Offer one before the next roll (Core §10.12); one third of starting shared Disposition is a tactical prompt, not a restriction. Propose concrete gains and retained interests suited to the opponent: humans may surrender, beasts may be distracted or allowed to flee, and a Boss may negotiate retreat. Guardians do not normally offer concessions. If accepted, apply the agreed terms without another roll or an additional compromise unless included. Recorded Feed and Shock Field applications remain imposed, Resistable Special effects under §6.12; concession terms must acknowledge them and cannot waive them or turn them into protected payments. Do not add an unstated retreat benefit or danger-clock tick.
 
 === 6.8 Outside Conflicts
 - #strong[Passive opposition.] Difficulty = 12 + the adversary's relevant rating. A Minor's Defend (Fair +3) gives 15; an Established Steward's Defend (+6) gives 18. This outside-conflict procedure does not replace Standard 15 + Guard for independent conflict tests.
@@ -65,6 +65,47 @@ Minion groups have Bodies (3--6) instead of Shrugs. Each successful Attack outsi
 
 === 6.9 Other Conflict Types
 The same card runs any type in Core §10.4. Swap Attack, Defend, Feint and Maneuver for that type's skills and keep the ratings, Grit and Woe costs. Rename Specials to fit: Hostage becomes a leverage threat in an Argument, Lockdown a sealed network in a Hack. A reskin still needs a plausible approach and cannot widen intent, stakes or effect permissions.
+=== 6.10 Last Stand
+Last Stand is a defeat-triggered Special costing 2 Woe. It gives both sides one final volley, not an individual action outside rotation.
+
+#strong[Activation.] Complete the deciding volley, including both independent actions, then check removal, defeat and mutual defeat. If a side is defeated at 0 shared Disposition, at least one participant remains able to pursue its objective, and a participating bearer has Last Stand unlocked and usable, the GM may pay 2 Woe before finalizing defeat. A Taken Out or otherwise unable bearer cannot activate it. Exclude setup defeat, mutual defeat and defeat solely because nobody can continue.
+
+For a designated phased boss, Last Stand must already have unlocked at Half and become usable from a subsequent volley (§7.1). Reaching 0 does not unlock it retroactively. Non-phased bearers follow their own availability rules.
+
+#strong[One final volley.] Postpone defeat, finishing procedures and compromise until exactly one additional volley resolves. Both sides follow normal action interactions, costs, helping, participation and continuous rotation. Use each side's next unrevealed scripted action and its assigned actor. If the exchange has ended, each side secretly commits one action and an eligible actor, then reveals normally. This is not a new exchange: do not refresh exchange-limited abilities or tick clocks merely for scripting the added action. Changing an unrevealed action retains the normal cost and assigned actor; Last Stand grants no free change or reassignment. An unperformable action has no free replacement.
+
+#strong[Defeat stays pending.] The activating side remains at 0 shared Disposition. Defend, reinforcement Grit and other Disposition recovery cannot raise it during this volley or cancel its pending defeat. This restriction does not prevent otherwise legal supplementary purchases, status healing or other explicit effects. Reinforcements may arrive under their listed timing and participate only when normal scripting and rotation permit; arrival grants no immediate action. Last Stand neither returns a removed participant nor allows action through incapacity.
+
+No new phase activates while defeat is pending. Previously activated benefits apply only while the boss remains eligible; there is no phase refresh or bonus action.
+
+#strong[Final outcome.] Complete all independently resolving actions. The activating side then loses; if its opponent is also defeated, resolve mutual defeat. Otherwise determine the winner within the stakes from the final state. A side may use Last Stand only once per conflict; multiple bearers do not stack or chain extensions. Resolve eligible Fail-safe next, then permitted finishing procedures, deferred applications and ordinary compromise (§§6.11--6.12). Last Stand grants no immunity to those outcomes.
+
+=== 6.11 Fail-safe
+Fail-safe is a separate defeat-triggered Special, not an action or a deferred application under §6.12. It costs 3 Woe and must already be unlocked and usable. A phased boss's defeat-triggered unlock follows §7.1; final defeat cannot supply a missed unlock.
+
+#strong[Trigger and participation.] After the deciding volley and any Last Stand extension, determine the final outcome. When its side loses at 0 shared Disposition, a Guardian still able to participate may pay 3 Woe and detonate before permitted finishing procedures and compromise. Being Taken Out or otherwise unable prevents activation; shared Disposition reaching 0 does not by itself remove an individual. Exclude setup defeat, accepted concessions, mutual defeat and defeat solely because nobody can continue. Do not reopen an already settled outcome.
+
+#strong[Detonation.] Establish reach from the Guardian's position and the fiction. Assign one burned-3 additional compromise injury to each PC within reach; do not expand the target set to allies, bystanders or other NPCs. The detonation destroys the Guardian. It grants no action, volley or shared Disposition loss and cannot change the losing side into a winner. Last Stand and Fail-safe are separate purchases: pay 2 Woe and then 3 Woe at their respective triggers; no reserved or waived cost follows from the first purchase.
+
+#strong[Assignment is not early harm.] Record the blast injuries when the Guardian detonates. Do not impose those compromise statuses before a finishing procedure or use them to lower its Difficulty. Their status application occurs at compromise settlement, after the §6.12 applications below.
+
+#strong[Additional injuries and credit.] These explicit Special assignments are due even if the winner otherwise owes no injury or its ordinary compromise grade is None. They do not increase the ordinary grade or require unrelated injuries. Settle the assignments alongside any ordinary compromise costs under Core Rules §10.13: credit each eligible existing injury at most once across the complete settlement, never once for Fail-safe and again for another injury cost. Apply eligible Resistance and reduction to imposed injuries normally. Agreed payments remain protected. Resistance removing an injury creates no replacement cost and does not cancel a separate consequence.
+
+=== 6.12 Deferred Special Injuries
+Feed and Shock Field use this procedure. Fail-safe instead uses §6.11; no other Special is brought into this procedure merely by similar wording.
+
+#strong[Record each application.] Each qualifying paid activation records one incoming application against the affected PC: Special, target, status, tier and trigger order. Feed records Bled-2 after its successful versus Attack in melee; Shock Field records jolted-2 when a PC loses a versus roll to the Guardian in melee, not only on Attack. A tie or trumped no-roll action does not qualify. Each further application needs another qualifying trigger and another payment; there is no once-per-PC cap. This creates no new outside-conflict Shock Field procedure. Feed's outside-conflict Bled-2 and its immediate recovery benefit remain as listed.
+
+#strong[Pending is not inflicted.] A record is not an active status. It imposes no penalty, does not stack or cause tier-6 consequences, cannot be treated or healed yet, and changes neither Disposition nor participation when recorded.
+
+#strong[Every outcome.] Recorded applications remain due after victory, defeat, mutual defeat or accepted concession. Finalize the outcome after any Last Stand extension, resolve eligible Fail-safe activation and then any permitted finishing procedure before applying these records. Concession terms must acknowledge pending applications; they cannot waive them or convert them into unresistable agreed payments. These remain imposed Special effects.
+
+#strong[Resolve individually.] Before ordinary compromise's existing-injury credit or Fail-safe injury settlement, resolve records in trigger order. Apply eligible Resistance and harm reduction separately to each incoming application, then stack what remains normally. Do not combine records into a larger incoming status before Resistance. Resolve resulting tier-6, Scar, Dying or explicit creature-specific consequences normally. An application reduced to tier 0 creates no status or replacement cost.
+
+#strong[No payment by an existing injury.] Compromise credit cannot discharge a deferred application. Normal stacking with an existing matching status still applies. After all applications resolve, an injury actually remaining may satisfy one eligible ordinary compromise injury cost under Core Rules §10.13. Pending records alone supply no credit. Across Fail-safe and ordinary costs, each injury is credited only once (§6.11).
+
+#strong[Binding outcome.] These applications, Resistance costs and resulting status consequences do not restore Disposition, reopen the settled outcome or grant an action or volley. Clear each record after resolution. Then settle Fail-safe assignments and ordinary compromise where applicable; apply any agreed concession costs under their protected-payment rules. Recover each layer only through its own procedure.
+
 #colbreak()
 == 7. Templates
 Seven generic cards. Reskin freely. Ratings follow the Rank table.
@@ -149,100 +190,6 @@ Wants: the intruders alive, kneeling and useful.
   
 #pagebreak()
 
-=== 7.1 Boss Phases
-#strong[Approved procedure; balance unvalidated.] Boss Phases change a designated adversary's available options and ratings as its side loses ground. They use shared Disposition, never a personal Grit track. Phase activation costs no Woe; using a Special or calling reinforcements still requires its listed cost and procedure.
-
-==== Eligibility and Fixed Designation
-When preparing an adversary, the GM may mark a Great or Paramount adversary as a #strong[Phased Boss]. Rank and the Leader role do not grant phases automatically. Before calculating starting Disposition, designate at most one eligible phased boss per side and record the designation on its card or conflict record. A side may have none. Do not add, transfer or replace a designation after setup, including through reinforcement arrival or removal.
-
-Minion groups, Minor and Established adversaries require an explicit eligibility exception. A full-PC rival requires an explicit phase-capable entry; fictional importance alone does not qualify it. Other adversaries retain their own ratings, Role traits and Specials but gain no phase benefit unless expressly included. Do not split a coordinated side merely to obtain more phase systems; separate sides need genuinely distinct objectives and independent participation.
-
-Designation alone adds no Grit, starting Disposition, Threat, Woe, turn, script change, reinforcement or unlisted Special, and grants no immunity to defeat or finishing procedures. Encounter cost and phase bonuses still require playtesting.
-
-==== Setup and Fixed Thresholds
-If setup ends in overwhelming preparation or simultaneous setup defeat, activate no phases. Otherwise record the boss side's adjusted starting Disposition after all modifiers and Superiority as the #strong[phase reference]. Record Half as half that value rounded down, and Desperate as one third rounded down. There is no minimum threshold.
-
-The reference and thresholds stay fixed for this conflict. Recovery, reinforcements, removal and lawful return do not recalculate them. Changing location, tactics or conflict type in the same unresolved struggle does not reset them.
-
-A reference of 1 gives thresholds 0 and 0; a reference of 2 gives 1 and 0; a reference of 3 gives 1 and 1. A threshold at 0 normally cannot activate before defeat. If both thresholds are met at one eligible check, record Half first, then Desperate, with no intervening action window. Phase designation does not guarantee that every phase occurs.
-
-==== Special Ownership, Availability and Revelation
-Owned means listed on the card. Available means its phase and other prerequisites permit use. Revealed means the players have learned about it. A Tell, observation or information effect can reveal a locked Special without unlocking it.
-
-The following restrictions apply to the designated phased boss, not automatically to every adversary on its side or to ordinary non-phased adversaries.
-
-Ordinary activated Specials are #strong[phase-locked]. Record each one's Start or Half assignment before calculating starting Disposition; assignments stay fixed, regardless of setup results, scripts or changing circumstances.
-
-#figure(table(columns: (40%, 30%, 30%),
-  table.header([Ordinary Specials], [Start], [New at Half]),
-  [1], [1], [0],
-  [2], [1], [1],
-  [3], [1], [2],
-  [4], [2], [2],
-))
-
-The table counts ordinary activated Specials only. Passive and defeat-triggered Specials use the separate schedule below. All count toward the card's normal Special limit unless an existing rule expressly excludes them; phase eligibility adds no slots. All table-allocated ordinary Specials are unlocked after Half. Desperate grants no additional Special unlock.
-
-- #strong[Start:] Start-assigned ordinary Specials are available when the conflict proceeds beyond setup. Passive Specials operate from Start under their own listed conditions.
-- #strong[Half:] Half-assigned ordinary Specials unlock; defeat-triggered Specials unlock and are revealed. They become usable from the next volley, including a later volley in the same exchange. After volley 3, that means the next exchange's first volley.
-- #strong[Missed defeat triggers:] a defeat-triggered Special cannot trigger before it is unlocked and usable, including on a defeat during the volley that would otherwise qualify for Half. Do not unlock after the conflict ends or claim a passed trigger retroactively.
-
-Unlocking or revelation is not activation. Normal trigger, action requirement, declaration timing, Woe cost, targets, fictional permission and participation restrictions remain. The committed action must still permit use. There is no extra turn, free script change, actor reassignment or automatic permission to act while Taken Out.
-
-Half unlocks an #strong[owned] reinforcement option only; it grants no new Special, automatic arrival, free cost or alternative arrival procedure. Apply §6.5 for Disposition accounting. Availability does not resolve an inherited Special's incomplete procedure: Last Stand, Fail-safe, Feed and Shock Field retain the explicit unresolved-wording warning in §4.
-
-==== Phase Checks and Benefit Timing
-Complete the volley's actions, including independent actions and any expressly permitted effects that must resolve before victory. Then determine removal, victory or mutual defeat. Only if the conflict continues and the designated boss remains able to participate, compare current shared Disposition with each unactivated threshold. Activate every eligible phase whose threshold is met.
-
-Use the #strong[final total] at that check, not the lowest total reached during the volley. Crossing a threshold and recovering above it before the check grants no activation or pending entitlement. Once activated, a phase does not reverse or activate again through recovery or reinforcements.
-
-Record activation at the check. Newly activated rating changes and other phase benefits apply from the #strong[next volley], never retroactively. They may modify an already committed action's later roll but do not change its category or assigned actor. If both phases activate together, their benefits begin together next volley.
-
-#figure(table(columns: (22%, 78%),
-  table.header([Phase], [Benefit]),
-  [Opening], [Role trait, passive Specials and Start-assigned ordinary Specials operate under their own conditions. Show a clear Tell.],
-  [Half], [Unlock the assigned ordinary and defeat-triggered Specials under the schedule above. Owned reinforcement options retain normal costs and timing. Grant no duplicate Command bonus.],
-  [Desperate], [The recorded Best action category gains +2 to its rating. Defend uses the card's Weak rating as its base. Show a desperate tactic, offer a deal or reveal an exit; no extra negotiated benefit follows automatically.],
-))
-
-==== Desperate Rating Precedence
-Before scripting the first exchange, record the boss's Best action category for Desperate. While its phase benefits are active, replace Defend's base rating with the card's Weak rating first, then apply eligible modifiers. If Defend is the recorded Best action, use #strong[Weak +2]. For example, a boss with Best Defend +8 and Weak +3 uses Defend +5 in Desperate, before other eligible modifiers.
-
-The +2 stays attached to the recorded category. A later ability changing ratings does not move it unless it expressly changes the phase designation. These changes affect the designated boss only and grant no additional Power, automatic success, harmful-status permission or action.
-
-==== Participation, Suspension and Lawful Return
-Check phases only while the designated boss remains able to participate. When it becomes unable to participate, keep its designation, reference, thresholds, phase markers and unlock history. Activate no new phase during its absence and transfer none of its designation to another adversary.
-
-Phase-derived rating benefits are suspended while it cannot participate. Unlocks are not erased but grant no permission to act, activate a Special or return while Taken Out. If another rule legally returns it to the same unresolved conflict, previously activated phase benefits resume from the next volley. Do not reset setup, rotation, used abilities or phase triggers.
-
-At the next normal end-of-volley check for which the boss is eligible, test unactivated thresholds against the current total. Do not reconstruct threshold crossings during its absence. A return after the conflict ends cannot reopen it or activate a phase retroactively.
-
-Command applies only while its Leader remains able to participate; phases neither restore nor duplicate it. Passive Specials follow their own conditions: Start availability does not make them dependent on a Half/Desperate rating benefit or override their participation restrictions. A Special expressly allowed to trigger while its owner is unavailable uses that permission only if already unlocked and usable; this grants no missing Last Stand or Fail-safe procedure.
-
-==== Recovery and Outcome References
-Starting Disposition remains the normal recovery cap and compromise reference; reinforcements increase current Disposition only (§6.5; Core Rules §10.9, §10.13). No phase refreshes either value or creates a new conflict. The separate proposed Last Stand/Fail-safe and compromise-rider replacements are not adopted by this phase procedure. Numerical calibration, rendered layout and encounter balance remain unvalidated.
-
-=== 7.2 Example Exchange
-Party of three. Opposition: Bounty Veteran (5), Knife in the Dark (3) and a Hound Pack (3), Threat 11. This matches the legacy P = 11 budget for three PCs, not a guaranteed Standard matchup under current setup. In this example the PCs have noticed the Knife, so Ambush does not apply; there are no other setup modifiers or Superiority. The opposition records starting shared Disposition 11. Its Woe pool is 6.
-
-Before any reveal, the party commits Attack, Defend, Defend, assigned to three eligible PCs in rotation. The opposition commits Pack Maneuver, Knife Feint, Veteran Attack in that order.
-
-- Volley 1: Attack versus Maneuver is versus. The Pack spends 1 Woe on a bonus die and wins by 4, generating 2 Power. It buys Impede (1) and Gain Position (1). Hit and Run also removes 1 shared PC Disposition. Impede applies to the party's next scripted action, not necessarily the PC who just acted. Telegraph the Knife's next action with the guttering lamp.
-- Volley 2: the Knife's Feint resolves independently; the party's Defend is trumped and makes no roll. The pending Impede expires unused on that no-roll action. Gain Position supplies the Knife one bonus die, within the normal cap. Its successful Feint removes committed Power + 1 shared Disposition, without an automatic wound. Telegraph the Veteran thumbing back both hammers.
-- Before volley 3 is revealed, the players may spend 2 Momentum to change their unrevealed action while retaining its assigned actor. The GM may likewise pay 3 Woe to change the opposition's unrevealed action, not react to a revealed result. If neither changes, the Veteran's Attack opposes the final PC's Defend. On the Veteran's first successful Attack this exchange, Heavy Hitter grants +1 Power.
-- If a status or explicit effect Takes Out the Pack, remove it from participation without subtracting its 3 Grit from shared Disposition; ordinary loss does not individually remove it. Complete any independently resolving actions before checking victory. A concession near one third of starting Disposition is optional tactical advice, not an automatic defeat trigger.
-
-== 8. Quick Checklist
-- Intent, stakes and exits set before any roll.
-- Budget calibration flagged; mix at least two Roles.
-- Flat setup modifiers counted before Superiority; both adjusted totals checked for setup defeat; original starts recorded.
-- Any phased boss and fixed Special assignments recorded before setup; fixed thresholds and Best category recorded before scripting.
-- Three actions and eligible actors committed before reveal; continuous rotation tracked.
-- One Tell per adversary, shown before its Best action.
-- Woe tracked; costs paid without overrun.
-- Ordinary Disposition loss kept separate from statuses, pools and Bodies.
-- Independent actions finished before victory; only continuing conflicts with an eligible boss check phases; benefits begin next volley.
-- Finishing procedures before compromise; reinforcement Grit changes current Disposition, not original start or recovery cap.
-- Concessions negotiated before the next roll; compromise settled as one package.
-
+#import "chapter-adversaries-part-3.typ": adversaries-part-three
+#adversaries-part-three()
 ]

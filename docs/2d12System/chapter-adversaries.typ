@@ -130,7 +130,7 @@ This is pricing guidance, not an unrestricted spend menu. Write a Special's trig
 
 #figure(table(columns: (22%, 8%, 70%),
   table.header([Special], [Woe], [Effect]),
-  [Feed], [1], [After it wins a versus Attack in melee, add Bled-2 to that PC's compromise (Bled-2 on the hit outside conflicts). It recovers 1 tier of physical status.],
+  [Feed], [1], [After it wins a versus Attack in melee against a PC, record one deferred Bled-2 application against that PC (§6.12). Outside conflicts, Bled-2 on the hit. It recovers 1 tier of physical status when used, not at deferred settlement.],
   [Unnatural Strength], [1], [+1 Power on a successful Attack. Outside conflicts, +2 tiers.],
   [Terrible Patience], [1], [Ignore one status or Blood Debt penalty for one roll.],
   [Fade], [2], [Create the Truth Deep Shadows. It may be gone when the light returns.],
@@ -151,7 +151,7 @@ This is pricing guidance, not an unrestricted spend menu. Write a Special's trig
   [Shadow-meld], [0], [Retainer clan, once per scene. Step between shadows. May swap one revealed action for a Maneuver.],
   [Beast Form], [1], [Retainer clan. Attack becomes Best for the scene, and it gains the Beast package.],
   [Hostage], [2], [Create the Truth "a knife at their throat." Attacks against its side are one step harder.],
-  [Last Stand], [2], [At 0 Disposition, it still takes its next scripted action this exchange.],
+  [Last Stand], [2], [Defeat-triggered. At an eligible defeat at 0 shared Disposition, postpone defeat for one final volley for both sides (§6.10). Once per side per conflict; no personal extra action.],
   [Fanatic], [0], [Ignores Morale.],
 ))
 
@@ -183,12 +183,12 @@ This is pricing guidance, not an unrestricted spend menu. Write a Special's trig
   [Scan], [1], [Cancel a Stealth-based Maneuver's effect, or reveal a hidden PC.],
   [Self-Repair], [1], [Restore 2 of its side's shared Disposition (up to the side's starting value) or 2 tiers of physical status.],
   [Lockdown], [2], [Create the Truth Sealed Doors.],
-  [Shock Field], [1], [A PC who loses a versus roll to it in melee adds jolted-2 to their compromise.],
-  [Fail-safe], [3], [At 0 Disposition it blows up: every PC within reach adds burned-3 to their compromise.],
+  [Shock Field], [1], [When a PC loses a versus roll to it in melee, record one deferred jolted-2 application against that PC (§6.12). This trigger is not limited to Attack.],
+  [Fail-safe], [3], [Defeat-triggered. At eligible final defeat at 0 shared Disposition, an active Guardian detonates before finishing procedures, assigning burned-3 to each PC within reach as an additional compromise injury (§6.11). The Guardian is destroyed.],
   [Calls the Works], [2], [Another guardian arrives.],
 ))
 
-#strong[Unresolved Special wording.] The inherited entries above retain their costs and numerical effects. Feed, Shock Field and Fail-safe still need explicit rulings for repeated compromise riders, package credit and timing; do not infer those rulings from ordinary Attack narration. Last Stand needs explicit defeat timing, rotation and independent-action treatment before it can provide an action after defeat. Shadow-meld expressly permits changing a revealed action but does not permit actor reassignment, undoing resolved effects or cancelling independent actions retroactively. Any further interaction or timing not stated remains open rather than supplied by this compatibility pass.
+#strong[Special procedures and remaining scope.] Last Stand uses §6.10; Fail-safe uses its separate compromise procedure in §6.11; Feed and Shock Field use the outcome-independent deferred-injury procedure in §6.12. These are explicit Special exceptions, not ordinary Attack effects or permissions to cancel protected payments. Shadow-meld expressly permits changing a revealed action but does not permit actor reassignment, undoing resolved effects or cancelling independent actions retroactively. This pass does not change Venom / Infection or settle unstated interactions of other Specials.
 
 == 5. Encounter Budget
 #columns(2, gutter: 6mm)[

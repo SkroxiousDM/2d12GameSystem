@@ -24,6 +24,7 @@
 
 #include "chapter-2.10-conflict-system.typ"
 #include "chapter-2.10-area-and-interpose.typ"
+#include "chapter-2.10-guardian-domain-clarifications.typ"
 
 #include "chapter-2.11.playbooks.typ"
 

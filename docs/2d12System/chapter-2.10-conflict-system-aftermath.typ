@@ -97,11 +97,9 @@ An accepted injury is a payment: Armour, Resistance, cancellation and side benef
 Complete costs, choices and effects before removing a participant because of that action. Independent actions both resolve even if one takes its opponent out. Check victory afterward.
 
 ==== Defeat and Finishing Procedures
-The winner achieves its intent within the stakes, subject to compromise. Do not repeat the same unresolved contest; a new conflict requires a materially different objective or changed circumstances.
+The winner achieves its intent within the established stakes, subject to compromise. Do not repeat the same unresolved contest; a new conflict requires a materially different objective or changed circumstances. Defeat does not automatically inflict injury or satisfy a creature-specific finishing requirement.
 
-Defeat does not automatically inflict injury, destroy every creature present or satisfy a creature-specific killing requirement. Where a finishing procedure is required, victory secures the opportunity to attempt it. Complete the deciding volley, determine victory or mutual defeat, resolve any permitted finishing procedure, then settle compromise and aftermath.
-
-Do not apply a proposed compromise status early to lower finishing Difficulty. A failed finishing attempt does not automatically reopen the conflict or add a compromise grade. A special attack procedure must state how it changes the normal interaction and what happens to the opposing action; substituting a Difficulty alone does not settle that question.
+Where an explicit finishing procedure is required, victory secures the opportunity to attempt it. Complete the deciding volley and determine victory or mutual defeat, resolve any permitted finishing procedure, then settle compromise. Follow the relevant creature or setting entry for requirements and resolution.
 
 ==== Mutual Defeat
 If both sides are defeated in the same volley, or both start at 0 Disposition after Superiority (§10.3), neither wins outright. Resolve compatible parts of both intents and a shared setback within the stakes. Neither receives an incompatible outcome automatically. Calculate no winner's compromise. For simultaneous setup defeat, do not script exchanges; apply the setup boundaries in §10.3.
@@ -165,7 +163,7 @@ NPC defeat establishes defeat in this contest, not automatic injury or death. Ca
 
 Creature-specific rules remain in force. Immunity may stop an unsuitable status without stopping Disposition loss in a contest the creature can lose.
 
-#strong[Specific breaking points.] Generic harmful tier-6 statuses follow the normal Scar procedure. A named creature track or condition with an explicit breaking-point replacement uses that outcome instead of an unstated generic Scar. Sun-Sick and Thirst use their listed setting consequences; Bled retains the core tier-6 Scar procedure. A tier-5 ceiling grants no immunity to payments, sunlight or removal outside its stated scope. Award no duplicate Scar merely because both a general rule and its replacement describe one event.
+#strong[Specific breaking points.] Apply the normal tier-6 procedure unless the relevant creature or condition explicitly replaces it. Use that entry's stated outcome and the applicable limits against duplicate Scars.
 
 === 10.15 Order of Resolution
 + Establish objectives, stakes, participants and exits.

@@ -173,6 +173,8 @@ A success destroys the vampire. On a failure, it is not destroyed: the GM states
 
 Resolve the established conflict outcome and compromise separately. A failed killing strike does not automatically impose a Significant compromise, reopen the original conflict or reset Disposition.
 
+#strong[Special attack procedures.] A procedure that replaces a scripted action must state how it changes the normal interaction and what happens to the opposing action. Substituting a Difficulty alone does not cancel, replace or prevent that opposing action.
+
 #strong[Automatic killing strikes.] An automatic killing strike requires no roll and uses only the outcome specified by its rule. Do not calculate killing-strike Difficulty or apply Difficulty reductions, and do not use the failed-strike complication or its 2-Woe buy-off. Full-day direct-sun exposure against a vampire follows §7.1. Automatic destruction grants no additional action, restores no Disposition, erases no compromise cost and does not reopen a settled conflict outcome.
 
 Beheading follows this procedure. There is no separate beheading difficulty table or tier-4+ status prerequisite. Staking remains a separate special case (§8.1).

@@ -98,7 +98,7 @@ Add an entry under `## [Unreleased]` in [`CHANGELOG.md`](CHANGELOG.md). Use a he
 
 ### Typst
 
-- Each book is a single self-contained file. Use the existing helpers (`#chapter`, `#sidebar`, `#playbook-art-side`, `#figure(table(...))`) instead of formatting by hand.
+- Each book is multi-file using `#include to bring in each chapter and section. Use the existing helpers (`#chapter`, `#sidebar`, `#playbook-art-side`, `#figure(table(...))`) instead of formatting by hand.
 - Set new chapters with `#chapter(title, blurb, epigraph: ...)` so they get a divider page and a table-of-contents entry.
 - Use `--` and `---` for en and em dashes, as the existing source does.
 - Art goes in the book's own `art/` folder. Commit both the `.png` original and the `.jpg` used in the book.

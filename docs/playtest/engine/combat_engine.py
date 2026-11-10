@@ -45,6 +45,17 @@ replace_once("                return {'model':model,", "                s['outco
 replace_once("    for ex in range(40):\n", "    for ex in range(40):\n        begin_exchange(s, ex)\n        commit_exchange(s, ex)\n")
 replace_once("            def answer_provider(ee,na):return [(j,ac) for j,(who,ac) in enumerate(true_script(ee)) if who==na]", "            def answer_provider(ee,na):return reveal_protocol(s, ee, na)")
 replace_once("            na,nact=true_script(ex)[v]", "            na,nact=reveal_committed_action(s, ex, v)")
+
+# Encounter-aware actor rotation; the pinned checkpoint remains unchanged.
+replace_once("def actors_after(last,n=3):\n    first='Sentinel' if last=='Gatekeeper' else 'Gatekeeper'\n    other='Gatekeeper' if first=='Sentinel' else 'Sentinel'\n    return [first if i%2==0 else other for i in range(n)]", 'def actors_after(last, n=3, *, rotation=(\'Gatekeeper\', \'Sentinel\')):\n    """Predict actors in an explicit continuous cycle, never future actions.\n\n    Omit rotation to retain the legacy guardian order. Collectors callers\n    must pass (\'Noll\', \'Venn\', \'Edda\'); actor names do not select encounters.\n    """\n    if isinstance(n, bool) or not isinstance(n, int):\n        raise TypeError(\'Activation count must be an integer\')\n    if n < 0:\n        raise ValueError(\'Activation count cannot be negative\')\n    if isinstance(rotation, (str, bytes)):\n        raise TypeError(\'Rotation must be a sequence of actor names\')\n    cycle = tuple(rotation)\n    if not cycle or any(not isinstance(actor, str) or not actor for actor in cycle):\n        raise ValueError(\'Rotation requires nonempty actor names\')\n    if len(set(cycle)) != len(cycle):\n        raise ValueError(\'Rotation cannot contain duplicate actors\')\n    if last is not None and last not in cycle:\n        raise ValueError(\'Last actor is not in this encounter rotation\')\n    start = 0 if last is None else (cycle.index(last) + 1) % len(cycle)\n    return [cycle[(start + i) % len(cycle)] for i in range(n)]')
+if text.count("actors_after(s['lastGuardian'])") != 2:
+    raise RuntimeError("Rotation integration anchors changed")
+text = text.replace("actors_after(s['lastGuardian'])", "actors_after(s['lastGuardian'], rotation=s.get('actor_rotation', ('Gatekeeper', 'Sentinel')))")
+replace_once("actors_after(s['lastGuardian'],3-v)", "actors_after(s['lastGuardian'],3-v, rotation=s.get('actor_rotation', ('Gatekeeper', 'Sentinel')))")
+replace_once('        order=[actors[0] if j%2==0 else actors[1] for j in range(6)]', "        order=[actors[0]] + actors_after(actors[0], 5, rotation=s.get('actor_rotation', ('Gatekeeper', 'Sentinel')))")
+replace_once("                last=target if remaining%2==0 else ('Sentinel' if target=='Gatekeeper' else 'Gatekeeper')", "                last=actors_after(target, remaining, rotation=state.get('actor_rotation', ('Gatekeeper', 'Sentinel')))[-1] if remaining else target")
+replace_once('                futureactors=actors_after(last)', "                futureactors=actors_after(last, rotation=state.get('actor_rotation', ('Gatekeeper', 'Sentinel')))")
+
 tree = ast.parse(text)
 tree.body = [node for node in tree.body if not (isinstance(node, ast.If) and isinstance(node.test, ast.Compare) and any(isinstance(x, ast.Constant) and x.value == '__main__' for x in node.test.comparators))]
 exec(compile(tree, str(LEGACY), 'exec'), globals())

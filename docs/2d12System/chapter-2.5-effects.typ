@@ -51,4 +51,41 @@ Any unspent Power → #strong[Momentum];.
 - #strong[Impede is not a status.] Impede is the temporary −3 conflict effect in §10.6. It does not stack with another pending Impede and is not removed by Restore merely because Restore removes statuses. An ongoing hindrance needs its own name, tier, scope and removal condition.
 - #strong[Life-threatening harm.] A physical status that reaches tier 6 can make you #strong[Dying] when lethal stakes are in play (§6.7).
 ]
+
+=== 5.2 Example Statuses
+Statuses can describe physical, mental, emotional, or social circumstances. The following names are examples, not a closed list. When recording one, give it a tier, a specific scope, and a removal condition (§5.1). Use a more precise name whenever it makes the effect clearer. These examples grant no new permission to purchase or inflict statuses; normal Effect costs and conflict permissions still apply.
+
+#table(
+  columns: (22%, 78%),
+  table.header([Helpful status], [Typical scope]),
+  table.hline(),
+  [Inspired], [Acting on renewed hope, encouragement, or conviction.],
+  [Focused], [Concentrating, analysing information, or resisting distraction.],
+  [Composed], [Maintaining restraint and clarity under emotional or social pressure.],
+  [Prepared], [Acting on specific plans, reconnaissance, or rehearsed procedures.],
+  [Supported], [Drawing on established backing from allies, a crowd, or an institution.],
+  [Trusted], [Persuading or reassuring a particular person or group that believes in you.],
+)
+
+#table(
+  columns: (22%, 78%),
+  table.header([Harmful status], [Typical scope]),
+  table.hline(),
+  [Wounded], [Physical actions affected by a particular injury.],
+  [Exhausted], [Sustained effort using the depleted physical or mental capacity.],
+  [Unsteady], [Balance, coordination, reflexes, or precise movement.],
+  [Rattled], [Concentration and clear thinking after shock, confusion, or intimidation.],
+  [Terrified], [Facing, approaching, or acting against a particular source of fear.],
+  [Discredited], [Claims and appeals made to an audience whose trust has been damaged.],
+)
+
+#strong[Make the scope specific.] Prepared and Supported need an established basis: name the plan, information, allies, or backing involved. One circumstance does not automatically grant a status and a separate tag or Truth benefit; establish and apply each component by its own rules. Trusted and Discredited apply to a named audience and subject, not everyone or every interaction. They are not universal reputation scores and do not automatically decide what another character believes. Exhausted should identify the depleted capacity rather than penalise everything.
+
+#strong[Recording examples.]
+- #emph[Mapped patrol routes-2]: helps evade the observed patrols; ends when their routes change.
+- #emph[Trusted by the village council-2]: helps persuade the council about local threats within your established credibility; ends when that trust is withdrawn or betrayed.
+- #emph[Mentally exhausted-3]: hinders sustained mental work; ends through appropriate recovery (§6.5).
+- #emph[Discredited before the merchant guild-2]: hinders claims about the disputed shipment made to the guild; ends when the accusation is disproved or credibility is restored.
+
+#strong[Special conditions stay separate.] These examples use the normal tiered-status rules. Grind conditions --- Hungry & Thirsty, Weary, Exposed, Shaken, Sick, and Broken --- use their listed effects and recovery requirements (Module B.3), not generic tiers inferred from their order. Running-dry statuses also follow their pool-specific procedure (§6.2). Impede is a temporary conflict effect, not a status (§10.6).
 #pagebreak()

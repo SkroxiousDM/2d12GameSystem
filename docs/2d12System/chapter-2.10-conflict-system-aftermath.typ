@@ -16,7 +16,7 @@ Each feature supports one scenery action per conflict unless its nature clearly 
   [Carpet Pull], [A suitable covering and unwarned foes], [2], [Impede each opposing participant's next action roll this exchange.], [Your next Defend takes −1.],
   [Drape Drop], [Hangings, netting or similar material], [1], [Impede the opposing side's next action.], [Your next action takes −1.],
   [Shove 'Em Off], [An edge and an adjacent target], [3], [One opponent loses their next scripted action while recovering.], [Tier-2 off balance.],
-  [Make a Hazard], [Fuel, fluid, or a breakable container], [2], [Create a rank-1 hazardous Truth in the area.], [You are also exposed to it.],
+  [Make a Hazard], [Fuel, fluid or a breakable container], [2], [Create a rank-1 hazardous Truth in the area.], [You are also exposed to it.],
 ))
 #columns(2, gutter: 6mm)[
 The GM may trigger the listed Danger for 1 Woe. Danger statuses are Resistable normally.

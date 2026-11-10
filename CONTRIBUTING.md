@@ -54,14 +54,13 @@ Allowed types: `build`, `chore`, `ci`, `docs`, `feat`, `fix`, `perf`, `refactor`
 
 Use these scopes so the history stays readable:
 
-| Scope | For |
-|---|---|
-| `core` | The 2d12 System core rulebook |
-| `tod` | Testament of Dust setting book |
-| `sheet` | Character sheet |
-| `aetas` | Aetas Obscura |
-| `grendel` | GRENDEL |
-| `repo` | README, CONTRIBUTING, rulesets, structure |
+| Scope     | For                                       |
+| --------- | ----------------------------------------- |
+| `core`    | The 2d12 System core rulebook             |
+| `tod`     | Testament of Dust setting book            |
+| `sheet`   | Character sheet                           |
+| `aetas`   | Aetas Obscura                             |
+| `repo`    | README, CONTRIBUTING, rulesets, structure |
 
 How to choose a type for rules work:
 

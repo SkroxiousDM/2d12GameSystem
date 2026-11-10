@@ -18,8 +18,57 @@
               "icon": "file-type",
               "title": "testament-of-dust-v2-setting-book"
             }
+          },
+          {
+            "id": "87f15a16561be1d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/2d12System/drafts/README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "d0bb053ff464a65a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CONTRIBUTING.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CONTRIBUTING"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "1197d9b0827b289d",
@@ -31,12 +80,12 @@
             "state": {
               "type": "typst-preview",
               "state": {
-                "vaultPath": "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ",
+                "vaultPath": "docs/2d12System/drafts/conflict-system-with-stakes-and-compromise.typ",
                 "themeOverride": null,
                 "pinned": false
               },
               "icon": "book-open",
-              "title": "Preview: testament-of-dust-v2-setting-book.typ"
+              "title": "Preview: conflict-system-with-stakes-and-compromise.typ"
             }
           }
         ]
@@ -204,44 +253,44 @@
       "bases:Create new base": false
     }
   },
-  "active": "7b84c46cc61e5997",
+  "active": "d0bb053ff464a65a",
   "lastOpenFiles": [
-    "docs/Design/rules-audit.md",
-    "docs/TestamentOfDust/tod-setting-rules.typ",
-    "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ",
-    "CONTRIBUTING.md",
-    "CHANGELOG.md",
-    "docs/TestamentOfDust/tod-playbooks.typ",
-    "docs/TestamentOfDust/tod-focuses.typ",
-    "docs/TestamentOfDust/tod-setting-rules-8.typ",
-    "docs/TestamentOfDust/tod-descriptors.typ",
-    "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
-    "docs/TestamentOfDust/tod-setting-rules-15-design-notes.typ",
-    "docs/TestamentOfDust/tod-common.typ",
-    "docs/TestamentOfDust/tod-playbooks-broker.typ",
-    "docs/TestamentOfDust/tod-setting-rules-15-design-notes.md",
-    "docs/TestamentOfDust/tod-setting-rules-8.md",
-    "docs/TestamentOfDust/tod-common.md",
-    "docs/TestamentOfDust/tod-focuses-occult.md",
-    "docs/TestamentOfDust/tod-focuses-household.md",
-    "docs/TestamentOfDust/tod-focuses-frontier.md",
-    "docs/TestamentOfDust/tod-focuses-village.md",
-    "docs/TestamentOfDust/tod-focuses-oldworld.md",
-    "docs/TestamentOfDust/tod-focuses-hunter.md",
-    "docs/TestamentOfDust/tod-focuses-bloodline.md",
-    "docs/TestamentOfDust/tod-playbooks-warden.md",
-    "docs/TestamentOfDust/tod-playbooks-cyborg-hunter.md",
-    "docs/TestamentOfDust/tod-playbooks-mutant.md",
-    "docs/TestamentOfDust/tod-playbooks-occultist.md",
-    "docs/TestamentOfDust/tod-playbooks-rider.md",
-    "docs/TestamentOfDust/tod-playbooks-broker.md",
-    "docs/TestamentOfDust/tod-playbooks-frontier-doctor.md",
-    "docs/TestamentOfDust/tod-playbooks-stalker.md",
-    "docs/TestamentOfDust/tod-playbooks-sellsword.md",
-    "docs/TestamentOfDust/testament-of-dust-focuses.md",
-    "docs/TestamentOfDust/testament-of-dust-playbooks.md",
-    "docs/TestamentOfDust/testament-of-dust-descriptors.md",
-    "docs/TestamentOfDust/testament-of-dust-setting-rules.md",
+    "docs/2d12System/drafts/ideas-for-V2.md",
+    "docs/design/opposition-statblocks and conflict play test 2.md",
+    "docs/playtest/engine/README.md",
+    "docs/2d12System/drafts/conflict-system-with-stakes-and-compromise.typ",
+    "docs/2d12System/Rules Audit/chapter-2.10-conflict-system-rewrite.md",
+    "docs/design/Rules Audit/README.md",
+    "docs/design/Rules Audit/conflict-compatibility-status.md",
+    "docs/design/Rules Audit/conflict-shared-rules.md",
+    "docs/design/Rules Audit/batch-52-furcifer-rulings.md",
+    "docs/design/Rules Audit/conflict-ability-audit.md",
+    "docs/design/Rules Audit/batch-52-implementation-status.md",
+    "docs/design/Rules Audit/batch-51-core-rulings.md",
+    "docs/design/Rules Audit",
+    "docs/2d12System/drafts/chapter-2.10-conflict-system-rewrite.md",
+    "docs/2d12System/drafts/README.md",
+    "docs/2d12System/Rules Audit/README.md",
+    "docs/2d12System/drafts/module-stakes-and-compromise.typ",
+    "docs/2d12System/Rules Audit/batch-51-core-rulings.md",
+    "docs/2d12System/Rules Audit/conflict-shared-rules.md",
+    "docs/2d12System/Rules Audit/conflict-compatibility-status.md",
+    "docs/2d12System/Rules Audit/conflict-ability-audit.md",
+    "docs/2d12System/Rules Audit/batch-52-implementation-status.md",
+    "docs/2d12System/Rules Audit/batch-52-furcifer-rulings.md",
+    "docs/2d12System/Rules Audit",
+    "docs/2d12System/New folder",
+    "docs/2d12System/drafts/module-stakes-and-checks.typ",
+    "docs/2d12System/drafts/module-c-7-8-entanglements-long-knives.typ",
+    "docs/Archive/2d12 Version 1/01-resolution-engine.md",
+    "docs/2d12System/chapter-2.7-progress-clocks.typ",
+    "docs/2d12System/chapter-2.2-core-resolution.typ",
+    "docs/2d12System/chapter-2.10-conflict-system.typ",
+    "docs/playtest/collectors-rank-grit-calibration-plan.md",
+    "docs/playtest/checkpoints/2026-11-09-legacy-guardian-engine/README.md",
+    "docs/playtest/2026-11-08-combat-playtest-findings.md",
+    "docs/playtest/encounter-recalibration-session-template.md",
+    "changelog/history-through-2026-10-30.md",
     "docs/2d12System/art/playbooks/generic/06-adept.png",
     "docs/2d12System/art/playbooks/generic/06-adept.jpg",
     "docs/2d12System/art/playbooks/generic/05-explorator.png",

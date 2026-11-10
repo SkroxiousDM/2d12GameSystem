@@ -79,8 +79,8 @@
     v(14pt)
     text(size: 9pt, fill: dust, style: "italic")[
       #book-title is an original setting for the 2d12 System. You need #emph[The 2d12 System] core rulebook to play. \
-#book-motto \
-The 2d12 System draws inspiration from Fate, the Cypher System, :Otherscape, Mouse Guard, Blades in the Dark and the 2d20 System; all trademarks belong to their owners.
+      the #book-title setting draws inspiration from Gene Wolf's Book of the New Sun, Mark Lawrence's Broken Empire and The Red Queen's War, Stephen King's Dark Tower, and Hideyuki Kikuchi's Vampire Hunter D.
+; all trademarks belong to their owners.
     ]
     v(14pt)
     text(size: 8.5pt, fill: dust)[Playtest draft — not yet playtested. Set in EB Garamond and Cinzel.]
@@ -152,7 +152,7 @@ The source documents used the working names on the left. This book uses the hous
 #figure(table(columns: (24%, 22%, 54%),
   table.header([Working name], [House name], [What it is]),
   [Threat], [*Woe*], [The GM's pool: complications, escalation, vampire Woe spends],
-  [Momentum], [*Momentum*], [The party's shared pool of surplus Power (unchanged)],
+  [Momentum], [*Fortune*], [The party's shared pool of surplus Power],
   [Fate / Fate Points], [*Tychē* / *Tychē Points*], [Each PC's narrative currency: invoke tags, accept compels; set by Refresh],
   [Vitality], [*Sōma*], [Pool: strength, endurance, toughness. Resists wounds, poison, exhaustion, cold],
   [Alacrity], [*Mētis*], [Pool: speed, precision, stealth, reflexes. Resists traps, falls, being caught],
@@ -160,19 +160,19 @@ The source documents used the working names on the left. This book uses the hous
   [Spirit], [*Pneuma*], [Pool: will, presence, faith, the supernatural. Resists fear, despair, possession, corruption],
 ))
 
-#figure(table(columns: (24%, 22%, 54%),
-  table.header([Working name], [House name], [Generic core playbook]),
-  [Bruiser], [*Bellator*], [Front-line muscle; anchor Fight or Brawl],
-  [Operator], [*Furcifer*], [Infiltrator, scout, thief; anchor Stealth],
-  [Sage], [*Savant*], [Scholar, detective, scientist; anchor Lore or Investigate],
-  [Face], [*Interlocutor*], [Diplomat, con artist, leader; anchor Persuade],
-  [Wayfarer], [*Explorator*], [Ranger, pilot, explorer; anchor Survival],
-  [Adept], [*Adept*], [Mage, psychic, hacker; anchor Arcana or Tech (unchanged)],
+#figure(table(columns: (22%, 54%),
+  table.header([House name], [Role, anchor Skill]),
+  [*Bellator*], [Front-line muscle; anchor Fight or Brawl],
+  [*Furcifer*], [Infiltrator, scout, thief; anchor Stealth],
+  [*Savant*], [Scholar, detective, scientist; anchor Lore or Investigate],
+  [*Interlocutor*], [Diplomat, con artist, leader; anchor Persuade],
+  [*Explorator*], [Ranger, pilot, explorer; anchor Survival],
+  [*Adept*], [Mage, psychic, hacker; anchor Arcana or Tech],
 ))
 
 - *Pool shorthand.* Playbook stat blocks list base pools as *Sōm / Mēt / Psy / Pne* (Sōma / Mētis / Psychē / Pneuma).
 - *Scars* take the name of the pool most tied to the condition that caused them: a *Pneuma Scar*, a *Psychē Scar* (Core Rules §6.3).
-- *Names left as they are.* In-world names that use the everyday words keep them, because they describe the fiction rather than a stat: the *Spirit Duel* conflict type, the abilities *Spirit Sight*, *Shared Spirit*, *Steady Mind* and *Archive Mind*, and the Focus *Sends the Mind Abroad*. Credits to the source games (Fate, Fate Core, 2d20) also keep their original names.
+
 
 #colbreak()
 == Notation

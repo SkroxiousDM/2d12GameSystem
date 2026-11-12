@@ -1,0 +1,50 @@
+{
+  "status": "legacy_aggregate_reproduction_verified",
+  "rules_baseline_commit": "5ba56ae337cb8196b877b5ee4576907f32c90f80",
+  "reconstruction_source": "Python execution source in the playtest conversation",
+  "seed_range_inclusive": [260110800, 260110899],
+  "combats_per_model": 100,
+  "total_combats": 300,
+  "aggregate_checks_passed": 18,
+  "aggregate_checks_failed": 0,
+  "fresh_process_smoke_test_combats": 6,
+  "fresh_process_smoke_test_passed": true,
+  "models": {
+    "Fixed": {
+      "hunter_wins": 74,
+      "guardian_wins": 22,
+      "mutual_defeats": 4,
+      "hunter_remaining_pct_mean": 23.414971,
+      "guardian_remaining_pct_mean": 11.461538,
+      "volleys_mean": 7.63,
+      "injury_trades_mean": 0.63,
+      "protocol_discovers_mean": 0.0
+    },
+    "One exchange": {
+      "hunter_wins": 57,
+      "guardian_wins": 35,
+      "mutual_defeats": 8,
+      "hunter_remaining_pct_mean": 14.341558,
+      "guardian_remaining_pct_mean": 17.153846,
+      "volleys_mean": 6.01,
+      "injury_trades_mean": 0.69,
+      "protocol_discovers_mean": 0.58
+    },
+    "Two exchanges": {
+      "hunter_wins": 63,
+      "guardian_wins": 35,
+      "mutual_defeats": 2,
+      "hunter_remaining_pct_mean": 16.941486,
+      "guardian_remaining_pct_mean": 18.769231,
+      "volleys_mean": 8.61,
+      "injury_trades_mean": 0.73,
+      "protocol_discovers_mean": 3.3
+    }
+  },
+  "historical_per_seed_identity_verified": false,
+  "byte_identity_with_original_attachment_verified": false,
+  "B01_B03_clarifications_applied": false,
+  "reference_suite_connected": false,
+  "rules_conformance_certified": false,
+  "raw_csvs_and_volley_logs_included": false
+}

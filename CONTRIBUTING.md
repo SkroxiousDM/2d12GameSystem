@@ -54,14 +54,13 @@ Allowed types: `build`, `chore`, `ci`, `docs`, `feat`, `fix`, `perf`, `refactor`
 
 Use these scopes so the history stays readable:
 
-| Scope | For |
-|---|---|
-| `core` | The 2d12 System core rulebook |
-| `tod` | Testament of Dust setting book |
-| `sheet` | Character sheet |
-| `aetas` | Aetas Obscura |
-| `grendel` | GRENDEL |
-| `repo` | README, CONTRIBUTING, rulesets, structure |
+| Scope     | For                                       |
+| --------- | ----------------------------------------- |
+| `core`    | The 2d12 System core rulebook             |
+| `tod`     | Testament of Dust setting book            |
+| `sheet`   | Character sheet                           |
+| `aetas`   | Aetas Obscura                             |
+| `repo`    | README, CONTRIBUTING, rulesets, structure |
 
 How to choose a type for rules work:
 
@@ -99,10 +98,21 @@ Add an entry under `## [Unreleased]` in [`CHANGELOG.md`](CHANGELOG.md). Use a he
 
 ### Typst
 
-- Each book is a single self-contained file. Use the existing helpers (`#chapter`, `#sidebar`, `#playbook-art-side`, `#figure(table(...))`) instead of formatting by hand.
+- Each book is multi-file, using `#include` to bring in each chapter and section. Use the existing helpers (`#chapter`, `#sidebar`, `#playbook-art-side`, `#figure(table(...))`) instead of formatting by hand.
 - Set new chapters with `#chapter(title, blurb, epigraph: ...)` so they get a divider page and a table-of-contents entry.
 - Use `--` and `---` for en and em dashes, as the existing source does.
 - Art goes in the book's own `art/` folder. Commit both the `.png` original and the `.jpg` used in the book.
+
+### File size and splitting large files
+
+Aim to keep individual editable text and source files **smaller than 28 KB (28,000 bytes)**. This is a recommendation, not a hard limit or a condition of accepting a contribution. Prefer clear, coherent sections over arbitrary splits; existing larger files can be split incrementally when practical. This target does not apply to generated PDFs or binary assets such as artwork.
+
+- Split large files at logical boundaries, such as chapters, sections, groups of related rules, or individual playbooks. If a chapter is still too large, divide it into coherent subsections rather than equal-sized chunks.
+- Keep tables, procedures, examples and closely related rules together where practical. Avoid fragments that require constant switching between files to understand a rule.
+- Use descriptive filenames and organise the parts in the relevant book's folder. Keep the existing top-level book file as the build entry point, using `#include` to assemble the parts in the intended order. For other text formats, provide an index or links that make the reading order clear.
+- Preserve heading hierarchy, labels, cross-references and shared helper definitions. Update affected include/import paths, relative asset paths and documentation links when moving content.
+- Keep a structural split separate from changes to rules or wording where practical, so reviewers can distinguish moved text from substantive edits.
+- After splitting Typst files, rebuild the affected book and check that content order, numbering, references, tables and layout remain correct. Check text-file sizes in bytes rather than character counts.
 
 ### When a change ripples
 

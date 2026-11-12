@@ -12,6 +12,9 @@
 == The Roll
 *2d12 + Skill + Modifiers vs. Difficulty.* Skill +0 to +4. Power tags +1 each, *maximum +2 per roll* (tag-cap exceptions: maximum +3). Weakness tags −1 each, no cap. Statuses ± tier. Truths shift Difficulty, not the roll: one step per rank (max rank 2), *±3 steps at most* (Core Rules §2.1, §8).
 
+== Statuses (Core Rules §5.1--5.2)
+Record name, tier, scope, and removal condition. Apply only the highest relevant helpful status and the highest relevant harmful status, adding or subtracting their tiers. Example names: Inspired, Focused, Trusted; Wounded, Rattled, Discredited. Names do not establish scope by themselves. Grind conditions use their listed effects (Module B.3); Impede is not a status (§10.6).
+
 == Difficulty
 #table(columns: (1fr, auto),
   table.header([Difficulty], [Target]),

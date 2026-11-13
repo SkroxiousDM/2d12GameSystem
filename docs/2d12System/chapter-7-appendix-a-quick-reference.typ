@@ -79,7 +79,7 @@ A only: Attack rolls independently, Feint is trumped. F only: Feint rolls indepe
 == Action Effects (Core Rules §10.6)
 Attack/Feint require *at least 1 committed Power* to remove committed Power + 1 from shared Disposition; apply the +1 once per action, not per purchase. No commitment means no loss. Defend restores 1 per committed Power up to starting Disposition; no commitment means no recovery unless an explicit ability grants it independently.
 
-Maneuver: Impede 1; Gain Position 1; Disarm 3; Create 2 per rank. Buy Impede, Gain Position and Disarm once each per Maneuver. Impede is −3 on the next scripted action, not a status; pending Impedes do not stack. Gain Position gives one bonus die. Both expire if the next action makes no roll. Disarm disables an asset, not automatically an entire action category.
+Maneuver: Impede 1; Gain Position 1; Disarm 3; Create 2 per rank. Buy Impede, Gain Position and Disarm once each per Maneuver. Impede is −3 on the next scripted action, not a status; pending Impedes do not stack. Gain Position gives one bonus die within the normal cap; only one may be pending per side regardless of source. Additional grants do not stack, refresh or extend it. Both expire if the next action makes no roll. Disarm disables an asset, not automatically an entire action category.
 
 == Supplementary Effects (Core Rules §5, §10.6)
 A successful action may spend all Power on permitted supplementary Effects; no primary purchase is mandatory. One shared Power budget, no double spending. Winning versus prevents the opposing action's normal effect even without purchasing loss/recovery. Independent opposing actions still resolve. Relevance is required, not permission to buy a prohibited Effect.
@@ -114,7 +114,14 @@ Winner's adjusted starting Disposition lost: none = None; more than 0 but less t
 Establish the area and everyone it can reach; allies are not automatically excluded. Apply ordinary shared Disposition loss once, plus 1 per additional opposing participant affected, only when Power is committed to ordinary loss. One group rules entry counts as one participant. Explicit statuses apply at full tier with separate Resistance or NPC reduction. Area alone adds no status to an ordinary Attack. One injury trade at most against the combined loss. No Disposition outside conflicts.
 
 == Interpose (Adversaries §6.13)
-Bulwark: once per exchange, redirect an ally's entire imposed status before their Resistance or reduction; use your own eligible reduction, at most one NPC reduction per status. Outside conflicts, no separate frequency limit. Must be able to intercept; cannot redirect shared Disposition loss, injury payments, running-dry statuses, agreed concession costs, compromise costs or other accepted payments. Cannot shield an ally from an area effect already affecting both of you.
+// PLAYTEST: Status interception and Hold the Line share one use per exchange.
+Choose interception of an ally's entire imposed status before Resistance/reduction, using your own eligible reduction; or Hold the Line to reduce one successful opposing Attack's combined ordinary Disposition loss by 1, minimum 0, before injury trade/application. No stacking by multiple Bulwarks, Feint, Maneuver, separate Special damage or solely self-protecting use. Protected payments remain excluded. Status interception cannot shield an ally from an area effect already affecting both. Outside conflicts retain fitting-status interception without a separate frequency limit; Hold the Line has no outside-conflict effect. Use the full eligibility and exclusions in Adversaries §6.13.
+
+== Special Timing (Adversaries §§6.5, 6.10, 6.16)
+// PLAYTEST: Shared declaration, departure, phase and reinforcement timing.
+Close Power purchases and supplementary Special declarations before permitted reactions; cancellation does not reopen them. Finish both independent actions, then Self-Repair, Bolt, defeat/Last Stand, eligible phases, eligible exchange-end arrivals, then participation/rotation and continuation. No Disposition repair from 0; status repair cannot cancel pending defeat. A same-volley opposing Lockdown cannot by itself stop a Bolt through a route usable when declared.
+
+Action-free calls use between-volley pre-reveal windows, not resolution windows. Last Stand opens no call window or additional exchange boundary. For activation after volley three, check that exchange's arrivals once before the extension, never again afterward; pending-defeat recovery remains prohibited. Deferred records: one application per named Special per target per conflict across sources; resolve records individually after every outcome. Full procedures govern.
 
 == Rest and Recovery
 #table(columns: (16%, 52%, 32%),

@@ -30,7 +30,7 @@
 
 === 1.2 Ability Notation
 - #strong[★ Major] --- costs #strong[1 Refresh] whenever you take it (creation or advancement). If taken as one of the up to two creation extras, add the extra ability's 1-Refresh price: #strong[2 Refresh total], not 3. A non-veteran Major taken through advancement costs 1 Refresh; veteran costs below remain additional.
-- #strong[◆ Capstone] --- unlocked after #strong[12 Advances] if you have #strong[at least 4 abilities from this playbook];. Costs no Refresh. One capstone per character.
+- #strong[◆ Capstone] --- unlocked after #strong[12 Advances] if you have #strong[at least 4 abilities from this playbook];. Take it as an Advance; it costs no Refresh. One capstone per character.
 - #strong[Veteran abilities:] after 6 Advances, you may take an ability from another playbook as an Advance. It costs 1 Refresh in addition to any ★ cost.
 
 #strong[Conflict notation.] Free waives only the listed resource cost; it grants no additional scripted turn or rotation bypass. Automatic success replaces the roll for an otherwise permitted action under Core Rules §10.5. Additional Power, Disposition loss and status tiers are separate benefits (§10.6). An accepted payment cannot be prevented, redirected or Resisted through generic consequence-cancellation wording (§10.7).

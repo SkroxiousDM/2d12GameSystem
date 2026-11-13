@@ -39,7 +39,7 @@ Acting against a Belief is not refusing a compel and carries no automatic penalt
 - #strong[Spending Refresh.] Creation extras and ★ abilities cost Refresh (§3.6).
 - An #strong[attuned artifact] (Module A) costs 1 Refresh while attuned, not merely while carried.
 - #strong[Minimum Refresh is 1.] Purchases can't take Refresh below 1. Your current Tychē Points can still drop to 0.
-- The advancement option \"+1 Refresh\" (§12) lets you buy Refresh back.
+- The advancement option \"+1 Refresh\" (§12) lets you buy Refresh back, up to the Refresh cap (§12.2).
 
 Refresh happens only at the start of a session, not at a new scene, exchange, Inquiry phase or downtime stay. It restores Tychē Points only; pools, injuries, injury trades and Disposition use their own procedures.
 

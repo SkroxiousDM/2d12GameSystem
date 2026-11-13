@@ -41,7 +41,7 @@ Explorer, navigator, or surveyor drawn to the blank parts of the map.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Carto-grapher];], [Any area you\'ve travelled becomes a #strong[map] (story tag). It permanently lowers travel Difficulty there by one step. Apply this reduction when testing against a travel Difficulty in that area, including an eligible independent conflict test; do not convert it into a modifier to opposing totals in a versus test (Core Rules §10.5).],
+    [1], [#strong[Carto-grapher];], [Any area you\'ve travelled becomes a #strong[map] (a permanent Truth). It permanently lowers travel Difficulty there by one step. Apply this reduction when testing against a travel Difficulty in that area, including an eligible independent conflict test; do not convert it into a modifier to opposing totals in a versus test (Core Rules §10.5).],
     [2a], [#strong[Shortcut];], [Once per journey, skip one leg entirely (no rolls, no Supplies spent).],
     [2b], [#strong[First Contact];], [Your first Persuade or Empathy roll with a new people or culture gets a #strong[free bonus die];. The normal bonus-dice cap applies.],
     [3a], [#strong[Discoverer];], [Once per session, discover a new site (Module C). You define #strong[one of its three Truths];.],

@@ -96,7 +96,7 @@ With a +2 cap, a third relevant tag is best used for burning or as Tychē Point 
 - #strong[Goal] states a concrete objective for this session or mission: what you want to accomplish next.
 - #strong[Instinct] states an if/then reflex: how you habitually respond.
 
-Goals are rewritten each session; Beliefs and Instincts can change at milestones (§12.3). Beliefs can justify compels (§4) and meaningful decisions can earn XP (§12.1). They do not create an additional resource.
+Rewrite a Goal when it's accomplished or no longer fits, and check it at the start of each session. Beliefs and Instincts can change at milestones (§12.3). Beliefs can justify compels (§4) and meaningful decisions can earn XP (§12.1). They do not create an additional resource.
 
 ==== Writing Your Beliefs
 Each Belief combines a conviction with a commitment to act: "I believe this; therefore, I will do this." Write what you intend to do, not an outcome you are guaranteed to achieve. Avoid a virtue without an action: "I value loyalty" gives less direction than "Those who stand beside me deserve my loyalty; I will not abandon a companion to save myself."
@@ -211,6 +211,6 @@ The GM might offer a delegation in exchange for escorting a vulnerable supply ca
 === 3.6 Starting Resources
 - #strong[Tychē Points:] start each session at your #strong[Refresh] (base 3; §4.1). Beliefs and connections grant no extra points.
 - #strong[Starting abilities.] You get #strong[1 playbook ability and your Tier 1 Focus ability for free], and may buy #strong[up to 2 more playbook abilities at 1 Refresh each].
-- #strong[★ (Major) abilities] cost #strong[1 extra Refresh] whenever you take them: as your free pick (1), as a creation extra (2 total) or through advancement. Veteran acquisition costs are added on top (Playbook Rules §1.2). Refresh can't drop below 1 (§4.1).
+- #strong[★ (Major) abilities] cost #strong[1 extra Refresh] whenever you take them: as your free pick (1), as a creation extra (2 total) or through advancement. Veteran acquisition costs are added on top (Generic Playbooks §1.2). Refresh can't drop below 1 (§4.1).
 - #strong[Load-out:] choose light, normal or heavy load before the mission, then declare playbook-kit items as you need them and mark their load; don't buy a full item list in advance. Signature items are chosen at creation and count against load when carried; always-carried items and items marked (0) follow their listed rules (Generic Playbooks §2.1). In conflicts, declare active gear before scripting each exchange (§10.10).
 ]

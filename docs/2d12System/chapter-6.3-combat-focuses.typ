@@ -89,7 +89,7 @@ Honour is for people who can afford to lose.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Cheap Shot];], [Once per scene, as part of an Attack, Create a story tag (#emph[sand in the eyes];, #emph[low blow];) for #strong[1 Power];. State the tag\'s scope and removal condition normally. This explicitly permits the Create purchase on that Attack only, not other Effects, an additional scripted action or an automatic harmful status.],
+    [1], [#strong[Cheap Shot];], [Once per scene, as part of an Attack, Create a Truth (#emph[sand in the eyes];, #emph[low blow];) for #strong[1 Power];. State the Truth\'s scope and removal condition normally. This explicitly permits the Create purchase on that Attack only, not other Effects, an additional scripted action or an automatic harmful status.],
     [2a], [#strong[Improvised Arsenal];], [Anything in reach is a weapon for you: chairs, bottles, tools. It gives #strong[+1 Attack or +1 Maneuver] and costs no load. This is an action tag, subject to normal relevance and the +2 tag cap unless an explicit exception applies; it is not additional Power or Disposition loss (Core Rules §2.1, §10.10).],
     [2b], [#strong[Kick Them While They\'re Down];], [Against a target with a harmful status of tier 2+, gain #strong[+1 Power] on Attack.],
     [3a], [#strong[Every Trick in the Book];], [In Fight conflicts, your successful Feints remove #strong[1 additional Disposition] when applying ordinary Feint Disposition loss. This is additional loss, not Power or a harmful status.],

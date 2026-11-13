@@ -49,7 +49,7 @@ The chance columns show Edge 0 to 3 (2d to 5d). A single 12 is simply a highest 
 
 #strong[Imposed harm, in order.] When an effect imposes a harmful status:
 + The GM names the status, its source and its incoming tier, and says whether it stacks with a status you already have (§5.1).
-+ If you Resist, add any armour that applies (Playbook Rules §2.3) and pay the cost. A cost you can't fully pay makes you run dry (§6.1).
++ If you Resist, add any armour that applies (Generic Playbooks §2.3) and pay the cost. A cost you can't fully pay makes you run dry (§6.1).
 + Record what is left with normal stacking. A status reduced to tier 0 isn't recorded.
 
 #strong[Once per application.] Resist each application of harm once. You can't make a second attempt against the same harm.

@@ -17,11 +17,11 @@ An artificer, engineer, or inventor who makes what shouldn\'t work, work.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Jury-Rig];], [Once per scene, Craft a temporary gadget (a story tag) that lasts the scene and costs #strong[1 Power] to Create. State its scope and removal condition normally. The discount grants no additional scripted action or permission to bypass the action interaction or declared stakes (Core Rules §5, §10.5--10.6).],
+    [1], [#strong[Jury-Rig];], [Once per scene, Craft a temporary gadget (a Truth) that lasts the scene and costs #strong[1 Power] to Create. State its scope and removal condition normally. The discount grants no additional scripted action or permission to bypass the action interaction or declared stakes (Core Rules §5, §10.5--10.6).],
     [2a], [#strong[Inventor];], [During downtime, turn a gadget into a permanent item with a 6-segment clock. It gets 1 power tag and 1 action tag. These tags remain subject to normal relevance and tag-cap rules; do not count the same item benefit twice on one roll.],
     [2b], [#strong[Field Repairs];], [Restore effects work on gear, vehicles, and constructs. Repair damaged armour without downtime. Repairs do not restore shared Disposition, refresh injury trades or erase Scars.],
     [3a], [#strong[Master-work];], [Create one #strong[artifact] (Module A) with a 12-segment downtime clock. You pay no Refresh to attune your own masterwork.],
-    [3b], [#strong[★ Rig the Field];], [Once per scene, rig the area with gadgets: Create #strong[two] story tags for 2 Power total. This grants no additional scripted action; establish each tag\'s scope and removal condition normally.],
+    [3b], [#strong[★ Rig the Field];], [Once per scene, rig the area with gadgets: Create #strong[two] Truths for 2 Power total. This grants no additional scripted action; establish each Truth\'s scope and removal condition normally.],
   )]
   , kind: table
   )
@@ -90,7 +90,7 @@ Historian, archaeologist, or keeper of lost lore.
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Echoes of the Past];], [At any old or abandoned place, ask one free Discover question about its history.],
-    [2a], [#strong[Lost Knowledge];], [Once per session, you\'ve read about this before: Create a story tag (#emph[ancient weakness];, #emph[forgotten route];) for #strong[0 Power];. This explicit free Create does not grant an extra scripted action, contradict resolved events or retroactively recalculate Superiority.],
+    [2a], [#strong[Lost Knowledge];], [Once per session, you\'ve read about this before: Create a Truth (#emph[ancient weakness];, #emph[forgotten route];) for #strong[0 Power];. This explicit free Create does not grant an extra scripted action, contradict resolved events or retroactively recalculate Superiority.],
     [2b], [#strong[Relic Hunter];], [When you find cyphers or treasure, roll or draw #strong[twice] and choose. You identify artifacts automatically.],
     [3a], [#strong[Living Archive];], [Lore rolls about history, legends, and old cultures are #strong[two Difficulty steps lower];. Apply this reduction when testing against a Difficulty, including an eligible independent conflict test; do not convert it into a modifier to opposing totals in a versus test (Core Rules §10.5).],
     [3b], [#strong[★ Rewrite History];], [Prove a Campaign Truth is false with a 12-segment research clock. When it fills, the Truth changes (Module C).],

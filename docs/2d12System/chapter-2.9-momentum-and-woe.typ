@@ -21,12 +21,19 @@
   , kind: table
   )
 
-#strong[Script timing.] Change an action before its volley is revealed. Keep its assigned actor unless an explicit ability permits reassignment. This spend does not grant initiative cancellation, an extra turn, a rotation bypass or permission to cancel an independently resolving action.
-
-#strong[Paying with Woe.] When the party is short, any spend in this table except #emph[Reduce Woe] can be paid in whole or in part by giving the GM 1 Woe per Momentum, with the GM's approval. Bonus dice can always be paid this way (§2.4). This existing permission also applies to script changes, subject to their normal timing and restrictions.
+#strong[Paying with Woe.] When the party is short, the GM may let you pay any spend except #emph[Reduce Woe], in whole or in part, by giving the GM 1 Woe per Momentum. Bonus dice can always be paid this way (§2.4).
 
 === 9.2 Woe (the GM\'s pool)
-#strong[Starting Woe:] 2 per PC at the start of a session. #strong[GM gains Woe from:] players buying dice or other Momentum spends with Woe, Success at a Cost (if chosen), failures (+1), complications bought off (+2), refused compels, Escalation (+1, §9.3), and dangerous scene Truths (+1 per scene).
+#strong[Starting Woe:] 2 per PC at the start of a session.
+
+#strong[The GM gains Woe from:]
+- players paying for dice or other Momentum spends with Woe (1 per point);
+- Success at a Cost, if the player chooses Woe (+1);
+- failures (+1);
+- complications bought off (+2);
+- refused compels;
+- Escalation (+1, §9.3);
+- dangerous scene Truths (+1 per scene).
 
 #figure(
   [#table(
@@ -47,10 +54,7 @@
   , kind: table
   )
 
-#strong[Conflict consequences.] Use §10.7 for ordinary failure and Success at a Cost inside conflicts. Do not add an unrelated GM move, automatic injury or extra Disposition loss merely because an action failed. Explicit Woe spends, Specials, hazards and Risky rolls retain their stated effects.
-
-#strong[Woe timing and scope.] Purchased complications must fit the stakes and timing. They do not retroactively alter committed scripts or cancel independently resolving actions unless an explicit rule permits it. Script changes must occur before the affected volley is revealed; use explicit ability exceptions at their stated timing. Woe cannot cancel an accepted payment through generic consequence-prevention wording (§10.7).
-// OPEN: Woe generation for losing versus tests remains unresolved (§10.5).
+#strong[In conflicts,] failure, Success at a Cost and Woe spends follow §10.7. Explicit Woe spends, Specials, hazards and Risky rolls keep their stated effects.
 
 === 9.3 Escalation
 Some acts and items make a situation more dangerous just by being there. They carry the #strong[Escalation] tag. It gives no bonus and doesn't count toward the tag cap.

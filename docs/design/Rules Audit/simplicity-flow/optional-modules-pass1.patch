@@ -1,0 +1,284 @@
+diff --git a/2d12System/chapter-3-module-a-cyphers-and-artifacts.typ b/2d12System/chapter-3-module-a-cyphers-and-artifacts.typ
+index aba6fe6..cc9ba47 100644
+--- a/2d12System/chapter-3-module-a-cyphers-and-artifacts.typ
++++ b/2d12System/chapter-3-module-a-cyphers-and-artifacts.typ
+@@ -29,23 +29,23 @@ Cyphers are frequent, disposable power-ups that encourage players to use them ra
+   , kind: table
+   )
+ - #strong[What they are:] one-use items or effects --- potions, grenades, scrolls, nanite injectors, blessed relics, strange tech. Each has a #strong[tier (1--6)];.
+-- #strong[Using one:] an action, usually with #strong[no roll];. The cypher generates #strong[Power equal to its tier];, spent only on the Effects listed on the cypher. Some create a Truth instead. Listed fixed benefits follow their own text; do not turn them into additional unrestricted Power.
+-- #strong[Cypher Limit:] each PC can carry #strong[2] cyphers (some playbooks or Focuses grant 3).
++- #strong[Using one:] an action, usually with #strong[no roll];. The cypher generates #strong[Power equal to its tier];, spent only on its listed Effects. Some create a Truth instead. Fixed benefits, such as #emph[restore 3 Sōma], happen as written and aren't Power.
++- #strong[Cypher Limit:] each PC can carry #strong[2] cyphers. A setting ability may raise this.
+ - #strong[Over the limit:] at the end of each scene, the GM gains 1 Woe per extra cypher and may trigger a #strong[Volatile] result (roll d12: 1--4 one cypher fires randomly; 5--8 one cypher is ruined; 9--12 nothing happens yet).
+ - #strong[Subtle cyphers] (setting option): instead of physical objects, cyphers are luck, insights, or favours (\"a contact owes you\", \"a flash of insight\"). They work the same way and fit low-magic or modern games.
+ - #strong[GM pacing:] give out 1--2 cyphers per PC per session. They should feel like loot that gets spent.
+ 
+-#strong[One Power budget.] Divide the cypher's generated Power among its listed Effects; a list of Effects does not grant the full budget to each. Create costs 2 Power per Truth rank before explicit discounts (Core Rules §5). For example, a tier-2 Smoke charge can spend its 2 Power on rank-1 smoke cover; a tier-4 Firebomb that spends all 4 Power on a rank-2 burning Truth has none left for its listed Attack. A harmful status, a Truth and shared Disposition loss are different components, not interchangeable descriptions of the same purchase.
++#strong[One Power budget.] Split the Power among the listed Effects; each Effect doesn't get the full budget. Create costs 2 Power per rank (Core Rules §5): a tier-2 Smoke charge buys rank-1 #emph[smoke cover];, and a tier-4 Firebomb that buys a rank-2 #emph[burning] Truth has nothing left for its Attack.
+ 
+-#strong[Use in scripted conflicts.] No roll does not mean no action. An item entry must identify the scripted action or explicit triggered exception that permits its use. Apply automatic success only to an otherwise permitted action under Core Rules §10.5: it does not rescue a trumped action, change the script, reassign an actor, bypass rotation or allow use while Taken Out. No roll produces no dice-based critical or complication. A cypher's listed Effects permit those Effects within its stated use; they do not add them to every ordinary Maneuver or Defend.
++#strong[In a scripted conflict,] using a cypher still takes a scripted action, or a trigger the item states. \"No roll\" means automatic success on an action that's otherwise allowed: it doesn't rescue a trumped action, change the script or bypass rotation, and it can't be used while Taken Out (Core Rules §10.5). With no dice, there's no critical or complication.
+ 
+-#strong[Open mappings.] The short sample entries do not fully specify scripted action categories, versus interactions or immediate-use timing for every cypher. In particular, the Ward token's reaction timing and the scripted mapping of status-inflicting cyphers need explicit item text or a separate ruling. This pass does not supply those missing exceptions. Set them before resolution rather than inferring a free interrupt from the item's name or no-roll use.
++#strong[Open ruling.] The sample entries don't give every cypher's scripted action or timing; the Ward token's reaction timing in particular is unset. Decide before resolving, and don't assume a free interrupt.
+ 
+-#strong[Harm and protection.] An ordinary conflict Attack removes shared Disposition, not a harmful status. Status-inflicting cyphers use their explicitly listed harm component; they do not also remove Disposition unless the item expressly grants both. The Ward token and other generic prevention cannot negate ordinary Disposition loss, injury-trade payments, running-dry statuses, agreed concession costs or other protected payments (Core Rules §10.7).
++#strong[Harm and protection.] An ordinary Attack removes Disposition, not a status. A status-inflicting cypher inflicts its listed status and removes no Disposition unless it says so. The Ward token can't negate Disposition loss, running-dry statuses or other protected payments (Core Rules §10.7).
+ 
+-#strong[Healing.] A cypher that merely lists Restore follows the normal limits for lasting injuries: ordinary treatment removes at most 1 tier, then marks the injury treated until a healing interval removes a tier (Core Rules §6.6). Its tier is a Power budget, not an explicit promise to heal that many injury tiers. An item expressly healing a stated number of tiers follows its own text. Restoring Sōma or Pneuma does not clear a status, refund an injury trade or erase a Scar; healing does not itself return a Taken Out ally to an ongoing conflict (§6.4).
++#strong[Healing.] Restore on a cypher follows the normal limit for lasting injuries: treatment removes at most 1 tier, unless the item says otherwise (Core Rules §6.6). Restoring Sōma or Pneuma doesn't clear statuses, refund injury trades, erase Scars or return a Taken Out ally to the conflict (Core Rules §6.4).
+ 
+-#strong[Area.] A grenade, blast or spreading-fire description alone does not supply an unstated area mechanic. When an item explicitly has an area effect, establish everyone it can reach and use Core Rules §10.17: full listed or purchased status tier with separate Resistance or NPC reduction, or ordinary shared Disposition loss once plus 1 per additional opposing participant affected. Apply both layers only when expressly granted. A group represented by one rules entry counts as one participant, and allies are not automatically excluded.
++#strong[Area.] Words like grenade or blast don't create an area effect by themselves. An item with an explicit area effect uses Core Rules §10.17.
+ 
+ #strong[Cypher format:]
+ 
+@@ -53,16 +53,16 @@ Cyphers are frequent, disposable power-ups that encourage players to use them ra
+ #strong[Flashbang] (Tier 3) --- #emph[Effects:] Attack (dazed), Weaken. #emph[Form:] palm-sized canister. #strong[Draught of Iron Skin] (Tier 2) --- #emph[Effects:] Enhance (armoured), Restore. Lasts one scene.
+ ]
+ 
+-For a complete playable entry, also state its action or trigger, targets, duration, removal conditions and any area or conflict exceptions. The short formats above are effect summaries, not complete timing specifications.
++A complete entry also states its action or trigger, targets, duration, removal conditions and any area or conflict exceptions.
+ 
+ === A.2 Artifacts
+ - #strong[What they are:] reusable items of real power --- a flaming sword, a psychic amplifier, a starship\'s AI core.
+-- #strong[Tags:] an artifact has 1--2 power tags (counting toward the +2 cap) and usually a special ability. Do not count its general item tag and conflict action tag twice for the same benefit on one roll (Core Rules §10.10).
++- #strong[Tags:] an artifact has 1--2 power tags (counting toward the +2 cap) and usually a special ability. Its item tag and conflict gear tag don't both count for the same benefit on one roll (Core Rules §10.10).
+ - #strong[Depletion:] each artifact has a depletion rating, e.g. #strong[1 in d12];. After each use, roll d12; on that number or lower, it is #strong[depleted] (broken, drained, or needs a downtime clock to restore).
+-- #strong[Attunement:] powerful artifacts (marked ★) must be attuned and #strong[cost 1 Refresh] while attuned (§4.1). A PC can attune to a maximum of 2 artifacts.
++- #strong[Attunement:] powerful artifacts (marked ★) must be attuned and #strong[cost 1 Refresh] while attuned (Core Rules §4.1). A PC can attune to a maximum of 2 artifacts.
+ - #strong[Artifact quirks:] each artifact has a weakness tag that can be compelled for Tychē Points (#emph[thirsts for blood];, #emph[talks too much];, #emph[draws the Hunters];).
+ 
+-An artifact's ability obeys its stated action requirements and the same conflict boundaries as a cypher. Switching equipment does not refresh a once-per-conflict benefit or restore a depleted item. Defend restores shared Disposition, not artifact charges or lost equipment, unless an explicit rule provides that additional effect.
++Artifact abilities follow the same conflict limits as cyphers. Switching equipment doesn't refresh a once-per-conflict benefit or restore a depleted item, and Defend restores Disposition only.
+ 
+ #strong[Artifact format:]
+ 
+@@ -70,6 +70,6 @@ An artifact's ability obeys its stated action requirements and the same conflict
+ #strong[★ Ember-Brand] (longsword) --- #emph[Tags:] blade of living flame, +1 Attack (conflict gear). #emph[Ability:] spend 1 Power to add #emph[burning] to any status you inflict. #emph[Depletion:] 1 in d12 (goes cold until bathed in a forge). #emph[Quirk:] #emph[cannot be hidden];.
+ ]
+ 
+-Ember-Brand modifies a status that another permitted effect actually inflicts. Its ordinary conflict Attack tag does not itself inflict a status, and the ability does not turn Disposition loss into burning harm. Establish any status's tier, scope and removal condition under the normal status rules; do not infer a second free status or damage layer from the name.
++Ember-Brand only adds #emph[burning] to a status something else inflicts. Its Attack tag doesn't inflict a status, and Disposition loss doesn't become #emph[burning];.
+ ]
+   
+\ No newline at end of file
+diff --git a/2d12System/chapter-3-module-b-the-grind-and-travel.typ b/2d12System/chapter-3-module-b-the-grind-and-travel.typ
+index cad5606..d2a61c7 100644
+--- a/2d12System/chapter-3-module-b-the-grind-and-travel.typ
++++ b/2d12System/chapter-3-module-b-the-grind-and-travel.typ
+@@ -2,7 +2,7 @@
+ 
+ == Module B --- The Grind & Travel (Mouse Guard)
+ #columns(2, gutter: 4mm)[
+-The Grind turns time, distance, and hardship into slow, steady pressure. It pairs with Mouse Guard\'s GM\'s Turn / Players\' Turn structure.
++The Grind turns time, distance and hardship into slow, steady pressure. Play alternates between a GM's Turn (the mission) and a Players' Turn (downtime).
+ 
+ === B.1 Session Structure
+ #figure(
+@@ -11,7 +11,7 @@ The Grind turns time, distance, and hardship into slow, steady pressure. It pair
+     align: (auto,auto,),
+     table.header([Phase], [What happens],),
+     table.hline(),
+-    [#strong[GM\'s Turn];], [The mission. The GM presents obstacles; rolls advance the Grind under B.2, with scripted conflict actions grouped by exchange.],
++    [#strong[GM\'s Turn];], [The mission. The GM presents obstacles, and rolls advance the Grind (B.2).],
+     [#strong[Players\' Turn];], [Downtime after the mission. Players spend #strong[Checks] to take actions: recover, research, craft, pursue Goals.],
+   )]
+   , kind: table
+@@ -19,13 +19,13 @@ The Grind turns time, distance, and hardship into slow, steady pressure. It pair
+ 
+ === B.2 The Grind Clock
+ - During the GM\'s Turn, the GM keeps a #strong[Grind clock] visible to the table.
+-- #strong[Each roll] outside scripted conflict actions ticks it by 1; conflict action rolls are grouped as #strong[1 tick per exchange], not one per volley, actor or die.
++- #strong[Each roll] ticks it by 1. In a scripted conflict, count #strong[1 tick per exchange];, not per volley, actor or die.
+ - #strong[Size by hostility:] 4 (harsh: desert, deep winter, the underworld), 6 (normal wilderness or dangerous city), 8 (gentle or well-supplied).
+ - #strong[When it fills:] every PC gains the next #strong[Grind condition] they don\'t have yet, then the clock resets. The GM may also spend 2 Woe to tick it.
+ 
+-The Grind is an explicit hardship procedure, not an additional GM move awarded by ordinary conflict failure. Preserve its listed cadence and 2-Woe tick cost rather than substituting the generic danger-clock rate. It neither removes shared Disposition nor automatically inflicts a bodily injury.
++The Grind uses its own rates, not the generic danger-clock rate, and failed conflict actions don't add ticks. It doesn't remove Disposition or cause injuries.
+ 
+-#strong[Open timing.] B.2 does not fully specify the treatment of incidental Resistance or recovery rolls during an exchange, a conflict ending partway through an exchange, or the exact point a filled Grind clock applies its condition. These remain separate timing rulings; the one-tick grouping for conflict action rolls does not resolve them. Do not use an unstated timing exception to cancel an independently resolving action (Core Rules §10.5, §10.12).
++#strong[Open ruling.] B.2 doesn't say exactly when a filled clock applies its condition, whether Resistance or recovery rolls during an exchange tick it, or what happens when a conflict ends mid-exchange. Decide at the table; don't use the timing to cancel an action that resolves on its own (Core Rules §10.5).
+ 
+ === B.3 Grind Conditions (taken in order)
+ #figure(
+@@ -44,11 +44,11 @@ The Grind is an explicit hardship procedure, not an additional GM move awarded b
+   , kind: table
+   )
+ 
+-Grind conditions are statuses for Restore, but #strong[they don\'t stack] --- each is a separate condition. The Order column gives their acquisition sequence, not a harmful status tier. Apply each condition's listed effect and recovery requirement; Hungry & Thirsty is not automatically tier 1, nor Sick automatically tier 5. Broken explicitly removes the character from the mission and gives a Scar; do not add a second generic tier-6 Scar merely because it is sixth in the list.
++Grind conditions count as statuses for Restore, but #strong[they don\'t stack] and have no tier: the Order column is the sequence you gain them in. Broken already includes its Scar; don't add a tier-6 Scar too.
+ 
+-#strong[Separate layers.] A condition that prevents contribution to a conflict can remove that participant without subtracting Disposition. A side loses when nobody can pursue its objective, after independent actions finish. Clearing a Grind condition does not refill a pool, heal a separate injury, erase a Scar or grant permission to rejoin an ongoing conflict; apply Core Rules §6.4--6.6 and §10.9. Pool recovery remains subject to Hungry & Thirsty and Sick as listed above.
++#strong[Separate layers.] A condition that stops a PC contributing removes them from the conflict without costing Disposition; the side loses when nobody can pursue its objective (Core Rules §10.9). Clearing a condition doesn't refill pools, heal injuries, erase Scars or let a PC rejoin a conflict (Core Rules §6.4--6.6).
+ 
+-#strong[Resistance scope remains open.] This table does not specify a general Resistance procedure for acquiring its non-tiered Grind conditions. Do not infer one from the Order numbers. Ordinary imposed tiered harm uses the core Resistance rules; running-dry statuses and accepted payments retain their own exclusions. This compatibility pass does not decide whether or how a Grind condition can be Resisted.
++#strong[Open ruling.] The table doesn't say whether a Grind condition can be Resisted. Ordinary tiered harm still uses core Resistance.
+ 
+ === B.4 Checks (Players\' Turn)
+ - #strong[Earn Checks] during the GM\'s Turn by #strong[applying one of your weakness tags or Scars to your own roll] (−1). You earn 1 Check, or 2 if the penalty makes the roll fail.
+@@ -56,7 +56,7 @@ Grind conditions are statuses for Restore, but #strong[they don\'t stack] --- ea
+ - #strong[Spend 1 Check] for one Players\' Turn action: a recovery roll against a Grind condition or status, a downtime clock roll, a research or crafting roll, restoring a burned tag, attuning an artifact, or a scene that pursues your Goal.
+ - #strong[Sharing:] you can give a Check to another PC whose scene you take part in.
+ 
+-This makes weaknesses a deliberate resource: hurt yourself now to earn recovery and downtime later. Spending a Check permits the activity, not automatic success or recovery beyond its applicable limits. Treatment of lasting injuries follows §6.6; another Check or a new scene does not clear the treated mark. Checks grant no extra scripted turn or rotation bypass. If Module D is used, it replaces B.4 with its own Players' Turn and stay procedure.
++Weaknesses become a resource: hurt yourself now to recover later. A Check permits an activity; it doesn't guarantee success. Lasting injuries still follow Core Rules §6.6, and another Check doesn't clear the treated mark. Module D, if used, replaces B.4.
+ 
+ === B.5 Travel
+ A journey is a #strong[Journey clock] (6 for a short trip, 8 for a hard trip, 12 for an expedition). Each #strong[leg] (a day or a stage), the party assigns #strong[roles];; each role makes one roll:
+@@ -80,9 +80,9 @@ A journey is a #strong[Journey clock] (6 for a short trip, 8 for a hard trip, 12
+ - #strong[Encounters:] the GM spends Woe (1 for a minor encounter, 3 for a major one), or uses the Scout\'s failed roll.
+ - #strong[Portages and hard stretches:] a special leg (Endure or Athletics roll for every PC); failure ticks the Grind clock twice.
+ 
+-#strong[Journey, hardship and conflict.] Advance buys 1 Journey segment per Power (Core Rules §7). That progress is not Disposition loss, and neither track automatically changes the other. A travel encounter uses the ordinary conflict test (§10.1): a single obstacle may need one roll, while a sustained chase or struggle against the wild may merit scripting. Use that conflict's action skills, rotation and permitted effects; the travel role menu does not become a general conflict Maneuver menu.
++#strong[Journeys and conflicts.] Advance buys 1 Journey segment per Power (Core Rules §7). Journey progress and Disposition don't affect each other. A travel encounter uses the conflict test (Core Rules §10.1): one obstacle may need a single roll, while a sustained chase may be a conflict. Travel roles don't become conflict actions.
+ 
+-The Scout's option concerns a prepared encounter, not cancellation of an already resolved action or automatic victory in an ongoing conflict. Changing from travel narration to a Chase or Survive the Wild does not itself reset an existing conflict's Disposition, used injury trades or Taken Out participants (§10.2). A genuinely new conflict needs a materially different objective or changed circumstances.
++Spot Trouble cancels a prepared encounter, not a resolved action or an ongoing conflict. Moving from travel into a chase doesn't reset a conflict already under way (Core Rules §10.2).
+ 
+-#strong[Retained travel questions.] The short role entries do not state every Power price for their special options; the hard-stretch rule also leaves whether its two failure ticks replace or add to the ordinary roll tick unspecified. This pass preserves those entries and does not invent prices or extra ticks.
++#strong[Open ruling.] The roles don't price their options in Power, and a hard stretch doesn't say whether its two failure ticks replace or add to the normal roll tick.
+ ]
+diff --git a/2d12System/chapter-3-module-c-truth-driven-sandbox.typ b/2d12System/chapter-3-module-c-truth-driven-sandbox.typ
+index 0400166..abf2388 100644
+--- a/2d12System/chapter-3-module-c-truth-driven-sandbox.typ
++++ b/2d12System/chapter-3-module-c-truth-driven-sandbox.typ
+@@ -19,7 +19,7 @@ Truths become the backbone of an open-world campaign: regions, sites, and factio
+   , kind: table
+   )
+ 
+-Record scope, rank and removal condition when a Truth matters mechanically (Core Rules §8). Its layer describes scale and persistence, not a larger numerical rank: rank 2 remains the maximum, and the net Difficulty shift remains capped at three steps. A removal condition does not extend a Scene Truth beyond its duration.
++Record scope, rank and removal condition as usual (Core Rules §8). A Truth's layer sets its scale and how long it lasts, not its rank: rank 2 and the three-step cap still apply.
+ 
+ === C.2 Site Sheets
+ Each location gets a short sheet:
+@@ -30,7 +30,7 @@ Each location gets a short sheet:
+ - #strong[A secret] (something worth discovering)
+ - #strong[Rumours] (see C.4)
+ 
+-State the danger clock's actual trigger or deadline. Its presence is not permission to add a tick or an unrelated GM move to every ordinary failed conflict action; use Core Rules §7 and §10.7.
++Give the danger clock a real trigger or deadline. It doesn't tick on every failed conflict action (Core Rules §7, §10.7).
+ 
+ === C.3 Truth Generator Tables (d12)
+ Roll once per column or pick.
+@@ -62,7 +62,7 @@ A #strong[rumour] is an unconfirmed claim, not yet an established Truth. When pl
+ 
+ #figure(
+   [#table(
+-    columns: (8%, 92%),
++    columns: (12%, 88%),
+     align: (auto,auto,),
+     table.header([d12], [Result],),
+     table.hline(),
+@@ -73,10 +73,10 @@ A #strong[rumour] is an unconfirmed claim, not yet an established Truth. When pl
+   , kind: table
+   )
+ 
+-Resolve an unsettled rumour with this table; do not use it to retroactively overturn a fact already established by successful investigation. Record the actual finding, including any meaningful difference from the claim. Discovering a hidden Truth reveals what exists; it is not the same as creating a desired fact.
++Use the table only for an unsettled rumour, never to overturn something already established. Record what's actually true, including how it differs from the claim. Discovering a hidden Truth reveals it; it doesn't create the fact you wanted.
+ 
+ === C.5 Faction Turns
+-#strong[Module E replacement.] If Module E is enabled, use its World Turn procedure (E.10) instead of this section's faction action procedure; do not run both. With Module D, that World Turn takes place after the stay's endeavours (D.7). Retain the rest of Module C.
++#strong[With Module E,] use its World Turn (E.10) instead of this section, after the stay's endeavours if Module D is in use (D.7). The rest of Module C still applies.
+ 
+ Without Module E, between sessions (or each in-world week), the GM takes a #strong[World Turn];:
+ 
+@@ -85,16 +85,16 @@ Without Module E, between sessions (or each in-world week), the GM takes a #stro
+ + When a clock fills, the faction #strong[creates, removes, or changes the appropriate Site or Region Truth] (e.g. #emph[The Guild controls the river] replaces #emph[The river is free];). Campaign Truths still require a major arc, not an ordinary completed clock.
+ + PCs who hear about it can respond; PC actions can tick faction clocks forward or back using Advance.
+ 
+-A faction project changes a Site Truth with an 8-segment clock, a Region Truth with a 12-segment clock, and a Campaign Truth only through a major arc (C.6). Under Module E, use its declared-project, capability and action rules rather than substituting this basic rating roll.
++A faction project changes a Site Truth with an 8-segment clock and a Region Truth with a 12-segment clock. A Campaign Truth changes only through a major arc (C.6).
+ 
+ === C.6 Player Influence on Truths
+ - #strong[Discover] effects and Momentum spends reveal hidden Truths.
+ - #strong[Create] effects and 2 Momentum create Scene Truths; bigger changes need a progress clock (8 segments for a Site Truth, 12 for a Region Truth).
+ - Major arcs can rewrite Campaign Truths. These are the \"legacy\" moments of the campaign.
+ 
+-Create costs 2 Power per Truth rank before explicit discounts; a 2-Momentum creation starts at rank 1, with the same cost again to raise it to rank 2 (Core Rules §5, §8). A Scene Truth cannot bypass a larger project's scale merely by naming a lasting regional outcome.
++Create costs 2 Power per rank (Core Rules §5). A 2-Momentum Truth starts at rank 1, and the same cost again raises it to rank 2 (Core Rules §8). A Scene Truth can't stand in for a Site or Region change.
+ 
+-#strong[Acting in a conflict.] Use permitted scripted actions and explicit exceptions for Discover, Advance or other Effects not on the ordinary action menu (§10.6). A faction project clock is not shared Disposition: winning a conflict achieves its stated intent within the stakes, not automatic completion of every related project. A Truth can establish a scenery feature, but exploiting it requires the scenery Maneuver's own requirements and Power cost (§10.8). Preparation can justify Superiority only when its distinct category and relevance are established (§10.3).
++#strong[In a conflict,] Discover, Advance and other off-menu Effects need a permitted action or explicit exception (Core Rules §10.6). Winning achieves the conflict's stated intent, not every related project clock. A Truth can set up a scenery feature, but using it takes a scenery Maneuver (Core Rules §10.8). Preparation counts toward Superiority only under Core Rules §10.3.
+ 
+ #include "drafts/module-c-7-8-entanglements-long-knives.typ"
+ ]
+\ No newline at end of file
+diff --git a/2d12System/chapter-3-optional-modules.typ b/2d12System/chapter-3-optional-modules.typ
+index b2c0989..37ac991 100644
+--- a/2d12System/chapter-3-optional-modules.typ
++++ b/2d12System/chapter-3-optional-modules.typ
+@@ -12,11 +12,11 @@ Choose the modules the campaign needs. Use an explicit replacement instead of ru
+ - #strong[Downtime (D)] replaces Module B.4's Players' Turn procedure. Core field rests and Module B's Grind-condition recovery remain separate (D.1).
+ - #strong[Factions (E)] replaces Module C.5's basic faction action procedure. Its starting-cluster procedure E.1A replaces C.8; retain the rest of Module C.
+ - #strong[Downtime with Factions] uses one World Turn per stay, after endeavours resolve (D.7, E.10). A longer stay does not create extra World Turns or faster Strain recovery.
+-- #strong[Inquiry (F)] applies its explicit clue and Insight procedures in Inquiry scenes. It does not replace ordinary conflict resolution; changing scene labels does not reset an ongoing struggle.
++- #strong[Inquiry (F)] adds clue and Insight procedures to Inquiry scenes. It doesn't replace conflicts, and relabelling a scene doesn't reset one.
+ 
+-Specific module rules govern their stated exceptions. For example, the Grind's 2-Woe clock tick does not use the generic danger-clock rate, and a cypher's no-roll use does not grant an extra scripted turn. Keep pools, statuses, Disposition, project clocks and faction Qualities distinct unless an explicit rule connects them.
++Module rules override core rules only where they say so: the Grind's 2-Woe tick isn't the danger-clock rate, and a cypher's no-roll use isn't an extra scripted turn. Pools, statuses, Disposition, project clocks and faction Qualities stay separate unless a rule links them.
+ 
+-Unspecified interactions remain open rulings, not permission to add effects, costs or resets. The individual module sections identify retained playtest questions and provide their full procedures.
++Anything a module doesn't cover is an open ruling, not permission to add effects, costs or resets. Each module lists its own.
+ ]
+ 
+ #include "chapter-3-module-a-cyphers-and-artifacts.typ"
+diff --git a/2d12System/drafts/module-c-7-8-entanglements-long-knives.typ b/2d12System/drafts/module-c-7-8-entanglements-long-knives.typ
+index cf62384..6d59fd9 100644
+--- a/2d12System/drafts/module-c-7-8-entanglements-long-knives.typ
++++ b/2d12System/drafts/module-c-7-8-entanglements-long-knives.typ
+@@ -11,7 +11,7 @@ Use this at the start of a campaign, after players have picked a Descriptor, Pla
+ - #strong[Set] (diamond): a place that matters.
+ - #strong[Situation] (triangle): an event or pressure, past, present or looming.
+ 
+-#strong[Phases.] Go around the table once per phase. Each player adds elements and draws lines from their PC. A player can't use the same shape twice in a row. Each phase then gives a 2d12 output:
++#strong[Phases.] Go around the table once per phase. Each player adds elements and draws lines from their PC. A player can't use the same shape twice in a row. Each phase also gives each PC something for their sheet:
+ 
+ #figure(table(columns: (18%, 14%, 38%, 30%),
+   table.header([Phase], [Type], [Each player adds], [Output for the PC]),
+@@ -27,20 +27,20 @@ Use this at the start of a campaign, after players have picked a Descriptor, Pla
+ - #strong[Wedges.] The GM picks one line to threaten in the first session.
+ - #strong[Late arrivals.] A new PC runs the same phases against the existing map.
+ 
+-#strong[Campaign Truths.] Finish by writing #strong[3 to 5 Campaign Truths] (§8) from the map. Each Situation is a candidate, and each Organization that most PCs touch gives one. Mark Organizations that conflict with each other as #strong[faction candidates] for C.8.
++#strong[Campaign Truths.] Finish by writing #strong[3 to 5 Campaign Truths] (Core Rules §8) from the map. Each Situation is a candidate, and each Organization that most PCs touch gives one. Mark Organizations that conflict with each other as #strong[faction candidates] for C.8.
+ 
+-#strong[Lines into factions.] When a line joins a PC to an Organization, use it to propose the appropriate Module E record, keeping organizational policy separate from personal ties and authority:
+-- #emph[Sworn member of], #emph[commissioned by]: a membership or office Truth (E.4). Establish the recognized appointment or process and record its permissions, jurisdiction, duties, duration and removal condition; a line does not grant unlimited command.
+-- #emph[Patron of], #emph[funded by]: a patronage record (E.4), stating what is supplied, the service expected, limits and ending conditions.
+-- #emph[Owes], #emph[is owed by]: a favor or obligation (E.7). Agree the service, limits, notice and settlement terms rather than treating the line as an unlimited debt.
+-- #emph[Feuds with], #emph[hunted by]: grounds for adverse starting Standing when they describe the faction's policy toward the party (E.3). Record the actual relationship; #emph[fears] alone does not establish hostility or change Standing.
+-- #emph[Betrayed], #emph[estranged from]: a personal exception when the history concerns that PC rather than the whole party (E.4). It replaces the normal relationship Truth for its subject instead of stacking with it.
+-Props and Sets connected to an Organization are candidate assets. Record them as usable faction assets only when ownership, control, access and operational reach support that use (E.2). A line showing interest in a relic or a disputed estate does not itself give the faction possession or the full resources of that place.
++#strong[Lines into factions.] A line between a PC and an Organization suggests a Module E record. Keep the faction's policy separate from personal ties:
++- #emph[Sworn member of], #emph[commissioned by]: a membership or office Truth (E.4), with its permissions, duties and limits. A line alone doesn't grant command.
++- #emph[Patron of], #emph[funded by]: a patronage record (E.4): what's supplied, what's expected and when it ends.
++- #emph[Owes], #emph[is owed by]: a favour (E.7) with agreed service, limits and terms, not an unlimited debt.
++- #emph[Feuds with], #emph[hunted by]: adverse starting Standing, if it reflects the faction's policy toward the party (E.3). #emph[Fears] alone doesn't change Standing.
++- #emph[Betrayed], #emph[estranged from]: a personal exception for that PC (E.4). It replaces the normal relationship Truth instead of stacking with it.
++Props and Sets tied to an Organization become faction assets (E.2) only if the faction actually owns, controls or can reach them. Interest alone isn't possession.
+ 
+-#strong[Relationships are not automatic bonuses.] Record relevant Truths with scope, rank and removal condition. A named ally or faction connection does not itself grant free Help, an independent turn, a personal Disposition track or a preparation bonus. Apply the relevant Help, participation and Superiority requirements when the resource actually contributes (Core Rules §10.2--10.3, §10.9; Module E.6).
++#strong[Relationships aren't free bonuses.] Record relevant Truths normally. An ally or faction tie doesn't by itself grant Help, Backing, an extra turn, its own Disposition or Superiority; apply those rules when the resource actually contributes (Core Rules §10.2--10.3, §10.9; Module E.6).
+ 
+ === C.8 Building Factions: Long Knives
+-If Module E is in use, use E.1A instead. Without Module E, build the starting factions for C.5 like this. Do not also generate a second starting cluster through this procedure.
++If Module E is in use, use E.1A instead. Otherwise, build the starting factions for C.5 like this:
+ 
+ 1. #strong[Place.] Name the location. Record it as the first Region Truth (C.1).
+ 2. #strong[Gather.] List the groups the PCs' lines point to: Organizations from the map, plus fragments of them. Note what each wants in the area and who would oppose it.
+@@ -49,10 +49,10 @@ If Module E is in use, use E.1A instead. Without Module E, build the starting fa
+ - #strong[Has]: one obvious asset and one less obvious one. These set its #strong[rating]: +1 minor, +2 solid, +3 major, +4 dominant.
+ - #strong[Wants]: its current project, with a clock sized by the change it makes (8 for a Site Truth, 12 for a Region Truth; C.6) and the #strong[result Truth] it creates or changes when the clock fills.
+ - #strong[Link]: how it connects to the PCs.
+-- #strong[Relations]: allied or hostile toward each other faction. Where it matters, write the relation as a Truth (§8).
++- #strong[Relations]: allied or hostile toward each other faction. Where it matters, write the relation as a Truth (Core Rules §8).
+ 5. #strong[Incident.] One faction does something underhanded or aggressive that affects the others. Treat it as a project that has already filled: record its result Truth. The PCs may see it but can't prevent it.
+-6. #strong[Reaction.] Give each other faction a response as a linked clock (§7), opened by the incident.
++6. #strong[Reaction.] Give each other faction a response as a linked clock (Core Rules §7), opened by the incident.
+ 7. #strong[Future.] Write the result Truth each clock creates if the PCs do nothing. Make at least one visible to the players, and bad enough that they want to act.
+ 8. #strong[Involvement.] Note how each PC is pulled in. Appeals from factions should be biased and based on limited information.
+ 
+-#strong[The incident is starting history.] Step 5 establishes an event already completed before ordinary play. It is not permission to cancel a PC's resolved action, skip an ongoing conflict or declare a new faction project complete in response to resistance. Once play begins, use C.5 or Module E's replacement procedure, and respect established intent, stakes and action timing. Campaign-scale changes still require a major arc rather than an ordinary completed Site or Region clock.
++#strong[The incident is history.] It happened before play starts; it can't later cancel a PC's action, skip a conflict or complete a project. Once play begins, use C.5 or Module E. Campaign Truths still need a major arc.

@@ -21,7 +21,7 @@
 - #strong[Currency load:] pools + Tychē + Momentum + Woe is the upper limit for medium crunch. Keep spend menus short on the sheet.
 - #strong[Modifier range:] max is skill +4, tags +2, helpful status up to +6, Tychē invoke +2. Statuses are the largest swing. Playtest a ±3 status cap.
 - #strong[Effort for Power] may make high-Edge characters very efficient. Watch Edge-3 pools where Effort is free; consider a minimum cost of 1.
-- #strong[Resistance dice:] Edge adds Resistance dice instead of reducing the cost, and only a double 12 is free (§6). Watch how often stacked penalties (#emph[Exposed] plus #emph[Shaken] on a 0-Edge pool) push Resistance to negative Edge, whether high-Edge pools drain faster than before, and whether the double-12 result (1--6%) is too rare to matter.
+- #strong[Resistance dice:] Edge adds Resistance dice instead of reducing the cost, and only a double 12 is free (§6). Watch how often stacked penalties (two −1 Edge penalties on a 0-Edge pool) push Resistance to negative Edge, whether high-Edge pools drain faster than before, and whether the double-12 result (1--6%) is too rare to matter.
 - #strong[Four pools] means more pool points to track. The sheet should put all four in one row with Edge beside each.
 - #strong[Conflict length:] with scripting used for every big contest, the conflict test (§10.1) is what stops overuse.
 - #strong[Running dry:] running dry imposes a status at tier 1 + overrun, and Scars come from tier 6, not from an empty pool (§6.1--6.3). Playtest the 2-points-per-tier depletion rate, the one-Scar-per-scene limit, and how often Resisting on an empty pool reaches tier 4 or higher.

@@ -28,7 +28,7 @@ Prepare full records only for active factions. A name, purpose, and Standing suf
 
 The party may found or lead a faction. Give it ratings justified by its actual people and resources; do not purchase a second character sheet with personal pool points. Leadership grants only the authority its governing structure recognizes.
 
-#include "drafts/module-e-1a-starting-cluster.typ"
+#include "chapter-3-module-e.1a-starting-cluster.typ"
 
 === E.2 Organizational Qualities
 

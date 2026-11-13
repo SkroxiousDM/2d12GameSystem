@@ -1,0 +1,228 @@
+diff --git a/2d12System/chapter-2.10-area-and-interpose.typ b/2d12System/chapter-2.10-area-and-interpose.typ
+index f3a80e2..d05af67 100644
+--- a/2d12System/chapter-2.10-area-and-interpose.typ
++++ b/2d12System/chapter-2.10-area-and-interpose.typ
+@@ -2,7 +2,8 @@
+ 
+ #columns(2, gutter: 6mm)[
+ === 10.17 Area Effects
+-#strong[Provisional for playtesting.] This Area Rule replaces earlier per-member Disposition wording and the rule that gave full effect to one target and tier-1 splash to the others.
++#strong[Provisional for playtesting.]
++// Replaces earlier per-member Disposition wording and the full-effect-plus-tier-1-splash rule.
+ 
+ An area effect affects everyone within its established area whom the effect can reach. Establish the area and affected participants before resolving it. An area effect does not automatically distinguish allies from enemies; selective targeting requires an explicit rule or circumstances that keep others outside its reach.
+ 
+@@ -10,7 +11,7 @@ An area effect affects everyone within its established area whom the effect can
+ + Apply the committed Power + 1 to the opposing side's shared Disposition once.
+ + Add 1 Disposition loss for each additional opposing participant affected beyond the first.
+ 
+-Do not assign Disposition loss to individual participants. There are no individual shares or spill-over. A group represented by one rules entry counts as one participant, not one per fictional body (§10.9).
++Loss goes to the shared total, never to individuals. A group with one rules entry counts as one participant (§10.9).
+ 
+ #emph[Example:] an area Attack commits 3 Power to Disposition loss and affects three opposing participants. It removes 6 shared Disposition: 3 Power + 1 for the normal Attack, +2 for the two additional participants.
+ 
+@@ -20,20 +21,19 @@ Apply any eligible injury trade against the combined loss (§10.11). The area At
+ 
+ #emph[Example:] an effect that inflicts #emph[burned-3] in an area inflicts #emph[burned-3] on every affected character, not tier 3 on one and tier 1 on the others.
+ 
+-An ordinary conflict Attack or Feint still inflicts no status merely because it is an area effect. Apply both Disposition loss and statuses only when an explicit rule grants both. Outside conflicts, resolve statuses normally; do not introduce Disposition loss. Apply offensive bonuses to their stated component, not automatically to both (§10.6).
++An ordinary conflict Attack or Feint inflicts no status just because it covers an area; it inflicts both loss and statuses only if an explicit rule says so. Outside conflicts, area effects inflict statuses normally and no Disposition loss. Offensive bonuses apply to their stated component (§10.6).
+ 
+-#strong[Playtest flags.] Test whether splash makes large groups lose shared Disposition too quickly; test full-tier statuses against groups, including separate Resistance costs; and test Unleash and NPC area Specials against this common procedure.
++// PLAYTEST: does splash drain shared Disposition too fast against large groups? Test full-tier statuses against groups (separate Resistance costs), and Unleash and NPC area Specials against this procedure.
+ 
+ === 10.18 Interpose
+-#strong[Bulwark Role Trait.] Once per exchange in a conflict, when an ally would receive an imposed status that you can physically or otherwise fictionally intercept, you may take that status in their place. Outside conflicts, you may likewise intercept a fitting incoming status; this trait adds no separate frequency limit outside conflicts.
++#strong[Bulwark Role Trait.] Once per exchange in a conflict, when an ally would receive an imposed status that you can physically or otherwise fictionally intercept, you may take that status in their place. Outside conflicts, you can intercept a fitting status with no frequency limit.
+ 
+ Declare Interpose before the original target rolls Resistance or applies any harm reduction.
+ 
+ - Redirect the entire incoming status to yourself. The original target receives none of that status.
+ - Resolve your own normal Resistance or NPC harm reduction against it, then stack what remains normally. Do not first apply the original target's Resistance, armour or other reduction.
+-- Ordinary NPCs remain limited to one reduction per imposed status application (§10.14). Interpose itself redirects the status; it does not reduce its tier.
+-- Interpose does not redirect or reduce shared Disposition loss.
+-- You cannot Interpose against an accepted injury-trade payment, a running-dry status, an agreed concession cost, a compromise cost or another accepted payment.
++- Interpose redirects; it doesn't reduce the tier. Ordinary NPCs still get only one reduction per status (§10.14).
++- It can't redirect shared Disposition loss or any protected payment (§10.7).
+ - You must be able to intercept the source of harm in the established fiction. You cannot protect an ally from an area effect that already affects both of you.
+ 
+ #emph[Example:] a guardian with Interpose can step into a shock-baton strike that would inflict #emph[jolted-3] on an ally. The guardian receives #emph[jolted-3] and uses its own eligible reduction. It cannot intercept ordinary Disposition loss or shield that ally from a blast that already catches them both.
+diff --git a/2d12System/chapter-2.10-conflict-system-aftermath.typ b/2d12System/chapter-2.10-conflict-system-aftermath.typ
+index 9635b0f..d159db7 100644
+--- a/2d12System/chapter-2.10-conflict-system-aftermath.typ
++++ b/2d12System/chapter-2.10-conflict-system-aftermath.typ
+@@ -41,19 +41,11 @@ An independently acting companion occupies a place in continuous rotation, uses
+ 
+ A group represented by one rules entry is one participant for rotation and area-effect Disposition bonuses, not one per fictional body. Apply specific Bodies or mass-combat rules only where provided.
+ 
+-Setup Help follows §10.2. Ordinary free Help waives its pool-point cost, not relevance, bonus-dice limits or participation risks.
+-
+-==== Starting Disposition and Reinforcements
+-Record adjusted starting Disposition after all setup modifiers and Superiority. It remains fixed for this conflict and determines the normal recovery cap and compromise reference (§10.13).
+-
+-A genuinely new conflict uses §10.2; a change of location, tactics or type alone does not reset it.
+-
+-Reinforcements add their listed Grit to current shared Disposition, even above the starting value. They do not change starting Disposition or the normal recovery cap, grant additional scripted actions, permit free actor reassignment or recalculate setup.
++==== Reinforcements and Recovery
++Starting Disposition stays fixed for the conflict (§10.2). Reinforcements add their listed Grit to current shared Disposition, even above the starting value. They do not change starting Disposition or the normal recovery cap, grant additional scripted actions, permit free actor reassignment or recalculate setup.
+ 
+ Defend and other Disposition-recovery effects restore only up to the starting value unless explicitly stated otherwise. At or above the cap, recovery restores nothing and does not reduce the current total.
+ 
+-A successful Defend may still buy permitted supplementary Effects (§10.6).
+-
+ Removing a participant, helper, companion or group subtracts no contribution or Grit from current or starting Disposition. Removal may still defeat the side if nobody remains able to pursue its objective.
+ 
+ === 10.10 Conflict Gear and Assets
+@@ -110,19 +102,15 @@ You cannot:
+ 
+ An accepted injury is a protected payment (§10.7); it cannot be prevented or reduced. It recovers through treatment and time.
+ 
+-The trade cancels incoming loss, not loss already suffered, and does not raise starting Disposition. Refresh only for a genuinely new conflict.
++The trade cancels incoming loss, not loss already suffered, and doesn't raise starting Disposition. It refreshes only in a genuinely new conflict.
+ 
+ === 10.12 Defeat, Mutual Defeat and Concession
+ Apply the action-completion rule in §10.5 before determining the outcome.
+ 
+ ==== Defeat and Finishing Procedures
+-The winner achieves its intent within the established stakes, subject to compromise. Do not repeat the same unresolved contest; a new conflict requires a materially different objective or changed circumstances.
++The winner achieves its intent within the established stakes, subject to compromise. Don't rerun the same contest; a new conflict needs a materially different objective or changed circumstances.
+ 
+-Defeat does not automatically inflict injury or satisfy a creature-specific finishing requirement.
+-
+-Where an explicit finishing procedure is required, victory secures the opportunity to attempt it.
+-
+-Complete the deciding volley and determine victory or mutual defeat, resolve any permitted finishing procedure, then settle compromise. Follow the relevant creature or setting entry for requirements and resolution.
++Defeat doesn't automatically inflict injury. Where a creature or setting requires a finishing procedure, victory earns the chance to attempt it: finish the deciding volley, resolve the procedure as its entry describes, then settle compromise.
+ 
+ ==== Mutual Defeat
+ If both sides are defeated in the same volley, or both start at 0 after Superiority, neither wins outright.
+@@ -141,7 +129,7 @@ If accepted, apply the terms without another roll. Do not also apply compromise
+ If rejected, continue. Conceding grants no automatic Tychē Point.
+ 
+ === 10.13 Compromise
+-Compare the winner's remaining Disposition with the original adjusted starting value recorded at setup (§10.9):
++Compare the winner's remaining Disposition with the original adjusted starting value recorded at setup (§10.2):
+ #figure(table(columns: (65%, 35%),
+   table.header([Starting Disposition lost], [Compromise]),
+   [None], [None],
+@@ -186,9 +174,7 @@ Do not pool, split, transfer or credit injuries against non-injury consequences.
+ Add no replacement injury because an existing one satisfies the first.
+ 
+ ==== Resistance
+-Imposed compromise statuses may be Resisted normally; agreed payments follow §10.7.
+-
+-Resistance may remove an injury but does not revoke the loser's concession or another stated consequence. Add no replacement cost because Resistance removed the injury.
++Imposed compromise statuses can be Resisted normally (§6); agreed payments can't (§10.7). Resisting an injury doesn't revoke the concession or other stated consequences, and adds no replacement cost.
+ 
+ ==== Binding Results
+ Victory, concessions, promises and consequences stand. Genuinely new events may change them; do not ignore or immediately reroll them because someone dislikes the result.
+@@ -200,9 +186,7 @@ Ordinary NPCs have no Pools and reduce imposed harm only through listed Armour,
+ 
+ NPC defeat uses §10.12. Capture, escape, injury and death follow the stakes and outcome. Use a Dying clock when rescue matters, not to make an accepted rescue objective impossible.
+ 
+-Creature-specific rules remain in force. Immunity may stop an unsuitable status without stopping Disposition loss in a contest the creature can lose.
+-
+-#strong[Specific breaking points.] Apply the normal tier-6 procedure unless the relevant creature or condition explicitly replaces it. Use that entry's stated outcome and the applicable limits against duplicate Scars.
++Creature-specific rules remain in force, including breaking points that replace the tier-6 procedure (§6.3). Immunity may stop an unsuitable status without stopping Disposition loss in a contest the creature can lose.
+ 
+ === 10.15 Order of Resolution
+ + Establish objectives, stakes, participants and exits.
+diff --git a/2d12System/chapter-2.10-conflict-system.typ b/2d12System/chapter-2.10-conflict-system.typ
+index 5862c1c..e50cffd 100644
+--- a/2d12System/chapter-2.10-conflict-system.typ
++++ b/2d12System/chapter-2.10-conflict-system.typ
+@@ -59,16 +59,12 @@ A character who cannot meaningfully contribute may remain outside the conflict.
+ 
+ ==== Starting Disposition
+ The leader normally rolls #strong[2d12 + Disposition skill + highest Edge in that skill's pool]. Divide the result by three, rounding down. Then:
+-- Add +1 per eligible helper.
++- Add +1 per eligible helper. Setup Help costs no pool points and gives no bonus die: before the leader rolls, each helper explains a meaningful contribution and commits to the side's stakes. A free-Help ability adds nothing more unless it says so.
+ - Apply flat starting-Disposition bonuses and penalties from abilities, creature rank, conditions, and similar effects; these have no stacking cap.
+ - Apply a minimum of 1.
+ - Apply opposing Superiority (§10.3).
+ 
+-Record the adjusted total. It remains the recovery cap and compromise reference under §10.9.
+-
+-Setup Help costs no pool points. Before the leader rolls, each helper explains a meaningful contribution and commits to the side's stakes. Each eligible helper adds +1 Disposition, without an ordinary Help bonus die.
+-
+-A free-Help ability provides no additional setup bonus unless expressly stated. Later removal follows §10.9; do not recalculate setup.
++Record the adjusted total. It stays fixed for the conflict as the recovery cap and compromise reference, even if participants later leave (§10.9).
+ 
+ #strong[Adversary exception.] Sides built with Grit use the Adversaries setup procedure instead of the leader's Disposition roll. Preserve explicit exceptions such as Guard when resolving independent tests.
+ 
+@@ -96,9 +92,9 @@ After all other starting-Disposition modifiers and the minimum of 1, reduce each
+ - Both sides at 0: resolve mutual defeat (§10.12), without scripting or a winner's compromise. Neither receives an outright or no-cost victory.
+ - Neither side at 0: record both totals and proceed to scripting.
+ 
+-Resolve setup defeat as recorded: do not restore a total to 1, reroll setup, compare negative remainders, or break a simultaneous defeat by comparing Superiority. Only opposing Superiority can reduce the setup minimum of 1 to 0; low rolls or flat penalties alone cannot do so.
++Resolve setup defeat as recorded: don't restore a total to 1, reroll setup, or compare remainders or Superiority to break a tie. Only opposing Superiority can take a total below the minimum of 1.
+ 
+-Setup defeat does not itself inflict injury, drain Pools, Take Out a participant, or satisfy a creature-specific finishing requirement. Consequences follow the declared stakes and the applicable victory or mutual-defeat outcome.
++Setup defeat inflicts no injury, pool loss or Taken Out by itself, and doesn't satisfy a creature's finishing requirement. Consequences follow the stakes and the victory or mutual-defeat outcome.
+ 
+ // PLAYTEST: retain the existing PC/opposition symmetry and eligibility flag.
+ 
+@@ -261,11 +257,9 @@ Disrupt cannot generically cancel, replace, reveal or delay a committed scripted
+ Extra Feat cannot duplicate primary Disposition effects, disguise a prohibited purchase, cancel an independent opposing action or achieve an objective outside the stakes.
+ 
+ ==== Offensive Bonuses
+-Additional Disposition loss is not additional Power or an additional status tier. Additional status tiers do not increase Disposition loss. A bonus intended for both forms must say so: remove the listed additional Disposition when applying ordinary conflict loss, or increase the harmful status when the Attack instead inflicts one.
+-
+-Apply each bonus to one component only. If an explicit effect inflicts both Disposition loss and a status, the ability must identify the component or permit a choice; do not apply the same bonus to both.
++Additional Power, additional Disposition loss and additional status tiers are separate bonuses. Each applies only to the component it names; a bonus meant for more than one must say so. If an effect inflicts both Disposition loss and a status, the ability must name the component a bonus improves, or let you choose.
+ 
+-Attack bonuses do not apply to Feint unless stated. Such bonuses do not improve staking, killing strikes or other finishing procedures unless expressly stated.
++Attack bonuses don't apply to Feint, staking, killing strikes or other finishing procedures unless stated.
+ 
+ === 10.7 Costs, Failures and Complications
+ Use normal Effort, Momentum, Woe, Tychē Points, tags and Truths subject to these restrictions.
+@@ -283,13 +277,12 @@ An ordinary cost cannot impose an additional status or extra Disposition loss un
+ Scenery actions use their listed Danger when the consequence option is chosen.
+ 
+ ==== Doubles
+-Apply critical Power under §2.6. In versus tests, double 12s do not override a higher opposing total or break a tie.
+-
+-Ordinary successful doubles add +1 Power; winning double 12s add +2 instead. Losing or tied doubles grant no Power or normal action effect.
+-
+-Double 1s always cause their normal complication but do not automatically lose; successful double 1s also gain the ordinary +1 critical Power. Apply this equally to rolled doubles and doubles created by an explicit ability, including Perfect Strike.
++Doubles work as in §2.6, including doubles created by an ability such as Perfect Strike. In versus tests:
++- Double 12s don't override a higher opposing total or break a tie.
++- Winning doubles add +1 Power to the margin award (double 12s: +2). Losing or tied doubles grant no Power or effect.
++- Double 1s still bring their complication on a loss or tie, but don't lose automatically.
+ 
+-Doubles complications remain within the established stakes and action's scale. They do not cancel an independent action or retroactively change the script. Use the normal rules for buying off a complication with Woe.
++Doubles complications stay within the stakes and the action's scale. They don't cancel an independent action or change the script. Buy them off normally (§2.6).
+ 
+ ==== Explicit Risks and Harm
+ Abilities, hazards, Risky rolls, scenery Dangers and other explicit rules may impose their stated consequences. Resolve these separately from ordinary Disposition loss.
+diff --git a/2d12System/chapter-2.10-guardian-domain-clarifications.typ b/2d12System/chapter-2.10-guardian-domain-clarifications.typ
+index fd307f2..6f0bf79 100644
+--- a/2d12System/chapter-2.10-guardian-domain-clarifications.typ
++++ b/2d12System/chapter-2.10-guardian-domain-clarifications.typ
+@@ -14,21 +14,21 @@ Resolve Self-Repair at the end of the triggering volley, after both independent
+ 
+ Recovery from 0 is allowed in this window. Use the post-repair total to determine the outcome; repair may prevent defeat or change an otherwise mutual defeat into a victory. It cannot reopen a finalized outcome, reverse setup defeat or an accepted concession, or override an explicit recovery prohibition such as Last Stand's pending-defeat restriction.
+ 
+-Each guardian tracks its own once-per-exchange use. Failed, tied, trumped or unperformed actions do not qualify. The opportunity expires at the end of its triggering volley and cannot be saved. An extra volley that is not a new exchange does not refresh the allowance.
++Each guardian tracks its own use. Failed, tied, trumped or unperformed actions don't qualify. An unused opportunity expires at the end of the volley; an extra volley within the same exchange doesn't refresh it.
+ 
+-Choose Disposition or status repair, not both. At or above the Disposition cap, recovery restores nothing without reducing an existing excess. Disposition recovery does not heal statuses, refill pools, erase Scars or return a Taken Out participant. Status repair does not restore Disposition or pools, refresh an injury trade or grant an otherwise unavailable return. It cannot prevent an accepted payment from being recorded or refund its purchased benefit.
++Choose Disposition or status repair, not both. Neither repairs the other layer, refills pools, erases Scars, returns a Taken Out participant or affects a protected payment (§10.7). At or above the cap, Disposition repair restores nothing but doesn't reduce any excess.
+ 
+ === 10.20 Domain Scope in Scripted Conflicts
+ During a scripted conflict, Domain scope determines whether the proposed working is fictionally appropriate and what it can affect. Resolve its assigned action using the conflict's normal independent or versus procedure. Do not add a separate scope roll or scope-based numerical adjustment unless an explicit rule requires one.
+ 
+-This clarifies the Domain procedure used by the Adept and imported by the Testament of Dust Occultist. Independent workings retain applicable Guard, Truths and explicit modifiers. Versus workings compare opposing totals. Domain permission grants no extra action, interaction bypass or harmful status on an ordinary conflict Attack. Outside scripted conflicts, the existing scope-Difficulty procedure remains unchanged.
++This applies to the Adept and the Testament of Dust Occultist. Domain permission grants no extra action, interaction bypass or harmful status on an ordinary conflict Attack. Outside scripted conflicts, use the normal scope-Difficulty procedure.
+ 
+ === 10.21 Guardian Protocol
+ A successful Protocol Discover reveals only the actions assigned to the targeted guardian in the next exchange, including their positions in that exchange. Record those assignments as committed when the information is supplied; other participants' assignments remain unrevealed.
+ 
+ This guarantees disclosure of that next exchange, not automatic confirmation of all future exchanges. Characters retain what they have learned and may use observations and an understood operating pattern to predict later actions without paying merely to remember them.
+ 
+-The GM may change a disclosed action through the normal paid script-change procedure before its volley is revealed, retaining its assigned actor unless an explicit exception permits reassignment. A paid change does not automatically update the hunters' information or notify them. Normal Tells, observations and explicit information effects still apply. The original disclosure must have been true when supplied. Do not freely rewrite a disclosed assignment merely because formal next-exchange scripting has not yet occurred.
++The disclosure must be true when given; the GM can't freely rewrite it. The GM may still change a disclosed action with a normal paid script change (§10.5), which doesn't notify the hunters. Tells, observations and information effects still apply.
+ 
+-Protocol grants no extra action, free hunter script change, free actor reassignment or rotation bypass. A guardian that later becomes unable to act does not gain permission to act; resolve an unperformable assignment under the ordinary rules without free replacement.
++Protocol grants no extra action, free script change, reassignment or rotation bypass. If the guardian later can't act, its assignment fails normally with no free replacement.
+ ]

@@ -14,21 +14,21 @@ Resolve Self-Repair at the end of the triggering volley, after both independent 
 
 Recovery from 0 is allowed in this window. Use the post-repair total to determine the outcome; repair may prevent defeat or change an otherwise mutual defeat into a victory. It cannot reopen a finalized outcome, reverse setup defeat or an accepted concession, or override an explicit recovery prohibition such as Last Stand's pending-defeat restriction.
 
-Each guardian tracks its own once-per-exchange use. Failed, tied, trumped or unperformed actions do not qualify. The opportunity expires at the end of its triggering volley and cannot be saved. An extra volley that is not a new exchange does not refresh the allowance.
+Each guardian tracks its own use. Failed, tied, trumped or unperformed actions don't qualify. An unused opportunity expires at the end of the volley; an extra volley within the same exchange doesn't refresh it.
 
-Choose Disposition or status repair, not both. At or above the Disposition cap, recovery restores nothing without reducing an existing excess. Disposition recovery does not heal statuses, refill pools, erase Scars or return a Taken Out participant. Status repair does not restore Disposition or pools, refresh an injury trade or grant an otherwise unavailable return. It cannot prevent an accepted payment from being recorded or refund its purchased benefit.
+Choose Disposition or status repair, not both. Neither repairs the other layer, refills pools, erases Scars, returns a Taken Out participant or affects a protected payment (§10.7). At or above the cap, Disposition repair restores nothing but doesn't reduce any excess.
 
 === 10.20 Domain Scope in Scripted Conflicts
 During a scripted conflict, Domain scope determines whether the proposed working is fictionally appropriate and what it can affect. Resolve its assigned action using the conflict's normal independent or versus procedure. Do not add a separate scope roll or scope-based numerical adjustment unless an explicit rule requires one.
 
-This clarifies the Domain procedure used by the Adept and imported by the Testament of Dust Occultist. Independent workings retain applicable Guard, Truths and explicit modifiers. Versus workings compare opposing totals. Domain permission grants no extra action, interaction bypass or harmful status on an ordinary conflict Attack. Outside scripted conflicts, the existing scope-Difficulty procedure remains unchanged.
+This applies to the Adept and the Testament of Dust Occultist. Domain permission grants no extra action, interaction bypass or harmful status on an ordinary conflict Attack. Outside scripted conflicts, use the normal scope-Difficulty procedure.
 
 === 10.21 Guardian Protocol
 A successful Protocol Discover reveals only the actions assigned to the targeted guardian in the next exchange, including their positions in that exchange. Record those assignments as committed when the information is supplied; other participants' assignments remain unrevealed.
 
 This guarantees disclosure of that next exchange, not automatic confirmation of all future exchanges. Characters retain what they have learned and may use observations and an understood operating pattern to predict later actions without paying merely to remember them.
 
-The GM may change a disclosed action through the normal paid script-change procedure before its volley is revealed, retaining its assigned actor unless an explicit exception permits reassignment. A paid change does not automatically update the hunters' information or notify them. Normal Tells, observations and explicit information effects still apply. The original disclosure must have been true when supplied. Do not freely rewrite a disclosed assignment merely because formal next-exchange scripting has not yet occurred.
+The disclosure must be true when given; the GM can't freely rewrite it. The GM may still change a disclosed action with a normal paid script change (§10.5), which doesn't notify the hunters. Tells, observations and information effects still apply.
 
-Protocol grants no extra action, free hunter script change, free actor reassignment or rotation bypass. A guardian that later becomes unable to act does not gain permission to act; resolve an unperformable assignment under the ordinary rules without free replacement.
+Protocol grants no extra action, free script change, reassignment or rotation bypass. If the guardian later can't act, its assignment fails normally with no free replacement.
 ]

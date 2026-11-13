@@ -59,16 +59,12 @@ A character who cannot meaningfully contribute may remain outside the conflict. 
 
 ==== Starting Disposition
 The leader normally rolls #strong[2d12 + Disposition skill + highest Edge in that skill's pool]. Divide the result by three, rounding down. Then:
-- Add +1 per eligible helper.
+- Add +1 per eligible helper. Setup Help costs no pool points and gives no bonus die: before the leader rolls, each helper explains a meaningful contribution and commits to the side's stakes. A free-Help ability adds nothing more unless it says so.
 - Apply flat starting-Disposition bonuses and penalties from abilities, creature rank, conditions, and similar effects; these have no stacking cap.
 - Apply a minimum of 1.
 - Apply opposing Superiority (§10.3).
 
-Record the adjusted total. It remains the recovery cap and compromise reference under §10.9.
-
-Setup Help costs no pool points. Before the leader rolls, each helper explains a meaningful contribution and commits to the side's stakes. Each eligible helper adds +1 Disposition, without an ordinary Help bonus die.
-
-A free-Help ability provides no additional setup bonus unless expressly stated. Later removal follows §10.9; do not recalculate setup.
+Record the adjusted total. It stays fixed for the conflict as the recovery cap and compromise reference, even if participants later leave (§10.9).
 
 #strong[Adversary exception.] Sides built with Grit use the Adversaries setup procedure instead of the leader's Disposition roll. Preserve explicit exceptions such as Guard when resolving independent tests.
 
@@ -96,9 +92,9 @@ After all other starting-Disposition modifiers and the minimum of 1, reduce each
 - Both sides at 0: resolve mutual defeat (§10.12), without scripting or a winner's compromise. Neither receives an outright or no-cost victory.
 - Neither side at 0: record both totals and proceed to scripting.
 
-Resolve setup defeat as recorded: do not restore a total to 1, reroll setup, compare negative remainders, or break a simultaneous defeat by comparing Superiority. Only opposing Superiority can reduce the setup minimum of 1 to 0; low rolls or flat penalties alone cannot do so.
+Resolve setup defeat as recorded: don't restore a total to 1, reroll setup, or compare remainders or Superiority to break a tie. Only opposing Superiority can take a total below the minimum of 1.
 
-Setup defeat does not itself inflict injury, drain Pools, Take Out a participant, or satisfy a creature-specific finishing requirement. Consequences follow the declared stakes and the applicable victory or mutual-defeat outcome.
+Setup defeat inflicts no injury, pool loss or Taken Out by itself, and doesn't satisfy a creature's finishing requirement. Consequences follow the stakes and the victory or mutual-defeat outcome.
 
 // PLAYTEST: retain the existing PC/opposition symmetry and eligibility flag.
 
@@ -261,11 +257,9 @@ Disrupt cannot generically cancel, replace, reveal or delay a committed scripted
 Extra Feat cannot duplicate primary Disposition effects, disguise a prohibited purchase, cancel an independent opposing action or achieve an objective outside the stakes.
 
 ==== Offensive Bonuses
-Additional Disposition loss is not additional Power or an additional status tier. Additional status tiers do not increase Disposition loss. A bonus intended for both forms must say so: remove the listed additional Disposition when applying ordinary conflict loss, or increase the harmful status when the Attack instead inflicts one.
+Additional Power, additional Disposition loss and additional status tiers are separate bonuses. Each applies only to the component it names; a bonus meant for more than one must say so. If an effect inflicts both Disposition loss and a status, the ability must name the component a bonus improves, or let you choose.
 
-Apply each bonus to one component only. If an explicit effect inflicts both Disposition loss and a status, the ability must identify the component or permit a choice; do not apply the same bonus to both.
-
-Attack bonuses do not apply to Feint unless stated. Such bonuses do not improve staking, killing strikes or other finishing procedures unless expressly stated.
+Attack bonuses don't apply to Feint, staking, killing strikes or other finishing procedures unless stated.
 
 === 10.7 Costs, Failures and Complications
 Use normal Effort, Momentum, Woe, Tychē Points, tags and Truths subject to these restrictions.
@@ -283,13 +277,12 @@ An ordinary cost cannot impose an additional status or extra Disposition loss un
 Scenery actions use their listed Danger when the consequence option is chosen.
 
 ==== Doubles
-Apply critical Power under §2.6. In versus tests, double 12s do not override a higher opposing total or break a tie.
+Doubles work as in §2.6, including doubles created by an ability such as Perfect Strike. In versus tests:
+- Double 12s don't override a higher opposing total or break a tie.
+- Winning doubles add +1 Power to the margin award (double 12s: +2). Losing or tied doubles grant no Power or effect.
+- Double 1s still bring their complication on a loss or tie, but don't lose automatically.
 
-Ordinary successful doubles add +1 Power; winning double 12s add +2 instead. Losing or tied doubles grant no Power or normal action effect.
-
-Double 1s always cause their normal complication but do not automatically lose; successful double 1s also gain the ordinary +1 critical Power. Apply this equally to rolled doubles and doubles created by an explicit ability, including Perfect Strike.
-
-Doubles complications remain within the established stakes and action's scale. They do not cancel an independent action or retroactively change the script. Use the normal rules for buying off a complication with Woe.
+Doubles complications stay within the stakes and the action's scale. They don't cancel an independent action or change the script. Buy them off normally (§2.6).
 
 ==== Explicit Risks and Harm
 Abilities, hazards, Risky rolls, scenery Dangers and other explicit rules may impose their stated consequences. Resolve these separately from ordinary Disposition loss.

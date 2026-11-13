@@ -1,20 +1,20 @@
 #import "common.typ": *
 
-=== E.7 Favors and Obligations
+=== E.7 Favours and Obligations
 
-A favor is a specific acknowledged promise. An obligation is the same record from the debtor's side. Record debtor, creditor, service, limits, notice, deadline or duration, and what settles it. Record who can call it in and whether it benefits the party or a named individual.
+A favour is a specific acknowledged promise. An obligation is the same record from the debtor's side. Record debtor, creditor, service, limits, notice, deadline or duration, and what settles it. Record who can call it in and whether it benefits the party or a named individual.
 
-Agree to scope when the promise is made. “You owe us something” is an unresolved negotiation, not a blank cheque. Favors can be payment for work, part of an alliance, or compensation for aid.
+Agree to scope when the promise is made. “You owe us something” is an unresolved negotiation, not a blank cheque. Favours can be payment for work, part of an alliance, or compensation for aid.
 
-Calling in a feasible, acknowledged favor within its terms requires no request check. Roll only for a separate uncertainty: evading inspection, locating a vessel, or reaching a destination. Broader or newly dangerous work may require renegotiation; establish whether the changed circumstances fall within the original agreement before rolling.
+Calling in a feasible, acknowledged favour within its terms requires no request check. Roll only for a separate uncertainty: evading inspection, locating a vessel, or reaching a destination. Broader or newly dangerous work may require renegotiation; establish whether the changed circumstances fall within the original agreement before rolling.
 
-Possible settlements include fulfillment, an accepted substitute, partial settlement, or an agreed delay. Genuine inability is not automatically betrayal, though concealment or indifference may damage trust.
+Possible settlements include fulfilment, an accepted substitute, partial settlement, or an agreed delay. Genuine inability is not automatically betrayal, though concealment or indifference may damage trust.
 
-Knowingly refusing a feasible agreed obligation normally costs one Standing; severe betrayal may cost two. Owing a favor does not remove a player's control over their character. State the consequences and let them choose.
+Knowingly refusing a feasible agreed obligation normally costs one Standing; severe betrayal may cost two. Owing a favour does not remove a player's control over their character. State the consequences and let them choose.
 
-Calling in an earned favor does not reduce Standing. Repaying one does not automatically improve it. Falling Standing does not erase outstanding promises. A favor transfers only with the debtor's consent.
+Calling in an earned favour does not reduce Standing. Repaying one does not automatically improve it. Falling Standing does not erase outstanding promises. A favour transfers only with the debtor's consent.
 
-#strong[Agreed costs and actual assistance.] A favor grants its stated service, not automatic success on every later task, free Help, an extra scripted turn or control over another participant. If a promise is part of an accepted concession or another benefit's payment, generic prevention, Resistance, redirection or incidental clearing cannot erase that accepted cost (Core Rules §10.7). Renegotiation requires agreement; later healing of an injury does not refund the benefit or revoke the concession.
+#strong[A favour grants its stated service,] not automatic success, free Help, an extra scripted turn or control over another participant. A promise given as part of a concession or another benefit's payment is a protected payment (Core Rules §10.7); renegotiating it needs agreement.
 
 === E.8 Adventures and Strategic Advantages
 
@@ -37,7 +37,7 @@ Distinct consequences can follow one achievement, but never award duplicate prog
 
 #strong[One contribution.] If a PC endeavour does the work a faction's project action would do (the party sabotages the project itself), that endeavour replaces the faction's own roll for that project this turn. Never count both for the same work.
 
-A played conflict still uses its permitted action effects. Advance or Discover requires an appropriate action or explicit exception; this strategic summary does not add them to every ordinary Maneuver. Ordinary Attack or Feint Disposition loss is not project progress, and a victory grants the stated objective within the stakes rather than completing unrelated clocks (Core Rules §10.6, §10.12).
+A played conflict still uses its permitted actions: Advance or Discover needs an appropriate action or explicit exception. Attack or Feint Disposition loss isn't project progress, and victory grants the stated objective, not unrelated clocks (Core Rules §10.6, §10.12).
 
 === E.9 Commitments and Strain
 
@@ -45,9 +45,9 @@ A faction normally takes one major project action per World Turn without automat
 
 Mark one relevant Quality as Strained when the faction takes an additional major action, makes an exceptional deployment to support the party, overextends to meet a deadline, or suffers an explicit exhaustion consequence. Ordinary hospitality, meals, and introductions do not qualify.
 
-A Strained Quality operates one rating lower, minimum 0. Strain does not stack on that Quality and is not also an adverse Truth for the same exhaustion. A faction can take at most one additional major action per turn; declare it and mark Strain before resolving that additional action. It must strain the primary Quality of that action, which must not already be Strained. Thus additional actions cannot be repeated indefinitely.
+A Strained Quality operates one rating lower, minimum 0. Strain doesn't stack and isn't also an adverse Truth for the same exhaustion. A faction can take at most one additional major action per turn. It must Strain that action's primary Quality, which can't already be Strained, so additional actions can't repeat indefinitely.
 
-#strong[Timing.] Strain from an additional or exceptional action is marked when the action is #emph[declared] (E.10, step 2), so that action and every other action that phase use the lowered rating.
+#strong[Timing.] Mark Strain when the action is #emph[declared] (E.10, step 2), so that action and every other action that phase use the lowered rating.
 
 Clear Strain after one full World Turn in which the affected capability is not used for a major action or exceptional commitment, provided recovery remains plausible. Ordinary background activity does not prevent recovery. Strain alone reducing effective Cohesion to 0 does not trigger Fracture; use permanent Cohesion for E.12.
 
@@ -92,7 +92,7 @@ Use Module C.6 for lasting Site, Region, and Campaign changes: normally 8 segmen
 
 ==== Opposition and disruption
 
-A faction may spend its action obstructing a known project if it has a credible method. Roll its relevant Quality against Standard 15, adjusted by the target's concrete defenses and other Truths. The target's Quality rating is not automatically a Difficulty shift.
+A faction may spend its action obstructing a known project if it has a credible method. Roll its relevant Quality against Standard 15, adjusted by the target's concrete defences and other Truths. The target's Quality rating is not automatically a Difficulty shift.
 
 On success, spend Power to remove uncompleted progress, one segment per Power. Remove no more than is present and discard excess. A defending faction may devote its own action to countermeasures, producing appropriate protection or removing the obstructing capability. Do not add a free reaction roll for every attempted disruption.
 
@@ -112,7 +112,7 @@ A project grants its declared result, not every benefit the victor might want. C
 
 Use core Argument, Negotiation, or Battle conflicts when the action deserves a played conflict. Use normal core Disposition, scripting, Power, concessions, and compromise.
 
-Each side has one shared Disposition total, not a track for every faction member. Complete independently resolving actions before checking victory. Defeat does not itself inflict injury, permanent organizational loss or every objective the winner could want. Resolve mutual defeat under Core Rules §10.12; a winner's compromise uses §10.13 and its outcome-first package, with eligible existing injuries credited once rather than automatic extra injuries. E.10's compromise Truth for contradictory completed project clocks is a separate organizational procedure, not a played conflict's compromise grade.
+Each side has one shared Disposition total, not a track for every faction member. Defeat doesn't by itself cause injury, permanent organizational loss or every objective the winner wants. Use Core Rules §10.12 for mutual defeat and Core Rules §10.13 for compromise. E.10's compromise Truth for contradictory project clocks is a separate procedure.
 
 Standing grants no automatic Superiority. Insider intelligence, an arranged audience, or a secured guarantee can qualify as actual preparation under the core's categories and cap. Evaluate distinct advantages, not labels. Combat receives no direct Standing modifier.
 
@@ -130,7 +130,7 @@ Winning a battle does not automatically create stable government. Occupation may
 
 Use Woe normally during PC scenes to introduce supported complications, reinforcements, or danger-clock progress. Hostility is a motive, not an unlimited Woe source. A completed World Turn project establishes its result without an extra Woe payment; a new scene complication uses the normal rules. Never charge twice for the same event.
 
-Inside scripted conflicts, ordinary failure does not also authorise an unrelated GM move, automatic injury or extra Disposition loss. Ordinary Success at a Cost likewise adds no status or extra loss without explicit permission. Specials, hazards, Risky rolls and other explicit consequences retain their stated effects and timing (Core Rules §10.7). Woe cannot retroactively change a revealed script or cancel independently resolving actions through generic complication wording. The core's unresolved Woe ruling for losing versus tests remains open.
+Inside scripted conflicts, failure and Success at a Cost follow Core Rules §10.7: no unrelated GM move, automatic injury or extra Disposition loss, or ordinary-failure Woe for losing a versus test. Specials, hazards, Risky rolls and other explicit consequences keep their stated effects and timing. Woe can't change a revealed script or cancel actions that resolve on their own.
 
 Woe cannot directly buy a Standing reduction. It can expose evidence or create circumstances that cause one. Momentum and scene-scale Create effects likewise cannot buy permanent reputation.
 
@@ -138,7 +138,7 @@ Woe cannot directly buy a Standing reduction. It can expose evidence or create c
 
 Target the capability actually harmed. Destroying payroll may damage Treasure; exposing agents may damage Influence; losing an estate may damage Territory; defeat may damage Might; betrayal may provoke a Cohesion crisis.
 
-Use an asset loss, setback, adverse Truth, or Strain for limited harm. Permanent rating loss requires a lasting reduction in organizational capacity, established by the stakes or a completed undertaking. Do not subtract a rating point merely for losing any roll. Ordinary shared Disposition loss does not directly reduce a Quality, mark Strain, remove an asset or tick Fracture; those need their own established consequence or explicit trigger.
+Use an asset loss, setback, adverse Truth or Strain for limited harm. Permanent rating loss needs a lasting reduction in capacity, set by the stakes or a completed undertaking, not a lost roll. Ordinary Disposition loss doesn't reduce a Quality, mark Strain, remove an asset or tick Fracture.
 
 ==== Fracture
 
@@ -168,7 +168,7 @@ An illustrative faction, not setting canon.
   [Standing +2], [Trusted; Nera, master of the eastern landing, represents the association.],
   [Vulnerability], [Its principal charter is legally disputed.],
   [Project], [Secure Exclusive Ferry Rights, 8 segments: a lasting local institutional change.],
-  [Favor], [Conceal up to six people aboard one outbound barge this season, with a day's notice; no declared contraband.],
+  [Favour], [Conceal up to six people aboard one outbound barge this season, with a day's notice; no declared contraband.],
 )
 
 The party requests public freight records. Nera willingly supplies them; no roll is needed. Access to sealed judicial records is a different request, possibly requiring an introduction or commission.
@@ -179,7 +179,7 @@ The party retrieves admissible evidence that a rival obtained a charter through 
 
 On the World Turn, the association uses Influence +2. The evidence lowers the Standard 15 target to Easy 12. Dice of 7 and 9 total 16; +2 gives 18, producing 3 Power. It commits three segments. Without the evidence, the same total against 15 would produce 2 Power.
 
-Later, the party saves the winter grain convoy at substantial personal risk. Once the association learns what happened, Standing may rise to +3. A new favor is not automatic: the association must explicitly promise one.
+Later, the party saves the winter grain convoy at substantial personal risk. Once the association learns what happened, Standing may rise to +3. A new favour is not automatic: the association must explicitly promise one.
 
 If the association undertakes an additional urgent funding action that turn, Treasure becomes Strained before that action and operates at +2. It cannot take a third major action. Recovery needs a later full turn without a major Treasure commitment and with plausible access to its credit network.
 
@@ -195,7 +195,7 @@ If the association undertakes an additional urgent funding action that turn, Tre
   [How does it progress?], [1 Power per project segment; no off-screen Momentum or Woe.],
   [How do adventures matter?], [Achieve an objective, affect progress, or establish a strategic advantage.],
   [How often does it act?], [One major action each World Turn; at most one additional action causing Strain.],
-  [What is owed?], [A written favor or obligation with scope, limits, and settlement.],
+  [What is owed?], [A written favour or obligation with scope, limits, and settlement.],
   [What causes collapse?], [Permanent Cohesion 0 opens a Fracture crisis, not instant disappearance.],
 )
 

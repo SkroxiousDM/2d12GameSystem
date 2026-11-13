@@ -5,7 +5,7 @@
 #columns(2, gutter: 6mm)[
 Use this module when a mystery is the point of the game: a murder, a vanished caravan, a forbidden text, a buried ruin. It separates *finding* from *understanding*. Finding the clue is never the challenge. Reading it correctly is.
 
-The module changes nothing outside Inquiry scenes. Conflicts, travel, Resistance, Momentum and Woe all work as written. Its explicit Inquiry benefits are not additions to every scripted action's Effect menu.
+The module changes nothing outside Inquiry scenes. Conflicts, travel, Resistance, Momentum and Woe all work as written.
 
 === F.1 The Core Rule
 
@@ -16,9 +16,9 @@ The module changes nothing outside Inquiry scenes. Conflicts, travel, Resistance
 - *Core clue.* A fact the group needs to reach the next scene or to understand the Truth of the case. Every Inquiry scene has at least one.
 - *Fitting skill.* Any skill from the setting's skill list that the GM can reasonably tie to the clue. Several skills can reach the same clue by different routes.
 - *Description.* The player says what the character does and which skill it uses, or the GM offers the clue unprompted to a character who clearly has it.
-- *Stuck groups.* If nobody has a fitting skill, the clue floats (§F.6) to another source. A core clue is never locked behind a missing skill.
+- *Stuck groups.* If nobody has a fitting skill, the clue floats (F.6) to another source. A core clue is never locked behind a missing skill.
 
-Finding a clue automatically is not automatic success at an unrelated conflict action. It grants no Power, extra scripted turn, script change or permission to act while Taken Out. Do not require a Probe or Buy merely to obtain the guaranteed core clue.
+A found clue grants no Power, extra scripted turn or script change, and doesn't count as success at a conflict action. Never require a Probe or Buy to get the guaranteed core clue.
 
 === F.2 Insight: The Extra Layer
 
@@ -32,7 +32,7 @@ A core clue gets you to the next scene. *Insight* is everything beyond that: mot
 
 Probe is cheap but risky. Buy is safe but drains the pool you also need for Resistance and Effort. Players should have to choose between them.
 
-*Payment.* Work out permitted discounts and the minimum cost, then pay the Buy in full. It is a voluntary benefit purchase, not Resistance or an imposed cost, so it cannot overrun an insufficient pool (Core Rules §6.1). Spending the exact last points still runs the pool dry normally. No-roll use does not waive that payment.
+*Payment.* Apply discounts and the minimum, then pay the Buy in full. It's a voluntary purchase, not Resistance, so you can't overrun an insufficient pool (Core Rules §6.1); spending the last points still runs the pool dry.
 
 #sidebar("Which pool pays?")[
   *Sōma:* long vigils, exhumations, hard physical labour. *Mētis:* meticulous search, tailing, lock and mechanism work. *Psychē:* deduction, records, anatomy, languages. *Pneuma:* reading people, rites, dread places, the uncanny. The GM may allow a different pool when the fiction supports it (Core Rules §3.3).
@@ -43,27 +43,27 @@ Probe is cheap but risky. Buy is safe but drains the pool you also need for Resi
 When you gain an Insight, choose one. The GM may veto a choice that does not fit the scene.
 
 - *Detail.* A true fact that deepens a clue you already have. It can help you solve the case, but it is never required to reach the next scene.
-- *Edge.* Create a Truth that fits what you learned (_the guard captain is afraid of the cellar_). It lasts for the scene, or until the case ends if the group spends an extra Power or point.
+- *Leverage.* Create a Truth that fits what you learned (_the guard captain is afraid of the cellar_). It lasts for the scene, or until the case ends if you pay 1 more: 1 Power from a Probe, or 1 more pool point for a Buy.
 - *Contact.* Name an ally, informant or source, and say how you know them. The GM adds a short tag.
 - *Spotlight.* Show real expertise in front of others. You gain a free invoke of one tag or Truth about your standing, once per scene. Use this to shine, not to win a fight.
 - *Foresight.* The GM tells you one thing the opposition is about to do.
 
 If no Insight fits, nothing happens and no points are lost. Buy costs are refunded.
 
-*Benefit scope.* Edge is the name of this Insight option, not an increase to a pool's Edge. Its Truth uses the normal default rank, scope and removal condition (Core Rules §8); the listed case-long extension is an explicit Inquiry exception, not a general change to Create's cost or duration. The extra Power or point's payment source remains unspecified here; this pass does not invent a currency choice.
+*Benefit scope.* A Leverage Truth uses the normal rank, scope and removal condition (Core Rules §8); its case-long extension is an Inquiry exception, not a change to Create.
 
-A Contact provides the stated relationship or access, not automatic faction Standing, a permanent reputation tag, free Help or an independent turn. A Spotlight invoke does not itself award permanent Standing or reputation. Foresight provides information, not free actor reassignment, a script change or retroactive cancellation of the opposition's action. Use the core conflict rules for acting on any of these benefits (§10.3, §10.5, §10.9).
+A Contact provides the stated relationship, not Standing, a reputation tag, free Help or a turn. A Spotlight invoke awards no Standing or reputation. Foresight is information, not a script change or a way to cancel the opposition's action (Core Rules §10.5).
 
 === F.4 Boosted Skills and Recovery
 
 - *Boosted skill.* At creation, mark one skill you hold at +1 or higher. When you Buy an Insight with it, regain 1 point to the paying pool. Mark another skill each time you have taken 4 Advances.
 - *Recovery.* Pools recover as usual (Core Rules §6). The GM may also offer a *refresh opportunity*: a night in an archive, a round of drinks in the right tavern, a meal with a scholar. Each restores 2 points to the pool that fits.
-- *Help.* One ally may Help a Probe as normal (Core Rules §2.4), or contribute a relevant skill to a Buy. Add +1 point of discount per helper, to a minimum cost of 1.
+- *Help.* One ally may Help a Probe as normal (Core Rules §2.4), or help a Buy by lowering its cost by 1 (minimum 1).
 - *Tags.* A power tag that applies to the skill adds +1 to a Probe, as usual. Burning one gives +1 Power.
 
-Pay before boosted-skill recovery: regaining 1 point is not a discount that lets an otherwise unaffordable Buy proceed. If payment runs the pool dry, apply its running-dry consequence normally; the later point does not clear that status. Pool recovery and status healing remain separate, and neither removes a Scar. A refresh opportunity is this module's explicit recovery exception, offered by the GM, not an automatic refill whenever an Inquiry scene begins or ends.
+Pay before boosted-skill recovery: the regained point isn't a discount, and it doesn't clear a running-dry status the payment caused. A refresh opportunity is offered by the GM, not an automatic refill at the start or end of an Inquiry scene.
 
-Probe Help and tags retain normal relevance, risk and caps, including the +2 power-tag cap and the +2 bonus-dice cap. The Buy's pool-point discount is not a bonus die or additional Insight. Free Help, where granted, waives its stated cost rather than relevance or risk.
+Probe Help and tags keep their normal caps (+2 power tags, +2 bonus dice). The Buy discount isn't a bonus die or an extra Insight.
 
 === F.5 Danger and the Clock
 
@@ -74,9 +74,9 @@ Inquiry has no failure state, so it needs pressure from somewhere else. Pressure
 - *Danger is a separate scene.* A scene either asks "what do we learn?" (Inquiry) or "what do we survive?" (Conflict, Hazard). A scene that is both is two scenes: finish one, then start the other.
 - *Clues never depend on winning a fight.* Winning may give Insight, but a core clue must be reachable even if the group loses, flees or is captured.
 
-The case clock's failed-Probe tick is an explicit Inquiry trigger, not a tick on every ordinary failed scripted action. Antagonist Reactions still respect established facts and the core-clue guarantee; destroying a source cannot make the case's required information unreachable.
+Only a failed Probe ticks the case clock, not ordinary failed conflict actions. Antagonist Reactions respect established facts: destroying a source can't make required information unreachable.
 
-Separating Inquiry and danger scenes does not make a continuing struggle a genuinely new conflict. Carry forward current and starting Disposition, used injury trades, Taken Out participants and continuing effects when the same conflict continues (Core Rules §10.2). Do not refresh pools or clear injuries merely by changing the scene label. Inside a scripted conflict, use its ordinary-failure restrictions and complete independently resolving actions before checking victory (§10.7, §10.12).
+Splitting a scene doesn't make a continuing struggle a new conflict. Disposition, injury trades, Taken Out participants and ongoing effects carry forward, and pools don't refresh (Core Rules §10.2).
 
 === F.6 Building a Case
 

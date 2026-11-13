@@ -18,10 +18,10 @@ Monster-hunter, exorcist, or investigator of the strange.
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Monster Lore];], [Once per scene, Discover a supernatural creature\'s weakness tag without rolling.],
-    [2a], [#strong[Bane];], [Against a creature whose weakness you\'ve exploited, your successful conflict Attacks remove #strong[1 additional Disposition] when applying ordinary Attack Disposition loss. When an Attack instead inflicts a harmful status, increase that status by #strong[1 tier];. If an explicit effect inflicts both, choose one component for this bonus, never both. This adds no status to an ordinary conflict Attack and does not improve staking, killing strikes or other creature-specific finishing procedures.],
-    [2b], [#strong[Ward the Threshold];], [Spend an uninterrupted scene marking and preparing one doorway, gateway or other clearly defined entrance. Until the next dawn, supernatural creatures cannot cross that threshold without overcoming the ward. State which side it protects when you prepare it. Outside a scripted conflict, a creature attempting to cross tests Will against #strong[Formidable 21];. A success, including Success at a Cost, lets that creature cross and ends the ward\'s protection against it for the remaining duration. Failure leaves it outside. During a scripted conflict, overcoming the ward requires a Maneuver. Resolve it as an independent Will test against Formidable 21 regardless of the opposing action; that opposing action also resolves independently. Success permits crossing but produces no ordinary Maneuver effects. A creature may attempt this no more than once per exchange. The ward does not stop attacks or Effects that can reach across the boundary. Destroying the physical markings ends it.],
+    [2a], [#strong[Bane];], [Against a creature whose weakness you\'ve exploited, a successful conflict Attack removes #strong[1 additional Disposition];, or, if it inflicts a harmful status, raises that status by #strong[1 tier] (never both). It adds no status to an ordinary Attack and doesn\'t improve staking, killing strikes or other finishing procedures.],
+    [2b], [#strong[Ward the Threshold];], [Spend an uninterrupted scene preparing one clearly defined entrance and state which side it protects. Until the next dawn, supernatural creatures can\'t cross without overcoming the ward: a Will test against #strong[Formidable 21] (Success at a Cost counts). Success lets that creature cross and ends the ward against it; failure leaves it outside. In a scripted conflict, crossing takes a Maneuver resolved as an independent Will test, at most once per exchange per creature, with no ordinary Maneuver effects; the opposing action also resolves independently. The ward doesn\'t stop attacks or Effects that reach across. Destroying the markings ends it.],
     [3a], [#strong[Unshake-able];], [When you Resist fear, possession, or corruption with Pneuma, the cost is #strong[0 on a Resistance result of 5+];, and you reduce the status by 3 tiers.],
-    [3b], [#strong[★ Nemesis];], [Name a supernatural foe. You always sense its direction, and your rolls against it get a #strong[free bonus die];. This die counts toward the normal +2 bonus-dice cap and grants no additional scripted turn (Core Rules §2.4, §10.5).],
+    [3b], [#strong[★ Nemesis];], [Name a supernatural foe. You always sense its direction, and your rolls against it get a #strong[free bonus die];.],
   )]
   , kind: table
   )
@@ -43,9 +43,9 @@ Touched by the spirit world, the Otherworld, or the deep net.
     table.hline(),
     [1], [#strong[Spirit Sight];], [You can see and speak with spirits, ghosts, or digital entities. Once per scene, a Discover about them costs #strong[0 Power];.],
     [2a], [#strong[Crossing];], [With a 4-segment ritual clock, step into the other world and back, bringing up to two allies.],
-    [2b], [#strong[Ghostly Ally];], [A minor spirit follows you. Once per scene, it gives a free Discover about places it can reach. This is an information asset; the benefit grants no independent combat turn, personal Disposition or injury trade.],
+    [2b], [#strong[Ghostly Ally];], [A minor spirit follows you. Once per scene, it gives a free Discover about places it can reach. It\'s an information asset, not a conflict participant.],
     [3a], [#strong[Ally Beyond];], [Gain a powerful patron in the other world. Once per session, call on it for a #strong[Heroic-scope favour];; the GM gets a compel on your weakness tag in return.],
-    [3b], [#strong[★ Half-Step];], [Once per scene, become intangible until your next action. Ignore one incoming imposed physical status. This does not cancel shared Disposition loss, injury-trade payments, running-dry statuses, agreed concession costs or other accepted payments.],
+    [3b], [#strong[★ Half-Step];], [Once per scene, become intangible until your next action. Ignore one incoming imposed physical status.],
   )]
   , kind: table
   )
@@ -65,11 +65,11 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Patron\'s Gift];], [Gain a #strong[minor Domain] (Generic Playbooks §8.1) tied to your patron. You can perform Easy and Standard workings with Arcana, paying Pneuma. If you\'re already an Adept, your Domain gets #strong[+1 power tag] instead. Domain permission grants no additional scripted turn and does not bypass action interactions or declared stakes.],
+    [1], [#strong[Patron\'s Gift];], [Gain a #strong[minor Domain] (Generic Playbooks §8.1) tied to your patron. You can perform Easy and Standard workings with Arcana, paying Pneuma. If you\'re already an Adept, your Domain gets #strong[+1 power tag] instead.],
     [2a], [#strong[Ask the Patron];], [Once per session, ask #strong[two] Discover questions. The GM gains 1 Woe.],
-    [2b], [#strong[Not Yet];], [Once per session, after normal reduction and stacking are determined, when an imposed harmful status would reach #strong[tier 6] on you, invoke your patron. Record that status at #strong[tier 5] instead. You are not Taken Out by that increase and gain no Scar from reaching tier 6, because the status does not reach it. Other statuses and restrictions still apply. The GM receives one free compel on #emph[the debt comes due] next session. This cannot prevent shared-Disposition defeat, reverse death or a settled outcome, or reduce an accepted payment.],
+    [2b], [#strong[Not Yet];], [Once per session, after reduction and stacking, when an imposed harmful status would reach #strong[tier 6] on you, invoke your patron: record it at #strong[tier 5] instead, so you aren\'t Taken Out by it and gain no Scar. The GM gets one free compel on #emph[the debt comes due] next session. It can\'t prevent a shared-Disposition defeat or reverse death or a settled outcome.],
     [3a], [#strong[Greater Gift];], [Your patron Domain works up to #strong[Formidable 21];.],
-    [3b], [#strong[★ Borrowed Might];], [Once per session, before rolling an action that draws on your patron\'s Domain, give the GM #strong[3 Woe];. The action succeeds automatically with #strong[4 Power];, which you spend immediately on Effects permitted for that action and within your patron Domain\'s scope. In a scripted conflict, this replaces the roll for your assigned action. A trumped action remains trumped. On an independent test, apply the 4 Power without rolling. In a versus test, you win with 4 Power unless the opposing action also succeeds automatically; then resolve a tie. This grants no additional action. Do not roll bonus dice or apply dice-based criticals or complications. Pay other applicable costs normally. You cannot bank the 4 Power for a later action or use it to improve a creature-specific finishing procedure unless that procedure expressly permits it.],
+    [3b], [#strong[★ Borrowed Might];], [Once per session, before rolling an action that draws on your patron\'s Domain, give the GM #strong[3 Woe];. The action succeeds automatically with #strong[4 Power];, spent at once on Effects that action permits within the Domain\'s scope. A trumped action stays trumped; in a versus test it wins unless the other side also succeeds automatically, which makes a tie. The Power can\'t be banked or improve a finishing procedure that doesn\'t permit it.],
   )]
   , kind: table
   )
@@ -91,8 +91,10 @@ Mutant, cyborg, half-fae, or carrier of a strange bloodline.
     table.hline(),
     [1], [#strong[Gift];], [Choose a trait (claws, enhanced senses, night vision, gills, wings, cyber-arm). Its tag may add #strong[+1 above the normal +2 cap (maximum +3)] on related rolls. Gain +2 to one pool.],
     [2a], [#strong[Second Trait];], [Choose another trait. It also may add #strong[+1 above the normal cap (maximum +3)];.],
-    [2b], [#strong[Regeneration];], [A short rest clears #strong[one tier-1 physical status];. A full rest clears 2 tiers from every physical status. This heals existing statuses; it does not prevent an accepted payment from being recorded, restore Disposition, refresh injury trades or erase Scars.],
-    [3a], [#strong[Apex Form];], [Once per scene, unleash your nature: a #strong[free bonus die] on Sōma and Mētis skills for the scene. This die counts toward the normal +2 bonus-dice cap and grants no additional scripted turn (Core Rules §2.4, §10.5). At scene end, take #emph[Weary] as an accepted payment. Prevention, redirection, Resistance and incidental clearing benefits cannot cancel that payment; once recorded, it recovers normally.],
+    // PLAYTEST: R2, short rest = Second or Third rest, full rest = Fourth rest (Core Rules §6.5).
+    [2b], [#strong[Regeneration];], [A Second or Third rest clears #strong[one tier-1 physical status];. A Fourth rest clears 2 tiers from every physical status.],
+    // PLAYTEST: fallback matches Berserker and Unleash (Generic Playbooks); confirm in playtest.
+    [3a], [#strong[Apex Form];], [Once per scene, unleash your nature: a #strong[free bonus die] on Sōma and Mētis skills for the scene. At scene end, take #emph[Weary] (Module B; without it, exhausted-2 until a night\'s rest) as an accepted payment.],
     [3b], [#strong[★ Beyond Limits];], [Gain #strong[+1 Edge] in two pools (max 3 each).],
   )]
   , kind: table

@@ -35,7 +35,8 @@ The Grind uses its own rates, not the generic danger-clock rate, and failed conf
     align: (auto,auto,auto,auto,),
     table.header([Order], [Condition], [Effect], [Cleared by],),
     table.hline(),
-    [1], [#strong[Hungry & Thirsty];], [Short rests restore nothing], [A meal, a Survival roll (Restore)],
+    // PLAYTEST: R2 (Generic Focuses review), short rests named as First to Third rests.
+    [1], [#strong[Hungry & Thirsty];], [First to Third rests restore nothing], [A meal, a Survival roll (Restore)],
     [2], [#strong[Weary];], [Effort costs +1], [A full night\'s rest],
     [3], [#strong[Exposed] (cold, heat, wet)], [−1 Sōma Edge], [Shelter and a recovery roll],
     [4], [#strong[Shaken];], [−1 Pneuma Edge; Fear statuses +1 tier], [A Will or Empathy recovery roll, or a Belief moment],

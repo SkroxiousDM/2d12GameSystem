@@ -50,7 +50,7 @@ Spy, impostor, or actor: you can be anyone.
   )]
   , kind: table
   )
-#colbreak()
+
 === 15. Knows Everyone Worth Knowing
 #quote(block: true)[
 Fixer, socialite, or broker: you\'re one call away from anyone.

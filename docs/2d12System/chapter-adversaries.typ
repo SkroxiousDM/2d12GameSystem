@@ -195,5 +195,4 @@ This is pricing guidance, not an unrestricted spend menu. Write a Special's trig
 - #strong[Variance warning.] The PCs' Disposition roll can materially change the matchup; adversary Grit is fixed. If the result makes the struggle unusually dangerous, signpost it and offer exits rather than treating the legacy difficulty label as a guarantee.
 ]
 
-#import "chapter-adversaries-part-2.typ": adversaries-part-two
-#adversaries-part-two(statblock)
+#import "chapter-adversaries-part-2.typ"

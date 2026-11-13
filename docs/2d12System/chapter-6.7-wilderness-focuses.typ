@@ -50,7 +50,7 @@ Explorer, navigator, or surveyor drawn to the blank parts of the map.
   )]
   , kind: table
   )
-#colbreak()
+  
 === 19. Lives Off the Land
 #quote(block: true)[
 Survivalist, forager, or homesteader: you need nothing the world doesn\'t give.

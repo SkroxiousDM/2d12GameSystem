@@ -51,7 +51,7 @@ Sniper, archer, gunslinger: steady breath and a sharp eye.
   )]
   , kind: table
   )
-#colbreak()
+
 === 7. Opens Every Lock
 #quote(block: true)[
 Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.

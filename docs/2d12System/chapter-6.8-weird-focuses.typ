@@ -1,5 +1,5 @@
 #import "common.typ": *
-
+#pagebreak()
 == 8. Weird Focuses ◈
 #columns(2, gutter: 6mm)[
 === 21. Hunts the Things in the Dark ◈
@@ -51,7 +51,7 @@ Touched by the spirit world, the Otherworld, or the deep net.
   )]
   , kind: table
   )
-#colbreak()
+  
 === 23. Made a Bargain With Something Old ◈
 #quote(block: true)[
 Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.

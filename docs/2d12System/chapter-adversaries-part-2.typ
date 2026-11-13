@@ -1,6 +1,5 @@
 #import "common.typ": *
 
-#let adversaries-part-two(statblock) = [
 == 6. Running Adversaries
 #columns(2, gutter: 6mm)[
 === 6.1 Setup
@@ -227,6 +226,5 @@ Wants: the intruders alive, kneeling and useful.
   
 #pagebreak()
 
-#import "chapter-adversaries-part-3.typ": adversaries-part-three
-#adversaries-part-three()
-]
+#import "chapter-adversaries-part-3.typ"
+

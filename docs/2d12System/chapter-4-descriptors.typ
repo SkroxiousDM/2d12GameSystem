@@ -106,7 +106,7 @@ You see the board, the pieces and the hand moving them.
 - #strong[Weakness tag:] #emph[trusts no one\'s plan but mine]
 - #strong[Suggested Instinct:] \"If someone offers a deal, I look for the catch.\"
 - #strong[Hook:] Whose plan did you once see through, and what did it cost them?
-
+#colbreak()
 === 5. Curious
 #quote(block: true)[
 A locked door is a question. You\'ve never been good at leaving questions alone.
@@ -150,7 +150,7 @@ Something from your past follows you. Some nights you can almost hear it.
 - #strong[Weakness tag:] #emph[the past won\'t stay buried]
 - #strong[Suggested Instinct:] \"If I\'m alone at night, I keep a light on.\"
 - #strong[Hook:] What did you see that you can never forget?
-
+#colbreak()
 === 9. Light-Fingered
 #quote(block: true)[
 Things find their way into your hands. You rarely remember deciding to take them.
@@ -194,7 +194,7 @@ You move like water, over walls and through gaps others never see.
 - #strong[Weakness tag:] #emph[too quick to trust my footing]
 - #strong[Suggested Instinct:] \"If the ground gives way, I move before I think.\"
 - #strong[Hook:] What did you learn to escape from, and who taught you?
-
+#colbreak()
 === 13. Observant
 #quote(block: true)[
 You notice the scuffed boot, the nervous glance, the window left open.
@@ -282,7 +282,7 @@ There is always another way in, another word to say, another deal to make.
 - #strong[Weakness tag:] #emph[nobody takes my word]
 - #strong[Suggested Instinct:] \"If there\'s a shortcut, I find it.\"
 - #strong[Hook:] Who did you outwit, and are they still looking for you?
-
+#colbreak()
 === 21. Steady
 #quote(block: true)[
 Your hands don\'t shake. When everyone else panics, you are the one who aims.

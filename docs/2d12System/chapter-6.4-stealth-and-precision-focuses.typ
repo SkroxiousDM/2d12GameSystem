@@ -67,9 +67,11 @@ Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Bypass];], [Each success on a lock, safe or security clock advances it #strong[1 extra segment];.],
+    // PLAYTEST: Balance FO B7, rider added (overlaps Decipher).
+    [1], [#strong[Bypass];], [Each success on a lock, safe or security clock advances it #strong[1 extra segment];. Before you roll, you also know the clock\'s size and what failing will set off.],
     [2a], [#strong[Back Door];], [Once per location, Create the Truth #emph[I know a way in] for #strong[1 Power];. It gives access or leverage, not victory over an unrelated objective.],
-    [2b], [#strong[Trap Sense];], [You always notice traps and alarms before triggering them. Resisting traps costs #strong[0 on a Resistance result of 5+];.],
+    // PLAYTEST: Balance FO B7, rider added (overlaps Escape Artist).
+    [2b], [#strong[Trap Sense];], [You always notice traps and alarms before triggering them. Resisting traps costs #strong[0 on a Resistance result of 5+];. Allies you warn in time Resist that trap with #strong[Edge +1];.],
     // PLAYTEST: B2, was two steps; Master of the Field capstone gives one.
     [3a], [#strong[Master Key];], [Ordinary locks open without a roll. Complex security is #strong[one Difficulty step lower];.],
     [3b], [#strong[★ Vault Breaker];], [Once per mission, declare a security layer already cracked: fill one security clock completely.],

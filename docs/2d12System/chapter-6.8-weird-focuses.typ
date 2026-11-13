@@ -17,8 +17,10 @@ Monster-hunter, exorcist, or investigator of the strange.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Monster Lore];], [Once per scene, Discover a supernatural creature\'s weakness tag without rolling.],
-    [2a], [#strong[Bane];], [Against a creature whose weakness you\'ve exploited, a successful conflict Attack removes #strong[1 additional Disposition];, or, if it inflicts a harmful status, raises that status by #strong[1 tier] (never both). It adds no status to an ordinary Attack and doesn\'t improve staking, killing strikes or other finishing procedures.],
+    // PLAYTEST: Balance FO B7, rider added (overlaps Beast Lore).
+    [1], [#strong[Monster Lore];], [Once per scene, Discover a supernatural creature\'s weakness tag without rolling. You also know one thing that repels or binds it (salt, iron, a name).],
+    // PLAYTEST: Balance FO B7, rider added (overlaps Brutal).
+    [2a], [#strong[Bane];], [Against a creature whose weakness you\'ve exploited, a successful conflict Attack removes #strong[1 additional Disposition];, or, if it inflicts a harmful status, raises that status by #strong[1 tier] (never both). The first time you exploit a weakness against a creature, also Discover one more of its weaknesses or abilities for free. It adds no status to an ordinary Attack and doesn\'t improve staking, killing strikes or other finishing procedures.],
     [2b], [#strong[Ward the Threshold];], [Spend an uninterrupted scene preparing one clearly defined entrance and state which side it protects. Until the next dawn, supernatural creatures can\'t cross without overcoming the ward: a Will test against #strong[Formidable 21] (Success at a Cost counts). Success lets that creature cross and ends the ward against it; failure leaves it outside. In a scripted conflict, crossing takes a Maneuver resolved as an independent Will test, at most once per exchange per creature, with no ordinary Maneuver effects; the opposing action also resolves independently. The ward doesn\'t stop attacks or Effects that reach across. Destroying the markings ends it.],
     [3a], [#strong[Unshake-able];], [When you Resist fear, possession, or corruption with Pneuma, the cost is #strong[0 on a Resistance result of 5+];, and you reduce the status by 3 tiers.],
     [3b], [#strong[★ Nemesis];], [Name a supernatural foe. You always sense its direction, and your rolls against it get a #strong[free bonus die];.],
@@ -69,7 +71,8 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
     [2a], [#strong[Ask the Patron];], [Once per session, ask #strong[two] Discover questions. The GM gains 1 Woe.],
     [2b], [#strong[Not Yet];], [Once per session, after reduction and stacking, when an imposed harmful status would reach #strong[tier 6] on you, invoke your patron: record it at #strong[tier 5] instead, so you aren\'t Taken Out by it and gain no Scar. The GM gets one free compel on #emph[the debt comes due] next session. It can\'t prevent a shared-Disposition defeat or reverse death or a settled outcome.],
     [3a], [#strong[Greater Gift];], [Your patron Domain works up to #strong[Formidable 21];.],
-    [3b], [#strong[★ Borrowed Might];], [Once per session, before rolling an action that draws on your patron\'s Domain, give the GM #strong[3 Woe];. The action succeeds automatically with #strong[4 Power];, spent at once on Effects that action permits within the Domain\'s scope. A trumped action stays trumped; in a versus test it wins unless the other side also succeeds automatically, which makes a tie. The Power can\'t be banked or improve a finishing procedure that doesn\'t permit it.],
+    // PLAYTEST: Balance FO B6, no Heroic scope, so it can't act as a second Ascendant.
+    [3b], [#strong[★ Borrowed Might];], [Once per session, before rolling an action that draws on your patron\'s Domain, give the GM #strong[3 Woe];. The action succeeds automatically with #strong[4 Power];, spent at once on Effects that action permits within the Domain\'s scope. It can\'t be used for a Heroic-scope working. A trumped action stays trumped; in a versus test it wins unless the other side also succeeds automatically, which makes a tie. The Power can\'t be banked or improve a finishing procedure that doesn\'t permit it.],
   )]
   , kind: table
   )

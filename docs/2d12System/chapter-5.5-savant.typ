@@ -38,7 +38,8 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
     [6], [#strong[Briefing];], [When an ally acts on information you gave them this scene, they get #strong[+1] (counts as a tag, within the tag cap). Once per scene, give the whole party this bonus.],
     [7], [#strong[★ Connect the Dots];], [Once per session, propose a hidden Truth based on clues you've found. The GM either makes it true or tells you #strong[one true hidden Truth] about the situation instead.],
     [8], [#strong[★ I Planned for This];], [Once per scene, after any ally rolls but before Power is spent or consequences apply, spend #strong[2 Psychē] to let them reroll all dice and keep the better result. This replaces that roll; it isn't an extra action.],
-    [◆], [#strong[Master of the Field];], [Choose one field (medicine, occult, engineering, history, and so on). Rolls in that field against a Difficulty, including independent conflict tests, are #strong[one Difficulty step lower]; versus tests are unchanged. Once per session, ask a Discover question about #strong[what will happen] in that field; the GM answers truthfully.],
+    // PLAYTEST: Balance B6, field limited to about one skill's width.
+    [◆], [#strong[Master of the Field];], [Choose one field, about as wide as a single skill (medicine, occult, engineering, history). The GM can refuse a field that would cover most of your rolls. Rolls in that field against a Difficulty, including independent conflict tests, are #strong[one Difficulty step lower]; versus tests are unchanged. Once per session, ask a Discover question about #strong[what will happen] in that field; the GM answers truthfully.],
   )]
   , kind: table
   )

@@ -1,0 +1,125 @@
+diff --git a/docs/2d12System/chapter-5.5-savant.typ b/docs/2d12System/chapter-5.5-savant.typ
+index e3ebf60..4b6d331 100644
+--- a/docs/2d12System/chapter-5.5-savant.typ
++++ b/docs/2d12System/chapter-5.5-savant.typ
+@@ -38,7 +38,8 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
+     [6], [#strong[Briefing];], [When an ally acts on information you gave them this scene, they get #strong[+1] (counts as a tag, within the tag cap). Once per scene, give the whole party this bonus.],
+     [7], [#strong[★ Connect the Dots];], [Once per session, propose a hidden Truth based on clues you've found. The GM either makes it true or tells you #strong[one true hidden Truth] about the situation instead.],
+     [8], [#strong[★ I Planned for This];], [Once per scene, after any ally rolls but before Power is spent or consequences apply, spend #strong[2 Psychē] to let them reroll all dice and keep the better result. This replaces that roll; it isn't an extra action.],
+-    [◆], [#strong[Master of the Field];], [Choose one field (medicine, occult, engineering, history, and so on). Rolls in that field against a Difficulty, including independent conflict tests, are #strong[one Difficulty step lower]; versus tests are unchanged. Once per session, ask a Discover question about #strong[what will happen] in that field; the GM answers truthfully.],
++    // PLAYTEST: Balance B6, field limited to about one skill's width.
++    [◆], [#strong[Master of the Field];], [Choose one field, about as wide as a single skill (medicine, occult, engineering, history). The GM can refuse a field that would cover most of your rolls. Rolls in that field against a Difficulty, including independent conflict tests, are #strong[one Difficulty step lower]; versus tests are unchanged. Once per session, ask a Discover question about #strong[what will happen] in that field; the GM answers truthfully.],
+   )]
+   , kind: table
+   )
+diff --git a/docs/2d12System/chapter-5.6-interlocutor.typ b/docs/2d12System/chapter-5.6-interlocutor.typ
+index 151dd6d..4965fb5 100644
+--- a/docs/2d12System/chapter-5.6-interlocutor.typ
++++ b/docs/2d12System/chapter-5.6-interlocutor.typ
+@@ -37,7 +37,8 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
+     [5], [#strong[Many Faces];], [With a moment to prepare, Create the Truth #emph[I belong here] for #strong[1 Power]. It lasts the scene and removes one Truth that would raise the Difficulty of mingling or entry. It doesn't settle a contested conflict objective.],
+     [6], [#strong[Command];], [When your side scripts an exchange and you can act and communicate, name one volley and its actor: that actor may act out of rotation, even in consecutive volleys. Commit it with the script. It still holds if you're later Taken Out, but can't make an unavailable actor act; record the turn normally, then resume rotation. Separately, when an ally succeeds with Defend and commits at least 1 Power to Disposition recovery, add #strong[+1 recovery] (up to starting Disposition). Each benefit applies #strong[once per exchange] for your side, however many Command users it has.],
+     [7], [#strong[★ Inspire];], [You can spend #strong[your Tychē Points on allies' rolls]. Enhance effects you create for allies cost #strong[1 Power per 2 tiers].],
+-    [8], [#strong[★ Crowd Work];], [You influence a group as if it were one person. In Argument or Negotiation conflicts against a crowd or council, your successful Attacks remove #strong[1 additional Disposition] with ordinary Attack loss, however many people the crowd holds.],
++    // PLAYTEST: Balance B2, ★ kept; widened from crowds or councils to any side of two or more.
++    [8], [#strong[★ Crowd Work];], [You influence a group as if it were one person. In Argument or Negotiation conflicts where the other side has #strong[two or more participants] (a crowd, a council, a rival delegation), your successful Attacks remove #strong[1 additional Disposition] with ordinary Attack loss, however many people that side holds.],
+     // PLAYTEST: Word Is Law starting bonus lowered from +4 to +3.
+     [◆], [#strong[Word Is Law];], [Once per session, a non-villain NPC agrees to a reasonable request #strong[without a roll]. In Argument and Negotiation conflicts, your side starts with #strong[+3 Disposition] (a flat modifier, §1.2).],
+   )]
+diff --git a/docs/2d12System/chapter-5.7-explorator.typ b/docs/2d12System/chapter-5.7-explorator.typ
+index c6f771b..6828bde 100644
+--- a/docs/2d12System/chapter-5.7-explorator.typ
++++ b/docs/2d12System/chapter-5.7-explorator.typ
+@@ -39,7 +39,8 @@ At home where the map ends. Rangers, hunters, pilots, guides, explorers, scouts,
+     // PLAYTEST: At the Helm Chase bonus lowered from +3 to +2 to match Ambusher.
+     [6], [#strong[At the Helm];], [Drive/Pilot rolls with your own vehicle or boat may use Survival. Your vehicle gains one power tag (#emph[swift], #emph[rugged], #emph[nimble]). In Chase conflicts, your side gets #strong[+2 starting Disposition] (a flat modifier, §1.2).],
+     [7], [#strong[★ Animal Companion];], [You have a companion (hound, hawk, horse; a drone in sci-fi) with 2 power tags and 1 weakness. Once per scene it gives you a #strong[free bonus die] (within the +2 cap), or acts on its own using your Survival. Acting on its own in a conflict takes a place in your side's script and rotation; it has no Disposition or injury trade of its own (Core Rules §10.9). It can take statuses; tier 6 means it's lost until downtime.],
+-    [8], [#strong[★ Weather Sense];], [Once per session, declare the #strong[weather or terrain Truth] for the next scene (#emph[thick fog], #emph[rising river], #emph[clear skies]).],
++    // PLAYTEST: Balance B3, ★ kept; always-on forecast added to the once-per-session Truth.
++    [8], [#strong[★ Weather Sense];], [Once per session, declare the #strong[weather or terrain Truth] for the next scene (#emph[thick fog], #emph[rising river], #emph[clear skies]). You also always know the next scene\'s weather and terrain Truths before the party plans it, including whether a travel leg is a hard stretch (Module B).],
+     [◆], [#strong[One With the Wild];], [In wilderness, the party's Grind clock (Module B) is #strong[2 segments larger], and you can't be surprised. Once per session, while your party flees through wilderness, declare before the next exchange is scripted that you're losing the pursuit. If you can lead and everyone escaping can travel or be carried, the pursuit ends with no roll: you reach safety and the pursuers lose your trail. It doesn't defeat them, recover anything left behind or undo injuries and paid costs, and the chase can't resume without a new discovery or changed circumstances.],
+   )]
+   , kind: table
+diff --git a/docs/2d12System/chapter-5.9-design-notes.typ b/docs/2d12System/chapter-5.9-design-notes.typ
+index bc2993b..6a16abc 100644
+--- a/docs/2d12System/chapter-5.9-design-notes.typ
++++ b/docs/2d12System/chapter-5.9-design-notes.typ
+@@ -3,5 +3,5 @@
+ #sidebar("Design Notes")[
+ #strong[Roles.] Bellator (Sōma): Attack and Defend, forcing obstacles, intimidation. Furcifer (Mētis): Feint and Maneuver, infiltration, deception. Savant (Psychē): analysis, investigation, healing. Interlocutor (Pneuma): leads Arguments and Negotiations, contacts. Explorator (Sōma/Mētis): ranged Attacks, ambush, travel and tracking. Adept (Pneuma/Psychē): flexible by Domain. These are role targets, not Effect permissions.
+ 
+-#strong[Watch in playtest.] Power-cost discounts used with Effort for Power (Silver Tongue, Analyze, Field Medic, Deadly Precision, Jury-Rig in Generic Focuses). Adept workings: if they overshadow other playbooks, try a base working cost of 2, or limit Focused Channel to minor and significant workings. Vehicle signature items are 0 load because they don't come on foot missions; an absent vehicle gives no bonus.
++#strong[Watch in playtest.] Power-cost discounts used with Effort for Power (Silver Tongue, Analyze, Field Medic, Deadly Precision, Jury-Rig in Generic Focuses). Adept workings: if they overshadow other playbooks, limit Focused Channel to minor and significant workings (Easy and Standard). Don't raise the base working cost to 2: a busy Adept runs out of Pneuma before Resistance is counted. Vehicle signature items are 0 load because they don't come on foot missions; an absent vehicle gives no bonus.
+ ]
+diff --git a/docs/2d12System/chapter-6.4-stealth-and-precision-focuses.typ b/docs/2d12System/chapter-6.4-stealth-and-precision-focuses.typ
+index 46688be..1040c0e 100644
+--- a/docs/2d12System/chapter-6.4-stealth-and-precision-focuses.typ
++++ b/docs/2d12System/chapter-6.4-stealth-and-precision-focuses.typ
+@@ -67,9 +67,11 @@ Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
+     align: (auto,auto,auto,),
+     table.header([Tier], [Ability], [Effect],),
+     table.hline(),
+-    [1], [#strong[Bypass];], [Each success on a lock, safe or security clock advances it #strong[1 extra segment];.],
++    // PLAYTEST: Balance FO B7, rider added (overlaps Decipher).
++    [1], [#strong[Bypass];], [Each success on a lock, safe or security clock advances it #strong[1 extra segment];. Before you roll, you also know the clock\'s size and what failing will set off.],
+     [2a], [#strong[Back Door];], [Once per location, Create the Truth #emph[I know a way in] for #strong[1 Power];. It gives access or leverage, not victory over an unrelated objective.],
+-    [2b], [#strong[Trap Sense];], [You always notice traps and alarms before triggering them. Resisting traps costs #strong[0 on a Resistance result of 5+];.],
++    // PLAYTEST: Balance FO B7, rider added (overlaps Escape Artist).
++    [2b], [#strong[Trap Sense];], [You always notice traps and alarms before triggering them. Resisting traps costs #strong[0 on a Resistance result of 5+];. Allies you warn in time Resist that trap with #strong[Edge +1];.],
+     // PLAYTEST: B2, was two steps; Master of the Field capstone gives one.
+     [3a], [#strong[Master Key];], [Ordinary locks open without a roll. Complex security is #strong[one Difficulty step lower];.],
+     [3b], [#strong[★ Vault Breaker];], [Once per mission, declare a security layer already cracked: fill one security clock completely.],
+diff --git a/docs/2d12System/chapter-6.5-knowledge-focuses.typ b/docs/2d12System/chapter-6.5-knowledge-focuses.typ
+index 3151d31..d65379a 100644
+--- a/docs/2d12System/chapter-6.5-knowledge-focuses.typ
++++ b/docs/2d12System/chapter-6.5-knowledge-focuses.typ
+@@ -67,7 +67,8 @@ Detective, investigator, or analyst: you follow the thread to the end.
+     table.header([Tier], [Ability], [Effect],),
+     table.hline(),
+     [1], [#strong[Case File];], [Start a #strong[Mystery clock] (6 or 8) for a case. Every Discover you buy also advances it 1 segment. When it fills, the GM reveals the core truth.],
+-    [2a], [#strong[Interro-gator];], [When questioning someone, each Discover gives #strong[two answers];.],
++    // PLAYTEST: Balance FO B7, rider added (overlaps Tracker).
++    [2a], [#strong[Interro-gator];], [When questioning someone, each Discover gives #strong[two answers];. You also learn whether the subject believes each answer.],
+     [2b], [#strong[Recon-struction];], [At the scene of a past event, ask #strong[three] Discover questions for free (once per location).],
+     // PLAYTEST: B1, was +4 starting Disposition; matches the Word Is Law capstone.
+     [3a], [#strong[The Reveal];], [Once per session, publicly name the culprit in a case you\'ve investigated and explain the evidence. The GM confirms whether you\'re right. If you are, your side gains #strong[+3 starting Disposition] in the next conflict this session in which it confronts the culprit over the case; declare it before Disposition is rolled. If your side wins, the culprit gets no compromise protecting them from the case-related outcome in the stakes; others on their side keep theirs. It doesn\'t prove guilt without evidence, expand the stakes, force a confession or skip a finishing procedure. A wrong accusation gives nothing and uses the session\'s use.],
+diff --git a/docs/2d12System/chapter-6.8-weird-focuses.typ b/docs/2d12System/chapter-6.8-weird-focuses.typ
+index b46413e..2362966 100644
+--- a/docs/2d12System/chapter-6.8-weird-focuses.typ
++++ b/docs/2d12System/chapter-6.8-weird-focuses.typ
+@@ -17,8 +17,10 @@ Monster-hunter, exorcist, or investigator of the strange.
+     align: (auto,auto,auto,),
+     table.header([Tier], [Ability], [Effect],),
+     table.hline(),
+-    [1], [#strong[Monster Lore];], [Once per scene, Discover a supernatural creature\'s weakness tag without rolling.],
+-    [2a], [#strong[Bane];], [Against a creature whose weakness you\'ve exploited, a successful conflict Attack removes #strong[1 additional Disposition];, or, if it inflicts a harmful status, raises that status by #strong[1 tier] (never both). It adds no status to an ordinary Attack and doesn\'t improve staking, killing strikes or other finishing procedures.],
++    // PLAYTEST: Balance FO B7, rider added (overlaps Beast Lore).
++    [1], [#strong[Monster Lore];], [Once per scene, Discover a supernatural creature\'s weakness tag without rolling. You also know one thing that repels or binds it (salt, iron, a name).],
++    // PLAYTEST: Balance FO B7, rider added (overlaps Brutal).
++    [2a], [#strong[Bane];], [Against a creature whose weakness you\'ve exploited, a successful conflict Attack removes #strong[1 additional Disposition];, or, if it inflicts a harmful status, raises that status by #strong[1 tier] (never both). The first time you exploit a weakness against a creature, also Discover one more of its weaknesses or abilities for free. It adds no status to an ordinary Attack and doesn\'t improve staking, killing strikes or other finishing procedures.],
+     [2b], [#strong[Ward the Threshold];], [Spend an uninterrupted scene preparing one clearly defined entrance and state which side it protects. Until the next dawn, supernatural creatures can\'t cross without overcoming the ward: a Will test against #strong[Formidable 21] (Success at a Cost counts). Success lets that creature cross and ends the ward against it; failure leaves it outside. In a scripted conflict, crossing takes a Maneuver resolved as an independent Will test, at most once per exchange per creature, with no ordinary Maneuver effects; the opposing action also resolves independently. The ward doesn\'t stop attacks or Effects that reach across. Destroying the markings ends it.],
+     [3a], [#strong[Unshake-able];], [When you Resist fear, possession, or corruption with Pneuma, the cost is #strong[0 on a Resistance result of 5+];, and you reduce the status by 3 tiers.],
+     [3b], [#strong[★ Nemesis];], [Name a supernatural foe. You always sense its direction, and your rolls against it get a #strong[free bonus die];.],
+@@ -69,7 +71,8 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
+     [2a], [#strong[Ask the Patron];], [Once per session, ask #strong[two] Discover questions. The GM gains 1 Woe.],
+     [2b], [#strong[Not Yet];], [Once per session, after reduction and stacking, when an imposed harmful status would reach #strong[tier 6] on you, invoke your patron: record it at #strong[tier 5] instead, so you aren\'t Taken Out by it and gain no Scar. The GM gets one free compel on #emph[the debt comes due] next session. It can\'t prevent a shared-Disposition defeat or reverse death or a settled outcome.],
+     [3a], [#strong[Greater Gift];], [Your patron Domain works up to #strong[Formidable 21];.],
+-    [3b], [#strong[★ Borrowed Might];], [Once per session, before rolling an action that draws on your patron\'s Domain, give the GM #strong[3 Woe];. The action succeeds automatically with #strong[4 Power];, spent at once on Effects that action permits within the Domain\'s scope. A trumped action stays trumped; in a versus test it wins unless the other side also succeeds automatically, which makes a tie. The Power can\'t be banked or improve a finishing procedure that doesn\'t permit it.],
++    // PLAYTEST: Balance FO B6, no Heroic scope, so it can't act as a second Ascendant.
++    [3b], [#strong[★ Borrowed Might];], [Once per session, before rolling an action that draws on your patron\'s Domain, give the GM #strong[3 Woe];. The action succeeds automatically with #strong[4 Power];, spent at once on Effects that action permits within the Domain\'s scope. It can\'t be used for a Heroic-scope working. A trumped action stays trumped; in a versus test it wins unless the other side also succeeds automatically, which makes a tie. The Power can\'t be banked or improve a finishing procedure that doesn\'t permit it.],
+   )]
+   , kind: table
+   )
+diff --git a/docs/2d12System/chapter-6.9-design-notes.typ b/docs/2d12System/chapter-6.9-design-notes.typ
+index b774c6a..2c2ecb5 100644
+--- a/docs/2d12System/chapter-6.9-design-notes.typ
++++ b/docs/2d12System/chapter-6.9-design-notes.typ
+@@ -3,7 +3,7 @@
+ #sidebar("Design Notes")[
+ #strong[Coverage.] Strong fits by Focus number. Bellator: 1--4, 6, 16, 17, 19, 21. Furcifer: 1, 3--8, 11, 13, 14, 20. Savant: 7, 9--12, 15, 18, 21, 22. Interlocutor: 2, 8, 10, 11, 13--16. Explorator: 1--3, 5, 6, 9, 12, 17--20. Adept: 7, 9, 10, 12, 21--23. Any: 23, 24. Off-type combinations are encouraged: an Interlocutor who Masters a Weapon is a duellist-diplomat; an Adept who Was Born Behind the Wheel is a witch with a haunted truck.
+ 
+-#strong[Watch in playtest.] The tag-cap exceptions (Masters a Weapon, Is More Than Human) at Formidable and Heroic Difficulty. Focus abilities that echo playbook abilities (Beast Lore and Monster Lore, Trap Sense and Escape Artist) don't stack on one character: take the better one. Stated Create discounts still stack to the minimum (Core Rules §5).
++#strong[Watch in playtest.] The tag-cap exceptions (Masters a Weapon, Is More Than Human) at Formidable and Heroic Difficulty. Focus abilities that echo other abilities (Bypass and Decipher, Trap Sense and Escape Artist, Interrogator and Tracker, Bane and Brutal, Monster Lore and Beast Lore): the shared benefit doesn't stack on one character, but the Focus's rider still applies. Stated Create discounts still stack to the minimum (Core Rules §5).
+ 
+ #strong[Gaps.] Planned Focuses: faith (Keeps the Faith), scholar of war, merchant, performer.
+ ]

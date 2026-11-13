@@ -67,7 +67,8 @@ Detective, investigator, or analyst: you follow the thread to the end.
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Case File];], [Start a #strong[Mystery clock] (6 or 8) for a case. Every Discover you buy also advances it 1 segment. When it fills, the GM reveals the core truth.],
-    [2a], [#strong[Interro-gator];], [When questioning someone, each Discover gives #strong[two answers];.],
+    // PLAYTEST: Balance FO B7, rider added (overlaps Tracker).
+    [2a], [#strong[Interro-gator];], [When questioning someone, each Discover gives #strong[two answers];. You also learn whether the subject believes each answer.],
     [2b], [#strong[Recon-struction];], [At the scene of a past event, ask #strong[three] Discover questions for free (once per location).],
     // PLAYTEST: B1, was +4 starting Disposition; matches the Word Is Law capstone.
     [3a], [#strong[The Reveal];], [Once per session, publicly name the culprit in a case you\'ve investigated and explain the evidence. The GM confirms whether you\'re right. If you are, your side gains #strong[+3 starting Disposition] in the next conflict this session in which it confronts the culprit over the case; declare it before Disposition is rolled. If your side wins, the culprit gets no compromise protecting them from the case-related outcome in the stakes; others on their side keep theirs. It doesn\'t prove guilt without evidence, expand the stakes, force a confession or skip a finishing procedure. A wrong accusation gives nothing and uses the session\'s use.],

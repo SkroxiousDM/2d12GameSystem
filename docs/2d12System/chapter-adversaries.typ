@@ -8,13 +8,7 @@
 // =====================================================================
 #chapter("Adversaries", [Build opposition on an index card, budget the fight, script it, and run it through the conflict system. Terse reference for the GM.], epigraph: [Every adversary has one thing it is clearly best at. Show the table the Tell.])
 
-#let statblock(name, line, threat, body) = block(breakable: false, width: 100%, inset: 7pt, stroke: 0.6pt + luma(120), radius: 2pt, above: 8pt, below: 8pt)[
-  #grid(columns: (1fr, auto), text(weight: 700, name), text(weight: 700)[Threat #threat])
-  #text(size: 9pt, style: "italic", line)
-  #v(2pt)
-  #set text(size: 9pt)
-  #body
-]
+#import "adversaries-common.typ": statblock
 
 == 1. Principles
 #columns(2, gutter: 6mm)[
@@ -86,7 +80,7 @@ The Role names the Best action and gives one trait. Assign Fair to two other act
   table.header([Role], [Best], [Role trait]),
   [Brute], [Attack], [#strong[Heavy Hitter.] First successful Attack each exchange gets +1 Power. Resolve area effects under Core Rules §10.17; do not multiply this bonus across shared Disposition. Outside conflicts, its Harm is +1 tier.],
   [Shooter], [Attack], [#strong[Dead Aim.] Free bonus die on its first Attack each scene.],
-  [Bulwark], [Defend], [#strong[Interpose.] Once per exchange, it may intercept an ally's imposed status before Resistance or harm reduction, using its own normal reduction instead. No shared Disposition loss is redirected. Outside conflicts, it may likewise intercept fitting harm without a separate frequency limit. Follow the full timing, exclusions and area restrictions in §6.13.],
+  [Bulwark], [Defend], [#strong[Interpose.] Once per exchange, it may intercept an ally's imposed status before Resistance or harm reduction, using its own normal reduction instead. Alternatively, use Hold the Line to reduce one successful opposing Attack's ordinary loss by 1. Both options share one use per exchange (§6.13). Outside conflicts, it may likewise intercept fitting harm without a separate frequency limit. Follow the full timing, exclusions and area restrictions in §6.13.],
   [Skirmisher], [Maneuver], [#strong[Hit and Run.] A successful Maneuver also removes 1 Disposition from the opponent.],
   [Controller], [Maneuver], [#strong[Shape the Ground.] Once per scene, Create a Truth for 1 Woe (not 2) or for 1 Power from a Maneuver.],
   [Trickster], [Feint], [#strong[Ambush.] If the PCs have not noticed it when the conflict begins, its side starts with +2 Disposition.],
@@ -109,9 +103,9 @@ Pick Specials from the Kind menu up to the Rank limit. Price a new one:
 #figure(table(columns: (12%, 88%),
   table.header([Woe], [What it can do]),
   [0], [Always-on trait, or a once-per-scene minor trick (Armour 1, step between shadows).],
-  [1], [+1 Power or a free bonus die on one roll. A tier-2 status on one target. Cancel one PC trick. One minion as reinforcement.],
+  [1], [+1 Power or a free bonus die on one roll. A tier-2 status on one target. Cancel one PC trick. Named reserve reinforcement only under its priced package.],
   [2], [Create a Truth. A tier-3 status. Leave the scene. An area effect.],
-  [3], [Changes the scene: a significant reinforcement, recover 2 tiers or 3 Disposition, a danger-clock tick plus an effect.],
+  [3], [Changes the scene: a significant reinforcement under its package, recover 2 tiers or 3 Disposition, a danger-clock tick plus an effect.],
 ))
 
 This is pricing guidance, not an unrestricted spend menu. Write a Special's trigger, action requirement, targets and component explicitly. Free waives only its listed cost; it grants no extra turn or rotation bypass. Additional Power, Disposition loss and status tiers are distinct, and a bonus does not apply to both loss and harm unless stated. Cancelling a trick does not cancel a protected payment (Core Rules §10.5--10.7).
@@ -119,6 +113,7 @@ This is pricing guidance, not an unrestricted spend menu. Write a Special's trig
 #strong[Area Rule (provisional for playtesting).] Use Core Rules §10.17. Establish the area and everyone it can reach; there is no automatic ally/enemy selection. An area Attack or Feint removes its committed Power + 1 from shared Disposition once, plus 1 per additional opposing participant affected. No individual shares or spill-over. A group represented by one rules entry counts as one participant, not one per Body. Explicit statuses apply at full purchased or listed tier to every affected character, with separate Resistance or NPC reduction. An ordinary conflict Attack gains no status merely for being an area effect. Apply both layers only when an explicit rule grants both. At most one participant may accept an injury trade against the combined loss of a single area Attack or Feint.
 ]
 
+// PLAYTEST: Revised Specials and named reserve packages; use their full procedures.
 == 4. Kind Packages
 === Human
 - #strong[Morale.] Outside conflicts, a minion group or Minor flees or surrenders at half Bodies or when its leader is Taken Out, unless a Leader still stands.
@@ -129,9 +124,9 @@ This is pricing guidance, not an unrestricted spend menu. Write a Special's trig
 #figure(table(columns: (22%, 14%, 64%),
   table.header([Special], [Woe], [Effect]),
   [Volley], [2], [Group or Shooter. An area Attack.],
-  [Dirty Trick], [1], [Any success also Impedes the opposing side's next scripted action (−3 on its action roll), not a tiered status or a penalty to Resistance. Pending Impedes do not stack and expire if that action makes no roll.],
-  [Call for Help], [1 per minion / 3], [Reinforcements arrive and add their Grit to the side.],
-  [Hostage], [2], [Create the Truth "a knife at their throat." Attacks against its side are one step harder.],
+  [Dirty Trick], [1], [Once per bearer per exchange after a successful assigned action, Impede the opposing next scripted action in a later volley (§6.17).],
+  [Call for Help], [2 per copy], [Action-free named-reserve call. Use the caller-specific package, shared call window and arrival procedure (§§6.5, 6.24).],
+  [Covering Move], [1], [Once per bearer per exchange after a successful Maneuver, grant Gain Position to the next friendly scripted action in a later volley. Cannot activate while pending or already declared (§6.18).],
   [Last Stand], [2], [Defeat-triggered. At an eligible defeat at 0 shared Disposition, postpone defeat for one final volley for both sides (§6.10). Once per side per conflict; no personal extra action.],
   [Fanatic], [0], [Ignores Morale.],
 ))
@@ -147,9 +142,9 @@ This is pricing guidance, not an unrestricted spend menu. Write a Special's trig
   [Pounce], [1], [Free bonus die on its first Attack in a scene. If it wins, apply Impede to the opposing side's next scripted action under Core Rules §10.6.],
   [Savage Bite], [1], [+1 Power on a successful Attack.],
   [Thick Hide], [0], [Armour 1.],
-  [Venom / Infection], [2], [After a successful Attack during a conflict, pay 2 Woe to record one deferred poisoned-2 application against the target. Resolve it when the conflict ends under §6.12, regardless of the outcome; compromise does not cause another application. Outside conflicts, inflict poisoned-2 on the hit instead, paying the same listed cost. Once inflicted, the poisoned status rises by 1 tier per scene until treated; a pending record does not progress.],
-  [Howl], [2], [A minion pack (Grit 3) arrives at the end of the exchange.],
-  [Bolt], [2], [It leaves the scene.],
+  [Venom / Infection], [2], [After a successful Attack during a conflict, pay 2 Woe to record one deferred poisoned-2 application against the target. Resolve it when the conflict ends under §6.12, regardless of the outcome; compromise does not cause another application. Outside conflicts, inflict poisoned-2 on the hit instead, paying the same listed cost. Once inflicted, the poisoned status rises by 1 tier per scene until treated; a pending record does not progress. During a conflict, at most one recorded application per named Special per target across all sources (§6.12).],
+  [Howl], [2], [Action-free call to one shared reserve Hound Pack; exchange-end arrival, delayed by blocked routes without further payment (§6.22).],
+  [Bolt], [2], [After a successful Maneuver, withdraw at volley end after Self-Repair. Cannot bypass contested escape, pursuit or capture (§6.21).],
 ))
 
 === Guardian
@@ -161,15 +156,15 @@ This is pricing guidance, not an unrestricted spend menu. Write a Special's trig
 #figure(table(columns: (22%, 8%, 70%),
   table.header([Special], [Woe], [Effect]),
   [Suppressing Fire], [2], [An area Attack.],
-  [Scan], [1], [Cancel a Stealth-based Maneuver's effect, or reveal a hidden PC.],
-  [Self-Repair], [1], [Restore 2 of its side's shared Disposition (up to the side's starting value) or 2 tiers of physical status (§6.14).],
-  [Lockdown], [2], [Create the Truth Sealed Doors.],
-  [Shock Field], [1], [When a PC loses a versus roll to it in melee, record one deferred jolted-2 application against that PC (§6.12). This trigger is not limited to Attack.],
+  [Scan], [1], [Once per exchange, cancel one purchased Impede or Gain Position from a detectable opposing Stealth Maneuver, or reveal one detectable hidden opponent after own successful Maneuver (§6.19).],
+  [Self-Repair], [1], [After successful assigned action, once per Guardian per exchange, repair up to 2 shared Disposition or physical-status tiers at volley end. No Disposition recovery from 0 (§6.14).],
+  [Lockdown], [2], [Once per scene after successful Maneuver, create rank-1 Sealed Doors over named existing controlled barriers (§6.20).],
+  [Shock Field], [1], [When a PC loses a versus roll to it in melee, record one deferred jolted-2 application against that PC (§6.12). This trigger is not limited to Attack. During a conflict, at most one recorded application per named Special per target across all sources (§6.12).],
   [Fail-safe], [3], [Defeat-triggered. At eligible final defeat at 0 shared Disposition, an active Guardian detonates before finishing procedures, assigning burned-3 to each PC within reach as an additional compromise injury (§6.11). The Guardian is destroyed.],
-  [Calls the Works], [2], [Another guardian arrives.],
+  [Calls the Works], [2], [Action-free call to one shared reserve Gate Warden. Accepted command survives caller/link loss; blocked route delays arrival (§6.23).],
 ))
 
-#strong[Special procedures and remaining scope.] Self-Repair uses §6.14; Protocol uses §6.15; Last Stand uses §6.10; Fail-safe uses its separate compromise procedure in §6.11; Shock Field, Venom / Infection and any setting Special that explicitly refers to it use the outcome-independent deferred-injury procedure in §6.12. These are explicit Special exceptions, not ordinary Attack effects or permissions to cancel protected payments. A setting supplies its own additional Kind packages and Special entries; the shared procedures grant no unstated trigger, extra turn or actor reassignment. Other unstated interactions remain open.
+#strong[Special procedures and remaining scope.] Self-Repair uses §6.14; Protocol uses §6.15; Last Stand uses §6.10; Fail-safe uses its separate compromise procedure in §6.11; Shock Field, Venom / Infection and any setting Special that explicitly refers to it use the outcome-independent deferred-injury procedure in §6.12. These are explicit Special exceptions, not ordinary Attack effects or permissions to cancel protected payments. A setting supplies its own additional Kind packages and Special entries; the shared procedures grant no unstated trigger, extra turn or actor reassignment. Dirty Trick, Covering Move, Scan, Lockdown, Bolt and the named reinforcement packages use §§6.16--6.24. Their shared timing grants no additional action or activation permission.
 
 == 5. Encounter Budget
 #columns(2, gutter: 6mm)[
@@ -195,4 +190,7 @@ This is pricing guidance, not an unrestricted spend menu. Write a Special's trig
 - #strong[Variance warning.] The PCs' Disposition roll can materially change the matchup; adversary Grit is fixed. If the result makes the struggle unusually dangerous, signpost it and offer exits rather than treating the legacy difficulty label as a guarantee.
 ]
 
-#import "chapter-adversaries-part-2.typ"
+// PLAYTEST: Budget experiments, not calibrated difficulty labels.
+Test legal opposition near a declared party profile's expected setup start, that expectation +2 and +4, before opposing Superiority. Record actual Grit where legal packages cannot match. Retain Threat = Grit and rank construction. Keep builds, resources, tactics, interaction matrix, reserve packages, deferred cap and initial Woe fixed within matched comparisons; vary Woe separately. Record outcome, mutual defeat, compromise, volleys, Woe, repair, protection, phases, reserve Grit introduced and lasting costs. Track initial Grit, available reserve Grit, actual introduced Grit and call costs separately. No validated reserve-budget surcharge or numerical recalibration is established. Win rate alone is insufficient.
+
+#include "chapter-adversaries-part-2.typ"

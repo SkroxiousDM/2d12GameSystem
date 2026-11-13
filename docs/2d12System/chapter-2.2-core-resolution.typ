@@ -6,7 +6,7 @@
 #strong[Roll 2d12 + Skill + Modifiers vs. Difficulty.]
 
 - #strong[Skill:] +0 to +4 (from the skill pyramid; untrained = +0).
-- #strong[Tags:] +1 per relevant #strong[power tag];, #strong[maximum +2 per roll];. −1 per relevant #strong[weakness tag] (no cap). A few abilities raise the cap to +3 within their stated scope.
+- #strong[Tags:] +1 per relevant #strong[power tag];, #strong[maximum +2 per roll];. −1 per relevant #strong[weakness tag] (no cap).
 - #strong[Statuses:] + the tier of the highest relevant helpful status, − the tier of the highest relevant harmful status.
 - #strong[Truths:] shift Difficulty by steps (§8), not the roll: one step per rank, ±3 steps at most.
 
@@ -83,7 +83,7 @@ Example: Effort Level 2 lets you buy one bonus die before the roll, then spend a
 
 #strong[Paying costs.] Pay Effort and Help in full; you can't spend points a pool doesn't have unless a rule says so (§6.1). Paying the last point runs the pool dry; a cost of 0 never does. Pay each listed cost separately, when its rule says. If a cost takes you out, finish that action, but buy no more Effort or abilities for it.
 
-#strong[Free benefits.] Free bonus dice still count toward the +2 cap. Free Help waives only the pool cost: the helper must still be relevant and still shares the risk. Help that sets up a conflict works differently (§10.2).
+#strong[Free benefits.] Free bonus dice still count toward the +2 cap. Free Help waives only the pool cost: the helper must still be relevant and still shares the risk. Backing a side at the start of a conflict is not Help (§10.2).
 
 === 2.5 Outcomes
 #figure(

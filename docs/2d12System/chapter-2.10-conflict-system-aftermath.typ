@@ -46,7 +46,7 @@ Starting Disposition stays fixed for the conflict (§10.2). Reinforcements add t
 
 Defend and other Disposition-recovery effects restore only up to the starting value unless explicitly stated otherwise. At or above the cap, recovery restores nothing and does not reduce the current total.
 
-Removing a participant, helper, companion or group subtracts no contribution or Grit from current or starting Disposition. Removal may still defeat the side if nobody remains able to pursue its objective.
+Removing a participant, backer, companion or group subtracts no contribution or Grit from current or starting Disposition. Removal may still defeat the side if nobody remains able to pursue its objective.
 
 === 10.10 Conflict Gear and Assets
 Equipment normally provides an action tag, counting toward the normal +2 tag cap. It may also have one explicitly written distinctive quality. Do not invent qualities during resolution.
@@ -152,14 +152,11 @@ These are consequence packages, not mandatory lists. Do not automatically add in
 Compromise cannot simply reverse the result or grant the loser's complete incompatible objective.
 
 ==== Negotiating Terms
-+ Establish the grade.
-+ The loser proposes terms.
-+ Confirm what the winner achieves.
-+ Confirm what the loser retains or gains.
-+ State all costs and who pays.
-+ Credit eligible existing injuries.
-+ Resolve eligible Resistance.
-+ Record the binding result.
+// PLAYTEST: 4-step negotiation (was 8 steps). Check that tables still state every cost and who pays it.
++ #strong[Find the grade] from the table above.
++ #strong[Agree one package.] The loser proposes it: what the winner achieves, what the loser keeps or gains, and every cost and who pays it.
++ #strong[Settle injuries.] Credit eligible existing injuries, then resolve eligible Resistance.
++ #strong[Record] the binding result.
 
 Keep terms proportionate, relevant and within the stakes. If agreement proves difficult, the GM adjudicates using these limits. Disagreement does not cancel earned compromise.
 
@@ -208,7 +205,7 @@ Creature-specific rules remain in force, including breaking points that replace 
 + Before the next roll, allow concession proposals.
 + Resolve permitted creature finishing procedures before compromise.
 + Settle compromise or concession.
-+ Recover each layer only through its own procedure (§10.7).
++ Recover each layer only through its own procedure (§6.5).
 
 Specific rules override general rules only on the subject addressed.
 

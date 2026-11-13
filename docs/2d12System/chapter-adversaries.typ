@@ -19,7 +19,7 @@
 == 1. Principles
 #columns(2, gutter: 6mm)[
 - #strong[No pools.] Ordinary adversaries do not track Sōma, Mētis, Psychē or Pneuma. #strong[Grit] contributes to their side's starting shared Disposition; it is not a personal track. #strong[Shrugs] are free Resists. Rivals built as full PCs use their PC resources and applicable exceptions.
-- #strong[Tags are already counted.] Ratings include tags. PCs still Discover, Burn and compel them.
+- #strong[Tags are already counted.] Ratings include tags. PCs still Discover, Suppress and compel them.
 - #strong[Woe is fuel.] Ordinary adversaries buy bonus dice (1 Woe each, max +2 including free dice) and fire Specials with Woe. They never use Effort and cannot overrun Woe costs.
 - #strong[One best action.] Every card has one clearly best action and a #strong[Tell] that hints at it. Give the players something to script around.
 - #strong[Index-card size.] If it does not fit on a card, cut it.
@@ -86,7 +86,7 @@ The Role names the Best action and gives one trait. Assign Fair to two other act
   table.header([Role], [Best], [Role trait]),
   [Brute], [Attack], [#strong[Heavy Hitter.] First successful Attack each exchange gets +1 Power. Resolve area effects under Core Rules §10.17; do not multiply this bonus across shared Disposition. Outside conflicts, its Harm is +1 tier.],
   [Shooter], [Attack], [#strong[Dead Aim.] Free bonus die on its first Attack each scene.],
-  [Bulwark], [Defend], [#strong[Interpose.] Once per exchange, it may intercept an ally's imposed status before Resistance or harm reduction, using its own normal reduction instead. No shared Disposition loss is redirected. Outside conflicts, it may likewise intercept fitting harm without a separate frequency limit. Follow the full timing, exclusions and area restrictions in Core Rules §10.18.],
+  [Bulwark], [Defend], [#strong[Interpose.] Once per exchange, it may intercept an ally's imposed status before Resistance or harm reduction, using its own normal reduction instead. No shared Disposition loss is redirected. Outside conflicts, it may likewise intercept fitting harm without a separate frequency limit. Follow the full timing, exclusions and area restrictions in §6.13.],
   [Skirmisher], [Maneuver], [#strong[Hit and Run.] A successful Maneuver also removes 1 Disposition from the opponent.],
   [Controller], [Maneuver], [#strong[Shape the Ground.] Once per scene, Create a Truth for 1 Woe (not 2) or for 1 Power from a Maneuver.],
   [Trickster], [Feint], [#strong[Ambush.] If the PCs have not noticed it when the conflict begins, its side starts with +2 Disposition.],
@@ -97,7 +97,7 @@ The Role names the Best action and gives one trait. Assign Fair to two other act
 Write as many as the Rank allows.
 - #strong[Power tags] explain the Best action: faster than you can see, old-world steel, a hundred donors.
 - #strong[Weakness tags] are levers PCs can find with Discover: proud beyond reason, fears fire, fixed in place.
-- #strong[Burning a power tag] (Weaken 1, Disarm 3, Called Shot) lowers the rating it supports by 1 for the scene. If the tag powers a Special, the Special is off for the scene instead.
+- #strong[Suppressing a power tag] (Weaken 1, Disarm 3, Called Shot) lowers the rating it supports by 1 for the scene. If the tag powers a Special, the Special is off for the scene instead.
 - #strong[Using a Discovered weakness] gives the PC +1 on the roll.
 - #strong[Compelling a weakness] costs 1 Momentum or 1 Tychē. The adversary acts on it and the GM gains 1 Woe.
 
@@ -154,7 +154,7 @@ This is pricing guidance, not an unrestricted spend menu. Write a Special's trig
 
 === Guardian
 - #strong[Unfeeling.] Immune to fear, Intimidate, Persuade, Duel of Wills and Pneuma statuses. No Morale; it never flees.
-- #strong[Protocol.] It scripts in a pattern. One Discover reveals its next exchange's script.
+- #strong[Protocol.] It scripts in a pattern. One Discover reveals its next exchange's script (§6.15).
 - #strong[Machine.] The glitched status lowers all ratings by its tier. A PC with access can use Science as Attack (shutdown) or Maneuver (override).
 - #strong[Simple machines] have no Feint. Thinking constructs Feint normally.
 
@@ -162,18 +162,18 @@ This is pricing guidance, not an unrestricted spend menu. Write a Special's trig
   table.header([Special], [Woe], [Effect]),
   [Suppressing Fire], [2], [An area Attack.],
   [Scan], [1], [Cancel a Stealth-based Maneuver's effect, or reveal a hidden PC.],
-  [Self-Repair], [1], [Restore 2 of its side's shared Disposition (up to the side's starting value) or 2 tiers of physical status.],
+  [Self-Repair], [1], [Restore 2 of its side's shared Disposition (up to the side's starting value) or 2 tiers of physical status (§6.14).],
   [Lockdown], [2], [Create the Truth Sealed Doors.],
   [Shock Field], [1], [When a PC loses a versus roll to it in melee, record one deferred jolted-2 application against that PC (§6.12). This trigger is not limited to Attack.],
   [Fail-safe], [3], [Defeat-triggered. At eligible final defeat at 0 shared Disposition, an active Guardian detonates before finishing procedures, assigning burned-3 to each PC within reach as an additional compromise injury (§6.11). The Guardian is destroyed.],
   [Calls the Works], [2], [Another guardian arrives.],
 ))
 
-#strong[Special procedures and remaining scope.] Last Stand uses §6.10; Fail-safe uses its separate compromise procedure in §6.11; Shock Field, Venom / Infection and any setting Special that explicitly refers to it use the outcome-independent deferred-injury procedure in §6.12. These are explicit Special exceptions, not ordinary Attack effects or permissions to cancel protected payments. A setting supplies its own additional Kind packages and Special entries; the shared procedures grant no unstated trigger, extra turn or actor reassignment. Other unstated interactions remain open.
+#strong[Special procedures and remaining scope.] Self-Repair uses §6.14; Protocol uses §6.15; Last Stand uses §6.10; Fail-safe uses its separate compromise procedure in §6.11; Shock Field, Venom / Infection and any setting Special that explicitly refers to it use the outcome-independent deferred-injury procedure in §6.12. These are explicit Special exceptions, not ordinary Attack effects or permissions to cancel protected payments. A setting supplies its own additional Kind packages and Special entries; the shared procedures grant no unstated trigger, extra turn or actor reassignment. Other unstated interactions remain open.
 
 == 5. Encounter Budget
 #columns(2, gutter: 6mm)[
-#strong[Legacy calibration; playtest flag.] The retained budget uses #strong[P] = about 8 plus party size as a historical benchmark, not the current PC setup formula. Current rolled setup divides 2d12 + Disposition skill + highest pool Edge by 3, rounds down, then adds helpers and flat modifiers at full value before the minimum of 1 and Superiority (Core Rules §10.2--10.3). Recalibrate the expectations below against that procedure; this pass changes no Threat, Grit or budget numbers. Spend Threat (= Grit) against the retained benchmark only with that limitation in mind.
+#strong[Legacy calibration; playtest flag.] The retained budget uses #strong[P] = about 8 plus party size as a historical benchmark, not the current PC setup formula. Current rolled setup divides 2d12 + Disposition skill + highest pool Edge by 3, rounds down, then adds backers and flat modifiers at full value before the minimum of 1 and Superiority (Core Rules §10.2--10.3). Recalibrate the expectations below against that procedure; this pass changes no Threat, Grit or budget numbers. Spend Threat (= Grit) against the retained benchmark only with that limitation in mind.
 
 #figure(table(columns: (15%, 20%, 15%, 50%),
   table.header([Difficulty], [Threat budget], [Extra Woe], [Legacy expectation]),

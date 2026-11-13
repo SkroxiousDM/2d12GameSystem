@@ -26,7 +26,7 @@
   )
 
 - #strong[The other option:] once you\'ve reached a tier, you may take its unchosen option later as a normal Advance.
-- #strong[★ Major:] costs 1 Refresh when taken (Core Rules §4.1). Every Focus has exactly one ★ option, always at Tier 3, so you can always choose a path that keeps your Refresh.
+- #strong[★ Major:] costs 1 Refresh when taken (Core Rules §3.6). Every Focus has exactly one ★ option, always at Tier 3, so you can always choose a path that keeps your Refresh.
 - #strong[Any playbook can take any Focus.] The \"Suits\" line is a suggestion.
 #colbreak()
 - #strong[Changing Focus:] at a major milestone, with GM approval, you can swap your Focus. You keep Tier 1 of the new one and rebuy higher tiers with Advances.

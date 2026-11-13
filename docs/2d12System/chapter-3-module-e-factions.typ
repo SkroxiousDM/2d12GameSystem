@@ -184,7 +184,7 @@ Do not award all three for the same contribution. Stronger Qualities increase fe
 
 #strong[Accompanying allies.] Distinguish an independently acting participant from a supporting asset. A participant enters continuous rotation, uses its listed skills or ratings and is bound by the side's stakes. An asset supplies its stated benefit without gaining an independent turn. Do not count one companion twice or give it a separate Disposition track merely because it accompanies the party. Removing it subtracts no shared Disposition, though a side loses if nobody can continue pursuing its objective (Core Rules §10.9).
 
-Setup Help supplies +1 Disposition per eligible helper instead of also granting an ordinary Help die; its pool-point cost remains an open ruling (§10.2). A faction's size, Quality or number of fictional personnel does not by itself grant that many eligible helpers. Apply the normal contribution and participation requirements.
+Backing supplies +1 Disposition per eligible backer, not an ordinary Help die, and costs no pool points (Core Rules §10.2). A faction's size, Quality or number of fictional personnel does not by itself grant that many eligible backers. Apply the normal contribution and participation requirements.
 
 An escort may make a friendly checkpoint automatic. It cannot make every later negotiation easier simply because it exists. Personnel face the real risks of deployment, and a borrowed resource is not freely duplicable or permanently transferred.
 

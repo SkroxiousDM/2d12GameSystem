@@ -48,7 +48,7 @@ Every Adept has a #strong[Domain];: a broad power tag describing what they can d
 - #strong[Backlash:] doubles on a failure or cost cause a backlash. The GM picks a fitting status for you (#emph[burned-2];, #emph[drained-2];, #emph[glitched-2];) or a wild effect, in addition to the normal complication. Backlash remains an explicit additional consequence in conflicts.
 - Your Domain counts as a power tag on workings (inside the +2 cap).
 
-In a scripted conflict, a working uses an otherwise permitted scripted action; Domain permission grants no additional turn and does not bypass action interactions or declared stakes.
+#strong[In a scripted conflict,] Domain scope decides only whether a working fits the fiction and what it can affect. The working uses an otherwise permitted scripted action and resolves by the conflict's normal independent or versus procedure, with no scope roll or scope-based adjustment. Domain permission grants no additional turn, no harmful status on an ordinary Attack, and doesn't bypass action interactions or declared stakes (Core Rules §10.5--10.6). The Testament of Dust Occultist uses the same rule.
 
 === 8.2 Special Abilities
 #figure(

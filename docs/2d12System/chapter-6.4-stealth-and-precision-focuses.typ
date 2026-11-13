@@ -41,7 +41,7 @@ Sniper, archer, gunslinger: steady breath and a sharp eye.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Called Shot];], [Once per roll with Shoot, a #strong[free Weaken] effect: burn one of the target\'s tags (weapon, cover, mobility) for the scene. This explicitly permits the Weaken effect; free waives its Power cost, not the action interaction or declared stakes, and grants no additional scripted action.],
+    [1], [#strong[Called Shot];], [Once per roll with Shoot, a #strong[free Weaken] effect: suppress one of the target\'s tags (weapon, cover, mobility) for the scene. This explicitly permits the Weaken effect; free waives its Power cost, not the action interaction or declared stakes, and grants no additional scripted action.],
     [2a], [#strong[Overwatch];], [Once per scene, cancel an imposed status of tier 2 or less about to hit an ally by shooting the source. Declare this before the status is applied. It cannot cancel shared Disposition loss, injury-trade payments, running-dry statuses, agreed concession costs or other accepted payments. In conflicts, you may Defend with #strong[Shoot] when covering fire can protect your side.],
     [2b], [#strong[Trick Shot];], [Ignore Truths about cover and angles. A free #strong[Extra Feat] when you shoot objects (cut a rope, hit a switch, ricochet). Free waives the Power cost; it grants no additional scripted action and cannot bypass the action interaction or declared stakes.],
     [3a], [#strong[One Shot];], [Once per session, a Shoot Attack against a non-major NPC #strong[Takes them Out] on a success.],
@@ -67,7 +67,7 @@ Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
     table.hline(),
     [1], [#strong[Bypass];], [Each success on a lock, safe, or security clock Advances it #strong[+1 extra segment];. The bonus advances that progress clock only; it is not additional Power or Disposition loss and grants no additional scripted action or action-interaction bypass (Core Rules §5, §10.5--10.6).],
     [2a], [#strong[Back Door];], [Once per location, Create the Truth #emph[I know a way in] for #strong[1 Power];. It establishes access or leverage, not automatic victory over an unrelated conflict objective or permission to contradict resolved events.],
-    [2b], [#strong[Trap Sense];], [You always notice traps and alarms before triggering them. Resisting traps costs #strong[0 on a highest die of 5+];. This does not permit Resistance against shared Disposition loss, accepted payments or settled outcomes.],
+    [2b], [#strong[Trap Sense];], [You always notice traps and alarms before triggering them. Resisting traps costs #strong[0 on a Resistance result of 5+];. This does not permit Resistance against shared Disposition loss, accepted payments or settled outcomes.],
     [3a], [#strong[Master Key];], [Ordinary locks open without a roll. Complex security is #strong[two Difficulty steps lower];. The two-step reduction applies when testing against a Difficulty, including an eligible independent conflict test; do not convert it into a modifier to opposing totals in a versus test (Core Rules §10.5).],
     [3b], [#strong[★ Vault Breaker];], [Once per mission, declare a security layer already cracked: fill one security clock completely.],
   )]

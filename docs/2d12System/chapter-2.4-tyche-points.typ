@@ -12,7 +12,7 @@
 
 #strong[Resisting harder.] The Resistance still resolves normally, but its pool cost is 0, so it can't run the pool dry, even if the pool is already empty (§6.1). It doesn't restore spent points or clear an existing running-dry status, and it can't Resist ordinary Disposition loss or a protected payment (§10.7).
 
-Scripted conflicts add timing limits to all three spends (§10.7).
+Scripted conflicts add timing limits to all three spends (§10.18).
 
 #strong[Earn Tychē Points by:]
 
@@ -36,8 +36,7 @@ Acting against a Belief is not refusing a compel and carries no automatic penalt
 === 4.1 Refresh
 - #strong[Base Refresh is 3.] At the start of each session, your Tychē Points reset to your Refresh (if you have more, keep them, up to the cap).
 - #strong[Tychē cap.] You can hold at most #strong[Refresh + 3] Tychē Points. Any you would gain above the cap are lost.
-- #strong[Starting abilities.] At creation you get #strong[1 playbook ability and your Tier 1 Focus ability for free], and may buy #strong[up to 2 more playbook abilities at 1 Refresh each].
-- #strong[★ (Major) abilities] cost #strong[1 extra Refresh] whenever you take them: as your free pick (1), as a creation extra (2 total) or through advancement. Veteran acquisition costs are added on top (Playbook Rules §1.2).
+- #strong[Spending Refresh.] Creation extras and ★ abilities cost Refresh (§3.6).
 - An #strong[attuned artifact] (Module A) costs 1 Refresh while attuned, not merely while carried.
 - #strong[Minimum Refresh is 1.] Purchases can't take Refresh below 1. Your current Tychē Points can still drop to 0.
 - The advancement option \"+1 Refresh\" (§12) lets you buy Refresh back.

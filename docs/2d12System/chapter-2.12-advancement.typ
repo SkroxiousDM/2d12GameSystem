@@ -23,6 +23,7 @@ The Belief question awards at most #strong[1 XP per session], not 1 XP per Belie
 - #strong[+1 Refresh] (buys back Refresh spent on abilities or artifacts; max base 3 + 1 per 3 Advances)
 - A higher-tier Focus ability: Tier 2 after 3 Advances; Tier 3 after 6 Advances. Taking the ability costs an Advance; reaching the threshold does not grant it automatically (Focus Rules §1.1).
 - #strong[+1 Effort Level] (to Level 2 after 3 Advances; Level 3 after 9 Advances)
+- #strong[Quick Recovery] (once only): recover 1 additional point on every recovery roll. It doesn't change the fourth rest's full recovery (§6.5).
 
 #strong[Focus choices.] Tier 1 is gained at creation. At Tiers 2 and 3, choose one of the tier's two options when buying that ability. Once eligible for the tier, its unchosen option can be taken later as a normal Advance. A ★ option also costs 1 Refresh when taken. These prerequisites and prices follow Focus Rules §1.1, not an additional charge for each lower tier.
 

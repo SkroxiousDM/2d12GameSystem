@@ -11,7 +11,7 @@ These steps describe the order of creation; the subsections below group rules by
 + Sketch your character concept: a role, an important experience, and something you want to explore.
 + Write your World Belief (§3.5).
 + Write your Self Belief (§3.5).
-+ Choose Descriptor, Playbook, and Focus (§3.1); complete pools, Edge, skills, tags, abilities, and starting resources (§§3.2–3.4, §3.6, §4.1).
++ Choose Descriptor, Playbook, and Focus (§3.1); complete pools, Edge, skills, tags, abilities, and starting resources (§§3.2–3.4, §3.6).
 + Introduce the characters and agree on connections, including the link supplied by your Focus.
 + Write your Other Belief with the other player's agreement (§3.5).
 + Choose a concrete starting Goal (§3.5).
@@ -178,7 +178,7 @@ When [trigger], I [habitual response].
 
 #emph[Example:] "When we enter an unfamiliar place, I identify an escape route before settling in."
 
-Acting on an Instinct takes no time, but it doesn't guarantee success or skip a roll the normal rules require. Scripted conflicts limit it further (§10.7).
+Acting on an Instinct takes no time, but it doesn't guarantee success or skip a roll the normal rules require. Scripted conflicts limit it further (§10.18).
 
 ==== Review Before Play
 Read your three Beliefs, Goal, and Instinct aloud. Check that:
@@ -210,5 +210,7 @@ The GM might offer a delegation in exchange for escorting a vulnerable supply ca
 
 === 3.6 Starting Resources
 - #strong[Tychē Points:] start each session at your #strong[Refresh] (base 3; §4.1). Beliefs and connections grant no extra points.
+- #strong[Starting abilities.] You get #strong[1 playbook ability and your Tier 1 Focus ability for free], and may buy #strong[up to 2 more playbook abilities at 1 Refresh each].
+- #strong[★ (Major) abilities] cost #strong[1 extra Refresh] whenever you take them: as your free pick (1), as a creation extra (2 total) or through advancement. Veteran acquisition costs are added on top (Playbook Rules §1.2). Refresh can't drop below 1 (§4.1).
 - #strong[Load-out:] choose light, normal or heavy load before the mission, then declare playbook-kit items as you need them and mark their load; don't buy a full item list in advance. Signature items are chosen at creation and count against load when carried; always-carried items and items marked (0) follow their listed rules (Generic Playbooks §2.1). In conflicts, declare active gear before scripting each exchange (§10.10).
 ]

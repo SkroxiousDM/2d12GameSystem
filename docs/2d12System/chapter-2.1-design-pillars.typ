@@ -6,17 +6,18 @@
 
 #figure(
   [#table(
-    columns: (25%, 12%, 43%, 20%),
-    align: (auto,auto,auto,auto,),
-    table.header([Resource], [Owner], [Job], [Borrowed from],),
+    columns: (30%, 18%, 52%),
+    align: (auto,auto,auto,),
+    table.header([Resource], [Owner], [Job],),
     table.hline(),
-    [#strong[Pools] (Sōma / Mētis / Psychē / Pneuma)], [Each PC], [Physical, mental and spiritual cost --- Effort and Resistance], [Cypher + Blades stress],
-    [#strong[Tychē Points];], [Each PC], [Narrative authority --- invoke tags, accept compels], [Fate],
-    [#strong[Momentum];], [The party (shared)], [Tactical surplus from strong rolls], [2d20],
-    [#strong[Woe];], [The GM], [Mirror of Momentum --- complications and escalation], [2d20],
+    [#strong[Pools] (Sōma / Mētis / Psychē / Pneuma)], [Each PC], [Physical, mental and spiritual cost --- Effort and Resistance],
+    [#strong[Tychē Points];], [Each PC], [Narrative authority --- invoke tags, accept compels],
+    [#strong[Momentum];], [The party (shared)], [Tactical surplus from strong rolls],
+    [#strong[Woe];], [The GM], [Mirror of Momentum --- complications and escalation],
   )]
   , kind: table
   )
+Where each idea comes from: §14.
 #colbreak()
 #block[
 #set enum(numbering: "1.", start: 2)

@@ -17,7 +17,7 @@
 #columns(2, gutter: 5mm)[
 Later, Kade, Mira and Tarin confront two guards at the warehouse gate. This is a separate example. The earlier lighting and patrol Truths no longer apply at this location; Kade's temporary terror has been cleared through appropriate care after the spirit's influence ended (§6.6), not merely because the scene changed. His earlier pool expenditure is not automatically refunded. The PCs want to get their rescued friend through the gate; the guards want to hold them until reinforcements arrive. All three PCs can contribute. The group establishes capture and nonlethal injury as stakes, not death.
 
-#strong[Setup.] Mira leads with Fight +3 and the highest Edge in its pool, 1. Her setup dice are 7 and 8: 7 + 8 + 3 + 1 = 19. Divide by 3 and round down to 6, then add +1 for each of her two eligible helpers: #strong[starting Disposition 8]. There are no other flat modifiers or Superiority. Setup Help supplies these points, not extra Help dice; its pool-point cost remains an open ruling (§10.2).
+#strong[Setup.] Mira leads with Fight +3 and the highest Edge in its pool, 1. Her setup dice are 7 and 8: 7 + 8 + 3 + 1 = 19. Divide by 3 and round down to 6, then add +1 for each of her two eligible backers: #strong[starting Disposition 8]. There are no other flat modifiers or Superiority. Backing supplies these points free, not extra Help dice (§10.2).
 
 The guards contribute Grit 5 and 3, so their side also starts at #strong[8 Disposition], without a setup roll. Neither guard has a personal share to lose. Record both adjusted starting totals for Defend limits and later compromise (§10.9).
 

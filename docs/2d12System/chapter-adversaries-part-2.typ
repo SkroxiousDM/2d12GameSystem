@@ -106,6 +106,43 @@ Shock Field, Venom / Infection and any setting Special that explicitly refers to
 
 #strong[Binding outcome.] These applications, Resistance costs and resulting status consequences do not restore Disposition, reopen the settled outcome or grant an action or volley. Clear each record after resolution. Then settle Fail-safe assignments and ordinary compromise where applicable; apply any agreed concession costs under their protected-payment rules. Recover each layer only through its own procedure.
 
+=== 6.13 Interpose (Bulwark)
+Once per exchange in a conflict, when an ally would receive an imposed status that you can physically or otherwise fictionally intercept, you may take that status in their place. Outside conflicts, you can intercept a fitting status with no frequency limit.
+
+Declare Interpose before the original target rolls Resistance or applies any harm reduction.
+
+- Redirect the entire incoming status to yourself. The original target receives none of that status.
+- Resolve your own normal Resistance or NPC harm reduction against it, then stack what remains normally. Do not first apply the original target's Resistance, armour or other reduction.
+- Interpose redirects; it doesn't reduce the tier. Ordinary NPCs still get only one reduction per status (Core Rules §10.14).
+- It can't redirect shared Disposition loss or any protected payment (Core Rules §10.7).
+- You must be able to intercept the source of harm in the established fiction. You cannot protect an ally from an area effect that already affects both of you.
+
+#emph[Example:] a guardian with Interpose can step into a shock-baton strike that would inflict #emph[jolted-3] on an ally. The guardian receives #emph[jolted-3] and uses its own eligible reduction. It cannot intercept ordinary Disposition loss or shield that ally from a blast that already catches them both.
+
+=== 6.14 Guardian Self-Repair
+Once per guardian per exchange, after the guardian succeeds on its assigned scripted action, including Success at a Cost, it may spend 1 Woe to choose one:
+- Restore 2 of its side's shared Disposition, up to its original adjusted starting Disposition.
+- Remove up to 2 tiers from one existing physical status on that guardian that its repair systems can address.
+
+Self-Repair supplements the successful action. It requires no additional action or Power. The action qualifies even when all its Power funds permitted supplementary Effects.
+
+Resolve Self-Repair at the end of the triggering volley, after both independent actions and their immediate consequences, but before final defeat, mutual-defeat and defeat-triggered Special checks. The guardian must still be able to participate and pay the full 1 Woe. Shared Disposition at 0 does not itself prevent activation.
+
+Recovery from 0 is allowed in this window. Use the post-repair total to determine the outcome; repair may prevent defeat or change an otherwise mutual defeat into a victory. It cannot reopen a finalized outcome, reverse setup defeat or an accepted concession, or override an explicit recovery prohibition such as Last Stand's pending-defeat restriction.
+
+Each guardian tracks its own use. Failed, tied, trumped or unperformed actions don't qualify. An unused opportunity expires at the end of the volley; an extra volley within the same exchange doesn't refresh it.
+
+Choose Disposition or status repair, not both. Neither repairs the other layer, refills pools, erases Scars, returns a Taken Out participant or affects a protected payment (Core Rules §10.7). At or above the cap, Disposition repair restores nothing but doesn't reduce any excess.
+
+=== 6.15 Guardian Protocol
+A successful Protocol Discover reveals only the actions assigned to the targeted guardian in the next exchange, including their positions in that exchange. Record those assignments as committed when the information is supplied; other participants' assignments remain unrevealed.
+
+This guarantees disclosure of that next exchange, not automatic confirmation of all future exchanges. Characters retain what they have learned and may use observations and an understood operating pattern to predict later actions without paying merely to remember them.
+
+The disclosure must be true when given; the GM can't freely rewrite it. The GM may still change a disclosed action with a normal paid script change (Core Rules §10.5), which doesn't notify the hunters. Tells, observations and information effects still apply.
+
+Protocol grants no extra action, free script change, reassignment or rotation bypass. If the guardian later can't act, its assignment fails normally with no free replacement.
+
 #colbreak()
 == 7. Templates
 Seven generic cards. Reskin freely. Ratings follow the Rank table.

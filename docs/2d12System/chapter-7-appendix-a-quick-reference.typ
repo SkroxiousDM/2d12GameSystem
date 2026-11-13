@@ -10,7 +10,7 @@
 
 #columns(2,gutter:6mm)[
 == The Roll
-*2d12 + Skill + Modifiers vs. Difficulty.* Skill +0 to +4. Power tags +1 each, *maximum +2 per roll* (tag-cap exceptions: maximum +3). Weakness tags −1 each, no cap. Statuses ± tier. Truths shift Difficulty, not the roll: one step per rank (max rank 2), *±3 steps at most* (Core Rules §2.1, §8).
+*2d12 + Skill + Modifiers vs. Difficulty.* Skill +0 to +4. Power tags +1 each, *maximum +2 per roll*. Weakness tags −1 each, no cap. Statuses ± tier. Truths shift Difficulty, not the roll: one step per rank (max rank 2), *±3 steps at most* (Core Rules §2.1, §8).
 
 == Statuses (Core Rules §5.1--5.2)
 Record name, tier, scope, and removal condition. Apply only the highest relevant helpful status and the highest relevant harmful status, adding or subtracting their tiers. Example names: Inspired, Focused, Trusted; Wounded, Rattled, Discredited. Names do not establish scope by themselves. Grind conditions use their listed effects (Module B.3); Impede is not a status (§10.6).
@@ -47,22 +47,22 @@ Keep the best two dice; maximum +2 bonus dice, including free dice.
   [Momentum], [1 for the first die, 2 for the second],
   [Woe], [Give the GM 1 Woe per die],
   [Ordinary Help], [An ally spends 1 pool point and shares the risk])
-Ordinary free Help waives the cost, not relevance or risk. *Setup Help costs no pool points*: before the leader rolls, each eligible helper explains a meaningful contribution and commits to the side's stakes. Each adds +1 starting Disposition, not an ordinary Help die. Free-Help abilities add no further setup benefit unless explicit. An unavailable character cannot help; later removal does not subtract the contribution or recalculate Disposition (Core Rules §2.4, §10.2).
+Ordinary free Help waives the cost, not relevance or risk. *Backing* (setup) is not Help and costs no pool points: before the leader rolls, each eligible backer explains a meaningful contribution and commits to the side's stakes. Each adds +1 starting Disposition, not a Help die. Free-Help abilities add no further setup benefit unless explicit. An unavailable character cannot help; later removal does not subtract the contribution or recalculate Disposition (Core Rules §2.4, §10.2).
 
 == Create (Core Rules §5)
 2 Power per Truth rank, in or out of conflict: rank 1 costs 2; rank 2 costs 4. Each explicit ability/item discount is −1 Power, minimum 1. Floor Collapse costs 4 Power (Core Rules §10.8).
 
 == Resist (Core Rules §6)
-Roll *2 + Edge* d12, take the *highest die*, and pay the listed cost (don't subtract Edge): *two or more 12s* cost 0 and clear a tier-1 status · *9–12* costs 1 · *5–8* costs 2 · *1–4* costs 3. This reduces the status by 2 tiers. *Negative Edge:* −1 rolls 1d12; −2 or lower rolls that many dice (2d12 at −2, 3d12 at −3) and keeps the *lowest*. Ordinary Disposition loss and accepted payments cannot be Resisted.
+Roll *2 + Edge* d12, take the *highest die*, and pay the listed cost (don't subtract Edge): *two or more 12s* cost 0 and clear a tier-1 status · *9–12* costs 1 · *5–8* costs 2 · *1–4* costs 3. This reduces the status by 2 tiers. *Negative Edge:* roll 1d12; at −2 or lower the cost is 1 higher (maximum 3). Ordinary Disposition loss and accepted payments cannot be Resisted.
 
 == Running Dry (Core Rules §6.1--6.3)
-A cost that empties a pool, or is more than what's left in it, imposes a running-dry status at *tier 1 + overrun* (overrun = cost − points left). Only Resistance and imposed costs can overrun; a cost of 0 never runs dry. The status stacks normally. At *tier 6* you are Taken Out within its scope and gain *one Scar* (at most one per event). The pool and the status recover separately: 2 recovery points remove 1 depletion tier.
+A cost that empties a pool, or is more than what's left in it, imposes a running-dry status at *tier 1 + overrun* (overrun = cost − points left). Only Resistance and imposed costs can overrun; a cost of 0 never runs dry. The status stacks normally. At *tier 6* you are Taken Out within its scope and gain *one Scar* (at most one per scene). The pool and the status recover separately: 2 recovery points remove 1 depletion tier.
 #colbreak()
 == Conflict Setup (Core Rules §10.1–10.3)
-Use scripting when the outcome matters, opposition actively resists, and several tactical choices matter. State objectives, stakes and exits. Normally roll 2d12 + Disposition skill + highest Edge in its pool; divide by 3, round down, then add +1 per eligible helper and all flat modifiers at full value. Setup Help is free and committed before the roll; later removal does not recalculate it. Grit-built adversary sides use their listed setup instead. No flat-modifier stacking cap; minimum 1 before *Superiority* (0--3). Superiority alone can reduce starting Disposition to 0: win at no cost within stakes (§10.3). PC/opposition symmetry and eligibility remain playtest flags.
+Use scripting when the outcome matters, opposition actively resists, and several tactical choices matter. State objectives, stakes and exits. Normally roll 2d12 + Disposition skill + highest Edge in its pool; divide by 3, round down, then add +1 per eligible backer and all flat modifiers at full value. Backing is free and committed before the roll; later removal does not recalculate it. Grit-built adversary sides use their listed setup instead. No flat-modifier stacking cap; minimum 1 before *Superiority* (0--3). Superiority alone can reduce starting Disposition to 0: win at no cost within stakes (§10.3). PC/opposition symmetry and eligibility remain playtest flags.
 
 == Scripts and Rotation (Core Rules §10.5)
-Three actions per exchange, revealed one volley at a time. Track rotation across exchange boundaries: everyone available acts before anyone repeats; no consecutive turns unless alone. Change one unrevealed action before reveal for 2 Momentum (players) or 3 Woe (GM); no free actor reassignment. Free does not mean an extra turn.
+Three actions per exchange, revealed one volley at a time. Rotation runs in rounds across exchanges: everyone available acts once per round; no two volleys in a row unless alone. Change one unrevealed action before reveal for 2 Momentum (players) or 3 Woe (GM); no free actor reassignment. Free does not mean an extra turn.
 
 == Action Interactions
 I = independent; V = versus.
@@ -70,8 +70,8 @@ I = independent; V = versus.
   table.header([], [Attack], [Defend], [Feint], [Maneuver]),
   [Attack], [I], [V], [A only], [V],
   [Defend], [V], [I], [F only], [V],
-  [Feint], [A only], [F only], [V], [I],
-  [Maneuver], [V], [V], [I], [I])
+  [Feint], [A only], [F only], [V], [V],
+  [Maneuver], [V], [V], [V], [I])
 A only: Attack rolls independently, Feint is trumped. F only: Feint rolls independently, Defend is trumped. Independent tests normally use Standard 15, adjusted by Truths and explicit modifiers such as Guard. Versus: higher total wins; 1 Power +1 per full 3 over the loser, with eligible doubles bonuses. Exact tie: no Power or normal action effect. Both independent actions finish before checking victory.
 
 *Automatic success* replaces an otherwise permitted action's roll, not its interaction or assigned turn. Apply listed Power; in versus it wins unless both actions automatically succeed, then tie unless expressly overridden. No extra action, rescue of a trumped action, expanded stakes or dice-based critical/complication (Core Rules §10.5).
@@ -113,7 +113,7 @@ Winner's adjusted starting Disposition lost: none = None; more than 0 but less t
 == Area Effects (Core Rules §10.17; provisional)
 Establish the area and everyone it can reach; allies are not automatically excluded. Apply ordinary shared Disposition loss once, plus 1 per additional opposing participant affected, only when Power is committed to ordinary loss. One group rules entry counts as one participant. Explicit statuses apply at full tier with separate Resistance or NPC reduction. Area alone adds no status to an ordinary Attack. One injury trade at most against the combined loss. No Disposition outside conflicts.
 
-== Interpose (Core Rules §10.18)
+== Interpose (Adversaries §6.13)
 Bulwark: once per exchange, redirect an ally's entire imposed status before their Resistance or reduction; use your own eligible reduction, at most one NPC reduction per status. Outside conflicts, no separate frequency limit. Must be able to intercept; cannot redirect shared Disposition loss, injury payments, running-dry statuses, agreed concession costs, compromise costs or other accepted payments. Cannot shield an ally from an area effect already affecting both of you.
 
 == Rest and Recovery
@@ -123,7 +123,7 @@ Bulwark: once per exchange, redirect an ally's entire imposed status before thei
   [Second], [10 minutes], [½ d12, round up, +1],
   [Third], [1 hour], [½ d12, round up, +2],
   [Fourth], [10 hours (overnight)], [All pools full])
-Divide the points among Sōma, Mētis, Psychē and Pneuma, up to each pool's maximum. Edge does not apply. *Hardened* (one-time Advance): +1 point on every recovery roll. Pool recovery and status healing do not restore Disposition, refresh injury trades or erase Scars.
+Divide the points among Sōma, Mētis, Psychē and Pneuma, up to each pool's maximum. Edge does not apply. *Quick Recovery* (one-time Advance, §12.2): +1 point on every recovery roll. Pool recovery and status healing do not restore Disposition, refresh injury trades or erase Scars.
 #colbreak()
 == The Four Currencies
 #table(columns: (30%, 22%, 48%),

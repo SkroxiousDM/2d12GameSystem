@@ -24,8 +24,8 @@ Recovery follows four successive rest stages:
 - After the 4th rest, the cycle resets --- your next rest that day (or the start of a new day) is a First rest again.
 - Each PC rests and rolls independently. If two of five party members stop for 10 minutes to recover, the other three don\'t have to stop or roll.
 
-#strong[Recovering running-dry statuses.] Restoring a pool doesn't clear its running-dry status, and clearing the status doesn't refill the pool. When you first record the status, choose its category:
-- #strong[Depletion] (exhaustion, strain, temporary overload): the default, unless the source makes it an injury or affliction. It recovers through rest, as described below.
+#strong[Recovering running-dry statuses.] Restoring a pool doesn't clear its running-dry status, and clearing the status doesn't refill the pool. Each status has one category, Depletion unless its source says otherwise:
+- #strong[Depletion] (exhaustion, strain, temporary overload): the default. It recovers through rest, as described below.
 - #strong[Injury] (real physical damage): recovers through treatment, Restore and healing time, like any wound.
 - #strong[Affliction] (supernatural or ongoing cause): recovers only as its source allows.
 
@@ -38,12 +38,8 @@ Recovery follows four successive rest stages:
 - #strong[Pools] recover through the rests above. A full pool doesn't heal an injury, and an injury doesn't stop pool recovery unless its rule says so.
 - #strong[Statuses] recover by their kind: a temporary state ends when its cause or duration ends; injuries need treatment and time (§6.6); afflictions follow their source.
 
-Winning a conflict, ending a scene or setting fresh Disposition is #strong[not a general reset] (§10.7).
+Winning a conflict, ending a scene or setting fresh Disposition is #strong[not a general reset].
 
-
-#strong[Advance option --- Hardened] #emph[(6 XP, one-time)]
-
-Recover #strong[1 additional point] whenever you make a recovery roll. This Advance may be taken only once. It does not change the fourth rest\'s full recovery.
 
 === 6.6 Treatment and Healing
 

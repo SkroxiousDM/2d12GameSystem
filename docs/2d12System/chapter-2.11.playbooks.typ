@@ -13,7 +13,7 @@ Each playbook entry provides:
 - #strong[Relationship prompts:] 1 ally and 1 rival
 Settings rename and reskin playbooks (Adept becomes \"Hedge Witch\" in fantasy, \"Netrunner\" in cyberpunk) but keep the structure.
 
-#strong[Creation extras.] You may buy up to 2 additional playbook abilities at creation, each for 1 Refresh. A ★ Major costs a further 1 Refresh when taken, so a ★ creation extra costs 2 Refresh total. Minimum Refresh remains 1 (Core Rules §4.1; Generic Playbooks §1.1--1.2).
+#strong[Creation extras.] Up to 2 additional playbook abilities at 1 Refresh each; ★ costs 1 more (§3.6; Generic Playbooks §1.1--1.2).
 
 #strong[Later acquisition.] New abilities normally cost an Advance; ★ costs remain additional. Veteran abilities from another playbook become available after 6 Advances and cost an additional 1 Refresh. A capstone unlocks after 12 Advances with at least 4 abilities from that playbook, costs no Refresh, and is limited to one per character. See §12.2 and Generic Playbooks §1.2 for the detailed acquisition rules; reaching a threshold is not an automatic award from this overview.
 

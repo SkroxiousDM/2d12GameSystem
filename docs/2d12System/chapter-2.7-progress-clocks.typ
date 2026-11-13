@@ -12,5 +12,5 @@
 
 #strong[Specific procedures govern.] A clock's own rule sets its triggers, pace and permitted spends, and the general lines above don't override it. Examples: the Grind (Module B) and the Dying clock (§6.7).
 
-#strong[Clocks are not Disposition.] A clock measures its named goal; Disposition measures a side's ability to pursue a conflict (§10.7).
+#strong[Clocks are not Disposition.] A clock measures its named goal; Disposition measures a side's ability to pursue a conflict (§10.18).
 ]

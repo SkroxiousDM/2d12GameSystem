@@ -53,13 +53,13 @@ Stakes may change when circumstances change, but never retroactively. Explain th
 Lethal stakes make death possible, not automatic (§10.12).
 
 ==== Participants
-A participant must be able to contribute to the side's objective. Helping to establish starting Disposition commits a character to that side's stakes. Helping an action during the conflict likewise makes the helper a participant if they were not already involved.
+A participant must be able to contribute to the side's objective. #strong[Backing] the side at setup commits a character to that side's stakes. Helping an action during the conflict likewise makes the helper a participant if they were not already involved.
 
 A character who cannot meaningfully contribute may remain outside the conflict. Do not include them merely to increase Disposition. Companions and groups follow §10.9.
 
 ==== Starting Disposition
 The leader normally rolls #strong[2d12 + Disposition skill + highest Edge in that skill's pool]. Divide the result by three, rounding down. Then:
-- Add +1 per eligible helper. Setup Help costs no pool points and gives no bonus die: before the leader rolls, each helper explains a meaningful contribution and commits to the side's stakes. A free-Help ability adds nothing more unless it says so.
+- Add +1 per eligible backer. Backing is not Help: it costs no pool points and gives no bonus die. Before the leader rolls, each backer explains a meaningful contribution and commits to the side's stakes. A free-Help ability adds nothing more unless it says so.
 - Apply flat starting-Disposition bonuses and penalties from abilities, creature rank, conditions, and similar effects; these have no stacking cap.
 - Apply a minimum of 1.
 - Apply opposing Superiority (§10.3).
@@ -136,11 +136,7 @@ If it continues, script another exchange.
 ==== Coordination and Rotation
 A side may appoint a coordinator to record its script and acting order. The coordinator does not have exclusive authority over the group's decisions.
 
-Track rotation continuously across exchanges:
-- Every available participant must act before anyone takes another turn.
-- A participant cannot act in consecutive volleys unless they are the only available participant.
-- With more than three participants, continue the rotation into the next exchange.
-- Helping does not count as taking a turn.
+Rotation runs in rounds and carries across exchanges. Each round, every available participant acts once, in any order, and nobody acts in two volleys in a row unless they are the only one available. Helping does not count as a turn.
 
 Update rotation when someone joins, withdraws, or becomes unable to act. Assigning an action that later proves unsuitable does not permit a free replacement.
 
@@ -155,15 +151,17 @@ Replace one unrevealed action. Keep its assigned actor unless an explicit abilit
   table.header([Your action], [Attack], [Defend], [Feint], [Maneuver]),
   [Attack], [Independent], [Versus], [Attack independent; Feint trumped], [Versus],
   [Defend], [Versus], [Independent], [Defend trumped; Feint independent], [Versus],
-  [Feint], [Feint trumped; Attack independent], [Feint independent; Defend trumped], [Versus], [Independent],
-  [Maneuver], [Versus], [Versus], [Independent], [Independent],
+  [Feint], [Feint trumped; Attack independent], [Feint independent; Defend trumped], [Versus], [Versus],
+  [Maneuver], [Versus], [Versus], [Versus], [Independent],
 ))
 #columns(2, gutter: 6mm)[
 Independent actions both resolve, even if one defeats a side or takes its actor out. Complete each action's costs, choices and effects before removing a participant because of that action; check victory after both independent actions finish.
 
 A trumped action makes no roll and produces no effect. Describe the failed approach briefly. Failure, Woe and doubles use §10.7.
 
-// PLAYTEST: Feint versus Maneuver resolves independently in this rewrite.
+In short: Feint beats Defend and loses to Attack; two Attacks, two Defends or two Maneuvers are independent; every other pair is versus.
+
+// PLAYTEST: Feint versus Maneuver is now a versus test (was independent). Check that Maneuver doesn't become the safe answer to every Feint.
 
 ==== Independent Tests
 Roll against Standard 15, adjusted by applicable Truths and other explicit difficulty modifiers, including adversary Guard. Determine Power normally.
@@ -246,9 +244,7 @@ Fictional relevance is required, but does not unlock prohibited purchases or har
   [Extra Feat], [Any successful action], [Normal price (§5); once per action unless expressly overridden], [One related secondary accomplishment within the action's scope, not another turn, roll or scripted action.],
 ))
 #columns(2, gutter: 6mm)[
-#strong[Exceptions.] Other actions require explicit permission. An exception grants only its named purchase, trigger, cost, frequency and scope; a procedure replacing ordinary Maneuver effects retains that restriction.
-
-Called Shot retains only its named permission and duration. Cheap Shot's named Attack purchase does not unlock Create on every Attack or other supplementary Effects. A free Extra Feat waives cost, not its frequency limit.
+#strong[Exceptions.] Other actions require explicit permission. An exception grants only its named purchase, trigger, cost, frequency and scope; a procedure replacing ordinary Maneuver effects retains that restriction. Each ability that grants an exception states its own limits.
 
 #strong[Objective and script limits.] Advance cannot automatically convert segments into Disposition loss or bypass a still-disputed objective. If clock completion would settle the conflict, establish that relationship before scripting.
 
@@ -262,7 +258,7 @@ Additional Power, additional Disposition loss and additional status tiers are se
 Attack bonuses don't apply to Feint, staking, killing strikes or other finishing procedures unless stated.
 
 === 10.7 Costs, Failures and Complications
-Use normal Effort, Momentum, Woe, Tychē Points, tags and Truths subject to these restrictions.
+Use normal Effort, Momentum, Woe, Tychē Points, tags and Truths subject to these restrictions and the limits in §10.18.
 
 ==== Ordinary Failure
 An ordinary failed independent test produces no action effect and generates the usual 1 Woe. It does not also authorise an unrelated GM move, automatic injury or additional Disposition loss: the failed and opposing actions establish the volley.
@@ -294,25 +290,6 @@ Generic prevention, redirection, immunity, Resistance and incidental clearing be
 
 Once recorded, a status can be treated or healed through the applicable procedure. Later healing does not refund the benefit, restore Disposition, refresh an injury trade or erase a Scar.
 
-==== Other Core Rules in Conflicts
-- #strong[Invoke] during an eligible roll, before its outcome is resolved. It changes only that roll: no extra turn, script change or reassigned actor. A trumped action or automatic success has no roll to invoke on.
-- #strong[Declarations] can make an approach possible or supply an asset. They can't resolve a scripted action, cancel an independent action, widen the stakes or reverse an accepted concession.
-- #strong[Compels.] Agree the consequence before accepting. A compel must respect the stakes and action timing, and can't change a script or cancel an independent action. If its terms settle the conflict, use Concession (§10.12) rather than another roll. It can't erase a protected payment.
-- #strong[Instincts.] Acting on an Instinct takes no time but grants no extra action, interrupt, free script change, actor reassignment or rotation bypass. A consequential response needs a permitted action or explicit ability; an Instinct can't rescue a trumped action, allow action while Taken Out or retroactively cancel a resolved effect.
-- #strong[Truths.] Creating or countering a Truth takes a permitted action or explicit exception (§10.6); Momentum and Woe spends grant no extra turn, free reassignment or retroactive cancellation. A Truth can set up a later scenery Maneuver but doesn't resolve it or its Danger (§10.8). A hazardous description doesn't grant both Disposition loss and a harmful status; explicit harm and area effects use their own procedures (§10.17).
-- #strong[Clocks and Disposition] are separate tracks. Don't convert loss, healing or clock segments between them without an explicit rule. Advance is available only to actions §10.6 permits.
-- #strong[Complications,] from dice or bought with Woe, stay within the stakes and timing. They don't change committed scripts or cancel independent actions unless an explicit rule permits it.
-
-==== Free, Immediate and Automatic Effects Reference
-Free removes only the stated resource cost. It grants no extra turn, rotation bypass or permission to act while Taken Out. A passive benefit or a benefit explicitly requiring no action can apply without consuming a scripted action.
-
-An immediate effect resolves at its stated trigger. It interrupts another action only if explicitly permitted, and cannot retroactively cancel resolved costs or effects.
-
-An additional immediate action must specify its trigger, replacement of scripted actions, rotation treatment, use while Taken Out and interaction with independent actions.
-
-Automatic success replaces the roll for an otherwise permitted action. It supplies no extra action, script change, rescue of a trumped action, expanded stakes or unsuitable approach.
-
-On an independent test, apply the listed Power without rolling. In a versus test, it wins with its listed Power unless the opposing action also succeeds automatically; then resolve a tie unless a specific rule says otherwise. No roll means no dice-based critical or complication.
 ]
 
 #include "chapter-2.10-conflict-system-aftermath.typ"

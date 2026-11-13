@@ -33,7 +33,7 @@
 - complications bought off (+2);
 - refused compels;
 - Escalation (+1, §9.3);
-- dangerous scene Truths (+1 per scene).
+- dangerous scene Truths: those with lethal stakes or a listed Danger (+1 per scene each, §8).
 
 #figure(
   [#table(

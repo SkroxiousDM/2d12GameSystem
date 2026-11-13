@@ -49,13 +49,9 @@ Pay the listed cost for the die you read. A single die can't give the double-12 
   , kind: table
   )
 
-#strong[Resistance result and ability thresholds.] The Resistance result is the die read by the normal procedure: highest at Edge 0 or higher, the single die at Edge −1, and lowest at Edge −2 or lower. When an ability changes a Resistance cost or effect on a stated die threshold, check that threshold against this result. For these abilities, wording such as \"on a highest die of 5+\" means \"when the Resistance result is 5+\"; do not inspect a different die to qualify. An ability that intentionally uses a different die must expressly say that it overrides the normal Resistance result.
+#strong[Ability thresholds.] Your #strong[Resistance result] is the die you read: the highest at Edge 0 or more, the single die at Edge −1, the lowest at Edge −2 or less. An ability threshold such as \"on a highest die of 5+\" checks this result, unless the ability expressly says it reads a different die. Meeting a threshold grants only the benefit it names: it doesn't add dice, change Edge or let you Resist an excluded consequence, and a separately listed effect applies whether or not the threshold is met. A cost made 0 by an ability doesn't also clear a tier-1 status; only the double-12 result does that.
 
-Meeting a threshold grants only the stated benefit. It does not change which die is read, add dice, alter Edge or permit Resistance against an excluded consequence. A threshold-based cost benefit and a separately listed effect are distinct. If an ability says the cost is 0 on a result of 5+ and reduces a status by 3 tiers, the threshold governs the zero cost only; the listed reduction applies whenever you legally use that ability to Resist unless its text expressly makes the reduction conditional too.
-
-Apply the existing special double-12 procedure normally, including the all-dice-12 requirement when reading the lowest. An ability that makes the cost 0 does not itself grant that procedure's tier-1 status-clearing benefit. A zero final cost does not run the pool dry (§6.1), and protected-payment restrictions still apply.
-
-#emph[Example:] at Edge −2, dice of 3 and 10 give a Resistance result of 3. An ability's 5+ zero-cost threshold is not met; use the normal cost for 3, while retaining any independently listed effect improvement. Dice of 5, 9 and 12 at Edge −3 give a result of 5 and meet the threshold.
+#emph[Example:] at Edge −2, dice of 3 and 10 give a result of 3, so a 5+ zero-cost threshold isn't met: pay the normal cost for 3, but keep any separately listed effect. At Edge −3, dice of 5, 9 and 12 give 5 and meet it.
 
 #strong[Imposed harm, in order.] When an effect imposes a harmful status:
 + The GM names the status, its source and its incoming tier, and says whether it stacks with a status you already have (§5.1).
@@ -70,9 +66,7 @@ Apply the existing special double-12 procedure normally, including the all-dice-
 - a cost you accepted in a concession (§10.12), or any other cost you accepted as payment for a benefit;
 - a running-dry status (§6.2).
 
-An exception must expressly identify the protected payment or Disposition effect it changes. Generic permission to cancel harm or a consequence is not enough (§10.7). Imposed compromise statuses remain Resistable under §10.13; Resistance does not revoke the loser's concession, and removing an injury does not create a replacement cost.
-
-#strong[Protected payments.] Prevention, redirection, immunity, Resistance and effects that clear a status as an incidental benefit (such as the double-12 result above) can't prevent or remove an accepted payment, whichever action or Resistance produced the clearing benefit. This includes injury trades, running-dry statuses, agreed concession costs and other accepted payments. Treatment, healing time and effects that explicitly heal an existing injury affect it normally (§6.6); later healing doesn't refund the benefit, restore Disposition, refresh the trade or erase a Scar.
+#strong[Protected payments.] Only an exception that names the protected payment or Disposition effect can change it; generic wording such as \"cancel harm\" isn't enough. The same applies to prevention, redirection, immunity and incidental clearing, including the double-12 result above, whichever action produced it (§10.7). Treatment and healing still work on a recorded status (§6.6) but don't refund what it paid for. Compromise statuses imposed under §10.13 can still be Resisted; that doesn't revoke the concession, and removing the injury creates no replacement cost.
 
 === 6.1 Running Dry
 #strong[Trigger.] You #strong[run dry] when a positive cost brings a pool to 0 or is more than the points left in it. Finish the action or Resistance that caused the cost, then take a harmful #strong[running-dry status] for that pool (§6.2). Running dry does not, on its own, take you out, give you a Scar or refill the pool.
@@ -125,7 +119,6 @@ Overrun beyond tier 6 has no extra effect unless a rule or an established stake 
 + At tier 6, apply the status's scope, then record one Scar (§6.3).
 + Recover the pool and the status separately (§6.5).
 ]
-#colbreak()
 === 6.2 Running-Dry Statuses
 The status must fit both the pool and the action that drained it:
 
@@ -149,7 +142,7 @@ The status must fit both the pool and the action that drained it:
 
 #strong[Example.] You have #emph[mentally exhausted-2] and overrun Psychē by 2. The incoming status is tier 3, which stacks for +2, so you now have #emph[mentally exhausted-4].
 
-#strong[It is a cost.] Armour, Resistance and effects that cancel incoming consequences can't prevent or reduce a running-dry status. Once recorded, it can be treated, Restored or healed like any existing status, within the limits of the effect used. A clearing benefit from the same Resistance or action can't clear the status that paid for it.
+#strong[It is a cost.] A running-dry status is a protected payment: armour, Resistance and cancelling effects can't prevent or reduce it, and a clearing benefit from the same Resistance or action can't clear it. Once recorded, it can be treated, Restored or healed like any other status.
 
 === 6.3 Tier 6 and Scars
 When a harmful status reaches #strong[tier 6], whether in one hit or through stacking, apply this general procedure unless a specific rule expressly replaces its breaking-point outcome:
@@ -158,9 +151,9 @@ When a harmful status reaches #strong[tier 6], whether in one hit or through sta
 + Apply removal within the status's scope (below).
 + Record #strong[one Scar], subject to the limits below.
 
-#strong[Specific replacements.] Named creature tracks and conditions use an explicit breaking-point replacement only where stated (§10.14). Sun-Sick uses its listed collapse and prolonged-exposure consequences; Thirst uses Blood Crisis and its listed Scar consequences; neither adds an unstated generic tier-6 Scar. Bled retains this core Scar procedure. Apply limits against duplicate Scars from one event.
+#strong[Specific replacements.] Some creature tracks and setting conditions state their own breaking-point outcome; use it only where stated (§10.14). In Testament of Dust, Sun-Sick and Thirst replace the Scar with their own consequences, while Bled keeps it. The Scar limits below still apply.
 
-#strong[Scope.] If the status leaves you unable to pursue your side's intent in the current conflict, you are #strong[Taken Out]. Your side's shared Disposition doesn't change (§10.9). If none of a side's participants can continue pursuing its objective, that side loses; complete independently resolving actions before checking victory (§10.12). If the status only stops one activity (#emph[bound] stops you moving, not talking), apply that restriction and stay in the conflict. Set the scope of a non-damage status when it is inflicted, and don't widen it at tier 6. Under the general procedure, either result still gives its Scar.
+#strong[Scope.] If the status leaves you unable to pursue your side's intent, you are #strong[Taken Out] (§6.4). If it stops only one activity (#emph[bound] stops you moving, not talking), apply that restriction and stay in the conflict. Set a non-damage status's scope when it is inflicted, and don't widen it at tier 6. Either way, the general procedure still gives its Scar.
 
 #strong[Not lethal by default.] A running-dry status at tier 6 is not deadly on its own. Death needs a lethal cause and established stakes. Tier 6 doesn't, by itself, cost you a limb, lower a maximum pool or impose any other permanent loss; those need an established consequence, a specific effect or an agreement.
 
@@ -197,7 +190,7 @@ When a harmful status reaches #strong[tier 6], whether in one hit or through sta
 
 #strong[Out isn't down.] Being Taken Out doesn't, on its own, make you unconscious, injured or dying. Describe it to fit the fiction: pinned down, disarmed, driven back, cut off, or too frightened to go on. Injury needs a status, death needs established lethal stakes (§6.7), and permanent harm needs an established consequence (§6.8).
 
-#strong[Resisting while out.] Being Taken Out doesn't automatically stop you Resisting, but the Resistance must be something you can still do. You can brace against pain while pinned down, but you can't dodge while fully #emph[bound], or use an act of will while unconscious. When a status first takes you out, finish any Resistance already under way. Resistance can't reverse a defeat, undo an accepted concession, or prevent a cost you accepted as payment. Once a conflict is settled, you can only Resist the consequences that were left open to it; you can't use Resistance to reopen the intent or delay settlement.
+#strong[Resisting while out.] Being Taken Out doesn't automatically stop you Resisting, but the Resistance must be something you can still do. You can brace against pain while pinned down, but you can't dodge while fully #emph[bound], or use an act of will while unconscious. When a status first takes you out, finish any Resistance already under way. Once a conflict is settled, you can only Resist the consequences that were left open to it; you can't use Resistance to reopen the intent or delay settlement.
 
 #strong[Getting back in.] To rejoin a conflict that is still going, and that your side hasn't lost, you need both of these:
 + the condition that stopped you must be removed; and

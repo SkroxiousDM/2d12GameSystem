@@ -202,7 +202,7 @@ Commit at least 1 Power to remove opposing Disposition equal to the Power commit
 Restore 1 Disposition per Power committed, up to your side's starting value (§10.9). With no Power committed to this effect, restore none unless a specific ability grants recovery independently.
 
 ==== Feint
-Use Attack's Power commitment and Disposition-loss calculation. Feint bypasses Defend but is trumped by Attack; against Maneuver, both resolve independently.
+Use Attack's Power commitment and Disposition-loss calculation. Feint resolves independently against Defend, is trumped by Attack, and opposes Feint or Maneuver in a versus test.
 
 ==== Maneuver
 Spend Power on these effects:
@@ -219,6 +219,9 @@ Buy Impede, Gain Position and Disarm no more than once each per Maneuver; later 
 Impede and Gain Position apply to the affected side's next scripted action, including across an exchange boundary. If that action is trumped or otherwise makes no roll, the effect expires unused.
 
 Neither applies to unrelated Resistance or incidental rolls. Gain Position counts toward the normal bonus-dice cap.
+
+// PLAYTEST: One pending Gain Position per side, regardless of source.
+Additional grants do not stack, refresh or extend pending Gain Position. Covering Move cannot activate while pending or already declared for its Maneuver (Adversaries §6.18).
 
 Impede is not a tiered status. Multiple pending Impedes do not stack, increase its penalty or extend its duration. Restore does not remove it merely because Restore removes statuses. Impede does not itself restrain, immobilise or render someone helpless.
 
@@ -251,6 +254,9 @@ Fictional relevance is required, but does not unlock prohibited purchases or har
 Disrupt cannot generically cancel, replace, reveal or delay a committed scripted action; an ability or scenery procedure must expressly permit interference. Removing Woe cannot reverse an existing spend or cancel an accepted payment.
 
 Extra Feat cannot duplicate primary Disposition effects, disguise a prohibited purchase, cancel an independent opposing action or achieve an objective outside the stakes.
+
+// PLAYTEST: Successful-action Special declarations close before reactions.
+For action-triggered Specials, use Adversaries §6.16: determine and allocate Power, declare supplementary Specials and pay their costs, close declarations, resolve permitted reactions, then uncancelled effects. Check existing effects and effects already declared for the action. Cancellation does not reopen declarations, permit reallocation or refund purchases without an explicit exception. Preserve any expressly listed later activation window, including Self-Repair's volley-end window.
 
 ==== Offensive Bonuses
 Additional Power, additional Disposition loss and additional status tiers are separate bonuses. Each applies only to the component it names; a bonus meant for more than one must say so. If an effect inflicts both Disposition loss and a status, the ability must name the component a bonus improves, or let you choose.

@@ -1,0 +1,113 @@
+--- a/docs/2d12System/chapter-adversaries.typ
++++ b/docs/2d12System/chapter-adversaries.typ
+@@ -11,7 +11 @@
+-#let statblock(name, line, threat, body) = block(breakable: false, width: 100%, inset: 7pt, stroke: 0.6pt + luma(120), radius: 2pt, above: 8pt, below: 8pt)[
+-  #grid(columns: (1fr, auto), text(weight: 700, name), text(weight: 700)[Threat #threat])
+-  #text(size: 9pt, style: "italic", line)
+-  #v(2pt)
+-  #set text(size: 9pt)
+-  #body
+-]
++#import "adversaries-common.typ": statblock
+@@ -89 +83 @@
+-  [Bulwark], [Defend], [#strong[Interpose.] Once per exchange, it may intercept an ally's imposed status before Resistance or harm reduction, using its own normal reduction instead. No shared Disposition loss is redirected. Outside conflicts, it may likewise intercept fitting harm without a separate frequency limit. Follow the full timing, exclusions and area restrictions in §6.13.],
++  [Bulwark], [Defend], [#strong[Interpose.] Once per exchange, it may intercept an ally's imposed status before Resistance or harm reduction, using its own normal reduction instead. Alternatively, use Hold the Line to reduce one successful opposing Attack's ordinary loss by 1. Both options share one use per exchange (§6.13). Outside conflicts, it may likewise intercept fitting harm without a separate frequency limit. Follow the full timing, exclusions and area restrictions in §6.13.],
+@@ -112 +106 @@
+-  [1], [+1 Power or a free bonus die on one roll. A tier-2 status on one target. Cancel one PC trick. One minion as reinforcement.],
++  [1], [+1 Power or a free bonus die on one roll. A tier-2 status on one target. Cancel one PC trick. Named reserve reinforcement only under its priced package.],
+@@ -114 +108 @@
+-  [3], [Changes the scene: a significant reinforcement, recover 2 tiers or 3 Disposition, a danger-clock tick plus an effect.],
++  [3], [Changes the scene: a significant reinforcement under its package, recover 2 tiers or 3 Disposition, a danger-clock tick plus an effect.],
+@@ -121,0 +116 @@
++// PLAYTEST: Revised Specials and named reserve packages; use their full procedures.
+@@ -132,3 +127,3 @@
+-  [Dirty Trick], [1], [Any success also Impedes the opposing side's next scripted action (−3 on its action roll), not a tiered status or a penalty to Resistance. Pending Impedes do not stack and expire if that action makes no roll.],
+-  [Call for Help], [1 per minion / 3], [Reinforcements arrive and add their Grit to the side.],
+-  [Hostage], [2], [Create the Truth "a knife at their throat." Attacks against its side are one step harder.],
++  [Dirty Trick], [1], [Once per bearer per exchange after a successful assigned action, Impede the opposing next scripted action in a later volley (§6.17).],
++  [Call for Help], [2 per copy], [Action-free named-reserve call. Use the caller-specific package, shared call window and arrival procedure (§§6.5, 6.24).],
++  [Covering Move], [1], [Once per bearer per exchange after a successful Maneuver, grant Gain Position to the next friendly scripted action in a later volley. Cannot activate while pending or already declared (§6.18).],
+@@ -150,3 +145,3 @@
+-  [Venom / Infection], [2], [After a successful Attack during a conflict, pay 2 Woe to record one deferred poisoned-2 application against the target. Resolve it when the conflict ends under §6.12, regardless of the outcome; compromise does not cause another application. Outside conflicts, inflict poisoned-2 on the hit instead, paying the same listed cost. Once inflicted, the poisoned status rises by 1 tier per scene until treated; a pending record does not progress.],
+-  [Howl], [2], [A minion pack (Grit 3) arrives at the end of the exchange.],
+-  [Bolt], [2], [It leaves the scene.],
++  [Venom / Infection], [2], [After a successful Attack during a conflict, pay 2 Woe to record one deferred poisoned-2 application against the target. Resolve it when the conflict ends under §6.12, regardless of the outcome; compromise does not cause another application. Outside conflicts, inflict poisoned-2 on the hit instead, paying the same listed cost. Once inflicted, the poisoned status rises by 1 tier per scene until treated; a pending record does not progress. During a conflict, at most one recorded application per named Special per target across all sources (§6.12).],
++  [Howl], [2], [Action-free call to one shared reserve Hound Pack; exchange-end arrival, delayed by blocked routes without further payment (§6.22).],
++  [Bolt], [2], [After a successful Maneuver, withdraw at volley end after Self-Repair. Cannot bypass contested escape, pursuit or capture (§6.21).],
+@@ -164,4 +159,4 @@
+-  [Scan], [1], [Cancel a Stealth-based Maneuver's effect, or reveal a hidden PC.],
+-  [Self-Repair], [1], [Restore 2 of its side's shared Disposition (up to the side's starting value) or 2 tiers of physical status (§6.14).],
+-  [Lockdown], [2], [Create the Truth Sealed Doors.],
+-  [Shock Field], [1], [When a PC loses a versus roll to it in melee, record one deferred jolted-2 application against that PC (§6.12). This trigger is not limited to Attack.],
++  [Scan], [1], [Once per exchange, cancel one purchased Impede or Gain Position from a detectable opposing Stealth Maneuver, or reveal one detectable hidden opponent after own successful Maneuver (§6.19).],
++  [Self-Repair], [1], [After successful assigned action, once per Guardian per exchange, repair up to 2 shared Disposition or physical-status tiers at volley end. No Disposition recovery from 0 (§6.14).],
++  [Lockdown], [2], [Once per scene after successful Maneuver, create rank-1 Sealed Doors over named existing controlled barriers (§6.20).],
++  [Shock Field], [1], [When a PC loses a versus roll to it in melee, record one deferred jolted-2 application against that PC (§6.12). This trigger is not limited to Attack. During a conflict, at most one recorded application per named Special per target across all sources (§6.12).],
+@@ -169 +164 @@
+-  [Calls the Works], [2], [Another guardian arrives.],
++  [Calls the Works], [2], [Action-free call to one shared reserve Gate Warden. Accepted command survives caller/link loss; blocked route delays arrival (§6.23).],
+@@ -172 +167 @@
+-#strong[Special procedures and remaining scope.] Self-Repair uses §6.14; Protocol uses §6.15; Last Stand uses §6.10; Fail-safe uses its separate compromise procedure in §6.11; Shock Field, Venom / Infection and any setting Special that explicitly refers to it use the outcome-independent deferred-injury procedure in §6.12. These are explicit Special exceptions, not ordinary Attack effects or permissions to cancel protected payments. A setting supplies its own additional Kind packages and Special entries; the shared procedures grant no unstated trigger, extra turn or actor reassignment. Other unstated interactions remain open.
++#strong[Special procedures and remaining scope.] Self-Repair uses §6.14; Protocol uses §6.15; Last Stand uses §6.10; Fail-safe uses its separate compromise procedure in §6.11; Shock Field, Venom / Infection and any setting Special that explicitly refers to it use the outcome-independent deferred-injury procedure in §6.12. These are explicit Special exceptions, not ordinary Attack effects or permissions to cancel protected payments. A setting supplies its own additional Kind packages and Special entries; the shared procedures grant no unstated trigger, extra turn or actor reassignment. Dirty Trick, Covering Move, Scan, Lockdown, Bolt and the named reinforcement packages use §§6.16--6.24. Their shared timing grants no additional action or activation permission.
+@@ -198 +193,4 @@
+-#import "chapter-adversaries-part-2.typ"
++// PLAYTEST: Budget experiments, not calibrated difficulty labels.
++Test legal opposition near a declared party profile's expected setup start, that expectation +2 and +4, before opposing Superiority. Record actual Grit where legal packages cannot match. Retain Threat = Grit and rank construction. Keep builds, resources, tactics, interaction matrix, reserve packages, deferred cap and initial Woe fixed within matched comparisons; vary Woe separately. Record outcome, mutual defeat, compromise, volleys, Woe, repair, protection, phases, reserve Grit introduced and lasting costs. Track initial Grit, available reserve Grit, actual introduced Grit and call costs separately. No validated reserve-budget surcharge or numerical recalibration is established. Win rate alone is insufficient.
++
++#include "chapter-adversaries-part-2.typ"
+--- a/docs/2d12System/chapter-adversaries-part-3.typ
++++ b/docs/2d12System/chapter-adversaries-part-3.typ
+@@ -59 +59 @@
+-  [Desperate], [The recorded Best action category gains +2 to its rating. Defend uses the card's Weak rating as its base. Show a desperate tactic, offer a deal or reveal an exit; no extra negotiated benefit follows automatically.],
++  [Desperate], [The recorded available non-Defend category gains +2 to its rating. Defend uses the card's Weak rating as its base. Show a desperate tactic, offer a deal or reveal an exit; no extra negotiated benefit follows automatically.],
+@@ -63 +63,4 @@
+-Before scripting the first exchange, record the boss's Best action category for Desperate. While its phase benefits are active, replace Defend's base rating with the card's Weak rating first, then apply eligible modifiers. If Defend is the recorded Best action, use #strong[Weak +2]. For example, a boss with Best Defend +8 and Weak +3 uses Defend +5 in Desperate, before other eligible modifiers.
++// PLAYTEST: Fixed available non-Defend category.
++Before setup, record one available Attack, Feint or Maneuver category for Desperate. Add +2 there while active; keep the choice fixed. Without an available non-Defend category, grant no bonus without an explicit exception. Replace Defend's base with Weak, then apply eligible modifiers; never add Desperate's +2 to Defend. A Marshal recording Attack uses Attack +7, Defend +3, Feint +3 and Maneuver +5 before other modifiers.
++
++At an eligible exchange boundary, check phases before reinforcement arrivals (§6.16). Arrival creates no additional phase check and does not reverse an activated phase.
+@@ -93 +96 @@
+-- Any phased boss and fixed Special assignments recorded before setup; fixed thresholds and Best category recorded before scripting.
++- Any phased boss and fixed Special assignments recorded before setup; fixed thresholds recorded before scripting and available non-Defend Desperate category recorded before setup.
+@@ -102 +105 @@
+-- Deferred Specials: each paid record resolved individually in trigger order after every outcome; imposed injuries remain Resistable.
++- Deferred Specials: one recorded application per named Special per target per conflict across all sources; each record resolved individually after every outcome; imposed injuries remain Resistable.
+--- a/docs/2d12System/chapter-7-appendix-a-quick-reference.typ
++++ b/docs/2d12System/chapter-7-appendix-a-quick-reference.typ
+@@ -82 +82 @@
+-Maneuver: Impede 1; Gain Position 1; Disarm 3; Create 2 per rank. Buy Impede, Gain Position and Disarm once each per Maneuver. Impede is −3 on the next scripted action, not a status; pending Impedes do not stack. Gain Position gives one bonus die. Both expire if the next action makes no roll. Disarm disables an asset, not automatically an entire action category.
++Maneuver: Impede 1; Gain Position 1; Disarm 3; Create 2 per rank. Buy Impede, Gain Position and Disarm once each per Maneuver. Impede is −3 on the next scripted action, not a status; pending Impedes do not stack. Gain Position gives one bonus die within the normal cap; only one may be pending per side regardless of source. Additional grants do not stack, refresh or extend it. Both expire if the next action makes no roll. Disarm disables an asset, not automatically an entire action category.
+@@ -117 +117,8 @@
+-Bulwark: once per exchange, redirect an ally's entire imposed status before their Resistance or reduction; use your own eligible reduction, at most one NPC reduction per status. Outside conflicts, no separate frequency limit. Must be able to intercept; cannot redirect shared Disposition loss, injury payments, running-dry statuses, agreed concession costs, compromise costs or other accepted payments. Cannot shield an ally from an area effect already affecting both of you.
++// PLAYTEST: Status interception and Hold the Line share one use per exchange.
++Choose interception of an ally's entire imposed status before Resistance/reduction, using your own eligible reduction; or Hold the Line to reduce one successful opposing Attack's combined ordinary Disposition loss by 1, minimum 0, before injury trade/application. No stacking by multiple Bulwarks, Feint, Maneuver, separate Special damage or solely self-protecting use. Protected payments remain excluded. Status interception cannot shield an ally from an area effect already affecting both. Outside conflicts retain fitting-status interception without a separate frequency limit; Hold the Line has no outside-conflict effect. Use the full eligibility and exclusions in Adversaries §6.13.
++
++== Special Timing (Adversaries §§6.5, 6.10, 6.16)
++// PLAYTEST: Shared declaration, departure, phase and reinforcement timing.
++Close Power purchases and supplementary Special declarations before permitted reactions; cancellation does not reopen them. Finish both independent actions, then Self-Repair, Bolt, defeat/Last Stand, eligible phases, eligible exchange-end arrivals, then participation/rotation and continuation. No Disposition repair from 0; status repair cannot cancel pending defeat. A same-volley opposing Lockdown cannot by itself stop a Bolt through a route usable when declared.
++
++Action-free calls use between-volley pre-reveal windows, not resolution windows. Last Stand opens no call window or additional exchange boundary. For activation after volley three, check that exchange's arrivals once before the extension, never again afterward; pending-defeat recovery remains prohibited. Deferred records: one application per named Special per target per conflict across sources; resolve records individually after every outcome. Full procedures govern.
+--- /dev/null
++++ b/docs/2d12System/adversaries-common.typ
+@@ -0,0 +1,8 @@
++// Shared adversary card renderer; import where cards are evaluated.
++#let statblock(name, line, threat, body) = block(breakable: false, width: 100%, inset: 7pt, stroke: 0.6pt + luma(120), radius: 2pt, above: 8pt, below: 8pt)[
++  #grid(columns: (1fr, auto), text(weight: 700, name), text(weight: 700)[Threat #threat])
++  #text(size: 9pt, style: "italic", line)
++  #v(2pt)
++  #set text(size: 9pt)
++  #body
++]
+--- a/docs/2d12System/chapter-2.10-conflict-system.typ
++++ b/docs/2d12System/chapter-2.10-conflict-system.typ
+@@ -205,1 +205,1 @@
+-Use Attack's Power commitment and Disposition-loss calculation. Feint bypasses Defend but is trumped by Attack; against Maneuver, both resolve independently.
++Use Attack's Power commitment and Disposition-loss calculation. Feint resolves independently against Defend, is trumped by Attack, and opposes Feint or Maneuver in a versus test.
+@@ -221,0 +222,3 @@
++
++// PLAYTEST: One pending Gain Position per side, regardless of source.
++Additional grants do not stack, refresh or extend pending Gain Position. Covering Move cannot activate while pending or already declared for its Maneuver (Adversaries §6.18).
+@@ -254,0 +258,3 @@
++// PLAYTEST: Successful-action Special declarations close before reactions.
++For action-triggered Specials, use Adversaries §6.16: determine and allocate Power, declare supplementary Specials and pay their costs, close declarations, resolve permitted reactions, then uncancelled effects. Check existing effects and effects already declared for the action. Cancellation does not reopen declarations, permit reallocation or refund purchases without an explicit exception. Preserve any expressly listed later activation window, including Self-Repair's volley-end window.
++

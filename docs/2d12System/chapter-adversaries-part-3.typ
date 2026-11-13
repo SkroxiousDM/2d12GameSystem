@@ -56,11 +56,14 @@ Record activation at the check. Newly activated rating changes and other phase b
   table.header([Phase], [Benefit]),
   [Opening], [Role trait, passive Specials and Start-assigned ordinary Specials operate under their own conditions. Show a clear Tell.],
   [Half], [Unlock the assigned ordinary and defeat-triggered Specials under the schedule above. Owned reinforcement options retain normal costs and timing. Grant no duplicate Command bonus.],
-  [Desperate], [The recorded Best action category gains +2 to its rating. Defend uses the card's Weak rating as its base. Show a desperate tactic, offer a deal or reveal an exit; no extra negotiated benefit follows automatically.],
+  [Desperate], [The recorded available non-Defend category gains +2 to its rating. Defend uses the card's Weak rating as its base. Show a desperate tactic, offer a deal or reveal an exit; no extra negotiated benefit follows automatically.],
 ))
 
 === 7.5 Desperate Rating Precedence
-Before scripting the first exchange, record the boss's Best action category for Desperate. While its phase benefits are active, replace Defend's base rating with the card's Weak rating first, then apply eligible modifiers. If Defend is the recorded Best action, use #strong[Weak +2]. For example, a boss with Best Defend +8 and Weak +3 uses Defend +5 in Desperate, before other eligible modifiers.
+// PLAYTEST: Fixed available non-Defend category.
+Before setup, record one available Attack, Feint or Maneuver category for Desperate. Add +2 there while active; keep the choice fixed. Without an available non-Defend category, grant no bonus without an explicit exception. Replace Defend's base with Weak, then apply eligible modifiers; never add Desperate's +2 to Defend. A Marshal recording Attack uses Attack +7, Defend +3, Feint +3 and Maneuver +5 before other modifiers.
+
+At an eligible exchange boundary, check phases before reinforcement arrivals (§6.16). Arrival creates no additional phase check and does not reverse an activated phase.
 
 The +2 stays attached to the recorded category. A later ability changing ratings does not move it unless it expressly changes the phase designation. These changes affect the designated boss only and grant no additional Power, automatic success, harmful-status permission or action.
 
@@ -90,7 +93,7 @@ Before any reveal, the party commits Attack, Defend, Defend, assigned to three e
 - Intent, stakes and exits set before any roll.
 - Budget calibration flagged; mix at least two Roles.
 - Flat setup modifiers counted before Superiority; both adjusted totals checked for setup defeat; original starts recorded.
-- Any phased boss and fixed Special assignments recorded before setup; fixed thresholds and Best category recorded before scripting.
+- Any phased boss and fixed Special assignments recorded before setup; fixed thresholds recorded before scripting and available non-Defend Desperate category recorded before setup.
 - Three actions and eligible actors committed before reveal; continuous rotation tracked.
 - One Tell per adversary, shown before its Best action.
 - Woe tracked; costs paid without overrun.
@@ -99,7 +102,7 @@ Before any reveal, the party commits Attack, Defend, Defend, assigned to three e
 - Last Stand: eligible unlocked bearer, 2 Woe, one final volley per side per conflict; pending defeat cannot be recovered.
 - Final outcome, eligible Fail-safe activation, finishing procedure, deferred applications, then injury credit and settlement.
 - Fail-safe: active eligible Guardian, 3 Woe, established PC blast reach; no mutual-defeat or concession trigger.
-- Deferred Specials: each paid record resolved individually in trigger order after every outcome; imposed injuries remain Resistable.
+- Deferred Specials: one recorded application per named Special per target per conflict across all sources; each record resolved individually after every outcome; imposed injuries remain Resistable.
 - Finishing procedures before compromise; reinforcement Grit changes current Disposition, not original start or recovery cap.
 - Concessions negotiated before the next roll; compromise settled as one package.
 ]

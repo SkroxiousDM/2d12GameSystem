@@ -31,14 +31,14 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
     table.header([\#], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Encyclopedic];], [Once per scene, ask one Discover question about a subject covered by your Lore #strong[without rolling];.],
-    [2], [#strong[Analyze];], [When you study a foe or obstacle, each Discover you buy also reveals #strong[one weakness tag] of the target. Creating a Truth that exploits a revealed weakness costs #strong[1 Power] instead of 2. The Truth provides leverage, not automatic victory or permission to bypass the action interaction. Information may support applicable Superiority at setup; it does not recalculate Superiority mid-conflict.],
-    [3], [#strong[Field Medic];], [Restore effects from Medicine cost #strong[1 Power per 2 tiers];. You can treat #emph[Sick] (Module B) at Standard Difficulty instead of Hard. Increased Restore output does not override lasting-injury treatment limits unless another rule explicitly does so. Healing a status does not restore pools or Disposition, refresh injury trades or erase Scars.],
+    [2], [#strong[Analyze];], [When you study a foe or obstacle, each Discover you buy also reveals #strong[one weakness tag] of the target. Creating a Truth that exploits a revealed weakness costs #strong[1 Power less] (Core Rules §5). The Truth is leverage, not automatic victory.],
+    [3], [#strong[Field Medic];], [Restore effects from Medicine cost #strong[1 Power per 2 tiers], within the lasting-injury limits (Core Rules §6.6). You can treat #emph[Sick] (Module B) at Standard Difficulty instead of Hard. Healing doesn't restore pools or Disposition, refresh injury trades or erase Scars.],
     [4], [#strong[Steady Mind];], [When you Resist confusion, illusion, deception, or forbidden knowledge with Psychē, reduce the status by #strong[3 tiers];.],
-    [5], [#strong[Decipher];], [Codes, unknown languages, and ancient devices give way. Each success on a deciphering roll Advances its clock #strong[+1 extra segment];. This bonus advances that progress clock only; it is not additional Power or Disposition loss. It grants no additional scripted action or permission to bypass the action interaction (Core Rules §5, §10.5--10.6).],
-    [6], [#strong[Briefing];], [When an ally acts on information you gave them this scene, they get #strong[+1] (counts as a tag). Once per scene, give the whole party this bonus. The normal tag cap still applies; this grants no additional action.],
-    [7], [#strong[★ Connect the Dots];], [Once per session, propose a hidden Truth based on clues you\'ve found. The GM either makes it true or tells you #strong[one true hidden Truth] about the situation instead. It cannot contradict resolved events or retroactively recalculate Superiority after setup.],
-    [8], [#strong[★ I Planned for This];], [Once per scene, after any ally rolls but before Power is spent or the roll\'s consequences are applied, spend #strong[2 Psychē] to let them reroll all dice and keep the better result. This replaces the result of the same action, not an additional action, and cannot reopen a settled outcome.],
-    [◆], [#strong[Master of the Field];], [Choose one field (medicine, occult, engineering, history, and so on). Rolls in that field are #strong[one Difficulty step lower];. Once per session, ask a Discover question about #strong[what will happen] in that field; the GM answers truthfully. Apply the Difficulty reduction when the roll tests against a Difficulty, including an eligible independent conflict test. A versus test compares opposing totals instead; do not convert this reduction into a penalty to the opposing total, bonus Power or additional Disposition loss (Core Rules §10.5).],
+    [5], [#strong[Decipher];], [Codes, unknown languages, and ancient devices give way. Each success on a deciphering roll advances its clock #strong[1 extra segment]. This is clock progress only, not Power or Disposition loss.],
+    [6], [#strong[Briefing];], [When an ally acts on information you gave them this scene, they get #strong[+1] (counts as a tag, within the tag cap). Once per scene, give the whole party this bonus.],
+    [7], [#strong[★ Connect the Dots];], [Once per session, propose a hidden Truth based on clues you've found. The GM either makes it true or tells you #strong[one true hidden Truth] about the situation instead.],
+    [8], [#strong[★ I Planned for This];], [Once per scene, after any ally rolls but before Power is spent or consequences apply, spend #strong[2 Psychē] to let them reroll all dice and keep the better result. This replaces that roll; it isn't an extra action.],
+    [◆], [#strong[Master of the Field];], [Choose one field (medicine, occult, engineering, history, and so on). Rolls in that field against a Difficulty, including independent conflict tests, are #strong[one Difficulty step lower]; versus tests are unchanged. Once per session, ask a Discover question about #strong[what will happen] in that field; the GM answers truthfully.],
   )]
   , kind: table
   )
@@ -53,7 +53,7 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
     table.header([Genre], [Option A], [Option B],),
     table.hline(),
     [Fantasy], [#strong[Annotated grimoire / great reference] (1) --- #emph[the answer is in here somewhere];; once per scene, +1 to Lore], [#strong[Physician\'s satchel] (1) --- #emph[herbs and blades];; Restore +1 tier once per scene; lasting-injury treatment limits still apply],
-    [Modern], [#strong[Laptop with research databases] (1) --- #emph[online archive];], [#strong[Forensics kit] (1) --- #emph[evidence never lies];; +1 to Investigate at scenes],
+    [Modern], [#strong[Laptop with research databases] (1) --- #emph[online archive];], [#strong[Forensics kit] (1) --- #emph[evidence never lies];; +1 to Investigate at crime scenes],
     [Sci-Fi], [#strong[Datapad with AI assistant] (1) --- #emph[ask the archive];; one free Discover per session], [#strong[Bioscanner] (1) --- #emph[reads the body];; Medicine and Notice tag],
   )]
   , kind: table

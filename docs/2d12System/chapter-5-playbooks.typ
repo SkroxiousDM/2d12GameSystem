@@ -20,7 +20,7 @@
     [#strong[Suggested skills];], [A recommended pyramid; change it freely],
     [#strong[Playbook tags];], [Choose #strong[2] power tags from the playbook\'s list],
     [#strong[XP trigger];], [One playbook behaviour that earns XP (Core Rules §12.1)],
-    [#strong[Special abilities];], [1 free at creation; up to 2 more at creation for 1 Refresh each, plus any ★ Major cost (2 Refresh total for a ★ creation extra)],
+    [#strong[Special abilities];], [1 free at creation, and up to 2 more at 1 Refresh each. A ★ Major costs 1 more (§1.2)],
     [#strong[Starting equipment];], [Signature items (choose 1 of 2), playbook kit, and always-carried items],
     [#strong[BIG examples];], [Sample Beliefs, Goals, and Instincts],
     [#strong[Relationships];], [1 ally and 1 rival from the playbook\'s list],
@@ -29,11 +29,16 @@
   )
 
 === 1.2 Ability Notation
-- #strong[★ Major] --- costs #strong[1 Refresh] whenever you take it (creation or advancement). If taken as one of the up to two creation extras, add the extra ability's 1-Refresh price: #strong[2 Refresh total], not 3. A non-veteran Major taken through advancement costs 1 Refresh; veteran costs below remain additional.
+- #strong[★ Major] --- costs #strong[1 Refresh] whenever you take it. A ★ creation extra therefore costs #strong[2 Refresh] in total, and so does a ★ veteran ability.
 - #strong[◆ Capstone] --- unlocked after #strong[12 Advances] if you have #strong[at least 4 abilities from this playbook];. Take it as an Advance; it costs no Refresh. One capstone per character.
-- #strong[Veteran abilities:] after 6 Advances, you may take an ability from another playbook as an Advance. It costs 1 Refresh in addition to any ★ cost.
+- #strong[Veteran abilities:] after 6 Advances, you may take an ability from another playbook as an Advance. It costs 1 Refresh, plus 1 if it is ★.
 
-#strong[Conflict notation.] Free waives only the listed resource cost; it grants no additional scripted turn or rotation bypass. Automatic success replaces the roll for an otherwise permitted action under Core Rules §10.5. Additional Power, Disposition loss and status tiers are separate benefits (§10.6). An accepted payment cannot be prevented, redirected or Resisted through generic consequence-cancellation wording (§10.7).
+#strong[Ability limits.] These apply to every ability in this chapter, so the entries don't repeat them:
+- #strong[Free] waives only the listed cost. No ability grants an extra scripted turn or bypasses rotation, the action interaction or the declared stakes unless it says so. Automatic success replaces the roll for an otherwise permitted action (Core Rules §10.5).
+- Extra Power, extra Disposition loss and extra status tiers are separate bonuses; each improves only the component it names (Core Rules §10.6).
+- Protection, reduction and redirection don't reach shared Disposition loss or protected payments (accepted injuries, running-dry statuses, concession costs and costs an ability calls accepted payments) unless the ability names them (Core Rules §6, §10.7).
+- A starting-Disposition bonus is a flat modifier: apply it before the minimum of 1 and Superiority, and don't reapply it when the same struggle changes conflict type (Core Rules §10.2--10.3).
+- A fact, Truth or flashback an ability declares can't contradict resolved events, and information doesn't recalculate Superiority after setup.
 
 === 1.3 Rules References Used in Abilities
 #figure(
@@ -80,10 +85,10 @@ Before a mission, choose your #strong[load];. During play, declare items from yo
 === 2.2 Gear as Tags
 - Every item is a #strong[power tag] when it\'s relevant, e.g. #emph[crowbar] helps Athletics to force a door. Item tags count toward the #strong[+2 tag cap];.
 - #strong[Weapons] also give one or more #strong[conflict action tags] (Core Rules §10.10), e.g. #emph[+1 Attack];. Do not count an item's general tag and action tag twice for the same benefit on one roll.
-- #strong[Quality:] a fine or advanced item gives one extra benefit listed in its entry (it doesn\'t raise the cap). Distinctive conflict qualities are explicitly written benefits, not automatic additional tags. If the optional qualities in Core Rules §10.10 are used, record the applicable quality once; do not duplicate the same benefit under both the generic weapon and its specific item entry. Specific item entries govern their expressly stated benefits.
+- #strong[Quality:] a fine or advanced item gives the one extra benefit its entry lists (it doesn't raise the cap). If you use the optional qualities in Core Rules §10.10, record each benefit once.
 - #strong[Escalation:] some items carry the #emph[Escalation] tag (Core Rules §9.3). Carried openly into a scene, each gives the GM 1 Woe.
 
-Declare active conflict equipment before scripting each exchange. Switching does not refresh a once-per-conflict quality, restore lost gear, erase an established drawback or change an assigned script for free (§10.10). Gear narration alone grants no status on ordinary conflict Attacks.
+Declare active conflict equipment before scripting each exchange. Switching gear doesn't refresh a once-per-conflict quality, restore lost gear or change the script (Core Rules §10.10). Gear narration alone adds no status to an ordinary Attack.
 
 === 2.3 Armour and Shields
 #figure(
@@ -93,13 +98,14 @@ Declare active conflict equipment before scripting each exchange. Switching does
     table.header([Item], [Load], [Effect],),
     table.hline(),
     [#strong[Light armour];], [1], [#emph[Armour 1];: when you Resist physical harm, reduce it by 1 extra tier],
-    [#strong[Heavy armour];], [2], [#emph[Armour 2];: reduce by 2 extra tiers; Mētis Effort +1 while worn],
+    // PLAYTEST: heavy armour and Heavy load Mētis Effort penalties don't stack.
+    [#strong[Heavy armour];], [2], [#emph[Armour 2];: reduce by 2 extra tiers; Mētis Effort +1 while worn (doesn't stack with Heavy load)],
     [#strong[Shield / riot shield / energy barrier];], [1], [#emph[+1 Defend] in Fight conflicts; counts as cover outside conflicts],
   )]
   , kind: table
   )
 
-Armour that absorbs a tier-4+ hit is #emph[damaged] (−1 Armour) until repaired during downtime. Armour never reduces ordinary Disposition loss, an injury you accepted as payment, a running-dry status, an agreed concession cost or another protected payment (Core Rules §6, §10.7). A shield's Defend tag or optional recovery quality does not change this separation.
+Armour that absorbs a tier-4+ hit is #emph[damaged] (−1 Armour) until repaired during downtime. Armour never reduces Disposition loss or a protected payment (Core Rules §6, §10.7).
 
 === 2.4 Common Gear (any playbook)
 #figure(
@@ -128,5 +134,4 @@ Armour that absorbs a tier-4+ hit is #emph[damaged] (−1 Armour) until repaired
 #include "chapter-5.7-explorator.typ"
 #pagebreak()
 #include "chapter-5.8-adept.typ"
-#pagebreak()
 #include "chapter-5.9-design-notes.typ"

@@ -110,6 +110,7 @@ If your two #strong[kept] dice show the same number:
 - #strong[On a failure or cost:] Complication --- the GM introduces a complication right away.
 - #strong[Double 12s:] an independent test always succeeds, with +2 Power instead of +1.
 - #strong[Double 1s:] always bring a complication, even on a success, but don't fail automatically. A success still gains the +1 critical Power.
+#colbreak()
 - #strong[Buying it off.] When the dice give you a complication (a twist, or a Risky roll, §2.7), you may cancel it by giving the GM #strong[2 Woe]: a problem now, or a problem later. If you keep it and the GM can't think of a fitting complication, the GM gains the 2 Woe instead.
 #colbreak()
 - #strong[NPCs.] When the dice give an NPC a complication, the GM may spend #strong[2 Woe] to cancel it. Otherwise the GM describes the complication, or invites the players to.

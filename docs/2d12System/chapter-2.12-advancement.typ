@@ -5,7 +5,7 @@
 === 12.1 Earning XP (end of session)
 1 XP per "yes" unless noted:
 
-- Did you hit your #strong[playbook XP trigger]? (1, or 2 if it happened in a desperate scene)
+- Did you hit your #strong[playbook XP trigger]? (1, or 2 in a scene with lethal stakes or a listed Danger, §8)
 - Did you #strong[accomplish your Goal]? (+2)
 - Did one or more of your #strong[World, Other, or Self Beliefs] drive a meaningful decision?
 - Did your #strong[Instinct] get you into trouble or save the day?
@@ -18,19 +18,20 @@ The Belief question awards at most #strong[1 XP per session], not 1 XP per Belie
 === 12.2 Spending XP (every 6 XP = 1 Advance)
 - +1 to a skill (following the pyramid rule)
 - +3 to one pool, or +1 Edge (max 3 Edge per pool)
-- A new playbook special ability (★ abilities also cost 1 Refresh; veteran acquisition costs are additional, below)
+- A new playbook special ability (★ costs 1 Refresh; veteran costs below)
 - A new power tag, or rewrite a weakness tag into a power tag
-- #strong[+1 Refresh] (buys back Refresh spent on abilities or artifacts; max base 3 + 1 per 3 Advances)
-- A higher-tier Focus ability: Tier 2 after 3 Advances; Tier 3 after 6 Advances. Taking the ability costs an Advance; reaching the threshold does not grant it automatically (Focus Rules §1.1).
+- #strong[+1 Refresh] (buys back Refresh spent on abilities or artifacts), up to the #strong[Refresh cap] of 3 + 1 per 3 Advances
+- A higher-tier Focus ability: Tier 2 after 3 Advances; Tier 3 after 6 Advances. Taking the ability costs an Advance; reaching the threshold does not grant it automatically (Generic Focuses §1.1).
 - #strong[+1 Effort Level] (to Level 2 after 3 Advances; Level 3 after 9 Advances)
+- #strong[Quick Recovery] (once only): recover 1 additional point on every recovery roll. It doesn't change the fourth rest's full recovery (§6.5).
 
-#strong[Focus choices.] Tier 1 is gained at creation. At Tiers 2 and 3, choose one of the tier's two options when buying that ability. Once eligible for the tier, its unchosen option can be taken later as a normal Advance. A ★ option also costs 1 Refresh when taken. These prerequisites and prices follow Focus Rules §1.1, not an additional charge for each lower tier.
+#strong[Focus choices.] Tier 1 is gained at creation. At Tiers 2 and 3, choose one of the tier's two options when buying that ability. Once eligible for the tier, its unchosen option can be taken later as a normal Advance. A ★ option also costs 1 Refresh.
 
-#strong[Veteran abilities.] After 6 Advances, an ability from another playbook may be taken as an Advance. It costs 1 Refresh in addition to any ★ cost: a veteran ★ ability therefore costs 2 Refresh. This is a different acquisition route from a creation extra; do not charge the creation-extra price again (Playbook Rules §1.2).
+#strong[Veteran abilities.] After 6 Advances, you may take an ability from another playbook as an Advance. It costs 1 Refresh plus any ★ cost, so a veteran ★ costs 2 Refresh (Generic Playbooks §1.2).
 
-#strong[Capstones.] A capstone unlocks after 12 Advances if the character has at least 4 abilities from that playbook. It costs no Refresh, and a character can have only one capstone. Use the detailed playbook rule for its acquisition; this summary adds no automatic award or additional XP price (Playbook Rules §1.2).
+#strong[Capstones.] A capstone unlocks after 12 Advances if you have at least 4 abilities from that playbook. Take it as an Advance; it costs no Refresh, and a character can have only one (Generic Playbooks §1.2).
 
-#strong[Refresh limits.] Apply the minimum Refresh of 1 and the current Refresh cap when making purchases (§4.1). The minimum concerns the Refresh rating, not current Tychē Points. New abilities retain their action requirements, timing and protected-payment limits; an Advance does not grant an extra scripted turn or reset an ongoing conflict.
+#strong[Refresh limits.] Purchases can't take Refresh below 1 (§4.1) or above the Refresh cap.
 
 === 12.3 Reviewing Beliefs and Instincts
 Review the relevance of your Beliefs at session end; ordinary revisions happen at milestones. Reaffirm, revise, or replace them to reflect development in play.
@@ -40,7 +41,7 @@ Review the relevance of your Beliefs at session end; ordinary revisions happen a
 - #strong[Replace:] write a new Belief when experience changes your outlook or the former commitment no longer belongs in the campaign.
 - #strong[Relationships:] review an Other Belief when the relationship meaningfully changes; agree on shared premises with the other player as in §3.5.
 
-Acting against a Belief does not automatically remove Tychē, impose a status, damage a pool, or force a rewrite. The player decides whether the experience leads to reaffirmation or change. Do not rewrite a Belief during a decision merely to claim a reward. Rewriting alone grants neither XP nor Tychē.
+Acting against a Belief has no automatic penalty and doesn't force a rewrite; the player decides whether it leads to reaffirmation or change. Don't rewrite a Belief mid-decision to claim a reward. Rewriting alone earns neither XP nor Tychē.
 
-Keep one World, one Other, and one Self Belief. Goals remain separate and are rewritten each session. Instincts remain separate and can change at milestones.
+Keep one World, one Other and one Self Belief. Rewrite a Goal when it's accomplished or no longer fits (§3.5). Instincts can change at milestones.
 ]

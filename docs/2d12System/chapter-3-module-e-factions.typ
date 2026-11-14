@@ -5,9 +5,9 @@
 #columns(2, gutter: 6mm)[
 Organizations have ambitions, resources, loyalties, and limits. This module connects their struggles to the party's adventures: factions provide opportunities and assistance; the party's actions determine what those factions can accomplish.
 
-Use this module when alliances, patronage, collective action, or political consequences matter. It is optional and remains setting-neutral. These rules are a playtest draft, not tested balance claims.
+Use this module when alliances, patronage, collective action or political consequences matter. It is setting-neutral, and its numbers are playtest values.
 
-When enabled, this module replaces the faction action procedure in Module C.5. Retain the rest of Module C. Use the core rules for PC checks, Effects, Truths, clocks, and conflicts except where an explicit organizational exception appears below.
+When enabled, it replaces Module C.5's faction actions, and E.1A replaces C.8; the rest of Module C still applies. Core rules apply to PC rolls, Effects, Truths, clocks and conflicts except where this module says otherwise.
 
 === E.1 Faction Records
 
@@ -22,13 +22,13 @@ Record:
 - A representative who can explain or authorize requests.
 - One current project and its clock.
 - An important ally and rival, where relevant.
-- Outstanding favors, obligations, offices, and personal exceptions.
+- Outstanding favours, obligations, offices, and personal exceptions.
 
 Prepare full records only for active factions. A name, purpose, and Standing suffice for a background group. Begin with three active factions; normally track no more than five at once.
 
 The party may found or lead a faction. Give it ratings justified by its actual people and resources; do not purchase a second character sheet with personal pool points. Leadership grants only the authority its governing structure recognizes.
 
-#include "drafts/module-e-1a-starting-cluster.typ"
+#include "chapter-3-module-e.1a-starting-cluster.typ"
 
 === E.2 Organizational Qualities
 
@@ -62,7 +62,7 @@ A permanent Cohesion of 0 is a #emph[crisis] when a faction has fallen to it (E.
 
 Assets determine what the faction can actually do. A treasury cannot occupy a town without personnel; soldiers cannot cross a sea without transport. A rating never creates an unstated army, fleet, office, or network.
 
-When an asset matters mechanically, record a Truth with scope, rank, and removal condition. Use its concrete additional advantage, not a second bonus merely restating the Quality. Might already includes the ordinary readiness of the force that justifies its rating.
+When an asset matters mechanically, record it as a Truth with scope, rank and removal condition. It adds its concrete advantage, not a second bonus restating the Quality.
 
 Record a distant branch separately when local capabilities matter. The imperial institution's full resources are not automatically available to every provincial official.
 
@@ -142,7 +142,7 @@ A legitimate seal may make access possible. It does not substitute Standing or a
 
 ==== Patronage
 
-Record what a patron supplies, the service expected, what lies outside the arrangement, and what ends it. Routine agreed service is not a new favor each time. Refusal matters according to the actual agreement, not an unlimited claim on the character.
+Record what a patron supplies, the service expected, what lies outside the arrangement, and what ends it. Routine agreed service is not a new favour each time. Refusal matters according to the actual agreement, not an unlimited claim on the character.
 
 === E.5 Seeking Aid
 
@@ -169,7 +169,7 @@ For that single request check, use normal core outcomes, Power, doubles, and cur
 
 Extra Power can improve agreed scope, speed, or discretion where normal Effects and the fiction support it. It cannot buy permanent Standing or unlimited resources.
 
-#strong[When the request is a conflict.] Establish each side's intent and stakes, then use the selected conflict type's action skills, shared Disposition and scripting. The burden ladder above is for a single request check, not a replacement target for every volley: independent tests normally use Standard 15 with applicable Truths and explicit modifiers; versus tests use opposed totals. A trumped action makes no roll. Apply the restricted failure and cost consequences in Core Rules §10.7 rather than adding the single-check GM move. Victory grants the agreed intent within the stakes, subject to compromise, not unrestricted command of the faction (Core Rules §10.2, §10.5--10.6, §10.12--10.13).
+#strong[When the request is a conflict,] set intent and stakes and use the conflict rules. The burden ladder is for single checks only: volleys use Standard 15 or versus totals as normal, and failures follow Core Rules §10.7. Victory grants the agreed intent, subject to compromise, not command of the faction (Core Rules §10.12--10.13).
 
 === E.6 Faction Support in Party Scenes
 
@@ -178,13 +178,13 @@ A Quality establishes what support the faction can organize; Standing, authority
 Support has one concrete application:
 - Permission: equipment, credentials, transport, or access makes the action possible, or removes the need for a particular roll.
 - A scoped Truth: actual conditions change Difficulty under Core Rules §8.
-- Active Help: a participating ally uses the core Help procedure, pays its normal cost, and shares the risk. A faction's accompanying NPC pays the Help cost from its own pools if it is built with them. An ordinary NPC has no pools and cannot pay ordinary Help costs (§6.1); use a named NPC built with pools unless an explicit rule permits another helping benefit. Qualities are not personal pools. Free Help, where explicitly granted, waives the stated cost, not relevance, risk or the bonus-dice cap.
+- Active Help: a participating ally uses the core Help procedure, pays its normal cost from its own pools and shares the risk. An ordinary NPC has no pools, so it can't Help unless a rule says otherwise (Core Rules §6.1). Qualities aren't pools.
 
 Do not award all three for the same contribution. Stronger Qualities increase feasible reach, reliability, and scale, not an automatic numerical bonus. Might +4 can organize support beyond Might +1; it does not grant +4 Fight.
 
-#strong[Accompanying allies.] Distinguish an independently acting participant from a supporting asset. A participant enters continuous rotation, uses its listed skills or ratings and is bound by the side's stakes. An asset supplies its stated benefit without gaining an independent turn. Do not count one companion twice or give it a separate Disposition track merely because it accompanies the party. Removing it subtracts no shared Disposition, though a side loses if nobody can continue pursuing its objective (Core Rules §10.9).
+#strong[Accompanying allies.] A companion is either a participant (joins rotation, uses its own ratings, bound by the stakes) or an asset (gives its stated benefit, takes no turn), never both. It doesn't get its own Disposition, and removing it costs none, though a side loses when nobody can pursue its objective (Core Rules §10.9).
 
-Setup Help supplies +1 Disposition per eligible helper instead of also granting an ordinary Help die; its pool-point cost remains an open ruling (§10.2). A faction's size, Quality or number of fictional personnel does not by itself grant that many eligible helpers. Apply the normal contribution and participation requirements.
+Backing gives +1 Disposition per eligible backer and costs no pool points (Core Rules §10.2). A faction's size or personnel doesn't by itself supply backers.
 
 An escort may make a friendly checkpoint automatic. It cannot make every later negotiation easier simply because it exists. Personnel face the real risks of deployment, and a borrowed resource is not freely duplicable or permanently transferred.
 

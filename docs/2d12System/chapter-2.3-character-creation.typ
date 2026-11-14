@@ -11,7 +11,7 @@ These steps describe the order of creation; the subsections below group rules by
 + Sketch your character concept: a role, an important experience, and something you want to explore.
 + Write your World Belief (§3.5).
 + Write your Self Belief (§3.5).
-+ Choose Descriptor, Playbook, and Focus (§3.1); complete pools, Edge, skills, tags, abilities, and starting resources (§§3.2–3.4, §3.6, §4.1).
++ Choose Descriptor, Playbook, and Focus (§3.1); complete pools, Edge, skills, tags, abilities, and starting resources (§§3.2–3.4, §3.6).
 + Introduce the characters and agree on connections, including the link supplied by your Focus.
 + Write your Other Belief with the other player's agreement (§3.5).
 + Choose a concrete starting Goal (§3.5).
@@ -94,9 +94,9 @@ With a +2 cap, a third relevant tag is best used for burning or as Tychē Point 
 ==== Three Different Jobs
 - #strong[Beliefs] state convictions and commitments: why you act. Write one World, one Other, and one Self Belief.
 - #strong[Goal] states a concrete objective for this session or mission: what you want to accomplish next.
-- #strong[Instinct] states an if/then reflex: how you habitually respond. Acting on an Instinct lets you take that action without spending time, subject to normal resolution and the conflict timing limits below.
+- #strong[Instinct] states an if/then reflex: how you habitually respond.
 
-Goals are rewritten each session; Beliefs and Instincts can change at milestones (§12.3). Beliefs can justify compels (§4) and meaningful decisions can earn XP (§12.1). They do not create an additional resource.
+Rewrite a Goal when it's accomplished or no longer fits, and check it at the start of each session. Beliefs and Instincts can change at milestones (§12.3). Beliefs can justify compels (§4) and meaningful decisions can earn XP (§12.1). They do not create an additional resource.
 
 ==== Writing Your Beliefs
 Each Belief combines a conviction with a commitment to act: "I believe this; therefore, I will do this." Write what you intend to do, not an outcome you are guaranteed to achieve. Avoid a virtue without an action: "I value loyalty" gives less direction than "Those who stand beside me deserve my loyalty; I will not abandon a companion to save myself."
@@ -156,7 +156,7 @@ Use Beliefs as prompts, not prerequisites, when completing your mechanical choic
 - #strong[Tags:] which strengths help you act, and which vulnerabilities make that difficult?
 - #strong[Load-out:] which gear options and load may support your commitments? Follow §3.6; do not choose every item in advance.
 
-Beliefs grant no additional skills, tags, abilities, equipment, pool points, or starting Tychē. A conviction is not automatically a power tag or a modifier. Wanting to protect others does not require being good at it.
+Beliefs grant no extra skills, tags, abilities, equipment, pool points or Tychē, and a conviction isn't a power tag. Wanting to protect others doesn't mean you're good at it.
 
 ==== Choose Your Starting Goal
 Choose a concrete opening objective that advances at least one Belief. It should have a recognisable completion point.
@@ -178,7 +178,7 @@ When [trigger], I [habitual response].
 
 #emph[Example:] "When we enter an unfamiliar place, I identify an escape route before settling in."
 
-Acting on an Instinct lets you take that action without spending time. It does not guarantee success or remove a roll when the normal resolution rules require one. During a scripted conflict, it grants no extra action, interrupt, free script change, actor reassignment or rotation bypass. Resolve a consequential response through an otherwise permitted action or explicit ability; an Instinct cannot rescue a trumped action, allow action while Taken Out or retroactively cancel a resolved effect (§10.5).
+Acting on an Instinct takes no time, but it doesn't guarantee success or skip a roll the normal rules require. Scripted conflicts limit it further (§10.18).
 
 ==== Review Before Play
 Read your three Beliefs, Goal, and Instinct aloud. Check that:
@@ -208,12 +208,9 @@ For each character, note an opportunity and a possible dilemma suggested by thei
 
 The GM might offer a delegation in exchange for escorting a vulnerable supply caravan through a dangerous pass. The Goal provides direction, capabilities determine options, and the Beliefs make decisions matter. The GM does not predetermine the character's answer.
 
-==== Compact Templates
-- #strong[World:] I believe [conviction about the campaign situation]; therefore, I will [commitment].
-- #strong[Other:] I believe [conviction about another PC]; therefore, I will [how I act toward them].
-- #strong[Self:] I believe [personal principle]; I will live by it by [commitment], even when [pressure or cost].
-
 === 3.6 Starting Resources
-- #strong[Tychē Points:] at the start of a session, reset to your #strong[Refresh] (base 3), keeping any higher balance up to the Refresh + 3 cap (§4.1). Beliefs and connections grant no extra starting points.
-- #strong[Load-out:] choose light, normal or heavy load before the mission, then declare playbook-kit items during play as needed and mark their load; do not buy a complete item list in advance. Signature items are chosen at creation and count against load when carried; always-carried items and items marked (0) follow their listed rules (Generic Playbooks §2.1). During conflicts, declare active equipment before scripting each exchange; declaring or switching gear does not itself change the assigned script (§10.10).
+- #strong[Tychē Points:] start each session at your #strong[Refresh] (base 3; §4.1). Beliefs and connections grant no extra points.
+- #strong[Starting abilities.] You get #strong[1 playbook ability and your Tier 1 Focus ability for free], and may buy #strong[up to 2 more playbook abilities at 1 Refresh each].
+- #strong[★ (Major) abilities] cost #strong[1 extra Refresh] whenever you take them: as your free pick (1), as a creation extra (2 total) or through advancement. Veteran acquisition costs are added on top (Generic Playbooks §1.2). Refresh can't drop below 1 (§4.1).
+- #strong[Load-out:] choose light, normal or heavy load before the mission, then declare playbook-kit items as you need them and mark their load; don't buy a full item list in advance. Signature items are chosen at creation and count against load when carried; always-carried items and items marked (0) follow their listed rules (Generic Playbooks §2.1). In conflicts, declare active gear before scripting each exchange (§10.10).
 ]

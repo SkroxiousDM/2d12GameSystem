@@ -45,10 +45,10 @@ Every Adept has a #strong[Domain];: a broad power tag describing what they can d
   )
 
 - #strong[Cost:] each working costs #strong[1 point] from Pneuma (Arcana) or Psychē (Tech), in addition to any Effort.
-- #strong[Backlash:] doubles on a failure or cost cause a backlash. The GM picks a fitting status for you (#emph[burned-2];, #emph[drained-2];, #emph[glitched-2];) or a wild effect, in addition to the normal complication. Backlash remains an explicit additional consequence in conflicts.
+- #strong[Backlash:] doubles on a failure or cost cause a backlash. The GM picks a fitting status for you (#emph[burned-2], #emph[drained-2], #emph[glitched-2]) or a wild effect, in addition to the normal complication. Backlash still applies in conflicts.
 - Your Domain counts as a power tag on workings (inside the +2 cap).
 
-In a scripted conflict, a working uses an otherwise permitted scripted action; Domain permission grants no additional turn and does not bypass action interactions or declared stakes.
+#strong[In a scripted conflict,] Domain scope decides only whether a working fits and what it can affect. The working uses a permitted scripted action and resolves normally (independent or versus); scope doesn't change the Difficulty or add a roll. It adds no status to an ordinary Attack (Core Rules §10.5--10.6). The Testament of Dust Occultist uses the same rule.
 
 === 8.2 Special Abilities
 #figure(
@@ -57,15 +57,17 @@ In a scripted conflict, a working uses an otherwise permitted scripted action; D
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Focused Channel];], [Workings inside your Domain cost #strong[0 pool points] if you don\'t use Effort on that roll. This waives the normal 1-point working cost only, not separate ability costs or accepted payments. It does not suppress Backlash or other applicable consequences.],
-    [2], [#strong[Ward];], [You can create protective statuses (#emph[warded-X];) with Enhance. While warded, an ally reduces supernatural or tech-based harm by #strong[+1 tier] when Resisting. This protection does not reduce shared Disposition loss, running-dry statuses or accepted payments.],
+    [1], [#strong[Focused Channel];], [Workings inside your Domain cost #strong[0 pool points] if you don't use Effort on that roll. This waives only the 1-point working cost; Backlash still applies.],
+    [2], [#strong[Ward];], [You can create protective statuses (#emph[warded-X]) with Enhance. While warded, an ally reduces supernatural or tech-based harm by #strong[+1 tier] when Resisting.],
     [3], [#strong[Sense the Unseen];], [Once per scene, ask a free Discover question about #strong[hidden supernatural or technological forces] nearby. You always notice when such forces are used near you.],
-    [4], [#strong[Overchannel];], [When you use Effort for Power on a working, gain #strong[+2 Power] instead of +1, but take #emph[strained-1] as an accepted payment. Armour, Resistance, prevention, redirection and incidental clearing benefits cannot reduce or cancel it. Once recorded, it recovers normally.],
+    // PLAYTEST: Overchannel limited to once per roll.
+    [4], [#strong[Overchannel];], [Once per roll, when you use Effort for Power on a working, gain #strong[+2 Power] instead of +1, but take #emph[strained-1] as an accepted payment. Once recorded, it recovers normally.],
     [5], [#strong[Ritual];], [Given time, materials, and a safe place, run a working as a #strong[progress clock] instead of a single roll (8 segments for Formidable, 12 for Heroic). Ritual results can create Site or Region Truths.],
-    [6], [#strong[Bound Servant];], [You have a minor spirit, construct, or drone with one power tag and one weakness. It can scout (one free Discover per scene in places it can reach), carry messages, or handle simple tasks. It can\'t fight. It is an asset, not an independent combat participant: it grants no scripted turn, personal Disposition or injury trade.],
+    [6], [#strong[Bound Servant];], [You have a minor spirit, construct, or drone with one power tag and one weakness. It can scout (one free Discover per scene in places it can reach), carry messages, or handle simple tasks. It can't fight: it's an asset, not a conflict participant (Core Rules §10.9).],
     [7], [#strong[★ Second Domain];], [Gain a second Domain. Workings in it use the same rules.],
-    [8], [#strong[★ Unleash];], [Once per scene, a working hits #strong[every target] in an area or group, following the #strong[Area Effects] procedure in Core Rules (provisional for playtesting). Explicitly inflicted statuses apply at full tier to every affected character. In conflicts, apply normal Disposition loss once to the opposing side, plus 1 per additional opposing participant affected; do not multiply full loss by the number of targets or add a status to an ordinary conflict Attack. A group represented by one participant counts once, not once per fictional body. Afterwards, take #emph[Weary] or lose 3 points from your casting pool. The chosen cost is an accepted payment and cannot be prevented, redirected or Resisted; the pool cost must be paid in full.],
-    [◆], [#strong[Ascendant];], [Once per session, a Heroic-scope working succeeds automatically with #strong[5 Power];, no ritual required. In a conflict, declare it before the roll for your normally scheduled action; it grants no extra turn and a trumped action remains trumped. On an independent test apply 5 Power without rolling. In a versus test it wins with 5 Power unless the opposing action also succeeds automatically, in which case resolve a tie unless a specific rule says otherwise. No roll means no dice-based critical or complication. If you use it again before your next downtime, gain a Pneuma or Psychē Scar.],
+    // PLAYTEST: Weary fallback (exhausted-2) for games without Module B.
+    [8], [#strong[★ Unleash];], [Once per scene, a working hits #strong[every target] in an area or group, using #strong[Area Effects] (Core Rules §10.17). Explicit statuses apply at full tier to each target, and conflict Disposition loss follows the same procedure. Afterwards, take #emph[Weary] (Module B; without it, #emph[exhausted-2] until a night's rest) or lose 3 points (paid in full) from your casting pool; either is an accepted payment.],
+    [◆], [#strong[Ascendant];], [Once per session, a Heroic-scope working succeeds automatically with #strong[5 Power], no ritual required. In a conflict, declare it before the roll for your normal action: a trumped action stays trumped, and in a versus test it wins unless the other side also succeeds automatically, which makes a tie. No roll means no doubles. If you use it again before your next downtime, gain a Pneuma or Psychē Scar.],
   )]
   , kind: table
   )

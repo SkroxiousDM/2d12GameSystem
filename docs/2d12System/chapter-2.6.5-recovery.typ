@@ -20,31 +20,26 @@ Recovery follows four successive rest stages:
 
 - #strong[Divide the recovered points among Sōma, Mētis, Psychē and Pneuma however you wish], without exceeding a pool\'s maximum. They don\'t have to go to whichever pool was drained most recently.
 
-- #strong[Edge does not apply to recovery.] Edge only reduces Effort cost and adds Resistance dice (§2.4, §6); recovery stays flat so it can\'t stack with Edge\'s other benefits.
+- #strong[Edge does not apply to recovery.] It already cuts Effort costs and adds Resistance dice (§2.4, §6).
 - After the 4th rest, the cycle resets --- your next rest that day (or the start of a new day) is a First rest again.
 - Each PC rests and rolls independently. If two of five party members stop for 10 minutes to recover, the other three don\'t have to stop or roll.
-- #strong[Running dry has no automatic refill.] A pool at 0 comes back through these rests in the normal way. Its running-dry status recovers separately, as described below.
 
-#strong[Recovering running-dry statuses.] Restoring a pool doesn't clear its running-dry status, and clearing the status doesn't refill the pool. When you first record the status, choose its category:
-- #strong[Depletion] (exhaustion, strain, temporary overload): the default, unless the source makes it an injury or affliction. It recovers through rest, as described below.
+#strong[Recovering running-dry statuses.] Restoring a pool doesn't clear its running-dry status, and clearing the status doesn't refill the pool. Each status has one category, Depletion unless its source says otherwise:
+- #strong[Depletion] (exhaustion, strain, temporary overload): the default. It recovers through rest, as described below.
 - #strong[Injury] (real physical damage): recovers through treatment, Restore and healing time, like any wound.
 - #strong[Affliction] (supernatural or ongoing cause): recovers only as its source allows.
 
 #strong[Resting off depletion] #emph[(playtest value)]#strong[.] When you take one of the 1st--3rd rests, you can put the recovery roll toward the pool, toward its depletion status, or split it between them. Every #strong[2 points] removes #strong[1 tier] of the depletion status. Each point counts once. The 4th rest (full restore) also clears any depletion status whose cause has ended. It doesn't clear Scars, injuries or afflictions. Reassurance or first aid can make recovery possible, but can't keep stripping depletion tiers with Restore. Abilities that explicitly restore exhaustion or harmful statuses work as written.
 
-#strong[No shortcut.] Running dry never gives a special recovery roll, an automatic refill, or a way around the rest cycle. You can't overrun a pool on purpose to replace a bad recovery roll or to jump to a fresh rest stage.
+#strong[No shortcut.] A pool at 0 comes back through these rests like any other. Running dry never gives a special recovery roll, an automatic refill, or a way around the rest cycle. You can't overrun a pool on purpose to replace a bad recovery roll or to jump to a fresh rest stage.
 
 #strong[Each layer recovers on its own.] Disposition, pools and statuses each recover only through their own procedure:
 - #strong[Disposition] is set fresh when a genuinely new conflict begins (§10.2). Fresh Disposition doesn't refill pools or clear statuses, and a brief pause in the same struggle isn't a new conflict.
 - #strong[Pools] recover through the rests above. A full pool doesn't heal an injury, and an injury doesn't stop pool recovery unless its rule says so.
 - #strong[Statuses] recover by their kind: a temporary state ends when its cause or duration ends; injuries need treatment and time (§6.6); afflictions follow their source.
 
-Winning a conflict, ending a scene or setting fresh Disposition is #strong[not a general reset]. Later healing does not refund an accepted payment, refresh an injury trade or erase a Scar (§10.7).
+Winning a conflict, ending a scene or setting fresh Disposition is #strong[not a general reset].
 
-
-#strong[Advance option --- Hardened] #emph[(6 XP, one-time)]
-
-Recover #strong[1 additional point] whenever you make a recovery roll. This Advance may be taken only once. It does not change the fourth rest\'s full recovery.
 
 === 6.6 Treatment and Healing
 
@@ -133,7 +128,7 @@ Stabilising doesn't erase marked segments, reduce the injury, refill pools or re
 
     
 === 6.8 Permanent Harm
-#strong[Where it comes from.] An injury doesn't become permanent just because its tier is high. Permanent harm needs an established permanent-injury stake, a specific effect or creature rule, a voluntary bargain, or a Scar-giving event. Generic harmful tier 6 gives a Scar (§6.3), subject to explicit breaking-point replacements, but never by itself severs a limb, destroys an organ, lowers a maximum pool or causes any other permanent mechanical loss.
+#strong[Where it comes from.] An injury doesn't become permanent just because its tier is high. Permanent harm needs an established permanent-injury stake, a specific effect or creature rule, a voluntary bargain, or a Scar-giving event. Reaching tier 6 gives a Scar (§6.3), not a permanent loss.
 
 #strong[The wound heals; the loss stays.] A permanent change can outlast the injury that caused it. When #emph[severed hand-4] has healed, the hand is still gone: the status measured the acute
 wound. Record the lasting change as a tag or a character fact, not as a status that never heals.

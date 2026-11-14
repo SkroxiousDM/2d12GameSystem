@@ -1,0 +1,174 @@
+diff --git a/2d12System/chapter-2.10-conflict-system.typ b/2d12System/chapter-2.10-conflict-system.typ
+index 5ee73dd..5862c1c 100644
+--- a/2d12System/chapter-2.10-conflict-system.typ
++++ b/2d12System/chapter-2.10-conflict-system.typ
+@@ -301,10 +301,11 @@ Generic prevention, redirection, immunity, Resistance and incidental clearing be
+ 
+ Once recorded, a status can be treated or healed through the applicable procedure. Later healing does not refund the benefit, restore Disposition, refresh an injury trade or erase a Scar.
+ 
+-==== Tychē, Truths, Clocks and Woe
++==== Other Core Rules in Conflicts
+ - #strong[Invoke] during an eligible roll, before its outcome is resolved. It changes only that roll: no extra turn, script change or reassigned actor. A trumped action or automatic success has no roll to invoke on.
+ - #strong[Declarations] can make an approach possible or supply an asset. They can't resolve a scripted action, cancel an independent action, widen the stakes or reverse an accepted concession.
+ - #strong[Compels.] Agree the consequence before accepting. A compel must respect the stakes and action timing, and can't change a script or cancel an independent action. If its terms settle the conflict, use Concession (§10.12) rather than another roll. It can't erase a protected payment.
++- #strong[Instincts.] Acting on an Instinct takes no time but grants no extra action, interrupt, free script change, actor reassignment or rotation bypass. A consequential response needs a permitted action or explicit ability; an Instinct can't rescue a trumped action, allow action while Taken Out or retroactively cancel a resolved effect.
+ - #strong[Truths.] Creating or countering a Truth takes a permitted action or explicit exception (§10.6); Momentum and Woe spends grant no extra turn, free reassignment or retroactive cancellation. A Truth can set up a later scenery Maneuver but doesn't resolve it or its Danger (§10.8). A hazardous description doesn't grant both Disposition loss and a harmful status; explicit harm and area effects use their own procedures (§10.17).
+ - #strong[Clocks and Disposition] are separate tracks. Don't convert loss, healing or clock segments between them without an explicit rule. Advance is available only to actions §10.6 permits.
+ - #strong[Complications,] from dice or bought with Woe, stay within the stakes and timing. They don't change committed scripts or cancel independent actions unless an explicit rule permits it.
+diff --git a/2d12System/chapter-2.3-character-creation.typ b/2d12System/chapter-2.3-character-creation.typ
+index 2a9ea0f..6b900c6 100644
+--- a/2d12System/chapter-2.3-character-creation.typ
++++ b/2d12System/chapter-2.3-character-creation.typ
+@@ -94,7 +94,7 @@ With a +2 cap, a third relevant tag is best used for burning or as Tychē Point
+ ==== Three Different Jobs
+ - #strong[Beliefs] state convictions and commitments: why you act. Write one World, one Other, and one Self Belief.
+ - #strong[Goal] states a concrete objective for this session or mission: what you want to accomplish next.
+-- #strong[Instinct] states an if/then reflex: how you habitually respond. Acting on an Instinct lets you take that action without spending time, subject to normal resolution and the conflict timing limits below.
++- #strong[Instinct] states an if/then reflex: how you habitually respond.
+ 
+ Goals are rewritten each session; Beliefs and Instincts can change at milestones (§12.3). Beliefs can justify compels (§4) and meaningful decisions can earn XP (§12.1). They do not create an additional resource.
+ 
+@@ -156,7 +156,7 @@ Use Beliefs as prompts, not prerequisites, when completing your mechanical choic
+ - #strong[Tags:] which strengths help you act, and which vulnerabilities make that difficult?
+ - #strong[Load-out:] which gear options and load may support your commitments? Follow §3.6; do not choose every item in advance.
+ 
+-Beliefs grant no additional skills, tags, abilities, equipment, pool points, or starting Tychē. A conviction is not automatically a power tag or a modifier. Wanting to protect others does not require being good at it.
++Beliefs grant no extra skills, tags, abilities, equipment, pool points or Tychē, and a conviction isn't a power tag. Wanting to protect others doesn't mean you're good at it.
+ 
+ ==== Choose Your Starting Goal
+ Choose a concrete opening objective that advances at least one Belief. It should have a recognisable completion point.
+@@ -178,7 +178,7 @@ When [trigger], I [habitual response].
+ 
+ #emph[Example:] "When we enter an unfamiliar place, I identify an escape route before settling in."
+ 
+-Acting on an Instinct lets you take that action without spending time. It does not guarantee success or remove a roll when the normal resolution rules require one. During a scripted conflict, it grants no extra action, interrupt, free script change, actor reassignment or rotation bypass. Resolve a consequential response through an otherwise permitted action or explicit ability; an Instinct cannot rescue a trumped action, allow action while Taken Out or retroactively cancel a resolved effect (§10.5).
++Acting on an Instinct takes no time, but it doesn't guarantee success or skip a roll the normal rules require. Scripted conflicts limit it further (§10.7).
+ 
+ ==== Review Before Play
+ Read your three Beliefs, Goal, and Instinct aloud. Check that:
+@@ -208,12 +208,7 @@ For each character, note an opportunity and a possible dilemma suggested by thei
+ 
+ The GM might offer a delegation in exchange for escorting a vulnerable supply caravan through a dangerous pass. The Goal provides direction, capabilities determine options, and the Beliefs make decisions matter. The GM does not predetermine the character's answer.
+ 
+-==== Compact Templates
+-- #strong[World:] I believe [conviction about the campaign situation]; therefore, I will [commitment].
+-- #strong[Other:] I believe [conviction about another PC]; therefore, I will [how I act toward them].
+-- #strong[Self:] I believe [personal principle]; I will live by it by [commitment], even when [pressure or cost].
+-
+ === 3.6 Starting Resources
+-- #strong[Tychē Points:] at the start of a session, reset to your #strong[Refresh] (base 3), keeping any higher balance up to the Refresh + 3 cap (§4.1). Beliefs and connections grant no extra starting points.
+-- #strong[Load-out:] choose light, normal or heavy load before the mission, then declare playbook-kit items during play as needed and mark their load; do not buy a complete item list in advance. Signature items are chosen at creation and count against load when carried; always-carried items and items marked (0) follow their listed rules (Generic Playbooks §2.1). During conflicts, declare active equipment before scripting each exchange; declaring or switching gear does not itself change the assigned script (§10.10).
++- #strong[Tychē Points:] start each session at your #strong[Refresh] (base 3; §4.1). Beliefs and connections grant no extra points.
++- #strong[Load-out:] choose light, normal or heavy load before the mission, then declare playbook-kit items as you need them and mark their load; don't buy a full item list in advance. Signature items are chosen at creation and count against load when carried; always-carried items and items marked (0) follow their listed rules (Generic Playbooks §2.1). In conflicts, declare active gear before scripting each exchange (§10.10).
+ ]
+diff --git a/2d12System/chapter-2.6-resistance-harm-and-recovery.typ b/2d12System/chapter-2.6-resistance-harm-and-recovery.typ
+index ee6bac7..f9420c2 100644
+--- a/2d12System/chapter-2.6-resistance-harm-and-recovery.typ
++++ b/2d12System/chapter-2.6-resistance-harm-and-recovery.typ
+@@ -49,13 +49,9 @@ Pay the listed cost for the die you read. A single die can't give the double-12
+   , kind: table
+   )
+ 
+-#strong[Resistance result and ability thresholds.] The Resistance result is the die read by the normal procedure: highest at Edge 0 or higher, the single die at Edge −1, and lowest at Edge −2 or lower. When an ability changes a Resistance cost or effect on a stated die threshold, check that threshold against this result. For these abilities, wording such as \"on a highest die of 5+\" means \"when the Resistance result is 5+\"; do not inspect a different die to qualify. An ability that intentionally uses a different die must expressly say that it overrides the normal Resistance result.
++#strong[Ability thresholds.] Your #strong[Resistance result] is the die you read: the highest at Edge 0 or more, the single die at Edge −1, the lowest at Edge −2 or less. An ability threshold such as \"on a highest die of 5+\" checks this result, unless the ability expressly says it reads a different die. Meeting a threshold grants only the benefit it names: it doesn't add dice, change Edge or let you Resist an excluded consequence, and a separately listed effect applies whether or not the threshold is met. A cost made 0 by an ability doesn't also clear a tier-1 status; only the double-12 result does that.
+ 
+-Meeting a threshold grants only the stated benefit. It does not change which die is read, add dice, alter Edge or permit Resistance against an excluded consequence. A threshold-based cost benefit and a separately listed effect are distinct. If an ability says the cost is 0 on a result of 5+ and reduces a status by 3 tiers, the threshold governs the zero cost only; the listed reduction applies whenever you legally use that ability to Resist unless its text expressly makes the reduction conditional too.
+-
+-Apply the existing special double-12 procedure normally, including the all-dice-12 requirement when reading the lowest. An ability that makes the cost 0 does not itself grant that procedure's tier-1 status-clearing benefit. A zero final cost does not run the pool dry (§6.1), and protected-payment restrictions still apply.
+-
+-#emph[Example:] at Edge −2, dice of 3 and 10 give a Resistance result of 3. An ability's 5+ zero-cost threshold is not met; use the normal cost for 3, while retaining any independently listed effect improvement. Dice of 5, 9 and 12 at Edge −3 give a result of 5 and meet the threshold.
++#emph[Example:] at Edge −2, dice of 3 and 10 give a result of 3, so a 5+ zero-cost threshold isn't met: pay the normal cost for 3, but keep any separately listed effect. At Edge −3, dice of 5, 9 and 12 give 5 and meet it.
+ 
+ #strong[Imposed harm, in order.] When an effect imposes a harmful status:
+ + The GM names the status, its source and its incoming tier, and says whether it stacks with a status you already have (§5.1).
+@@ -70,9 +66,7 @@ Apply the existing special double-12 procedure normally, including the all-dice-
+ - a cost you accepted in a concession (§10.12), or any other cost you accepted as payment for a benefit;
+ - a running-dry status (§6.2).
+ 
+-An exception must expressly identify the protected payment or Disposition effect it changes. Generic permission to cancel harm or a consequence is not enough (§10.7). Imposed compromise statuses remain Resistable under §10.13; Resistance does not revoke the loser's concession, and removing an injury does not create a replacement cost.
+-
+-#strong[Protected payments.] Prevention, redirection, immunity, Resistance and effects that clear a status as an incidental benefit (such as the double-12 result above) can't prevent or remove an accepted payment, whichever action or Resistance produced the clearing benefit. This includes injury trades, running-dry statuses, agreed concession costs and other accepted payments. Treatment, healing time and effects that explicitly heal an existing injury affect it normally (§6.6); later healing doesn't refund the benefit, restore Disposition, refresh the trade or erase a Scar.
++#strong[Protected payments.] Only an exception that names the protected payment or Disposition effect can change it; generic wording such as \"cancel harm\" isn't enough. The same applies to prevention, redirection, immunity and incidental clearing, including the double-12 result above, whichever action produced it (§10.7). Treatment and healing still work on a recorded status (§6.6) but don't refund what it paid for. Compromise statuses imposed under §10.13 can still be Resisted; that doesn't revoke the concession, and removing the injury creates no replacement cost.
+ 
+ === 6.1 Running Dry
+ #strong[Trigger.] You #strong[run dry] when a positive cost brings a pool to 0 or is more than the points left in it. Finish the action or Resistance that caused the cost, then take a harmful #strong[running-dry status] for that pool (§6.2). Running dry does not, on its own, take you out, give you a Scar or refill the pool.
+@@ -125,7 +119,6 @@ Overrun beyond tier 6 has no extra effect unless a rule or an established stake
+ + At tier 6, apply the status's scope, then record one Scar (§6.3).
+ + Recover the pool and the status separately (§6.5).
+ ]
+-#colbreak()
+ === 6.2 Running-Dry Statuses
+ The status must fit both the pool and the action that drained it:
+ 
+@@ -149,7 +142,7 @@ The status must fit both the pool and the action that drained it:
+ 
+ #strong[Example.] You have #emph[mentally exhausted-2] and overrun Psychē by 2. The incoming status is tier 3, which stacks for +2, so you now have #emph[mentally exhausted-4].
+ 
+-#strong[It is a cost.] Armour, Resistance and effects that cancel incoming consequences can't prevent or reduce a running-dry status. Once recorded, it can be treated, Restored or healed like any existing status, within the limits of the effect used. A clearing benefit from the same Resistance or action can't clear the status that paid for it.
++#strong[It is a cost.] A running-dry status is a protected payment: armour, Resistance and cancelling effects can't prevent or reduce it, and a clearing benefit from the same Resistance or action can't clear it. Once recorded, it can be treated, Restored or healed like any other status.
+ 
+ === 6.3 Tier 6 and Scars
+ When a harmful status reaches #strong[tier 6], whether in one hit or through stacking, apply this general procedure unless a specific rule expressly replaces its breaking-point outcome:
+@@ -158,9 +151,9 @@ When a harmful status reaches #strong[tier 6], whether in one hit or through sta
+ + Apply removal within the status's scope (below).
+ + Record #strong[one Scar], subject to the limits below.
+ 
+-#strong[Specific replacements.] Named creature tracks and conditions use an explicit breaking-point replacement only where stated (§10.14). Sun-Sick uses its listed collapse and prolonged-exposure consequences; Thirst uses Blood Crisis and its listed Scar consequences; neither adds an unstated generic tier-6 Scar. Bled retains this core Scar procedure. Apply limits against duplicate Scars from one event.
++#strong[Specific replacements.] Some creature tracks and setting conditions state their own breaking-point outcome; use it only where stated (§10.14). In Testament of Dust, Sun-Sick and Thirst replace the Scar with their own consequences, while Bled keeps it. The Scar limits below still apply.
+ 
+-#strong[Scope.] If the status leaves you unable to pursue your side's intent in the current conflict, you are #strong[Taken Out]. Your side's shared Disposition doesn't change (§10.9). If none of a side's participants can continue pursuing its objective, that side loses; complete independently resolving actions before checking victory (§10.12). If the status only stops one activity (#emph[bound] stops you moving, not talking), apply that restriction and stay in the conflict. Set the scope of a non-damage status when it is inflicted, and don't widen it at tier 6. Under the general procedure, either result still gives its Scar.
++#strong[Scope.] If the status leaves you unable to pursue your side's intent, you are #strong[Taken Out] (§6.4). If it stops only one activity (#emph[bound] stops you moving, not talking), apply that restriction and stay in the conflict. Set a non-damage status's scope when it is inflicted, and don't widen it at tier 6. Either way, the general procedure still gives its Scar.
+ 
+ #strong[Not lethal by default.] A running-dry status at tier 6 is not deadly on its own. Death needs a lethal cause and established stakes. Tier 6 doesn't, by itself, cost you a limb, lower a maximum pool or impose any other permanent loss; those need an established consequence, a specific effect or an agreement.
+ 
+@@ -197,7 +190,7 @@ When a harmful status reaches #strong[tier 6], whether in one hit or through sta
+ 
+ #strong[Out isn't down.] Being Taken Out doesn't, on its own, make you unconscious, injured or dying. Describe it to fit the fiction: pinned down, disarmed, driven back, cut off, or too frightened to go on. Injury needs a status, death needs established lethal stakes (§6.7), and permanent harm needs an established consequence (§6.8).
+ 
+-#strong[Resisting while out.] Being Taken Out doesn't automatically stop you Resisting, but the Resistance must be something you can still do. You can brace against pain while pinned down, but you can't dodge while fully #emph[bound], or use an act of will while unconscious. When a status first takes you out, finish any Resistance already under way. Resistance can't reverse a defeat, undo an accepted concession, or prevent a cost you accepted as payment. Once a conflict is settled, you can only Resist the consequences that were left open to it; you can't use Resistance to reopen the intent or delay settlement.
++#strong[Resisting while out.] Being Taken Out doesn't automatically stop you Resisting, but the Resistance must be something you can still do. You can brace against pain while pinned down, but you can't dodge while fully #emph[bound], or use an act of will while unconscious. When a status first takes you out, finish any Resistance already under way. Once a conflict is settled, you can only Resist the consequences that were left open to it; you can't use Resistance to reopen the intent or delay settlement.
+ 
+ #strong[Getting back in.] To rejoin a conflict that is still going, and that your side hasn't lost, you need both of these:
+ + the condition that stopped you must be removed; and
+diff --git a/2d12System/chapter-2.6.5-recovery.typ b/2d12System/chapter-2.6.5-recovery.typ
+index bf75ab8..8f8a6cb 100644
+--- a/2d12System/chapter-2.6.5-recovery.typ
++++ b/2d12System/chapter-2.6.5-recovery.typ
+@@ -20,10 +20,9 @@ Recovery follows four successive rest stages:
+ 
+ - #strong[Divide the recovered points among Sōma, Mētis, Psychē and Pneuma however you wish], without exceeding a pool\'s maximum. They don\'t have to go to whichever pool was drained most recently.
+ 
+-- #strong[Edge does not apply to recovery.] Edge only reduces Effort cost and adds Resistance dice (§2.4, §6); recovery stays flat so it can\'t stack with Edge\'s other benefits.
++- #strong[Edge does not apply to recovery.] It already cuts Effort costs and adds Resistance dice (§2.4, §6).
+ - After the 4th rest, the cycle resets --- your next rest that day (or the start of a new day) is a First rest again.
+ - Each PC rests and rolls independently. If two of five party members stop for 10 minutes to recover, the other three don\'t have to stop or roll.
+-- #strong[Running dry has no automatic refill.] A pool at 0 comes back through these rests in the normal way. Its running-dry status recovers separately, as described below.
+ 
+ #strong[Recovering running-dry statuses.] Restoring a pool doesn't clear its running-dry status, and clearing the status doesn't refill the pool. When you first record the status, choose its category:
+ - #strong[Depletion] (exhaustion, strain, temporary overload): the default, unless the source makes it an injury or affliction. It recovers through rest, as described below.
+@@ -32,14 +31,14 @@ Recovery follows four successive rest stages:
+ 
+ #strong[Resting off depletion] #emph[(playtest value)]#strong[.] When you take one of the 1st--3rd rests, you can put the recovery roll toward the pool, toward its depletion status, or split it between them. Every #strong[2 points] removes #strong[1 tier] of the depletion status. Each point counts once. The 4th rest (full restore) also clears any depletion status whose cause has ended. It doesn't clear Scars, injuries or afflictions. Reassurance or first aid can make recovery possible, but can't keep stripping depletion tiers with Restore. Abilities that explicitly restore exhaustion or harmful statuses work as written.
+ 
+-#strong[No shortcut.] Running dry never gives a special recovery roll, an automatic refill, or a way around the rest cycle. You can't overrun a pool on purpose to replace a bad recovery roll or to jump to a fresh rest stage.
++#strong[No shortcut.] A pool at 0 comes back through these rests like any other. Running dry never gives a special recovery roll, an automatic refill, or a way around the rest cycle. You can't overrun a pool on purpose to replace a bad recovery roll or to jump to a fresh rest stage.
+ 
+ #strong[Each layer recovers on its own.] Disposition, pools and statuses each recover only through their own procedure:
+ - #strong[Disposition] is set fresh when a genuinely new conflict begins (§10.2). Fresh Disposition doesn't refill pools or clear statuses, and a brief pause in the same struggle isn't a new conflict.
+ - #strong[Pools] recover through the rests above. A full pool doesn't heal an injury, and an injury doesn't stop pool recovery unless its rule says so.
+ - #strong[Statuses] recover by their kind: a temporary state ends when its cause or duration ends; injuries need treatment and time (§6.6); afflictions follow their source.
+ 
+-Winning a conflict, ending a scene or setting fresh Disposition is #strong[not a general reset]. Later healing does not refund an accepted payment, refresh an injury trade or erase a Scar (§10.7).
++Winning a conflict, ending a scene or setting fresh Disposition is #strong[not a general reset] (§10.7).
+ 
+ 
+ #strong[Advance option --- Hardened] #emph[(6 XP, one-time)]
+@@ -133,7 +132,7 @@ Stabilising doesn't erase marked segments, reduce the injury, refill pools or re
+ 
+     
+ === 6.8 Permanent Harm
+-#strong[Where it comes from.] An injury doesn't become permanent just because its tier is high. Permanent harm needs an established permanent-injury stake, a specific effect or creature rule, a voluntary bargain, or a Scar-giving event. Generic harmful tier 6 gives a Scar (§6.3), subject to explicit breaking-point replacements, but never by itself severs a limb, destroys an organ, lowers a maximum pool or causes any other permanent mechanical loss.
++#strong[Where it comes from.] An injury doesn't become permanent just because its tier is high. Permanent harm needs an established permanent-injury stake, a specific effect or creature rule, a voluntary bargain, or a Scar-giving event. Reaching tier 6 gives a Scar (§6.3), not a permanent loss.
+ 
+ #strong[The wound heals; the loss stays.] A permanent change can outlast the injury that caused it. When #emph[severed hand-4] has healed, the hand is still gone: the status measured the acute
+ wound. Record the lasting change as a tag or a character fact, not as a status that never heals.

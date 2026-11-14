@@ -2,22 +2,12 @@
 
 == 11. Playbooks
 #columns(2, gutter: 5mm)[
-Each playbook entry provides:
-
-- #strong[Base pools and Edge]
-- #strong[Anchor skill] (must be +3 or +4)
-- #strong[Special abilities:] the generic playbooks each offer eight special abilities and a capstone. Choose 1 special ability at creation without the normal extra-ability price; any ★ Major surcharge still applies.
+A playbook gives your character base pools and Edge, an anchor skill (+3 or +4), special abilities, an XP trigger, a load-out list and relationship prompts (1 ally, 1 rival). Each generic playbook has eight special abilities and a capstone. The full rules and all six playbooks are in Generic Playbooks.
 #colbreak()
-- #strong[XP trigger:] one playbook-specific behaviour that earns XP
-- #strong[Load-out list:] playbook items plus generic items, Blades-style light/normal/heavy load
-- #strong[Relationship prompts:] 1 ally and 1 rival
+- #strong[At creation:] 1 special ability free, and up to 2 more at 1 Refresh each; ★ costs 1 more (§3.6).
+- #strong[Later:] new abilities, veteran abilities and capstones follow §12.2.
+
 Settings rename and reskin playbooks (Adept becomes \"Hedge Witch\" in fantasy, \"Netrunner\" in cyberpunk) but keep the structure.
-
-#strong[Creation extras.] You may buy up to 2 additional playbook abilities at creation, each for 1 Refresh. A ★ Major costs a further 1 Refresh when taken, so a ★ creation extra costs 2 Refresh total. Minimum Refresh remains 1 (Core Rules §4.1; Generic Playbooks §1.1--1.2).
-
-#strong[Later acquisition.] New abilities normally cost an Advance; ★ costs remain additional. Veteran abilities from another playbook become available after 6 Advances and cost an additional 1 Refresh. A capstone unlocks after 12 Advances with at least 4 abilities from that playbook, costs no Refresh, and is limited to one per character. See §12.2 and Generic Playbooks §1.2 for the detailed acquisition rules; reaching a threshold is not an automatic award from this overview.
-
-A playbook's theme does not override conflict action skills, timing, rotation or Effect permissions. Free abilities and benefits grant no extra scripted turn merely because they cost no resource.
 ]
  
 === 11.1 Generic Core Playbooks

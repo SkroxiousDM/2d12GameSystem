@@ -41,20 +41,12 @@ An independently acting companion occupies a place in continuous rotation, uses 
 
 A group represented by one rules entry is one participant for rotation and area-effect Disposition bonuses, not one per fictional body. Apply specific Bodies or mass-combat rules only where provided.
 
-Setup Help follows §10.2. Ordinary free Help waives its pool-point cost, not relevance, bonus-dice limits or participation risks.
-
-==== Starting Disposition and Reinforcements
-Record adjusted starting Disposition after all setup modifiers and Superiority. It remains fixed for this conflict and determines the normal recovery cap and compromise reference (§10.13).
-
-A genuinely new conflict uses §10.2; a change of location, tactics or type alone does not reset it.
-
-Reinforcements add their listed Grit to current shared Disposition, even above the starting value. They do not change starting Disposition or the normal recovery cap, grant additional scripted actions, permit free actor reassignment or recalculate setup.
+==== Reinforcements and Recovery
+Starting Disposition stays fixed for the conflict (§10.2). Reinforcements add their listed Grit to current shared Disposition, even above the starting value. They do not change starting Disposition or the normal recovery cap, grant additional scripted actions, permit free actor reassignment or recalculate setup.
 
 Defend and other Disposition-recovery effects restore only up to the starting value unless explicitly stated otherwise. At or above the cap, recovery restores nothing and does not reduce the current total.
 
-A successful Defend may still buy permitted supplementary Effects (§10.6).
-
-Removing a participant, helper, companion or group subtracts no contribution or Grit from current or starting Disposition. Removal may still defeat the side if nobody remains able to pursue its objective.
+Removing a participant, backer, companion or group subtracts no contribution or Grit from current or starting Disposition. Removal may still defeat the side if nobody remains able to pursue its objective.
 
 === 10.10 Conflict Gear and Assets
 Equipment normally provides an action tag, counting toward the normal +2 tag cap. It may also have one explicitly written distinctive quality. Do not invent qualities during resolution.
@@ -110,19 +102,15 @@ You cannot:
 
 An accepted injury is a protected payment (§10.7); it cannot be prevented or reduced. It recovers through treatment and time.
 
-The trade cancels incoming loss, not loss already suffered, and does not raise starting Disposition. Refresh only for a genuinely new conflict.
+The trade cancels incoming loss, not loss already suffered, and doesn't raise starting Disposition. It refreshes only in a genuinely new conflict.
 
 === 10.12 Defeat, Mutual Defeat and Concession
 Apply the action-completion rule in §10.5 before determining the outcome.
 
 ==== Defeat and Finishing Procedures
-The winner achieves its intent within the established stakes, subject to compromise. Do not repeat the same unresolved contest; a new conflict requires a materially different objective or changed circumstances.
+The winner achieves its intent within the established stakes, subject to compromise. Don't rerun the same contest; a new conflict needs a materially different objective or changed circumstances.
 
-Defeat does not automatically inflict injury or satisfy a creature-specific finishing requirement.
-
-Where an explicit finishing procedure is required, victory secures the opportunity to attempt it.
-
-Complete the deciding volley and determine victory or mutual defeat, resolve any permitted finishing procedure, then settle compromise. Follow the relevant creature or setting entry for requirements and resolution.
+Defeat doesn't automatically inflict injury. Where a creature or setting requires a finishing procedure, victory earns the chance to attempt it: finish the deciding volley, resolve the procedure as its entry describes, then settle compromise.
 
 ==== Mutual Defeat
 If both sides are defeated in the same volley, or both start at 0 after Superiority, neither wins outright.
@@ -141,7 +129,7 @@ If accepted, apply the terms without another roll. Do not also apply compromise 
 If rejected, continue. Conceding grants no automatic Tychē Point.
 
 === 10.13 Compromise
-Compare the winner's remaining Disposition with the original adjusted starting value recorded at setup (§10.9):
+Compare the winner's remaining Disposition with the original adjusted starting value recorded at setup (§10.2):
 #figure(table(columns: (65%, 35%),
   table.header([Starting Disposition lost], [Compromise]),
   [None], [None],
@@ -164,14 +152,11 @@ These are consequence packages, not mandatory lists. Do not automatically add in
 Compromise cannot simply reverse the result or grant the loser's complete incompatible objective.
 
 ==== Negotiating Terms
-+ Establish the grade.
-+ The loser proposes terms.
-+ Confirm what the winner achieves.
-+ Confirm what the loser retains or gains.
-+ State all costs and who pays.
-+ Credit eligible existing injuries.
-+ Resolve eligible Resistance.
-+ Record the binding result.
+// PLAYTEST: 4-step negotiation (was 8 steps). Check that tables still state every cost and who pays it.
++ #strong[Find the grade] from the table above.
++ #strong[Agree one package.] The loser proposes it: what the winner achieves, what the loser keeps or gains, and every cost and who pays it.
++ #strong[Settle injuries.] Credit eligible existing injuries, then resolve eligible Resistance.
++ #strong[Record] the binding result.
 
 Keep terms proportionate, relevant and within the stakes. If agreement proves difficult, the GM adjudicates using these limits. Disagreement does not cancel earned compromise.
 
@@ -186,9 +171,7 @@ Do not pool, split, transfer or credit injuries against non-injury consequences.
 Add no replacement injury because an existing one satisfies the first.
 
 ==== Resistance
-Imposed compromise statuses may be Resisted normally; agreed payments follow §10.7.
-
-Resistance may remove an injury but does not revoke the loser's concession or another stated consequence. Add no replacement cost because Resistance removed the injury.
+Imposed compromise statuses can be Resisted normally (§6); agreed payments can't (§10.7). Resisting an injury doesn't revoke the concession or other stated consequences, and adds no replacement cost.
 
 ==== Binding Results
 Victory, concessions, promises and consequences stand. Genuinely new events may change them; do not ignore or immediately reroll them because someone dislikes the result.
@@ -200,9 +183,7 @@ Ordinary NPCs have no Pools and reduce imposed harm only through listed Armour, 
 
 NPC defeat uses §10.12. Capture, escape, injury and death follow the stakes and outcome. Use a Dying clock when rescue matters, not to make an accepted rescue objective impossible.
 
-Creature-specific rules remain in force. Immunity may stop an unsuitable status without stopping Disposition loss in a contest the creature can lose.
-
-#strong[Specific breaking points.] Apply the normal tier-6 procedure unless the relevant creature or condition explicitly replaces it. Use that entry's stated outcome and the applicable limits against duplicate Scars.
+Creature-specific rules remain in force, including breaking points that replace the tier-6 procedure (§6.3). Immunity may stop an unsuitable status without stopping Disposition loss in a contest the creature can lose.
 
 === 10.15 Order of Resolution
 + Establish objectives, stakes, participants and exits.
@@ -224,7 +205,7 @@ Creature-specific rules remain in force. Immunity may stop an unsuitable status 
 + Before the next roll, allow concession proposals.
 + Resolve permitted creature finishing procedures before compromise.
 + Settle compromise or concession.
-+ Recover each layer only through its own procedure (§10.7).
++ Recover each layer only through its own procedure (§6.5).
 
 Specific rules override general rules only on the subject addressed.
 

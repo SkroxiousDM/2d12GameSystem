@@ -23,8 +23,7 @@
 #include "chapter-2.9-momentum-and-woe.typ"
 
 #include "chapter-2.10-conflict-system.typ"
-#include "chapter-2.10-area-and-interpose.typ"
-#include "chapter-2.10-guardian-domain-clarifications.typ"
+#include "chapter-2.10-area-and-limits.typ"
 
 #include "chapter-2.11.playbooks.typ"
 
@@ -33,4 +32,5 @@
 #include "chapter-2.13-example-of-play.typ"
 
 #include "chapter-2.14-design-notes.typ"
+
 

@@ -18,10 +18,11 @@ Silent, patient, and impossible to pin down.
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Shadow-Born];], [Truths about darkness, noise, or crowds lower your Stealth Difficulty by #strong[two steps] instead of one.],
-    [2a], [#strong[Vanish];], [Once per scene, after any roll, become hidden if there\'s any cover nearby. No roll needed. This changes your position going forward; it does not undo resolved effects, Disposition loss, injuries or a settled outcome, cancel an independently resolving action or grant an additional scripted turn.],
+    [2a], [#strong[Vanish];], [Once per scene, after any roll, become hidden if there\'s any cover nearby. No roll needed. This changes your position from now on; it doesn\'t undo anything already resolved.],
     [2b], [#strong[Shadow Escort];], [Up to #strong[two allies] can use your Stealth result instead of rolling their own.],
-    [3a], [#strong[Unseen Hand];], [Any action you take while hidden gains #strong[+1 Power] on a success.],
-    [3b], [#strong[★ Living Shadow];], [Once per session, describe a concealed route through one guarded or blocked area and name a destination on the other side. You reach it unnoticed without a roll, provided the route could physically accommodate you. Ordinary locks, patrols and surveillance do not prevent this passage. Declare before attempting the crossing. During a scripted conflict, use this between exchanges, before either side scripts the next one. It moves only you and what you carry; it does not open the route for others. If unnoticed passage was your sole conflict objective, you achieve it and leave that conflict without compromise. Otherwise, continue from your new position without refreshing Disposition or other conflict resources.],
+    // PLAYTEST: B4, no stacking with Opportunist.
+    [3a], [#strong[Unseen Hand];], [Any action you take while hidden gains #strong[+1 Power] on a success. It doesn\'t stack with Opportunist.],
+    [3b], [#strong[★ Living Shadow];], [Once per session, describe a concealed route through one guarded or blocked area to a destination beyond it. If the route could physically fit you, you reach it unnoticed without a roll; ordinary locks, patrols and surveillance don\'t stop you. It moves only you and what you carry. In a scripted conflict, use it between exchanges: if unnoticed passage was your only objective, you achieve it and leave without compromise; otherwise, continue from the new position.],
   )]
   , kind: table
   )
@@ -41,15 +42,16 @@ Sniper, archer, gunslinger: steady breath and a sharp eye.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Called Shot];], [Once per roll with Shoot, a #strong[free Weaken] effect: burn one of the target\'s tags (weapon, cover, mobility) for the scene. This explicitly permits the Weaken effect; free waives its Power cost, not the action interaction or declared stakes, and grants no additional scripted action.],
-    [2a], [#strong[Overwatch];], [Once per scene, cancel an imposed status of tier 2 or less about to hit an ally by shooting the source. Declare this before the status is applied. It cannot cancel shared Disposition loss, injury-trade payments, running-dry statuses, agreed concession costs or other accepted payments. In conflicts, you may Defend with #strong[Shoot] when covering fire can protect your side.],
-    [2b], [#strong[Trick Shot];], [Ignore Truths about cover and angles. A free #strong[Extra Feat] when you shoot objects (cut a rope, hit a switch, ricochet). Free waives the Power cost; it grants no additional scripted action and cannot bypass the action interaction or declared stakes.],
-    [3a], [#strong[One Shot];], [Once per session, a Shoot Attack against a non-major NPC #strong[Takes them Out] on a success.],
-    [3b], [#strong[★ Sniper\'s Patience];], [Spend a scene setting up (4-segment clock). Your shot gets #strong[+2 bonus dice] for free and #strong[+2 Power] on a success. These dice count toward the normal bonus-dice cap; preparation grants no additional scripted action.],
+    [1], [#strong[Called Shot];], [Once per roll with Shoot, a #strong[free Weaken] effect: suppress one of the target\'s tags (weapon, cover, mobility) for the scene.],
+    [2a], [#strong[Overwatch];], [Once per scene, cancel an imposed status of tier 2 or less about to hit an ally by shooting the source; declare it before the status applies. In conflicts, you may Defend with #strong[Shoot] when covering fire can protect your side.],
+    [2b], [#strong[Trick Shot];], [Ignore Truths about cover and angles. Gain a free #strong[Extra Feat] when you shoot objects (cut a rope, hit a switch, ricochet).],
+    // PLAYTEST: R4, defines One Shot inside scripted conflicts.
+    [3a], [#strong[One Shot];], [Once per session, a successful Shoot Attack against a non-major NPC #strong[Takes them Out];. In a conflict, it removes that participant and 1 additional Disposition.],
+    [3b], [#strong[★ Sniper\'s Patience];], [Spend a scene setting up (4-segment clock). Your shot gets #strong[+2 bonus dice] for free and #strong[+2 Power] on a success.],
   )]
   , kind: table
   )
-#colbreak()
+
 === 7. Opens Every Lock
 #quote(block: true)[
 Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
@@ -65,10 +67,13 @@ Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Bypass];], [Each success on a lock, safe, or security clock Advances it #strong[+1 extra segment];. The bonus advances that progress clock only; it is not additional Power or Disposition loss and grants no additional scripted action or action-interaction bypass (Core Rules §5, §10.5--10.6).],
-    [2a], [#strong[Back Door];], [Once per location, Create the Truth #emph[I know a way in] for #strong[1 Power];. It establishes access or leverage, not automatic victory over an unrelated conflict objective or permission to contradict resolved events.],
-    [2b], [#strong[Trap Sense];], [You always notice traps and alarms before triggering them. Resisting traps costs #strong[0 on a highest die of 5+];. This does not permit Resistance against shared Disposition loss, accepted payments or settled outcomes.],
-    [3a], [#strong[Master Key];], [Ordinary locks open without a roll. Complex security is #strong[two Difficulty steps lower];. The two-step reduction applies when testing against a Difficulty, including an eligible independent conflict test; do not convert it into a modifier to opposing totals in a versus test (Core Rules §10.5).],
+    // PLAYTEST: Balance FO B7, rider added (overlaps Decipher).
+    [1], [#strong[Bypass];], [Each success on a lock, safe or security clock advances it #strong[1 extra segment];. Before you roll, you also know the clock\'s size and what failing will set off.],
+    [2a], [#strong[Back Door];], [Once per location, Create the Truth #emph[I know a way in] for #strong[1 Power];. It gives access or leverage, not victory over an unrelated objective.],
+    // PLAYTEST: Balance FO B7, rider added (overlaps Escape Artist).
+    [2b], [#strong[Trap Sense];], [You always notice traps and alarms before triggering them. Resisting traps costs #strong[0 on a Resistance result of 5+];. Allies you warn in time Resist that trap with #strong[Edge +1];.],
+    // PLAYTEST: B2, was two steps; Master of the Field capstone gives one.
+    [3a], [#strong[Master Key];], [Ordinary locks open without a roll. Complex security is #strong[one Difficulty step lower];.],
     [3b], [#strong[★ Vault Breaker];], [Once per mission, declare a security layer already cracked: fill one security clock completely.],
   )]
   , kind: table
@@ -90,10 +95,11 @@ You never walk into a room without knowing how to leave it.
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Exit Strategy];], [When you enter a new scene, ask one free Discover question about exits or escape routes.],
-    [2a], [#strong[Clean Getaway];], [In Chase conflicts where you\'re fleeing, your side gets #strong[+3 starting Disposition];. Apply the +3 at full value with other flat starting-Disposition modifiers, before the minimum of 1 and opposing Superiority (Core Rules §10.2--10.3). Changing conflict type within the same unresolved struggle does not refresh Disposition or reapply setup bonuses.],
-    [2b], [#strong[Contin-gency];], [Once per mission, when things go wrong, reveal a prepared fallback (stashed gear, a getaway vehicle, a safe house) as a story tag. No Momentum needed. This cannot contradict resolved events, reverse paid costs or settled outcomes, or retroactively recalculate Superiority after setup.],
-    [3a], [#strong[Not Here];], [Once per scene, when you would receive an imposed harmful status, spend #strong[1 Momentum] and describe how you evade its source. Cancel that status on yourself and move to a nearby position you could reach without a separate test. You must be able to act. This does not cancel Disposition loss, effects on other characters, accepted payments or other effects of the triggering action. It grants no additional action and does not end the conflict.],
-    [3b], [#strong[★ Dead Man\'s Switch];], [Once per session, when you are captured or confined, declare a contingency and give the GM #strong[2 Woe];. At the start of your next scene, the contingency creates an escape opening: you slip one restraint, open one exit, or receive help from an established contact. You may immediately attempt one appropriate escape roll, even if confinement would normally prevent the attempt. This roll occurs outside any scripted exchange; if a conflict is underway, resolve the opening before its next exchange. You retain your injuries and other statuses. This does not revive you, restore confiscated equipment, free companions or guarantee the escape roll succeeds.],
+    // PLAYTEST: B1, was +3; matches At the Helm.
+    [2a], [#strong[Clean Getaway];], [In Chase conflicts where you\'re fleeing, your side gets #strong[+2 starting Disposition];.],
+    [2b], [#strong[Contin-gency];], [Once per mission, when things go wrong, reveal a prepared fallback (stashed gear, a getaway vehicle, a safe house) as a Truth. No Momentum needed.],
+    [3a], [#strong[Not Here];], [Once per scene, when you would receive an imposed harmful status and can act, spend #strong[1 Momentum] and describe how you evade its source: cancel that status on yourself and move to a nearby position. Disposition loss and other effects of the triggering action still apply.],
+    [3b], [#strong[★ Dead Man\'s Switch];], [Once per session, when you\'re captured or confined, declare a contingency and give the GM #strong[2 Woe];. At the start of your next scene it creates an opening (you slip one restraint, an exit opens, or an established contact helps), and you may at once make one escape roll, even if confinement would normally prevent it. In a conflict, resolve it before the next exchange. Your statuses stay, and it doesn\'t revive you, recover confiscated gear, free companions or guarantee the roll.],
   )]
   , kind: table
   )

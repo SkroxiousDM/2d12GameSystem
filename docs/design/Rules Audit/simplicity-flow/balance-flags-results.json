@@ -1,0 +1,420 @@
+{
+ "A_difficulty": {
+  "+4 vs Standard 15": {
+   "base": [
+    68.9,
+    1.74
+   ],
+   "one step": [
+    85.4,
+    2.55
+   ],
+   "bonus die": [
+    87.6,
+    2.59
+   ],
+   "two steps": [
+    95.8,
+    3.45
+   ]
+  },
+  "+4 vs Hard 18": {
+   "base": [
+    45.7,
+    1.11
+   ],
+   "one step": [
+    68.9,
+    1.74
+   ],
+   "bonus die": [
+    71.7,
+    1.77
+   ],
+   "two steps": [
+    85.5,
+    2.55
+   ]
+  },
+  "+4 vs Formidable 21": {
+   "base": [
+    24.9,
+    0.62
+   ],
+   "one step": [
+    45.9,
+    1.11
+   ],
+   "bonus die": [
+    48.5,
+    1.1
+   ],
+   "two steps": [
+    68.7,
+    1.74
+   ]
+  },
+  "+4 vs Heroic 24": {
+   "base": [
+    10.4,
+    0.3
+   ],
+   "one step": [
+    25.0,
+    0.62
+   ],
+   "bonus die": [
+    24.2,
+    0.62
+   ],
+   "two steps": [
+    45.8,
+    1.11
+   ]
+  },
+  "+6 vs Standard 15": {
+   "base": [
+    80.5,
+    2.26
+   ],
+   "one step": [
+    93.0,
+    3.15
+   ],
+   "bonus die": [
+    93.9,
+    3.18
+   ],
+   "two steps": [
+    99.3,
+    4.09
+   ]
+  },
+  "+6 vs Hard 18": {
+   "base": [
+    61.8,
+    1.52
+   ],
+   "one step": [
+    80.6,
+    2.27
+   ],
+   "bonus die": [
+    83.2,
+    2.3
+   ],
+   "two steps": [
+    93.1,
+    3.14
+   ]
+  },
+  "+6 vs Formidable 21": {
+   "base": [
+    38.2,
+    0.93
+   ],
+   "one step": [
+    61.9,
+    1.51
+   ],
+   "bonus die": [
+    64.6,
+    1.52
+   ],
+   "two steps": [
+    80.6,
+    2.27
+   ]
+  },
+  "+6 vs Heroic 24": {
+   "base": [
+    19.4,
+    0.49
+   ],
+   "one step": [
+    38.1,
+    0.93
+   ],
+   "bonus die": [
+    40.3,
+    0.92
+   ],
+   "two steps": [
+    61.8,
+    1.51
+   ]
+  }
+ },
+ "B_disposition": {
+  "attack share 1.0": {
+   "even": [
+    36.6,
+    26.8,
+    1.03
+   ],
+   "+1 per hit": [
+    46.3,
+    28.0,
+    1.02
+   ],
+   "flat +1": [
+    46.7,
+    25.4,
+    1.05
+   ],
+   "flat +2": [
+    56.5,
+    22.8,
+    1.07
+   ],
+   "flat +3": [
+    65.4,
+    19.1,
+    1.09
+   ]
+  },
+  "attack share 0.5": {
+   "even": [
+    44.9,
+    10.7,
+    1.48
+   ],
+   "+1 per hit": [
+    52.3,
+    11.2,
+    1.38
+   ],
+   "flat +1": [
+    52.4,
+    9.9,
+    1.57
+   ],
+   "flat +2": [
+    59.2,
+    9.0,
+    1.65
+   ],
+   "flat +3": [
+    65.5,
+    8.0,
+    1.72
+   ]
+  }
+ },
+ "start_disp_mean": 5.33,
+ "C_auto": {
+  "Standard 15, no Effort": {
+   "success%": 80.5,
+   "mean Power": 2.26,
+   "P(Power>=4)%": 20.1,
+   "P(Power>=5)%": 8.4
+  },
+  "Standard 15, Effort die": {
+   "success%": 93.9,
+   "mean Power": 3.18,
+   "P(Power>=4)%": 41.3,
+   "P(Power>=5)%": 20.0
+  },
+  "Hard 18, no Effort": {
+   "success%": 61.8,
+   "mean Power": 1.51,
+   "P(Power>=4)%": 8.3,
+   "P(Power>=5)%": 1.4
+  },
+  "Hard 18, Effort die": {
+   "success%": 83.2,
+   "mean Power": 2.29,
+   "P(Power>=4)%": 20.0,
+   "P(Power>=5)%": 3.7
+  },
+  "Formidable 21, no Effort": {
+   "success%": 38.2,
+   "mean Power": 0.93,
+   "P(Power>=4)%": 1.4,
+   "P(Power>=5)%": 0.7
+  },
+  "Formidable 21, Effort die": {
+   "success%": 64.6,
+   "mean Power": 1.52,
+   "P(Power>=4)%": 3.8,
+   "P(Power>=5)%": 2.0
+  },
+  "Heroic 24, no Effort": {
+   "success%": 19.5,
+   "mean Power": 0.49,
+   "P(Power>=4)%": 0.7,
+   "P(Power>=5)%": 0.7
+  },
+  "Heroic 24, Effort die": {
+   "success%": 40.1,
+   "mean Power": 0.92,
+   "P(Power>=4)%": 2.0,
+   "P(Power>=5)%": 2.0
+  }
+ },
+ "D_budget_mean": 25.49,
+ "D_spend": {
+  "8 workings/day, 0% with Effort": {
+   "cost 1": [
+    8,
+    17.5
+   ],
+   "cost 1 + FC": [
+    0,
+    25.5
+   ],
+   "cost 2": [
+    16,
+    9.5
+   ],
+   "cost 2 + FC (to 1)": [
+    8,
+    17.5
+   ]
+  },
+  "8 workings/day, 25% with Effort": {
+   "cost 1": [
+    10,
+    15.5
+   ],
+   "cost 1 + FC": [
+    4,
+    21.5
+   ],
+   "cost 2": [
+    18,
+    7.5
+   ],
+   "cost 2 + FC (to 1)": [
+    12,
+    13.5
+   ]
+  },
+  "8 workings/day, 50% with Effort": {
+   "cost 1": [
+    12,
+    13.5
+   ],
+   "cost 1 + FC": [
+    8,
+    17.5
+   ],
+   "cost 2": [
+    20,
+    5.5
+   ],
+   "cost 2 + FC (to 1)": [
+    16,
+    9.5
+   ]
+  },
+  "12 workings/day, 0% with Effort": {
+   "cost 1": [
+    12,
+    13.5
+   ],
+   "cost 1 + FC": [
+    0,
+    25.5
+   ],
+   "cost 2": [
+    24,
+    1.5
+   ],
+   "cost 2 + FC (to 1)": [
+    12,
+    13.5
+   ]
+  },
+  "12 workings/day, 25% with Effort": {
+   "cost 1": [
+    15,
+    10.5
+   ],
+   "cost 1 + FC": [
+    6,
+    19.5
+   ],
+   "cost 2": [
+    27,
+    -1.5
+   ],
+   "cost 2 + FC (to 1)": [
+    18,
+    7.5
+   ]
+  },
+  "12 workings/day, 50% with Effort": {
+   "cost 1": [
+    18,
+    7.5
+   ],
+   "cost 1 + FC": [
+    12,
+    13.5
+   ],
+   "cost 2": [
+    30,
+    -4.5
+   ],
+   "cost 2 + FC (to 1)": [
+    24,
+    1.5
+   ]
+  },
+  "16 workings/day, 0% with Effort": {
+   "cost 1": [
+    16,
+    9.5
+   ],
+   "cost 1 + FC": [
+    0,
+    25.5
+   ],
+   "cost 2": [
+    32,
+    -6.5
+   ],
+   "cost 2 + FC (to 1)": [
+    16,
+    9.5
+   ]
+  },
+  "16 workings/day, 25% with Effort": {
+   "cost 1": [
+    20,
+    5.5
+   ],
+   "cost 1 + FC": [
+    8,
+    17.5
+   ],
+   "cost 2": [
+    36,
+    -10.5
+   ],
+   "cost 2 + FC (to 1)": [
+    24,
+    1.5
+   ]
+  },
+  "16 workings/day, 50% with Effort": {
+   "cost 1": [
+    24,
+    1.5
+   ],
+   "cost 1 + FC": [
+    16,
+    9.5
+   ],
+   "cost 2": [
+    40,
+    -14.5
+   ],
+   "cost 2 + FC (to 1)": [
+    32,
+    -6.5
+   ]
+  }
+ }
+}

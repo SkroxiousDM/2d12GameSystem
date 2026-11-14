@@ -11,12 +11,24 @@
             "id": "7aa6f6322e6f3252",
             "type": "leaf",
             "state": {
-              "type": "typst-source",
+              "type": "markdown",
               "state": {
-                "file": "docs/TestamentOfDust/testament-of-dust-v2-setting-book.typ"
+                "file": "CONTRIBUTING.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "file-type",
-              "title": "testament-of-dust-v2-setting-book"
+              "icon": "lucide-file",
+              "title": "CONTRIBUTING"
             }
           },
           {
@@ -47,45 +59,32 @@
             "id": "d0bb053ff464a65a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "typst-source",
               "state": {
-                "file": "CONTRIBUTING.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "docs/2d12System/chapter-2.9-momentum-and-woe.typ"
               },
-              "icon": "lucide-file",
-              "title": "CONTRIBUTING"
+              "icon": "file-type",
+              "title": "chapter-2.9-momentum-and-woe"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
-        "id": "1197d9b0827b289d",
+        "id": "bc25ba27aff79fae",
         "type": "tabs",
         "children": [
           {
-            "id": "0a89fec587e71049",
+            "id": "5bc1eaf6b9174617",
             "type": "leaf",
             "state": {
               "type": "typst-preview",
               "state": {
-                "vaultPath": "docs/2d12System/drafts/conflict-system-with-stakes-and-compromise.typ",
+                "vaultPath": "docs/2d12System/chapter-adversaries-part-3.typ",
                 "themeOverride": null,
                 "pinned": false
               },
               "icon": "book-open",
-              "title": "Preview: conflict-system-with-stakes-and-compromise.typ"
+              "title": "Preview: chapter-adversaries-part-3.typ"
             }
           }
         ]
@@ -253,44 +252,44 @@
       "bases:Create new base": false
     }
   },
-  "active": "d0bb053ff464a65a",
+  "active": "7aa6f6322e6f3252",
   "lastOpenFiles": [
+    "docs/2d12System/chapter-adversaries-part-3.typ",
+    "docs/2d12System/chapter-adversaries.typ",
+    "docs/2d12System/chapter-adversaries-part-2.typ",
+    "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
+    "docs/2d12System/the-2d12-system-v2-core-rulebook.pdf",
+    "docs/2d12System/chapter-4-descriptors.typ",
+    "docs/2d12System/chapter-6.3-combat-focuses.typ",
+    "docs/2d12System/chapter-6.4-stealth-and-precision-focuses.typ",
+    "docs/2d12System/chapter-6.5-knowledge-focuses.typ",
+    "docs/2d12System/chapter-6.8-weird-focuses.typ",
+    "docs/2d12System/chapter-6.7-wilderness-focuses.typ",
+    "docs/playtest/engine_v2/ENCOUNTERS_STATE.md",
+    "docs/design/Rules Audit/simplicity-flow/optional-modules-pass2-notes.md",
+    "docs/design/Rules Audit/simplicity-flow/generic-playbooks-pass1-notes.md",
+    "docs/design/Rules Audit/simplicity-flow/optional-modules-pass1-notes.md",
+    "docs/design/Rules Audit/simplicity-flow/generic-focuses-pass1-notes.md",
+    "docs/design/Rules Audit/simplicity-flow/core-rules-pass5-notes.md",
+    "docs/design/Rules Audit/simplicity-flow/core-rules-pass3-notes.md",
+    "docs/design/Rules Audit/simplicity-flow/core-rules-pass4-notes.md",
+    "docs/design/Rules Audit/simplicity-flow/core-rules-pass2-notes.md",
+    "docs/design/Rules Audit/simplicity-flow/core-rules-pass1-notes.md",
+    "docs/design/Rules Audit/simplicity-flow/balance-flags-review-notes.md",
+    "docs/2d12System/drafts/ideas-for-V2.md",
+    "docs/design/2d12-system-proposal.md",
+    "docs/design/ideas-for-V2.md",
     "README.md",
+    "CHANGELOG.md",
+    "changelog/history-through-2026-10-30.md",
     "CONTRIBUTING.md",
     "docs/playtest/tollhouse-collectors-cards.md",
     "docs/playtest/tollhouse-collectors-calibration-cards-proposed.md",
-    "docs/playtest/engine_v2/test_core.py",
-    "docs/playtest/engine_v2/core.py",
     "docs/playtest/engine_v2/README.md",
-    "docs/playtest/engine_v2",
-    "docs/playtest/engine/test_collectors_rotation.py",
-    "docs/2d12System/drafts/ideas-for-V2.md",
     "docs/design/opposition-statblocks and conflict play test 2.md",
     "docs/playtest/engine/README.md",
-    "docs/2d12System/drafts/conflict-system-with-stakes-and-compromise.typ",
     "docs/2d12System/Rules Audit/chapter-2.10-conflict-system-rewrite.md",
     "docs/design/Rules Audit/README.md",
-    "docs/design/Rules Audit/conflict-compatibility-status.md",
-    "docs/design/Rules Audit/conflict-shared-rules.md",
-    "docs/design/Rules Audit/batch-52-furcifer-rulings.md",
-    "docs/design/Rules Audit/conflict-ability-audit.md",
-    "docs/design/Rules Audit/batch-52-implementation-status.md",
-    "docs/design/Rules Audit/batch-51-core-rulings.md",
-    "docs/design/Rules Audit",
-    "docs/2d12System/drafts/chapter-2.10-conflict-system-rewrite.md",
-    "docs/2d12System/drafts/README.md",
-    "docs/2d12System/Rules Audit/README.md",
-    "docs/2d12System/drafts/module-stakes-and-compromise.typ",
-    "docs/2d12System/Rules Audit/batch-51-core-rulings.md",
-    "docs/2d12System/Rules Audit/conflict-shared-rules.md",
-    "docs/2d12System/Rules Audit/conflict-compatibility-status.md",
-    "docs/2d12System/Rules Audit/conflict-ability-audit.md",
-    "docs/2d12System/Rules Audit/batch-52-implementation-status.md",
-    "docs/2d12System/Rules Audit/batch-52-furcifer-rulings.md",
-    "docs/2d12System/Rules Audit",
-    "docs/2d12System/New folder",
-    "docs/2d12System/drafts/module-stakes-and-checks.typ",
-    "docs/Archive/2d12 Version 1/01-resolution-engine.md",
     "docs/2d12System/art/playbooks/generic/06-adept.png",
     "docs/2d12System/art/playbooks/generic/06-adept.jpg",
     "docs/2d12System/art/playbooks/generic/05-explorator.png",

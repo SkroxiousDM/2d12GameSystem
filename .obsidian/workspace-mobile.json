@@ -35,24 +35,12 @@
             "id": "a7482e9da91accbe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "docs/design/rules-audit.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "docs/2d12System/the-2d12-system-v2-core-rulebook.pdf"
               },
-              "icon": "lucide-file",
-              "title": "rules-audit"
+              "icon": "lucide-file-text",
+              "title": "the-2d12-system-v2-core-rulebook"
             }
           },
           {
@@ -241,18 +229,31 @@
   },
   "active": "a7482e9da91accbe",
   "lastOpenFiles": [
+    "docs/design/rules-audit.md",
+    "docs/design/Rules Audit/simplicity-flow/adversaries-rules-wiring-series.md",
+    "docs/design/Rules Audit/simplicity-flow/adversaries-rules-wiring-notes.md",
+    "docs/design/Rules Audit/simplicity-flow/adversaries-rules-wiring-02.patch",
+    "docs/design/Rules Audit/simplicity-flow/adversaries-rules-wiring-01.patch",
+    "docs/2d12System/adversaries-common.typ",
+    "docs/design/Rules Audit/simplicity-flow/optional-modules-pass2.patch",
+    "docs/design/Rules Audit/simplicity-flow/optional-modules-pass2-notes.md",
+    "docs/design/Rules Audit/simplicity-flow/optional-modules-pass1.patch",
+    "docs/design/Rules Audit/simplicity-flow/optional-modules-pass1-notes.md",
+    "docs/design/Rules Audit/simplicity-flow/generic-playbooks-pass1.patch",
+    "docs/design/Rules Audit/simplicity-flow/generic-playbooks-pass1-notes.md",
+    "docs/design/Rules Audit/simplicity-flow/generic-focuses-pass1.patch",
+    "docs/design/Rules Audit/simplicity-flow/generic-focuses-pass1-notes.md",
+    "docs/design/Rules Audit/simplicity-flow/core-rules-pass5.patch",
+    "docs/design/Rules Audit/simplicity-flow/core-rules-pass5-notes.md",
+    "docs/design/Rules Audit/simplicity-flow/core-rules-pass4.patch",
+    "docs/design/Rules Audit/simplicity-flow/core-rules-pass4-notes.md",
+    "docs/design/Rules Audit/simplicity-flow/core-rules-pass3.patch",
+    "docs/design/Rules Audit/simplicity-flow/core-rules-pass3-notes.md",
+    "docs/design/Rules Audit/simplicity-flow/core-rules-pass2-notes.md",
+    "docs/design/Rules Audit/simplicity-flow/core-rules-pass1-notes.md",
+    "docs/design/Rules Audit/simplicity-flow/balance-flags-review-notes.md",
     "docs/design/rules-audit-phase1-decisions.md",
     "docs/Playtest tools.md",
-    "docs/2d12System/chapter-7-appendix-a-quick-reference.typ",
-    "docs/2d12System/chapter-6-focuses.typ",
-    "docs/2d12System/chapter-5-playbooks.typ",
-    "docs/2d12System/chapter-4-descriptors.typ",
-    "docs/2d12System/chapter-3-optional-modules.typ",
-    "docs/2d12System/chapter-3-module-f-inquiry-and-revelation.typ",
-    "docs/2d12System/chapter-3-module-e-factions.typ",
-    "docs/2d12System/chapter-3-module-d-downtime.typ",
-    "docs/2d12System/chapter-3-module-c-truth-driven-sandbox.typ",
-    "docs/2d12System/chapter-3-module-b-the-grind-and-travel.typ",
     "docs/2d12System/Chapter 2 - Core rules.md",
     "Chapter 2.2.md",
     "Untitled.md",
@@ -263,19 +264,6 @@
     "docs/TestamentOfDust/2d12-system-proposal.md",
     "docs/TestamentOfDust/testament-of-dust-setting-rules.md",
     "docs/VampireHunterD/2d12-system-proposal.md",
-    "docs/VampireHunterD/How do pools regenerate. How does resting work.md",
-    "docs/VampireHunterD/vhd-focuses.md",
-    "docs/VampireHunterD/vhd-playbooks.md",
-    "docs/VampireHunterD/playbooks.md",
-    "docs/VampireHunterD/vhd-descriptors.md",
-    "System components.md",
-    "docs/VampireHunterD/focuses.md",
-    "docs/VampireHunterD/2d12-System--Character-Sheet-v0.2.md",
-    "docs/VampireHunterD/vhd-setting-rules.md",
-    "docs/01-resolution-engine.md",
-    "docs/06-magic-rewrite.md",
-    "docs/06.1-runic-spellbook.md",
-    "CHANGELOG.md",
-    "Character Sheet.md"
+    "docs/VampireHunterD/How do pools regenerate. How does resting work.md"
   ]
 }

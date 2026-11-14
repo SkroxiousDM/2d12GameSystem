@@ -12,11 +12,11 @@ Choose the modules the campaign needs. Use an explicit replacement instead of ru
 - #strong[Downtime (D)] replaces Module B.4's Players' Turn procedure. Core field rests and Module B's Grind-condition recovery remain separate (D.1).
 - #strong[Factions (E)] replaces Module C.5's basic faction action procedure. Its starting-cluster procedure E.1A replaces C.8; retain the rest of Module C.
 - #strong[Downtime with Factions] uses one World Turn per stay, after endeavours resolve (D.7, E.10). A longer stay does not create extra World Turns or faster Strain recovery.
-- #strong[Inquiry (F)] applies its explicit clue and Insight procedures in Inquiry scenes. It does not replace ordinary conflict resolution; changing scene labels does not reset an ongoing struggle.
+- #strong[Inquiry (F)] adds clue and Insight procedures to Inquiry scenes. It doesn't replace conflicts, and relabelling a scene doesn't reset one.
 
-Specific module rules govern their stated exceptions. For example, the Grind's 2-Woe clock tick does not use the generic danger-clock rate, and a cypher's no-roll use does not grant an extra scripted turn. Keep pools, statuses, Disposition, project clocks and faction Qualities distinct unless an explicit rule connects them.
+Module rules override core rules only where they say so: the Grind's 2-Woe tick isn't the danger-clock rate, and a cypher's no-roll use isn't an extra scripted turn. Pools, statuses, Disposition, project clocks and faction Qualities stay separate unless a rule links them.
 
-Unspecified interactions remain open rulings, not permission to add effects, costs or resets. The individual module sections identify retained playtest questions and provide their full procedures.
+Anything a module doesn't cover is an open ruling, not permission to add effects, costs or resets. Each module lists its own.
 ]
 
 #include "chapter-3-module-a-cyphers-and-artifacts.typ"

@@ -2,9 +2,9 @@
 // Uses Module E vocabulary (Qualities, Standing, Strain, projects). References C.7 for the story map.
 
 === E.1A Building the Starting Cluster (Long Knives)
-Use this when starting a campaign, after the C.7 story map is drawn. It produces the first faction records (E.1), their starting Standing, and the opening situation. It takes about 30 to 45 minutes. This replaces C.8 when Module E is enabled; do not build a second starting cluster through the basic procedure.
+Use this when starting a campaign, after the C.7 story map is drawn. It produces the first faction records (E.1), their starting Standing and the opening situation, and takes about 30 to 45 minutes. It replaces C.8 when Module E is enabled.
 
-#strong[Size.] Aim for #strong[four] factions: three #strong[active] (full records) and one #strong[background] (name, purpose and Standing). E.1 recommends starting with three active factions and tracking no more than five.
+#strong[Size.] Aim for #strong[four] factions: three #strong[active] (full records) and one #strong[background] (name, purpose and Standing).
 
 1. #strong[Place.] Name the location. Record it as the first Region Truth (C.1).
 2. #strong[Gather.] List the groups the PCs' lines point to: Organizations from the map, plus fragments of them. Note what each wants in the area and who would oppose it.
@@ -15,17 +15,17 @@ Use this when starting a campaign, after the C.7 story map is drawn. It produces
   table.header([Long Knives field], [Becomes], [How]),
   [#strong[Has]], [Qualities, assets, vulnerability (E.1, E.2)], [The #emph[obvious] asset sets the faction's highest Quality (+3, or +4 for a dominant power). The #emph[less obvious] asset sets a second Quality (+2). Other Qualities are 0 or +1. Explain every nonzero Quality through concrete assets. The vulnerability is something opponents can target; it need not match a low Quality.],
   [#strong[Wants]], [Ambition, project, primary Quality, clock (E.1, E.10)], [Write the long-term ambition, then one current project with its intended outcome and its #strong[primary Quality]. Choose the clock by the change it makes: 4 or 6 for a limited or local action, 8 for a Site Truth, 12 for a Region Truth (E.10, C.6).],
-  [#strong[Link]], [Standing and representative (E.3, E.4)], [Set starting Standing (below). Name a representative. Record membership, patronage and favor lines from the C.7 map (E.4, E.7).],
+  [#strong[Link]], [Standing and representative (E.3, E.4)], [Set starting Standing (below). Name a representative. Record membership, patronage and favour lines from the C.7 map (E.4, E.7).],
   [#strong[Relations]], [Ally and rival (E.1)], [Name one important ally and one rival for each active faction where relevant.],
 )
 
 #strong[Starting Standing.] Use the C.7 map to establish the faction's actual policy toward the party, not an automatic score from one PC's title or debt:
-- A sworn membership or patronage line may support #strong[+1] or #strong[+2] when it reflects welcoming or trusted treatment. If only that PC has the relationship, record a personal exception instead of automatically improving party Standing (E.4). Membership and patronage retain their own permissions and terms.
-- A rivalry or pursuit may support #strong[−1] or #strong[−2] when the faction's actual treatment is distrustful or hostile. Being a debtor or being afraid does not alone establish hostility; record the obligation or fear separately and set Standing from the relationship (E.3, E.7).
+- A sworn membership or patronage line may support #strong[+1] or #strong[+2] when it reflects welcoming or trusted treatment. If only one PC has the relationship, record a personal exception instead (E.4).
+- A rivalry or pursuit may support #strong[−1] or #strong[−2] when the faction's treatment is distrustful or hostile. A debt or fear alone isn't hostility; record it separately (E.3, E.7).
 - No established relationship: #strong[0].
-- Reserve ±3 for relationships that actually meet Enemy or Allied treatment; a blood feud or binding oath may justify that starting history but is not a substitute for establishing it. Where Standing is not 0 and the relationship matters, record the scoped relationship Truth (E.3).
+- Reserve ±3 for relationships that actually meet Enemy or Allied treatment. Where Standing isn't 0 and the relationship matters, record the relationship Truth (E.3).
 
-A personal exception replaces that relationship Truth for its subject; it does not stack with it or automatically extend to companions. Define office, patronage and obligation limits separately. A representative's friendly attitude does not grant authority to commit resources the faction cannot or will not supply (E.4--E.6).
+A personal exception replaces that relationship Truth for its subject and doesn't extend to companions. A friendly representative can't commit resources the faction can't or won't supply (E.4--E.6).
 
 #strong[Qualities and Cohesion.] A local faction normally has about 5 to 8 points across its Qualities, and a regional power about 9 to 12 (the Reed Quay Association in E.13 totals 9). A Quality of 0 means the faction can't independently mount a major action in that field (E.2). #strong[Don't start a faction with permanent Cohesion 0] unless you want it to begin in a Fracture crisis (E.12).
 
@@ -35,15 +35,15 @@ A personal exception replaces that relationship Truth for its subject; it does n
 8. #strong[Involvement.] For each PC with a line into the cluster, write one hook as an undertaking with a foreseeable strategic effect (E.8): which project it advances or obstructs through the Advance effect, and the likely change in Standing (E.3). Leave discoverable signs of secret projects (E.10). A played scene replaces the equivalent off-screen work, not the faction's other activity (E.10).
 9. #strong[First turn.] Take the first World Turn only after play begins. Don't ask for a faction roll to confirm what the party already accomplished (E.8). Off-screen actions use no Momentum, pools, Tychē or Woe (E.10).
 
-#strong[Starting history, not a forced resolution.] Step 5 establishes the opening incident as already completed before ordinary play. It does not let the GM cancel a resolved PC action, bypass a contested scene or fill another project automatically once play begins. Resolve subsequent PC struggles through the appropriate core procedure and faction actions through E.10. Completing a Site or Region clock does not itself rewrite a Campaign Truth; that still takes a major arc.
+#strong[The incident is history.] It happened before play starts; it can't later cancel a PC's action, skip a contested scene or complete another project. Once play begins, use the core rules for PC struggles and E.10 for faction actions. Campaign Truths still need a major arc.
 
-#strong[Pacing (playtest).] Average Power per World Turn for 2d12 + one Quality against Standard 15, before doubles and opposition. The turns below are rough clock-size-to-average-Power estimates, not guaranteed deadlines or a measured distribution of completion times. Overflow is discarded, and actual pacing depends on the declared action, opposition and applicable rules. These retained figures are not conflict win-rate or Disposition-length predictions.
+#strong[Pacing (playtest).] Average Power per World Turn for 2d12 + one Quality against Standard 15, counting Success at a Cost (1 Power) but not doubles or opposition. Turns to fill are expected values with overflow discarded; they are estimates, not deadlines.
 
 #table(columns: (16%, 28%, 28%, 28%),
   table.header([Quality], [Average Power per turn], [Turns to fill 8], [Turns to fill 12]),
-  [0], [0.65], [about 12], [about 18],
-  [+1], [0.83], [about 10], [about 14],
-  [+2], [1.04], [about 8], [about 12],
-  [+3], [1.27], [about 6], [about 9],
-  [+4], [1.52], [about 5], [about 8],
+  [0], [0.89], [about 9], [about 14],
+  [+1], [1.06], [about 8], [about 12],
+  [+2], [1.25], [about 7], [about 10],
+  [+3], [1.46], [about 6], [about 9],
+  [+4], [1.69], [about 5], [about 8],
 )

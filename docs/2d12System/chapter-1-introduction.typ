@@ -28,7 +28,7 @@ When a rule here mentions another chapter, it uses that chapter's name and secti
 == Notation
 
 - *★ Major.* An ability that costs *1 Refresh* when you take it, at creation or through advancement. Taken as a creation extra, it costs *2 Refresh total*, including the extra ability's 1-Refresh price (Generic Playbooks §1.1–1.2).
-- *◆ Capstone.* Unlocked after *12 Advances* if you have at least 4 abilities from that playbook. It costs no Refresh, and each character can have one.
+- *◆ Capstone.* Unlocked after *12 Advances* if you have at least 4 abilities from that playbook. Take it as an Advance; it costs no Refresh, and each character can have one.
 - *◈ Weird.* A Focus that assumes the supernatural, strange technology or other weird elements. Each setting decides which ◈ Focuses it allows and how its world reacts to them.
 - *Tags* are written in _italics_, such as _scarred knuckles_. *Statuses* add a tier, such as _wounded-2_.
 - *Difficulty* is written by name and target, such as *Standard 15* or *Hard 18*.

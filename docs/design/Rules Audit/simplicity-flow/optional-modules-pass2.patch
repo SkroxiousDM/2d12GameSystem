@@ -1,0 +1,440 @@
+diff --git a/2d12System/chapter-3-module-d-downtime.typ b/2d12System/chapter-3-module-d-downtime.typ
+index 0541dc8..f819375 100644
+--- a/2d12System/chapter-3-module-d-downtime.typ
++++ b/2d12System/chapter-3-module-d-downtime.typ
+@@ -7,7 +7,7 @@ Downtime is the stretch between expeditions when the party is safe enough to rec
+ === D.1 When It Applies
+ 
+ - #strong[Haven.] Downtime begins when the party reaches a place with shelter, food and enough safety that nobody expects an attack tonight: a village, outpost, monastery, camp or home base. The GM decides.
+-- #strong[Field rests stay separate.] Core Rules §6.5 rests, and Module B's night's rest and Grind-condition recovery, work as written. They give no Checks or endeavours. Reaching a haven is not itself a general reset: pools, statuses and Scars still follow their own recovery procedures. Healing does not refund an accepted payment or refresh an injury trade.
++- #strong[Field rests stay separate.] Core Rules §6.5 rests and Module B's night's rest and Grind recovery work as written, and give no Checks or endeavours. Reaching a haven isn't a reset: pools, statuses and Scars follow their own recovery rules.
+ - #strong[A stay ends] when the party leaves the haven or is forced out. Finished work stands; clocks keep their progress.
+ - #strong[Replaces Module B.4.] If you use Module D, the Players' Turn follows these rules.
+ 
+@@ -17,34 +17,34 @@ Downtime is the stretch between expeditions when the party is safe enough to rec
+ #figure( [#table( columns: (22%, 44%, 34%), align: (auto,auto,auto,), table.header([Stay], [Length], [Free Checks per PC],), table.hline(), [#strong[Brief];], [Up to 3 days], [1], [#strong[Ordinary];], [About a week (1 interval)], [2], [#strong[Extended];], [Each further full week is another interval], [+1 per extra interval], )] , kind: table )
+ 
+ - #strong[Checks.] Free Checks are added to any Checks earned on the expedition (B.4: applying a weakness tag or Scar to your own roll). Spend #strong[1 Check] for one endeavour. Unspent Checks are lost when the stay ends. You may give a Check to another PC whose endeavour you join.
+-- #strong[Stay Woe.] The GM does not use expedition Woe in downtime. The stay starts with #strong[1 Woe per PC]. Woe gained from downtime rolls joins this pool, which pays for the stay's event, complications and danger clocks, then is discarded (§9.2).
+-- #strong[Momentum] gained in downtime decays at the end of each scene and never leaves the stay (§9.1). #strong[Tychē Points] do not refresh unless the downtime begins a new session (§4.1); invokes, declares and compels work as normal.
+-- #strong[Goals.] At the end of the stay, each player writes one Goal for the next expedition (§3.5).
+-- #strong[World Turn (Module E).] If Module E is in use, a stay contains #strong[one World Turn] (E.10). The cadence with Module D is between adventures. The World Turn uses no Checks and no Stay Woe.
++- #strong[Stay Woe.] The GM does not use expedition Woe in downtime. The stay starts with #strong[1 Woe per PC]. Woe gained from downtime rolls joins this pool, which pays for the stay's event, complications and danger clocks, then is discarded (Core Rules §9.2).
++- #strong[Momentum] gained in downtime decays at the end of each scene and never leaves the stay (Core Rules §9.1). #strong[Tychē Points] do not refresh unless the downtime begins a new session (Core Rules §4.1); invokes, declares and compels work as normal.
++- #strong[Goals.] At the end of the stay, each player writes one Goal for the next expedition (Core Rules §3.5).
++- #strong[World Turn (Module E).] If Module E is in use, a stay contains #strong[one World Turn] (E.10). It uses no Checks and no Stay Woe.
+ 
+ === D.3 Upkeep 
+   Staying costs something. Instead of a currency, the stay carries an #strong[Upkeep clock of 6]. Settings may change its size or replace it with their own currency.
+ 
+ #figure( [#table( columns: (22%, 16%, 62%), align: (auto,auto,auto,), table.header([Standard], [Ticks / interval], [What it provides],), table.hline(), [#strong[Meagre];], [0], [Shelter and food. Truth: #emph[Poor Rest] (+1 step to Recuperate)], [#strong[Ordinary];], [1], [Reliable lodging and meals], [#strong[Comfortable];], [2], [Privacy and workspace. Truth: #emph[Well Appointed] (−1 step to Recuperate and Make)], [#strong[Hosted];], [0], [A host provides everything. Record an obligation (E.7): the service owed, its limits, notice, and what settles it.], )] , kind: table )
+ 
+-- #strong[If the clock fills:] the haven demands payment. The GM gains 2 Stay Woe, a Debt complication appears, and the clock resets to 2.
++- #strong[If the clock fills:] the haven demands payment. The GM gains 2 Stay Woe, the party gains the Truth #emph[In Debt to the Haven] (removed when the debt is settled with a Sustain endeavour or agreed payment), and the clock resets to 2.
+ - #strong[Routine provisioning] (restock party Supplies to 4, ordinary repairs) needs no roll and ticks Upkeep by 1.
+-- #strong[Hospitality is not free.] A host creates an obligation only when the terms are agreed. A vague claim of you owe me is an unresolved negotiation (E.7).
++- #strong[Hospitality isn't free,] but a host creates an obligation only when the terms are agreed. A vague \"you owe me\" is an open negotiation (E.7).
+ 
+ === D.4 Endeavours 
+   An #strong[endeavour] is a stretch of focused effort during the stay.
+ 
+-- #strong[Routine.] If failure would add nothing and the outcome is certain, no roll is needed. It generates no Power and no Momentum (§6.6).
+-- #strong[Uncertain.] If the result matters, roll the listed skill against #strong[Standard 15], adjusted by Truths. Spend Power on Effects (§5). Unspent Power becomes Momentum, which decays.
+-- #strong[Success at a Cost:] the GM adds a consequence, or the stay pool gains 1 Woe (player's choice, §2.5). #strong[Failure:] the effort doesn't take; the GM announces any consequence before another attempt, and the stay pool gains 1 Woe.
+-- #strong[Light or Strenuous.] A character with a lasting injury who takes a Strenuous endeavour does not progress that injury's healing interval this interval (§6.6).
++- #strong[Routine.] If failure would add nothing and the outcome is certain, no roll is needed. It generates no Power and no Momentum (Core Rules §6.6).
++- #strong[Uncertain.] If the result matters, roll the listed skill against #strong[Standard 15], adjusted by Truths. Spend Power on Effects (Core Rules §5). Unspent Power becomes Momentum, which decays.
++- #strong[Success at a Cost:] the GM adds a consequence, or the stay pool gains 1 Woe (player's choice, Core Rules §2.5). #strong[Failure:] the effort doesn't take, the stay pool gains 1 Woe, and the GM announces any consequence before another attempt.
++- #strong[Light or Strenuous.] A character with a lasting injury who takes a Strenuous endeavour does not progress that injury's healing interval this interval (Core Rules §6.6).
+ 
+-#strong[Scenes that become conflicts.] Use Core Rules §10.1 to choose the procedure: a consequential negotiation or other actively opposed struggle with several meaningful tactical choices may need a scripted conflict, not one endeavour roll. The normal Standard 15 and general Effect menu above do not replace conflict action interactions, versus tests or the restricted action effects. Inside that conflict, use §10.5--10.7 for scripting, costs, failures and complications. Spending Checks or receiving free Help grants no extra scripted turn, free actor reassignment or rotation bypass. A shared endeavour does not create a separate Disposition track for each contributor.
++#strong[Scenes that become conflicts.] A consequential, actively opposed struggle may need a scripted conflict instead of one endeavour roll (Core Rules §10.1). Then use the conflict rules (Core Rules §10.5--10.7), not the Standard 15 and Effect menu above. Checks and Help grant no extra scripted turn, and a shared endeavour doesn't give each contributor their own Disposition.
+ 
+ #strong[Shared endeavours.] A shared endeavour has one goal for the party or a subgroup. It costs #strong[2 Checks, paid from the participants' pooled Checks].
+ 
+ - Choose a lead. Each participant describes their contribution.
+-- The lead rolls. Participants add Help as in §2.4, within the +2 bonus-die cap.
++- The lead rolls. Participants add Help as in Core Rules §2.4, within the +2 bonus-die cap.
+ - Spend Power as usual. The result benefits all participants.
+ - Participants need not pay equally. Non-participants pay nothing.
+ 
+@@ -52,18 +52,18 @@ Downtime is the stretch between expeditions when the party is safe enough to rec
+ 
+ For an unlisted activity, the GM names a skill, a Light or Strenuous tag and the nearest Effects.
+ 
+-- #strong[Recuperate] counts as appropriate care (§6.6). It does not change treatment limits: at most 1 tier per lasting injury, then #emph[treated] until a healing interval removes a tier. It restores #strong[one] burned tag (§3.4). It cannot remove a Scar, refill pools (the 4th rest already does) or clear an affliction beyond what its source allows. Treating an injury does not itself return a Taken Out participant to an ongoing conflict; the explicit return requirements in §6.4 still apply.
+-- #strong[Prepare] can supply Superiority (§10.3) only against a #strong[named opposition declared beforehand], only one category per stay, and only if the preparation is concrete. The cap of 3 per conflict still applies. Distinct categories need distinct material advantages; repeating or renaming one preparation does not supply several categories. Apply earned Superiority during conflict setup after other modifiers and the minimum of 1. A prepared asset can also help an action when relevant, but does not automatically provide every kind of benefit.
++- #strong[Recuperate] counts as appropriate care (Core Rules §6.6) but doesn't change treatment limits: at most 1 tier per lasting injury, then #emph[treated] until a healing interval removes a tier. It restores #strong[one] burned tag (Core Rules §3.4). It can't remove a Scar, refill pools or clear an affliction beyond what its source allows, and it doesn't return a Taken Out participant to a conflict (Core Rules §6.4).
++- #strong[Prepare] can supply Superiority (Core Rules §10.3) only against #strong[named opposition declared beforehand], only one category per stay, and only if the preparation is concrete. The cap of 3 per conflict still applies, and one preparation can't be renamed into several categories.
+ 
+ === D.5 Projects 
+-  A #strong[project] is any goal too big for one endeavour. Use an #strong[8- or 12-segment clock] (§7), ticked by Advance. Each roll toward it costs 1 Check.
++  A #strong[project] is any goal too big for one endeavour. Use an #strong[8- or 12-segment clock] (Core Rules §7), ticked by Advance. Each roll toward it costs 1 Check.
+ 
+-#figure( [#table( columns: (62%, 10%, 28%), align: (auto,auto,auto,), table.header([Project], [Size], [Notes],), table.hline(), [Crafting a notable item, restoring a workshop], [8], [Needs access and materials], [Restoring a depleted artifact (A.2)], [8], [Needs fitting tools], [Adapting to permanent harm (§6.8): prosthesis, retraining, workaround], [8], [Does not remove a Scar], [Changing a Scar (§6.3)], [12], [Completing the clock counts as the milestone], [Changing a site (C.6)], [8], [A Site Truth], [Changing a region (C.6)], [12], [A Region Truth], )] , kind: table )
++#figure( [#table( columns: (62%, 10%, 28%), align: (auto,auto,auto,), table.header([Project], [Size], [Notes],), table.hline(), [Crafting a notable item, restoring a workshop], [8], [Needs access and materials], [Restoring a depleted artifact (A.2)], [8], [Needs fitting tools], [Adapting to permanent harm (Core Rules §6.8): prosthesis, retraining, workaround], [8], [Does not remove a Scar], [Changing a Scar (Core Rules §6.3)], [12], [Completing the clock counts as the milestone], [Changing a site (C.6)], [8], [A Site Truth], [Changing a region (C.6)], [12], [A Region Truth], )] , kind: table )
+ 
+ - #strong[Milestones.] For long projects, the GM names 2--3 milestones along the clock, such as #emph[secure the premises];, #emph[obtain equipment];, #emph[complete the work];.
+ - #strong[Minimum time.] A project cannot finish faster than the fiction allows, whatever the Checks.
+ - #strong[Unfinished projects] keep their progress until the next stay.
+-- #strong[Optional: Study Toward an Advance.] Off by default. A 6-segment clock, ticked in Develop endeavours. When it fills, the character gains #strong[1 XP]. Use it only if your table wants training to feed advancement directly (§12 has no training rule).
++- #strong[Optional: Study Toward an Advance.] Off by default. A 6-segment clock, ticked in Develop endeavours. When it fills, the character gains #strong[1 XP]. Use it only if your table wants training to feed advancement directly (Core Rules §12 has no training rule).
+ 
+ === D.6 Between-Adventure Events 
+   Roll d12 once at the start of an ordinary stay, #strong[before] endeavours are declared, or choose a result that fits the fiction. In an Extended stay, roll again every second interval after the first. An event should offer a choice, not remove the stay.
+@@ -74,11 +74,11 @@ For an unlisted activity, the GM names a skill, a Light or Strenuous tag and the
+ Downtime does not create reputation by itself. Distinguish the following:
+ 
+ - #strong[Standing] (E.3) changes only through consequential deeds a faction learns of and attributes to the party.
+-- A #strong[reputation tag] records what a character is known for. Earning one follows the applicable character-growth or setting rules; a Connect endeavour does not grant one by itself. It counts toward the normal tag cap unless an ability explicitly grants an exception; apply that exception only within its stated scope.
+-- An ability may establish a reputation as a #strong[Campaign Truth], as with the Bellator capstone #emph[Legend of the Field] (Generic Playbooks §3.1). Apply the Truth and any additional benefits as that ability states.
+-- A #strong[contact Truth] (D.4 Connect) describes a relationship with a named person. State what that relationship makes possible and whom it concerns. It does not by itself grant a reputation tag or change faction Standing.
++- A #strong[reputation tag] records what a character is known for. It comes from character growth or setting rules, not from a Connect endeavour, and counts toward the tag cap unless an ability says otherwise.
++- An ability may make a reputation a #strong[Campaign Truth], like the Bellator capstone #emph[Legend of the Field] (Generic Playbooks §3.1).
++- A #strong[contact Truth] (D.4 Connect) names a relationship with a person and what it makes possible. It isn't a reputation tag and doesn't change Standing.
+ 
+-Momentum, Woe and scene-scale Create effects cannot buy reputation (E.11). A relationship Truth (E.3) and a reputation tag apply independently: one shifts Difficulty and the other adds to the roll.
++Momentum, Woe and scene-scale Create can't buy reputation (E.11). A relationship Truth (E.3) shifts Difficulty and a reputation tag adds to the roll; both can apply.
+ 
+ === D.7 The Stay in Order
+ 
+@@ -88,7 +88,7 @@ Momentum, Woe and scene-scale Create effects cannot buy reputation (E.11). A rel
+ - #strong[Event.] Roll or choose (D.6).
+ - #strong[Declare.] Players declare individual and shared endeavours and spend Checks.
+ - #strong[Resolve.] Play out only the consequential scenes. Healing intervals run alongside.
+-- #strong[World update.] Take the World Turn here, after endeavours resolve, so the stay's results (Standing changes, evidence Truths, completed favors) are part of E.10 step 1. Without Module E, tick only clocks tied to established plans or deadlines. The GM may spend Stay Woe to tick danger clocks, but never to advance a faction project (E.10).
++- #strong[World update.] Take the World Turn here, after endeavours resolve, so the stay's results (Standing changes, evidence Truths, completed favours) are part of E.10 step 1. Without Module E, tick only clocks tied to established plans or deadlines. The GM may spend Stay Woe to tick danger clocks, but never to advance a faction project (E.10).
+ - #strong[Close.] Discard leftover Checks and Stay Woe. Record unfinished projects, write a Goal, prepare to depart.
+ 
+-#strong[Example.] The party spends an ordinary week (2 free Checks each) at a river outpost. Ysolde has a tier-3 injury; Brannock needs a new tool kit. The event is d12 = 9: the outpost is short-handed (#emph[Short-Handed];). They choose Ordinary upkeep (1 tick). Ysolde spends 1 Check on Recuperate (Light): routine care, no roll, and the injury is marked #emph[treated] (tier 3 to tier 2). She does nothing Strenuous, so her healing interval continues under §6.6; the stay's week does not replace that procedure. Brannock and an uninjured companion pool 2 Checks for a shared Make and Mend push on an 8-segment kit project. Brannock rolls Craft, the companion Helps within the normal bonus-dice cap, and 3 Power Advances 3 segments. Ysolde does not join that Strenuous endeavour. At the close the project clock keeps its progress, and each player writes a Goal. ]
+\ No newline at end of file
++#strong[Example.] The party spends an ordinary week (2 free Checks each) at a river outpost. Ysolde has a tier-3 injury; Brannock needs a new tool kit. The event is d12 = 9: the outpost is short-handed (#emph[Short-Handed];). They choose Ordinary upkeep (1 tick). Ysolde spends 1 Check on Recuperate (Light): routine care, no roll, and the injury is marked #emph[treated] (tier 3 to tier 2). She does nothing Strenuous, so her healing interval continues (Core Rules §6.6). Brannock and an uninjured companion pool 2 Checks for a shared Make and Mend push on an 8-segment kit project. Brannock rolls Craft, the companion Helps within the normal bonus-dice cap, and 3 Power Advances 3 segments. Ysolde does not join that Strenuous endeavour. At the close the project clock keeps its progress, and each player writes a Goal. ]
+\ No newline at end of file
+diff --git a/2d12System/chapter-3-module-e-factions.typ b/2d12System/chapter-3-module-e-factions.typ
+index 4e3d6c9..0b11872 100644
+--- a/2d12System/chapter-3-module-e-factions.typ
++++ b/2d12System/chapter-3-module-e-factions.typ
+@@ -5,9 +5,9 @@
+ #columns(2, gutter: 6mm)[
+ Organizations have ambitions, resources, loyalties, and limits. This module connects their struggles to the party's adventures: factions provide opportunities and assistance; the party's actions determine what those factions can accomplish.
+ 
+-Use this module when alliances, patronage, collective action, or political consequences matter. It is optional and remains setting-neutral. These rules are a playtest draft, not tested balance claims.
++Use this module when alliances, patronage, collective action or political consequences matter. It is setting-neutral, and its numbers are playtest values.
+ 
+-When enabled, this module replaces the faction action procedure in Module C.5. Retain the rest of Module C. Use the core rules for PC checks, Effects, Truths, clocks, and conflicts except where an explicit organizational exception appears below.
++When enabled, it replaces Module C.5's faction actions, and E.1A replaces C.8; the rest of Module C still applies. Core rules apply to PC rolls, Effects, Truths, clocks and conflicts except where this module says otherwise.
+ 
+ === E.1 Faction Records
+ 
+@@ -22,7 +22,7 @@ Record:
+ - A representative who can explain or authorize requests.
+ - One current project and its clock.
+ - An important ally and rival, where relevant.
+-- Outstanding favors, obligations, offices, and personal exceptions.
++- Outstanding favours, obligations, offices, and personal exceptions.
+ 
+ Prepare full records only for active factions. A name, purpose, and Standing suffice for a background group. Begin with three active factions; normally track no more than five at once.
+ 
+@@ -62,7 +62,7 @@ A permanent Cohesion of 0 is a #emph[crisis] when a faction has fallen to it (E.
+ 
+ Assets determine what the faction can actually do. A treasury cannot occupy a town without personnel; soldiers cannot cross a sea without transport. A rating never creates an unstated army, fleet, office, or network.
+ 
+-When an asset matters mechanically, record a Truth with scope, rank, and removal condition. Use its concrete additional advantage, not a second bonus merely restating the Quality. Might already includes the ordinary readiness of the force that justifies its rating.
++When an asset matters mechanically, record it as a Truth with scope, rank and removal condition. It adds its concrete advantage, not a second bonus restating the Quality.
+ 
+ Record a distant branch separately when local capabilities matter. The imperial institution's full resources are not automatically available to every provincial official.
+ 
+@@ -142,7 +142,7 @@ A legitimate seal may make access possible. It does not substitute Standing or a
+ 
+ ==== Patronage
+ 
+-Record what a patron supplies, the service expected, what lies outside the arrangement, and what ends it. Routine agreed service is not a new favor each time. Refusal matters according to the actual agreement, not an unlimited claim on the character.
++Record what a patron supplies, the service expected, what lies outside the arrangement, and what ends it. Routine agreed service is not a new favour each time. Refusal matters according to the actual agreement, not an unlimited claim on the character.
+ 
+ === E.5 Seeking Aid
+ 
+@@ -169,7 +169,7 @@ For that single request check, use normal core outcomes, Power, doubles, and cur
+ 
+ Extra Power can improve agreed scope, speed, or discretion where normal Effects and the fiction support it. It cannot buy permanent Standing or unlimited resources.
+ 
+-#strong[When the request is a conflict.] Establish each side's intent and stakes, then use the selected conflict type's action skills, shared Disposition and scripting. The burden ladder above is for a single request check, not a replacement target for every volley: independent tests normally use Standard 15 with applicable Truths and explicit modifiers; versus tests use opposed totals. A trumped action makes no roll. Apply the restricted failure and cost consequences in Core Rules §10.7 rather than adding the single-check GM move. Victory grants the agreed intent within the stakes, subject to compromise, not unrestricted command of the faction (Core Rules §10.2, §10.5--10.6, §10.12--10.13).
++#strong[When the request is a conflict,] set intent and stakes and use the conflict rules. The burden ladder is for single checks only: volleys use Standard 15 or versus totals as normal, and failures follow Core Rules §10.7. Victory grants the agreed intent, subject to compromise, not command of the faction (Core Rules §10.12--10.13).
+ 
+ === E.6 Faction Support in Party Scenes
+ 
+@@ -178,13 +178,13 @@ A Quality establishes what support the faction can organize; Standing, authority
+ Support has one concrete application:
+ - Permission: equipment, credentials, transport, or access makes the action possible, or removes the need for a particular roll.
+ - A scoped Truth: actual conditions change Difficulty under Core Rules §8.
+-- Active Help: a participating ally uses the core Help procedure, pays its normal cost, and shares the risk. A faction's accompanying NPC pays the Help cost from its own pools if it is built with them. An ordinary NPC has no pools and cannot pay ordinary Help costs (§6.1); use a named NPC built with pools unless an explicit rule permits another helping benefit. Qualities are not personal pools. Free Help, where explicitly granted, waives the stated cost, not relevance, risk or the bonus-dice cap.
++- Active Help: a participating ally uses the core Help procedure, pays its normal cost from its own pools and shares the risk. An ordinary NPC has no pools, so it can't Help unless a rule says otherwise (Core Rules §6.1). Qualities aren't pools.
+ 
+ Do not award all three for the same contribution. Stronger Qualities increase feasible reach, reliability, and scale, not an automatic numerical bonus. Might +4 can organize support beyond Might +1; it does not grant +4 Fight.
+ 
+-#strong[Accompanying allies.] Distinguish an independently acting participant from a supporting asset. A participant enters continuous rotation, uses its listed skills or ratings and is bound by the side's stakes. An asset supplies its stated benefit without gaining an independent turn. Do not count one companion twice or give it a separate Disposition track merely because it accompanies the party. Removing it subtracts no shared Disposition, though a side loses if nobody can continue pursuing its objective (Core Rules §10.9).
++#strong[Accompanying allies.] A companion is either a participant (joins rotation, uses its own ratings, bound by the stakes) or an asset (gives its stated benefit, takes no turn), never both. It doesn't get its own Disposition, and removing it costs none, though a side loses when nobody can pursue its objective (Core Rules §10.9).
+ 
+-Backing supplies +1 Disposition per eligible backer, not an ordinary Help die, and costs no pool points (Core Rules §10.2). A faction's size, Quality or number of fictional personnel does not by itself grant that many eligible backers. Apply the normal contribution and participation requirements.
++Backing gives +1 Disposition per eligible backer and costs no pool points (Core Rules §10.2). A faction's size or personnel doesn't by itself supply backers.
+ 
+ An escort may make a friendly checkpoint automatic. It cannot make every later negotiation easier simply because it exists. Personnel face the real risks of deployment, and a borrowed resource is not freely duplicable or permanently transferred.
+ 
+diff --git a/2d12System/chapter-3-module-e.1a-starting-cluster.typ b/2d12System/chapter-3-module-e.1a-starting-cluster.typ
+index b014db7..5006acb 100644
+--- a/2d12System/chapter-3-module-e.1a-starting-cluster.typ
++++ b/2d12System/chapter-3-module-e.1a-starting-cluster.typ
+@@ -2,9 +2,9 @@
+ // Uses Module E vocabulary (Qualities, Standing, Strain, projects). References C.7 for the story map.
+ 
+ === E.1A Building the Starting Cluster (Long Knives)
+-Use this when starting a campaign, after the C.7 story map is drawn. It produces the first faction records (E.1), their starting Standing, and the opening situation. It takes about 30 to 45 minutes. This replaces C.8 when Module E is enabled; do not build a second starting cluster through the basic procedure.
++Use this when starting a campaign, after the C.7 story map is drawn. It produces the first faction records (E.1), their starting Standing and the opening situation, and takes about 30 to 45 minutes. It replaces C.8 when Module E is enabled.
+ 
+-#strong[Size.] Aim for #strong[four] factions: three #strong[active] (full records) and one #strong[background] (name, purpose and Standing). E.1 recommends starting with three active factions and tracking no more than five.
++#strong[Size.] Aim for #strong[four] factions: three #strong[active] (full records) and one #strong[background] (name, purpose and Standing).
+ 
+ 1. #strong[Place.] Name the location. Record it as the first Region Truth (C.1).
+ 2. #strong[Gather.] List the groups the PCs' lines point to: Organizations from the map, plus fragments of them. Note what each wants in the area and who would oppose it.
+@@ -15,17 +15,17 @@ Use this when starting a campaign, after the C.7 story map is drawn. It produces
+   table.header([Long Knives field], [Becomes], [How]),
+   [#strong[Has]], [Qualities, assets, vulnerability (E.1, E.2)], [The #emph[obvious] asset sets the faction's highest Quality (+3, or +4 for a dominant power). The #emph[less obvious] asset sets a second Quality (+2). Other Qualities are 0 or +1. Explain every nonzero Quality through concrete assets. The vulnerability is something opponents can target; it need not match a low Quality.],
+   [#strong[Wants]], [Ambition, project, primary Quality, clock (E.1, E.10)], [Write the long-term ambition, then one current project with its intended outcome and its #strong[primary Quality]. Choose the clock by the change it makes: 4 or 6 for a limited or local action, 8 for a Site Truth, 12 for a Region Truth (E.10, C.6).],
+-  [#strong[Link]], [Standing and representative (E.3, E.4)], [Set starting Standing (below). Name a representative. Record membership, patronage and favor lines from the C.7 map (E.4, E.7).],
++  [#strong[Link]], [Standing and representative (E.3, E.4)], [Set starting Standing (below). Name a representative. Record membership, patronage and favour lines from the C.7 map (E.4, E.7).],
+   [#strong[Relations]], [Ally and rival (E.1)], [Name one important ally and one rival for each active faction where relevant.],
+ )
+ 
+ #strong[Starting Standing.] Use the C.7 map to establish the faction's actual policy toward the party, not an automatic score from one PC's title or debt:
+-- A sworn membership or patronage line may support #strong[+1] or #strong[+2] when it reflects welcoming or trusted treatment. If only that PC has the relationship, record a personal exception instead of automatically improving party Standing (E.4). Membership and patronage retain their own permissions and terms.
+-- A rivalry or pursuit may support #strong[−1] or #strong[−2] when the faction's actual treatment is distrustful or hostile. Being a debtor or being afraid does not alone establish hostility; record the obligation or fear separately and set Standing from the relationship (E.3, E.7).
++- A sworn membership or patronage line may support #strong[+1] or #strong[+2] when it reflects welcoming or trusted treatment. If only one PC has the relationship, record a personal exception instead (E.4).
++- A rivalry or pursuit may support #strong[−1] or #strong[−2] when the faction's treatment is distrustful or hostile. A debt or fear alone isn't hostility; record it separately (E.3, E.7).
+ - No established relationship: #strong[0].
+-- Reserve ±3 for relationships that actually meet Enemy or Allied treatment; a blood feud or binding oath may justify that starting history but is not a substitute for establishing it. Where Standing is not 0 and the relationship matters, record the scoped relationship Truth (E.3).
++- Reserve ±3 for relationships that actually meet Enemy or Allied treatment. Where Standing isn't 0 and the relationship matters, record the relationship Truth (E.3).
+ 
+-A personal exception replaces that relationship Truth for its subject; it does not stack with it or automatically extend to companions. Define office, patronage and obligation limits separately. A representative's friendly attitude does not grant authority to commit resources the faction cannot or will not supply (E.4--E.6).
++A personal exception replaces that relationship Truth for its subject and doesn't extend to companions. A friendly representative can't commit resources the faction can't or won't supply (E.4--E.6).
+ 
+ #strong[Qualities and Cohesion.] A local faction normally has about 5 to 8 points across its Qualities, and a regional power about 9 to 12 (the Reed Quay Association in E.13 totals 9). A Quality of 0 means the faction can't independently mount a major action in that field (E.2). #strong[Don't start a faction with permanent Cohesion 0] unless you want it to begin in a Fracture crisis (E.12).
+ 
+@@ -35,15 +35,15 @@ A personal exception replaces that relationship Truth for its subject; it does n
+ 8. #strong[Involvement.] For each PC with a line into the cluster, write one hook as an undertaking with a foreseeable strategic effect (E.8): which project it advances or obstructs through the Advance effect, and the likely change in Standing (E.3). Leave discoverable signs of secret projects (E.10). A played scene replaces the equivalent off-screen work, not the faction's other activity (E.10).
+ 9. #strong[First turn.] Take the first World Turn only after play begins. Don't ask for a faction roll to confirm what the party already accomplished (E.8). Off-screen actions use no Momentum, pools, Tychē or Woe (E.10).
+ 
+-#strong[Starting history, not a forced resolution.] Step 5 establishes the opening incident as already completed before ordinary play. It does not let the GM cancel a resolved PC action, bypass a contested scene or fill another project automatically once play begins. Resolve subsequent PC struggles through the appropriate core procedure and faction actions through E.10. Completing a Site or Region clock does not itself rewrite a Campaign Truth; that still takes a major arc.
++#strong[The incident is history.] It happened before play starts; it can't later cancel a PC's action, skip a contested scene or complete another project. Once play begins, use the core rules for PC struggles and E.10 for faction actions. Campaign Truths still need a major arc.
+ 
+-#strong[Pacing (playtest).] Average Power per World Turn for 2d12 + one Quality against Standard 15, before doubles and opposition. The turns below are rough clock-size-to-average-Power estimates, not guaranteed deadlines or a measured distribution of completion times. Overflow is discarded, and actual pacing depends on the declared action, opposition and applicable rules. These retained figures are not conflict win-rate or Disposition-length predictions.
++#strong[Pacing (playtest).] Average Power per World Turn for 2d12 + one Quality against Standard 15, counting Success at a Cost (1 Power) but not doubles or opposition. Turns to fill are expected values with overflow discarded; they are estimates, not deadlines.
+ 
+ #table(columns: (16%, 28%, 28%, 28%),
+   table.header([Quality], [Average Power per turn], [Turns to fill 8], [Turns to fill 12]),
+-  [0], [0.65], [about 12], [about 18],
+-  [+1], [0.83], [about 10], [about 14],
+-  [+2], [1.04], [about 8], [about 12],
+-  [+3], [1.27], [about 6], [about 9],
+-  [+4], [1.52], [about 5], [about 8],
++  [0], [0.89], [about 9], [about 14],
++  [+1], [1.06], [about 8], [about 12],
++  [+2], [1.25], [about 7], [about 10],
++  [+3], [1.46], [about 6], [about 9],
++  [+4], [1.69], [about 5], [about 8],
+ )
+diff --git a/2d12System/chapter-3-module-e.7-favours.typ b/2d12System/chapter-3-module-e.7-favours.typ
+index ff4bef5..cf043bc 100644
+--- a/2d12System/chapter-3-module-e.7-favours.typ
++++ b/2d12System/chapter-3-module-e.7-favours.typ
+@@ -1,20 +1,20 @@
+ #import "common.typ": *
+ 
+-=== E.7 Favors and Obligations
++=== E.7 Favours and Obligations
+ 
+-A favor is a specific acknowledged promise. An obligation is the same record from the debtor's side. Record debtor, creditor, service, limits, notice, deadline or duration, and what settles it. Record who can call it in and whether it benefits the party or a named individual.
++A favour is a specific acknowledged promise. An obligation is the same record from the debtor's side. Record debtor, creditor, service, limits, notice, deadline or duration, and what settles it. Record who can call it in and whether it benefits the party or a named individual.
+ 
+-Agree to scope when the promise is made. “You owe us something” is an unresolved negotiation, not a blank cheque. Favors can be payment for work, part of an alliance, or compensation for aid.
++Agree to scope when the promise is made. “You owe us something” is an unresolved negotiation, not a blank cheque. Favours can be payment for work, part of an alliance, or compensation for aid.
+ 
+-Calling in a feasible, acknowledged favor within its terms requires no request check. Roll only for a separate uncertainty: evading inspection, locating a vessel, or reaching a destination. Broader or newly dangerous work may require renegotiation; establish whether the changed circumstances fall within the original agreement before rolling.
++Calling in a feasible, acknowledged favour within its terms requires no request check. Roll only for a separate uncertainty: evading inspection, locating a vessel, or reaching a destination. Broader or newly dangerous work may require renegotiation; establish whether the changed circumstances fall within the original agreement before rolling.
+ 
+-Possible settlements include fulfillment, an accepted substitute, partial settlement, or an agreed delay. Genuine inability is not automatically betrayal, though concealment or indifference may damage trust.
++Possible settlements include fulfilment, an accepted substitute, partial settlement, or an agreed delay. Genuine inability is not automatically betrayal, though concealment or indifference may damage trust.
+ 
+-Knowingly refusing a feasible agreed obligation normally costs one Standing; severe betrayal may cost two. Owing a favor does not remove a player's control over their character. State the consequences and let them choose.
++Knowingly refusing a feasible agreed obligation normally costs one Standing; severe betrayal may cost two. Owing a favour does not remove a player's control over their character. State the consequences and let them choose.
+ 
+-Calling in an earned favor does not reduce Standing. Repaying one does not automatically improve it. Falling Standing does not erase outstanding promises. A favor transfers only with the debtor's consent.
++Calling in an earned favour does not reduce Standing. Repaying one does not automatically improve it. Falling Standing does not erase outstanding promises. A favour transfers only with the debtor's consent.
+ 
+-#strong[Agreed costs and actual assistance.] A favor grants its stated service, not automatic success on every later task, free Help, an extra scripted turn or control over another participant. If a promise is part of an accepted concession or another benefit's payment, generic prevention, Resistance, redirection or incidental clearing cannot erase that accepted cost (Core Rules §10.7). Renegotiation requires agreement; later healing of an injury does not refund the benefit or revoke the concession.
++#strong[A favour grants its stated service,] not automatic success, free Help, an extra scripted turn or control over another participant. A promise given as part of a concession or another benefit's payment is a protected payment (Core Rules §10.7); renegotiating it needs agreement.
+ 
+ === E.8 Adventures and Strategic Advantages
+ 
+@@ -37,7 +37,7 @@ Distinct consequences can follow one achievement, but never award duplicate prog
+ 
+ #strong[One contribution.] If a PC endeavour does the work a faction's project action would do (the party sabotages the project itself), that endeavour replaces the faction's own roll for that project this turn. Never count both for the same work.
+ 
+-A played conflict still uses its permitted action effects. Advance or Discover requires an appropriate action or explicit exception; this strategic summary does not add them to every ordinary Maneuver. Ordinary Attack or Feint Disposition loss is not project progress, and a victory grants the stated objective within the stakes rather than completing unrelated clocks (Core Rules §10.6, §10.12).
++A played conflict still uses its permitted actions: Advance or Discover needs an appropriate action or explicit exception. Attack or Feint Disposition loss isn't project progress, and victory grants the stated objective, not unrelated clocks (Core Rules §10.6, §10.12).
+ 
+ === E.9 Commitments and Strain
+ 
+@@ -45,9 +45,9 @@ A faction normally takes one major project action per World Turn without automat
+ 
+ Mark one relevant Quality as Strained when the faction takes an additional major action, makes an exceptional deployment to support the party, overextends to meet a deadline, or suffers an explicit exhaustion consequence. Ordinary hospitality, meals, and introductions do not qualify.
+ 
+-A Strained Quality operates one rating lower, minimum 0. Strain does not stack on that Quality and is not also an adverse Truth for the same exhaustion. A faction can take at most one additional major action per turn; declare it and mark Strain before resolving that additional action. It must strain the primary Quality of that action, which must not already be Strained. Thus additional actions cannot be repeated indefinitely.
++A Strained Quality operates one rating lower, minimum 0. Strain doesn't stack and isn't also an adverse Truth for the same exhaustion. A faction can take at most one additional major action per turn. It must Strain that action's primary Quality, which can't already be Strained, so additional actions can't repeat indefinitely.
+ 
+-#strong[Timing.] Strain from an additional or exceptional action is marked when the action is #emph[declared] (E.10, step 2), so that action and every other action that phase use the lowered rating.
++#strong[Timing.] Mark Strain when the action is #emph[declared] (E.10, step 2), so that action and every other action that phase use the lowered rating.
+ 
+ Clear Strain after one full World Turn in which the affected capability is not used for a major action or exceptional commitment, provided recovery remains plausible. Ordinary background activity does not prevent recovery. Strain alone reducing effective Cohesion to 0 does not trigger Fracture; use permanent Cohesion for E.12.
+ 
+@@ -92,7 +92,7 @@ Use Module C.6 for lasting Site, Region, and Campaign changes: normally 8 segmen
+ 
+ ==== Opposition and disruption
+ 
+-A faction may spend its action obstructing a known project if it has a credible method. Roll its relevant Quality against Standard 15, adjusted by the target's concrete defenses and other Truths. The target's Quality rating is not automatically a Difficulty shift.
++A faction may spend its action obstructing a known project if it has a credible method. Roll its relevant Quality against Standard 15, adjusted by the target's concrete defences and other Truths. The target's Quality rating is not automatically a Difficulty shift.
+ 
+ On success, spend Power to remove uncompleted progress, one segment per Power. Remove no more than is present and discard excess. A defending faction may devote its own action to countermeasures, producing appropriate protection or removing the obstructing capability. Do not add a free reaction roll for every attempted disruption.
+ 
+@@ -112,7 +112,7 @@ A project grants its declared result, not every benefit the victor might want. C
+ 
+ Use core Argument, Negotiation, or Battle conflicts when the action deserves a played conflict. Use normal core Disposition, scripting, Power, concessions, and compromise.
+ 
+-Each side has one shared Disposition total, not a track for every faction member. Complete independently resolving actions before checking victory. Defeat does not itself inflict injury, permanent organizational loss or every objective the winner could want. Resolve mutual defeat under Core Rules §10.12; a winner's compromise uses §10.13 and its outcome-first package, with eligible existing injuries credited once rather than automatic extra injuries. E.10's compromise Truth for contradictory completed project clocks is a separate organizational procedure, not a played conflict's compromise grade.
++Each side has one shared Disposition total, not a track for every faction member. Defeat doesn't by itself cause injury, permanent organizational loss or every objective the winner wants. Use Core Rules §10.12 for mutual defeat and Core Rules §10.13 for compromise. E.10's compromise Truth for contradictory project clocks is a separate procedure.
+ 
+ Standing grants no automatic Superiority. Insider intelligence, an arranged audience, or a secured guarantee can qualify as actual preparation under the core's categories and cap. Evaluate distinct advantages, not labels. Combat receives no direct Standing modifier.
+ 
+@@ -130,7 +130,7 @@ Winning a battle does not automatically create stable government. Occupation may
+ 
+ Use Woe normally during PC scenes to introduce supported complications, reinforcements, or danger-clock progress. Hostility is a motive, not an unlimited Woe source. A completed World Turn project establishes its result without an extra Woe payment; a new scene complication uses the normal rules. Never charge twice for the same event.
+ 
+-Inside scripted conflicts, ordinary failure does not also authorise an unrelated GM move, automatic injury or extra Disposition loss. Ordinary Success at a Cost likewise adds no status or extra loss without explicit permission. Specials, hazards, Risky rolls and other explicit consequences retain their stated effects and timing (Core Rules §10.7). Woe cannot retroactively change a revealed script or cancel independently resolving actions through generic complication wording. The core's unresolved Woe ruling for losing versus tests remains open.
++Inside scripted conflicts, failure and Success at a Cost follow Core Rules §10.7: no unrelated GM move, automatic injury or extra Disposition loss, or ordinary-failure Woe for losing a versus test. Specials, hazards, Risky rolls and other explicit consequences keep their stated effects and timing. Woe can't change a revealed script or cancel actions that resolve on their own.
+ 
+ Woe cannot directly buy a Standing reduction. It can expose evidence or create circumstances that cause one. Momentum and scene-scale Create effects likewise cannot buy permanent reputation.
+ 
+@@ -138,7 +138,7 @@ Woe cannot directly buy a Standing reduction. It can expose evidence or create c
+ 
+ Target the capability actually harmed. Destroying payroll may damage Treasure; exposing agents may damage Influence; losing an estate may damage Territory; defeat may damage Might; betrayal may provoke a Cohesion crisis.
+ 
+-Use an asset loss, setback, adverse Truth, or Strain for limited harm. Permanent rating loss requires a lasting reduction in organizational capacity, established by the stakes or a completed undertaking. Do not subtract a rating point merely for losing any roll. Ordinary shared Disposition loss does not directly reduce a Quality, mark Strain, remove an asset or tick Fracture; those need their own established consequence or explicit trigger.
++Use an asset loss, setback, adverse Truth or Strain for limited harm. Permanent rating loss needs a lasting reduction in capacity, set by the stakes or a completed undertaking, not a lost roll. Ordinary Disposition loss doesn't reduce a Quality, mark Strain, remove an asset or tick Fracture.
+ 
+ ==== Fracture
+ 
+@@ -168,7 +168,7 @@ An illustrative faction, not setting canon.
+   [Standing +2], [Trusted; Nera, master of the eastern landing, represents the association.],
+   [Vulnerability], [Its principal charter is legally disputed.],
+   [Project], [Secure Exclusive Ferry Rights, 8 segments: a lasting local institutional change.],
+-  [Favor], [Conceal up to six people aboard one outbound barge this season, with a day's notice; no declared contraband.],
++  [Favour], [Conceal up to six people aboard one outbound barge this season, with a day's notice; no declared contraband.],
+ )
+ 
+ The party requests public freight records. Nera willingly supplies them; no roll is needed. Access to sealed judicial records is a different request, possibly requiring an introduction or commission.
+@@ -179,7 +179,7 @@ The party retrieves admissible evidence that a rival obtained a charter through
+ 
+ On the World Turn, the association uses Influence +2. The evidence lowers the Standard 15 target to Easy 12. Dice of 7 and 9 total 16; +2 gives 18, producing 3 Power. It commits three segments. Without the evidence, the same total against 15 would produce 2 Power.
+ 
+-Later, the party saves the winter grain convoy at substantial personal risk. Once the association learns what happened, Standing may rise to +3. A new favor is not automatic: the association must explicitly promise one.
++Later, the party saves the winter grain convoy at substantial personal risk. Once the association learns what happened, Standing may rise to +3. A new favour is not automatic: the association must explicitly promise one.
+ 
+ If the association undertakes an additional urgent funding action that turn, Treasure becomes Strained before that action and operates at +2. It cannot take a third major action. Recovery needs a later full turn without a major Treasure commitment and with plausible access to its credit network.
+ 
+@@ -195,7 +195,7 @@ If the association undertakes an additional urgent funding action that turn, Tre
+   [How does it progress?], [1 Power per project segment; no off-screen Momentum or Woe.],
+   [How do adventures matter?], [Achieve an objective, affect progress, or establish a strategic advantage.],
+   [How often does it act?], [One major action each World Turn; at most one additional action causing Strain.],
+-  [What is owed?], [A written favor or obligation with scope, limits, and settlement.],
++  [What is owed?], [A written favour or obligation with scope, limits, and settlement.],
+   [What causes collapse?], [Permanent Cohesion 0 opens a Fracture crisis, not instant disappearance.],
+ )
+ 
+diff --git a/2d12System/chapter-3-module-f-inquiry-and-revelation.typ b/2d12System/chapter-3-module-f-inquiry-and-revelation.typ
+index af99ce4..637b8cb 100644
+--- a/2d12System/chapter-3-module-f-inquiry-and-revelation.typ
++++ b/2d12System/chapter-3-module-f-inquiry-and-revelation.typ
+@@ -5,7 +5,7 @@
+ #columns(2, gutter: 6mm)[
+ Use this module when a mystery is the point of the game: a murder, a vanished caravan, a forbidden text, a buried ruin. It separates *finding* from *understanding*. Finding the clue is never the challenge. Reading it correctly is.
+ 
+-The module changes nothing outside Inquiry scenes. Conflicts, travel, Resistance, Momentum and Woe all work as written. Its explicit Inquiry benefits are not additions to every scripted action's Effect menu.
++The module changes nothing outside Inquiry scenes. Conflicts, travel, Resistance, Momentum and Woe all work as written.
+ 
+ === F.1 The Core Rule
+ 
+@@ -16,9 +16,9 @@ The module changes nothing outside Inquiry scenes. Conflicts, travel, Resistance
+ - *Core clue.* A fact the group needs to reach the next scene or to understand the Truth of the case. Every Inquiry scene has at least one.
+ - *Fitting skill.* Any skill from the setting's skill list that the GM can reasonably tie to the clue. Several skills can reach the same clue by different routes.
+ - *Description.* The player says what the character does and which skill it uses, or the GM offers the clue unprompted to a character who clearly has it.
+-- *Stuck groups.* If nobody has a fitting skill, the clue floats (§F.6) to another source. A core clue is never locked behind a missing skill.
++- *Stuck groups.* If nobody has a fitting skill, the clue floats (F.6) to another source. A core clue is never locked behind a missing skill.
+ 
+-Finding a clue automatically is not automatic success at an unrelated conflict action. It grants no Power, extra scripted turn, script change or permission to act while Taken Out. Do not require a Probe or Buy merely to obtain the guaranteed core clue.
++A found clue grants no Power, extra scripted turn or script change, and doesn't count as success at a conflict action. Never require a Probe or Buy to get the guaranteed core clue.
+ 
+ === F.2 Insight: The Extra Layer
+ 
+@@ -32,7 +32,7 @@ A core clue gets you to the next scene. *Insight* is everything beyond that: mot
+ 
+ Probe is cheap but risky. Buy is safe but drains the pool you also need for Resistance and Effort. Players should have to choose between them.
+ 
+-*Payment.* Work out permitted discounts and the minimum cost, then pay the Buy in full. It is a voluntary benefit purchase, not Resistance or an imposed cost, so it cannot overrun an insufficient pool (Core Rules §6.1). Spending the exact last points still runs the pool dry normally. No-roll use does not waive that payment.
++*Payment.* Apply discounts and the minimum, then pay the Buy in full. It's a voluntary purchase, not Resistance, so you can't overrun an insufficient pool (Core Rules §6.1); spending the last points still runs the pool dry.
+ 
+ #sidebar("Which pool pays?")[
+   *Sōma:* long vigils, exhumations, hard physical labour. *Mētis:* meticulous search, tailing, lock and mechanism work. *Psychē:* deduction, records, anatomy, languages. *Pneuma:* reading people, rites, dread places, the uncanny. The GM may allow a different pool when the fiction supports it (Core Rules §3.3).
+@@ -43,27 +43,27 @@ Probe is cheap but risky. Buy is safe but drains the pool you also need for Resi
+ When you gain an Insight, choose one. The GM may veto a choice that does not fit the scene.
+ 
+ - *Detail.* A true fact that deepens a clue you already have. It can help you solve the case, but it is never required to reach the next scene.
+-- *Edge.* Create a Truth that fits what you learned (_the guard captain is afraid of the cellar_). It lasts for the scene, or until the case ends if the group spends an extra Power or point.
++- *Leverage.* Create a Truth that fits what you learned (_the guard captain is afraid of the cellar_). It lasts for the scene, or until the case ends if you pay 1 more: 1 Power from a Probe, or 1 more pool point for a Buy.
+ - *Contact.* Name an ally, informant or source, and say how you know them. The GM adds a short tag.
+ - *Spotlight.* Show real expertise in front of others. You gain a free invoke of one tag or Truth about your standing, once per scene. Use this to shine, not to win a fight.
+ - *Foresight.* The GM tells you one thing the opposition is about to do.
+ 
+ If no Insight fits, nothing happens and no points are lost. Buy costs are refunded.
+ 
+-*Benefit scope.* Edge is the name of this Insight option, not an increase to a pool's Edge. Its Truth uses the normal default rank, scope and removal condition (Core Rules §8); the listed case-long extension is an explicit Inquiry exception, not a general change to Create's cost or duration. The extra Power or point's payment source remains unspecified here; this pass does not invent a currency choice.
++*Benefit scope.* A Leverage Truth uses the normal rank, scope and removal condition (Core Rules §8); its case-long extension is an Inquiry exception, not a change to Create.
+ 
+-A Contact provides the stated relationship or access, not automatic faction Standing, a permanent reputation tag, free Help or an independent turn. A Spotlight invoke does not itself award permanent Standing or reputation. Foresight provides information, not free actor reassignment, a script change or retroactive cancellation of the opposition's action. Use the core conflict rules for acting on any of these benefits (§10.3, §10.5, §10.9).
++A Contact provides the stated relationship, not Standing, a reputation tag, free Help or a turn. A Spotlight invoke awards no Standing or reputation. Foresight is information, not a script change or a way to cancel the opposition's action (Core Rules §10.5).
+ 
+ === F.4 Boosted Skills and Recovery
+ 
+ - *Boosted skill.* At creation, mark one skill you hold at +1 or higher. When you Buy an Insight with it, regain 1 point to the paying pool. Mark another skill each time you have taken 4 Advances.
+ - *Recovery.* Pools recover as usual (Core Rules §6). The GM may also offer a *refresh opportunity*: a night in an archive, a round of drinks in the right tavern, a meal with a scholar. Each restores 2 points to the pool that fits.
+-- *Help.* One ally may Help a Probe as normal (Core Rules §2.4), or contribute a relevant skill to a Buy. Add +1 point of discount per helper, to a minimum cost of 1.
++- *Help.* One ally may Help a Probe as normal (Core Rules §2.4), or help a Buy by lowering its cost by 1 (minimum 1).
+ - *Tags.* A power tag that applies to the skill adds +1 to a Probe, as usual. Burning one gives +1 Power.
+ 
+-Pay before boosted-skill recovery: regaining 1 point is not a discount that lets an otherwise unaffordable Buy proceed. If payment runs the pool dry, apply its running-dry consequence normally; the later point does not clear that status. Pool recovery and status healing remain separate, and neither removes a Scar. A refresh opportunity is this module's explicit recovery exception, offered by the GM, not an automatic refill whenever an Inquiry scene begins or ends.
++Pay before boosted-skill recovery: the regained point isn't a discount, and it doesn't clear a running-dry status the payment caused. A refresh opportunity is offered by the GM, not an automatic refill at the start or end of an Inquiry scene.
+ 
+-Probe Help and tags retain normal relevance, risk and caps, including the +2 power-tag cap and the +2 bonus-dice cap. The Buy's pool-point discount is not a bonus die or additional Insight. Free Help, where granted, waives its stated cost rather than relevance or risk.
++Probe Help and tags keep their normal caps (+2 power tags, +2 bonus dice). The Buy discount isn't a bonus die or an extra Insight.
+ 
+ === F.5 Danger and the Clock
+ 
+@@ -74,9 +74,9 @@ Inquiry has no failure state, so it needs pressure from somewhere else. Pressure
+ - *Danger is a separate scene.* A scene either asks "what do we learn?" (Inquiry) or "what do we survive?" (Conflict, Hazard). A scene that is both is two scenes: finish one, then start the other.
+ - *Clues never depend on winning a fight.* Winning may give Insight, but a core clue must be reachable even if the group loses, flees or is captured.
+ 
+-The case clock's failed-Probe tick is an explicit Inquiry trigger, not a tick on every ordinary failed scripted action. Antagonist Reactions still respect established facts and the core-clue guarantee; destroying a source cannot make the case's required information unreachable.
++Only a failed Probe ticks the case clock, not ordinary failed conflict actions. Antagonist Reactions respect established facts: destroying a source can't make required information unreachable.
+ 
+-Separating Inquiry and danger scenes does not make a continuing struggle a genuinely new conflict. Carry forward current and starting Disposition, used injury trades, Taken Out participants and continuing effects when the same conflict continues (Core Rules §10.2). Do not refresh pools or clear injuries merely by changing the scene label. Inside a scripted conflict, use its ordinary-failure restrictions and complete independently resolving actions before checking victory (§10.7, §10.12).
++Splitting a scene doesn't make a continuing struggle a new conflict. Disposition, injury trades, Taken Out participants and ongoing effects carry forward, and pools don't refresh (Core Rules §10.2).
+ 
+ === F.6 Building a Case
+ 

@@ -1,0 +1,318 @@
+diff --git a/2d12System/chapter-5-playbooks.typ b/2d12System/chapter-5-playbooks.typ
+index bfaf7f1..982bb4a 100644
+--- a/2d12System/chapter-5-playbooks.typ
++++ b/2d12System/chapter-5-playbooks.typ
+@@ -20,7 +20,7 @@
+     [#strong[Suggested skills];], [A recommended pyramid; change it freely],
+     [#strong[Playbook tags];], [Choose #strong[2] power tags from the playbook\'s list],
+     [#strong[XP trigger];], [One playbook behaviour that earns XP (Core Rules §12.1)],
+-    [#strong[Special abilities];], [1 free at creation; up to 2 more at creation for 1 Refresh each, plus any ★ Major cost (2 Refresh total for a ★ creation extra)],
++    [#strong[Special abilities];], [1 free at creation, and up to 2 more at 1 Refresh each. A ★ Major costs 1 more (§1.2)],
+     [#strong[Starting equipment];], [Signature items (choose 1 of 2), playbook kit, and always-carried items],
+     [#strong[BIG examples];], [Sample Beliefs, Goals, and Instincts],
+     [#strong[Relationships];], [1 ally and 1 rival from the playbook\'s list],
+@@ -29,11 +29,16 @@
+   )
+ 
+ === 1.2 Ability Notation
+-- #strong[★ Major] --- costs #strong[1 Refresh] whenever you take it (creation or advancement). If taken as one of the up to two creation extras, add the extra ability's 1-Refresh price: #strong[2 Refresh total], not 3. A non-veteran Major taken through advancement costs 1 Refresh; veteran costs below remain additional.
++- #strong[★ Major] --- costs #strong[1 Refresh] whenever you take it. A ★ creation extra therefore costs #strong[2 Refresh] in total, and so does a ★ veteran ability.
+ - #strong[◆ Capstone] --- unlocked after #strong[12 Advances] if you have #strong[at least 4 abilities from this playbook];. Take it as an Advance; it costs no Refresh. One capstone per character.
+-- #strong[Veteran abilities:] after 6 Advances, you may take an ability from another playbook as an Advance. It costs 1 Refresh in addition to any ★ cost.
++- #strong[Veteran abilities:] after 6 Advances, you may take an ability from another playbook as an Advance. It costs 1 Refresh, plus 1 if it is ★.
+ 
+-#strong[Conflict notation.] Free waives only the listed resource cost; it grants no additional scripted turn or rotation bypass. Automatic success replaces the roll for an otherwise permitted action under Core Rules §10.5. Additional Power, Disposition loss and status tiers are separate benefits (§10.6). An accepted payment cannot be prevented, redirected or Resisted through generic consequence-cancellation wording (§10.7).
++#strong[Ability limits.] These apply to every ability in this chapter, so the entries don't repeat them:
++- #strong[Free] waives only the listed cost. No ability grants an extra scripted turn or bypasses rotation, the action interaction or the declared stakes unless it says so. Automatic success replaces the roll for an otherwise permitted action (Core Rules §10.5).
++- Extra Power, extra Disposition loss and extra status tiers are separate bonuses; each improves only the component it names (Core Rules §10.6).
++- Protection, reduction and redirection don't reach shared Disposition loss or protected payments (accepted injuries, running-dry statuses, concession costs and costs an ability calls accepted payments) unless the ability names them (Core Rules §6, §10.7).
++- A starting-Disposition bonus is a flat modifier: apply it before the minimum of 1 and Superiority, and don't reapply it when the same struggle changes conflict type (Core Rules §10.2--10.3).
++- A fact, Truth or flashback an ability declares can't contradict resolved events, and information doesn't recalculate Superiority after setup.
+ 
+ === 1.3 Rules References Used in Abilities
+ #figure(
+@@ -80,10 +85,10 @@ Before a mission, choose your #strong[load];. During play, declare items from yo
+ === 2.2 Gear as Tags
+ - Every item is a #strong[power tag] when it\'s relevant, e.g. #emph[crowbar] helps Athletics to force a door. Item tags count toward the #strong[+2 tag cap];.
+ - #strong[Weapons] also give one or more #strong[conflict action tags] (Core Rules §10.10), e.g. #emph[+1 Attack];. Do not count an item's general tag and action tag twice for the same benefit on one roll.
+-- #strong[Quality:] a fine or advanced item gives one extra benefit listed in its entry (it doesn\'t raise the cap). Distinctive conflict qualities are explicitly written benefits, not automatic additional tags. If the optional qualities in Core Rules §10.10 are used, record the applicable quality once; do not duplicate the same benefit under both the generic weapon and its specific item entry. Specific item entries govern their expressly stated benefits.
++- #strong[Quality:] a fine or advanced item gives the one extra benefit its entry lists (it doesn't raise the cap). If you use the optional qualities in Core Rules §10.10, record each benefit once.
+ - #strong[Escalation:] some items carry the #emph[Escalation] tag (Core Rules §9.3). Carried openly into a scene, each gives the GM 1 Woe.
+ 
+-Declare active conflict equipment before scripting each exchange. Switching does not refresh a once-per-conflict quality, restore lost gear, erase an established drawback or change an assigned script for free (§10.10). Gear narration alone grants no status on ordinary conflict Attacks.
++Declare active conflict equipment before scripting each exchange. Switching gear doesn't refresh a once-per-conflict quality, restore lost gear or change the script (Core Rules §10.10). Gear narration alone adds no status to an ordinary Attack.
+ 
+ === 2.3 Armour and Shields
+ #figure(
+@@ -99,7 +104,7 @@ Declare active conflict equipment before scripting each exchange. Switching does
+   , kind: table
+   )
+ 
+-Armour that absorbs a tier-4+ hit is #emph[damaged] (−1 Armour) until repaired during downtime. Armour never reduces ordinary Disposition loss, an injury you accepted as payment, a running-dry status, an agreed concession cost or another protected payment (Core Rules §6, §10.7). A shield's Defend tag or optional recovery quality does not change this separation.
++Armour that absorbs a tier-4+ hit is #emph[damaged] (−1 Armour) until repaired during downtime. Armour never reduces Disposition loss or a protected payment (Core Rules §6, §10.7).
+ 
+ === 2.4 Common Gear (any playbook)
+ #figure(
+@@ -128,5 +133,4 @@ Armour that absorbs a tier-4+ hit is #emph[damaged] (−1 Armour) until repaired
+ #include "chapter-5.7-explorator.typ"
+ #pagebreak()
+ #include "chapter-5.8-adept.typ"
+-#pagebreak()
+ #include "chapter-5.9-design-notes.typ"
+diff --git a/2d12System/chapter-5.3-bellator.typ b/2d12System/chapter-5.3-bellator.typ
+index 1580d7e..9467090 100644
+--- a/2d12System/chapter-5.3-bellator.typ
++++ b/2d12System/chapter-5.3-bellator.typ
+@@ -31,14 +31,14 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
+     table.header([\#], [Ability], [Effect],),
+     table.hline(),
+     [1], [#strong[Juggernaut];], [When you Resist physical harm with Sōma, reduce the status by #strong[3 tiers] instead of 2.],
+-    [2], [#strong[Brutal];], [Once per roll, when you spend Power on a successful Attack with Fight or Brawl, remove #strong[1 additional Disposition] if applying ordinary conflict Attack Disposition loss. When the Attack instead inflicts a harmful status, increase that status by #strong[1 tier for free];. If an explicit effect inflicts both, choose one component for this bonus, never both. This adds no status to an ordinary conflict Attack and does not improve a creature-specific finishing procedure.],
+-    [3], [#strong[Bodyguard];], [When an ally within reach would suffer an imposed consequence you can fictionally intercept, you may take it instead. Declare this before their Resistance or harm reduction, and use your own eligible reduction instead. If you Resist it, your Edge counts as 1 higher for that roll. You cannot redirect shared Disposition loss, injury-trade payments, running-dry statuses, agreed concession costs or other accepted payments. You cannot shield an ally from an area effect that already affects both of you.],
+-    [4], [#strong[Cleave];], [When you attack a group or minions, you get #strong[one free Extra Feat] per roll (hit a second target, break their line, and so on). Free waives its Power cost; it grants no additional scripted action and cannot bypass the action interaction or declared stakes.],
++    [2], [#strong[Brutal];], [Once per roll, when you spend Power on a successful Fight or Brawl Attack, choose one: remove #strong[1 additional Disposition] with ordinary Attack loss, or raise a harmful status the Attack inflicts by #strong[1 tier for free]. It adds no status to an ordinary conflict Attack and doesn't improve a creature-specific finishing procedure.],
++    [3], [#strong[Bodyguard];], [When an ally within reach would suffer an imposed consequence you can plausibly intercept, take it instead. Declare this before their Resistance and use your own reduction; if you Resist, your Edge counts as 1 higher. You can't take shared Disposition loss, a protected payment or an area effect that already hits you both.],
++    [4], [#strong[Cleave];], [When you attack a group or minions, you get #strong[one free Extra Feat] per roll (hit a second target, break their line, and so on).],
+     [5], [#strong[Menacing];], [You may use #strong[Sōma] for Intimidate Effort and Resistance. When you succeed on Intimidate against minions, spend 1 Momentum to make them flee, surrender, or freeze.],
+-    [6], [#strong[Pain Tolerance];], [Ignore the roll penalty from harmful physical statuses of tier 1--2. At tier 3+, the penalty is reduced by 1. This changes only the applicable roll penalty, not the recorded tier, stacking, recovery or fictional restrictions. It does not prevent an injury payment, Taken Out, Dying or a Scar under their normal rules.],
+-    [7], [#strong[★ Berserker];], [Once per scene, enter a fury: you get #strong[+1 bonus die] (free) on Fight, Brawl, and Athletics rolls for the rest of the scene. You can\'t script Defend or retreat. At scene end, lose 2 Sōma or take #emph[Weary];. The chosen cost is an accepted payment and cannot be prevented, redirected or Resisted; the pool cost must be paid in full.],
+-    [8], [#strong[★ Unstoppable];], [Once per scene, when an imposed harmful physical status reaches #strong[tier 6] on you, record it and any Scar normally, but delay being Taken Out by that status until the scene ends. During that time, you may continue acting despite the collapse or incapacitation caused by that status. Its normal roll penalty still applies. This does not restore a lost body part, supply an impossible means of acting, or protect you from other statuses. At scene end, apply its Taken Out result unless the status has been reduced below tier 6 through an appropriate treatment or explicit ability. Dying and other lethal consequences continue normally; this ability does not postpone death, prevent shared-Disposition defeat or affect accepted payments.],
+-    [◆], [#strong[Legend of the Field];], [Your reputation is a #strong[Campaign Truth] (#emph[\"Everyone knows \[name\]\"];). In Fight conflicts, enemy Disposition starts #strong[−2];, and the GM pays +1 Woe for reinforcements while you stand. The −2 is a flat starting-Disposition modifier: apply it at full value with other flat modifiers, before the minimum of 1 and opposing Superiority (Core Rules §10.2--10.3). It is not additional Superiority or loss inflicted during an exchange.],
++    [6], [#strong[Pain Tolerance];], [Ignore the roll penalty from harmful physical statuses of tier 1--2; at tier 3+, reduce it by 1. Only the penalty changes: the tier, stacking, recovery, Taken Out, Dying and Scars work normally.],
++    [7], [#strong[★ Berserker];], [Once per scene, enter a fury: you get #strong[+1 bonus die] (free) on Fight, Brawl, and Athletics rolls for the rest of the scene. You can't script Defend or retreat. At scene end, lose 2 Sōma (paid in full) or take #emph[Weary]; either is an accepted payment.],
++    [8], [#strong[★ Unstoppable];], [Once per scene, when a harmful physical status on you reaches #strong[tier 6], record it and any Scar, but delay being Taken Out by it until the scene ends. You keep acting, with its normal roll penalty. At scene end you're Taken Out unless treatment or an ability has lowered it below tier 6. This doesn't postpone Dying or death, restore a lost limb, protect you from other statuses or prevent a shared-Disposition defeat.],
++    [◆], [#strong[Legend of the Field];], [Your reputation is a #strong[Campaign Truth] (#emph[\"Everyone knows \[name\]\"]). In Fight conflicts, enemy starting Disposition is #strong[−2] (a flat modifier, §1.2), and the GM pays +1 Woe for reinforcements while you stand.],
+   )]
+   , kind: table
+   )
+diff --git a/2d12System/chapter-5.4-furcifer.typ b/2d12System/chapter-5.4-furcifer.typ
+index 2e8b8db..7362d8c 100644
+--- a/2d12System/chapter-5.4-furcifer.typ
++++ b/2d12System/chapter-5.4-furcifer.typ
+@@ -25,13 +25,12 @@ Quiet, precise, and always three exits ahead. Thieves, spies, scouts, assassins,
+ 
+ === 4.1 Special Abilities
+ ==== Shared Opening: Unaware or Impeded
+-For Opportunist and Deadly Precision, choose an individual opponent against whom your declared approach materially benefits from an opening. They qualify if unaware of your presence, or if they are the participant whose action will receive pending Impede in the current volley (Core Rules §10.6).
++Opportunist and Deadly Precision need an #strong[opening]: an individual opponent who is unaware of you, or whose action this volley has a pending Impede (Core Rules §10.6), and your approach must actually use it. Hiding your intent isn't the same as being unnoticed, though an opponent busy with your visible allies may not know you're there. An ongoing harmful status isn't Impede.
+ 
+-Concealing hostile intent or the particular tactic does not by itself make you unnoticed. An opponent fighting your visible allies may still be unaware of you. An ongoing harmful status does not substitute for Impede, and an unrelated participant cannot supply eligibility. These abilities grant no inspection of the opposing script.
++Check once, after actions and approaches are revealed and before anything rolls; the opening then lasts through the volley. A trumped action never qualifies through Impede. Meeting both triggers counts once.
+ 
+-Check once after revealing actions and assigned actors and describing approaches, before either action rolls or resolves. A trumped opposing action does not qualify through Impede; unawareness may still qualify. For independent actions, eligibility established at this check lasts through the volley's resolution even when Impede expires during the opposing roll. Neither ability consumes or extends Impede. Meeting both triggers qualifies only once.
++Outside scripted conflicts, check unawareness just before the roll. Whether your action reveals you depends on what actually happens in the fiction.
+ 
+-Outside scripted conflicts, check unawareness immediately before the roll or automatic resolution; Impede qualifies only where its conflict procedure exists. Resolve whether your action reveals your presence from what actually happens. Exposure may reveal you, but an indirect or concealed action need not do so without a fictional reason.
+ 
+ #figure(
+   [#table(
+@@ -39,29 +38,27 @@ Outside scripted conflicts, check unawareness immediately before the roll or aut
+     align: (auto,auto,auto,),
+     table.header([\#], [Ability], [Effect],),
+     table.hline(),
+-    [1], [#strong[Ghost];], [When you spend Effort on a Stealth roll, your first use of Effort costs 0 pool points. Once per scene, when spotted, spend 1 Momentum to declare you were never seen; you\'re in a nearby hidden position. Declare this when the spotting is established, before resolving consequences from being spotted. It does not undo resolved actions, Disposition loss, injuries or a settled defeat, and does not cancel an independently resolving action.],
+-    [2], [#strong[Opportunist];], [When your otherwise permitted action against an individual opponent meets the shared opening requirements, gain #strong[+1 Power] on a success, once per action. This is not limited to Attack. It includes independent Success at a Cost and an otherwise permitted automatic success with listed Power, but not a losing, tied or trumped action. Spend the additional Power only on Effects otherwise permitted for that action and supported by the qualifying approach (Core Rules §10.6). Multiple targets or openings do not multiply the bonus.],
+-    [3], [#strong[Light Fingers];], [When you succeed on a theft, plant, or sabotage roll (Stealth or Craft), gain a #strong[free Extra Feat];. Free waives the Power cost; it grants no additional scripted action and cannot bypass the interaction or declared stakes.],
++    [1], [#strong[Ghost];], [Your first Effort on each Stealth roll costs 0 pool points. Once per scene, when you're spotted, spend 1 Momentum to declare you were never seen; you're in a nearby hidden position. Declare it before the consequences of being spotted resolve; it doesn't undo anything already resolved.],
++    [2], [#strong[Opportunist];], [When your permitted action against an individual opponent has an opening, gain #strong[+1 Power] on a success, once per action. This includes an independent Success at a Cost or an automatic success, but not a losing, tied or trumped action. Spend it only on Effects that action permits.],
++    [3], [#strong[Light Fingers];], [When you succeed on a theft, plant, or sabotage roll (Stealth or Craft), gain a #strong[free Extra Feat].],
+     [4], [#strong[Infiltrator];], [Once per roll, ignore one Truth that would raise the Difficulty of sneaking, climbing, or bypassing security.],
+-    [5], [#strong[Quick Reflexes];], [Outside scripted conflicts, you always act first when violence breaks out. In conflicts, changing one of your unrevealed scripted actions costs #strong[1 Momentum] instead of 2, at the normal script-change timing. It grants no extra opening action, initiative cancellation or free actor reassignment.],
+-    [6], [#strong[Escape Artist];], [When you Resist capture, restraint, falls, or traps with Mētis, the cost is #strong[0 on a Resistance result of 5+];. This does not permit Resistance against shared Disposition loss, accepted payments or a settled conflict outcome.],
+-    [7], [#strong[★ Flashback];], [Once per mission, declare a flashback to something you prepared earlier. Pay Momentum by plausibility: 0 (obvious), 1 (reasonable), 2 (a stretch), 3 (wild). Then roll as normal; on a success, it happened. A flashback cannot contradict resolved events, reverse paid costs or outcomes, or retroactively recalculate Superiority after conflict setup.],
+-    [8], [#strong[★ Deadly Precision];], [When your Attack against an individual opponent meets the shared opening requirements, choose one benefit. If you commit at least 1 Power to ordinary conflict Attack Disposition loss, remove #strong[1 additional opposing Disposition];, once per action. If the Attack is permitted to inflict a harmful status, one status purchase against that qualifying target costs #strong[half its purchased tier in Power, rounded up] (tiers 1--2 cost 1; 3--4 cost 2; 5--6 cost 3). Choose only one component if an explicit action permits both Disposition loss and a status. The discount applies to incoming purchased tiers before reduction and stacking, not a guaranteed final tier. It changes price only; success, permission, scope, lethal stakes, Resistance, armour, stacking and creature-specific limits still apply. It discounts no hazards, backlash, accepted payments or unrelated procedures. Other purchases use normal prices. This benefit does not apply to Feint.],
+-    [◆], [#strong[Nobody Sees Me Coming];], [Once per session, declare you\'re already somewhere you could plausibly have reached. Your first roll there gets #strong[+2 bonus dice for free];, and the GM can\'t spend Woe to reveal you during that roll. This grants no additional scripted action and cannot contradict resolved events or reverse a settled outcome.],
++    [5], [#strong[Quick Reflexes];], [Outside scripted conflicts, you always act first when violence breaks out. In conflicts, changing one of your unrevealed scripted actions costs #strong[1 Momentum] instead of 2, at the normal timing.],
++    [6], [#strong[Escape Artist];], [When you Resist capture, restraint, falls, or traps with Mētis, the cost is #strong[0 on a Resistance result of 5+].],
++    [7], [#strong[★ Flashback];], [Once per mission, declare a flashback to something you prepared earlier. Pay Momentum by plausibility: 0 (obvious), 1 (reasonable), 2 (a stretch), 3 (wild). Then roll as normal; on a success, it happened. It can't reverse paid costs or outcomes.],
++    [8], [#strong[★ Deadly Precision];], [When your Attack against an individual opponent has an opening, choose one, once per action: remove #strong[1 additional Disposition] when you commit Power to ordinary Attack loss, or, if the Attack may inflict a harmful status, buy one status against that target for #strong[half its tier in Power, rounded up] (tiers 1--2 cost 1, 3--4 cost 2, 5--6 cost 3). The discount applies to the purchased tier, before Resistance and stacking, and changes only the price. It doesn't apply to Feint, hazards, backlash or other purchases.],
++    [◆], [#strong[Nobody Sees Me Coming];], [Once per session, declare you're already somewhere you could plausibly have reached. Your first roll there gets #strong[+2 bonus dice for free], and the GM can't spend Woe to reveal you during that roll.],
+   )]
+   , kind: table
+   )
+ 
+-==== Shared Limits and Stacking
+-Opportunist and Deadly Precision may benefit the same action. Opportunist's +1 Power may pay the discounted status price. Distinct flat offensive bonuses stack when each meets its requirements, each on its permitted component. Alternative status prices do not combine; calculate separately and use the lowest applicable price. Deadly Precision grants no general discount to other spending.
++==== Shared Limits
++Both abilities can apply to the same action, and Opportunist's +1 Power can pay Deadly Precision's discounted price. Where two status prices apply, use the lowest; they don't combine.
+ 
+-For an area effect, identify qualifying individual opponents. Opportunist grants at most +1 Power for the action. Deadly Precision grants at most +1 shared-Disposition loss or discounts one status purchase against one qualifying target. A shared area-status purchase uses normal pricing; the single-target discount cannot lower the whole area's price. Apply the area procedure's own Disposition adjustment separately (Core Rules §10.17).
++Against an area, each ability gives its benefit once: Opportunist +1 Power, Deadly Precision +1 Disposition loss or one discounted status against one qualifying target. A shared area-status purchase uses the normal price (Core Rules §10.17).
+ 
+-These benefits can apply in any conflict type when the opening materially assists the fitting approach, including a precision-based Attack in an Argument. They advance only the declared objective and do not automatically inflict harmful statuses.
++Both work in any conflict type where the opening helps the approach, such as a precision Attack in an Argument. Neither unlocks a status purchase or improves staking, killing strikes or another creature-specific finishing procedure, and a helpless target doesn't authorise an otherwise unavailable Attack.
+ 
+-Neither ability grants an additional action, permits a trumped action to resolve, unlocks a harmful-status purchase, expands declared stakes or overrides independently resolving actions. Neither improves staking, killing strikes or another creature-specific finishing procedure unless that procedure expressly permits it. An unaware helpless or defeated target does not authorise an otherwise unavailable Attack or bypass a required finishing procedure.
+ 
+-#pagebreak()
+ === 4.2 Starting Equipment
+ #strong[Signature item (choose 1)]
+ 
+diff --git a/2d12System/chapter-5.5-savant.typ b/2d12System/chapter-5.5-savant.typ
+index d5f07de..00d55d8 100644
+--- a/2d12System/chapter-5.5-savant.typ
++++ b/2d12System/chapter-5.5-savant.typ
+@@ -31,14 +31,14 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
+     table.header([\#], [Ability], [Effect],),
+     table.hline(),
+     [1], [#strong[Encyclopedic];], [Once per scene, ask one Discover question about a subject covered by your Lore #strong[without rolling];.],
+-    [2], [#strong[Analyze];], [When you study a foe or obstacle, each Discover you buy also reveals #strong[one weakness tag] of the target. Creating a Truth that exploits a revealed weakness costs #strong[1 Power] instead of 2. The Truth provides leverage, not automatic victory or permission to bypass the action interaction. Information may support applicable Superiority at setup; it does not recalculate Superiority mid-conflict.],
+-    [3], [#strong[Field Medic];], [Restore effects from Medicine cost #strong[1 Power per 2 tiers];. You can treat #emph[Sick] (Module B) at Standard Difficulty instead of Hard. Increased Restore output does not override lasting-injury treatment limits unless another rule explicitly does so. Healing a status does not restore pools or Disposition, refresh injury trades or erase Scars.],
++    [2], [#strong[Analyze];], [When you study a foe or obstacle, each Discover you buy also reveals #strong[one weakness tag] of the target. Creating a Truth that exploits a revealed weakness costs #strong[1 Power less] (Core Rules §5). The Truth is leverage, not automatic victory.],
++    [3], [#strong[Field Medic];], [Restore effects from Medicine cost #strong[1 Power per 2 tiers], within the lasting-injury limits (Core Rules §6.6). You can treat #emph[Sick] (Module B) at Standard Difficulty instead of Hard. Healing doesn't restore pools or Disposition, refresh injury trades or erase Scars.],
+     [4], [#strong[Steady Mind];], [When you Resist confusion, illusion, deception, or forbidden knowledge with Psychē, reduce the status by #strong[3 tiers];.],
+-    [5], [#strong[Decipher];], [Codes, unknown languages, and ancient devices give way. Each success on a deciphering roll Advances its clock #strong[+1 extra segment];. This bonus advances that progress clock only; it is not additional Power or Disposition loss. It grants no additional scripted action or permission to bypass the action interaction (Core Rules §5, §10.5--10.6).],
+-    [6], [#strong[Briefing];], [When an ally acts on information you gave them this scene, they get #strong[+1] (counts as a tag). Once per scene, give the whole party this bonus. The normal tag cap still applies; this grants no additional action.],
+-    [7], [#strong[★ Connect the Dots];], [Once per session, propose a hidden Truth based on clues you\'ve found. The GM either makes it true or tells you #strong[one true hidden Truth] about the situation instead. It cannot contradict resolved events or retroactively recalculate Superiority after setup.],
+-    [8], [#strong[★ I Planned for This];], [Once per scene, after any ally rolls but before Power is spent or the roll\'s consequences are applied, spend #strong[2 Psychē] to let them reroll all dice and keep the better result. This replaces the result of the same action, not an additional action, and cannot reopen a settled outcome.],
+-    [◆], [#strong[Master of the Field];], [Choose one field (medicine, occult, engineering, history, and so on). Rolls in that field are #strong[one Difficulty step lower];. Once per session, ask a Discover question about #strong[what will happen] in that field; the GM answers truthfully. Apply the Difficulty reduction when the roll tests against a Difficulty, including an eligible independent conflict test. A versus test compares opposing totals instead; do not convert this reduction into a penalty to the opposing total, bonus Power or additional Disposition loss (Core Rules §10.5).],
++    [5], [#strong[Decipher];], [Codes, unknown languages, and ancient devices give way. Each success on a deciphering roll advances its clock #strong[1 extra segment]. This is clock progress only, not Power or Disposition loss.],
++    [6], [#strong[Briefing];], [When an ally acts on information you gave them this scene, they get #strong[+1] (counts as a tag, within the tag cap). Once per scene, give the whole party this bonus.],
++    [7], [#strong[★ Connect the Dots];], [Once per session, propose a hidden Truth based on clues you've found. The GM either makes it true or tells you #strong[one true hidden Truth] about the situation instead.],
++    [8], [#strong[★ I Planned for This];], [Once per scene, after any ally rolls but before Power is spent or consequences apply, spend #strong[2 Psychē] to let them reroll all dice and keep the better result. This replaces that roll; it isn't an extra action.],
++    [◆], [#strong[Master of the Field];], [Choose one field (medicine, occult, engineering, history, and so on). Rolls in that field against a Difficulty, including independent conflict tests, are #strong[one Difficulty step lower]; versus tests are unchanged. Once per session, ask a Discover question about #strong[what will happen] in that field; the GM answers truthfully.],
+   )]
+   , kind: table
+   )
+@@ -53,7 +53,7 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
+     table.header([Genre], [Option A], [Option B],),
+     table.hline(),
+     [Fantasy], [#strong[Annotated grimoire / great reference] (1) --- #emph[the answer is in here somewhere];; once per scene, +1 to Lore], [#strong[Physician\'s satchel] (1) --- #emph[herbs and blades];; Restore +1 tier once per scene; lasting-injury treatment limits still apply],
+-    [Modern], [#strong[Laptop with research databases] (1) --- #emph[online archive];], [#strong[Forensics kit] (1) --- #emph[evidence never lies];; +1 to Investigate at scenes],
++    [Modern], [#strong[Laptop with research databases] (1) --- #emph[online archive];], [#strong[Forensics kit] (1) --- #emph[evidence never lies];; +1 to Investigate at crime scenes],
+     [Sci-Fi], [#strong[Datapad with AI assistant] (1) --- #emph[ask the archive];; one free Discover per session], [#strong[Bioscanner] (1) --- #emph[reads the body];; Medicine and Notice tag],
+   )]
+   , kind: table
+diff --git a/2d12System/chapter-5.6-interlocutor.typ b/2d12System/chapter-5.6-interlocutor.typ
+index 07164c2..2c72a91 100644
+--- a/2d12System/chapter-5.6-interlocutor.typ
++++ b/2d12System/chapter-5.6-interlocutor.typ
+@@ -30,15 +30,15 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
+     align: (auto,auto,auto,),
+     table.header([\#], [Ability], [Effect],),
+     table.hline(),
+-    [1], [#strong[Silver Tongue];], [When you Persuade or Deceive, creating a Truth about a target\'s attitude (#emph[convinced];, #emph[trusts us];, #emph[fooled];) costs #strong[1 Power] instead of 2. During a conflict, the Truth establishes leverage or a supporting attitude; it cannot grant the disputed objective, reverse a resolved outcome or bypass the action interaction.],
+-    [2], [#strong[Read the Room];], [Spend 1 Power on Discover to learn an NPC\'s #strong[Belief, Goal, or Instinct];. You get #strong[+1] (counts as a tag) against them for the scene. The normal tag cap applies. Information may support applicable Superiority at setup, but does not recalculate it mid-conflict.],
+-    [3], [#strong[Network];], [Once per session, declare a #strong[contact] in the current location as a Truth (#emph[contact: harbourmaster Elsa];). The GM gives them a quirk or something they want in return. This cannot contradict resolved events or retroactively recalculate Superiority after setup.],
+-    [4], [#strong[Smooth Recovery];], [Once per scene, after failing a Persuade, Deceive or Empathy test against a Difficulty, but before spending Power or applying consequences, turn the result into #strong[Success at a Cost] regardless of the failure margin. Gain #strong[1 Power];, then apply eligible success-based bonuses and spending normally. Choose the applicable Success-at-a-Cost payment instead of ordinary-failure Woe; do not charge both. Doubles complications and other separately triggered consequences still apply. This works on independent conflict tests, not losing or tied versus tests, trumped actions or settled outcomes. A result already qualifying as Success at a Cost does not require this ability.],
+-    [5], [#strong[Many Faces];], [With a moment to prepare, Create the Truth #emph[I belong here] for #strong[1 Power];. It lasts the scene and removes one Truth that would raise the Difficulty of mingling or entry. This grants no extra scripted action and does not by itself settle a contested conflict objective.],
+-    [6], [#strong[Command];], [When your side scripts an exchange, if you participate and can act and communicate, designate one volley and its actor. For that assignment, your side may ignore both the requirement that everyone act before anyone repeats and the prohibition on consecutive volleys. Commit the designation with the script. It grants no additional action, later reassignment or free script change. The instruction remains effective if you later become Taken Out, but does not make an unavailable actor able to act. Record the exceptional actor\'s turn normally without resetting other participants\' outstanding turns. Resume normal rotation afterward, carrying its state across exchanges. Your side may use only #strong[one Command rotation exception per exchange];; unused exceptions do not carry forward. Separately, #strong[once per exchange for your side];, when an ally other than you succeeds with Defend and commits at least 1 Power to ordinary Disposition recovery, you may add #strong[+1 recovery];, up to starting Disposition. Declare before applying recovery. This benefit does not trigger if all Power is spent on supplementary Effects or Riposte. Multiple Command users do not multiply either per-exchange allowance.],
+-    [7], [#strong[★ Inspire];], [You can spend #strong[your Tychē Points on allies\' rolls];. Enhance effects you create for allies cost #strong[1 Power per 2 tiers];. Enhance grants a helpful status with its normal scope and removal condition; this discount does not restore Disposition or pools, remove a harmful status or grant an additional scripted action (Core Rules §5, §10.5--10.6).],
+-    [8], [#strong[★ Crowd Work];], [You influence a group as if it were one person. In Argument or Negotiation conflicts against a crowd or council, your successful Attacks remove #strong[1 additional Disposition] when applying ordinary Attack Disposition loss. This is additional loss, not Power or a harmful status; it does not grant additional actions or multiply by the crowd\'s fictional headcount.],
+-    [◆], [#strong[Word Is Law];], [Once per session, a non-villain NPC agrees to a reasonable request #strong[without a roll];. In Argument and Negotiation conflicts, your side starts with #strong[+4 Disposition];. Apply the +4 at full value with other flat starting-Disposition modifiers, before the minimum of 1 and opposing Superiority (Core Rules §10.2--10.3). Changing conflict type within the same unresolved struggle does not refresh Disposition or reapply setup bonuses.],
++    [1], [#strong[Silver Tongue];], [When you Persuade or Deceive, creating a Truth about a target's attitude (#emph[convinced], #emph[trusts us], #emph[fooled]) costs #strong[1 Power less] (Core Rules §5). In a conflict, the Truth gives leverage, not the disputed objective.],
++    [2], [#strong[Read the Room];], [Spend 1 Power on Discover to learn an NPC's #strong[Belief, Goal, or Instinct]. You get #strong[+1] (counts as a tag, within the tag cap) against them for the scene.],
++    [3], [#strong[Network];], [Once per session, declare a #strong[contact] in the current location as a Truth (#emph[contact: harbourmaster Elsa]). The GM gives them a quirk or something they want in return.],
++    [4], [#strong[Smooth Recovery];], [Once per scene, when you fail a Persuade, Deceive or Empathy test against a Difficulty, before Power or consequences apply, turn it into #strong[Success at a Cost] with #strong[1 Power], whatever the margin. Pay the Success at a Cost price instead of ordinary-failure Woe; doubles and other separate consequences still apply. It works on independent tests, not on losing, tied or trumped versus tests.],
++    [5], [#strong[Many Faces];], [With a moment to prepare, Create the Truth #emph[I belong here] for #strong[1 Power]. It lasts the scene and removes one Truth that would raise the Difficulty of mingling or entry. It doesn't settle a contested conflict objective.],
++    [6], [#strong[Command];], [When your side scripts an exchange and you can act and communicate, name one volley and its actor: that actor may act out of rotation, even in consecutive volleys. Commit it with the script. It still holds if you're later Taken Out, but can't make an unavailable actor act; record the turn normally, then resume rotation. Separately, when an ally succeeds with Defend and commits at least 1 Power to Disposition recovery, add #strong[+1 recovery] (up to starting Disposition). Each benefit applies #strong[once per exchange] for your side, however many Command users it has.],
++    [7], [#strong[★ Inspire];], [You can spend #strong[your Tychē Points on allies' rolls]. Enhance effects you create for allies cost #strong[1 Power per 2 tiers].],
++    [8], [#strong[★ Crowd Work];], [You influence a group as if it were one person. In Argument or Negotiation conflicts against a crowd or council, your successful Attacks remove #strong[1 additional Disposition] with ordinary Attack loss, however many people the crowd holds.],
++    [◆], [#strong[Word Is Law];], [Once per session, a non-villain NPC agrees to a reasonable request #strong[without a roll]. In Argument and Negotiation conflicts, your side starts with #strong[+4 Disposition] (a flat modifier, §1.2).],
+   )]
+   , kind: table
+   )
+diff --git a/2d12System/chapter-5.7-explorator.typ b/2d12System/chapter-5.7-explorator.typ
+index 84a26d5..4b02286 100644
+--- a/2d12System/chapter-5.7-explorator.typ
++++ b/2d12System/chapter-5.7-explorator.typ
+@@ -30,15 +30,15 @@ At home where the map ends. Rangers, hunters, pilots, guides, explorers, scouts,
+     align: (auto,auto,auto,),
+     table.header([\#], [Ability], [Effect],),
+     table.hline(),
+-    [1], [#strong[Pathfinder];], [As Guide (Module B), each Power spent on Make Time Advances the Journey clock #strong[+1 extra segment];. Ignore one terrain Truth per leg. The extra segment advances the Journey clock only; it is not additional Power or Disposition loss and does not grant an additional scripted action.],
++    [1], [#strong[Pathfinder];], [As Guide (Module B), each Power spent on Make Time advances the Journey clock #strong[1 extra segment]. Ignore one terrain Truth per leg.],
+     [2], [#strong[Forager];], [As Quartermaster, a success also clears #emph[Hungry & Thirsty] for the whole party and gives #strong[+1 Supplies] for free.],
+     [3], [#strong[Tracker];], [When you track or read signs, each Discover you buy gives #strong[two answers];.],
+     [4], [#strong[Hunter\'s Eye];], [With Shoot, once per roll ignore one Truth about cover, distance, or weather. At long range, gain #strong[+1 Power] on a success.],
+-    [5], [#strong[Ambusher];], [In wild terrain, if you had time to prepare, your side starts a Fight conflict with #strong[+2 Disposition];, and your first-volley Attack counts as independent regardless of the opponent\'s action. Apply the +2 at full value with other flat starting-Disposition modifiers, before the minimum of 1 and opposing Superiority (Core Rules §10.2--10.3). It is not additional Superiority, and changing conflict type within the same unresolved struggle does not reapply this setup bonus.],
+-    [6], [#strong[At the Helm];], [Drive/Pilot rolls with your own vehicle or boat may use Survival. Your vehicle gains one power tag (#emph[swift];, #emph[rugged];, #emph[nimble];). In Chase conflicts, your side gets #strong[+3 starting Disposition];. Apply the +3 at full value with other flat starting-Disposition modifiers, before the minimum of 1 and opposing Superiority (Core Rules §10.2--10.3). Changing from another conflict type to a Chase within the same unresolved struggle does not refresh Disposition or reapply setup bonuses.],
+-    [7], [#strong[★ Animal Companion];], [You have a companion (hound, hawk, horse, drone in sci-fi) with 2 power tags and 1 weakness. Once per scene it gives you a #strong[free bonus die];, or it acts on its own using your Survival. The bonus die respects the normal bonus-dice cap and grants no extra action. When it acts independently in a conflict, it occupies a place in your side\'s three-action script and continuous rotation. It has no personal Disposition track or injury trade unless an explicit rule grants one; its removal does not directly subtract shared Disposition. It can take statuses; tier 6 means it\'s lost until downtime.],
+-    [8], [#strong[★ Weather Sense];], [Once per session, declare the #strong[weather or terrain Truth] for the next scene (#emph[thick fog];, #emph[rising river];, #emph[clear skies];). This cannot contradict resolved events or retroactively recalculate Superiority after setup.],
+-    [◆], [#strong[One With the Wild];], [In wilderness, the party\'s Grind clock is #strong[2 segments larger];, and you cannot be surprised. Once per session, when your party is fleeing through wilderness, declare that you are losing the pursuit before the next exchange is scripted. If you can lead the party and everyone escaping can travel or be carried, the pursuit ends: you reach concealment or safety and your pursuers lose your trail. No roll or compromise is required. This secures escape only. It does not defeat or capture the pursuers, recover abandoned people or possessions, or undo existing injuries and paid costs. The same pursuit cannot immediately resume without a new discovery or materially changed circumstances.],
++    [5], [#strong[Ambusher];], [In wild terrain, if you had time to prepare, your side starts a Fight conflict with #strong[+2 Disposition] (a flat modifier, §1.2), and your first-volley Attack resolves as independent whatever the opponent does.],
++    [6], [#strong[At the Helm];], [Drive/Pilot rolls with your own vehicle or boat may use Survival. Your vehicle gains one power tag (#emph[swift], #emph[rugged], #emph[nimble]). In Chase conflicts, your side gets #strong[+3 starting Disposition] (a flat modifier, §1.2).],
++    [7], [#strong[★ Animal Companion];], [You have a companion (hound, hawk, horse; a drone in sci-fi) with 2 power tags and 1 weakness. Once per scene it gives you a #strong[free bonus die] (within the +2 cap), or acts on its own using your Survival. Acting on its own in a conflict takes a place in your side's script and rotation; it has no Disposition or injury trade of its own (Core Rules §10.9). It can take statuses; tier 6 means it's lost until downtime.],
++    [8], [#strong[★ Weather Sense];], [Once per session, declare the #strong[weather or terrain Truth] for the next scene (#emph[thick fog], #emph[rising river], #emph[clear skies]).],
++    [◆], [#strong[One With the Wild];], [In wilderness, the party's Grind clock is #strong[2 segments larger], and you can't be surprised. Once per session, while your party flees through wilderness, declare before the next exchange is scripted that you're losing the pursuit. If you can lead and everyone escaping can travel or be carried, the pursuit ends with no roll: you reach safety and the pursuers lose your trail. It doesn't defeat them, recover anything left behind or undo injuries and paid costs, and the chase can't resume without a new discovery or changed circumstances.],
+   )]
+   , kind: table
+   )
+diff --git a/2d12System/chapter-5.8-adept.typ b/2d12System/chapter-5.8-adept.typ
+index ac92b61..dc975ce 100644
+--- a/2d12System/chapter-5.8-adept.typ
++++ b/2d12System/chapter-5.8-adept.typ
+@@ -45,10 +45,10 @@ Every Adept has a #strong[Domain];: a broad power tag describing what they can d
+   )
+ 
+ - #strong[Cost:] each working costs #strong[1 point] from Pneuma (Arcana) or Psychē (Tech), in addition to any Effort.
+-- #strong[Backlash:] doubles on a failure or cost cause a backlash. The GM picks a fitting status for you (#emph[burned-2];, #emph[drained-2];, #emph[glitched-2];) or a wild effect, in addition to the normal complication. Backlash remains an explicit additional consequence in conflicts.
++- #strong[Backlash:] doubles on a failure or cost cause a backlash. The GM picks a fitting status for you (#emph[burned-2], #emph[drained-2], #emph[glitched-2]) or a wild effect, in addition to the normal complication. Backlash still applies in conflicts.
+ - Your Domain counts as a power tag on workings (inside the +2 cap).
+ 
+-#strong[In a scripted conflict,] Domain scope decides only whether a working fits the fiction and what it can affect. The working uses an otherwise permitted scripted action and resolves by the conflict's normal independent or versus procedure, with no scope roll or scope-based adjustment. Domain permission grants no additional turn, no harmful status on an ordinary Attack, and doesn't bypass action interactions or declared stakes (Core Rules §10.5--10.6). The Testament of Dust Occultist uses the same rule.
++#strong[In a scripted conflict,] Domain scope decides only whether a working fits and what it can affect. The working uses a permitted scripted action and resolves normally (independent or versus); scope doesn't change the Difficulty or add a roll. It adds no status to an ordinary Attack (Core Rules §10.5--10.6). The Testament of Dust Occultist uses the same rule.
+ 
+ === 8.2 Special Abilities
+ #figure(
+@@ -57,15 +57,15 @@ Every Adept has a #strong[Domain];: a broad power tag describing what they can d
+     align: (auto,auto,auto,),
+     table.header([\#], [Ability], [Effect],),
+     table.hline(),
+-    [1], [#strong[Focused Channel];], [Workings inside your Domain cost #strong[0 pool points] if you don\'t use Effort on that roll. This waives the normal 1-point working cost only, not separate ability costs or accepted payments. It does not suppress Backlash or other applicable consequences.],
+-    [2], [#strong[Ward];], [You can create protective statuses (#emph[warded-X];) with Enhance. While warded, an ally reduces supernatural or tech-based harm by #strong[+1 tier] when Resisting. This protection does not reduce shared Disposition loss, running-dry statuses or accepted payments.],
++    [1], [#strong[Focused Channel];], [Workings inside your Domain cost #strong[0 pool points] if you don't use Effort on that roll. This waives only the 1-point working cost; Backlash still applies.],
++    [2], [#strong[Ward];], [You can create protective statuses (#emph[warded-X]) with Enhance. While warded, an ally reduces supernatural or tech-based harm by #strong[+1 tier] when Resisting.],
+     [3], [#strong[Sense the Unseen];], [Once per scene, ask a free Discover question about #strong[hidden supernatural or technological forces] nearby. You always notice when such forces are used near you.],
+-    [4], [#strong[Overchannel];], [When you use Effort for Power on a working, gain #strong[+2 Power] instead of +1, but take #emph[strained-1] as an accepted payment. Armour, Resistance, prevention, redirection and incidental clearing benefits cannot reduce or cancel it. Once recorded, it recovers normally.],
++    [4], [#strong[Overchannel];], [When you use Effort for Power on a working, gain #strong[+2 Power] instead of +1, but take #emph[strained-1] as an accepted payment. Once recorded, it recovers normally.],
+     [5], [#strong[Ritual];], [Given time, materials, and a safe place, run a working as a #strong[progress clock] instead of a single roll (8 segments for Formidable, 12 for Heroic). Ritual results can create Site or Region Truths.],
+-    [6], [#strong[Bound Servant];], [You have a minor spirit, construct, or drone with one power tag and one weakness. It can scout (one free Discover per scene in places it can reach), carry messages, or handle simple tasks. It can\'t fight. It is an asset, not an independent combat participant: it grants no scripted turn, personal Disposition or injury trade.],
++    [6], [#strong[Bound Servant];], [You have a minor spirit, construct, or drone with one power tag and one weakness. It can scout (one free Discover per scene in places it can reach), carry messages, or handle simple tasks. It can't fight: it's an asset, not a conflict participant (Core Rules §10.9).],
+     [7], [#strong[★ Second Domain];], [Gain a second Domain. Workings in it use the same rules.],
+-    [8], [#strong[★ Unleash];], [Once per scene, a working hits #strong[every target] in an area or group, following the #strong[Area Effects] procedure in Core Rules (provisional for playtesting). Explicitly inflicted statuses apply at full tier to every affected character. In conflicts, apply normal Disposition loss once to the opposing side, plus 1 per additional opposing participant affected; do not multiply full loss by the number of targets or add a status to an ordinary conflict Attack. A group represented by one participant counts once, not once per fictional body. Afterwards, take #emph[Weary] or lose 3 points from your casting pool. The chosen cost is an accepted payment and cannot be prevented, redirected or Resisted; the pool cost must be paid in full.],
+-    [◆], [#strong[Ascendant];], [Once per session, a Heroic-scope working succeeds automatically with #strong[5 Power];, no ritual required. In a conflict, declare it before the roll for your normally scheduled action; it grants no extra turn and a trumped action remains trumped. On an independent test apply 5 Power without rolling. In a versus test it wins with 5 Power unless the opposing action also succeeds automatically, in which case resolve a tie unless a specific rule says otherwise. No roll means no dice-based critical or complication. If you use it again before your next downtime, gain a Pneuma or Psychē Scar.],
++    [8], [#strong[★ Unleash];], [Once per scene, a working hits #strong[every target] in an area or group, using #strong[Area Effects] (Core Rules §10.17). Explicit statuses apply at full tier to each target, and conflict Disposition loss follows the same procedure. Afterwards, take #emph[Weary] or lose 3 points (paid in full) from your casting pool; either is an accepted payment.],
++    [◆], [#strong[Ascendant];], [Once per session, a Heroic-scope working succeeds automatically with #strong[5 Power], no ritual required. In a conflict, declare it before the roll for your normal action: a trumped action stays trumped, and in a versus test it wins unless the other side also succeeds automatically, which makes a tie. No roll means no doubles. If you use it again before your next downtime, gain a Pneuma or Psychē Scar.],
+   )]
+   , kind: table
+   )
+diff --git a/2d12System/chapter-5.9-design-notes.typ b/2d12System/chapter-5.9-design-notes.typ
+index 1409601..ca3b201 100644
+--- a/2d12System/chapter-5.9-design-notes.typ
++++ b/2d12System/chapter-5.9-design-notes.typ
+@@ -1,30 +1,7 @@
+ #import "common.typ": *
+ 
+-#pagebreak()
+-== 9. Design Notes
+-=== 9.1 Balance Targets
+-#figure(
+-  [#table(
+-    columns: (14.14%, 21.21%, 24.24%, 25.25%, 15.15%),
+-    align: (auto,auto,auto,auto,auto,),
+-    table.header([Playbook], [Main pool], [Conflict role], [Exploration role], [Social role],),
+-    table.hline(),
+-    [Bellator], [Sōma], [Attack / Defend], [Endurance, forcing obstacles], [Intimidation],
+-    [Furcifer], [Mētis], [Feint / Maneuver], [Infiltration, security], [Deception],
+-    [Savant], [Psychē], [Maneuver; ability-enabled analysis], [Investigation, healing], [Expertise],
+-    [Interlocutor], [Pneuma], [Argument and Negotiation lead], [Contacts, disguise], [Persuasion],
+-    [Explorator], [Sōma/Mētis], [Ranged Attack, ambush], [Travel, Grind, tracking], [Local knowledge],
+-    [Adept], [Pneuma/Psychē], [Flexible (Domain)], [Supernatural or tech access], [Varies by Domain],
+-  )]
+-  , kind: table
+-  )
++#sidebar("Design Notes")[
++#strong[Roles.] Bellator (Sōma): Attack and Defend, forcing obstacles, intimidation. Furcifer (Mētis): Feint and Maneuver, infiltration, deception. Savant (Psychē): analysis, investigation, healing. Interlocutor (Pneuma): leads Arguments and Negotiations, contacts. Explorator (Sōma/Mētis): ranged Attacks, ambush, travel and tracking. Adept (Pneuma/Psychē): flexible by Domain. These are role targets, not Effect permissions.
+ 
+-These are role targets, not additional Effect permissions. Discover, healing and other supplementary purchases in a conflict follow the action or explicit ability that permits them (Core Rules §5, §10.6); the complete supplementary permission list remains an open ruling.
+-
+-=== 9.2 Things to Watch in Playtest
+-- #strong[Discount stacking:] abilities that reduce Power costs (Silver Tongue, Analyze, Field Medic, Deadly Precision, Jury-Rig) can be strong with Effort for Power. Follow their stated scopes. For Create, each explicit discount reduces the cost by 1 Power to a minimum of 1 (Core Rules §5); these notes impose no blanket one-discount-per-Effect cap. Restore-cost discounts do not lift the ordinary 1-tier lasting-injury treatment limit (§6.6). Any further stacking cap is a separate balance proposal, not a rule introduced here.
+-- #strong[Free bonus dice] (Berserker, Animal Companion, Second Wind, Nobody Sees Me Coming) still count toward the +2 bonus die maximum. Free benefits grant no extra scripted turn or rotation bypass.
+-- #strong[Adept workings] are the most open-ended. If they overshadow other playbooks, playtest increasing the base working cost to 2 pool points or letting Focused Channel apply only to minor and significant workings. These are proposals, not changes to the printed abilities.
+-- #strong[Vehicle signature items] (Explorator, modern and sci-fi) are 0 load because they don\'t come on foot missions. A recorded vehicle can matter as a story fact, but its action benefit requires relevant use or an established contribution; an absent vehicle gives no automatic bonus (Core Rules §10.10).
+-- #strong[Refresh accounting:] a ★ Major costs 1 Refresh when taken; as a creation extra it also pays that extra ability's 1 Refresh, for 2 total. Veteran costs remain additional. Actual remaining Refresh depends on the acquisition route and other purchases, not simply the number of ★ abilities. A capstone costs no Refresh but retains its prerequisites (§1.2).
+-- #strong[Conflict separation:] watch additional Power, Disposition loss and status-tier bonuses separately. Do not apply one bonus to both loss and harm unless stated. Companions that act independently enter continuous rotation; supporting assets do not gain independent turns merely by supplying a tag (Core Rules §10.6, §10.9).
++#strong[Watch in playtest.] Power-cost discounts used with Effort for Power (Silver Tongue, Analyze, Field Medic, Deadly Precision, Jury-Rig in Generic Focuses). Adept workings: if they overshadow other playbooks, try a base working cost of 2, or limit Focused Channel to minor and significant workings. Vehicle signature items are 0 load because they don't come on foot missions; an absent vehicle gives no bonus.
++]

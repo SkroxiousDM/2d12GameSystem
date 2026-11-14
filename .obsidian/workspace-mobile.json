@@ -37,7 +37,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "docs/2d12System/the-2d12-system-v2-core-rulebook.pdf"
+                "file": "pdf/the-2d12-system-v2-core-rulebook.pdf"
               },
               "icon": "lucide-file-text",
               "title": "the-2d12-system-v2-core-rulebook"
@@ -229,6 +229,7 @@
   },
   "active": "a7482e9da91accbe",
   "lastOpenFiles": [
+    "docs/2d12System/the-2d12-system-v2-core-rulebook.pdf",
     "docs/design/rules-audit.md",
     "docs/design/Rules Audit/simplicity-flow/adversaries-rules-wiring-series.md",
     "docs/design/Rules Audit/simplicity-flow/adversaries-rules-wiring-notes.md",
@@ -263,7 +264,6 @@
     "Magical Traditions.md",
     "docs/TestamentOfDust/2d12-system-proposal.md",
     "docs/TestamentOfDust/testament-of-dust-setting-rules.md",
-    "docs/VampireHunterD/2d12-system-proposal.md",
-    "docs/VampireHunterD/How do pools regenerate. How does resting work.md"
+    "docs/VampireHunterD/2d12-system-proposal.md"
   ]
 }

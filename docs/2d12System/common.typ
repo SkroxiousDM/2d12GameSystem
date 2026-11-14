@@ -146,7 +146,7 @@
 // Apply once in the root file with:  #show: apply-style
 #let apply-style(body) = {
   // base text
-  set text(font: body-font, size: 10.3pt, fill: ink, lang: "en", region: "CA",
+  set text(font: body-font, size: 12pt, fill: ink, lang: "en", region: "CA",
     hyphenate: true, number-type: "old-style")
   set par(justify: true, leading: 0.62em, spacing: 0.95em)
   show "★": it => text(font: symbol-font, size: 0.85em, fill: ember, it)
@@ -162,9 +162,9 @@
   show emph: set text(fill: ash)
 
   // page frame
-  set page(paper: "us-letter", fill: paper,
-    margin: (top: 1.5cm, bottom: 1.5cm, inside: 2cm, outside: 1.5cm),
-    header: running-header, footer: running-footer, header-ascent: 35%, footer-descent: 35%)
+  set page(paper: "a4", fill: paper,
+    margin: (top: 16mm, bottom: 16mm, inside: 16mm, outside: 16mm),
+    header: running-header, footer: running-footer, header-ascent: 5mm, footer-descent: 5mm)
 
   // headings
   set heading(numbering: none)

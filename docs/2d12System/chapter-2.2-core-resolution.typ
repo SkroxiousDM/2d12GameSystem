@@ -112,7 +112,6 @@ If your two #strong[kept] dice show the same number:
 - #strong[Double 1s:] always bring a complication, even on a success, but don't fail automatically. A success still gains the +1 critical Power.
 #colbreak()
 - #strong[Buying it off.] When the dice give you a complication (a twist, or a Risky roll, §2.7), you may cancel it by giving the GM #strong[2 Woe]: a problem now, or a problem later. If you keep it and the GM can't think of a fitting complication, the GM gains the 2 Woe instead.
-#colbreak()
 - #strong[NPCs.] When the dice give an NPC a complication, the GM may spend #strong[2 Woe] to cancel it. Otherwise the GM describes the complication, or invites the players to.
 
 Base chance of doubles on 2d12 is about 8% (1 in 12). Doubles created by an ability count as rolled doubles. For doubles in versus tests and conflicts, see §10.7.

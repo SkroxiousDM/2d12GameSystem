@@ -13,7 +13,7 @@ Charm, quick wit, and the right words at the right time.
 
 #figure(
   [#table(
-    columns: (7%, 20%, 73%),
+    columns: (7%, 18%, 75%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -38,7 +38,7 @@ Spy, impostor, or actor: you can be anyone.
 
 #figure(
   [#table(
-    columns: (7%, 20%, 73%),
+    columns: (7%, 18%, 75%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -62,7 +62,7 @@ Fixer, socialite, or broker: you\'re one call away from anyone.
 
 #figure(
   [#table(
-    columns: (7%, 20%, 73%),
+    columns: (7%, 18%, 75%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -86,7 +86,7 @@ Noble, officer, executive, or chieftain: you hold authority, and it holds you.
 
 #figure(
   [#table(
-    columns: (7%, 20%, 73%),
+    columns: (7%, 18%, 75%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),

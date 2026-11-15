@@ -34,7 +34,7 @@
 Focuses marked #strong[◈ Weird] assume the supernatural, impossible technology, or both. In mundane settings the GM removes them from the list. Every other Focus works in any genre.
 
 #strong[Module abilities.] An ability marked (Module A), (Module B) or (Module C) needs that module. Without it, take the other ability at that tier, or agree a substitute with the GM. #strong[Lives Off the Land] (marked B in §2) needs Module B throughout; without it, the GM removes it from the list.
-
+#colbreak()
 === 1.3 Ability Limits
 Focus abilities follow the #strong[Ability limits] in Generic Playbooks §1.2 (free costs, no extra turns, separate bonuses, protected payments). In addition, so the entries don't repeat them:
 - Free bonus dice still count toward the #strong[+2 bonus die maximum];.

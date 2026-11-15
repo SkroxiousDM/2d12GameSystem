@@ -207,7 +207,7 @@ For each character, note an opportunity and a possible dilemma suggested by thei
 - #strong[Instinct:] "When we enter an unfamiliar place, I identify an escape route before settling in."
 
 The GM might offer a delegation in exchange for escorting a vulnerable supply caravan through a dangerous pass. The Goal provides direction, capabilities determine options, and the Beliefs make decisions matter. The GM does not predetermine the character's answer.
-
+#colbreak()
 === 3.6 Starting Resources
 - #strong[Tychē Points:] start each session at your #strong[Refresh] (base 3; §4.1). Beliefs and connections grant no extra points.
 - #strong[Starting abilities.] You get #strong[1 playbook ability and your Tier 1 Focus ability for free], and may buy #strong[up to 2 more playbook abilities at 1 Refresh each].

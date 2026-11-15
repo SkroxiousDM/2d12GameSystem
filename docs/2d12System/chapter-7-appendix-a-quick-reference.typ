@@ -13,8 +13,8 @@
   #set text(size: 10.3pt)
   #show table: set text(size: 10pt)
 
+  #columns(2, gutter: 6mm)[
 == 1. Make a Roll
-#columns(2, gutter: 6mm)[
 *2d12 + Skill + Modifiers vs. Difficulty.*
 
 #table(columns: (30%, 70%),
@@ -84,10 +84,8 @@ Buy off a dice complication by giving the GM 2 Woe. If you keep it and the GM ca
 *Automatic success* replaces an otherwise permitted roll, not its interaction or assigned turn. Use listed Power. In versus it wins unless both automatically succeed, then tie unless explicitly overridden. No extra action, rescue of a trumped action, or dice-based critical/complication.
 
 #emph[Core §§2.1–2.7; conflict exceptions in §10.]
-]
 
 == 2. Track Resources and Consequences
-#columns(2, gutter: 6mm)[
 === The four currencies
 #table(columns: (32%, 68%),
   table.header([Resource], [Who tracks it / main use]),
@@ -136,10 +134,8 @@ Pool recovery and status healing do not restore Disposition, refresh injury trad
 Life-threatening tier-6 harm with lethal stakes can start a 3-segment Dying clock. Medicine vs. Hard 18 stabilises. Explicit creature breaking-point rules replace generic outcomes only where stated.
 
 #emph[Core §§5–6.5; currencies in §§2–4 and §9.]
-]
 
 == 3. Run a Conflict
-#columns(2, gutter: 6mm)[
 Use scripting when the stakes matter, opposition actively resists and several tactical choices matter.
 
 === Setup
@@ -196,7 +192,7 @@ I = independent; V = versus; A = Attack only; F = Feint only.
 *Versus:* Higher total wins with 1 Power, +1 per full 3 points over the opponent. Exact tie: no Power or normal action effect. Losing by 1–3 is not Success at a Cost. Winning prevents the opposing normal effect even if all Power buys other permitted Effects.
 
 *Trumped:* No roll and no action effect. Paid costs remain spent.
-
+#colbreak()
 === Conflict failure and costs
 #table(columns: (72%, 28%),
   table.header([Situation], [Ordinary-failure Woe]),
@@ -226,7 +222,9 @@ Use one Power budget. No primary purchase is mandatory. Relevance alone does not
 #columns(2, gutter: 6mm)[
 With no Power committed to ordinary loss or recovery, apply none unless an explicit ability grants it independently. Ordinary Attacks and Feints grant no status or pool loss. Attack bonuses do not improve Feint unless stated.
 
-Buy Impede, Gain Position and Disarm at most once each per Maneuver. Impede and Gain Position affect the next scripted action, including across exchanges. A no-roll action consumes them unused. Neither affects unrelated Resistance or incidental rolls.
+Buy Impede, Gain Position and Disarm at most once each per Maneuver. Impede and Gain Position affect the next scripted action, including across exchanges. A no-roll action consumes 
+#colbreak()
+them unused. Neither affects unrelated Resistance or incidental rolls.
 
 // PLAYTEST retained: one pending Gain Position per side, regardless of source.
 Pending Impedes do not stack or extend duration. Only one Gain Position may be pending per side regardless of source; additional grants do not stack, refresh or extend it. Its die counts toward the normal cap.
@@ -261,10 +259,8 @@ Create costs 2 Power per Truth rank outside conflicts as well. Each explicit abi
 Scenery purchases use Core §10.8. Furcifer openings and other ability exceptions use their full entries; see Generic Playbooks §4.1 for Opportunist and Deadly Precision.
 
 #emph[Core §5 and §§10.6–10.8.]
-]
 
 == 5. Resolve Loss and Outcomes
-#columns(2, gutter: 6mm)[
 === Shared Disposition
 Each side has one total. It is not health and has no individual shares or spill-over. Ordinary Disposition loss removes no particular participant.
 

@@ -1,5 +1,6 @@
 #import "common.typ": *
-
+  
+)
 == 3. Combat Focuses
 #columns(2, gutter: 6mm)[
 === 1. Never Leaves Anyone Behind
@@ -13,7 +14,7 @@ Loyal to a fault. You go back for the fallen, every time.
 
 #figure(
   [#table(
-    columns: (7%, 20%, 73%),
+    columns: (7%, 18%, 75%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -38,7 +39,7 @@ Captain, chief, or sergeant: people follow you.
 
 #figure(
   [#table(
-    columns: (7%, 20%, 73%),
+    columns: (7%, 18%, 75%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -62,7 +63,7 @@ Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
 
 #figure(
   [#table(
-    columns: (7%, 20%, 73%),
+    columns: (7%, 18%, 75%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -86,7 +87,7 @@ Honour is for people who can afford to lose.
 
 #figure(
   [#table(
-    columns: (7%, 20%, 73%),
+    columns: (7%, 18%, 75%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),

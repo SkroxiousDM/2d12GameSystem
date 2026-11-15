@@ -14,6 +14,7 @@
 #columns(2, gutter: 6mm)[
 - #strong[No pools.] Ordinary adversaries do not track Sōma, Mētis, Psychē or Pneuma. #strong[Grit] contributes to their side's starting shared Disposition; it is not a personal track. #strong[Shrugs] are free Resists. Rivals built as full PCs use their PC resources and applicable exceptions.
 - #strong[Tags are already counted.] Ratings include tags. PCs still Discover, Suppress and compel them.
+#colbreak()
 - #strong[Woe is fuel.] Ordinary adversaries buy bonus dice (1 Woe each, max +2 including free dice) and fire Specials with Woe. They never use Effort and cannot overrun Woe costs.
 - #strong[One best action.] Every card has one clearly best action and a #strong[Tell] that hints at it. Give the players something to script around.
 - #strong[Index-card size.] If it does not fit on a card, cut it.
@@ -51,7 +52,7 @@ Wants: what it is after in this scene
 One line: who it is and what it wants. Pick a #strong[Kind]: Human, Beast or Guardian (§4), or a Kind supplied by the setting.
 
 === Step 2 — Rank
-Rank is how dangerous it is #emph[now]. It sets every number.
+]
 
 #figure(table(columns: (20%, 8%, 17%, 9%, 9%, 17%, 20%),
   table.header([Rank], [Grit = Threat], [Best / Fair / Weak], [Guard], [Shrugs], [Tags: power / weakness], [Specials]),
@@ -61,6 +62,8 @@ Rank is how dangerous it is #emph[now]. It sets every number.
   [Great], [8], [+8 / +5 / +3], [+2], [2], [4 / 2], [3],
   [Paramount], [12], [+10 / +7 / +4], [+3], [3], [5 / 2], [4],
 ))
+#columns(2, gutter: 6mm)[
+Rank is how dangerous it is #emph[now]. It sets every number.       
 Settings supply any Kind-specific construction exceptions; do not add a setting bonus again when its listed Grit already includes it.
 
 #strong[Tiers.] Minion groups are the mob. Minor and Established are rivals. Great and Paramount can serve as bosses, but Rank alone does not grant Boss Phases. Explicit phased-boss designation follows §7.1.
@@ -76,7 +79,7 @@ Each Woe die you add moves the odds back toward the adversary. These are roll be
 === Step 3 — Role
 The Role names the Best action and gives one trait. Assign Fair to two other actions and Weak to the last. A Beast or simple machine has no Feint: it gets Best, Fair, Fair.
 
-#figure(table(columns: (14%, 14%, 72%),
+#figure(table(columns: (17%, 17%, 66%),
   table.header([Role], [Best], [Role trait]),
   [Brute], [Attack], [#strong[Heavy Hitter.] First successful Attack each exchange gets +1 Power. Resolve area effects under Core Rules §10.17; do not multiply this bonus across shared Disposition. Outside conflicts, its Harm is +1 tier.],
   [Shooter], [Attack], [#strong[Dead Aim.] Free bonus die on its first Attack each scene.],
@@ -181,7 +184,7 @@ This is pricing guidance, not an unrestricted spend menu. Write a Special's trig
   table.header([Party size], [2], [3], [4], [5]),
   [Legacy P], [10], [11], [12], [13],
 ))
-
+#colbreak()
 - #strong[Mix at least two Roles.] A Controller with a Skirmisher pack and a Minor Brute gives players script decisions.
 - #strong[Keep actors to party size + 1 or fewer.] Put extra bodies into minion groups.
 - #strong[Count Woe separately.] Session Woe (2 per PC) plus any setting-provided introduction Woe can stack fast. If the encounter already carries introduction Woe, treat Hard as Standard plus Woe.

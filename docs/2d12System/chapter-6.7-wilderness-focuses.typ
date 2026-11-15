@@ -13,7 +13,7 @@ Beast handler, rider, falconer, or dog-musher.
 
 #figure(
   [#table(
-    columns: (7%, 20%, 73%),
+    columns: (7%, 18%, 75%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -38,7 +38,7 @@ Explorer, navigator, or surveyor drawn to the blank parts of the map.
 
 #figure(
   [#table(
-    columns: (7%, 20%, 73%),
+    columns: (7%, 18%, 75%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -62,7 +62,7 @@ Survivalist, forager, or homesteader: you need nothing the world doesn\'t give.
 
 #figure(
   [#table(
-    columns: (7%, 20%, 73%),
+    columns: (7%, 18%, 75%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -87,7 +87,7 @@ Driver, pilot, sailor, or rider: you and your vehicle are one.
 
 #figure(
   [#table(
-    columns: (7%, 20%, 73%),
+    columns: (7%, 18%, 75%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),

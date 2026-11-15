@@ -45,4 +45,3 @@ Suppose the PCs later win with #strong[4 of their starting 8 Disposition] left. 
 
 #strong[Afterward.] Fresh Disposition in a new conflict won't refill pools or heal Tarin's shoulder. Treatment removes at most one tier of a lasting injury before a healing interval removes another (§6.6). A Taken Out character who is healed still needs explicit permission to rejoin an ongoing conflict (§6.4).
 ]
-#pagebreak()

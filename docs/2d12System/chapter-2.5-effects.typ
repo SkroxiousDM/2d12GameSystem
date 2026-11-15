@@ -39,11 +39,11 @@ Each point of Power buys an Effect that fits what your character did in the fict
 - #strong[Order.] Resistance and armour reduce incoming harm before it stacks; they can't reduce a protected payment such as an accepted injury trade (§10.7). Harm reduced to tier 0 isn't recorded. A status can't go above tier 6.
 - #strong[Tier 6:] the target is #strong[Taken Out] of whatever that status represents (dead, unconscious, captured, convinced, routed), within its scope. A harmful status reaching tier 6 also gives a #strong[Scar] unless a specific rule replaces it (§6.3). Death needs a lethal cause and established stakes; a physical status at tier 6 can make you #strong[Dying] (§6.7).
 - #strong[Impede is not a status.] It is a temporary conflict penalty (§10.6). An ongoing hindrance needs its own name, tier, scope and removal condition.
-]
+
 
 === 5.2 Example Statuses
 Statuses can describe physical, mental, emotional, or social circumstances. The following names are examples, not a closed list. When recording one, give it a tier, a specific scope, and a removal condition (§5.1). Use a more precise name whenever it makes the effect clearer. These examples grant no new permission to purchase or inflict statuses; normal Effect costs and conflict permissions still apply.
-
+]
 #table(
   columns: (22%, 78%),
   table.header([Helpful status], [Typical scope]),
@@ -67,7 +67,7 @@ Statuses can describe physical, mental, emotional, or social circumstances. The 
   [Terrified], [Facing, approaching, or acting against a particular source of fear.],
   [Discredited], [Claims and appeals made to an audience whose trust has been damaged.],
 )
-
+#columns(2, gutter: 6mm)[
 #strong[Make the scope specific.] Prepared and Supported need an established basis: name the plan, information, allies, or backing involved. One circumstance does not automatically grant a status and a separate tag or Truth benefit; establish and apply each component by its own rules. Trusted and Discredited apply to a named audience and subject, not everyone or every interaction. They are not universal reputation scores and do not automatically decide what another character believes. Exhausted should identify the depleted capacity rather than penalise everything.
 
 #strong[Recording examples.]
@@ -77,4 +77,4 @@ Statuses can describe physical, mental, emotional, or social circumstances. The 
 - #emph[Discredited before the merchant guild-2]: hinders claims about the disputed shipment made to the guild; ends when the accusation is disproved or credibility is restored.
 
 #strong[Special conditions stay separate.] These examples use the normal tiered-status rules. Grind conditions --- Hungry & Thirsty, Weary, Exposed, Shaken, Sick, and Broken --- use their listed effects and recovery requirements (Module B.3), not generic tiers inferred from their order. Running-dry statuses also follow their pool-specific procedure (§6.2). Impede is a temporary conflict effect, not a status (§10.6).
-#pagebreak()
+]

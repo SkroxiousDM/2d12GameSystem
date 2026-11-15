@@ -1,5 +1,5 @@
 #import "common.typ": *
-#pagebreak()
+
 == 8. Weird Focuses ◈
 #columns(2, gutter: 6mm)[
 === 21. Hunts the Things in the Dark ◈
@@ -13,7 +13,7 @@ Monster-hunter, exorcist, or investigator of the strange.
 
 #figure(
   [#table(
-    columns: (7%, 20%, 73%),
+    columns: (7%, 18%, 75%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -39,7 +39,7 @@ Touched by the spirit world, the Otherworld, or the deep net.
 
 #figure(
   [#table(
-    columns: (7%, 20%, 73%),
+    columns: (7%, 18%, 75%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -63,7 +63,7 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
 
 #figure(
   [#table(
-    columns: (7%, 20%, 73%),
+    columns: (7%, 18%, 75%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -88,7 +88,7 @@ Mutant, cyborg, half-fae, or carrier of a strange bloodline.
 
 #figure(
   [#table(
-    columns: (7%, 20%, 73%),
+    columns: (7%, 18%, 75%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),

@@ -13,7 +13,7 @@ Silent, patient, and impossible to pin down.
 
 #figure(
   [#table(
-    columns: (7%, 20%, 73%),
+    columns: (7%, 18%, 75%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -38,12 +38,12 @@ Sniper, archer, gunslinger: steady breath and a sharp eye.
 
 #figure(
   [#table(
-    columns: (7%, 20%, 73%),
+    columns: (7%, 18%, 75%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Called Shot];], [Once per roll with Shoot, a #strong[free Weaken] effect: suppress one of the target\'s tags (weapon, cover, mobility) for the scene.],
-    [2a], [#strong[Overwatch];], [Once per scene, cancel an imposed status of tier 2 or less about to hit an ally by shooting the source; declare it before the status applies. In conflicts, you may Defend with #strong[Shoot] when covering fire can protect your side.],
+    [2a], [#strong[Over-watch];], [Once per scene, cancel an imposed status of tier 2 or less about to hit an ally by shooting the source; declare it before the status applies. In conflicts, you may Defend with #strong[Shoot] when covering fire can protect your side.],
     [2b], [#strong[Trick Shot];], [Ignore Truths about cover and angles. Gain a free #strong[Extra Feat] when you shoot objects (cut a rope, hit a switch, ricochet).],
     // PLAYTEST: R4, defines One Shot inside scripted conflicts.
     [3a], [#strong[One Shot];], [Once per session, a successful Shoot Attack against a non-major NPC #strong[Takes them Out];. In a conflict, it removes that participant and 1 additional Disposition.],
@@ -63,7 +63,7 @@ Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
 
 #figure(
   [#table(
-    columns: (7%, 20%, 73%),
+    columns: (7%, 18%, 75%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
@@ -90,7 +90,7 @@ You never walk into a room without knowing how to leave it.
 
 #figure(
   [#table(
-    columns: (7%, 20%, 73%),
+    columns: (7%, 18%, 75%),
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),

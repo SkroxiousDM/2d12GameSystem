@@ -79,12 +79,12 @@
             "state": {
               "type": "typst-preview",
               "state": {
-                "vaultPath": "docs/2d12System/chapter-adversaries-part-3.typ",
+                "vaultPath": "docs/2d12System/chapter-2.3-character-creation.typ",
                 "themeOverride": null,
                 "pinned": false
               },
               "icon": "book-open",
-              "title": "Preview: chapter-adversaries-part-3.typ"
+              "title": "Preview: chapter-2.3-character-creation.typ"
             }
           }
         ]
@@ -254,17 +254,22 @@
   },
   "active": "7aa6f6322e6f3252",
   "lastOpenFiles": [
-    "docs/2d12System/chapter-adversaries-part-3.typ",
-    "docs/2d12System/chapter-adversaries.typ",
-    "docs/2d12System/chapter-adversaries-part-2.typ",
+    "docs/2d12System/chapter-2.3-character-creation.typ",
+    "docs/2d12System/chapter-2.4-tyche-points.typ",
     "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
-    "docs/2d12System/the-2d12-system-v2-core-rulebook.pdf",
+    "docs/2d12System/chapter-2.8-truths.typ",
+    "docs/2d12System/chapter-2.6.5-recovery.typ",
     "docs/2d12System/chapter-4-descriptors.typ",
-    "docs/2d12System/chapter-6.3-combat-focuses.typ",
-    "docs/2d12System/chapter-6.4-stealth-and-precision-focuses.typ",
-    "docs/2d12System/chapter-6.5-knowledge-focuses.typ",
-    "docs/2d12System/chapter-6.8-weird-focuses.typ",
-    "docs/2d12System/chapter-6.7-wilderness-focuses.typ",
+    "docs/2d12System/chapter-6-focuses.typ",
+    "docs/2d12System/chapter-adversaries.typ",
+    "docs/2d12System/chapter-1-introduction.typ",
+    "docs/2d12System/chapter-3-optional-modules.typ",
+    "docs/2d12System/chapter-3-module-a-cyphers-and-artifacts.typ",
+    "docs/design/Rules Audit/simplicity-flow/quick-reference-player-first-review.md",
+    "docs/design/Rules Audit/simplicity-flow/adversaries-rules-wiring-series.md",
+    "docs/design/Rules Audit/simplicity-flow/adversaries-rules-wiring-notes.md",
+    "CONTRIBUTING.md",
+    "docs/2d12System/README.md",
     "docs/playtest/engine_v2/ENCOUNTERS_STATE.md",
     "docs/design/Rules Audit/simplicity-flow/optional-modules-pass2-notes.md",
     "docs/design/Rules Audit/simplicity-flow/generic-playbooks-pass1-notes.md",
@@ -282,14 +287,9 @@
     "README.md",
     "CHANGELOG.md",
     "changelog/history-through-2026-10-30.md",
-    "CONTRIBUTING.md",
     "docs/playtest/tollhouse-collectors-cards.md",
     "docs/playtest/tollhouse-collectors-calibration-cards-proposed.md",
     "docs/playtest/engine_v2/README.md",
-    "docs/design/opposition-statblocks and conflict play test 2.md",
-    "docs/playtest/engine/README.md",
-    "docs/2d12System/Rules Audit/chapter-2.10-conflict-system-rewrite.md",
-    "docs/design/Rules Audit/README.md",
     "docs/2d12System/art/playbooks/generic/06-adept.png",
     "docs/2d12System/art/playbooks/generic/06-adept.jpg",
     "docs/2d12System/art/playbooks/generic/05-explorator.png",

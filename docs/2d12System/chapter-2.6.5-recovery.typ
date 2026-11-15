@@ -122,12 +122,11 @@ Stabilising doesn't erase marked segments, reduce the injury, refill pools or re
 
 #strong[Immediate death.] Use it only when the established outcome leaves no plausible time for rescue, or a specific killing method calls for it (such as a creature's killing strike in a setting book). Announce that danger before the roll, and allow Resistance, escape or interruption where their rules permit it; accepted payments cannot be cancelled through these general options. Once such an outcome is fully resolved, don't add a Dying clock to undo it; equally, don't skip the clock for an ordinary mortal wound just because the description is graphic. Resolve permitted post-conflict finishing procedures before compromise (§10.12).
 
-#colbreak()
 #strong[Setting-specific harm.] Use a condition's specific tiers, treatment and breaking-point rules where stated. Replace the core Dying clock only if its rule explicitly supplies an alternative death or stabilisation procedure; different condition tiers alone do not replace it. Testament of Dust's Bled uses its own tiers and recovery rules but retains the core three-segment Dying clock at lethal Bled-6. Do not run a second death deadline alongside it.
 
 #strong[After a death.] Resolve the death and its established consequences. The group may remember the character through Beliefs, relationships, keepsakes or later story developments; death creates no separate points or automatic Truth.
 
-    
+#colbreak()    
 === 6.8 Permanent Harm
 #strong[Where it comes from.] An injury doesn't become permanent just because its tier is high. Permanent harm needs an established permanent-injury stake, a specific effect or creature rule, a voluntary bargain, or a Scar-giving event. Reaching tier 6 gives a Scar (§6.3), not a permanent loss.
 

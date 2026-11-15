@@ -48,6 +48,7 @@ If Module E is in use, use E.1A instead. Otherwise, build the starting factions 
 4. #strong[Sheet.] For each faction write:
 - #strong[Has]: one obvious asset and one less obvious one. These set its #strong[rating]: +1 minor, +2 solid, +3 major, +4 dominant.
 - #strong[Wants]: its current project, with a clock sized by the change it makes (8 for a Site Truth, 12 for a Region Truth; C.6) and the #strong[result Truth] it creates or changes when the clock fills.
+#colbreak()
 - #strong[Link]: how it connects to the PCs.
 - #strong[Relations]: allied or hostile toward each other faction. Where it matters, write the relation as a Truth (Core Rules §8).
 5. #strong[Incident.] One faction does something underhanded or aggressive that affects the others. Treat it as a project that has already filled: record its result Truth. The PCs may see it but can't prevent it.

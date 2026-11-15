@@ -1,5 +1,5 @@
 #import "common.typ": *
-
+#pagebreak() 
 == 7. Wilderness & Travel Focuses
 #columns(2, gutter: 6mm)[
 === 17. Runs With the Pack
@@ -27,6 +27,7 @@ Beast handler, rider, falconer, or dog-musher.
   , kind: table
   )
 
+#colbreak()
 === 18. Charts the Unknown
 #quote(block: true)[
 Explorer, navigator, or surveyor drawn to the blank parts of the map.
@@ -51,6 +52,7 @@ Explorer, navigator, or surveyor drawn to the blank parts of the map.
   , kind: table
   )
   
+#colbreak()
 === 19. Lives Off the Land
 #quote(block: true)[
 Survivalist, forager, or homesteader: you need nothing the world doesn\'t give.
@@ -76,6 +78,7 @@ Survivalist, forager, or homesteader: you need nothing the world doesn\'t give.
   , kind: table
   )
 
+#colbreak()
 === 20. Was Born Behind the Wheel
 #quote(block: true)[
 Driver, pilot, sailor, or rider: you and your vehicle are one.

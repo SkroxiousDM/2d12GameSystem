@@ -11,7 +11,9 @@ Choose the modules the campaign needs. Use an explicit replacement instead of ru
 
 - #strong[Downtime (D)] replaces Module B.4's Players' Turn procedure. Core field rests and Module B's Grind-condition recovery remain separate (D.1).
 - #strong[Factions (E)] replaces Module C.5's basic faction action procedure. Its starting-cluster procedure E.1A replaces C.8; retain the rest of Module C.
-- #strong[Downtime with Factions] uses one World Turn per stay, after endeavours resolve (D.7, E.10). A longer stay does not create extra World Turns or faster Strain recovery.
+- #strong[Downtime with Factions] uses one World Turn per stay, after endeavours resolve (D.7, E.10). A
+#colbreak()
+longer stay does not create extra World Turns or faster Strain recovery.
 - #strong[Inquiry (F)] adds clue and Insight procedures to Inquiry scenes. It doesn't replace conflicts, and relabelling a scene doesn't reset one.
 
 Module rules override core rules only where they say so: the Grind's 2-Woe tick isn't the danger-clock rate, and a cypher's no-roll use isn't an extra scripted turn. Pools, statuses, Disposition, project clocks and faction Qualities stay separate unless a rule links them.

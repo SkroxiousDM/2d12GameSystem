@@ -87,7 +87,6 @@ Each category applies once and requires a distinct material advantage affecting 
 
 After all other starting-Disposition modifiers and the minimum of 1, reduce each opposing total by your Superiority, to a minimum of 0. Determine both adjusted totals before resolving the outcome. Superiority is not tracked or spent afterward.
 
-#colbreak()
 ==== Overwhelming Preparation
 - Only one side at 0: its opponent wins at no cost, within the declared intent and stakes. Do not script exchanges or calculate compromise.
 - Both sides at 0: resolve mutual defeat (§10.12), without scripting or a winner's compromise. Neither receives an outright or no-cost victory.
@@ -133,10 +132,9 @@ Each side secretly scripts three actions in order, assigning an eligible partici
 Reveal the corresponding actions together, describe them, and resolve their interaction. Repeat for the second and third volleys unless the conflict ends.
 
 If it continues, script another exchange.
-
+#colbreak()
 ==== Coordination and Rotation
 A side may appoint a coordinator to record its script and acting order. The coordinator does not have exclusive authority over the group's decisions.
-
 Rotation runs in rounds and carries across exchanges. Each round, every available participant acts once, in any order, and nobody acts in two volleys in a row unless they are the only one available. Helping does not count as a turn.
 
 Update rotation when someone joins, withdraws, or becomes unable to act. Assigning an action that later proves unsuitable does not permit a free replacement.
@@ -169,7 +167,7 @@ Roll against Standard 15, adjusted by applicable Truths and other explicit diffi
 
 ==== Versus Tests
 Both actors roll. The higher total wins and gains 1 Power, plus 1 for every full 3 points of margin.
-
+#colbreak()
 Winning prevents the opposing action's normal effect, even if all Power funds permitted supplementary Effects rather than loss or recovery.
 
 On an exact tie, neither action gains Power or produces its normal effect. Costs already paid remain spent. Success at a Cost does not turn a losing versus roll into success. Resolve doubles and complications under §10.7.
@@ -229,7 +227,9 @@ Impede is not a tiered status. Multiple pending Impedes do not stack, increase i
 An ongoing condition needs its own name, tier, scope and removal condition. For example, #emph[entangled-2] hinders movement and actions requiring free limbs, and ends when the net is cut or the target escapes. State fictional restrictions directly; a helpless body or inaccessible weapon is not shorthand for temporary Impede.
 
 ==== Disarming and Denying Options
-Identify the disabled asset and explain how. Disabling one asset removes an action category only if it was the side's only plausible means of performing that action. A replacement may restore access when the fiction permits. Switching equipment does not itself change a script.
+Identify the disabled asset and explain how. Disabling one asset removes an action category only if it was the
+#colbreak()
+side's only plausible means of performing that action. A replacement may restore access when the fiction permits. Switching equipment does not itself change a script.
 
 ==== Supplementary Effects Reference
 A successful action may buy its primary effect and the permitted supplementary Effects below, using one Power budget. No primary purchase is mandatory.

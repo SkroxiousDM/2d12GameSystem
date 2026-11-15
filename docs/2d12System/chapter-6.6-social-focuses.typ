@@ -1,5 +1,5 @@
 #import "common.typ": *
-
+#pagebreak() 
 == 6. Social Focuses
 #columns(2, gutter: 6mm)[
 === 13. Talks Their Way Out of Anything
@@ -26,7 +26,7 @@ Charm, quick wit, and the right words at the right time.
   )]
   , kind: table
   )
-
+#colbreak()
 === 14. Wears a Hundred Masks
 #quote(block: true)[
 Spy, impostor, or actor: you can be anyone.
@@ -51,6 +51,7 @@ Spy, impostor, or actor: you can be anyone.
   , kind: table
   )
 
+#colbreak()
 === 15. Knows Everyone Worth Knowing
 #quote(block: true)[
 Fixer, socialite, or broker: you\'re one call away from anyone.
@@ -75,6 +76,7 @@ Fixer, socialite, or broker: you\'re one call away from anyone.
   , kind: table
   )
 
+#colbreak()
 === 16. Carries the Weight of a Crown
 #quote(block: true)[
 Noble, officer, executive, or chieftain: you hold authority, and it holds you.

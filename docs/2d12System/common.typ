@@ -211,7 +211,7 @@
   // tables
   show figure.where(kind: table): set block(breakable: false)
   show figure.where(kind: table): set align(left)
-  show figure: set block(breakable: true, above: 0.9em, below: 1.1em)
+  show figure: set block(breakable: false, above: 0.9em, below: 1.1em)
   set table(
     stroke: (x, y) => (
       top: if y == 0 { 1pt + blood } else { none },

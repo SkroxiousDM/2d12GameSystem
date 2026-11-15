@@ -35,7 +35,6 @@
 - Escalation (+1, §9.3);
 - dangerous scene Truths: those with lethal stakes or a listed Danger (+1 per scene each, §8).
 
-#colbreak()
 #figure(
   [#table(
     columns: (65%, 35%),
@@ -61,8 +60,8 @@
 Some acts and items make a situation more dangerous just by being there. They carry the #strong[Escalation] tag. It gives no bonus and doesn't count toward the tag cap.
 
 - #strong[Escalation items.] Openly carrying an Escalation item into a scene gives the GM #strong[+1 Woe], once per item per scene. An item hidden before the scene starts doesn't count until it's drawn.
-
-    
-- #strong[Escalation actions.] Declaring an Escalation action (reading a forbidden text, waking a dead machine, breaking a sacred taboo) gives the GM #strong[+1 Woe] before any roll.
+- #strong[Escalation actions.] Declaring an Escalation action (reading a forbidden text, waking a dead
+#colbreak()
+machine, breaking a sacred taboo) gives the GM #strong[+1 Woe] before any roll.
 - #strong[Keep it rare.] A playbook's starting kit should hold no more than one or two Escalation items. Settings list their own.
 ]

@@ -38,6 +38,7 @@ Review the relevance of your Beliefs at session end; ordinary revisions happen a
 
 - #strong[Reaffirm:] keep a conviction and commitment that still matter.
 - #strong[Revise:] update a fulfilled or obsolete action clause while keeping the underlying conviction.
+#colbreak()
 - #strong[Replace:] write a new Belief when experience changes your outlook or the former commitment no longer belongs in the campaign.
 - #strong[Relationships:] review an Other Belief when the relationship meaningfully changes; agree on shared premises with the other player as in §3.5.
 

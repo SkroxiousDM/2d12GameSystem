@@ -1,5 +1,5 @@
 #import "common.typ": *
-
+#pagebreak() 
 == 5. Knowledge Focuses
 #columns(2, gutter: 6mm)[
 === 9. Builds Impossible Things
@@ -26,6 +26,7 @@ An artificer, engineer, or inventor who makes what shouldn\'t work, work.
   , kind: table
   )
 
+#colbreak()
 === 10. Heals the Broken
 #quote(block: true)[
 Doctor, field medic, herbalist, or combat surgeon.
@@ -51,6 +52,7 @@ Doctor, field medic, herbalist, or combat surgeon.
   , kind: table
   )
   
+#colbreak()
 === 11. Solves the Unsolvable
 #quote(block: true)[
 Detective, investigator, or analyst: you follow the thread to the end.
@@ -77,6 +79,7 @@ Detective, investigator, or analyst: you follow the thread to the end.
   , kind: table
   )
 
+#colbreak()
 === 12. Remembers What Was Forgotten
 #quote(block: true)[
 Historian, archaeologist, or keeper of lost lore.

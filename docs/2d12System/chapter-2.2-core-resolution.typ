@@ -135,4 +135,6 @@ Some rolls aren't harder, just more dangerous. Before a roll, the GM may call it
   )]
   , kind: table
   )
+// ART: Two dice tumbling above a character sheet, the target number circled in ink.
+#art-fill(min: 6cm)[Two dice tumbling above a character sheet, the target number circled in ink.]
   ]

@@ -26,6 +26,8 @@ An artificer, engineer, or inventor who makes what shouldn\'t work, work.
   , kind: table
   )
 
+// ART: A workbench crowded with a half-built contraption and scattered tools.
+#art-fill(min: 6cm)[A workbench crowded with a half-built contraption and scattered tools.]
 #colbreak()
 === 10. Heals the Broken
 #quote(block: true)[
@@ -52,6 +54,8 @@ Doctor, field medic, herbalist, or combat surgeon.
   , kind: table
   )
   
+// ART: A field medic stitching a wound by lamplight.
+#art-fill(min: 6cm)[A field medic stitching a wound by lamplight.]
 #colbreak()
 === 11. Solves the Unsolvable
 #quote(block: true)[
@@ -79,6 +83,8 @@ Detective, investigator, or analyst: you follow the thread to the end.
   , kind: table
   )
 
+// ART: A detective holding a single clue up to the light.
+#art-fill(min: 6cm)[A detective holding a single clue up to the light.]
 #colbreak()
 === 12. Remembers What Was Forgotten
 #quote(block: true)[
@@ -105,4 +111,6 @@ Historian, archaeologist, or keeper of lost lore.
   )]
   , kind: table
   )
+// ART: A scholar brushing dust from a carved tablet in a ruin.
+#art-fill(min: 6cm)[A scholar brushing dust from a carved tablet in a ruin.]
 ]

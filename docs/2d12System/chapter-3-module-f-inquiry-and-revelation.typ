@@ -121,4 +121,6 @@ Oracles, divinations, scrying, speaking to the dead and similar methods are tool
   *Case clock:* 6 segments; tick on noise, delay, or a Probe failed by 4+. \
   *Danger:* a separate scene, not an automatic resource reset; clues never depend on winning.
 ]
+// ART: An investigator's wall of pinned notes and string converging on one name.
+#art-fill(min: 6cm)[An investigator's wall of pinned notes and string converging on one name.]
 ]

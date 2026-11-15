@@ -27,6 +27,8 @@ Silent, patient, and impossible to pin down.
   , kind: table
   )
 
+// ART: A cloaked figure flattened against a wall as a lantern passes.
+#art-fill(min: 6cm)[A cloaked figure flattened against a wall as a lantern passes.]
 #colbreak()
 === 6. Never Misses
 #quote(block: true)[
@@ -53,6 +55,8 @@ Sniper, archer, gunslinger: steady breath and a sharp eye.
   , kind: table
   )
 
+// ART: An archer drawing breath before a long shot across a valley.
+#art-fill(min: 6cm)[An archer drawing breath before a long shot across a valley.]
 #colbreak()
 === 7. Opens Every Lock
 #quote(block: true)[
@@ -80,6 +84,8 @@ Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
   )]
   , kind: table
   )
+// ART: Steady hands working a lockpick into an ornate safe.
+#art-fill(min: 6cm)[Steady hands working a lockpick into an ornate safe.]
 #colbreak()
 === 8. Always Has an Escape Plan
 #quote(block: true)[
@@ -105,4 +111,6 @@ You never walk into a room without knowing how to leave it.
   )]
   , kind: table
   )
+// ART: A thief slipping out a high window as the door bursts open.
+#art-fill(min: 6cm)[A thief slipping out a high window as the door bursts open.]
 ]

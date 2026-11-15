@@ -34,6 +34,8 @@
 Focuses marked #strong[◈ Weird] assume the supernatural, impossible technology, or both. In mundane settings the GM removes them from the list. Every other Focus works in any genre.
 
 #strong[Module abilities.] An ability marked (Module A), (Module B) or (Module C) needs that module. Without it, take the other ability at that tier, or agree a substitute with the GM. #strong[Lives Off the Land] (marked B in §2) needs Module B throughout; without it, the GM removes it from the list.
+// ART: A surgeon's kit unrolled on a field table beside a lantern.
+#art-fill(min: 6cm)[A surgeon's kit unrolled on a field table beside a lantern.]
 #colbreak()
 === 1.3 Ability Limits
 Focus abilities follow the #strong[Ability limits] in Generic Playbooks §1.2 (free costs, no extra turns, separate bonuses, protected payments). In addition, so the entries don't repeat them:
@@ -82,6 +84,8 @@ Focus abilities follow the #strong[Ability limits] in Generic Playbooks §1.2 (f
   , kind: table
   )
 
+// ART: A wall of portraits, each subject marked by a different craft: blade, quill, mask, map, ward.
+#art-fill(min: 6cm)[A wall of portraits, each subject marked by a different craft: blade, quill, mask, map, ward.]
 #include "chapter-6.3-combat-focuses.typ"
 
 #include "chapter-6.4-stealth-and-precision-focuses.typ"

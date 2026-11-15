@@ -68,6 +68,8 @@ For an unlisted activity, the GM names a skill, a Light or Strenuous tag and the
 === D.6 Between-Adventure Events 
   Roll d12 once at the start of an ordinary stay, #strong[before] endeavours are declared, or choose a result that fits the fiction. In an Extended stay, roll again every second interval after the first. An event should offer a choice, not remove the stay.
 
+// ART: A messenger arriving at a frontier inn, a sealed letter held high.
+#art-fill(min: 6cm)[A messenger arriving at a frontier inn, a sealed letter held high.]
 #figure( [#table( columns: (auto, auto, 1fr, 1.15fr, 0.95fr), align: (auto,auto,auto,auto,auto,), table.header([d12], [Family], [What changed], [Offer], [If ignored],), table.hline(), [1--2], [#strong[Quiet];], [Nothing disturbs the party], [Plans proceed], [---], [3], [#strong[Opportunity];], [A specialist passes through], [One endeavour gets −1 step Difficulty (#emph[Expert Help];)], [They leave], [4], [#strong[Opportunity];], [A bargain on supplies], [Routine provisioning ticks no Upkeep], [The chance passes], [5], [#strong[Relationship];], [An ally is in trouble], [A shared endeavour helps them; create a favour Truth], [Their clock ticks], [6], [#strong[Relationship];], [A rival or old acquaintance arrives], [Compel a tag or Belief; Connect or Intimidate to change the relationship], [They act against the party], [7], [#strong[Obligation];], [A past promise comes due], [1 Check discharges it if it is within the agreed terms (E.7). Refusing it follows E.7 (one Standing).], [The creditor presses the claim], [8], [#strong[Obligation];], [Costs rise], [+1 Upkeep tick; Sustain is −1 step this stay], [Debt grows], [9], [#strong[Settlement];], [A service is short-handed], [Truth #emph[Short-Handed];: +1 step to Recuperate and Make], [Services stay limited], [10], [#strong[Settlement];], [A dispute, festival or quarantine], [Connect gets −1 step; arrival or departure may be restricted], [The mood hardens], [#box[11--12]], [#strong[Consequence];], [A faction's plan shows], [Reveal the result of that faction's latest declared project action (E.10). This is not an extra tick.], [It is harder to answer next stay], )] , kind: table )
 
 === D.6a Reputation in Downtime
@@ -87,6 +89,8 @@ Momentum, Woe and scene-scale Create can't buy reputation (E.11). A relationship
 - #strong[Set Upkeep.] Choose a standard (D.3).
 - #strong[Event.] Roll or choose (D.6).
 - #strong[Declare.] Players declare individual and shared endeavours and spend Checks.
+// ART: A busy settlement at dusk: smoke from a smithy, a market closing up, a new wall going up.
+#art-fill(min: 6cm)[A busy settlement at dusk: smoke from a smithy, a market closing up, a new wall going up.]
 #colbreak()
 - #strong[Resolve.] Play out only the consequential scenes. Healing intervals run alongside.
 - #strong[World update.] Take the World Turn here, after endeavours resolve, so the stay's results (Standing changes, evidence Truths, completed favours) are part of E.10 step 1. Without Module E, tick only clocks tied to established plans or deadlines. The GM may spend Stay Woe to tick danger clocks, but never to advance a faction project (E.10).

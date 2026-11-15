@@ -47,4 +47,6 @@ An additional immediate action must specify its trigger, replacement of scripted
 Automatic success replaces the roll for an otherwise permitted action. It supplies no extra action, script change, rescue of a trumped action, expanded stakes or unsuitable approach.
 
 On an independent test, apply the listed Power without rolling. In a versus test, it wins with its listed Power unless the opposing action also succeeds automatically; then resolve a tie unless a specific rule says otherwise. No roll means no dice-based critical or complication.
+// ART: A ring of torches marking the edge of a battlefield as two lines close in.
+#art-fill(min: 6cm)[A ring of torches marking the edge of a battlefield as two lines close in.]
 ]

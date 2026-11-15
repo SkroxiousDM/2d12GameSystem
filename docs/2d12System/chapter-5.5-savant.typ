@@ -43,6 +43,8 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
   )]
   , kind: table
   )
+// ART: A cluttered study: open books, an astrolabe and notes pinned under a candle.
+#art-fill(min: 6cm)[A cluttered study: open books, an astrolabe and notes pinned under a candle.]
 #pagebreak()
 === 5.2 Starting Equipment
 #strong[Signature item (choose 1)]

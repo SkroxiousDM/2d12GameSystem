@@ -43,4 +43,6 @@ The injury is a protected payment: armour, Resistance, redirection and incidenta
 Suppose the PCs later win with #strong[4 of their starting 8 Disposition] left. They lost exactly half, so the compromise is #strong[Significant]. That calls for one outcome-first package, not an automatic tier-3 injury, and Tarin's existing injury can be credited once against it. The PCs achieve their stated intent, not permission to seize unrelated property or kill the guards (§10.12--10.13).
 
 #strong[Afterward.] Fresh Disposition in a new conflict won't refill pools or heal Tarin's shoulder. Treatment removes at most one tier of a lasting injury before a healing interval removes another (§6.6). A Taken Out character who is healed still needs explicit permission to rejoin an ongoing conflict (§6.4).
+// ART: Players around a kitchen table mid-game: dice, tokens and a half-filled clock between them.
+#art-fill(min: 6cm)[Players around a kitchen table mid-game: dice, tokens and a half-filled clock between them.]
 ]

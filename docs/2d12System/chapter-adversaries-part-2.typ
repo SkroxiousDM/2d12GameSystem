@@ -236,6 +236,11 @@ The reserve uses Variant C Self-Repair (§6.14), does not gain Calls the Works a
 Arrive at current exchange end if the conflict continues and a usable route exists. Route blockage after payment retains commitment and delays arrival to a later eligible exchange end without further cost. Once the order is received, later caller or link loss does not cancel or delay otherwise eligible arrival. No arrival into an ended conflict. Apply §§6.5 and 6.16. Each band is one participant, not one per Body.
 
 Command applies only while the Marshal remains able to participate; removal ends Command, not accepted commitments or the bands' participation. Phase availability grants no free call, extra reserve or duplicate Command. All callers share recorded copies; no call replenishes them. Retain the Raider Band's tags, weakness, Tell and Wants unless separately revised cosmetically; the reskin adds no mechanical benefits.
+// ART: A war-band leader signalling from a ridge as raiders pour into the valley below.
+#art-fill(min: 6cm)[A war-band leader signalling from a ridge as raiders pour into the valley below.]
+#colbreak()
+// ART: Raiders on horseback charging through smoke toward a palisade.
+#art-fill(min: 6cm)[Raiders on horseback charging through smoke toward a palisade.]
 ]
 #pagebreak() 
 == 7. Templates

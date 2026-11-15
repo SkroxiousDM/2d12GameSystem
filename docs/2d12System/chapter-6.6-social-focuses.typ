@@ -26,6 +26,8 @@ Charm, quick wit, and the right words at the right time.
   )]
   , kind: table
   )
+// ART: A smooth talker grinning past a pair of suspicious guards.
+#art-fill(min: 6cm)[A smooth talker grinning past a pair of suspicious guards.]
 #colbreak()
 === 14. Wears a Hundred Masks
 #quote(block: true)[
@@ -51,6 +53,8 @@ Spy, impostor, or actor: you can be anyone.
   , kind: table
   )
 
+// ART: A row of masks on a dressing table, one missing.
+#art-fill(min: 6cm)[A row of masks on a dressing table, one missing.]
 #colbreak()
 === 15. Knows Everyone Worth Knowing
 #quote(block: true)[
@@ -76,6 +80,8 @@ Fixer, socialite, or broker: you\'re one call away from anyone.
   , kind: table
   )
 
+// ART: A broker at a crowded party, whispering into an ear.
+#art-fill(min: 6cm)[A broker at a crowded party, whispering into an ear.]
 #colbreak()
 === 16. Carries the Weight of a Crown
 #quote(block: true)[
@@ -101,4 +107,6 @@ Noble, officer, executive, or chieftain: you hold authority, and it holds you.
   )]
   , kind: table
   )
+// ART: A ruler on a worn throne, petitioners waiting below.
+#art-fill(min: 6cm)[A ruler on a worn throne, petitioners waiting below.]
 ]

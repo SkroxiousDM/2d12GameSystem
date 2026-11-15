@@ -27,6 +27,8 @@ Loyal to a fault. You go back for the fallen, every time.
   )]
   , kind: table
   )
+// ART: A veteran dragging a wounded comrade out of the line of fire.
+#art-fill(min: 6cm)[A veteran dragging a wounded comrade out of the line of fire.]
 #colbreak()
 === 2. Leads From the Front
 #quote(block: true)[
@@ -52,6 +54,8 @@ Captain, chief, or sergeant: people follow you.
   , kind: table
   )
 
+// ART: A captain at the front of a charge, banner raised.
+#art-fill(min: 6cm)[A captain at the front of a charge, banner raised.]
 #colbreak()
 === 3. Masters a Weapon
 #quote(block: true)[
@@ -77,6 +81,8 @@ Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
   , kind: table
   )
 
+// ART: A fighter mid-drill with one well-worn weapon.
+#art-fill(min: 6cm)[A fighter mid-drill with one well-worn weapon.]
 #colbreak()
 === 4. Fights Dirty
 #quote(block: true)[
@@ -101,4 +107,6 @@ Honour is for people who can afford to lose.
   )]
   , kind: table
   )
+// ART: A brawler flinging sand into an opponent's eyes.
+#art-fill(min: 6cm)[A brawler flinging sand into an opponent's eyes.]
 ]

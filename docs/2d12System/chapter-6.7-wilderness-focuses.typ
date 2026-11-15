@@ -27,6 +27,8 @@ Beast handler, rider, falconer, or dog-musher.
   , kind: table
   )
 
+// ART: A musher and dog team racing across a frozen lake.
+#art-fill(min: 6cm)[A musher and dog team racing across a frozen lake.]
 #colbreak()
 === 18. Charts the Unknown
 #quote(block: true)[
@@ -52,6 +54,8 @@ Explorer, navigator, or surveyor drawn to the blank parts of the map.
   , kind: table
   )
   
+// ART: A surveyor sketching a map at the edge of a blank coastline.
+#art-fill(min: 6cm)[A surveyor sketching a map at the edge of a blank coastline.]
 #colbreak()
 === 19. Lives Off the Land
 #quote(block: true)[
@@ -78,6 +82,8 @@ Survivalist, forager, or homesteader: you need nothing the world doesn\'t give.
   , kind: table
   )
 
+// ART: A forager kneeling by a fire with a basket of roots and berries.
+#art-fill(min: 6cm)[A forager kneeling by a fire with a basket of roots and berries.]
 #colbreak()
 === 20. Was Born Behind the Wheel
 #quote(block: true)[
@@ -102,4 +108,6 @@ Driver, pilot, sailor, or rider: you and your vehicle are one.
   )]
   , kind: table
   )
+// ART: A battered vehicle skidding around a mountain bend.
+#art-fill(min: 6cm)[A battered vehicle skidding around a mountain bend.]
 ]

@@ -171,6 +171,8 @@ Track rotation continuously across exchanges:
 - Update rotation when someone joins, withdraws or becomes unable to act.
 
 Before reveal, the players may spend 2 Momentum to change one unrevealed action, keeping its assigned actor. An unsuitable or unperformable action grants no free replacement.
+// ART: A GM screen seen from behind: dice, tokens and a half-filled clock.
+#art-fill(min: 6cm)[A GM screen seen from behind: dice, tokens and a half-filled clock.]
 ]
 
 === Action interactions

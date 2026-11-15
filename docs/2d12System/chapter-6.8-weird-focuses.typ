@@ -28,6 +28,8 @@ Monster-hunter, exorcist, or investigator of the strange.
   , kind: table
   )
 
+// ART: A hunter with a lantern stepping into a cellar full of eyes.
+#art-fill(min: 6cm)[A hunter with a lantern stepping into a cellar full of eyes.]
 #colbreak()
 === 22. Walks Between Worlds ◈
 #quote(block: true)[
@@ -53,6 +55,8 @@ Touched by the spirit world, the Otherworld, or the deep net.
   , kind: table
   )
   
+// ART: A figure half-stepping through a shimmering veil between worlds.
+#art-fill(min: 6cm)[A figure half-stepping through a shimmering veil between worlds.]
 #colbreak()
 === 23. Made a Bargain With Something Old ◈
 #quote(block: true)[

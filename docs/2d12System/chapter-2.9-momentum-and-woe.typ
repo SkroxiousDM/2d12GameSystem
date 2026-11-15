@@ -35,6 +35,7 @@
 - Escalation (+1, §9.3);
 - dangerous scene Truths: those with lethal stakes or a listed Danger (+1 per scene each, §8).
 
+#colbreak()
 #figure(
   [#table(
     columns: (65%, 35%),

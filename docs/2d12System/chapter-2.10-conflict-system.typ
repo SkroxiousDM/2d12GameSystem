@@ -87,6 +87,7 @@ Each category applies once and requires a distinct material advantage affecting 
 
 After all other starting-Disposition modifiers and the minimum of 1, reduce each opposing total by your Superiority, to a minimum of 0. Determine both adjusted totals before resolving the outcome. Superiority is not tracked or spent afterward.
 
+#colbreak()
 ==== Overwhelming Preparation
 - Only one side at 0: its opponent wins at no cost, within the declared intent and stakes. Do not script exchanges or calculate compromise.
 - Both sides at 0: resolve mutual defeat (§10.12), without scripting or a winner's compromise. Neither receives an outright or no-cost victory.
@@ -284,6 +285,7 @@ Doubles work as in §2.6, including doubles created by an ability such as Perfec
 - Winning doubles add +1 Power to the margin award (double 12s: +2). Losing or tied doubles grant no Power or effect.
 - Double 1s still bring their complication on a loss or tie, but don't lose automatically.
 
+#colbreak()
 Doubles complications stay within the stakes and the action's scale. They don't cancel an independent action or change the script. Buy them off normally (§2.6).
 
 ==== Explicit Risks and Harm

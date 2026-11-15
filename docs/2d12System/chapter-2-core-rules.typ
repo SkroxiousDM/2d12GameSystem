@@ -9,7 +9,6 @@
 #include "chapter-2.2-core-resolution.typ" 
 
 #include "chapter-2.3-character-creation.typ"
-#pagebreak()
 #include "chapter-2.4-tyche-points.typ"
 
 #include "chapter-2.5-effects.typ"

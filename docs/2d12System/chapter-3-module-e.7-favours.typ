@@ -181,6 +181,7 @@ On the World Turn, the association uses Influence +2. The evidence lowers the St
 
 Later, the party saves the winter grain convoy at substantial personal risk. Once the association learns what happened, Standing may rise to +3. A new favour is not automatic: the association must explicitly promise one.
 
+#colbreak()
 If the association undertakes an additional urgent funding action that turn, Treasure becomes Strained before that action and operates at +2. It cannot take a third major action. Recovery needs a later full turn without a major Treasure commitment and with plausible access to its credit network.
 
 === E.14 Table Reference

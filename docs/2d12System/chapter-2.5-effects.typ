@@ -72,6 +72,7 @@ Statuses can describe physical, mental, emotional, or social circumstances. The 
 
 #strong[Recording examples.]
 - #emph[Mapped patrol routes-2]: helps evade the observed patrols; ends when their routes change.
+#colbreak()
 - #emph[Trusted by the village council-2]: helps persuade the council about local threats within your established credibility; ends when that trust is withdrawn or betrayed.
 - #emph[Mentally exhausted-3]: hinders sustained mental work; ends through appropriate recovery (§6.5).
 - #emph[Discredited before the merchant guild-2]: hinders claims about the disputed shipment made to the guild; ends when the accusation is disproved or credibility is restored.

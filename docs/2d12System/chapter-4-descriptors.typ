@@ -63,6 +63,7 @@ Every Descriptor works in any genre. Choose one from this chapter or, when playi
 #pagebreak()
 == 3. Descriptors
 #columns(2, gutter: 6mm)[
+#block(breakable: false, width: 100%)[
 === 1. Burly
 #quote(block: true)[
 You fill doorways. People step aside before you ask.
@@ -73,7 +74,8 @@ You fill doorways. People step aside before you ask.
 - #strong[Weakness tag:] #emph[too big to hide]
 - #strong[Suggested Instinct:] \"If something is heavy, I pick it up myself.\"
 - #strong[Hook:] What did you carry, haul or break before this life began?
-
+]
+#block(breakable: false, width: 100%)[
 === 2. Charismatic
 #quote(block: true)[
 When you speak, people stop and listen, whether they want to or not.
@@ -84,7 +86,8 @@ When you speak, people stop and listen, whether they want to or not.
 - #strong[Weakness tag:] #emph[needs to be liked]
 - #strong[Suggested Instinct:] \"If a crowd gathers, I take the stage.\"
 - #strong[Hook:] Who once followed you, and where did you lead them?
-
+]
+#block(breakable: false, width: 100%)[
 === 3. Compassionate
 #quote(block: true)[
 You have never walked past someone in pain. You have paid for that more than once.
@@ -95,7 +98,8 @@ You have never walked past someone in pain. You have paid for that more than onc
 - #strong[Weakness tag:] #emph[can\'t turn away suffering]
 - #strong[Suggested Instinct:] \"If someone is hurting, I stop to help.\"
 - #strong[Hook:] Whose suffering did you fail to ease, and does it still weigh on you?
-
+]
+#block(breakable: false, width: 100%)[
 === 4. Cunning
 #quote(block: true)[
 You see the board, the pieces and the hand moving them.
@@ -106,7 +110,8 @@ You see the board, the pieces and the hand moving them.
 - #strong[Weakness tag:] #emph[trusts no one\'s plan but mine]
 - #strong[Suggested Instinct:] \"If someone offers a deal, I look for the catch.\"
 - #strong[Hook:] Whose plan did you once see through, and what did it cost them?
-#colbreak()
+]
+#block(breakable: false, width: 100%)[
 === 5. Curious
 #quote(block: true)[
 A locked door is a question. You\'ve never been good at leaving questions alone.
@@ -117,7 +122,8 @@ A locked door is a question. You\'ve never been good at leaving questions alone.
 - #strong[Weakness tag:] #emph[pokes at what\'s best left alone]
 - #strong[Suggested Instinct:] \"If something is hidden, I look inside.\"
 - #strong[Hook:] What secret did you uncover that you wish you hadn\'t?
-
+]
+#block(breakable: false, width: 100%)[
 === 6. Furtive
 #quote(block: true)[
 You keep to walls and corners. Being noticed has never gone well for you.
@@ -128,7 +134,8 @@ You keep to walls and corners. Being noticed has never gone well for you.
 - #strong[Weakness tag:] #emph[uneasy in the open]
 - #strong[Suggested Instinct:] \"If I enter a room, I check the shadows first.\"
 - #strong[Hook:] Who are you keeping out of sight of, and why?
-
+]
+#block(breakable: false, width: 100%)[
 === 7. Hardy
 #quote(block: true)[
 Cold, hunger and pain are old companions. You\'ve learned to walk on with them.
@@ -139,7 +146,8 @@ Cold, hunger and pain are old companions. You\'ve learned to walk on with them.
 - #strong[Weakness tag:] #emph[ignores my own injuries]
 - #strong[Suggested Instinct:] \"If I\'m hurt, I keep going until the job is done.\"
 - #strong[Hook:] What hardship did you survive that killed others?
-
+]
+#block(breakable: false, width: 100%)[
 === 8. Haunted
 #quote(block: true)[
 Something from your past follows you. Some nights you can almost hear it.
@@ -150,7 +158,8 @@ Something from your past follows you. Some nights you can almost hear it.
 - #strong[Weakness tag:] #emph[the past won\'t stay buried]
 - #strong[Suggested Instinct:] \"If I\'m alone at night, I keep a light on.\"
 - #strong[Hook:] What did you see that you can never forget?
-#colbreak()
+]
+#block(breakable: false, width: 100%)[
 === 9. Light-Fingered
 #quote(block: true)[
 Things find their way into your hands. You rarely remember deciding to take them.
@@ -161,7 +170,8 @@ Things find their way into your hands. You rarely remember deciding to take them
 - #strong[Weakness tag:] #emph[can\'t resist a pocket]
 - #strong[Suggested Instinct:] \"If something valuable is left unattended, I take it.\"
 - #strong[Hook:] What is the one thing you stole that you can never give back?
-
+]
+#block(breakable: false, width: 100%)[
 === 10. Loyal
 #quote(block: true)[
 You chose your people. Nothing will make you abandon them.
@@ -172,7 +182,8 @@ You chose your people. Nothing will make you abandon them.
 - #strong[Weakness tag:] #emph[blind to my friends\' faults]
 - #strong[Suggested Instinct:] \"If someone I trust is threatened, I step between them and it.\"
 - #strong[Hook:] Who did you swear to stand by, and have they earned it?
-
+]
+#block(breakable: false, width: 100%)[
 === 11. Methodical
 #quote(block: true)[
 Haste makes mistakes. You check everything twice and trust your notes.
@@ -183,7 +194,8 @@ Haste makes mistakes. You check everything twice and trust your notes.
 - #strong[Weakness tag:] #emph[slow under pressure]
 - #strong[Suggested Instinct:] \"If I\'m unsure, I make a list.\"
 - #strong[Hook:] What disaster taught you never to skip a step?
-
+]
+#block(breakable: false, width: 100%)[
 === 12. Nimble
 #quote(block: true)[
 You move like water, over walls and through gaps others never see.
@@ -194,7 +206,8 @@ You move like water, over walls and through gaps others never see.
 - #strong[Weakness tag:] #emph[too quick to trust my footing]
 - #strong[Suggested Instinct:] \"If the ground gives way, I move before I think.\"
 - #strong[Hook:] What did you learn to escape from, and who taught you?
-#colbreak()
+]
+#block(breakable: false, width: 100%)[
 === 13. Observant
 #quote(block: true)[
 You notice the scuffed boot, the nervous glance, the window left open.
@@ -205,7 +218,8 @@ You notice the scuffed boot, the nervous glance, the window left open.
 - #strong[Weakness tag:] #emph[distracted by detail]
 - #strong[Suggested Instinct:] \"If I enter a place, I count the exits and the people.\"
 - #strong[Hook:] What small detail once saved your life?
-
+]
+#block(breakable: false, width: 100%)[
 === 14. Reckless
 #quote(block: true)[
 Thinking is for later. Right now, something needs doing.
@@ -216,7 +230,8 @@ Thinking is for later. Right now, something needs doing.
 - #strong[Weakness tag:] #emph[never looks before leaping]
 - #strong[Suggested Instinct:] \"If there\'s danger ahead, I go at it head-on.\"
 - #strong[Hook:] Who got hurt the last time you charged in?
-
+]
+#block(breakable: false, width: 100%)[
 === 15. Relentless
 #quote(block: true)[
 You don\'t stop. Not when you\'re tired, not when you\'re hurt, not when it\'s hopeless.
@@ -227,7 +242,8 @@ You don\'t stop. Not when you\'re tired, not when you\'re hurt, not when it\'s h
 - #strong[Weakness tag:] #emph[doesn\'t know when to quit]
 - #strong[Suggested Instinct:] \"If I start a chase, I finish it.\"
 - #strong[Hook:] What did you chase and never catch?
-
+]
+#block(breakable: false, width: 100%)[
 === 16. Resolute
 #quote(block: true)[
 Your word is iron. Once you decide, the world bends or breaks against you.
@@ -238,7 +254,8 @@ Your word is iron. Once you decide, the world bends or breaks against you.
 - #strong[Weakness tag:] #emph[rigid when plans change]
 - #strong[Suggested Instinct:] \"If I give my word, I keep it.\"
 - #strong[Hook:] What promise are you still keeping, and to whom?
-#colbreak()
+]
+#block(breakable: false, width: 100%)[
 === 17. Restless
 #quote(block: true)[
 Stillness itches. You need to move, act, see what is over the next hill.
@@ -249,7 +266,8 @@ Stillness itches. You need to move, act, see what is over the next hill.
 - #strong[Weakness tag:] #emph[poor at waiting]
 - #strong[Suggested Instinct:] \"If things go quiet, I go looking for trouble.\"
 - #strong[Hook:] What place could never hold you, and who did you leave there?
-
+]
+#block(breakable: false, width: 100%)[
 === 18. Scholarly
 #quote(block: true)[
 You have read more than most people will ever hear spoken.
@@ -260,7 +278,8 @@ You have read more than most people will ever hear spoken.
 - #strong[Weakness tag:] #emph[lives in books, not boots]
 - #strong[Suggested Instinct:] \"If a problem is new, I look for precedent.\"
 - #strong[Hook:] Which book or teacher shaped you, and what did it leave unanswered?
-
+]
+#block(breakable: false, width: 100%)[
 === 19. Serene
 #quote(block: true)[
 Storms rage around you. Inside, you are still water.
@@ -271,7 +290,8 @@ Storms rage around you. Inside, you are still water.
 - #strong[Weakness tag:] #emph[slow to anger, slower to act]
 - #strong[Suggested Instinct:] \"If panic spreads, I stay still and speak softly.\"
 - #strong[Hook:] What taught you peace, and what would shatter it?
-
+]
+#block(breakable: false, width: 100%)[
 === 20. Sly
 #quote(block: true)[
 There is always another way in, another word to say, another deal to make.
@@ -282,7 +302,8 @@ There is always another way in, another word to say, another deal to make.
 - #strong[Weakness tag:] #emph[nobody takes my word]
 - #strong[Suggested Instinct:] \"If there\'s a shortcut, I find it.\"
 - #strong[Hook:] Who did you outwit, and are they still looking for you?
-#colbreak()
+]
+#block(breakable: false, width: 100%)[
 === 21. Steady
 #quote(block: true)[
 Your hands don\'t shake. When everyone else panics, you are the one who aims.
@@ -293,7 +314,8 @@ Your hands don\'t shake. When everyone else panics, you are the one who aims.
 - #strong[Weakness tag:] #emph[slow to start]
 - #strong[Suggested Instinct:] \"If the moment is tense, I breathe and take my time.\"
 - #strong[Hook:] When did your steadiness matter most, and who was counting on you?
-
+]
+#block(breakable: false, width: 100%)[
 === 22. Stubborn
 #quote(block: true)[
 You\'ve been told no all your life. You\'ve ignored it all your life.
@@ -304,7 +326,8 @@ You\'ve been told no all your life. You\'ve ignored it all your life.
 - #strong[Weakness tag:] #emph[can\'t admit I\'m wrong]
 - #strong[Suggested Instinct:] \"If someone tells me to stop, I dig in.\"
 - #strong[Hook:] What did everyone say was impossible that you did anyway?
-
+]
+#block(breakable: false, width: 100%)[
 === 23. Suspicious
 #quote(block: true)[
 Everyone wants something. You just haven\'t worked out what yet.
@@ -315,7 +338,8 @@ Everyone wants something. You just haven\'t worked out what yet.
 - #strong[Weakness tag:] #emph[sees enemies everywhere]
 - #strong[Suggested Instinct:] \"If a stranger is too friendly, I watch their hands.\"
 - #strong[Hook:] Who betrayed you, and how did you not see it coming?
-
+]
+#block(breakable: false, width: 100%)[
 === 24. Weathered
 #quote(block: true)[
 Wind, sun and years have worn you down to something hard and lasting.
@@ -326,6 +350,6 @@ Wind, sun and years have worn you down to something hard and lasting.
 - #strong[Weakness tag:] #emph[old wounds ache]
 - #strong[Suggested Instinct:] \"If conditions turn harsh, I take the worst of it first.\"
 - #strong[Hook:] Where did you earn your scars, and who was with you?
-
+]
 ]
   

@@ -85,10 +85,12 @@ Party of three. Opposition: Bounty Veteran (5), Knife in the Dark (3) and a Houn
 Before any reveal, the party commits Attack, Defend, Defend, assigned to three eligible PCs in rotation. The opposition commits Pack Maneuver, Knife Feint, Veteran Attack in that order.
 
 - Volley 1: Attack versus Maneuver is versus. The Pack spends 1 Woe on a bonus die and wins by 4, generating 2 Power. It buys Impede (1) and Gain Position (1). Hit and Run also removes 1 shared PC Disposition. Impede applies to the party's next scripted action, not necessarily the PC who just acted. Telegraph the Knife's next action with the guttering lamp.
+#colbreak()
 - Volley 2: the Knife's Feint resolves independently; the party's Defend is trumped and makes no roll. The pending Impede expires unused on that no-roll action. Gain Position supplies the Knife one bonus die, within the normal cap. Its successful Feint removes committed Power + 1 shared Disposition, without an automatic wound. Telegraph the Veteran thumbing back both hammers.
 - Before volley 3 is revealed, the players may spend 2 Momentum to change their unrevealed action while retaining its assigned actor. The GM may likewise pay 3 Woe to change the opposition's unrevealed action, not react to a revealed result. If neither changes, the Veteran's Attack opposes the final PC's Defend. On the Veteran's first successful Attack this exchange, Heavy Hitter grants +1 Power.
 - If a status or explicit effect Takes Out the Pack, remove it from participation without subtracting its 3 Grit from shared Disposition; ordinary loss does not individually remove it. Complete any independently resolving actions before checking victory. A concession near one third of starting Disposition is optional tactical advice, not an automatic defeat trigger.
 ]
+#pagebreak()
 == 9. Quick Checklist
   #columns(2, gutter: 2mm)[
 - Intent, stakes and exits set before any roll.
@@ -100,6 +102,7 @@ Before any reveal, the party commits Attack, Defend, Defend, assigned to three e
 - Woe tracked; costs paid without overrun.
 - Ordinary Disposition loss kept separate from statuses, pools and Bodies.
 - Independent actions finished before victory; only continuing conflicts with an eligible boss check phases; benefits begin next volley.
+#colbreak()
 - Last Stand: eligible unlocked bearer, 2 Woe, one final volley per side per conflict; pending defeat cannot be recovered.
 - Final outcome, eligible Fail-safe activation, finishing procedure, deferred applications, then injury credit and settlement.
 - Fail-safe: active eligible Guardian, 3 Woe, established PC blast reach; no mutual-defeat or concession trigger.

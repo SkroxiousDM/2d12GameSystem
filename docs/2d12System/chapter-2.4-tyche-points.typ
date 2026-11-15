@@ -32,7 +32,7 @@ All three Belief categories use the same compel procedure. Acting in line with a
 #emph[Belief example:] your Self Belief rejects sacrificing people for advantage. You propose staying to escort stranded civilians instead of pursuing the fleeing saboteur. Before acceptance, agree that the delay will let the saboteur escape the immediate pursuit. Accepting that meaningful complication earns 1 Tychē Point; it does not dictate every action you take afterward.
 
 Acting against a Belief is not refusing a compel and carries no automatic penalty (§12.3). An Other Belief never grants control over another PC.
-
+#colbreak()
 === 4.1 Refresh
 - #strong[Base Refresh is 3.] At the start of each session, your Tychē Points reset to your Refresh (if you have more, keep them, up to the cap).
 - #strong[Tychē cap.] You can hold at most #strong[Refresh + 3] Tychē Points. Any you would gain above the cap are lost.

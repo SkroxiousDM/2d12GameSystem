@@ -1,5 +1,5 @@
 #import "common.typ": *
-
+#pagebreak() 
 == 8. Weird Focuses ◈
 #columns(2, gutter: 6mm)[
 === 21. Hunts the Things in the Dark ◈
@@ -28,6 +28,7 @@ Monster-hunter, exorcist, or investigator of the strange.
   , kind: table
   )
 
+#colbreak()
 === 22. Walks Between Worlds ◈
 #quote(block: true)[
 Touched by the spirit world, the Otherworld, or the deep net.
@@ -52,6 +53,7 @@ Touched by the spirit world, the Otherworld, or the deep net.
   , kind: table
   )
   
+#colbreak()
 === 23. Made a Bargain With Something Old ◈
 #quote(block: true)[
 Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
@@ -77,6 +79,7 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
   , kind: table
   )
 
+#colbreak()
 === 24. Is More Than Human ◈
 #quote(block: true)[
 Mutant, cyborg, half-fae, or carrier of a strange bloodline.

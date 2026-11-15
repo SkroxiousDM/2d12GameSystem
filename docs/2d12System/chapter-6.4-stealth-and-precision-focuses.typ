@@ -1,5 +1,5 @@
 #import "common.typ": *
-  
+#pagebreak() 
 == 4. Stealth & Precision Focuses
 #columns(2, gutter: 6mm)[
 === 5. Moves Like a Shadow
@@ -27,6 +27,7 @@ Silent, patient, and impossible to pin down.
   , kind: table
   )
 
+#colbreak()
 === 6. Never Misses
 #quote(block: true)[
 Sniper, archer, gunslinger: steady breath and a sharp eye.
@@ -52,6 +53,7 @@ Sniper, archer, gunslinger: steady breath and a sharp eye.
   , kind: table
   )
 
+#colbreak()
 === 7. Opens Every Lock
 #quote(block: true)[
 Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
@@ -78,7 +80,7 @@ Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
   )]
   , kind: table
   )
-
+#colbreak()
 === 8. Always Has an Escape Plan
 #quote(block: true)[
 You never walk into a room without knowing how to leave it.

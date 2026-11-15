@@ -87,6 +87,7 @@ Momentum, Woe and scene-scale Create can't buy reputation (E.11). A relationship
 - #strong[Set Upkeep.] Choose a standard (D.3).
 - #strong[Event.] Roll or choose (D.6).
 - #strong[Declare.] Players declare individual and shared endeavours and spend Checks.
+#colbreak()
 - #strong[Resolve.] Play out only the consequential scenes. Healing intervals run alongside.
 - #strong[World update.] Take the World Turn here, after endeavours resolve, so the stay's results (Standing changes, evidence Truths, completed favours) are part of E.10 step 1. Without Module E, tick only clocks tied to established plans or deadlines. The GM may spend Stay Woe to tick danger clocks, but never to advance a faction project (E.10).
 - #strong[Close.] Discard leftover Checks and Stay Woe. Record unfinished projects, write a Goal, prepare to depart.

@@ -141,34 +141,52 @@ Thank you for the examples, the challenges, and the moments that made me stop an
 // =====================================================================
 #include "chapter-3-optional-modules.typ"
 
+// ART: fills the end of the previous chapter when 4.5 cm or more is free
+#art-fill[A traveller's field kit spread across a map table: a half-filled clock dial, a faction seal, a bundle of letters and a lantern.]
+
 // =====================================================================
 //  CHAPTER — ADVERSARIES (GM)
 // =====================================================================
 #include "chapter-adversaries.typ"
+
+// ART: fills the end of the previous chapter when 4.5 cm or more is free
+#art-fill[A hulking adversary silhouetted in a ruined doorway while the party braces below, weapons drawn.]
 
 // =====================================================================
 //  CHAPTER — GENERIC DESCRIPTORS
 // =====================================================================
 #include "chapter-4-descriptors.typ"
   
+// ART: fills the end of the previous chapter when 4.5 cm or more is free
+#art-fill[A row of six faces, each a different temperament: burly, sly, haunted, serene, suspicious, weathered.]
+
 // =====================================================================
 //  CHAPTER — GENERIC PLAYBOOKS
 // =====================================================================
 #include "chapter-5-playbooks.typ"
+// ART: fills the end of the previous chapter when 4.5 cm or more is free
+#art-fill[The six playbooks around a campfire at night, sharing one map.]
+
 // =====================================================================
 //  CHAPTER — GENERIC FOCUSES
 // =====================================================================
 #include "chapter-6-focuses.typ"
   
+// ART: fills the end of the previous chapter when 4.5 cm or more is free
+#art-fill[Hands at work: a lockpick in a keyhole, a quill over a ledger, a rifle sight, chalk tracing a ward.]
+
 // =====================================================================
 //  APPENDIX — QUICK REFERENCE
 // =====================================================================
 #include "chapter-7-appendix-a-quick-reference.typ"
 
-#v(1fr)
+// ART: closing vignette above the end mark
+#art-fill[Two twelve-sided dice coming to rest on a worn wooden table.]
+#v(1.2em)
 #align(center, ornament-rule(width: 40%))
 #v(6pt)
 #align(center, text(font: display-font, size: 9pt, fill: dust, tracking: 0.2em)[END OF THE CORE RULEBOOK · #book-date.display()])
+
 
 
 

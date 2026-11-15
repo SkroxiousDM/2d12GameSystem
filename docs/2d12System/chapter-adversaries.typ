@@ -191,9 +191,8 @@ This is pricing guidance, not an unrestricted spend menu. Write a Special's trig
 - #strong[Disposition-cutting PC abilities] (such as −2 or −3 to the opposing side) apply after the budget.
 - #strong[Superiority] (Know Thy Foe, Know Thy Battlefield, Know Thy Players) lowers opposing Disposition by 1 per eligible distinct category, up to 3, after other setup modifiers and the minimum of 1. Only Superiority can reduce an adjusted start to 0. Determine both sides' adjusted totals first: if only one is 0, its opponent wins at no cost within the stakes; if both are 0, resolve simultaneous setup defeat as mutual defeat without scripting or a winner's compromise (Core Rules §10.3, §10.12). Symmetry and eligibility retain the core playtest flags.
 - #strong[Variance warning.] The PCs' Disposition roll can materially change the matchup; adversary Grit is fixed. If the result makes the struggle unusually dangerous, signpost it and offer exits rather than treating the legacy difficulty label as a guarantee.
-]
 
 // PLAYTEST: Budget experiments, not calibrated difficulty labels.
 Test legal opposition near a declared party profile's expected setup start, that expectation +2 and +4, before opposing Superiority. Record actual Grit where legal packages cannot match. Retain Threat = Grit and rank construction. Keep builds, resources, tactics, interaction matrix, reserve packages, deferred cap and initial Woe fixed within matched comparisons; vary Woe separately. Record outcome, mutual defeat, compromise, volleys, Woe, repair, protection, phases, reserve Grit introduced and lasting costs. Track initial Grit, available reserve Grit, actual introduced Grit and call costs separately. No validated reserve-budget surcharge or numerical recalibration is established. Win rate alone is insufficient.
-
+]
 #include "chapter-adversaries-part-2.typ"

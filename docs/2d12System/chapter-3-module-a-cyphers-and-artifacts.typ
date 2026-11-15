@@ -58,6 +58,7 @@ A complete entry also states its action or trigger, targets, duration, removal c
 
 === A.2 Artifacts
 - #strong[What they are:] reusable items of real power --- a flaming sword, a psychic amplifier, a starship\'s AI core.
+#colbreak()
 - #strong[Tags:] an artifact has 1--2 power tags (counting toward the +2 cap) and usually a special ability. Its item tag and conflict gear tag don't both count for the same benefit on one roll (Core Rules §10.10).
 - #strong[Depletion:] each artifact has a depletion rating, e.g. #strong[1 in d12];. After each use, roll d12; on that number or lower, it is #strong[depleted] (broken, drained, or needs a downtime clock to restore).
 - #strong[Attunement:] powerful artifacts (marked ★) must be attuned and #strong[cost 1 Refresh] while attuned (Core Rules §4.1). A PC can attune to a maximum of 2 artifacts.

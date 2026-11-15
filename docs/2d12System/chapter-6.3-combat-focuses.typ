@@ -1,6 +1,6 @@
 #import "common.typ": *
   
-)
+#pagebreak()
 == 3. Combat Focuses
 #columns(2, gutter: 6mm)[
 === 1. Never Leaves Anyone Behind
@@ -27,7 +27,7 @@ Loyal to a fault. You go back for the fallen, every time.
   )]
   , kind: table
   )
-
+#colbreak()
 === 2. Leads From the Front
 #quote(block: true)[
 Captain, chief, or sergeant: people follow you.
@@ -52,6 +52,7 @@ Captain, chief, or sergeant: people follow you.
   , kind: table
   )
 
+#colbreak()
 === 3. Masters a Weapon
 #quote(block: true)[
 Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
@@ -76,6 +77,7 @@ Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
   , kind: table
   )
 
+#colbreak()
 === 4. Fights Dirty
 #quote(block: true)[
 Honour is for people who can afford to lose.

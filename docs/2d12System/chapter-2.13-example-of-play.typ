@@ -11,10 +11,9 @@
 - #strong[Spend:] Advance the #emph[Reach the Cell] clock by 3 (3 Power), Discover (1 Power): \"Where is the key?\" --- \"On the sergeant\'s belt.\" 1 Power left → #strong[+1 Momentum];.
 - #strong[Later:] the sergeant\'s dread patron, a bound spirit, lashes out with #emph[terror-3];. Kade Resists with #strong[Pneuma] (Edge 0), so 2d12: highest die 7 → cost 2 Pneuma. The status drops to #emph[terror-1];.
 - #strong[Compel:] the GM compels #emph[Reckless];: \"You can\'t wait for backup; you go in now.\" Kade accepts and gains +1 Tychē Point.
-]
 
 === 13.1 A Scripted Conflict
-#columns(2, gutter: 5mm)[
+
 Later, at the warehouse gate, Kade, Mira and Tarin confront two guards. This is a new scene: the earlier Truths don't apply, and Kade's terror was treated once the spirit's influence ended (§6.6). His spent Mētis and Pneuma stay spent. The PCs want to get their friend through the gate; the guards want to hold them until reinforcements arrive. The stakes are capture and nonlethal injury, not death.
 
 #strong[Setup.] Mira leads with Fight +3 and the highest Edge in its pool, 1. Her setup dice are 7 and 8: 7 + 8 + 3 + 1 = 19. Divide by 3 and round down to 6, then add +1 for each of her two eligible backers: #strong[starting Disposition 8]. There are no other flat modifiers or Superiority. Backing supplies these points free, not extra Help dice (§10.2).

@@ -1,6 +1,7 @@
 #import "common.typ": *
 
 #columns(2, gutter: 6mm)[
+#colbreak()
 === 10.8 Scenery Maneuvers
 A Maneuver may exploit an established feature: a Scene Truth or established fact. If it is not established, create or discover it first.
 
@@ -208,7 +209,7 @@ Creature-specific rules remain in force, including breaking points that replace 
 + Recover each layer only through its own procedure (§6.5).
 
 Specific rules override general rules only on the subject addressed.
-
+#colbreak()
 === 10.16 Keeping It Fast
 - Use full conflicts only when several tactical decisions matter.
 - Record objectives and starting Disposition visibly.

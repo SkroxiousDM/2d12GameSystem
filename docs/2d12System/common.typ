@@ -43,6 +43,22 @@
 #let playbook-art-side(file, alt, body, dir: "art/playbooks/generic/") = grid(columns: (1fr, 33%), column-gutter: 6mm, align: (top, center + horizon),
   body, image(dir + file, width: 100%, alt: alt))
 
+// ---------------------------------------------------------------- placeholder art
+// art-fill(brief): a labelled art box that fills the rest of the current
+// column or page. It draws nothing when less than `min` space is left, so a
+// chapter that grows simply loses its placeholder. Replace with real art later.
+#let art-fill(brief, min: 4.5cm) = block(width: 100%, height: 1fr, above: 1em, below: 0pt,
+  layout(size => if size.height < min { none } else {
+    rect(width: 100%, height: size.height, radius: 2pt, fill: tint,
+      stroke: (paint: brass, thickness: 0.8pt, dash: "dashed"),
+      align(center + horizon, block(width: 80%, {
+        set par(justify: false)
+        text(font: display-font, size: 8pt, fill: dust, tracking: 0.3em, weight: 700)[ART PLACEHOLDER]
+        v(4pt)
+        text(size: 10pt, fill: ash, style: "italic", brief)
+      })))
+  }))
+
 // ---------------------------------------------------------------- ornaments
 #let diamond(size: 5pt, fill: brass) = box(baseline: -0.15em,
   polygon(fill: fill, (0pt, size/2), (size/2, 0pt), (size, size/2), (size/2, size)))
@@ -195,7 +211,7 @@
   // tables
   show figure.where(kind: table): set block(breakable: false)
   show figure.where(kind: table): set align(left)
-  show figure: set block(breakable: true, above: 0.9em, below: 1.1em)
+  show figure: set block(breakable: false, above: 0.9em, below: 1.1em)
   set table(
     stroke: (x, y) => (
       top: if y == 0 { 1pt + blood } else { none },

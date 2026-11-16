@@ -46,6 +46,7 @@ The rules come as separate books. The core rulebook is the complete engine. Each
 │   └── Archive/
 │       ├── 2d12 Version 1/                   The retired Version 1 rules
 │       └── TestamentOfDust-master-v2/        The combined master rulebook from before the split
+├── web/                                      Core rulebook web edition build (Pandoc)
 └── pdf/
     ├── the-2d12-system-v2-core-rulebook.pdf
     ├── testament-of-dust-v2-setting-book.pdf
@@ -83,6 +84,10 @@ Fonts are free from Google Fonts (OFL). Install them or pass `--font-path`:
 | Testament of Dust | EB Garamond | Cinzel |
 
 Symbols (★ ◆ ◈ →) use DejaVu Sans. Missing fonts fall back to Libertinus Serif, which changes the layout, so install the real fonts before committing a PDF.
+
+## Web Edition
+
+The core rulebook is also published as web pages at [skroxiousdm.com/rules/core/](https://skroxiousdm.com/rules/core/). When core source changes reach `main`, the *Build core rulebook web edition* workflow converts it with Pandoc and opens a pull request in [SkroxiousDM/SkroxiousDM](https://github.com/SkroxiousDM/SkroxiousDM). Merging that pull request publishes the update. See [`web/README.md`](web/README.md).
 
 ## Contributing
 

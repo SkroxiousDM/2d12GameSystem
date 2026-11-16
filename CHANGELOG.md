@@ -6,6 +6,11 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Added — Core rulebook web edition workflow (2026-11-15)
+
+- New `web/` build converts the core rulebook Typst source to one HTML page per chapter with Pandoc 3.7.0.2: `web/build_html.py`, the filter `web/rulebook.lua`, and web stand-ins for `common.typ` and `adversaries-common.typ` that keep text, tables, sidebars, stat blocks, playbook art and art-placeholder briefs while dropping print layout. Chapter order comes from the root rulebook's `#include` lines.
+- New workflow `.github/workflows/build-core-html.yml` runs on core source or `web/` changes to `main`, uploads the HTML as an artifact and opens or updates a pull request in `SkroxiousDM/SkroxiousDM` replacing `rules/core/`. It needs the `SITE_PUSH_TOKEN` repository secret. No rules text changed.
+
 ### Changed — Frontier sunlight and restricted staking (2026-11-08)
 
 - Sun-Sick now caps ordinary gains/stacking at 5, where collapse causes Taken Out without a Scar or Dying. Full-day exposure at 5 advances to 6: dhampirs use core Sōma Scar limits and Dying only with lethal stakes; removal from harmful sunlight stabilises, and recovery below 6 after exposure ends clears the sunlight-caused clock, not the Scar. Separate injuries retain their consequences. Vampires instead suffer automatic sunlight destruction without a roll or Dying clock (`e6e38d14b8d040ffc2cceb71aacd662018dc818e`).

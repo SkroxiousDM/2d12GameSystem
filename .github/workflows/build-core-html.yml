@@ -1,0 +1,119 @@
+name: Build core rulebook web edition
+# Converts the Typst core rulebook to HTML (Pandoc) and opens or updates a
+# pull request in SkroxiousDM/SkroxiousDM that replaces rules/core/.
+#
+# Needs the repository secret SITE_PUSH_TOKEN: a fine-grained personal access
+# token limited to SkroxiousDM/SkroxiousDM with Contents and Pull requests
+# set to Read and write. Without it the HTML is still built and uploaded as
+# an artifact, but no pull request is opened.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/2d12System/**'
+      - 'web/**'
+      - '.github/workflows/build-core-html.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: core-html-site-pr
+  cancel-in-progress: false
+env:
+  PANDOC_VERSION: '3.7.0.2'
+  SITE_REPO: SkroxiousDM/SkroxiousDM
+  SITE_DIR: rules/core
+  SITE_BRANCH: rulebook-html/update
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Check out rulebook source
+        uses: actions/checkout@v4
+      - name: Install Pandoc
+        run: |
+          set -euo pipefail
+          curl -fsSL -o pandoc.deb "https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/pandoc-${PANDOC_VERSION}-1-amd64.deb"
+          sudo dpkg -i pandoc.deb
+          pandoc --version | head -1
+      - name: Test the web build helpers
+        run: python3 -m unittest discover -s web -p 'test_*.py' -v
+      - name: Build the web edition
+        run: python3 web/build_html.py --out build/core-html --commit "$GITHUB_SHA" | tee build-core-html.log
+      - name: Upload the web edition
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: core-rulebook-html-${{ github.run_number }}
+          path: |
+            build/core-html/
+            build-core-html.log
+          if-no-files-found: warn
+          retention-days: 7
+      - name: Check for the site token
+        id: token
+        env:
+          SITE_PUSH_TOKEN: ${{ secrets.SITE_PUSH_TOKEN }}
+        run: |
+          if [ -n "$SITE_PUSH_TOKEN" ]; then
+            echo 'present=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'present=false' >> "$GITHUB_OUTPUT"
+            echo '::warning::SITE_PUSH_TOKEN is not set, so no site pull request was opened. The HTML is in the workflow artifact.'
+          fi
+      - name: Check out the site
+        if: steps.token.outputs.present == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.SITE_REPO }}
+          ref: main
+          token: ${{ secrets.SITE_PUSH_TOKEN }}
+          path: site
+      - name: Open or update the site pull request
+        id: pr
+        if: steps.token.outputs.present == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.SITE_PUSH_TOKEN }}
+        run: |
+          set -euo pipefail
+          short="${GITHUB_SHA::7}"
+          mkdir -p "site/$SITE_DIR"
+          rsync -a --delete build/core-html/ "site/$SITE_DIR/"
+          cd site
+          git add -A -- "$SITE_DIR"
+          if git diff --cached --quiet; then
+            echo 'The web edition on the site main branch is already current.'
+            echo 'result=unchanged' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git checkout -B "$SITE_BRANCH"
+          git commit -q -m "rules: update core rulebook web edition from 2d12GameSystem@${short}"
+          git push --force origin "HEAD:refs/heads/$SITE_BRANCH"
+          body="Regenerated \`$SITE_DIR/\` from [2d12GameSystem@${short}](${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/commit/${GITHUB_SHA}) by the [web edition workflow run](${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}).
+
+          The site's own build check runs on this pull request. Merge it to publish the update to the Rules page."
+          existing="$(gh pr list --repo "$SITE_REPO" --head "$SITE_BRANCH" --state open --json number --jq '.[0].number // empty')"
+          if [ -n "$existing" ]; then
+            gh pr edit "$existing" --repo "$SITE_REPO" --title "Update core rulebook web edition (${short})" --body "$body"
+            echo "result=updated #$existing" >> "$GITHUB_OUTPUT"
+          else
+            gh pr create --repo "$SITE_REPO" --base main --head "$SITE_BRANCH" --title "Update core rulebook web edition (${short})" --body "$body"
+            echo 'result=opened' >> "$GITHUB_OUTPUT"
+          fi
+      - name: Write build summary
+        if: always()
+        run: |
+          {
+            echo '## Core rulebook web edition'
+            echo
+            echo '```'
+            cat build-core-html.log 2>/dev/null || echo 'Build did not finish.'
+            echo '```'
+            echo "Site pull request: ${{ steps.pr.outputs.result || 'not attempted' }}"
+          } >> "$GITHUB_STEP_SUMMARY"

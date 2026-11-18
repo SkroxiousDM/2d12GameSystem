@@ -141,7 +141,7 @@ Rotation runs in rounds and carries across exchanges. Each round, every availabl
 Update rotation when someone joins, withdraws, or becomes unable to act. Assigning an action that later proves unsuitable does not permit a free replacement.
 
 ==== Changing a Script
-Before revealing a volley, spend 2 Momentum for the players' side or 3 Woe for the GM's side.
+Before revealing a volley, spend 2 Weal for the players' side or 3 Woe for the GM's side.
 
 Replace one unrevealed action. Keep its assigned actor unless an explicit ability allows reassignment.
 ]
@@ -264,7 +264,7 @@ Additional Power, additional Disposition loss and additional status tiers are se
 Attack bonuses don't apply to Feint, staking, killing strikes or other finishing procedures unless stated.
 
 === 10.7 Costs, Failures and Complications
-Use normal Effort, Momentum, Woe, Tychē Points, tags and Truths subject to these restrictions and the limits in §10.18.
+Use normal Effort, Weal, Woe, Tychē Points, tags and Truths subject to these restrictions and the limits in §10.18.
 
 ==== Ordinary Failure
 An ordinary failed independent test produces no action effect and generates the usual 1 Woe. It does not also authorise an unrelated GM move, automatic injury or additional Disposition loss: the failed and opposing actions establish the volley.

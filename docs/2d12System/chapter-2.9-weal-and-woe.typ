@@ -1,9 +1,9 @@
 #import "common.typ": *
 
-== 9. Momentum and Woe
+== 9. Weal and Woe
   #columns(2, gutter: 6mm)[
-=== 9.1 Momentum (shared by the party, max 6)
-#strong[Gain:] unspent Power from rolls. #strong[Decay:] lose 1 Momentum at the end of each scene.
+=== 9.1 Weal (shared by the party, max 6)
+#strong[Gain:] unspent Power from rolls. #strong[Decay:] lose 1 Weal at the end of each scene.
 
 #figure(
   [#table(
@@ -21,13 +21,13 @@
   , kind: table
   )
 
-#strong[Paying with Woe.] When the party is short, the GM may let you pay any spend except #emph[Reduce Woe], in whole or in part, by giving the GM 1 Woe per Momentum. Bonus dice can always be paid this way (§2.4).
+#strong[Paying with Woe.] When the party is short, the GM may let you pay any spend except #emph[Reduce Woe], in whole or in part, by giving the GM 1 Woe per Weal. Bonus dice can always be paid this way (§2.4).
 
 === 9.2 Woe (the GM\'s pool)
 #strong[Starting Woe:] 2 per PC at the start of a session.
 
 #strong[The GM gains Woe from:]
-- players paying for dice or other Momentum spends with Woe (1 per point);
+- players paying for dice or other Weal spends with Woe (1 per point);
 - Success at a Cost, if the player chooses Woe (+1);
 - failures (+1);
 - complications bought off (+2);

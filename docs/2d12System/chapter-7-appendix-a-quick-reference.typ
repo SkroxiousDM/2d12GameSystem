@@ -46,7 +46,7 @@ Keep the best two dice. Maximum +2 bonus dice from all sources, including free d
 #table(columns: (28%, 72%),
   table.header([Source], [Cost]),
   [Effort], [3 − relevant pool Edge, minimum 0, per use.],
-  [Momentum], [1 for the first die, 2 for the second.],
+  [Weal], [1 for the first die, 2 for the second.],
   [Woe], [Give the GM 1 Woe per die.],
   [Help], [An ally spends 1 pool point and shares the risk.],
   [Specialisation], [Free: one die when it directly applies.],
@@ -62,7 +62,7 @@ Pay Effort and Help in full. Paying the last pool point runs that pool dry; a co
   [Miss by 1–3], [Success at a Cost: 1 Power; choose a consequence or +1 Woe for the GM.],
   [Miss by 4+], [Failure: the GM makes a move and gains 1 Woe.],
 )
-Spend Power on permitted Effects. Unspent Power becomes Momentum, maximum 6. A consequence on a success keeps what the roll earned (Core §2.5).
+Spend Power on permitted Effects. Unspent Power becomes Weal, maximum 6. A consequence on a success keeps what the roll earned (Core §2.5).
 
 Scripted conflicts modify failure and Success at a Cost; use §3 below. Versus tests compare opposing totals instead of using this table.
 
@@ -92,7 +92,7 @@ Buy off a dice complication by giving the GM 2 Woe. If you keep it and the GM ca
   table.header([Resource], [Who tracks it / main use]),
   [Pools], [Each PC: Effort, abilities and Resistance.],
   [Tychē Points], [Each PC: invokes and compels.],
-  [Momentum], [Party: bonus dice; maximum 6.],
+  [Weal], [Party: bonus dice; maximum 6.],
   [Woe], [GM: opposition spending and escalation.],
 )
 
@@ -171,7 +171,7 @@ Track rotation continuously across exchanges:
 - Helping does not count as a turn.
 - Update rotation when someone joins, withdraws or becomes unable to act.
 
-Before reveal, the players may spend 2 Momentum to change one unrevealed action, keeping its assigned actor. An unsuitable or unperformable action grants no free replacement.
+Before reveal, the players may spend 2 Weal to change one unrevealed action, keeping its assigned actor. An unsuitable or unperformable action grants no free replacement.
 // ART: A GM screen seen from behind: dice, tokens and a half-filled clock.
 #art-fill(min: 6cm)[A GM screen seen from behind: dice, tokens and a half-filled clock.]
 ]

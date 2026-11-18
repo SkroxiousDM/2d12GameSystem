@@ -5,7 +5,7 @@
 #columns(2, gutter: 6mm)[
 Use this module when a mystery is the point of the game: a murder, a vanished caravan, a forbidden text, a buried ruin. It separates *finding* from *understanding*. Finding the clue is never the challenge. Reading it correctly is.
 
-The module changes nothing outside Inquiry scenes. Conflicts, travel, Resistance, Momentum and Woe all work as written.
+The module changes nothing outside Inquiry scenes. Conflicts, travel, Resistance, Weal and Woe all work as written.
 
 === F.1 The Core Rule
 

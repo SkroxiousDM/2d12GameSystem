@@ -49,7 +49,7 @@
 // chapter that grows simply loses its placeholder. Replace with real art later.
 #let art-fill(brief, min: 4.5cm) = block(width: 100%, height: 1fr, above: 1em, below: 0pt,
   layout(size => if size.height < min { none } else {
-    rect(width: 100%, height: size.height, radius: 2pt, fill: tint,
+    rect(width: 100%, height: 50%, radius: 2pt, fill: tint,
       stroke: (paint: brass, thickness: 0.8pt, dash: "dashed"),
       align(center + horizon, block(width: 80%, {
         set par(justify: false)

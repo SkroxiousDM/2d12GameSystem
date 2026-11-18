@@ -126,7 +126,6 @@ Stabilising doesn't erase marked segments, reduce the injury, refill pools or re
 
 #strong[After a death.] Resolve the death and its established consequences. The group may remember the character through Beliefs, relationships, keepsakes or later story developments; death creates no separate points or automatic Truth.
 
-#colbreak()    
 === 6.8 Permanent Harm
 #strong[Where it comes from.] An injury doesn't become permanent just because its tier is high. Permanent harm needs an established permanent-injury stake, a specific effect or creature rule, a voluntary bargain, or a Scar-giving event. Reaching tier 6 gives a Scar (§6.3), not a permanent loss.
 

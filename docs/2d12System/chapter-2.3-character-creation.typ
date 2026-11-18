@@ -232,11 +232,12 @@ For each character, note an opportunity and a possible dilemma suggested by thei
 - #strong[Instinct:] "When we enter an unfamiliar place, I identify an escape route before settling in."
 
 The GM might offer a delegation in exchange for escorting a vulnerable supply caravan through a dangerous pass. The Goal provides direction, capabilities determine options, and the Beliefs make decisions matter. The GM does not predetermine the character's answer.
-#colbreak()
+
 === 3.6 Starting Resources
 - #strong[Tychē Points:] start each session at your #strong[Refresh] (base 3; §4.1). Beliefs and connections grant no extra points.
 - #strong[Starting abilities.] You get #strong[1 playbook ability and your Tier 1 Focus ability for free], and may buy #strong[up to 2 more playbook abilities at 1 Refresh each].
 - #strong[★ (Major) abilities] cost #strong[1 extra Refresh] whenever you take them: as your free pick (1), as a creation extra (2 total) or through advancement. Veteran acquisition costs are added on top (Generic Playbooks §1.2). Refresh can't drop below 1 (§4.1).
+#colbreak()    
 - #strong[Load-out:] choose light, normal or heavy load before the mission, then declare playbook-kit items as you need them and mark their load; don't buy a full item list in advance. Signature items are chosen at creation and count against load when carried; always-carried items and items marked (0) follow their listed rules (Generic Playbooks §2.1). In conflicts, declare active gear before scripting each exchange (§10.10).
 - #strong[Circle and contact.] Name one #strong[social circle] (#emph[dock workers], #emph[the archive staff]) and one #strong[named contact] in it or elsewhere. Record both as contact Truths. The circle answers #emph[who here might help?]; the contact answers #emph[whom can I ask, and what might it cost them?]
 

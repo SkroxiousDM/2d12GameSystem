@@ -140,6 +140,7 @@ Base chance of doubles on 2d12 is about 8% (1 in 12). Doubles created by an abil
 Some rolls aren't harder, just more dangerous. Before a roll, the GM may call it #strong[Risky 1], #strong[2] or #strong[3].
 
 - #strong[Risk die.] Roll one extra d12 of a different colour with the others. It's never kept, doesn't add to the total and doesn't count toward the bonus dice maximum.
+#colbreak()    
 - #strong[Complication.] If the Risk die shows the rating or lower, a complication occurs after the roll is resolved, whatever the result and on top of any twist. You can buy it off for 2 Woe (§2.6).
 - #strong[Raising the stakes.] The GM may spend #strong[1 Woe] to make a roll Risky 1, or to raise its rating by 1 (maximum 3). Settings may make some hazards Risky by default.
 
@@ -155,6 +156,5 @@ Some rolls aren't harder, just more dangerous. Before a roll, the GM may call it
   )]
   , kind: table
   )
-// ART: Two dice tumbling above a character sheet, the target number circled in ink.
-#art-fill(min: 6cm)[Two dice tumbling above a character sheet, the target number circled in ink.]
+
   ]

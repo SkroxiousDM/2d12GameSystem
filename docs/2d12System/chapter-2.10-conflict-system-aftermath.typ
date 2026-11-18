@@ -209,7 +209,6 @@ Creature-specific rules remain in force, including breaking points that replace 
 + Recover each layer only through its own procedure (§6.5).
 
 Specific rules override general rules only on the subject addressed.
-#colbreak()
 === 10.16 Keeping It Fast
 - Use full conflicts only when several tactical decisions matter.
 - Record objectives and starting Disposition visibly.

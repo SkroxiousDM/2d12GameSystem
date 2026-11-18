@@ -34,7 +34,6 @@ Each point of Power buys an Effect that fits what your character did in the fict
 - Statuses have #strong[tiers 1--6];. They modify rolls by #strong[± their tier] (use only the highest relevant harmful status and the highest relevant helpful status).
 - #strong[Recording a status.] When you create a status, record its name and tier, its #strong[scope] (who or what it affects, and in which circumstances), and its #strong[removal condition] (the event, recovery, treatment, or change that ends it). The scope must follow from the fiction. #emph[Mapped patrol routes-2] --- evading the patrols you watched; ends when the routes change.
 - #strong[What it hinders.] A status modifies only rolls within its scope: #emph[slashed thigh-3] hinders running and climbing, not reading a ledger. A status can also decide what is possible: no roll lets you use a hand you no longer have. If circumstances change, review its scope; don't broaden it just because its name allows another reading.
-#colbreak()
 // PLAYTEST: simplified stacking (one above the higher tier). Matches the old "existing + new − 1" rule within 1 tier in every case; check heavy repeated hits in seeded batches.
 - #strong[Stacking.] New harm of the same kind sets the status to #strong[one tier above the higher] of the existing and incoming tiers (#emph[wounded-2] hit by #emph[wounded-3] becomes #emph[wounded-4]). Harm is the same kind when it worsens the same injury, affliction or condition, whatever it's called: another cut worsens #emph[wounded], renewed menace worsens #emph[terrified], but a fresh burn needn't stack with a concussion. The GM says whether new harm stacks #strong[before] you decide to Resist or accept an injury (§10.11).
 - #strong[Order.] Resistance and armour reduce incoming harm before it stacks; they can't reduce a protected payment such as an accepted injury trade (§10.7). Harm reduced to tier 0 isn't recorded. A status can't go above tier 6.
@@ -43,7 +42,8 @@ Each point of Power buys an Effect that fits what your character did in the fict
 
 
 === 5.2 Example Statuses
-Statuses can describe physical, mental, emotional, or social circumstances. The following names are examples, not a closed list. When recording one, give it a tier, a specific scope, and a removal condition (§5.1). Use a more precise name whenever it makes the effect clearer. These examples grant no new permission to purchase or inflict statuses; normal Effect costs and conflict permissions still apply.
+Statuses can describe physical, mental, emotional, or#colbreak()    
+social circumstances. The following names are examples, not a closed list. When recording one, give it a tier, a specific scope, and a removal condition (§5.1). Use a more precise name whenever it makes the effect clearer. These examples grant no new permission to purchase or inflict statuses; normal Effect costs and conflict permissions still apply.
 ]
 #table(
   columns: (22%, 78%),
@@ -73,8 +73,7 @@ Statuses can describe physical, mental, emotional, or social circumstances. The 
 
 #strong[Recording examples.]
 - #emph[Mapped patrol routes-2]: helps evade the observed patrols; ends when their routes change.
-#colbreak()
-- #emph[Trusted by the village council-2]: helps persuade the council about local threats within your established credibility; ends when that trust is withdrawn or betrayed.
+- #emph[Trusted by the village council-2]: helps persuade the council about local threats within your established#colbreak() credibility; ends when that trust is withdrawn or betrayed.
 - #emph[Mentally exhausted-3]: hinders sustained mental work; ends through appropriate recovery (§6.5).
 - #emph[Discredited before the merchant guild-2]: hinders claims about the disputed shipment made to the guild; ends when the accusation is disproved or credibility is restored.
 

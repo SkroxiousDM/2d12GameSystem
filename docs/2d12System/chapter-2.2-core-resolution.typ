@@ -34,6 +34,8 @@ Why 2d12 summed: it produces a bell curve (2--24, average 13) --- predictable fo
 
 Roll only when the outcome is uncertain and matters; otherwise the action is Trivial and simply happens. Each step of Difficulty is 3 points. Modifiers can push a target below Routine 9; it is still a number to roll against, not an automatic success.
 
+#strong[Permission comes first.] Before setting a Difficulty, ask whether the character can attempt the action at all. A relevant background, Knowledge Skill (§3.3), tool or ability can make an action possible, or remove an obstacle caused only by its absence. Permission isn't a bonus: it adds no die or modifier unless a rule says so. A suitable diagnostic kit lets you inspect a sealed mechanism without damaging it; it doesn't guarantee you identify the fault. If the outcome is still uncertain and matters, roll.
+
 === 2.3 Odds Reference
 Chance to hit the number needed on the dice (after subtracting your bonuses):
 
@@ -70,6 +72,7 @@ You can add d12s to the roll and #strong[keep the best two];. Maximum #strong[+2
     [#strong[Momentum];], [1 for the first die, 2 for the second],
     [#strong[Woe];], [Give the GM 1 Woe per die],
     [#strong[Help];], [An ally spends 1 point from a pool and shares the consequences],
+    [#strong[Specialisation];], [Free: one die when a Specialisation directly applies (§3.3)],
   )]
   , kind: table
   )
@@ -84,6 +87,8 @@ Example: Effort Level 2 lets you buy one bonus die before the roll, then spend a
 #strong[Paying costs.] Pay Effort and Help in full; you can't spend points a pool doesn't have unless a rule says so (§6.1). Paying the last point runs the pool dry; a cost of 0 never does. Pay each listed cost separately, when its rule says. If a cost takes you out, finish that action, but buy no more Effort or abilities for it.
 
 #strong[Free benefits.] Free bonus dice still count toward the +2 cap. Free Help waives only the pool cost: the helper must still be relevant and still shares the risk. Backing a side at the start of a conflict is not Help (§10.2).
+
+#strong[What Woe buys.] When you buy a die with Woe, say what you do differently to earn the better chance. If the approach makes extra exposure apparent, the GM describes it; it doesn't add a second automatic consequence. The Woe is the price, and the GM spends it later (§9.2).
 
 === 2.5 Outcomes
 #figure(
@@ -101,6 +106,22 @@ Example: Effort Level 2 lets you buy one bonus die before the roll, then spend a
   )
 #strong[Power] is spent on #strong[Effects] (§5). Any Power you don\'t spend becomes #strong[Momentum] (party pool, max 6).
 
+#strong[Choosing a consequence.] When a rule calls for a consequence, such as Success at a Cost, a failure's GM move or a complication, the table below suggests the kind of trouble to pick. It creates no new trigger and no severity track, and scripted conflicts still follow §10.7: judge severity by fictional impact. A minor consequence changes the next decision; a more serious one changes the scene or leaves a problem to deal with afterward. #strong[If the test succeeded, keep what it earned.]
+
+#figure(
+  [#table(
+    columns: (20%, 40%, 40%),
+    align: (auto,auto,auto,),
+    table.header([Action], [Immediate complication], [Longer-lasting consequence],),
+    table.hline(),
+    [Inquiry], [You get the name, but someone notices you asking], [You get the records, but the source can't safely give further access],
+    [Negotiation], [You secure passage, but only at an inconvenient time], [You secure passage, but the agreement creates an obligation],
+    [Repair], [It works, but must be shut down after this use], [It works, but a separate capability stays offline until serviced],
+    [Travel], [You arrive, but leave supplies behind], [You arrive, but your usual return route is closed],
+  )]
+  , kind: table
+  )
+
 #strong[Versus tests, conflicts and automatic success.] Versus tests compare opposing totals instead of using this table (§10.5). Inside scripted conflicts, §10.7 limits what failure, costs and Woe can do. An automatic success replaces the roll: apply its listed Power, with no dice-based critical or complication.
 
 === 2.6 Doubles (Twists)
@@ -110,7 +131,6 @@ If your two #strong[kept] dice show the same number:
 - #strong[On a failure or cost:] Complication --- the GM introduces a complication right away.
 - #strong[Double 12s:] an independent test always succeeds, with +2 Power instead of +1.
 - #strong[Double 1s:] always bring a complication, even on a success, but don't fail automatically. A success still gains the +1 critical Power.
-#colbreak()
 - #strong[Buying it off.] When the dice give you a complication (a twist, or a Risky roll, §2.7), you may cancel it by giving the GM #strong[2 Woe]: a problem now, or a problem later. If you keep it and the GM can't think of a fitting complication, the GM gains the 2 Woe instead.
 - #strong[NPCs.] When the dice give an NPC a complication, the GM may spend #strong[2 Woe] to cancel it. Otherwise the GM describes the complication, or invites the players to.
 

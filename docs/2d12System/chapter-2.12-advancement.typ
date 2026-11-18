@@ -20,6 +20,7 @@ The Belief question awards at most #strong[1 XP per session], not 1 XP per Belie
 - +3 to one pool, or +1 Edge (max 3 Edge per pool)
 - A new playbook special ability (★ costs 1 Refresh; veteran costs below)
 - A new power tag, or rewrite a weakness tag into a power tag
+- A new Specialisation in a rated skill (§3.3)
 - #strong[+1 Refresh] (buys back Refresh spent on abilities or artifacts), up to the #strong[Refresh cap] of 3 + 1 per 3 Advances
 - A higher-tier Focus ability: Tier 2 after 3 Advances; Tier 3 after 6 Advances. Taking the ability costs an Advance; reaching the threshold does not grant it automatically (Generic Focuses §1.1).
 - #strong[+1 Effort Level] (to Level 2 after 3 Advances; Level 3 after 9 Advances)

@@ -1,6 +1,24 @@
 # Skill Specialisations, Knowledge, and Fictional Permissions
 
-Status: Setting-neutral playtest proposal. This draft does not amend the core rules.
+Status: **Integrated** into the core rulebook (branch `feature/specialisations-and-knowledge`). This file is kept as the design record; the active Typst source is authoritative.
+
+Where the rules now live:
+
+| Draft section | Core location |
+| --- | --- |
+| Skill Specialisations | Core §3.3 Specialisations; free die in the §2.4 bonus-dice table; Advance option in §12.2; conflict limit in §10.18 |
+| Knowledge Skills | Core §3.3 Knowledge Skills (skills at +2 or higher count as professional knowledge) |
+| Fictional permissions | Core §2.2 "Permission comes first" |
+| Contacts and networks | Core §3.6 "Circle and contact" and "Using contacts" |
+| Signature assets | Generic Playbooks §2.1 "Losing a signature item"; writing guidance in Playbook Design Notes |
+| Optional flashbacks | Core §4.2 Prepared in Advance (obvious or reasonable only, once per session; stretches stay with the Furcifer's ★ Flashback) |
+| Weaknesses and Tychē | Already covered by Core §4 compel rules; no change |
+| Woe, risk, and rerolls | Core §2.4 "What Woe buys"; §4 Invoke. "Risk Dice" and "Risk Reduction" below mean the *Shadowrun: Anarchy 2.0* mechanics and were not adopted; core Risky Rolls (§2.7) are unchanged |
+| Special effects and conflict | Playbook Design Notes; Core §10.18 |
+| GM Consequence Menu | Core §2.5 "Choosing a consequence" |
+| Playtest Plan | Core §14.1 Known Risks |
+
+Character sheet: `docs/2d12System/generic-character-sheet.typ`.
 
 ## Skill Specialisations
 

@@ -12,6 +12,7 @@ inline and deleted.
 | legacy-pool-6.9.typ                        | Retired historical draft with an explicit retirement header. Not included in the active rulebook; do not add its include or Quick Reference currency row.                                                                                  |
 | module-c-7-8-entanglements-long-knives.typ | Moved to ../chapter-3-module-c.7-entanglements.typ (C.7 and C.8). |
 | module-e-1a-starting-cluster.typ           | Moved to ../chapter-3-module-e.1a-starting-cluster.typ (E.1A). |
+| skill-specialisations-and-knowledge.md     | Integrated design record. Rules now live in Core §§2.2, 2.4, 2.5, 3.3, 3.6, 4, 4.2, 10.18, 12.2 and 14.1, and Generic Playbooks §2.1; see the file's location table. |
 | chapter-2.10-conflict-system-rewrite.md    | Rewrite design proposal; not the source included by the core chapter. Check the active Typst source for current implementation.                                                                                                            |
 
 ## Decisions applied

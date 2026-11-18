@@ -13,6 +13,7 @@
     [#strong[Mouse Guard];], [Full conflict scripting, shared Disposition, outcome-first compromise, BIG, weapons as action bonuses, the Grind (Module B)], [Rolled Disposition divides the setup total by 3 before backers and flat modifiers; actions spend Power], [Nature, Persona],
     [#strong[Blades];], [Playbooks, resistance, stress-as-currency, clocks, load-out], [Stress tracks are the four pools], [Action dice pools, Position/Effect grid, crew sheets],
     [#strong[2d20];], [Momentum, Woe, Truths, Module C, buy-offs, Escalation], [Momentum from unspent Power; Truths shift Difficulty; complication range → Risk die (§2.7)], [d20 roll-under],
+    [#strong[Shadowrun: Anarchy 2.0];], [Skill specialisations, unrated Knowledge Skills, narrative permissions, glitch examples as a consequence menu, circles versus named contacts, recovering signature assets, priced flashbacks], [A Specialisation adds one bonus die, not +2 to the rating; +2 skills count as professional knowledge; tags stand in for Keywords; flashbacks cost Tychē and stay obvious or reasonable (§4.2)], [Risk Dice and Risk Reduction, Shadow Amp pricing, Essence, Edge extra actions, Dispositions and Cues, the Network skill, temporary equipment],
   )]
   , kind: table
   )
@@ -30,4 +31,7 @@
 - #strong[Old simulation figures:] earlier notes reported mirrored fights about 23.5% shorter with shared Disposition, and an older setup averaging about 6 Disposition (range 3--9) and 6 volleys. Those figures predate the divide-by-three setup; re-run them before predicting conflict length. A fixed track of 5 is a possible comparison, not a rule.
 - #strong[Attack and Feint +1] (§10.6): watch whether Defend keeps pace, whether Feint becomes the default action, and how the +1 stacks with #emph[Crowd Work] and #emph[Every Trick in the Book].
 - #strong[Superiority] (§10.3): watch whether preparation becomes routine, how often both sides claim it, and whether one advantage is being described several ways to claim more categories.
+- #strong[Specialisations and Knowledge] (§3.3): watch how often the Specialisation die applies, whether it changes the kept pair, whether it saves Effort or Woe, and how often the +2 cap makes it redundant. Narrow an overbroad Specialisation before changing the bonus. If players keep asking whether knowledge gives +1, clarify the wording rather than adding a modifier. Check that contacts create choices, that signature items matter without more routine bonus dice, and that consequences leave successful characters something to act on.
+- #strong[Specialists in scripted conflicts:] if a character has no legal specialist contribution under the action lists, treat it as an action-design question; don't let a Specialisation override the script.
+- #strong[Prepared in Advance] (§4.2): watch Tychē use and overlap with the Furcifer's ★ #emph[Flashback].
 - #strong[Playtest flags in the text:] §5.1 stacking; §6 negative Edge; §6.3 one Scar per scene; §10.3 PC/opposition symmetry and Superiority eligibility; §10.5 Feint versus Maneuver; §10.13 four-step compromise; §10.17 area effects. These notes don't settle them.

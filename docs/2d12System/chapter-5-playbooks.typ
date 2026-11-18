@@ -79,6 +79,7 @@ Before a mission, choose your #strong[load];. During play, declare items from yo
   )
 
 - #strong[Signature items] are chosen at creation and always count against load when carried (most are 1--2).
+- #strong[Losing a signature item.] A signature item defines what the character can do, so losing it can matter in play, but you never buy the same character option again to get it back. When it's lost, broken or taken, the GM names a #strong[recovery route]: repair, rescue, a trade or a replacement. It may take a scene, a downtime endeavour or a journey, and needn't be quick. Ordinary kit items have no such guarantee.
 - #strong[Always-carried items] (load 0) are always on you.
 - Items marked #strong[(0)] cost no load.
 

@@ -12,6 +12,7 @@ These steps describe the order of creation; the subsections below group rules by
 + Write your World Belief (§3.5).
 + Write your Self Belief (§3.5).
 + Choose Descriptor, Playbook, and Focus (§3.1); complete pools, Edge, skills, tags, abilities, and starting resources (§§3.2–3.4, §3.6).
++ Choose one Specialisation and two Knowledge Skills (§3.3), and name a starting circle and contact (§3.6).
 + Introduce the characters and agree on connections, including the link supplied by your Focus.
 + Write your Other Belief with the other player's agreement (§3.5).
 + Choose a concrete starting Goal (§3.5).
@@ -79,6 +80,30 @@ The playbook's anchor skill must sit at +3 or +4. The pyramid rule (each tier mu
 \*Arcana is renamed per setting: Mysticism, Faith, Psionics, Weirdness, or removed entirely in mundane games.
 
 The default pool pays for Effort and Resistance. The GM can allow another pool when the fiction supports it (Intimidate with Sōma = looming; with Pneuma = cold menace).
+
+==== Specialisations
+// PLAYTEST: Specialisation die. Track how often it applies, whether it changes the kept pair, and whether it replaces Effort or Woe.
+A #strong[Specialisation] names a narrow application of a rated skill: write it as #emph[Skill (Specialisation)], such as #emph[Medicine (Trauma Care)], #emph[Craft (Precision Mechanisms)] or #emph[Persuade (Mediation)].
+
+- #strong[Benefit.] When a test uses that skill and the Specialisation directly applies to your approach, add #strong[one free bonus die] (§2.4). It counts toward the +2 cap. Only one Specialisation applies per test. At the cap it gives no substitute benefit.
+- #strong[Approach, not scenery.] It applies to how you tackle the problem, not to what is present. #emph[Persuade (Mediation)] applies when brokering terms between rivals, not when bluffing one of them just because a dispute is under way.
+- #strong[Narrow.] It must be narrower than its skill. If it would apply to almost every use of the skill, narrow it.
+- #strong[Limits.] It grants no flat modifier, free Power or extra action, and doesn't let you substitute one skill for another in a scripted conflict (§10). It combines with Effort, Help or a die bought with Woe, within the cap.
+- #strong[Getting one.] Start with #strong[one]. An Advance can buy another (§12.2).
+
+==== Knowledge Skills
+A #strong[Knowledge Skill] is an unrated field of expertise: #emph[Regional Trade Customs], #emph[River Ecology], #emph[Institutional Records]. Start with #strong[two], covering subjects your background and skills don't already cover.
+
+#strong[What also counts.] Relevant power and weakness tags from your background count as knowledge within their scope, and so does any skill rated #strong[+2 or higher] (professional). Don't take #emph[Medicine] again as knowledge if you already practise it at +2.
+
+#strong[What knowledge does.] It adds no die or modifier by itself. It tells you what the character knows, what they can attempt, and what a result means to them:
+
++ #strong[Routine facts are free.] If someone with this expertise would know the answer and it's available to them, the GM says so. Don't roll to recall standard practice.
++ #strong[Expertise grants permission] (§2.2). It may let the character interpret a technical record or attempt a specialist procedure. If the action is still uncertain and matters, roll the relevant skill.
++ #strong[An expert reads more into the same result.] Anyone might find the altered record; an expert also recognises which entry couldn't come from the normal process. That reading is information, not extra Power.
++ #strong[No single gate.] Don't make one Knowledge Skill the only route to an essential clue. Others can consult a source, find a contact or investigate another way.
+
+#emph[Example:] a medic recognises without a roll that a patient's symptoms don't match the recorded injury. Stabilising the patient during an evacuation is uncertain, so they roll Medicine and add a die for #emph[Trauma Care]. Knowledge changes what the character understands; a Specialisation changes the roll.
 
 === 3.4 Tags
 Characters carry 6–8 #strong[character tags] from Descriptor, Focus, and Playbook:
@@ -213,4 +238,9 @@ The GM might offer a delegation in exchange for escorting a vulnerable supply ca
 - #strong[Starting abilities.] You get #strong[1 playbook ability and your Tier 1 Focus ability for free], and may buy #strong[up to 2 more playbook abilities at 1 Refresh each].
 - #strong[★ (Major) abilities] cost #strong[1 extra Refresh] whenever you take them: as your free pick (1), as a creation extra (2 total) or through advancement. Veteran acquisition costs are added on top (Generic Playbooks §1.2). Refresh can't drop below 1 (§4.1).
 - #strong[Load-out:] choose light, normal or heavy load before the mission, then declare playbook-kit items as you need them and mark their load; don't buy a full item list in advance. Signature items are chosen at creation and count against load when carried; always-carried items and items marked (0) follow their listed rules (Generic Playbooks §2.1). In conflicts, declare active gear before scripting each exchange (§10.10).
+- #strong[Circle and contact.] Name one #strong[social circle] (#emph[dock workers], #emph[the archive staff]) and one #strong[named contact] in it or elsewhere. Record both as contact Truths. The circle answers #emph[who here might help?]; the contact answers #emph[whom can I ask, and what might it cost them?]
+
+#strong[Using contacts.] Routine help that fits the relationship needs no roll. When access, discretion or cost is uncertain, roll an existing skill such as Persuade or Empathy; there is no separate Network skill or loyalty track. On a Success at a Cost, you get the introduction, shelter or supplies, but owe a favour or expose the relationship. A favour owed uses Module E.7 when that module is in play. A starting contact grants no free Discover, Help or turn; abilities such as #emph[Contacts] and #emph[Network] add those benefits.
+
+#strong[Ordinary gear, borrowed or bought locally.] Getting an ordinary item you didn't bring is a contact or circle question, not a separate inventory. Load covers what you brought; a contact covers what you can find now; an optional flashback covers what you arranged earlier (§4.2).
 ]

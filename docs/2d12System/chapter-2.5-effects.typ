@@ -22,7 +22,7 @@
   , kind: table
   )
 #columns(2, gutter: 6mm)[
-Each point of Power buys an Effect that fits what your character did in the fiction. No Effect is mandatory; all purchases share one Power budget, and any unspent Power becomes #strong[Momentum];.
+Each point of Power buys an Effect that fits what your character did in the fiction. No Effect is mandatory; all purchases share one Power budget, and any unspent Power becomes #strong[Weal];.
 
 #strong[In scripted conflicts,] each action can buy only the Effects §10.6 permits. Fictional relevance is required but doesn't unlock anything else.
 

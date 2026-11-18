@@ -45,7 +45,7 @@ Captain, chief, or sergeant: people follow you.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Rally];], [Once per scene, spend 1 Momentum to restore #strong[2 points] to one pool of every ally who can hear you.],
+    [1], [#strong[Rally];], [Once per scene, spend 1 Weal to restore #strong[2 points] to one pool of every ally who can hear you.],
     [2a], [#strong[Battle Plan];], [At the start of a conflict, after the opposing side commits its first script and before yours, look at #strong[one] of its actions.],
     [2b], [#strong[Lead by Example];], [When you succeed with #strong[3+ Power];, the next ally who acts toward the same goal gets a #strong[free bonus die];.],
     [3a], [#strong[★ Warband];], [Gain a loyal crew (a group with 2 power tags and 1 weakness). It gives free Help once per scene, holds a position or acts as one group, and takes statuses as a single target (§1.3).],

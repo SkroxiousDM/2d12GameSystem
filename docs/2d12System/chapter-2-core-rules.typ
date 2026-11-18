@@ -2,7 +2,7 @@
 //
 //  CHAPTER — CORE RULES
 // =====================================================================
-#chapter("Core Rules", [One roll, many outputs. A pair of twelve-sided dice decides whether you succeed, how much Power you earn and whether fate twists. Around that roll: pools that double as stress, tags and Truths, Momentum and Woe, and scripted conflicts.], epigraph: [Roll 2d12 + Skill + Modifiers vs. Difficulty.])
+#chapter("Core Rules", [One roll, many outputs. A pair of twelve-sided dice decides whether you succeed, how much Power you earn and whether fate twists. Around that roll: pools that double as stress, tags and Truths, Weal and Woe, and scripted conflicts.], epigraph: [Roll 2d12 + Skill + Modifiers vs. Difficulty.])
 
 #include "chapter-2.1-design-pillars.typ"
 
@@ -19,7 +19,7 @@
 
 #include "chapter-2.8-truths.typ"
 
-#include "chapter-2.9-momentum-and-woe.typ"
+#include "chapter-2.9-weal-and-woe.typ"
 
 #include "chapter-2.10-conflict-system.typ"
 #include "chapter-2.10-area-and-limits.typ"

@@ -88,11 +88,11 @@ Without Module E, between sessions (or each in-world week), the GM takes a #stro
 A faction project changes a Site Truth with an 8-segment clock and a Region Truth with a 12-segment clock. A Campaign Truth changes only through a major arc (C.6).
 
 === C.6 Player Influence on Truths
-- #strong[Discover] effects and Momentum spends reveal hidden Truths.
-- #strong[Create] effects and 2 Momentum create Scene Truths; bigger changes need a progress clock (8 segments for a Site Truth, 12 for a Region Truth).
+- #strong[Discover] effects and Weal spends reveal hidden Truths.
+- #strong[Create] effects and 2 Weal create Scene Truths; bigger changes need a progress clock (8 segments for a Site Truth, 12 for a Region Truth).
 - Major arcs can rewrite Campaign Truths. These are the \"legacy\" moments of the campaign.
 
-Create costs 2 Power per rank (Core Rules §5). A 2-Momentum Truth starts at rank 1, and the same cost again raises it to rank 2 (Core Rules §8). A Scene Truth can't stand in for a Site or Region change.
+Create costs 2 Power per rank (Core Rules §5). A 2-Weal Truth starts at rank 1, and the same cost again raises it to rank 2 (Core Rules §8). A Scene Truth can't stand in for a Site or Region change.
 
 #strong[In a conflict,] Discover, Advance and other off-menu Effects need a permitted action or explicit exception (Core Rules §10.6). Winning achieves the conflict's stated intent, not every related project clock. A Truth can set up a scenery feature, but using it takes a scenery Maneuver (Core Rules §10.8). Preparation counts toward Superiority only under Core Rules §10.3.
 

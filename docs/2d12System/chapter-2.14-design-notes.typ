@@ -12,14 +12,14 @@
     [#strong[:Otherscape];], [Power/weakness tags, statuses with tiers, effects, burning tags], [Power comes from roll margin; tag cap +2], [Themebooks, Improve/Abandon tracks],
     [#strong[Mouse Guard];], [Full conflict scripting, shared Disposition, outcome-first compromise, BIG, weapons as action bonuses, the Grind (Module B)], [Rolled Disposition divides the setup total by 3 before backers and flat modifiers; actions spend Power], [Nature, Persona],
     [#strong[Blades];], [Playbooks, resistance, stress-as-currency, clocks, load-out], [Stress tracks are the four pools], [Action dice pools, Position/Effect grid, crew sheets],
-    [#strong[2d20];], [Momentum, Woe, Truths, Module C, buy-offs, Escalation], [Momentum from unspent Power; Truths shift Difficulty; complication range → Risk die (§2.7)], [d20 roll-under],
+    [#strong[2d20];], [Momentum (here called #strong[Weal]), Woe, Truths, Module C, buy-offs, Escalation], [Weal from unspent Power; Truths shift Difficulty; complication range → Risk die (§2.7)], [d20 roll-under],
     [#strong[Shadowrun: Anarchy 2.0];], [Skill specialisations, unrated Knowledge Skills, narrative permissions, glitch examples as a consequence menu, circles versus named contacts, recovering signature assets, priced flashbacks], [A Specialisation adds one bonus die, not +2 to the rating; +2 skills count as professional knowledge; tags stand in for Keywords; flashbacks cost Tychē and stay obvious or reasonable (§4.2)], [Risk Dice and Risk Reduction, Shadow Amp pricing, Essence, Edge extra actions, Dispositions and Cues, the Network skill, temporary equipment],
   )]
   , kind: table
   )
   
 === 14.1 Known Risks
-- #strong[Currency load:] pools + Tychē + Momentum + Woe is the upper limit for medium crunch. Keep spend menus short on the sheet.
+- #strong[Currency load:] pools + Tychē + Weal + Woe is the upper limit for medium crunch. Keep spend menus short on the sheet.
 - #strong[Modifier range:] max is skill +4, tags +2, helpful status up to +6, Tychē invoke +2. Statuses are the largest swing. Playtest a ±3 status cap.
 - #strong[Effort for Power] may make high-Edge characters very efficient. Watch Edge-3 pools where Effort is free; consider a minimum cost of 1.
 - #strong[Resistance dice:] Edge adds Resistance dice instead of reducing the cost, and only a double 12 is free (§6). Watch how often stacked penalties (two −1 Edge penalties on a 0-Edge pool) push Resistance to negative Edge, whether high-Edge pools drain faster than before, and whether the double-12 result (1--6%) is too rare to matter.

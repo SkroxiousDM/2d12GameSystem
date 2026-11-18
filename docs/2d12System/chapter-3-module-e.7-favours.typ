@@ -74,7 +74,7 @@ Roll 2d12 + the relevant effective Quality against Standard 15, adjusted by task
 - Failure (miss by 4+): no progress; introduce a relevant setback.
 - Doubles follow the core's success/cost/failure twist rules, including double 12s and double 1s.
 
-Organizational exception: off-screen faction actions do not gain or spend the party's Momentum, PC pools, or Tychē Points, and do not generate or spend Woe. Uncommitted Power is discarded. Resolve twists narratively; there is no off-screen Woe buy-off. PC scenes retain all normal core currencies.
+Organizational exception: off-screen faction actions do not gain or spend the party's Weal, PC pools, or Tychē Points, and do not generate or spend Woe. Uncommitted Power is discarded. Resolve twists narratively; there is no off-screen Woe buy-off. PC scenes retain all normal core currencies.
 
 ==== Project clocks
 
@@ -132,7 +132,7 @@ Use Woe normally during PC scenes to introduce supported complications, reinforc
 
 Inside scripted conflicts, failure and Success at a Cost follow Core Rules §10.7: no unrelated GM move, automatic injury or extra Disposition loss, or ordinary-failure Woe for losing a versus test. Specials, hazards, Risky rolls and other explicit consequences keep their stated effects and timing. Woe can't change a revealed script or cancel actions that resolve on their own.
 
-Woe cannot directly buy a Standing reduction. It can expose evidence or create circumstances that cause one. Momentum and scene-scale Create effects likewise cannot buy permanent reputation.
+Woe cannot directly buy a Standing reduction. It can expose evidence or create circumstances that cause one. Weal and scene-scale Create effects likewise cannot buy permanent reputation.
 
 === E.12 Damage, Crisis, and Reorganization
 
@@ -191,7 +191,7 @@ If the association undertakes an additional urgent funding action that turn, Tre
   [What do PCs roll?], [Their normal Skill; never add a faction Quality.],
   [What does support do?], [Permission, a scoped Truth, or actual Help; no duplicate benefit.],
   [What does the faction roll?], [2d12 + one effective Quality, normally vs. Standard 15.],
-  [How does it progress?], [1 Power per project segment; no off-screen Momentum or Woe.],
+  [How does it progress?], [1 Power per project segment; no off-screen Weal or Woe.],
   [How do adventures matter?], [Achieve an objective, affect progress, or establish a strategic advantage.],
   [How often does it act?], [One major action each World Turn; at most one additional action causing Strain.],
   [What is owed?], [A written favour or obligation with scope, limits, and settlement.],

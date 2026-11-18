@@ -69,7 +69,7 @@ You can add d12s to the roll and #strong[keep the best two];. Maximum #strong[+2
     table.header([Source], [Cost],),
     table.hline(),
     [#strong[Effort];], [3 points from the relevant pool, minus that pool\'s Edge (min 0), per use],
-    [#strong[Momentum];], [1 for the first die, 2 for the second],
+    [#strong[Weal];], [1 for the first die, 2 for the second],
     [#strong[Woe];], [Give the GM 1 Woe per die],
     [#strong[Help];], [An ally spends 1 point from a pool and shares the consequences],
     [#strong[Specialisation];], [Free: one die when a Specialisation directly applies (§3.3)],
@@ -104,7 +104,7 @@ Example: Effort Level 2 lets you buy one bonus die before the roll, then spend a
   )]
   , kind: table
   )
-#strong[Power] is spent on #strong[Effects] (§5). Any Power you don\'t spend becomes #strong[Momentum] (party pool, max 6).
+#strong[Power] is spent on #strong[Effects] (§5). Any Power you don\'t spend becomes #strong[Weal] (party pool, max 6).
 
 #strong[Choosing a consequence.] When a rule calls for a consequence, such as Success at a Cost, a failure's GM move or a complication, the table below suggests the kind of trouble to pick. It creates no new trigger and no severity track, and scripted conflicts still follow §10.7: judge severity by fictional impact. A minor consequence changes the next decision; a more serious one changes the scene or leaves a problem to deal with afterward. #strong[If the test succeeded, keep what it earned.]
 

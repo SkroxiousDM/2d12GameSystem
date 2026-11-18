@@ -105,8 +105,8 @@ You never walk into a room without knowing how to leave it.
     [1], [#strong[Exit Strategy];], [When you enter a new scene, ask one free Discover question about exits or escape routes.],
     // PLAYTEST: B1, was +3; matches At the Helm.
     [2a], [#strong[Clean Getaway];], [In Chase conflicts where you\'re fleeing, your side gets #strong[+2 starting Disposition];.],
-    [2b], [#strong[Contin-gency];], [Once per mission, when things go wrong, reveal a prepared fallback (stashed gear, a getaway vehicle, a safe house) as a Truth. No Momentum needed.],
-    [3a], [#strong[Not Here];], [Once per scene, when you would receive an imposed harmful status and can act, spend #strong[1 Momentum] and describe how you evade its source: cancel that status on yourself and move to a nearby position. Disposition loss and other effects of the triggering action still apply.],
+    [2b], [#strong[Contin-gency];], [Once per mission, when things go wrong, reveal a prepared fallback (stashed gear, a getaway vehicle, a safe house) as a Truth. No Weal needed.],
+    [3a], [#strong[Not Here];], [Once per scene, when you would receive an imposed harmful status and can act, spend #strong[1 Weal] and describe how you evade its source: cancel that status on yourself and move to a nearby position. Disposition loss and other effects of the triggering action still apply.],
     [3b], [#strong[★ Dead Man\'s Switch];], [Once per session, when you\'re captured or confined, declare a contingency and give the GM #strong[2 Woe];. At the start of your next scene it creates an opening (you slip one restraint, an exit opens, or an established contact helps), and you may at once make one escape roll, even if confinement would normally prevent it. In a conflict, resolve it before the next exchange. Your statuses stay, and it doesn\'t revive you, recover confiscated gear, free companions or guarantee the roll.],
   )]
   , kind: table

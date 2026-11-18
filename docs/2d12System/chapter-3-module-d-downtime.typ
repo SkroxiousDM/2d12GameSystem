@@ -18,7 +18,7 @@ Downtime is the stretch between expeditions when the party is safe enough to rec
 
 - #strong[Checks.] Free Checks are added to any Checks earned on the expedition (B.4: applying a weakness tag or Scar to your own roll). Spend #strong[1 Check] for one endeavour. Unspent Checks are lost when the stay ends. You may give a Check to another PC whose endeavour you join.
 - #strong[Stay Woe.] The GM does not use expedition Woe in downtime. The stay starts with #strong[1 Woe per PC]. Woe gained from downtime rolls joins this pool, which pays for the stay's event, complications and danger clocks, then is discarded (Core Rules §9.2).
-- #strong[Momentum] gained in downtime decays at the end of each scene and never leaves the stay (Core Rules §9.1). #strong[Tychē Points] do not refresh unless the downtime begins a new session (Core Rules §4.1); invokes, declares and compels work as normal.
+- #strong[Weal] gained in downtime decays at the end of each scene and never leaves the stay (Core Rules §9.1). #strong[Tychē Points] do not refresh unless the downtime begins a new session (Core Rules §4.1); invokes, declares and compels work as normal.
 - #strong[Goals.] At the end of the stay, each player writes one Goal for the next expedition (Core Rules §3.5).
 - #strong[World Turn (Module E).] If Module E is in use, a stay contains #strong[one World Turn] (E.10). It uses no Checks and no Stay Woe.
 
@@ -34,8 +34,8 @@ Downtime is the stretch between expeditions when the party is safe enough to rec
 === D.4 Endeavours 
   An #strong[endeavour] is a stretch of focused effort during the stay.
 
-- #strong[Routine.] If failure would add nothing and the outcome is certain, no roll is needed. It generates no Power and no Momentum (Core Rules §6.6).
-- #strong[Uncertain.] If the result matters, roll the listed skill against #strong[Standard 15], adjusted by Truths. Spend Power on Effects (Core Rules §5). Unspent Power becomes Momentum, which decays.
+- #strong[Routine.] If failure would add nothing and the outcome is certain, no roll is needed. It generates no Power and no Weal (Core Rules §6.6).
+- #strong[Uncertain.] If the result matters, roll the listed skill against #strong[Standard 15], adjusted by Truths. Spend Power on Effects (Core Rules §5). Unspent Power becomes Weal, which decays.
 - #strong[Success at a Cost:] the GM adds a consequence, or the stay pool gains 1 Woe (player's choice, Core Rules §2.5). #strong[Failure:] the effort doesn't take, the stay pool gains 1 Woe, and the GM announces any consequence before another attempt.
 - #strong[Light or Strenuous.] A character with a lasting injury who takes a Strenuous endeavour does not progress that injury's healing interval this interval (Core Rules §6.6).
 
@@ -80,7 +80,7 @@ Downtime does not create reputation by itself. Distinguish the following:
 - An ability may make a reputation a #strong[Campaign Truth], like the Bellator capstone #emph[Legend of the Field] (Generic Playbooks §3.1).
 - A #strong[contact Truth] (D.4 Connect) names a relationship with a person and what it makes possible. It isn't a reputation tag and doesn't change Standing.
 
-Momentum, Woe and scene-scale Create can't buy reputation (E.11). A relationship Truth (E.3) shifts Difficulty and a reputation tag adds to the roll; both can apply.
+Weal, Woe and scene-scale Create can't buy reputation (E.11). A relationship Truth (E.3) shifts Difficulty and a reputation tag adds to the roll; both can apply.
 
 === D.7 The Stay in Order
 

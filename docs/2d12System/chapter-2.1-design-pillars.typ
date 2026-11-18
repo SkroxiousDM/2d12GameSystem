@@ -12,8 +12,8 @@
     table.hline(),
     [#strong[Pools] (Sōma / Mētis / Psychē / Pneuma)], [Each PC], [Physical, mental and spiritual cost --- Effort and Resistance],
     [#strong[Tychē Points];], [Each PC], [Narrative authority --- invoke tags, accept compels],
-    [#strong[Momentum];], [The party (shared)], [Tactical surplus from strong rolls],
-    [#strong[Woe];], [The GM], [Mirror of Momentum --- complications and escalation],
+    [#strong[Weal];], [The party (shared)], [Tactical surplus from strong rolls],
+    [#strong[Woe];], [The GM], [Mirror of Weal --- complications and escalation],
   )]
   , kind: table
   )

@@ -25,7 +25,7 @@
   [Statuses], [Highest relevant helpful tier, minus highest relevant harmful tier.],
   [Truths], [Shift Difficulty, not the roll: one step per rank, at most ±3 steps; maximum rank 2.],
 )
-Roll only when the outcome is uncertain and matters. Each Difficulty step is 3 points. A target below 9 still requires a roll unless the action is Trivial.
+Roll only when the outcome is uncertain and matters. Knowledge, backgrounds and tools grant permission to attempt, not a modifier. Each Difficulty step is 3 points. A target below 9 still requires a roll unless the action is Trivial.
 
 #table(columns: (70%, 30%),
   table.header([Difficulty], [Target]),
@@ -49,6 +49,7 @@ Keep the best two dice. Maximum +2 bonus dice from all sources, including free d
   [Momentum], [1 for the first die, 2 for the second.],
   [Woe], [Give the GM 1 Woe per die.],
   [Help], [An ally spends 1 pool point and shares the risk.],
+  [Specialisation], [Free: one die when it directly applies.],
 )
 Each Effort use buys one bonus die *before rolling*, or +1 Power *after Success or Success at a Cost*. Total uses per roll cannot exceed Effort Level (1 at start). Effort cannot turn failure into success.
 
@@ -61,7 +62,7 @@ Pay Effort and Help in full. Paying the last pool point runs that pool dry; a co
   [Miss by 1–3], [Success at a Cost: 1 Power; choose a consequence or +1 Woe for the GM.],
   [Miss by 4+], [Failure: the GM makes a move and gains 1 Woe.],
 )
-Spend Power on permitted Effects. Unspent Power becomes Momentum, maximum 6.
+Spend Power on permitted Effects. Unspent Power becomes Momentum, maximum 6. A consequence on a success keeps what the roll earned (Core §2.5).
 
 Scripted conflicts modify failure and Success at a Cost; use §3 below. Versus tests compare opposing totals instead of using this table.
 

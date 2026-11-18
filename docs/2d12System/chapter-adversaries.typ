@@ -45,7 +45,7 @@ Wants: what it is after in this scene
 ))
 
 #strong[Reduction and payments.] Ordinary NPCs apply at most one eligible reduction per imposed status application (Core Rules §10.14); do not stack Armour and repeated Shrugs against the same status. Neither reduces ordinary shared Disposition loss or protected payments. General immunity, prevention and redirection likewise cannot cancel accepted injury trades, running-dry statuses, agreed concession costs or other accepted payments (§10.7). Later treatment or healing follows its own rules and refunds no benefit.
-
+#pagebreak()
 == 3. Building an Adversary
 #columns(2, gutter: 6mm)[
 === Step 1 — Concept and Kind
@@ -114,7 +114,6 @@ Pick Specials from the Kind menu up to the Rank limit. Price a new one:
 This is pricing guidance, not an unrestricted spend menu. Write a Special's trigger, action requirement, targets and component explicitly. Free waives only its listed cost; it grants no extra turn or rotation bypass. Additional Power, Disposition loss and status tiers are distinct, and a bonus does not apply to both loss and harm unless stated. Cancelling a trick does not cancel a protected payment (Core Rules §10.5--10.7).
 
 #strong[Area Rule (provisional for playtesting).] Use Core Rules §10.17. Establish the area and everyone it can reach; there is no automatic ally/enemy selection. An area Attack or Feint removes its committed Power + 1 from shared Disposition once, plus 1 per additional opposing participant affected. No individual shares or spill-over. A group represented by one rules entry counts as one participant, not one per Body. Explicit statuses apply at full purchased or listed tier to every affected character, with separate Resistance or NPC reduction. An ordinary conflict Attack gains no status merely for being an area effect. Apply both layers only when an explicit rule grants both. At most one participant may accept an injury trade against the combined loss of a single area Attack or Feint.
-#colbreak()
 // ART: A field naturalist's sketchbook of strange creatures, each with notes on its weak points.
 #art-fill(min: 6cm)[A field naturalist's sketchbook of strange creatures, each with notes on its weak points.]
 ]

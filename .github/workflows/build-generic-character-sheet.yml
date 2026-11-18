@@ -1,0 +1,87 @@
+name: Build generic character sheet
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'pdf/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: book-pdf-commit-${{ github.ref }}
+  cancel-in-progress: false
+  queue: max
+jobs:
+  compile:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Check out source branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - name: Prepare output directory
+        run: mkdir -p build/generic-character-sheet pdf
+      - name: Install Typst
+        uses: typst-community/setup-typst@v4
+        with:
+          typst-version: '0.13.1'
+      - name: Fetch sheet fonts
+        run: |
+          set -euo pipefail
+          {
+            git clone --depth 1 --filter=blob:none --sparse https://github.com/google/fonts.git .build-fonts
+            git -C .build-fonts sparse-checkout set ofl/ebgaramond ofl/cinzel
+            git -C .build-fonts rev-parse HEAD
+            test -n "$(find .build-fonts/ofl/ebgaramond -name '*.ttf' -print -quit)"
+            test -n "$(find .build-fonts/ofl/cinzel -name '*.ttf' -print -quit)"
+          } 2>&1 | tee build/generic-character-sheet/font-setup.log
+      - name: Record compiler and available fonts
+        run: |
+          set -euo pipefail
+          git rev-parse HEAD > build/generic-character-sheet/source-commit.txt
+          typst --version | tee build/generic-character-sheet/build-info.txt
+          typst fonts --font-path .build-fonts/ofl > build/generic-character-sheet/fonts.txt
+          grep -Fx 'EB Garamond' build/generic-character-sheet/fonts.txt
+          grep -Fx 'Cinzel' build/generic-character-sheet/fonts.txt
+      - name: Compile character sheet
+        run: |
+          set -euo pipefail
+          typst compile --root . --font-path .build-fonts/ofl docs/2d12System/generic-character-sheet.typ pdf/generic-character-sheet.pdf 2>&1 | tee build/generic-character-sheet/compile.log
+          test -s pdf/generic-character-sheet.pdf
+      - name: Commit generated PDF
+        env:
+          TARGET_BRANCH: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f -- pdf/generic-character-sheet.pdf
+          if git diff --cached --quiet; then
+            echo 'Generic character sheet PDF is unchanged.'
+            exit 0
+          fi
+          git commit -m 'docs: update generic character sheet PDF [skip ci]'
+          git push origin "HEAD:refs/heads/$TARGET_BRANCH"
+      - name: Upload PDF and diagnostic logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: generic-character-sheet-${{ github.run_number }}
+          path: |
+            pdf/generic-character-sheet.pdf
+            build/generic-character-sheet/
+          if-no-files-found: warn
+          retention-days: 2
+      - name: Write build summary
+        if: always()
+        run: |
+          {
+            echo '## Generic character sheet build'
+            echo 'Repository output: pdf/generic-character-sheet.pdf'
+            echo 'See the commit step for publication status and the artifact for diagnostic logs.'
+          } >> "$GITHUB_STEP_SUMMARY"

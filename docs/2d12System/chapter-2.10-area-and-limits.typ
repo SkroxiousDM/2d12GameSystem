@@ -30,6 +30,8 @@ These limits apply to every scripted conflict. Specific rules override them only
 
 ==== Other Core Rules
 - #strong[Invoke] during an eligible roll, before its outcome is resolved. It changes only that roll: no extra turn, script change or reassigned actor. A trumped action or automatic success has no roll to invoke on.
+- #strong[Specialisations] add their die only when the action's permitted skill is the Specialisation's skill and it applies to the approach (§3.3). They don't permit a different skill, action or Effect. #strong[Knowledge] informs choices but doesn't add an action.
+- #strong[Prepared in Advance] (§4.2), if used, is a declaration: the next item's limits apply, and it can't change a revealed script.
 - #strong[Declarations] can make an approach possible or supply an asset. They can't resolve a scripted action, cancel an independent action, widen the stakes or reverse an accepted concession.
 - #strong[Compels.] Agree the consequence before accepting. A compel must respect the stakes and action timing, and can't change a script or cancel an independent action. If its terms settle the conflict, use Concession (§10.12) rather than another roll. It can't erase a protected payment.
 - #strong[Instincts.] Acting on an Instinct takes no time but grants no extra action, interrupt, free script change, actor reassignment or rotation bypass. A consequential response needs a permitted action or explicit ability; an Instinct can't rescue a trumped action, allow action while Taken Out or retroactively cancel a resolved effect.

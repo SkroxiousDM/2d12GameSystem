@@ -1,7 +1,8 @@
 name: Build core rulebook
 on:
   push:
-    branches: [main]
+    # TEMPORARY: remove the feature branch before merging to main.
+    branches: [main, feature/specialisations-and-knowledge]
     paths-ignore:
       - 'pdf/**'
   workflow_dispatch:

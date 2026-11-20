@@ -2,7 +2,7 @@
 
 
 #pagebreak(weak: true)
-== 8. Adept
+== 8. Adept <pb-adept>
 #playbook-art-side("06-adept.jpg", "Adept playbook character art")[
 #quote(block: true)[
 Power from beyond the ordinary: magic, psionics, faith, or impossible technology. Mages, psychics, priests, hackers, gadgeteers.
@@ -24,7 +24,7 @@ Power from beyond the ordinary: magic, psionics, faith, or impossible technology
 #strong[Playbook tags (choose 2):] #emph[touched by the Other] · #emph[disciplined mind] · #emph[sees what others can\'t] · #emph[blessed] · #emph[tinkerer\'s genius] · #emph[fluent in the old pacts]
 ]
 
-=== 8.1 Core Feature --- Domain (free)
+=== 8.1 Core Feature --- Domain (free) <pb-adept-core-feature>
 Every Adept has a #strong[Domain];: a broad power tag describing what they can do (#emph[fire];, #emph[healing];, #emph[telekinesis];, #emph[shadows];, #emph[machines];, #emph[networks];, #emph[the dead];, #emph[weather];).
 
 #ability(
@@ -49,9 +49,9 @@ Every Adept has a #strong[Domain];: a broad power tag describing what they can d
   , kind: table
   )
 
-#strong[In a scripted conflict,] Domain scope decides only whether a working fits and what it can affect. The working uses a permitted scripted action and resolves normally (independent or versus); scope doesn't change the Difficulty or add a roll. It adds no status to an ordinary Attack (Core Rules §10.5--10.6). The Testament of Dust Occultist uses the same rule.
+#strong[In a scripted conflict,] Domain scope decides only whether a working fits and what it can affect. The working uses a permitted scripted action and resolves normally (independent or versus); scope doesn't change the Difficulty or add a roll. It adds no status to an ordinary Attack (Core Rules @core-scripting-volleys[§]--@core-actions-effects[]). The Testament of Dust Occultist uses the same rule.
 
-=== 8.2 Special Abilities
+=== 8.2 Special Abilities <pb-adept-special-abilities>
 #figure(
   [#table(
     columns: (5%, 14%, 81%),
@@ -87,13 +87,13 @@ Every Adept has a #strong[Domain];: a broad power tag describing what they can d
       trigger: [You have time, materials and a safe place for a working.],
       cost: [The time, materials and safe place, plus the normal working cost #strong[once] for the whole ritual.],
       benefit: [Run the working as a #strong[progress clock] instead of a single roll (4 segments for Dramatic or lower, 8 for Formidable, 12 for Heroic). Ritual results can create Site or Region Truths.],
-      limit: [Only with time, materials and a safe place. Every ritual roll risks Backlash (§8.1).],
+      limit: [Only with time, materials and a safe place. Every ritual roll risks Backlash (@pb-adept-core-feature).],
     )],
     [6], [#strong[Bound Servant];], [#ability(
       trigger: [You send your servant (a minor spirit, construct or drone with one power tag and one weakness) to scout, carry messages or handle simple tasks.],
       cost: [No additional cost.],
       benefit: [It scouts (one free Discover per scene in places it can reach), carries messages or handles simple tasks.],
-      limit: [One free Discover per scene. It can't fight: it's an asset, not a conflict participant (Core Rules §10.9).],
+      limit: [One free Discover per scene. It can't fight: it's an asset, not a conflict participant (Core Rules @core-shared-disposition-participation).],
     )],
     [7], [#strong[★ Second Domain];], [#ability(
       trigger: [You make a working.],
@@ -105,7 +105,7 @@ Every Adept has a #strong[Domain];: a broad power tag describing what they can d
     [8], [#strong[★ Unleash];], [#ability(
       trigger: [You make a working.],
       cost: [Afterwards, take #emph[Weary] (Module B; without it, #emph[exhausted-2] until a night's rest) or lose 3 points (paid in full) from your casting pool. Either is an accepted payment.],
-      benefit: [The working hits #strong[every target] in an area or group, using #strong[Area Effects] (Core Rules §10.17). Explicit statuses apply at full tier to each target, and conflict Disposition loss follows the same procedure.],
+      benefit: [The working hits #strong[every target] in an area or group, using #strong[Area Effects] (Core Rules @core-area-effects). Explicit statuses apply at full tier to each target, and conflict Disposition loss follows the same procedure.],
       limit: [Once per scene.],
     )],
     [◆], [#strong[Ascendant];], [#ability(
@@ -118,7 +118,7 @@ Every Adept has a #strong[Domain];: a broad power tag describing what they can d
   , kind: table
   )
 
-=== 8.3 Starting Equipment
+=== 8.3 Starting Equipment <pb-adept-starting-equipment>
 #strong[Signature focus (choose 1)]
 
 #figure(
@@ -154,7 +154,7 @@ Every Adept has a #strong[Domain];: a broad power tag describing what they can d
 
 #strong[Always carried (0):] Fantasy: a small familiar token, incense. Modern: tarot deck, phone. Sci-Fi: diagnostic implant, data spike.
 
-=== 8.4 BIG Examples
+=== 8.4 BIG Examples <pb-adept-big-examples>
 - #strong[Belief:] \"Power is a debt, and I always pay my debts.\" / \"Knowledge should be free; locks are an insult.\"
 - #strong[Goal:] \"Seal the rift before the new moon.\" / \"Crack the corporation\'s archive.\"
 - #strong[Instinct:] \"Always ward the room before I sleep.\" / \"Never use my power in front of the authorities.\"

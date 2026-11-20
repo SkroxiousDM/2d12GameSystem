@@ -1,6 +1,6 @@
 #import "common.typ": *
 #pagebreak() 
-== 6. Social Focuses
+== 6. Social Focuses <foc-social-focuses>
 #columns(2, gutter: 6mm)[
 === 13. Talks Their Way Out of Anything
 #quote(block: true)[
@@ -39,7 +39,7 @@ Charm, quick wit, and the right words at the right time.
     [3a], [#strong[★ The Long Con];], [#ability(
       trigger: [You work a con against a target.],
       cost: [No additional cost.],
-      benefit: [Start a #strong[long con clock] (8) against them. On each success against them, spend Power on the #strong[Advance] effect to fill it (1 Power per segment; Core Rules §5). When it fills, they give up something substantial: land, title, a secret, or their master.],
+      benefit: [Start a #strong[long con clock] (8) against them. On each success against them, spend Power on the #strong[Advance] effect to fill it (1 Power per segment; Core Rules @core-effects). When it fills, they give up something substantial: land, title, a secret, or their master.],
       limit: [One target per clock.],
     )],
     [3b], [#strong[Golden Tongue];], [#ability(
@@ -79,7 +79,7 @@ Spy, impostor, or actor: you can be anyone.
       trigger: [You copy someone's voice, mannerisms or handwriting, or impersonate a specific person.],
       cost: [No additional cost.],
       benefit: [You can copy voices, mannerisms and handwriting. Impersonating a specific person gets a #strong[free bonus die].],
-      limit: [The bonus-dice cap applies (§1.3).],
+      limit: [The bonus-dice cap applies (@foc-ability-limits).],
     )],
     [2b], [#strong[Deep Cover];], [#ability(
       trigger: [You establish a cover identity.],
@@ -88,7 +88,7 @@ Spy, impostor, or actor: you can be anyone.
       limit: [One cover at a time. It doesn't protect unrelated lies, prevent arrest under the cover name or erase earlier evidence, and you can always reveal yourself.],
     )],
     [3a], [#strong[Belongs Anywhere];], [#ability(
-      trigger: [A social barrier applies (#emph[members only], #emph[high security], #emph[closed community]), as a Truth or a harmful Situational Condition.],
+      trigger: [A social barrier applies (#emph[Members Only], #emph[High Security], #emph[Closed Community]), as a Truth or a harmful Situational Condition.],
       cost: [No additional cost.],
       benefit: [Ignore its penalty, and the Truth doesn't stop you attempting to enter or mingle. If the outcome is still uncertain, roll normally.],
       limit: [Social barriers only. It doesn't grant authority, credentials or the disputed objective.],
@@ -176,7 +176,7 @@ Noble, officer, executive, or chieftain: you hold authority, and it holds you.
     [1], [#strong[Rank];], [#ability(
       trigger: [You're where your authority applies (a realm, company, fleet, or clan).],
       cost: [#strong[1 Power].],
-      benefit: [Create the Truth #emph[by my order].],
+      benefit: [Create the Truth #emph[By My Order].],
       limit: [Choose where your authority applies when you take this ability. It gives authority or leverage, not the disputed objective.],
     )],
     [2a], [#strong[Retainers];], [#ability(
@@ -196,7 +196,7 @@ Noble, officer, executive, or chieftain: you hold authority, and it holds you.
       trigger: [A Battle conflict begins.],
       cost: [No additional cost.],
       benefit: [Your side gets #strong[+3 starting Disposition].],
-      limit: [A flat starting-Disposition bonus (§1.3).],
+      limit: [A flat starting-Disposition bonus (@foc-ability-limits).],
     )],
     [3b], [#strong[★ Holdings];], [#ability(
       trigger: [You act at your holding (keep, office, ship, estate).],

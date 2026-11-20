@@ -3,7 +3,7 @@
 == 16. Frontier Adversaries
 Use the core Adversaries chapter for Rank, Role, ordinary Human/Beast/Guardian packages, encounter preparation, shared Disposition, scripting, rotation, Boss Phases and the common Special procedures. This section supplies the Frontier-specific construction exceptions and entries relocated from core. It adds no new action, phase permission, discount or Special slot.
 
-References to #emph[Core Adversaries] point to that chapter in The 2d12 System, not to a section of Frontier Rules. Last Stand and Fail-safe retain their separate core procedures (§§6.10--6.11); a deferred setting Special uses Core Adversaries §6.12 only when its entry explicitly says so.
+References to #emph[Core Adversaries] point to that chapter in The 2d12 System, not to a section of Frontier Rules. Last Stand and Fail-safe retain their separate core procedures (§§7.1--7.2); a deferred setting Special uses Core Adversaries §7.3 only when its entry explicitly says so.
 
 === 16.1 Vampire Construction Exceptions
 Use the following values when constructing an ordinary vampire adversary with the core card. Ratings, Guard, Shrugs, Roles and Special limits still follow core Rank. These allowances relocate the vampire exceptions; they are not additional bonuses to apply on top of the card.
@@ -30,7 +30,7 @@ The construction table makes the inherited Rank-based tag allowances explicit; i
 
 #figure(table(columns: (22%, 8%, 70%),
   table.header([Special], [Woe], [Effect]),
-  [Feed], [1], [After it wins a versus Attack in melee against a PC, record one deferred Bled-2 application against that PC (Core Adversaries §6.12). Outside conflicts, Bled-2 on the hit. It recovers 1 tier of physical status when used, not at deferred settlement.],
+  [Feed], [1], [After it wins a versus Attack in melee against a PC, record one deferred Bled-2 application against that PC (Core Adversaries §7.3). Outside conflicts, Bled-2 on the hit. It recovers 1 tier of physical status when used, not at deferred settlement.],
   [Unnatural Strength], [1], [+1 Power on a successful Attack. Outside conflicts, +2 tiers.],
   [Terrible Patience], [1], [Ignore one status or Blood Debt penalty for one roll.],
   [Fade], [2], [Create the Truth Deep Shadows. It may be gone when the light returns.],

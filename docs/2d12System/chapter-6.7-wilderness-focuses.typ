@@ -1,6 +1,6 @@
 #import "common.typ": *
 #pagebreak() 
-== 7. Wilderness & Travel Focuses
+== 7. Wilderness & Travel Focuses <foc-wilderness-travel-focuses>
 #columns(2, gutter: 6mm)[
 === 17. Runs With the Pack
 #quote(block: true)[
@@ -38,15 +38,15 @@ Beast handler, rider, falconer, or dog-musher.
     [3a], [#strong[★ The Pack];], [#ability(
       trigger: [Your group of animals (hounds, ravens, horses), with 2 power tags and 1 weakness, acts.],
       cost: [No additional cost.],
-      benefit: [It acts as one group, not one per animal, and takes statuses as a single target (§1.3).],
-      limit: [One participant in your side's script and rotation (§1.3).],
+      benefit: [It acts as one group, not one per animal, and takes statuses as a single target (@foc-ability-limits).],
+      limit: [One participant in your side's script and rotation (@foc-ability-limits).],
     )],
     // PLAYTEST: B1, was +3; matches At the Helm.
     [3b], [#strong[Trusted Mount];], [#ability(
       trigger: [You ride your mount, or a Chase conflict begins.],
       cost: [No additional cost.],
       benefit: [Gain a superb mount (or upgrade one); it carries 3 extra load. In Chase conflicts your side gets #strong[+2 starting Disposition].],
-      limit: [A flat starting-Disposition bonus (§1.3).],
+      limit: [A flat starting-Disposition bonus (@foc-ability-limits).],
     )],
   )]
   , kind: table
@@ -131,7 +131,7 @@ Survivalist, forager, or homesteader: you need nothing the world doesn\'t give.
     [2a], [#strong[Shelter Builder];], [#ability(
       trigger: [Allies rest in a camp you built.],
       cost: [No additional cost.],
-      benefit: [Each clears #strong[one Grind condition] (Module B).],
+      benefit: [Each clears #strong[one Grind hardship] (Module B).],
       limit: [Needs Module B.],
     )],
     [2b], [#strong[Natural Remedies];], [#ability(
@@ -142,10 +142,10 @@ Survivalist, forager, or homesteader: you need nothing the world doesn\'t give.
     )],
     // PLAYTEST: R3, replaces the undefined personal Grind clock.
     [3a], [#strong[Hardened];], [#ability(
-      trigger: [You would take #emph[Exposed] or a Grind condition on a journey (Module B).],
+      trigger: [You would take #emph[Exposed] or a Grind hardship on a journey (Module B).],
       cost: [No additional cost.],
-      benefit: [Ignore #emph[Exposed] and the first Grind condition you'd take each journey.],
-      limit: [The first Grind condition each journey.],
+      benefit: [Ignore #emph[Exposed] and the first Grind hardship you'd take each journey.],
+      limit: [The first Grind hardship each journey.],
     )],
     [3b], [#strong[★ Living Larder];], [#ability(
       trigger: [The party is in wild terrain that supports life (Module B).],

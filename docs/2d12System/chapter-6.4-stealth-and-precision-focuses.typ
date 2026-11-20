@@ -1,6 +1,6 @@
 #import "common.typ": *
 #pagebreak() 
-== 4. Stealth & Precision Focuses
+== 4. Stealth & Precision Focuses <foc-stealth-precision-focuses>
 #columns(2, gutter: 6mm)[
 === 5. Moves Like a Shadow
 #quote(block: true)[
@@ -129,7 +129,7 @@ Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
       trigger: [You roll against a lock, safe or security clock.],
       cost: [No additional cost.],
       benefit: [Before you roll, you know the clock's size and what failing will set off. Each success advances it #strong[1 extra segment].],
-      limit: [Bonus segments advance that clock only (§1.3).],
+      limit: [Bonus segments advance that clock only (@foc-ability-limits).],
     )],
     [2a], [#strong[Back Door];], [#ability(
       trigger: [You use Create to establish access or leverage at your current location.],
@@ -149,7 +149,7 @@ Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
       trigger: [You face a lock or security.],
       cost: [No additional cost.],
       benefit: [Ordinary locks open without a roll. Complex security is #strong[one Difficulty step lower].],
-      limit: [An ordinary lock is a single mechanical barrier. Security with alarms, guards, magic or technology layered on it, or with its own clock, is complex. Difficulty reductions apply only against a Difficulty (§1.3).],
+      limit: [An ordinary lock is a single mechanical barrier. Security with alarms, guards, magic or technology layered on it, or with its own clock, is complex. Difficulty reductions apply only against a Difficulty (@foc-ability-limits).],
     )],
     [3b], [#strong[★ Vault Breaker];], [#ability(
       trigger: [You declare a security layer already cracked.],
@@ -189,12 +189,12 @@ You never walk into a room without knowing how to leave it.
       trigger: [A Chase conflict begins in which you're fleeing.],
       cost: [No additional cost.],
       benefit: [Your side gets #strong[+2 starting Disposition].],
-      limit: [A flat starting-Disposition bonus (§1.3).],
+      limit: [A flat starting-Disposition bonus (@foc-ability-limits).],
     )],
     [2b], [#strong[Contin-gency];], [#ability(
       trigger: [Things go wrong and you reveal a prepared fallback.],
       cost: [No Weal needed.],
-      benefit: [Establish a justified fallback (stashed gear, a getaway vehicle, a safe house) as a Truth, at whatever scale fits (Core Rules §8.2). It lasts until the fallback is spent: the vehicle drives off, the gear is taken, the safe house is used or found.],
+      benefit: [Establish a justified fallback (stashed gear, a getaway vehicle, a safe house) as a Truth, at whatever scale fits (Core Rules @core-scale). It lasts until the fallback is spent: the vehicle drives off, the gear is taken, the safe house is used or found.],
       limit: [Once per mission. It can't contradict resolved events, and it gives no Situational Condition rating or automatic escape.],
     )],
     [3a], [#strong[Not Here];], [#ability(

@@ -1,7 +1,7 @@
 #import "common.typ":*
 
 #pagebreak(weak: true)
-== 7. Explorator
+== 7. Explorator <pb-explorator>
 #playbook-art-side("05-explorator.jpg", "Explorator playbook character art")[
 #quote(block: true)[
 At home where the map ends. Rangers, hunters, pilots, guides, explorers, scouts, voyageurs.
@@ -23,7 +23,7 @@ At home where the map ends. Rangers, hunters, pilots, guides, explorers, scouts,
 #strong[Playbook tags (choose 2):] #emph[reads the weather] · #emph[never lost] · #emph[sharp-eyed hunter] · #emph[tireless] · #emph[at home in the wild] · #emph[steady at the helm]
 ]
 
-=== 7.1 Special Abilities
+=== 7.1 Special Abilities <pb-explorator-special-abilities>
 #figure(
   [#table(
     columns: (5%, 13%, 82%),
@@ -59,26 +59,26 @@ At home where the map ends. Rangers, hunters, pilots, guides, explorers, scouts,
       trigger: [A Fight conflict begins in wild terrain and you had time to prepare.],
       cost: [No additional cost.],
       benefit: [Your side starts with #strong[+2 Disposition], and your first-volley Attack resolves as independent whatever the opponent does.],
-      limit: [The Disposition bonus is a flat modifier (§1.2). Only your first-volley Attack resolves as independent.],
+      limit: [The Disposition bonus is a flat modifier (@pb-ability-notation). Only your first-volley Attack resolves as independent.],
     )],
     // PLAYTEST: At the Helm Chase bonus lowered from +3 to +2 to match Ambusher.
     [6], [#strong[At the Helm];], [#ability(
       trigger: [You roll Drive/Pilot with your own vehicle or boat, or a Chase conflict begins.],
       cost: [No additional cost.],
       benefit: [Those rolls may use Survival. Your vehicle gains one power tag (#emph[swift], #emph[rugged], #emph[nimble]). In Chase conflicts, your side gets #strong[+2 starting Disposition].],
-      limit: [Your own vehicle or boat only. The Disposition bonus is a flat modifier (§1.2).],
+      limit: [Your own vehicle or boat only. The Disposition bonus is a flat modifier (@pb-ability-notation).],
     )],
     [7], [#strong[★ Animal Companion];], [#ability(
       trigger: [You call on your companion (hound, hawk, horse; a drone in sci-fi), which has 2 power tags and 1 weakness.],
       cost: [No additional cost.],
       benefit: [It gives you a #strong[free bonus die], or acts on its own using your Survival.],
-      limit: [Once per scene. The bonus die is within the +2 cap. Acting on its own in a conflict takes a place in your side's script and rotation; it has no Disposition or injury trade of its own (Core Rules §10.9). It can take statuses; tier 6 means it's lost until downtime.],
+      limit: [Once per scene. The bonus die is within the +2 cap. Acting on its own in a conflict takes a place in your side's script and rotation; it has no Disposition or injury trade of its own (Core Rules @core-shared-disposition-participation). It can take statuses; tier 6 means it's lost until downtime.],
     )],
     // PLAYTEST: Balance B3, ★ kept; always-on forecast added to the once-per-session Truth.
     [8], [#strong[★ Weather Sense];], [#ability(
       trigger: [You declare the next scene's weather or terrain, or the party is about to plan the next scene.],
       cost: [No additional cost.],
-      benefit: [Declare the #strong[weather or terrain] for the next scene as a Truth (#emph[thick fog], #emph[rising river], #emph[clear skies]); if it also helps or hinders rolls, you also set its helpful or harmful Situational Condition, rating 1 to 4. You also always know the next scene's weather and terrain before the party plans it, including whether a travel leg is a hard stretch (Module B).],
+      benefit: [Declare the #strong[weather or terrain] for the next scene as a Truth (#emph[Thick Fog], #emph[Rising River], #emph[Clear Skies]); if it also helps or hinders rolls, you also set its helpful or harmful Situational Condition, rating 1 to 4. You also always know the next scene's weather and terrain before the party plans it, including whether a travel leg is a hard stretch (Module B).],
       limit: [The declaration is once per session, and its Condition is at most rating 4. The forecast always applies.],
     )],
     [◆], [#strong[One With the Wild];], [#ability(
@@ -91,7 +91,7 @@ At home where the map ends. Rangers, hunters, pilots, guides, explorers, scouts,
   , kind: table
   )
 #pagebreak()
-=== 7.2 Starting Equipment
+=== 7.2 Starting Equipment <pb-explorator-starting-equipment>
 #strong[Signature item (choose 1)]
 
 #figure(
@@ -127,7 +127,7 @@ At home where the map ends. Rangers, hunters, pilots, guides, explorers, scouts,
 
 #strong[Always carried (0):] Fantasy: tinderbox, whistle. Modern: ferro rod, bug spray. Sci-Fi: emergency beacon, rebreather.
 
-=== 7.3 BIG Examples
+=== 7.3 BIG Examples <pb-explorator-big-examples>
 - #strong[Belief:] \"The land gives to those who respect it.\" / \"No one gets left on the trail.\"
 - #strong[Goal:] \"Reach the trading post before the freeze.\" / \"Find the lost survey team.\"
 - #strong[Instinct:] \"Always check the sky before setting out.\" / \"Never camp where you can\'t see the approach.\"

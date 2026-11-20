@@ -1,10 +1,10 @@
 #import "common.typ": *
 
-== Module A --- Cyphers & Artifacts (Cypher)
+== Module A --- Cyphers & Artifacts
 #columns(2, gutter: 6mm)[
 Cyphers are frequent, disposable power-ups that encourage players to use them rather than hoard them. Artifacts are rare, reusable items that may run out.
 
-=== A.1 Cyphers
+=== A.1 Cyphers <mod-cyphers>
   #strong[Sample cypher table (d12):]
 
 #figure(
@@ -20,7 +20,7 @@ Cyphers are frequent, disposable power-ups that encourage players to use them ra
     [5], [Adrenal shot], [3], [Enhance (surging), restore 3 Sōma],
     [6], [Lockbreaker], [3], [Advance (any lock or security clock)],
     [7], [Ward token], [3], [Negate one incoming status of tier 3 or less],
-    [8], [Phase key], [4], [Create Truth (#emph[passage through the wall]) for one scene, Create (#emph[unseen entry])],
+    [8], [Phase key], [4], [Create Truth (#emph[Passage Through the Wall]) for one scene, Create (#emph[Unseen Entry])],
     [9], [Courage draught], [2], [Restore (fear), restore 2 Pneuma],
     [10], [Seeker], [2], [Discover (location of one person or object)],
     [11], [Firebomb], [4], [Attack (on fire), Create (#emph[burning];)],
@@ -35,18 +35,18 @@ Cyphers are frequent, disposable power-ups that encourage players to use them ra
 - #strong[Subtle cyphers] (setting option): instead of physical objects, cyphers are luck, insights, or favours (\"a contact owes you\", \"a flash of insight\"). They work the same way and fit low-magic or modern games.
 - #strong[GM pacing:] give out 1--2 cyphers per PC per session. They should feel like loot that gets spent.
 
-#strong[One Power budget.] Split the Power among the listed Effects; each Effect doesn't get the full budget. Create costs 2 Power for a Truth and 2 per Situational Condition rating (Core Rules §5): a tier-2 Smoke charge buys #emph[smoke cover 1], and a tier-4 Firebomb that buys #emph[burning 2] has nothing left for its Attack.
+#strong[One Power budget.] Split the Power among the listed Effects; each Effect doesn't get the full budget. Create costs 2 Power for a Truth and 2 per Situational Condition rating (Core Rules @core-effects): a tier-2 Smoke charge buys #emph[smoke cover 1], and a tier-4 Firebomb that buys #emph[burning 2] has nothing left for its Attack.
 
-#strong[In a scripted conflict,] using a cypher still takes a scripted action, or a trigger the item states. \"No roll\" means automatic success on an action that's otherwise allowed: it doesn't rescue a trumped action, change the script or bypass rotation, and it can't be used while Taken Out (Core Rules §10.5). With no dice, there's no critical or complication.
+#strong[In a scripted conflict,] using a cypher still takes a scripted action, or a trigger the item states. \"No roll\" means automatic success on an action that's otherwise allowed: it doesn't rescue a trumped action, change the script or bypass rotation, and it can't be used while Taken Out (Core Rules @core-scripting-volleys). With no dice, there's no critical or complication.
 
 #strong[Which action.] A cypher with Attack among its Effects is used on a scripted Attack or Feint; any other cypher is used on a Maneuver. The Ward token is the exception: use it when a status would be inflicted on you, with no action, once per scene.
 // PLAYTEST: default cypher action mapping and Ward token reaction timing (optional modules pass 1, flag A1).
 
-#strong[Harm and protection.] An ordinary Attack removes Disposition, not a status. A status-inflicting cypher inflicts its listed status and removes no Disposition unless it says so. The Ward token can't negate Disposition loss, running-dry statuses or other protected payments (Core Rules §10.7).
+#strong[Harm and protection.] An ordinary Attack removes Disposition, not a status. A status-inflicting cypher inflicts its listed status and removes no Disposition unless it says so. The Ward token can't negate Disposition loss, running-dry statuses or other protected payments (Core Rules @core-costs-failures-complications).
 
-#strong[Healing.] Restore on a cypher follows the normal limit for lasting injuries: treatment removes at most 1 tier, unless the item says otherwise (Core Rules §6.6). Restoring Sōma or Pneuma doesn't clear statuses, refund injury trades, erase Scars or return a Taken Out ally to the conflict (Core Rules §6.4).
+#strong[Healing.] Restore on a cypher follows the normal limit for lasting injuries: treatment removes at most 1 tier, unless the item says otherwise (Core Rules @core-treatment-healing). Restoring Sōma or Pneuma doesn't clear statuses, refund injury trades, erase Scars or return a Taken Out ally to the conflict (Core Rules @core-being-taken-out).
 
-#strong[Area.] Words like grenade or blast don't create an area effect by themselves. An item with an explicit area effect uses Core Rules §10.17.
+#strong[Area.] Words like grenade or blast don't create an area effect by themselves. An item with an explicit area effect uses Core Rules @core-area-effects.
 
 #strong[Cypher format:]
 
@@ -56,12 +56,11 @@ Cyphers are frequent, disposable power-ups that encourage players to use them ra
 
 A complete entry also states its action or trigger, targets, duration, removal conditions and any area or conflict exceptions.
 
-=== A.2 Artifacts
+=== A.2 Artifacts <mod-artifacts>
 - #strong[What they are:] reusable items of real power --- a flaming sword, a psychic amplifier, a starship\'s AI core.
-#colbreak()
-- #strong[Tags:] an artifact has 1--2 power tags (counting toward the +2 cap) and usually a special ability. Its item tag and conflict gear tag don't both count for the same benefit on one roll (Core Rules §10.10).
+- #strong[Tags:] an artifact has 1--2 power tags (counting toward the +2 cap) and usually a special ability. Its item tag and conflict gear tag don't both count for the same benefit on one roll (Core Rules @core-conflict-gear-assets).
 - #strong[Depletion:] each artifact has a depletion rating, e.g. #strong[1 in d12];. After each use, roll d12; on that number or lower, it is #strong[depleted] (broken, drained, or needs a downtime clock to restore).
-- #strong[Attunement:] powerful artifacts (marked ★) must be attuned and #strong[cost 1 Refresh] while attuned (Core Rules §4.1). A PC can attune to a maximum of 2 artifacts.
+- #strong[Attunement:] powerful artifacts (marked ★) must be attuned and #strong[cost 1 Refresh] while attuned (Core Rules @core-refresh). A PC can attune to a maximum of 2 artifacts.
 - #strong[Artifact quirks:] each artifact has a weakness tag that can be compelled for Tychē Points (#emph[thirsts for blood];, #emph[talks too much];, #emph[draws the Hunters];).
 
 Artifact abilities follow the same conflict limits as cyphers. Switching equipment doesn't refresh a once-per-conflict benefit or restore a depleted item, and Defend restores Disposition only.

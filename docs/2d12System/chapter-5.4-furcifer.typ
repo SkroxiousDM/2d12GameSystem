@@ -1,7 +1,7 @@
 #import "common.typ" : *
 
 #pagebreak(weak: true)
-== 4. Furcifer
+== 4. Furcifer <pb-furcifer>
 #playbook-art-side("02-furcifer.jpg", "Furcifer playbook character art")[
 #quote(block: true)[
 Quiet, precise, and always three exits ahead. Thieves, spies, scouts, assassins, infiltrators, saboteurs.
@@ -23,9 +23,9 @@ Quiet, precise, and always three exits ahead. Thieves, spies, scouts, assassins,
 #strong[Playbook tags (choose 2):] #emph[light on my feet] · #emph[eyes in the back of my head] · #emph[steady hands] · #emph[knows the underworld] · #emph[forgettable face] · #emph[patient as a stone]
 ]
 
-=== 4.1 Special Abilities
+=== 4.1 Special Abilities <pb-furcifer-special-abilities>
 ==== Shared Opening: Unaware or Impeded
-Opportunist and Deadly Precision need an #strong[opening]: an individual opponent who is unaware of you, or whose action this volley has a pending Impede (Core Rules §10.6), and your approach must actually use it. Hiding your intent isn't the same as being unnoticed, though an opponent busy with your visible allies may not know you're there. An ongoing harmful status isn't Impede.
+Opportunist and Deadly Precision need an #strong[opening]: an individual opponent who is unaware of you, or whose action this volley has a pending Impede (Core Rules @core-actions-effects), and your approach must actually use it. Hiding your intent isn't the same as being unnoticed, though an opponent busy with your visible allies may not know you're there. An ongoing harmful status isn't Impede.
 
 Check once, after actions and approaches are revealed and before anything rolls; the opening then lasts through the volley. A trumped action never qualifies through Impede. Meeting both triggers counts once.
 
@@ -99,12 +99,12 @@ Outside scripted conflicts, check unawareness just before the roll. Whether your
 ==== Shared Limits
 Both abilities can apply to the same action, and Opportunist's +1 Power can pay Deadly Precision's discounted price. Where two status prices apply, use the lowest; they don't combine.
 
-Against an area, each ability gives its benefit once: Opportunist +1 Power, Deadly Precision +1 Disposition loss or one discounted status against one qualifying target. A shared area-status purchase uses the normal price (Core Rules §10.17).
+Against an area, each ability gives its benefit once: Opportunist +1 Power, Deadly Precision +1 Disposition loss or one discounted status against one qualifying target. A shared area-status purchase uses the normal price (Core Rules @core-area-effects).
 
-Both work in any conflict type where the opening helps the approach, such as a precision Attack in an Argument. Neither unlocks a status purchase or improves killing strikes or another creature-specific finishing procedure, and a helpless target doesn't authorise an otherwise unavailable Attack.
+Both work in any conflict type where the opening helps the approach, such as a precision Attack in an Argument. Neither unlocks a status purchase or improves a creature-specific finishing procedure, and a helpless target doesn't authorise an otherwise unavailable Attack.
 
 
-=== 4.2 Starting Equipment
+=== 4.2 Starting Equipment <pb-furcifer-starting-equipment>
 #strong[Signature item (choose 1)]
 
 #figure(
@@ -141,7 +141,7 @@ Both work in any conflict type where the opening helps the approach, such as a p
 
 #strong[Always carried (0):] Fantasy: hidden blade, chalk. Modern: hairpin picks, earpiece. Sci-Fi: implanted lockpick, false ID chip.
 
-=== 4.3 BIG Examples
+=== 4.3 BIG Examples <pb-furcifer-big-examples>
 - #strong[Belief:] \"Everyone has a price; I just haven\'t found mine.\" / \"The less blood, the better the job.\"
 - #strong[Goal:] \"Get the ledger out of the counting house.\" / \"Learn who sold out my old crew.\"
 - #strong[Instinct:] \"Always check for a second way out.\" / \"Never touch anything without gloves.\"

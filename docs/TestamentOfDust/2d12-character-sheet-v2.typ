@@ -203,7 +203,7 @@
       *Roll 2d12 + Skill + Tags (max +2) ± Status* vs. Difficulty: Easy 12 · Standard 15 · Hard 18 · Formidable 21 · Heroic 24. Truths shift Difficulty ±3 per rank (±9 max). \
       *Meet it:* Success, 1 Power (+1 per full 3 over). *Miss by 1–3:* Success at a Cost (a consequence or GM +1 Woe, your choice). *Miss by 4+:* Failure, GM +1 Woe. \
       *Doubles:* success +1 Power; failure or cost, a complication (buy off: GM +2 Woe). Double 12s: success, +2 Power. Double 1s: always a complication. \
-      *Bonus dice:* Effort · Momentum (1, then 2) · give the GM 1 Woe · Help. Unspent Power → party *Momentum* (max 6).
+      *Bonus dice:* Effort · Momentum (1, then 2) · give the GM Woe (1, then 2) · Help. Unspent Power → party *Momentum* (max 6).
     ]
   },
   // ---------- right column

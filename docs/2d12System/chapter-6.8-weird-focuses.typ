@@ -1,6 +1,6 @@
 #import "common.typ": *
 #pagebreak() 
-== 8. Weird Focuses ◈
+== 8. Weird Focuses ◈ <foc-weird-focuses>
 #columns(2, gutter: 6mm)[
 === 21. Hunts the Things in the Dark ◈
 #quote(block: true)[
@@ -29,7 +29,7 @@ Monster-hunter, exorcist, or investigator of the strange.
       trigger: [You succeed on a conflict Attack against a creature whose weakness you've exploited, or exploit a creature's weakness for the first time.],
       cost: [No additional cost.],
       benefit: [The Attack removes #strong[1 additional Disposition], or, if it inflicts a harmful status, raises that status by #strong[1 tier] (never both). The first time you exploit a weakness against a creature, also Discover one more of its weaknesses or abilities for free.],
-      limit: [It adds no status to an ordinary Attack and doesn't improve killing strikes or other finishing procedures.],
+      limit: [It adds no status to an ordinary Attack and doesn't improve finishing procedures.],
     )],
     [2b], [#strong[Ward the Threshold];], [#ability(
       trigger: [You spend an uninterrupted scene preparing one clearly defined entrance and state which side it protects.],
@@ -47,7 +47,7 @@ Monster-hunter, exorcist, or investigator of the strange.
       trigger: [You act against your named supernatural foe.],
       cost: [No additional cost.],
       benefit: [You always sense its direction, and your rolls against it get a #strong[free bonus die].],
-      limit: [Name the foe when you take this ability. Once it's destroyed, you can name a new foe only at a milestone (Core Rules §12). The bonus-dice cap applies (§1.3).],
+      limit: [Name the foe when you take this ability. Once it's destroyed, you can name a new foe only at a milestone (Core Rules @core-advancement). The bonus-dice cap applies (@foc-ability-limits).],
     )],
   )]
   , kind: table
@@ -91,7 +91,7 @@ Touched by the spirit world, the Otherworld, or the deep net.
     )],
     [3a], [#strong[Ally Beyond];], [#ability(
       trigger: [You call on your patron in the other world.],
-      cost: [The GM gets a compel on your weakness tag in return. You must accept it, and it earns no Tychē (Core Rules §4).],
+      cost: [The GM gets a compel on your weakness tag in return. You must accept it, and it earns no Tychē (Core Rules @core-tyche-points).],
       benefit: [A #strong[Heroic-scope favour].],
       limit: [Once per session.],
     )],
@@ -126,7 +126,7 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
     [1], [#strong[Patron\'s Gift];], [#ability(
       trigger: [You perform a working tied to your patron.],
       cost: [Pay Pneuma for workings.],
-      benefit: [Gain a #strong[minor Domain] (Generic Playbooks §8.1) tied to your patron; you can perform Easy and Standard workings with Arcana. If you're already an Adept, your Domain gets #strong[+1 power tag] instead.],
+      benefit: [Gain a #strong[minor Domain] (Generic Playbooks @pb-adept-core-feature) tied to your patron; you can perform Easy and Standard workings with Arcana. If you're already an Adept, your Domain gets #strong[+1 power tag] instead.],
       limit: [Easy and Standard workings only.],
     )],
     [2a], [#strong[Ask the Patron];], [#ability(

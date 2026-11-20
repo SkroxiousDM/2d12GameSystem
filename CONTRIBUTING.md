@@ -101,6 +101,7 @@ Add an entry under `## [Unreleased]` in [`CHANGELOG.md`](CHANGELOG.md). Use a he
 - Each book is multi-file, using `#include` to bring in each chapter and section. Use the existing helpers (`#chapter`, `#sidebar`, `#playbook-art-side`, `#figure(table(...))`) instead of formatting by hand.
 - Set new chapters with `#chapter(title, blurb, epigraph: ...)` so they get a divider page and a table-of-contents entry.
 - Use `--` and `---` for en and em dashes, as the existing source does.
+- **Core rulebook cross-references are Typst references.** Each numbered heading keeps its number in the text and carries a label: `=== 7.1 Last Stand <adv-last-stand>`. Write `@adv-last-stand` and the book prints "§7.1" as a link. Write a range as `@a[§§]--@b[]` ("§§7.1–7.3") and a span as `@a[§]--@b[]` ("§10.2–10.3"); `@b[]` drops the sign. Put the chapter name in front as usual: `Core Rules @core-setup`. When you renumber a section, change only its heading. Setting books and the character sheet are separate documents, so their core references stay plain text.
 - Art goes in the book's own `art/` folder. Commit both the `.png` original and the `.jpg` used in the book.
 
 ### File size and splitting large files

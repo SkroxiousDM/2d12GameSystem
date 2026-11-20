@@ -167,6 +167,9 @@
   ]
 }
 
+// plain text of a content value (used by the cross-reference rule)
+#let _plain-text(c) = if type(c) == str { c } else if c.has("text") { c.text } else if c.has("children") { c.children.map(_plain-text).join() } else if c.has("body") { _plain-text(c.body) } else { " " }
+
 // ---------------------------------------------------------------- style
 // Apply once in the root file with:  #show: apply-style
 #let apply-style(body) = {
@@ -216,6 +219,17 @@
     text(size: 11.5pt, fill: ash, weight: 700, tracking: 0.02em, it.body))
   show heading.where(level: 4): it => block(above: 1.1em, below: 0.5em, sticky: true,
     text(font: body-font, size: 11pt, style: "italic", fill: blood, weight: 700, it.body))
+
+  // cross-references: `@label` to a typed-number heading prints "§" plus the
+  // heading's own number (e.g. "§10.6"); `@a[§§]` sets the sign, `@b[]` drops it.
+  show ref: it => {
+    let el = it.element
+    if el != none and el.func() == heading and el.numbering == none {
+      let num = _plain-text(el.body).split(" ").first().trim(".", at: end)
+      let sup = if it.supplement == auto { [§] } else { it.supplement }
+      link(el.location(), [#sup#num])
+    } else { it }
+  }
 
   // tables
   show figure.where(kind: table): set block(breakable: false)

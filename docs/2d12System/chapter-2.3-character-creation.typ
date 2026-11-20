@@ -1,6 +1,6 @@
 #import "common.typ": *
 
-== 3. Character Creation
+== 3. Character Creation <core-character-creation>
 #columns(2, gutter: 6mm)[
 ==== Character Creation at a Glance
 Before creating characters, agree on the campaign premise: the situation that brings you together, the immediate problem, the kinds of characters that fit, and why you will cooperate. For example: isolated settlements must reopen a trade route before winter while rival leaders compete to control it.
@@ -9,17 +9,17 @@ These steps describe the order of creation; the subsections below group rules by
 
 + Establish the campaign premise together.
 + Sketch your character concept: a role, an important experience, and something you want to explore.
-+ Write your World Belief (§3.5).
-+ Write your Self Belief (§3.5).
-+ Choose Descriptor, Playbook, and Focus (§3.1); complete pools, Edge, skills, tags, abilities, and starting resources (§§3.2–3.4, §3.6).
-+ Choose one Specialisation and two Knowledge Skills (§3.3), and name a starting circle and contact (§3.6).
++ Write your World Belief (@core-beliefs-goals-instincts).
++ Write your Self Belief (@core-beliefs-goals-instincts).
++ Choose Descriptor, Playbook, and Focus (@core-sentence); complete pools, Edge, skills, tags, abilities, and starting resources (@core-pools-edge[§§]–@core-tags[], @core-starting-resources).
++ Choose one Specialisation and two Knowledge Skills (@core-skill-pyramid), and name a starting circle and contact (@core-starting-resources).
 + Introduce the characters and agree on connections, including the link supplied by your Focus.
-+ Write your Other Belief with the other player's agreement (§3.5).
-+ Choose a concrete starting Goal (§3.5).
-+ Write your Instinct (§3.5).
++ Write your Other Belief with the other player's agreement (@core-beliefs-goals-instincts).
++ Choose a concrete starting Goal (@core-beliefs-goals-instincts).
++ Write your Instinct (@core-beliefs-goals-instincts).
 + Review the character with the group.
 
-=== 3.1 The Sentence
+=== 3.1 The Sentence <core-sentence>
 #quote(block: true)[
 #strong["I am a [Descriptor] [Playbook] who [Focus]."]
 
@@ -30,16 +30,16 @@ These steps describe the order of creation; the subsections below group rules by
   columns: (20%, 15%, 65%),
   table.header([Part], [Grammar], [What it gives you]),
   [Descriptor], [Adjective], [+2 pool points to one pool, 1 power tag, 1 weakness tag, 1 suggested Instinct],
-  [Playbook], [Noun], [Starting pools and Edge, special abilities, XP trigger, load-out, an anchor skill],
+  [Playbook], [Noun], [Starting pools and Edge, 2 power tags, special abilities, XP trigger, load-out, an anchor skill],
   [Focus], [Verb phrase], [A tag theme (2 power tags + 1 weakness), a Tier 1 Focus ability, and a link to another PC],
 ))
 
-=== 3.2 Pools and Edge
+=== 3.2 Pools and Edge <core-pools-edge>
 Four pools, each roughly 6–14:
 
 - #strong[Starting values:] the playbook sets the base (totals 36), plus 4 points to distribute and +2 from the Descriptor (42 total).
-- #strong[Edge:] the playbook gives #strong[3 points of Edge], maximum 2 in any one pool at creation. Edge reduces the cost of Effort from that pool and adds dice when you Resist with it (§6).
-- Pools are spent on #strong[Effort] (§2.4) and #strong[Resistance] (§6). They are your stress tracks.
+- #strong[Edge:] the playbook gives #strong[3 points of Edge], maximum 2 in any one pool at creation. Edge reduces the cost of Effort from that pool and adds dice when you Resist with it (@core-resistance-harm-recovery).
+- Pools are spent on #strong[Effort] (@core-bonus-dice-effort) and #strong[Resistance] (@core-resistance-harm-recovery). They are your stress tracks.
 
 #figure(table(
   columns: (20%, 40%, 40%),
@@ -50,7 +50,7 @@ Four pools, each roughly 6–14:
   [Pneuma], [Will, presence, faith, emotional core, the supernatural], [Fear, despair, possession, corruption, social pressure],
 ))
 
-=== 3.3 Skill Pyramid
+=== 3.3 Skill Pyramid <core-skill-pyramid>
 Ten rated skills from a list of 20:
 
 #figure(table(
@@ -85,11 +85,11 @@ The default pool pays for Effort and Resistance. The GM can allow another pool w
 // PLAYTEST: Specialisation die. Track how often it applies, whether it changes the kept pair, and whether it replaces Effort or Woe.
 A #strong[Specialisation] names a narrow application of a rated skill: write it as #emph[Skill (Specialisation)], such as #emph[Medicine (Trauma Care)], #emph[Craft (Precision Mechanisms)] or #emph[Persuade (Mediation)].
 
-- #strong[Benefit.] When a test uses that skill and the Specialisation directly applies to your approach, add #strong[one free bonus die] (§2.4). It counts toward the +2 cap. Only one Specialisation applies per test. At the cap it gives no substitute benefit.
+- #strong[Benefit.] When a test uses that skill and the Specialisation directly applies to your approach, add #strong[one free bonus die] (@core-bonus-dice-effort). It counts toward the +2 cap. Only one Specialisation applies per test. At the cap it gives no substitute benefit.
 - #strong[Approach, not scenery.] It applies to how you tackle the problem, not to what is present. #emph[Persuade (Mediation)] applies when brokering terms between rivals, not when bluffing one of them just because a dispute is under way.
 - #strong[Narrow.] It must be narrower than its skill. If it would apply to almost every use of the skill, narrow it.
-- #strong[Limits.] It grants no flat modifier, free Power or extra action, and doesn't let you substitute one skill for another in a scripted conflict (§10). It combines with Effort, Help or a die bought with Woe, within the cap.
-- #strong[Getting one.] Start with #strong[one]. An Advance can buy another (§12.2).
+- #strong[Limits.] It grants no flat modifier, free Power or extra action, and doesn't let you substitute one skill for another in a scripted conflict (@core-conflict-system). It combines with Effort, Help or a die bought with Woe, within the cap.
+- #strong[Getting one.] Start with #strong[one]. An Advance can buy another (@core-spending-xp).
 
 ==== Knowledge Skills
 A #strong[Knowledge Skill] is an unrated field of expertise: #emph[Regional Trade Customs], #emph[River Ecology], #emph[Institutional Records]. Start with #strong[two], covering subjects your background and skills don't already cover.
@@ -99,29 +99,29 @@ A #strong[Knowledge Skill] is an unrated field of expertise: #emph[Regional Trad
 #strong[What knowledge does.] It adds no die or modifier by itself. It tells you what the character knows, what they can attempt, and what a result means to them:
 
 + #strong[Routine facts are free.] If someone with this expertise would know the answer and it's available to them, the GM says so. Don't roll to recall standard practice.
-+ #strong[Expertise grants permission] (§2.2). It may let the character interpret a technical record or attempt a specialist procedure. If the action is still uncertain and matters, roll the relevant skill.
++ #strong[Expertise grants permission] (@core-difficulty-ladder). It may let the character interpret a technical record or attempt a specialist procedure. If the action is still uncertain and matters, roll the relevant skill.
 + #strong[An expert reads more into the same result.] Anyone might find the altered record; an expert also recognises which entry couldn't come from the normal process. That reading is information, not extra Power.
 + #strong[No single gate.] Don't make one Knowledge Skill the only route to an essential clue. Others can consult a source, find a contact or investigate another way.
 
 #emph[Example:] a medic recognises without a roll that a patient's symptoms don't match the recorded injury. Stabilising the patient during an evacuation is uncertain, so they roll Medicine and add a die for #emph[Trauma Care]. Knowledge changes what the character understands; a Specialisation changes the roll.
 
-=== 3.4 Tags
-Characters carry 6–8 #strong[character tags] from Descriptor, Focus, and Playbook:
+=== 3.4 Tags <core-tags>
+A new character has #strong[seven character tags]: 1 power and 1 weakness from the Descriptor, 2 power from the Playbook, and 2 power and 1 weakness from the Focus.
 
 - #strong[Power tags] (e.g. #emph[ex-navy marksman], #emph[silver tongue], #emph[grandfather's revolver]): +1 each when relevant, #strong[max +2 per roll].
-- #strong[Weakness tags] (e.g. #emph[owes the wrong people], #emph[bad knee]): −1 when relevant, or compel for a Tychē Point (§4).
-- #strong[Any tag can be compelled.] A power tag can also cause trouble when its meaning creates a concrete complication. It keeps its normal benefits (§4).
+- #strong[Weakness tags] (e.g. #emph[owes the wrong people], #emph[bad knee]): −1 when relevant, or compel for a Tychē Point (@core-tyche-points).
+- #strong[Any tag can be compelled.] A power tag can also cause trouble when its meaning creates a concrete complication. It keeps its normal benefits (@core-tyche-points).
 - #strong[Burning a tag:] mark a power tag as burned to gain an automatic +1 Power on a success. It stays unusable until you recover it (a downtime action or a milestone). Burning ignores the +2 cap.
 
 With a +2 cap, a third relevant tag is best used for burning or as Tychē Point invoke material.
 
-=== 3.5 Beliefs, Goals, and Instincts
+=== 3.5 Beliefs, Goals, and Instincts <core-beliefs-goals-instincts>
 ==== Three Different Jobs
 - #strong[Beliefs] state convictions and commitments: why you act. Write one World, one Other, and one Self Belief.
 - #strong[Goal] states a concrete objective for this session or mission: what you want to accomplish next.
 - #strong[Instinct] states an if/then reflex: how you habitually respond.
 
-Rewrite a Goal when it's accomplished or no longer fits, and check it at the start of each session. Beliefs and Instincts can change at milestones (§12.3). Beliefs can justify compels (§4) and meaningful decisions can earn XP (§12.1). They do not create an additional resource.
+Rewrite a Goal when it's accomplished or no longer fits, and check it at the start of each session. Beliefs and Instincts can change at milestones (@core-reviewing-beliefs-instincts). Beliefs can justify compels (@core-tyche-points) and meaningful decisions can earn XP (@core-earning-xp). They do not create an additional resource.
 
 ==== Writing Your Beliefs
 Each Belief combines a conviction with a commitment to act: "I believe this; therefore, I will do this." Write what you intend to do, not an outcome you are guaranteed to achieve. Avoid a virtue without an action: "I value loyalty" gives less direction than "Those who stand beside me deserve my loyalty; I will not abandon a companion to save myself."
@@ -179,7 +179,7 @@ Use Beliefs as prompts, not prerequisites, when completing your mechanical choic
 - #strong[Focus:] what distinctive pursuit supports or complicates your commitments?
 - #strong[Skills and abilities:] what can you already do, and where does ambition exceed competence?
 - #strong[Tags:] which strengths help you act, and which vulnerabilities make that difficult?
-- #strong[Load-out:] which gear options and load may support your commitments? Follow §3.6; do not choose every item in advance.
+- #strong[Load-out:] which gear options and load may support your commitments? Follow @core-starting-resources; do not choose every item in advance.
 
 Beliefs grant no extra skills, tags, abilities, equipment, pool points or Tychē, and a conviction isn't a power tag. Wanting to protect others doesn't mean you're good at it.
 
@@ -203,7 +203,7 @@ When [trigger], I [habitual response].
 
 #emph[Example:] "When we enter an unfamiliar place, I identify an escape route before settling in."
 
-Acting on an Instinct takes no time, but it doesn't guarantee success or skip a roll the normal rules require. Scripted conflicts limit it further (§10.18).
+Acting on an Instinct takes no time, but it doesn't guarantee success or skip a roll the normal rules require. Scripted conflicts limit it further (@core-conflict-limits-reference).
 
 ==== Review Before Play
 Read your three Beliefs, Goal, and Instinct aloud. Check that:
@@ -225,23 +225,19 @@ For each character, note an opportunity and a possible dilemma suggested by thei
 
 #strong[Concept:] a former caravan guard seeking to prevent another disastrous winter expedition. The player completes the normal mechanical choices for protection, travel, or negotiation; these Beliefs do not dictate a single build.
 
-- #strong[World:] "The settlements will starve if their leaders keep the roads divided. Because I have seen what isolation costs, I will bring them into a common defence agreement."
-- #strong[Other:] "Mara kept our caravan alive when I lost my nerve. I will support her leadership, but I will speak against her when she treats lives as acceptable losses."
-- #strong[Self:] "People are not expendable tools. I will not knowingly sacrifice those in my care merely to secure an advantage."
-- #strong[Goal:] "Secure the mill town's agreement to send a delegate to the road council."
-- #strong[Instinct:] "When we enter an unfamiliar place, I identify an escape route before settling in."
+Their World, Other and Self Beliefs, Goal and Instinct are the examples shown above.
 
 The GM might offer a delegation in exchange for escorting a vulnerable supply caravan through a dangerous pass. The Goal provides direction, capabilities determine options, and the Beliefs make decisions matter. The GM does not predetermine the character's answer.
 
-=== 3.6 Starting Resources
-- #strong[Tychē Points:] start each session at your #strong[Refresh] (base 3; §4.1). Beliefs and connections grant no extra points.
+=== 3.6 Starting Resources <core-starting-resources>
+- #strong[Tychē Points:] start each session at your #strong[Refresh] (base 3; @core-refresh). Beliefs and connections grant no extra points.
 - #strong[Starting abilities.] You get #strong[1 playbook ability and your Tier 1 Focus ability for free], and may buy #strong[up to 2 more playbook abilities at 1 Refresh each].
-- #strong[★ (Major) abilities] cost #strong[1 extra Refresh] whenever you take them: as your free pick (1), as a creation extra (2 total) or through advancement. Veteran acquisition costs are added on top (Generic Playbooks §1.2). Refresh can't drop below 1 (§4.1).
+- #strong[★ (Major) abilities] cost #strong[1 extra Refresh] whenever you take them (Generic Playbooks @pb-ability-notation). Refresh can't drop below 1 (@core-refresh).
 #colbreak()    
-- #strong[Load-out:] choose light, normal or heavy load before the mission, then declare playbook-kit items as you need them and mark their load; don't buy a full item list in advance. Signature items are chosen at creation and count against load when carried; always-carried items and items marked (0) follow their listed rules (Generic Playbooks §2.1). In conflicts, declare active gear before scripting each exchange (§10.10).
-- #strong[Circle and contact.] Name one #strong[social circle] (#emph[dock workers], #emph[the archive staff]) and one #strong[named contact] in it or elsewhere. Record both as contact Truths. The circle answers #emph[who here might help?]; the contact answers #emph[whom can I ask, and what might it cost them?]
+- #strong[Load-out:] choose light, normal or heavy load before the mission, then declare playbook-kit items as you need them and mark their load; don't buy a full item list in advance. Signature items are chosen at creation and count against load when carried; always-carried items and items marked (0) follow their listed rules (Generic Playbooks @pb-load). In conflicts, declare active gear before scripting each exchange (@core-conflict-gear-assets).
+- #strong[Circle and contact.] Name one #strong[social circle] (#emph[Dock Workers], #emph[The Archive Staff]) and one #strong[named contact] in it or elsewhere. Record both as contact Truths. The circle answers #emph[who here might help?]; the contact answers #emph[whom can I ask, and what might it cost them?]
 
 #strong[Using contacts.] Routine help that fits the relationship needs no roll. When access, discretion or cost is uncertain, roll an existing skill such as Persuade or Empathy; there is no separate Network skill or loyalty track. On a Success at a Cost, you get the introduction, shelter or supplies, but owe a favour or expose the relationship. A favour owed uses Module E.7 when that module is in play. A starting contact grants no free Discover, Help or turn; abilities such as #emph[Contacts] and #emph[Network] add those benefits.
 
-#strong[Ordinary gear, borrowed or bought locally.] Getting an ordinary item you didn't bring is a contact or circle question, not a separate inventory. Load covers what you brought; a contact covers what you can find now; an optional flashback covers what you arranged earlier (§4.2).
+#strong[Ordinary gear, borrowed or bought locally.] Getting an ordinary item you didn't bring is a contact or circle question, not a separate inventory. Load covers what you brought; a contact covers what you can find now; an optional flashback covers what you arranged earlier (@core-prepared-advance).
 ]

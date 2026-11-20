@@ -1,7 +1,7 @@
 // Included in chapter-3-module-e-factions.typ after E.1 and before E.2.
 // Uses Module E vocabulary (Qualities, Standing, Strain, projects). References C.7 for the story map.
 
-=== E.1A Building the Starting Cluster (Long Knives)
+=== E.1A Building the Starting Cluster <mod-building-starting-cluster>
 Use this when starting a campaign, after the C.7 story map is drawn. It produces the first faction records (E.1), their starting Standing and the opening situation, and takes about 30 to 45 minutes. It replaces C.8 when Module E is enabled.
 
 #strong[Size.] Aim for #strong[four] factions: three #strong[active] (full records) and one #strong[background] (name, purpose and Standing).
@@ -37,7 +37,8 @@ A personal exception replaces that relationship Condition for its subject and do
 
 #strong[The incident is history.] It happened before play starts; it can't later cancel a PC's action, skip a contested scene or complete another project. Once play begins, use the core rules for PC struggles and E.10 for faction actions. Campaign Truths still need a major arc.
 
-#strong[Pacing (playtest).] Average Power per World Turn for 2d12 + one Quality against Standard 15, counting Success at a Cost (1 Power) but not doubles or opposition. Turns to fill are expected values with overflow discarded; they are estimates, not deadlines.
+// PLAYTEST: marker unified (M6)
+#strong[Pacing.] Average Power per World Turn for 2d12 + one Quality against Standard 15, counting Success at a Cost (1 Power) but not doubles or opposition. Turns to fill are expected values with overflow discarded; they are estimates, not deadlines. (Playtest Value)
 
 #table(columns: (16%, 28%, 28%, 28%),
   table.header([Quality], [Average Power per turn], [Turns to fill 8], [Turns to fill 12]),

@@ -1,7 +1,7 @@
 #import "common.typ":*
 
 #pagebreak(weak: true)
-== 6. Interlocutor
+== 6. Interlocutor <pb-interlocutor>
 #playbook-art-side("04-interlocutor.jpg", "Interlocutor playbook character art")[
 #quote(block: true)[
 Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators, preachers, captains.
@@ -23,7 +23,7 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
 #strong[Playbook tags (choose 2):] #emph[silver tongue] · #emph[friends in every port] · #emph[reads people like books] · #emph[noble bearing] · #emph[a hundred faces] · #emph[calm under fire]
 ]
 
-=== 6.1 Special Abilities
+=== 6.1 Special Abilities <pb-interlocutor-special-abilities>
 #figure(
   [#table(
     columns: (5.05%, 12.12%, 82.83%),
@@ -32,7 +32,7 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
     table.hline(),
     [1], [#strong[Silver Tongue];], [#ability(
       trigger: [You Persuade or Deceive and Create a Situational Condition about a target's attitude (#emph[convinced], #emph[trusts us], #emph[fooled]).],
-      cost: [That Create costs #strong[1 Power less] (Core Rules §5), minimum 1.],
+      cost: [That Create costs #strong[1 Power less] (Core Rules @core-effects), minimum 1.],
       benefit: [Create the attitude Condition at the reduced cost.],
       limit: [In a conflict, the Condition gives leverage, not the disputed objective. It doesn't decide what another PC believes.],
     )],
@@ -45,7 +45,7 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
     [3], [#strong[Network];], [#ability(
       trigger: [You declare a #strong[contact] in the current location.],
       cost: [No additional cost.],
-      benefit: [The contact becomes a #strong[Site Truth] (Core Rules §8.2): #emph[Contact: harbourmaster Elsa] --- Truth/Site --- that settlement or place, where you can find and call on them --- ends when the contact no longer matters there or is lost.],
+      benefit: [The contact becomes a #strong[Site Truth] (Core Rules @core-scale): #emph[Contact: Harbourmaster Elsa] --- Truth/Site --- that settlement or place, where you can find and call on them --- ends when the contact no longer matters there or is lost.],
       limit: [Once per session. The GM gives them a quirk or something they want in return.],
     )],
     [4], [#strong[Smooth Recovery];], [#ability(
@@ -84,13 +84,13 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
       trigger: [You make a reasonable request of a non-villain NPC, or an Argument or Negotiation conflict begins.],
       cost: [No additional cost.],
       benefit: [The NPC agrees #strong[without a roll]. In Argument and Negotiation conflicts, your side starts with #strong[+3 Disposition].],
-      limit: [The request is once per session. The Disposition bonus is a flat modifier (§1.2).],
+      limit: [The request is once per session. The Disposition bonus is a flat modifier (@pb-ability-notation).],
     )],
   )]
   , kind: table
   )
 #pagebreak()
-=== 6.2 Starting Equipment
+=== 6.2 Starting Equipment <pb-interlocutor-starting-equipment>
 #strong[Signature item (choose 1)]
 
 #figure(
@@ -126,7 +126,7 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
 
 #strong[Always carried (0):] Fantasy: perfume, deck of cards. Modern: smartphone with contacts, breath mints. Sci-Fi: translator implant, personal comm.
 
-=== 6.3 BIG Examples
+=== 6.3 BIG Examples <pb-interlocutor-big-examples>
 - #strong[Belief:] \"Every war ends at a table; I\'d rather start there.\" / \"A lie that saves a life is no sin.\"
 - #strong[Goal:] \"Get the guild master to sign the truce.\" / \"Find out what the duke really wants.\"
 - #strong[Instinct:] \"Always learn someone\'s name.\" / \"Never be the first to name a price.\"

@@ -163,7 +163,7 @@ This is pricing guidance, not an unrestricted spend menu. Write a Special's trig
   [Suppressing Fire], [2], [An area Attack.],
   [Scan], [1], [Once per exchange, cancel one purchased Impede or Gain Position from a detectable opposing Stealth Maneuver, or reveal one detectable hidden opponent after own successful Maneuver (§6.19).],
   [Self-Repair], [1], [After successful assigned action, once per Guardian per exchange, repair up to 2 shared Disposition or physical-status tiers at volley end. No Disposition recovery from 0 (§6.14).],
-  [Lockdown], [2], [Once per scene after successful Maneuver, create rank-1 Sealed Doors over named existing controlled barriers (§6.20).],
+  [Lockdown], [2], [Once per scene after successful Maneuver, create the scene Truth Sealed Doors over named existing controlled barriers (§6.20).],
   [Shock Field], [1], [When a PC loses a versus roll to it in melee, record one deferred jolted-2 application against that PC (§6.12). This trigger is not limited to Attack. During a conflict, at most one recorded application per named Special per target across all sources (§6.12).],
   [Fail-safe], [3], [Defeat-triggered. At eligible final defeat at 0 shared Disposition, an active Guardian detonates before finishing procedures, assigning burned-3 to each PC within reach as an additional compromise injury (§6.11). The Guardian is destroyed.],
   [Calls the Works], [2], [Action-free call to one shared reserve Gate Warden. Accepted command survives caller/link loss; blocked route delays arrival (§6.23).],

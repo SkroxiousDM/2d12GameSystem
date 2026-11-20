@@ -88,10 +88,10 @@ Spy, impostor, or actor: you can be anyone.
       limit: [One cover at a time. It doesn't protect unrelated lies, prevent arrest under the cover name or erase earlier evidence, and you can always reveal yourself.],
     )],
     [3a], [#strong[Belongs Anywhere];], [#ability(
-      trigger: [A Truth about a social barrier applies (#emph[members only], #emph[high security], #emph[closed community]).],
+      trigger: [A social barrier applies (#emph[members only], #emph[high security], #emph[closed community]), as a Truth or a harmful Situational Condition.],
       cost: [No additional cost.],
-      benefit: [Ignore it.],
-      limit: [Social barriers only.],
+      benefit: [Ignore its penalty, and the Truth doesn't stop you attempting to enter or mingle. If the outcome is still uncertain, roll normally.],
+      limit: [Social barriers only. It doesn't grant authority, credentials or the disputed objective.],
     )],
     [3b], [#strong[★ Become Them];], [#ability(
       trigger: [You have observed a specific NPC and prepared.],

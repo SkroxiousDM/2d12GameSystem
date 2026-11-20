@@ -5,7 +5,7 @@
 === 12.1 Earning XP (end of session)
 1 XP per "yes" unless noted:
 
-- Did you hit your #strong[playbook XP trigger]? (1, or 2 in a scene with lethal stakes or a listed Danger, §8)
+- Did you hit your #strong[playbook XP trigger]? (1, or 2 in a scene with lethal stakes or a listed Danger, §8.5)
 - Did you #strong[accomplish your Goal]? (+2)
 - Did one or more of your #strong[World, Other, or Self Beliefs] drive a meaningful decision?
 - Did your #strong[Instinct] get you into trouble or save the day?

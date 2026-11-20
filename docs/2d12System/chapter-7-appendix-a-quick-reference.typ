@@ -22,8 +22,9 @@
   [Skill], [+0 to +4.],
   [Power tags], [+1 each, maximum +2.],
   [Weakness tags], [−1 each, no cap.],
-  [Statuses], [Highest relevant helpful tier, minus highest relevant harmful tier.],
-  [Truths], [Shift Difficulty, not the roll: one step per rank, at most ±3 steps; maximum rank 2.],
+  [Personal statuses], [Highest relevant helpful tier, minus highest relevant harmful tier.],
+  [Situational Conditions], [Highest relevant helpful rating, minus highest relevant harmful rating.],
+  [Truths], [No modifier. Check first whether the action is possible, certain or needs something.],
 )
 Roll only when the outcome is uncertain and matters. Knowledge, backgrounds and tools grant permission to attempt, not a modifier. Each Difficulty step is 3 points. A target below 9 still requires a roll unless the action is Trivial.
 
@@ -97,7 +98,7 @@ Buy off a dice complication by giving the GM 2 Woe. If you keep it and the GM ca
 )
 
 === Statuses
-Record a status as *name --- category/tier --- scope --- ending condition* (§5). Apply only the highest relevant helpful status and the highest relevant harmful status. Names alone do not establish scope. Impede is not a status; Grind conditions use Module B.3.
+Record a status or Situational Condition as *name --- category/rating --- scope --- ending condition* (§5). Personal statuses (states of a person) and Situational Conditions (external circumstances) are separate slots: apply the highest relevant helpful and harmful one from each. Truths are recorded as *name --- Truth/scale --- scope --- ending condition* and give no modifier (§8). Names alone do not establish scope. Impede is not a status; Grind conditions use Module B.3.
 
 === Resist an imposed status
 Roll *2 + Edge* d12 and take the highest die. Pay the result's cost; do not subtract Edge from it. Resistance reduces the incoming status by 2 tiers.
@@ -190,7 +191,7 @@ I = independent; V = versus; A = Attack only; F = Feint only.
 #columns(2, gutter: 6mm)[
 *A:* Attack rolls independently; Feint is trumped. *F:* Feint rolls independently; Defend is trumped.
 
-*Independent:* Test against Standard 15, adjusted by Truths and explicit modifiers such as Guard. Both independent actions finish before checking victory, even if one defeats a side or Takes Out its actor.
+*Independent:* Test against Standard 15, adjusted by explicit modifiers such as Guard; statuses and Situational Conditions modify the roll. Both independent actions finish before checking victory, even if one defeats a side or Takes Out its actor.
 
 *Versus:* Higher total wins with 1 Power, +1 per full 3 points over the opponent. Exact tie: no Power or normal action effect. Losing by 1–3 is not Success at a Cost. Winning prevents the opposing normal effect even if all Power buys other permitted Effects.
 
@@ -219,7 +220,8 @@ Use one Power budget. No primary purchase is mandatory. Relevance alone does not
   [Impede], [1], [−3 on the opposing side's next scripted action roll.],
   [Gain Position], [1], [One bonus die on the friendly side's next scripted action roll.],
   [Disarm], [3], [Disable the named asset for the conflict.],
-  [Create a Truth], [2 per rank], [Establish a justified Truth; apply explicit discounts and the normal minimum.],
+  [Create a Truth], [2], [Establish a justified scene Truth; apply explicit discounts and the normal minimum.],
+  [Create a Condition], [1 per rating], [Establish a Situational Condition; apply explicit discounts and the normal minimum.],
 )
 
 #columns(2, gutter: 6mm)[
@@ -239,7 +241,7 @@ Disarm disables an asset, not automatically an entire action category. Switching
 #table(columns: (17%, 30%, 53%),
   table.header([Effect], [Permitted actions], [Power / limit]),
   [Weaken], [Explicit ability only], [As permitted by the ability and Core §5; not a cheaper Disarm.],
-  [Create], [Maneuver], [2 per rank; explicit discounts and minimum cost apply.],
+  [Create], [Maneuver], [2 per Truth or 1 per Condition rating; explicit discounts and minimum cost apply.],
   [Enhance], [Defend or Maneuver], [Normal tier price and scope (§5).],
   [Restore], [Defend], [Normal tier price, scope and treatment limits (§5).],
   [Discover], [Any successful action], [1 per relevant question; repeatable.],
@@ -257,7 +259,7 @@ Other actions require explicit permission. An exception grants only its stated p
 
 *Extra Feat* grants one related secondary accomplishment—not another turn or roll, duplicate primary effect, prohibited purchase, cancellation of an independent opposing action or objective outside the stakes.
 
-Create costs 2 Power per Truth rank outside conflicts as well. Each explicit ability/item discount reduces its Power cost by 1, minimum 1. An ordinary Attack or Feint gains no harmful-status permission from supplementary purchases.
+Create costs the same outside conflicts: 2 Power for a scene Truth, 1 per Situational Condition rating, +1 to outlast the scene. Each explicit ability/item discount reduces the named purchase by 1, minimum 1. Weal and Woe buy Truths, never ratings. An ordinary Attack or Feint gains no harmful-status permission from supplementary purchases.
 
 Scenery purchases use Core §10.8. Furcifer openings and other ability exceptions use their full entries; see Generic Playbooks §4.1 for Opportunist and Deadly Precision.
 

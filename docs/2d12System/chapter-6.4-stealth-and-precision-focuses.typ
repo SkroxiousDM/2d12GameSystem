@@ -17,11 +17,12 @@ Silent, patient, and impossible to pin down.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
+    // PLAYTEST: converted from a two-step Truth shift; not numerically equivalent.
     [1], [#strong[Shadow-Born];], [#ability(
-      trigger: [A Truth about darkness, noise or crowds lowers your Stealth Difficulty.],
+      trigger: [A Situational Condition involving darkness, noise or crowds helps your Stealth roll.],
       cost: [No additional cost.],
-      benefit: [It lowers it by #strong[two steps] instead of one.],
-      limit: [Only those Truths, and only on Stealth.],
+      benefit: [Treat its rating as #strong[1 higher] for this roll.],
+      limit: [Only those Conditions, and only on Stealth. Maximum effective rating 6; only the highest helpful Situational Condition applies. It doesn't create concealment where none is possible.],
     )],
     [2a], [#strong[Vanish];], [#ability(
       trigger: [After any roll, if there's any cover nearby.],
@@ -85,8 +86,8 @@ Sniper, archer, gunslinger: steady breath and a sharp eye.
     [2b], [#strong[Trick Shot];], [#ability(
       trigger: [You shoot past cover or angles, or shoot an object (cut a rope, hit a switch, ricochet).],
       cost: [No additional cost.],
-      benefit: [Ignore Truths about cover and angles. Gain a free #strong[Extra Feat] when you shoot objects.],
-      limit: [No additional limit.],
+      benefit: [Ignore harmful Situational Conditions from cover and awkward angles. Gain a free #strong[Extra Feat] when you shoot objects.],
+      limit: [The shot must be physically possible: no shooting through an impenetrable barrier or without a line of fire. Normal Extra Feat permissions apply.],
     )],
     // PLAYTEST: R4, defines One Shot inside scripted conflicts.
     [3a], [#strong[One Shot];], [#ability(
@@ -131,10 +132,10 @@ Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
       limit: [Bonus segments advance that clock only (§1.3).],
     )],
     [2a], [#strong[Back Door];], [#ability(
-      trigger: [You look for a way into a location.],
+      trigger: [You use Create to establish access or leverage at your current location.],
       cost: [#strong[1 Power].],
-      benefit: [Create the Truth #emph[I know a way in].],
-      limit: [Once per location. It gives access or leverage, not victory over an unrelated objective.],
+      benefit: [Create the Truth #emph[I know a way in], naming the route or leverage.],
+      limit: [Once per location. It gives access or leverage, not victory over an unrelated objective. Normal scope and duration apply.],
     )],
     // PLAYTEST: Balance FO B7, rider added (overlaps Escape Artist).
     [2b], [#strong[Trap Sense];], [#ability(
@@ -191,10 +192,10 @@ You never walk into a room without knowing how to leave it.
       limit: [A flat starting-Disposition bonus (§1.3).],
     )],
     [2b], [#strong[Contin-gency];], [#ability(
-      trigger: [Things go wrong.],
+      trigger: [Things go wrong and you reveal a prepared fallback.],
       cost: [No Weal needed.],
-      benefit: [Reveal a prepared fallback (stashed gear, a getaway vehicle, a safe house) as a Truth.],
-      limit: [Once per mission.],
+      benefit: [Establish a justified fallback (stashed gear, a getaway vehicle, a safe house) as a Truth.],
+      limit: [Once per mission. It can't contradict resolved events, and it gives no Situational Condition rating or automatic escape.],
     )],
     [3a], [#strong[Not Here];], [#ability(
       trigger: [You would receive an imposed harmful status and can act.],

@@ -32,10 +32,10 @@ At home where the map ends. Rangers, hunters, pilots, guides, explorers, scouts,
     table.hline(),
     // PLAYTEST: Pathfinder and Forager core fallbacks when Module B is not used.
     [1], [#strong[Pathfinder];], [#ability(
-      trigger: [As Guide (Module B), you spend Power on Make Time; without Module B, you advance a travel or pursuit clock. Also, a terrain Truth applies during a leg.],
+      trigger: [As Guide (Module B), you spend Power on Make Time; without Module B, you advance a travel or pursuit clock. Also, a harmful terrain Situational Condition applies during a leg.],
       cost: [No additional cost.],
-      benefit: [Each Power spent on Make Time advances the Journey clock #strong[1 extra segment]; without Module B, add 1 extra segment to any travel or pursuit clock you advance. Ignore one terrain Truth.],
-      limit: [One terrain Truth per leg.],
+      benefit: [Each Power spent on Make Time advances the Journey clock #strong[1 extra segment]; without Module B, add 1 extra segment to any travel or pursuit clock you advance. Ignore that terrain Condition's penalty.],
+      limit: [One terrain Condition per leg. It ignores interference only, not a Truth that blocks the route.],
     )],
     [2], [#strong[Forager];], [#ability(
       trigger: [As Quartermaster (Module B), you succeed; without Module B, you succeed on a foraging roll.],
@@ -52,8 +52,8 @@ At home where the map ends. Rangers, hunters, pilots, guides, explorers, scouts,
     [4], [#strong[Hunter\'s Eye];], [#ability(
       trigger: [You roll Shoot.],
       cost: [No additional cost.],
-      benefit: [Ignore one Truth about cover, distance or weather. At long range, gain #strong[+1 Power] on a success.],
-      limit: [One ignored Truth per roll. The Power applies only at long range, on a success.],
+      benefit: [Ignore one harmful Situational Condition from cover, distance or weather. At long range, gain #strong[+1 Power] on a success.],
+      limit: [One ignored Condition per roll; the shot must still be physically possible. The Power applies only at long range, on a success.],
     )],
     [5], [#strong[Ambusher];], [#ability(
       trigger: [A Fight conflict begins in wild terrain and you had time to prepare.],
@@ -78,7 +78,7 @@ At home where the map ends. Rangers, hunters, pilots, guides, explorers, scouts,
     [8], [#strong[★ Weather Sense];], [#ability(
       trigger: [You declare the next scene's weather or terrain, or the party is about to plan the next scene.],
       cost: [No additional cost.],
-      benefit: [Declare the #strong[weather or terrain Truth] for the next scene (#emph[thick fog], #emph[rising river], #emph[clear skies]). You also always know the next scene's weather and terrain Truths before the party plans it, including whether a travel leg is a hard stretch (Module B).],
+      benefit: [Declare the #strong[weather or terrain] for the next scene as a Truth (#emph[thick fog], #emph[rising river], #emph[clear skies]); if it also helps or hinders rolls, the GM sets its Situational Condition rating. You also always know the next scene's weather and terrain before the party plans it, including whether a travel leg is a hard stretch (Module B).],
       limit: [The declaration is once per session; the forecast always applies.],
     )],
     [◆], [#strong[One With the Wild];], [#ability(

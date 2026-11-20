@@ -4,11 +4,11 @@
 #columns(2, gutter: 6mm)[
 #strong[Spend 1 Tychē Point to:]
 
-- #strong[Invoke] --- reroll all dice, or add +2 after rolling. This works with any tag or Truth you can justify, even one belonging to the scene or an enemy. Invokes are not limited by the tag cap. Invoke before the roll's outcome is resolved. A reroll changes the dice, not a cost already paid or a consequence already resolved.
+- #strong[Invoke] --- reroll all dice, or add +2 after rolling. This works with any tag or Truth you can justify, even one belonging to the scene or an enemy; the approach must already be possible. A Truth gives no modifier itself, so the benefit comes from the Tychē Point. The +2 sits outside the status and Condition slots and the tag cap; a Condition's underlying fact can justify an Invoke, but its rating adds no further free bonus. Invoke before the roll's outcome is resolved. A reroll changes the dice, not a cost already paid or a consequence already resolved.
 - #strong[Declare] --- establish a minor fact about the scene. The GM may require it to tie to one of your tags.
 - #strong[Resist harder] --- reduce one Resistance cost to 0 (§6).
 
-#strong[Declarations stay minor.] A declared fact can make an approach possible or supply a relevant asset. It can't resolve an action by itself, buy status tiers or Disposition, or change Truths above scene scale (§8).
+#strong[Declarations stay minor.] A declared fact can make an approach possible or supply a relevant asset. It can't resolve an action by itself, buy status tiers, Situational Condition ratings or Disposition, inflict harm, or change Truths above scene scale (§8). A consequential Create can't be relabelled minor to avoid its cost.
 
 #strong[Resisting harder.] The Resistance still resolves normally, but its pool cost is 0, so it can't run the pool dry, even if the pool is already empty (§6.1). It doesn't restore spent points or clear an existing running-dry status, and it can't Resist ordinary Disposition loss or a protected payment (§10.7).
 
@@ -52,7 +52,7 @@ Once per session, you may spend #strong[1 Tychē Point] to establish one plausib
 - #strong[Obvious or reasonable only.] The preparation must be something the character could plainly have done with the time and means they had. A stretch or a wild claim needs the Furcifer's ★ #emph[Flashback] (Generic Playbooks).
 - #strong[Roll only if it was uncertain.] If the earlier action would have needed a roll that matters, make it now, using the normal rules.
 - #strong[No rewriting.] It can't contradict an established fact, erase a resolved consequence, or reverse a cost already paid. #emph[The ferry we just watched burn was a decoy] isn't allowed.
-- #strong[Declaration limits apply.] Like Declare, it can't resolve an action by itself, buy status tiers or Disposition, change Truths above scene scale, or recalculate Superiority after setup. In scripted conflicts, §10.18 sets its timing.
+- #strong[Declaration limits apply.] Like Declare, it can't resolve an action by itself, buy status tiers, Condition ratings or Disposition, change Truths above scene scale, or recalculate Superiority after setup. In scripted conflicts, §10.18 sets its timing.
 #colbreak()    
 Load covers what you brought; contacts cover what you can find now (§3.6); a flashback covers what you arranged earlier.
 ]

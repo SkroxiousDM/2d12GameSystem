@@ -29,13 +29,13 @@ Cyphers are frequent, disposable power-ups that encourage players to use them ra
   , kind: table
   )
 - #strong[What they are:] one-use items or effects --- potions, grenades, scrolls, nanite injectors, blessed relics, strange tech. Each has a #strong[tier (1--6)];.
-- #strong[Using one:] an action, usually with #strong[no roll];. The cypher generates #strong[Power equal to its tier];, spent only on its listed Effects. Some create a Truth instead. Fixed benefits, such as #emph[restore 3 Sōma], happen as written and aren't Power.
+- #strong[Using one:] an action, usually with #strong[no roll];. The cypher generates #strong[Power equal to its tier];, spent only on its listed Effects. Some create a Truth or Situational Condition instead. Fixed benefits, such as #emph[restore 3 Sōma], happen as written and aren't Power.
 - #strong[Cypher Limit:] each PC can carry #strong[2] cyphers. A setting ability may raise this.
 - #strong[Over the limit:] at the end of each scene, the GM gains 1 Woe per extra cypher and may trigger a #strong[Volatile] result (roll d12: 1--4 one cypher fires randomly; 5--8 one cypher is ruined; 9--12 nothing happens yet).
 - #strong[Subtle cyphers] (setting option): instead of physical objects, cyphers are luck, insights, or favours (\"a contact owes you\", \"a flash of insight\"). They work the same way and fit low-magic or modern games.
 - #strong[GM pacing:] give out 1--2 cyphers per PC per session. They should feel like loot that gets spent.
 
-#strong[One Power budget.] Split the Power among the listed Effects; each Effect doesn't get the full budget. Create costs 2 Power per rank (Core Rules §5): a tier-2 Smoke charge buys rank-1 #emph[smoke cover];, and a tier-4 Firebomb that buys a rank-2 #emph[burning] Truth has nothing left for its Attack.
+#strong[One Power budget.] Split the Power among the listed Effects; each Effect doesn't get the full budget. Create costs 2 Power for a Truth and 1 per Situational Condition rating (Core Rules §5): a tier-2 Smoke charge buys #emph[smoke cover 2], and a tier-4 Firebomb that buys #emph[burning 4] has nothing left for its Attack.
 
 #strong[In a scripted conflict,] using a cypher still takes a scripted action, or a trigger the item states. \"No roll\" means automatic success on an action that's otherwise allowed: it doesn't rescue a trumped action, change the script or bypass rotation, and it can't be used while Taken Out (Core Rules §10.5). With no dice, there's no critical or complication.
 

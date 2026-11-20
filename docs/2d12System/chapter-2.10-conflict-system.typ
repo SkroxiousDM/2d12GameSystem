@@ -73,7 +73,7 @@ Set fresh Disposition only for a genuinely new conflict with a materially differ
 - Current and starting Disposition.
 - Used injury trades.
 - Taken Out participants.
-- Existing injuries, Truths, and other continuing effects.
+- Existing injuries, Situational Conditions, Truths, and other continuing effects.
 
 If the type changes, establish the new action skills before the next exchange. Do not reapply setup bonuses merely because the type changes.
 
@@ -103,9 +103,9 @@ Setup defeat inflicts no injury, pool loss or Taken Out by itself, and doesn't s
 An asset may retain its normal benefits while also contributing to Superiority. A map might justify preparation and later help an action. These benefits perform different jobs:
 - Superiority represents preparation at setup.
 - An action tag assists a particular roll.
-- A Truth changes difficulty or establishes what is possible.
+- A Situational Condition modifies relevant rolls; a Truth establishes what is possible.
 
-Apply each only when its requirements are met. One asset does not automatically provide all three.
+Apply each only when its requirements are met. One asset does not automatically provide all four.
 ]
 
 === 10.4 Conflict Types
@@ -164,7 +164,7 @@ In short: Feint beats Defend and loses to Attack; two Attacks, two Defends or tw
 // PLAYTEST: Feint versus Maneuver is now a versus test (was independent). Check that Maneuver doesn't become the safe answer to every Feint.
 
 ==== Independent Tests
-Roll against Standard 15, adjusted by applicable Truths and other explicit difficulty modifiers, including adversary Guard. Determine Power normally.
+Roll against Standard 15, adjusted by explicit difficulty modifiers such as adversary Guard; statuses and Situational Conditions modify the roll (§2.1), and Truths decide what is possible (§8). Determine Power normally.
 
 #colbreak()    
 ==== Versus Tests
@@ -211,9 +211,10 @@ Spend Power on these effects:
   [Impede], [1], [The opposing side's next acting participant takes −3 on their action roll.],
   [Gain Position], [1], [Your side's next acting participant gains one bonus die on their action roll.],
   [Disarm], [3], [Disable a specific weapon, asset or key tag for the rest of the conflict.],
-  [Create a Truth], [2 per rank], [Establish a justified Truth, applying explicit discounts and the normal minimum cost.],
+  [Create a Truth], [2], [Establish a justified scene Truth (§8.3), applying explicit discounts and the normal minimum cost.],
+  [Create a Situational Condition], [1 per rating], [Establish a rated external advantage or problem (§5.2), applying explicit discounts and the normal minimum cost.],
 ))
-Buy Impede, Gain Position and Disarm no more than once each per Maneuver; later successful actions may buy them again. Create may be purchased at a higher rank for its normal cost.
+Buy Impede, Gain Position and Disarm no more than once each per Maneuver; later successful actions may buy them again. Creating a hazard grants no immediate hazard attack or extra action.
 
 ==== Temporary Effects and Ongoing Conditions
 Impede and Gain Position apply to the affected side's next scripted action, including across an exchange boundary. If that action is trumped or otherwise makes no roll, the effect expires unused. Record a pending effect like any temporary fact (§5): #emph[Gain Position] --- tactical benefit, +1 bonus die --- your side's next scripted action roll --- expires on that action, unused if it is trumped or makes no roll.
@@ -225,7 +226,7 @@ Additional grants do not stack, refresh or extend pending Gain Position. Coverin
 
 Impede is not a tiered status. Multiple pending Impedes do not stack, increase its penalty or extend its duration. Restore does not remove it merely because Restore removes statuses. Impede does not itself restrain, immobilise or render someone helpless.
 
-An ongoing condition needs its own name, tier, scope and removal condition (§5). For example: #emph[Entangled] --- harmful status 2 --- movement and actions requiring free limbs --- ends when the net is cut or the target escapes. State fictional restrictions directly; a helpless body or inaccessible weapon is not shorthand for temporary Impede.
+An ongoing hindrance needs its own name, tier or rating, scope and removal condition (§5), and Impede and other tactical effects don't become statuses or Conditions automatically. For example: #emph[Entangled] --- harmful status 2 --- movement and actions requiring free limbs --- ends when the net is cut or the target escapes. State fictional restrictions directly; a helpless body or inaccessible weapon is not shorthand for temporary Impede.
 
 ==== Disarming and Denying Options
 Identify the disabled asset and explain how. Disabling one asset removes an action category only if it was the side's only plausible means of performing that action. A replacement may restore access when the fiction permits. Switching equipment does not itself change a script.
@@ -238,8 +239,8 @@ Fictional relevance is required, but does not unlock prohibited purchases or har
 #figure(table(columns: (15%, 20%, 23%, 42%),
   table.header([Effect], [Permitted actions], [Price / limit], [Scope]),
   [Weaken], [Explicit ability only; any action], [As permitted by the ability and §5], [Not a cheaper Disarm. Use Maneuver's priced Disarm to disable an asset.],
-  [Create], [Maneuver], [2 Power per rank; explicit discounts and minimum cost apply], [Establish a justified Truth.],
-  [Enhance], [Defend or Maneuver], [Normal tier price (§5)], [Normal scope and stacking.],
+  [Create], [Maneuver], [2 Power per Truth, 1 per Situational Condition rating; explicit discounts and minimum cost apply], [Establish a justified scene Truth or Situational Condition.],
+  [Enhance], [Defend or Maneuver], [Normal tier price (§5)], [A helpful personal status; normal scope and stacking. Harmful statuses need an explicit harm permission.],
   [Restore], [Defend], [Normal tier price (§5)], [Normal scope, stacking and treatment limits. Maneuver has no default permission.],
   [Discover], [Any successful action], [1 Power per question; repeatable], [Only answers that follow from this action, not unrelated or remote investigation.],
   [Advance], [Attack or Maneuver], [1 Power per segment; repeatable], [A separate established clock genuinely advanced by the action, not a duplicate Disposition track.],
@@ -264,7 +265,7 @@ Additional Power, additional Disposition loss and additional status tiers are se
 Attack bonuses don't apply to Feint, staking, killing strikes or other finishing procedures unless stated.
 
 === 10.7 Costs, Failures and Complications
-Use normal Effort, Weal, Woe, Tychē Points, tags and Truths subject to these restrictions and the limits in §10.18.
+Use normal Effort, Weal, Woe, Tychē Points, tags, Situational Conditions and Truths subject to these restrictions and the limits in §10.18.
 
 ==== Ordinary Failure
 An ordinary failed independent test produces no action effect and generates the usual 1 Woe. It does not also authorise an unrelated GM move, automatic injury or additional Disposition loss: the failed and opposing actions establish the volley.

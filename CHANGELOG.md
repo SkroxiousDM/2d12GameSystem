@@ -6,6 +6,15 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Unranked Truths, Personal statuses and Situational Conditions (2026-11-20)
+
+- Core Rules §8: Truths have no rank and no modifier. A Truth is a permission, prohibition, requirement, danger or world fact at Scene, Site, Region or Campaign scale, checked before Difficulty (§8.1). Creating one costs 2 Power, 2 Weal or 2 Woe.
+- Core Rules §5.1--5.3: statuses on a person are Personal statuses (tiers 1--6). External numerical circumstances are Situational Conditions (ratings 1--6, 1 Power per rating), with the highest helpful and highest harmful applying to a roll and no stacking. Prepared, Supported, Trusted and Discredited move to the Condition examples; Obstructed is added.
+- Core Rules §2.1, §2.4, §9, §10 and the Quick Reference: roll modifiers come from one status slot and one Condition slot; dangerous-circumstance Woe is capped at 1 per scene; Floor Collapse and Make a Hazard create dangerous Truths; Maneuver and supplementary Create rows list both purchases.
+- Modules A--F and the adversaries chapter: former ranked Truths become Situational Conditions (at 3 per old rank) or unranked Truths, including Module E relationship Conditions, Module D Poor Rest, Well Appointed and Short-Handed, and Lockdown's Sealed Doors.
+- Generic Playbooks and Focuses: Infiltrator, Silver Tongue, Many Faces, Pathfinder, Hunter's Eye, Weather Sense, Shadow-Born, Trick Shot, Back Door, Contingency and Belongs Anywhere are reworded for the new rules.
+- Open questions are listed in `docs/design/truths-conditions-review-flags.md`.
+
 ### Changed — Four-field abilities, double-edged Descriptors and temporary-fact records (2026-11-19)
 
 - Generic Playbooks §3--8 and Generic Focuses §3--8: all 54 playbook abilities and 120 Focus abilities now use the four-field format Trigger, Cost, Benefit, Limit, through a new `ability()` helper in `common.typ`. Generic Playbooks §1.2 explains the fields; Generic Focuses §1.3 applies them. Editorial only: costs, benefits, timing, frequency and exclusions are unchanged. Menacing's flee, surrender or freeze response now states its ending condition, and Legend of the Field's "while you stand" now reads "while you remain an active participant in the conflict".

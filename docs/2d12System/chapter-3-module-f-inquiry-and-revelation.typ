@@ -50,7 +50,7 @@ When you gain an Insight, choose one. The GM may veto a choice that does not fit
 
 If no Insight fits, nothing happens and no points are lost. Buy costs are refunded.
 
-*Benefit scope.* A Leverage Truth uses the normal rank, scope and removal condition (Core Rules §8); its case-long extension is an Inquiry exception, not a change to Create.
+*Benefit scope.* A Leverage Truth is unrated and uses the normal scope and ending condition (Core Rules §8.3); it opens an approach, not a numerical bonus; its case-long extension is an Inquiry exception, not a change to Create.
 
 A Contact provides the stated relationship, not Standing, a reputation tag, free Help or a turn. A Spotlight invoke awards no Standing or reputation. Foresight is information, not a script change or a way to cancel the opposition's action (Core Rules §10.5).
 

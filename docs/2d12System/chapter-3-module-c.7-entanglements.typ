@@ -34,7 +34,7 @@ Use this at the start of a campaign, after players have picked a Descriptor, Pla
 - #emph[Patron of], #emph[funded by]: a patronage record (E.4): what's supplied, what's expected and when it ends.
 - #emph[Owes], #emph[is owed by]: a favour (E.7) with agreed service, limits and terms, not an unlimited debt.
 - #emph[Feuds with], #emph[hunted by]: adverse starting Standing, if it reflects the faction's policy toward the party (E.3). #emph[Fears] alone doesn't change Standing.
-- #emph[Betrayed], #emph[estranged from]: a personal exception for that PC (E.4). It replaces the normal relationship Truth instead of stacking with it.
+- #emph[Betrayed], #emph[estranged from]: a personal exception for that PC (E.4). It replaces the normal relationship Condition instead of stacking with it.
 Props and Sets tied to an Organization become faction assets (E.2) only if the faction actually owns, controls or can reach them. Interest alone isn't possession.
 
 #strong[Relationships aren't free bonuses.] Record relevant Truths normally. An ally or faction tie doesn't by itself grant Help, Backing, an extra turn, its own Disposition or Superiority; apply those rules when the resource actually contributes (Core Rules §10.2--10.3, §10.9; Module E.6).

@@ -78,7 +78,7 @@ A journey is a #strong[Journey clock] (6 for a short trip, 8 for a hard trip, 12
   )
 
 - #strong[Supplies:] the party tracks #strong[Supplies] as a counter, not a status (start at 3--6). Lose 1 per leg. At 0, everyone becomes Hungry & Thirsty automatically and the Grind clock shrinks by 2, to a minimum of 3.
-- #strong[Terrain and weather] are Truths that set Difficulty (#emph[Muskeg];, #emph[Whiteout];, #emph[Rapids];, #emph[Washed-out Road];).
+- #strong[Terrain and weather] are Situational Conditions that hinder relevant rolls (#emph[Muskeg 3];, #emph[Whiteout 3];, #emph[Rapids 3];), or Truths when they block a route outright (#emph[Washed-out Road];).
 - #strong[Encounters:] the GM spends Woe (1 for a minor encounter, 3 for a major one), or uses the Scout\'s failed roll.
 - #strong[Portages and hard stretches:] a special leg (Endure or Athletics roll for every PC); failure ticks the Grind clock twice.
 

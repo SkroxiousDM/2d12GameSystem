@@ -31,10 +31,10 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
     table.header([\#], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Silver Tongue];], [#ability(
-      trigger: [You Persuade or Deceive and Create a Truth about a target's attitude (#emph[convinced], #emph[trusts us], #emph[fooled]).],
-      cost: [That Create costs #strong[1 Power less] (Core Rules §5).],
-      benefit: [Create the attitude Truth at the reduced cost.],
-      limit: [In a conflict, the Truth gives leverage, not the disputed objective.],
+      trigger: [You Persuade or Deceive and Create a Situational Condition about a target's attitude (#emph[convinced], #emph[trusts us], #emph[fooled]).],
+      cost: [That Create costs #strong[1 Power less] (Core Rules §5), minimum 1.],
+      benefit: [Create the attitude Condition at the reduced cost.],
+      limit: [In a conflict, the Condition gives leverage, not the disputed objective. It doesn't decide what another PC believes.],
     )],
     [2], [#strong[Read the Room];], [#ability(
       trigger: [You spend Power on Discover to learn an NPC's Belief, Goal or Instinct.],
@@ -57,7 +57,7 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
     [5], [#strong[Many Faces];], [#ability(
       trigger: [You have a moment to prepare.],
       cost: [#strong[1 Power].],
-      benefit: [Create the Truth #emph[I belong here]. It removes one Truth that would raise the Difficulty of mingling or entry.],
+      benefit: [Create the Truth #emph[I belong here]. While it lasts, ignore one harmful Situational Condition on mingling or entry.],
       limit: [It lasts the scene. It doesn't settle a contested conflict objective.],
     )],
     [6], [#strong[Command];], [#ability(

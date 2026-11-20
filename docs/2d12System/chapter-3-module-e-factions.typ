@@ -93,14 +93,14 @@ Standing is not membership, command, fear, or internal unity. A faction may be c
 
 When identity is known and the relationship materially affects cooperation, access, or credibility, use one relationship Condition. It is a Situational Condition, because it records other people's response (Core Rules §5.2):
 
-// PLAYTEST: ratings converted at 3 per former Truth rank to keep the old odds; consider lower ratings.
+// PLAYTEST: ratings converted at 2 per former Truth rank.
 #table(columns: (20%, 56%, 24%),
   table.header([Standing], [Condition], [Rating]),
-  [−3 / −2], [Enemies of the Faction / Hostile Reception], [6 harmful],
-  [−1], [Distrusted by the Faction], [3 harmful],
+  [−3 / −2], [Enemies of the Faction / Hostile Reception], [4 harmful],
+  [−1], [Distrusted by the Faction], [2 harmful],
   [0], [None], [—],
-  [+1], [Welcome Among the Faction], [3 helpful],
-  [+2 / +3], [Trusted by the Faction / Bound by Alliance], [6 helpful],
+  [+1], [Welcome Among the Faction], [2 helpful],
+  [+2 / +3], [Trusted by the Faction / Bound by Alliance], [4 helpful],
 )
 
 It uses the Situational Condition slot: only the highest relevant helpful and harmful Condition apply to a roll. Relationship Conditions do not automatically modify combat, technical work, stealth, or deception.

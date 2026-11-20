@@ -2,45 +2,60 @@
 
 These are open questions found while consolidating the Truths and Conditions draft into the core rulebook. The pass makes Truths unranked facts (permission, prohibition, requirement, danger, world fact). It moves numerical circumstances to rated Situational Conditions (1–6) and keeps person-level effects as Personal statuses with tiers (1–6). Each item below needs a decision. Items marked "changed" describe wording the pass already applied that you may want to reverse.
 
+All items were decided on 2026-11-20; each row records its decision.
+
 ## Terminology and structure
 
 | # | Topic | Section | Question |
 |---|---|---|---|
-| 1 | Tier versus rating | Core Rules §5.1, §5.2 | Personal statuses keep "tier" and Situational Conditions use "rating". Keep two words, or use one word for both? |
-| 2 | No-stacking rule | Core Rules §5.2 | Interim rule: a second instance of the same Condition raises it to the higher rating and does not add. Keep it, or let accumulation add (for example +1 per repeat)? Marked PLAYTEST. |
-| 3 | Breaking points | Core Rules §5.2 | Rating 6 is the most a Condition can be and gives no Taken Out or Scar. Social and group Conditions (Discredited, relationship Conditions) have no breaking point. Should any rating trigger a consequence? |
-| 4 | Page count | Whole book | The book grew from 132 to 139 pages. Accept it, or trim the examples in §5.3 and §8? |
+| 1 | Tier versus rating | Core Rules §5.1, §5.2 | Decided: keep both words. "Tier" for Personal statuses, "rating" for Situational Conditions. |
+| 2 | Condition stacking | Core Rules §5.2 | Decided: building on the same circumstance sets the Condition one rating above the higher, never above 6, matching status stacking. |
+| 3 | Breaking points | Core Rules §5.2 | Decided: when a harmful Condition first reaches rating 6, the GM gets one free fitting consequence or a matching Truth that lasts as long as the Condition, whichever is more narratively appropriate (no Woe), within the stakes. No Taken Out or Scar. |
+| 4 | Page count | Whole book | Decided: accept the growth to 140 pages for now. |
 
 ## Prices and numbers
 
 | # | Topic | Section | Question |
 |---|---|---|---|
-| 5 | 1 Power per rating | Core Rules §5, §10.6 | A Situational Condition costs 1 Power per rating and can help every ally in its scope. Is that underpriced next to a Personal status at 1 Power per tier? |
-| 6 | Modifier range | Core Rules §2.1 | One status slot and one Condition slot each run up to ±6, so the total runs from −12 to +12. Cap either slot at ±3? Marked PLAYTEST. |
-| 7 | Rank-to-rating conversion | Modules B, D, E; §13 | Former ranked Truths became Conditions at 3 per old rank, which keeps the old odds: Module E relationship Conditions 6/3/—/3/6, E.8 strategic advantages 3/6, Module D Poor Rest 3, Well Appointed 3, Short-Handed 3, Module B terrain 3, and Dim Lighting 3 in the example of play. Keep them, or lower them? |
-| 8 | Danger Woe cap | Core Rules §9.2, §10.8 | A dangerous circumstance gives the GM +1 Woe when it first becomes relevant, at most 1 per scene. Is the cap right? |
-| 9 | Floor Collapse and Make a Hazard | Core Rules §10.8 | Both now create dangerous Truths at the old prices of 4 and 2 Power. Without a rank, are the prices still right? |
-| 10 | 2-Weal and 2-Woe Truths | Core Rules §8.3, §9 | Creating a Truth costs 2 Power, 2 Weal or 2 Woe. Where is the line between a Truth worth 2 and one that needs a test, conflict or project? |
+| 5 | Condition price | Core Rules §5, §10.6 | Decided: Create buys a Situational Condition at 2 Power per rating. Weaken also costs 2 Power per rating of a Condition (1 per status tier or tag Suppress is unchanged). Briefing costs 1 less than normal (rating 1 for 1, rating 2 for 3). |
+| 6 | Modifier range | Core Rules §2.1 | Decided: keep ±6 per slot (−12 to +12 together); leave it to playtest. |
+| 7 | Rank-to-rating conversion | Modules A, B, D, E; §13 | Decided: 2 per old rank. Relationship Conditions 4/2/—/2/4; strategic advantages 2 (normal) and 4 (decisive); Poor Rest, Well Appointed and Short-Handed 2; terrain 2; Dim Lighting 2 (roll recalculated, still 4 Power). Module A cypher examples now read smoke cover 1 and burning 2 at the new price. |
+| 8 | Danger Woe cap | Core Rules §9.2, §10.8 | Decided: keep the cap at 1 Woe per scene. No text change. |
+| 9 | Floor Collapse and Make a Hazard | Core Rules §10.8 | Decided: both cost 2 Power, the normal Create a Truth price. Floor Collapse lowered from 4. |
+| 10 | 2-Weal and 2-Woe Truths | Core Rules §8.3, §9 | Decided: keep the current limits (scene scale, the §8.3 "State it first" limits). No text change. |
 
 ## Abilities changed by the pass
 
 | # | Ability | Section | Question |
 |---|---|---|---|
-| 11 | Shadow-Born | Generic Focuses §4 | Changed from the draft. The new version is not numerically equivalent to the old one. Accept it? |
-| 12 | Trick Shot; Hunter's Eye | Generic Focuses §4; Generic Playbooks §7.1 | Changed. Both now say they can't make an impossible shot possible. Is that boundary wanted? |
-| 13 | Silver Tongue | Generic Playbooks §6.1 | Changed. It now creates an attitude Situational Condition for 1 Power less (minimum 1). Confirm. |
-| 14 | Many Faces; Infiltrator; Pathfinder; Belongs Anywhere | Generic Playbooks §4.1, §6.1, §7.1; Generic Focuses §6 | Changed. Each now ignores interference from a Truth or Condition instead of a rank. Belongs Anywhere also lets you attempt an entry a Truth would otherwise bar. Confirm. |
-| 15 | Weather Sense | Generic Playbooks §7.1 | Changed. The GM sets the rating of the weather Condition. Should the ability set it instead? |
-| 16 | Back Door; Contingency | Generic Focuses §4 | Changed from the draft. This answers Four-Field flag 17 (Contingency's rank): the fallback is now an unrated Truth. Confirm. |
+| 11 | Shadow-Born | Generic Focuses §4 | Decided: accept as written (+1 to the helpful darkness, noise or crowd Condition on Stealth, maximum 6). No text change. |
+| 12 | Trick Shot; Hunter's Eye | Generic Focuses §4; Generic Playbooks §7.1 | Decided: remove the impossible-shot limit; §8.5 already governs what Truths allow. Trick Shot's Limit is now "Normal Extra Feat permissions apply." Hunter's Eye keeps one ignored Condition per roll and long-range Power. |
+| 13 | Silver Tongue | Generic Playbooks §6.1 | Decided: confirm as written (attitude Situational Condition for 1 Power less, minimum 1; matches Briefing). No text change. |
+| 14 | Many Faces; Infiltrator; Pathfinder; Belongs Anywhere | Generic Playbooks §4.1, §6.1, §7.1; Generic Focuses §6 | Decided: confirm all four. Removed the "doesn't bypass a Truth" lines from Infiltrator and Pathfinder to match flag 12 (§8.5 governs). Belongs Anywhere keeps its explicit social-barrier Truth permission. |
+| 15 | Weather Sense | Generic Playbooks §7.1 | Decided: the ability sets the rating. The declarer sets a helpful or harmful Situational Condition, rating 1 to 4; the Limit adds the rating-4 cap. |
+| 16 | Back Door; Contingency | Generic Focuses §4 | Decided: confirm both as written. Back Door creates a 1-Power Truth once per location; Contingency's fallback is an unrated Truth lasting until spent. No text change. |
 
 ## Abilities not changed (decide each)
 
 | # | Ability | Section | Question |
 |---|---|---|---|
-| 17 | Cheap Shot; Jury-Rig; Lost Knowledge; Rig the Field; Quick Change; Rank ("by my order"); Analyze discount; Phase key | Generic Focuses §3 (Cheap Shot), §5 (Jury-Rig, Rig the Field, Lost Knowledge), §6 (Quick Change, Rank); Generic Playbooks §5 (Analyze); Module A (Phase key) | These still "Create a Truth" at a fixed cost. Under the old rules that Truth also gave −3 Difficulty; now it gives no modifier. Should each one also be able to create a Situational Condition, and at what rating? Cheap Shot's examples (sand in the eyes, low blow) read more like Personal statuses. |
-| 18 | Cartographer; Master Key; Living Archive | Generic Focuses §4, §5, §7 | These keep their explicit one-step Difficulty shift, which is a separate rule from Truths. Keep, or convert to Conditions? |
-| 19 | Shape the Ground (Controller) | Adversaries §6 | It creates a Truth for 1 Woe or 1 Power. Should it also create a Situational Condition (1 per rating)? |
-| 20 | Lockdown | Adversaries §6.20 | Sealed Doors is now an unrated scene Truth with no Difficulty shift. Should it also add a Situational Condition (for example a rating-3 hindrance to forcing the doors)? |
+| 17 | Fixed-cost "Create a Truth" abilities | Generic Focuses; Generic Playbooks §5; Module A | Decided case by case; see the table below. |
+| 18 | Cartographer; Master Key; Living Archive | Generic Focuses §4, §5, §7 | Decided: keep the one-step Difficulty shift (§1.3) on Master Key and Living Archive, matching Master of the Field. Cartographer is not in the current text. No text change. |
+| 19 | Shape the Ground (Controller) | Adversaries §6 | Decided: once per scene, a Truth or a harmful rating-1 Situational Condition for 1 Woe or 1 Power from a Maneuver. |
+| 20 | Lockdown | Adversaries §6.20 | Decided: keep Sealed Doors as an unrated scene Truth with no Difficulty shift. No text change. |
+
+### Flag 17 case-by-case decisions
+
+| # | Ability | Decision |
+|---|---|---|
+| 17a | Cheap Shot | For 1 Power, the target also takes a tier-1 Personal status (blinded-1, winded-1), on top of Disposition in a conflict. Once per scene; Resistable normally. |
+| 17b | Jury-Rig | For 1 Power, a scene Truth or a helpful rating-1 Situational Condition from the gadget. Once per scene. |
+| 17c | Lost Knowledge | For 1 Power, a Truth or a helpful rating-1 Situational Condition from what you recall. Once per session. |
+| 17d | Rig the Field | For 2 Power, two Truths; one may also carry a helpful rating-2 Situational Condition at no extra cost. Once per scene. |
+| 17e | Quick Change | For 1 Power, a disguise Truth or a helpful rating-1 Situational Condition, even without a kit. |
+| 17f | Rank | Keep as written: 1 Power for the Truth *by my order*. No text change. |
+| 17g | Analyze | The 1-Power-less discount (minimum 1) now also covers a Situational Condition that exploits a revealed weakness: Truth 1, rating 1 costs 1, rating 2 costs 3. Matches Briefing and Silver Tongue. |
+| 17h | Phase key | Stays tier 4; adds a second Effect, Create (*unseen entry*): the Truth (2) plus a helpful rating-1 Condition (2) uses the full budget. |
 
 ## Effects on the Four-Field review flags
 
@@ -56,5 +71,5 @@ These are open questions found while consolidating the Truths and Conditions dra
 
 | # | Item | Section | Question |
 |---|---|---|---|
-| 26 | Obstructed | Core Rules §5.3 | New example Situational Condition. Keep? |
-| 27 | Endless rain | Module C.1 | New example of a Region-scale Condition. Keep? |
+| 26 | Obstructed | Core Rules §5.3 | Decided: split into two rows, Concealed (helps hiding or moving unseen through smoke, darkness or cover) and Obstructed (hinders movement or sight), a helpful/harmful physical pair like Trusted/Discredited. |
+| 27 | Endless rain | Module C.1 | Decided: Endless rain stays a Region Truth in the layers table; the Condition example is now *Martial law* --- Situational Condition 2 --- hinders movement and gatherings across the region --- ends when the governor lifts it. |

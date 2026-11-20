@@ -20,7 +20,7 @@ Cyphers are frequent, disposable power-ups that encourage players to use them ra
     [5], [Adrenal shot], [3], [Enhance (surging), restore 3 Sōma],
     [6], [Lockbreaker], [3], [Advance (any lock or security clock)],
     [7], [Ward token], [3], [Negate one incoming status of tier 3 or less],
-    [8], [Phase key], [4], [Create Truth (#emph[passage through the wall];) for one scene],
+    [8], [Phase key], [4], [Create Truth (#emph[passage through the wall]) for one scene, Create (#emph[unseen entry])],
     [9], [Courage draught], [2], [Restore (fear), restore 2 Pneuma],
     [10], [Seeker], [2], [Discover (location of one person or object)],
     [11], [Firebomb], [4], [Attack (on fire), Create (#emph[burning];)],
@@ -35,7 +35,7 @@ Cyphers are frequent, disposable power-ups that encourage players to use them ra
 - #strong[Subtle cyphers] (setting option): instead of physical objects, cyphers are luck, insights, or favours (\"a contact owes you\", \"a flash of insight\"). They work the same way and fit low-magic or modern games.
 - #strong[GM pacing:] give out 1--2 cyphers per PC per session. They should feel like loot that gets spent.
 
-#strong[One Power budget.] Split the Power among the listed Effects; each Effect doesn't get the full budget. Create costs 2 Power for a Truth and 1 per Situational Condition rating (Core Rules §5): a tier-2 Smoke charge buys #emph[smoke cover 2], and a tier-4 Firebomb that buys #emph[burning 4] has nothing left for its Attack.
+#strong[One Power budget.] Split the Power among the listed Effects; each Effect doesn't get the full budget. Create costs 2 Power for a Truth and 2 per Situational Condition rating (Core Rules §5): a tier-2 Smoke charge buys #emph[smoke cover 1], and a tier-4 Firebomb that buys #emph[burning 2] has nothing left for its Attack.
 
 #strong[In a scripted conflict,] using a cypher still takes a scripted action, or a trigger the item states. \"No roll\" means automatic success on an action that's otherwise allowed: it doesn't rescue a trumped action, change the script or bypass rotation, and it can't be used while Taken Out (Core Rules §10.5). With no dice, there's no critical or complication.
 

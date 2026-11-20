@@ -72,8 +72,8 @@ Spy, impostor, or actor: you can be anyone.
     [1], [#strong[Quick Change];], [#ability(
       trigger: [You disguise yourself.],
       cost: [#strong[1 Power].],
-      benefit: [Create a disguise Truth, even without a disguise kit.],
-      limit: [It doesn't by itself settle a disputed objective.],
+      benefit: [Create a disguise Truth, or instead a helpful rating-1 Situational Condition (#emph[convincing disguise 1]), even without a disguise kit.],
+      limit: [One Truth or one Condition, rating 1 only. It doesn't by itself settle a disputed objective.],
     )],
     [2a], [#strong[Mimic];], [#ability(
       trigger: [You copy someone's voice, mannerisms or handwriting, or impersonate a specific person.],

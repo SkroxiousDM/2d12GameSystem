@@ -20,7 +20,7 @@
   
 === 14.1 Known Risks
 - #strong[Currency load:] pools + Tychē + Weal + Woe is the upper limit for medium crunch. Keep spend menus short on the sheet.
-- #strong[Modifier range:] max is skill +4, tags +2, helpful status up to +6, helpful Situational Condition up to +6, Tychē invoke +2. The two slots together range from −12 to +12 and are the largest swing. Playtest a ±3 cap on either slot, and whether 1 Power per rating underprices broad Situational Conditions.
+- #strong[Modifier range:] max is skill +4, tags +2, helpful status up to +6, helpful Situational Condition up to +6, Tychē invoke +2. The two slots together range from −12 to +12 and are the largest swing. Playtest a ±3 cap on either slot, and whether 2 Power per rating prices broad Situational Conditions fairly.
 - #strong[Effort for Power] may make high-Edge characters very efficient. Watch Edge-3 pools where Effort is free; consider a minimum cost of 1.
 - #strong[Resistance dice:] Edge adds Resistance dice instead of reducing the cost, and only a double 12 is free (§6). Watch how often stacked penalties (two −1 Edge penalties on a 0-Edge pool) push Resistance to negative Edge, whether high-Edge pools drain faster than before, and whether the double-12 result (1--6%) is too rare to matter.
 - #strong[Four pools] means more pool points to track. The sheet should put all four in one row with Edge beside each.

@@ -60,7 +60,7 @@ Outside scripted conflicts, check unawareness just before the roll. Whether your
       trigger: [A harmful Situational Condition would hinder your sneaking, climbing or bypassing security.],
       cost: [No additional cost.],
       benefit: [Ignore that Condition's penalty for this roll.],
-      limit: [Once per roll, one Condition. It ignores interference only; it doesn't bypass a Truth that makes the approach impossible.],
+      limit: [Once per roll, one Condition.],
     )],
     [5], [#strong[Quick Reflexes];], [#ability(
       trigger: [Violence breaks out outside a scripted conflict, or you change one of your unrevealed scripted actions in a conflict.],

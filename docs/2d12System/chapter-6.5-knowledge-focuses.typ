@@ -20,8 +20,8 @@ An artificer, engineer, or inventor who makes what shouldn\'t work, work.
     [1], [#strong[Jury-Rig];], [#ability(
       trigger: [You Craft a temporary gadget.],
       cost: [#strong[1 Power].],
-      benefit: [Create a Truth that lasts the scene.],
-      limit: [Once per scene.],
+      benefit: [Create a Truth that lasts the scene, or instead a helpful rating-1 Situational Condition from the gadget (#emph[makeshift brace 1]).],
+      limit: [Once per scene. One Truth or one Condition, rating 1 only.],
     )],
     [2a], [#strong[Inventor];], [#ability(
       trigger: [During downtime, you work on a gadget.],
@@ -44,8 +44,8 @@ An artificer, engineer, or inventor who makes what shouldn\'t work, work.
     [3b], [#strong[★ Rig the Field];], [#ability(
       trigger: [You rig the area with gadgets.],
       cost: [2 Power total.],
-      benefit: [Create #strong[two] Truths.],
-      limit: [Once per scene.],
+      benefit: [Create #strong[two] Truths. You may also give one of them a helpful #strong[rating-2] Situational Condition from the rigging, at no extra cost.],
+      limit: [Once per scene. One Condition only, rating 2 at most.],
     )],
   )]
   , kind: table
@@ -186,8 +186,8 @@ Historian, archaeologist, or keeper of lost lore.
     [2a], [#strong[Lost Knowledge];], [#ability(
       trigger: [You've read about this before.],
       cost: [#strong[1 Power].],
-      benefit: [Create a Truth (#emph[ancient weakness], #emph[forgotten route]).],
-      limit: [Once per session.],
+      benefit: [Create a Truth (#emph[ancient weakness], #emph[forgotten route]), or instead a helpful rating-1 Situational Condition from what you recall (#emph[known weakness 1]).],
+      limit: [Once per session. One Truth or one Condition, rating 1 only.],
     )],
     [2b], [#strong[Relic Hunter];], [#ability(
       trigger: [You find cyphers or treasure, or encounter an artifact.],

@@ -19,7 +19,7 @@ Truths become the backbone of an open-world campaign: regions, sites, and factio
   , kind: table
   )
 
-Record scope and ending condition as usual (Core Rules §8.3). A Truth's layer is its scale: it sets its reach and how long it lasts, not a modifier. When a lasting circumstance should also help or hinder rolls, record it as a Situational Condition at the same layer (#emph[Endless rain] --- Situational Condition 2 --- hinders sight and travel across the region --- ends when the season turns; Core Rules §5.2).
+Record scope and ending condition as usual (Core Rules §8.3). A Truth's layer is its scale: it sets its reach and how long it lasts, not a modifier. When a lasting circumstance should also help or hinder rolls, record it as a Situational Condition at the same layer (#emph[Martial law] --- Situational Condition 2 --- hinders movement and gatherings across the region --- ends when the governor lifts it; Core Rules §5.2).
 
 === C.2 Site Sheets
 Each location gets a short sheet:
@@ -92,7 +92,7 @@ A faction project changes a Site Truth with an 8-segment clock and a Region Trut
 - #strong[Create] effects and 2 Weal create Scene Truths; bigger changes need a progress clock (8 segments for a Site Truth, 12 for a Region Truth).
 - Major arcs can rewrite Campaign Truths. These are the \"legacy\" moments of the campaign.
 
-Create costs 2 Power for a scene Truth or 1 per Situational Condition rating (Core Rules §5); 2 Weal buys a scene Truth, never a rating (Core Rules §9). A Scene Truth can't stand in for a Site or Region change.
+Create costs 2 Power for a scene Truth or 2 per Situational Condition rating (Core Rules §5); 2 Weal buys a scene Truth, never a rating (Core Rules §9). A Scene Truth can't stand in for a Site or Region change.
 
 #strong[In a conflict,] Discover, Advance and other off-menu Effects need a permitted action or explicit exception (Core Rules §10.6). Winning achieves the conflict's stated intent, not every related project clock. A Truth can set up a scenery feature, but using it takes a scenery Maneuver (Core Rules §10.8). Preparation counts toward Superiority only under Core Rules §10.3.
 

@@ -27,7 +27,7 @@ Successful adventures may:
 
 Examples: Enemy Deployment Exposed; Crossing Secured; Troops Paid Before the Muster; Reformers Have Public Support; Southern Squadron Will Not Intervene.
 
-Record each in the standard format: scope, duration and removal condition, plus a rating for a strategic advantage. A Truth makes a faction action possible or removes an obstacle; a strategic advantage modifies the faction roll. Rating 3 is normal; rating 6 requires a decisive advantage. One-use preparation applies to the next relevant action and then expires; persistent advantages endure only as long as their established circumstances do. Only the highest helpful and harmful Situational Condition apply to a roll (Core Rules §2.1).
+Record each in the standard format: scope, duration and removal condition, plus a rating for a strategic advantage. A Truth makes a faction action possible or removes an obstacle; a strategic advantage modifies the faction roll. Rating 2 is normal; rating 4 requires a decisive advantage. One-use preparation applies to the next relevant action and then expires; persistent advantages endure only as long as their established circumstances do. Only the highest helpful and harmful Situational Condition apply to a roll (Core Rules §2.1).
 
 A roll does not automatically create a lasting Truth or Condition merely because it succeeds: use the appropriate core Effect or establish it as the agreed outcome of the completed undertaking. Larger lasting changes need the appropriate project or milestone, as in Module C.6.
 

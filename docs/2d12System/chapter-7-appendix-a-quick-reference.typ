@@ -221,7 +221,7 @@ Use one Power budget. No primary purchase is mandatory. Relevance alone does not
   [Gain Position], [1], [One bonus die on the friendly side's next scripted action roll.],
   [Disarm], [3], [Disable the named asset for the conflict.],
   [Create a Truth], [2], [Establish a justified scene Truth; apply explicit discounts and the normal minimum.],
-  [Create a Condition], [1 per rating], [Establish a Situational Condition; apply explicit discounts and the normal minimum.],
+  [Create a Condition], [2 per rating], [Establish a Situational Condition; apply explicit discounts and the normal minimum.],
 )
 
 #columns(2, gutter: 6mm)[
@@ -241,7 +241,7 @@ Disarm disables an asset, not automatically an entire action category. Switching
 #table(columns: (17%, 30%, 53%),
   table.header([Effect], [Permitted actions], [Power / limit]),
   [Weaken], [Explicit ability only], [As permitted by the ability and Core §5; not a cheaper Disarm.],
-  [Create], [Maneuver], [2 per Truth or 1 per Condition rating; explicit discounts and minimum cost apply.],
+  [Create], [Maneuver], [2 per Truth or 2 per Condition rating; explicit discounts and minimum cost apply.],
   [Enhance], [Defend or Maneuver], [Normal tier price and scope (§5).],
   [Restore], [Defend], [Normal tier price, scope and treatment limits (§5).],
   [Discover], [Any successful action], [1 per relevant question; repeatable.],
@@ -259,7 +259,7 @@ Other actions require explicit permission. An exception grants only its stated p
 
 *Extra Feat* grants one related secondary accomplishment—not another turn or roll, duplicate primary effect, prohibited purchase, cancellation of an independent opposing action or objective outside the stakes.
 
-Create costs the same outside conflicts: 2 Power for a scene Truth, 1 per Situational Condition rating, +1 to outlast the scene. Each explicit ability/item discount reduces the named purchase by 1, minimum 1. Weal and Woe buy Truths, never ratings. An ordinary Attack or Feint gains no harmful-status permission from supplementary purchases.
+Create costs the same outside conflicts: 2 Power for a scene Truth, 2 per Situational Condition rating, +1 to outlast the scene. Each explicit ability/item discount reduces the named purchase by 1, minimum 1. Weal and Woe buy Truths, never ratings. An ordinary Attack or Feint gains no harmful-status permission from supplementary purchases.
 
 Scenery purchases use Core §10.8. Furcifer openings and other ability exceptions use their full entries; see Generic Playbooks §4.1 for Opportunist and Deadly Precision.
 

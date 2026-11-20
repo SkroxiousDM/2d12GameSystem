@@ -13,7 +13,7 @@ Each feature supports one scenery action per conflict unless its nature clearly 
   table.header([Action], [Requirement], [Power], [Result], [Danger]),
   [Grab a Ride], [A fixture and clear path], [2], [Gain Position and move to another reachable location; ignore Impede this volley.], [Tier-1 winded.],
   [Tip & Drop], [A heavy object and a target below], [3], [Remove 3 opposing Disposition, without the Attack bonus.], [An ally takes tier-1 struck.],
-  [Floor Collapse], [A support that can be broken], [4], [Create the dangerous Truth #emph[Collapsing Floor]: the affected area can't be crossed or held without a way over.], [Tier-1 stunned or a lost tag.],
+  [Floor Collapse], [A support that can be broken], [2], [Create the dangerous Truth #emph[Collapsing Floor]: the affected area can't be crossed or held without a way over.], [Tier-1 stunned or a lost tag.],
   [Carpet Pull], [A suitable covering and unwarned foes], [2], [Impede each opposing participant's next action roll this exchange.], [Your next Defend takes −1.],
   [Drape Drop], [Hangings, netting or similar material], [1], [Impede the opposing side's next action.], [Your next action takes −1.],
   [Shove 'Em Off], [An edge and an adjacent target], [3], [One opponent loses their next scripted action while recovering.], [Tier-2 off balance.],
@@ -24,7 +24,7 @@ The GM may trigger the listed Danger for 1 Woe. Danger statuses are Resistable n
 
 A fall is lethal only with established lethal stakes. Describe results consistently: a collapsing floor or spreading fire affects everyone within its established scope. Dangerous circumstances generate Woe under the scene cap (§9.2).
 
-// PLAYTEST: Floor Collapse and Make a Hazard converted from ranked Truths; prices kept at 4 and 2 pending a bespoke repricing.
+// PLAYTEST: Floor Collapse and Make a Hazard converted from ranked Truths; both priced at 2 Power, the normal Create a Truth cost (§5.1), with the scenery requirement and Danger as the trade-off.
 
 In other types, scenery might be a witness, document, crowd, access point, market stall or bridge. Adapt the nearest effect only when its requirements and consequences remain meaningful.
 

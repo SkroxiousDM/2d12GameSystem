@@ -212,7 +212,7 @@ Spend Power on these effects:
   [Gain Position], [1], [Your side's next acting participant gains one bonus die on their action roll.],
   [Disarm], [3], [Disable a specific weapon, asset or key tag for the rest of the conflict.],
   [Create a Truth], [2], [Establish a justified scene Truth (§8.3), applying explicit discounts and the normal minimum cost.],
-  [Create a Situational Condition], [1 per rating], [Establish a rated external advantage or problem (§5.2), applying explicit discounts and the normal minimum cost.],
+  [Create a Situational Condition], [2 per rating], [Establish a rated external advantage or problem (§5.2), applying explicit discounts and the normal minimum cost.],
 ))
 Buy Impede, Gain Position and Disarm no more than once each per Maneuver; later successful actions may buy them again. Creating a hazard grants no immediate hazard attack or extra action.
 
@@ -239,7 +239,7 @@ Fictional relevance is required, but does not unlock prohibited purchases or har
 #figure(table(columns: (15%, 20%, 23%, 42%),
   table.header([Effect], [Permitted actions], [Price / limit], [Scope]),
   [Weaken], [Explicit ability only; any action], [As permitted by the ability and §5], [Not a cheaper Disarm. Use Maneuver's priced Disarm to disable an asset.],
-  [Create], [Maneuver], [2 Power per Truth, 1 per Situational Condition rating; explicit discounts and minimum cost apply], [Establish a justified scene Truth or Situational Condition.],
+  [Create], [Maneuver], [2 Power per Truth, 2 per Situational Condition rating; explicit discounts and minimum cost apply], [Establish a justified scene Truth or Situational Condition.],
   [Enhance], [Defend or Maneuver], [Normal tier price (§5)], [A helpful personal status; normal scope and stacking. Harmful statuses need an explicit harm permission.],
   [Restore], [Defend], [Normal tier price (§5)], [Normal scope, stacking and treatment limits. Maneuver has no default permission.],
   [Discover], [Any successful action], [1 Power per question; repeatable], [Only answers that follow from this action, not unrelated or remote investigation.],

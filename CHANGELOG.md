@@ -6,6 +6,19 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Truths and Conditions review decisions (2026-11-20)
+
+- Core Rules §5, §10.6 and the Quick Reference: Create buys a Situational Condition at 2 Power per rating (was 1), and Weaken reduces one at 2 Power per rating. Weaken on a status tier or tag Suppress stays at 1 Power.
+- Core Rules §5.2: building on the same circumstance sets a Condition one rating above the higher, never above 6. When a harmful Condition first reaches 6, the GM gains one free fitting consequence or a matching Truth that lasts as long as the Condition, whichever is more narratively appropriate, without spending Woe.
+- Core Rules §5.3: the example table splits Obstructed into Concealed (helpful) and Obstructed (harmful).
+- Core Rules §10.8: Floor Collapse now costs 2 Power, the same as Make a Hazard and a normal Truth.
+- Modules A, B, D and E and the example of play: converted ratings drop to 2 per old Truth rank (relationship Conditions 4/2/—/2/4; strategic advantages 2 and 4; Poor Rest, Well Appointed, Short-Handed and terrain 2; Dim Lighting 2). Module A's cypher examples are recalculated, and the Phase key gains a Create (*unseen entry*) Effect. Module C.1's Condition example is now *Martial law*.
+- Generic Playbooks and Focuses: Briefing costs 1 Power less than a normal Condition (minimum 1), and Analyze's discount now also covers Conditions. Jury-Rig, Lost Knowledge and Quick Change can create a helpful rating-1 Condition instead of their Truth. Rig the Field can add a rating-2 Condition to one of its Truths. Cheap Shot inflicts a tier-1 Personal status. Weather Sense lets you set the weather Condition's rating, 1 to 4. Trick Shot, Hunter's Eye, Infiltrator and Pathfinder drop their "doesn't bypass a Truth" or impossible-shot limits, which §8.5 already covers.
+- Adversaries §6: Shape the Ground can create a harmful rating-1 Condition instead of a Truth.
+- Kept after review: ±6 per modifier slot, the 1-per-scene danger Woe cap, the 2-point Truth limits, the 140-page length, and Shadow-Born, Silver Tongue, Many Faces, Belongs Anywhere, Back Door, Contingency, Rank, Master Key, Living Archive and Lockdown as written.
+- All 22 open items in `docs/design/truths-conditions-review-flags.md` are now marked Decided.
+- Generic Focuses §8: the Regeneration name gets soft hyphens so it no longer runs into the Effect column.
+
 ### Changed — Four-field ability review decisions (2026-11-20)
 
 - Generic Playbooks and Focuses: the 31 open questions from the four-field pass are settled, as listed in the Decisions table of `docs/design/four-field-ability-review-flags.md`. Changes include Briefing (a *Briefed* Situational Condition at 1 Power less per rating), Ward (depleting *warded-X*), Ritual (4-segment clocks for lower workings; cost once, Backlash every roll), Domain in the four-field format, Miracle Worker (ends Dying and erases the tier-6 Scar), Disarming (usable mid-fight at one step harder) and limits or clarifications for the rest.

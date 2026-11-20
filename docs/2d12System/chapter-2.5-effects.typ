@@ -10,8 +10,8 @@
     table.header([Effect], [Cost], [What it does],),
     table.hline(),
     [#strong[Attack];], [1 Power per tier], [Inflict a #strong[Status] (e.g. #emph[wounded-2];, #emph[rattled-1];, #emph[on fire-3];). In conflicts, Attack removes Disposition instead (§10.6)],
-    [#strong[Weaken];], [1], [Reduce one of the target\'s statuses by 1 tier, reduce a harmful Situational Condition by 1 rating by addressing its cause, or #strong[Suppress] one of the target's tags for the scene. In conflicts, only with an explicit ability (§10.6)],
-    [#strong[Create];], [2 (Truth) or 1 per rating (Situational Condition)], [Create a scene #strong[Truth] (#emph[a rope bridge spans the gap]; §8) or a #strong[Situational Condition] (#emph[smoke cover 2], #emph[crowd on our side 1]; §5.2). Either lasts for the scene or until its removal condition is met. +1 Power: it ignores the end of the scene. Record it in the standard format],
+    [#strong[Weaken];], [1, or 2 per rating (Situational Condition)], [Reduce one of the target\'s statuses by 1 tier, reduce a harmful Situational Condition by 1 rating by addressing its cause, or #strong[Suppress] one of the target's tags for the scene. In conflicts, only with an explicit ability (§10.6)],
+    [#strong[Create];], [2 (Truth) or 2 per rating (Situational Condition)], [Create a scene #strong[Truth] (#emph[a rope bridge spans the gap]; §8) or a #strong[Situational Condition] (#emph[smoke cover 2], #emph[crowd on our side 1]; §5.2). Either lasts for the scene or until its removal condition is met. +1 Power: it ignores the end of the scene. Record it in the standard format],
     [#strong[Enhance];], [1 per tier], [Give an ally a helpful personal status (#emph[inspired-2];)],
     [#strong[Restore];], [1 per tier], [Reduce a harmful status on yourself or an ally. Lasting injuries have limits (§6.6)],
     [#strong[Discover];], [1], [Ask the GM one question; you get a true, useful answer],
@@ -59,10 +59,10 @@ A #strong[Situational Condition] is an external circumstance that helps or hinde
 
 - #strong[Ratings 1--6.] On a roll, add the rating of the highest relevant helpful Situational Condition and subtract the rating of the highest relevant harmful one (§2.1). The same Condition can help one action and hinder another: #emph[thick smoke] hinders aiming through it and helps hiding in it.
 - #strong[Recording.] Use the standard format: #emph[Rehearsed escape plan] --- Situational Condition 2 --- helps participants follow the agreed routes, signals and fallbacks --- ends when the escape is completed or circumstances invalidate the plan.
-- #strong[Creating and reducing.] Create buys a Situational Condition at 1 Power per rating, and Weaken reduces one by 1 rating per Power by addressing its cause (§5). Established circumstances, equipment, hazards, consequences and explicit abilities can also supply one through their own rules. Weal and Woe can't buy ratings directly (§9).
-// PLAYTEST: Situational Condition accumulation. Interim rule below; test whether 1 Power per rating underprices broad Conditions.
-- #strong[No stacking.] Situational Conditions don't use status stacking. Building on the same circumstance raises its rating to the higher of the old and new values, never above 6.
-- #strong[Rating 6] is the most a Condition can be. It doesn't Take Out, cause a Scar or inflict harm by itself; a dangerous place uses its listed Danger or harm procedure (§8.5, §6).
+- #strong[Creating and reducing.] Create buys a Situational Condition at #strong[2 Power per rating], and Weaken reduces one at #strong[2 Power per rating] by addressing its cause (§5). Established circumstances, equipment, hazards, consequences and explicit abilities can also supply one through their own rules. Weal and Woe can't buy ratings directly (§9).
+// PLAYTEST: Situational Condition stacking (one above the higher rating, as statuses); test whether 2 Power per rating prices broad Conditions fairly against 1 per status tier.
+- #strong[Stacking.] Building on the same circumstance sets the Condition to #strong[one rating above the higher] of the existing and new ratings, never above 6 (#emph[Dim Lighting 3] darkened by a rating-2 Condition becomes #emph[Dim Lighting 4]). This matches status stacking (§5.1).
+- #strong[Rating 6] is the most a Condition can be. When a harmful Condition first reaches rating 6, the GM gets #strong[one free consequence] that fits it (the guards are called, a contact cuts ties) #strong[or a matching Truth] that prohibits or requires something (#emph[Discredited 6]: nobody here will vouch for you), whichever is more narratively appropriate, with no Woe spent. Choose a consequence as in §2.5 and keep either within the stakes; a Truth created this way lasts as long as the Condition. The Condition doesn't Take Out, cause a Scar or inflict harm by itself; a dangerous place uses its listed Danger or harm procedure (§8.5, §6).
 - #strong[Set the category by cause.] Classify by what caused the fact, not by its name, where it's written or the most useful slot. Renaming doesn't change it; review category and scope only when circumstances genuinely change.
 ]
 #table(
@@ -112,6 +112,7 @@ The following names are examples, not a closed list. When recording one, give it
   [Supported], [Helps actions drawing on established backing from allies, a crowd, or an institution.],
   [Trusted], [Helps persuading or reassuring a particular person or group that believes in you.],
   [Discredited], [Hinders claims and appeals made to an audience whose trust has been damaged.],
+  [Concealed], [Helps hiding or moving unseen through smoke, darkness or cover.],
   [Obstructed], [Hinders movement or sight through terrain, weather, smoke or darkness.],
 )
 #columns(2, gutter: 6mm)[

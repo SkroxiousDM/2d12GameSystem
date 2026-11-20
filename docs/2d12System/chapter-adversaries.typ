@@ -85,7 +85,7 @@ The Role names the Best action and gives one trait. Assign Fair to two other act
   [Shooter], [Attack], [#strong[Dead Aim.] Free bonus die on its first Attack each scene.],
   [Bulwark], [Defend], [#strong[Interpose.] Once per exchange, it may intercept an ally's imposed status before Resistance or harm reduction, using its own normal reduction instead. Alternatively, use Hold the Line to reduce one successful opposing Attack's ordinary loss by 1. Both options share one use per exchange (§6.13). Outside conflicts, it may likewise intercept fitting harm without a separate frequency limit. Follow the full timing, exclusions and area restrictions in §6.13.],
   [Skirmisher], [Maneuver], [#strong[Hit and Run.] A successful Maneuver also removes 1 Disposition from the opponent.],
-  [Controller], [Maneuver], [#strong[Shape the Ground.] Once per scene, Create a Truth for 1 Woe (not 2) or for 1 Power from a Maneuver.],
+  [Controller], [Maneuver], [#strong[Shape the Ground.] Once per scene, Create a Truth, or instead a harmful rating-1 Situational Condition (#emph[choking smoke 1]), for 1 Woe or for 1 Power from a Maneuver.],
   [Trickster], [Feint], [#strong[Ambush.] If the PCs have not noticed it when the conflict begins, its side starts with +2 Disposition.],
   [Leader], [Defend or Maneuver], [#strong[Command.] While the Leader remains able to participate, minion groups on its side get +1 to all ratings, and changing its side's script costs 2 Woe (not 3).],
 ))

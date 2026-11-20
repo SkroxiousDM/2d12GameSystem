@@ -52,7 +52,7 @@ These are open questions found while converting the core rulebook to the four-fi
 
 | # | Ability | Decision |
 |---|---|---|
-| 1 | Briefing | Creates the Situational Condition *Briefed* for 1 Power per rating minus 1 (rating 1 free), once per scene. |
+| 1 | Briefing | Creates the Situational Condition *Briefed* for 1 Power less than a normal Condition (rating 1 for 1, rating 2 for 3), once per scene. |
 | 2 | Master of the Field ◆ | The once-per-session question is free, with no roll, like Encyclopedic. |
 | 3 | Network | The contact is a Site Truth that lasts while it matters in that place. |
 | 4 | Pathfinder | Without Module B, each travel or pursuit clock counts as one leg. |

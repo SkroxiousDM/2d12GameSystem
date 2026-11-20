@@ -87,7 +87,7 @@ Sniper, archer, gunslinger: steady breath and a sharp eye.
       trigger: [You shoot past cover or angles, or shoot an object (cut a rope, hit a switch, ricochet).],
       cost: [No additional cost.],
       benefit: [Ignore harmful Situational Conditions from cover and awkward angles. Gain a free #strong[Extra Feat] when you shoot objects.],
-      limit: [The shot must be physically possible: no shooting through an impenetrable barrier or without a line of fire. Normal Extra Feat permissions apply.],
+      limit: [Normal Extra Feat permissions apply.],
     )],
     // PLAYTEST: R4, defines One Shot inside scripted conflicts.
     [3a], [#strong[One Shot];], [#ability(

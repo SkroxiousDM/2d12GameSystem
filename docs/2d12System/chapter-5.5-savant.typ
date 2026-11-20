@@ -37,10 +37,10 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
       limit: [Once per scene, one question.],
     )],
     [2], [#strong[Analyze];], [#ability(
-      trigger: [You buy Discover while studying a foe or obstacle, or you Create a Truth that exploits a revealed weakness.],
-      cost: [The normal Discover cost. That Create costs #strong[1 Power less] (Core Rules §5).],
+      trigger: [You buy Discover while studying a foe or obstacle, or you Create a Truth or Situational Condition that exploits a revealed weakness.],
+      cost: [The normal Discover cost. That Create costs #strong[1 Power less] (Core Rules §5), minimum 1: a Truth costs 1, a rating-1 Condition 1, a rating-2 Condition 3.],
       benefit: [Each Discover also reveals #strong[one weakness tag] of the target.],
-      limit: [The Truth is leverage, not automatic victory.],
+      limit: [The Truth or Condition is leverage, not automatic victory.],
     )],
     [3], [#strong[Field Medic];], [#ability(
       trigger: [You use Medicine to Restore, or to treat #emph[Sick] (Module B).],
@@ -62,7 +62,7 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
     )],
     [6], [#strong[Briefing];], [#ability(
       trigger: [You explain a plan to your allies before they act on it.],
-      cost: [#strong[1 Power per rating, minus 1]: rating 1 is free, rating 2 costs 1 Power, and so on. Power comes from a roll to prepare the plan.],
+      cost: [#strong[1 Power less] than a normal Situational Condition (Core Rules §5.2): rating 1 costs 1 Power, rating 2 costs 3, and so on. Power comes from a roll to prepare the plan.],
       benefit: [Create the Situational Condition #emph[Briefed] (Core Rules §5.2): #emph[Briefed] --- Situational Condition X --- helps allies' actions that follow the plan --- ends when the scene ends or the plan is abandoned.],
       limit: [Once per scene. Uses the helpful Condition slot, so it doesn't add to a higher helpful Condition (Core Rules §2.1).],
     )],

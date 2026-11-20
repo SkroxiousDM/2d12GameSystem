@@ -177,8 +177,8 @@ Honour is for people who can afford to lose.
     [1], [#strong[Cheap Shot];], [#ability(
       trigger: [You make an Attack.],
       cost: [#strong[1 Power].],
-      benefit: [As part of the Attack, Create a Truth (#emph[sand in the eyes], #emph[low blow]).],
-      limit: [Once per scene. This permits only the Create purchase on that Attack.],
+      benefit: [As part of the Attack, the target also takes a tier-1 Personal status from the dirty trick (#emph[blinded-1], #emph[winded-1]). In a conflict, this is in addition to the Disposition the Attack removes.],
+      limit: [Once per scene. Tier 1 only; the target can Resist it normally.],
     )],
     [2a], [#strong[Improvised Arsenal];], [#ability(
       trigger: [You use anything in reach as a weapon: chairs, bottles, tools.],

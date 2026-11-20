@@ -187,7 +187,7 @@ Mutant, cyborg, half-fae, or carrier of a strange bloodline.
       limit: [Related rolls only.],
     )],
     // PLAYTEST: R2, short rest = Second or Third rest, full rest = Fourth rest (Core Rules §6.5).
-    [2b], [#strong[Regeneration];], [#ability(
+    [2b], [#strong[Regen­era­tion];], [#ability(
       trigger: [You take a Second, Third or Fourth rest.],
       cost: [No additional cost.],
       benefit: [A Second or Third rest lowers #strong[one physical status by 1 tier]. A Fourth rest clears 2 tiers from every physical status.],

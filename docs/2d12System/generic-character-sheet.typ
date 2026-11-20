@@ -167,7 +167,7 @@
     grid(columns: (auto, 1fr), column-gutter: 6pt, align: horizon,
       lbl(size: 6.5pt, fill: ink)[Effort Level],
       [#cb() 1 #h(6pt) #cb() 2 #h(6pt) #cb() 3])
-    note[*Effort:* each use costs *3 − Edge* from the pool (min 0); uses per roll = Effort Level. Each buys *+1 bonus die* (before rolling) or *+1 Power* (after a success). Max +2 bonus dice, keep the best two. *Running dry:* a positive cost that empties a pool imposes a status at tier 1 + overrun. Only Resistance and imposed costs may overrun. Tier 6: Taken Out within scope and a Scar. Pools and statuses recover separately; no automatic refill (Core §6.1–6.5).]
+    note[*Effort:* each use costs *3 − Edge* from the pool (min 0); uses per roll = Effort Level. Each buys *+1 bonus die* (before rolling) or *+1 Power* (after a success). Max +2 bonus dice, keep the best two. *Running dry:* a positive cost that empties a pool imposes a status at tier 1 + overrun. Only Resistance and imposed costs may overrun. Tier 6: Taken Out within scope and a Scar. Pools and statuses recover separately; no automatic refill (Core Rules §6.1–6.5).]
   },
   {
     grid(columns: (auto, 1fr, auto), column-gutter: 6pt, align: horizon,
@@ -207,7 +207,7 @@
       *Roll 2d12 + Skill + Tags (max +2) ± Status ± Condition* vs. Difficulty: Easy 12 · Standard 15 · Hard 18 · Formidable 21 · Heroic 24. Truths give no modifier; they decide what is possible. \
       *Meet it:* Success, 1 Power (+1 per full 3 over). *Miss by 1–3:* Success at a Cost (a consequence or GM +1 Woe, your choice). *Miss by 4+:* Failure, GM +1 Woe. \
       *Doubles:* success +1 Power; failure or cost, a complication (buy off: GM +2 Woe). Double 12s: success, +2 Power. Double 1s: always a complication. \
-      *Bonus dice:* Effort · Weal (1, then 2) · give the GM 1 Woe · Help · Specialisation (free). Unspent Power → party *Weal* (max 6).
+      *Bonus dice:* Effort · Weal (1, then 2) · give the GM Woe (1, then 2) · Help · Specialisation (free). Unspent Power → party *Weal* (max 6).
     ]
   },
   // ---------- right column
@@ -314,7 +314,7 @@
     note[*End of session, +1 per yes:* hit your playbook trigger (2 with lethal stakes or a listed Danger) · accomplished your Goal (+2) · a Belief drove a meaningful decision (max 1) · your Instinct caused trouble or saved the day · you faced a weakness or Scar. \
     *Advance:* +1 skill (pyramid) · +3 to a pool or +1 Edge (max 3) · new ability · new power tag, or rewrite a weakness · new Specialisation · +1 Refresh (max 3 + 1 per 3 Advances) · next Focus tier (3 Advances per tier) · +1 Effort Level (Level 2 at 3 Advances, Level 3 at 9) · Quick Recovery (once).]
 
-    sec([Knowledge & Contacts], sub: [Core §3.3, §3.6])
+    sec([Knowledge & Contacts], sub: [Core Rules §3.3, §3.6])
     lbl[Knowledge Skills · unrated · permission, not a bonus]
     lines(2, h: 15pt)
     v(3pt)

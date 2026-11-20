@@ -1,16 +1,16 @@
 #import "common.typ": *
 
-== 11. Playbooks
+== 11. Playbooks <core-playbooks>
 #columns(2, gutter: 5mm)[
 A playbook gives your character base pools and Edge, an anchor skill (+3 or +4), special abilities, an XP trigger, a load-out list and relationship prompts (1 ally, 1 rival). Each generic playbook has eight special abilities and a capstone. The full rules and all six playbooks are in Generic Playbooks.
 #colbreak()
-- #strong[At creation:] 1 special ability free, and up to 2 more at 1 Refresh each; ★ costs 1 more (§3.6).
-- #strong[Later:] new abilities, veteran abilities and capstones follow §12.2.
+- #strong[At creation:] 1 special ability free, and up to 2 more at 1 Refresh each (@core-starting-resources).
+- #strong[Later:] new abilities, veteran abilities and capstones follow @core-spending-xp.
 
 Settings rename and reskin playbooks (Adept becomes \"Hedge Witch\" in fantasy, \"Netrunner\" in cyberpunk) but keep the structure.
 ]
  
-=== 11.1 Generic Core Playbooks
+=== 11.1 Generic Core Playbooks <core-generic-core-playbooks>
 #figure(
   [#table(
     columns: (11%, 15%, 15%, 37%, 22%),

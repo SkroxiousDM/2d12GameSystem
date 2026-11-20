@@ -1,24 +1,27 @@
 #import "common.typ": *
 
-== 2. Core Resolution
+== 2. Core Resolution <core-core-resolution>
   #columns(2, gutter: 6mm)[
-=== 2.1 The Roll
+=== 2.1 The Roll <core-roll>
 #strong[Roll 2d12 + Skill + Modifiers vs. Difficulty.]
 
 - #strong[Skill:] +0 to +4 (from the skill pyramid; untrained = +0).
 - #strong[Tags:] +1 per relevant #strong[power tag];, #strong[maximum +2 per roll];. −1 per relevant #strong[weakness tag] (no cap).
-- #strong[Personal statuses:] + the tier of the highest relevant helpful status, − the tier of the highest relevant harmful status (§5.1).
-- #strong[Situational Conditions:] + the rating of the highest relevant helpful Condition, − the rating of the highest relevant harmful one (§5.2).
-- #strong[Truths] add nothing to the roll. They decide whether an action is possible, certain or needs something first (§8).
+- #strong[Personal statuses:] + the tier of the highest relevant helpful status, − the tier of the highest relevant harmful status (@core-personal-statuses).
+- #strong[Situational Conditions:] + the rating of the highest relevant helpful Condition, − the rating of the highest relevant harmful one (@core-situational-conditions).
+- #strong[Truths] add nothing to the roll. They decide whether an action is possible, certain or needs something first (@core-truths).
 
 Use at most one helpful and one harmful modifier from each of the two slots; equal ratings don't combine, and the others stay recorded for other actions. Assess each actor separately in a versus test, and don't add an extra modifier just because the opponent is hindered.
+
+// PLAYTEST: flat modifiers outside the slots (M4)
+#strong[Fixed modifiers.] A rule that names a fixed modifier, such as Impede (−3, @core-actions-effects) or the Grind's #emph[sick] (−1, Module B.3), applies it in addition to the slots; it isn't a status or Condition and doesn't use a slot. Adversary Guard raises the Difficulty instead (@core-scripting-volleys), and Gain Position adds a bonus die (@core-bonus-dice-effort). (Playtest Value)
 
 // PLAYTEST: status and Condition slots together range from −12 to +12; no lower Situational cap adopted.
 #emph[Example:] dice 16 + Skill 3 − #emph[exhausted-3] + #emph[rehearsed plan 2] − #emph[slippery bridge 3] = 15.
 
 Why 2d12 summed: it produces a bell curve (2--24, average 13) --- predictable for skilled characters, swingy at the extremes, and big enough that +1 modifiers matter without dominating.
 
-=== 2.2 Difficulty Ladder
+=== 2.2 Difficulty Ladder <core-difficulty-ladder>
 #figure(
   [#table(
     columns: (19%, 11%, 70%),
@@ -40,9 +43,9 @@ Why 2d12 summed: it produces a bell curve (2--24, average 13) --- predictable fo
 
 Roll only when the outcome is uncertain and matters; otherwise the action is Trivial and simply happens. Each step of Difficulty is 3 points. Modifiers can push a target below Routine 9; it is still a number to roll against, not an automatic success.
 
-#strong[Permission comes first.] Before setting a Difficulty, ask whether the character can attempt the action at all. A relevant background, Knowledge Skill (§3.3), tool or ability can make an action possible, or remove an obstacle caused only by its absence. Permission isn't a bonus: it adds no die or modifier unless a rule says so. A suitable diagnostic kit lets you inspect a sealed mechanism without damaging it; it doesn't guarantee you identify the fault. Relevant Truths are part of this check (§8.1). If the outcome is still uncertain and matters, roll.
+#strong[Permission comes first.] Before setting a Difficulty, ask whether the character can attempt the action at all. A relevant background, Knowledge Skill (@core-skill-pyramid), tool or ability can make an action possible, or remove an obstacle caused only by its absence. Permission isn't a bonus: it adds no die or modifier unless a rule says so. A suitable diagnostic kit lets you inspect a sealed mechanism without damaging it; it doesn't guarantee you identify the fault. Relevant Truths are part of this check (@core-possibility-before-difficulty). If the outcome is still uncertain and matters, roll.
 
-=== 2.3 Odds Reference
+=== 2.3 Odds Reference <core-odds-reference>
 Chance to hit the number needed on the dice (after subtracting your bonuses):
 
 #figure(
@@ -65,7 +68,7 @@ Chance to hit the number needed on the dice (after subtracting your bonuses):
 
 Example: Skill +3 and one tag (+1) vs. Standard 15 → need 11+ → #strong[69%];, or #strong[88%] with one bonus die.
 
-=== 2.4 Bonus Dice and Effort
+=== 2.4 Bonus Dice and Effort <core-bonus-dice-effort>
 You can add d12s to the roll and #strong[keep the best two];. Maximum #strong[+2 bonus dice] (4d12 keep 2) from any combination of:
 
 #figure(
@@ -76,9 +79,10 @@ You can add d12s to the roll and #strong[keep the best two];. Maximum #strong[+2
     table.hline(),
     [#strong[Effort];], [3 points from the relevant pool, minus that pool\'s Edge (min 0), per use],
     [#strong[Weal];], [1 for the first die, 2 for the second],
-    [#strong[Woe];], [Give the GM 1 Woe per die],
+    // PLAYTEST: Woe-bought dice cost the Weal price in Woe (M3)
+    [#strong[Woe];], [Give the GM Woe equal to the Weal cost (1 for the first die, 2 for the second) (Playtest Value)],
     [#strong[Help];], [An ally spends 1 point from a pool and shares the consequences],
-    [#strong[Specialisation];], [Free: one die when a Specialisation directly applies (§3.3)],
+    [#strong[Specialisation];], [Free: one die when a Specialisation directly applies (@core-skill-pyramid)],
   )]
   , kind: table
   )
@@ -90,13 +94,13 @@ You can add d12s to the roll and #strong[keep the best two];. Maximum #strong[+2
 
 Example: Effort Level 2 lets you buy one bonus die before the roll, then spend again for +1 Power if you succeed.
 
-#strong[Paying costs.] Pay Effort and Help in full; you can't spend points a pool doesn't have unless a rule says so (§6.1). Paying the last point runs the pool dry; a cost of 0 never does. Pay each listed cost separately, when its rule says. If a cost takes you out, finish that action, but buy no more Effort or abilities for it.
+#strong[Paying costs.] Pay Effort and Help in full; you can't spend points a pool doesn't have unless a rule says so (@core-running-dry). Paying the last point runs the pool dry; a cost of 0 never does. Pay each listed cost separately, when its rule says. If a cost takes you out, finish that action, but buy no more Effort or abilities for it.
 
-#strong[Free benefits.] Free bonus dice still count toward the +2 cap. Free Help waives only the pool cost: the helper must still be relevant and still shares the risk. Backing a side at the start of a conflict is not Help (§10.2).
+#strong[Free benefits.] Free bonus dice still count toward the +2 cap. Free Help waives only the pool cost: the helper must still be relevant and still shares the risk. Backing a side at the start of a conflict is not Help (@core-setup).
 
-#strong[What Woe buys.] When you buy a die with Woe, say what you do differently to earn the better chance. If the approach makes extra exposure apparent, the GM describes it; it doesn't add a second automatic consequence. The Woe is the price, and the GM spends it later (§9.2).
+#strong[What Woe buys.] When you buy a die with Woe, say what you do differently to earn the better chance. If the approach makes extra exposure apparent, the GM describes it; it doesn't add a second automatic consequence. The Woe is the price, and the GM spends it later (@core-woe).
 
-=== 2.5 Outcomes
+=== 2.5 Outcomes <core-outcomes>
 #figure(
   [#table(
     columns: (24%, 76%),
@@ -110,9 +114,9 @@ Example: Effort Level 2 lets you buy one bonus die before the roll, then spend a
   )]
   , kind: table
   )
-#strong[Power] is spent on #strong[Effects] (§5). Any Power you don\'t spend becomes #strong[Weal] (party pool, max 6).
+#strong[Power] is spent on #strong[Effects] (@core-effects). Any Power you don\'t spend becomes #strong[Weal] (party pool, max 6).
 
-#strong[Choosing a consequence.] When a rule calls for a consequence, such as Success at a Cost, a failure's GM move or a complication, the table below suggests the kind of trouble to pick. It creates no new trigger and no severity track, and scripted conflicts still follow §10.7: judge severity by fictional impact. A minor consequence changes the next decision; a more serious one changes the scene or leaves a problem to deal with afterward. #strong[If the test succeeded, keep what it earned.]
+#strong[Choosing a consequence.] When a rule calls for a consequence, such as Success at a Cost, a failure's GM move or a complication, the table below suggests the kind of trouble to pick. It creates no new trigger and no severity track, and scripted conflicts still follow @core-costs-failures-complications: judge severity by fictional impact. A minor consequence changes the next decision; a more serious one changes the scene or leaves a problem to deal with afterward. #strong[If the test succeeded, keep what it earned.]
 
 #figure(
   [#table(
@@ -128,26 +132,25 @@ Example: Effort Level 2 lets you buy one bonus die before the roll, then spend a
   , kind: table
   )
 
-#strong[Versus tests, conflicts and automatic success.] Versus tests compare opposing totals instead of using this table (§10.5). Inside scripted conflicts, §10.7 limits what failure, costs and Woe can do. An automatic success replaces the roll: apply its listed Power, with no dice-based critical or complication.
+#strong[Versus tests, conflicts and automatic success.] Versus tests compare opposing totals instead of using this table (@core-scripting-volleys). Inside scripted conflicts, @core-costs-failures-complications limits what failure, costs and Woe can do. An automatic success replaces the roll: apply its listed Power, with no dice-based critical or complication.
 
-=== 2.6 Doubles (Twists)
+=== 2.6 Doubles (Twists) <core-doubles>
 If your two #strong[kept] dice show the same number:
 
 - #strong[On a success:] Critical --- +1 Power and add a narrative flourish.
 - #strong[On a failure or cost:] Complication --- the GM introduces a complication right away.
 - #strong[Double 12s:] an independent test always succeeds, with +2 Power instead of +1.
 - #strong[Double 1s:] always bring a complication, even on a success, but don't fail automatically. A success still gains the +1 critical Power.
-- #strong[Buying it off.] When the dice give you a complication (a twist, or a Risky roll, §2.7), you may cancel it by giving the GM #strong[2 Woe]: a problem now, or a problem later. If you keep it and the GM can't think of a fitting complication, the GM gains the 2 Woe instead.
+- #strong[Buying it off.] When the dice give you a complication (a twist, or a Risky roll, @core-risky-rolls), you may cancel it by giving the GM #strong[2 Woe]: a problem now, or a problem later. If you keep it and the GM can't think of a fitting complication, the GM gains the 2 Woe instead.
 - #strong[NPCs.] When the dice give an NPC a complication, the GM may spend #strong[2 Woe] to cancel it. Otherwise the GM describes the complication, or invites the players to.
 
-Base chance of doubles on 2d12 is about 8% (1 in 12). Doubles created by an ability count as rolled doubles. For doubles in versus tests and conflicts, see §10.7.
+Base chance of doubles on 2d12 is about 8% (1 in 12). Doubles created by an ability count as rolled doubles. For doubles in versus tests and conflicts, see @core-costs-failures-complications.
 
-=== 2.7 Risky Rolls (Optional)
+=== 2.7 Risky Rolls (Optional) <core-risky-rolls>
 Some rolls aren't harder, just more dangerous. Before a roll, the GM may call it #strong[Risky 1], #strong[2] or #strong[3].
 
 - #strong[Risk die.] Roll one extra d12 of a different colour with the others. It's never kept, doesn't add to the total and doesn't count toward the bonus dice maximum.
-#colbreak()    
-- #strong[Complication.] If the Risk die shows the rating or lower, a complication occurs after the roll is resolved, whatever the result and on top of any twist. You can buy it off for 2 Woe (§2.6).
+- #strong[Complication.] If the Risk die shows the rating or lower, a complication occurs after the roll is resolved, whatever the result and on top of any twist. You can buy it off for 2 Woe (@core-doubles).
 - #strong[Raising the stakes.] The GM may spend #strong[1 Woe] to make a roll Risky 1, or to raise its rating by 1 (maximum 3). Settings may make some hazards Risky by default.
 
 #figure(
@@ -162,5 +165,8 @@ Some rolls aren't harder, just more dangerous. Before a roll, the GM may call it
   )]
   , kind: table
   )
+
+// ART: A climber on a fraying rope bridge, one odd-coloured die tumbling into the gorge below.
+#art-fill(min: 6cm)[A climber on a fraying rope bridge, one odd-coloured die tumbling into the gorge below.]
 
   ]

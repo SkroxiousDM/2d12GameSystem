@@ -1,7 +1,7 @@
 #import "common.typ" : *
 
 #pagebreak(weak: true)
-== 3. Bellator
+== 3. Bellator <pb-bellator>
 #playbook-art-side("01-bellator.jpg", "Bellator playbook character art")[
 #quote(block: true)[
 Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers, bouncers, gladiators, mercenaries, security officers.
@@ -23,7 +23,7 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
 #strong[Playbook tags (choose 2):] #emph[built like a wall] · #emph[veteran of the line] · #emph[scarred and unbothered] · #emph[iron grip] · #emph[knows how a fight will go] · #emph[the look that stops trouble]
 ]
 
-=== 3.1 Special Abilities
+=== 3.1 Special Abilities <pb-bellator-special-abilities>
 #figure(
   [#table(
     columns: (5%, 14%, 81%),
@@ -32,7 +32,7 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
     table.hline(),
     [1], [#strong[Juggernaut];], [#ability(
       trigger: [You Resist physical harm with Sōma.],
-      cost: [Pay the normal Resistance cost. This ability adds no cost.],
+      cost: [No additional cost.],
       benefit: [Reduce the incoming harmful status by #strong[3 tiers] instead of 2.],
       limit: [Only physical harm Resisted with Sōma. All other Resistance rules work normally.],
     )],
@@ -83,13 +83,13 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
       trigger: [Your reputation applies as a Campaign Truth; a Fight conflict begins; or the GM brings in reinforcements while you remain an active participant in the conflict.],
       cost: [No activation cost. The GM pays +1 Woe for reinforcements while you remain an active participant in the conflict.],
       benefit: [Your reputation is a #strong[Campaign Truth] (#emph[\"Everyone knows \[name\]\"]). In Fight conflicts, enemy starting Disposition is #strong[−2].],
-      limit: [The Disposition reduction is a flat modifier (§1.2). The reinforcement surcharge ends when you cease to be an active participant in the conflict.],
+      limit: [The Disposition reduction is a flat modifier (@pb-ability-notation). The reinforcement surcharge ends when you cease to be an active participant in the conflict.],
     )],
   )]
   , kind: table
   )
 #pagebreak()
-=== 3.2 Starting Equipment
+=== 3.2 Starting Equipment <pb-bellator-starting-equipment>
 #strong[Signature weapon (choose 1)]
 
 #figure(
@@ -125,7 +125,7 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
 
 #strong[Always carried (0):] Fantasy: knuckle-wraps, battle trophy. Modern: brass knuckles, gym bag. Sci-Fi: reinforced gloves, unit insignia.
 
-=== 3.3 BIG Examples
+=== 3.3 BIG Examples <pb-bellator-big-examples>
 - #strong[Belief:] \"Strength is only worth something when it protects the weak.\" / \"Every fight I walk away from comes back worse.\"
 - #strong[Goal:] \"Get the merchant to the city gates alive.\" / \"Find out who hired the thugs.\"
 - #strong[Instinct:] \"Always stand between my friends and the door.\" / \"Never let an insult pass in public.\"

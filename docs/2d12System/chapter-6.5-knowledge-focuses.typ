@@ -1,6 +1,6 @@
 #import "common.typ": *
 #pagebreak() 
-== 5. Knowledge Focuses
+== 5. Knowledge Focuses <foc-knowledge-focuses>
 #columns(2, gutter: 6mm)[
 === 9. Builds Impossible Things
 #quote(block: true)[
@@ -84,13 +84,13 @@ Doctor, field medic, herbalist, or combat surgeon.
     [2b], [#strong[Remedy];], [#ability(
       trigger: [A Players' Turn (Module B).],
       cost: [#strong[No Check].],
-      benefit: [Clear one Grind condition from one ally.],
+      benefit: [Clear one Grind hardship from one ally.],
       limit: [Once per Players' Turn.],
     )],
     [3a], [#strong[Miracle Worker];], [#ability(
       trigger: [An ally has a tier-6 physical status.],
       cost: [No additional cost.],
-      benefit: [They return at tier 4, are no longer Taken Out, and may rejoin an unresolved conflict if circumstances allow. A Dying ally stops Dying; this counts as definitive care (Core Rules §6.7). Erase the Scar they gained from reaching tier 6 with this status.],
+      benefit: [They return at tier 4, are no longer Taken Out, and may rejoin an unresolved conflict if circumstances allow. A Dying ally stops Dying; this counts as definitive care (Core Rules @core-dying-stabilisation). Erase the Scar they gained from reaching tier 6 with this status.],
       limit: [Once per session. It can't undo death. A settled defeat stays settled.],
     )],
     // PLAYTEST: R2/B8, short rest replaced by the Third rest only.
@@ -186,7 +186,7 @@ Historian, archaeologist, or keeper of lost lore.
     [2a], [#strong[Lost Knowledge];], [#ability(
       trigger: [You've read about this before.],
       cost: [#strong[1 Power].],
-      benefit: [Create a Truth (#emph[ancient weakness], #emph[forgotten route]), or instead a helpful rating-1 Situational Condition from what you recall (#emph[known weakness 1]).],
+      benefit: [Create a Truth (#emph[Ancient Weakness], #emph[Forgotten Route]), or instead a helpful rating-1 Situational Condition from what you recall (#emph[known weakness 1]).],
       limit: [Once per session. One Truth or one Condition, rating 1 only.],
     )],
     [2b], [#strong[Relic Hunter];], [#ability(
@@ -200,7 +200,7 @@ Historian, archaeologist, or keeper of lost lore.
       trigger: [You make a Lore roll about history, legends or old cultures.],
       cost: [No additional cost.],
       benefit: [It is #strong[one Difficulty step lower].],
-      limit: [Difficulty reductions apply only against a Difficulty (§1.3).],
+      limit: [Difficulty reductions apply only against a Difficulty (@foc-ability-limits).],
     )],
     [3b], [#strong[★ Rewrite History];], [#ability(
       trigger: [You set out to prove a Campaign Truth false.],

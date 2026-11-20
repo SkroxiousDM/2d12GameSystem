@@ -6,6 +6,17 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Core pass 6: simplicity, flow and dynamic references (2026-11-20)
+
+- Whole core book: editorial pass for simplicity and flow. Truths are Title Case and Situational Conditions lower-case italics; the visible playtest marker is "(Playtest Value)"; references read "Core Rules §"; contractions in §10 and the Adversaries chapter.
+- Repeated rules now have one home: ★/Capstone/Veteran (Generic Playbooks §1.2, Core Rules §12.2), protected payments (§10.7), Running Dry (§6.1), NPC pools (§10.14). §10.15 Order of Resolution is grouped into Setup, Each Volley and Ending.
+- Adversaries: new §7 Special Rulings (old §§6.10--6.24); Templates is §8, Boss Phases §9, Quick Checklist §10. §6.3 lists differences from the core. Testament of Dust references updated.
+- Typst dynamic references: numbered headings carry labels and 557 § references use `@label`. A `show ref` rule in `common.typ` renders them; `web/build_html.py` resolves them to links (6 new tests). `CONTRIBUTING.md` explains the convention.
+- Optional Modules: source credits move from headings to a Sources paragraph in Combining Modules; D.6a becomes D.7 and D.7 becomes D.8. The credits page adds Situations for Tabletop Roleplaying and corrects :Otherscape.
+- Terms: "finishing procedure" throughout the core book; Weaken's cost cell names each price; Module B's Sick clears with Medicine vs. Hard 18.
+- PLAYTEST rulings: milestones and major milestones are defined in §12, and Module D's project milestones become clock stages; "refused compels" leaves the §9.2 Woe list (the §2.4 Tychē cost stands); a Woe-bought die costs 1 Woe for the first and 2 for the second (§2.4, Quick Reference, character sheets); §2.1 says fixed modifiers such as Impede −3 and _sick_ −1 apply outside the two slots; Grind conditions become Grind hardships in the core book.
+- Review notes: `docs/design/Rules Audit/simplicity-flow/core-rules-pass6-notes.md`.
+
 ### Changed — Truths and Conditions review decisions (2026-11-20)
 
 - Core Rules §5, §10.6 and the Quick Reference: Create buys a Situational Condition at 2 Power per rating (was 1), and Weaken reduces one at 2 Power per rating. Weaken on a status tier or tag Suppress stays at 1 Power.

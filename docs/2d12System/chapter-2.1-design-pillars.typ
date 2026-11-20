@@ -1,6 +1,6 @@
 #import "common.typ": *
 
-== 1. Design Pillars
+== 1. Design Pillars <core-design-pillars>
 #columns(2, gutter: 6mm)[
 + #strong[Every currency has one job.] Four resources, each answering a different question:
 
@@ -17,12 +17,12 @@
   )]
   , kind: table
   )
-Where each idea comes from: §14.
+Where each idea comes from: @core-design-notes.
 #colbreak()
 #block[
 #set enum(numbering: "1.", start: 2)
 + #strong[One roll, many outputs.] A single 2d12 roll tells you whether you succeed, how well (Power), and whether something twists (doubles).
-+ #strong[Fiction is mechanical.] Tags, statuses and Truths give recorded fiction mechanical weight: tags, statuses and Situational Conditions modify the roll, and Truths decide what is possible (§2, §5, §8). Use only the modifiers a rule names; don't invent situational maths.
++ #strong[Fiction is mechanical.] Tags, statuses and Truths give recorded fiction mechanical weight: tags, statuses and Situational Conditions modify the roll, and Truths decide what is possible (@core-core-resolution, @core-effects, @core-truths). Use only the modifiers a rule names; don't invent situational maths.
 + #strong[Characters are driven, not just capable.] Beliefs, Goals, and Instincts are the primary engine for earning Tychē Points and XP.
 ]
 ]

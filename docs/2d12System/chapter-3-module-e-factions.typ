@@ -1,6 +1,6 @@
 #import "common.typ": *
 
-== Module E — Factions, Standing & Obligations
+== Module E --- Factions, Standing & Obligations
 
 #columns(2, gutter: 6mm)[
 Organizations have ambitions, resources, loyalties, and limits. This module connects their struggles to the party's adventures: factions provide opportunities and assistance; the party's actions determine what those factions can accomplish.
@@ -9,7 +9,7 @@ Use this module when alliances, patronage, collective action or political conseq
 
 When enabled, it replaces Module C.5's faction actions, and E.1A replaces C.8; the rest of Module C still applies. Core rules apply to PC rolls, Effects, Truths, clocks and conflicts except where this module says otherwise.
 
-=== E.1 Faction Records
+=== E.1 Faction Records <mod-faction-records>
 
 A faction is an organized group pursuing a shared purpose: a household, village council, guild, temple, company of soldiers, criminal network, or administration.
 
@@ -30,7 +30,7 @@ The party may found or lead a faction. Give it ratings justified by its actual p
 
 #include "chapter-3-module-e.1a-starting-cluster.typ"
 
-=== E.2 Organizational Qualities
+=== E.2 Organizational Qualities <mod-organizational-qualities>
 
 #table(columns: (26%, 74%),
   table.header([Quality], [Measures]),
@@ -62,7 +62,7 @@ A permanent Cohesion of 0 is a #emph[crisis] when a faction has fallen to it (E.
 
 Assets determine what the faction can actually do. A treasury cannot occupy a town without personnel; soldiers cannot cross a sea without transport. A rating never creates an unstated army, fleet, office, or network.
 
-When an asset matters mechanically, record it as a Truth with scope and ending condition, or as a Situational Condition when it helps rolls by a number (Core Rules §5.2, §8.3). It adds its concrete advantage, not a second bonus restating the Quality.
+When an asset matters mechanically, record it as a Truth with scope and ending condition, or as a Situational Condition when it helps rolls by a number (Core Rules @core-situational-conditions, @core-establishing-recording). It adds its concrete advantage, not a second bonus restating the Quality.
 
 Record a distant branch separately when local capabilities matter. The imperial institution's full resources are not automatically available to every provincial official.
 
@@ -72,7 +72,7 @@ Change a permanent rating only after a lasting change to the capacity it represe
 
 An improvement normally requires an appropriate 8- or 12-segment project, a concrete new resource, and an outcome large enough to justify the next rating. Repetitive minor jobs cannot manufacture permanent growth. No Quality exceeds +4.
 
-=== E.3 Standing
+=== E.3 Standing <mod-standing>
 
 Standing measures the faction's normal policy toward the party, not the feelings of every member.
 
@@ -91,7 +91,7 @@ Standing is not membership, command, fear, or internal unity. A faction may be c
 
 ==== Relationship Conditions
 
-When identity is known and the relationship materially affects cooperation, access, or credibility, use one relationship Condition. It is a Situational Condition, because it records other people's response (Core Rules §5.2):
+When identity is known and the relationship materially affects cooperation, access, or credibility, use one relationship Condition. It is a Situational Condition, because it records other people's response (Core Rules @core-situational-conditions):
 
 // PLAYTEST: ratings converted at 2 per former Truth rank.
 #table(columns: (20%, 56%, 24%),
@@ -125,7 +125,7 @@ Secret deeds create no immediate public change. Record pending exposure when nec
 
 Helping one faction does not automatically offend every rival. Change another faction's Standing only when its interests were meaningfully affected and it knows whom to credit or blame.
 
-=== E.4 Personal Exceptions and Authority
+=== E.4 Personal Exceptions and Authority <mod-personal-exceptions-authority>
 
 Use party Standing by default. Record an individual exception only when a particular relationship matters: an estranged child of the leader, a sworn member, an acknowledged oathbreaker, or someone who saved a representative's life.
 
@@ -145,7 +145,7 @@ A legitimate seal may make access possible. It does not substitute Standing or a
 
 Record what a patron supplies, the service expected, what lies outside the arrangement, and what ends it. Routine agreed service is not a new favour each time. Refusal matters according to the actual agreement, not an unlimited claim on the character.
 
-=== E.5 Seeking Aid
+=== E.5 Seeking Aid <mod-seeking-aid>
 
 + State the assistance, timing, location, authorizing representative, burden, and offered compensation.
 + Check capability, reach, available assets, and the representative's authority.
@@ -170,22 +170,22 @@ For that single request check, use normal core outcomes, Power, doubles, and cur
 
 Extra Power can improve agreed scope, speed, or discretion where normal Effects and the fiction support it. It cannot buy permanent Standing or unlimited resources.
 
-#strong[When the request is a conflict,] set intent and stakes and use the conflict rules. The burden ladder is for single checks only: volleys use Standard 15 or versus totals as normal, and failures follow Core Rules §10.7. Victory grants the agreed intent, subject to compromise, not command of the faction (Core Rules §10.12--10.13).
+#strong[When the request is a conflict,] set intent and stakes and use the conflict rules. The burden ladder is for single checks only: volleys use Standard 15 or versus totals as normal, and failures follow Core Rules @core-costs-failures-complications. Victory grants the agreed intent, subject to compromise, not command of the faction (Core Rules @core-defeat-mutual-defeat-concession[§]--@core-compromise[]).
 
-=== E.6 Faction Support in Party Scenes
+=== E.6 Faction Support in Party Scenes <mod-faction-support-party-scenes>
 
 A Quality establishes what support the faction can organize; Standing, authority, and obligations govern whether it is provided. No faction Quality is added directly to a PC roll.
 
 Support has one concrete application:
 - Permission: equipment, credentials, transport, or access makes the action possible, or removes the need for a particular roll.
-- A scoped Situational Condition: actual conditions modify relevant rolls (Core Rules §5.2). A Truth that only makes something possible is Permission.
-- Active Help: a participating ally uses the core Help procedure, pays its normal cost from its own pools and shares the risk. An ordinary NPC has no pools, so it can't Help unless a rule says otherwise (Core Rules §6.1). Qualities aren't pools.
+- A scoped Situational Condition: actual conditions modify relevant rolls (Core Rules @core-situational-conditions). A Truth that only makes something possible is Permission.
+- Active Help: a participating ally uses the core Help procedure, pays its normal cost from its own pools and shares the risk. An ordinary NPC has no pools, so it can't Help unless a rule says otherwise (Core Rules @core-running-dry). Qualities aren't pools.
 
 Do not award all three for the same contribution. Stronger Qualities increase feasible reach, reliability, and scale, not an automatic numerical bonus. Might +4 can organize support beyond Might +1; it does not grant +4 Fight.
 
-#strong[Accompanying allies.] A companion is either a participant (joins rotation, uses its own ratings, bound by the stakes) or an asset (gives its stated benefit, takes no turn), never both. It doesn't get its own Disposition, and removing it costs none, though a side loses when nobody can pursue its objective (Core Rules §10.9).
+#strong[Accompanying allies.] A companion is either a participant (joins rotation, uses its own ratings, bound by the stakes) or an asset (gives its stated benefit, takes no turn), never both. It doesn't get its own Disposition, and removing it costs none, though a side loses when nobody can pursue its objective (Core Rules @core-shared-disposition-participation).
 
-Backing gives +1 Disposition per eligible backer and costs no pool points (Core Rules §10.2). A faction's size or personnel doesn't by itself supply backers.
+Backing gives +1 Disposition per eligible backer and costs no pool points (Core Rules @core-setup). A faction's size or personnel doesn't by itself supply backers.
 
 An escort may make a friendly checkpoint automatic. It cannot make every later negotiation easier simply because it exists. Personnel face the real risks of deployment, and a borrowed resource is not freely duplicable or permanently transferred.
 

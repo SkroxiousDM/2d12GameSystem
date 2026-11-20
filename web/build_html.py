@@ -77,9 +77,12 @@ def prepare_source(work):
     shutil.copytree(SOURCE, work, ignore=shutil.ignore_patterns('drafts'))
     shutil.copy(WEB / 'common.typ', work / 'common.typ')
     shutil.copy(WEB / 'adversaries-common.typ', work / 'adversaries-common.typ')
+    numbers = {}
+    for path in work.glob('*.typ'):
+        numbers.update(heading_numbers(path.read_text(encoding='utf-8')))
     for path in work.glob('*.typ'):
         text = path.read_text(encoding='utf-8')
-        fixed = fix_enum_starts(text)
+        fixed = link_refs(fix_enum_starts(text), numbers)
         if fixed != text:
             path.write_text(fixed, encoding='utf-8')
 
@@ -111,6 +114,50 @@ def headings(body, level=2):
     for match in re.finditer(r'<h%d id="([^"]+)"[^>]*>(.*?)</h%d>' % (level, level), body, re.S):
         found.append((match.group(1), re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', '', match.group(2))).strip()))
     return found
+
+
+HEADING_LABEL = re.compile(r'^=+[ \t]+(\S+)[ \t].*<([\w-]+)>[ \t]*$', re.M)
+SOURCE_REF = re.compile(r'(?<![\w@])@([A-Za-z][\w-]*[A-Za-z0-9])(?:\[([^\]]*)\])?')
+WEB_REF = re.compile(r'href="WEBREF:([\w-]+)"')
+
+
+def heading_numbers(text):
+    """Map each labelled heading to the number typed at the start of its text."""
+    return {label: number.rstrip('.') for number, label in HEADING_LABEL.findall(text)}
+
+
+def link_refs(text, numbers):
+    """Turn `@label` cross-references into plain links Pandoc keeps intact.
+
+    The PDF prints `@label` as "§" plus the heading's typed number, `@a[§§]`
+    with its own sign and `@b[]` with none (see common.typ). Pandoc's Typst
+    reader drops supplements and spacing for labels outside the chapter it is
+    converting, so write the visible text here and leave a `WEBREF:` link for
+    resolve_refs() to point at the right chapter page.
+    """
+    def convert(line):
+        def replace(match):
+            label, supplement = match.group(1), match.group(2)
+            if label not in numbers:
+                raise SystemExit('Cross-reference to unknown heading: @' + label)
+            sign = '§' if supplement is None else supplement
+            # a following "(" or "[" would otherwise read as more arguments
+            end = ';' if line[match.end():match.end() + 1] in ('(', '[') else ''
+            return '#link("WEBREF:%s")[%s%s]%s' % (label, sign, numbers[label], end)
+        return line if line.lstrip().startswith('//') else SOURCE_REF.sub(replace, line)
+    return '\n'.join(convert(line) for line in text.split('\n'))
+
+
+def resolve_refs(body, homes, own_slug):
+    """Point each WEBREF link at its heading: same page, or ../<chapter>/#label."""
+    def replace(match):
+        label = match.group(1)
+        if label not in homes:
+            raise SystemExit('No web heading has the id ' + label)
+        if homes[label] == own_slug:
+            return 'href="#%s"' % label
+        return 'href="../%s/#%s"' % (homes[label], label)
+    return WEB_REF.sub(replace, body)
 
 
 def front_matter(**fields):
@@ -176,9 +223,14 @@ def build(out, commit):
             shutil.rmtree(out)
         out.mkdir(parents=True)
 
+        homes = {}
+        for chapter in chapters:
+            for label in re.findall(r'<h[2-6] id="([^"]+)"', chapter['body']):
+                homes[label] = chapter['slug']
+
         art = set()
         for index, chapter in enumerate(chapters):
-            body = chapter['body']
+            body = resolve_refs(chapter['body'], homes, chapter['slug'])
             for src in re.findall(r'<img src="(art/[^"]+)"', body):
                 art.add(src)
             body = body.replace('<img src="art/', '<img loading="lazy" src="../art/')

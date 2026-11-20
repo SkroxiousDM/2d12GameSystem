@@ -83,7 +83,7 @@
 
 Acknowledgements & Inspirations
 
-Testament of Dust owes a heartfelt thank-you to the creators of Blades in the Dark, :Otherworld, Cypher System, Fate, Torchbearer, Gumshoe, 2d20, Reign, and Imperium Maledictum.
+The 2d12 System owes a heartfelt thank-you to the creators of Blades in the Dark, :Otherscape, Cypher System, Fate, Mouse Guard, Torchbearer, Gumshoe, 2d20, Reign, Imperium Maledictum, Shadowrun: Anarchy 2.0, and Situations for Tabletop Roleplaying.
 
 In different ways, these games helped shape the questions behind this one: What makes a risk worth taking? What should success cost? How do a character’s beliefs and obligations become part of play? And what keeps people moving when the world is larger, stranger, and less forgiving than they are?
 

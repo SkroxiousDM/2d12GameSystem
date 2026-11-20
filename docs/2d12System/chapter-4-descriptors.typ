@@ -5,8 +5,8 @@
 // =====================================================================
 #chapter("Generic Descriptors", [Twenty-four setting-neutral adjectives open the sentence: "I am a [Descriptor]..." Six belong to each pool. Each one gives +2 to that pool, a power tag, a weakness tag and a suggested Instinct. Setting books add Descriptors written for their worlds.], epigraph: [The adjective of the character sentence.])
 
-== 1. Descriptor Rules
-Each Descriptor gives (Core Rules §3.1):
+== 1. Descriptor Rules <desc-descriptor-rules>
+Each Descriptor gives (Core Rules @core-sentence):
 
 #figure(
   [#table(
@@ -23,13 +23,13 @@ Each Descriptor gives (Core Rules §3.1):
   , kind: table
   )
 
-#strong[Two edges, one identity.] A Descriptor describes one identity with a helpful side and a troublesome side. Its power tag and weakness tag show how that identity matters in different circumstances, and its identity line states the link. Use the normal tag and compel rules (Core Rules §4); the identity line grants no extra modifier or reward.
+#strong[Two edges, one identity.] A Descriptor describes one identity with a helpful side and a troublesome side. Its power tag and weakness tag show how that identity matters in different circumstances, and its identity line states the link. Use the normal tag and compel rules (Core Rules @core-tyche-points); the identity line grants no extra modifier or reward.
 
 Each entry also has a #strong[hook];: one question to answer at character creation. The answer often becomes your first Belief or a relationship.
 
 Every Descriptor works in any genre. Choose one from this chapter or, when playing in a setting, from that setting book's Descriptors.
 
-== 2. Quick Reference
+== 2. Quick Reference <desc-quick-reference>
 #figure(
   [#table(
     columns: (5%, 17%, 11%, 33%, 34%),
@@ -64,7 +64,7 @@ Every Descriptor works in any genre. Choose one from this chapter or, when playi
   , kind: table
   )
 #pagebreak()
-== 3. Descriptors
+== 3. Descriptors <desc-descriptors>
 #columns(2, gutter: 6mm)[
 #block(breakable: false, width: 100%)[
 === 1. Burly

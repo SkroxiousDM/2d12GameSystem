@@ -2,10 +2,10 @@
 
 #columns(2, gutter: 6mm)[
 #colbreak()
-=== 10.8 Scenery Maneuvers
-A Maneuver may exploit an established feature: a Scene Truth, Situational Condition or established fact. If it is not established, create or discover it first.
+=== 10.8 Scenery Maneuvers <core-scenery-maneuvers>
+A Maneuver may exploit an established feature: a Scene Truth, Situational Condition or established fact. If it isn't established, create or discover it first.
 
-Name the feature when scripting. If it is unavailable at resolution, the Maneuver produces no scenery effect; do not substitute another feature for free.
+Name the feature when scripting. If it is unavailable at resolution, the Maneuver produces no scenery effect; don't substitute another feature for free.
 
 Each feature supports one scenery action per conflict unless its nature clearly permits reuse.
 ]
@@ -17,42 +17,42 @@ Each feature supports one scenery action per conflict unless its nature clearly 
   [Carpet Pull], [A suitable covering and unwarned foes], [2], [Impede each opposing participant's next action roll this exchange.], [Your next Defend takes −1.],
   [Drape Drop], [Hangings, netting or similar material], [1], [Impede the opposing side's next action.], [Your next action takes −1.],
   [Shove 'Em Off], [An edge and an adjacent target], [3], [One opponent loses their next scripted action while recovering.], [Tier-2 off balance.],
-  [Make a Hazard], [Fuel, fluid or a breakable container], [2], [Create a dangerous Truth in the area, naming its exposure and consequence (§8.5).], [You are also exposed to it.],
+  [Make a Hazard], [Fuel, fluid or a breakable container], [2], [Create a dangerous Truth in the area, naming its exposure and consequence (@core-dangers-conflicts).], [You are also exposed to it.],
 ))
 #columns(2, gutter: 6mm)[
 The GM may trigger the listed Danger for 1 Woe. Danger statuses are Resistable normally.
 
-A fall is lethal only with established lethal stakes. Describe results consistently: a collapsing floor or spreading fire affects everyone within its established scope. Dangerous circumstances generate Woe under the scene cap (§9.2).
+A fall is lethal only with established lethal stakes. Describe results consistently: a collapsing floor or spreading fire affects everyone within its established scope. Dangerous circumstances generate Woe under the scene cap (@core-woe).
 
-// PLAYTEST: Floor Collapse and Make a Hazard converted from ranked Truths; both priced at 2 Power, the normal Create a Truth cost (§5.1), with the scenery requirement and Danger as the trade-off.
+// PLAYTEST: Floor Collapse and Make a Hazard converted from ranked Truths; both priced at 2 Power, the normal Create a Truth cost (§5), with the scenery requirement and Danger as the trade-off.
 
 In other types, scenery might be a witness, document, crowd, access point, market stall or bridge. Adapt the nearest effect only when its requirements and consequences remain meaningful.
 
-=== 10.9 Shared Disposition and Participation
-Each side has one shared total. Do not divide it among participants; there are no individual shares or spill-over. Ordinary Disposition loss removes no particular participant.
+=== 10.9 Shared Disposition and Participation <core-shared-disposition-participation>
+Each side has one shared total. Don't divide it among participants; there are no individual shares or spill-over. Ordinary Disposition loss removes no particular participant.
 
 A participant stops acting when a status, explicit effect, withdrawal or established circumstance prevents contribution to the objective.
 
-A side loses at 0 Disposition or when none of its participants can continue pursuing its objective. Check victory using the action-completion rule in §10.5.
+A side loses at 0 Disposition or when none of its participants can continue pursuing its objective. Check victory using the action-completion rule in @core-scripting-volleys.
 
 ==== Companions and Groups
 Distinguish a participant, which takes assigned actions and is bound by the side's stakes, from an asset, which supplies tags, information or explicitly permitted helping benefits without independent turns.
 
-Do not count the same companion twice merely because it can perform both functions.
+Don't count the same companion twice merely because it can perform both functions.
 
 An independently acting companion occupies a place in continuous rotation, uses its listed skills or ratings and can be prevented from acting or Taken Out. It has no separate Disposition track or injury trade unless explicitly granted one.
 
 A group represented by one rules entry is one participant for rotation and area-effect Disposition bonuses, not one per fictional body. Apply specific Bodies or mass-combat rules only where provided.
 
 ==== Reinforcements and Recovery
-Starting Disposition stays fixed for the conflict (§10.2). Reinforcements add their listed Grit to current shared Disposition, even above the starting value. They do not change starting Disposition or the normal recovery cap, grant additional scripted actions, permit free actor reassignment or recalculate setup.
+Starting Disposition stays fixed for the conflict (@core-setup). Reinforcements add their listed Grit to current shared Disposition, even above the starting value. They don't change starting Disposition or the normal recovery cap, grant additional scripted actions, permit free actor reassignment or recalculate setup.
 
-Defend and other Disposition-recovery effects restore only up to the starting value unless explicitly stated otherwise. At or above the cap, recovery restores nothing and does not reduce the current total.
+Defend and other Disposition-recovery effects restore only up to the starting value unless explicitly stated otherwise. At or above the cap, recovery restores nothing and doesn't reduce the current total.
 
 Removing a participant, backer, companion or group subtracts no contribution or Grit from current or starting Disposition. Removal may still defeat the side if nobody remains able to pursue its objective.
 
-=== 10.10 Conflict Gear and Assets
-Equipment normally provides an action tag, counting toward the normal +2 tag cap. It may also have one explicitly written distinctive quality. Do not invent qualities during resolution.
+=== 10.10 Conflict Gear and Assets <core-conflict-gear-assets>
+Equipment normally provides an action tag, counting toward the normal +2 tag cap. It may also have one explicitly written distinctive quality. Don't invent qualities during resolution.
 #figure(table(columns: (70%, 30%),
   table.header([Asset], [Typical tag]),
   [Sword or knife], [+1 Attack],
@@ -69,9 +69,9 @@ An asset helps only when its use explains how it applies.
 - #strong[Axe:] when at least 1 Power is committed to a successful Attack's Disposition effect, remove 1 additional Disposition. Take −1 on Defend while using it.
 - #strong[Shield:] once per conflict, after a successful Defend, restore 1 additional Disposition.
 - #strong[Knife:] against a cumbersome weapon at established close range, Disarm costs 2 Power instead of 3.
-- #strong[Bow:] while the opponent cannot reach you and lacks an effective ranged response, Attack versus Attack is a versus test instead of independent.
+- #strong[Bow:] while the opponent can't reach you and lacks an effective ranged response, Attack versus Attack is a versus test instead of independent.
 
-Distinctive qualities do not automatically grant a second tag. Apply offensive bonuses under §10.6.
+Distinctive qualities don't automatically grant a second tag. Apply offensive bonuses under @core-actions-effects.
 
 ==== Non-Combat Assets
 Evidence, promises, maps, supplies, local contacts, fortifications and plans may be assets.
@@ -83,9 +83,9 @@ Explain arguments through direct dialogue or third-person description. Award no 
 ==== Changing Equipment
 Declare active equipment before scripting each exchange.
 
-Switching does not refresh a once-per-conflict quality, erase a continuing drawback or restore a lost asset.
+Switching doesn't refresh a once-per-conflict quality, erase a continuing drawback or restore a lost asset.
 
-=== 10.11 Accepting Injury
+=== 10.11 Accepting Injury <core-accepting-injury>
 Once per character per conflict, accept a lasting injury to cancel some loss from a successful Attack or Feint.
 
 Declare before applying loss. Only one participant may trade against each Attack or Feint.
@@ -95,44 +95,44 @@ Declare before applying loss. Only one participant may trade against each Attack
 ))
 Name the injury and explain how it preserves the side's position. It must follow from the action, have a relevant effect, be new or worsen a status, and remain below tier 6 after stacking.
 
-You cannot:
+You can't:
 - Pay with an injury already present or an irrelevant or wholly redundant status.
 - Trade after being Taken Out.
 - Cancel more loss than inflicted.
 - Cancel loss from Maneuvers, hazards, voluntary costs or special effects unless permitted.
-- Cancel an execution, imposed status or anything other than ordinary Attack or Feint Disposition loss.
+- Cancel a finishing procedure, imposed status or anything other than ordinary Attack or Feint Disposition loss.
 - Invent bodily injury to pay for a purely logistical setback.
 
-An accepted injury is a protected payment (§10.7); it cannot be prevented or reduced. It recovers through treatment and time.
+An accepted injury is a protected payment (@core-costs-failures-complications); it can't be prevented or reduced. It recovers through treatment and time.
 
 The trade cancels incoming loss, not loss already suffered, and doesn't raise starting Disposition. It refreshes only in a genuinely new conflict.
 
-=== 10.12 Defeat, Mutual Defeat and Concession
-Apply the action-completion rule in §10.5 before determining the outcome.
+=== 10.12 Defeat, Mutual Defeat and Concession <core-defeat-mutual-defeat-concession>
+Apply the action-completion rule in @core-scripting-volleys before determining the outcome.
 
 ==== Defeat and Finishing Procedures
 The winner achieves its intent within the established stakes, subject to compromise. Don't rerun the same contest; a new conflict needs a materially different objective or changed circumstances.
 
-Defeat doesn't automatically inflict injury. Where a creature or setting requires a finishing procedure, victory earns the chance to attempt it: finish the deciding volley, resolve the procedure as its entry describes, then settle compromise.
+Defeat doesn't automatically inflict injury. Where a creature or setting requires a finishing procedure (such as a setting book's killing strike), victory earns the chance to attempt it: finish the deciding volley, resolve the procedure as its entry describes, then settle compromise.
 
 ==== Mutual Defeat
 If both sides are defeated in the same volley, or both start at 0 after Superiority, neither wins outright.
 
 Resolve compatible parts of both intents and a shared setback within the stakes. Neither receives an incompatible outcome automatically.
 
-Calculate no winner's compromise. Setup defeat follows §10.3.
+Calculate no winner's compromise. Setup defeat follows @core-superiority.
 
 ==== Concession
 Before the next roll, propose an end to the conflict. State what the opponent gains, what your side retains, all injuries, losses, promises or obligations, and how the immediate struggle ends.
 
 Offer meaningful success that fits the situation. A mindless predator may require an escape opportunity or sacrifice rather than surrender.
 
-If accepted, apply the terms without another roll. Do not also apply compromise unless included. Agreed costs are protected payments (§10.7); injuries recover normally.
+If accepted, apply the terms without another roll. Don't also apply compromise unless included. Agreed costs are protected payments (@core-costs-failures-complications); injuries recover normally.
 
 If rejected, continue. Conceding grants no automatic Tychē Point.
 
-=== 10.13 Compromise
-Compare the winner's remaining Disposition with the original adjusted starting value recorded at setup (§10.2):
+=== 10.13 Compromise <core-compromise>
+Compare the winner's remaining Disposition with the original adjusted starting value recorded at setup (@core-setup):
 #figure(table(columns: (65%, 35%),
   table.header([Starting Disposition lost], [Compromise]),
   [None], [None],
@@ -142,7 +142,7 @@ Compare the winner's remaining Disposition with the original adjusted starting v
 ))
 Use proportions without rounding. If remaining Disposition equals or exceeds the starting value, there is no compromise.
 
-Reinforcements do not change the denominator: compare these two totals, without reconstructing earlier losses or keeping a separate loss ledger. Setup defeat uses §10.3 instead.
+Reinforcements don't change the denominator: compare these two totals, without reconstructing earlier losses or keeping a separate loss ledger. Setup defeat uses @core-superiority instead.
 
 ==== What Compromise Means
 The winner achieves its intent, but the loser earns a proportionate concession:
@@ -150,9 +150,9 @@ The winner achieves its intent, but the loser earns a proportionate concession:
 - #strong[Significant:] substantial concession, restricted terms, important loss, serious injury or meaningful part of the loser's objective.
 - #strong[Major:] narrow victory at a major price: lasting obligation, severe injury, important loss or powerful new danger.
 
-These are consequence packages, not mandatory lists. Do not automatically add injury to an adequate non-injury concession.
+These are consequence packages, not mandatory lists. Don't automatically add injury to an adequate non-injury concession.
 
-Compromise cannot simply reverse the result or grant the loser's complete incompatible objective.
+Compromise can't simply reverse the result or grant the loser's complete incompatible objective.
 
 ==== Negotiating Terms
 // PLAYTEST: 4-step negotiation (was 8 steps). Check that tables still state every cost and who pays it.
@@ -161,7 +161,7 @@ Compromise cannot simply reverse the result or grant the loser's complete incomp
 + #strong[Settle injuries.] Credit eligible existing injuries, then resolve eligible Resistance.
 + #strong[Record] the binding result.
 
-Keep terms proportionate, relevant and within the stakes. If agreement proves difficult, the GM adjudicates using these limits. Disagreement does not cancel earned compromise.
+Keep terms proportionate, relevant and within the stakes. If agreement proves difficult, the GM adjudicates using these limits. Disagreement doesn't cancel earned compromise.
 
 ==== Injury Guidance
 When appropriate to the package, use tier 2 for Minor, tier 3 for Significant and tier 4 for Major as starting guidance, not automatic injuries, minimum costs or penalties for everyone.
@@ -169,49 +169,58 @@ When appropriate to the package, use tier 2 for Minor, tier 3 for Significant an
 ==== Existing Injuries
 An injury suffered during this conflict satisfies one injury cost assigned to that character if its current tier meets or exceeds the required tier. Each injury counts once.
 
-Do not pool, split, transfer or credit injuries against non-injury consequences. An injury treated below the required tier no longer satisfies the cost.
+Don't pool, split, transfer or credit injuries against non-injury consequences. An injury treated below the required tier no longer satisfies the cost.
 
 Add no replacement injury because an existing one satisfies the first.
 
 ==== Resistance
-Imposed compromise statuses can be Resisted normally (§6); agreed payments can't (§10.7). Resisting an injury doesn't revoke the concession or other stated consequences, and adds no replacement cost.
+Imposed compromise statuses can be Resisted normally (@core-resistance-harm-recovery); agreed payments can't (@core-costs-failures-complications). Resisting an injury doesn't revoke the concession or other stated consequences, and adds no replacement cost.
 
 ==== Binding Results
-Victory, concessions, promises and consequences stand. Genuinely new events may change them; do not ignore or immediately reroll them because someone dislikes the result.
+Victory, concessions, promises and consequences stand. Genuinely new events may change them; don't ignore or immediately reroll them because someone dislikes the result.
 
-=== 10.14 NPCs and Harm
-Ordinary NPCs and minion groups cannot trade injury. A named rival built as a full PC may; others require an explicit trait.
+=== 10.14 NPCs and Harm <core-npcs-harm>
+Ordinary NPCs and minion groups can't trade injury. A named rival built as a full PC may; others require an explicit trait.
 
-Ordinary NPCs have no Pools and reduce imposed harm only through listed Armour, traits or abilities. Apply at most one reduction per imposed status application, never to ordinary Disposition loss or a protected payment (§10.7).
+Ordinary NPCs have no pools (@core-running-dry) and reduce imposed harm only through listed Armour, traits or abilities. Apply at most one reduction per imposed status application, never to ordinary Disposition loss or a protected payment (@core-costs-failures-complications).
 
-NPC defeat uses §10.12. Capture, escape, injury and death follow the stakes and outcome. Use a Dying clock when rescue matters, not to make an accepted rescue objective impossible.
+NPC defeat uses @core-defeat-mutual-defeat-concession. Capture, escape, injury and death follow the stakes and outcome. Use a Dying clock when rescue matters, not to make an accepted rescue objective impossible.
 
-Creature-specific rules remain in force, including breaking points that replace the tier-6 procedure (§6.3). Immunity may stop an unsuitable status without stopping Disposition loss in a contest the creature can lose.
+Creature-specific rules remain in force, including breaking points that replace the tier-6 procedure (@core-tier-6-scars). Immunity may stop an unsuitable status without stopping Disposition loss in a contest the creature can lose.
 
-=== 10.15 Order of Resolution
-+ Establish objectives, stakes, participants and exits.
-+ Calculate starting Disposition and Superiority.
-+ Determine both adjusted totals and resolve any setup defeat (§10.3).
-+ Script the exchange and assign actors.
-+ Reveal the next volley.
-+ Determine the interaction.
-+ Pay pre-roll costs; resolve running dry.
-+ Roll and determine Power.
-+ Make permitted post-roll choices and pay their costs.
-+ Allocate Power.
-+ Calculate Disposition loss separately from statuses.
-+ Offer eligible injury trades.
-+ Apply remaining Disposition loss.
-+ Resist eligible statuses, stack what remains and resolve tier 6, including explicit creature exceptions.
-+ Complete any independent opposing action.
-+ Check removal, victory and mutual defeat.
-+ Before the next roll, allow concession proposals.
-+ Resolve permitted creature finishing procedures before compromise.
-+ Settle compromise or concession.
-+ Recover each layer only through its own procedure (§6.5).
+=== 10.15 Order of Resolution <core-order-resolution>
+#strong[Setup]
+1. Establish objectives, stakes, participants and exits.
+2. Calculate starting Disposition and Superiority.
+3. Determine both adjusted totals and resolve any setup defeat (@core-superiority).
+
+#strong[Each exchange]
+4. Script the exchange and assign actors.
+
+#strong[Each volley]
+5. Reveal the next volley.
+6. Determine the interaction.
+7. Pay pre-roll costs; resolve running dry.
+8. Roll and determine Power.
+9. Make permitted post-roll choices and pay their costs.
+10. Allocate Power.
+11. Calculate Disposition loss separately from statuses.
+12. Offer eligible injury trades.
+13. Apply remaining Disposition loss.
+14. Resist eligible statuses, stack what remains and resolve tier 6, including explicit creature exceptions.
+15. Complete any independent opposing action.
+16. Check removal, victory and mutual defeat.
+17. Before the next roll, allow concession proposals.
+
+Repeat steps 5–17 for each volley, and step 4 for each new exchange, until a side is defeated or concedes.
+
+#strong[Ending]
+18. Resolve permitted creature finishing procedures before compromise.
+19. Settle compromise or concession.
+20. Recover each layer only through its own procedure (@core-rest-recovery).
 
 Specific rules override general rules only on the subject addressed.
-=== 10.16 Keeping It Fast
+=== 10.16 Keeping It Fast <core-keeping-it-fast>
 - Use full conflicts only when several tactical decisions matter.
 - Record objectives and starting Disposition visibly.
 - Use three cards or entries for each script.

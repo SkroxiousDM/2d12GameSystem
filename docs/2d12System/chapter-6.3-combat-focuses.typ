@@ -1,7 +1,7 @@
 #import "common.typ": *
   
 #pagebreak()
-== 3. Combat Focuses
+== 3. Combat Focuses <foc-combat-focuses>
 #columns(2, gutter: 6mm)[
 === 1. Never Leaves Anyone Behind
 #quote(block: true)[
@@ -22,7 +22,7 @@ Loyal to a fault. You go back for the fallen, every time.
       trigger: [An ally next to you takes an imposed status. Use it before they Resist.],
       cost: [1 point from any pool.],
       benefit: [Reduce the status by #strong[1 tier].],
-      limit: [Before their Resistance. Protected payments can't be reduced (Generic Playbooks §1.2).],
+      limit: [Before their Resistance. Protected payments can't be reduced (Generic Playbooks @pb-ability-notation).],
     )],
     [2a], [#strong[Second Wind];], [#ability(
       trigger: [You succeed on a Defend and can reach a Taken Out ally.],
@@ -86,17 +86,17 @@ Captain, chief, or sergeant: people follow you.
       trigger: [You succeed with #strong[3+ Power].],
       cost: [No additional cost.],
       benefit: [The next ally who acts toward the same goal gets a #strong[free bonus die].],
-      limit: [The next ally only. Unused, it ends at the end of the scene. The bonus-dice cap applies (§1.3).],
+      limit: [The next ally only. Unused, it ends at the end of the scene. The bonus-dice cap applies (@foc-ability-limits).],
     )],
     [3a], [#strong[★ Warband];], [#ability(
       trigger: [Your loyal crew (a group with 2 power tags and 1 weakness) helps or acts.],
       cost: [No additional cost.],
-      benefit: [It gives free Help, holds a position or acts as one group, and takes statuses as a single target (§1.3).],
-      limit: [Free Help once per scene. It is one participant in your side's script and rotation (§1.3).],
+      benefit: [It gives free Help, holds a position or acts as one group, and takes statuses as a single target (@foc-ability-limits).],
+      limit: [Free Help once per scene. It is one participant in your side's script and rotation (@foc-ability-limits).],
     )],
     [3b], [#strong[Unbreak-able Line];], [#ability(
       trigger: [Your side's Disposition would drop to 0.],
-      cost: [You take a #strong[tier-2 Personal status] as an accepted payment. You name it (#emph[exhausted-2], #emph[battered-2]) and the GM approves it. It recovers under the normal rules (Core Rules §6.5–6.6).],
+      cost: [You take a #strong[tier-2 Personal status] as an accepted payment. You name it (#emph[exhausted-2], #emph[battered-2]) and the GM approves it. It recovers under the normal rules (Core Rules @core-rest-recovery–@core-treatment-healing[]).],
       benefit: [Your side's Disposition stays at #strong[1].],
       limit: [Once per conflict.],
     )],
@@ -182,7 +182,7 @@ Honour is for people who can afford to lose.
     )],
     [2a], [#strong[Improvised Arsenal];], [#ability(
       trigger: [You use anything in reach as a weapon: chairs, bottles, tools.],
-      cost: [No load (Generic Playbooks §2.1).],
+      cost: [No load (Generic Playbooks @pb-load).],
       benefit: [It gives #strong[+1 Attack or +1 Maneuver] as an action tag.],
       limit: [Within the tag cap.],
     )],
@@ -199,7 +199,7 @@ Honour is for people who can afford to lose.
       limit: [Fight conflicts only.],
     )],
     [3b], [#strong[★ Nothing Is Off-Limits];], [#ability(
-      trigger: [You declare a hazard Truth that was already there (#emph[gas leak], #emph[rotten floor], #emph[loose cargo]).],
+      trigger: [You declare a hazard Truth that was already there (#emph[Gas Leak], #emph[Rotten Floor], #emph[Loose Cargo]).],
       cost: [No additional cost.],
       benefit: [Your next roll that uses it gets a #strong[free Extra Feat].],
       limit: [Once per session. The Extra Feat applies to your next roll that uses it only.],

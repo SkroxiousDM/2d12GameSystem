@@ -27,10 +27,10 @@ This core rulebook holds the complete, setting-neutral rules of the 2d12 System:
 When a rule here mentions another chapter, it uses that chapter's name and section number. For example, *Core Rules §4.1* means Chapter II, section 4.1. A bare reference such as *§6* points to a section in the same chapter. Setting books use the same chapter names when they refer back to this book.
 == Notation
 
-- *★ Major.* An ability that costs *1 Refresh* when you take it, at creation or through advancement. Taken as a creation extra, it costs *2 Refresh total*, including the extra ability's 1-Refresh price (Generic Playbooks §1.1–1.2).
-- *◆ Capstone.* Unlocked after *12 Advances* if you have at least 4 abilities from that playbook. Take it as an Advance; it costs no Refresh, and each character can have one.
+- *★ Major.* An ability that costs *1 extra Refresh* whenever you take it (Core Rules @core-starting-resources, Generic Playbooks @pb-ability-notation).
+- *◆ Capstone.* A playbook's final ability, unlocked by advancement. Take it as an Advance; it costs no Refresh (Core Rules @core-spending-xp).
 - *◈ Weird.* A Focus that assumes the supernatural, strange technology or other weird elements. Each setting decides which ◈ Focuses it allows and how its world reacts to them.
-- *Tags* are written in _italics_, such as _scarred knuckles_. *Statuses* add a tier, such as _wounded-2_.
+- *Tags* are written in _italics_, such as _scarred knuckles_. *Personal statuses* add a hyphenated tier, such as _wounded-2_; *Situational Conditions* add a rating, such as _smoke cover 2_. *Truths* carry no number.
 - *Difficulty* is written by name and target, such as *Standard 15* or *Hard 18*.
 
 #sidebar("Settings")[
@@ -61,5 +61,5 @@ When a rule here mentions another chapter, it uses that chapter's name and secti
 ))
 
 - *Pool shorthand.* Playbook stat blocks list base pools as *Sōm / Mēt / Psy / Pne* (Sōma / Mētis / Psychē / Pneuma).
-- *Scars* take the name of the pool most tied to the condition that caused them: a *Pneuma Scar*, a *Psychē Scar* (Core Rules §6.3).
+- *Scars* take the name of the pool most tied to the condition that caused them: a *Pneuma Scar*, a *Psychē Scar* (Core Rules @core-tier-6-scars).
 ]

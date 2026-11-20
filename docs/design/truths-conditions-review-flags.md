@@ -40,7 +40,7 @@ All items were decided on 2026-11-20; each row records its decision.
 | # | Ability | Section | Question |
 |---|---|---|---|
 | 17 | Fixed-cost "Create a Truth" abilities | Generic Focuses; Generic Playbooks §5; Module A | Decided case by case; see the table below. |
-| 18 | Cartographer; Master Key; Living Archive | Generic Focuses §4, §5, §7 | Decided: keep the one-step Difficulty shift (§1.3) on Master Key and Living Archive, matching Master of the Field. Cartographer is not in the current text. No text change. |
+| 18 | Cartographer; Master Key; Living Archive | Generic Focuses §4, §5, §7 | Decided: keep the one-step Difficulty shift (§1.3) on Cartographer, Master Key and Living Archive, matching Master of the Field. No text change. |
 | 19 | Shape the Ground (Controller) | Adversaries §6 | Decided: once per scene, a Truth or a harmful rating-1 Situational Condition for 1 Woe or 1 Power from a Maneuver. |
 | 20 | Lockdown | Adversaries §6.20 | Decided: keep Sealed Doors as an unrated scene Truth with no Difficulty shift. No text change. |
 

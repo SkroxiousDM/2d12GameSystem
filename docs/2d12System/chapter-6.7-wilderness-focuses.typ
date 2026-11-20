@@ -70,7 +70,7 @@ Explorer, navigator, or surveyor drawn to the blank parts of the map.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Carto-grapher];], [#ability(
+    [1], [#strong[Car­tog­ra­pher];], [#ability(
       trigger: [You travel in an area you've travelled before.],
       cost: [No additional cost.],
       benefit: [Any area you've travelled becomes a #strong[map] (a permanent Truth). It lowers travel Difficulty there by one step.],
@@ -88,7 +88,7 @@ Explorer, navigator, or surveyor drawn to the blank parts of the map.
       benefit: [Gain a #strong[free bonus die].],
       limit: [The first roll only. The normal bonus-dice cap applies.],
     )],
-    [3a], [#strong[Discoverer];], [#ability(
+    [3a], [#strong[Dis­cov­er­er];], [#ability(
       trigger: [You discover a new site (Module C).],
       cost: [No additional cost.],
       benefit: [You define #strong[one of its three Truths].],

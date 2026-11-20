@@ -50,7 +50,7 @@ Roll once per column or pick.
     [7], [River crossing], [Thick fog], [Rapids], [Drowned village below],
     [8], [Sacred grove], [Watched by unseen eyes], [Spirit anger], [A pact with the old powers],
     [9], [Remote camp], [Desperation], [Bandits], [Someone is not who they claim],
-    [10], [Underground ways], [Echoes], [Collapse], [Lost civilisation],
+    [10], [Under­ground ways], [Echoes], [Collapse], [Lost civilisation],
     [11], [Noble estate], [Hollow luxury], [Political danger], [Blackmail ledger],
     [12], [Wasteland], [Unnatural stillness], [Exposure], [Gateway to elsewhere],
   )]

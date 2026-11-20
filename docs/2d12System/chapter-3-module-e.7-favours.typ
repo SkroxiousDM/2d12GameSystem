@@ -18,18 +18,18 @@ Calling in an earned favour does not reduce Standing. Repaying one does not auto
 
 === E.8 Adventures and Strategic Advantages
 
-Before an undertaking, explain its likely strategic effect when the characters can reasonably foresee it. “Secure the bridge and our forces can cross this turn with a rank-1 advantage” gives the players a meaningful choice.
+Before an undertaking, explain its likely strategic effect when the characters can reasonably foresee it. “Secure the bridge and our forces can cross this turn with a strategic advantage of 3” gives the players a meaningful choice.
 
 Successful adventures may:
 - Accomplish an objective outright.
 - Advance or obstruct a project through the Advance effect.
-- Establish a scoped Truth for a later faction action.
+- Establish a scoped Truth or strategic advantage (a Situational Condition) for a later faction action.
 
 Examples: Enemy Deployment Exposed; Crossing Secured; Troops Paid Before the Muster; Reformers Have Public Support; Southern Squadron Will Not Intervene.
 
-Record scope, rank, duration, and removal condition. Rank 1 is normal; rank 2 requires a decisive advantage. One-use preparation applies to the next relevant action and then expires; persistent advantages endure only as long as their established circumstances do. Apply the core Truth cap.
+Record each in the standard format: scope, duration and removal condition, plus a rating for a strategic advantage. A Truth makes a faction action possible or removes an obstacle; a strategic advantage modifies the faction roll. Rating 2 is normal; rating 4 requires a decisive advantage. One-use preparation applies to the next relevant action and then expires; persistent advantages endure only as long as their established circumstances do. Only the highest helpful and harmful Situational Condition apply to a roll (Core Rules §2.1).
 
-A roll does not automatically create a lasting Truth merely because it succeeds: use the appropriate core Effect or establish it as the agreed outcome of the completed undertaking. Larger lasting changes need the appropriate project or milestone, as in Module C.6.
+A roll does not automatically create a lasting Truth or Condition merely because it succeeds: use the appropriate core Effect or establish it as the agreed outcome of the completed undertaking. Larger lasting changes need the appropriate project or milestone, as in Module C.6.
 
 Do not require a faction roll to confirm what the party already accomplished. Capturing a bridge does not lead to another roll to see whether it was captured. A separate roll may determine whether the army exploits that opportunity.
 
@@ -45,7 +45,7 @@ A faction normally takes one major project action per World Turn without automat
 
 Mark one relevant Quality as Strained when the faction takes an additional major action, makes an exceptional deployment to support the party, overextends to meet a deadline, or suffers an explicit exhaustion consequence. Ordinary hospitality, meals, and introductions do not qualify.
 
-A Strained Quality operates one rating lower, minimum 0. Strain doesn't stack and isn't also an adverse Truth for the same exhaustion. A faction can take at most one additional major action per turn. It must Strain that action's primary Quality, which can't already be Strained, so additional actions can't repeat indefinitely.
+A Strained Quality operates one rating lower, minimum 0. Strain doesn't stack and isn't also a harmful Situational Condition for the same exhaustion. A faction can take at most one additional major action per turn. It must Strain that action's primary Quality, which can't already be Strained, so additional actions can't repeat indefinitely.
 
 #strong[Timing.] Mark Strain when the action is #emph[declared] (E.10, step 2), so that action and every other action that phase use the lowered rating.
 
@@ -67,7 +67,7 @@ Choose one cadence: each in-world week, between adventures, or another agreed me
 
 ==== Organizational resolution
 
-Roll 2d12 + the relevant effective Quality against Standard 15, adjusted by task difficulty and relevant Truths. Use one primary Quality, not the sum of two. Other capabilities may be prerequisites or provide distinct concrete circumstances; their ratings are not automatic extra modifiers.
+Roll 2d12 + the relevant effective Quality against Standard 15, adjusted by task difficulty, with relevant Situational Conditions modifying the roll and Truths deciding what is possible. Use one primary Quality, not the sum of two. Other capabilities may be prerequisites or provide distinct concrete circumstances; their ratings are not automatic extra modifiers.
 
 - Success: 1 Power, plus 1 per full 3 points over the target.
 - Success at a Cost (miss by 1–3): 1 Power and a concrete setback appropriate to the action.
@@ -92,7 +92,7 @@ Use Module C.6 for lasting Site, Region, and Campaign changes: normally 8 segmen
 
 ==== Opposition and disruption
 
-A faction may spend its action obstructing a known project if it has a credible method. Roll its relevant Quality against Standard 15, adjusted by the target's concrete defences and other Truths. The target's Quality rating is not automatically a Difficulty shift.
+A faction may spend its action obstructing a known project if it has a credible method. Roll its relevant Quality against Standard 15, adjusted by the target's concrete defences, with relevant Situational Conditions modifying the roll. The target's Quality rating is not automatically a Difficulty shift.
 
 On success, spend Power to remove uncompleted progress, one segment per Power. Remove no more than is present and discard excess. A defending faction may devote its own action to countermeasures, producing appropriate protection or removing the obstructing capability. Do not add a free reaction roll for every attempted disruption.
 
@@ -106,7 +106,7 @@ PCs can use Advance to remove progress when sabotage or delay directly supports 
 
 ==== Completion
 
-A project grants its declared result, not every benefit the victor might want. Create, remove, or change a Truth when appropriate; record scope, rank, and removal condition. Completion does not automatically make a Truth rank 2 or increase a Quality.
+A project grants its declared result, not every benefit the victor might want. Create, remove, or change a Truth or Situational Condition when appropriate; record scope, any rating, and removal condition. Completion does not automatically give a Condition rating 6 or increase a Quality.
 
 === E.11 Conflict, Objectives, and Pressure
 
@@ -138,7 +138,7 @@ Woe cannot directly buy a Standing reduction. It can expose evidence or create c
 
 Target the capability actually harmed. Destroying payroll may damage Treasure; exposing agents may damage Influence; losing an estate may damage Territory; defeat may damage Might; betrayal may provoke a Cohesion crisis.
 
-Use an asset loss, setback, adverse Truth or Strain for limited harm. Permanent rating loss needs a lasting reduction in capacity, set by the stakes or a completed undertaking, not a lost roll. Ordinary Disposition loss doesn't reduce a Quality, mark Strain, remove an asset or tick Fracture.
+Use an asset loss, setback, adverse Truth, harmful Situational Condition or Strain for limited harm. Permanent rating loss needs a lasting reduction in capacity, set by the stakes or a completed undertaking, not a lost roll. Ordinary Disposition loss doesn't reduce a Quality, mark Strain, remove an asset or tick Fracture.
 
 ==== Fracture
 
@@ -150,7 +150,7 @@ Restoring permanent Cohesion stops automatic progress but does not erase existin
 
 Separate a local branch when its resources or loyalties differ materially. Do not use a resource twice as if parent and branch had independent copies. An alliance provides agreed access and obligations, not summed ratings.
 
-A merger is a reorganization project. Reassess Qualities from the actual combined capacity once integration occurs; do not automatically add ratings or increase matched scores. Hostile absorption may bring assets while reducing Cohesion or creating adverse Truths. Defeating a smaller organization can grant a useful asset without increasing a rating.
+A merger is a reorganization project. Reassess Qualities from the actual combined capacity once integration occurs; do not automatically add ratings or increase matched scores. Hostile absorption may bring assets while reducing Cohesion or creating adverse Truths or Conditions. Defeating a smaller organization can grant a useful asset without increasing a rating.
 
 === E.13 Example: Reed Quay Association
 
@@ -175,7 +175,7 @@ The party requests public freight records. Nera willingly supplies them; no roll
 
 The association funds a lawful journey and provides a commercial introduction. Passage permits the journey; the introduction grants an audience. Neither grants +3 Persuade because Treasure is +3.
 
-The party retrieves admissible evidence that a rival obtained a charter through bribery. As the agreed outcome of the undertaking, Rival Charter Under Legal Challenge becomes a rank-1 Truth for the ferry-rights project until the challenge is adjudicated. If the party obtains a final judgment itself, do not roll again to establish that judgment.
+The party retrieves admissible evidence that a rival obtained a charter through bribery. As the agreed outcome of the undertaking, Rival Charter Under Legal Challenge becomes a Truth for the ferry-rights project until the challenge is adjudicated: the rival can't use the charter as settled authority, and the court case is open to the party. If the party obtains a final judgment itself, do not roll again to establish that judgment.
 
 On the World Turn, the association uses Influence +2. The evidence lowers the Standard 15 target to Easy 12. Dice of 7 and 9 total 16; +2 gives 18, producing 3 Power. It commits three segments. Without the evidence, the same total against 15 would produce 2 Power.
 
@@ -189,7 +189,7 @@ If the association undertakes an additional urgent funding action that turn, Tre
   [What can it do?], [Qualities, assets, and operational reach.],
   [Will it help us?], [Standing, authority, commitments, and reasonable requests.],
   [What do PCs roll?], [Their normal Skill; never add a faction Quality.],
-  [What does support do?], [Permission, a scoped Truth, or actual Help; no duplicate benefit.],
+  [What does support do?], [Permission, a scoped Situational Condition, or actual Help; no duplicate benefit.],
   [What does the faction roll?], [2d12 + one effective Quality, normally vs. Standard 15.],
   [How does it progress?], [1 Power per project segment; no off-screen Weal or Woe.],
   [How do adventures matter?], [Achieve an objective, affect progress, or establish a strategic advantage.],

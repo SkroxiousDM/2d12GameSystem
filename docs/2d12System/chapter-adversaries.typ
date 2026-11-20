@@ -85,7 +85,7 @@ The Role names the Best action and gives one trait. Assign Fair to two other act
   [Shooter], [Attack], [#strong[Dead Aim.] Free bonus die on its first Attack each scene.],
   [Bulwark], [Defend], [#strong[Interpose.] Once per exchange, it may intercept an ally's imposed status before Resistance or harm reduction, using its own normal reduction instead. Alternatively, use Hold the Line to reduce one successful opposing Attack's ordinary loss by 1. Both options share one use per exchange (§6.13). Outside conflicts, it may likewise intercept fitting harm without a separate frequency limit. Follow the full timing, exclusions and area restrictions in §6.13.],
   [Skirmisher], [Maneuver], [#strong[Hit and Run.] A successful Maneuver also removes 1 Disposition from the opponent.],
-  [Controller], [Maneuver], [#strong[Shape the Ground.] Once per scene, Create a Truth for 1 Woe (not 2) or for 1 Power from a Maneuver.],
+  [Controller], [Maneuver], [#strong[Shape the Ground.] Once per scene, Create a Truth, or instead a harmful rating-1 Situational Condition (#emph[choking smoke 1]), for 1 Woe or for 1 Power from a Maneuver.],
   [Trickster], [Feint], [#strong[Ambush.] If the PCs have not noticed it when the conflict begins, its side starts with +2 Disposition.],
   [Leader], [Defend or Maneuver], [#strong[Command.] While the Leader remains able to participate, minion groups on its side get +1 to all ratings, and changing its side's script costs 2 Woe (not 3).],
 ))
@@ -163,7 +163,7 @@ This is pricing guidance, not an unrestricted spend menu. Write a Special's trig
   [Suppressing Fire], [2], [An area Attack.],
   [Scan], [1], [Once per exchange, cancel one purchased Impede or Gain Position from a detectable opposing Stealth Maneuver, or reveal one detectable hidden opponent after own successful Maneuver (§6.19).],
   [Self-Repair], [1], [After successful assigned action, once per Guardian per exchange, repair up to 2 shared Disposition or physical-status tiers at volley end. No Disposition recovery from 0 (§6.14).],
-  [Lockdown], [2], [Once per scene after successful Maneuver, create rank-1 Sealed Doors over named existing controlled barriers (§6.20).],
+  [Lockdown], [2], [Once per scene after successful Maneuver, create the scene Truth Sealed Doors over named existing controlled barriers (§6.20).],
   [Shock Field], [1], [When a PC loses a versus roll to it in melee, record one deferred jolted-2 application against that PC (§6.12). This trigger is not limited to Attack. During a conflict, at most one recorded application per named Special per target across all sources (§6.12).],
   [Fail-safe], [3], [Defeat-triggered. At eligible final defeat at 0 shared Disposition, an active Guardian detonates before finishing procedures, assigning burned-3 to each PC within reach as an additional compromise injury (§6.11). The Guardian is destroyed.],
   [Calls the Works], [2], [Action-free call to one shared reserve Gate Warden. Accepted command survives caller/link loss; blocked route delays arrival (§6.23).],

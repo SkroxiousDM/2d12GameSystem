@@ -5,7 +5,7 @@
 === 12.1 Earning XP (end of session)
 1 XP per "yes" unless noted:
 
-- Did you hit your #strong[playbook XP trigger]? (1, or 2 in a scene with lethal stakes or a listed Danger, §8)
+- Did you hit your #strong[playbook XP trigger]? (1, or 2 in a scene with lethal stakes or a listed Danger, §8.5)
 - Did you #strong[accomplish your Goal]? (+2)
 - Did one or more of your #strong[World, Other, or Self Beliefs] drive a meaningful decision?
 - Did your #strong[Instinct] get you into trouble or save the day?
@@ -35,7 +35,13 @@ The Belief question awards at most #strong[1 XP per session], not 1 XP per Belie
 #strong[Refresh limits.] Purchases can't take Refresh below 1 (§4.1) or above the Refresh cap.
 
 === 12.3 Reviewing Beliefs and Instincts
-Review the relevance of your Beliefs at session end; ordinary revisions happen at milestones. Reaffirm, revise, or replace them to reflect development in play.
+Review the relevance of your Beliefs at session end. Ask:
+
+#quote(block: true)[Which conviction did events reinforce, complicate, or overturn?]
+
+Use the answer to review your World, Other and Self Beliefs. A conviction may stay firm, grow more complicated or stop fitting the character; you don't have to change a Belief because you questioned or acted against it. The question is a reflection prompt, not a reward: answering it earns nothing by itself (§12.1).
+
+Ordinary revisions happen at milestones. Reaffirm, revise, or replace your Beliefs to reflect development in play.
 
 - #strong[Reaffirm:] keep a conviction and commitment that still matter.
 - #strong[Revise:] update a fulfilled or obsolete action clause while keeping the underlying conviction.

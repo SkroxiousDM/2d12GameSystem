@@ -62,7 +62,7 @@ A permanent Cohesion of 0 is a #emph[crisis] when a faction has fallen to it (E.
 
 Assets determine what the faction can actually do. A treasury cannot occupy a town without personnel; soldiers cannot cross a sea without transport. A rating never creates an unstated army, fleet, office, or network.
 
-When an asset matters mechanically, record it as a Truth with scope, rank and removal condition. It adds its concrete advantage, not a second bonus restating the Quality.
+When an asset matters mechanically, record it as a Truth with scope and ending condition, or as a Situational Condition when it helps rolls by a number (Core Rules §5.2, §8.3). It adds its concrete advantage, not a second bonus restating the Quality.
 
 Record a distant branch separately when local capabilities matter. The imperial institution's full resources are not automatically available to every provincial official.
 
@@ -89,22 +89,23 @@ Standing measures the faction's normal policy toward the party, not the feelings
 
 Standing is not membership, command, fear, or internal unity. A faction may be cohesive and hate the party, or welcome the party while suffering mutiny. A feared enemy can comply with a threat without becoming friendly.
 
-==== Relationship Truths
+==== Relationship Conditions
 
-When identity is known and the relationship materially affects cooperation, access, or credibility, use one relationship Truth:
+When identity is known and the relationship materially affects cooperation, access, or credibility, use one relationship Condition. It is a Situational Condition, because it records other people's response (Core Rules §5.2):
 
+// PLAYTEST: ratings converted at 2 per former Truth rank.
 #table(columns: (20%, 56%, 24%),
-  table.header([Standing], [Truth], [Rank]),
-  [−3 / −2], [Enemies of the Faction / Hostile Reception], [2 adverse],
-  [−1], [Distrusted by the Faction], [1 adverse],
+  table.header([Standing], [Condition], [Rating]),
+  [−3 / −2], [Enemies of the Faction / Hostile Reception], [4 harmful],
+  [−1], [Distrusted by the Faction], [2 harmful],
   [0], [None], [—],
-  [+1], [Welcome Among the Faction], [1 helpful],
-  [+2 / +3], [Trusted by the Faction / Bound by Alliance], [2 helpful],
+  [+1], [Welcome Among the Faction], [2 helpful],
+  [+2 / +3], [Trusted by the Faction / Bound by Alliance], [4 helpful],
 )
 
-Each relevant rank shifts Difficulty one step (3 points), following Core Rules §8. Helpful and adverse Truths cancel normally; the net shift remains capped at three steps. Relationship Truths do not automatically modify combat, technical work, stealth, or deception.
+It uses the Situational Condition slot: only the highest relevant helpful and harmful Condition apply to a roll. Relationship Conditions do not automatically modify combat, technical work, stealth, or deception.
 
-Scope: recognized dealings with this faction where the relationship affects the request. Removal: replace the Truth when Standing changes or the relevant relationship ends. A personal exception replaces this Truth for its subject; it never stacks with it.
+Scope: recognized dealings with this faction where the relationship affects the request. Removal: replace the Condition when Standing changes or the relevant relationship ends. A personal exception replaces this Condition for its subject; it never stacks with it.
 
 Trust does not compel obedience. Even an ally may refuse something beyond its means, authority, commitments, or capacity to survive. Ordinary assistance already willingly available needs no roll.
 
@@ -152,7 +153,7 @@ Record what a patron supplies, the service expected, what lies outside the arran
 + Use a single core check for limited uncertainty; use an Argument or Negotiation conflict when the core conflict criteria are met.
 + If the request is impossible now, explain what would have to change.
 
-For a single request check, establish burden before applying relationship and other Truths:
+For a single request check, establish burden before applying relationship Conditions and other modifiers:
 
 #table(columns: (29%, 71%),
   table.header([Base Difficulty], [Burden]),
@@ -163,7 +164,7 @@ For a single request check, establish burden before applying relationship and ot
   [Heroic 24], [An extraordinary but still possible commitment.],
 )
 
-PCs roll normal Skills. Pools pay for Effort and Resistance; do not add a pool as an attribute. Persuade, Deceive, and Intimidate reflect different methods and consequences. Evidence, compensation, leverage, and timing can change the request's feasibility or relevant Truths.
+PCs roll normal Skills. Pools pay for Effort and Resistance; do not add a pool as an attribute. Persuade, Deceive, and Intimidate reflect different methods and consequences. Evidence, compensation, leverage, and timing can change the request's feasibility or the relevant Truths and Conditions.
 
 For that single request check, use normal core outcomes, Power, doubles, and currencies. A Success at a Cost grants the agreed help with the normal consequence-or-Woe choice. Failure does not secure the help and produces an appropriate move. A failed request cannot be repeated unchanged: introduce materially new terms or circumstances.
 
@@ -177,7 +178,7 @@ A Quality establishes what support the faction can organize; Standing, authority
 
 Support has one concrete application:
 - Permission: equipment, credentials, transport, or access makes the action possible, or removes the need for a particular roll.
-- A scoped Truth: actual conditions change Difficulty under Core Rules §8.
+- A scoped Situational Condition: actual conditions modify relevant rolls (Core Rules §5.2). A Truth that only makes something possible is Permission.
 - Active Help: a participating ally uses the core Help procedure, pays its normal cost from its own pools and shares the risk. An ordinary NPC has no pools, so it can't Help unless a rule says otherwise (Core Rules §6.1). Qualities aren't pools.
 
 Do not award all three for the same contribution. Stronger Qualities increase feasible reach, reliability, and scale, not an automatic numerical bonus. Might +4 can organize support beyond Might +1; it does not grant +4 Fight.

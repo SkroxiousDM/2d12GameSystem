@@ -30,16 +30,61 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Encyclopedic];], [Once per scene, ask one Discover question about a subject covered by your Lore #strong[without rolling];.],
-    [2], [#strong[Analyze];], [When you study a foe or obstacle, each Discover you buy also reveals #strong[one weakness tag] of the target. Creating a Truth that exploits a revealed weakness costs #strong[1 Power less] (Core Rules §5). The Truth is leverage, not automatic victory.],
-    [3], [#strong[Field Medic];], [Restore effects from Medicine cost #strong[1 Power per 2 tiers], within the lasting-injury limits (Core Rules §6.6). You can treat #emph[Sick] (Module B) at Standard Difficulty instead of Hard. Healing doesn't restore pools or Disposition, refresh injury trades or erase Scars.],
-    [4], [#strong[Steady Mind];], [When you Resist confusion, illusion, deception, or forbidden knowledge with Psychē, reduce the status by #strong[3 tiers];.],
-    [5], [#strong[Decipher];], [Codes, unknown languages, and ancient devices give way. Each success on a deciphering roll advances its clock #strong[1 extra segment]. This is clock progress only, not Power or Disposition loss.],
-    [6], [#strong[Briefing];], [When an ally acts on information you gave them this scene, they get #strong[+1] (counts as a tag, within the tag cap). Once per scene, give the whole party this bonus.],
-    [7], [#strong[★ Connect the Dots];], [Once per session, propose a hidden Truth based on clues you've found. The GM either makes it true or tells you #strong[one true hidden Truth] about the situation instead.],
-    [8], [#strong[★ I Planned for This];], [Once per scene, after any ally rolls but before Power is spent or consequences apply, spend #strong[2 Psychē] to let them reroll all dice and keep the better result. This replaces that roll; it isn't an extra action.],
+    [1], [#strong[Encyclopedic];], [#ability(
+      trigger: [You ask a Discover question about a subject covered by your Lore.],
+      cost: [No additional cost.],
+      benefit: [Ask it #strong[without rolling].],
+      limit: [Once per scene, one question.],
+    )],
+    [2], [#strong[Analyze];], [#ability(
+      trigger: [You buy Discover while studying a foe or obstacle, or you Create a Truth or Situational Condition that exploits a revealed weakness.],
+      cost: [The normal Discover cost. That Create costs #strong[1 Power less] (Core Rules §5), minimum 1: a Truth costs 1, a rating-1 Condition 1, a rating-2 Condition 3.],
+      benefit: [Each Discover also reveals #strong[one weakness tag] of the target.],
+      limit: [The Truth or Condition is leverage, not automatic victory.],
+    )],
+    [3], [#strong[Field Medic];], [#ability(
+      trigger: [You use Medicine to Restore, or to treat #emph[Sick] (Module B).],
+      cost: [Restore costs #strong[1 Power per 2 tiers].],
+      benefit: [The reduced Restore price. You can treat #emph[Sick] at Standard Difficulty instead of Hard.],
+      limit: [Within the lasting-injury limits (Core Rules §6.6). Healing doesn't restore pools or Disposition, refresh injury trades or erase Scars.],
+    )],
+    [4], [#strong[Steady Mind];], [#ability(
+      trigger: [You Resist confusion, illusion, deception or forbidden knowledge with Psychē.],
+      cost: [Pay the normal Resistance cost. This ability adds no cost.],
+      benefit: [Reduce the status by #strong[3 tiers].],
+      limit: [Only those sources, and only with Psychē.],
+    )],
+    [5], [#strong[Decipher];], [#ability(
+      trigger: [You succeed on a deciphering roll (codes, unknown languages, ancient devices).],
+      cost: [No additional cost.],
+      benefit: [The roll advances its clock #strong[1 extra segment].],
+      limit: [Clock progress only, not Power or Disposition loss.],
+    )],
+    [6], [#strong[Briefing];], [#ability(
+      trigger: [You explain a plan to your allies before they act on it.],
+      cost: [#strong[1 Power less] than a normal Situational Condition (Core Rules §5.2): rating 1 costs 1 Power, rating 2 costs 3, and so on. Power comes from a roll to prepare the plan.],
+      benefit: [Create the Situational Condition #emph[Briefed] (Core Rules §5.2): #emph[Briefed] --- Situational Condition X --- helps allies' actions that follow the plan --- ends when the scene ends or the plan is abandoned.],
+      limit: [Once per scene. Uses the helpful Condition slot, so it doesn't add to a higher helpful Condition (Core Rules §2.1).],
+    )],
+    [7], [#strong[★ Connect the Dots];], [#ability(
+      trigger: [You propose a hidden Truth based on clues you've found.],
+      cost: [No additional cost.],
+      benefit: [The GM either makes it true or tells you #strong[one true hidden Truth] about the situation instead.],
+      limit: [Once per session.],
+    )],
+    [8], [#strong[★ I Planned for This];], [#ability(
+      trigger: [Any ally rolls. Use it after the roll, before Power is spent or consequences apply.],
+      cost: [#strong[2 Psychē].],
+      benefit: [They reroll all dice and keep the better result.],
+      limit: [Once per scene. This replaces that roll; it isn't an extra action.],
+    )],
     // PLAYTEST: Balance B6, field limited to about one skill's width.
-    [◆], [#strong[Master of the Field];], [Choose one field, about as wide as a single skill (medicine, occult, engineering, history). The GM can refuse a field that would cover most of your rolls. Rolls in that field against a Difficulty, including independent conflict tests, are #strong[one Difficulty step lower]; versus tests are unchanged. Once per session, ask a Discover question about #strong[what will happen] in that field; the GM answers truthfully.],
+    [◆], [#strong[Master of the Field];], [#ability(
+      trigger: [You roll in your chosen field against a Difficulty, or ask about what will happen in it.],
+      cost: [No additional cost.],
+      benefit: [Rolls in that field against a Difficulty, including independent conflict tests, are #strong[one Difficulty step lower]. Ask a Discover question about #strong[what will happen] in that field #strong[without rolling or spending Power]. The GM answers truthfully.],
+      limit: [Choose one field, about as wide as a single skill (medicine, occult, engineering, history); the GM can refuse a field that would cover most of your rolls. Versus tests are unchanged. The question is once per session.],
+    )],
   )]
   , kind: table
   )

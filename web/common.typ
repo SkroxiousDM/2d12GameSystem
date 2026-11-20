@@ -41,6 +41,10 @@
 // ---------------------------------------------------------------- web boxes
 #let web-box(kind, body) = columns(1)[WEBBOX:#kind #body]
 
+// ---------------------------------------------------------------- abilities
+// four-field ability (Trigger, Cost, Benefit, Limit); one line per field
+#let ability(trigger: [], cost: [], benefit: [], limit: []) = [#strong[Trigger:] #trigger \ #strong[Cost:] #cost \ #strong[Benefit:] #benefit \ #strong[Limit:] #limit]
+
 // ---------------------------------------------------------------- art
 #let playbook-art(file, alt) = image("art/playbooks/" + file, alt: alt)
 #let playbook-art-side(file, alt, body, dir: "art/playbooks/generic/") = web-box("art-side",

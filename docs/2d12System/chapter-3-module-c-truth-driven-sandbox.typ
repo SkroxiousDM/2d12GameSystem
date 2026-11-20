@@ -19,12 +19,12 @@ Truths become the backbone of an open-world campaign: regions, sites, and factio
   , kind: table
   )
 
-Record scope, rank and removal condition as usual (Core Rules §8). A Truth's layer sets its scale and how long it lasts, not its rank: rank 2 and the three-step cap still apply.
+Record scope and ending condition as usual (Core Rules §8.3). A Truth's layer is its scale: it sets its reach and how long it lasts, not a modifier. When a lasting circumstance should also help or hinder rolls, record it as a Situational Condition at the same layer (#emph[Martial law] --- Situational Condition 2 --- hinders movement and gatherings across the region --- ends when the governor lifts it; Core Rules §5.2).
 
 === C.2 Site Sheets
 Each location gets a short sheet:
 
-- #strong[3 Truths] (at least one hidden; at most one at rank 2)
+- #strong[3 Truths] (at least one hidden; at most one also carries a Situational Condition)
 - #strong[A Woe seed:] 1--3 Woe the GM adds when the party arrives
 - #strong[A danger clock] (what happens if the party lingers)
 - #strong[A secret] (something worth discovering)
@@ -50,7 +50,7 @@ Roll once per column or pick.
     [7], [River crossing], [Thick fog], [Rapids], [Drowned village below],
     [8], [Sacred grove], [Watched by unseen eyes], [Spirit anger], [A pact with the old powers],
     [9], [Remote camp], [Desperation], [Bandits], [Someone is not who they claim],
-    [10], [Underground ways], [Echoes], [Collapse], [Lost civilisation],
+    [10], [Under­ground ways], [Echoes], [Collapse], [Lost civilisation],
     [11], [Noble estate], [Hollow luxury], [Political danger], [Blackmail ledger],
     [12], [Wasteland], [Unnatural stillness], [Exposure], [Gateway to elsewhere],
   )]
@@ -92,7 +92,7 @@ A faction project changes a Site Truth with an 8-segment clock and a Region Trut
 - #strong[Create] effects and 2 Weal create Scene Truths; bigger changes need a progress clock (8 segments for a Site Truth, 12 for a Region Truth).
 - Major arcs can rewrite Campaign Truths. These are the \"legacy\" moments of the campaign.
 
-Create costs 2 Power per rank (Core Rules §5). A 2-Weal Truth starts at rank 1, and the same cost again raises it to rank 2 (Core Rules §8). A Scene Truth can't stand in for a Site or Region change.
+Create costs 2 Power for a scene Truth or 2 per Situational Condition rating (Core Rules §5); 2 Weal buys a scene Truth, never a rating (Core Rules §9). A Scene Truth can't stand in for a Site or Region change.
 
 #strong[In a conflict,] Discover, Advance and other off-menu Effects need a permitted action or explicit exception (Core Rules §10.6). Winning achieves the conflict's stated intent, not every related project clock. A Truth can set up a scenery feature, but using it takes a scenery Maneuver (Core Rules §10.8). Preparation counts toward Superiority only under Core Rules §10.3.
 

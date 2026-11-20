@@ -7,8 +7,14 @@
 
 - #strong[Skill:] +0 to +4 (from the skill pyramid; untrained = +0).
 - #strong[Tags:] +1 per relevant #strong[power tag];, #strong[maximum +2 per roll];. −1 per relevant #strong[weakness tag] (no cap).
-- #strong[Statuses:] + the tier of the highest relevant helpful status, − the tier of the highest relevant harmful status.
-- #strong[Truths:] shift Difficulty by steps (§8), not the roll: one step per rank, ±3 steps at most.
+- #strong[Personal statuses:] + the tier of the highest relevant helpful status, − the tier of the highest relevant harmful status (§5.1).
+- #strong[Situational Conditions:] + the rating of the highest relevant helpful Condition, − the rating of the highest relevant harmful one (§5.2).
+- #strong[Truths] add nothing to the roll. They decide whether an action is possible, certain or needs something first (§8).
+
+Use at most one helpful and one harmful modifier from each of the two slots; equal ratings don't combine, and the others stay recorded for other actions. Assess each actor separately in a versus test, and don't add an extra modifier just because the opponent is hindered.
+
+// PLAYTEST: status and Condition slots together range from −12 to +12; no lower Situational cap adopted.
+#emph[Example:] dice 16 + Skill 3 − #emph[exhausted-3] + #emph[rehearsed plan 2] − #emph[slippery bridge 3] = 15.
 
 Why 2d12 summed: it produces a bell curve (2--24, average 13) --- predictable for skilled characters, swingy at the extremes, and big enough that +1 modifiers matter without dominating.
 
@@ -34,7 +40,7 @@ Why 2d12 summed: it produces a bell curve (2--24, average 13) --- predictable fo
 
 Roll only when the outcome is uncertain and matters; otherwise the action is Trivial and simply happens. Each step of Difficulty is 3 points. Modifiers can push a target below Routine 9; it is still a number to roll against, not an automatic success.
 
-#strong[Permission comes first.] Before setting a Difficulty, ask whether the character can attempt the action at all. A relevant background, Knowledge Skill (§3.3), tool or ability can make an action possible, or remove an obstacle caused only by its absence. Permission isn't a bonus: it adds no die or modifier unless a rule says so. A suitable diagnostic kit lets you inspect a sealed mechanism without damaging it; it doesn't guarantee you identify the fault. If the outcome is still uncertain and matters, roll.
+#strong[Permission comes first.] Before setting a Difficulty, ask whether the character can attempt the action at all. A relevant background, Knowledge Skill (§3.3), tool or ability can make an action possible, or remove an obstacle caused only by its absence. Permission isn't a bonus: it adds no die or modifier unless a rule says so. A suitable diagnostic kit lets you inspect a sealed mechanism without damaging it; it doesn't guarantee you identify the fault. Relevant Truths are part of this check (§8.1). If the outcome is still uncertain and matters, roll.
 
 === 2.3 Odds Reference
 Chance to hit the number needed on the dice (after subtracting your bonuses):

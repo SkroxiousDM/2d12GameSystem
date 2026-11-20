@@ -30,17 +30,62 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Silver Tongue];], [When you Persuade or Deceive, creating a Truth about a target's attitude (#emph[convinced], #emph[trusts us], #emph[fooled]) costs #strong[1 Power less] (Core Rules §5). In a conflict, the Truth gives leverage, not the disputed objective.],
-    [2], [#strong[Read the Room];], [Spend 1 Power on Discover to learn an NPC's #strong[Belief, Goal, or Instinct]. You get #strong[+1] (counts as a tag, within the tag cap) against them for the scene.],
-    [3], [#strong[Network];], [Once per session, declare a #strong[contact] in the current location as a Truth (#emph[contact: harbourmaster Elsa]). The GM gives them a quirk or something they want in return.],
-    [4], [#strong[Smooth Recovery];], [Once per scene, when you fail a Persuade, Deceive or Empathy test against a Difficulty, before Power or consequences apply, turn it into #strong[Success at a Cost] with #strong[1 Power], whatever the margin. Pay the Success at a Cost price instead of ordinary-failure Woe; doubles and other separate consequences still apply. It works on independent tests, not on losing, tied or trumped versus tests.],
-    [5], [#strong[Many Faces];], [With a moment to prepare, Create the Truth #emph[I belong here] for #strong[1 Power]. It lasts the scene and removes one Truth that would raise the Difficulty of mingling or entry. It doesn't settle a contested conflict objective.],
-    [6], [#strong[Command];], [When your side scripts an exchange and you can act and communicate, name one volley and its actor: that actor may act out of rotation, even in consecutive volleys. Commit it with the script. It still holds if you're later Taken Out, but can't make an unavailable actor act; record the turn normally, then resume rotation. Separately, when an ally succeeds with Defend and commits at least 1 Power to Disposition recovery, add #strong[+1 recovery] (up to starting Disposition). Each benefit applies #strong[once per exchange] for your side, however many Command users it has.],
-    [7], [#strong[★ Inspire];], [You can spend #strong[your Tychē Points on allies' rolls]. Enhance effects you create for allies cost #strong[1 Power per 2 tiers].],
+    [1], [#strong[Silver Tongue];], [#ability(
+      trigger: [You Persuade or Deceive and Create a Situational Condition about a target's attitude (#emph[convinced], #emph[trusts us], #emph[fooled]).],
+      cost: [That Create costs #strong[1 Power less] (Core Rules §5), minimum 1.],
+      benefit: [Create the attitude Condition at the reduced cost.],
+      limit: [In a conflict, the Condition gives leverage, not the disputed objective. It doesn't decide what another PC believes.],
+    )],
+    [2], [#strong[Read the Room];], [#ability(
+      trigger: [You spend Power on Discover to learn an NPC's Belief, Goal or Instinct.],
+      cost: [1 Power (the Discover).],
+      benefit: [Learn their #strong[Belief, Goal, or Instinct]. You get #strong[+1] (counts as a tag) against them for the scene.],
+      limit: [Within the tag cap. The bonus lasts the scene.],
+    )],
+    [3], [#strong[Network];], [#ability(
+      trigger: [You declare a #strong[contact] in the current location.],
+      cost: [No additional cost.],
+      benefit: [The contact becomes a #strong[Site Truth] (Core Rules §8.2): #emph[Contact: harbourmaster Elsa] --- Truth/Site --- that settlement or place, where you can find and call on them --- ends when the contact no longer matters there or is lost.],
+      limit: [Once per session. The GM gives them a quirk or something they want in return.],
+    )],
+    [4], [#strong[Smooth Recovery];], [#ability(
+      trigger: [You fail a Persuade, Deceive or Empathy test against a Difficulty. Use it before Power or consequences apply.],
+      cost: [Pay the Success at a Cost price instead of ordinary-failure Woe.],
+      benefit: [Turn it into #strong[Success at a Cost] with #strong[1 Power], whatever the margin.],
+      limit: [Once per scene. Independent tests only, not losing, tied or trumped versus tests. Doubles and other separate consequences still apply.],
+    )],
+    [5], [#strong[Many Faces];], [#ability(
+      trigger: [You have a moment to prepare.],
+      cost: [#strong[1 Power].],
+      benefit: [Create the Truth #emph[I belong here]. While it lasts, ignore one harmful Situational Condition on mingling or entry.],
+      limit: [It lasts the scene. It doesn't settle a contested conflict objective.],
+    )],
+    [6], [#strong[Command];], [#ability(
+      trigger: [Your side scripts an exchange and you can act and communicate; or an ally succeeds with Defend and commits at least 1 Power to Disposition recovery.],
+      cost: [No additional cost.],
+      benefit: [Name one volley and its actor: that actor may act out of rotation, even in consecutive volleys. Commit it with the script. Separately, add #strong[+1 recovery] to the ally's Defend (up to starting Disposition).],
+      limit: [Each benefit applies #strong[once per exchange] for your side, however many Command users it has. The named volley still holds if you're later Taken Out, but can't make an unavailable actor act; record the turn normally, then resume rotation.],
+    )],
+    [7], [#strong[★ Inspire];], [#ability(
+      trigger: [You spend Tychē Points on an ally's roll, or create an Enhance effect for an ally.],
+      cost: [Your own Tychē Points. Enhance costs #strong[1 Power per 2 tiers].],
+      benefit: [You can spend #strong[your Tychē Points on allies' rolls]. Enhance effects you create for allies use the reduced price.],
+      limit: [No additional limit.],
+    )],
     // PLAYTEST: Balance B2, ★ kept; widened from crowds or councils to any side of two or more.
-    [8], [#strong[★ Crowd Work];], [You influence a group as if it were one person. In Argument or Negotiation conflicts where the other side has #strong[two or more participants] (a crowd, a council, a rival delegation), your successful Attacks remove #strong[1 additional Disposition] with ordinary Attack loss, however many people that side holds.],
+    [8], [#strong[★ Crowd Work];], [#ability(
+      trigger: [You succeed on an Attack in an Argument or Negotiation conflict where the other side has #strong[two or more participants] (a crowd, a council, a rival delegation).],
+      cost: [No additional cost.],
+      benefit: [You influence a group as if it were one person: the Attack removes #strong[1 additional Disposition] with ordinary Attack loss.],
+      limit: [Applies however many people that side holds.],
+    )],
     // PLAYTEST: Word Is Law starting bonus lowered from +4 to +3.
-    [◆], [#strong[Word Is Law];], [Once per session, a non-villain NPC agrees to a reasonable request #strong[without a roll]. In Argument and Negotiation conflicts, your side starts with #strong[+3 Disposition] (a flat modifier, §1.2).],
+    [◆], [#strong[Word Is Law];], [#ability(
+      trigger: [You make a reasonable request of a non-villain NPC, or an Argument or Negotiation conflict begins.],
+      cost: [No additional cost.],
+      benefit: [The NPC agrees #strong[without a roll]. In Argument and Negotiation conflicts, your side starts with #strong[+3 Disposition].],
+      limit: [The request is once per session. The Disposition bonus is a flat modifier (§1.2).],
+    )],
   )]
   , kind: table
   )

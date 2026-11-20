@@ -331,7 +331,7 @@ Assigning an action that later proves unsuitable does not permit a free replacem
 
 Before revealing a volley, spend:
 
-- 2 Momentum for the players’ side; or
+- 2 Weal for the players’ side; or
 - 3 Woe for the GM’s side.
 
 Replace one unrevealed action. Keep its assigned actor unless an explicit ability allows reassignment.
@@ -475,7 +475,7 @@ Armour and Resistance do not reduce ordinary Disposition loss unless an explicit
 
 == 10.7 Costs, Failures, and Complications
 
-Conflict actions use normal Effort, Momentum, Woe, Tychē Points, tags, and Truths, subject to the restrictions below.
+Conflict actions use normal Effort, Weal, Woe, Tychē Points, tags, and Truths, subject to the restrictions below.
 
 === Ordinary Failure
 
@@ -519,7 +519,7 @@ Once setup is complete, use the existing conflict procedure.
 Compromise hooks do not:
 
 - Modify starting or current Disposition.
-- Grant bonus dice, Power, or Momentum.
+- Grant bonus dice, Power, or Weal.
 - Authorise additional Effect purchases.
 - Impose consequences merely because they were listed.
 - Allow a successful action to settle a still-disputed objective.

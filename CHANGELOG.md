@@ -6,6 +6,44 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Truths and Conditions review decisions (2026-11-20)
+
+- Core Rules §5, §10.6 and the Quick Reference: Create buys a Situational Condition at 2 Power per rating (was 1), and Weaken reduces one at 2 Power per rating. Weaken on a status tier or tag Suppress stays at 1 Power.
+- Core Rules §5.2: building on the same circumstance sets a Condition one rating above the higher, never above 6. When a harmful Condition first reaches 6, the GM gains one free fitting consequence or a matching Truth that lasts as long as the Condition, whichever is more narratively appropriate, without spending Woe.
+- Core Rules §5.3: the example table splits Obstructed into Concealed (helpful) and Obstructed (harmful).
+- Core Rules §10.8: Floor Collapse now costs 2 Power, the same as Make a Hazard and a normal Truth.
+- Modules A, B, D and E and the example of play: converted ratings drop to 2 per old Truth rank (relationship Conditions 4/2/—/2/4; strategic advantages 2 and 4; Poor Rest, Well Appointed, Short-Handed and terrain 2; Dim Lighting 2). Module A's cypher examples are recalculated, and the Phase key gains a Create (*unseen entry*) Effect. Module C.1's Condition example is now *Martial law*.
+- Generic Playbooks and Focuses: Briefing costs 1 Power less than a normal Condition (minimum 1), and Analyze's discount now also covers Conditions. Jury-Rig, Lost Knowledge and Quick Change can create a helpful rating-1 Condition instead of their Truth. Rig the Field can add a rating-2 Condition to one of its Truths. Cheap Shot inflicts a tier-1 Personal status. Weather Sense lets you set the weather Condition's rating, 1 to 4. Trick Shot, Hunter's Eye, Infiltrator and Pathfinder drop their "doesn't bypass a Truth" or impossible-shot limits, which §8.5 already covers.
+- Adversaries §6: Shape the Ground can create a harmful rating-1 Condition instead of a Truth.
+- Kept after review: ±6 per modifier slot, the 1-per-scene danger Woe cap, the 2-point Truth limits, the 140-page length, and Shadow-Born, Silver Tongue, Many Faces, Belongs Anywhere, Back Door, Contingency, Rank, Cartographer, Master Key, Living Archive and Lockdown as written.
+- All 22 open items in `docs/design/truths-conditions-review-flags.md` are now marked Decided.
+- Generic Focuses §8: the Regeneration name gets soft hyphens so it no longer runs into the Effect column.
+- Table overflow fixes: soft hyphens in Module C's *Underground ways* and in Cartographer and Discoverer (Generic Focuses §7, replacing the hard hyphen in Carto-grapher), and a wider d12 column in Module D's stay-event table.
+
+### Changed — Four-field ability review decisions (2026-11-20)
+
+- Generic Playbooks and Focuses: the 31 open questions from the four-field pass are settled, as listed in the Decisions table of `docs/design/four-field-ability-review-flags.md`. Changes include Briefing (a *Briefed* Situational Condition at 1 Power less per rating), Ward (depleting *warded-X*), Ritual (4-segment clocks for lower workings; cost once, Backlash every roll), Domain in the four-field format, Miracle Worker (ends Dying and erases the tier-6 Scar), Disarming (usable mid-fight at one step harder) and limits or clarifications for the rest.
+- Core Rules §10.6, the Furcifer note and Bane no longer mention staking, a Frontier term.
+- `web/common.typ` gains an `ability()` stand-in so the web edition builds with the four-field abilities.
+
+### Changed — Unranked Truths, Personal statuses and Situational Conditions (2026-11-20)
+
+- Core Rules §8: Truths have no rank and no modifier. A Truth is a permission, prohibition, requirement, danger or world fact at Scene, Site, Region or Campaign scale, checked before Difficulty (§8.1). Creating one costs 2 Power, 2 Weal or 2 Woe.
+- Core Rules §5.1--5.3: statuses on a person are Personal statuses (tiers 1--6). External numerical circumstances are Situational Conditions (ratings 1--6, 1 Power per rating), with the highest helpful and highest harmful applying to a roll and no stacking. Prepared, Supported, Trusted and Discredited move to the Condition examples; Obstructed is added.
+- Core Rules §2.1, §2.4, §9, §10 and the Quick Reference: roll modifiers come from one status slot and one Condition slot; dangerous-circumstance Woe is capped at 1 per scene; Floor Collapse and Make a Hazard create dangerous Truths; Maneuver and supplementary Create rows list both purchases.
+- Modules A--F and the adversaries chapter: former ranked Truths become Situational Conditions (at 3 per old rank) or unranked Truths, including Module E relationship Conditions, Module D Poor Rest, Well Appointed and Short-Handed, and Lockdown's Sealed Doors.
+- Generic Playbooks and Focuses: Infiltrator, Silver Tongue, Many Faces, Pathfinder, Hunter's Eye, Weather Sense, Shadow-Born, Trick Shot, Back Door, Contingency and Belongs Anywhere are reworded for the new rules.
+- Open questions are listed in `docs/design/truths-conditions-review-flags.md`.
+
+### Changed — Four-field abilities, double-edged Descriptors and temporary-fact records (2026-11-19)
+
+- Generic Playbooks §3--8 and Generic Focuses §3--8: all 54 playbook abilities and 120 Focus abilities now use the four-field format Trigger, Cost, Benefit, Limit, through a new `ability()` helper in `common.typ`. Generic Playbooks §1.2 explains the fields; Generic Focuses §1.3 applies them. Editorial only: costs, benefits, timing, frequency and exclusions are unchanged. Menacing's flee, surrender or freeze response now states its ending condition, and Legend of the Field's "while you stand" now reads "while you remain an active participant in the conflict".
+- Generic Descriptors §1 and §3: each Descriptor has an identity line linking its power tag and weakness tag as two sides of one identity. Tags, compels and Tychē awards are unchanged; the line has no mechanical effect.
+- Core Rules §5, §5.1, §5.2, §8 and §10.6, and the Quick Reference: temporary mechanical facts (statuses, Truths, Gain Position and similar benefits) are recorded as Name --- category/rating --- scope --- ending condition. The existing recording examples use the new order. Categories and mechanics are unchanged.
+- Core Rules §12.3: the session-end Belief review asks "Which conviction did events reinforce, complicate, or overturn?" It is a reflection prompt with no XP or Tychē award.
+- Remaining Momentum references in the README, CONTRIBUTING and the core `drafts/` folder now read Weal. The 2d20 comparison in Core Rules design notes keeps "Momentum (here called Weal)".
+- Open questions found during the pass are listed in `docs/design/four-field-ability-review-flags.md`.
+
 ### Added — Core rulebook web edition workflow (2026-11-15)
 
 - New `web/` build converts the core rulebook Typst source to one HTML page per chapter with Pandoc 3.7.0.2: `web/build_html.py`, the filter `web/rulebook.lua`, and web stand-ins for `common.typ` and `adversaries-common.typ` that keep text, tables, sidebars, stat blocks, playbook art and art-placeholder briefs while dropping print layout. Chapter order comes from the root rulebook's `#include` lines.

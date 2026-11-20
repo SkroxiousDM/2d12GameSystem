@@ -21,6 +21,9 @@
   , kind: table
   )
 
+#strong[Truths, not ratings.] Create a Truth buys one justified scene-scale fact at an appropriate moment (§8.3). It grants no extra action, automatic success, Situational Condition rating or result beyond the stakes, and in a conflict it follows normal timing and permissions (§10.18). There is no Weal or Woe purchase of status tiers or Condition ratings: when the point is numerical help or interference, use an action that buys a Condition, an Effect or an explicit ability. Buying the existence of a maintenance passage establishes an approach, not #emph[prepared escape routes 2]; buying a smoke pot supplies the pot, and using it follows its own rules.
+
+// PLAYTEST: where a 2-Weal or 2-Woe Truth may create a concrete obstacle rather than a resource or alternative approach. Neither can settle a disputed objective by declaration.
 #strong[Paying with Woe.] When the party is short, the GM may let you pay any spend except #emph[Reduce Woe], in whole or in part, by giving the GM 1 Woe per Weal. Bonus dice can always be paid this way (§2.4).
 
 === 9.2 Woe (the GM\'s pool)
@@ -33,7 +36,7 @@
 - complications bought off (+2);
 - refused compels;
 - Escalation (+1, §9.3);
-- dangerous scene Truths: those with lethal stakes or a listed Danger (+1 per scene each, §8).
+- a dangerous circumstance (lethal stakes or a listed Danger, §8.5) first becoming relevant in a scene: +1, and no more than +1 per scene from dangerous circumstances in total.
 
 #colbreak()    
 #figure(
@@ -54,6 +57,11 @@
   )]
   , kind: table
   )
+
+// PLAYTEST: scene-wide cap on dangerous-circumstance Woe, replacing +1 per dangerous Truth; check hazard-heavy scenes.
+#strong[Danger Woe.] There is no extra Woe for each target, duplicate description or higher rating, and none from a hazard the GM created by spending Woe in that scene. Gaining this Woe doesn't activate the hazard: a listed scenery Danger still costs 1 Woe to trigger, and a danger clock 1 Woe per segment.
+
+#strong[Complications carry no free rating.] A complication bought with Woe doesn't include an unnamed status or Situational Condition. Use a listed effect or an NPC action when numerical interference is intended; Conditions can still arise from properly resolved failures, hazards or explicit abilities.
 
 #strong[In conflicts,] failure, Success at a Cost and Woe spends follow §10.7. Explicit Woe spends, Specials, hazards and Risky rolls keep their stated effects.
 

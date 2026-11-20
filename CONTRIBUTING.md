@@ -90,7 +90,7 @@ Add an entry under `## [Unreleased]` in [`CHANGELOG.md`](CHANGELOG.md). Use a he
 
 ### Rules text
 
-- **House names, always.** Use **Sōma, Akmē, Psychē, Pneuma** for the pools, plus **Tychē Points**, **Woe** and **Momentum**. Use the playbook names **Bellator, Furcifer, Savant, Interlocutor, Explorator, Adept**. Never use the working names (Vitality, Threat, Fate, Bruiser...) except in the terminology tables.
+- **House names, always.** Use **Sōma, Akmē, Psychē, Pneuma** for the pools, plus **Tychē Points**, **Woe** and **Weal**. Use the playbook names **Bellator, Furcifer, Savant, Interlocutor, Explorator, Adept**. Never use the working names (Vitality, Threat, Fate, Bruiser...) except in the terminology tables.
 - **Cross-references** give a chapter name and section, not a chapter number: `Core Rules §6.3`, `Generic Focuses §9.2`, `Frontier Rules §5.2`. A bare `§6` means the same chapter. Chapter numbers differ between books, so never write "Chapter II".
 - **Notation:** ★ Major (costs 1 Refresh), ◆ Capstone, ◈ Weird. Tags in italics (`#emph[marks on my throat]`), statuses with a tier (`#emph[wounded-2]`), Difficulty by name and target (`Standard 15`).
 - **Tone:** rules are short and procedural. Flavour can be more literary, but it should still be brief and help at the table.

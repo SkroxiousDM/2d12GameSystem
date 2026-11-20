@@ -61,10 +61,10 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
       limit: [Clock progress only, not Power or Disposition loss.],
     )],
     [6], [#strong[Briefing];], [#ability(
-      trigger: [An ally acts on information you gave them this scene.],
-      cost: [No additional cost.],
-      benefit: [They get #strong[+1] (counts as a tag). Once per scene, give the whole party this bonus.],
-      limit: [Within the tag cap. Information given this scene only.],
+      trigger: [You explain a plan to your allies before they act on it.],
+      cost: [#strong[1 Power per rating, minus 1]: rating 1 is free, rating 2 costs 1 Power, and so on. Power comes from a roll to prepare the plan.],
+      benefit: [Create the Situational Condition #emph[Briefed] (Core Rules §5.2): #emph[Briefed] --- Situational Condition X --- helps allies' actions that follow the plan --- ends when the scene ends or the plan is abandoned.],
+      limit: [Once per scene. Uses the helpful Condition slot, so it doesn't add to a higher helpful Condition (Core Rules §2.1).],
     )],
     [7], [#strong[★ Connect the Dots];], [#ability(
       trigger: [You propose a hidden Truth based on clues you've found.],
@@ -82,7 +82,7 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
     [◆], [#strong[Master of the Field];], [#ability(
       trigger: [You roll in your chosen field against a Difficulty, or ask about what will happen in it.],
       cost: [No additional cost.],
-      benefit: [Rolls in that field against a Difficulty, including independent conflict tests, are #strong[one Difficulty step lower]. Ask a Discover question about #strong[what will happen] in that field; the GM answers truthfully.],
+      benefit: [Rolls in that field against a Difficulty, including independent conflict tests, are #strong[one Difficulty step lower]. Ask a Discover question about #strong[what will happen] in that field #strong[without rolling or spending Power]. The GM answers truthfully.],
       limit: [Choose one field, about as wide as a single skill (medicine, occult, engineering, history); the GM can refuse a field that would cover most of your rolls. Versus tests are unchanged. The question is once per session.],
     )],
   )]

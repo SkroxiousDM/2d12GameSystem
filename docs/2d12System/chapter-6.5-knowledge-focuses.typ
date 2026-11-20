@@ -39,7 +39,7 @@ An artificer, engineer, or inventor who makes what shouldn\'t work, work.
       trigger: [During downtime, you work on a masterwork.],
       cost: [A 12-segment downtime clock.],
       benefit: [Create one #strong[artifact] (Module A). You pay no Refresh to attune your own masterwork.],
-      limit: [Needs Module A.],
+      limit: [Needs Module A. One masterwork at a time: you can start another only after the current one is lost, destroyed or given away.],
     )],
     [3b], [#strong[★ Rig the Field];], [#ability(
       trigger: [You rig the area with gadgets.],
@@ -90,8 +90,8 @@ Doctor, field medic, herbalist, or combat surgeon.
     [3a], [#strong[Miracle Worker];], [#ability(
       trigger: [An ally has a tier-6 physical status.],
       cost: [No additional cost.],
-      benefit: [They return at tier 4, are no longer Taken Out, and may rejoin an unresolved conflict if circumstances allow.],
-      limit: [Once per session. A settled defeat stays settled.],
+      benefit: [They return at tier 4, are no longer Taken Out, and may rejoin an unresolved conflict if circumstances allow. A Dying ally stops Dying; this counts as definitive care (Core Rules §6.7). Erase the Scar they gained from reaching tier 6 with this status.],
+      limit: [Once per session. It can't undo death. A settled defeat stays settled.],
     )],
     // PLAYTEST: R2/B8, short rest replaced by the Third rest only.
     [3b], [#strong[★ Physician\'s Care];], [#ability(
@@ -151,8 +151,8 @@ Detective, investigator, or analyst: you follow the thread to the end.
     [3b], [#strong[★ One Step Ahead];], [#ability(
       trigger: [The GM spends Woe, before its effect resolves.],
       cost: [No additional cost.],
-      benefit: [Reveal that you anticipated the move: #strong[cancel that Woe spend].],
-      limit: [Once per session, one spend.],
+      benefit: [Reveal that you anticipated the move: #strong[cancel that Woe spend]. The Woe returns to the GM.],
+      limit: [Once per session, one spend. The GM can't spend Woe on the same move again this scene.],
     )],
   )]
   , kind: table
@@ -180,7 +180,7 @@ Historian, archaeologist, or keeper of lost lore.
       trigger: [You're at an old or abandoned place.],
       cost: [No additional cost.],
       benefit: [Ask one free Discover question about its history.],
-      limit: [No additional limit.],
+      limit: [Once per scene, one question.],
     )],
     // PLAYTEST: B5, was 0 Power.
     [2a], [#strong[Lost Knowledge];], [#ability(

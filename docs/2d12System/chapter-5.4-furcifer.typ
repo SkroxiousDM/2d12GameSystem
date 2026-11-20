@@ -101,7 +101,7 @@ Both abilities can apply to the same action, and Opportunist's +1 Power can pay 
 
 Against an area, each ability gives its benefit once: Opportunist +1 Power, Deadly Precision +1 Disposition loss or one discounted status against one qualifying target. A shared area-status purchase uses the normal price (Core Rules §10.17).
 
-Both work in any conflict type where the opening helps the approach, such as a precision Attack in an Argument. Neither unlocks a status purchase or improves staking, killing strikes or another creature-specific finishing procedure, and a helpless target doesn't authorise an otherwise unavailable Attack.
+Both work in any conflict type where the opening helps the approach, such as a precision Attack in an Argument. Neither unlocks a status purchase or improves killing strikes or another creature-specific finishing procedure, and a helpless target doesn't authorise an otherwise unavailable Attack.
 
 
 === 4.2 Starting Equipment

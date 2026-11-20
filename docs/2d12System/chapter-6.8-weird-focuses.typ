@@ -29,7 +29,7 @@ Monster-hunter, exorcist, or investigator of the strange.
       trigger: [You succeed on a conflict Attack against a creature whose weakness you've exploited, or exploit a creature's weakness for the first time.],
       cost: [No additional cost.],
       benefit: [The Attack removes #strong[1 additional Disposition], or, if it inflicts a harmful status, raises that status by #strong[1 tier] (never both). The first time you exploit a weakness against a creature, also Discover one more of its weaknesses or abilities for free.],
-      limit: [It adds no status to an ordinary Attack and doesn't improve staking, killing strikes or other finishing procedures.],
+      limit: [It adds no status to an ordinary Attack and doesn't improve killing strikes or other finishing procedures.],
     )],
     [2b], [#strong[Ward the Threshold];], [#ability(
       trigger: [You spend an uninterrupted scene preparing one clearly defined entrance and state which side it protects.],
@@ -47,7 +47,7 @@ Monster-hunter, exorcist, or investigator of the strange.
       trigger: [You act against your named supernatural foe.],
       cost: [No additional cost.],
       benefit: [You always sense its direction, and your rolls against it get a #strong[free bonus die].],
-      limit: [Name the foe when you take this ability. The bonus-dice cap applies (§1.3).],
+      limit: [Name the foe when you take this ability. Once it's destroyed, you can name a new foe only at a milestone (Core Rules §12). The bonus-dice cap applies (§1.3).],
     )],
   )]
   , kind: table
@@ -91,7 +91,7 @@ Touched by the spirit world, the Otherworld, or the deep net.
     )],
     [3a], [#strong[Ally Beyond];], [#ability(
       trigger: [You call on your patron in the other world.],
-      cost: [The GM gets a compel on your weakness tag in return.],
+      cost: [The GM gets a compel on your weakness tag in return. You must accept it, and it earns no Tychē (Core Rules §4).],
       benefit: [A #strong[Heroic-scope favour].],
       limit: [Once per session.],
     )],
@@ -132,7 +132,7 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
     [2a], [#strong[Ask the Patron];], [#ability(
       trigger: [You ask your patron for answers.],
       cost: [The GM gains 1 Woe.],
-      benefit: [Ask #strong[two] Discover questions.],
+      benefit: [Ask #strong[two] Discover questions without rolling or spending Power.],
       limit: [Once per session.],
     )],
     [2b], [#strong[Not Yet];], [#ability(
@@ -190,7 +190,7 @@ Mutant, cyborg, half-fae, or carrier of a strange bloodline.
     [2b], [#strong[Regeneration];], [#ability(
       trigger: [You take a Second, Third or Fourth rest.],
       cost: [No additional cost.],
-      benefit: [A Second or Third rest clears #strong[one tier-1 physical status]. A Fourth rest clears 2 tiers from every physical status.],
+      benefit: [A Second or Third rest lowers #strong[one physical status by 1 tier]. A Fourth rest clears 2 tiers from every physical status.],
       limit: [No additional limit.],
     )],
     // PLAYTEST: fallback matches Berserker and Unleash (Generic Playbooks); confirm in playtest.

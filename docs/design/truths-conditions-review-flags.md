@@ -46,11 +46,11 @@ These are open questions found while consolidating the Truths and Conditions dra
 
 | # | Four-Field flag | Question |
 |---|---|---|
-| 21 | Flag 1, Briefing, Option C | A Truth no longer gives −3. Option C would need a Briefed Situational Condition (for example 1 Power per rating) instead of a Truth. |
-| 22 | Flag 3, Network | Truths now last according to their scale and ending condition (Core Rules §8.2–8.4), not just the scene. The question becomes: what scale is a Network contact? |
-| 23 | Flag 4, Pathfinder | Now reads "terrain Truth or Condition". The question about what a leg is without Module B is still open. |
-| 24 | Flag 13, Nothing Is Off-Limits | Danger Woe is now capped at 1 per scene (Core Rules §9.2). Does that settle the flag? |
-| 25 | Flag 17, Contingency | See item 16. |
+| 21 | Flag 1, Briefing, Option C | Decided: Briefing now creates the Situational Condition *Briefed* at 1 Power less than normal (rating 1 free, rating 2 for 1 Power), once per scene. |
+| 22 | Flag 3, Network | Truths now last according to their scale and ending condition (Core Rules §8.2–8.4), not just the scene. Decided: a Network contact is a Site Truth that lasts while it matters in that place. |
+| 23 | Flag 4, Pathfinder | Now reads "terrain Truth or Condition". Decided: without Module B, each travel or pursuit clock counts as one leg. |
+| 24 | Flag 13, Nothing Is Off-Limits | Decided: no change; the core danger Woe rule (§9.2) covers it. |
+| 25 | Flag 17, Contingency | Decided: an unrated Truth at whatever scale fits, lasting until the fallback is spent. |
 
 ## New example rows
 

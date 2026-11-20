@@ -27,7 +27,7 @@ Beast handler, rider, falconer, or dog-musher.
       trigger: [Your animals Help you.],
       cost: [No additional cost.],
       benefit: [They give #strong[free Help].],
-      limit: [Once per scene.],
+      limit: [Once per scene. Your animals are a trained animal you own (recorded as gear), animals you're commanding this scene, or an Animal Companion.],
     )],
     [2b], [#strong[Beast Lore];], [#ability(
       trigger: [You study a creature.],
@@ -196,7 +196,7 @@ Driver, pilot, sailor, or rider: you and your vehicle are one.
     [3a], [#strong[Ace];], [#ability(
       trigger: [You read the dice on a Drive/Pilot roll. Declare it before spending Power or applying consequences.],
       cost: [Free.],
-      benefit: [Reroll the Drive/Pilot roll.],
+      benefit: [Reroll the Drive/Pilot roll and keep the better result.],
       limit: [Once per scene.],
     )],
     [3b], [#strong[★ Legendary Ride];], [#ability(

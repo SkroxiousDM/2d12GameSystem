@@ -262,7 +262,7 @@ For action-triggered Specials, use Adversaries §6.16: determine and allocate Po
 ==== Offensive Bonuses
 Additional Power, additional Disposition loss and additional status tiers are separate bonuses. Each applies only to the component it names; a bonus meant for more than one must say so. If an effect inflicts both Disposition loss and a status, the ability must name the component a bonus improves, or let you choose.
 
-Attack bonuses don't apply to Feint, staking, killing strikes or other finishing procedures unless stated.
+Attack bonuses don't apply to Feint, killing strikes or other finishing procedures unless stated.
 
 === 10.7 Costs, Failures and Complications
 Use normal Effort, Weal, Woe, Tychē Points, tags, Situational Conditions and Truths subject to these restrictions and the limits in §10.18.

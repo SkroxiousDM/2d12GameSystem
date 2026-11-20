@@ -34,7 +34,7 @@ Silent, patient, and impossible to pin down.
       trigger: [Allies sneak with you.],
       cost: [No additional cost.],
       benefit: [Up to #strong[two allies] can use your Stealth result instead of rolling their own.],
-      limit: [Two allies at most.],
+      limit: [Two allies at most. They must be with you, sneaking past the same watchers toward the same goal.],
     )],
     // PLAYTEST: B4, no stacking with Opportunist.
     [3a], [#strong[Unseen Hand];], [#ability(
@@ -75,7 +75,7 @@ Sniper, archer, gunslinger: steady breath and a sharp eye.
       trigger: [You roll Shoot.],
       cost: [No cost for the Weaken.],
       benefit: [A #strong[free Weaken] effect: suppress one of the target's tags (weapon, cover, mobility) for the scene.],
-      limit: [Once per roll.],
+      limit: [Once per roll, and only on a Success or Success at a Cost.],
     )],
     [2a], [#strong[Over-watch];], [#ability(
       trigger: [An imposed status of tier 2 or less is about to hit an ally; or, in a conflict, covering fire can protect your side.],
@@ -98,8 +98,8 @@ Sniper, archer, gunslinger: steady breath and a sharp eye.
     )],
     [3b], [#strong[★ Sniper\'s Patience];], [#ability(
       trigger: [You spend a scene setting up a shot (4-segment clock).],
-      cost: [The setup scene and its clock.],
-      benefit: [Your shot gets #strong[+2 bonus dice] for free and #strong[+2 Power] on a success.],
+      cost: [The setup scene. Fill the clock with preparation rolls (Notice, Stealth, Shoot) at 1 Power per segment (Advance). On a failed preparation roll, the GM's move can advance a danger: the target moves, a guard notices.],
+      benefit: [Once the clock is full, your shot gets #strong[+2 bonus dice] for free and #strong[+2 Power] on a success.],
       limit: [That shot only.],
     )],
   )]
@@ -149,7 +149,7 @@ Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
       trigger: [You face a lock or security.],
       cost: [No additional cost.],
       benefit: [Ordinary locks open without a roll. Complex security is #strong[one Difficulty step lower].],
-      limit: [Difficulty reductions apply only against a Difficulty (§1.3).],
+      limit: [An ordinary lock is a single mechanical barrier. Security with alarms, guards, magic or technology layered on it, or with its own clock, is complex. Difficulty reductions apply only against a Difficulty (§1.3).],
     )],
     [3b], [#strong[★ Vault Breaker];], [#ability(
       trigger: [You declare a security layer already cracked.],
@@ -194,7 +194,7 @@ You never walk into a room without knowing how to leave it.
     [2b], [#strong[Contin-gency];], [#ability(
       trigger: [Things go wrong and you reveal a prepared fallback.],
       cost: [No Weal needed.],
-      benefit: [Establish a justified fallback (stashed gear, a getaway vehicle, a safe house) as a Truth.],
+      benefit: [Establish a justified fallback (stashed gear, a getaway vehicle, a safe house) as a Truth, at whatever scale fits (Core Rules §8.2). It lasts until the fallback is spent: the vehicle drives off, the gear is taken, the safe house is used or found.],
       limit: [Once per mission. It can't contradict resolved events, and it gives no Situational Condition rating or automatic escape.],
     )],
     [3a], [#strong[Not Here];], [#ability(

@@ -6,6 +6,12 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Four-field ability review decisions (2026-11-20)
+
+- Generic Playbooks and Focuses: the 31 open questions from the four-field pass are settled, as listed in the Decisions table of `docs/design/four-field-ability-review-flags.md`. Changes include Briefing (a *Briefed* Situational Condition at 1 Power less per rating), Ward (depleting *warded-X*), Ritual (4-segment clocks for lower workings; cost once, Backlash every roll), Domain in the four-field format, Miracle Worker (ends Dying and erases the tier-6 Scar), Disarming (usable mid-fight at one step harder) and limits or clarifications for the rest.
+- Core Rules §10.6, the Furcifer note and Bane no longer mention staking, a Frontier term.
+- `web/common.typ` gains an `ability()` stand-in so the web edition builds with the four-field abilities.
+
 ### Changed — Unranked Truths, Personal statuses and Situational Conditions (2026-11-20)
 
 - Core Rules §8: Truths have no rank and no modifier. A Truth is a permission, prohibition, requirement, danger or world fact at Scene, Site, Region or Campaign scale, checked before Difficulty (§8.1). Creating one costs 2 Power, 2 Weal or 2 Woe.

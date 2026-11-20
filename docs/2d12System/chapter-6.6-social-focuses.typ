@@ -31,15 +31,15 @@ Charm, quick wit, and the right words at the right time.
       limit: [Once per scene.],
     )],
     [2b], [#strong[Disarming];], [#ability(
-      trigger: [A fight is about to start.],
-      cost: [A Persuade roll.],
-      benefit: [On a success, the Fight becomes a #strong[Negotiation] conflict; set the new skills before the next exchange.],
+      trigger: [A fight is about to start, or a Fight conflict is under way.],
+      cost: [A Persuade roll. During a Fight conflict, the roll is #strong[one Difficulty step harder].],
+      benefit: [On a success, the Fight becomes a #strong[Negotiation] conflict. Before it starts, the conflict begins as a Negotiation; during it, set the new skills before the next exchange.],
       limit: [Once per scene.],
     )],
     [3a], [#strong[★ The Long Con];], [#ability(
       trigger: [You work a con against a target.],
       cost: [No additional cost.],
-      benefit: [Start a #strong[long con clock] (8) against them. Each success against them Advances it. When it fills, they give up something substantial: land, title, a secret, or their master.],
+      benefit: [Start a #strong[long con clock] (8) against them. On each success against them, spend Power on the #strong[Advance] effect to fill it (1 Power per segment; Core Rules §5). When it fills, they give up something substantial: land, title, a secret, or their master.],
       limit: [One target per clock.],
     )],
     [3b], [#strong[Golden Tongue];], [#ability(
@@ -131,7 +131,7 @@ Fixer, socialite, or broker: you\'re one call away from anyone.
       trigger: [In a Players' Turn (Module B), you help a contact, or you spend a banked favour.],
       cost: [A Check to bank a favour.],
       benefit: [Bank a #strong[favour]. Spend a favour for substantial help: a safe house, troops, a pardon.],
-      limit: [Needs Module B.],
+      limit: [Needs Module B. Bank at most one favour per Players' Turn; there is no cap on banked favours.],
     )],
     [2b], [#strong[Gossip Network];], [#ability(
       trigger: [A session starts, or you confirm rumours (Module C).],

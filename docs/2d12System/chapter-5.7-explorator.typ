@@ -35,7 +35,7 @@ At home where the map ends. Rangers, hunters, pilots, guides, explorers, scouts,
       trigger: [As Guide (Module B), you spend Power on Make Time; without Module B, you advance a travel or pursuit clock. Also, a harmful terrain Situational Condition applies during a leg.],
       cost: [No additional cost.],
       benefit: [Each Power spent on Make Time advances the Journey clock #strong[1 extra segment]; without Module B, add 1 extra segment to any travel or pursuit clock you advance. Ignore that terrain Condition's penalty.],
-      limit: [One terrain Condition per leg. It ignores interference only, not a Truth that blocks the route.],
+      limit: [One terrain Condition per leg; without Module B, each travel or pursuit clock counts as one leg. It ignores interference only, not a Truth that blocks the route.],
     )],
     [2], [#strong[Forager];], [#ability(
       trigger: [As Quartermaster (Module B), you succeed; without Module B, you succeed on a foraging roll.],

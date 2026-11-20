@@ -47,3 +47,39 @@ These are open questions found while converting the core rulebook to the four-fi
 
 - Focuses also have power tags and a weakness tag. Should they get identity lines like Descriptors?
 - "Momentum" remains in the 2d20 comparison in the Core Rules design notes (intentional), in older design and playtest documents in `docs/design/` and `docs/playtest/`, and in the playtest engine code (`docs/playtest/engine_v2/`). Leave these as history, or update them?
+
+## Decisions
+
+| # | Ability | Decision |
+|---|---|---|
+| 1 | Briefing | Creates the Situational Condition *Briefed* for 1 Power per rating minus 1 (rating 1 free), once per scene. |
+| 2 | Master of the Field ◆ | The once-per-session question is free, with no roll, like Encyclopedic. |
+| 3 | Network | The contact is a Site Truth that lasts while it matters in that place. |
+| 4 | Pathfinder | Without Module B, each travel or pursuit clock counts as one leg. |
+| 5 | Ward | *warded-X* is protection only and depletes: no roll bonus; each time it reduces supernatural or tech-based harm it gives +1 tier, X drops by 1, and the ward ends at 0. |
+| 6 | Ritual | Lower workings can be rituals: 4 segments for Dramatic or lower, 8 for Formidable, 12 for Heroic. Pay the working cost once for the whole ritual; every roll risks Backlash. |
+| 7 | Domain (core feature) | Converted to the four fields; the scope table and scripted-conflict note stay below it. |
+| 8 | Ascendant ◆ | Once per session; the first use after downtime is free, and each later use before the next downtime, even in a later session, gives a Pneuma or Psychē Scar. |
+| 9 | Unbreakable Line | The player names the tier-2 Personal status and the GM approves it; it recovers under the normal rules. |
+| 10 | Lead by Example | An unused bonus die ends at the end of the scene. |
+| 11 | Kick Them While They're Down; Called Shot | Both apply only on a Success or Success at a Cost. |
+| 12 | Weapon Saint | The designed ability should be about as strong as one Tier 2 Focus ability. |
+| 13 | Nothing Is Off-Limits | No change. The declared hazard is a dangerous Truth and gives danger Woe under Core Rules §9.2 (at most 1 per scene). |
+| 14 | Shadow Escort | Allies must be with you, sneaking past the same watchers toward the same goal. |
+| 15 | Sniper's Patience | Fill the clock with preparation rolls at 1 Power per segment; a failed roll's GM move can advance a danger. The benefit applies to that shot only. |
+| 16 | Master Key | A single mechanical barrier is ordinary; security with alarms, guards, magic or technology layered on it, or its own clock, is complex. |
+| 17 | Contingency | The fallback is an unrated Truth at whatever scale fits; it lasts until the fallback is spent. |
+| 18 | Masterwork | One at a time; start another only after the current one is lost, destroyed or given away. |
+| 19 | Miracle Worker | Ends Dying and counts as definitive care; erases the Scar from reaching tier 6 with that status; can't undo death. |
+| 20 | One Step Ahead | The cancelled Woe returns to the GM, who can't spend Woe on the same move again this scene. |
+| 21 | Echoes of the Past | Once per scene, one question. |
+| 22 | Disarming | Works before or during a Fight; during a Fight conflict, the Persuade roll is one Difficulty step harder. |
+| 23 | The Long Con | Each success against the target can spend Power on the Advance effect, 1 Power per segment. |
+| 24 | Favour Bank | Bank at most one favour per Players' Turn; no cap on the total. |
+| 25 | Pack Tactics | Your animals are a trained animal you own (recorded as gear), animals you're commanding this scene, or an Animal Companion. |
+| 26 | Ace | Reroll and keep the better result. |
+| 27 | Bane | "Staking" removed here and from Core Rules §10.6 and the Furcifer note; they name killing strikes and other finishing procedures. |
+| 28 | Nemesis | Once the foe is destroyed, name a new one only at a milestone. |
+| 29 | Ally Beyond | The compel is the price: you must accept it, and it earns no Tychē. |
+| 30 | Ask the Patron | The two questions are free, with no roll or Power; the 1 Woe is the price. |
+| 31 | Regeneration | A Second or Third rest lowers one physical status by 1 tier. |

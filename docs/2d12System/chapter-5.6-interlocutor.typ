@@ -45,7 +45,7 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
     [3], [#strong[Network];], [#ability(
       trigger: [You declare a #strong[contact] in the current location.],
       cost: [No additional cost.],
-      benefit: [The contact becomes a Truth (#emph[contact: harbourmaster Elsa]).],
+      benefit: [The contact becomes a #strong[Site Truth] (Core Rules §8.2): #emph[Contact: harbourmaster Elsa] --- Truth/Site --- that settlement or place, where you can find and call on them --- ends when the contact no longer matters there or is lost.],
       limit: [Once per session. The GM gives them a quirk or something they want in return.],
     )],
     [4], [#strong[Smooth Recovery];], [#ability(

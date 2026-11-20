@@ -86,7 +86,7 @@ Captain, chief, or sergeant: people follow you.
       trigger: [You succeed with #strong[3+ Power].],
       cost: [No additional cost.],
       benefit: [The next ally who acts toward the same goal gets a #strong[free bonus die].],
-      limit: [The next ally only. The bonus-dice cap applies (§1.3).],
+      limit: [The next ally only. Unused, it ends at the end of the scene. The bonus-dice cap applies (§1.3).],
     )],
     [3a], [#strong[★ Warband];], [#ability(
       trigger: [Your loyal crew (a group with 2 power tags and 1 weakness) helps or acts.],
@@ -96,7 +96,7 @@ Captain, chief, or sergeant: people follow you.
     )],
     [3b], [#strong[Unbreak-able Line];], [#ability(
       trigger: [Your side's Disposition would drop to 0.],
-      cost: [You take a tier-2 status as an accepted payment.],
+      cost: [You take a #strong[tier-2 Personal status] as an accepted payment. You name it (#emph[exhausted-2], #emph[battered-2]) and the GM approves it. It recovers under the normal rules (Core Rules §6.5–6.6).],
       benefit: [Your side's Disposition stays at #strong[1].],
       limit: [Once per conflict.],
     )],
@@ -150,7 +150,7 @@ Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
       trigger: [You use your weapon.],
       cost: [No attunement Refresh.],
       benefit: [Your weapon becomes an #strong[artifact] (Module A) with one extra power tag and an ability you design with the GM. It never depletes.],
-      limit: [Needs Module A. The designed ability needs GM agreement.],
+      limit: [Needs Module A. The designed ability needs GM agreement and should be about as strong as one Tier 2 Focus ability.],
     )],
   )]
   , kind: table
@@ -190,7 +190,7 @@ Honour is for people who can afford to lose.
       trigger: [You Attack a target with a harmful status of tier 2+.],
       cost: [No additional cost.],
       benefit: [Gain #strong[+1 Power] on the Attack.],
-      limit: [No additional limit.],
+      limit: [Only on a Success or Success at a Cost; it can't turn a failure into a success.],
     )],
     [3a], [#strong[Every Trick in the Book];], [#ability(
       trigger: [You succeed on a Feint in a Fight conflict.],

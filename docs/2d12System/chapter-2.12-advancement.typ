@@ -35,7 +35,13 @@ The Belief question awards at most #strong[1 XP per session], not 1 XP per Belie
 #strong[Refresh limits.] Purchases can't take Refresh below 1 (§4.1) or above the Refresh cap.
 
 === 12.3 Reviewing Beliefs and Instincts
-Review the relevance of your Beliefs at session end; ordinary revisions happen at milestones. Reaffirm, revise, or replace them to reflect development in play.
+Review the relevance of your Beliefs at session end. Ask:
+
+#quote(block: true)[Which conviction did events reinforce, complicate, or overturn?]
+
+Use the answer to review your World, Other and Self Beliefs. A conviction may stay firm, grow more complicated or stop fitting the character; you don't have to change a Belief because you questioned or acted against it. The question is a reflection prompt, not a reward: answering it earns nothing by itself (§12.1).
+
+Ordinary revisions happen at milestones. Reaffirm, revise, or replace your Beliefs to reflect development in play.
 
 - #strong[Reaffirm:] keep a conviction and commitment that still matter.
 - #strong[Revise:] update a fulfilled or obsolete action clause while keeping the underlying conviction.

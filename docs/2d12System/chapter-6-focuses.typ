@@ -38,7 +38,7 @@ Focuses marked #strong[◈ Weird] assume the supernatural, impossible technology
 #art-fill(min: 6cm)[A surgeon's kit unrolled on a field table beside a lantern.]
 #colbreak()
 === 1.3 Ability Limits
-Focus abilities follow the #strong[Ability limits] in Generic Playbooks §1.2 (free costs, no extra turns, separate bonuses, protected payments). In addition, so the entries don't repeat them:
+Focus abilities use the same four fields (Trigger, Cost, Benefit, Limit) and follow the #strong[Ability limits] in Generic Playbooks §1.2 (free costs, no extra turns, separate bonuses, protected payments). In addition, so the entries don't repeat them:
 - Free bonus dice still count toward the #strong[+2 bonus die maximum];.
 - An ability that lets a tag exceed the tag cap adds at most #strong[+1 above it (maximum +3)];, and only for the tag it names.
 - #strong[Cost reductions:] for Effects other than Create, only one reduction applies to a single Effect. #strong[Create is the exception:] each stated Create discount lowers the cost by 1 Power, to a minimum of 1 (Core Rules §5).

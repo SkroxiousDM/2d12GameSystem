@@ -107,6 +107,15 @@
     body
   })
 
+// four-field special ability: Trigger, Cost, Benefit, Limit (Generic Playbooks §1.2)
+#let ability(trigger: [], cost: [], benefit: [], limit: []) = {
+  let field(label, body) = block(spacing: 0.4em, [#strong[#label:] #body])
+  field("Trigger", trigger)
+  field("Cost", cost)
+  field("Benefit", benefit)
+  field("Limit", limit)
+}
+
 // mini table of contents for a chapter divider (level-2 headings in this chapter)
 #let chapter-contents = context {
   let nxt = query(heading.where(level: 1).after(here()))

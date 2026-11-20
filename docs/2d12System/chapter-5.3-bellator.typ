@@ -30,16 +30,61 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Juggernaut];], [When you Resist physical harm with Sōma, reduce the status by #strong[3 tiers] instead of 2.],
-    [2], [#strong[Brutal];], [Once per roll, when you spend Power on a successful Fight or Brawl Attack, choose one: remove #strong[1 additional Disposition] with ordinary Attack loss, or raise a harmful status the Attack inflicts by #strong[1 tier for free]. It adds no status to an ordinary conflict Attack and doesn't improve a creature-specific finishing procedure.],
-    [3], [#strong[Bodyguard];], [When an ally within reach would suffer an imposed consequence you can plausibly intercept, take it instead. Declare this before their Resistance and use your own reduction; if you Resist, your Edge counts as 1 higher. You can't take shared Disposition loss, a protected payment or an area effect that already hits you both.],
-    [4], [#strong[Cleave];], [When you attack a group or minions, you get #strong[one free Extra Feat] per roll (hit a second target, break their line, and so on).],
-    [5], [#strong[Menacing];], [You may use #strong[Sōma] for Intimidate Effort and Resistance. When you succeed on Intimidate against minions, spend 1 Weal to make them flee, surrender, or freeze.],
-    [6], [#strong[Pain Tolerance];], [Ignore the roll penalty from harmful physical statuses of tier 1--2; at tier 3+, reduce it by 1. Only the penalty changes: the tier, stacking, recovery, Taken Out, Dying and Scars work normally.],
+    [1], [#strong[Juggernaut];], [#ability(
+      trigger: [You Resist physical harm with Sōma.],
+      cost: [Pay the normal Resistance cost. This ability adds no cost.],
+      benefit: [Reduce the incoming harmful status by #strong[3 tiers] instead of 2.],
+      limit: [Only physical harm Resisted with Sōma. All other Resistance rules work normally.],
+    )],
+    [2], [#strong[Brutal];], [#ability(
+      trigger: [You spend Power on a successful Fight or Brawl Attack.],
+      cost: [No additional cost beyond the Power spent on the Attack.],
+      benefit: [Choose one: remove #strong[1 additional Disposition] with ordinary Attack loss, or raise a harmful status the Attack inflicts by #strong[1 tier for free].],
+      limit: [Once per roll. It adds no status to an ordinary conflict Attack and doesn't improve a creature-specific finishing procedure.],
+    )],
+    [3], [#strong[Bodyguard];], [#ability(
+      trigger: [An ally within reach would suffer an imposed consequence you can plausibly intercept. Declare this before their Resistance.],
+      cost: [Take the consequence instead of your ally. If you Resist, pay your own Resistance cost.],
+      benefit: [Use your own reduction. If you Resist, your Edge counts as 1 higher for that Resistance.],
+      limit: [You can't take shared Disposition loss, a protected payment or an area effect that already hits you both.],
+    )],
+    [4], [#strong[Cleave];], [#ability(
+      trigger: [You attack a group or minions.],
+      cost: [No additional cost for the Extra Feat.],
+      benefit: [Gain #strong[one free Extra Feat] (hit a second target, break their line, and so on).],
+      limit: [One free Extra Feat per roll.],
+    )],
+    [5], [#strong[Menacing];], [#ability(
+      trigger: [You use Intimidate Effort or Resistance, or you succeed on Intimidate against minions.],
+      cost: [Pay the normal cost for Effort or Resistance. After succeeding against minions, spend 1 Weal for the second benefit.],
+      benefit: [You may use #strong[Sōma] for Intimidate Effort and Resistance. After succeeding on Intimidate against minions, you may make them flee, surrender or freeze.],
+      limit: [Flee, surrender or freeze applies only to minions and needs a successful Intimidate action. The response lasts until a meaningful change in circumstances ends it; establish that ending condition when it takes effect. Fleeing or surrendered minions don't resume opposition merely because a new exchange or scene begins. Surrender is submission to the immediate demand, not loyalty or unlimited obedience. Freezing is hesitation under threat, not paralysis.],
+    )],
+    [6], [#strong[Pain Tolerance];], [#ability(
+      trigger: [A harmful physical status would apply a penalty to your roll.],
+      cost: [No additional cost.],
+      benefit: [Ignore the penalty from a status of tier 1--2; at tier 3+, reduce it by 1.],
+      limit: [Only the penalty changes: the tier, stacking, recovery, Taken Out, Dying and Scars work normally.],
+    )],
     // PLAYTEST: Weary fallback (exhausted-2) for games without Module B.
-    [7], [#strong[★ Berserker];], [Once per scene, enter a fury: you get #strong[+1 bonus die] (free) on Fight, Brawl, and Athletics rolls for the rest of the scene. You can't script Defend or retreat. At scene end, lose 2 Sōma (paid in full) or take #emph[Weary] (Module B; without it, #emph[exhausted-2] until a night's rest); either is an accepted payment.],
-    [8], [#strong[★ Unstoppable];], [Once per scene, when a harmful physical status on you reaches #strong[tier 6], record it and any Scar, but delay being Taken Out by it until the scene ends. You keep acting, with its normal roll penalty. At scene end you're Taken Out unless treatment or an ability has lowered it below tier 6. This doesn't postpone Dying or death, restore a lost limb, protect you from other statuses or prevent a shared-Disposition defeat.],
-    [◆], [#strong[Legend of the Field];], [Your reputation is a #strong[Campaign Truth] (#emph[\"Everyone knows \[name\]\"]). In Fight conflicts, enemy starting Disposition is #strong[−2] (a flat modifier, §1.2), and the GM pays +1 Woe for reinforcements while you stand.],
+    [7], [#strong[★ Berserker];], [#ability(
+      trigger: [You enter a fury.],
+      cost: [At scene end, lose 2 Sōma (paid in full) or take #emph[Weary] (Module B; without it, #emph[exhausted-2] until a night's rest). Either is an accepted payment.],
+      benefit: [#strong[+1 bonus die] (free) on Fight, Brawl and Athletics rolls for the rest of the scene.],
+      limit: [Once per scene. While the fury lasts, you can't script Defend or retreat. The bonus die counts toward the normal bonus-dice cap.],
+    )],
+    [8], [#strong[★ Unstoppable];], [#ability(
+      trigger: [A harmful physical status on you reaches #strong[tier 6].],
+      cost: [Record the status and any Scar normally. This ability adds no resource cost.],
+      benefit: [Delay being Taken Out by that status until the scene ends. You keep acting, with its normal roll penalty. At scene end you're Taken Out unless treatment or an ability has lowered it below tier 6.],
+      limit: [Once per scene. This doesn't postpone Dying or death, restore a lost limb, protect you from other statuses or prevent a shared-Disposition defeat.],
+    )],
+    [◆], [#strong[Legend of the Field];], [#ability(
+      trigger: [Your reputation applies as a Campaign Truth; a Fight conflict begins; or the GM brings in reinforcements while you remain an active participant in the conflict.],
+      cost: [No activation cost. The GM pays +1 Woe for reinforcements while you remain an active participant in the conflict.],
+      benefit: [Your reputation is a #strong[Campaign Truth] (#emph[\"Everyone knows \[name\]\"]). In Fight conflicts, enemy starting Disposition is #strong[−2].],
+      limit: [The Disposition reduction is a flat modifier (§1.2). The reinforcement surcharge ends when you cease to be an active participant in the conflict.],
+    )],
   )]
   , kind: table
   )

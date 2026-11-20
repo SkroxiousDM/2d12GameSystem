@@ -18,9 +18,12 @@ Each Descriptor gives (Core Rules §3.1):
     [#strong[Power tag];], [1],
     [#strong[Weakness tag];], [1 (can be compelled for Tychē Points)],
     [#strong[Suggested Instinct];], [Use it or write your own],
+    [#strong[Identity];], [One line linking the power and weakness tags; no mechanical effect],
   )]
   , kind: table
   )
+
+#strong[Two edges, one identity.] A Descriptor describes one identity with a helpful side and a troublesome side. Its power tag and weakness tag show how that identity matters in different circumstances, and its identity line states the link. Use the normal tag and compel rules (Core Rules §4); the identity line grants no extra modifier or reward.
 
 Each entry also has a #strong[hook];: one question to answer at character creation. The answer often becomes your first Belief or a relationship.
 
@@ -69,6 +72,7 @@ Every Descriptor works in any genre. Choose one from this chapter or, when playi
 You fill doorways. People step aside before you ask.
 ]
 
+- #strong[Identity:] Your size clears a path, and it also means you're never easy to miss.
 - #strong[Pool:] +2 Sōma
 - #strong[Power tag:] #emph[built like a door]
 - #strong[Weakness tag:] #emph[too big to hide]
@@ -81,6 +85,7 @@ You fill doorways. People step aside before you ask.
 When you speak, people stop and listen, whether they want to or not.
 ]
 
+- #strong[Identity:] You draw attention because you want it, and losing an audience's favour stings.
 - #strong[Pool:] +2 Pneuma
 - #strong[Power tag:] #emph[the room turns to me]
 - #strong[Weakness tag:] #emph[needs to be liked]
@@ -93,6 +98,7 @@ When you speak, people stop and listen, whether they want to or not.
 You have never walked past someone in pain. You have paid for that more than once.
 ]
 
+- #strong[Identity:] Other people's suffering moves you to act. The kindness that opens hearts also makes it hard to walk away.
 - #strong[Pool:] +2 Pneuma
 - #strong[Power tag:] #emph[a kind word opens doors]
 - #strong[Weakness tag:] #emph[can\'t turn away suffering]
@@ -105,6 +111,7 @@ You have never walked past someone in pain. You have paid for that more than onc
 You see the board, the pieces and the hand moving them.
 ]
 
+- #strong[Identity:] You see the hidden angle, and that confidence makes it hard to trust a plan you didn't make.
 - #strong[Pool:] +2 Psychē
 - #strong[Power tag:] #emph[three moves ahead]
 - #strong[Weakness tag:] #emph[trusts no one\'s plan but mine]
@@ -117,6 +124,7 @@ You see the board, the pieces and the hand moving them.
 A locked door is a question. You\'ve never been good at leaving questions alone.
 ]
 
+- #strong[Identity:] The hunger that uncovers answers also pulls you toward things better left closed.
 - #strong[Pool:] +2 Psychē
 - #strong[Power tag:] #emph[has to know why]
 - #strong[Weakness tag:] #emph[pokes at what\'s best left alone]
@@ -129,6 +137,7 @@ A locked door is a question. You\'ve never been good at leaving questions alone.
 You keep to walls and corners. Being noticed has never gone well for you.
 ]
 
+- #strong[Identity:] You're at home in the margins and exposed without them.
 - #strong[Pool:] +2 Mētis
 - #strong[Power tag:] #emph[keeps to the edges]
 - #strong[Weakness tag:] #emph[uneasy in the open]
@@ -141,6 +150,7 @@ You keep to walls and corners. Being noticed has never gone well for you.
 Cold, hunger and pain are old companions. You\'ve learned to walk on with them.
 ]
 
+- #strong[Identity:] You endure what others can't, including hurts you should be tending.
 - #strong[Pool:] +2 Sōma
 - #strong[Power tag:] #emph[shrugs off the cold]
 - #strong[Weakness tag:] #emph[ignores my own injuries]
@@ -153,6 +163,7 @@ Cold, hunger and pain are old companions. You\'ve learned to walk on with them.
 Something from your past follows you. Some nights you can almost hear it.
 ]
 
+- #strong[Identity:] What you survived taught you about the dark, and it still follows you.
 - #strong[Pool:] +2 Pneuma
 - #strong[Power tag:] #emph[has seen the dark]
 - #strong[Weakness tag:] #emph[the past won\'t stay buried]
@@ -165,6 +176,7 @@ Something from your past follows you. Some nights you can almost hear it.
 Things find their way into your hands. You rarely remember deciding to take them.
 ]
 
+- #strong[Identity:] Your hands are fast, and they itch to prove it.
 - #strong[Pool:] +2 Mētis
 - #strong[Power tag:] #emph[quick hands]
 - #strong[Weakness tag:] #emph[can\'t resist a pocket]
@@ -177,6 +189,7 @@ Things find their way into your hands. You rarely remember deciding to take them
 You chose your people. Nothing will make you abandon them.
 ]
 
+- #strong[Identity:] Your devotion holds firm, even when the people you trust don't deserve it.
 - #strong[Pool:] +2 Pneuma
 - #strong[Power tag:] #emph[stands by my own]
 - #strong[Weakness tag:] #emph[blind to my friends\' faults]
@@ -189,6 +202,7 @@ You chose your people. Nothing will make you abandon them.
 Haste makes mistakes. You check everything twice and trust your notes.
 ]
 
+- #strong[Identity:] Care makes your work reliable and makes you slow when time runs short.
 - #strong[Pool:] +2 Psychē
 - #strong[Power tag:] #emph[measures twice]
 - #strong[Weakness tag:] #emph[slow under pressure]
@@ -201,6 +215,7 @@ Haste makes mistakes. You check everything twice and trust your notes.
 You move like water, over walls and through gaps others never see.
 ]
 
+- #strong[Identity:] Your agility carries you through, until your confidence outruns the ground.
 - #strong[Pool:] +2 Mētis
 - #strong[Power tag:] #emph[light on my feet]
 - #strong[Weakness tag:] #emph[too quick to trust my footing]
@@ -213,6 +228,7 @@ You move like water, over walls and through gaps others never see.
 You notice the scuffed boot, the nervous glance, the window left open.
 ]
 
+- #strong[Identity:] You notice everything, and sometimes that means you notice the wrong thing.
 - #strong[Pool:] +2 Psychē
 - #strong[Power tag:] #emph[misses nothing]
 - #strong[Weakness tag:] #emph[distracted by detail]
@@ -225,6 +241,7 @@ You notice the scuffed boot, the nervous glance, the window left open.
 Thinking is for later. Right now, something needs doing.
 ]
 
+- #strong[Identity:] Your boldness gets you there first, before anyone has checked what's waiting.
 - #strong[Pool:] +2 Sōma
 - #strong[Power tag:] #emph[charges in first]
 - #strong[Weakness tag:] #emph[never looks before leaping]
@@ -237,6 +254,7 @@ Thinking is for later. Right now, something needs doing.
 You don\'t stop. Not when you\'re tired, not when you\'re hurt, not when it\'s hopeless.
 ]
 
+- #strong[Identity:] You keep going after others stop, even when stopping would be wiser.
 - #strong[Pool:] +2 Sōma
 - #strong[Power tag:] #emph[never stops coming]
 - #strong[Weakness tag:] #emph[doesn\'t know when to quit]
@@ -249,6 +267,7 @@ You don\'t stop. Not when you\'re tired, not when you\'re hurt, not when it\'s h
 Your word is iron. Once you decide, the world bends or breaks against you.
 ]
 
+- #strong[Identity:] Your will doesn't bend, even when the situation demands it.
 - #strong[Pool:] +2 Pneuma
 - #strong[Power tag:] #emph[iron will]
 - #strong[Weakness tag:] #emph[rigid when plans change]
@@ -261,6 +280,7 @@ Your word is iron. Once you decide, the world bends or breaks against you.
 Stillness itches. You need to move, act, see what is over the next hill.
 ]
 
+- #strong[Identity:] Your energy keeps you moving, and patience is the price.
 - #strong[Pool:] +2 Mētis
 - #strong[Power tag:] #emph[can\'t sit still]
 - #strong[Weakness tag:] #emph[poor at waiting]
@@ -273,6 +293,7 @@ Stillness itches. You need to move, act, see what is over the next hill.
 You have read more than most people will ever hear spoken.
 ]
 
+- #strong[Identity:] You know a great deal from study and less from hard experience.
 - #strong[Pool:] +2 Psychē
 - #strong[Power tag:] #emph[well read]
 - #strong[Weakness tag:] #emph[lives in books, not boots]
@@ -285,6 +306,7 @@ You have read more than most people will ever hear spoken.
 Storms rage around you. Inside, you are still water.
 ]
 
+- #strong[Identity:] Your calm steadies others, and it can leave you still when action is needed.
 - #strong[Pool:] +2 Pneuma
 - #strong[Power tag:] #emph[calm in the storm]
 - #strong[Weakness tag:] #emph[slow to anger, slower to act]
@@ -297,6 +319,7 @@ Storms rage around you. Inside, you are still water.
 There is always another way in, another word to say, another deal to make.
 ]
 
+- #strong[Identity:] You always find an angle, and people have learned to doubt your word.
 - #strong[Pool:] +2 Mētis
 - #strong[Power tag:] #emph[always an angle]
 - #strong[Weakness tag:] #emph[nobody takes my word]
@@ -309,6 +332,7 @@ There is always another way in, another word to say, another deal to make.
 Your hands don\'t shake. When everyone else panics, you are the one who aims.
 ]
 
+- #strong[Identity:] Your control is precise because you take your time to find it.
 - #strong[Pool:] +2 Mētis
 - #strong[Power tag:] #emph[hands like stone]
 - #strong[Weakness tag:] #emph[slow to start]
@@ -321,6 +345,7 @@ Your hands don\'t shake. When everyone else panics, you are the one who aims.
 You\'ve been told no all your life. You\'ve ignored it all your life.
 ]
 
+- #strong[Identity:] You hold your ground, including when the ground is wrong.
 - #strong[Pool:] +2 Sōma
 - #strong[Power tag:] #emph[will not be moved]
 - #strong[Weakness tag:] #emph[can\'t admit I\'m wrong]
@@ -333,6 +358,7 @@ You\'ve been told no all your life. You\'ve ignored it all your life.
 Everyone wants something. You just haven\'t worked out what yet.
 ]
 
+- #strong[Identity:] Your wariness spots real danger and invents some too.
 - #strong[Pool:] +2 Psychē
 - #strong[Power tag:] #emph[notices what\'s off]
 - #strong[Weakness tag:] #emph[sees enemies everywhere]
@@ -345,6 +371,7 @@ Everyone wants something. You just haven\'t worked out what yet.
 Wind, sun and years have worn you down to something hard and lasting.
 ]
 
+- #strong[Identity:] Hard years taught you to stay calm, and they left marks that still hurt.
 - #strong[Pool:] +2 Sōma
 - #strong[Power tag:] #emph[seen worse than this]
 - #strong[Weakness tag:] #emph[old wounds ache]

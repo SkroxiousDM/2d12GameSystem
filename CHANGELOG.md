@@ -6,6 +6,15 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Four-field abilities, double-edged Descriptors and temporary-fact records (2026-11-19)
+
+- Generic Playbooks §3--8 and Generic Focuses §3--8: all 54 playbook abilities and 120 Focus abilities now use the four-field format Trigger, Cost, Benefit, Limit, through a new `ability()` helper in `common.typ`. Generic Playbooks §1.2 explains the fields; Generic Focuses §1.3 applies them. Editorial only: costs, benefits, timing, frequency and exclusions are unchanged. Menacing's flee, surrender or freeze response now states its ending condition, and Legend of the Field's "while you stand" now reads "while you remain an active participant in the conflict".
+- Generic Descriptors §1 and §3: each Descriptor has an identity line linking its power tag and weakness tag as two sides of one identity. Tags, compels and Tychē awards are unchanged; the line has no mechanical effect.
+- Core Rules §5, §5.1, §5.2, §8 and §10.6, and the Quick Reference: temporary mechanical facts (statuses, Truths, Gain Position and similar benefits) are recorded as Name --- category/rating --- scope --- ending condition. The existing recording examples use the new order. Categories and mechanics are unchanged.
+- Core Rules §12.3: the session-end Belief review asks "Which conviction did events reinforce, complicate, or overturn?" It is a reflection prompt with no XP or Tychē award.
+- Remaining Momentum references in the README, CONTRIBUTING and the core `drafts/` folder now read Weal. The 2d20 comparison in Core Rules design notes keeps "Momentum (here called Weal)".
+- Open questions found during the pass are listed in `docs/design/four-field-ability-review-flags.md`.
+
 ### Added — Core rulebook web edition workflow (2026-11-15)
 
 - New `web/` build converts the core rulebook Typst source to one HTML page per chapter with Pandoc 3.7.0.2: `web/build_html.py`, the filter `web/rulebook.lua`, and web stand-ins for `common.typ` and `adversaries-common.typ` that keep text, tables, sidebars, stat blocks, playbook art and art-placeholder briefs while dropping print layout. Chapter order comes from the root rulebook's `#include` lines.

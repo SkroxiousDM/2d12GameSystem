@@ -33,6 +33,12 @@
 - #strong[◆ Capstone] --- unlocked after #strong[12 Advances] if you have #strong[at least 4 abilities from this playbook];. Take it as an Advance; it costs no Refresh. One capstone per character.
 - #strong[Veteran abilities:] after 6 Advances, you may take an ability from another playbook as an Advance. It costs 1 Refresh, plus 1 if it is ★.
 
+#strong[Reading an ability.] Every ability uses four fields:
+- #strong[Trigger:] when it applies, including any declaration timing. A passive ability names the circumstance it applies in; it needs no activation.
+- #strong[Cost:] what you pay or accept to use it. "No additional cost" means only the normal costs of the action apply. The ★ Refresh cost of taking an ability is separate.
+- #strong[Benefit:] exactly what it grants or changes.
+- #strong[Limit:] its frequency, duration, scope, exclusions and caps. "No additional limit" means only the limits below apply.
+
 #strong[Ability limits.] These apply to every ability in this chapter, so the entries don't repeat them:
 - #strong[Free] waives only the listed cost. No ability grants an extra scripted turn or bypasses rotation, the action interaction or the declared stakes unless it says so. Automatic success replaces the roll for an otherwise permitted action (Core Rules §10.5).
 - Extra Power, extra Disposition loss and extra status tiers are separate bonuses; each improves only the component it names (Core Rules §10.6).

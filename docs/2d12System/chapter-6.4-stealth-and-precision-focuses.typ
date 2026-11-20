@@ -17,12 +17,37 @@ Silent, patient, and impossible to pin down.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Shadow-Born];], [Truths about darkness, noise, or crowds lower your Stealth Difficulty by #strong[two steps] instead of one.],
-    [2a], [#strong[Vanish];], [Once per scene, after any roll, become hidden if there\'s any cover nearby. No roll needed. This changes your position from now on; it doesn\'t undo anything already resolved.],
-    [2b], [#strong[Shadow Escort];], [Up to #strong[two allies] can use your Stealth result instead of rolling their own.],
+    [1], [#strong[Shadow-Born];], [#ability(
+      trigger: [A Truth about darkness, noise or crowds lowers your Stealth Difficulty.],
+      cost: [No additional cost.],
+      benefit: [It lowers it by #strong[two steps] instead of one.],
+      limit: [Only those Truths, and only on Stealth.],
+    )],
+    [2a], [#strong[Vanish];], [#ability(
+      trigger: [After any roll, if there's any cover nearby.],
+      cost: [No additional cost.],
+      benefit: [Become hidden. No roll needed.],
+      limit: [Once per scene. This changes your position from now on; it doesn't undo anything already resolved.],
+    )],
+    [2b], [#strong[Shadow Escort];], [#ability(
+      trigger: [Allies sneak with you.],
+      cost: [No additional cost.],
+      benefit: [Up to #strong[two allies] can use your Stealth result instead of rolling their own.],
+      limit: [Two allies at most.],
+    )],
     // PLAYTEST: B4, no stacking with Opportunist.
-    [3a], [#strong[Unseen Hand];], [Any action you take while hidden gains #strong[+1 Power] on a success. It doesn\'t stack with Opportunist.],
-    [3b], [#strong[★ Living Shadow];], [Once per session, describe a concealed route through one guarded or blocked area to a destination beyond it. If the route could physically fit you, you reach it unnoticed without a roll; ordinary locks, patrols and surveillance don\'t stop you. It moves only you and what you carry. In a scripted conflict, use it between exchanges: if unnoticed passage was your only objective, you achieve it and leave without compromise; otherwise, continue from the new position.],
+    [3a], [#strong[Unseen Hand];], [#ability(
+      trigger: [You succeed on any action while hidden.],
+      cost: [No additional cost.],
+      benefit: [Gain #strong[+1 Power].],
+      limit: [It doesn't stack with Opportunist.],
+    )],
+    [3b], [#strong[★ Living Shadow];], [#ability(
+      trigger: [You describe a concealed route through one guarded or blocked area to a destination beyond it.],
+      cost: [No additional cost.],
+      benefit: [If the route could physically fit you, you reach it unnoticed without a roll; ordinary locks, patrols and surveillance don't stop you. In a scripted conflict, use it between exchanges: if unnoticed passage was your only objective, you achieve it and leave without compromise; otherwise, continue from the new position.],
+      limit: [Once per session. It moves only you and what you carry.],
+    )],
   )]
   , kind: table
   )
@@ -45,12 +70,37 @@ Sniper, archer, gunslinger: steady breath and a sharp eye.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Called Shot];], [Once per roll with Shoot, a #strong[free Weaken] effect: suppress one of the target\'s tags (weapon, cover, mobility) for the scene.],
-    [2a], [#strong[Over-watch];], [Once per scene, cancel an imposed status of tier 2 or less about to hit an ally by shooting the source; declare it before the status applies. In conflicts, you may Defend with #strong[Shoot] when covering fire can protect your side.],
-    [2b], [#strong[Trick Shot];], [Ignore Truths about cover and angles. Gain a free #strong[Extra Feat] when you shoot objects (cut a rope, hit a switch, ricochet).],
+    [1], [#strong[Called Shot];], [#ability(
+      trigger: [You roll Shoot.],
+      cost: [No cost for the Weaken.],
+      benefit: [A #strong[free Weaken] effect: suppress one of the target's tags (weapon, cover, mobility) for the scene.],
+      limit: [Once per roll.],
+    )],
+    [2a], [#strong[Over-watch];], [#ability(
+      trigger: [An imposed status of tier 2 or less is about to hit an ally; or, in a conflict, covering fire can protect your side.],
+      cost: [No additional cost.],
+      benefit: [Cancel the status by shooting its source; declare it before the status applies. In conflicts, you may Defend with #strong[Shoot] when covering fire can protect your side.],
+      limit: [The cancel is once per scene.],
+    )],
+    [2b], [#strong[Trick Shot];], [#ability(
+      trigger: [You shoot past cover or angles, or shoot an object (cut a rope, hit a switch, ricochet).],
+      cost: [No additional cost.],
+      benefit: [Ignore Truths about cover and angles. Gain a free #strong[Extra Feat] when you shoot objects.],
+      limit: [No additional limit.],
+    )],
     // PLAYTEST: R4, defines One Shot inside scripted conflicts.
-    [3a], [#strong[One Shot];], [Once per session, a successful Shoot Attack against a non-major NPC #strong[Takes them Out];. In a conflict, it removes that participant and 1 additional Disposition.],
-    [3b], [#strong[★ Sniper\'s Patience];], [Spend a scene setting up (4-segment clock). Your shot gets #strong[+2 bonus dice] for free and #strong[+2 Power] on a success.],
+    [3a], [#strong[One Shot];], [#ability(
+      trigger: [You succeed on a Shoot Attack against a non-major NPC.],
+      cost: [No additional cost.],
+      benefit: [The Attack #strong[Takes them Out]. In a conflict, it removes that participant and 1 additional Disposition.],
+      limit: [Once per session. Non-major NPCs only.],
+    )],
+    [3b], [#strong[★ Sniper\'s Patience];], [#ability(
+      trigger: [You spend a scene setting up a shot (4-segment clock).],
+      cost: [The setup scene and its clock.],
+      benefit: [Your shot gets #strong[+2 bonus dice] for free and #strong[+2 Power] on a success.],
+      limit: [That shot only.],
+    )],
   )]
   , kind: table
   )
@@ -74,13 +124,38 @@ Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     // PLAYTEST: Balance FO B7, rider added (overlaps Decipher).
-    [1], [#strong[Bypass];], [Each success on a lock, safe or security clock advances it #strong[1 extra segment];. Before you roll, you also know the clock\'s size and what failing will set off.],
-    [2a], [#strong[Back Door];], [Once per location, Create the Truth #emph[I know a way in] for #strong[1 Power];. It gives access or leverage, not victory over an unrelated objective.],
+    [1], [#strong[Bypass];], [#ability(
+      trigger: [You roll against a lock, safe or security clock.],
+      cost: [No additional cost.],
+      benefit: [Before you roll, you know the clock's size and what failing will set off. Each success advances it #strong[1 extra segment].],
+      limit: [Bonus segments advance that clock only (§1.3).],
+    )],
+    [2a], [#strong[Back Door];], [#ability(
+      trigger: [You look for a way into a location.],
+      cost: [#strong[1 Power].],
+      benefit: [Create the Truth #emph[I know a way in].],
+      limit: [Once per location. It gives access or leverage, not victory over an unrelated objective.],
+    )],
     // PLAYTEST: Balance FO B7, rider added (overlaps Escape Artist).
-    [2b], [#strong[Trap Sense];], [You always notice traps and alarms before triggering them. Resisting traps costs #strong[0 on a Resistance result of 5+];. Allies you warn in time Resist that trap with #strong[Edge +1];.],
+    [2b], [#strong[Trap Sense];], [#ability(
+      trigger: [You would trigger a trap or alarm, you Resist a trap, or you warn allies of one in time.],
+      cost: [The normal Resistance cost, reduced as below.],
+      benefit: [You always notice traps and alarms before triggering them. Resisting traps costs #strong[0 on a Resistance result of 5+]. Allies you warn in time Resist that trap with #strong[Edge +1].],
+      limit: [Allies gain the Edge bonus only against the trap you warned them about.],
+    )],
     // PLAYTEST: B2, was two steps; Master of the Field capstone gives one.
-    [3a], [#strong[Master Key];], [Ordinary locks open without a roll. Complex security is #strong[one Difficulty step lower];.],
-    [3b], [#strong[★ Vault Breaker];], [Once per mission, declare a security layer already cracked: fill one security clock completely.],
+    [3a], [#strong[Master Key];], [#ability(
+      trigger: [You face a lock or security.],
+      cost: [No additional cost.],
+      benefit: [Ordinary locks open without a roll. Complex security is #strong[one Difficulty step lower].],
+      limit: [Difficulty reductions apply only against a Difficulty (§1.3).],
+    )],
+    [3b], [#strong[★ Vault Breaker];], [#ability(
+      trigger: [You declare a security layer already cracked.],
+      cost: [No additional cost.],
+      benefit: [Fill one security clock completely.],
+      limit: [Once per mission.],
+    )],
   )]
   , kind: table
   )
@@ -102,12 +177,37 @@ You never walk into a room without knowing how to leave it.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Exit Strategy];], [When you enter a new scene, ask one free Discover question about exits or escape routes.],
+    [1], [#strong[Exit Strategy];], [#ability(
+      trigger: [You enter a new scene.],
+      cost: [No additional cost.],
+      benefit: [Ask one free Discover question about exits or escape routes.],
+      limit: [One question per new scene.],
+    )],
     // PLAYTEST: B1, was +3; matches At the Helm.
-    [2a], [#strong[Clean Getaway];], [In Chase conflicts where you\'re fleeing, your side gets #strong[+2 starting Disposition];.],
-    [2b], [#strong[Contin-gency];], [Once per mission, when things go wrong, reveal a prepared fallback (stashed gear, a getaway vehicle, a safe house) as a Truth. No Weal needed.],
-    [3a], [#strong[Not Here];], [Once per scene, when you would receive an imposed harmful status and can act, spend #strong[1 Weal] and describe how you evade its source: cancel that status on yourself and move to a nearby position. Disposition loss and other effects of the triggering action still apply.],
-    [3b], [#strong[★ Dead Man\'s Switch];], [Once per session, when you\'re captured or confined, declare a contingency and give the GM #strong[2 Woe];. At the start of your next scene it creates an opening (you slip one restraint, an exit opens, or an established contact helps), and you may at once make one escape roll, even if confinement would normally prevent it. In a conflict, resolve it before the next exchange. Your statuses stay, and it doesn\'t revive you, recover confiscated gear, free companions or guarantee the roll.],
+    [2a], [#strong[Clean Getaway];], [#ability(
+      trigger: [A Chase conflict begins in which you're fleeing.],
+      cost: [No additional cost.],
+      benefit: [Your side gets #strong[+2 starting Disposition].],
+      limit: [A flat starting-Disposition bonus (§1.3).],
+    )],
+    [2b], [#strong[Contin-gency];], [#ability(
+      trigger: [Things go wrong.],
+      cost: [No Weal needed.],
+      benefit: [Reveal a prepared fallback (stashed gear, a getaway vehicle, a safe house) as a Truth.],
+      limit: [Once per mission.],
+    )],
+    [3a], [#strong[Not Here];], [#ability(
+      trigger: [You would receive an imposed harmful status and can act.],
+      cost: [#strong[1 Weal].],
+      benefit: [Describe how you evade its source: cancel that status on yourself and move to a nearby position.],
+      limit: [Once per scene. Disposition loss and other effects of the triggering action still apply.],
+    )],
+    [3b], [#strong[★ Dead Man\'s Switch];], [#ability(
+      trigger: [You're captured or confined, and you declare a contingency.],
+      cost: [Give the GM #strong[2 Woe].],
+      benefit: [At the start of your next scene it creates an opening (you slip one restraint, an exit opens, or an established contact helps), and you may at once make one escape roll, even if confinement would normally prevent it. In a conflict, resolve it before the next exchange.],
+      limit: [Once per session. Your statuses stay, and it doesn't revive you, recover confiscated gear, free companions or guarantee the roll.],
+    )],
   )]
   , kind: table
   )

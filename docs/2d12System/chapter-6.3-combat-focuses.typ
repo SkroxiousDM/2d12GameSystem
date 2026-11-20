@@ -18,12 +18,37 @@ Loyal to a fault. You go back for the fallen, every time.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Shield Bearer];], [When an ally next to you takes an imposed status, spend 1 point from any pool to reduce it by #strong[1 tier] before they Resist.],
-    [2a], [#strong[Second Wind];], [Once per scene, when you succeed on a Defend and can reach a Taken Out ally, spend #strong[2 Power] (instead of recovering Disposition) to bring them back: reduce the status that took them out to #strong[tier 4];. They rejoin your side\'s rotation without an immediate turn. Death, a settled defeat, other statuses and Scars stay.],
-    [2b], [#strong[Cover];], [When you accept an injury to cancel Disposition loss from an Attack or Feint, cancel #strong[1 additional] Disposition loss, up to the loss inflicted. All normal injury-trade restrictions apply.],
+    [1], [#strong[Shield Bearer];], [#ability(
+      trigger: [An ally next to you takes an imposed status. Use it before they Resist.],
+      cost: [1 point from any pool.],
+      benefit: [Reduce the status by #strong[1 tier].],
+      limit: [Before their Resistance. Protected payments can't be reduced (Generic Playbooks §1.2).],
+    )],
+    [2a], [#strong[Second Wind];], [#ability(
+      trigger: [You succeed on a Defend and can reach a Taken Out ally.],
+      cost: [#strong[2 Power], instead of recovering Disposition.],
+      benefit: [Bring them back: reduce the status that took them out to #strong[tier 4]. They rejoin your side's rotation without an immediate turn.],
+      limit: [Once per scene. Death, a settled defeat, other statuses and Scars stay.],
+    )],
+    [2b], [#strong[Cover];], [#ability(
+      trigger: [You accept an injury to cancel Disposition loss from an Attack or Feint.],
+      cost: [The accepted injury.],
+      benefit: [Cancel #strong[1 additional] Disposition loss, up to the loss inflicted.],
+      limit: [All normal injury-trade restrictions apply.],
+    )],
     // PLAYTEST: B3, now needs a successful Defend or Maneuver in that volley.
-    [3a], [#strong[No One Left];], [Once per session, before a volley is revealed, declare a coordinated withdrawal. After that volley, if you or an ally succeeded on a Defend or Maneuver in it, your side escapes together, with any Taken Out allies you can reach and carry. You give up the contested objective unless it was escape; the opposition gets any compatible part of its intent but can\'t capture or separate those you extract. No other compromise applies; injuries and paid costs stay.],
-    [3b], [#strong[★ Living Wall];], [Once per scene, until your next action, imposed harm aimed at allies within reach that you can intercept hits you instead. Redirect it before their Resistance and use your own reduction; Resist each with Edge +1. Area effects that already hit you both aren\'t redirected.],
+    [3a], [#strong[No One Left];], [#ability(
+      trigger: [Before a volley is revealed, you declare a coordinated withdrawal, and you or an ally succeed on a Defend or Maneuver in that volley.],
+      cost: [You give up the contested objective unless it was escape.],
+      benefit: [After that volley, your side escapes together, with any Taken Out allies you can reach and carry. The opposition gets any compatible part of its intent but can't capture or separate those you extract.],
+      limit: [Once per session. No other compromise applies; injuries and paid costs stay.],
+    )],
+    [3b], [#strong[★ Living Wall];], [#ability(
+      trigger: [You take up the position. Until your next action, imposed harm is aimed at allies within reach that you can intercept.],
+      cost: [The harm hits you instead. Pay your own Resistance costs.],
+      benefit: [Redirect it before their Resistance and use your own reduction; Resist each with Edge +1.],
+      limit: [Once per scene, until your next action. Area effects that already hit you both aren't redirected.],
+    )],
   )]
   , kind: table
   )
@@ -45,11 +70,36 @@ Captain, chief, or sergeant: people follow you.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Rally];], [Once per scene, spend 1 Weal to restore #strong[2 points] to one pool of every ally who can hear you.],
-    [2a], [#strong[Battle Plan];], [At the start of a conflict, after the opposing side commits its first script and before yours, look at #strong[one] of its actions.],
-    [2b], [#strong[Lead by Example];], [When you succeed with #strong[3+ Power];, the next ally who acts toward the same goal gets a #strong[free bonus die];.],
-    [3a], [#strong[★ Warband];], [Gain a loyal crew (a group with 2 power tags and 1 weakness). It gives free Help once per scene, holds a position or acts as one group, and takes statuses as a single target (§1.3).],
-    [3b], [#strong[Unbreak-able Line];], [Once per conflict, when your side\'s Disposition would drop to 0, it stays at #strong[1] and you take a tier-2 status as an accepted payment.],
+    [1], [#strong[Rally];], [#ability(
+      trigger: [You rally allies who can hear you.],
+      cost: [1 Weal.],
+      benefit: [Restore #strong[2 points] to one pool of every ally who can hear you.],
+      limit: [Once per scene.],
+    )],
+    [2a], [#strong[Battle Plan];], [#ability(
+      trigger: [A conflict starts, after the opposing side commits its first script and before yours.],
+      cost: [No additional cost.],
+      benefit: [Look at #strong[one] of its actions.],
+      limit: [Its first script only.],
+    )],
+    [2b], [#strong[Lead by Example];], [#ability(
+      trigger: [You succeed with #strong[3+ Power].],
+      cost: [No additional cost.],
+      benefit: [The next ally who acts toward the same goal gets a #strong[free bonus die].],
+      limit: [The next ally only. The bonus-dice cap applies (§1.3).],
+    )],
+    [3a], [#strong[★ Warband];], [#ability(
+      trigger: [Your loyal crew (a group with 2 power tags and 1 weakness) helps or acts.],
+      cost: [No additional cost.],
+      benefit: [It gives free Help, holds a position or acts as one group, and takes statuses as a single target (§1.3).],
+      limit: [Free Help once per scene. It is one participant in your side's script and rotation (§1.3).],
+    )],
+    [3b], [#strong[Unbreak-able Line];], [#ability(
+      trigger: [Your side's Disposition would drop to 0.],
+      cost: [You take a tier-2 status as an accepted payment.],
+      benefit: [Your side's Disposition stays at #strong[1].],
+      limit: [Once per conflict.],
+    )],
   )]
   , kind: table
   )
@@ -72,11 +122,36 @@ Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Signature Style];], [Choose a weapon type. That weapon\'s tag may add #strong[+1 above the normal +2 cap (maximum +3 from tags)];, and it gains a second conflict action tag (e.g. a sword also gives +1 Defend).],
-    [2a], [#strong[Riposte];], [In Fight conflicts, when you win a versus roll with Defend, you may spend any of that Power to remove the opposing side\'s Disposition instead of restoring your side\'s.],
-    [2b], [#strong[Disarming Master];], [The Disarm maneuver costs #strong[2 Power] instead of 3; other reductions don\'t lower it further. Outside conflicts, Weaken can strip an opponent\'s weapon tag for the scene.],
-    [3a], [#strong[Perfect Strike];], [Once per scene, after rolling with your weapon, turn one kept die into a #strong[12];. If that creates doubles, apply them. Declare it before spending Power or applying consequences.],
-    [3b], [#strong[★ Weapon Saint];], [Your weapon becomes an #strong[artifact] (Module A) with one extra power tag and an ability you design with the GM. It never depletes and costs no attunement Refresh.],
+    [1], [#strong[Signature Style];], [#ability(
+      trigger: [You use a weapon of your chosen type.],
+      cost: [No additional cost.],
+      benefit: [That weapon's tag may add #strong[+1 above the normal +2 cap (maximum +3 from tags)], and it gains a second conflict action tag (e.g. a sword also gives +1 Defend).],
+      limit: [Choose the weapon type when you take this ability. Only that weapon's tag exceeds the cap.],
+    )],
+    [2a], [#strong[Riposte];], [#ability(
+      trigger: [In a Fight conflict, you win a versus roll with Defend.],
+      cost: [No additional cost.],
+      benefit: [You may spend any of that Power to remove the opposing side's Disposition instead of restoring your side's.],
+      limit: [Fight conflicts only.],
+    )],
+    [2b], [#strong[Disarming Master];], [#ability(
+      trigger: [You use the Disarm maneuver, or Weaken an opponent outside a conflict.],
+      cost: [Disarm costs #strong[2 Power] instead of 3.],
+      benefit: [The reduced Disarm price. Outside conflicts, Weaken can strip an opponent's weapon tag for the scene.],
+      limit: [Other reductions don't lower Disarm further. A stripped weapon tag returns at scene end.],
+    )],
+    [3a], [#strong[Perfect Strike];], [#ability(
+      trigger: [You roll with your weapon. Declare it before spending Power or applying consequences.],
+      cost: [No additional cost.],
+      benefit: [Turn one kept die into a #strong[12]. If that creates doubles, apply them.],
+      limit: [Once per scene.],
+    )],
+    [3b], [#strong[★ Weapon Saint];], [#ability(
+      trigger: [You use your weapon.],
+      cost: [No attunement Refresh.],
+      benefit: [Your weapon becomes an #strong[artifact] (Module A) with one extra power tag and an ability you design with the GM. It never depletes.],
+      limit: [Needs Module A. The designed ability needs GM agreement.],
+    )],
   )]
   , kind: table
   )
@@ -99,11 +174,36 @@ Honour is for people who can afford to lose.
     align: (auto,auto,auto,),
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Cheap Shot];], [Once per scene, as part of an Attack, Create a Truth (#emph[sand in the eyes];, #emph[low blow];) for #strong[1 Power];. This permits only the Create purchase on that Attack.],
-    [2a], [#strong[Improvised Arsenal];], [Anything in reach is a weapon for you: chairs, bottles, tools. It gives #strong[+1 Attack or +1 Maneuver] as an action tag (within the tag cap) and costs no load (Generic Playbooks §2.1).],
-    [2b], [#strong[Kick Them While They\'re Down];], [Against a target with a harmful status of tier 2+, gain #strong[+1 Power] on Attack.],
-    [3a], [#strong[Every Trick in the Book];], [In Fight conflicts, your successful Feints remove #strong[1 additional Disposition];.],
-    [3b], [#strong[★ Nothing Is Off-Limits];], [Once per session, declare a hazard Truth that was already there (#emph[gas leak];, #emph[rotten floor];, #emph[loose cargo];). Your next roll that uses it gets a #strong[free Extra Feat];.],
+    [1], [#strong[Cheap Shot];], [#ability(
+      trigger: [You make an Attack.],
+      cost: [#strong[1 Power].],
+      benefit: [As part of the Attack, Create a Truth (#emph[sand in the eyes], #emph[low blow]).],
+      limit: [Once per scene. This permits only the Create purchase on that Attack.],
+    )],
+    [2a], [#strong[Improvised Arsenal];], [#ability(
+      trigger: [You use anything in reach as a weapon: chairs, bottles, tools.],
+      cost: [No load (Generic Playbooks §2.1).],
+      benefit: [It gives #strong[+1 Attack or +1 Maneuver] as an action tag.],
+      limit: [Within the tag cap.],
+    )],
+    [2b], [#strong[Kick Them While They\'re Down];], [#ability(
+      trigger: [You Attack a target with a harmful status of tier 2+.],
+      cost: [No additional cost.],
+      benefit: [Gain #strong[+1 Power] on the Attack.],
+      limit: [No additional limit.],
+    )],
+    [3a], [#strong[Every Trick in the Book];], [#ability(
+      trigger: [You succeed on a Feint in a Fight conflict.],
+      cost: [No additional cost.],
+      benefit: [The Feint removes #strong[1 additional Disposition].],
+      limit: [Fight conflicts only.],
+    )],
+    [3b], [#strong[★ Nothing Is Off-Limits];], [#ability(
+      trigger: [You declare a hazard Truth that was already there (#emph[gas leak], #emph[rotten floor], #emph[loose cargo]).],
+      cost: [No additional cost.],
+      benefit: [Your next roll that uses it gets a #strong[free Extra Feat].],
+      limit: [Once per session. The Extra Feat applies to your next roll that uses it only.],
+    )],
   )]
   , kind: table
   )

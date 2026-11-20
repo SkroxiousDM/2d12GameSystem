@@ -57,17 +57,62 @@ Every Adept has a #strong[Domain];: a broad power tag describing what they can d
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Focused Channel];], [Workings inside your Domain cost #strong[0 pool points] if you don't use Effort on that roll. This waives only the 1-point working cost; Backlash still applies.],
-    [2], [#strong[Ward];], [You can create protective statuses (#emph[warded-X]) with Enhance. While warded, an ally reduces supernatural or tech-based harm by #strong[+1 tier] when Resisting.],
-    [3], [#strong[Sense the Unseen];], [Once per scene, ask a free Discover question about #strong[hidden supernatural or technological forces] nearby. You always notice when such forces are used near you.],
+    [1], [#strong[Focused Channel];], [#ability(
+      trigger: [You make a working inside your Domain without using Effort on that roll.],
+      cost: [The working costs #strong[0 pool points].],
+      benefit: [Waive the working cost.],
+      limit: [This waives only the 1-point working cost; Backlash still applies.],
+    )],
+    [2], [#strong[Ward];], [#ability(
+      trigger: [You create a protective status with Enhance, or a warded ally Resists supernatural or tech-based harm.],
+      cost: [The normal Enhance cost.],
+      benefit: [You can create protective statuses (#emph[warded-X]). While warded, an ally reduces supernatural or tech-based harm by #strong[+1 tier] when Resisting.],
+      limit: [Only supernatural or tech-based harm, and only while warded.],
+    )],
+    [3], [#strong[Sense the Unseen];], [#ability(
+      trigger: [You ask about #strong[hidden supernatural or technological forces] nearby, or such forces are used near you.],
+      cost: [No additional cost.],
+      benefit: [Ask a free Discover question about those forces. You always notice when such forces are used near you.],
+      limit: [The free question is once per scene.],
+    )],
     // PLAYTEST: Overchannel limited to once per roll.
-    [4], [#strong[Overchannel];], [Once per roll, when you use Effort for Power on a working, gain #strong[+2 Power] instead of +1, but take #emph[strained-1] as an accepted payment. Once recorded, it recovers normally.],
-    [5], [#strong[Ritual];], [Given time, materials, and a safe place, run a working as a #strong[progress clock] instead of a single roll (8 segments for Formidable, 12 for Heroic). Ritual results can create Site or Region Truths.],
-    [6], [#strong[Bound Servant];], [You have a minor spirit, construct, or drone with one power tag and one weakness. It can scout (one free Discover per scene in places it can reach), carry messages, or handle simple tasks. It can't fight: it's an asset, not a conflict participant (Core Rules §10.9).],
-    [7], [#strong[★ Second Domain];], [Gain a second Domain. Workings in it use the same rules.],
+    [4], [#strong[Overchannel];], [#ability(
+      trigger: [You use Effort for Power on a working.],
+      cost: [The normal Effort cost, and take #emph[strained-1] as an accepted payment.],
+      benefit: [Gain #strong[+2 Power] instead of +1.],
+      limit: [Once per roll. Once recorded, #emph[strained-1] recovers normally.],
+    )],
+    [5], [#strong[Ritual];], [#ability(
+      trigger: [You have time, materials and a safe place for a working.],
+      cost: [The time, materials and safe place. This ability adds no resource cost.],
+      benefit: [Run the working as a #strong[progress clock] instead of a single roll (8 segments for Formidable, 12 for Heroic). Ritual results can create Site or Region Truths.],
+      limit: [Only with time, materials and a safe place.],
+    )],
+    [6], [#strong[Bound Servant];], [#ability(
+      trigger: [You send your servant (a minor spirit, construct or drone with one power tag and one weakness) to scout, carry messages or handle simple tasks.],
+      cost: [No additional cost.],
+      benefit: [It scouts (one free Discover per scene in places it can reach), carries messages or handles simple tasks.],
+      limit: [One free Discover per scene. It can't fight: it's an asset, not a conflict participant (Core Rules §10.9).],
+    )],
+    [7], [#strong[★ Second Domain];], [#ability(
+      trigger: [You make a working.],
+      cost: [No additional cost.],
+      benefit: [Gain a second Domain. Workings in it use the same rules.],
+      limit: [No additional limit.],
+    )],
     // PLAYTEST: Weary fallback (exhausted-2) for games without Module B.
-    [8], [#strong[★ Unleash];], [Once per scene, a working hits #strong[every target] in an area or group, using #strong[Area Effects] (Core Rules §10.17). Explicit statuses apply at full tier to each target, and conflict Disposition loss follows the same procedure. Afterwards, take #emph[Weary] (Module B; without it, #emph[exhausted-2] until a night's rest) or lose 3 points (paid in full) from your casting pool; either is an accepted payment.],
-    [◆], [#strong[Ascendant];], [Once per session, a Heroic-scope working succeeds automatically with #strong[5 Power], no ritual required. In a conflict, declare it before the roll for your normal action: a trumped action stays trumped, and in a versus test it wins unless the other side also succeeds automatically, which makes a tie. No roll means no doubles. If you use it again before your next downtime, gain a Pneuma or Psychē Scar.],
+    [8], [#strong[★ Unleash];], [#ability(
+      trigger: [You make a working.],
+      cost: [Afterwards, take #emph[Weary] (Module B; without it, #emph[exhausted-2] until a night's rest) or lose 3 points (paid in full) from your casting pool. Either is an accepted payment.],
+      benefit: [The working hits #strong[every target] in an area or group, using #strong[Area Effects] (Core Rules §10.17). Explicit statuses apply at full tier to each target, and conflict Disposition loss follows the same procedure.],
+      limit: [Once per scene.],
+    )],
+    [◆], [#strong[Ascendant];], [#ability(
+      trigger: [You make a Heroic-scope working. In a conflict, declare it before the roll for your normal action.],
+      cost: [No cost for the first use. If you use it again before your next downtime, gain a Pneuma or Psychē Scar.],
+      benefit: [The working succeeds automatically with #strong[5 Power], no ritual required.],
+      limit: [Once per session. A trumped action stays trumped. In a versus test it wins unless the other side also succeeds automatically, which makes a tie. No roll means no doubles.],
+    )],
   )]
   , kind: table
   )

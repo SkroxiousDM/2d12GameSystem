@@ -14,7 +14,7 @@
 ]
 #v(12pt)
 
-This module makes the outcomes of independent, opposed, and extended checks clear before rolling. It preserves ordinary 2d12 resolution, Power generation, Effect prices, Momentum, Woe, and applicable Resistance rules. It is a companion to _Stakes and Compromise_, which addresses scripted conflict setup and settlement.
+This module makes the outcomes of independent, opposed, and extended checks clear before rolling. It preserves ordinary 2d12 resolution, Power generation, Effect prices, Weal, Woe, and applicable Resistance rules. It is a companion to _Stakes and Compromise_, which addresses scripted conflict setup and settlement.
 
 Design basis: _Stakes_ by Levi Kornelsen, whose text is dedicated to the public domain. This adaptation borrows automatic outcomes, dangers, opportunities, and compatible outcome design. It does not import hit spending, automatic combat damage, or the rule that every unprevented danger occurs.
 
@@ -105,7 +105,7 @@ Other Effects remain available when their normal requirements are met. A short o
 
 Apply existing durations, scope, discounts, stacking, and ability limits. Extra Feat is not a discounted Create, Advance, Attack, or other priced Effect. Do not use it to bypass a still-unresolved objective or gain another roll.
 
-Pay all purchases from one Power budget. Unspent Power becomes Momentum normally. No opportunity grants a free refund or additional Power merely because it was listed.
+Pay all purchases from one Power budget. Unspent Power becomes Weal normally. No opportunity grants a free refund or additional Power merely because it was listed.
 
 = Independent Checks
 
@@ -132,7 +132,7 @@ Danger: On failure, the gearing jams and this approach requires repairs before a
 
 Opportunity: Discover for 1 Power reveals whether the remaining mechanism can close the sluice again. Extra Feat for 1 Power also opens the adjacent maintenance hatch, if the same work can plausibly release it.
 
-A total of 18 grants 2 Power before other applicable bonuses. The player opens the sluice, buys Discover for 1 Power, and leaves 1 Power to become Momentum. No listed danger occurs without a trigger.
+A total of 18 grants 2 Power before other applicable bonuses. The player opens the sluice, buys Discover for 1 Power, and leaves 1 Power to become Weal. No listed danger occurs without a trigger.
 
 = Opposed Checks
 
@@ -208,7 +208,7 @@ Retain earned progress unless a declared consequence or explicit rule removes it
 
 An interruption can suspend work without undoing it. If an essential requirement is lost, explain what must be restored. A deadline can close the opportunity without implying that completed physical work vanishes.
 
-Do not permit consequence-free repeated rolls solely to generate Momentum. If time, uncertainty, and consequences cease to matter, stop calling for checks and resolve the remaining work through the applicable procedure. Do not introduce an undeclared hazard simply to justify more rolls.
+Do not permit consequence-free repeated rolls solely to generate Weal. If time, uncertainty, and consequences cease to matter, stop calling for checks and resolve the remaining work through the applicable procedure. Do not introduce an undeclared hazard simply to justify more rolls.
 
 Helping and group participation use existing rules. This module grants no additional downtime endeavours, free independent attempts, shared Power transfers, or extra actions merely because several characters describe contributions.
 

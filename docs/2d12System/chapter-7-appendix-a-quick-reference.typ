@@ -97,7 +97,7 @@ Buy off a dice complication by giving the GM 2 Woe. If you keep it and the GM ca
 )
 
 === Statuses
-Record a status's *name, tier, scope and removal condition*. Apply only the highest relevant helpful status and the highest relevant harmful status. Names alone do not establish scope. Impede is not a status; Grind conditions use Module B.3.
+Record a status as *name --- category/tier --- scope --- ending condition* (§5). Apply only the highest relevant helpful status and the highest relevant harmful status. Names alone do not establish scope. Impede is not a status; Grind conditions use Module B.3.
 
 === Resist an imposed status
 Roll *2 + Edge* d12 and take the highest die. Pay the result's cost; do not subtract Edge from it. Resistance reduces the incoming status by 2 tiers.

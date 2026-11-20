@@ -31,17 +31,62 @@ At home where the map ends. Rangers, hunters, pilots, guides, explorers, scouts,
     table.header([\#], [Ability], [Effect],),
     table.hline(),
     // PLAYTEST: Pathfinder and Forager core fallbacks when Module B is not used.
-    [1], [#strong[Pathfinder];], [As Guide (Module B), each Power spent on Make Time advances the Journey clock #strong[1 extra segment]; without Module B, add 1 extra segment to any travel or pursuit clock you advance. Ignore one terrain Truth per leg.],
-    [2], [#strong[Forager];], [As Quartermaster (Module B), a success also clears #emph[Hungry & Thirsty] for the whole party and gives #strong[+1 Supplies] for free. Without Module B, a successful foraging roll clears a hunger or thirst status for the whole party.],
-    [3], [#strong[Tracker];], [When you track or read signs, each Discover you buy gives #strong[two answers];.],
-    [4], [#strong[Hunter\'s Eye];], [With Shoot, once per roll ignore one Truth about cover, distance, or weather. At long range, gain #strong[+1 Power] on a success.],
-    [5], [#strong[Ambusher];], [In wild terrain, if you had time to prepare, your side starts a Fight conflict with #strong[+2 Disposition] (a flat modifier, §1.2), and your first-volley Attack resolves as independent whatever the opponent does.],
+    [1], [#strong[Pathfinder];], [#ability(
+      trigger: [As Guide (Module B), you spend Power on Make Time; without Module B, you advance a travel or pursuit clock. Also, a terrain Truth applies during a leg.],
+      cost: [No additional cost.],
+      benefit: [Each Power spent on Make Time advances the Journey clock #strong[1 extra segment]; without Module B, add 1 extra segment to any travel or pursuit clock you advance. Ignore one terrain Truth.],
+      limit: [One terrain Truth per leg.],
+    )],
+    [2], [#strong[Forager];], [#ability(
+      trigger: [As Quartermaster (Module B), you succeed; without Module B, you succeed on a foraging roll.],
+      cost: [No additional cost.],
+      benefit: [With Module B, clear #emph[Hungry & Thirsty] for the whole party and gain #strong[+1 Supplies] for free. Without it, clear a hunger or thirst status for the whole party.],
+      limit: [No additional limit.],
+    )],
+    [3], [#strong[Tracker];], [#ability(
+      trigger: [You buy Discover while tracking or reading signs.],
+      cost: [The normal Discover cost.],
+      benefit: [Each Discover gives #strong[two answers].],
+      limit: [No additional limit.],
+    )],
+    [4], [#strong[Hunter\'s Eye];], [#ability(
+      trigger: [You roll Shoot.],
+      cost: [No additional cost.],
+      benefit: [Ignore one Truth about cover, distance or weather. At long range, gain #strong[+1 Power] on a success.],
+      limit: [One ignored Truth per roll. The Power applies only at long range, on a success.],
+    )],
+    [5], [#strong[Ambusher];], [#ability(
+      trigger: [A Fight conflict begins in wild terrain and you had time to prepare.],
+      cost: [No additional cost.],
+      benefit: [Your side starts with #strong[+2 Disposition], and your first-volley Attack resolves as independent whatever the opponent does.],
+      limit: [The Disposition bonus is a flat modifier (§1.2). Only your first-volley Attack resolves as independent.],
+    )],
     // PLAYTEST: At the Helm Chase bonus lowered from +3 to +2 to match Ambusher.
-    [6], [#strong[At the Helm];], [Drive/Pilot rolls with your own vehicle or boat may use Survival. Your vehicle gains one power tag (#emph[swift], #emph[rugged], #emph[nimble]). In Chase conflicts, your side gets #strong[+2 starting Disposition] (a flat modifier, §1.2).],
-    [7], [#strong[★ Animal Companion];], [You have a companion (hound, hawk, horse; a drone in sci-fi) with 2 power tags and 1 weakness. Once per scene it gives you a #strong[free bonus die] (within the +2 cap), or acts on its own using your Survival. Acting on its own in a conflict takes a place in your side's script and rotation; it has no Disposition or injury trade of its own (Core Rules §10.9). It can take statuses; tier 6 means it's lost until downtime.],
+    [6], [#strong[At the Helm];], [#ability(
+      trigger: [You roll Drive/Pilot with your own vehicle or boat, or a Chase conflict begins.],
+      cost: [No additional cost.],
+      benefit: [Those rolls may use Survival. Your vehicle gains one power tag (#emph[swift], #emph[rugged], #emph[nimble]). In Chase conflicts, your side gets #strong[+2 starting Disposition].],
+      limit: [Your own vehicle or boat only. The Disposition bonus is a flat modifier (§1.2).],
+    )],
+    [7], [#strong[★ Animal Companion];], [#ability(
+      trigger: [You call on your companion (hound, hawk, horse; a drone in sci-fi), which has 2 power tags and 1 weakness.],
+      cost: [No additional cost.],
+      benefit: [It gives you a #strong[free bonus die], or acts on its own using your Survival.],
+      limit: [Once per scene. The bonus die is within the +2 cap. Acting on its own in a conflict takes a place in your side's script and rotation; it has no Disposition or injury trade of its own (Core Rules §10.9). It can take statuses; tier 6 means it's lost until downtime.],
+    )],
     // PLAYTEST: Balance B3, ★ kept; always-on forecast added to the once-per-session Truth.
-    [8], [#strong[★ Weather Sense];], [Once per session, declare the #strong[weather or terrain Truth] for the next scene (#emph[thick fog], #emph[rising river], #emph[clear skies]). You also always know the next scene\'s weather and terrain Truths before the party plans it, including whether a travel leg is a hard stretch (Module B).],
-    [◆], [#strong[One With the Wild];], [In wilderness, the party's Grind clock (Module B) is #strong[2 segments larger], and you can't be surprised. Once per session, while your party flees through wilderness, declare before the next exchange is scripted that you're losing the pursuit. If you can lead and everyone escaping can travel or be carried, the pursuit ends with no roll: you reach safety and the pursuers lose your trail. It doesn't defeat them, recover anything left behind or undo injuries and paid costs, and the chase can't resume without a new discovery or changed circumstances.],
+    [8], [#strong[★ Weather Sense];], [#ability(
+      trigger: [You declare the next scene's weather or terrain, or the party is about to plan the next scene.],
+      cost: [No additional cost.],
+      benefit: [Declare the #strong[weather or terrain Truth] for the next scene (#emph[thick fog], #emph[rising river], #emph[clear skies]). You also always know the next scene's weather and terrain Truths before the party plans it, including whether a travel leg is a hard stretch (Module B).],
+      limit: [The declaration is once per session; the forecast always applies.],
+    )],
+    [◆], [#strong[One With the Wild];], [#ability(
+      trigger: [You're in wilderness, or your party flees through wilderness. Declare the escape before the next exchange is scripted.],
+      cost: [No additional cost.],
+      benefit: [In wilderness, the party's Grind clock (Module B) is #strong[2 segments larger] and you can't be surprised. While fleeing, declare that you're losing the pursuit: if you can lead and everyone escaping can travel or be carried, the pursuit ends with no roll; you reach safety and the pursuers lose your trail.],
+      limit: [The escape is once per session. It doesn't defeat the pursuers, recover anything left behind or undo injuries and paid costs, and the chase can't resume without a new discovery or changed circumstances.],
+    )],
   )]
   , kind: table
   )

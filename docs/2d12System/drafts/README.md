@@ -18,7 +18,7 @@ inline and deleted.
 ## Decisions applied
 
 - The Legacy subsystem is retired under Phase 1 decision §8. The active
-  game retains four currencies: pools, Tychē Points, Momentum and Woe.
+  game retains four currencies: pools, Tychē Points, Weal and Woe.
 - Commit `21dabc1` removed the Legacy include and replaced the §6.7
   reference with a reminder that death creates no separate points or
   automatic Truth. Death, Scars and ordinary fictional remembrance

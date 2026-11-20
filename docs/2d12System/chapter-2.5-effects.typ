@@ -30,9 +30,19 @@ Each point of Power buys an Effect that fits what your character did in the fict
 
 #strong[Create discounts.] Only an ability or item that states a discount lowers Create's cost: −1 Power per discount, minimum 1. Being relevant doesn't make a tag or Truth a discount. Truths above scene scale need clocks or major arcs (Module C.6).
 
+#strong[Recording temporary facts.] Record every temporary mechanical fact (a status, a Truth, or a temporary benefit or penalty such as Gain Position or Impede) in one line, in this order:
+
+#strong[Name --- category/rating --- scope --- ending condition]
+
+- #strong[Category/rating:] what kind of fact it is and its value: a status's tier, a Truth's rank, or a temporary benefit's stated effect. Don't invent a rating for an unrated fact.
+- #strong[Scope:] who or what it affects, and when it applies.
+- #strong[Ending condition:] its duration and any event that ends it early. A removal condition never extends a duration.
+
+The shared format doesn't change any fact's category or mechanics: a temporary benefit doesn't become a status, and a Truth doesn't gain a status modifier. In running text, a status can still be written with its tier (#emph[wounded-2]).
+
 === 5.1 Statuses
 - Statuses have #strong[tiers 1--6];. They modify rolls by #strong[± their tier] (use only the highest relevant harmful status and the highest relevant helpful status).
-- #strong[Recording a status.] When you create a status, record its name and tier, its #strong[scope] (who or what it affects, and in which circumstances), and its #strong[removal condition] (the event, recovery, treatment, or change that ends it). The scope must follow from the fiction. #emph[Mapped patrol routes-2] --- evading the patrols you watched; ends when the routes change.
+- #strong[Recording a status.] When you create a status, record its name and tier, its #strong[scope] (who or what it affects, and in which circumstances), and its #strong[removal condition] (the event, recovery, treatment, or change that ends it), in the format above. The scope must follow from the fiction. #emph[Mapped patrol routes] --- helpful status 2 --- evading the patrols you watched --- ends when the routes change.
 - #strong[What it hinders.] A status modifies only rolls within its scope: #emph[slashed thigh-3] hinders running and climbing, not reading a ledger. A status can also decide what is possible: no roll lets you use a hand you no longer have. If circumstances change, review its scope; don't broaden it just because its name allows another reading.
 // PLAYTEST: simplified stacking (one above the higher tier). Matches the old "existing + new − 1" rule within 1 tier in every case; check heavy repeated hits in seeded batches.
 - #strong[Stacking.] New harm of the same kind sets the status to #strong[one tier above the higher] of the existing and incoming tiers (#emph[wounded-2] hit by #emph[wounded-3] becomes #emph[wounded-4]). Harm is the same kind when it worsens the same injury, affliction or condition, whatever it's called: another cut worsens #emph[wounded], renewed menace worsens #emph[terrified], but a fresh burn needn't stack with a concussion. The GM says whether new harm stacks #strong[before] you decide to Resist or accept an injury (§10.11).
@@ -71,11 +81,12 @@ social circumstances. The following names are examples, not a closed list. When 
 #columns(2, gutter: 6mm)[
 #strong[Make the scope specific.] Prepared and Supported need an established basis: name the plan, information, allies, or backing involved. One circumstance does not automatically grant a status and a separate tag or Truth benefit; establish and apply each component by its own rules. Trusted and Discredited apply to a named audience and subject, not everyone or every interaction. They are not universal reputation scores and do not automatically decide what another character believes. Exhausted should identify the depleted capacity rather than penalise everything.
 
-#strong[Recording examples.]
-- #emph[Mapped patrol routes-2]: helps evade the observed patrols; ends when their routes change.
-- #emph[Trusted by the village council-2]: helps persuade the council about local threats within your established#colbreak() credibility; ends when that trust is withdrawn or betrayed.
-- #emph[Mentally exhausted-3]: hinders sustained mental work; ends through appropriate recovery (§6.5).
-- #emph[Discredited before the merchant guild-2]: hinders claims about the disputed shipment made to the guild; ends when the accusation is disproved or credibility is restored.
+#block(sticky: true)[#strong[Recording examples.]]
+- #emph[Mapped patrol routes] --- helpful status 2 --- evading the observed patrols --- ends when their routes change.
+- #emph[Trusted by the village council] --- helpful status 2 --- persuading the council about local threats within your established credibility --- ends when that trust is withdrawn or betrayed.
+#colbreak()
+- #emph[Mentally exhausted] --- harmful status 3 --- sustained mental work --- ends through appropriate recovery (§6.5).
+- #emph[Discredited before the merchant guild] --- harmful status 2 --- claims about the disputed shipment made to the guild --- ends when the accusation is disproved or credibility is restored.
 
 #strong[Special conditions stay separate.] These examples use the normal tiered-status rules. Grind conditions --- Hungry & Thirsty, Weary, Exposed, Shaken, Sick, and Broken --- use their listed effects and recovery requirements (Module B.3), not generic tiers inferred from their order. Running-dry statuses also follow their pool-specific procedure (§6.2). Impede is a temporary conflict effect, not a status (§10.6).
 ]

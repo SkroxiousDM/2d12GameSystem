@@ -216,7 +216,7 @@ Spend Power on these effects:
 Buy Impede, Gain Position and Disarm no more than once each per Maneuver; later successful actions may buy them again. Create may be purchased at a higher rank for its normal cost.
 
 ==== Temporary Effects and Ongoing Conditions
-Impede and Gain Position apply to the affected side's next scripted action, including across an exchange boundary. If that action is trumped or otherwise makes no roll, the effect expires unused.
+Impede and Gain Position apply to the affected side's next scripted action, including across an exchange boundary. If that action is trumped or otherwise makes no roll, the effect expires unused. Record a pending effect like any temporary fact (§5): #emph[Gain Position] --- tactical benefit, +1 bonus die --- your side's next scripted action roll --- expires on that action, unused if it is trumped or makes no roll.
 
 Neither applies to unrelated Resistance or incidental rolls. Gain Position counts toward the normal bonus-dice cap.
 
@@ -225,7 +225,7 @@ Additional grants do not stack, refresh or extend pending Gain Position. Coverin
 
 Impede is not a tiered status. Multiple pending Impedes do not stack, increase its penalty or extend its duration. Restore does not remove it merely because Restore removes statuses. Impede does not itself restrain, immobilise or render someone helpless.
 
-An ongoing condition needs its own name, tier, scope and removal condition. For example, #emph[entangled-2] hinders movement and actions requiring free limbs, and ends when the net is cut or the target escapes. State fictional restrictions directly; a helpless body or inaccessible weapon is not shorthand for temporary Impede.
+An ongoing condition needs its own name, tier, scope and removal condition (§5). For example: #emph[Entangled] --- harmful status 2 --- movement and actions requiring free limbs --- ends when the net is cut or the target escapes. State fictional restrictions directly; a helpless body or inaccessible weapon is not shorthand for temporary Impede.
 
 ==== Disarming and Denying Options
 Identify the disabled asset and explain how. Disabling one asset removes an action category only if it was the side's only plausible means of performing that action. A replacement may restore access when the fiction permits. Switching equipment does not itself change a script.

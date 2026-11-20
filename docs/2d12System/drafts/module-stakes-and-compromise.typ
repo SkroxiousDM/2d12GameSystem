@@ -133,7 +133,7 @@ Once setup is complete, use the existing conflict procedure.
 Compromise hooks do not:
 
 - Modify starting or current Disposition.
-- Grant bonus dice, Power, or Momentum.
+- Grant bonus dice, Power, or Weal.
 - Authorise additional Effect purchases.
 - Impose consequences merely because they were listed.
 - Allow a successful action to settle a still-disputed objective.

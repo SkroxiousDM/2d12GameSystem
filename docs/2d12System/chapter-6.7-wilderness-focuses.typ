@@ -92,7 +92,7 @@ Explorer, navigator, or surveyor drawn to the blank parts of the map.
       trigger: [You first explore an unfamiliar location.],
       cost: [No additional cost.],
       benefit: [Ask two free Discover questions about its routes, hazards, or useful resources. Before the scene ends, gain +1 Power on one later successful action that directly exploits an answer. With Module C: Instead of asking the questions, define one previously unestablished Site Truth consistent with what has already been discovered. The later-action bonus may exploit that Truth instead.],
-      limit: [Once per location, not once per room or visit. The answers concern evidence you can discover there; they do not reveal unrelated secrets or a committed script. The bonus permits no otherwise unavailable Effects.],
+      limit: [Once per location, not once per room or visit. The answers concern evidence you can discover there; they do not reveal unrelated secrets or a committed script. The bonus permits no otherwise unavailable Effects. With Module C: Record the Site Truth's scope and ending condition. It lasts until the established fact changes, not merely until the scene ends. The later-action +1 Power benefit still expires at scene end.],
     )],
     [3b], [#strong[★ Lands Unknown];], [#ability(
       trigger: [The party enters an uncharted region.],
@@ -204,7 +204,7 @@ Driver, pilot, sailor, or rider: you and your vehicle are one.
     [3b], [#strong[★ Legendary Ride];], [#ability(
       trigger: [You succeed on a Drive/Pilot action using your signature vehicle, including when another ability lets you substitute a different skill.],
       cost: [No additional cost.],
-      benefit: [Gain +1 Power. With Module A: Your signature vehicle is an artifact. The bonus Power is its special ability, not an additional ability. It requires no attunement Refresh. Other artifact rules apply.],
+      benefit: [Gain +1 Power. With Module A: Your signature vehicle is an artifact. The bonus Power is its special ability, not an additional ability. Agree its depletion rating and quirk with the GM when it becomes an artifact. It requires no attunement Refresh. Waiving attunement Refresh does not waive the normal attunement-slot limit when attunement is required. Other artifact rules apply.],
       limit: [Once per exchange in a scripted conflict, or once per scene outside one. The vehicle must directly contribute to the action. This grants no additional turn or otherwise unavailable Effect.],
     )],
   )]

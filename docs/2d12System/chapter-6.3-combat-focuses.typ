@@ -44,10 +44,10 @@ Loyal to a fault. You go back for the fallen, every time.
       limit: [Once per session. No other compromise applies; injuries and paid costs stay.],
     )],
     [3b], [#strong[★ Living Wall];], [#ability(
-      trigger: [You take up the position. Until your next action, imposed harm is aimed at allies within reach that you can intercept.],
-      cost: [The harm hits you instead. Pay your own Resistance costs.],
-      benefit: [Redirect it before their Resistance and use your own reduction; Resist each with Edge +1.],
-      limit: [Once per scene, until your next action. Area effects that already hit you both aren't redirected.],
+      trigger: [An Attack or Feint would remove your side's Disposition, and you can physically protect the participants threatened by it. Declare this before an injury trade.],
+      cost: [Take a tier-2 harmful physical Personal status as an accepted payment. It must follow from how you protect the side, hinder a relevant activity, and be new or worsen an existing status. Apply normal stacking.],
+      benefit: [Reduce that action's Disposition loss by 2, to a minimum of 0.],
+      limit: [Once per conflict. Your side can benefit from Living Wall only once against the same action. This is not an injury trade; one participant may still make the normal injury trade against the remaining loss.],
     )],
   )]
   , kind: table
@@ -98,7 +98,7 @@ Captain, chief, or sergeant: people follow you.
       trigger: [Your side's Disposition would drop to 0.],
       cost: [You take a #strong[tier-2 Personal status] as an accepted payment. You name it (#emph[exhausted-2], #emph[battered-2]) and the GM approves it. It recovers under the normal rules (Core Rules @core-rest-recovery–@core-treatment-healing[]).],
       benefit: [Your side's Disposition stays at #strong[1].],
-      limit: [Once per conflict.],
+      limit: [Once per conflict for your side, however many participants have this ability. It prevents defeat from reaching 0 Disposition, not defeat because nobody can continue pursuing the objective. It cannot prevent a setup defeat.],
     )],
   )]
   , kind: table
@@ -147,10 +147,10 @@ Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
       limit: [Once per scene.],
     )],
     [3b], [#strong[★ Weapon Saint];], [#ability(
-      trigger: [You use your weapon.],
-      cost: [No attunement Refresh.],
-      benefit: [Your weapon becomes an #strong[artifact] (Module A) with one extra power tag and an ability you design with the GM. It never depletes.],
-      limit: [Needs Module A. The designed ability needs GM agreement and should be about as strong as one Tier 2 Focus ability.],
+      trigger: [You succeed on an Attack or Defend using your chosen weapon type.],
+      cost: [No additional cost.],
+      benefit: [Gain +1 Power. Choose one additional power tag for your signature weapon, within the normal tag cap. With Module A: Your signature weapon is an artifact. This ability is its special ability; it does not grant another. It requires no attunement Refresh and never depletes. Agree its artifact quirk with the GM when it becomes an artifact. Never depletes means no depletion roll is required. Waiving attunement Refresh does not waive the normal attunement-slot limit when attunement is required.],
+      limit: [The additional Power applies once per exchange in a scripted conflict, or once per scene outside one. It permits only Effects available to that action. Choose the additional weapon tag when you take this ability.],
     )],
   )]
   , kind: table

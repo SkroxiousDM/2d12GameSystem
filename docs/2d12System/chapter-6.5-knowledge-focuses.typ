@@ -36,10 +36,10 @@ An artificer, engineer, or inventor who makes what shouldn\'t work, work.
       limit: [No additional limit.],
     )],
     [3a], [#strong[Master-work];], [#ability(
-      trigger: [During downtime, you work on a masterwork.],
-      cost: [A 12-segment downtime clock.],
-      benefit: [Create one #strong[artifact] (Module A). You pay no Refresh to attune your own masterwork.],
-      limit: [Needs Module A. One masterwork at a time: you can start another only after the current one is lost, destroyed or given away.],
+      trigger: [During downtime, you build or substantially rebuild a signature item.],
+      cost: [Complete a 12-segment crafting clock with suitable materials and facilities.],
+      benefit: [The masterwork has two power tags and one conflict action tag appropriate to its function. Once per scene, when its user succeeds on an action directly using it, they gain +1 Power. With Module A: The masterwork is an artifact, with the bonus Power as its special ability. Agree its depletion rating and quirk with the GM when it becomes an artifact. You pay no Refresh to attune your own masterwork. Waiving attunement Refresh does not waive the normal attunement-slot limit when attunement is required. Other artifact rules apply.],
+      limit: [You can maintain one masterwork at a time. Giving it away does not free this slot. You may replace it through a new crafting project, but the old item then loses its masterwork bonus Power. Its ordinary tags remain. With Module A: When replaced, the former masterwork remains an artifact but loses the bonus-Power ability and attunement exemption granted by Masterwork. It retains its tags, depletion rating, quirk, and any independently established properties. Normal artifact and attunement rules apply; replacement does not grant a substitute special ability.],
     )],
     [3b], [#strong[★ Rig the Field];], [#ability(
       trigger: [You rig the area with gadgets.],
@@ -82,10 +82,10 @@ Doctor, field medic, herbalist, or combat surgeon.
       limit: [Only an ally you can reach and treat.],
     )],
     [2b], [#strong[Remedy];], [#ability(
-      trigger: [A Players' Turn (Module B).],
-      cost: [#strong[No Check].],
-      benefit: [Clear one Grind hardship from one ally.],
-      limit: [Once per Players' Turn.],
+      trigger: [You spend ten uninterrupted minutes treating yourself or an ally with suitable supplies.],
+      cost: [The treatment time and supplies.],
+      benefit: [Reduce one temporary harmful physical Personal status by 2 tiers, without a roll, when your treatment can address its cause. With Module B: Instead of reducing a tiered status, clear Hungry & Thirsty, Exposed, or Sick from the patient. Meet that hardship's normal fictional recovery requirements, including any required rest; no recovery roll is needed.],
+      limit: [Once per scene, across all patients. It does not treat lasting injuries, running-dry depletion, or tier-6 harm, and cannot remove an affliction whose source requires a different cure. It does not restore pools or Disposition, erase a Scar, or return a Taken Out character to an ongoing conflict.],
     )],
     [3a], [#strong[Miracle Worker];], [#ability(
       trigger: [An ally has a tier-6 physical status.],
@@ -184,16 +184,16 @@ Historian, archaeologist, or keeper of lost lore.
     )],
     // PLAYTEST: B5, was 0 Power.
     [2a], [#strong[Lost Knowledge];], [#ability(
-      trigger: [You've read about this before.],
+      trigger: [You draw on history, legends, or old cultures to explain a useful fact you have studied.],
       cost: [#strong[1 Power].],
       benefit: [Create a Truth (#emph[Ancient Weakness], #emph[Forgotten Route]), or instead a helpful rating-1 Situational Condition from what you recall (#emph[known weakness 1]).],
-      limit: [Once per session. One Truth or one Condition, rating 1 only.],
+      limit: [Once per scene. Create one scene Truth or one helpful rating-1 Situational Condition. It supplies present-day leverage from old knowledge; it cannot rewrite established history.],
     )],
     [2b], [#strong[Relic Hunter];], [#ability(
-      trigger: [You find cyphers or treasure, or encounter an artifact.],
+      trigger: [You examine an old, unusual, or valuable object, or treasure is randomly generated for your party. With Module A, the generation trigger also includes cyphers.],
       cost: [No additional cost.],
-      benefit: [Roll or draw #strong[twice] and choose. You identify artifacts automatically.],
-      limit: [No additional limit.],
+      benefit: [Ask one free Discover question about its origin, purpose, authenticity, or safe handling. When treasure is randomly generated, roll or draw twice and choose one result. With Module A: The selection benefit also applies to cyphers. You identify an artifact's function, activation requirements, depletion, and quirk without a roll; identification does not attune it or remove its risks.],
+      limit: [One free question per object. Examining the same object again does not renew it. Make the additional treasure roll or draw before the result is resolved; this cannot reroll treasure already found or examined. The selection benefit changes which treasure is found, not its quantity.],
     )],
     // PLAYTEST: B2, was two steps; Master of the Field capstone gives one.
     [3a], [#strong[Living Archive];], [#ability(
@@ -203,10 +203,10 @@ Historian, archaeologist, or keeper of lost lore.
       limit: [Difficulty reductions apply only against a Difficulty (@foc-ability-limits).],
     )],
     [3b], [#strong[★ Rewrite History];], [#ability(
-      trigger: [You set out to prove a Campaign Truth false.],
-      cost: [A 12-segment research clock.],
-      benefit: [When the clock fills, the Truth changes (Module C).],
-      limit: [Needs Module C. One Campaign Truth per clock.],
+      trigger: [You investigate a consequential historical claim.],
+      cost: [Complete a 12-segment research clock using evidence and sources relevant to the claim.],
+      benefit: [Establish a previously unknown historical fact that overturns the claim. The GM confirms the finding and identifies the evidence that makes it demonstrable. With Module C: If the agreed project concerns a Campaign Truth, completing it can replace that Truth with the demonstrated finding.],
+      limit: [Agree the claim and possible scope before starting the clock. This reveals what happened; it does not change a resolved past event, dictate how people respond, or automatically settle an ongoing conflict. Maintain only one Rewrite History project at a time.],
     )],
   )]
   , kind: table

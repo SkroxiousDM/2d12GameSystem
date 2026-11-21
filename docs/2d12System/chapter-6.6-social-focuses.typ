@@ -18,10 +18,10 @@ Charm, quick wit, and the right words at the right time.
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Fast Talk];], [#ability(
-      trigger: [You try to get out of a bad situation.],
+      trigger: [You try to get out of a bad situation through speech, deception, bargaining, or distraction.],
       cost: [No additional cost.],
-      benefit: [Use Persuade or Deceive in place of any other skill.],
-      limit: [Once per scene. This swaps the skill only.],
+      benefit: [Use Persuade or Deceive instead of the skill the action would normally require.],
+      limit: [Once per scene. Your approach must genuinely use the chosen skill. This changes only the skill: it does not make an impossible action possible, change a scripted action's interaction, or permit additional Effects.],
     )],
     // PLAYTEST: R1, was redundant with core Success at a Cost (consequence or 1 Woe).
     [2a], [#strong[Change of Plans];], [#ability(
@@ -128,28 +128,28 @@ Fixer, socialite, or broker: you\'re one call away from anyone.
       limit: [Calling a contact is once per session.],
     )],
     [2a], [#strong[Favour Bank];], [#ability(
-      trigger: [In a Players' Turn (Module B), you help a contact, or you spend a banked favour.],
-      cost: [A Check to bank a favour.],
-      benefit: [Bank a #strong[favour]. Spend a favour for substantial help: a safe house, troops, a pardon.],
-      limit: [Needs Module B. Bank at most one favour per Players' Turn; there is no cap on banked favours.],
+      trigger: [You complete meaningful help for a named contact, or call in an already-recorded favour.],
+      cost: [Earning a favour requires help involving a real expenditure, risk, or obligation. Calling one in uses an existing favour; it earns no new favour.],
+      benefit: [After completing the help, agree one favour the contact acknowledges owing you. Record the contact, the service and its limits, any required notice, and what fulfils it. Call it in for assistance within those terms and the contact's established means, such as safe lodging, transport, an introduction, or access to ordinary records. Erase it when fulfilled. With Module B: A Players' Turn action spent helping the contact can earn the favour if it meets these requirements. Pay the normal Check cost; the action is not automatic. With Module E: Use its favour record and settlement rules for the same promise, not a second favour.],
+      limit: [Earn at most one favour per session and hold at most two outstanding favours from this ability, across all contacts. State the assistance before calling it in. It cannot guarantee victory in an unresolved conflict, compel personal betrayal, or require resources the contact does not possess. If fulfilment becomes impossible, the favour remains outstanding until fulfilled or an alternative settlement is agreed.],
     )],
     [2b], [#strong[Gossip Network];], [#ability(
-      trigger: [A session starts, or you confirm rumours (Module C).],
+      trigger: [A session starts. With Module C, this ability also applies when you confirm rumours.],
       cost: [No additional cost.],
-      benefit: [Ask 2 Discover questions about current rumours. When confirming rumours, roll #strong[twice and choose].],
+      benefit: [Ask two Discover questions about current rumours. With Module C: When confirming a rumour, roll twice and choose.],
       limit: [The questions are once per session, at its start.],
     )],
     [3a], [#strong[Power Broker];], [#ability(
-      trigger: [A World Turn (Module C or E).],
-      cost: [No additional cost.],
-      benefit: [Advance or reverse one faction or project clock by 1.],
-      limit: [Once per World Turn.],
+      trigger: [You arrange a concrete contribution through established contacts to influence an upcoming conflict. With Module C or E, you may instead arrange a contribution that advances or obstructs an established faction or project clock.],
+      cost: [Describe the contact's contribution and meet any agreed price or obligation.],
+      benefit: [For a conflict, choose one: your side gains +2 starting Disposition, or the opposing side takes −2 starting Disposition. With Module C or E: Instead of the Disposition modifier, advance or reverse one relevant faction or project clock by 2 segments.],
+      limit: [Once per session, choosing either use. For a conflict, declare the modifier before starting Disposition is calculated; the conflict must concern an institution, organisation, or public matter the contact can materially influence. For a project, identify the clock and the contact's method before applying progress or disruption; the contact must be able to affect it. Apply normal project-resolution timing. This cannot reverse a completed project or count the same contribution twice. The same arrangement grants no second Power Broker benefit.],
     )],
     [3b], [#strong[★ The Right Person];], [#ability(
-      trigger: [You need someone for the situation.],
+      trigger: [You need a contact with particular knowledge, access, or influence.],
       cost: [No additional cost.],
-      benefit: [Exactly the right contact for the situation happens to be present.],
-      limit: [Once per session.],
+      benefit: [Declare an appropriate contact present in the current scene. They have the knowledge, access, or influence you specified and are willing to hear your request. They provide one true, useful answer or one minor favour without requiring a roll or payment.],
+      limit: [Once per session. Greater assistance requires whatever negotiation, payment, or obligation the situation warrants. Their presence cannot contradict established events, and they cannot grant authority or access they do not possess.],
     )],
   )]
   , kind: table
@@ -199,10 +199,10 @@ Noble, officer, executive, or chieftain: you hold authority, and it holds you.
       limit: [A flat starting-Disposition bonus (@foc-ability-limits).],
     )],
     [3b], [#strong[★ Holdings];], [#ability(
-      trigger: [You act at your holding (keep, office, ship, estate).],
-      cost: [No additional cost.],
-      benefit: [Gain the holding as a site (Module C) with #strong[3 Truths you choose]. In a Players' Turn (Module B), one action there costs no Check.],
-      limit: [The free action is once per Players' Turn.],
+      trigger: [You establish your holding or use its facilities.],
+      cost: [No additional ability cost. Work performed there still takes its normal time, materials, rolls, and other payments.],
+      benefit: [Gain a holding appropriate to your authority: a keep, office, ship, estate, or similar base. Choose one function: treatment, research, crafting, or training. Once per session, you or one ally using that function gains one free bonus die on a relevant roll there. With Module C: Record the holding as a site with three agreed Truths; these describe the holding rather than grant additional mechanical bonuses. With Module B: Once per Players' Turn, you may waive the 1-Check cost of one individual action performed by you or one ally using the holding's chosen function. With Module D: Use this benefit once per stay instead, on one individual endeavour, whether or not Module B is enabled. It does not pay for a shared endeavour or waive time, materials, rolls, or other costs.],
+      limit: [One holding and one chosen function. Ownership does not make it immune to threats or guarantee access when events prevent it. Changing the function requires downtime.],
     )],
   )]
   , kind: table

@@ -33,7 +33,9 @@
 === 1.2 Weird Focuses ◈ <foc-about-weird-focuses>
 Focuses marked #strong[◈ Weird] assume the supernatural, impossible technology, or both. In mundane settings the GM removes them from the list. Every other Focus works in any genre.
 
-#strong[Module abilities.] An ability marked (Module A), (Module B) or (Module C) needs that module. Without it, take the other ability at that tier, or agree a substitute with the GM. #strong[Lives Off the Land] (marked B in @foc-quick-reference) needs Module B throughout; without it, the GM removes it from the list.
+#strong[Module requirements and benefits.] "Requires Module X" means the ability is unavailable without that module. "With Module X" introduces an additional benefit or procedure; the rest of the ability works without that module.
+
+The generic Focuses are usable with the core rules except #strong[Lives Off the Land], which requires Module B. Module benefits do not grant additional actions or waive costs unless they explicitly say so.
 // ART: A surgeon's kit unrolled on a field table beside a lantern.
 #art-fill(min: 6cm)[A surgeon's kit unrolled on a field table beside a lantern.]
 #colbreak()
@@ -45,7 +47,7 @@ Focus abilities use the same four fields (Trigger, Cost, Benefit, Limit) and fol
 - #strong[Bonus clock segments] advance only the clock they name.
 - #strong[Difficulty reductions] apply only when a roll tests against a Difficulty, including an independent conflict test; they never modify totals in a versus test (Core Rules @core-scripting-volleys).
 - #strong[Crews, packs and allies] that act in a conflict are one participant in your side's script and rotation, with no Disposition track or injury trade of their own. Free Help waives only the pool-point cost.
-- #strong[Healing] treats existing statuses. It doesn't restore Disposition, refresh an injury trade, erase a Scar or lift the 1-tier lasting-injury limit (Core Rules @core-treatment-healing), and a Taken Out ally returns to an ongoing conflict only when an ability says so (Core Rules @core-being-taken-out).
+- #strong[Healing] treats existing statuses. Unless an ability explicitly states otherwise, it follows the ordinary treatment limits and does not erase Scars (Core Rules @core-treatment-healing). Healing does not restore Disposition or refresh an injury trade, and a Taken Out ally returns to an ongoing conflict only when an ability says so (Core Rules @core-being-taken-out).
 ]
   
 == 2. Quick Reference <foc-quick-reference>

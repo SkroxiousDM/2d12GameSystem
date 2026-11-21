@@ -43,10 +43,10 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
       limit: [The Truth or Condition is leverage, not automatic victory.],
     )],
     [3], [#strong[Field Medic];], [#ability(
-      trigger: [You use Medicine to Restore, or to treat #emph[Sick] (Module B).],
-      cost: [Restore costs #strong[1 Power per 2 tiers].],
-      benefit: [The reduced Restore price. You can treat #emph[Sick] at Standard Difficulty instead of Hard.],
-      limit: [Within the lasting-injury limits (Core Rules @core-treatment-healing). Healing doesn't restore pools or Disposition, refresh injury trades or erase Scars.],
+      trigger: [You treat an injury or temporary physical condition with Medicine.],
+      cost: [Restore costs 1 Power per two tiers, rounded up.],
+      benefit: [Use the reduced Restore price. Once per scene, if your treatment successfully lowers a lasting injury, the patient also recovers 2 points in one pool of their choice. With Module B, you can treat Sick at Standard instead of Hard Difficulty.],
+      limit: [Treatment still lowers a given lasting injury by at most one tier until its treated mark clears normally. The additional pool recovery applies once per scene in total, not once per patient. It does not restore Disposition, refresh an injury trade, or erase a Scar.],
     )],
     [4], [#strong[Steady Mind];], [#ability(
       trigger: [You Resist confusion, illusion, deception or forbidden knowledge with Psychē.],

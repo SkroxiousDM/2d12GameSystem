@@ -67,7 +67,7 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
       limit: [Only the penalty changes: the tier, stacking, recovery, Taken Out, Dying and Scars work normally.],
     )],
     // PLAYTEST: Weary fallback (exhausted-2) for games without Module B.
-    [7], [#strong[★ Berserker];], [#ability(
+    [7], [#strong[Berserker];], [#ability(
       trigger: [You enter a fury.],
       cost: [At scene end, lose 2 Sōma (paid in full) or take #emph[Weary] (Module B; without it, #emph[exhausted-2] until a night's rest). Either is an accepted payment.],
       benefit: [#strong[+1 bonus die] (free) on Fight, Brawl and Athletics rolls for the rest of the scene.],

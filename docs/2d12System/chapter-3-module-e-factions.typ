@@ -62,7 +62,7 @@ A permanent Cohesion of 0 is a #emph[crisis] when a faction has fallen to it (E.
 
 Assets determine what the faction can actually do. A treasury cannot occupy a town without personnel; soldiers cannot cross a sea without transport. A rating never creates an unstated army, fleet, office, or network.
 
-#strong[Asset tags.] Write each asset as a tag (#emph[armed river crews], #emph[clerks in the provincial offices]). When an asset materially supports a faction roll, it supplies #strong[+1 Power], maximum +2 per action, as a PC's tags do (Core Rules @core-outcomes). It adds nothing to the roll. Asset tags supply Power only to the faction's own rolls; support lent to the party uses E.6.
+#strong[Asset tags.] Write each asset as a tag (#emph[armed river crews], #emph[clerks in the provincial offices]). When an asset materially supports a faction roll, it supplies #strong[+1 Power], maximum +2 per action, as a PC's tags do (Core Rules @core-outcomes). It adds nothing to the roll. Asset tags supply Power to the faction's own rolls; a Trusted faction can also lend one to a PC (E.6).
 
 When an asset makes something possible or changes conditions for others, record that as a Truth with scope and ending condition, or as a Situational Condition when it helps rolls by a number (Core Rules @core-situational-conditions, @core-establishing-recording). It adds its concrete advantage, not a second bonus restating the Quality, and one asset doesn't supply both Tag Power and a Condition on the same roll.
 
@@ -184,8 +184,9 @@ Support has one concrete application:
 - Permission: equipment, credentials, transport, or access makes the action possible, or removes the need for a particular roll.
 - A scoped Situational Condition: actual conditions modify relevant rolls (Core Rules @core-situational-conditions). A Truth that only makes something possible is Permission.
 - Active Help: a participating ally uses the core Help procedure, pays its normal cost from its own pools and shares the risk. An ordinary NPC has no pools, so it can't Help unless a rule says otherwise (Core Rules @core-running-dry). Qualities aren't pools.
+- A lent asset tag: at Standing +2 or better, the faction commits one relevant asset tag (E.2) to a PC roll it actually supports, such as #emph[barges and landing rights] behind a river crossing. It supplies +1 Power and counts toward the PC's maximum of +2 Tag Power (Core Rules @core-outcomes). It adds nothing to the roll.
 
-Do not award all three for the same contribution. Stronger Qualities increase feasible reach, reliability, and scale, not an automatic numerical bonus. Might +4 can organize support beyond Might +1; it does not grant +4 Fight.
+Do not award more than one of these for the same contribution. A PC roll takes at most one lent asset tag. Stronger Qualities increase feasible reach, reliability, and scale, not an automatic numerical bonus. Might +4 can organize support beyond Might +1; it does not grant +4 Fight.
 
 #strong[Accompanying allies.] A companion is either a participant (joins rotation, uses its own ratings, bound by the stakes) or an asset (gives its stated benefit, takes no turn), never both. It doesn't get its own Disposition, and removing it costs none, though a side loses when nobody can pursue its objective (Core Rules @core-shared-disposition-participation).
 

@@ -191,7 +191,7 @@ If the association undertakes an additional urgent funding action that turn, Tre
   [What can it do?], [Qualities, assets, and operational reach.],
   [Will it help us?], [Standing, authority, commitments, and reasonable requests.],
   [What do PCs roll?], [Their normal Skill; never add a faction Quality.],
-  [What does support do?], [Permission, a scoped Situational Condition, or actual Help; no duplicate benefit.],
+  [What does support do?], [Permission, a scoped Situational Condition, actual Help, or one lent asset tag (Standing +2+); no duplicate benefit.],
   [What does the faction roll?], [2d12 + one effective Quality, normally vs. Standard 15. Relevant asset tags supply +1 Power each, max +2.],
   [How does it progress?], [1 Power per project segment; no off-screen Weal or Woe.],
   [How do adventures matter?], [Achieve an objective, affect progress, or establish a strategic advantage.],

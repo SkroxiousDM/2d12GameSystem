@@ -6,6 +6,12 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Added — Module E: lending an asset tag to a PC roll (2026-11-21)
+
+- E.6: at Standing +2 or better, a faction can commit one relevant asset tag to a PC roll it actually supports. It supplies +1 Power, counts toward the PC's +2 Tag Power maximum, and adds nothing to the roll. One lent tag per roll; it can't be combined with other support for the same contribution.
+- E.2 and the E.14 table reference updated to match.
+- Rebuilt core rulebook PDF.
+
 ### Changed — Site and Region Truth clocks enlarged to 12 and 16 segments (2026-11-21)
 
 - Site Truth changes now take 12-segment clocks and Region Truth changes 16, for factions and PCs alike (C.5, C.6, C.7, D.5, E.1a, E.2, E.10). Offsets faster pacing from faction asset-tag Power.

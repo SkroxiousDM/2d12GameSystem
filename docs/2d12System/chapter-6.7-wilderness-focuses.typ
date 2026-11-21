@@ -83,10 +83,10 @@ Explorer, navigator, or surveyor drawn to the blank parts of the map.
       limit: [Once per journey.],
     )],
     [2b], [#strong[First Contact];], [#ability(
-      trigger: [You make your first Persuade or Empathy roll with a new people or culture.],
+      trigger: [You make your first Persuade or Empathy roll when establishing relations with a community or organised group your party has not dealt with before.],
       cost: [No additional cost.],
-      benefit: [Gain a #strong[free bonus die].],
-      limit: [The first roll only. The normal bonus-dice cap applies.],
+      benefit: [Gain one free bonus die.],
+      limit: [Once per community or group, not once per member. A different representative or location does not renew the benefit. The normal bonus-dice cap applies.],
     )],
     [3a], [#strong[Dis­cov­er­er];], [#ability(
       trigger: [You discover a new site (Module C).],

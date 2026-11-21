@@ -184,10 +184,10 @@ Historian, archaeologist, or keeper of lost lore.
     )],
     // PLAYTEST: B5, was 0 Power.
     [2a], [#strong[Lost Knowledge];], [#ability(
-      trigger: [You've read about this before.],
+      trigger: [You draw on history, legends, or old cultures to explain a useful fact you have studied.],
       cost: [#strong[1 Power].],
       benefit: [Create a Truth (#emph[Ancient Weakness], #emph[Forgotten Route]), or instead a helpful rating-1 Situational Condition from what you recall (#emph[known weakness 1]).],
-      limit: [Once per session. One Truth or one Condition, rating 1 only.],
+      limit: [Once per scene. Create one scene Truth or one helpful rating-1 Situational Condition. It supplies present-day leverage from old knowledge; it cannot rewrite established history.],
     )],
     [2b], [#strong[Relic Hunter];], [#ability(
       trigger: [You find cyphers or treasure, or encounter an artifact.],

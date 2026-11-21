@@ -45,7 +45,7 @@ Focus abilities use the same four fields (Trigger, Cost, Benefit, Limit) and fol
 - #strong[Bonus clock segments] advance only the clock they name.
 - #strong[Difficulty reductions] apply only when a roll tests against a Difficulty, including an independent conflict test; they never modify totals in a versus test (Core Rules @core-scripting-volleys).
 - #strong[Crews, packs and allies] that act in a conflict are one participant in your side's script and rotation, with no Disposition track or injury trade of their own. Free Help waives only the pool-point cost.
-- #strong[Healing] treats existing statuses. It doesn't restore Disposition, refresh an injury trade, erase a Scar or lift the 1-tier lasting-injury limit (Core Rules @core-treatment-healing), and a Taken Out ally returns to an ongoing conflict only when an ability says so (Core Rules @core-being-taken-out).
+- #strong[Healing] treats existing statuses. Unless an ability explicitly states otherwise, it follows the ordinary treatment limits and does not erase Scars (Core Rules @core-treatment-healing). Healing does not restore Disposition or refresh an injury trade, and a Taken Out ally returns to an ongoing conflict only when an ability says so (Core Rules @core-being-taken-out).
 ]
   
 == 2. Quick Reference <foc-quick-reference>

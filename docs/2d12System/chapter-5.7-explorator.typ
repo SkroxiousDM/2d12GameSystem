@@ -71,8 +71,8 @@ At home where the map ends. Rangers, hunters, pilots, guides, explorers, scouts,
     [7], [#strong[★ Animal Companion];], [#ability(
       trigger: [You call on your companion (hound, hawk, horse; a drone in sci-fi), which has 2 power tags and 1 weakness.],
       cost: [No additional cost.],
-      benefit: [Your companion scouts, carries messages or objects it can handle, and performs tasks appropriate to its form. It can act using your Survival. Once per scene, it can instead Help your roll without paying the normal pool-point cost.],
-      limit: [Free Help still requires relevant assistance and shares the consequences. Acting in a conflict uses one place in your side's script and rotation; the companion has no separate Disposition or injury trade. It takes statuses normally, and tier 6 makes it unavailable until downtime.],
+      benefit: [Your companion scouts, carries messages or objects it can handle, and performs tasks appropriate to its form. It can act independently using your Survival when its form permits the task. Once per scene, it can also Help one of your rolls without paying the normal pool-point cost.],
+      limit: [Free Help still requires relevant assistance and shares the consequences. Help follows normal timing and does not count as the companion's turn or grant a replacement turn. Acting in a conflict uses one place in your side's script and rotation; the companion has no separate Disposition or injury trade. It takes statuses normally, and tier 6 makes it unavailable until downtime.],
     )],
     // PLAYTEST: Balance B3, ★ kept; always-on forecast added to the once-per-session Truth.
     [8], [#strong[★ Weather Sense];], [#ability(

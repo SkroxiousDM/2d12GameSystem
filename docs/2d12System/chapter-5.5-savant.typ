@@ -46,7 +46,7 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
       trigger: [You treat an injury or temporary physical condition with Medicine.],
       cost: [Restore costs 1 Power per two tiers, rounded up.],
       benefit: [Use the reduced Restore price. Once per scene, if your treatment successfully lowers a lasting injury, the patient also recovers 2 points in one pool of their choice. With Module B, you can treat Sick at Standard instead of Hard Difficulty.],
-      limit: [Treatment still lowers a given lasting injury by at most one tier until its treated mark clears normally. The additional pool recovery applies once per scene in total, not once per patient. It does not restore Disposition, refresh an injury trade, or erase a Scar.],
+      limit: [The Restore discount does not lift the ordinary one-tier treatment limit. Apply any explicit stated-tier healing exception normally. The additional pool recovery is once per scene for this Field Medic user, across all patients, and never raises a pool above its maximum. It does not restore Disposition, refresh an injury trade, or erase a Scar.],
     )],
     [4], [#strong[Steady Mind];], [#ability(
       trigger: [You Resist confusion, illusion, deception or forbidden knowledge with Psychē.],

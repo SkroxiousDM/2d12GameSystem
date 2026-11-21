@@ -189,7 +189,7 @@ You never walk into a room without knowing how to leave it.
       trigger: [A Chase conflict begins in which your side is fleeing.],
       cost: [No additional cost.],
       benefit: [Your side gains +2 starting Disposition. Before your side commits its first script, ask one free Discover question about the pursuers' route, method, or immediate weakness.],
-      limit: [One question per conflict. The answer must concern something you can infer from the pursuit. It does not reveal a committed script. The Disposition bonus follows the normal starting-Disposition rules.],
+      limit: [One question per conflict. Ask the question after setup is complete. It does not recalculate Superiority. The answer must concern something you can infer from the pursuit. It does not reveal a committed script. The Disposition bonus follows the normal starting-Disposition rules.],
     )],
     [2b], [#strong[Contin-gency];], [#ability(
       trigger: [Things go wrong and you reveal a prepared fallback.],

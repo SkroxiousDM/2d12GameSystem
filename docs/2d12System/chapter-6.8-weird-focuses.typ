@@ -90,7 +90,7 @@ Touched by the spirit world, the Otherworld, or the deep net.
     [3a], [#strong[Ally Beyond];], [#ability(
       trigger: [You call on your patron in the other world.],
       cost: [The GM gets a compel on one of your tags in return. You must accept it, and it earns no Tychē (Core Rules @core-tyche-points).],
-      benefit: [A #strong[Heroic-scope favour].],
+      benefit: [A #strong[World-shaking favour].],
       limit: [Once per session.],
     )],
     [3b], [#strong[★ Half-Step];], [#ability(
@@ -124,7 +124,7 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
       trigger: [You perform a working within your patron's gift.],
       cost: [Pay the normal 1-point working cost from Pneuma, plus any Effort.],
       benefit: [Gain a minor Domain tied to your patron. Use Arcana for its workings. The patron Domain counts as a relevant tag on its workings, supplying Tag Power within the normal cap.],
-      limit: [This Domain permits only Easy and Standard scope, including during scripted conflicts. It follows the Adept working and Backlash rules (Generic Playbooks @pb-adept-core-feature). If you already have a Domain, this is a separate, narrower Domain; choose a distinct gift.],
+      limit: [This Domain permits only Minor and Significant scope, including during scripted conflicts. It follows the Adept working and Backlash rules (Generic Playbooks @pb-adept-core-feature). If you already have a Domain, this is a separate, narrower Domain; choose a distinct gift.],
     )],
     [2a], [#strong[Ask the Patron];], [#ability(
       trigger: [You ask your patron for answers.],
@@ -141,10 +141,10 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
     [3a], [#strong[Greater Gift];], [#ability(
       trigger: [You perform a working within the minor Domain granted by Patron's Gift.],
       cost: [The normal working cost.],
-      benefit: [That Domain now permits workings up to Formidable scope.],
-      limit: [This replaces Patron's Gift's Easy-and-Standard scope limit; its Arcana, Pneuma, Backlash, and conflict rules remain unchanged.],
+      benefit: [That Domain now permits workings up to Spectacular scope.],
+      limit: [This replaces Patron's Gift's Minor-and-Significant scope limit; its Arcana, Pneuma, Backlash, and conflict rules remain unchanged.],
     )],
-    // PLAYTEST: Balance FO B6, no Heroic scope, so it can't act as a second Ascendant.
+    // PLAYTEST: Balance FO B6, no World-shaking scope, so it can't act as a second Ascendant.
     [3b], [#strong[★ Borrowed Might];], [#ability(
       trigger: [You're about to roll an action that draws on your patron's Domain. Use it before rolling.],
       cost: [Give the GM #strong[3 Woe].],

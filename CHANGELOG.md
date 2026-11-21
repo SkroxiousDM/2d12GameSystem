@@ -6,6 +6,11 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Fixed — Weird Focus scope references use scope names (2026-11-21)
+
+- Made a Bargain With Something Old: Patron's Gift permits Minor and Significant scope, Greater Gift permits up to Spectacular, and Ally Beyond grants a World-shaking favour, matching the Adept scope table instead of Difficulty names. Scope reach is unchanged.
+- Rebuilt core rulebook PDF.
+
 ### Changed — Adept Ritual feeds Site and Region Truth clocks (2026-11-21)
 
 - Ritual no longer creates Site or Region Truths by itself. For a lasting change, ritual Power buys Advance on that Truth's C.6 clock (12 segments for a Site, 16 for a Region).

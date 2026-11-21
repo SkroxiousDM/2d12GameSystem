@@ -149,7 +149,7 @@ Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
     [3b], [#strong[★ Weapon Saint];], [#ability(
       trigger: [You succeed on an Attack or Defend using your chosen weapon type.],
       cost: [No additional cost.],
-      benefit: [Gain +1 Power. Choose one additional power tag for your signature weapon, within the normal tag cap. With Module A: Your signature weapon is an artifact. This ability is its special ability; it does not grant another. It requires no attunement Refresh and never depletes.],
+      benefit: [Gain +1 Power. Choose one additional power tag for your signature weapon, within the normal tag cap. With Module A: Your signature weapon is an artifact. This ability is its special ability; it does not grant another. It requires no attunement Refresh and never depletes. Agree its artifact quirk with the GM when it becomes an artifact. Never depletes means no depletion roll is required. Waiving attunement Refresh does not waive the normal attunement-slot limit when attunement is required.],
       limit: [The additional Power applies once per exchange in a scripted conflict, or once per scene outside one. It permits only Effects available to that action. Choose the additional weapon tag when you take this ability.],
     )],
   )]

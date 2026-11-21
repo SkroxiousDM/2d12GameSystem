@@ -72,7 +72,7 @@ Record a distant branch separately when local capabilities matter. The imperial 
 
 Change a permanent rating only after a lasting change to the capacity it represents. Losing one shipment normally changes an asset, creates Strain, or sets back a project. Losing the principal treasury and credit network may reduce Treasure.
 
-An improvement normally requires an appropriate 8- or 12-segment project, a concrete new resource, and an outcome large enough to justify the next rating. Repetitive minor jobs cannot manufacture permanent growth. No Quality exceeds +4.
+An improvement normally requires an appropriate 12- or 16-segment project, a concrete new resource, and an outcome large enough to justify the next rating. Repetitive minor jobs cannot manufacture permanent growth. No Quality exceeds +4.
 
 === E.3 Standing <mod-standing>
 

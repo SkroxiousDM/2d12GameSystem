@@ -85,11 +85,11 @@ Without Module E, between sessions (or each in-world week), the GM takes a #stro
 + When a clock fills, the faction #strong[creates, removes, or changes the appropriate Site or Region Truth] (e.g. #emph[The Guild controls the river] replaces #emph[The river is free];). Campaign Truths still require a major arc, not an ordinary completed clock.
 + PCs who hear about it can respond; PC actions can tick faction clocks forward or back using Advance.
 
-A faction project changes a Site Truth with an 8-segment clock and a Region Truth with a 12-segment clock. A Campaign Truth changes only through a major arc (C.6).
+A faction project changes a Site Truth with a 12-segment clock and a Region Truth with a 16-segment clock. A Campaign Truth changes only through a major arc (C.6).
 
 === C.6 Player Influence on Truths <mod-player-influence-truths>
 - #strong[Discover] effects and Weal spends reveal hidden Truths.
-- #strong[Create] effects and 2 Weal create Scene Truths; bigger changes need a progress clock (8 segments for a Site Truth, 12 for a Region Truth).
+- #strong[Create] effects and 2 Weal create Scene Truths; bigger changes need a progress clock (12 segments for a Site Truth, 16 for a Region Truth).
 - Major arcs can rewrite Campaign Truths. These are the \"legacy\" moments of the campaign.
 
 Create costs 2 Power for a scene Truth or 2 per Situational Condition rating (Core Rules @core-effects); 2 Weal buys a scene Truth, never a rating (Core Rules @core-weal-woe). A Scene Truth can't stand in for a Site or Region change.

@@ -82,13 +82,14 @@ Organizational exception: off-screen faction actions do not gain or spend the pa
   table.header([Segments], [Typical scope]),
   [4], [Limited local action with few obstacles.],
   [6], [Substantial operation or contested local objective.],
-  [8], [Complex undertaking or lasting institutional change.],
-  [12], [Major regional transformation.],
+  [8], [Complex undertaking that creates no lasting Truth.],
+  [12], [Lasting local or institutional change (a Site Truth).],
+  [16], [Major regional transformation (a Region Truth).],
 )
 
 Commit Power at one segment per Power. A single faction action advances one declared project or produces one limited immediate result; it cannot purchase unrelated outcomes. Cap progress at the remaining segments; discard overflow. Link clocks for wider ambitions.
 
-Use Module C.6 for lasting Site, Region, and Campaign changes: normally 8 segments for a Site Truth, 12 for a Region Truth, and a major arc for a Campaign Truth. A short operational clock does not bypass those requirements.
+Use Module C.6 for lasting Site, Region, and Campaign changes: normally 12 segments for a Site Truth, 16 for a Region Truth, and a major arc for a Campaign Truth. A short operational clock does not bypass those requirements.
 
 ==== Opposition and disruption
 
@@ -168,7 +169,7 @@ An illustrative faction, not setting canon.
   [Standing +2], [Trusted; Nera, master of the eastern landing, represents the association.],
   [Asset tags], [#emph[clerks in the provincial offices], #emph[barges and landing rights], #emph[deep commercial credit]],
   [Vulnerability], [Its principal charter is legally disputed.],
-  [Project], [Secure Exclusive Ferry Rights, 8 segments: a lasting local institutional change.],
+  [Project], [Secure Exclusive Ferry Rights, 12 segments: a lasting local institutional change.],
   [Favour], [Conceal up to six people aboard one outbound barge this season, with a day's notice; no declared contraband.],
 )
 

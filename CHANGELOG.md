@@ -6,6 +6,14 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Site and Region Truth clocks enlarged to 12 and 16 segments (2026-11-21)
+
+- Site Truth changes now take 12-segment clocks and Region Truth changes 16, for factions and PCs alike (C.5, C.6, C.7, D.5, E.1a, E.2, E.10). Offsets faster pacing from faction asset-tag Power.
+- E.10 clock table gains a 16-segment tier; 8 segments now covers complex undertakings that create no lasting Truth.
+- Reed Quay ferry-rights project is now 12 segments; the starting-cluster pacing table shows turns to fill 12 and 16.
+- Core §2.7 notes the 16-segment Region Truth clock as a prescribed size.
+- Rebuilt core rulebook PDF.
+
 ### Changed — Module E: faction asset tags and Tag Power (2026-11-21)
 
 - Faction assets are now asset tags: each relevant tag supplies +1 Power (max +2) to the faction's own rolls and adds nothing to the roll (E.1, E.2, E.14).

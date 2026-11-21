@@ -128,10 +128,10 @@ Fixer, socialite, or broker: you\'re one call away from anyone.
       limit: [Calling a contact is once per session.],
     )],
     [2a], [#strong[Favour Bank];], [#ability(
-      trigger: [In a Players' Turn (Module B), you help a contact, or you spend a banked favour.],
-      cost: [A Check to bank a favour.],
-      benefit: [Bank a #strong[favour]. Spend a favour for substantial help: a safe house, troops, a pardon.],
-      limit: [Needs Module B. Bank at most one favour per Players' Turn; there is no cap on banked favours.],
+      trigger: [You complete meaningful help for a named contact, or call in a favour they owe you.],
+      cost: [Earn the favour through help that involves a real expenditure, risk, or obligation.],
+      benefit: [Record one favour owed by that contact. Spend it for substantial assistance within their established means, such as safe lodging, transport, an introduction, or access to ordinary records. With Module B: A Players' Turn action spent helping the contact can earn the favour if it meets these requirements. Pay the normal Check cost; the action is not automatic.],
+      limit: [Earn at most one favour per session and hold at most two. State the assistance before spending the favour. It cannot guarantee victory in an unresolved conflict, compel personal betrayal, or require resources the contact does not possess.],
     )],
     [2b], [#strong[Gossip Network];], [#ability(
       trigger: [A session starts, or you confirm rumours (Module C).],
@@ -140,10 +140,10 @@ Fixer, socialite, or broker: you\'re one call away from anyone.
       limit: [The questions are once per session, at its start.],
     )],
     [3a], [#strong[Power Broker];], [#ability(
-      trigger: [A World Turn (Module C or E).],
-      cost: [No additional cost.],
-      benefit: [Advance or reverse one faction or project clock by 1.],
-      limit: [Once per World Turn.],
+      trigger: [You arrange support or obstruction through established contacts before a conflict begins.],
+      cost: [Describe the contact's contribution and meet any agreed price or obligation.],
+      benefit: [Choose one: your side gains +2 starting Disposition, or the opposing side takes −2 starting Disposition. With Module C or E: Instead of the Disposition modifier, advance or reverse one relevant faction or project clock by 2 segments. This uses the same session use and requires the same established contribution.],
+      limit: [Once per session. The conflict must concern an institution, organisation, or public matter the contact can materially influence. Declare it before starting Disposition is calculated. The same arrangement grants no second Power Broker benefit.],
     )],
     [3b], [#strong[★ The Right Person];], [#ability(
       trigger: [You need a contact with particular knowledge, access, or influence.],
@@ -199,10 +199,10 @@ Noble, officer, executive, or chieftain: you hold authority, and it holds you.
       limit: [A flat starting-Disposition bonus (@foc-ability-limits).],
     )],
     [3b], [#strong[★ Holdings];], [#ability(
-      trigger: [You act at your holding (keep, office, ship, estate).],
-      cost: [No additional cost.],
-      benefit: [Gain the holding as a site (Module C) with #strong[3 Truths you choose]. In a Players' Turn (Module B), one action there costs no Check.],
-      limit: [The free action is once per Players' Turn.],
+      trigger: [You establish your holding or use its facilities.],
+      cost: [No additional ability cost. Work performed there still takes its normal time, materials, rolls, and other payments.],
+      benefit: [Gain a holding appropriate to your authority: a keep, office, ship, estate, or similar base. Choose one function: treatment, research, crafting, or training. Once per session, you or one ally using that function gains one free bonus die on a relevant roll there. With Module C: Record the holding as a site with three agreed Truths; these describe the holding rather than grant additional mechanical bonuses. With Module B: Once per Players' Turn, one action using its chosen function costs no Check. This does not waive the roll or other costs.],
+      limit: [One holding and one chosen function. Ownership does not make it immune to threats or guarantee access when events prevent it. Changing the function requires downtime.],
     )],
   )]
   , kind: table

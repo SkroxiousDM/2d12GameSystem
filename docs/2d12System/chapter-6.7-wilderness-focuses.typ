@@ -77,10 +77,10 @@ Explorer, navigator, or surveyor drawn to the blank parts of the map.
       limit: [Only in the mapped area.],
     )],
     [2a], [#strong[Shortcut];], [#ability(
-      trigger: [You're on a journey (Module B).],
+      trigger: [You succeed on a navigation roll while leading the party toward an established destination.],
       cost: [No additional cost.],
-      benefit: [Skip one leg entirely (no rolls, no Supplies spent).],
-      limit: [Once per journey.],
+      benefit: [Gain one free Extra Feat related to the route: avoid a detour, bring the party's equipment through, or reach a useful approach. With Module B: If the roll advances the Journey clock, also advance it by 1 segment.],
+      limit: [Once per scene. It must follow from the route you found. It cannot bypass an unresolved conflict or remove an obstacle that requires a different means of passage.],
     )],
     [2b], [#strong[First Contact];], [#ability(
       trigger: [You make your first Persuade or Empathy roll when establishing relations with a community or organised group your party has not dealt with before.],
@@ -89,16 +89,16 @@ Explorer, navigator, or surveyor drawn to the blank parts of the map.
       limit: [Once per community or group, not once per member. A different representative or location does not renew the benefit. The normal bonus-dice cap applies.],
     )],
     [3a], [#strong[Dis­cov­er­er];], [#ability(
-      trigger: [You discover a new site (Module C).],
+      trigger: [You first explore an unfamiliar location.],
       cost: [No additional cost.],
-      benefit: [You define #strong[one of its three Truths].],
-      limit: [Once per session.],
+      benefit: [Ask two free Discover questions about its routes, hazards, or useful resources. Before the scene ends, gain +1 Power on one later successful action that directly exploits an answer. With Module C: Instead of asking the questions, define one previously unestablished Site Truth consistent with what has already been discovered. The later-action bonus may exploit that Truth instead.],
+      limit: [Once per location, not once per room or visit. The answers concern evidence you can discover there; they do not reveal unrelated secrets or a committed script. The bonus permits no otherwise unavailable Effects.],
     )],
     [3b], [#strong[★ Lands Unknown];], [#ability(
       trigger: [The party enters an uncharted region.],
       cost: [No additional cost.],
-      benefit: [Name #strong[one Region Truth] (Module C).],
-      limit: [No additional limit.],
+      benefit: [Establish one previously unknown regional feature as a Region Truth: a pass, settlement, refuge, navigable waterway, or useful natural resource. State where it lies relative to the party and how its existence becomes known. With Module C: Record the feature among the region's Truths and use the module's normal procedures for later changes.],
+      limit: [Once per session and once per region. It cannot contradict established facts, remove an established threat, grant ownership or loyalty, or place the party at the feature automatically. Reaching or using it follows the normal rules.],
     )],
   )]
   , kind: table
@@ -108,6 +108,8 @@ Explorer, navigator, or surveyor drawn to the blank parts of the map.
 #art-fill(min: 6cm)[A surveyor sketching a map at the edge of a blank coastline.]
 #colbreak()
 === 19. Lives Off the Land
+Requires Module B. This Focus uses the Grind, hardships, and Supplies throughout and is unavailable when that module is not used.
+
 #quote(block: true)[
 Survivalist, forager, or homesteader: you need nothing the world doesn\'t give.
 ]
@@ -200,10 +202,10 @@ Driver, pilot, sailor, or rider: you and your vehicle are one.
       limit: [Once per scene.],
     )],
     [3b], [#strong[★ Legendary Ride];], [#ability(
-      trigger: [You use your vehicle.],
-      cost: [No attunement Refresh.],
-      benefit: [Your vehicle becomes an #strong[artifact] (Module A) with one special ability (ram, jump, stealth mode, impossible speed).],
-      limit: [Needs Module A.],
+      trigger: [You succeed on a Drive/Pilot action using your signature vehicle, including when another ability lets you substitute a different skill.],
+      cost: [No additional cost.],
+      benefit: [Gain +1 Power. With Module A: Your signature vehicle is an artifact. The bonus Power is its special ability, not an additional ability. It requires no attunement Refresh. Other artifact rules apply.],
+      limit: [Once per exchange in a scripted conflict, or once per scene outside one. The vehicle must directly contribute to the action. This grants no additional turn or otherwise unavailable Effect.],
     )],
   )]
   , kind: table

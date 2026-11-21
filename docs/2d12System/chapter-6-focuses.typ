@@ -33,7 +33,9 @@
 === 1.2 Weird Focuses ◈ <foc-about-weird-focuses>
 Focuses marked #strong[◈ Weird] assume the supernatural, impossible technology, or both. In mundane settings the GM removes them from the list. Every other Focus works in any genre.
 
-#strong[Module abilities.] An ability marked (Module A), (Module B) or (Module C) needs that module. Without it, take the other ability at that tier, or agree a substitute with the GM. #strong[Lives Off the Land] (marked B in @foc-quick-reference) needs Module B throughout; without it, the GM removes it from the list.
+#strong[Module requirements and benefits.] "Requires Module X" means the ability is unavailable without that module. "With Module X" introduces an additional benefit or procedure; the rest of the ability works without that module.
+
+The generic Focuses are usable with the core rules except #strong[Lives Off the Land], which requires Module B. Module benefits do not grant additional actions or waive costs unless they explicitly say so.
 // ART: A surgeon's kit unrolled on a field table beside a lantern.
 #art-fill(min: 6cm)[A surgeon's kit unrolled on a field table beside a lantern.]
 #colbreak()

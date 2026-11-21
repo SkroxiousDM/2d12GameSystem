@@ -44,10 +44,10 @@ Loyal to a fault. You go back for the fallen, every time.
       limit: [Once per session. No other compromise applies; injuries and paid costs stay.],
     )],
     [3b], [#strong[★ Living Wall];], [#ability(
-      trigger: [You take up the position. Until your next action, imposed harm is aimed at allies within reach that you can intercept.],
-      cost: [The harm hits you instead. Pay your own Resistance costs.],
-      benefit: [Redirect it before their Resistance and use your own reduction; Resist each with Edge +1.],
-      limit: [Once per scene, until your next action. Area effects that already hit you both aren't redirected.],
+      trigger: [An Attack or Feint would remove your side's Disposition, and you can physically protect the participants threatened by it. Declare this before an injury trade.],
+      cost: [Take a tier-2 physical status as an accepted payment, describing how you hold the line.],
+      benefit: [Reduce that action's Disposition loss by 2, to a minimum of 0.],
+      limit: [Once per conflict. Your side can benefit from Living Wall only once against the same action. This is not an injury trade; one participant may still make the normal injury trade against the remaining loss.],
     )],
   )]
   , kind: table
@@ -98,7 +98,7 @@ Captain, chief, or sergeant: people follow you.
       trigger: [Your side's Disposition would drop to 0.],
       cost: [You take a #strong[tier-2 Personal status] as an accepted payment. You name it (#emph[exhausted-2], #emph[battered-2]) and the GM approves it. It recovers under the normal rules (Core Rules @core-rest-recovery–@core-treatment-healing[]).],
       benefit: [Your side's Disposition stays at #strong[1].],
-      limit: [Once per conflict.],
+      limit: [Once per conflict for your side, however many participants have this ability. It prevents defeat from reaching 0 Disposition, not defeat because nobody can continue pursuing the objective. It cannot prevent a setup defeat.],
     )],
   )]
   , kind: table

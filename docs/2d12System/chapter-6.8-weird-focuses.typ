@@ -84,10 +84,10 @@ Touched by the spirit world, the Otherworld, or the deep net.
       limit: [Up to two allies.],
     )],
     [2b], [#strong[Ghostly Ally];], [#ability(
-      trigger: [Your minor spirit scouts for you.],
+      trigger: [You send your minor spirit to scout, carry a message, or handle a simple task.],
       cost: [No additional cost.],
-      benefit: [It gives a free Discover about places it can reach.],
-      limit: [Once per scene. It's an information asset, not a conflict participant.],
+      benefit: [It can pass through ordinary solid barriers and gives one free Discover question per scene about places it can reach.],
+      limit: [Supernatural wards or barriers that explicitly stop spirits block it. It cannot carry physical objects through barriers or act as a conflict participant.],
     )],
     [3a], [#strong[Ally Beyond];], [#ability(
       trigger: [You call on your patron in the other world.],
@@ -96,10 +96,10 @@ Touched by the spirit world, the Otherworld, or the deep net.
       limit: [Once per session.],
     )],
     [3b], [#strong[★ Half-Step];], [#ability(
-      trigger: [You become intangible.],
+      trigger: [An imposed physical status would affect you, or you attempt to pass through a solid obstacle.],
       cost: [No additional cost.],
-      benefit: [Until your next action, ignore one incoming imposed physical status.],
-      limit: [Once per scene.],
+      benefit: [Choose one: cancel that imposed physical status on yourself; or pass through one solid obstacle no thicker than your body length, carrying your worn and held equipment.],
+      limit: [Once per scene, choosing either benefit. Passage takes your normal action where one is required. You must finish in an unoccupied space. It does not cross a barrier that explicitly blocks spirits or intangible beings.],
     )],
   )]
   , kind: table
@@ -124,15 +124,15 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Patron\'s Gift];], [#ability(
-      trigger: [You perform a working tied to your patron.],
-      cost: [Pay Pneuma for workings.],
-      benefit: [Gain a #strong[minor Domain] (Generic Playbooks @pb-adept-core-feature) tied to your patron; you can perform Easy and Standard workings with Arcana. If you're already an Adept, your Domain gets #strong[+1 power tag] instead.],
-      limit: [Easy and Standard workings only.],
+      trigger: [You perform a working within your patron's gift.],
+      cost: [Pay the normal 1-point working cost from Pneuma, plus any Effort.],
+      benefit: [Gain a minor Domain tied to your patron. Use Arcana for its workings.],
+      limit: [This Domain permits only Easy and Standard scope, including during scripted conflicts. It follows the Adept working and Backlash rules (Generic Playbooks @pb-adept-core-feature). If you already have a Domain, this is a separate, narrower Domain; choose a distinct gift.],
     )],
     [2a], [#strong[Ask the Patron];], [#ability(
       trigger: [You ask your patron for answers.],
-      cost: [The GM gains 1 Woe.],
-      benefit: [Ask #strong[two] Discover questions without rolling or spending Power.],
+      cost: [No additional cost.],
+      benefit: [Ask two Discover questions within your patron's knowledge, without rolling or spending Power.],
       limit: [Once per session.],
     )],
     [2b], [#strong[Not Yet];], [#ability(
@@ -142,10 +142,10 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
       limit: [Once per session. It can't prevent a shared-Disposition defeat or reverse death or a settled outcome.],
     )],
     [3a], [#strong[Greater Gift];], [#ability(
-      trigger: [You perform a patron Domain working.],
-      cost: [No additional cost.],
-      benefit: [Your patron Domain works up to #strong[Formidable 21].],
-      limit: [No additional limit.],
+      trigger: [You perform a working within the minor Domain granted by Patron's Gift.],
+      cost: [The normal working cost.],
+      benefit: [That Domain now permits workings up to Formidable scope.],
+      limit: [Its other working, Backlash, and conflict rules remain unchanged.],
     )],
     // PLAYTEST: Balance FO B6, no Heroic scope, so it can't act as a second Ascendant.
     [3b], [#strong[★ Borrowed Might];], [#ability(
@@ -191,13 +191,13 @@ Mutant, cyborg, half-fae, or carrier of a strange bloodline.
       trigger: [You take a Second, Third or Fourth rest.],
       cost: [No additional cost.],
       benefit: [A Second or Third rest lowers #strong[one physical status by 1 tier]. A Fourth rest clears 2 tiers from every physical status.],
-      limit: [No additional limit.],
+      limit: [This explicitly heals the stated tiers of physical injuries despite the ordinary one-tier treatment limit, whether or not the injury is marked treated. It does not clear the treated mark, regrow a permanent loss, erase a Scar, end an affliction whose source prevents healing, or return you to an ongoing conflict.],
     )],
     // PLAYTEST: fallback matches Berserker and Unleash (Generic Playbooks); confirm in playtest.
     [3a], [#strong[Apex Form];], [#ability(
       trigger: [You unleash your nature.],
       cost: [At scene end, take #emph[Weary] (Module B; without it, exhausted-2 until a night's rest) as an accepted payment.],
-      benefit: [A #strong[free bonus die] on Sōma and Mētis skills for the scene.],
+      benefit: [Gain one free bonus die on Sōma and Mētis skill rolls that directly use one of your traits for the rest of the scene.],
       limit: [Once per scene.],
     )],
     [3b], [#strong[★ Beyond Limits];], [#ability(

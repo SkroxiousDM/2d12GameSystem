@@ -6,6 +6,12 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Adept Ritual feeds Site and Region Truth clocks (2026-11-21)
+
+- Ritual no longer creates Site or Region Truths by itself. For a lasting change, ritual Power buys Advance on that Truth's C.6 clock (12 segments for a Site, 16 for a Region).
+- Ritual clock sizes now use the scope names: 4 for Dramatic or lower, 8 for Spectacular, 12 for World-shaking. Ascendant and Borrowed Might (Weird Focus) likewise say World-shaking instead of Heroic-scope.
+- Rebuilt core rulebook PDF.
+
 ### Changed — Module E: requests succeed with strings on Success at a Cost (2026-11-21)
 
 - E.5: Success at a Cost secures the agreed help whatever the Power, as a stated exception to the core rule that unbought Effects don't happen. Instead of the consequence-or-Woe choice, the faction attaches one string: a favour owed (E.7), a delay that matters, or −1 Standing. Tag Power or Effort can still buy extras.

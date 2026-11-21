@@ -149,7 +149,7 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
       trigger: [You're about to roll an action that draws on your patron's Domain. Use it before rolling.],
       cost: [Give the GM #strong[3 Woe].],
       benefit: [The action succeeds automatically with #strong[4 Power], spent at once on Effects that action permits within the Domain's scope.],
-      limit: [Once per session. Not for a Heroic-scope working. A trumped action stays trumped; in a versus test it wins unless the other side also succeeds automatically, which makes a tie. The Power can't be banked or improve a finishing procedure that doesn't permit it.],
+      limit: [Once per session. Not for a World-shaking working. A trumped action stays trumped; in a versus test it wins unless the other side also succeeds automatically, which makes a tie. The Power can't be banked or improve a finishing procedure that doesn't permit it.],
     )],
   )]
   , kind: table

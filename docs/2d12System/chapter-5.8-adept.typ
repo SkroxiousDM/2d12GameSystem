@@ -86,7 +86,7 @@ Every Adept has a #strong[Domain];: a broad tag describing what they can do (#em
     [5], [#strong[Ritual];], [#ability(
       trigger: [You have time, materials and a safe place for a working.],
       cost: [The time, materials and safe place, plus the normal working cost #strong[once] for the whole ritual.],
-      benefit: [Run the working as a #strong[progress clock] instead of a single roll (4 segments for Dramatic or lower, 8 for Formidable, 12 for Heroic). Ritual results can create Site or Region Truths.],
+      benefit: [Run the working as a #strong[progress clock] instead of a single roll (4 segments for Dramatic or lower, 8 for Spectacular, 12 for World-shaking). A ritual doesn't create a Site or Region Truth by itself. For a lasting change, spend ritual Power on Advance to tick that Truth's clock (12 segments for a Site, 16 for a Region; Module C.6).],
       limit: [Only with time, materials and a safe place. Every ritual roll risks Backlash (@pb-adept-core-feature).],
     )],
     [6], [#strong[Bound Servant];], [#ability(
@@ -109,7 +109,7 @@ Every Adept has a #strong[Domain];: a broad tag describing what they can do (#em
       limit: [Once per scene.],
     )],
     [◆], [#strong[Ascendant];], [#ability(
-      trigger: [You make a Heroic-scope working. In a conflict, declare it before the roll for your normal action.],
+      trigger: [You make a World-shaking working. In a conflict, declare it before the roll for your normal action.],
       cost: [No cost for the first use after downtime. Each later use before your next downtime, even in a later session, gives a #strong[Pneuma or Psychē Scar].],
       benefit: [The working succeeds automatically with #strong[5 Power], no ritual required.],
       limit: [Once per session. Downtime resets the free use. A trumped action stays trumped. In a versus test it wins unless the other side also succeeds automatically, which makes a tie. No roll means no doubles.],

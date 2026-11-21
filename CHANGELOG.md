@@ -6,6 +6,12 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Module C: faction assets are asset tags (2026-11-21)
+
+- C.8: a faction's obvious and less obvious assets are written as asset tags; together they still set its rating.
+- C.5: World Turns use the core outcomes. Each relevant asset tag supplies +1 Power (max +2) and adds nothing to the roll; Success at a Cost gives only Tag Power. Adds a pacing guide for the 12- and 16-segment clocks.
+- Rebuilt core rulebook PDF.
+
 ### Fixed — Weird Focus scope references use scope names (2026-11-21)
 
 - Made a Bargain With Something Old: Patron's Gift permits Minor and Significant scope, Greater Gift permits up to Spectacular, and Ally Beyond grants a World-shaking favour, matching the Adept scope table instead of Difficulty names. Scope reach is unchanged.

@@ -46,7 +46,7 @@ If Module E is in use, use E.1A instead. Otherwise, build the starting factions 
 2. #strong[Gather.] List the groups the PCs' lines point to: Organizations from the map, plus fragments of them. Note what each wants in the area and who would oppose it.
 3. #strong[Cluster.] Pick about #strong[four] factions that would find one another aggravating. Law or a local lord often belongs even if no PC touches them.
 4. #strong[Sheet.] For each faction write:
-- #strong[Has]: one obvious asset and one less obvious one. These set its #strong[rating]: +1 minor, +2 solid, +3 major, +4 dominant.
+- #strong[Has]: one obvious asset and one less obvious one, each written as an #strong[asset tag] (#emph[toll-barge fleet], #emph[the magistrate's ear]). Together they set its #strong[rating]: +1 minor, +2 solid, +3 major, +4 dominant. On a World Turn each relevant asset tag supplies +1 Power (C.5).
 #colbreak()
 - #strong[Wants]: its current project, with a clock sized by the change it makes (12 for a Site Truth, 16 for a Region Truth; C.6) and the #strong[result Truth] it creates or changes when the clock fills.
 - #strong[Link]: how it connects to the PCs.

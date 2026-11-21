@@ -54,12 +54,12 @@ Grind hardships count as statuses for Restore, but #strong[they don\'t stack] an
 #strong[No Resistance.] Grind hardships aren't harm: they can't be Resisted, only cleared. Ordinary tiered harm still uses core Resistance.
 
 === B.4 Checks (Players\' Turn) <mod-checks>
-- #strong[Earn Checks] during the GM\'s Turn by #strong[applying one of your weakness tags or Scars to your own roll] (−1). You earn 1 Check, or 2 if the penalty makes the roll fail.
+- #strong[Earn Checks] during the GM\'s Turn by #strong[taking a −1 fixed modifier on your own roll because of one of your tags or Scars] (Core Rules @core-roll). You earn 1 Check, or 2 if the penalty makes the roll fail.
 - #strong[Everyone gets 1 free Check] in the Players\' Turn.
 - #strong[Spend 1 Check] for one Players\' Turn action: a recovery roll against a Grind hardship or status, a downtime clock roll, a research or crafting roll, restoring a burned tag, attuning an artifact, or a scene that pursues your Goal.
 - #strong[Sharing:] you can give a Check to another PC whose scene you take part in.
 
-Weaknesses become a resource: hurt yourself now to recover later. A Check permits an activity; it doesn't guarantee success. Lasting injuries still follow Core Rules @core-treatment-healing, and another Check doesn't clear the treated mark. Module D, if used, replaces B.4.
+Trouble becomes a resource: hurt yourself now to recover later. A Check permits an activity; it doesn't guarantee success. Lasting injuries still follow Core Rules @core-treatment-healing, and another Check doesn't clear the treated mark. Module D, if used, replaces B.4.
 
 === B.5 Travel <mod-travel>
 A journey is a #strong[Journey clock] (6 for a short trip, 8 for a hard trip, 12 for an expedition). Each #strong[leg] (a day or a stage), the party assigns #strong[roles];; each role makes one roll:

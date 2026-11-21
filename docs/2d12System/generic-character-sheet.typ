@@ -204,8 +204,8 @@
       #text(fill: dust)[\*Renamed per setting. A skill's default pool pays its Effort and Resistance; the GM may allow another pool when the fiction fits.]
     ]
     note[
-      *Roll 2d12 + Skill + Tags (max +2) ± Status ± Condition* vs. Difficulty: Easy 12 · Standard 15 · Hard 18 · Formidable 21 · Heroic 24. Truths give no modifier; they decide what is possible. \
-      *Meet it:* Success, 1 Power (+1 per full 3 over). *Miss by 1–3:* Success at a Cost (a consequence or GM +1 Woe, your choice). *Miss by 4+:* Failure, GM +1 Woe. \
+      *Roll 2d12 + Skill ± Status ± Condition* vs. Difficulty: Easy 12 · Standard 15 · Hard 18 · Formidable 21 · Heroic 24. Truths give no modifier; they decide what is possible. \
+      *Meet it:* Success, Tag Power + 1 (+1 per full 3 over). *Miss by 1–3:* Success at a Cost, Tag Power only (a consequence or GM +1 Woe, your choice). *Miss by 4+:* Failure, GM +1 Woe. \
       *Doubles:* success +1 Power; failure or cost, a complication (buy off: GM +2 Woe). Double 12s: success, +2 Power. Double 1s: always a complication. \
       *Bonus dice:* Effort · Weal (1, then 2) · give the GM Woe (1, then 2) · Help · Specialisation (free). Unspent Power → party *Weal* (max 6).
     ]
@@ -213,17 +213,14 @@
   // ---------- right column
   {
     sec([Tags], sub: [Descriptor · Playbook · Focus])
-    grid(columns: (1fr, auto), lbl[Power tags · +1 each, max +2 per roll · can be compelled], lbl[Burned])
+    grid(columns: (1fr, auto), lbl[Tags · +1 Power each when relevant, max +2 · no roll modifier · can be compelled], lbl[Burned])
     v(1pt)
-    for i in range(6) {
+    for i in range(9) {
       block(height: 15.5pt, spacing: 0pt, grid(columns: (1fr, 14pt), align: bottom,
         line(length: 100%, stroke: 0.5pt + ash), align(right, pad(bottom: 1pt, cb()))))
     }
-    v(4pt)
-    lbl[Weakness tags · −1 each, no cap · compel for +1 Tychē]
-    lines(3, h: 15.5pt)
     v(3pt)
-    text(size: 6.6pt, style: "italic", fill: dust)[*Burn* a power tag: +1 Power on a success, ignoring the cap. Recover it in downtime or at a milestone.]
+    text(size: 6.6pt, style: "italic", fill: dust)[*Burn* a tag: +1 Power on a success, ignoring the cap. Recover it in downtime or at a milestone.]
 
     sec([Tychē Points])
     grid(columns: (44pt, 44pt, 1fr), column-gutter: 7pt,
@@ -261,7 +258,7 @@
     rows-table((1.2fr, 1fr, 1fr, 1fr, 1fr), ([Highest die], [Two 12s], [9–12], [5–8], [1–4]),
       (([*Cost*], [*0* + clear a tier-1], [*1*], [*2*], [*3*]),), size: 7pt)
     text(size: 6.6pt)[*Effect:* the incoming status drops *2 tiers*, or a severe consequence becomes a lesser one. *Armour* reduces physical harm further. *Negative Edge:* roll 1d12; at −2 or lower the cost is 1 higher (max 3).]
-    sec([Scars], sub: [weakness tags · the 4th retires the character])
+    sec([Scars], sub: [tags, no Power · the 4th retires the character])
     for n in range(1, 5) {
       block(height: 14.5pt, spacing: 0pt, grid(columns: (11pt, 44pt, 1fr), column-gutter: 4pt, align: bottom,
         text(font: display-font, size: 10pt, fill: blood, weight: 700, str(n)),
@@ -311,8 +308,8 @@
       text(weight: 700, size: 7.5pt)[Advances],
       box(width: 24pt, height: 15pt, stroke: 0.8pt + ink, fill: field-bg))
     v(3pt)
-    note[*End of session, +1 per yes:* hit your playbook trigger (2 with lethal stakes or a listed Danger) · accomplished your Goal (+2) · a Belief drove a meaningful decision (max 1) · your Instinct caused trouble or saved the day · you faced a weakness or Scar. \
-    *Advance:* +1 skill (pyramid) · +3 to a pool or +1 Edge (max 3) · new ability · new power tag, or rewrite a weakness · new Specialisation · +1 Refresh (max 3 + 1 per 3 Advances) · next Focus tier (3 Advances per tier) · +1 Effort Level (Level 2 at 3 Advances, Level 3 at 9) · Quick Recovery (once).]
+    note[*End of session, +1 per yes:* hit your playbook trigger (2 with lethal stakes or a listed Danger) · accomplished your Goal (+2) · a Belief drove a meaningful decision (max 1) · your Instinct caused trouble or saved the day · you faced a compelled tag or Scar. \
+    *Advance:* +1 skill (pyramid) · +3 to a pool or +1 Edge (max 3) · new ability · new tag, or rewrite a tag · new Specialisation · +1 Refresh (max 3 + 1 per 3 Advances) · next Focus tier (3 Advances per tier) · +1 Effort Level (Level 2 at 3 Advances, Level 3 at 9) · Quick Recovery (once).]
 
     sec([Knowledge & Contacts], sub: [Core Rules §3.3, §3.6])
     lbl[Knowledge Skills · unrated · permission, not a bonus]
@@ -364,7 +361,7 @@
         grid(columns: (1.5fr, 22pt, 1fr), column-gutter: 6pt, align: bottom,
           stack(spacing: 2pt, line(length: 100%, stroke: 0.5pt + ash), lbl(size: 5.2pt)[Tags · ability]),
           stack(spacing: 2pt, wbox(h: 11pt), align(center, lbl(size: 5.2pt)[1 in d12])),
-          stack(spacing: 2pt, line(length: 100%, stroke: 0.5pt + ash), lbl(size: 5.2pt)[Quirk · weakness]))
+          stack(spacing: 2pt, line(length: 100%, stroke: 0.5pt + ash), lbl(size: 5.2pt)[Quirk tag]))
       })
     }
     text(size: 6.4pt, style: "italic", fill: dust)[*Depletion:* after each use roll d12; on the rating or lower it is depleted until restored.]
@@ -385,7 +382,7 @@
     v(1pt)
     grid(columns: 6, column-gutter: 4pt, ..range(6).map(_ => box(width: 13pt, height: 13pt, stroke: 0.6pt + ink, fill: field-bg)))
     v(4pt)
-    text(size: 6.5pt)[*Earn:* apply your own weakness or Scar to a roll (−1) for 1 Check, or 2 if the penalty makes it fail. 1 free each Players' Turn. \
+    text(size: 6.5pt)[*Earn:* take −1 on your own roll because of a tag or Scar for 1 Check, or 2 if the penalty makes it fail. 1 free each Players' Turn. \
     *Spend 1:* recover from a condition or status · downtime clock · research or craft · restore a burned tag · attune an artifact · pursue your Goal.]
   })
 

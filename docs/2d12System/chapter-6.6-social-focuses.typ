@@ -7,8 +7,7 @@
 Charm, quick wit, and the right words at the right time.
 ]
 
-- #strong[Power tags:] #emph[always has a story ready];, #emph[disarming smile]
-- #strong[Weakness tag:] #emph[my mouth writes cheques]
+- #strong[Tags:] #emph[always has a story ready];, #emph[disarming smile];, #emph[my mouth writes cheques]
 - #strong[PC link:] \"\[PC\] has bailed me out more than once; I owe them.\"
 
 #figure(
@@ -59,8 +58,7 @@ Charm, quick wit, and the right words at the right time.
 Spy, impostor, or actor: you can be anyone.
 ]
 
-- #strong[Power tags:] #emph[perfect mimic];, #emph[no one remembers my real face]
-- #strong[Weakness tag:] #emph[who am I really?]
+- #strong[Tags:] #emph[perfect mimic];, #emph[no one remembers my real face];, #emph[who am I really?]
 - #strong[PC link:] \"\[PC\] is the only one who knows my real name.\"
 
 #figure(
@@ -111,8 +109,7 @@ Spy, impostor, or actor: you can be anyone.
 Fixer, socialite, or broker: you\'re one call away from anyone.
 ]
 
-- #strong[Power tags:] #emph[favours owed];, #emph[always on the guest list]
-- #strong[Weakness tag:] #emph[owes favours too]
+- #strong[Tags:] #emph[favours owed];, #emph[always on the guest list];, #emph[owes favours too]
 - #strong[PC link:] \"I introduced \[PC\] to the people who matter.\"
 
 #figure(
@@ -163,8 +160,7 @@ Fixer, socialite, or broker: you\'re one call away from anyone.
 Noble, officer, executive, or chieftain: you hold authority, and it holds you.
 ]
 
-- #strong[Power tags:] #emph[voice of authority];, #emph[my name carries weight]
-- #strong[Weakness tag:] #emph[duty before self]
+- #strong[Tags:] #emph[voice of authority];, #emph[my name carries weight];, #emph[duty before self]
 - #strong[PC link:] \"\[PC\] serves me, or is the one person who refuses to.\"
 
 #figure(

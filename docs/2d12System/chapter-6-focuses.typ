@@ -3,7 +3,7 @@
 // =====================================================================
 //  CHAPTER — GENERIC FOCUSES
 // =====================================================================
-#chapter("Generic Focuses", [Twenty-four setting-neutral Focuses complete the sentence: "...who [Focus]." Each one has two power tags, a weakness, a link to another player character, and tiered abilities with a choice at Tiers 2 and 3.], epigraph: [The verb of the character sentence.])
+#chapter("Generic Focuses", [Twenty-four setting-neutral Focuses complete the sentence: "...who [Focus]." Each one has three tags, a link to another player character, and tiered abilities with a choice at Tiers 2 and 3.], epigraph: [The verb of the character sentence.])
 
 
 == 1. Focus Rules <foc-focus-rules>
@@ -15,8 +15,7 @@
     align: (auto,auto,),
     table.header([Element], [Detail],),
     table.hline(),
-    [#strong[Power tags];], [2],
-    [#strong[Weakness tag];], [1 (can be compelled for Tychē Points)],
+    [#strong[Tags];], [3 (each can supply Power or be compelled for Tychē Points)],
     [#strong[PC link];], [A prompt that connects you to another player character],
     [#strong[Tier 1 ability];], [Fixed; gained at creation for free],
     [#strong[Tier 2 ability];], [#strong[Choose 1 of 2];; after 3 Advances, costs an Advance],

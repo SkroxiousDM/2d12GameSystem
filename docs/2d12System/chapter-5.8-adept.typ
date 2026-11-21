@@ -25,12 +25,12 @@ Power from beyond the ordinary: magic, psionics, faith, or impossible technology
 ]
 
 === 8.1 Core Feature --- Domain (free) <pb-adept-core-feature>
-Every Adept has a #strong[Domain];: a broad power tag describing what they can do (#emph[fire];, #emph[healing];, #emph[telekinesis];, #emph[shadows];, #emph[machines];, #emph[networks];, #emph[the dead];, #emph[weather];).
+Every Adept has a #strong[Domain];: a broad tag describing what they can do (#emph[fire];, #emph[healing];, #emph[telekinesis];, #emph[shadows];, #emph[machines];, #emph[networks];, #emph[the dead];, #emph[weather];).
 
 #ability(
   trigger: [You attempt a #strong[working]: an effect within your Domain.],
   cost: [#strong[1 point] from Pneuma (Arcana) or Psychē (Tech), plus any Effort.],
-  benefit: [Attempt any effect in your Domain with your anchor skill, at the Difficulty the GM sets by scope (below). Your Domain counts as a power tag on workings (inside the +2 cap).],
+  benefit: [Attempt any effect in your Domain with your anchor skill, at the Difficulty the GM sets by scope (below). Your Domain counts as a relevant tag on workings, supplying Tag Power (inside the +2 cap).],
   limit: [#strong[Backlash:] doubles on a failure or cost cause a backlash. The GM picks a fitting status for you (#emph[burned-2], #emph[drained-2], #emph[glitched-2]) or a wild effect, in addition to the normal complication. Backlash still applies in conflicts. In a scripted conflict, see below.],
 )
 
@@ -90,7 +90,7 @@ Every Adept has a #strong[Domain];: a broad power tag describing what they can d
       limit: [Only with time, materials and a safe place. Every ritual roll risks Backlash (@pb-adept-core-feature).],
     )],
     [6], [#strong[Bound Servant];], [#ability(
-      trigger: [You send your servant (a minor spirit, construct or drone with one power tag and one weakness) to scout, carry messages or handle simple tasks.],
+      trigger: [You send your servant (a minor spirit, construct or drone with two tags) to scout, carry messages or handle simple tasks.],
       cost: [No additional cost.],
       benefit: [It scouts (one free Discover per scene in places it can reach), carries messages or handles simple tasks.],
       limit: [One free Discover per scene. It can't fight: it's an asset, not a conflict participant (Core Rules @core-shared-disposition-participation).],
@@ -127,7 +127,7 @@ Every Adept has a #strong[Domain];: a broad power tag describing what they can d
     align: (auto,auto,auto,),
     table.header([Genre], [Option A], [Option B],),
     table.hline(),
-    [Fantasy], [#strong[Staff or wand] (1) --- #emph[conduit];; +1 to workings, #emph[+1 Defend] (staff)], [#strong[Holy symbol or ancestral talisman] (0) --- #emph[faith made solid];; Resist supernatural harm with Edge +1],
+    [Fantasy], [#strong[Staff or wand] (1) --- #emph[conduit];; +1 Power on workings, #emph[+1 Defend] (staff)], [#strong[Holy symbol or ancestral talisman] (0) --- #emph[faith made solid];; Resist supernatural harm with Edge +1],
     [Modern], [#strong[Occult focus] (ring, chalk, athame) (0) --- #emph[conduit];], [#strong[Custom cyberdeck / laptop] (1) --- #emph[my rig];; +1 to Tech workings],
     [Sci-Fi], [#strong[Psi-amp headset] (1) --- #emph[amplifier];; +1 to psionic workings], [#strong[Neural jack & cyberdeck] (1) --- #emph[direct interface];; +1 to Tech workings],
   )]

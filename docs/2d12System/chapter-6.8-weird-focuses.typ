@@ -7,8 +7,7 @@
 Monster-hunter, exorcist, or investigator of the strange.
 ]
 
-- #strong[Power tags:] #emph[knows their weaknesses];, #emph[silver, salt, and iron]
-- #strong[Weakness tag:] #emph[the dark hunts me back]
+- #strong[Tags:] #emph[knows their weaknesses];, #emph[silver, salt, and iron];, #emph[the dark hunts me back]
 - #strong[PC link:] \"\[PC\] saw what I saw that night, and they\'re the only one who believes me.\"
 
 #figure(
@@ -61,8 +60,7 @@ Monster-hunter, exorcist, or investigator of the strange.
 Touched by the spirit world, the Otherworld, or the deep net.
 ]
 
-- #strong[Power tags:] #emph[one foot across the veil];, #emph[spirits whisper to me]
-- #strong[Weakness tag:] #emph[not quite of this world]
+- #strong[Tags:] #emph[one foot across the veil];, #emph[spirits whisper to me];, #emph[not quite of this world]
 - #strong[PC link:] \"\[PC\] anchors me. Without them, I\'d drift away.\"
 
 #figure(
@@ -91,7 +89,7 @@ Touched by the spirit world, the Otherworld, or the deep net.
     )],
     [3a], [#strong[Ally Beyond];], [#ability(
       trigger: [You call on your patron in the other world.],
-      cost: [The GM gets a compel on your weakness tag in return. You must accept it, and it earns no Tychē (Core Rules @core-tyche-points).],
+      cost: [The GM gets a compel on one of your tags in return. You must accept it, and it earns no Tychē (Core Rules @core-tyche-points).],
       benefit: [A #strong[Heroic-scope favour].],
       limit: [Once per session.],
     )],
@@ -113,8 +111,7 @@ Touched by the spirit world, the Otherworld, or the deep net.
 Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
 ]
 
-- #strong[Power tags:] #emph[patron\'s gift];, #emph[knows the old names]
-- #strong[Weakness tag:] #emph[the debt comes due]
+- #strong[Tags:] #emph[patron\'s gift];, #emph[knows the old names];, #emph[the debt comes due]
 - #strong[PC link:] \"\[PC\] knows what I traded, and hasn\'t told anyone.\"
 
 #figure(
@@ -126,7 +123,7 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
     [1], [#strong[Patron\'s Gift];], [#ability(
       trigger: [You perform a working within your patron's gift.],
       cost: [Pay the normal 1-point working cost from Pneuma, plus any Effort.],
-      benefit: [Gain a minor Domain tied to your patron. Use Arcana for its workings. The patron Domain counts as a power tag on its workings, within the normal tag cap.],
+      benefit: [Gain a minor Domain tied to your patron. Use Arcana for its workings. The patron Domain counts as a relevant tag on its workings, supplying Tag Power within the normal cap.],
       limit: [This Domain permits only Easy and Standard scope, including during scripted conflicts. It follows the Adept working and Backlash rules (Generic Playbooks @pb-adept-core-feature). If you already have a Domain, this is a separate, narrower Domain; choose a distinct gift.],
     )],
     [2a], [#strong[Ask the Patron];], [#ability(
@@ -164,8 +161,7 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
 Mutant, cyborg, half-fae, or carrier of a strange bloodline.
 ]
 
-- #strong[Power tags:] #emph[\[your trait\]];, #emph[unnatural resilience]
-- #strong[Weakness tag:] #emph[outsider]
+- #strong[Tags:] #emph[\[your trait\]];, #emph[unnatural resilience];, #emph[outsider]
 - #strong[PC link:] \"\[PC\] saw me change and stayed anyway.\"
 
 #figure(

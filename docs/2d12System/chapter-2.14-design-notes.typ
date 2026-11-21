@@ -9,7 +9,7 @@
     table.hline(),
     [#strong[Fate];], [Skill pyramid, Tychē Points, invoke/compel, Refresh as cost of power], [Aspects are replaced by tags and Truths], [Fudge dice, stress boxes],
     [#strong[Cypher];], [Pools, Edge, the sentence, Effort on rolls and on Power, cyphers and artifacts (Module A)], [Four pools instead of three; Effort buys bonus dice instead of lowering difficulty], [d20 task levels, GM intrusions (replaced by compels and Woe)],
-    [#strong[:Otherscape];], [Power/weakness tags, statuses with tiers, effects, burning tags], [Power comes from roll margin; tag cap +2], [Themebooks, Improve/Abandon tracks],
+    [#strong[:Otherscape];], [Tags as Power, compellable tags, statuses with tiers, effects, burning tags], [Single contextual tags instead of power/weakness; Power is Tag Power plus roll margin; tag cap +2], [Themebooks, Improve/Abandon tracks],
     [#strong[Mouse Guard];], [Full conflict scripting, shared Disposition, outcome-first compromise, BIG, weapons as action bonuses, the Grind (Module B)], [Rolled Disposition divides the setup total by 3 before backers and flat modifiers; actions spend Power], [Nature, Persona],
     [#strong[Blades];], [Playbooks, resistance, stress-as-currency, clocks, load-out], [Stress tracks are the four pools], [Action dice pools, Position/Effect grid, crew sheets],
     [#strong[2d20];], [Momentum (here called #strong[Weal]), Woe, Truths, Module C, buy-offs, Escalation], [Weal from unspent Power; Truths are unrated facts, and numerical circumstances are Situational Conditions; complication range → Risk die (@core-risky-rolls)], [d20 roll-under],
@@ -20,7 +20,7 @@
   
 === 14.1 Known Risks <core-known-risks>
 - #strong[Currency load:] pools + Tychē + Weal + Woe is the upper limit for medium crunch. Keep spend menus short on the sheet.
-- #strong[Modifier range:] max is skill +4, tags +2, helpful status up to +6, helpful Situational Condition up to +6, Tychē invoke +2. The two slots together range from −12 to +12 and are the largest swing. Playtest a ±3 cap on either slot, and whether 2 Power per rating prices broad Situational Conditions fairly.
+- #strong[Modifier range:] max is skill +4, helpful status up to +6, helpful Situational Condition up to +6, Tychē invoke +2. The two slots together range from −12 to +12 and are the largest swing. Playtest a ±3 cap on either slot, and whether 2 Power per rating prices broad Situational Conditions fairly.
 - #strong[Effort for Power] may make high-Edge characters very efficient. Watch Edge-3 pools where Effort is free; consider a minimum cost of 1.
 - #strong[Resistance dice:] Edge adds Resistance dice instead of reducing the cost, and only a double 12 is free (@core-resistance-harm-recovery). Watch how often stacked penalties (two −1 Edge penalties on a 0-Edge pool) push Resistance to negative Edge, whether high-Edge pools drain faster than before, and whether the double-12 result (1--6%) is too rare to matter.
 - #strong[Four pools] means more pool points to track. The sheet should put all four in one row with Edge beside each.

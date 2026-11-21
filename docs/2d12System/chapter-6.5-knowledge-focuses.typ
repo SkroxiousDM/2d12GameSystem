@@ -7,8 +7,7 @@
 An artificer, engineer, or inventor who makes what shouldn\'t work, work.
 ]
 
-- #strong[Power tags:] #emph[workshop hands];, #emph[it\'ll work, trust me]
-- #strong[Weakness tag:] #emph[never quite finished]
+- #strong[Tags:] #emph[workshop hands];, #emph[it\'ll work, trust me];, #emph[never quite finished]
 - #strong[PC link:] \"I built \[PC\]\'s gear, and I\'m still tinkering with it.\"
 
 #figure(
@@ -26,7 +25,7 @@ An artificer, engineer, or inventor who makes what shouldn\'t work, work.
     [2a], [#strong[Inventor];], [#ability(
       trigger: [During downtime, you work on a gadget.],
       cost: [A 6-segment clock.],
-      benefit: [Turn the gadget into a permanent item with 1 power tag and 1 action tag.],
+      benefit: [Turn the gadget into a permanent item with 1 tag and 1 action tag.],
       limit: [Count its benefit once per roll.],
     )],
     [2b], [#strong[Field Repairs];], [#ability(
@@ -38,7 +37,7 @@ An artificer, engineer, or inventor who makes what shouldn\'t work, work.
     [3a], [#strong[Master-work];], [#ability(
       trigger: [During downtime, you build or substantially rebuild a signature item.],
       cost: [Complete a 12-segment crafting clock with suitable materials and facilities.],
-      benefit: [The masterwork has two power tags and one conflict action tag appropriate to its function. Once per scene, when its user succeeds on an action directly using it, they gain +1 Power. With Module A: The masterwork is an artifact, with the bonus Power as its special ability. Agree its depletion rating and quirk with the GM when it becomes an artifact. You pay no Refresh to attune your own masterwork. Waiving attunement Refresh does not waive the normal attunement-slot limit when attunement is required. Other artifact rules apply.],
+      benefit: [The masterwork has two tags and one conflict action tag appropriate to its function. Once per scene, when its user succeeds on an action directly using it, they gain +1 Power. With Module A: The masterwork is an artifact, with the bonus Power as its special ability. Agree its depletion rating and quirk with the GM when it becomes an artifact. You pay no Refresh to attune your own masterwork. Waiving attunement Refresh does not waive the normal attunement-slot limit when attunement is required. Other artifact rules apply.],
       limit: [You can maintain one masterwork at a time. Giving it away does not free this slot. You may replace it through a new crafting project, but the old item then loses its masterwork bonus Power. Its ordinary tags remain. With Module A: When replaced, the former masterwork remains an artifact but loses the bonus-Power ability and attunement exemption granted by Masterwork. It retains its tags, depletion rating, quirk, and any independently established properties. Normal artifact and attunement rules apply; replacement does not grant a substitute special ability.],
     )],
     [3b], [#strong[★ Rig the Field];], [#ability(
@@ -59,8 +58,7 @@ An artificer, engineer, or inventor who makes what shouldn\'t work, work.
 Doctor, field medic, herbalist, or combat surgeon.
 ]
 
-- #strong[Power tags:] #emph[calm hands];, #emph[bedside manner]
-- #strong[Weakness tag:] #emph[can\'t refuse anyone in pain]
+- #strong[Tags:] #emph[calm hands];, #emph[bedside manner];, #emph[can\'t refuse anyone in pain]
 - #strong[PC link:] \"I patched up \[PC\] when no one else would.\"
 
 #figure(
@@ -112,8 +110,7 @@ Doctor, field medic, herbalist, or combat surgeon.
 Detective, investigator, or analyst: you follow the thread to the end.
 ]
 
-- #strong[Power tags:] #emph[nothing gets past me];, #emph[follows the thread]
-- #strong[Weakness tag:] #emph[obsessed with the case]
+- #strong[Tags:] #emph[nothing gets past me];, #emph[follows the thread];, #emph[obsessed with the case]
 - #strong[PC link:] \"\[PC\] was part of the case that made me.\"
 
 #figure(
@@ -166,8 +163,7 @@ Detective, investigator, or analyst: you follow the thread to the end.
 Historian, archaeologist, or keeper of lost lore.
 ]
 
-- #strong[Power tags:] #emph[walks among ruins];, #emph[reads dead languages]
-- #strong[Weakness tag:] #emph[lives in the past]
+- #strong[Tags:] #emph[walks among ruins];, #emph[reads dead languages];, #emph[lives in the past]
 - #strong[PC link:] \"\[PC\] helped me recover something that was lost.\"
 
 #figure(

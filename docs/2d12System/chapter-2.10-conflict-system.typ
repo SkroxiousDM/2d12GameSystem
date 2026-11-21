@@ -102,7 +102,7 @@ Setup defeat inflicts no injury, pool loss or Taken Out by itself, and doesn't s
 ==== Preparation and Other Benefits
 An asset may retain its normal benefits while also contributing to Superiority. A map might justify preparation and later help an action. These benefits perform different jobs:
 - Superiority represents preparation at setup.
-- An action tag assists a particular roll.
+- An action tag supplies Power to a particular action.
 - A Situational Condition modifies relevant rolls; a Truth establishes what is possible.
 
 Apply each only when its requirements are met. One asset doesn't automatically provide all four.
@@ -164,11 +164,11 @@ In short: Feint beats Defend and loses to Attack; two Attacks, two Defends or tw
 // PLAYTEST: Feint versus Maneuver is now a versus test (was independent). Check that Maneuver doesn't become the safe answer to every Feint.
 
 ==== Independent Tests
-Roll against Standard 15, adjusted by explicit difficulty modifiers such as adversary Guard; statuses and Situational Conditions modify the roll (@core-roll), and Truths decide what is possible (@core-truths). Determine Power normally.
+Roll against Standard 15, adjusted by explicit difficulty modifiers such as adversary Guard; statuses and Situational Conditions modify the roll (@core-roll), and Truths decide what is possible (@core-truths). Tags add nothing to the roll. Determine Power normally, including Tag Power (@core-outcomes).
 
 #colbreak()    
 ==== Versus Tests
-Both actors roll. The higher total wins and gains 1 Power, plus 1 for every full 3 points of margin.
+Both actors roll. The higher total wins and gains its Tag Power + 1 Power, plus 1 for every full 3 points of margin. The loser spends no Tag Power.
 Winning prevents the opposing action's normal effect, even if all Power funds permitted supplementary Effects rather than loss or recovery.
 
 On an exact tie, neither action gains Power or produces its normal effect. Costs already paid remain spent. Success at a Cost doesn't turn a losing versus roll into success. Resolve doubles and complications under @core-costs-failures-complications.
@@ -272,7 +272,7 @@ An ordinary failed independent test produces no action effect and generates the 
 Losing or tying a versus test, or being trumped, generates no ordinary-failure Woe. Apply this symmetrically to player and GM actors; costs already paid remain spent. Separately triggered complications, ability costs, scenery Dangers and explicit Woe rules still apply.
 
 ==== Success at a Cost
-On an independent test missing by 1--3, gain 1 Power as usual. The player chooses either 1 Woe for the GM or an immediate, proportionate complication arising from the action.
+On an independent test missing by 1--3, gain Tag Power + 0 as usual (@core-outcomes). The player chooses either 1 Woe for the GM or an immediate, proportionate complication arising from the action.
 
 An ordinary cost can't impose an additional status or extra Disposition loss unless an explicit rule permits it. Suitable costs include exposing an approach, losing access to a minor asset or establishing a limited adverse fact.
 

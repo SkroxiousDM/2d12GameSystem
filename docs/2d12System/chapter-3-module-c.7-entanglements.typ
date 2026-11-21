@@ -17,9 +17,9 @@ Use this at the start of a campaign, after players have picked a Descriptor, Pla
   table.header([Phase], [Type], [Each player adds], [Output for the PC]),
   [#strong[0 Setup]], [Setup], [The Focus link and one line to another PC.], [The ally and rival prompts.],
   [#strong[1 Origin]], [Major], [Two elements.], [A #strong[Belief] drawn from one of them.],
-  [#strong[2 Rise]], [Standard], [One element.], [One #strong[power tag].],
+  [#strong[2 Rise]], [Standard], [One element.], [One #strong[tag].],
   [#strong[3 Branching Out]], [Meta], [One element, plus one extra: connect two non-PC elements, replace one of your own lines, or give another PC a new element.], [An #strong[Instinct] or a named ally.],
-  [#strong[4 Turning Point]], [Major], [Two elements.], [A #strong[weakness tag] and your first #strong[Goal].],
+  [#strong[4 Turning Point]], [Major], [Two elements.], [A #strong[tag] that can get you into trouble, and your first #strong[Goal].],
 ))
 
 #strong[Using the map.]

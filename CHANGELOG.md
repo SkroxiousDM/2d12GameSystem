@@ -6,6 +6,16 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Tag Power, tracked outcomes and contextual tags (2026-11-21)
+
+- Core Rules §2.1: declare the goal and agree its Effect requirement before rolling. Tags no longer modify the roll; Skill, statuses, Situational Conditions and named fixed modifiers do.
+- Core Rules §2.5 and §5: each relevant tag supplies +1 Power (max +2 per action). Success gives Tag Power + 1 (+1 per full 3 over); Success at a Cost gives Tag Power + 0; Failure gives no Power. Purchased Effects are the action's result: success doesn't grant the declared goal by itself, and a consequence can't cancel an Effect already bought.
+- Core Rules §3.4, §4, Descriptors, Focuses, Playbooks: power and weakness tags merge into single contextual tags that can supply Power or be compelled. Descriptors give 2 tags, Focuses 3. Refusing a compel still costs 1 Tychē. Burning is unchanged.
+- Core Rules §6 Scars: a Scar is a lasting tag that supplies no Power and adds no roll penalty; it can still be compelled.
+- Core Rules §10.5, §10.7, §10.10: versus winners add Tag Power; independent Success at a Cost gains Tag Power + 0; action tags such as +1 Attack supply 1 Tag Power to the named action.
+- Example of play, Quick Reference, generic character sheet, Modules A, B, C.7, D and F, Advancement and Design Notes updated to match. Module B Checks use a self-imposed −1 fixed modifier justified by a tag or Scar.
+- Not changed in this pass: adversary tags and their Discover and compel rules, Module E's World Turn outcomes, and the Testament of Dust setting book.
+
 ### Changed — Core pass 6: simplicity, flow and dynamic references (2026-11-20)
 
 - Whole core book: editorial pass for simplicity and flow. Truths are Title Case and Situational Conditions lower-case italics; the visible playtest marker is "(Playtest Value)"; references read "Core Rules §"; contractions in §10 and the Adversaries chapter.

@@ -12,7 +12,7 @@ A #strong[milestone] is the end of a story arc or the completion of a major Goal
 - Did you #strong[accomplish your Goal]? (+2)
 - Did one or more of your #strong[World, Other, or Self Beliefs] drive a meaningful decision?
 - Did your #strong[Instinct] get you into trouble or save the day?
-- Did you face consequences from a #strong[weakness tag or Scar]?
+- Did you face consequences from a #strong[compelled tag or Scar]?
 
 The Belief question awards at most #strong[1 XP per session], not 1 XP per Belief. Upholding, questioning, or acting against a Belief can qualify when it drives a meaningful decision; merely reciting or rewriting it does not.
 
@@ -22,7 +22,7 @@ The Belief question awards at most #strong[1 XP per session], not 1 XP per Belie
 - +1 to a skill (following the pyramid rule)
 - +3 to one pool, or +1 Edge (max 3 Edge per pool)
 - A new playbook special ability (★ costs 1 Refresh; veteran costs below)
-- A new power tag, or rewrite a weakness tag into a power tag
+- A new tag, or rewrite an existing tag
 - A new Specialisation in a rated skill (@core-skill-pyramid)
 - #strong[+1 Refresh] (buys back Refresh spent on abilities or artifacts), up to the #strong[Refresh cap] of 3 + 1 per 3 Advances
 - A higher-tier Focus ability: Tier 2 after 3 Advances; Tier 3 after 6 Advances. Taking the ability costs an Advance; reaching the threshold does not grant it automatically (Generic Focuses @foc-what-focus-gives-you).

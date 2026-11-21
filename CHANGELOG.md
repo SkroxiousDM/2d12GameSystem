@@ -6,6 +6,11 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Module E: requests succeed with strings on Success at a Cost (2026-11-21)
+
+- E.5: Success at a Cost secures the agreed help whatever the Power, as a stated exception to the core rule that unbought Effects don't happen. Instead of the consequence-or-Woe choice, the faction attaches one string: a favour owed (E.7), a delay that matters, or −1 Standing. Tag Power or Effort can still buy extras.
+- Rebuilt core rulebook PDF.
+
 ### Added — Module E: lending an asset tag to a PC roll (2026-11-21)
 
 - E.6: at Standing +2 or better, a faction can commit one relevant asset tag to a PC roll it actually supports. It supplies +1 Power, counts toward the PC's +2 Tag Power maximum, and adds nothing to the roll. One lent tag per roll; it can't be combined with other support for the same contribution.

@@ -6,6 +6,14 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Module E: faction asset tags and Tag Power (2026-11-21)
+
+- Faction assets are now asset tags: each relevant tag supplies +1 Power (max +2) to the faction's own rolls and adds nothing to the roll (E.1, E.2, E.14).
+- World Turn outcomes follow the core: Success gives Tag Power + 1 (+1 per full 3 over), Success at a Cost gives Tag Power + 0 plus a setback, Failure gives no Power; obstruction Power includes Tag Power (E.10).
+- PC requests (E.5): help is a bought Effect with its price agreed before rolling; it is secured only if Power covers the price.
+- Reed Quay example gains asset tags and a recomputed World Turn; starting-cluster pacing table recomputed for 0, 1 and 2 tags.
+- Rebuilt core rulebook PDF.
+
 ### Changed — Tag Power, tracked outcomes and contextual tags (2026-11-21)
 
 - Core Rules §2.1: declare the goal and agree its Effect requirement before rolling. Tags no longer modify the roll; Skill, statuses, Situational Conditions and named fixed modifiers do.

@@ -17,7 +17,7 @@ Record:
 - Name, purpose, and long-term ambition.
 - Operational reach: the places and communities where it can act.
 - Five Qualities, each rated 0 to +4.
-- Two or three assets and one vulnerability.
+- Two or three asset tags and one vulnerability.
 - Standing toward the party, from −3 to +3.
 - A representative who can explain or authorize requests.
 - One current project and its clock.
@@ -62,7 +62,9 @@ A permanent Cohesion of 0 is a #emph[crisis] when a faction has fallen to it (E.
 
 Assets determine what the faction can actually do. A treasury cannot occupy a town without personnel; soldiers cannot cross a sea without transport. A rating never creates an unstated army, fleet, office, or network.
 
-When an asset matters mechanically, record it as a Truth with scope and ending condition, or as a Situational Condition when it helps rolls by a number (Core Rules @core-situational-conditions, @core-establishing-recording). It adds its concrete advantage, not a second bonus restating the Quality.
+#strong[Asset tags.] Write each asset as a tag (#emph[armed river crews], #emph[clerks in the provincial offices]). When an asset materially supports a faction roll, it supplies #strong[+1 Power], maximum +2 per action, as a PC's tags do (Core Rules @core-outcomes). It adds nothing to the roll. Asset tags supply Power only to the faction's own rolls; support lent to the party uses E.6.
+
+When an asset makes something possible or changes conditions for others, record that as a Truth with scope and ending condition, or as a Situational Condition when it helps rolls by a number (Core Rules @core-situational-conditions, @core-establishing-recording). It adds its concrete advantage, not a second bonus restating the Quality, and one asset doesn't supply both Tag Power and a Condition on the same roll.
 
 Record a distant branch separately when local capabilities matter. The imperial institution's full resources are not automatically available to every provincial official.
 
@@ -166,7 +168,9 @@ For a single request check, establish burden before applying relationship Condit
 
 PCs roll normal Skills. Pools pay for Effort and Resistance; do not add a pool as an attribute. Persuade, Deceive, and Intimidate reflect different methods and consequences. Evidence, compensation, leverage, and timing can change the request's feasibility or the relevant Truths and Conditions.
 
-For that single request check, use normal core outcomes, Power, doubles, and currencies. A Success at a Cost grants the agreed help with the normal consequence-or-Woe choice. Failure does not secure the help and produces an appropriate move. A failed request cannot be repeated unchanged: introduce materially new terms or circumstances.
+For that single request check, use normal core outcomes, Power, doubles, and currencies (Core Rules @core-outcomes). #strong[The help is a bought Effect.] Before rolling, agree which Effect expresses it and its price: usually Create (a Truth such as #emph[Passage Arranged] for 2 Power, or a Situational Condition at 2 per rating), Discover for information (1 per answer), or Advance for a clock (1 per segment). Agree too what a smaller purchase would secure, if anything.
+
+On a Success or Success at a Cost, spend Power on that Effect; the help is secured only when the Power covers its price. A Success at a Cost adds no outcome Power, so the PC may need relevant tags, Effort or another explicit source, and still applies the normal consequence-or-Woe choice. Failure does not secure the help and produces an appropriate move. A failed request cannot be repeated unchanged: introduce materially new terms or circumstances.
 
 Extra Power can improve agreed scope, speed, or discretion where normal Effects and the fiction support it. It cannot buy permanent Standing or unlimited resources.
 

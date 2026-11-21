@@ -67,11 +67,11 @@ Choose one cadence: each in-world week, between adventures, or another agreed me
 
 ==== Organizational resolution
 
-Roll 2d12 + the relevant effective Quality against Standard 15, adjusted by task difficulty, with relevant Situational Conditions modifying the roll and Truths deciding what is possible. Use one primary Quality, not the sum of two. Other capabilities may be prerequisites or provide distinct concrete circumstances; their ratings are not automatic extra modifiers.
+Roll 2d12 + the relevant effective Quality against Standard 15, adjusted by task difficulty, with relevant Situational Conditions modifying the roll and Truths deciding what is possible. Use one primary Quality, not the sum of two. Other capabilities may be prerequisites or provide distinct concrete circumstances; their ratings are not automatic extra modifiers. Asset tags add nothing to the roll; each relevant one supplies Power (E.2).
 
-- Success: 1 Power, plus 1 per full 3 points over the target.
-- Success at a Cost (miss by 1–3): 1 Power and a concrete setback appropriate to the action.
-- Failure (miss by 4+): no progress; introduce a relevant setback.
+- Success: Tag Power + 1, plus 1 per full 3 points over the target.
+- Success at a Cost (miss by 1–3): Tag Power + 0, and a concrete setback appropriate to the action.
+- Failure (miss by 4+): no Power and no progress; introduce a relevant setback.
 - Doubles follow the core's success/cost/failure twist rules, including double 12s and double 1s.
 
 Organizational exception: off-screen faction actions do not gain or spend the party's Weal, PC pools, or Tychē Points, and do not generate or spend Woe. Uncommitted Power is discarded. Resolve twists narratively; there is no off-screen Woe buy-off. PC scenes retain all normal core currencies.
@@ -94,7 +94,7 @@ Use Module C.6 for lasting Site, Region, and Campaign changes: normally 8 segmen
 
 A faction may spend its action obstructing a known project if it has a credible method. Roll its relevant Quality against Standard 15, adjusted by the target's concrete defences, with relevant Situational Conditions modifying the roll. The target's Quality rating is not automatically a Difficulty shift.
 
-On success, spend Power to remove uncompleted progress, one segment per Power. Remove no more than is present and discard excess. A defending faction may devote its own action to countermeasures, producing appropriate protection or removing the obstructing capability. Do not add a free reaction roll for every attempted disruption.
+On success, spend Power, including Tag Power from assets that support the obstruction, to remove uncompleted progress, one segment per Power. Remove no more than is present and discard excess. A defending faction may devote its own action to countermeasures, producing appropriate protection or removing the obstructing capability. Do not add a free reaction roll for every attempted disruption.
 
 Declare obstruction or countermeasures in step 2 as the faction's one major action. A faction that defends does not also advance its own project.
 
@@ -166,6 +166,7 @@ An illustrative faction, not setting canon.
   [Territory +2], [Barges, warehouses, and landing rights.],
   [Cohesion +1], [Members cooperate primarily for profit.],
   [Standing +2], [Trusted; Nera, master of the eastern landing, represents the association.],
+  [Asset tags], [#emph[clerks in the provincial offices], #emph[barges and landing rights], #emph[deep commercial credit]],
   [Vulnerability], [Its principal charter is legally disputed.],
   [Project], [Secure Exclusive Ferry Rights, 8 segments: a lasting local institutional change.],
   [Favour], [Conceal up to six people aboard one outbound barge this season, with a day's notice; no declared contraband.],
@@ -177,7 +178,7 @@ The association funds a lawful journey and provides a commercial introduction. P
 
 The party retrieves admissible evidence that a rival obtained a charter through bribery. As the agreed outcome of the undertaking, Rival Charter Under Legal Challenge becomes a Truth for the ferry-rights project until the challenge is adjudicated: the rival can't use the charter as settled authority, and the court case is open to the party. If the party obtains a final judgment itself, do not roll again to establish that judgment.
 
-On the World Turn, the association uses Influence +2. The evidence lowers the Standard 15 target to Easy 12. Dice of 7 and 9 total 16; +2 gives 18, producing 3 Power. It commits three segments. Without the evidence, the same total against 15 would produce 2 Power.
+On the World Turn, the association uses Influence +2. The evidence lowers the Standard 15 target to Easy 12. Dice of 7 and 9 total 16; +2 gives 18, producing 3 Power. Its #emph[clerks in the provincial offices] work the court case, adding 1 Tag Power: 4 Power, and it commits four segments. Its barges and credit don't help a legal challenge, so they add nothing. Without the evidence, the same total against 15 would produce 3 Power.
 
 Later, the party saves the winter grain convoy at substantial personal risk. Once the association learns what happened, Standing may rise to +3. A new favour is not automatic: the association must explicitly promise one.
 
@@ -190,7 +191,7 @@ If the association undertakes an additional urgent funding action that turn, Tre
   [Will it help us?], [Standing, authority, commitments, and reasonable requests.],
   [What do PCs roll?], [Their normal Skill; never add a faction Quality.],
   [What does support do?], [Permission, a scoped Situational Condition, or actual Help; no duplicate benefit.],
-  [What does the faction roll?], [2d12 + one effective Quality, normally vs. Standard 15.],
+  [What does the faction roll?], [2d12 + one effective Quality, normally vs. Standard 15. Relevant asset tags supply +1 Power each, max +2.],
   [How does it progress?], [1 Power per project segment; no off-screen Weal or Woe.],
   [How do adventures matter?], [Achieve an objective, affect progress, or establish a strategic advantage.],
   [How often does it act?], [One major action each World Turn; at most one additional action causing Strain.],

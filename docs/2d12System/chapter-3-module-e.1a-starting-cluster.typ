@@ -13,7 +13,7 @@ Use this when starting a campaign, after the C.7 story map is drawn. It produces
 
 #table(columns: (18%, 40%, 42%),
   table.header([Long Knives field], [Becomes], [How]),
-  [#strong[Has]], [Qualities, assets, vulnerability (E.1, E.2)], [The #emph[obvious] asset sets the faction's highest Quality (+3, or +4 for a dominant power). The #emph[less obvious] asset sets a second Quality (+2). Other Qualities are 0 or +1. Explain every nonzero Quality through concrete assets. The vulnerability is something opponents can target; it need not match a low Quality.],
+  [#strong[Has]], [Qualities, assets, vulnerability (E.1, E.2)], [The #emph[obvious] asset sets the faction's highest Quality (+3, or +4 for a dominant power). The #emph[less obvious] asset sets a second Quality (+2). Other Qualities are 0 or +1. Explain every nonzero Quality through concrete assets, and write two or three of them as asset tags (E.2). The vulnerability is something opponents can target; it need not match a low Quality.],
   [#strong[Wants]], [Ambition, project, primary Quality, clock (E.1, E.10)], [Write the long-term ambition, then one current project with its intended outcome and its #strong[primary Quality]. Choose the clock by the change it makes: 4 or 6 for a limited or local action, 8 for a Site Truth, 12 for a Region Truth (E.10, C.6).],
   [#strong[Link]], [Standing and representative (E.3, E.4)], [Set starting Standing (below). Name a representative. Record membership, patronage and favour lines from the C.7 map (E.4, E.7).],
   [#strong[Relations]], [Ally and rival (E.1)], [Name one important ally and one rival for each active faction where relevant.],
@@ -38,13 +38,15 @@ A personal exception replaces that relationship Condition for its subject and do
 #strong[The incident is history.] It happened before play starts; it can't later cancel a PC's action, skip a contested scene or complete another project. Once play begins, use the core rules for PC struggles and E.10 for faction actions. Campaign Truths still need a major arc.
 
 // PLAYTEST: marker unified (M6)
-#strong[Pacing.] Average Power per World Turn for 2d12 + one Quality against Standard 15, counting Success at a Cost (1 Power) but not doubles or opposition. Turns to fill are expected values with overflow discarded; they are estimates, not deadlines. (Playtest Value)
+#strong[Pacing.] Average Power per World Turn for 2d12 + one Quality against Standard 15, with 0, 1 or 2 relevant asset tags. Success at a Cost gives only Tag Power; doubles and opposition aren't counted. Turns to fill are expected values with overflow discarded; they are estimates, not deadlines. (Playtest Value)
 
-#table(columns: (16%, 28%, 28%, 28%),
-  table.header([Quality], [Average Power per turn], [Turns to fill 8], [Turns to fill 12]),
-  [0], [0.89], [about 9], [about 14],
-  [+1], [1.06], [about 8], [about 12],
-  [+2], [1.25], [about 7], [about 10],
-  [+3], [1.46], [about 6], [about 9],
-  [+4], [1.69], [about 5], [about 8],
+#table(columns: (14%, 38%, 24%, 24%),
+  table.header([Quality], [Avg Power (0/1/2 tags)], [Turns: 8], [Turns: 12]),
+  [0], [0.65 / 1.27 / 1.89], [13 / 7 / 5], [19 / 10 / 7],
+  [+1], [0.83 / 1.52 / 2.21], [10 / 6 / 4], [15 / 9 / 6],
+  [+2], [1.04 / 1.79 / 2.54], [8 / 5 / 4], [12 / 7 / 5],
+  [+3], [1.27 / 2.08 / 2.88], [7 / 4 / 3], [10 / 6 / 5],
+  [+4], [1.52 / 2.38 / 3.23], [6 / 4 / 3], [9 / 6 / 4],
 )
+
+Against the old rules, one relevant asset tag fills an 8-segment clock about two turns sooner; two tags roughly halve the time.

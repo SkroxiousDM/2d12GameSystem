@@ -98,8 +98,8 @@ Touched by the spirit world, the Otherworld, or the deep net.
     [3b], [#strong[★ Half-Step];], [#ability(
       trigger: [An imposed physical status would affect you, or you attempt to pass through a solid obstacle.],
       cost: [No additional cost.],
-      benefit: [Choose one: cancel that imposed physical status on yourself; or pass through one solid obstacle no thicker than your body length, carrying your worn and held equipment.],
-      limit: [Once per scene, choosing either benefit. Passage takes your normal action where one is required. You must finish in an unoccupied space. It does not cross a barrier that explicitly blocks spirits or intangible beings.],
+      benefit: [Choose one: cancel that imposed physical status on yourself; or pass through one solid obstacle no thicker than your body length, carrying your worn and held equipment. The cancellation option resolves immediately before the status is applied and requires no scripted action.],
+      limit: [Once per scene, choosing either benefit. Outside scripted conflicts, passage takes your normal action where one is required. In a scripted conflict, passage requires a successful Maneuver and happens instead of its ordinary Maneuver effects. Resolve the action interaction normally. The passage requires no Power purchase. You must finish in an unoccupied space. It does not cross a barrier that explicitly blocks spirits or intangible beings.],
     )],
   )]
   , kind: table
@@ -126,7 +126,7 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
     [1], [#strong[Patron\'s Gift];], [#ability(
       trigger: [You perform a working within your patron's gift.],
       cost: [Pay the normal 1-point working cost from Pneuma, plus any Effort.],
-      benefit: [Gain a minor Domain tied to your patron. Use Arcana for its workings.],
+      benefit: [Gain a minor Domain tied to your patron. Use Arcana for its workings. The patron Domain counts as a power tag on its workings, within the normal tag cap.],
       limit: [This Domain permits only Easy and Standard scope, including during scripted conflicts. It follows the Adept working and Backlash rules (Generic Playbooks @pb-adept-core-feature). If you already have a Domain, this is a separate, narrower Domain; choose a distinct gift.],
     )],
     [2a], [#strong[Ask the Patron];], [#ability(
@@ -145,7 +145,7 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
       trigger: [You perform a working within the minor Domain granted by Patron's Gift.],
       cost: [The normal working cost.],
       benefit: [That Domain now permits workings up to Formidable scope.],
-      limit: [Its other working, Backlash, and conflict rules remain unchanged.],
+      limit: [This replaces Patron's Gift's Easy-and-Standard scope limit; its Arcana, Pneuma, Backlash, and conflict rules remain unchanged.],
     )],
     // PLAYTEST: Balance FO B6, no Heroic scope, so it can't act as a second Ascendant.
     [3b], [#strong[★ Borrowed Might];], [#ability(

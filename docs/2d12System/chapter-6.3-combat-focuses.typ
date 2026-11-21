@@ -45,7 +45,7 @@ Loyal to a fault. You go back for the fallen, every time.
     )],
     [3b], [#strong[★ Living Wall];], [#ability(
       trigger: [An Attack or Feint would remove your side's Disposition, and you can physically protect the participants threatened by it. Declare this before an injury trade.],
-      cost: [Take a tier-2 physical status as an accepted payment, describing how you hold the line.],
+      cost: [Take a tier-2 harmful physical Personal status as an accepted payment. It must follow from how you protect the side, hinder a relevant activity, and be new or worsen an existing status. Apply normal stacking.],
       benefit: [Reduce that action's Disposition loss by 2, to a minimum of 0.],
       limit: [Once per conflict. Your side can benefit from Living Wall only once against the same action. This is not an injury trade; one participant may still make the normal injury trade against the remaining loss.],
     )],

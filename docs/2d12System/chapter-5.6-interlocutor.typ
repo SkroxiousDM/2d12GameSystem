@@ -39,8 +39,8 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
     [2], [#strong[Read the Room];], [#ability(
       trigger: [You buy Discover to learn an NPC's Belief, Goal, or Instinct.],
       cost: [The normal Discover cost.],
-      benefit: [Learn one of those motivations. Once before the scene ends, gain +1 Power on a successful action against that NPC that exploits what you learned.],
-      limit: [You can hold only one unused Read the Room benefit at a time. A new one replaces the old one. Declare its use after success, before spending Power. It does not change the NPC's motivation or permit otherwise unavailable Effects.],
+      benefit: [Learn one of those motivations. Before the scene ends, gain +1 Power on one later successful action against that NPC that exploits what you learned.],
+      limit: [You can hold only one unused Read the Room benefit at a time; a new one replaces the old one. An action can gain this bonus only once. Declare its use after determining success and before allocating Power. It does not change the NPC's motivation or permit otherwise unavailable Effects.],
     )],
     [3], [#strong[Network];], [#ability(
       trigger: [You declare a #strong[contact] in the current location.],

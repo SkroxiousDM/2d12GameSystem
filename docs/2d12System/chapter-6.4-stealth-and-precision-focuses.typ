@@ -72,10 +72,10 @@ Sniper, archer, gunslinger: steady breath and a sharp eye.
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Called Shot];], [#ability(
-      trigger: [You roll Shoot.],
-      cost: [No cost for the Weaken.],
-      benefit: [A #strong[free Weaken] effect: suppress one of the target's tags (weapon, cover, mobility) for the scene.],
-      limit: [Once per roll, and only on a Success or Success at a Cost.],
+      trigger: [You succeed on a Shoot roll, including Success at a Cost.],
+      cost: [No additional Power.],
+      benefit: [Suppress one target tag that your shot can plausibly undermine for the rest of the scene.],
+      limit: [Once per roll. Suppression removes only that tag's numerical bonus; it does not disable the asset, remove its other permissions, or prevent its use. In a conflict, disabling an asset requires Disarm or an ability that explicitly permits it.],
     )],
     [2a], [#strong[Over-watch];], [#ability(
       trigger: [An imposed status of tier 2 or less is about to hit an ally; or, in a conflict, covering fire can protect your side.],
@@ -186,10 +186,10 @@ You never walk into a room without knowing how to leave it.
     )],
     // PLAYTEST: B1, was +3; matches At the Helm.
     [2a], [#strong[Clean Getaway];], [#ability(
-      trigger: [A Chase conflict begins in which you're fleeing.],
+      trigger: [A Chase conflict begins in which your side is fleeing.],
       cost: [No additional cost.],
-      benefit: [Your side gets #strong[+2 starting Disposition].],
-      limit: [A flat starting-Disposition bonus (@foc-ability-limits).],
+      benefit: [Your side gains +2 starting Disposition. Before your side commits its first script, ask one free Discover question about the pursuers' route, method, or immediate weakness.],
+      limit: [One question per conflict. The answer must concern something you can infer from the pursuit. It does not reveal a committed script. The Disposition bonus follows the normal starting-Disposition rules.],
     )],
     [2b], [#strong[Contin-gency];], [#ability(
       trigger: [Things go wrong and you reveal a prepared fallback.],

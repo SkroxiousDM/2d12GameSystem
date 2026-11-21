@@ -18,10 +18,10 @@ Charm, quick wit, and the right words at the right time.
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Fast Talk];], [#ability(
-      trigger: [You try to get out of a bad situation.],
+      trigger: [You try to get out of a bad situation through speech, deception, bargaining, or distraction.],
       cost: [No additional cost.],
-      benefit: [Use Persuade or Deceive in place of any other skill.],
-      limit: [Once per scene. This swaps the skill only.],
+      benefit: [Use Persuade or Deceive instead of the skill the action would normally require.],
+      limit: [Once per scene. Your approach must genuinely use the chosen skill. This changes only the skill: it does not make an impossible action possible, change a scripted action's interaction, or permit additional Effects.],
     )],
     // PLAYTEST: R1, was redundant with core Success at a Cost (consequence or 1 Woe).
     [2a], [#strong[Change of Plans];], [#ability(
@@ -146,10 +146,10 @@ Fixer, socialite, or broker: you\'re one call away from anyone.
       limit: [Once per World Turn.],
     )],
     [3b], [#strong[★ The Right Person];], [#ability(
-      trigger: [You need someone for the situation.],
+      trigger: [You need a contact with particular knowledge, access, or influence.],
       cost: [No additional cost.],
-      benefit: [Exactly the right contact for the situation happens to be present.],
-      limit: [Once per session.],
+      benefit: [Declare an appropriate contact present in the current scene. They have the knowledge, access, or influence you specified and are willing to hear your request. They provide one true, useful answer or one minor favour without requiring a roll or payment.],
+      limit: [Once per session. Greater assistance requires whatever negotiation, payment, or obligation the situation warrants. Their presence cannot contradict established events, and they cannot grant authority or access they do not possess.],
     )],
   )]
   , kind: table

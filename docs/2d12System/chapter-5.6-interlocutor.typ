@@ -37,10 +37,10 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
       limit: [In a conflict, the Condition gives leverage, not the disputed objective. It doesn't decide what another PC believes.],
     )],
     [2], [#strong[Read the Room];], [#ability(
-      trigger: [You spend Power on Discover to learn an NPC's Belief, Goal or Instinct.],
-      cost: [1 Power (the Discover).],
-      benefit: [Learn their #strong[Belief, Goal, or Instinct]. You get #strong[+1] (counts as a tag) against them for the scene.],
-      limit: [Within the tag cap. The bonus lasts the scene.],
+      trigger: [You buy Discover to learn an NPC's Belief, Goal, or Instinct.],
+      cost: [The normal Discover cost.],
+      benefit: [Learn one of those motivations. Once before the scene ends, gain +1 Power on a successful action against that NPC that exploits what you learned.],
+      limit: [You can hold only one unused Read the Room benefit at a time. A new one replaces the old one. Declare its use after success, before spending Power. It does not change the NPC's motivation or permit otherwise unavailable Effects.],
     )],
     [3], [#strong[Network];], [#ability(
       trigger: [You declare a #strong[contact] in the current location.],
@@ -74,10 +74,10 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
     )],
     // PLAYTEST: Balance B2, ★ kept; widened from crowds or councils to any side of two or more.
     [8], [#strong[★ Crowd Work];], [#ability(
-      trigger: [You succeed on an Attack in an Argument or Negotiation conflict where the other side has #strong[two or more participants] (a crowd, a council, a rival delegation).],
+      trigger: [You succeed on an Attack or Feint in an Argument or Negotiation conflict against a side with at least two participants.],
       cost: [No additional cost.],
-      benefit: [You influence a group as if it were one person: the Attack removes #strong[1 additional Disposition] with ordinary Attack loss.],
-      limit: [Applies however many people that side holds.],
+      benefit: [When you commit at least 1 Power to ordinary Disposition loss, remove 1 additional Disposition.],
+      limit: [Once per action, regardless of the number of opposing participants. It grants no additional targeting, status, or area effect.],
     )],
     // PLAYTEST: Word Is Law starting bonus lowered from +4 to +3.
     [◆], [#strong[Word Is Law];], [#ability(

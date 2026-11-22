@@ -7,7 +7,7 @@
 Silent, patient, and impossible to pin down.
 ]
 
-- #strong[Tags:] #emph[silent as snowfall];, #emph[at home in darkness];, #emph[uneasy in the light]
+- #strong[Tags:] #emph[The Shadows Are My Shelter];, #emph[I Leave Little Trace]
 - #strong[PC link:] \"\[PC\] is the only one who always knows where I am.\"
 
 #figure(
@@ -60,7 +60,7 @@ Silent, patient, and impossible to pin down.
 Sniper, archer, gunslinger: steady breath and a sharp eye.
 ]
 
-- #strong[Tags:] #emph[steady breath];, #emph[eye like a hawk];, #emph[clumsy up close]
+- #strong[Tags:] #emph[I Wait for the Perfect Shot];, #emph[I Keep Danger at a Distance]
 - #strong[PC link:] \"\[PC\] owes their life to a shot I made.\"
 
 #figure(
@@ -112,7 +112,7 @@ Sniper, archer, gunslinger: steady breath and a sharp eye.
 Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
 ]
 
-- #strong[Tags:] #emph[nothing stays closed];, #emph[thinks like an architect];, #emph[can\'t resist a challenge]
+- #strong[Tags:] #emph[A Lock Is a Challenge];, #emph[I Think Like the One Who Built It]
 - #strong[PC link:] \"\[PC\] keeps me out of trouble, or tries to.\"
 
 #figure(
@@ -165,7 +165,7 @@ Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
 You never walk into a room without knowing how to leave it.
 ]
 
-- #strong[Tags:] #emph[knows every exit];, #emph[slippery];, #emph[runs first, thinks later]
+- #strong[Tags:] #emph[I Know How I Am Leaving];, #emph[I Never Stake Everything]
 - #strong[PC link:] \"\[PC\] was with me during my worst getaway.\"
 
 #figure(

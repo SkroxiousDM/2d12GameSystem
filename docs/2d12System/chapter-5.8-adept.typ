@@ -23,8 +23,38 @@ Power from beyond the ordinary: magic, psionics, faith, or impossible technology
 
 #strong[Playbook tags (choose 2 of 6):] #emph[I Follow the Forms] · #emph[I Learn by Taking It Apart] · #emph[My Calling Is Greater Than Me] · #emph[I Notice What Others Tune Out] · #emph[The Old Agreements Still Matter] · #emph[I Trust My Gift Before the Rules]
 
-Each tag can supply Power when it helps your action or be compelled when the same trait creates a meaningful complication (Core Rules @core-tags, @core-tyche-points). The six options support a disciplined practitioner, experimental tinkerer, devoted servant, sensitive, keeper of pacts or instinctive prodigy; choose any two. These tags describe how you practise; they do not independently grant new powers, senses, contacts or Domains.
+The six options support a disciplined practitioner, experimental tinkerer, devoted servant, sensitive, keeper of pacts or instinctive prodigy; choose any two. These tags describe how you practise; they do not independently grant new powers, senses, contacts or Domains.
 ]
+
+#emph[I Follow the Forms]
+
+Power: Apply established rituals, precise protocols, or carefully practised techniques. \
+Compel: You insist on the proper procedure when improvisation or haste is necessary.
+
+#emph[I Learn by Taking It Apart]
+
+Power: Understand unfamiliar workings, adapt a device, or identify how an extraordinary effect operates. \
+Compel: Your investigation disrupts something useful or releases what its safeguards contained.
+
+#emph[My Calling Is Greater Than Me]
+
+Power: Draw resolve from your faith, purpose, or commitment to a larger cause. \
+Compel: That calling demands a sacrifice or conflicts with the party’s immediate interests.
+
+#emph[I Notice What Others Tune Out]
+
+Power: Interpret subtle signs, unusual patterns, or disturbances that fall within your established expertise. \
+Compel: A signal captures your attention at a dangerous moment, or ordinary noise overwhelms your concentration.
+
+#emph[The Old Agreements Still Matter]
+
+Power: Interpret established bargains, observe binding customs, or negotiate with beings and institutions that honour them. \
+Compel: An old obligation limits your choices or requires you to recognise an inconvenient claim.
+
+#emph[I Trust My Gift Before the Rules]
+
+Power: Improvise with your established abilities or recognise an intuitive solution. \
+Compel: You bypass a safeguard or struggle to explain a method that others must trust.
 
 === 8.1 Core Feature --- Domain (free) <pb-adept-core-feature>
 Every Adept has a #strong[Domain];: a broad tag describing what they can do (#emph[fire];, #emph[healing];, #emph[telekinesis];, #emph[shadows];, #emph[machines];, #emph[networks];, #emph[the dead];, #emph[weather];).

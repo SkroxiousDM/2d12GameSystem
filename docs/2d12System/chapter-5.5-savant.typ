@@ -22,8 +22,38 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
 
 #strong[Playbook tags (choose 2 of 6):] #emph[I Have Read About This] · #emph[The Evidence Must Agree] · #emph[Every Patient Teaches Me] · #emph[I Think in Working Parts] · #emph[My Name Opens Learned Doors] · #emph[No Knowledge Should Be Forbidden]
 
-Each tag can supply Power when it helps your action or be compelled when the same trait creates a meaningful complication (Core Rules @core-tags, @core-tyche-points). The six options support a polymath, investigator, physician, engineer, established expert or boundary-breaking researcher; choose any two.
+The six options support a polymath, investigator, physician, engineer, established expert or boundary-breaking researcher; choose any two.
 ]
+
+#emph[I Have Read About This]
+
+Power: Recall relevant knowledge, recognise an obscure reference, or connect ideas across subjects. \
+Compel: You trust a written account despite evidence that it is incomplete or wrong.
+
+#emph[The Evidence Must Agree]
+
+Power: Compare clues, expose contradictions, or test a proposed explanation. \
+Compel: You delay an urgent decision because one detail remains unresolved.
+
+#emph[Every Patient Teaches Me]
+
+Power: Diagnose a condition, recognise a familiar symptom, or adapt treatment from experience. \
+Compel: An unusual case draws you into further examination when withdrawal would be safer.
+
+#emph[I Think in Working Parts]
+
+Power: Understand mechanisms, diagnose failures, or organise a complicated process. \
+Compel: You treat a human problem like a mechanism and overlook feelings or loyalties.
+
+#emph[My Name Opens Learned Doors]
+
+Power: Secure a scholarly audience, establish professional credibility, or request access to research. \
+Compel: Your standing brings scrutiny, professional obligations, or pressure to defend your work.
+
+#emph[No Knowledge Should Be Forbidden]
+
+Power: Investigate taboo subjects, challenge accepted doctrine, or interpret suppressed research. \
+Compel: You cross an ethical, legal, or personal boundary to obtain an answer.
 
 === 5.1 Special Abilities <pb-savant-special-abilities>
 #figure(

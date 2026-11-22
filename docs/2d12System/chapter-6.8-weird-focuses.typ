@@ -7,7 +7,7 @@
 Monster-hunter, exorcist, or investigator of the strange.
 ]
 
-- #strong[Tags:] #emph[knows their weaknesses];, #emph[silver, salt, and iron];, #emph[the dark hunts me back]
+- #strong[Tags:] #emph[I Study What Hunts Us];, #emph[I Carry the Hunt With Me]
 - #strong[PC link:] \"\[PC\] saw what I saw that night, and they\'re the only one who believes me.\"
 
 #figure(
@@ -60,7 +60,7 @@ Monster-hunter, exorcist, or investigator of the strange.
 Touched by the spirit world, the Otherworld, or the deep net.
 ]
 
-- #strong[Tags:] #emph[one foot across the veil];, #emph[spirits whisper to me];, #emph[not quite of this world]
+- #strong[Tags:] #emph[One Foot Across the Veil];, #emph[The Other Side Knows My Name]
 - #strong[PC link:] \"\[PC\] anchors me. Without them, I\'d drift away.\"
 
 #figure(
@@ -89,7 +89,7 @@ Touched by the spirit world, the Otherworld, or the deep net.
     )],
     [3a], [#strong[Ally Beyond];], [#ability(
       trigger: [You call on your patron in the other world.],
-      cost: [The GM gets a compel on one of your tags in return. You must accept it, and it earns no Tychē (Core Rules @core-tyche-points).],
+      cost: [The GM gets a compel on one of your Focus tags in return. You must accept it, and it earns no Tychē (Core Rules @core-tyche-points).],
       benefit: [A #strong[World-shaking favour].],
       limit: [Once per session.],
     )],
@@ -111,8 +111,10 @@ Touched by the spirit world, the Otherworld, or the deep net.
 Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
 ]
 
-- #strong[Tags:] #emph[patron\'s gift];, #emph[knows the old names];, #emph[the debt comes due]
+- #strong[Tags:] #emph[My Patron Invested in Me];, #emph[I Am Bound by the Old Terms]
 - #strong[PC link:] \"\[PC\] knows what I traded, and hasn\'t told anyone.\"
+
+Define the patron and the bargain's key terms at creation. These tags provide leverage and complications; they do not introduce unspecified powers or retroactively invent contractual protections.
 
 #figure(
   [#table(
@@ -134,7 +136,7 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
     )],
     [2b], [#strong[Not Yet];], [#ability(
       trigger: [After reduction and stacking, an imposed harmful status would reach #strong[tier 6] on you.],
-      cost: [The GM gets one free compel on #emph[the debt comes due] next session.],
+      cost: [The GM gets one free compel on #emph[I Am Bound by the Old Terms] next session.],
       benefit: [Invoke your patron: record it at #strong[tier 5] instead, so you aren't Taken Out by it and gain no Scar.],
       limit: [Once per session. It can't prevent a shared-Disposition defeat or reverse death or a settled outcome.],
     )],
@@ -161,8 +163,10 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
 Mutant, cyborg, half-fae, or carrier of a strange bloodline.
 ]
 
-- #strong[Tags:] #emph[\[your trait\]];, #emph[unnatural resilience];, #emph[outsider]
+- #strong[Tags:] #emph[My \[Trait\] Sets Me Apart];, #emph[I Live by a Different Nature]
 - #strong[PC link:] \"\[PC\] saw me change and stayed anyway.\"
+
+Define the trait and unusual nature at creation. Both helpful uses and complications must follow from those established features; the tags grant no capabilities beyond the Focus and its abilities.
 
 #figure(
   [#table(

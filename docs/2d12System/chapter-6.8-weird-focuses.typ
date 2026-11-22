@@ -23,12 +23,12 @@ Monster-hunter, exorcist, or investigator of the strange.
       benefit: [Discover its weakness tag without rolling. You also know one thing that repels or binds it (salt, iron, a name).],
       limit: [Once per scene.],
     )],
-    // PLAYTEST: Balance FO B7, rider added (overlaps Brutal).
+    // PLAYTEST: Balance FO B7, rider added (overlaps Brutal). Once per scene since weaknesses supply +1 Power outside the cap.
     [2a], [#strong[Bane];], [#ability(
       trigger: [You succeed on a conflict Attack against a creature whose weakness you've exploited, or exploit a creature's weakness for the first time.],
       cost: [No additional cost.],
       benefit: [The Attack removes #strong[1 additional Disposition], or, if it inflicts a harmful status, raises that status by #strong[1 tier] (never both). The first time you exploit a weakness against a creature, also Discover one more of its weaknesses or abilities for free.],
-      limit: [It adds no status to an ordinary Attack and doesn't improve finishing procedures.],
+      limit: [The extra Disposition or tier applies #strong[once per scene], to your first successful exploiting Attack; the weakness's own +1 Power applies as normal. It adds no status to an ordinary Attack and doesn't improve finishing procedures.],
     )],
     [2b], [#strong[Ward the Threshold];], [#ability(
       trigger: [You spend an uninterrupted scene preparing one clearly defined entrance and state which side it protects.],

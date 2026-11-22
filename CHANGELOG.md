@@ -6,6 +6,11 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Bane applies once per scene (2026-11-22)
+
+- Hunts the Things in the Dark, Bane: the extra Disposition or status tier now applies once per scene, to the first successful exploiting Attack. The weakness's own +1 Power applies as normal, and the free extra Discover rider is unchanged. Offsets weaknesses now supplying Power outside the tag cap.
+- Rebuilt core rulebook PDF.
+
 ### Changed — Adversaries: Discovered weaknesses supply Power (2026-11-22)
 
 - A Discovered weakness supplies +1 Power to a PC action that exploits it, outside the +2 Tag Power cap and on the same outcomes as Tag Power. Each exploited weakness adds +1. It lasts while the PCs know it and the fiction hasn't changed.

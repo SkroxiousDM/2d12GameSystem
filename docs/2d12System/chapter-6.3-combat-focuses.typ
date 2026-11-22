@@ -8,7 +8,7 @@
 Loyal to a fault. You go back for the fallen, every time.
 ]
 
-- #strong[Tags:] #emph[I\'ve got your back];, #emph[carry them out];, #emph[can\'t walk away]
+- #strong[Tags:] #emph[Everyone Comes Home];, #emph[Their Safety Is My Responsibility]
 - #strong[PC link:] \"I once failed to save someone. \[PC\] reminds me of them.\"
 
 #figure(
@@ -59,7 +59,7 @@ Loyal to a fault. You go back for the fallen, every time.
 Captain, chief, or sergeant: people follow you.
 ]
 
-- #strong[Tags:] #emph[born to command];, #emph[they believe in me];, #emph[every loss is on me]
+- #strong[Tags:] #emph[Follow Me In];, #emph[I Carry Their Confidence]
 - #strong[PC link:] \"\[PC\] was the first person who ever followed my lead.\"
 
 #figure(
@@ -110,7 +110,7 @@ Captain, chief, or sergeant: people follow you.
 Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
 ]
 
-- #strong[Tags:] #emph[one with my \[weapon\]];, #emph[drilled every day];, #emph[lost without it]
+- #strong[Tags:] #emph[One With My \[Weapon\]];, #emph[My Training Takes Over]
 - #strong[PC link:] \"\[PC\] once saw me lose a duel, and kept it secret.\"
 
 #figure(
@@ -161,7 +161,7 @@ Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
 Honour is for people who can afford to lose.
 ]
 
-- #strong[Tags:] #emph[no rules in a fight];, #emph[eye for a cheap shot];, #emph[no one trusts me in a fair fight]
+- #strong[Tags:] #emph[Winning Comes Before Honour];, #emph[Every Weakness Is an Opening]
 - #strong[PC link:] \"I taught \[PC\] that winning is the only thing that matters. They\'re still deciding if I was right.\"
 
 #figure(

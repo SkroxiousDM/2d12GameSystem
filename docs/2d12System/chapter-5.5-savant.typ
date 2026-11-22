@@ -20,7 +20,9 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
   , kind: table
   )
 
-#strong[Playbook tags (choose 2):] #emph[read everything twice] · #emph[eye for detail] · #emph[steady surgeon\'s hands] · #emph[speaks the old tongues] · #emph[respected in academic circles] · #emph[thinks in diagrams]
+#strong[Playbook tags (choose 2 of 6):] #emph[I Have Read About This] · #emph[The Evidence Must Agree] · #emph[Every Patient Teaches Me] · #emph[I Think in Working Parts] · #emph[My Name Opens Learned Doors] · #emph[No Knowledge Should Be Forbidden]
+
+Each tag can supply Power when it helps your action or be compelled when the same trait creates a meaningful complication (Core Rules @core-tags, @core-tyche-points). The six options support a polymath, investigator, physician, engineer, established expert or boundary-breaking researcher; choose any two.
 ]
 
 === 5.1 Special Abilities <pb-savant-special-abilities>

@@ -21,7 +21,9 @@ Power from beyond the ordinary: magic, psionics, faith, or impossible technology
   , kind: table
   )
 
-#strong[Playbook tags (choose 2):] #emph[touched by the Other] · #emph[disciplined mind] · #emph[sees what others can\'t] · #emph[blessed] · #emph[tinkerer\'s genius] · #emph[fluent in the old pacts]
+#strong[Playbook tags (choose 2 of 6):] #emph[I Follow the Forms] · #emph[I Learn by Taking It Apart] · #emph[My Calling Is Greater Than Me] · #emph[I Notice What Others Tune Out] · #emph[The Old Agreements Still Matter] · #emph[I Trust My Gift Before the Rules]
+
+Each tag can supply Power when it helps your action or be compelled when the same trait creates a meaningful complication (Core Rules @core-tags, @core-tyche-points). The six options support a disciplined practitioner, experimental tinkerer, devoted servant, sensitive, keeper of pacts or instinctive prodigy; choose any two. These tags describe how you practise; they do not independently grant new powers, senses, contacts or Domains.
 ]
 
 === 8.1 Core Feature --- Domain (free) <pb-adept-core-feature>

@@ -20,7 +20,9 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
   , kind: table
   )
 
-#strong[Playbook tags (choose 2):] #emph[silver tongue] · #emph[friends in every port] · #emph[reads people like books] · #emph[noble bearing] · #emph[a hundred faces] · #emph[calm under fire]
+#strong[Playbook tags (choose 2 of 6):] #emph[There Is Always a Deal to Make] · #emph[I Tell Them the Story They Need] · #emph[People Need Something to Believe In] · #emph[I Know Which Names Matter] · #emph[I Listen Until They Tell Me] · #emph[Someone Has to Speak for Us]
+
+Each tag can supply Power when it helps your action or be compelled when the same trait creates a meaningful complication (Core Rules @core-tags, @core-tyche-points). The six options support a negotiator, confidence artist, orator, connected operator, confidant or representative; choose any two.
 ]
 
 === 6.1 Special Abilities <pb-interlocutor-special-abilities>

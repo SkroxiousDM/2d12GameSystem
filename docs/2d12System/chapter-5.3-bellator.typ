@@ -20,7 +20,9 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
   , kind: table
   )
 
-#strong[Playbook tags (choose 2):] #emph[built like a wall] · #emph[veteran of the line] · #emph[scarred and unbothered] · #emph[iron grip] · #emph[knows how a fight will go] · #emph[the look that stops trouble]
+#strong[Playbook tags (choose 2 of 6):] #emph[I Stand Between Them and Trouble] · #emph[I Have Held This Line Before] · #emph[My Reputation Throws the First Punch] · #emph[Put Your Weight Behind It] · #emph[A Fight Is a Problem of Position] · #emph[I Know What My Fists Can Do]
+
+Each tag can supply Power when it helps your action or be compelled when the same trait creates a meaningful complication (Core Rules @core-tags, @core-tyche-points). The six options support a protector, veteran, enforcer, powerhouse, tactician or controlled brawler; choose any two.
 ]
 
 === 3.1 Special Abilities <pb-bellator-special-abilities>

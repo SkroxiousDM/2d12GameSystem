@@ -7,7 +7,7 @@
 Beast handler, rider, falconer, or dog-musher.
 ]
 
-- #strong[Tags:] #emph[animals trust me];, #emph[calm voice];, #emph[better with animals than people]
+- #strong[Tags:] #emph[I Understand the Pack];, #emph[My Animals Are My Family]
 - #strong[PC link:] \"\[PC\] is the only person my animals like.\"
 
 #figure(
@@ -59,7 +59,7 @@ Beast handler, rider, falconer, or dog-musher.
 Explorer, navigator, or surveyor drawn to the blank parts of the map.
 ]
 
-- #strong[Tags:] #emph[always knows north];, #emph[mapmaker\'s eye];, #emph[can\'t resist the horizon]
+- #strong[Tags:] #emph[The Blank Map Calls to Me];, #emph[I Need to Know Where Everything Lies]
 - #strong[PC link:] \"\[PC\] backed my first expedition.\"
 
 #figure(
@@ -112,7 +112,7 @@ Requires Module B. This Focus uses the Grind, hardships, and Supplies throughout
 Survivalist, forager, or homesteader: you need nothing the world doesn\'t give.
 ]
 
-- #strong[Tags:] #emph[nothing goes to waste];, #emph[knows what\'s edible];, #emph[distrusts civilization]
+- #strong[Tags:] #emph[Nothing Goes to Waste];, #emph[The Land Provides What I Need]
 - #strong[PC link:] \"I taught \[PC\] how to survive their first winter.\"
 
 #figure(
@@ -164,7 +164,7 @@ Survivalist, forager, or homesteader: you need nothing the world doesn\'t give.
 Driver, pilot, sailor, or rider: you and your vehicle are one.
 ]
 
-- #strong[Tags:] #emph[my rig is part of me];, #emph[nerves of steel at speed];, #emph[can\'t leave her behind]
+- #strong[Tags:] #emph[My Rig Is Part of Me];, #emph[Speed Settles My Nerves]
 - #strong[PC link:] \"\[PC\] has ridden shotgun since day one.\"
 
 #figure(

@@ -22,7 +22,7 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
 
 #strong[Playbook tags (choose 2 of 6):] #emph[I Stand Between Them and Trouble] · #emph[I Have Held This Line Before] · #emph[My Reputation Throws the First Punch] · #emph[Put Your Weight Behind It] · #emph[A Fight Is a Problem of Position] · #emph[I Know What My Fists Can Do]
 
-Each tag can supply Power when it helps your action or be compelled when the same trait creates a meaningful complication (Core Rules @core-tags, @core-tyche-points). The six options support a protector, veteran, enforcer, powerhouse, tactician or controlled brawler; choose any two.
+The six options support a protector, veteran, enforcer, powerhouse, tactician or controlled brawler; choose any two.
 ]
 
 === 3.1 Special Abilities <pb-bellator-special-abilities>
@@ -59,7 +59,7 @@ Each tag can supply Power when it helps your action or be compelled when the sam
     [5], [#strong[Menacing];], [#ability(
       trigger: [You use Intimidate Effort or Resistance, or you succeed on Intimidate against minions.],
       cost: [Pay the normal cost for Effort or Resistance. After succeeding against minions, spend 1 Weal for the second benefit.],
-      benefit: [You may use #strong[Sōma] for Intimidate Effort and Resistance. After succeeding on Intimidate against minions, you may make them flee, surrender or freeze.],
+      benefit: [You may use #strong[Sōma] for Intimidate Effort and Resistance. After succeeding against minions, you may make them flee, surrender or freeze.],
       limit: [Flee, surrender or freeze applies only to minions and needs a successful Intimidate action. The response lasts until a meaningful change in circumstances ends it; establish that ending condition when it takes effect. Fleeing or surrendered minions don't resume opposition merely because a new exchange or scene begins. Surrender is submission to the immediate demand, not loyalty or unlimited obedience. Freezing is hesitation under threat, not paralysis.],
     )],
     [6], [#strong[Pain Tolerance];], [#ability(

@@ -22,7 +22,7 @@ Quiet, precise, and always three exits ahead. Thieves, spies, scouts, assassins,
 
 #strong[Playbook tags (choose 2 of 6):] #emph[I Belong Where No One Looks] · #emph[I Wait Until They Look Away] · #emph[My Hands Know What to Do] · #emph[The Underworld Knows Me] · #emph[A Different Face for Every Door] · #emph[Nothing I Break Looks Broken]
 
-Each tag can supply Power when it helps your action or be compelled when the same trait creates a meaningful complication (Core Rules @core-tags, @core-tyche-points). The six options support an infiltrator, patient opportunist, technical thief, criminal insider, impostor or saboteur; choose any two.
+The six options support an infiltrator, patient opportunist, technical thief, criminal insider, impostor or saboteur; choose any two.
 ]
 
 === 4.1 Special Abilities <pb-furcifer-special-abilities>

@@ -98,10 +98,10 @@ Compel: You accept a physical challenge to settle something that needed a differ
       benefit: [Ignore the penalty from a status of tier 1--2; at tier 3+, reduce it by 1.],
       limit: [Only the penalty changes: the tier, stacking, recovery, Taken Out, Dying and Scars work normally.],
     )],
-    // PLAYTEST: Weary fallback (exhausted-2) for games without Module B.
+    // PLAYTEST: Weary fallback (exhausted −2) for games without Module B.
     [7], [#strong[Berserker];], [#ability(
       trigger: [You enter a fury.],
-      cost: [At scene end, lose 2 Sōma (paid in full) or take #emph[Weary] (Module B; without it, #emph[exhausted-2] until a night's rest). Either is an accepted payment.],
+      cost: [At scene end, lose 2 Sōma (paid in full) or take #emph[Weary] (Module B; without it, #emph[exhausted −2] until a night's rest). Either is an accepted payment.],
       benefit: [#strong[+1 bonus die] (free) on Fight, Brawl and Athletics rolls for the rest of the scene.],
       limit: [Once per scene. While the fury lasts, you can't script Defend or retreat. The bonus die counts toward the normal bonus-dice cap.],
     )],
@@ -132,7 +132,7 @@ Compel: You accept a physical challenge to settle something that needed a differ
     table.hline(),
     [Fantasy], [#strong[Greataxe or warhammer] (2) --- #emph[+1 Attack];, #emph[crushing blows];], [#strong[Longsword & shield] (2) --- #emph[+1 Attack];, #emph[+1 Defend];],
     [Modern], [#strong[Combat shotgun] (2) --- #emph[+1 Attack];, #emph[room-clearer];], [#strong[Baseball bat & pistol] (2) --- #emph[+1 Attack] (bat), #emph[sidearm];],
-    [Sci-Fi], [#strong[Shock maul] (2) --- #emph[+1 Attack];, #emph[stuns on hit] (spend 1 Power: add #emph[dazed-1];)], [#strong[Vibro-blade & energy barrier] (2) --- #emph[+1 Attack];, #emph[+1 Defend];],
+    [Sci-Fi], [#strong[Shock maul] (2) --- #emph[+1 Attack];, #emph[stuns on hit] (spend 1 Power: add #emph[dazed −1];)], [#strong[Vibro-blade & energy barrier] (2) --- #emph[+1 Attack];, #emph[+1 Defend];],
   )]
   , kind: table
   )

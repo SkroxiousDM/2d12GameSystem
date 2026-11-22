@@ -20,7 +20,9 @@ At home where the map ends. Rangers, hunters, pilots, guides, explorers, scouts,
   , kind: table
   )
 
-#strong[Playbook tags (choose 2):] #emph[reads the weather] · #emph[never lost] · #emph[sharp-eyed hunter] · #emph[tireless] · #emph[at home in the wild] · #emph[steady at the helm]
+#strong[Playbook tags (choose 2 of 6):] #emph[The Land Leaves Signs] · #emph[I Bring People Through] · #emph[I Take Only What the Land Can Spare] · #emph[I Can Outlast the Journey] · #emph[I Stay Until the Quarry Comes] · #emph[I Know My Craft by Feel]
+
+Each tag can supply Power when it helps your action or be compelled when the same trait creates a meaningful complication (Core Rules @core-tags, @core-tyche-points). The six options support a tracker, guide, respectful forager, endurance traveller, hunter or pilot; choose any two. In #emph[I Know My Craft by Feel], craft means your established vehicle or vessel, not every form of transportation.
 ]
 
 === 7.1 Special Abilities <pb-explorator-special-abilities>

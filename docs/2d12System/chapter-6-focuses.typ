@@ -3,7 +3,7 @@
 // =====================================================================
 //  CHAPTER — GENERIC FOCUSES
 // =====================================================================
-#chapter("Generic Focuses", [Twenty-four setting-neutral Focuses complete the sentence: "...who [Focus]." Each one has three tags, a link to another player character, and tiered abilities with a choice at Tiers 2 and 3.], epigraph: [The verb of the character sentence.])
+#chapter("Generic Focuses", [Twenty-four setting-neutral Focuses complete the sentence: "...who [Focus]." Each one has two fixed double-sided tags, a link to another player character, and tiered abilities with a choice at Tiers 2 and 3.], epigraph: [The verb of the character sentence.])
 
 
 == 1. Focus Rules <foc-focus-rules>
@@ -15,7 +15,7 @@
     align: (auto,auto,),
     table.header([Element], [Detail],),
     table.hline(),
-    [#strong[Tags];], [3 (each can supply Power or be compelled for Tychē Points)],
+    [#strong[Tags];], [2 fixed double-sided tags (each can supply Power or be compelled for Tychē Points)],
     [#strong[PC link];], [A prompt that connects you to another player character],
     [#strong[Tier 1 ability];], [Fixed; gained at creation for free],
     [#strong[Tier 2 ability];], [#strong[Choose 1 of 2];; after 3 Advances, costs an Advance],
@@ -23,6 +23,8 @@
   )]
   , kind: table
   )
+
+Each Focus grants both listed tags. Neither is a separate weakness: each can supply Power when it helps your action or be compelled when the same trait creates a meaningful complication (Core Rules @core-tags, @core-tyche-points). Both uses must follow naturally from the tag's wording and the established fiction. These two tags, your two Descriptor tags and your two chosen Playbook tags form your six starting identity tags; tags granted separately by abilities or equipment remain additional.
 
 - #strong[The other option:] once you\'ve reached a tier, you may take its unchosen option later as a normal Advance.
 - #strong[★ Major:] costs 1 extra Refresh when taken (Generic Playbooks @pb-ability-notation). Every Focus has exactly one ★ option, always at Tier 3, so you can always choose a path that keeps your Refresh.

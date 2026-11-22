@@ -29,9 +29,9 @@ These steps describe the order of creation; the subsections below group rules by
 #figure(table(
   columns: (20%, 15%, 65%),
   table.header([Part], [Grammar], [What it gives you]),
-  [Descriptor], [Adjective], [+2 pool points to one pool, 2 tags, 1 suggested Instinct],
-  [Playbook], [Noun], [Starting pools and Edge, 2 tags, special abilities, XP trigger, load-out, an anchor skill],
-  [Focus], [Verb phrase], [A tag theme (3 tags), a Tier 1 Focus ability, and a link to another PC],
+  [Descriptor], [Adjective], [+2 pool points to one pool, 2 fixed double-sided tags, 1 suggested Instinct],
+  [Playbook], [Noun], [Starting pools and Edge, choose 2 of 6 double-sided tags, special abilities, XP trigger, load-out, an anchor skill],
+  [Focus], [Verb phrase], [2 fixed double-sided tags, a Tier 1 Focus ability, and a link to another PC],
 ))
 
 === 3.2 Pools and Edge <core-pools-edge>
@@ -106,12 +106,14 @@ A #strong[Knowledge Skill] is an unrated field of expertise: #emph[Regional Trad
 #emph[Example:] a medic recognises without a roll that a patient's symptoms don't match the recorded injury. Stabilising the patient during an evacuation is uncertain, so they roll Medicine and add a die for #emph[Trauma Care]. Knowledge changes what the character understands; a Specialisation changes the roll.
 
 === 3.4 Tags <core-tags>
-A new character has #strong[seven character tags]: 2 from the Descriptor, 2 from the Playbook and 3 from the Focus.
+A new character has #strong[six identity tags]: the 2 fixed tags from the Descriptor, 2 chosen from the Playbook's 6 options, and the 2 fixed tags from the Focus. Each is double-sided: it can supply Power or be compelled. Tags separately granted by equipment, Domains or abilities are additional to this starting identity package and follow their existing rules.
 
-- #strong[One description, two sides.] Each tag is a single description (#emph[ex-navy marksman], #emph[grandfather's revolver], #emph[owes the wrong people], #emph[loyal to the crew]). It isn't split into a benefit and a drawback; what it does depends on the situation.
+- #strong[One description, two sides.] Each tag is a single description (#emph[Built Like a Door], #emph[My Word Is Iron], #emph[Favours Run Both Ways]). Neither tag in a pair is assigned the role of strength or weakness. Both helpful uses and complications must follow naturally from that tag's wording and the established fiction.
 - #strong[When it helps,] it supplies #strong[+1 Power] on a Success or Success at a Cost, #strong[max +2 per action] (@core-outcomes). Explain how it helps. Tags never add to or subtract from the roll.
 - #strong[When it causes trouble,] it can be compelled for a Tychē Point (@core-tyche-points). A tag can supply Power and be compelled in the same action when the help and the trouble are distinct.
 - #strong[Burning a tag:] mark a relevant tag as burned to gain an automatic +1 Power on a success. It stays unusable until you recover it (a downtime action or a milestone). Burning ignores the +2 cap.
+
+#emph[Example:] #emph[My Word Is Iron] can supply Power when your reputation for keeping promises helps you earn trust. It can be compelled when honouring a promise demands a serious sacrifice. Both uses come from the same commitment.
 
 With a +2 cap, a third relevant tag is best used for burning or as Tychē Point invoke material.
 

@@ -7,7 +7,7 @@
 An artificer, engineer, or inventor who makes what shouldn\'t work, work.
 ]
 
-- #strong[Tags:] #emph[workshop hands];, #emph[it\'ll work, trust me];, #emph[never quite finished]
+- #strong[Tags:] #emph[There Has to Be a Way to Build It];, #emph[I Can Always Improve It]
 - #strong[PC link:] \"I built \[PC\]\'s gear, and I\'m still tinkering with it.\"
 
 #figure(
@@ -58,7 +58,7 @@ An artificer, engineer, or inventor who makes what shouldn\'t work, work.
 Doctor, field medic, herbalist, or combat surgeon.
 ]
 
-- #strong[Tags:] #emph[calm hands];, #emph[bedside manner];, #emph[can\'t refuse anyone in pain]
+- #strong[Tags:] #emph[No One Is Beyond My Care];, #emph[The Patient Comes First]
 - #strong[PC link:] \"I patched up \[PC\] when no one else would.\"
 
 #figure(
@@ -110,7 +110,7 @@ Doctor, field medic, herbalist, or combat surgeon.
 Detective, investigator, or analyst: you follow the thread to the end.
 ]
 
-- #strong[Tags:] #emph[nothing gets past me];, #emph[follows the thread];, #emph[obsessed with the case]
+- #strong[Tags:] #emph[Every Detail Must Fit];, #emph[I Follow the Case Wherever It Leads]
 - #strong[PC link:] \"\[PC\] was part of the case that made me.\"
 
 #figure(
@@ -163,7 +163,7 @@ Detective, investigator, or analyst: you follow the thread to the end.
 Historian, archaeologist, or keeper of lost lore.
 ]
 
-- #strong[Tags:] #emph[walks among ruins];, #emph[reads dead languages];, #emph[lives in the past]
+- #strong[Tags:] #emph[The Past Still Has Something to Say];, #emph[What Was Lost Must Be Preserved]
 - #strong[PC link:] \"\[PC\] helped me recover something that was lost.\"
 
 #figure(

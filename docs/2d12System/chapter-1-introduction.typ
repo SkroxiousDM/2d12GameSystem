@@ -30,7 +30,7 @@ When a rule here mentions another chapter, it uses that chapter's name and secti
 - *★ Major.* An ability that costs *1 extra Refresh* whenever you take it (Core Rules @core-starting-resources, Generic Playbooks @pb-ability-notation).
 - *◆ Capstone.* A playbook's final ability, unlocked by advancement. Take it as an Advance; it costs no Refresh (Core Rules @core-spending-xp).
 - *◈ Weird.* A Focus that assumes the supernatural, strange technology or other weird elements. Each setting decides which ◈ Focuses it allows and how its world reacts to them.
-- *Tags* are written in _italics_, such as _scarred knuckles_. *Personal statuses* add a hyphenated tier, such as _wounded-2_; *Situational Conditions* add a rating, such as _smoke cover 2_. *Truths* carry no number.
+- *Tags* are written in _italics_, such as _scarred knuckles_. *Personal statuses* use a space and a signed value: _inspired +2_ reads "inspired plus two"; _wounded −2_ reads "wounded minus two". Use a true minus sign (−), not a hyphen. The sign stays attached to the number. This notation doesn't override a status's specific rules. *Situational Conditions* add an unsigned rating, such as _smoke cover 2_. *Truths* carry no number.
 - *Difficulty* is written by name and target, such as *Standard 15* or *Hard 18*.
 
 #sidebar("Settings")[

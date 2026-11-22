@@ -10,6 +10,16 @@ Silent, patient, and impossible to pin down.
 - #strong[Tags:] #emph[The Shadows Are My Shelter];, #emph[I Leave Little Trace]
 - #strong[PC link:] \"\[PC\] is the only one who always knows where I am.\"
 
+#emph[The Shadows Are My Shelter]
+
+Power: Hide, approach unseen, and move through concealed routes. \
+Compel: You cling to concealment when helping requires stepping into view.
+
+#emph[I Leave Little Trace]
+
+Power: Move quietly and conceal evidence of your passage. \
+Compel: Allies or rescuers cannot follow you, or you delay to erase a revealing trace.
+
 #figure(
   [#table(
     columns: (7%, 18%, 75%),
@@ -63,6 +73,16 @@ Sniper, archer, gunslinger: steady breath and a sharp eye.
 - #strong[Tags:] #emph[I Wait for the Perfect Shot];, #emph[I Keep Danger at a Distance]
 - #strong[PC link:] \"\[PC\] owes their life to a shot I made.\"
 
+#emph[I Wait for the Perfect Shot]
+
+Power: Aim patiently and choose a precise opening. \
+Compel: You let a fleeting opportunity pass while waiting for a better one.
+
+#emph[I Keep Danger at a Distance]
+
+Power: Control sightlines and engage threats from range. \
+Compel: You give ground or separate from allies to avoid a close confrontation.
+
 #figure(
   [#table(
     columns: (7%, 18%, 75%),
@@ -114,6 +134,16 @@ Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
 
 - #strong[Tags:] #emph[A Lock Is a Challenge];, #emph[I Think Like the One Who Built It]
 - #strong[PC link:] \"\[PC\] keeps me out of trouble, or tries to.\"
+
+#emph[A Lock Is a Challenge]
+
+Power: Defeat locks, safes, and security barriers. \
+Compel: You attempt an unnecessary breach to prove that you can.
+
+#emph[I Think Like the One Who Built It]
+
+Power: Understand security layouts and anticipate their safeguards. \
+Compel: You assume a system follows a sensible design when its builder did not.
 
 #figure(
   [#table(
@@ -167,6 +197,16 @@ You never walk into a room without knowing how to leave it.
 
 - #strong[Tags:] #emph[I Know How I Am Leaving];, #emph[I Never Stake Everything]
 - #strong[PC link:] \"\[PC\] was with me during my worst getaway.\"
+
+#emph[I Know How I Am Leaving]
+
+Power: Identify exits and prepare a withdrawal. \
+Compel: You reject an important opportunity because it lacks a secure escape route.
+
+#emph[I Never Stake Everything]
+
+Power: Preserve a fallback, reserve, or hidden resource. \
+Compel: You withhold something needed to make a shared plan succeed.
 
 #figure(
   [#table(

@@ -22,8 +22,38 @@ Quiet, precise, and always three exits ahead. Thieves, spies, scouts, assassins,
 
 #strong[Playbook tags (choose 2 of 6):] #emph[I Belong Where No One Looks] · #emph[I Wait Until They Look Away] · #emph[My Hands Know What to Do] · #emph[The Underworld Knows Me] · #emph[A Different Face for Every Door] · #emph[Nothing I Break Looks Broken]
 
-Each tag can supply Power when it helps your action or be compelled when the same trait creates a meaningful complication (Core Rules @core-tags, @core-tyche-points). The six options support an infiltrator, patient opportunist, technical thief, criminal insider, impostor or saboteur; choose any two.
+The six options support an infiltrator, patient opportunist, technical thief, criminal insider, impostor or saboteur; choose any two.
 ]
+
+#emph[I Belong Where No One Looks]
+
+Power: Find overlooked routes, blend into the background, or work without attracting attention. \
+Compel: Remaining unnoticed keeps you from intervening when someone needs visible support.
+
+#emph[I Wait Until They Look Away]
+
+Power: Time a theft, ambush, or delicate action around a distraction. \
+Compel: You let an opportunity pass while waiting for a safer opening.
+
+#emph[My Hands Know What to Do]
+
+Power: Pick a pocket, manipulate a mechanism, or perform delicate work by touch. \
+Compel: You start handling something before checking its safeguards or asking permission.
+
+#emph[The Underworld Knows Me]
+
+Power: Navigate criminal customs, recognise illicit dealings, or negotiate with people outside the law. \
+Compel: An old associate recognises you, expects assistance, or remembers unfinished business.
+
+#emph[A Different Face for Every Door]
+
+Power: Adopt a convincing role, misdirect suspicion, or enter under false pretences. \
+Compel: Maintaining a role creates an obligation, or two of your stories collide.
+
+#emph[Nothing I Break Looks Broken]
+
+Power: Conceal tampering, disable something discreetly, or disguise deliberate interference as ordinary failure. \
+Compel: Someone unknowingly relies on what you sabotaged, or secrecy prevents you from warning them.
 
 === 4.1 Special Abilities <pb-furcifer-special-abilities>
 ==== Shared Opening: Unaware or Impeded

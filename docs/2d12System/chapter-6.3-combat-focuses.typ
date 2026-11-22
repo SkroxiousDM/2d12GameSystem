@@ -11,6 +11,16 @@ Loyal to a fault. You go back for the fallen, every time.
 - #strong[Tags:] #emph[Everyone Comes Home];, #emph[Their Safety Is My Responsibility]
 - #strong[PC link:] \"I once failed to save someone. \[PC\] reminds me of them.\"
 
+#emph[Everyone Comes Home]
+
+Power: Rescue, extract, or rally endangered companions. \
+Compel: You go back when escape requires leaving someone behind.
+
+#emph[Their Safety Is My Responsibility]
+
+Power: Anticipate threats to others and coordinate their protection. \
+Compel: You take control of someone’s safety against their wishes or accept too much risk yourself.
+
 #figure(
   [#table(
     columns: (7%, 18%, 75%),
@@ -61,6 +71,16 @@ Captain, chief, or sergeant: people follow you.
 
 - #strong[Tags:] #emph[Follow Me In];, #emph[I Carry Their Confidence]
 - #strong[PC link:] \"\[PC\] was the first person who ever followed my lead.\"
+
+#emph[Follow Me In]
+
+Power: Lead an advance and inspire others through visible action. \
+Compel: You expose yourself rather than direct events from safety.
+
+#emph[I Carry Their Confidence]
+
+Power: Rally followers and steady a wavering group. \
+Compel: You conceal your doubts or accept a challenge to preserve their faith in you.
 
 #figure(
   [#table(
@@ -113,6 +133,16 @@ Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
 - #strong[Tags:] #emph[One With My \[Weapon\]];, #emph[My Training Takes Over]
 - #strong[PC link:] \"\[PC\] once saw me lose a duel, and kept it secret.\"
 
+#emph[One With My \[Weapon\]]
+
+Power: Wield, maintain, and understand your chosen weapon. \
+Compel: You resist surrendering it or struggle to abandon its familiar approach.
+
+#emph[My Training Takes Over]
+
+Power: React through disciplined, deeply practised technique. \
+Compel: An opponent exploits your habits, or an unconventional situation defeats your routine.
+
 #figure(
   [#table(
     columns: (7%, 18%, 75%),
@@ -163,6 +193,16 @@ Honour is for people who can afford to lose.
 
 - #strong[Tags:] #emph[Winning Comes Before Honour];, #emph[Every Weakness Is an Opening]
 - #strong[PC link:] \"I taught \[PC\] that winning is the only thing that matters. They\'re still deciding if I was right.\"
+
+#emph[Winning Comes Before Honour]
+
+Power: Use deception, surprise, and ruthless expedience. \
+Compel: Your methods cost trust, legitimacy, or a valuable alliance.
+
+#emph[Every Weakness Is an Opening]
+
+Power: Exploit distraction, injury, pride, or poor positioning. \
+Compel: You take a tempting cheap shot that exposes you or escalates the conflict.
 
 #figure(
   [#table(

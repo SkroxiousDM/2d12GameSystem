@@ -88,7 +88,7 @@ Write as many as the Rank allows.
 - #strong[Power tags] explain the Best action and what the adversary can do: faster than you can see, old-world steel, a hundred donors. They add nothing to the roll; together they justify its flat Tag Power.
 - #strong[Weakness tags] are levers PCs can find with Discover: proud beyond reason, fears fire, fixed in place.
 - #strong[Suppressing a power tag] (Weaken 1, Disarm 3, Called Shot): for the scene, the adversary adds no Tag Power on actions that tag explained. If the tag powers a Special, the Special is off for the scene instead.
-- #strong[A Discovered weakness] becomes a rating-1 harmful Situational Condition on the adversary for the scene (#emph[fears fire 1]; Core Rules @core-situational-conditions). It gives +1 to a PC roll whose approach exploits it, and nothing otherwise.
+- #strong[A Discovered weakness] supplies #strong[+1 Power] to a PC action whose approach exploits it, #strong[outside] the +2 Tag Power cap. It applies on the same outcomes as Tag Power (Core Rules @core-outcomes): a Success or Success at a Cost, never a Failure or a lost versus roll. Each exploited weakness adds +1. It adds nothing to the roll, and it holds while the PCs know it and the fiction hasn't changed.
 - #strong[Compelling a weakness] costs 1 Weal or 1 Tychē. The adversary acts on it and the GM gains 1 Woe.
 
 Use the effect permissions of the procedure being resolved (Core Rules @core-effects, @core-actions-effects). A successful scripted action may buy relevant Discover; this summary grants no unrelated questions or additional status permission. General Weaken requires an explicit ability in conflicts; use Maneuver's priced Disarm for ordinary asset denial. Called Shot retains only its named permission and duration.

@@ -6,12 +6,17 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Adversaries: Discovered weaknesses supply Power (2026-11-22)
+
+- A Discovered weakness supplies +1 Power to a PC action that exploits it, outside the +2 Tag Power cap and on the same outcomes as Tag Power. Each exploited weakness adds +1. It lasts while the PCs know it and the fiction hasn't changed.
+- Rebuilt core rulebook PDF.
+
 ### Changed — Adversaries: flat Tag Power and ratings without tags (2026-11-22)
 
 - Adversary ratings no longer include tags: every Rank's Best / Fair / Weak drops by 2, and all eight template cards are updated. The starting-PC benchmark is now +4 (top skill), so versus odds are unchanged.
 - Adversaries have a flat Tag Power of 1 wherever the core adds Tag Power: a win gives 2 Power plus margin, Success at a Cost gives 1.
 - Suppressing a power tag removes that Tag Power for the scene on actions the tag explained (or switches off the Special it powers).
-- A Discovered weakness becomes a rating-1 harmful Situational Condition on the adversary for the scene, giving +1 to PC rolls that exploit it.
+- A Discovered weakness no longer gives +1 on the roll (see the next entry for its replacement).
 - Passive opposition is now 14 + rating, keeping the same Difficulties.
 - Rebuilt core rulebook PDF.
 

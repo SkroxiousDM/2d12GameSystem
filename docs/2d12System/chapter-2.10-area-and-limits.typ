@@ -19,7 +19,7 @@ Apply any eligible injury trade against the combined loss (@core-accepting-injur
 
 #strong[Explicitly inflicted statuses.] When an area effect explicitly inflicts a status, every affected character receives the full purchased or listed tier. Resolve each character's Resistance or NPC harm reduction separately, then stack the remaining status normally.
 
-#emph[Example:] an effect that inflicts #emph[burned-3] in an area inflicts #emph[burned-3] on every affected character, not tier 3 on one and tier 1 on the others.
+#emph[Example:] an effect that inflicts #emph[burned −3] in an area inflicts #emph[burned −3] on every affected character, not tier 3 on one and tier 1 on the others.
 
 An ordinary conflict Attack or Feint inflicts no status just because it covers an area; it inflicts both loss and statuses only if an explicit rule says so. Outside conflicts, area effects inflict statuses normally and no Disposition loss. Offensive bonuses apply to their stated component (@core-actions-effects).
 

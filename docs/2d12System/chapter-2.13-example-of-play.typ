@@ -11,7 +11,7 @@
 - #strong[Effort, part 2:] Kade spends another 2 Mētis for #strong[+1 Power → 6 Power];.
 - #strong[Spend:] Advance the #emph[Reach the Cell] clock by 4 (4 Power), filling it: he reaches the cell unseen. Discover (1 Power): \"Where is the key?\" --- \"On the sergeant\'s belt.\" 1 Power left → #strong[+1 Weal];.
 - #strong[Had it cost him:] on a Success at a Cost he would have had only his 2 Tag Power: two segments, short of the cell, plus a consequence or 1 Woe.
-- #strong[Later:] the sergeant\'s dread patron, a bound spirit, lashes out with #emph[terror-3];. Kade Resists with #strong[Pneuma] (Edge 0), so 2d12: highest die 7 → cost 2 Pneuma. The status drops to #emph[terror-1];.
+- #strong[Later:] the sergeant\'s dread patron, a bound spirit, lashes out with #emph[terror −3];. Kade Resists with #strong[Pneuma] (Edge 0), so 2d12: highest die 7 → cost 2 Pneuma. The status drops to #emph[terror −1];.
 - #strong[Compel:] the GM compels #emph[Reckless];: \"You can\'t wait for backup; you go in now.\" Kade accepts and gains +1 Tychē Point.
 
 === 13.1 A Scripted Conflict <core-scripted-conflict>
@@ -36,7 +36,7 @@ Mira wins by 2: 1 Power for winning plus 1 Tag Power from her weapon's +1 Attack
 
 #strong[Volley 3 --- Defend versus Feint.] Tarin's Defend is trumped: no roll, and no Disposition restored. The first guard's Feint rolls independently and succeeds with 2 Power, committed to remove 3 PC Disposition.
 
-Before applying that loss, Tarin accepts a new lasting #emph[sprained shoulder-3], describing how he holds the gate open while the others push through. The injury follows from the action and preserves the side's position. A tier-3 injury cancels 2 incoming loss, so the PCs lose only 1 Disposition, falling from 8 to #strong[7]. Tarin marks his once-per-conflict injury trade used; at most one participant could trade against this Feint (@core-accepting-injury).
+Before applying that loss, Tarin accepts a new lasting #emph[sprained shoulder −3], describing how he holds the gate open while the others push through. The injury follows from the action and preserves the side's position. A tier-3 injury cancels 2 incoming loss, so the PCs lose only 1 Disposition, falling from 8 to #strong[7]. Tarin marks his once-per-conflict injury trade used; at most one participant could trade against this Feint (@core-accepting-injury).
 
 The injury is a protected payment: armour, Resistance, redirection and incidental clearing can't touch it, and later healing doesn't refund the trade (@core-costs-failures-complications). Below tier 6, it doesn't take him out.
 

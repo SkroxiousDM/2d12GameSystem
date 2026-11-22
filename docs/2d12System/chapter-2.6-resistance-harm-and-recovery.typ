@@ -132,7 +132,7 @@ The status must fit both the pool and the action that drained it:
 
 #strong[One status per pool.] The first time a pool runs dry, that status becomes the pool's depletion status for the rest of the continuous ordeal. Write the pool beside it. Running dry in that pool again worsens the same status, unless a genuinely different cause calls for a different consequence. A new name or description is not a different cause. Each running-dry event worsens only one status.
 
-#strong[Example.] You have #emph[mentally exhausted-2] and overrun Psychē by 2. The incoming status is tier 3, one above the higher tier is 4, so you now have #emph[mentally exhausted-4].
+#strong[Example.] You have #emph[mentally exhausted −2] and overrun Psychē by 2. The incoming status is tier 3, one above the higher tier is 4, so you now have #emph[mentally exhausted −4].
 
 #strong[It is a cost.] A running-dry status is a protected payment (@core-costs-failures-complications). Once recorded, it can be treated, Restored or healed like any other status.
 

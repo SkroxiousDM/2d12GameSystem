@@ -6,7 +6,7 @@
 == 1. Principles <adv-principles>
 #columns(2, gutter: 6mm)[
 - #strong[No pools.] Ordinary adversaries don't track Sōma, Mētis, Psychē or Pneuma. #strong[Grit] contributes to their side's starting shared Disposition; it isn't a personal track. #strong[Shrugs] are free Resists. Rivals built as full PCs use their PC resources and applicable exceptions.
-- #strong[Tags are already counted.] Ratings include tags. PCs still Discover, Suppress and compel them.
+- #strong[Flat Tag Power.] Ratings don't include tags. Wherever the core adds Tag Power (Core Rules @core-outcomes), an adversary adds exactly #strong[1], however many power tags it has: a win gives 2 Power plus margin, and a Success at a Cost gives 1. PCs still Discover, Suppress and compel its tags.
 #colbreak()
 - #strong[Woe is fuel.] Ordinary adversaries buy bonus dice (1 Woe each, max +2 including free dice) and fire Specials with Woe. They never use Effort and can't overrun Woe costs.
 - #strong[One best action.] Every card has one clearly best action and a #strong[Tell] that hints at it. Give the players something to script around.
@@ -49,11 +49,11 @@ One line: who it is and what it wants. Pick a #strong[Kind]: Human, Beast or Gua
 
 #figure(table(columns: (20%, 8%, 17%, 9%, 9%, 17%, 20%),
   table.header([Rank], [Grit = Threat], [Best / Fair / Weak], [Guard], [Shrugs], [Tags: power / weakness], [Specials]),
-  [Minion group (3--6 Bodies)], [3], [+4 / +2 / +0], [+0], [Bodies], [2 / 1], [1 group trait],
-  [Minor], [3], [+5 / +3 / +1], [+0], [0], [2 / 1], [1],
-  [Established], [5], [+6 / +4 / +2], [+1], [1], [3 / 1], [2],
-  [Great], [8], [+8 / +5 / +3], [+2], [2], [4 / 2], [3],
-  [Paramount], [12], [+10 / +7 / +4], [+3], [3], [5 / 2], [4],
+  [Minion group (3--6 Bodies)], [3], [+2 / +0 / −2], [+0], [Bodies], [2 / 1], [1 group trait],
+  [Minor], [3], [+3 / +1 / −1], [+0], [0], [2 / 1], [1],
+  [Established], [5], [+4 / +2 / +0], [+1], [1], [3 / 1], [2],
+  [Great], [8], [+6 / +3 / +1], [+2], [2], [4 / 2], [3],
+  [Paramount], [12], [+8 / +5 / +2], [+3], [3], [5 / 2], [4],
 ))
 #columns(2, gutter: 6mm)[
 Rank is how dangerous it is #emph[now]. It sets every number.       
@@ -61,10 +61,10 @@ Settings supply any Kind-specific construction exceptions; don't add a setting b
 
 #strong[Tiers.] Minion groups are the mob. Minor and Established are rivals. Great and Paramount can serve as bosses, but Rank alone doesn't grant Boss Phases. Explicit phased-boss designation follows @adv-eligibility-fixed-designation.
 
-Use +6 as a starting-PC benchmark from skill and tags, not a universal maximum. With one bonus die, that PC wins a versus roll about this often against an adversary that rolls no bonus dice:
+Use +4 as a starting-PC benchmark: a top skill, since tags supply Power rather than a roll bonus. It isn't a universal maximum. With one bonus die, that PC wins a versus roll about this often against an adversary that rolls no bonus dice:
 
 #figure(table(columns: (28%, 14%, 14%, 14%, 14%, 16%),
-  table.header([Adversary rating], [+2], [+4], [+6], [+8], [+10]),
+  table.header([Adversary rating], [+0], [+2], [+4], [+6], [+8]),
   [PC win chance], [85%], [77%], [67%], [56%], [about 45%],
 ))
 Each Woe die you add moves the odds back toward the adversary. These are roll benchmarks, not encounter-win predictions; versus totals, exceptional doubles and ability-created doubles follow Core Rules @core-doubles and @core-scripting-volleys. The listed benchmarks aren't current encounter-balance validation.
@@ -85,10 +85,10 @@ The Role names the Best action and gives one trait. Assign Fair to two other act
 
 === Step 4 — Tags
 Write as many as the Rank allows.
-- #strong[Power tags] explain the Best action: faster than you can see, old-world steel, a hundred donors.
+- #strong[Power tags] explain the Best action and what the adversary can do: faster than you can see, old-world steel, a hundred donors. They add nothing to the roll; together they justify its flat Tag Power.
 - #strong[Weakness tags] are levers PCs can find with Discover: proud beyond reason, fears fire, fixed in place.
-- #strong[Suppressing a power tag] (Weaken 1, Disarm 3, Called Shot) lowers the rating it supports by 1 for the scene. If the tag powers a Special, the Special is off for the scene instead.
-- #strong[Using a Discovered weakness] gives the PC +1 on the roll.
+- #strong[Suppressing a power tag] (Weaken 1, Disarm 3, Called Shot): for the scene, the adversary adds no Tag Power on actions that tag explained. If the tag powers a Special, the Special is off for the scene instead.
+- #strong[A Discovered weakness] becomes a rating-1 harmful Situational Condition on the adversary for the scene (#emph[fears fire 1]; Core Rules @core-situational-conditions). It gives +1 to a PC roll whose approach exploits it, and nothing otherwise.
 - #strong[Compelling a weakness] costs 1 Weal or 1 Tychē. The adversary acts on it and the GM gains 1 Woe.
 
 Use the effect permissions of the procedure being resolved (Core Rules @core-effects, @core-actions-effects). A successful scripted action may buy relevant Discover; this summary grants no unrelated questions or additional status permission. General Weaken requires an explicit ability in conflicts; use Maneuver's priced Disarm for ordinary asset denial. Called Shot retains only its named permission and duration.

@@ -6,6 +6,15 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Adversaries: flat Tag Power and ratings without tags (2026-11-22)
+
+- Adversary ratings no longer include tags: every Rank's Best / Fair / Weak drops by 2, and all eight template cards are updated. The starting-PC benchmark is now +4 (top skill), so versus odds are unchanged.
+- Adversaries have a flat Tag Power of 1 wherever the core adds Tag Power: a win gives 2 Power plus margin, Success at a Cost gives 1.
+- Suppressing a power tag removes that Tag Power for the scene on actions the tag explained (or switches off the Special it powers).
+- A Discovered weakness becomes a rating-1 harmful Situational Condition on the adversary for the scene, giving +1 to PC rolls that exploit it.
+- Passive opposition is now 14 + rating, keeping the same Difficulties.
+- Rebuilt core rulebook PDF.
+
 ### Changed — Module C: faction assets are asset tags (2026-11-21)
 
 - C.8: a faction's obvious and less obvious assets are written as asset tags; together they still set its rating.

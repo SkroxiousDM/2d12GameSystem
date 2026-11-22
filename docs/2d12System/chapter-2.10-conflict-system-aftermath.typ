@@ -11,12 +11,12 @@ Each feature supports one scenery action per conflict unless its nature clearly 
 ]
 #figure(table(columns: (17%, 20%, 8%, 30%, 25%),
   table.header([Action], [Requirement], [Power], [Result], [Danger]),
-  [Grab a Ride], [A fixture and clear path], [2], [Gain Position and move to another reachable location; ignore Impede this volley.], [Tier-1 winded.],
-  [Tip & Drop], [A heavy object and a target below], [3], [Remove 3 opposing Disposition, without the Attack bonus.], [An ally takes tier-1 struck.],
-  [Floor Collapse], [A support that can be broken], [2], [Create the dangerous Truth #emph[Collapsing Floor]: the affected area can't be crossed or held without a way over.], [Tier-1 stunned or a lost tag.],
+  [Grab a Ride], [A fixture and clear path], [2], [Gain Position and move to another reachable location; ignore Impede this volley.], [#emph[winded −1].],
+  [Tip & Drop], [A heavy object and a target below], [3], [Remove 3 opposing Disposition, without the Attack bonus.], [An ally takes #emph[struck −1].],
+  [Floor Collapse], [A support that can be broken], [2], [Create the dangerous Truth #emph[Collapsing Floor]: the affected area can't be crossed or held without a way over.], [#emph[stunned −1] or a lost tag.],
   [Carpet Pull], [A suitable covering and unwarned foes], [2], [Impede each opposing participant's next action roll this exchange.], [Your next Defend takes −1.],
   [Drape Drop], [Hangings, netting or similar material], [1], [Impede the opposing side's next action.], [Your next action takes −1.],
-  [Shove 'Em Off], [An edge and an adjacent target], [3], [One opponent loses their next scripted action while recovering.], [Tier-2 off balance.],
+  [Shove 'Em Off], [An edge and an adjacent target], [3], [One opponent loses their next scripted action while recovering.], [#emph[off balance −2].],
   [Make a Hazard], [Fuel, fluid or a breakable container], [2], [Create a dangerous Truth in the area, naming its exposure and consequence (@core-dangers-conflicts).], [You are also exposed to it.],
 ))
 #columns(2, gutter: 6mm)[

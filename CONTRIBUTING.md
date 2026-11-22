@@ -4,6 +4,8 @@ This repository is the working source for **The 2d12 System** core rulebook and 
 
 Read the [README](README.md) first for the layout, the books and how to build them.
 
+Contributors and AI editors must also follow the [Contributor and AI editorial style guide](STYLE-GUIDE.md) for the whole system's plain, table-facing voice, Canadian English, terminology, mechanical fidelity and notation. Personal statuses use explicit signed values with a space after the name: *warded +2* and *wounded −2*. The negative sign is a true minus sign (`−`, U+2212), not a hyphen. Signed notation does not override a status's specific rules or grant a roll modifier by itself.
+
 ## Where Things Live
 
 | You want to change | Edit this file |
@@ -88,11 +90,13 @@ Add an entry under `## [Unreleased]` in [`CHANGELOG.md`](CHANGELOG.md). Use a he
 
 ## Style Conventions
 
+Use [STYLE-GUIDE.md](STYLE-GUIDE.md) for editorial voice and signed personal status notation. The source-specific conventions below still apply. Flag terminology or spelling conflicts for review rather than silently renaming mechanics.
+
 ### Rules text
 
 - **House names, always.** Use **Sōma, Akmē, Psychē, Pneuma** for the pools, plus **Tychē Points**, **Woe** and **Weal**. Use the playbook names **Bellator, Furcifer, Savant, Interlocutor, Explorator, Adept**. Never use the working names (Vitality, Threat, Fate, Bruiser...) except in the terminology tables.
 - **Cross-references** give a chapter name and section, not a chapter number: `Core Rules §6.3`, `Generic Focuses §9.2`, `Frontier Rules §5.2`. A bare `§6` means the same chapter. Chapter numbers differ between books, so never write "Chapter II".
-- **Notation:** ★ Major (costs 1 Refresh), ◆ Capstone, ◈ Weird. Tags in italics (`#emph[marks on my throat]`), statuses with a tier (`#emph[wounded-2]`), Difficulty by name and target (`Standard 15`).
+- **Notation:** ★ Major (costs 1 Refresh), ◆ Capstone, ◈ Weird. Tags in italics (`#emph[marks on my throat]`); personal statuses in italics with explicit signed values (`#emph[warded +2]`, `#emph[wounded −2]`); Difficulty by name and target (`Standard 15`). Use a space before the signed value and a true minus sign (`−`, U+2212) for negative values. Preserve each status's specific rules.
 - **Tone:** rules are short and procedural. Flavour can be more literary, but it should still be brief and help at the table.
 - **Canadian spelling** (the documents set `region: "CA"`): stabilise, armour, colour.
 
@@ -100,7 +104,7 @@ Add an entry under `## [Unreleased]` in [`CHANGELOG.md`](CHANGELOG.md). Use a he
 
 - Each book is multi-file, using `#include` to bring in each chapter and section. Use the existing helpers (`#chapter`, `#sidebar`, `#playbook-art-side`, `#figure(table(...))`) instead of formatting by hand.
 - Set new chapters with `#chapter(title, blurb, epigraph: ...)` so they get a divider page and a table-of-contents entry.
-- Use `--` and `---` for en and em dashes, as the existing source does.
+- Use `--` and `---` for en and em dashes, as the existing source does. These are punctuation, not substitutes for the true minus sign in personal status notation.
 - **Core rulebook cross-references are Typst references.** Each numbered heading keeps its number in the text and carries a label: `=== 7.1 Last Stand <adv-last-stand>`. Write `@adv-last-stand` and the book prints "§7.1" as a link. Write a range as `@a[§§]--@b[]` ("§§7.1–7.3") and a span as `@a[§]--@b[]` ("§10.2–10.3"); `@b[]` drops the sign. Put the chapter name in front as usual: `Core Rules @core-setup`. When you renumber a section, change only its heading. Setting books and the character sheet are separate documents, so their core references stay plain text.
 - Art goes in the book's own `art/` folder. Commit both the `.png` original and the `.jpg` used in the book.
 

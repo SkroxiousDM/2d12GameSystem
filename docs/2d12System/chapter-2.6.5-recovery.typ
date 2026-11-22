@@ -129,7 +129,7 @@ Stabilising doesn't erase marked segments, reduce the injury, refill pools or re
 === 6.8 Permanent Harm <core-permanent-harm>
 #strong[Where it comes from.] An injury doesn't become permanent just because its tier is high. Permanent harm needs an established permanent-injury stake, a specific effect or creature rule, a voluntary bargain, or a Scar-giving event. Reaching tier 6 gives a Scar (@core-tier-6-scars), not a permanent loss.
 
-#strong[The wound heals; the loss stays.] A permanent change can outlast the injury that caused it. When #emph[severed hand-4] has healed, the hand is still gone: the status measured the acute
+#strong[The wound heals; the loss stays.] A permanent change can outlast the injury that caused it. When #emph[severed hand −4] has healed, the hand is still gone: the status measured the acute
 wound. Record the lasting change as a tag or a character fact, not as a status that never heals.
 
 #strong[Adapting.] Training, help, prostheses, advanced technology or supernatural intervention can change how permanent harm affects play. A replacement doesn't automatically remove a related Scar, and a Scar doesn't make a replacement useless. Don't reduce maximum pools, Edge, skills or Refresh unless the effect or an agreed Advance says so.

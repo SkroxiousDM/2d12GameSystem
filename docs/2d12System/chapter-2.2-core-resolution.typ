@@ -19,7 +19,7 @@ Use at most one helpful and one harmful modifier from each of the two slots; equ
 #strong[Fixed modifiers.] A rule that names a fixed modifier, such as Impede (−3, @core-actions-effects) or the Grind's #emph[sick] (−1, Module B.3), applies it in addition to the slots; it isn't a status or Condition and doesn't use a slot. Adversary Guard raises the Difficulty instead (@core-scripting-volleys), and Gain Position adds a bonus die (@core-bonus-dice-effort). (Playtest Value)
 
 // PLAYTEST: status and Condition slots together range from −12 to +12; no lower Situational cap adopted.
-#emph[Example:] dice 16 + Skill 3 − #emph[exhausted-3] + #emph[rehearsed plan 2] − #emph[slippery bridge 3] = 15.
+#emph[Example:] dice 16 + Skill 3 + (#emph[exhausted −3]) + #emph[rehearsed plan 2] − #emph[slippery bridge 3] = 15.
 
 Why 2d12 summed: it produces a bell curve (2--24, average 13) --- predictable for skilled characters, swingy at the extremes, and big enough that +1 modifiers matter without dominating.
 
@@ -68,7 +68,7 @@ Chance to hit the number needed on the dice (after subtracting your bonuses):
   , kind: table
   )
 
-Example: Skill +3 and #emph[focused-1] (+1) vs. Standard 15 → need 11+ → #strong[69%];, or #strong[88%] with one bonus die.
+Example: Skill +3 and #emph[focused +1] (+1) vs. Standard 15 → need 11+ → #strong[69%];, or #strong[88%] with one bonus die.
 
 === 2.4 Bonus Dice and Effort <core-bonus-dice-effort>
 You can add d12s to the roll and #strong[keep the best two];. Maximum #strong[+2 bonus dice] (4d12 keep 2) from any combination of:

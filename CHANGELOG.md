@@ -6,6 +6,11 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Fixed — Clean Getaway's free question is situational only (2026-11-22)
+
+- Always Has an Escape Plan, Clean Getaway: the free Discover question covers the pursuers' route, method, or a present opening in the pursuit, and never reveals a weakness tag. A useful opening can be recorded as a Truth.
+- Rebuilt core rulebook PDF.
+
 ### Changed — Bane applies once per scene (2026-11-22)
 
 - Hunts the Things in the Dark, Bane: the extra Disposition or status tier now applies once per scene, to the first successful exploiting Attack. The weakness's own +1 Power applies as normal, and the free extra Discover rider is unchanged. Offsets weaknesses now supplying Power outside the tag cap.

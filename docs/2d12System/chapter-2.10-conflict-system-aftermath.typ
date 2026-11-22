@@ -52,7 +52,7 @@ Defend and other Disposition-recovery effects restore only up to the starting va
 Removing a participant, backer, companion or group subtracts no contribution or Grit from current or starting Disposition. Removal may still defeat the side if nobody remains able to pursue its objective.
 
 === 10.10 Conflict Gear and Assets <core-conflict-gear-assets>
-Equipment normally provides an action tag, counting toward the normal +2 tag cap. It may also have one explicitly written distinctive quality. Don't invent qualities during resolution.
+Equipment normally provides an action tag: when its use explains how it applies, it supplies 1 Tag Power to the named action, counting toward the normal +2 cap. It adds nothing to the roll. It may also have one explicitly written distinctive quality. Don't invent qualities during resolution.
 #figure(table(columns: (70%, 30%),
   table.header([Asset], [Typical tag]),
   [Sword or knife], [+1 Attack],

@@ -64,7 +64,7 @@ Minion groups have Bodies (3--6) instead of Shrugs. Each successful Attack outsi
 - #strong[Concession.] Offer one before the next roll (Core Rules @core-defeat-mutual-defeat-concession); one third of starting shared Disposition is a tactical prompt, not a restriction. Propose concrete gains and retained interests suited to the opponent: humans may surrender, beasts may be distracted or allowed to flee, and a Boss may negotiate retreat. Guardians don't normally offer concessions. If accepted, apply the agreed terms without another roll or an additional compromise unless included. Recorded deferred Special applications remain imposed, Resistable Special effects under @adv-deferred-special-injuries; concession terms must acknowledge them and can't waive them or turn them into protected payments. Don't add an unstated retreat benefit or danger-clock tick.
 
 === 6.8 Outside Conflicts <adv-outside-conflicts>
-- #strong[Passive opposition.] Difficulty = 12 + the adversary's relevant rating. A Minor's Defend (Fair +3) gives 15; an Established Steward's Defend (+6) gives 18. This outside-conflict procedure doesn't replace Standard 15 + Guard for independent conflict tests.
+- #strong[Passive opposition.] Difficulty = 14 + the adversary's relevant rating. A Minor's Defend (Fair +1) gives 15; an Established Steward's Defend (+4) gives 18. This outside-conflict procedure doesn't replace Standard 15 + Guard for independent conflict tests.
 - #strong[Active opposition.] Roll versus: 2d12 + rating.
 - #strong[Harm to adversaries.] Attack Power inflicts statuses as normal. Apply at most one eligible NPC reduction per application. Tier 6 applies the status's established scope and breaking-point procedure; explicit creature replacements apply only where stated. Apply any explicit creature-specific status ceiling from the setting. Don't introduce Disposition loss outside conflicts.
 
@@ -248,7 +248,7 @@ Eight generic cards, including the named Hired Gun reserve card. Reskin freely. 
 
 #statblock("RAIDER BAND", "Human · Minion group (4 Bodies) · Shooter", "3")[
 Grit 3 · Guard +0 · Bodies 4 · Armour 0 \
-Attack +4 · Defend +2 · Feint +0 · Maneuver +2 · Other +2 \
+Attack +2 · Defend +0 · Feint −2 · Maneuver +0 · Other +0 \
 Harm: wounded (carbines) \
 Power: plenty of bullets, know the ground · Weakness: break and run \
 Kind: Morale. Role: Dead Aim. \
@@ -259,7 +259,7 @@ Wants: the strongbox, no heroics.
 
 #statblock("HOUND PACK", "Beast · Minion group (5 Bodies) · Skirmisher", "3")[
 Grit 3 · Guard +0 · Bodies 5 · Armour 0 \
-Attack +2 · Defend +2 · Feint — · Maneuver +4 · Other +2 (Notice +4) \
+Attack +0 · Defend +0 · Feint — · Maneuver +2 · Other +0 (Notice +2) \
 Harm: wounded (bites) \
 Power: noses for blood, run as a pack · Weakness: fears fire \
 Kind: no Feint, Morale (scatter if the handler falls). Role: Hit and Run. \
@@ -270,7 +270,7 @@ Wants: drive the prey toward the den.
 
 #statblock("KNIFE IN THE DARK", "Human · Minor · Trickster", "3")[
 Grit 3 · Guard +0 · Shrugs 0 · Armour 0 \
-Attack +3 · Defend +1 · Feint +5 · Maneuver +3 · Other +3 (Stealth +5) \
+Attack +1 · Defend −1 · Feint +3 · Maneuver +1 · Other +1 (Stealth +3) \
 Harm: wounded (paired knives) \
 Power: one with the shadows, a knife for every hand · Weakness: the oath before my life \
 Kind: Morale. Role: Ambush. \
@@ -281,7 +281,7 @@ Wants: no witnesses.
 
 #statblock("BOUNTY VETERAN", "Human · Established · Brute", "5")[
 Grit 5 · Guard +1 · Shrugs 1 · Armour 1 (oilskin and mail) \
-Attack +6 · Defend +4 · Feint +2 · Maneuver +4 · Other +4 \
+Attack +4 · Defend +2 · Feint +0 · Maneuver +2 · Other +2 \
 Harm: wounded (silver-and-wood shotgun), +1 tier from Heavy Hitter outside conflicts \
 Power: silver-and-wood shot, twenty years of hunts, a veteran hunter's reputation · Weakness: greedy for the bounty \
 Kind: Morale; can be bargained with. Role: Heavy Hitter. \
@@ -292,7 +292,7 @@ Wants: the bounty, and the credit.
 
 #statblock("HIRED GUN", "Human · Minor · Shooter", "3")[
 Grit 3 · Guard +0 · Shrugs 0 · Armour 0 \
-Attack +5 · Defend +3 · Feint +1 · Maneuver +3 · Other +3 \
+Attack +3 · Defend +1 · Feint −1 · Maneuver +1 · Other +1 \
 Harm: wounded (carbine) \
 Power: steady aim, reliable carbine · Weakness: not paid to die \
 Kind: Morale; can be bargained with. Role: Dead Aim. \
@@ -308,7 +308,7 @@ Wants: collect their pay and leave alive.
 
 #statblock("HEDGE ADEPT", "Human · Established · Controller", "5")[
 Grit 5 · Guard +1 · Shrugs 1 · Armour 0 \
-Attack +2 · Defend +4 · Feint +4 · Maneuver +6 · Other +4 (Lore +6) \
+Attack +0 · Defend +2 · Feint +2 · Maneuver +4 · Other +2 (Lore +4) \
 Harm: wounded or shaken (rite) \
 Power: binding rites, a ledger of debts, hands that never shake · Weakness: proud beyond reason \
 Kind: Morale. Role: Shape the Ground. \
@@ -319,7 +319,7 @@ Wants: finish the rite before dawn.
 
 #statblock("GATE WARDEN", "Guardian · Established · Bulwark", "5")[
 Grit 5 · Guard +1 · Shrugs 1 · Armour 1 \
-Attack +4 · Defend +6 · Feint +2 · Maneuver +4 · Other +4 (Tech +6) \
+Attack +2 · Defend +4 · Feint +0 · Maneuver +2 · Other +2 (Tech +4) \
 Harm: wounded (shock-baton) \
 Power: old-world steel, knows every corridor, obeys the bloodline · Weakness: answers to the old codes \
 Kind: Unfeeling, Protocol, Machine. Role: Interpose. \
@@ -330,7 +330,7 @@ Wants: guests kept safe, intruders out.
   
 #statblock("THE IRON MARSHAL", "Human · Great · Leader · Boss", "8")[
 Grit 8 · Guard +2 · Shrugs 2 · Armour 1 (house mail) \
-Attack +5 · Defend +8 · Feint +3 · Maneuver +5 · Other +5 \
+Attack +3 · Defend +6 · Feint +1 · Maneuver +3 · Other +3 \
 Harm: wounded (old-world sabre) \
 Power: remembers the founding, a hundred sworn swords, the house is armed, never loses a flank · Weakness: proud beyond reason, believes the old stories \
 Kind: Morale. Role: Command. \

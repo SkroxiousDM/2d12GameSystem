@@ -17,9 +17,9 @@ Use this at the start of a campaign, after players have picked a Descriptor, Pla
   table.header([Phase], [Type], [Each player adds], [Output for the PC]),
   [#strong[0 Setup]], [Setup], [The Focus link and one line to another PC.], [The ally and rival prompts.],
   [#strong[1 Origin]], [Major], [Two elements.], [A #strong[Belief] drawn from one of them.],
-  [#strong[2 Rise]], [Standard], [One element.], [One #strong[power tag].],
+  [#strong[2 Rise]], [Standard], [One element.], [One #strong[tag].],
   [#strong[3 Branching Out]], [Meta], [One element, plus one extra: connect two non-PC elements, replace one of your own lines, or give another PC a new element.], [An #strong[Instinct] or a named ally.],
-  [#strong[4 Turning Point]], [Major], [Two elements.], [A #strong[weakness tag] and your first #strong[Goal].],
+  [#strong[4 Turning Point]], [Major], [Two elements.], [A #strong[tag] that can get you into trouble, and your first #strong[Goal].],
 ))
 
 #strong[Using the map.]
@@ -46,9 +46,9 @@ If Module E is in use, use E.1A instead. Otherwise, build the starting factions 
 2. #strong[Gather.] List the groups the PCs' lines point to: Organizations from the map, plus fragments of them. Note what each wants in the area and who would oppose it.
 3. #strong[Cluster.] Pick about #strong[four] factions that would find one another aggravating. Law or a local lord often belongs even if no PC touches them.
 4. #strong[Sheet.] For each faction write:
-- #strong[Has]: one obvious asset and one less obvious one. These set its #strong[rating]: +1 minor, +2 solid, +3 major, +4 dominant.
+- #strong[Has]: one obvious asset and one less obvious one, each written as an #strong[asset tag] (#emph[toll-barge fleet], #emph[the magistrate's ear]). Together they set its #strong[rating]: +1 minor, +2 solid, +3 major, +4 dominant. On a World Turn each relevant asset tag supplies +1 Power (C.5).
 #colbreak()
-- #strong[Wants]: its current project, with a clock sized by the change it makes (8 for a Site Truth, 12 for a Region Truth; C.6) and the #strong[result Truth] it creates or changes when the clock fills.
+- #strong[Wants]: its current project, with a clock sized by the change it makes (12 for a Site Truth, 16 for a Region Truth; C.6) and the #strong[result Truth] it creates or changes when the clock fills.
 - #strong[Link]: how it connects to the PCs.
 - #strong[Relations]: allied or hostile toward each other faction. Where it matters, write the relation as a Truth (Core Rules @core-truths).
 5. #strong[Incident.] One faction does something underhanded or aggressive that affects the others. Treat it as a project that has already filled: record its result Truth. The PCs may see it but can't prevent it.

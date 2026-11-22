@@ -2,7 +2,7 @@
 
 == 7. Progress Clocks <core-progress-clocks>
 #columns(2, gutter: 6mm)[
-- #strong[Sizes:] 4 (simple), 6 (complex), 8 (daunting), 12 (epic). Specific rules may prescribe other sizes, such as the 3-segment Dying clock (@core-dying-stabilisation).
+- #strong[Sizes:] 4 (simple), 6 (complex), 8 (daunting), 12 (epic). Specific rules may prescribe other sizes, such as the 16-segment Region Truth clock (Module C.6) or the 3-segment Dying clock (@core-dying-stabilisation).
 - #strong[Player clocks] tick with the #strong[Advance] effect (1 Power = 1 segment).
 - #strong[Danger clocks] tick when the GM spends Woe (1 Woe = 1 segment) or when an established failure consequence or explicit procedure advances them.
 - #strong[Racing clocks:] two clocks run together (e.g. #emph[Crack the vault 8] vs. #emph[Guards arrive 6];).

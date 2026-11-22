@@ -8,8 +8,7 @@
 Loyal to a fault. You go back for the fallen, every time.
 ]
 
-- #strong[Power tags:] #emph[I\'ve got your back];, #emph[carry them out]
-- #strong[Weakness tag:] #emph[can\'t walk away]
+- #strong[Tags:] #emph[I\'ve got your back];, #emph[carry them out];, #emph[can\'t walk away]
 - #strong[PC link:] \"I once failed to save someone. \[PC\] reminds me of them.\"
 
 #figure(
@@ -60,8 +59,7 @@ Loyal to a fault. You go back for the fallen, every time.
 Captain, chief, or sergeant: people follow you.
 ]
 
-- #strong[Power tags:] #emph[born to command];, #emph[they believe in me]
-- #strong[Weakness tag:] #emph[every loss is on me]
+- #strong[Tags:] #emph[born to command];, #emph[they believe in me];, #emph[every loss is on me]
 - #strong[PC link:] \"\[PC\] was the first person who ever followed my lead.\"
 
 #figure(
@@ -89,7 +87,7 @@ Captain, chief, or sergeant: people follow you.
       limit: [The next ally only. Unused, it ends at the end of the scene. The bonus-dice cap applies (@foc-ability-limits).],
     )],
     [3a], [#strong[★ Warband];], [#ability(
-      trigger: [Your loyal crew (a group with 2 power tags and 1 weakness) helps or acts.],
+      trigger: [Your loyal crew (a group with 3 tags) helps or acts.],
       cost: [No additional cost.],
       benefit: [It gives free Help, holds a position or acts as one group, and takes statuses as a single target (@foc-ability-limits).],
       limit: [Free Help once per scene. It is one participant in your side's script and rotation (@foc-ability-limits).],
@@ -112,8 +110,7 @@ Captain, chief, or sergeant: people follow you.
 Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
 ]
 
-- #strong[Power tags:] #emph[one with my \[weapon\]];, #emph[drilled every day]
-- #strong[Weakness tag:] #emph[lost without it]
+- #strong[Tags:] #emph[one with my \[weapon\]];, #emph[drilled every day];, #emph[lost without it]
 - #strong[PC link:] \"\[PC\] once saw me lose a duel, and kept it secret.\"
 
 #figure(
@@ -125,7 +122,7 @@ Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
     [1], [#strong[Signature Style];], [#ability(
       trigger: [You use a weapon of your chosen type.],
       cost: [No additional cost.],
-      benefit: [That weapon's tag may add #strong[+1 above the normal +2 cap (maximum +3 from tags)], and it gains a second conflict action tag (e.g. a sword also gives +1 Defend).],
+      benefit: [That weapon's tag may supply #strong[+1 Power above the normal +2 cap (maximum 3 Tag Power)], and it gains a second conflict action tag (e.g. a sword also gives +1 Defend).],
       limit: [Choose the weapon type when you take this ability. Only that weapon's tag exceeds the cap.],
     )],
     [2a], [#strong[Riposte];], [#ability(
@@ -149,7 +146,7 @@ Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
     [3b], [#strong[★ Weapon Saint];], [#ability(
       trigger: [You succeed on an Attack or Defend using your chosen weapon type.],
       cost: [No additional cost.],
-      benefit: [Gain +1 Power. Choose one additional power tag for your signature weapon, within the normal tag cap. With Module A: Your signature weapon is an artifact. This ability is its special ability; it does not grant another. It requires no attunement Refresh and never depletes. Agree its artifact quirk with the GM when it becomes an artifact. Never depletes means no depletion roll is required. Waiving attunement Refresh does not waive the normal attunement-slot limit when attunement is required.],
+      benefit: [Gain +1 Power. Choose one additional tag for your signature weapon, within the normal tag cap. With Module A: Your signature weapon is an artifact. This ability is its special ability; it does not grant another. It requires no attunement Refresh and never depletes. Agree its artifact quirk with the GM when it becomes an artifact. Never depletes means no depletion roll is required. Waiving attunement Refresh does not waive the normal attunement-slot limit when attunement is required.],
       limit: [The additional Power applies once per exchange in a scripted conflict, or once per scene outside one. It permits only Effects available to that action. Choose the additional weapon tag when you take this ability.],
     )],
   )]
@@ -164,8 +161,7 @@ Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
 Honour is for people who can afford to lose.
 ]
 
-- #strong[Power tags:] #emph[no rules in a fight];, #emph[eye for a cheap shot]
-- #strong[Weakness tag:] #emph[no one trusts me in a fair fight]
+- #strong[Tags:] #emph[no rules in a fight];, #emph[eye for a cheap shot];, #emph[no one trusts me in a fair fight]
 - #strong[PC link:] \"I taught \[PC\] that winning is the only thing that matters. They\'re still deciding if I was right.\"
 
 #figure(

@@ -58,10 +58,10 @@ A complete entry also states its action or trigger, targets, duration, removal c
 
 === A.2 Artifacts <mod-artifacts>
 - #strong[What they are:] reusable items of real power --- a flaming sword, a psychic amplifier, a starship\'s AI core.
-- #strong[Tags:] an artifact has 1--2 power tags (counting toward the +2 cap) and usually a special ability. Its item tag and conflict gear tag don't both count for the same benefit on one roll (Core Rules @core-conflict-gear-assets).
+- #strong[Tags:] an artifact has 1--2 tags (counting toward the +2 Tag Power cap) and usually a special ability. Its item tag and conflict gear tag don't both count for the same benefit on one roll (Core Rules @core-conflict-gear-assets).
 - #strong[Depletion:] each artifact has a depletion rating, e.g. #strong[1 in d12];. After each use, roll d12; on that number or lower, it is #strong[depleted] (broken, drained, or needs a downtime clock to restore).
 - #strong[Attunement:] powerful artifacts (marked ★) must be attuned and #strong[cost 1 Refresh] while attuned (Core Rules @core-refresh). A PC can attune to a maximum of 2 artifacts.
-- #strong[Artifact quirks:] each artifact has a weakness tag that can be compelled for Tychē Points (#emph[thirsts for blood];, #emph[talks too much];, #emph[draws the Hunters];).
+- #strong[Artifact quirks:] each artifact has a quirk tag that is usually compelled for Tychē Points (#emph[thirsts for blood];, #emph[talks too much];, #emph[draws the Hunters];).
 
 Artifact abilities follow the same conflict limits as cyphers. Switching equipment doesn't refresh a once-per-conflict benefit or restore a depleted item, and Defend restores Disposition only.
 

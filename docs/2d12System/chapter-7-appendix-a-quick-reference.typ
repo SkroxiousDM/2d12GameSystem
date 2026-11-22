@@ -16,8 +16,7 @@
 #table(columns: (30%, 70%),
   table.header([Modifier], [Apply]),
   [Skill], [+0 to +4.],
-  [Power tags], [+1 each, maximum +2.],
-  [Weakness tags], [−1 each, no cap.],
+  [Tags], [No modifier. Each relevant tag supplies +1 Power on a success, maximum +2.],
   [Personal statuses], [Highest relevant helpful tier, minus highest relevant harmful tier.],
   [Situational Conditions], [Highest relevant helpful rating, minus highest relevant harmful rating.],
   [Truths], [No modifier. Check first whether the action is possible, certain or needs something.],
@@ -56,11 +55,11 @@ Pay Effort and Help in full. Paying the last pool point runs that pool dry; a co
 === Outcomes against Difficulty
 #table(columns: (34%, 66%),
   table.header([Result], [Outcome]),
-  [Meet or beat target], [Success: 1 Power, +1 per full 3 points over.],
-  [Miss by 1–3], [Success at a Cost: 1 Power; choose a consequence or +1 Woe for the GM.],
-  [Miss by 4+], [Failure: the GM makes a move and gains 1 Woe.],
+  [Meet or beat target], [Success: Tag Power + 1, +1 per full 3 points over.],
+  [Miss by 1–3], [Success at a Cost: Tag Power + 0; choose a consequence or +1 Woe for the GM.],
+  [Miss by 4+], [Failure: no Power; the GM makes a move and gains 1 Woe.],
 )
-Spend Power on permitted Effects. Unspent Power becomes Weal, maximum 6. A consequence on a success keeps what the roll earned (Core Rules @core-outcomes).
+Agree the goal and what it takes before rolling. The Effects you buy are what the action accomplishes. Unspent Power becomes Weal, maximum 6. A consequence on a success keeps what the roll bought (Core Rules @core-outcomes).
 
 Scripted conflicts modify failure and Success at a Cost; use @qr-run-conflict below. Versus tests compare opposing totals instead of using this table.
 
@@ -191,7 +190,7 @@ I = independent; V = versus; A = Attack only; F = Feint only.
 
 *Independent:* Test against Standard 15, adjusted by explicit modifiers such as Guard; statuses and Situational Conditions modify the roll. Both independent actions finish before checking victory, even if one defeats a side or Takes Out its actor.
 
-*Versus:* Higher total wins with 1 Power, +1 per full 3 points over the opponent. Exact tie: no Power or normal action effect. Losing by 1–3 is not Success at a Cost. Winning prevents the opposing normal effect even if all Power buys other permitted Effects.
+*Versus:* Higher total wins with Tag Power + 1, +1 per full 3 points over the opponent; the loser spends no Tag Power. Exact tie: no Power or normal action effect. Losing by 1–3 is not Success at a Cost. Winning prevents the opposing normal effect even if all Power buys other permitted Effects.
 
 *Trumped:* No roll and no action effect. Paid costs remain spent.
 #colbreak()
@@ -203,7 +202,7 @@ I = independent; V = versus; A = Attack only; F = Feint only.
 )
 An ordinary failed action grants no additional unrelated GM move, automatic injury or extra Disposition loss.
 
-Independent Success at a Cost grants 1 Power. Its ordinary cost cannot impose a status or extra Disposition loss without explicit permission. Separately triggered complications, explicit costs and scenery Dangers retain their own rules.
+Independent Success at a Cost grants Tag Power + 0. Its ordinary cost cannot impose a status or extra Disposition loss without explicit permission. Separately triggered complications, explicit costs and scenery Dangers retain their own rules.
 
 #emph[Core Rules @core-when-use-conflict[§§]–@core-costs-failures-complications[].]
 ]

@@ -7,8 +7,7 @@
 Monster-hunter, exorcist, or investigator of the strange.
 ]
 
-- #strong[Power tags:] #emph[knows their weaknesses];, #emph[silver, salt, and iron]
-- #strong[Weakness tag:] #emph[the dark hunts me back]
+- #strong[Tags:] #emph[knows their weaknesses];, #emph[silver, salt, and iron];, #emph[the dark hunts me back]
 - #strong[PC link:] \"\[PC\] saw what I saw that night, and they\'re the only one who believes me.\"
 
 #figure(
@@ -24,12 +23,12 @@ Monster-hunter, exorcist, or investigator of the strange.
       benefit: [Discover its weakness tag without rolling. You also know one thing that repels or binds it (salt, iron, a name).],
       limit: [Once per scene.],
     )],
-    // PLAYTEST: Balance FO B7, rider added (overlaps Brutal).
+    // PLAYTEST: Balance FO B7, rider added (overlaps Brutal). Once per scene since weaknesses supply +1 Power outside the cap.
     [2a], [#strong[Bane];], [#ability(
       trigger: [You succeed on a conflict Attack against a creature whose weakness you've exploited, or exploit a creature's weakness for the first time.],
       cost: [No additional cost.],
       benefit: [The Attack removes #strong[1 additional Disposition], or, if it inflicts a harmful status, raises that status by #strong[1 tier] (never both). The first time you exploit a weakness against a creature, also Discover one more of its weaknesses or abilities for free.],
-      limit: [It adds no status to an ordinary Attack and doesn't improve finishing procedures.],
+      limit: [The extra Disposition or tier applies #strong[once per scene], to your first successful exploiting Attack; the weakness's own +1 Power applies as normal. It adds no status to an ordinary Attack and doesn't improve finishing procedures.],
     )],
     [2b], [#strong[Ward the Threshold];], [#ability(
       trigger: [You spend an uninterrupted scene preparing one clearly defined entrance and state which side it protects.],
@@ -61,8 +60,7 @@ Monster-hunter, exorcist, or investigator of the strange.
 Touched by the spirit world, the Otherworld, or the deep net.
 ]
 
-- #strong[Power tags:] #emph[one foot across the veil];, #emph[spirits whisper to me]
-- #strong[Weakness tag:] #emph[not quite of this world]
+- #strong[Tags:] #emph[one foot across the veil];, #emph[spirits whisper to me];, #emph[not quite of this world]
 - #strong[PC link:] \"\[PC\] anchors me. Without them, I\'d drift away.\"
 
 #figure(
@@ -91,8 +89,8 @@ Touched by the spirit world, the Otherworld, or the deep net.
     )],
     [3a], [#strong[Ally Beyond];], [#ability(
       trigger: [You call on your patron in the other world.],
-      cost: [The GM gets a compel on your weakness tag in return. You must accept it, and it earns no Tychē (Core Rules @core-tyche-points).],
-      benefit: [A #strong[Heroic-scope favour].],
+      cost: [The GM gets a compel on one of your tags in return. You must accept it, and it earns no Tychē (Core Rules @core-tyche-points).],
+      benefit: [A #strong[World-shaking favour].],
       limit: [Once per session.],
     )],
     [3b], [#strong[★ Half-Step];], [#ability(
@@ -113,8 +111,7 @@ Touched by the spirit world, the Otherworld, or the deep net.
 Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
 ]
 
-- #strong[Power tags:] #emph[patron\'s gift];, #emph[knows the old names]
-- #strong[Weakness tag:] #emph[the debt comes due]
+- #strong[Tags:] #emph[patron\'s gift];, #emph[knows the old names];, #emph[the debt comes due]
 - #strong[PC link:] \"\[PC\] knows what I traded, and hasn\'t told anyone.\"
 
 #figure(
@@ -126,8 +123,8 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
     [1], [#strong[Patron\'s Gift];], [#ability(
       trigger: [You perform a working within your patron's gift.],
       cost: [Pay the normal 1-point working cost from Pneuma, plus any Effort.],
-      benefit: [Gain a minor Domain tied to your patron. Use Arcana for its workings. The patron Domain counts as a power tag on its workings, within the normal tag cap.],
-      limit: [This Domain permits only Easy and Standard scope, including during scripted conflicts. It follows the Adept working and Backlash rules (Generic Playbooks @pb-adept-core-feature). If you already have a Domain, this is a separate, narrower Domain; choose a distinct gift.],
+      benefit: [Gain a minor Domain tied to your patron. Use Arcana for its workings. The patron Domain counts as a relevant tag on its workings, supplying Tag Power within the normal cap.],
+      limit: [This Domain permits only Minor and Significant scope, including during scripted conflicts. It follows the Adept working and Backlash rules (Generic Playbooks @pb-adept-core-feature). If you already have a Domain, this is a separate, narrower Domain; choose a distinct gift.],
     )],
     [2a], [#strong[Ask the Patron];], [#ability(
       trigger: [You ask your patron for answers.],
@@ -144,15 +141,15 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
     [3a], [#strong[Greater Gift];], [#ability(
       trigger: [You perform a working within the minor Domain granted by Patron's Gift.],
       cost: [The normal working cost.],
-      benefit: [That Domain now permits workings up to Formidable scope.],
-      limit: [This replaces Patron's Gift's Easy-and-Standard scope limit; its Arcana, Pneuma, Backlash, and conflict rules remain unchanged.],
+      benefit: [That Domain now permits workings up to Spectacular scope.],
+      limit: [This replaces Patron's Gift's Minor-and-Significant scope limit; its Arcana, Pneuma, Backlash, and conflict rules remain unchanged.],
     )],
-    // PLAYTEST: Balance FO B6, no Heroic scope, so it can't act as a second Ascendant.
+    // PLAYTEST: Balance FO B6, no World-shaking scope, so it can't act as a second Ascendant.
     [3b], [#strong[★ Borrowed Might];], [#ability(
       trigger: [You're about to roll an action that draws on your patron's Domain. Use it before rolling.],
       cost: [Give the GM #strong[3 Woe].],
       benefit: [The action succeeds automatically with #strong[4 Power], spent at once on Effects that action permits within the Domain's scope.],
-      limit: [Once per session. Not for a Heroic-scope working. A trumped action stays trumped; in a versus test it wins unless the other side also succeeds automatically, which makes a tie. The Power can't be banked or improve a finishing procedure that doesn't permit it.],
+      limit: [Once per session. Not for a World-shaking working. A trumped action stays trumped; in a versus test it wins unless the other side also succeeds automatically, which makes a tie. The Power can't be banked or improve a finishing procedure that doesn't permit it.],
     )],
   )]
   , kind: table
@@ -164,8 +161,7 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
 Mutant, cyborg, half-fae, or carrier of a strange bloodline.
 ]
 
-- #strong[Power tags:] #emph[\[your trait\]];, #emph[unnatural resilience]
-- #strong[Weakness tag:] #emph[outsider]
+- #strong[Tags:] #emph[\[your trait\]];, #emph[unnatural resilience];, #emph[outsider]
 - #strong[PC link:] \"\[PC\] saw me change and stayed anyway.\"
 
 #figure(

@@ -65,7 +65,7 @@
 #strong[In conflicts,] failure, Success at a Cost and Woe spends follow @core-costs-failures-complications. Explicit Woe spends, Specials, hazards and Risky rolls keep their stated effects.
 
 === 9.3 Escalation <core-escalation>
-Some acts and items make a situation more dangerous just by being there. They carry the #strong[Escalation] tag. It gives no bonus and doesn't count toward the tag cap.
+Some acts and items make a situation more dangerous just by being there. They carry the #strong[Escalation] tag. It supplies no Power and doesn't count toward the tag cap.
 
 - #strong[Escalation items.] Openly carrying an Escalation item into a scene gives the GM #strong[+1 Woe], once per item per scene. An item hidden before the scene starts doesn't count until it's drawn.
 - #strong[Escalation actions.] Declaring an Escalation action (reading a forbidden text, waking a dead

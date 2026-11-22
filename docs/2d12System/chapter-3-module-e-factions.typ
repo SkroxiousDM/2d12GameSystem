@@ -17,7 +17,7 @@ Record:
 - Name, purpose, and long-term ambition.
 - Operational reach: the places and communities where it can act.
 - Five Qualities, each rated 0 to +4.
-- Two or three assets and one vulnerability.
+- Two or three asset tags and one vulnerability.
 - Standing toward the party, from −3 to +3.
 - A representative who can explain or authorize requests.
 - One current project and its clock.
@@ -62,7 +62,9 @@ A permanent Cohesion of 0 is a #emph[crisis] when a faction has fallen to it (E.
 
 Assets determine what the faction can actually do. A treasury cannot occupy a town without personnel; soldiers cannot cross a sea without transport. A rating never creates an unstated army, fleet, office, or network.
 
-When an asset matters mechanically, record it as a Truth with scope and ending condition, or as a Situational Condition when it helps rolls by a number (Core Rules @core-situational-conditions, @core-establishing-recording). It adds its concrete advantage, not a second bonus restating the Quality.
+#strong[Asset tags.] Write each asset as a tag (#emph[armed river crews], #emph[clerks in the provincial offices]). When an asset materially supports a faction roll, it supplies #strong[+1 Power], maximum +2 per action, as a PC's tags do (Core Rules @core-outcomes). It adds nothing to the roll. Asset tags supply Power to the faction's own rolls; a Trusted faction can also lend one to a PC (E.6).
+
+When an asset makes something possible or changes conditions for others, record that as a Truth with scope and ending condition, or as a Situational Condition when it helps rolls by a number (Core Rules @core-situational-conditions, @core-establishing-recording). It adds its concrete advantage, not a second bonus restating the Quality, and one asset doesn't supply both Tag Power and a Condition on the same roll.
 
 Record a distant branch separately when local capabilities matter. The imperial institution's full resources are not automatically available to every provincial official.
 
@@ -70,7 +72,7 @@ Record a distant branch separately when local capabilities matter. The imperial 
 
 Change a permanent rating only after a lasting change to the capacity it represents. Losing one shipment normally changes an asset, creates Strain, or sets back a project. Losing the principal treasury and credit network may reduce Treasure.
 
-An improvement normally requires an appropriate 8- or 12-segment project, a concrete new resource, and an outcome large enough to justify the next rating. Repetitive minor jobs cannot manufacture permanent growth. No Quality exceeds +4.
+An improvement normally requires an appropriate 12- or 16-segment project, a concrete new resource, and an outcome large enough to justify the next rating. Repetitive minor jobs cannot manufacture permanent growth. No Quality exceeds +4.
 
 === E.3 Standing <mod-standing>
 
@@ -166,7 +168,9 @@ For a single request check, establish burden before applying relationship Condit
 
 PCs roll normal Skills. Pools pay for Effort and Resistance; do not add a pool as an attribute. Persuade, Deceive, and Intimidate reflect different methods and consequences. Evidence, compensation, leverage, and timing can change the request's feasibility or the relevant Truths and Conditions.
 
-For that single request check, use normal core outcomes, Power, doubles, and currencies. A Success at a Cost grants the agreed help with the normal consequence-or-Woe choice. Failure does not secure the help and produces an appropriate move. A failed request cannot be repeated unchanged: introduce materially new terms or circumstances.
+For that single request check, use normal core outcomes, Power, doubles, and currencies (Core Rules @core-outcomes). #strong[The help is a bought Effect.] Before rolling, agree which Effect expresses it and its price: usually Create (a Truth such as #emph[Passage Arranged] for 2 Power, or a Situational Condition at 2 per rating), Discover for information (1 per answer), or Advance for a clock (1 per segment). Agree too what a smaller purchase would secure, if anything.
+
+On a Success, spend Power on that Effect; the help is secured only when the Power covers its price. #strong[Success at a Cost grants the help with strings.] As an exception to the core rule that unbought Effects don't happen, the agreed help is secured whatever the Power. In place of the normal consequence-or-Woe choice, the faction attaches one string: an obligation recorded as a favour owed (E.7), a delay that matters, or −1 Standing. Any Tag Power or Effort can still buy extras. Failure does not secure the help and produces an appropriate move. A failed request cannot be repeated unchanged: introduce materially new terms or circumstances.
 
 Extra Power can improve agreed scope, speed, or discretion where normal Effects and the fiction support it. It cannot buy permanent Standing or unlimited resources.
 
@@ -180,8 +184,9 @@ Support has one concrete application:
 - Permission: equipment, credentials, transport, or access makes the action possible, or removes the need for a particular roll.
 - A scoped Situational Condition: actual conditions modify relevant rolls (Core Rules @core-situational-conditions). A Truth that only makes something possible is Permission.
 - Active Help: a participating ally uses the core Help procedure, pays its normal cost from its own pools and shares the risk. An ordinary NPC has no pools, so it can't Help unless a rule says otherwise (Core Rules @core-running-dry). Qualities aren't pools.
+- A lent asset tag: at Standing +2 or better, the faction commits one relevant asset tag (E.2) to a PC roll it actually supports, such as #emph[barges and landing rights] behind a river crossing. It supplies +1 Power and counts toward the PC's maximum of +2 Tag Power (Core Rules @core-outcomes). It adds nothing to the roll.
 
-Do not award all three for the same contribution. Stronger Qualities increase feasible reach, reliability, and scale, not an automatic numerical bonus. Might +4 can organize support beyond Might +1; it does not grant +4 Fight.
+Do not award more than one of these for the same contribution. A PC roll takes at most one lent asset tag. Stronger Qualities increase feasible reach, reliability, and scale, not an automatic numerical bonus. Might +4 can organize support beyond Might +1; it does not grant +4 Fight.
 
 #strong[Accompanying allies.] A companion is either a participant (joins rotation, uses its own ratings, bound by the stakes) or an asset (gives its stated benefit, takes no turn), never both. It doesn't get its own Disposition, and removing it costs none, though a side loses when nobody can pursue its objective (Core Rules @core-shared-disposition-participation).
 

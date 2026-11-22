@@ -81,15 +81,16 @@ Use the table only for an unsettled rumour, never to overturn something already 
 Without Module E, between sessions (or each in-world week), the GM takes a #strong[World Turn];:
 
 + Each active faction rolls #strong[2d12 + its rating (+1 to +4)] vs. Standard 15 for its current project.
++ Resolve it with the core outcomes (Core Rules @core-outcomes). Each #strong[asset tag] that materially supports the project supplies #strong[+1 Power], maximum +2, and adds nothing to the roll; a Success at a Cost gives only that Tag Power.
 + Power ticks the faction\'s #strong[project clock] (sized by the change it makes, below).
 + When a clock fills, the faction #strong[creates, removes, or changes the appropriate Site or Region Truth] (e.g. #emph[The Guild controls the river] replaces #emph[The river is free];). Campaign Truths still require a major arc, not an ordinary completed clock.
 + PCs who hear about it can respond; PC actions can tick faction clocks forward or back using Advance.
 
-A faction project changes a Site Truth with an 8-segment clock and a Region Truth with a 12-segment clock. A Campaign Truth changes only through a major arc (C.6).
+A faction project changes a Site Truth with a 12-segment clock and a Region Truth with a 16-segment clock. A Campaign Truth changes only through a major arc (C.6). As a guide, a +2 faction fills a Site Truth clock in about 12 World Turns with no relevant asset tag, 7 with one and 5 with two.
 
 === C.6 Player Influence on Truths <mod-player-influence-truths>
 - #strong[Discover] effects and Weal spends reveal hidden Truths.
-- #strong[Create] effects and 2 Weal create Scene Truths; bigger changes need a progress clock (8 segments for a Site Truth, 12 for a Region Truth).
+- #strong[Create] effects and 2 Weal create Scene Truths; bigger changes need a progress clock (12 segments for a Site Truth, 16 for a Region Truth).
 - Major arcs can rewrite Campaign Truths. These are the \"legacy\" moments of the campaign.
 
 Create costs 2 Power for a scene Truth or 2 per Situational Condition rating (Core Rules @core-effects); 2 Weal buys a scene Truth, never a rating (Core Rules @core-weal-woe). A Scene Truth can't stand in for a Site or Region change.

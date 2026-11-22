@@ -4,7 +4,7 @@
 #columns(2, gutter: 6mm)[
 #strong[Spend 1 Tychē Point to:]
 
-- #strong[Invoke] --- reroll all dice, or add +2 after rolling. This works with any tag or Truth you can justify, even one belonging to the scene or an enemy; the approach must already be possible. A Truth gives no modifier itself, so the benefit comes from the Tychē Point. The +2 sits outside the status and Condition slots and the tag cap; a Condition's underlying fact can justify an Invoke, but its rating adds no further free bonus. Invoke before the roll's outcome is resolved. A reroll changes the dice, not a cost already paid or a consequence already resolved.
+- #strong[Invoke] --- reroll all dice, or add +2 after rolling. This works with any tag or Truth you can justify, even one belonging to the scene or an enemy; the approach must already be possible. A Truth gives no modifier itself, so the benefit comes from the Tychē Point. The +2 sits outside the status and Condition slots and isn't Tag Power; a Condition's underlying fact can justify an Invoke, but its rating adds no further free bonus. Invoke before the roll's outcome is resolved. A reroll changes the dice, not a cost already paid or a consequence already resolved.
 - #strong[Declare] --- establish a minor fact about the scene. The GM may require it to tie to one of your tags.
 - #strong[Resist harder] --- reduce one Resistance cost to 0 (@core-resistance-harm-recovery).
 
@@ -16,18 +16,19 @@ Scripted conflicts add timing limits to all three spends (@core-conflict-limits-
 
 #strong[Earn Tychē Points by:]
 
-- #strong[Accepting a compel] --- the GM or another player offers a meaningful complication based on one of your tags (power, weakness or Scar), Beliefs (@core-beliefs-goals-instincts) or your Instinct. Accept → +1 Tychē Point. Refuse → pay 1 Tychē Point.
+- #strong[Accepting a compel] --- the GM or another player offers a meaningful complication based on any of your tags or Scars, Beliefs (@core-beliefs-goals-instincts) or your Instinct. Accept → +1 Tychē Point. Refuse → pay 1 Tychē Point.
 - #strong[Compelling yourself] --- propose the same kind of complication on yourself. If the GM agrees it meets the rules below, take the complication and gain +1 Tychē Point. Facing it can also earn XP (@core-earning-xp).
 
 #strong[What makes a compel]
 
 - #strong[Meaningful.] The complication must change the situation: an obstacle, obligation, exposure, hard choice, or lost opportunity. Flavour or a minor inconvenience doesn't count.
 - #strong[Clear offer.] Before you accept, know which tag, Belief, or Instinct justifies it, what will happen, and what it commits your character to. You otherwise control how your character responds.
+- #strong[One tag, two sides.] The tag that supplies Power to one action can justify a compel in another, or in the same action when the help and the trouble are distinct. Accepting the compel doesn't remove the tag's Power.
 - #strong[Limits.] A compel must follow from the established meaning of the tag, Belief, or Instinct. It adds no numerical penalty and can't undo a resolved success. An existing penalty doesn't earn Tychē just because a tag, Belief, or Instinct explains it.
 - #emph[Feared duellist:] a rival challenges you before an audience whose support you need. #emph[Devoted healer:] you stay to treat a dying enemy and lose the chance to pursue their commander.
 
 ==== Beliefs and Compels
-All three Belief categories use the same compel procedure. Acting in line with a Belief earns nothing by itself; only a complication that meets the standard above does. Several Beliefs behind one complication still earn one Tychē Point. Beliefs grant no modifiers and are not extra power tags.
+All three Belief categories use the same compel procedure. Acting in line with a Belief earns nothing by itself; only a complication that meets the standard above does. Several Beliefs behind one complication still earn one Tychē Point. Beliefs grant no modifiers, are not extra tags and supply no Power.
 
 #emph[Belief example:] your Self Belief rejects sacrificing people for advantage. You propose staying to escort stranded civilians instead of pursuing the fleeing saboteur. Before acceptance, agree that the delay will let the saboteur escape the immediate pursuit. Accepting that meaningful complication earns 1 Tychē Point; it does not dictate every action you take afterward.
 

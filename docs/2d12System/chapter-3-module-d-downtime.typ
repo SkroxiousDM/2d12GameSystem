@@ -17,7 +17,7 @@ Downtime is the stretch between expeditions when the party is safe enough to rec
 
 #figure( [#table( columns: (22%, 44%, 34%), align: (auto,auto,auto,), table.header([Stay], [Length], [Free Checks per PC],), table.hline(), [#strong[Brief];], [Up to 3 days], [1], [#strong[Ordinary];], [About a week (1 interval)], [2], [#strong[Extended];], [Each further full week is another interval], [+1 per extra interval], )] , kind: table )
 
-- #strong[Checks.] Free Checks are added to any Checks earned on the expedition (B.4: applying a weakness tag or Scar to your own roll). Spend #strong[1 Check] for one endeavour. Unspent Checks are lost when the stay ends. You may give a Check to another PC whose endeavour you join.
+- #strong[Checks.] Free Checks are added to any Checks earned on the expedition (B.4: taking −1 on your own roll because of a tag or Scar). Spend #strong[1 Check] for one endeavour. Unspent Checks are lost when the stay ends. You may give a Check to another PC whose endeavour you join.
 - #strong[Stay Woe.] The GM does not use expedition Woe in downtime. The stay starts with #strong[1 Woe per PC]. Woe gained from downtime rolls joins this pool, which pays for the stay's event, complications and danger clocks, then is discarded (Core Rules @core-woe).
 - #strong[Weal] gained in downtime decays at the end of each scene and never leaves the stay (Core Rules @core-weal). #strong[Tychē Points] do not refresh unless the downtime begins a new session (Core Rules @core-refresh); invokes, declares and compels work as normal.
 - #strong[Goals.] At the end of the stay, each player writes one Goal for the next expedition (Core Rules @core-beliefs-goals-instincts).
@@ -59,7 +59,7 @@ For an unlisted activity, the GM names a skill, a Light or Strenuous tag and the
 === D.5 Projects <mod-projects>
   A #strong[project] is any goal too big for one endeavour. Use an #strong[8- or 12-segment clock] (Core Rules @core-progress-clocks), ticked by Advance. Each roll toward it costs 1 Check.
 
-#figure( [#table( columns: (62%, 10%, 28%), align: (auto,auto,auto,), table.header([Project], [Size], [Notes],), table.hline(), [Crafting a notable item, restoring a workshop], [8], [Needs access and materials], [Restoring a depleted artifact (A.2)], [8], [Needs fitting tools], [Adapting to permanent harm (Core Rules @core-permanent-harm): prosthesis, retraining, workaround], [8], [Does not remove a Scar], [Changing a Scar (Core Rules @core-tier-6-scars)], [12], [Completing the clock counts as the milestone], [Changing a site (C.6)], [8], [A Site Truth], [Changing a region (C.6)], [12], [A Region Truth], )] , kind: table )
+#figure( [#table( columns: (62%, 10%, 28%), align: (auto,auto,auto,), table.header([Project], [Size], [Notes],), table.hline(), [Crafting a notable item, restoring a workshop], [8], [Needs access and materials], [Restoring a depleted artifact (A.2)], [8], [Needs fitting tools], [Adapting to permanent harm (Core Rules @core-permanent-harm): prosthesis, retraining, workaround], [8], [Does not remove a Scar], [Changing a Scar (Core Rules @core-tier-6-scars)], [12], [Completing the clock counts as the milestone], [Changing a site (C.6)], [12], [A Site Truth], [Changing a region (C.6)], [16], [A Region Truth], )] , kind: table )
 
 // PLAYTEST: clock stages renamed from milestones (M1)
 - #strong[Clock stages.] For long projects, the GM names 2--3 clock stages along the clock, such as #emph[secure the premises];, #emph[obtain equipment];, #emph[complete the work];.

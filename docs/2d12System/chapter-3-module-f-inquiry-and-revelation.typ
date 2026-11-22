@@ -59,11 +59,11 @@ A Contact provides the stated relationship, not Standing, a reputation tag, free
 - *Boosted skill.* At creation, mark one skill you hold at +1 or higher. When you Buy an Insight with it, regain 1 point to the paying pool. Mark another skill each time you have taken 4 Advances.
 - *Recovery.* Pools recover as usual (Core Rules @core-resistance-harm-recovery). The GM may also offer a *refresh opportunity*: a night in an archive, a round of drinks in the right tavern, a meal with a scholar. Each restores 2 points to the pool that fits.
 - *Help.* One ally may Help a Probe as normal (Core Rules @core-bonus-dice-effort), or help a Buy by lowering its cost by 1 (minimum 1).
-- *Tags.* A power tag that applies to the skill adds +1 to a Probe, as usual. Burning one gives +1 Power.
+- *Tags.* A relevant tag supplies 1 Power to a Probe on a Success or Success at a Cost, as usual; that Power can buy Insight. Burning one gives +1 Power.
 
 Pay before boosted-skill recovery: the regained point isn't a discount, and it doesn't clear a running-dry status the payment caused. A refresh opportunity is offered by the GM, not an automatic refill at the start or end of an Inquiry scene.
 
-Probe Help and tags keep their normal caps (+2 power tags, +2 bonus dice). The Buy discount isn't a bonus die or an extra Insight.
+Probe Help and tags keep their normal caps (+2 Tag Power, +2 bonus dice). The Buy discount isn't a bonus die or an extra Insight.
 
 === F.5 Danger and the Clock <mod-danger-clock>
 

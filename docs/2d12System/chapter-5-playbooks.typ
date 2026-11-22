@@ -18,7 +18,7 @@
     [#strong[Edge];], [3 points: the fixed Edge listed, plus 1 point from the listed choices],
     [#strong[Anchor skill];], [Must be rated +3 or +4 in your pyramid],
     [#strong[Suggested skills];], [A recommended pyramid; change it freely],
-    [#strong[Playbook tags];], [Choose #strong[2] power tags from the playbook\'s list],
+    [#strong[Playbook tags];], [Choose #strong[2] tags from the playbook\'s list],
     [#strong[XP trigger];], [One playbook behaviour that earns XP (Core Rules @core-earning-xp)],
     [#strong[Special abilities];], [1 free at creation, and up to 2 more at 1 Refresh each. A ★ Major costs 1 more (@pb-ability-notation)],
     [#strong[Starting equipment];], [Signature items (choose 1 of 2), playbook kit, and always-carried items],
@@ -91,8 +91,8 @@ Before a mission, choose your #strong[load];. During play, declare items from yo
 - Items marked #strong[(0)] cost no load.
 
 === 2.2 Gear as Tags <pb-gear-as-tags>
-- Every item is a #strong[power tag] when it\'s relevant, e.g. #emph[crowbar] helps Athletics to force a door. Item tags count toward the #strong[+2 tag cap];.
-- #strong[Weapons] also give one or more #strong[conflict action tags] (Core Rules @core-conflict-gear-assets), e.g. #emph[+1 Attack];. Do not count an item's general tag and action tag twice for the same benefit on one roll.
+- Every item is a #strong[tag];: when it\'s relevant it supplies Power, e.g. #emph[crowbar] when you force a door with Athletics. Item tags count toward the #strong[+2 Tag Power cap]; and add nothing to the roll.
+- #strong[Weapons] also give one or more #strong[conflict action tags] (Core Rules @core-conflict-gear-assets), e.g. #emph[+1 Attack] (1 Tag Power on Attack). Do not count an item's general tag and action tag twice for the same benefit on one action.
 - #strong[Quality:] a fine or advanced item gives the one extra benefit its entry lists (it doesn't raise the cap). If you use the optional qualities in Core Rules @core-conflict-gear-assets, record each benefit once.
 - #strong[Escalation:] some items carry the #emph[Escalation] tag (Core Rules @core-escalation). Carried openly into a scene, each gives the GM 1 Woe.
 

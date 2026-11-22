@@ -7,8 +7,7 @@
 Beast handler, rider, falconer, or dog-musher.
 ]
 
-- #strong[Power tags:] #emph[animals trust me];, #emph[calm voice]
-- #strong[Weakness tag:] #emph[better with animals than people]
+- #strong[Tags:] #emph[animals trust me];, #emph[calm voice];, #emph[better with animals than people]
 - #strong[PC link:] \"\[PC\] is the only person my animals like.\"
 
 #figure(
@@ -20,7 +19,7 @@ Beast handler, rider, falconer, or dog-musher.
     [1], [#strong[Handler];], [#ability(
       trigger: [You calm or command ordinary animals, or you have an Animal Companion.],
       cost: [No additional cost.],
-      benefit: [Calm or command ordinary animals with Empathy. An Animal Companion gains #strong[+1 power tag].],
+      benefit: [Calm or command ordinary animals with Empathy. An Animal Companion gains #strong[+1 tag].],
       limit: [Ordinary animals only.],
     )],
     [2a], [#strong[Pack Tactics];], [#ability(
@@ -36,7 +35,7 @@ Beast handler, rider, falconer, or dog-musher.
       limit: [Once per scene.],
     )],
     [3a], [#strong[★ The Pack];], [#ability(
-      trigger: [Your group of animals (hounds, ravens, horses), with 2 power tags and 1 weakness, acts.],
+      trigger: [Your group of animals (hounds, ravens, horses), with 3 tags, acts.],
       cost: [No additional cost.],
       benefit: [It acts as one group, not one per animal, and takes statuses as a single target (@foc-ability-limits).],
       limit: [One participant in your side's script and rotation (@foc-ability-limits).],
@@ -60,8 +59,7 @@ Beast handler, rider, falconer, or dog-musher.
 Explorer, navigator, or surveyor drawn to the blank parts of the map.
 ]
 
-- #strong[Power tags:] #emph[always knows north];, #emph[mapmaker\'s eye]
-- #strong[Weakness tag:] #emph[can\'t resist the horizon]
+- #strong[Tags:] #emph[always knows north];, #emph[mapmaker\'s eye];, #emph[can\'t resist the horizon]
 - #strong[PC link:] \"\[PC\] backed my first expedition.\"
 
 #figure(
@@ -114,8 +112,7 @@ Requires Module B. This Focus uses the Grind, hardships, and Supplies throughout
 Survivalist, forager, or homesteader: you need nothing the world doesn\'t give.
 ]
 
-- #strong[Power tags:] #emph[nothing goes to waste];, #emph[knows what\'s edible]
-- #strong[Weakness tag:] #emph[distrusts civilization]
+- #strong[Tags:] #emph[nothing goes to waste];, #emph[knows what\'s edible];, #emph[distrusts civilization]
 - #strong[PC link:] \"I taught \[PC\] how to survive their first winter.\"
 
 #figure(
@@ -167,8 +164,7 @@ Survivalist, forager, or homesteader: you need nothing the world doesn\'t give.
 Driver, pilot, sailor, or rider: you and your vehicle are one.
 ]
 
-- #strong[Power tags:] #emph[my rig is part of me];, #emph[nerves of steel at speed]
-- #strong[Weakness tag:] #emph[can\'t leave her behind]
+- #strong[Tags:] #emph[my rig is part of me];, #emph[nerves of steel at speed];, #emph[can\'t leave her behind]
 - #strong[PC link:] \"\[PC\] has ridden shotgun since day one.\"
 
 #figure(
@@ -180,7 +176,7 @@ Driver, pilot, sailor, or rider: you and your vehicle are one.
     [1], [#strong[Signature Vehicle];], [#ability(
       trigger: [You use your vehicle (horse and cart, truck, canoe, starship).],
       cost: [No additional cost.],
-      benefit: [Gain a vehicle with #strong[2 power tags], or give your existing one 2 more.],
+      benefit: [Gain a vehicle with #strong[2 tags], or give your existing one 2 more.],
       limit: [It takes no turns of its own.],
     )],
     [2a], [#strong[Stunt Driver];], [#ability(

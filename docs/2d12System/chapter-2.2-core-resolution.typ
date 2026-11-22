@@ -3,13 +3,15 @@
 == 2. Core Resolution <core-core-resolution>
   #columns(2, gutter: 6mm)[
 === 2.1 The Roll <core-roll>
+#strong[Declare the goal first.] Before rolling, say what you want to accomplish and how. Agree which Effects can express it and what it takes: the Truth, tier, rating or clock segments needed (@core-effects). Settle this before the roll, and don't announce a new requirement afterward. If one action can't accomplish the whole goal, say what a smaller result achieves, or use a clock or a conflict.
+
 #strong[Roll 2d12 + Skill + Modifiers vs. Difficulty.]
 
 - #strong[Skill:] +0 to +4 (from the skill pyramid; untrained = +0).
-- #strong[Tags:] +1 per relevant #strong[power tag];, #strong[maximum +2 per roll];. −1 per relevant #strong[weakness tag] (no cap).
 - #strong[Personal statuses:] + the tier of the highest relevant helpful status, − the tier of the highest relevant harmful status (@core-personal-statuses).
 - #strong[Situational Conditions:] + the rating of the highest relevant helpful Condition, − the rating of the highest relevant harmful one (@core-situational-conditions).
 - #strong[Truths] add nothing to the roll. They decide whether an action is possible, certain or needs something first (@core-truths).
+- #strong[Tags] add nothing to the roll. A relevant tag supplies Power instead (@core-outcomes).
 
 Use at most one helpful and one harmful modifier from each of the two slots; equal ratings don't combine, and the others stay recorded for other actions. Assess each actor separately in a versus test, and don't add an extra modifier just because the opponent is hindered.
 
@@ -66,7 +68,7 @@ Chance to hit the number needed on the dice (after subtracting your bonuses):
   , kind: table
   )
 
-Example: Skill +3 and one tag (+1) vs. Standard 15 → need 11+ → #strong[69%];, or #strong[88%] with one bonus die.
+Example: Skill +3 and #emph[focused-1] (+1) vs. Standard 15 → need 11+ → #strong[69%];, or #strong[88%] with one bonus die.
 
 === 2.4 Bonus Dice and Effort <core-bonus-dice-effort>
 You can add d12s to the roll and #strong[keep the best two];. Maximum #strong[+2 bonus dice] (4d12 keep 2) from any combination of:
@@ -107,16 +109,20 @@ Example: Effort Level 2 lets you buy one bonus die before the roll, then spend a
     align: (auto,auto,),
     table.header([Result], [Outcome],),
     table.hline(),
-    [#strong[Beat the target by 3+];], [#strong[Success] --- 1 Power, +1 per full 3 points over],
-    [#strong[Meet the target];], [#strong[Success] --- 1 Power],
-    [#strong[Miss by 1--3];], [#strong[Success at a Cost] --- 1 Power, but the GM adds a consequence or gains 1 Woe (player\'s choice)],
-    [#strong[Miss by 4+];], [#strong[Failure] --- the GM makes a move; GM gains 1 Woe],
+    [#strong[Beat the target by 3+];], [#strong[Success] --- Tag Power + 1, +1 per full 3 points over],
+    [#strong[Meet the target];], [#strong[Success] --- Tag Power + 1],
+    [#strong[Miss by 1--3];], [#strong[Success at a Cost] --- Tag Power + 0; the GM names a consequence, or gains 1 Woe instead (player\'s choice)],
+    [#strong[Miss by 4+];], [#strong[Failure] --- no Power; the GM makes a move; GM gains 1 Woe],
   )]
   , kind: table
   )
-#strong[Power] is spent on #strong[Effects] (@core-effects). Any Power you don\'t spend becomes #strong[Weal] (party pool, max 6).
+#strong[Tag Power.] Each relevant tag supplies #strong[+1 Power];, #strong[maximum +2 per action];. A tag is relevant only when it materially supports the declared approach; being on your sheet isn't enough. The same tag can help one action and be compelled in another (@core-tags, @core-tyche-points). On a Failure, tags supply nothing, and their Power doesn't become Weal.
 
-#strong[Choosing a consequence.] When a rule calls for a consequence, such as Success at a Cost, a failure's GM move or a complication, the table below suggests the kind of trouble to pick. It creates no new trigger and no severity track, and scripted conflicts still follow @core-costs-failures-complications: judge severity by fictional impact. A minor consequence changes the next decision; a more serious one changes the scene or leaves a problem to deal with afterward. #strong[If the test succeeded, keep what it earned.]
+#strong[Power buys the result.] Spend Power on #strong[Effects] (@core-effects); the Effects you buy are what the action accomplishes. A successful roll lets you buy them, but doesn't grant the declared goal by itself. If your purchases meet the requirement agreed before the roll, the goal is achieved; if they fall short, record the progress they make. Any Power you don\'t spend becomes #strong[Weal] (party pool, max 6), and accomplishes nothing in the fiction now.
+
+#strong[A cost with no Power.] With no relevant tags, a Success at a Cost has 0 Power: you buy no Effect, and the cost still applies. Post-roll Effort (@core-bonus-dice-effort) or another explicit source can add Power. Don't invent a free status, answer or segment to make up for it.
+
+#strong[Choosing a consequence.] When a rule calls for a consequence, such as Success at a Cost, a failure's GM move or a complication, the table below suggests the kind of trouble to pick. It creates no new trigger and no severity track, and scripted conflicts still follow @core-costs-failures-complications: judge severity by fictional impact. A minor consequence changes the next decision; a more serious one changes the scene or leaves a problem to deal with afterward. Name the consequence before the player chooses. #strong[If the test succeeded, keep what it bought:] a consequence can't cancel or empty an Effect already purchased, but it needn't grant the part of the goal the Power didn't reach.
 
 #figure(
   [#table(
@@ -132,7 +138,7 @@ Example: Effort Level 2 lets you buy one bonus die before the roll, then spend a
   , kind: table
   )
 
-#strong[Versus tests, conflicts and automatic success.] Versus tests compare opposing totals instead of using this table (@core-scripting-volleys). Inside scripted conflicts, @core-costs-failures-complications limits what failure, costs and Woe can do. An automatic success replaces the roll: apply its listed Power, with no dice-based critical or complication.
+#strong[Versus tests, conflicts and automatic success.] Versus tests compare opposing totals instead of using this table (@core-scripting-volleys). Inside scripted conflicts, @core-costs-failures-complications limits what failure, costs and Woe can do. An automatic success replaces the roll: apply its listed Power plus any Tag Power, with no dice-based critical or complication.
 
 === 2.6 Doubles (Twists) <core-doubles>
 If your two #strong[kept] dice show the same number:

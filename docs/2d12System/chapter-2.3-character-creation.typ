@@ -29,9 +29,9 @@ These steps describe the order of creation; the subsections below group rules by
 #figure(table(
   columns: (20%, 15%, 65%),
   table.header([Part], [Grammar], [What it gives you]),
-  [Descriptor], [Adjective], [+2 pool points to one pool, 1 power tag, 1 weakness tag, 1 suggested Instinct],
-  [Playbook], [Noun], [Starting pools and Edge, 2 power tags, special abilities, XP trigger, load-out, an anchor skill],
-  [Focus], [Verb phrase], [A tag theme (2 power tags + 1 weakness), a Tier 1 Focus ability, and a link to another PC],
+  [Descriptor], [Adjective], [+2 pool points to one pool, 2 tags, 1 suggested Instinct],
+  [Playbook], [Noun], [Starting pools and Edge, 2 tags, special abilities, XP trigger, load-out, an anchor skill],
+  [Focus], [Verb phrase], [A tag theme (3 tags), a Tier 1 Focus ability, and a link to another PC],
 ))
 
 === 3.2 Pools and Edge <core-pools-edge>
@@ -94,7 +94,7 @@ A #strong[Specialisation] names a narrow application of a rated skill: write it 
 ==== Knowledge Skills
 A #strong[Knowledge Skill] is an unrated field of expertise: #emph[Regional Trade Customs], #emph[River Ecology], #emph[Institutional Records]. Start with #strong[two], covering subjects your background and skills don't already cover.
 
-#strong[What also counts.] Relevant power and weakness tags from your background count as knowledge within their scope, and so does any skill rated #strong[+2 or higher] (professional). Don't take #emph[Medicine] again as knowledge if you already practise it at +2.
+#strong[What also counts.] Relevant tags from your background count as knowledge within their scope, and so does any skill rated #strong[+2 or higher] (professional). Don't take #emph[Medicine] again as knowledge if you already practise it at +2.
 
 #strong[What knowledge does.] It adds no die or modifier by itself. It tells you what the character knows, what they can attempt, and what a result means to them:
 
@@ -106,12 +106,12 @@ A #strong[Knowledge Skill] is an unrated field of expertise: #emph[Regional Trad
 #emph[Example:] a medic recognises without a roll that a patient's symptoms don't match the recorded injury. Stabilising the patient during an evacuation is uncertain, so they roll Medicine and add a die for #emph[Trauma Care]. Knowledge changes what the character understands; a Specialisation changes the roll.
 
 === 3.4 Tags <core-tags>
-A new character has #strong[seven character tags]: 1 power and 1 weakness from the Descriptor, 2 power from the Playbook, and 2 power and 1 weakness from the Focus.
+A new character has #strong[seven character tags]: 2 from the Descriptor, 2 from the Playbook and 3 from the Focus.
 
-- #strong[Power tags] (e.g. #emph[ex-navy marksman], #emph[silver tongue], #emph[grandfather's revolver]): +1 each when relevant, #strong[max +2 per roll].
-- #strong[Weakness tags] (e.g. #emph[owes the wrong people], #emph[bad knee]): −1 when relevant, or compel for a Tychē Point (@core-tyche-points).
-- #strong[Any tag can be compelled.] A power tag can also cause trouble when its meaning creates a concrete complication. It keeps its normal benefits (@core-tyche-points).
-- #strong[Burning a tag:] mark a power tag as burned to gain an automatic +1 Power on a success. It stays unusable until you recover it (a downtime action or a milestone). Burning ignores the +2 cap.
+- #strong[One description, two sides.] Each tag is a single description (#emph[ex-navy marksman], #emph[grandfather's revolver], #emph[owes the wrong people], #emph[loyal to the crew]). It isn't split into a benefit and a drawback; what it does depends on the situation.
+- #strong[When it helps,] it supplies #strong[+1 Power] on a Success or Success at a Cost, #strong[max +2 per action] (@core-outcomes). Explain how it helps. Tags never add to or subtract from the roll.
+- #strong[When it causes trouble,] it can be compelled for a Tychē Point (@core-tyche-points). A tag can supply Power and be compelled in the same action when the help and the trouble are distinct.
+- #strong[Burning a tag:] mark a relevant tag as burned to gain an automatic +1 Power on a success. It stays unusable until you recover it (a downtime action or a milestone). Burning ignores the +2 cap.
 
 With a +2 cap, a third relevant tag is best used for burning or as Tychē Point invoke material.
 
@@ -178,10 +178,10 @@ Use Beliefs as prompts, not prerequisites, when completing your mechanical choic
 - #strong[Playbook:] what role and methods do you bring?
 - #strong[Focus:] what distinctive pursuit supports or complicates your commitments?
 - #strong[Skills and abilities:] what can you already do, and where does ambition exceed competence?
-- #strong[Tags:] which strengths help you act, and which vulnerabilities make that difficult?
+- #strong[Tags:] where does each one help you act, and when does it get you into trouble?
 - #strong[Load-out:] which gear options and load may support your commitments? Follow @core-starting-resources; do not choose every item in advance.
 
-Beliefs grant no extra skills, tags, abilities, equipment, pool points or Tychē, and a conviction isn't a power tag. Wanting to protect others doesn't mean you're good at it.
+Beliefs grant no extra skills, tags, abilities, equipment, pool points or Tychē, and a conviction isn't a tag. Wanting to protect others doesn't mean you're good at it.
 
 ==== Choose Your Starting Goal
 Choose a concrete opening objective that advances at least one Belief. It should have a recognisable completion point.

@@ -22,7 +22,7 @@
   , kind: table
   )
 #columns(2, gutter: 6mm)[
-Each point of Power buys an Effect that fits what your character did in the fiction. No Effect is mandatory; all purchases share one Power budget, and any unspent Power becomes #strong[Weal];.
+Each point of Power buys an Effect that fits what your character did in the fiction. The Effects you buy are the action's result (@core-outcomes): an Effect you don't buy doesn't happen, even when it was the declared goal. Buy the Effect that serves the declared goal before a secondary goal with Extra Feat. No purchase is mandatory; all purchases share one Power budget, and any unspent Power becomes #strong[Weal];.
 
 #strong[In scripted conflicts,] each action can buy only the Effects @core-actions-effects permits. Fictional relevance is required but doesn't unlock anything else.
 

@@ -20,7 +20,7 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
   , kind: table
   )
 
-#strong[Playbook tags (choose 2 of 6):] #emph[I Stand Between Them and Trouble] · #emph[I Have Held This Line Before] · #emph[My Reputation Throws the First Punch] · #emph[Put Your Weight Behind It] · #emph[A Fight Is a Problem of Position] · #emph[I Know What My Fists Can Do]
+#strong[Playbook tags (choose 2 of 6):] 
 
 The six options support a protector, veteran, enforcer, powerhouse, tactician or controlled brawler; choose any two.
 ]

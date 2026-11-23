@@ -2,15 +2,12 @@
   
 #pagebreak()
 == 3. Combat Focuses <foc-combat-focuses>
-#columns(2, gutter: 6mm)[
 === 1. Never Leaves Anyone Behind
 #quote(block: true)[
 Loyal to a fault. You go back for the fallen, every time.
 ]
-
-- #strong[Tags:] #emph[Everyone Comes Home];, #emph[Their Safety Is My Responsibility]
 - #strong[PC link:] \"I once failed to save someone. \[PC\] reminds me of them.\"
-
+- #strong[Tags:] 
 #emph[Everyone Comes Home]
 
 Power: Rescue, extract, or rally endangered companions. \
@@ -69,8 +66,8 @@ Compel: You take control of someone’s safety against their wishes or accept to
 Captain, chief, or sergeant: people follow you.
 ]
 
-- #strong[Tags:] #emph[Follow Me In];, #emph[I Carry Their Confidence]
 - #strong[PC link:] \"\[PC\] was the first person who ever followed my lead.\"
+- #strong[Tags:] 
 
 #emph[Follow Me In]
 
@@ -130,8 +127,8 @@ Compel: You conceal your doubts or accept a challenge to preserve their faith in
 Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
 ]
 
-- #strong[Tags:] #emph[One With My \[Weapon\]];, #emph[My Training Takes Over]
 - #strong[PC link:] \"\[PC\] once saw me lose a duel, and kept it secret.\"
+- #strong[Tags:]
 
 #emph[One With My \[Weapon\]]
 
@@ -191,8 +188,8 @@ Compel: An opponent exploits your habits, or an unconventional situation defeats
 Honour is for people who can afford to lose.
 ]
 
-- #strong[Tags:] #emph[Winning Comes Before Honour];, #emph[Every Weakness Is an Opening]
 - #strong[PC link:] \"I taught \[PC\] that winning is the only thing that matters. They\'re still deciding if I was right.\"
+- #strong[Tags:]
 
 #emph[Winning Comes Before Honour]
 
@@ -245,4 +242,4 @@ Compel: You take a tempting cheap shot that exposes you or escalates the conflic
   )
 // ART: A brawler flinging sand into an opponent's eyes.
 #art-fill(min: 6cm)[A brawler flinging sand into an opponent's eyes.]
-]
+

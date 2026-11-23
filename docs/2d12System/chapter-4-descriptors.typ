@@ -62,8 +62,8 @@ Every Descriptor works in any genre. Choose one from this chapter or, when playi
   , kind: table
   )
 #pagebreak()
+#columns(2, gutter: 2mm)[
 == 3. Descriptors <desc-descriptors>
-#columns(2, gutter: 6mm)[
 #block(breakable: false, width: 100%)[
 === 1. Burly
 #quote(block: true)[
@@ -72,9 +72,9 @@ You fill doorways. People step aside before you ask.
 
 - #strong[Identity:] Your size clears a path, and it also means you're never easy to miss.
 - #strong[Pool:] +2 Sōma
-- #strong[Tags:] #emph[Built Like a Door];, #emph[Let Me Carry That]
 - #strong[Suggested Instinct:] \"If something is heavy, I pick it up myself.\"
 - #strong[Hook:] What did you carry, haul or break before this life began?
+- #strong[Tags:]
 
 #emph[Built Like a Door]
 
@@ -94,10 +94,10 @@ When you speak, people stop and listen, whether they want to or not.
 
 - #strong[Identity:] You draw attention because you want it, and losing an audience's favour stings.
 - #strong[Pool:] +2 Pneuma
-- #strong[Tags:] #emph[All Eyes Turn to Me];, #emph[I Give Them Someone to Believe In]
 - #strong[Suggested Instinct:] \"If a crowd gathers, I take the stage.\"
 - #strong[Hook:] Who once followed you, and where did you lead them?
-
+- #strong[Tags:]
+- 
 #emph[All Eyes Turn to Me]
 
 Power: Hold attention, command a room, or distract an audience. \
@@ -116,9 +116,9 @@ You have never walked past someone in pain. You have paid for that more than onc
 
 - #strong[Identity:] Other people's suffering moves you to act. The kindness that opens hearts also makes it hard to walk away.
 - #strong[Pool:] +2 Pneuma
-- #strong[Tags:] #emph[Everyone Deserves Kindness];, #emph[Your Pain Is My Concern]
 - #strong[Suggested Instinct:] \"If someone is hurting, I stop to help.\"
 - #strong[Hook:] Whose suffering did you fail to ease, and does it still weigh on you?
+- #strong[Tags:]
 
 #emph[Everyone Deserves Kindness]
 
@@ -138,10 +138,10 @@ You see the board, the pieces and the hand moving them.
 
 - #strong[Identity:] You see the hidden angle, and that confidence makes it hard to trust a plan you didn't make.
 - #strong[Pool:] +2 Psychē
-- #strong[Tags:] #emph[Three Moves Ahead];, #emph[I Keep Something in Reserve]
 - #strong[Suggested Instinct:] \"If someone offers a deal, I look for the catch.\"
 - #strong[Hook:] Whose plan did you once see through, and what did it cost them?
-
+- #strong[Tags:]
+  
 #emph[Three Moves Ahead]
 
 Power: Anticipate reactions and prepare a clever approach. \
@@ -160,10 +160,10 @@ A locked door is a question. You\'ve never been good at leaving questions alone.
 
 - #strong[Identity:] The hunger that uncovers answers also pulls you toward things better left closed.
 - #strong[Pool:] +2 Psychē
-- #strong[Tags:] #emph[I Have to Know Why];, #emph[Every Secret Is an Invitation]
 - #strong[Suggested Instinct:] \"If something is hidden, I look inside.\"
 - #strong[Hook:] What secret did you uncover that you wish you hadn\'t?
-
+- #strong[Tags:]
+  
 #emph[I Have to Know Why]
 
 Power: Investigate causes and question easy answers. \
@@ -182,10 +182,10 @@ You keep to walls and corners. Being noticed has never gone well for you.
 
 - #strong[Identity:] You're at home in the margins and exposed without them.
 - #strong[Pool:] +2 Mētis
-- #strong[Tags:] #emph[I Keep to the Edges];, #emph[I Never Show My Whole Hand]
 - #strong[Suggested Instinct:] \"If I enter a room, I check the shadows first.\"
 - #strong[Hook:] Who are you keeping out of sight of, and why?
-
+- #strong[Tags:]
+  
 #emph[I Keep to the Edges]
 
 Power: Avoid notice and observe without drawing attention. \
@@ -204,10 +204,10 @@ Cold, hunger and pain are old companions. You\'ve learned to walk on with them.
 
 - #strong[Identity:] You endure what others can't, including hurts you should be tending.
 - #strong[Pool:] +2 Sōma
-- #strong[Tags:] #emph[Hardship Is an Old Companion];, #emph[I Can Keep Going]
 - #strong[Suggested Instinct:] \"If I\'m hurt, I keep going until the job is done.\"
 - #strong[Hook:] What hardship did you survive that killed others?
-
+- #strong[Tags:]
+  
 #emph[Hardship Is an Old Companion]
 
 Power: Endure exposure, deprivation, and punishing conditions. \
@@ -226,10 +226,10 @@ Something from your past follows you. Some nights you can almost hear it.
 
 - #strong[Identity:] What you survived taught you about the dark, and it still follows you.
 - #strong[Pool:] +2 Pneuma
-- #strong[Tags:] #emph[I Know What Darkness Looks Like];, #emph[I Carry the Past With Me]
 - #strong[Suggested Instinct:] \"If I\'m alone at night, I keep a light on.\"
 - #strong[Hook:] What did you see that you can never forget?
-
+- #strong[Tags:]
+  
 #emph[I Know What Darkness Looks Like]
 
 Power: Recognise familiar horrors and understand others who have suffered. \
@@ -248,10 +248,10 @@ Things find their way into your hands. You rarely remember deciding to take them
 
 - #strong[Identity:] Your hands are fast, and they itch to prove it.
 - #strong[Pool:] +2 Mētis
-- #strong[Tags:] #emph[My Hands Have a Mind of Their Own];, #emph[Unattended Means Unclaimed]
 - #strong[Suggested Instinct:] \"If something valuable is left unattended, I take it.\"
 - #strong[Hook:] What is the one thing you stole that you can never give back?
-
+- #strong[Tags:]
+  
 #emph[My Hands Have a Mind of Their Own]
 
 Power: Palm, plant, or manipulate something without drawing notice. \
@@ -270,10 +270,10 @@ You chose your people. Nothing will make you abandon them.
 
 - #strong[Identity:] Your devotion holds firm, even when the people you trust don't deserve it.
 - #strong[Pool:] +2 Pneuma
-- #strong[Tags:] #emph[I Stand by My Own];, #emph[I Remember Who Stood With Me]
 - #strong[Suggested Instinct:] \"If someone I trust is threatened, I step between them and it.\"
 - #strong[Hook:] Who did you swear to stand by, and have they earned it?
-
+- #strong[Tags:]
+  
 #emph[I Stand by My Own]
 
 Power: Protect, support, or speak for your people. \
@@ -292,10 +292,10 @@ Haste makes mistakes. You check everything twice and trust your notes.
 
 - #strong[Identity:] Care makes your work reliable and makes you slow when time runs short.
 - #strong[Pool:] +2 Psychē
-- #strong[Tags:] #emph[Measure Twice, Cut Once];, #emph[Everything in Its Proper Order]
 - #strong[Suggested Instinct:] \"If I\'m unsure, I make a list.\"
 - #strong[Hook:] What disaster taught you never to skip a step?
-
+- #strong[Tags:]
+  
 #emph[Measure Twice, Cut Once]
 
 Power: Plan carefully and avoid preventable mistakes. \
@@ -314,10 +314,10 @@ You move like water, over walls and through gaps others never see.
 
 - #strong[Identity:] Your agility carries you through, until your confidence outruns the ground.
 - #strong[Pool:] +2 Mētis
-- #strong[Tags:] #emph[I Trust My Feet];, #emph[There Is Always a Way Through]
 - #strong[Suggested Instinct:] \"If the ground gives way, I move before I think.\"
 - #strong[Hook:] What did you learn to escape from, and who taught you?
-
+- #strong[Tags:]
+  
 #emph[I Trust My Feet]
 
 Power: Balance, climb, tumble, or cross precarious ground. \
@@ -336,10 +336,10 @@ You notice the scuffed boot, the nervous glance, the window left open.
 
 - #strong[Identity:] You notice everything, and sometimes that means you notice the wrong thing.
 - #strong[Pool:] +2 Psychē
-- #strong[Tags:] #emph[The Small Things Matter];, #emph[I Keep an Eye on Everyone]
 - #strong[Suggested Instinct:] \"If I enter a place, I count the exits and the people.\"
 - #strong[Hook:] What small detail once saved your life?
-
+- #strong[Tags:]
+  
 #emph[The Small Things Matter]
 
 Power: Notice subtle clues and changes. \
@@ -358,10 +358,10 @@ Thinking is for later. Right now, something needs doing.
 
 - #strong[Identity:] Your boldness gets you there first, before anyone has checked what's waiting.
 - #strong[Pool:] +2 Sōma
-- #strong[Tags:] #emph[First Into Trouble];, #emph[I Like My Odds]
 - #strong[Suggested Instinct:] \"If there\'s danger ahead, I go at it head-on.\"
 - #strong[Hook:] Who got hurt the last time you charged in?
-
+- #strong[Tags:]
+  
 #emph[First Into Trouble]
 
 Power: Seize the initiative and act before hesitation takes hold. \
@@ -380,10 +380,10 @@ You don\'t stop. Not when you\'re tired, not when you\'re hurt, not when it\'s h
 
 - #strong[Identity:] You keep going after others stop, even when stopping would be wiser.
 - #strong[Pool:] +2 Sōma
-- #strong[Tags:] #emph[I Finish What I Start];, #emph[I Never Let the Trail Go Cold]
 - #strong[Suggested Instinct:] \"If I start a chase, I finish it.\"
 - #strong[Hook:] What did you chase and never catch?
-
+- #strong[Tags:]
+  
 #emph[I Finish What I Start]
 
 Power: Persist through setbacks and sustained effort. \
@@ -424,10 +424,10 @@ Stillness itches. You need to move, act, see what is over the next hill.
 
 - #strong[Identity:] Your energy keeps you moving, and patience is the price.
 - #strong[Pool:] +2 Mētis
-- #strong[Tags:] #emph[I Need to Keep Moving];, #emph[Something Better Lies Ahead]
 - #strong[Suggested Instinct:] \"If things go quiet, I go looking for trouble.\"
 - #strong[Hook:] What place could never hold you, and who did you leave there?
-
+- #strong[Tags:]
+  
 #emph[I Need to Keep Moving]
 
 Power: Sustain motion and respond quickly to a changing situation. \
@@ -446,10 +446,10 @@ You have read more than most people will ever hear spoken.
 
 - #strong[Identity:] You know a great deal from study and less from hard experience.
 - #strong[Pool:] +2 Psychē
-- #strong[Tags:] #emph[I Have Read About This];, #emph[There Must Be a Source]
 - #strong[Suggested Instinct:] \"If a problem is new, I look for precedent.\"
 - #strong[Hook:] Which book or teacher shaped you, and what did it leave unanswered?
-
+- #strong[Tags:]
+  
 #emph[I Have Read About This]
 
 Power: Recall relevant knowledge and recognise a precedent. \
@@ -468,10 +468,10 @@ Storms rage around you. Inside, you are still water.
 
 - #strong[Identity:] Your calm steadies others, and it can leave you still when action is needed.
 - #strong[Pool:] +2 Pneuma
-- #strong[Tags:] #emph[Still Water in a Storm];, #emph[I Will Hear You Out]
 - #strong[Suggested Instinct:] \"If panic spreads, I stay still and speak softly.\"
 - #strong[Hook:] What taught you peace, and what would shatter it?
-
+- #strong[Tags:]
+  
 #emph[Still Water in a Storm]
 
 Power: Remain composed and steady others during a crisis. \
@@ -490,10 +490,10 @@ There is always another way in, another word to say, another deal to make.
 
 - #strong[Identity:] You always find an angle, and people have learned to doubt your word.
 - #strong[Pool:] +2 Mētis
-- #strong[Tags:] #emph[There Is Always Another Angle];, #emph[Why Pay the Asking Price?]
 - #strong[Suggested Instinct:] \"If there\'s a shortcut, I find it.\"
 - #strong[Hook:] Who did you outwit, and are they still looking for you?
-
+- #strong[Tags:]
+  
 #emph[There Is Always Another Angle]
 
 Power: Find a loophole, shortcut, or indirect approach. \
@@ -512,10 +512,10 @@ Your hands don\'t shake. When everyone else panics, you are the one who aims.
 
 - #strong[Identity:] Your control is precise because you take your time to find it.
 - #strong[Pool:] +2 Mētis
-- #strong[Tags:] #emph[I Take the Time to Get It Right];, #emph[I Hold Until the Moment Comes]
 - #strong[Suggested Instinct:] \"If the moment is tense, I breathe and take my time.\"
 - #strong[Hook:] When did your steadiness matter most, and who was counting on you?
-
+- #strong[Tags:]
+  
 #emph[I Take the Time to Get It Right]
 
 Power: Aim carefully or perform delicate work. \
@@ -534,10 +534,10 @@ You\'ve been told no all your life. You\'ve ignored it all your life.
 
 - #strong[Identity:] You hold your ground, including when the ground is wrong.
 - #strong[Pool:] +2 Sōma
-- #strong[Tags:] #emph[You Will Have to Move Me];, #emph[I Decide When I Am Done]
 - #strong[Suggested Instinct:] \"If someone tells me to stop, I dig in.\"
 - #strong[Hook:] What did everyone say was impossible that you did anyway?
-
+- #strong[Tags:]
+  
 #emph[You Will Have to Move Me]
 
 Power: Hold your ground against force or pressure. \
@@ -556,10 +556,10 @@ Everyone wants something. You just haven\'t worked out what yet.
 
 - #strong[Identity:] Your wariness spots real danger and invents some too.
 - #strong[Pool:] +2 Psychē
-- #strong[Tags:] #emph[Everyone Wants Something];, #emph[Trust Comes After Proof]
 - #strong[Suggested Instinct:] \"If a stranger is too friendly, I watch their hands.\"
 - #strong[Hook:] Who betrayed you, and how did you not see it coming?
-
+- #strong[Tags:]
+  
 #emph[Everyone Wants Something]
 
 Power: Identify motives and hidden interests. \
@@ -578,10 +578,10 @@ Wind, sun and years have worn you down to something hard and lasting.
 
 - #strong[Identity:] Hard years taught you to stay calm, and they left marks that still hurt.
 - #strong[Pool:] +2 Sōma
-- #strong[Tags:] #emph[I Have Survived Worse];, #emph[My Scars Taught Me]
 - #strong[Suggested Instinct:] \"If conditions turn harsh, I take the worst of it first.\"
 - #strong[Hook:] Where did you earn your scars, and who was with you?
-
+- #strong[Tags:]
+  
 #emph[I Have Survived Worse]
 
 Power: Endure familiar hardship and reassure less experienced companions. \

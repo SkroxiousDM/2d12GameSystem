@@ -4,7 +4,7 @@
 //  CHAPTER — GENERIC PLAYBOOKS
 // =====================================================================
 #chapter("Generic Playbooks", [The six genre-neutral playbooks: Bellator, Furcifer, Savant, Interlocutor, Explorator and Adept. Each has eight special abilities, a capstone and starting equipment for three genres. Setting books can reskin these six or add new ones.], epigraph: [The noun of the character sentence.])
-
+#columns(2, gutter: 2mm)[
 #colbreak(weak: true)
 == 1. Playbook Rules <pb-playbook-rules>
 === 1.1 What a Playbook Gives You <pb-what-playbook-gives-you>
@@ -130,6 +130,7 @@ Armour that absorbs a tier-4+ hit is #emph[damaged] (−1 Armour) until repaired
   )]
   , kind: table
   )
+]
 #pagebreak()
 #include "chapter-5.3-bellator.typ"
 #pagebreak()

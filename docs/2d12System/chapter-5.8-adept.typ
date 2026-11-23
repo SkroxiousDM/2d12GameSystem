@@ -21,7 +21,7 @@ Power from beyond the ordinary: magic, psionics, faith, or impossible technology
   , kind: table
   )
 
-#strong[Playbook tags (choose 2 of 6):] #emph[I Follow the Forms] · #emph[I Learn by Taking It Apart] · #emph[My Calling Is Greater Than Me] · #emph[I Notice What Others Tune Out] · #emph[The Old Agreements Still Matter] · #emph[I Trust My Gift Before the Rules]
+#strong[Playbook tags (choose 2 of 6):] 
 
 The six options support a disciplined practitioner, experimental tinkerer, devoted servant, sensitive, keeper of pacts or instinctive prodigy; choose any two. These tags describe how you practise; they do not independently grant new powers, senses, contacts or Domains.
 ]

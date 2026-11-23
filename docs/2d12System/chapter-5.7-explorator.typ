@@ -20,8 +20,7 @@ At home where the map ends. Rangers, hunters, pilots, guides, explorers, scouts,
   , kind: table
   )
 
-#strong[Playbook tags (choose 2 of 6):] #emph[The Land Leaves Signs] · #emph[I Bring People Through] · #emph[I Take Only What the Land Can Spare] · #emph[I Can Outlast the Journey] · #emph[I Stay Until the Quarry Comes] · #emph[I Know My Craft by Feel]
-
+#strong[Playbook tags (choose 2 of 6):] 
 The six options support a tracker, guide, respectful forager, endurance traveller, hunter or pilot; choose any two. In #emph[I Know My Craft by Feel], craft means your established vehicle or vessel, not every form of transportation.
 ]
 

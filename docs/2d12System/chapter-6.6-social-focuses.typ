@@ -1,7 +1,6 @@
 #import "common.typ": *
 #pagebreak() 
 == 6. Social Focuses <foc-social-focuses>
-#columns(2, gutter: 6mm)[
 === 13. Talks Their Way Out of Anything
 #quote(block: true)[
 Charm, quick wit, and the right words at the right time.
@@ -245,4 +244,4 @@ Compel: Your duty to them conflicts with personal loyalty or the party’s plans
   )
 // ART: A ruler on a worn throne, petitioners waiting below.
 #art-fill(min: 6cm)[A ruler on a worn throne, petitioners waiting below.]
-]
+

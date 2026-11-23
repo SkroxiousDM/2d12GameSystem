@@ -20,8 +20,7 @@ Words open doors that swords can\'t. Diplomats, con artists, nobles, negotiators
   , kind: table
   )
 
-#strong[Playbook tags (choose 2 of 6):] #emph[There Is Always a Deal to Make] · #emph[I Tell Them the Story They Need] · #emph[People Need Something to Believe In] · #emph[I Know Which Names Matter] · #emph[I Listen Until They Tell Me] · #emph[Someone Has to Speak for Us]
-
+#strong[Playbook tags (choose 2 of 6):] 
 The six options support a negotiator, confidence artist, orator, connected operator, confidant or representative; choose any two.
 ]
 

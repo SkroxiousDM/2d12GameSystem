@@ -20,8 +20,7 @@ Quiet, precise, and always three exits ahead. Thieves, spies, scouts, assassins,
   , kind: table
   )
 
-#strong[Playbook tags (choose 2 of 6):] #emph[I Belong Where No One Looks] · #emph[I Wait Until They Look Away] · #emph[My Hands Know What to Do] · #emph[The Underworld Knows Me] · #emph[A Different Face for Every Door] · #emph[Nothing I Break Looks Broken]
-
+#strong[Playbook tags (choose 2 of 6):] 
 The six options support an infiltrator, patient opportunist, technical thief, criminal insider, impostor or saboteur; choose any two.
 ]
 

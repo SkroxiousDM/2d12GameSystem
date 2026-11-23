@@ -20,8 +20,7 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
   , kind: table
   )
 
-#strong[Playbook tags (choose 2 of 6):] #emph[I Have Read About This] · #emph[The Evidence Must Agree] · #emph[Every Patient Teaches Me] · #emph[I Think in Working Parts] · #emph[My Name Opens Learned Doors] · #emph[No Knowledge Should Be Forbidden]
-
+#strong[Playbook tags (choose 2 of 6):] 
 The six options support a polymath, investigator, physician, engineer, established expert or boundary-breaking researcher; choose any two.
 ]
 

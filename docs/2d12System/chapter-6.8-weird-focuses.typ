@@ -1,7 +1,6 @@
 #import "common.typ": *
 #pagebreak() 
 == 8. Weird Focuses ◈ <foc-weird-focuses>
-#columns(2, gutter: 6mm)[
 === 21. Hunts the Things in the Dark ◈
 #quote(block: true)[
 Monster-hunter, exorcist, or investigator of the strange.
@@ -250,4 +249,4 @@ Define the trait and unusual nature at creation. Both helpful uses and complicat
   , kind: table
   )
 
-]
+

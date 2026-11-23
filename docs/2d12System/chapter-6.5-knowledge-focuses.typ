@@ -1,7 +1,6 @@
 #import "common.typ": *
 #pagebreak() 
 == 5. Knowledge Focuses <foc-knowledge-focuses>
-#columns(2, gutter: 6mm)[
 === 9. Builds Impossible Things
 #quote(block: true)[
 An artificer, engineer, or inventor who makes what shouldn\'t work, work.
@@ -249,4 +248,4 @@ Compel: You risk people or resources rather than abandon a discovery.
   )
 // ART: A scholar brushing dust from a carved tablet in a ruin.
 #art-fill(min: 6cm)[A scholar brushing dust from a carved tablet in a ruin.]
-]
+

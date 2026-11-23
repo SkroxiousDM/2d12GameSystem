@@ -1,14 +1,13 @@
 #import "common.typ": *
 #pagebreak() 
 == 4. Stealth & Precision Focuses <foc-stealth-precision-focuses>
-#columns(2, gutter: 6mm)[
 === 5. Moves Like a Shadow
 #quote(block: true)[
 Silent, patient, and impossible to pin down.
 ]
 
-- #strong[Tags:] #emph[The Shadows Are My Shelter];, #emph[I Leave Little Trace]
 - #strong[PC link:] \"\[PC\] is the only one who always knows where I am.\"
+- #strong[Tags:]
 
 #emph[The Shadows Are My Shelter]
 
@@ -70,9 +69,9 @@ Compel: Allies or rescuers cannot follow you, or you delay to erase a revealing 
 Sniper, archer, gunslinger: steady breath and a sharp eye.
 ]
 
-- #strong[Tags:] #emph[I Wait for the Perfect Shot];, #emph[I Keep Danger at a Distance]
 - #strong[PC link:] \"\[PC\] owes their life to a shot I made.\"
-
+- #strong[Tags:]
+  
 #emph[I Wait for the Perfect Shot]
 
 Power: Aim patiently and choose a precise opening. \
@@ -132,9 +131,9 @@ Compel: You give ground or separate from allies to avoid a close confrontation.
 Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
 ]
 
-- #strong[Tags:] #emph[A Lock Is a Challenge];, #emph[I Think Like the One Who Built It]
 - #strong[PC link:] \"\[PC\] keeps me out of trouble, or tries to.\"
-
+- #strong[Tags:]
+  
 #emph[A Lock Is a Challenge]
 
 Power: Defeat locks, safes, and security barriers. \
@@ -195,9 +194,9 @@ Compel: You assume a system follows a sensible design when its builder did not.
 You never walk into a room without knowing how to leave it.
 ]
 
-- #strong[Tags:] #emph[I Know How I Am Leaving];, #emph[I Never Stake Everything]
 - #strong[PC link:] \"\[PC\] was with me during my worst getaway.\"
-
+- #strong[Tags:]
+  
 #emph[I Know How I Am Leaving]
 
 Power: Identify exits and prepare a withdrawal. \
@@ -250,4 +249,3 @@ Compel: You withhold something needed to make a shared plan succeed.
   )
 // ART: A thief slipping out a high window as the door bursts open.
 #art-fill(min: 6cm)[A thief slipping out a high window as the door bursts open.]
-]

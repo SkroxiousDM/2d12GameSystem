@@ -1,7 +1,6 @@
 #import "common.typ": *
 #pagebreak() 
 == 7. Wilderness & Travel Focuses <foc-wilderness-travel-focuses>
-#columns(2, gutter: 6mm)[
 === 17. Runs With the Pack
 #quote(block: true)[
 Beast handler, rider, falconer, or dog-musher.
@@ -248,4 +247,4 @@ Compel: You accelerate when caution or stopping would be wiser.
   )
 // ART: A battered vehicle skidding around a mountain bend.
 #art-fill(min: 6cm)[A battered vehicle skidding around a mountain bend.]
-]
+

@@ -102,13 +102,13 @@ Compel: A patient’s needs take priority over the mission or your own safety.
     [2b], [#strong[Remedy];], [#ability(
       trigger: [You spend ten uninterrupted minutes treating yourself or an ally with suitable supplies.],
       cost: [The treatment time and supplies.],
-      benefit: [Reduce one temporary harmful physical Personal status by 2 tiers, without a roll, when your treatment can address its cause. With Module B: Instead of reducing a tiered status, clear Hungry & Thirsty, Exposed, or Sick from the patient. Meet that hardship's normal fictional recovery requirements, including any required rest; no recovery roll is needed.],
+      benefit: [Reduce one temporary harmful physical Personal status by 2 tiers, without a roll, when your treatment can address its cause. With Module B: Instead of reducing a tiered status, clear #emph[Hungry & Thirsty], #emph[Exposed], or #emph[Sick] from the patient. Meet that hardship's normal fictional recovery requirements, including any required rest; no recovery roll is needed.],
       limit: [Once per scene, across all patients. It does not treat lasting injuries, running-dry depletion, or tier-6 harm, and cannot remove an affliction whose source requires a different cure. It does not restore pools or Disposition, erase a Scar, or return a Taken Out character to an ongoing conflict.],
     )],
     [3a], [#strong[Miracle Worker];], [#ability(
       trigger: [An ally has a tier-6 physical status.],
       cost: [No additional cost.],
-      benefit: [They return at tier 4, are no longer Taken Out, and may rejoin an unresolved conflict if circumstances allow. A Dying ally stops Dying; this counts as definitive care (Core Rules @core-dying-stabilisation). Erase the Scar they gained from reaching tier 6 with this status.],
+      benefit: [They return at tier 4, are no longer Taken Out, and may rejoin an unresolved conflict if circumstances allow. A #emph[Dying] ally stops #emph[Dying]; this counts as definitive care (Core Rules @core-dying-stabilisation). Erase the Scar they gained from reaching tier 6 with this status.],
       limit: [Once per session. It can't undo death. A settled defeat stays settled.],
     )],
     // PLAYTEST: R2/B8, short rest replaced by the Third rest only.

@@ -61,7 +61,7 @@
     [#strong[Truth];], [Unrated scene, site, region or campaign fact that permits, prevents or requires; no modifier (@core-truths)],
     [#strong[Disposition];], [One shared total per side measuring its ability to pursue this conflict's objective, not individual health (@core-shared-disposition-participation)],
     [#strong[Injury trade];], [Once per character per conflict, accept a tier-2/3/4 injury to cancel 1/2/3 Disposition loss; at most one participant trades per Attack or Feint (@core-accepting-injury)],
-    [#strong[Dying];], [Life-threatening tier-6 physical harm with lethal stakes: 3-segment clock; Medicine vs. Hard 18 stabilises (@core-dying-stabilisation)],
+    [#strong[#emph[Dying]];], [Life-threatening tier-6 physical harm with lethal stakes: 3-segment clock; Medicine vs. Hard 18 stabilises (@core-dying-stabilisation)],
     [#strong[Checks / Grind];], [Players\' Turn currency and the hardship clock (Module B)],
   )]
   , kind: table

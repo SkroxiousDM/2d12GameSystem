@@ -16,7 +16,7 @@
 
 === 13.1 A Scripted Conflict <core-scripted-conflict>
 
-Later, at the warehouse gate, Kade, Mira and Tarin confront two guards. This is a new scene: the earlier Truth and Condition don't apply, and Kade's terror was treated once the spirit's influence ended (@core-treatment-healing). His spent Mētis and Pneuma stay spent. The PCs want to get their friend through the gate; the guards want to hold them until reinforcements arrive. The stakes are capture and nonlethal injury, not death.
+Later, at the warehouse gate, Kade, Mira and Tarin confront two guards. This is a new scene: the earlier Truth and Condition don't apply, and Kade's #emph[terror] was treated once the spirit's influence ended (@core-treatment-healing). His spent Mētis and Pneuma stay spent. The PCs want to get their friend through the gate; the guards want to hold them until reinforcements arrive. The stakes are capture and nonlethal injury, not death.
 
 #strong[Setup.] Mira leads with Fight +3 and the highest Edge in its pool, 1. Her setup dice are 7 and 8: 7 + 8 + 3 + 1 = 19. Divide by 3 and round down to 6, then add +1 for each of her two eligible backers: #strong[starting Disposition 8]. There are no other flat modifiers or Superiority. Backing supplies these points free, not extra Help dice (@core-setup).
 

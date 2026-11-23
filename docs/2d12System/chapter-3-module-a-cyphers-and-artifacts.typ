@@ -15,15 +15,15 @@ Cyphers are frequent, disposable power-ups that encourage players to use them ra
     table.hline(),
     [1], [Healing salve / med-gel], [2], [Restore],
     [2], [Smoke charge], [2], [Create (#emph[smoke cover];)],
-    [3], [Flashbang / thunderstone], [3], [Attack (dazed), Weaken],
+    [3], [Flashbang / thunderstone], [3], [Attack (#emph[dazed]), Weaken],
     [4], [Truth serum / mind-read charm], [2], [Discover ×2],
-    [5], [Adrenal shot], [3], [Enhance (surging), restore 3 Sōma],
+    [5], [Adrenal shot], [3], [Enhance (#emph[surging]), restore 3 Sōma],
     [6], [Lockbreaker], [3], [Advance (any lock or security clock)],
     [7], [Ward token], [3], [Negate one incoming status of tier 3 or less],
     [8], [Phase key], [4], [Create Truth (#emph[Passage Through the Wall]) for one scene, Create (#emph[Unseen Entry])],
-    [9], [Courage draught], [2], [Restore (fear), restore 2 Pneuma],
+    [9], [Courage draught], [2], [Restore (#emph[fear]), restore 2 Pneuma],
     [10], [Seeker], [2], [Discover (location of one person or object)],
-    [11], [Firebomb], [4], [Attack (on fire), Create (#emph[burning];)],
+    [11], [Firebomb], [4], [Attack (#emph[on fire]), Create (#emph[burning];)],
     [12], [Wild card], [d6], [Player names a reasonable Effect; GM sets the form],
   )]
   , kind: table
@@ -51,7 +51,7 @@ Cyphers are frequent, disposable power-ups that encourage players to use them ra
 #strong[Cypher format:]
 
 #quote(block: true)[
-#strong[Flashbang] (Tier 3) --- #emph[Effects:] Attack (dazed), Weaken. #emph[Form:] palm-sized canister. #strong[Draught of Iron Skin] (Tier 2) --- #emph[Effects:] Enhance (armoured), Restore. Lasts one scene.
+#strong[Flashbang] (Tier 3) --- #emph[Effects:] Attack (#emph[dazed]), Weaken. #emph[Form:] palm-sized canister. #strong[Draught of Iron Skin] (Tier 2) --- #emph[Effects:] Enhance (#emph[armoured]), Restore. Lasts one scene.
 ]
 
 A complete entry also states its action or trigger, targets, duration, removal conditions and any area or conflict exceptions.

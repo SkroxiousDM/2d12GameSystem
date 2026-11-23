@@ -97,10 +97,10 @@ Every Adept has a #strong[Domain];: a broad tag describing what they can do (#em
       limit: [This waives only the 1-point working cost; Backlash still applies.],
     )],
     [2], [#strong[Ward];], [#ability(
-      trigger: [You create a protective status with Enhance, or a warded ally Resists supernatural or tech-based harm.],
+      trigger: [You create a protective status with Enhance, or a #emph[warded] ally Resists supernatural or tech-based harm.],
       cost: [The normal Enhance cost.],
-      benefit: [You can create the protective Personal status #emph[warded +X]. It adds nothing to rolls. When a warded ally Resists supernatural or tech-based harm, they reduce it by #strong[+1 tier], and #emph[warded +X] drops by 1. The ward ends at 0.],
-      limit: [Protection only: #emph[warded +X] is never a roll modifier. Only supernatural or tech-based harm, and only while warded.],
+      benefit: [You can create the protective Personal status #emph[warded +X]. It adds nothing to rolls. When a #emph[warded] ally Resists supernatural or tech-based harm, they reduce it by #strong[+1 tier], and #emph[warded +X] drops by 1. The ward ends at 0.],
+      limit: [Protection only: #emph[warded +X] is never a roll modifier. Only supernatural or tech-based harm, and only while #emph[warded].],
     )],
     [3], [#strong[Sense the Unseen];], [#ability(
       trigger: [You ask about #strong[hidden supernatural or technological forces] nearby, or such forces are used near you.],

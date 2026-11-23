@@ -184,7 +184,7 @@ Ordinary NPCs and minion groups can't trade injury. A named rival built as a ful
 
 Ordinary NPCs have no pools (@core-running-dry) and reduce imposed harm only through listed Armour, traits or abilities. Apply at most one reduction per imposed status application, never to ordinary Disposition loss or a protected payment (@core-costs-failures-complications).
 
-NPC defeat uses @core-defeat-mutual-defeat-concession. Capture, escape, injury and death follow the stakes and outcome. Use a Dying clock when rescue matters, not to make an accepted rescue objective impossible.
+NPC defeat uses @core-defeat-mutual-defeat-concession. Capture, escape, injury and death follow the stakes and outcome. Use a #emph[Dying] clock when rescue matters, not to make an accepted rescue objective impossible.
 
 Creature-specific rules remain in force, including breaking points that replace the tier-6 procedure (@core-tier-6-scars). Immunity may stop an unsuitable status without stopping Disposition loss in a contest the creature can lose.
 

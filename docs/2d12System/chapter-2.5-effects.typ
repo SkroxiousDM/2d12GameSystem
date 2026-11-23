@@ -52,7 +52,7 @@ A #strong[status] is a physical, mental or emotional state of a person (or of a 
 // PLAYTEST: simplified stacking (one above the higher tier). Matches the old "existing + new − 1" rule within 1 tier in every case; check heavy repeated hits in seeded batches.
 - #strong[Stacking.] New harm of the same kind sets the status to #strong[one tier above the higher] of the existing and incoming tiers (#emph[wounded −2] hit by #emph[wounded −3] becomes #emph[wounded −4]). Harm is the same kind when it worsens the same injury, affliction or condition, whatever it's called: another cut worsens #emph[wounded], renewed menace worsens #emph[terrified], but a fresh burn needn't stack with a concussion. The GM says whether new harm stacks #strong[before] you decide to Resist or accept an injury (@core-accepting-injury).
 - #strong[Order.] Resistance and armour reduce incoming harm before it stacks; they can't reduce a protected payment such as an accepted injury trade (@core-costs-failures-complications). Harm reduced to tier 0 isn't recorded. A status can't go above tier 6.
-- #strong[Tier 6:] the target is #strong[Taken Out] of whatever that status represents (dead, unconscious, captured, convinced, routed), within its scope. A harmful status reaching tier 6 also gives a #strong[Scar] unless a specific rule replaces it (@core-tier-6-scars). Death needs a lethal cause and established stakes; a physical status at tier 6 can make you #strong[Dying] (@core-dying-stabilisation).
+- #strong[Tier 6:] the target is #strong[Taken Out] of whatever that status represents (dead, unconscious, captured, convinced, routed), within its scope. A harmful status reaching tier 6 also gives a #strong[Scar] unless a specific rule replaces it (@core-tier-6-scars). Death needs a lethal cause and established stakes; a physical status at tier 6 can make you #strong[#emph[Dying]] (@core-dying-stabilisation).
 - #strong[Impede is not a status.] It is a temporary conflict penalty (@core-actions-effects). An ongoing hindrance needs its own name, tier, scope and removal condition.
 
 === 5.2 Situational Conditions <core-situational-conditions>
@@ -89,20 +89,20 @@ The following names are examples, not a closed list. When recording one, give a 
   columns: (22%, 78%),
   table.header([Helpful status], [Typical scope]),
   table.hline(),
-  [Inspired], [Acting on renewed hope, encouragement, or conviction.],
-  [Focused], [Concentrating, analysing information, or resisting distraction.],
-  [Composed], [Maintaining restraint and clarity under emotional or social pressure.],
+  [#emph[Inspired]], [Acting on renewed hope, encouragement, or conviction.],
+  [#emph[Focused]], [Concentrating, analysing information, or resisting distraction.],
+  [#emph[Composed]], [Maintaining restraint and clarity under emotional or social pressure.],
 )
 
 #table(
   columns: (22%, 78%),
   table.header([Harmful status], [Typical scope]),
   table.hline(),
-  [Wounded], [Physical actions affected by a particular injury.],
-  [Exhausted], [Sustained effort using the depleted physical or mental capacity.],
-  [Unsteady], [Balance, coordination, reflexes, or precise movement.],
-  [Rattled], [Concentration and clear thinking after shock, confusion, or intimidation.],
-  [Terrified], [Facing, approaching, or acting against a particular source of fear.],
+  [#emph[Wounded]], [Physical actions affected by a particular injury.],
+  [#emph[Exhausted]], [Sustained effort using the depleted physical or mental capacity.],
+  [#emph[Unsteady]], [Balance, coordination, reflexes, or precise movement.],
+  [#emph[Rattled]], [Concentration and clear thinking after shock, confusion, or intimidation.],
+  [#emph[Terrified]], [Facing, approaching, or acting against a particular source of fear.],
 )
 
 #table(
@@ -117,7 +117,7 @@ The following names are examples, not a closed list. When recording one, give a 
   [Obstructed], [Hinders movement or sight through terrain, weather, smoke or darkness.],
 )
 #columns(2, gutter: 6mm)[
-#strong[Make the scope specific.] Prepared and Supported need an established basis: name the plan, information, allies, or backing involved. Trusted and Discredited apply to a named audience and subject, not everyone or every interaction. They are not universal reputation scores and do not automatically decide what another character believes. Exhausted should identify the depleted capacity rather than penalise everything.
+#strong[Make the scope specific.] Prepared and Supported need an established basis: name the plan, information, allies, or backing involved. Trusted and Discredited apply to a named audience and subject, not everyone or every interaction. They are not universal reputation scores and do not automatically decide what another character believes. #emph[Exhausted] should identify the depleted capacity rather than penalise everything.
 
 #block(sticky: true)[#strong[Recording examples.]]
 - #emph[mapped patrol routes] --- Situational Condition 2 --- helps evading the observed patrols --- ends when their routes change.
@@ -126,5 +126,5 @@ The following names are examples, not a closed list. When recording one, give a 
 - #emph[Mentally exhausted −3] --- personal status, tier 3 --- sustained mental work --- ends through appropriate recovery (@core-rest-recovery).
 - #emph[discredited before the merchant guild] --- Situational Condition 2 --- hinders claims about the disputed shipment made to the guild --- ends when the accusation is disproved or credibility is restored.
 
-#strong[Special conditions stay separate.] These examples use the normal status and Situational Condition rules. Grind hardships --- Hungry & Thirsty, Weary, Exposed, Shaken, Sick, and Broken --- use their listed effects and recovery requirements (Module B.3), not generic tiers inferred from their order. Running-dry statuses also follow their pool-specific procedure (@core-running-dry-statuses). Impede is a temporary conflict effect, not a status (@core-actions-effects).
+#strong[Special conditions stay separate.] These examples use the normal status and Situational Condition rules. Grind hardships --- #emph[Hungry & Thirsty], #emph[Weary], #emph[Exposed], #emph[Shaken], #emph[Sick], and #emph[Broken] --- use their listed effects and recovery requirements (Module B.3), not generic tiers inferred from their order. Running-dry statuses also follow their pool-specific procedure (@core-running-dry-statuses). Impede is a temporary conflict effect, not a status (@core-actions-effects).
 ]

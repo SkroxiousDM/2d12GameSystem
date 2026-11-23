@@ -114,7 +114,7 @@ Compel: You conceal your doubts or accept a challenge to preserve their faith in
     )],
     [3b], [#strong[Unbreak-able Line];], [#ability(
       trigger: [Your side's Disposition would drop to 0.],
-      cost: [You take a #strong[tier-2 Personal status] as an accepted payment. You name it (#emph[exhausted-2], #emph[battered-2]) and the GM approves it. It recovers under the normal rules (Core Rules @core-rest-recovery–@core-treatment-healing[]).],
+      cost: [You take a #strong[tier-2 Personal status] as an accepted payment. You name it (#emph[exhausted −2], #emph[battered −2]) and the GM approves it. It recovers under the normal rules (Core Rules @core-rest-recovery–@core-treatment-healing[]).],
       benefit: [Your side's Disposition stays at #strong[1].],
       limit: [Once per conflict for your side, however many participants have this ability. It prevents defeat from reaching 0 Disposition, not defeat because nobody can continue pursuing the objective. It cannot prevent a setup defeat.],
     )],
@@ -213,7 +213,7 @@ Compel: You take a tempting cheap shot that exposes you or escalates the conflic
     [1], [#strong[Cheap Shot];], [#ability(
       trigger: [You make an Attack.],
       cost: [#strong[1 Power].],
-      benefit: [As part of the Attack, the target also takes a tier-1 Personal status from the dirty trick (#emph[blinded-1], #emph[winded-1]). In a conflict, this is in addition to the Disposition the Attack removes.],
+      benefit: [As part of the Attack, the target also takes a tier-1 Personal status from the dirty trick (#emph[blinded −1], #emph[winded −1]). In a conflict, this is in addition to the Disposition the Attack removes.],
       limit: [Once per scene. Tier 1 only; the target can Resist it normally.],
     )],
     [2a], [#strong[Improvised Arsenal];], [#ability(

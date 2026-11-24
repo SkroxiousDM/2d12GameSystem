@@ -167,11 +167,81 @@ Comparison-based complications, including the major complication from Critical F
 
 Independent hazards, Risky triggers, abilities, and other explicit rules retain only the consequence permissions they actually provide. Calling a complication independent does not grant additional permissions. Power mitigation and narrative Resistance address eligible complications, not an opponent's ordinary purchased Disposition effect.
 
+## 10. Verified probability reference
+
+### Assumptions and scope
+
+Use fair, independent d12s. Always retain the designated Complication die and the highest of the other action dice. There are no automatic double-1 or double-12 overrides. Needed on dice = Difficulty − Skill − net applicable roll modifiers. Tags supply Power and do not affect these probabilities.
+
+All percentages are unconditional probabilities before Woe buyoffs, Power mitigation, or Resistance. The action-outcome tables exclude independent Risky triggers. Rounded outcome columns may sum to 99.99% or 100.01%.
+
+### Replacement success odds
+
+Total success includes Clean Success, Success with Complication, and Critical Success. Use these headings instead of keep-best-two headings.
+
+| Needed on dice | No bonus dice | 1 bonus die | 2 bonus dice |
+| --- | --- | --- | --- |
+| 7+ | 89.58% | 96.82% | 98.91% |
+| 9+ | 80.56% | 91.90% | 96.22% |
+| 11+ | 68.75% | 83.51% | 90.23% |
+| 13+ | 54.17% | 70.72% | 78.99% |
+| 15+ | 38.19% | 54.11% | 62.33% |
+| 17+ | 25.00% | 38.19% | 45.83% |
+| 19+ | 14.58% | 23.90% | 30.08% |
+| 21+ | 6.94% | 12.15% | 16.11% |
+
+Corrected worked example: Skill +3 and a net +1 modifier against Difficulty 15 requires 11+ on the retained dice: 68.75% success without bonus dice, 83.51% with one, or 90.23% with two. The old example's 88% with one bonus die is not valid under mandatory Complication-die retention.
+
+### Retained die comparisons
+
+These face-comparison probabilities do not depend on Difficulty.
+
+| Bonus dice | Complication die lower | Complication die higher | Retained dice match |
+| --- | --- | --- | --- |
+| 0 | 45.83% | 45.83% | 8.33% |
+| 1 | 62.38% | 29.28% | 8.33% |
+| 2 | 70.66% | 21.01% | 8.33% |
+
+Matching retained dice remain a 1-in-12 event overall. Bonus dice change the split between Critical Success and Critical Failure, not the overall matching frequency on fixed-Difficulty action rolls.
+
+### Six outcomes when 12+ is needed on the dice
+
+For example, Difficulty 15 with Skill +3 and no other modifiers requires 12+.
+
+| Outcome | No bonus dice | 1 bonus die | 2 bonus dice |
+| --- | --- | --- | --- |
+| Clean Success | 28.47% | 46.47% | 58.24% |
+| Success with Complication | 28.47% | 24.36% | 19.44% |
+| Critical Success | 4.86% | 6.89% | 7.73% |
+| Failure with a Benefit | 17.36% | 15.91% | 12.42% |
+| Failure with Complication | 17.36% | 4.92% | 1.57% |
+| Critical Failure | 3.47% | 1.45% | 0.60% |
+| Total success | 61.81% | 77.72% | 85.41% |
+| Any comparison-based complication | 49.31% | 30.73% | 21.61% |
+
+The last two rows are summaries, not additional outcomes. Any comparison-based complication includes Success with Complication, Failure with Complication, and Critical Failure.
+
+### Verification and transcript audit
+
+Computed by exhaustive enumeration of all 144, 1,728, and 20,736 equally likely ordered raw dice results for zero, one, and two bonus dice. Independently checked using the exact retained-pair formula:
+
+P(C = c, M = m) = (m^(b+1) − (m−1)^(b+1)) / 12^(b+2),
+
+where C is the Complication die, M is the highest ordinary die, and b is the bonus-dice count. Both methods agree exactly; each six-outcome count sums to its complete sample space.
+
+All 75 checked entries from the transcript's main probability tables agree to their displayed precision: 15 total-success entries, 18 six-outcome entries at needed total 12, 9 die-comparison entries, 30 no-bonus six-outcome entries at needed totals 9/12/15/18/21, and 3 any-action-complication entries at needed total 12.
+
+Risky triggers remain independent: Risky 1 = 8.33%, Risky 2 = 16.67%, Risky 3 = 25%. With 12+ needed, no bonus dice, and Risky 3, both an action complication and a Risky trigger occur with probability 12.33%; at least one occurs with probability 61.98%. These transcript figures also check out. These are trigger probabilities, not counts of distinct fictional consequences after resolving overlapping triggers.
+
+### Versus-test limitation
+
+Do not publish the fixed-Difficulty success or six-outcome tables as versus-test probabilities. Versus results depend on both actors' Skill, modifiers, and bonus dice. Exact ties suppress comparison-based benefits, complications, and critical outcomes. The raw face-comparison distribution remains valid, but cannot alone determine the versus complication or critical-outcome rate.
+
 ## Remaining integration work, not reopened decisions
 
 - Apply this replacement to core resolution, Effort, Resistance, Woe, quick references, examples, and affected abilities.
 - Integrate the settled versus procedure and conflict-complication restrictions above; audit NPCs, remaining scripted-conflict interactions, automatic successes, and dice-manipulating abilities for compatibility without inventing overrides.
 - Clarify how the required-Effect Power reservation interacts with scripted actions' existing flexible spending and optional primary purchases. No new conflict-specific reservation rule has yet been adopted.
 - Preserve unrelated rules unless a coordinated compatibility change is explicitly approved.
-- Replace obsolete keep-best-two odds with probabilities for mandatory Complication-die retention and the highest other action die. Verify any transcript probability tables before publication.
+- Probability verification is complete for the tables documented in section 10. During coordinated integration, replace the published obsolete keep-best-two odds and worked example with that verified reference; the published core table is unchanged by this draft update.
 - Check cross-references and compile the affected rulebook after the coordinated integration.

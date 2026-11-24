@@ -1,14 +1,23 @@
 #import "common.typ": *
 #pagebreak() 
 == 8. Weird Focuses ◈ <foc-weird-focuses>
-#columns(2, gutter: 6mm)[
 === 21. Hunts the Things in the Dark ◈
 #quote(block: true)[
 Monster-hunter, exorcist, or investigator of the strange.
 ]
 
-- #strong[Tags:] #emph[knows their weaknesses];, #emph[silver, salt, and iron];, #emph[the dark hunts me back]
+- #strong[Tags:] #emph[I Study What Hunts Us];, #emph[I Carry the Hunt With Me]
 - #strong[PC link:] \"\[PC\] saw what I saw that night, and they\'re the only one who believes me.\"
+
+#emph[I Study What Hunts Us]
+
+Power: Identify strange threats and prepare against their known weaknesses. \
+Compel: You approach something dangerous to learn more or test a theory.
+
+#emph[I Carry the Hunt With Me]
+
+Power: Recognise signs of your quarry and draw resolve from your purpose. \
+Compel: The hunt intrudes on a safe place, relationship, or unrelated obligation.
 
 #figure(
   [#table(
@@ -60,8 +69,18 @@ Monster-hunter, exorcist, or investigator of the strange.
 Touched by the spirit world, the Otherworld, or the deep net.
 ]
 
-- #strong[Tags:] #emph[one foot across the veil];, #emph[spirits whisper to me];, #emph[not quite of this world]
+- #strong[Tags:] #emph[One Foot Across the Veil];, #emph[The Other Side Knows My Name]
 - #strong[PC link:] \"\[PC\] anchors me. Without them, I\'d drift away.\"
+
+#emph[One Foot Across the Veil]
+
+Power: Interpret and navigate your established connection to the other world. \
+Compel: Otherworldly concerns distract you or make ordinary life difficult.
+
+#emph[The Other Side Knows My Name]
+
+Power: Establish recognition and relationships with otherworldly beings. \
+Compel: A being recognises you when you would rather remain unknown or calls upon that relationship.
 
 #figure(
   [#table(
@@ -89,7 +108,7 @@ Touched by the spirit world, the Otherworld, or the deep net.
     )],
     [3a], [#strong[Ally Beyond];], [#ability(
       trigger: [You call on your patron in the other world.],
-      cost: [The GM gets a compel on one of your tags in return. You must accept it, and it earns no Tychē (Core Rules @core-tyche-points).],
+      cost: [The GM gets a compel on one of your Focus tags in return. You must accept it, and it earns no Tychē (Core Rules @core-tyche-points).],
       benefit: [A #strong[World-shaking favour].],
       limit: [Once per session.],
     )],
@@ -111,8 +130,20 @@ Touched by the spirit world, the Otherworld, or the deep net.
 Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
 ]
 
-- #strong[Tags:] #emph[patron\'s gift];, #emph[knows the old names];, #emph[the debt comes due]
+- #strong[Tags:] #emph[My Patron Invested in Me];, #emph[I Am Bound by the Old Terms]
 - #strong[PC link:] \"\[PC\] knows what I traded, and hasn\'t told anyone.\"
+
+#emph[My Patron Invested in Me]
+
+Power: Draw on your granted gift or standing as the patron’s chosen agent. \
+Compel: Your patron intervenes to protect its investment rather than your wishes.
+
+#emph[I Am Bound by the Old Terms]
+
+Power: Invoke the bargain’s protections and interpret its established terms. \
+Compel: A condition, prohibition, or payment becomes inconveniently relevant.
+
+Define the patron and the bargain's key terms at creation. These tags provide leverage and complications; they do not introduce unspecified powers or retroactively invent contractual protections.
 
 #figure(
   [#table(
@@ -134,7 +165,7 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
     )],
     [2b], [#strong[Not Yet];], [#ability(
       trigger: [After reduction and stacking, an imposed harmful status would reach #strong[tier 6] on you.],
-      cost: [The GM gets one free compel on #emph[the debt comes due] next session.],
+      cost: [The GM gets one free compel on #emph[I Am Bound by the Old Terms] next session.],
       benefit: [Invoke your patron: record it at #strong[tier 5] instead, so you aren't Taken Out by it and gain no Scar.],
       limit: [Once per session. It can't prevent a shared-Disposition defeat or reverse death or a settled outcome.],
     )],
@@ -161,8 +192,20 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
 Mutant, cyborg, half-fae, or carrier of a strange bloodline.
 ]
 
-- #strong[Tags:] #emph[\[your trait\]];, #emph[unnatural resilience];, #emph[outsider]
+- #strong[Tags:] #emph[My \[Trait\] Sets Me Apart];, #emph[I Live by a Different Nature]
 - #strong[PC link:] \"\[PC\] saw me change and stayed anyway.\"
+
+#emph[My \[Trait\] Sets Me Apart]
+
+Power: Use your chosen extraordinary trait. \
+Compel: That same trait exposes your nature or creates a concrete physical or social difficulty.
+
+#emph[I Live by a Different Nature]
+
+Power: Draw on an established unusual physiology, instinct, or way of perceiving. \
+Compel: An established need, reaction, or incompatibility conflicts with ordinary expectations.
+
+Define the trait and unusual nature at creation. Both helpful uses and complications must follow from those established features; the tags grant no capabilities beyond the Focus and its abilities.
 
 #figure(
   [#table(
@@ -192,7 +235,7 @@ Mutant, cyborg, half-fae, or carrier of a strange bloodline.
     // PLAYTEST: fallback matches Berserker and Unleash (Generic Playbooks); confirm in playtest.
     [3a], [#strong[Apex Form];], [#ability(
       trigger: [You unleash your nature.],
-      cost: [At scene end, take #emph[Weary] (Module B; without it, exhausted-2 until a night's rest) as an accepted payment.],
+      cost: [At scene end, take #emph[Weary] (Module B; without it, #emph[exhausted −2] until a night's rest) as an accepted payment.],
       benefit: [Gain one free bonus die on Sōma and Mētis skill rolls that directly use one of your traits for the rest of the scene.],
       limit: [Once per scene.],
     )],
@@ -205,4 +248,5 @@ Mutant, cyborg, half-fae, or carrier of a strange bloodline.
   )]
   , kind: table
   )
-]
+
+

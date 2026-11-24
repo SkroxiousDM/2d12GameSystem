@@ -1,14 +1,23 @@
 #import "common.typ": *
 #pagebreak() 
 == 5. Knowledge Focuses <foc-knowledge-focuses>
-#columns(2, gutter: 6mm)[
 === 9. Builds Impossible Things
 #quote(block: true)[
 An artificer, engineer, or inventor who makes what shouldn\'t work, work.
 ]
 
-- #strong[Tags:] #emph[workshop hands];, #emph[it\'ll work, trust me];, #emph[never quite finished]
+- #strong[Tags:] #emph[There Has to Be a Way to Build It];, #emph[I Can Always Improve It]
 - #strong[PC link:] \"I built \[PC\]\'s gear, and I\'m still tinkering with it.\"
+
+#emph[There Has to Be a Way to Build It]
+
+Power: Invent a solution and overcome practical design obstacles. \
+Compel: You pursue an expensive or dangerous construction instead of accepting a limitation.
+
+#emph[I Can Always Improve It]
+
+Power: Repair, adapt, or refine a device. \
+Compel: You modify something reliable at the wrong moment or refuse to call it finished.
 
 #figure(
   [#table(
@@ -58,8 +67,18 @@ An artificer, engineer, or inventor who makes what shouldn\'t work, work.
 Doctor, field medic, herbalist, or combat surgeon.
 ]
 
-- #strong[Tags:] #emph[calm hands];, #emph[bedside manner];, #emph[can\'t refuse anyone in pain]
+- #strong[Tags:] #emph[No One Is Beyond My Care];, #emph[The Patient Comes First]
 - #strong[PC link:] \"I patched up \[PC\] when no one else would.\"
+
+#emph[No One Is Beyond My Care]
+
+Power: Treat difficult patients and earn the trust of the neglected. \
+Compel: You help someone whom your allies need you to refuse.
+
+#emph[The Patient Comes First]
+
+Power: Make clear treatment decisions and protect someone in your care. \
+Compel: A patient’s needs take priority over the mission or your own safety.
 
 #figure(
   [#table(
@@ -82,13 +101,13 @@ Doctor, field medic, herbalist, or combat surgeon.
     [2b], [#strong[Remedy];], [#ability(
       trigger: [You spend ten uninterrupted minutes treating yourself or an ally with suitable supplies.],
       cost: [The treatment time and supplies.],
-      benefit: [Reduce one temporary harmful physical Personal status by 2 tiers, without a roll, when your treatment can address its cause. With Module B: Instead of reducing a tiered status, clear Hungry & Thirsty, Exposed, or Sick from the patient. Meet that hardship's normal fictional recovery requirements, including any required rest; no recovery roll is needed.],
+      benefit: [Reduce one temporary harmful physical Personal status by 2 tiers, without a roll, when your treatment can address its cause. With Module B: Instead of reducing a tiered status, clear #emph[Hungry & Thirsty], #emph[Exposed], or #emph[Sick] from the patient. Meet that hardship's normal fictional recovery requirements, including any required rest; no recovery roll is needed.],
       limit: [Once per scene, across all patients. It does not treat lasting injuries, running-dry depletion, or tier-6 harm, and cannot remove an affliction whose source requires a different cure. It does not restore pools or Disposition, erase a Scar, or return a Taken Out character to an ongoing conflict.],
     )],
     [3a], [#strong[Miracle Worker];], [#ability(
       trigger: [An ally has a tier-6 physical status.],
       cost: [No additional cost.],
-      benefit: [They return at tier 4, are no longer Taken Out, and may rejoin an unresolved conflict if circumstances allow. A Dying ally stops Dying; this counts as definitive care (Core Rules @core-dying-stabilisation). Erase the Scar they gained from reaching tier 6 with this status.],
+      benefit: [They return at tier 4, are no longer Taken Out, and may rejoin an unresolved conflict if circumstances allow. A #emph[Dying] ally stops #emph[Dying]; this counts as definitive care (Core Rules @core-dying-stabilisation). Erase the Scar they gained from reaching tier 6 with this status.],
       limit: [Once per session. It can't undo death. A settled defeat stays settled.],
     )],
     // PLAYTEST: R2/B8, short rest replaced by the Third rest only.
@@ -110,8 +129,18 @@ Doctor, field medic, herbalist, or combat surgeon.
 Detective, investigator, or analyst: you follow the thread to the end.
 ]
 
-- #strong[Tags:] #emph[nothing gets past me];, #emph[follows the thread];, #emph[obsessed with the case]
+- #strong[Tags:] #emph[Every Detail Must Fit];, #emph[I Follow the Case Wherever It Leads]
 - #strong[PC link:] \"\[PC\] was part of the case that made me.\"
+
+#emph[Every Detail Must Fit]
+
+Power: Reconstruct events and expose contradictions. \
+Compel: You fixate on an inconsistency while a pressing danger develops.
+
+#emph[I Follow the Case Wherever It Leads]
+
+Power: Pursue difficult evidence and challenge convenient explanations. \
+Compel: You cross a dangerous boundary or expose someone you wanted to protect.
 
 #figure(
   [#table(
@@ -163,8 +192,18 @@ Detective, investigator, or analyst: you follow the thread to the end.
 Historian, archaeologist, or keeper of lost lore.
 ]
 
-- #strong[Tags:] #emph[walks among ruins];, #emph[reads dead languages];, #emph[lives in the past]
+- #strong[Tags:] #emph[The Past Still Has Something to Say];, #emph[What Was Lost Must Be Preserved]
 - #strong[PC link:] \"\[PC\] helped me recover something that was lost.\"
+
+#emph[The Past Still Has Something to Say]
+
+Power: Interpret ruins, records, and historical patterns. \
+Compel: You give an old precedent more weight than present circumstances deserve.
+
+#emph[What Was Lost Must Be Preserved]
+
+Power: Recover, identify, and safeguard endangered knowledge or relics. \
+Compel: You risk people or resources rather than abandon a discovery.
 
 #figure(
   [#table(
@@ -209,4 +248,4 @@ Historian, archaeologist, or keeper of lost lore.
   )
 // ART: A scholar brushing dust from a carved tablet in a ruin.
 #art-fill(min: 6cm)[A scholar brushing dust from a carved tablet in a ruin.]
-]
+

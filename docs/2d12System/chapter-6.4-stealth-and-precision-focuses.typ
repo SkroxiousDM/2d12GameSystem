@@ -1,14 +1,23 @@
 #import "common.typ": *
 #pagebreak() 
 == 4. Stealth & Precision Focuses <foc-stealth-precision-focuses>
-#columns(2, gutter: 6mm)[
 === 5. Moves Like a Shadow
 #quote(block: true)[
 Silent, patient, and impossible to pin down.
 ]
 
-- #strong[Tags:] #emph[silent as snowfall];, #emph[at home in darkness];, #emph[uneasy in the light]
 - #strong[PC link:] \"\[PC\] is the only one who always knows where I am.\"
+- #strong[Tags:]
+
+#emph[The Shadows Are My Shelter]
+
+Power: Hide, approach unseen, and move through concealed routes. \
+Compel: You cling to concealment when helping requires stepping into view.
+
+#emph[I Leave Little Trace]
+
+Power: Move quietly and conceal evidence of your passage. \
+Compel: Allies or rescuers cannot follow you, or you delay to erase a revealing trace.
 
 #figure(
   [#table(
@@ -60,8 +69,18 @@ Silent, patient, and impossible to pin down.
 Sniper, archer, gunslinger: steady breath and a sharp eye.
 ]
 
-- #strong[Tags:] #emph[steady breath];, #emph[eye like a hawk];, #emph[clumsy up close]
 - #strong[PC link:] \"\[PC\] owes their life to a shot I made.\"
+- #strong[Tags:]
+  
+#emph[I Wait for the Perfect Shot]
+
+Power: Aim patiently and choose a precise opening. \
+Compel: You let a fleeting opportunity pass while waiting for a better one.
+
+#emph[I Keep Danger at a Distance]
+
+Power: Control sightlines and engage threats from range. \
+Compel: You give ground or separate from allies to avoid a close confrontation.
 
 #figure(
   [#table(
@@ -112,8 +131,18 @@ Sniper, archer, gunslinger: steady breath and a sharp eye.
 Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
 ]
 
-- #strong[Tags:] #emph[nothing stays closed];, #emph[thinks like an architect];, #emph[can\'t resist a challenge]
 - #strong[PC link:] \"\[PC\] keeps me out of trouble, or tries to.\"
+- #strong[Tags:]
+  
+#emph[A Lock Is a Challenge]
+
+Power: Defeat locks, safes, and security barriers. \
+Compel: You attempt an unnecessary breach to prove that you can.
+
+#emph[I Think Like the One Who Built It]
+
+Power: Understand security layouts and anticipate their safeguards. \
+Compel: You assume a system follows a sensible design when its builder did not.
 
 #figure(
   [#table(
@@ -165,8 +194,18 @@ Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
 You never walk into a room without knowing how to leave it.
 ]
 
-- #strong[Tags:] #emph[knows every exit];, #emph[slippery];, #emph[runs first, thinks later]
 - #strong[PC link:] \"\[PC\] was with me during my worst getaway.\"
+- #strong[Tags:]
+  
+#emph[I Know How I Am Leaving]
+
+Power: Identify exits and prepare a withdrawal. \
+Compel: You reject an important opportunity because it lacks a secure escape route.
+
+#emph[I Never Stake Everything]
+
+Power: Preserve a fallback, reserve, or hidden resource. \
+Compel: You withhold something needed to make a shared plan succeed.
 
 #figure(
   [#table(
@@ -210,4 +249,3 @@ You never walk into a room without knowing how to leave it.
   )
 // ART: A thief slipping out a high window as the door bursts open.
 #art-fill(min: 6cm)[A thief slipping out a high window as the door bursts open.]
-]

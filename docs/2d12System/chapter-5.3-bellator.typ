@@ -20,8 +20,40 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
   , kind: table
   )
 
-#strong[Playbook tags (choose 2):] #emph[built like a wall] · #emph[veteran of the line] · #emph[scarred and unbothered] · #emph[iron grip] · #emph[knows how a fight will go] · #emph[the look that stops trouble]
+#strong[Playbook tags (choose 2 of 6):] 
+
+The six options support a protector, veteran, enforcer, powerhouse, tactician or controlled brawler; choose any two.
 ]
+
+#emph[I Stand Between Them and Trouble]
+
+Power: Intercept danger, hold a defensive position, or cover someone’s withdrawal. \
+Compel: Protecting someone leaves you exposed or prevents you from withdrawing.
+
+#emph[I Have Held This Line Before]
+
+Power: Read a battlefield, recognise familiar tactics, or steady inexperienced fighters. \
+Compel: You mistake a new threat for an old one or repeat a costly doctrine.
+
+#emph[My Reputation Throws the First Punch]
+
+Power: Intimidate opposition, discourage violence, or establish credibility among fighters. \
+Compel: Someone challenges your reputation, or your presence turns a tense meeting into a confrontation.
+
+#emph[Put Your Weight Behind It]
+
+Power: Overpower resistance, break an obstruction, or commit your strength to a decisive effort. \
+Compel: Your force damages something valuable or leaves you overcommitted.
+
+#emph[A Fight Is a Problem of Position]
+
+Power: Exploit terrain, control an approach, or recognise an opening in an enemy formation. \
+Compel: You refuse to yield useful ground or prioritise position over someone’s immediate need.
+
+#emph[I Know What My Fists Can Do]
+
+Power: Judge physical threats, apply measured force, or remain composed at close quarters. \
+Compel: You accept a physical challenge to settle something that needed a different answer.
 
 === 3.1 Special Abilities <pb-bellator-special-abilities>
 #figure(
@@ -57,19 +89,19 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
     [5], [#strong[Menacing];], [#ability(
       trigger: [You use Intimidate Effort or Resistance, or you succeed on Intimidate against minions.],
       cost: [Pay the normal cost for Effort or Resistance. After succeeding against minions, spend 1 Weal for the second benefit.],
-      benefit: [You may use #strong[Sōma] for Intimidate Effort and Resistance. After succeeding on Intimidate against minions, you may make them flee, surrender or freeze.],
+      benefit: [You may use #strong[Sōma] for Intimidate Effort and Resistance. After succeeding against minions, you may make them flee, surrender or freeze.],
       limit: [Flee, surrender or freeze applies only to minions and needs a successful Intimidate action. The response lasts until a meaningful change in circumstances ends it; establish that ending condition when it takes effect. Fleeing or surrendered minions don't resume opposition merely because a new exchange or scene begins. Surrender is submission to the immediate demand, not loyalty or unlimited obedience. Freezing is hesitation under threat, not paralysis.],
     )],
     [6], [#strong[Pain Tolerance];], [#ability(
       trigger: [A harmful physical status would apply a penalty to your roll.],
       cost: [No additional cost.],
       benefit: [Ignore the penalty from a status of tier 1--2; at tier 3+, reduce it by 1.],
-      limit: [Only the penalty changes: the tier, stacking, recovery, Taken Out, Dying and Scars work normally.],
+      limit: [Only the penalty changes: the tier, stacking, recovery, Taken Out, #emph[Dying] and Scars work normally.],
     )],
-    // PLAYTEST: Weary fallback (exhausted-2) for games without Module B.
+    // PLAYTEST: Weary fallback (exhausted −2) for games without Module B.
     [7], [#strong[Berserker];], [#ability(
       trigger: [You enter a fury.],
-      cost: [At scene end, lose 2 Sōma (paid in full) or take #emph[Weary] (Module B; without it, #emph[exhausted-2] until a night's rest). Either is an accepted payment.],
+      cost: [At scene end, lose 2 Sōma (paid in full) or take #emph[Weary] (Module B; without it, #emph[exhausted −2] until a night's rest). Either is an accepted payment.],
       benefit: [#strong[+1 bonus die] (free) on Fight, Brawl and Athletics rolls for the rest of the scene.],
       limit: [Once per scene. While the fury lasts, you can't script Defend or retreat. The bonus die counts toward the normal bonus-dice cap.],
     )],
@@ -77,7 +109,7 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
       trigger: [A harmful physical status on you reaches #strong[tier 6].],
       cost: [Record the status and any Scar normally. This ability adds no resource cost.],
       benefit: [Delay being Taken Out by that status until the scene ends. You keep acting, with its normal roll penalty. At scene end you're Taken Out unless treatment or an ability has lowered it below tier 6.],
-      limit: [Once per scene. This doesn't postpone Dying or death, restore a lost limb, protect you from other statuses or prevent a shared-Disposition defeat.],
+      limit: [Once per scene. This doesn't postpone #emph[Dying] or death, restore a lost limb, protect you from other statuses or prevent a shared-Disposition defeat.],
     )],
     [◆], [#strong[Legend of the Field];], [#ability(
       trigger: [Your reputation applies as a Campaign Truth; a Fight conflict begins; or the GM brings in reinforcements while you remain an active participant in the conflict.],
@@ -100,7 +132,7 @@ Muscle, grit, and a willingness to stand in front of trouble. Soldiers, brawlers
     table.hline(),
     [Fantasy], [#strong[Greataxe or warhammer] (2) --- #emph[+1 Attack];, #emph[crushing blows];], [#strong[Longsword & shield] (2) --- #emph[+1 Attack];, #emph[+1 Defend];],
     [Modern], [#strong[Combat shotgun] (2) --- #emph[+1 Attack];, #emph[room-clearer];], [#strong[Baseball bat & pistol] (2) --- #emph[+1 Attack] (bat), #emph[sidearm];],
-    [Sci-Fi], [#strong[Shock maul] (2) --- #emph[+1 Attack];, #emph[stuns on hit] (spend 1 Power: add #emph[dazed-1];)], [#strong[Vibro-blade & energy barrier] (2) --- #emph[+1 Attack];, #emph[+1 Defend];],
+    [Sci-Fi], [#strong[Shock maul] (2) --- #emph[+1 Attack];, #emph[stuns on hit] (spend 1 Power: add #emph[dazed −1];)], [#strong[Vibro-blade & energy barrier] (2) --- #emph[+1 Attack];, #emph[+1 Defend];],
   )]
   , kind: table
   )

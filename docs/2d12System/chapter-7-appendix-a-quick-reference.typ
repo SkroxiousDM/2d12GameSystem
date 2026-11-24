@@ -129,7 +129,7 @@ Divide points among your pools without exceeding their maximums. Edge does not a
 
 Pool recovery and status healing do not restore Disposition, refresh injury trades or erase Scars. Treatment removes at most 1 tier of a lasting injury until healing time does.
 
-Life-threatening tier-6 harm with lethal stakes can start a 3-segment Dying clock. Medicine vs. Hard 18 stabilises. Explicit creature breaking-point rules replace generic outcomes only where stated.
+Life-threatening tier-6 harm with lethal stakes can start a 3-segment _Dying_ clock. Medicine vs. Hard 18 stabilises. Explicit creature breaking-point rules replace generic outcomes only where stated.
 
 #emph[Core Rules @core-effects[§§]–@core-rest-recovery[]; currencies in @core-core-resolution[§§]–@core-tyche-points[] and @core-weal-woe.]
 
@@ -159,19 +159,17 @@ Grit-built adversary sides use their listed setup instead of the Disposition rol
   [Neither side at 0], [Proceed to scripting.],
 )
 Only Superiority can reduce setup below the minimum of 1. Setup defeat scripts no exchange and inflicts no injury, pool loss or Taken Out by itself.
-
+#colbreak()
 === Script and reveal
 Each side secretly commits *three actions and their assigned actors*. Reveal one volley at a time. If the conflict continues, script another exchange.
 
 Track rotation continuously across exchanges:
 - Everyone available acts once per round.
-- Nobody acts in consecutive volleys unless they are the only available participant.
+- Nobody acts in consecutive volleys unless they are the only available participant.#colbreak()
 - Helping does not count as a turn.
 - Update rotation when someone joins, withdraws or becomes unable to act.
 
 Before reveal, the players may spend 2 Weal to change one unrevealed action, keeping its assigned actor. An unsuitable or unperformable action grants no free replacement.
-// ART: A GM screen seen from behind: dice, tokens and a half-filled clock.
-#art-fill(min: 6cm)[A GM screen seen from behind: dice, tokens and a half-filled clock.]
 ]
 
 === Action interactions
@@ -308,7 +306,7 @@ Compare the winner's final remaining Disposition with its *original adjusted sta
 Use proportions without rounding, not cumulative loss. Remaining Disposition at or above the original start means no compromise. Reinforcements do not change the reference.
 
 Negotiate one outcome-first package. Injury tiers 2/3/4 guide Minor/Significant/Major severity; they are not automatic injuries. Credit each eligible existing injury once. Eligible imposed statuses may be Resisted; agreed payments may not. Resistance does not revoke a concession or create replacement injury costs.
-
+#colbreak()
 If both sides are defeated, use mutual defeat rather than a winner's compromise: resolve compatible parts of both intents and a shared setback within the stakes; neither wins outright (Core Rules @core-defeat-mutual-defeat-concession).
 
 === Concede
@@ -338,5 +336,6 @@ Full adversary procedures govern; this strip grants no additional activation per
 // PLAYTEST retained: Bulwark, repair, declarations, arrival timing and deferred cap.
 ]
 ]
-
+// ART: A GM screen seen from behind: dice, tokens and a half-filled clock.
+#art-fill(min: 6cm)[A GM screen seen from behind: dice, tokens and a half-filled clock.]
 #player-first-reference()

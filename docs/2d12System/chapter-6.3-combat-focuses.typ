@@ -2,14 +2,21 @@
   
 #pagebreak()
 == 3. Combat Focuses <foc-combat-focuses>
-#columns(2, gutter: 6mm)[
 === 1. Never Leaves Anyone Behind
 #quote(block: true)[
 Loyal to a fault. You go back for the fallen, every time.
 ]
-
-- #strong[Tags:] #emph[I\'ve got your back];, #emph[carry them out];, #emph[can\'t walk away]
 - #strong[PC link:] \"I once failed to save someone. \[PC\] reminds me of them.\"
+- #strong[Tags:] 
+#emph[Everyone Comes Home]
+
+Power: Rescue, extract, or rally endangered companions. \
+Compel: You go back when escape requires leaving someone behind.
+
+#emph[Their Safety Is My Responsibility]
+
+Power: Anticipate threats to others and coordinate their protection. \
+Compel: You take control of someone’s safety against their wishes or accept too much risk yourself.
 
 #figure(
   [#table(
@@ -59,8 +66,18 @@ Loyal to a fault. You go back for the fallen, every time.
 Captain, chief, or sergeant: people follow you.
 ]
 
-- #strong[Tags:] #emph[born to command];, #emph[they believe in me];, #emph[every loss is on me]
 - #strong[PC link:] \"\[PC\] was the first person who ever followed my lead.\"
+- #strong[Tags:] 
+
+#emph[Follow Me In]
+
+Power: Lead an advance and inspire others through visible action. \
+Compel: You expose yourself rather than direct events from safety.
+
+#emph[I Carry Their Confidence]
+
+Power: Rally followers and steady a wavering group. \
+Compel: You conceal your doubts or accept a challenge to preserve their faith in you.
 
 #figure(
   [#table(
@@ -94,7 +111,7 @@ Captain, chief, or sergeant: people follow you.
     )],
     [3b], [#strong[Unbreak-able Line];], [#ability(
       trigger: [Your side's Disposition would drop to 0.],
-      cost: [You take a #strong[tier-2 Personal status] as an accepted payment. You name it (#emph[exhausted-2], #emph[battered-2]) and the GM approves it. It recovers under the normal rules (Core Rules @core-rest-recovery–@core-treatment-healing[]).],
+      cost: [You take a #strong[tier-2 Personal status] as an accepted payment. You name it (#emph[exhausted −2], #emph[battered −2]) and the GM approves it. It recovers under the normal rules (Core Rules @core-rest-recovery–@core-treatment-healing[]).],
       benefit: [Your side's Disposition stays at #strong[1].],
       limit: [Once per conflict for your side, however many participants have this ability. It prevents defeat from reaching 0 Disposition, not defeat because nobody can continue pursuing the objective. It cannot prevent a setup defeat.],
     )],
@@ -110,8 +127,18 @@ Captain, chief, or sergeant: people follow you.
 Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
 ]
 
-- #strong[Tags:] #emph[one with my \[weapon\]];, #emph[drilled every day];, #emph[lost without it]
 - #strong[PC link:] \"\[PC\] once saw me lose a duel, and kept it secret.\"
+- #strong[Tags:]
+
+#emph[One With My \[Weapon\]]
+
+Power: Wield, maintain, and understand your chosen weapon. \
+Compel: You resist surrendering it or struggle to abandon its familiar approach.
+
+#emph[My Training Takes Over]
+
+Power: React through disciplined, deeply practised technique. \
+Compel: An opponent exploits your habits, or an unconventional situation defeats your routine.
 
 #figure(
   [#table(
@@ -161,8 +188,18 @@ Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
 Honour is for people who can afford to lose.
 ]
 
-- #strong[Tags:] #emph[no rules in a fight];, #emph[eye for a cheap shot];, #emph[no one trusts me in a fair fight]
 - #strong[PC link:] \"I taught \[PC\] that winning is the only thing that matters. They\'re still deciding if I was right.\"
+- #strong[Tags:]
+
+#emph[Winning Comes Before Honour]
+
+Power: Use deception, surprise, and ruthless expedience. \
+Compel: Your methods cost trust, legitimacy, or a valuable alliance.
+
+#emph[Every Weakness Is an Opening]
+
+Power: Exploit distraction, injury, pride, or poor positioning. \
+Compel: You take a tempting cheap shot that exposes you or escalates the conflict.
 
 #figure(
   [#table(
@@ -173,7 +210,7 @@ Honour is for people who can afford to lose.
     [1], [#strong[Cheap Shot];], [#ability(
       trigger: [You make an Attack.],
       cost: [#strong[1 Power].],
-      benefit: [As part of the Attack, the target also takes a tier-1 Personal status from the dirty trick (#emph[blinded-1], #emph[winded-1]). In a conflict, this is in addition to the Disposition the Attack removes.],
+      benefit: [As part of the Attack, the target also takes a tier-1 Personal status from the dirty trick (#emph[blinded −1], #emph[winded −1]). In a conflict, this is in addition to the Disposition the Attack removes.],
       limit: [Once per scene. Tier 1 only; the target can Resist it normally.],
     )],
     [2a], [#strong[Improvised Arsenal];], [#ability(
@@ -205,4 +242,4 @@ Honour is for people who can afford to lose.
   )
 // ART: A brawler flinging sand into an opponent's eyes.
 #art-fill(min: 6cm)[A brawler flinging sand into an opponent's eyes.]
-]
+

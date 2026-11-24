@@ -1,14 +1,23 @@
 #import "common.typ": *
 #pagebreak() 
 == 7. Wilderness & Travel Focuses <foc-wilderness-travel-focuses>
-#columns(2, gutter: 6mm)[
 === 17. Runs With the Pack
 #quote(block: true)[
 Beast handler, rider, falconer, or dog-musher.
 ]
 
-- #strong[Tags:] #emph[animals trust me];, #emph[calm voice];, #emph[better with animals than people]
+- #strong[Tags:] #emph[I Understand the Pack];, #emph[My Animals Are My Family]
 - #strong[PC link:] \"\[PC\] is the only person my animals like.\"
+
+#emph[I Understand the Pack]
+
+Power: Read animal behaviour and coordinate with trained animals. \
+Compel: You misread a human relationship through the expectations of pack behaviour.
+
+#emph[My Animals Are My Family]
+
+Power: Calm, motivate, and care for animals bonded to you. \
+Compel: You refuse to leave an animal behind or accept its mistreatment.
 
 #figure(
   [#table(
@@ -59,8 +68,18 @@ Beast handler, rider, falconer, or dog-musher.
 Explorer, navigator, or surveyor drawn to the blank parts of the map.
 ]
 
-- #strong[Tags:] #emph[always knows north];, #emph[mapmaker\'s eye];, #emph[can\'t resist the horizon]
+- #strong[Tags:] #emph[The Blank Map Calls to Me];, #emph[I Need to Know Where Everything Lies]
 - #strong[PC link:] \"\[PC\] backed my first expedition.\"
+
+#emph[The Blank Map Calls to Me]
+
+Power: Explore unfamiliar ground and identify promising routes. \
+Compel: You divert toward an unexplored place despite the expedition’s priorities.
+
+#emph[I Need to Know Where Everything Lies]
+
+Power: Survey terrain and build an accurate picture of an area. \
+Compel: You linger to complete a survey when the group needs to move.
 
 #figure(
   [#table(
@@ -112,8 +131,18 @@ Requires Module B. This Focus uses the Grind, hardships, and Supplies throughout
 Survivalist, forager, or homesteader: you need nothing the world doesn\'t give.
 ]
 
-- #strong[Tags:] #emph[nothing goes to waste];, #emph[knows what\'s edible];, #emph[distrusts civilization]
+- #strong[Tags:] #emph[Nothing Goes to Waste];, #emph[The Land Provides What I Need]
 - #strong[PC link:] \"I taught \[PC\] how to survive their first winter.\"
+
+#emph[Nothing Goes to Waste]
+
+Power: Salvage materials and stretch limited resources. \
+Compel: You carry unnecessary salvage or spend precious time recovering it.
+
+#emph[The Land Provides What I Need]
+
+Power: Find food, shelter, and useful natural materials. \
+Compel: You reject outside supplies or assistance that would make the journey safer.
 
 #figure(
   [#table(
@@ -164,8 +193,18 @@ Survivalist, forager, or homesteader: you need nothing the world doesn\'t give.
 Driver, pilot, sailor, or rider: you and your vehicle are one.
 ]
 
-- #strong[Tags:] #emph[my rig is part of me];, #emph[nerves of steel at speed];, #emph[can\'t leave her behind]
+- #strong[Tags:] #emph[My Rig Is Part of Me];, #emph[Speed Settles My Nerves]
 - #strong[PC link:] \"\[PC\] has ridden shotgun since day one.\"
+
+#emph[My Rig Is Part of Me]
+
+Power: Handle your vehicle and recognise its capabilities or faults. \
+Compel: You refuse to abandon it or entrust it to someone else.
+
+#emph[Speed Settles My Nerves]
+
+Power: Stay composed during a high-speed manoeuvre or pursuit. \
+Compel: You accelerate when caution or stopping would be wiser.
 
 #figure(
   [#table(
@@ -208,4 +247,4 @@ Driver, pilot, sailor, or rider: you and your vehicle are one.
   )
 // ART: A battered vehicle skidding around a mountain bend.
 #art-fill(min: 6cm)[A battered vehicle skidding around a mountain bend.]
-]
+

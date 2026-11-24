@@ -4,7 +4,7 @@
 //  CHAPTER — GENERIC PLAYBOOKS
 // =====================================================================
 #chapter("Generic Playbooks", [The six genre-neutral playbooks: Bellator, Furcifer, Savant, Interlocutor, Explorator and Adept. Each has eight special abilities, a capstone and starting equipment for three genres. Setting books can reskin these six or add new ones.], epigraph: [The noun of the character sentence.])
-
+#columns(2, gutter: 2mm)[
 #colbreak(weak: true)
 == 1. Playbook Rules <pb-playbook-rules>
 === 1.1 What a Playbook Gives You <pb-what-playbook-gives-you>
@@ -61,7 +61,7 @@
     [#strong[Truth];], [Unrated scene, site, region or campaign fact that permits, prevents or requires; no modifier (@core-truths)],
     [#strong[Disposition];], [One shared total per side measuring its ability to pursue this conflict's objective, not individual health (@core-shared-disposition-participation)],
     [#strong[Injury trade];], [Once per character per conflict, accept a tier-2/3/4 injury to cancel 1/2/3 Disposition loss; at most one participant trades per Attack or Feint (@core-accepting-injury)],
-    [#strong[Dying];], [Life-threatening tier-6 physical harm with lethal stakes: 3-segment clock; Medicine vs. Hard 18 stabilises (@core-dying-stabilisation)],
+    [#strong[#emph[Dying]];], [Life-threatening tier-6 physical harm with lethal stakes: 3-segment clock; Medicine vs. Hard 18 stabilises (@core-dying-stabilisation)],
     [#strong[Checks / Grind];], [Players\' Turn currency and the hardship clock (Module B)],
   )]
   , kind: table
@@ -130,6 +130,7 @@ Armour that absorbs a tier-4+ hit is #emph[damaged] (−1 Armour) until repaired
   )]
   , kind: table
   )
+]
 #pagebreak()
 #include "chapter-5.3-bellator.typ"
 #pagebreak()

@@ -1,14 +1,23 @@
 #import "common.typ": *
 #pagebreak() 
 == 6. Social Focuses <foc-social-focuses>
-#columns(2, gutter: 6mm)[
 === 13. Talks Their Way Out of Anything
 #quote(block: true)[
 Charm, quick wit, and the right words at the right time.
 ]
 
-- #strong[Tags:] #emph[always has a story ready];, #emph[disarming smile];, #emph[my mouth writes cheques]
+- #strong[Tags:] #emph[I Always Have an Explanation];, #emph[Give Me a Minute to Talk]
 - #strong[PC link:] \"\[PC\] has bailed me out more than once; I owe them.\"
+
+#emph[I Always Have an Explanation]
+
+Power: Improvise a convincing story or account for suspicious circumstances. \
+Compel: Your explanation commits you to a lie that becomes difficult to maintain.
+
+#emph[Give Me a Minute to Talk]
+
+Power: Buy time and turn a confrontation into a conversation. \
+Compel: You keep talking after words have stopped helping.
 
 #figure(
   [#table(
@@ -58,8 +67,18 @@ Charm, quick wit, and the right words at the right time.
 Spy, impostor, or actor: you can be anyone.
 ]
 
-- #strong[Tags:] #emph[perfect mimic];, #emph[no one remembers my real face];, #emph[who am I really?]
+- #strong[Tags:] #emph[I Become Who They Expect];, #emph[My Real Self Stays Hidden]
 - #strong[PC link:] \"\[PC\] is the only one who knows my real name.\"
+
+#emph[I Become Who They Expect]
+
+Power: Impersonate someone and fit a social role. \
+Compel: Maintaining the role requires an unwanted action or obligation.
+
+#emph[My Real Self Stays Hidden]
+
+Power: Protect your identity and conceal personal motives. \
+Compel: Someone who needs an honest connection cannot tell whether to trust you.
 
 #figure(
   [#table(
@@ -109,8 +128,18 @@ Spy, impostor, or actor: you can be anyone.
 Fixer, socialite, or broker: you\'re one call away from anyone.
 ]
 
-- #strong[Tags:] #emph[favours owed];, #emph[always on the guest list];, #emph[owes favours too]
+- #strong[Tags:] #emph[Favours Run Both Ways];, #emph[My Name Is on the List]
 - #strong[PC link:] \"I introduced \[PC\] to the people who matter.\"
+
+#emph[Favours Run Both Ways]
+
+Power: Call in assistance and negotiate reciprocal help. \
+Compel: A contact calls in a favour at a difficult time.
+
+#emph[My Name Is on the List]
+
+Power: Gain introductions, invitations, and access to influential circles. \
+Compel: Your attendance is expected, noticed, or taken as a public allegiance.
 
 #figure(
   [#table(
@@ -160,8 +189,18 @@ Fixer, socialite, or broker: you\'re one call away from anyone.
 Noble, officer, executive, or chieftain: you hold authority, and it holds you.
 ]
 
-- #strong[Tags:] #emph[voice of authority];, #emph[my name carries weight];, #emph[duty before self]
+- #strong[Tags:] #emph[My Name Carries Authority];, #emph[My People Are My Responsibility]
 - #strong[PC link:] \"\[PC\] serves me, or is the one person who refuses to.\"
+
+#emph[My Name Carries Authority]
+
+Power: Issue orders and secure recognition of your position. \
+Compel: You become the focus of resentment, challenge, or political demands.
+
+#emph[My People Are My Responsibility]
+
+Power: Represent their interests and rally their support. \
+Compel: Your duty to them conflicts with personal loyalty or the party’s plans.
 
 #figure(
   [#table(
@@ -205,4 +244,4 @@ Noble, officer, executive, or chieftain: you hold authority, and it holds you.
   )
 // ART: A ruler on a worn throne, petitioners waiting below.
 #art-fill(min: 6cm)[A ruler on a worn throne, petitioners waiting below.]
-]
+

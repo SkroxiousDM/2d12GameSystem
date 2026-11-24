@@ -22,7 +22,7 @@ The Belief question awards at most #strong[1 XP per session], not 1 XP per Belie
 - +1 to a skill (following the pyramid rule)
 - +3 to one pool, or +1 Edge (max 3 Edge per pool)
 - A new playbook special ability (★ costs 1 Refresh; veteran costs below)
-- A new tag, or rewrite an existing tag
+- A new tag, or a rewrite that broadens an existing tag's useful scope
 - A new Specialisation in a rated skill (@core-skill-pyramid)
 - #strong[+1 Refresh] (buys back Refresh spent on abilities or artifacts), up to the #strong[Refresh cap] of 3 + 1 per 3 Advances
 - A higher-tier Focus ability: Tier 2 after 3 Advances; Tier 3 after 6 Advances. Taking the ability costs an Advance; reaching the threshold does not grant it automatically (Generic Focuses @foc-what-focus-gives-you).
@@ -55,4 +55,7 @@ Ordinary revisions happen at milestones. Reaffirm, revise, or replace your Belie
 Acting against a Belief has no automatic penalty and doesn't force a rewrite; the player decides whether it leads to reaffirmation or change. Don't rewrite a Belief mid-decision to claim a reward. Rewriting alone earns neither XP nor Tychē.
 
 Keep one World, one Other and one Self Belief. Rewrite a Goal when it's accomplished or no longer fits (@core-beliefs-goals-instincts). Instincts can change at milestones.
+
+=== 12.4 Rewriting Identity Tags <core-rewriting-identity-tags>
+At a milestone, you may rewrite an identity tag without spending an Advance when established events have changed the character. The replacement must have comparable opportunities to help and cause trouble; it cannot broaden the tag's useful scope or remove a meaningful limitation without an Advance. This does not add a tag or remove a Scar.
 ]

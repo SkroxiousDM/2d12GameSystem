@@ -20,8 +20,39 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
   , kind: table
   )
 
-#strong[Playbook tags (choose 2):] #emph[read everything twice] · #emph[eye for detail] · #emph[steady surgeon\'s hands] · #emph[speaks the old tongues] · #emph[respected in academic circles] · #emph[thinks in diagrams]
+#strong[Playbook tags (choose 2 of 6):] 
+The six options support a polymath, investigator, physician, engineer, established expert or boundary-breaking researcher; choose any two.
 ]
+
+#emph[I Have Read About This]
+
+Power: Recall relevant knowledge, recognise an obscure reference, or connect ideas across subjects. \
+Compel: You trust a written account despite evidence that it is incomplete or wrong.
+
+#emph[The Evidence Must Agree]
+
+Power: Compare clues, expose contradictions, or test a proposed explanation. \
+Compel: You delay an urgent decision because one detail remains unresolved.
+
+#emph[Every Patient Teaches Me]
+
+Power: Diagnose a condition, recognise a familiar symptom, or adapt treatment from experience. \
+Compel: An unusual case draws you into further examination when withdrawal would be safer.
+
+#emph[I Think in Working Parts]
+
+Power: Understand mechanisms, diagnose failures, or organise a complicated process. \
+Compel: You treat a human problem like a mechanism and overlook feelings or loyalties.
+
+#emph[My Name Opens Learned Doors]
+
+Power: Secure a scholarly audience, establish professional credibility, or request access to research. \
+Compel: Your standing brings scrutiny, professional obligations, or pressure to defend your work.
+
+#emph[No Knowledge Should Be Forbidden]
+
+Power: Investigate taboo subjects, challenge accepted doctrine, or interpret suppressed research. \
+Compel: You cross an ethical, legal, or personal boundary to obtain an answer.
 
 === 5.1 Special Abilities <pb-savant-special-abilities>
 #figure(
@@ -45,7 +76,7 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
     [3], [#strong[Field Medic];], [#ability(
       trigger: [You treat an injury or temporary physical condition with Medicine.],
       cost: [Restore costs 1 Power per two tiers, rounded up.],
-      benefit: [Use the reduced Restore price. Once per scene, if your treatment successfully lowers a lasting injury, the patient also recovers 2 points in one pool of their choice. With Module B, you can treat Sick at Standard instead of Hard Difficulty.],
+      benefit: [Use the reduced Restore price. Once per scene, if your treatment successfully lowers a lasting injury, the patient also recovers 2 points in one pool of their choice. With Module B, you can treat #emph[Sick] at Standard instead of Hard Difficulty.],
       limit: [The Restore discount does not lift the ordinary one-tier treatment limit. Apply any explicit stated-tier healing exception normally. The additional pool recovery is once per scene for this Field Medic user, across all patients, and never raises a pool above its maximum. It does not restore Disposition, refresh an injury trade, or erase a Scar.],
     )],
     [4], [#strong[Steady Mind];], [#ability(

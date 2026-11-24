@@ -333,10 +333,32 @@ Risky triggers remain independent: Risky 1 = 8.33%, Risky 2 = 16.67%, Risky 3 = 
 
 Do not publish the fixed-Difficulty success or six-outcome tables as versus-test probabilities. Versus results depend on both actors' Skill, modifiers, and bonus dice. Exact ties suppress comparison-based benefits, complications, and critical outcomes. The raw face-comparison distribution remains valid, but cannot alone determine the versus complication or critical-outcome rate.
 
+## 11. NPC Complications: Cancellation and Mitigation
+
+When an NPC suffers a complication, state its concrete consequence and original severity before choosing a response.
+
+The GM may cancel it by spending existing Woe:
+
+| Original severity | Woe cost |
+| --- | --- |
+| Minor | 1 |
+| Moderate | 2 |
+| Major | 3 |
+
+Pay the cost in full before spending Power on mitigation. Woe cannot be overrun. Declining or being unable to cancel the complication generates no Woe.
+
+If the GM declines cancellation, the NPC may spend available surplus action Power to reduce the complication by one severity band per Power: major → moderate → minor → none. Apply the normal Power-reservation requirements first.
+
+Once mitigation begins, Woe cancellation is no longer available for that complication. Treat distinct complications separately, using one shared action Power budget.
+
+These permissions do not grant ordinary NPCs pool-based Effort, Resistance, or a generic Woe purchase of additional Power. Existing explicit abilities and full-PC resource rules retain their own permissions.
+
+Cancelling or mitigating a complication does not reverse failure, cancel an opposing purchased Effect, or bypass scripted-conflict limits.
+
 ## Remaining integration work, not reopened decisions
 
 - Apply this replacement to core resolution, Effort, Resistance, Woe, quick references, examples, and affected abilities.
-- Integrate the settled independent, trumped, versus, and automatic-success procedures, Effort Power purchases after automatic success, removal of automatic failure Woe, conflict-complication restrictions, and Power-reservation rule in section 9; audit NPCs and dice-manipulating abilities for compatibility without inventing overrides.
+- Integrate the settled independent, trumped, versus, and automatic-success procedures, Effort Power purchases after automatic success, removal of automatic failure Woe, conflict-complication restrictions, and Power-reservation rule in section 9, plus NPC cancellation and mitigation in section 11; audit dice-manipulating abilities and remaining NPC-specific exceptions for compatibility without inventing overrides.
 - Preserve unrelated rules unless a coordinated compatibility change is explicitly approved.
 - Probability verification is complete for the tables documented in section 10. During coordinated integration, replace the published obsolete keep-best-two odds and worked example with that verified reference; the published core table is unchanged by this draft update.
 - Check cross-references and compile the affected rulebook after the coordinated integration.

@@ -365,7 +365,7 @@ When another character grants the reroll, the player whose character made the ro
 
 This replaces keep the better result for I Planned for This and Ace. It does not automatically give Invoke a keep-original option; its replacement-only reroll remains unchanged. Existing triggers, costs, frequency limits, and prohibitions on undoing resolved consequences remain unchanged.
 
-This section settles complete-roll selection only. Rerolls and the Risk die, and face changes, are settled in section 13. The ordering of multiple manipulation abilities on one roll remains unresolved; no permission on that point is added here.
+This section settles complete-roll selection. Rerolls and the Risk die, and face changes, are settled in section 13. Resolve multiple manipulation abilities using the sequential procedure in section 14.
 
 ## 13. Face Changes and Rerolls
 
@@ -395,14 +395,44 @@ The player may use the ability again on the new roll if its own limits allow it.
 
 A generic action reroll leaves the separate Risk die unchanged unless a rule explicitly permits rerolling it. Action-dice rerolls can change success, margin, and the comparison-based outcome; the original Risk result remains.
 
-### Still unresolved
+### Multiple manipulation abilities
 
-The ordering of multiple manipulation abilities used on the same roll is not settled. No permission on that point is added here.
+Resolve multiple manipulation abilities using the sequential procedure in section 14.
+
+## 14. Sequential manipulation
+
+When more than one ability can manipulate the same action roll, resolve them one at a time. Each ability keeps its own trigger, cost, timing, and limits. An explicit ability rule overrides this procedure.
+
+1. Choose an eligible ability and pay its cost.
+2. Resolve that ability completely before choosing another.
+3. If it grants a reroll, replace the current roll or choose which complete roll to keep, as the ability requires. Make this choice before using another manipulation ability. Do not combine dice, totals, or outcome comparisons from different rolls.
+4. After each manipulation, use the current retained faces to recalculate the total and retained-die comparison. Check whether any further ability is eligible using that result.
+5. Repeat while you choose to use eligible abilities. Finish all manipulation before resolving the action’s Effects or consequences. Once either begins resolving, do not reopen the action roll unless an explicit rule permits it.
+
+### Face changes and replacement rolls
+
+A face change applies only to the roll it was used on. Keeping that roll preserves the change; replacing it loses the change. It does not carry to the new dice.
+
+Apply each later face change to the current value of the chosen retained die. If it replaces that value, use the new replacement value. The die keeps its identity as the Complication die or ordinary die.
+
+After choosing which roll to keep, you can manipulate that roll only if another ability use is permitted by its trigger, timing, and limits. Resolving a reroll does not refresh an ability or grant another use.
+
+### Costs and the Risk die
+
+Costs already paid remain spent, even if a later manipulation replaces the affected roll or removes the benefit.
+
+The separate Risk die remains unchanged unless a rule explicitly permits manipulating or rerolling it.
+
+### Example
+
+A player changes a retained die’s face, then uses an ability that allows a reroll and a choice of which complete roll to keep.
+
+They choose between the modified original roll and the reroll before using another manipulation ability. Keeping the original preserves its face change. Keeping the reroll loses that change. They can then use another eligible ability on the chosen roll, paying its cost and observing its limits.
 
 ## Remaining integration work, not reopened decisions
 
 - Apply this replacement to core resolution, Effort, Resistance, Woe, quick references, examples, and affected abilities.
-- Integrate the settled independent, trumped, versus, and automatic-success procedures, Effort Power purchases after automatic success, removal of automatic failure Woe, conflict-complication restrictions, and Power-reservation rule in section 9, plus NPC cancellation and mitigation in section 11, complete-roll selection in section 12, and face changes in section 13; settle the ordering of multiple manipulation abilities and audit remaining NPC-specific exceptions without inventing overrides.
+- Integrate the settled independent, trumped, versus, and automatic-success procedures, Effort Power purchases after automatic success, removal of automatic failure Woe, conflict-complication restrictions, and Power-reservation rule in section 9, plus NPC cancellation and mitigation in section 11, complete-roll selection in section 12, face changes in section 13, and sequential manipulation in section 14; audit remaining NPC-specific exceptions without inventing overrides.
 - Preserve unrelated rules unless a coordinated compatibility change is explicitly approved.
 - Probability verification is complete for the tables documented in section 10. During coordinated integration, replace the published obsolete keep-best-two odds and worked example with that verified reference; the published core table is unchanged by this draft update.
 - Check cross-references and compile the affected rulebook after the coordinated integration.

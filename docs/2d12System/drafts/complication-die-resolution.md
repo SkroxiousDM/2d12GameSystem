@@ -355,10 +355,22 @@ These permissions do not grant ordinary NPCs pool-based Effort, Resistance, or a
 
 Cancelling or mitigating a complication does not reverse failure, cancel an opposing purchased Effect, or bypass scripted-conflict limits.
 
+## 12. Choosing a Reroll Result
+
+When an ability lets you reroll and keep the better result, choose either the original roll or the reroll as a whole. Use that roll's total, retained-die comparison, outcome, and resulting Power.
+
+Do not combine dice, the total, or the outcome comparison from different rolls. The chosen roll determines whether the action succeeds, whether it produces a benefit or complication, and whether it is critical.
+
+When another character grants the reroll, the player whose character made the roll chooses which result to keep.
+
+This replaces keep the better result for I Planned for This and Ace. It does not automatically give Invoke a keep-original option; its replacement-only reroll remains unchanged. Existing triggers, costs, frequency limits, and prohibitions on undoing resolved consequences remain unchanged.
+
+This section settles complete-roll selection only. Whether generic action rerolls include the separate Risk die, how face-changing abilities interact with the outcome comparison, and the ordering of multiple manipulation abilities remain unresolved; no permissions on those points are added here.
+
 ## Remaining integration work, not reopened decisions
 
 - Apply this replacement to core resolution, Effort, Resistance, Woe, quick references, examples, and affected abilities.
-- Integrate the settled independent, trumped, versus, and automatic-success procedures, Effort Power purchases after automatic success, removal of automatic failure Woe, conflict-complication restrictions, and Power-reservation rule in section 9, plus NPC cancellation and mitigation in section 11; audit dice-manipulating abilities and remaining NPC-specific exceptions for compatibility without inventing overrides.
+- Integrate the settled independent, trumped, versus, and automatic-success procedures, Effort Power purchases after automatic success, removal of automatic failure Woe, conflict-complication restrictions, and Power-reservation rule in section 9, plus NPC cancellation and mitigation in section 11 and complete-roll selection in section 12; audit the remaining dice-manipulation questions and NPC-specific exceptions without inventing overrides.
 - Preserve unrelated rules unless a coordinated compatibility change is explicitly approved.
 - Probability verification is complete for the tables documented in section 10. During coordinated integration, replace the published obsolete keep-best-two odds and worked example with that verified reference; the published core table is unchanged by this draft update.
 - Check cross-references and compile the affected rulebook after the coordinated integration.

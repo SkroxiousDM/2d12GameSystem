@@ -167,6 +167,40 @@ Comparison-based complications, including the major complication from Critical F
 
 Independent hazards, Risky triggers, abilities, and other explicit rules retain only the consequence permissions they actually provide. Calling a complication independent does not grant additional permissions. Power mitigation and narrative Resistance address eligible complications, not an opponent's ordinary purchased Disposition effect.
 
+### Power Reservation in Scripted Conflicts
+
+On a successful scripted action, fund the Effect before spending Power to mitigate complications.
+
+#### Choose and reserve
+
+After determining Power, choose the permitted Effects the action will accomplish and reserve their Power costs. At least one permitted Effect must be funded before any Power can be spent on mitigation.
+
+The funded Effect need not be the action's primary purchase. An Attack may fund a permitted supplementary Effect instead of Disposition loss, for example. All normal purchase permissions, prices, and limits still apply.
+
+Scripting an action category does not, by itself, commit Power to its primary Effect or require a numerical target before rolling.
+
+#### Preserve an agreed requirement
+
+If a specific minimum Effect was agreed before rolling, reserve enough Power to fund that requirement. Only Power above its cost is available for mitigation.
+
+If the action generates insufficient Power, there is no surplus for mitigation. The actor may purchase additional Power under normal Effort rules, if eligible. A cheaper purchase does not satisfy the agreed requirement or release Power for mitigation.
+
+#### Mitigate with the remainder
+
+Spend unreserved Power on complication mitigation before Resistance. Surplus generated Power and purchased Power may both fund mitigation.
+
+Do not spend the same Power twice or reduce a reserved purchase below its required cost to free Power for mitigation. A purely descriptive flourish or fictional opening does not count as a funded Effect.
+
+This requirement applies only to Power mitigation. It does not make an Effect purchase a prerequisite for a Woe buyoff or eligible Resistance, and it does not grant Power or purchase permissions to a failed, tied, or trumped action.
+
+#### Example
+
+A successful Maneuver generates 4 Power and triggers a moderate complication. The actor's agreed goal is to Disarm a weapon, costing 3 Power.
+
+Reserve 3 Power for Disarm. The remaining 1 Power may reduce the complication from moderate to minor. The actor may then Resist the remaining consequence normally.
+
+If the Maneuver generated only 2 Power, the actor could not fund Disarm or spend Power on mitigation without obtaining additional Power through an eligible rule.
+
 ## 10. Verified probability reference
 
 ### Assumptions and scope
@@ -240,8 +274,7 @@ Do not publish the fixed-Difficulty success or six-outcome tables as versus-test
 ## Remaining integration work, not reopened decisions
 
 - Apply this replacement to core resolution, Effort, Resistance, Woe, quick references, examples, and affected abilities.
-- Integrate the settled versus procedure and conflict-complication restrictions above; audit NPCs, remaining scripted-conflict interactions, automatic successes, and dice-manipulating abilities for compatibility without inventing overrides.
-- Clarify how the required-Effect Power reservation interacts with scripted actions' existing flexible spending and optional primary purchases. No new conflict-specific reservation rule has yet been adopted.
+- Integrate the settled versus procedure, conflict-complication restrictions, and Power-reservation rule in section 9; audit NPCs, remaining scripted-conflict interactions, automatic successes, and dice-manipulating abilities for compatibility without inventing overrides.
 - Preserve unrelated rules unless a coordinated compatibility change is explicitly approved.
 - Probability verification is complete for the tables documented in section 10. During coordinated integration, replace the published obsolete keep-best-two odds and worked example with that verified reference; the published core table is unchanged by this draft update.
 - Check cross-references and compile the affected rulebook after the coordinated integration.

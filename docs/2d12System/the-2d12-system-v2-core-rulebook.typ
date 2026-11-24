@@ -180,6 +180,8 @@ Thank you for the examples, the challenges, and the moments that made me stop an
 // =====================================================================
 #include "chapter-7-appendix-a-quick-reference.typ"
 
+#include "authors-note.typ"
+
 // ART: closing vignette above the end mark
 #art-fill[Two twelve-sided dice coming to rest on a worn wooden table.]
 #v(1.2em)

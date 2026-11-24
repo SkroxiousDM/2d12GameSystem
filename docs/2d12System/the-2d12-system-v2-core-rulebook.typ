@@ -180,6 +180,11 @@ Thank you for the examples, the challenges, and the moments that made me stop an
 // =====================================================================
 #include "chapter-7-appendix-a-quick-reference.typ"
 
+// =====================================================================
+//  APPENDIX B — GLOSSARY
+// =====================================================================
+#include "chapter-8-appendix-b-glossary.typ"
+
 #include "authors-note.typ"
 
 // ART: closing vignette above the end mark

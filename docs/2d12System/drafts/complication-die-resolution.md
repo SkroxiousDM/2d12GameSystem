@@ -137,10 +137,41 @@ An action generates 3 Power and requires 2 to achieve its goal. It triggers a ma
 
 The player could purchase additional Power under normal Effort rules to mitigate further before Resistance. Cancelling one complication would not cancel a separate Risky complication.
 
+## 9. Scripted conflicts: settled versus procedure and limits
+
+### Versus tests
+
+Both actors roll, retaining their Complication die and highest other action die. Add Skill and applicable modifiers, then compare final totals. The higher total wins. Use the difference between the winning and losing totals as the winning margin, rather than a fixed Difficulty.
+
+Winner's Power = Tag Power + 1 + floor((winning total − losing total) / 3).
+
+Each actor compares their own retained, unmodified die faces:
+
+| Comparison | Winner | Loser |
+| --- | --- | --- |
+| Complication die lower | Clean Success | Failure with a Benefit |
+| Complication die higher | Success with Complication | Failure with Complication |
+| Matching dice | Critical Success: +1 Power | Critical Failure: one major complication |
+
+The loser generates no Power, including no Tag Power. Reducing or cancelling the loser's complication does not turn their action into a success or prevent the winner's purchased Effects. Matching dice do not override a higher opposing total.
+
+### Exact ties
+
+An exact tie is a neutral stalemate. Neither actor wins, generates Power, or produces their action's normal Effect. Neither receives a comparison-based benefit, complication, or critical outcome. Costs already paid remain spent. Independently triggered complications, including a triggered Risky die, still resolve.
+
+### Conflict boundaries
+
+Winning a versus test still prevents the opposing action's normal Effect. Failure benefits remain purely fictional openings, not free mechanical purchases. Complications cannot duplicate an opposing purchased Effect, freely change the script, or cancel an independent action.
+
+Comparison-based complications, including the major complication from Critical Failure, cannot impose additional Disposition loss or harmful statuses unless an explicit rule permits them. Severity does not itself grant that permission. A major complication remains serious within the established stakes and these limits; it does not automatically mean injury, immediate defeat, or loss of the conflict objective.
+
+Independent hazards, Risky triggers, abilities, and other explicit rules retain only the consequence permissions they actually provide. Calling a complication independent does not grant additional permissions. Power mitigation and narrative Resistance address eligible complications, not an opponent's ordinary purchased Disposition effect.
+
 ## Remaining integration work, not reopened decisions
 
 - Apply this replacement to core resolution, Effort, Resistance, Woe, quick references, examples, and affected abilities.
-- Audit NPCs, versus tests, scripted conflicts, automatic successes, and dice-manipulating abilities for compatibility; do not invent overrides in this standalone draft.
+- Integrate the settled versus procedure and conflict-complication restrictions above; audit NPCs, remaining scripted-conflict interactions, automatic successes, and dice-manipulating abilities for compatibility without inventing overrides.
+- Clarify how the required-Effect Power reservation interacts with scripted actions' existing flexible spending and optional primary purchases. No new conflict-specific reservation rule has yet been adopted.
 - Preserve unrelated rules unless a coordinated compatibility change is explicitly approved.
 - Replace obsolete keep-best-two odds with probabilities for mandatory Complication-die retention and the highest other action die. Verify any transcript probability tables before publication.
 - Check cross-references and compile the affected rulebook after the coordinated integration.

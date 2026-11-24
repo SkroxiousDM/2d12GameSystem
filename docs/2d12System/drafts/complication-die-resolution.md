@@ -18,7 +18,7 @@ Add both retained dice, Skill, and applicable roll modifiers. A final total that
 
 ## 3. Determine the outcome
 
-Compare the unmodified faces of the retained dice.
+Compare the final retained die faces after explicit face changes (section 13), but before adding Skill or roll modifiers.
 
 | Comparison | Total meets or exceeds Difficulty | Total below Difficulty |
 | --- | --- | --- |
@@ -177,7 +177,7 @@ Both actors roll, retaining their Complication die and highest other action die.
 
 Winner's Power = Tag Power + 1 + floor((winning total − losing total) / 3).
 
-Each actor compares their own retained, unmodified die faces:
+Each actor compares their own final retained die faces, after explicit face changes and before Skill or roll modifiers:
 
 | Comparison | Winner | Loser |
 | --- | --- | --- |
@@ -267,7 +267,7 @@ If the Maneuver generated only 2 Power, the actor could not fund Disarm or spend
 
 ### Assumptions and scope
 
-Use fair, independent d12s. Always retain the designated Complication die and the highest of the other action dice. There are no automatic double-1 or double-12 overrides. Needed on dice = Difficulty − Skill − net applicable roll modifiers. Tags supply Power and do not affect these probabilities.
+Use fair, independent d12s. Always retain the designated Complication die and the highest of the other action dice. There are no automatic double-1 or double-12 overrides. Needed on dice = Difficulty − Skill − net applicable roll modifiers. Tags supply Power and do not affect these probabilities. These tables assume no face changes or rerolls.
 
 All percentages are unconditional probabilities before Woe buyoffs, Power mitigation, or Resistance. The action-outcome tables exclude independent Risky triggers. Rounded outcome columns may sum to 99.99% or 100.01%.
 
@@ -365,12 +365,44 @@ When another character grants the reroll, the player whose character made the ro
 
 This replaces keep the better result for I Planned for This and Ace. It does not automatically give Invoke a keep-original option; its replacement-only reroll remains unchanged. Existing triggers, costs, frequency limits, and prohibitions on undoing resolved consequences remain unchanged.
 
-This section settles complete-roll selection only. Whether generic action rerolls include the separate Risk die, how face-changing abilities interact with the outcome comparison, and the ordering of multiple manipulation abilities remain unresolved; no permissions on those points are added here.
+This section settles complete-roll selection only. Rerolls and the Risk die, and face changes, are settled in section 13. The ordering of multiple manipulation abilities on one roll remains unresolved; no permission on that point is added here.
+
+## 13. Face Changes and Rerolls
+
+### Face changes
+
+An explicit face change replaces a die's value for the action it was used on. Use the replacement value for both the roll total and the retained-die comparison.
+
+A changed die keeps its identity as the Complication die or the ordinary die. A face change does not swap their roles or permit selecting a different retained pair.
+
+Skill and roll modifiers change the total only; they never change die faces.
+
+Matches created by a face change use the normal critical procedure. They grant no automatic success and do not override a versus tie. Changing one die of a matching pair can remove the critical. The final retained faces, not the original rolled faces, determine the comparison.
+
+The separate Risk die is unaffected by face changes.
+
+### Perfect Strike
+
+Perfect Strike can change either retained die: the Complication die or the ordinary die. It applies to the already-retained pair and does not reopen discarded bonus dice.
+
+### Face changes and rerolls
+
+A face change applies only to the roll it was used on. If a reroll replaces that roll, the change is lost and does not carry to the new dice. If the player keeps the original roll, the face change stays in effect.
+
+The player may use the ability again on the new roll if its own limits allow it.
+
+### Rerolls and the Risk die
+
+A generic action reroll leaves the separate Risk die unchanged unless a rule explicitly permits rerolling it. Action-dice rerolls can change success, margin, and the comparison-based outcome; the original Risk result remains.
+
+### Still unresolved
+
+The ordering of multiple manipulation abilities used on the same roll is not settled. No permission on that point is added here.
 
 ## Remaining integration work, not reopened decisions
 
 - Apply this replacement to core resolution, Effort, Resistance, Woe, quick references, examples, and affected abilities.
-- Integrate the settled independent, trumped, versus, and automatic-success procedures, Effort Power purchases after automatic success, removal of automatic failure Woe, conflict-complication restrictions, and Power-reservation rule in section 9, plus NPC cancellation and mitigation in section 11 and complete-roll selection in section 12; audit the remaining dice-manipulation questions and NPC-specific exceptions without inventing overrides.
+- Integrate the settled independent, trumped, versus, and automatic-success procedures, Effort Power purchases after automatic success, removal of automatic failure Woe, conflict-complication restrictions, and Power-reservation rule in section 9, plus NPC cancellation and mitigation in section 11, complete-roll selection in section 12, and face changes in section 13; settle the ordering of multiple manipulation abilities and audit remaining NPC-specific exceptions without inventing overrides.
 - Preserve unrelated rules unless a coordinated compatibility change is explicitly approved.
 - Probability verification is complete for the tables documented in section 10. During coordinated integration, replace the published obsolete keep-best-two odds and worked example with that verified reference; the published core table is unchanged by this draft update.
 - Check cross-references and compile the affected rulebook after the coordinated integration.

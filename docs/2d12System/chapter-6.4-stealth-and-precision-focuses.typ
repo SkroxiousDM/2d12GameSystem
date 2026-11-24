@@ -1,15 +1,23 @@
 #import "common.typ": *
 #pagebreak() 
-== 4. Stealth & Precision Focuses
-#columns(2, gutter: 6mm)[
+== 4. Stealth & Precision Focuses <foc-stealth-precision-focuses>
 === 5. Moves Like a Shadow
 #quote(block: true)[
 Silent, patient, and impossible to pin down.
 ]
 
-- #strong[Power tags:] #emph[silent as snowfall];, #emph[at home in darkness]
-- #strong[Weakness tag:] #emph[uneasy in the light]
 - #strong[PC link:] \"\[PC\] is the only one who always knows where I am.\"
+- #strong[Tags:]
+
+#emph[The Shadows Are My Shelter]
+
+Power: Hide, approach unseen, and move through concealed routes. \
+Compel: You cling to concealment when helping requires stepping into view.
+
+#emph[I Leave Little Trace]
+
+Power: Move quietly and conceal evidence of your passage. \
+Compel: Allies or rescuers cannot follow you, or you delay to erase a revealing trace.
 
 #figure(
   [#table(
@@ -61,9 +69,18 @@ Silent, patient, and impossible to pin down.
 Sniper, archer, gunslinger: steady breath and a sharp eye.
 ]
 
-- #strong[Power tags:] #emph[steady breath];, #emph[eye like a hawk]
-- #strong[Weakness tag:] #emph[clumsy up close]
 - #strong[PC link:] \"\[PC\] owes their life to a shot I made.\"
+- #strong[Tags:]
+  
+#emph[I Wait for the Perfect Shot]
+
+Power: Aim patiently and choose a precise opening. \
+Compel: You let a fleeting opportunity pass while waiting for a better one.
+
+#emph[I Keep Danger at a Distance]
+
+Power: Control sightlines and engage threats from range. \
+Compel: You give ground or separate from allies to avoid a close confrontation.
 
 #figure(
   [#table(
@@ -72,10 +89,10 @@ Sniper, archer, gunslinger: steady breath and a sharp eye.
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Called Shot];], [#ability(
-      trigger: [You roll Shoot.],
-      cost: [No cost for the Weaken.],
-      benefit: [A #strong[free Weaken] effect: suppress one of the target's tags (weapon, cover, mobility) for the scene.],
-      limit: [Once per roll, and only on a Success or Success at a Cost.],
+      trigger: [You succeed on a Shoot roll, including Success at a Cost.],
+      cost: [No additional Power.],
+      benefit: [Suppress one target tag that your shot can plausibly undermine for the rest of the scene.],
+      limit: [Once per roll. Suppression removes only that tag's numerical bonus; it does not disable the asset, remove its other permissions, or prevent its use. In a conflict, disabling an asset requires Disarm or an ability that explicitly permits it.],
     )],
     [2a], [#strong[Over-watch];], [#ability(
       trigger: [An imposed status of tier 2 or less is about to hit an ally; or, in a conflict, covering fire can protect your side.],
@@ -114,9 +131,18 @@ Sniper, archer, gunslinger: steady breath and a sharp eye.
 Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
 ]
 
-- #strong[Power tags:] #emph[nothing stays closed];, #emph[thinks like an architect]
-- #strong[Weakness tag:] #emph[can\'t resist a challenge]
 - #strong[PC link:] \"\[PC\] keeps me out of trouble, or tries to.\"
+- #strong[Tags:]
+  
+#emph[A Lock Is a Challenge]
+
+Power: Defeat locks, safes, and security barriers. \
+Compel: You attempt an unnecessary breach to prove that you can.
+
+#emph[I Think Like the One Who Built It]
+
+Power: Understand security layouts and anticipate their safeguards. \
+Compel: You assume a system follows a sensible design when its builder did not.
 
 #figure(
   [#table(
@@ -129,7 +155,7 @@ Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
       trigger: [You roll against a lock, safe or security clock.],
       cost: [No additional cost.],
       benefit: [Before you roll, you know the clock's size and what failing will set off. Each success advances it #strong[1 extra segment].],
-      limit: [Bonus segments advance that clock only (§1.3).],
+      limit: [Bonus segments advance that clock only (@foc-ability-limits).],
     )],
     [2a], [#strong[Back Door];], [#ability(
       trigger: [You use Create to establish access or leverage at your current location.],
@@ -149,7 +175,7 @@ Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
       trigger: [You face a lock or security.],
       cost: [No additional cost.],
       benefit: [Ordinary locks open without a roll. Complex security is #strong[one Difficulty step lower].],
-      limit: [An ordinary lock is a single mechanical barrier. Security with alarms, guards, magic or technology layered on it, or with its own clock, is complex. Difficulty reductions apply only against a Difficulty (§1.3).],
+      limit: [An ordinary lock is a single mechanical barrier. Security with alarms, guards, magic or technology layered on it, or with its own clock, is complex. Difficulty reductions apply only against a Difficulty (@foc-ability-limits).],
     )],
     [3b], [#strong[★ Vault Breaker];], [#ability(
       trigger: [You declare a security layer already cracked.],
@@ -168,9 +194,18 @@ Locks, safes, firewalls, sealed doors: they\'re puzzles, and you love puzzles.
 You never walk into a room without knowing how to leave it.
 ]
 
-- #strong[Power tags:] #emph[knows every exit];, #emph[slippery]
-- #strong[Weakness tag:] #emph[runs first, thinks later]
 - #strong[PC link:] \"\[PC\] was with me during my worst getaway.\"
+- #strong[Tags:]
+  
+#emph[I Know How I Am Leaving]
+
+Power: Identify exits and prepare a withdrawal. \
+Compel: You reject an important opportunity because it lacks a secure escape route.
+
+#emph[I Never Stake Everything]
+
+Power: Preserve a fallback, reserve, or hidden resource. \
+Compel: You withhold something needed to make a shared plan succeed.
 
 #figure(
   [#table(
@@ -186,15 +221,15 @@ You never walk into a room without knowing how to leave it.
     )],
     // PLAYTEST: B1, was +3; matches At the Helm.
     [2a], [#strong[Clean Getaway];], [#ability(
-      trigger: [A Chase conflict begins in which you're fleeing.],
+      trigger: [A Chase conflict begins in which your side is fleeing.],
       cost: [No additional cost.],
-      benefit: [Your side gets #strong[+2 starting Disposition].],
-      limit: [A flat starting-Disposition bonus (§1.3).],
+      benefit: [Your side gains +2 starting Disposition. Before your side commits its first script, ask one free Discover question about the pursuers' route, method, or a present opening in the pursuit (#emph[a lame horse], #emph[a blind corner]).],
+      limit: [One question per conflict. Ask the question after setup is complete. It does not recalculate Superiority. The answer must concern something you can infer from the pursuit. It never reveals a weakness tag; record a useful opening as a Truth if needed. It does not reveal a committed script. The Disposition bonus follows the normal starting-Disposition rules.],
     )],
     [2b], [#strong[Contin-gency];], [#ability(
       trigger: [Things go wrong and you reveal a prepared fallback.],
       cost: [No Weal needed.],
-      benefit: [Establish a justified fallback (stashed gear, a getaway vehicle, a safe house) as a Truth, at whatever scale fits (Core Rules §8.2). It lasts until the fallback is spent: the vehicle drives off, the gear is taken, the safe house is used or found.],
+      benefit: [Establish a justified fallback (stashed gear, a getaway vehicle, a safe house) as a Truth, at whatever scale fits (Core Rules @core-scale). It lasts until the fallback is spent: the vehicle drives off, the gear is taken, the safe house is used or found.],
       limit: [Once per mission. It can't contradict resolved events, and it gives no Situational Condition rating or automatic escape.],
     )],
     [3a], [#strong[Not Here];], [#ability(
@@ -214,4 +249,3 @@ You never walk into a room without knowing how to leave it.
   )
 // ART: A thief slipping out a high window as the door bursts open.
 #art-fill(min: 6cm)[A thief slipping out a high window as the door bursts open.]
-]

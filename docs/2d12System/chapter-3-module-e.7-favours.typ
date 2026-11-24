@@ -1,6 +1,6 @@
 #import "common.typ": *
 
-=== E.7 Favours and Obligations
+=== E.7 Favours and Obligations <mod-favours-obligations>
 
 A favour is a specific acknowledged promise. An obligation is the same record from the debtor's side. Record debtor, creditor, service, limits, notice, deadline or duration, and what settles it. Record who can call it in and whether it benefits the party or a named individual.
 
@@ -14,9 +14,9 @@ Knowingly refusing a feasible agreed obligation normally costs one Standing; sev
 
 Calling in an earned favour does not reduce Standing. Repaying one does not automatically improve it. Falling Standing does not erase outstanding promises. A favour transfers only with the debtor's consent.
 
-#strong[A favour grants its stated service,] not automatic success, free Help, an extra scripted turn or control over another participant. A promise given as part of a concession or another benefit's payment is a protected payment (Core Rules §10.7); renegotiating it needs agreement.
+#strong[A favour grants its stated service,] not automatic success, free Help, an extra scripted turn or control over another participant. A promise given as part of a concession or another benefit's payment is a protected payment (Core Rules @core-costs-failures-complications); renegotiating it needs agreement.
 
-=== E.8 Adventures and Strategic Advantages
+=== E.8 Adventures and Strategic Advantages <mod-adventures-strategic-advantages>
 
 Before an undertaking, explain its likely strategic effect when the characters can reasonably foresee it. “Secure the bridge and our forces can cross this turn with a strategic advantage of 3” gives the players a meaningful choice.
 
@@ -27,7 +27,7 @@ Successful adventures may:
 
 Examples: Enemy Deployment Exposed; Crossing Secured; Troops Paid Before the Muster; Reformers Have Public Support; Southern Squadron Will Not Intervene.
 
-Record each in the standard format: scope, duration and removal condition, plus a rating for a strategic advantage. A Truth makes a faction action possible or removes an obstacle; a strategic advantage modifies the faction roll. Rating 2 is normal; rating 4 requires a decisive advantage. One-use preparation applies to the next relevant action and then expires; persistent advantages endure only as long as their established circumstances do. Only the highest helpful and harmful Situational Condition apply to a roll (Core Rules §2.1).
+Record each in the standard format: scope, duration and removal condition, plus a rating for a strategic advantage. A Truth makes a faction action possible or removes an obstacle; a strategic advantage modifies the faction roll. Rating 2 is normal; rating 4 requires a decisive advantage. One-use preparation applies to the next relevant action and then expires; persistent advantages endure only as long as their established circumstances do. Only the highest helpful and harmful Situational Condition apply to a roll (Core Rules @core-roll).
 
 A roll does not automatically create a lasting Truth or Condition merely because it succeeds: use the appropriate core Effect or establish it as the agreed outcome of the completed undertaking. Larger lasting changes need the appropriate project or milestone, as in Module C.6.
 
@@ -37,9 +37,9 @@ Distinct consequences can follow one achievement, but never award duplicate prog
 
 #strong[One contribution.] If a PC endeavour does the work a faction's project action would do (the party sabotages the project itself), that endeavour replaces the faction's own roll for that project this turn. Never count both for the same work.
 
-A played conflict still uses its permitted actions: Advance or Discover needs an appropriate action or explicit exception. Attack or Feint Disposition loss isn't project progress, and victory grants the stated objective, not unrelated clocks (Core Rules §10.6, §10.12).
+A played conflict still uses its permitted actions: Advance or Discover needs an appropriate action or explicit exception. Attack or Feint Disposition loss isn't project progress, and victory grants the stated objective, not unrelated clocks (Core Rules @core-actions-effects, @core-defeat-mutual-defeat-concession).
 
-=== E.9 Commitments and Strain
+=== E.9 Commitments and Strain <mod-commitments-strain>
 
 A faction normally takes one major project action per World Turn without automatic Strain. Exceptional deployment can exhaust a capability.
 
@@ -53,7 +53,7 @@ Clear Strain after one full World Turn in which the affected capability is not u
 
 Exhaustion is not destruction. Rest can recover tired guards; it cannot rebuild a burned warehouse. Track persistent losses separately.
 
-=== E.10 World Turns
+=== E.10 World Turns <mod-world-turns>
 
 Choose one cadence: each in-world week, between adventures, or another agreed meaningful interval. Do not take extra turns simply because a session ended. This procedure replaces Module C.5 while Module E is enabled.
 
@@ -67,11 +67,11 @@ Choose one cadence: each in-world week, between adventures, or another agreed me
 
 ==== Organizational resolution
 
-Roll 2d12 + the relevant effective Quality against Standard 15, adjusted by task difficulty, with relevant Situational Conditions modifying the roll and Truths deciding what is possible. Use one primary Quality, not the sum of two. Other capabilities may be prerequisites or provide distinct concrete circumstances; their ratings are not automatic extra modifiers.
+Roll 2d12 + the relevant effective Quality against Standard 15, adjusted by task difficulty, with relevant Situational Conditions modifying the roll and Truths deciding what is possible. Use one primary Quality, not the sum of two. Other capabilities may be prerequisites or provide distinct concrete circumstances; their ratings are not automatic extra modifiers. Asset tags add nothing to the roll; each relevant one supplies Power (E.2).
 
-- Success: 1 Power, plus 1 per full 3 points over the target.
-- Success at a Cost (miss by 1–3): 1 Power and a concrete setback appropriate to the action.
-- Failure (miss by 4+): no progress; introduce a relevant setback.
+- Success: Tag Power + 1, plus 1 per full 3 points over the target.
+- Success at a Cost (miss by 1–3): Tag Power + 0, and a concrete setback appropriate to the action.
+- Failure (miss by 4+): no Power and no progress; introduce a relevant setback.
 - Doubles follow the core's success/cost/failure twist rules, including double 12s and double 1s.
 
 Organizational exception: off-screen faction actions do not gain or spend the party's Weal, PC pools, or Tychē Points, and do not generate or spend Woe. Uncommitted Power is discarded. Resolve twists narratively; there is no off-screen Woe buy-off. PC scenes retain all normal core currencies.
@@ -82,19 +82,20 @@ Organizational exception: off-screen faction actions do not gain or spend the pa
   table.header([Segments], [Typical scope]),
   [4], [Limited local action with few obstacles.],
   [6], [Substantial operation or contested local objective.],
-  [8], [Complex undertaking or lasting institutional change.],
-  [12], [Major regional transformation.],
+  [8], [Complex undertaking that creates no lasting Truth.],
+  [12], [Lasting local or institutional change (a Site Truth).],
+  [16], [Major regional transformation (a Region Truth).],
 )
 
 Commit Power at one segment per Power. A single faction action advances one declared project or produces one limited immediate result; it cannot purchase unrelated outcomes. Cap progress at the remaining segments; discard overflow. Link clocks for wider ambitions.
 
-Use Module C.6 for lasting Site, Region, and Campaign changes: normally 8 segments for a Site Truth, 12 for a Region Truth, and a major arc for a Campaign Truth. A short operational clock does not bypass those requirements.
+Use Module C.6 for lasting Site, Region, and Campaign changes: normally 12 segments for a Site Truth, 16 for a Region Truth, and a major arc for a Campaign Truth. A short operational clock does not bypass those requirements.
 
 ==== Opposition and disruption
 
 A faction may spend its action obstructing a known project if it has a credible method. Roll its relevant Quality against Standard 15, adjusted by the target's concrete defences, with relevant Situational Conditions modifying the roll. The target's Quality rating is not automatically a Difficulty shift.
 
-On success, spend Power to remove uncompleted progress, one segment per Power. Remove no more than is present and discard excess. A defending faction may devote its own action to countermeasures, producing appropriate protection or removing the obstructing capability. Do not add a free reaction roll for every attempted disruption.
+On success, spend Power, including Tag Power from assets that support the obstruction, to remove uncompleted progress, one segment per Power. Remove no more than is present and discard excess. A defending faction may devote its own action to countermeasures, producing appropriate protection or removing the obstructing capability. Do not add a free reaction roll for every attempted disruption.
 
 Declare obstruction or countermeasures in step 2 as the faction's one major action. A faction that defends does not also advance its own project.
 
@@ -108,11 +109,11 @@ PCs can use Advance to remove progress when sabotage or delay directly supports 
 
 A project grants its declared result, not every benefit the victor might want. Create, remove, or change a Truth or Situational Condition when appropriate; record scope, any rating, and removal condition. Completion does not automatically give a Condition rating 6 or increase a Quality.
 
-=== E.11 Conflict, Objectives, and Pressure
+=== E.11 Conflict, Objectives, and Pressure <mod-conflict-objectives-pressure>
 
 Use core Argument, Negotiation, or Battle conflicts when the action deserves a played conflict. Use normal core Disposition, scripting, Power, concessions, and compromise.
 
-Each side has one shared Disposition total, not a track for every faction member. Defeat doesn't by itself cause injury, permanent organizational loss or every objective the winner wants. Use Core Rules §10.12 for mutual defeat and Core Rules §10.13 for compromise. E.10's compromise Truth for contradictory project clocks is a separate procedure.
+Each side has one shared Disposition total, not a track for every faction member. Defeat doesn't by itself cause injury, permanent organizational loss or every objective the winner wants. Use Core Rules @core-defeat-mutual-defeat-concession for mutual defeat and Core Rules @core-compromise for compromise. E.10's compromise Truth for contradictory project clocks is a separate procedure.
 
 Standing grants no automatic Superiority. Insider intelligence, an arranged audience, or a secured guarantee can qualify as actual preparation under the core's categories and cap. Evaluate distinct advantages, not labels. Combat receives no direct Standing modifier.
 
@@ -130,11 +131,11 @@ Winning a battle does not automatically create stable government. Occupation may
 
 Use Woe normally during PC scenes to introduce supported complications, reinforcements, or danger-clock progress. Hostility is a motive, not an unlimited Woe source. A completed World Turn project establishes its result without an extra Woe payment; a new scene complication uses the normal rules. Never charge twice for the same event.
 
-Inside scripted conflicts, failure and Success at a Cost follow Core Rules §10.7: no unrelated GM move, automatic injury or extra Disposition loss, or ordinary-failure Woe for losing a versus test. Specials, hazards, Risky rolls and other explicit consequences keep their stated effects and timing. Woe can't change a revealed script or cancel actions that resolve on their own.
+Inside scripted conflicts, failure and Success at a Cost follow Core Rules @core-costs-failures-complications: no unrelated GM move, automatic injury or extra Disposition loss, or ordinary-failure Woe for losing a versus test. Specials, hazards, Risky rolls and other explicit consequences keep their stated effects and timing. Woe can't change a revealed script or cancel actions that resolve on their own.
 
 Woe cannot directly buy a Standing reduction. It can expose evidence or create circumstances that cause one. Weal and scene-scale Create effects likewise cannot buy permanent reputation.
 
-=== E.12 Damage, Crisis, and Reorganization
+=== E.12 Damage, Crisis, and Reorganization <mod-damage-crisis-reorganization>
 
 Target the capability actually harmed. Destroying payroll may damage Treasure; exposing agents may damage Influence; losing an estate may damage Territory; defeat may damage Might; betrayal may provoke a Cohesion crisis.
 
@@ -152,7 +153,7 @@ Separate a local branch when its resources or loyalties differ materially. Do no
 
 A merger is a reorganization project. Reassess Qualities from the actual combined capacity once integration occurs; do not automatically add ratings or increase matched scores. Hostile absorption may bring assets while reducing Cohesion or creating adverse Truths or Conditions. Defeating a smaller organization can grant a useful asset without increasing a rating.
 
-=== E.13 Example: Reed Quay Association
+=== E.13 Example: Reed Quay Association <mod-example-reed-quay-association>
 
 An illustrative faction, not setting canon.
 
@@ -166,8 +167,9 @@ An illustrative faction, not setting canon.
   [Territory +2], [Barges, warehouses, and landing rights.],
   [Cohesion +1], [Members cooperate primarily for profit.],
   [Standing +2], [Trusted; Nera, master of the eastern landing, represents the association.],
+  [Asset tags], [#emph[clerks in the provincial offices], #emph[barges and landing rights], #emph[deep commercial credit]],
   [Vulnerability], [Its principal charter is legally disputed.],
-  [Project], [Secure Exclusive Ferry Rights, 8 segments: a lasting local institutional change.],
+  [Project], [Secure Exclusive Ferry Rights, 12 segments: a lasting local institutional change.],
   [Favour], [Conceal up to six people aboard one outbound barge this season, with a day's notice; no declared contraband.],
 )
 
@@ -177,20 +179,20 @@ The association funds a lawful journey and provides a commercial introduction. P
 
 The party retrieves admissible evidence that a rival obtained a charter through bribery. As the agreed outcome of the undertaking, Rival Charter Under Legal Challenge becomes a Truth for the ferry-rights project until the challenge is adjudicated: the rival can't use the charter as settled authority, and the court case is open to the party. If the party obtains a final judgment itself, do not roll again to establish that judgment.
 
-On the World Turn, the association uses Influence +2. The evidence lowers the Standard 15 target to Easy 12. Dice of 7 and 9 total 16; +2 gives 18, producing 3 Power. It commits three segments. Without the evidence, the same total against 15 would produce 2 Power.
+On the World Turn, the association uses Influence +2. The evidence lowers the Standard 15 target to Easy 12. Dice of 7 and 9 total 16; +2 gives 18, producing 3 Power. Its #emph[clerks in the provincial offices] work the court case, adding 1 Tag Power: 4 Power, and it commits four segments. Its barges and credit don't help a legal challenge, so they add nothing. Without the evidence, the same total against 15 would produce 3 Power.
 
 Later, the party saves the winter grain convoy at substantial personal risk. Once the association learns what happened, Standing may rise to +3. A new favour is not automatic: the association must explicitly promise one.
 
 If the association undertakes an additional urgent funding action that turn, Treasure becomes Strained before that action and operates at +2. It cannot take a third major action. Recovery needs a later full turn without a major Treasure commitment and with plausible access to its credit network.
-=== E.14 Table Reference
+=== E.14 Table Reference <mod-table-reference>
 
 #table(columns: (31%, 69%),
   table.header([Question], [Rule]),
   [What can it do?], [Qualities, assets, and operational reach.],
   [Will it help us?], [Standing, authority, commitments, and reasonable requests.],
   [What do PCs roll?], [Their normal Skill; never add a faction Quality.],
-  [What does support do?], [Permission, a scoped Situational Condition, or actual Help; no duplicate benefit.],
-  [What does the faction roll?], [2d12 + one effective Quality, normally vs. Standard 15.],
+  [What does support do?], [Permission, a scoped Situational Condition, actual Help, or one lent asset tag (Standing +2+); no duplicate benefit.],
+  [What does the faction roll?], [2d12 + one effective Quality, normally vs. Standard 15. Relevant asset tags supply +1 Power each, max +2.],
   [How does it progress?], [1 Power per project segment; no off-screen Weal or Woe.],
   [How do adventures matter?], [Achieve an objective, affect progress, or establish a strategic advantage.],
   [How often does it act?], [One major action each World Turn; at most one additional action causing Strain.],

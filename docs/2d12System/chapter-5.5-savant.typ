@@ -1,7 +1,7 @@
 #import "common.typ" : *
 
 #pagebreak(weak: true)
-== 5. Savant
+== 5. Savant <pb-savant>
 #playbook-art-side("03-savant.jpg", "Savant playbook character art")[
 #quote(block: true)[
 Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, physicians, archivists, engineers.
@@ -20,10 +20,41 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
   , kind: table
   )
 
-#strong[Playbook tags (choose 2):] #emph[read everything twice] · #emph[eye for detail] · #emph[steady surgeon\'s hands] · #emph[speaks the old tongues] · #emph[respected in academic circles] · #emph[thinks in diagrams]
+#strong[Playbook tags (choose 2 of 6):] 
+The six options support a polymath, investigator, physician, engineer, established expert or boundary-breaking researcher; choose any two.
 ]
 
-=== 5.1 Special Abilities
+#emph[I Have Read About This]
+
+Power: Recall relevant knowledge, recognise an obscure reference, or connect ideas across subjects. \
+Compel: You trust a written account despite evidence that it is incomplete or wrong.
+
+#emph[The Evidence Must Agree]
+
+Power: Compare clues, expose contradictions, or test a proposed explanation. \
+Compel: You delay an urgent decision because one detail remains unresolved.
+
+#emph[Every Patient Teaches Me]
+
+Power: Diagnose a condition, recognise a familiar symptom, or adapt treatment from experience. \
+Compel: An unusual case draws you into further examination when withdrawal would be safer.
+
+#emph[I Think in Working Parts]
+
+Power: Understand mechanisms, diagnose failures, or organise a complicated process. \
+Compel: You treat a human problem like a mechanism and overlook feelings or loyalties.
+
+#emph[My Name Opens Learned Doors]
+
+Power: Secure a scholarly audience, establish professional credibility, or request access to research. \
+Compel: Your standing brings scrutiny, professional obligations, or pressure to defend your work.
+
+#emph[No Knowledge Should Be Forbidden]
+
+Power: Investigate taboo subjects, challenge accepted doctrine, or interpret suppressed research. \
+Compel: You cross an ethical, legal, or personal boundary to obtain an answer.
+
+=== 5.1 Special Abilities <pb-savant-special-abilities>
 #figure(
   [#table(
     columns: (5%, 15%, 80%),
@@ -38,19 +69,19 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
     )],
     [2], [#strong[Analyze];], [#ability(
       trigger: [You buy Discover while studying a foe or obstacle, or you Create a Truth or Situational Condition that exploits a revealed weakness.],
-      cost: [The normal Discover cost. That Create costs #strong[1 Power less] (Core Rules §5), minimum 1: a Truth costs 1, a rating-1 Condition 1, a rating-2 Condition 3.],
+      cost: [The normal Discover cost. That Create costs #strong[1 Power less] (Core Rules @core-effects), minimum 1: a Truth costs 1, a rating-1 Condition 1, a rating-2 Condition 3.],
       benefit: [Each Discover also reveals #strong[one weakness tag] of the target.],
       limit: [The Truth or Condition is leverage, not automatic victory.],
     )],
     [3], [#strong[Field Medic];], [#ability(
-      trigger: [You use Medicine to Restore, or to treat #emph[Sick] (Module B).],
-      cost: [Restore costs #strong[1 Power per 2 tiers].],
-      benefit: [The reduced Restore price. You can treat #emph[Sick] at Standard Difficulty instead of Hard.],
-      limit: [Within the lasting-injury limits (Core Rules §6.6). Healing doesn't restore pools or Disposition, refresh injury trades or erase Scars.],
+      trigger: [You treat an injury or temporary physical condition with Medicine.],
+      cost: [Restore costs 1 Power per two tiers, rounded up.],
+      benefit: [Use the reduced Restore price. Once per scene, if your treatment successfully lowers a lasting injury, the patient also recovers 2 points in one pool of their choice. With Module B, you can treat #emph[Sick] at Standard instead of Hard Difficulty.],
+      limit: [The Restore discount does not lift the ordinary one-tier treatment limit. Apply any explicit stated-tier healing exception normally. The additional pool recovery is once per scene for this Field Medic user, across all patients, and never raises a pool above its maximum. It does not restore Disposition, refresh an injury trade, or erase a Scar.],
     )],
     [4], [#strong[Steady Mind];], [#ability(
       trigger: [You Resist confusion, illusion, deception or forbidden knowledge with Psychē.],
-      cost: [Pay the normal Resistance cost. This ability adds no cost.],
+      cost: [No additional cost.],
       benefit: [Reduce the status by #strong[3 tiers].],
       limit: [Only those sources, and only with Psychē.],
     )],
@@ -62,9 +93,9 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
     )],
     [6], [#strong[Briefing];], [#ability(
       trigger: [You explain a plan to your allies before they act on it.],
-      cost: [#strong[1 Power less] than a normal Situational Condition (Core Rules §5.2): rating 1 costs 1 Power, rating 2 costs 3, and so on. Power comes from a roll to prepare the plan.],
-      benefit: [Create the Situational Condition #emph[Briefed] (Core Rules §5.2): #emph[Briefed] --- Situational Condition X --- helps allies' actions that follow the plan --- ends when the scene ends or the plan is abandoned.],
-      limit: [Once per scene. Uses the helpful Condition slot, so it doesn't add to a higher helpful Condition (Core Rules §2.1).],
+      cost: [#strong[1 Power less] than a normal Situational Condition (Core Rules @core-situational-conditions): rating 1 costs 1 Power, rating 2 costs 3, and so on. Power comes from a roll to prepare the plan.],
+      benefit: [Create the Situational Condition #emph[briefed] (Core Rules @core-situational-conditions): #emph[briefed] --- Situational Condition X --- helps allies' actions that follow the plan --- ends when the scene ends or the plan is abandoned.],
+      limit: [Once per scene. Uses the helpful Condition slot, so it doesn't add to a higher helpful Condition (Core Rules @core-roll).],
     )],
     [7], [#strong[★ Connect the Dots];], [#ability(
       trigger: [You propose a hidden Truth based on clues you've found.],
@@ -91,7 +122,7 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
 // ART: A cluttered study: open books, an astrolabe and notes pinned under a candle.
 #art-fill(min: 6cm)[A cluttered study: open books, an astrolabe and notes pinned under a candle.]
 #pagebreak()
-=== 5.2 Starting Equipment
+=== 5.2 Starting Equipment <pb-savant-starting-equipment>
 #strong[Signature item (choose 1)]
 
 #figure(
@@ -127,7 +158,7 @@ Knowledge is a weapon, a shield, and a cure. Scholars, detectives, scientists, p
 
 #strong[Always carried (0):] Fantasy: spectacles, chalk. Modern: reading glasses, pen. Sci-Fi: translator earpiece, stylus.
 
-=== 5.3 BIG Examples
+=== 5.3 BIG Examples <pb-savant-big-examples>
 - #strong[Belief:] \"No knowledge is forbidden; only misused.\" / \"The dead deserve the truth about how they died.\"
 - #strong[Goal:] \"Translate the inscription before the eclipse.\" / \"Identify the poison.\"
 - #strong[Instinct:] \"Always take a sample.\" / \"Never trust a source I can\'t verify.\"

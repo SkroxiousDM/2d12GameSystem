@@ -43,7 +43,8 @@ python3 -m unittest discover -s web -p 'test_*.py'
 | In the Typst source | On the web |
 |---|---|
 | `chapter(title, blurb, epigraph: …)` | Page title, chapter label (Chapter I…, or Appendix when `numbered: false`) and the blurb above an "In this chapter" list |
-| `== Heading` and lower | Headings with anchor links, such as `#s-6-2-running-dry-statuses` |
+| `== Heading` and lower | Headings with anchor links. A labelled heading uses its label (`#core-running-dry-statuses`); others get one from the text, such as `#supplementary-effects` |
+| `@label` cross-references | Links that read like the PDF ("§10.6", "§§7.1–7.3"), pointing to the right chapter page |
 | Tables | HTML tables, with the first row as the header |
 | `sidebar(title)[…]` | Dark box, `rb-sidebar` |
 | `statblock(…)` | Bordered card, `rb-statblock` |
@@ -51,7 +52,7 @@ python3 -m unittest discover -s web -p 'test_*.py'
 | `art-fill[brief]` | Dashed note with the art brief, `rb-art-note` |
 | Cover, credits page, contents page, divider pages, running heads, ornaments, columns | Left out. The site builds its own contents and navigation |
 
-`§` cross-references stay plain text for now.
+`build_html.py` writes each `@label` as a plain link, with the heading's typed number, before Pandoc runs. Pandoc's Typst reader drops the `[§§]` and `[]` supplements and nearby spaces on labels from other chapters, so it never sees the `@` form.
 
 ## When you change `common.typ`
 

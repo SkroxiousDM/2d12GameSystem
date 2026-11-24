@@ -1,7 +1,7 @@
 // Included by chapter-3-module-c-truth-driven-sandbox.typ inside its columns block after C.6.
 // C.5 supplies the basic faction-turn procedure; Module E replaces it when enabled.
 
-=== C.7 Session Zero: Entanglements
+=== C.7 Session Zero: Entanglements <mod-session-zero-entanglements>
 Use this at the start of a campaign, after players have picked a Descriptor, Playbook and Focus but before Beliefs, Goals and tags are final. It takes about 60 to 90 minutes for four players. The result is a #strong[story map] and your first Campaign Truths.
 
 #strong[Elements.] Each PC is a circle on the map. Everything else is placed on the map and joined to PCs by #strong[lines], each with a short description.
@@ -17,9 +17,9 @@ Use this at the start of a campaign, after players have picked a Descriptor, Pla
   table.header([Phase], [Type], [Each player adds], [Output for the PC]),
   [#strong[0 Setup]], [Setup], [The Focus link and one line to another PC.], [The ally and rival prompts.],
   [#strong[1 Origin]], [Major], [Two elements.], [A #strong[Belief] drawn from one of them.],
-  [#strong[2 Rise]], [Standard], [One element.], [One #strong[power tag].],
+  [#strong[2 Rise]], [Standard], [One element.], [One #strong[tag].],
   [#strong[3 Branching Out]], [Meta], [One element, plus one extra: connect two non-PC elements, replace one of your own lines, or give another PC a new element.], [An #strong[Instinct] or a named ally.],
-  [#strong[4 Turning Point]], [Major], [Two elements.], [A #strong[weakness tag] and your first #strong[Goal].],
+  [#strong[4 Turning Point]], [Major], [Two elements.], [A #strong[tag] that can get you into trouble, and your first #strong[Goal].],
 ))
 
 #strong[Using the map.]
@@ -27,7 +27,7 @@ Use this at the start of a campaign, after players have picked a Descriptor, Pla
 - #strong[Wedges.] The GM picks one line to threaten in the first session.
 - #strong[Late arrivals.] A new PC runs the same phases against the existing map.
 
-#strong[Campaign Truths.] Finish by writing #strong[3 to 5 Campaign Truths] (Core Rules §8) from the map. Each Situation is a candidate, and each Organization that most PCs touch gives one. Mark Organizations that conflict with each other as #strong[faction candidates] for C.8.
+#strong[Campaign Truths.] Finish by writing #strong[3 to 5 Campaign Truths] (Core Rules @core-truths) from the map. Each Situation is a candidate, and each Organization that most PCs touch gives one. Mark Organizations that conflict with each other as #strong[faction candidates] for C.8.
 
 #strong[Lines into factions.] A line between a PC and an Organization suggests a Module E record. Keep the faction's policy separate from personal ties:
 - #emph[Sworn member of], #emph[commissioned by]: a membership or office Truth (E.4), with its permissions, duties and limits. A line alone doesn't grant command.
@@ -37,22 +37,22 @@ Use this at the start of a campaign, after players have picked a Descriptor, Pla
 - #emph[Betrayed], #emph[estranged from]: a personal exception for that PC (E.4). It replaces the normal relationship Condition instead of stacking with it.
 Props and Sets tied to an Organization become faction assets (E.2) only if the faction actually owns, controls or can reach them. Interest alone isn't possession.
 
-#strong[Relationships aren't free bonuses.] Record relevant Truths normally. An ally or faction tie doesn't by itself grant Help, Backing, an extra turn, its own Disposition or Superiority; apply those rules when the resource actually contributes (Core Rules §10.2--10.3, §10.9; Module E.6).
+#strong[Relationships aren't free bonuses.] Record relevant Truths normally. An ally or faction tie doesn't by itself grant Help, Backing, an extra turn, its own Disposition or Superiority; apply those rules when the resource actually contributes (Core Rules @core-setup[§]--@core-superiority[], @core-shared-disposition-participation; Module E.6).
 
-=== C.8 Building Factions: Long Knives
+=== C.8 Building Factions <mod-building-factions>
 If Module E is in use, use E.1A instead. Otherwise, build the starting factions for C.5 like this:
 
 1. #strong[Place.] Name the location. Record it as the first Region Truth (C.1).
 2. #strong[Gather.] List the groups the PCs' lines point to: Organizations from the map, plus fragments of them. Note what each wants in the area and who would oppose it.
 3. #strong[Cluster.] Pick about #strong[four] factions that would find one another aggravating. Law or a local lord often belongs even if no PC touches them.
 4. #strong[Sheet.] For each faction write:
-- #strong[Has]: one obvious asset and one less obvious one. These set its #strong[rating]: +1 minor, +2 solid, +3 major, +4 dominant.
+- #strong[Has]: one obvious asset and one less obvious one, each written as an #strong[asset tag] (#emph[toll-barge fleet], #emph[the magistrate's ear]). Together they set its #strong[rating]: +1 minor, +2 solid, +3 major, +4 dominant. On a World Turn each relevant asset tag supplies +1 Power (C.5).
 #colbreak()
-- #strong[Wants]: its current project, with a clock sized by the change it makes (8 for a Site Truth, 12 for a Region Truth; C.6) and the #strong[result Truth] it creates or changes when the clock fills.
+- #strong[Wants]: its current project, with a clock sized by the change it makes (12 for a Site Truth, 16 for a Region Truth; C.6) and the #strong[result Truth] it creates or changes when the clock fills.
 - #strong[Link]: how it connects to the PCs.
-- #strong[Relations]: allied or hostile toward each other faction. Where it matters, write the relation as a Truth (Core Rules §8).
+- #strong[Relations]: allied or hostile toward each other faction. Where it matters, write the relation as a Truth (Core Rules @core-truths).
 5. #strong[Incident.] One faction does something underhanded or aggressive that affects the others. Treat it as a project that has already filled: record its result Truth. The PCs may see it but can't prevent it.
-6. #strong[Reaction.] Give each other faction a response as a linked clock (Core Rules §7), opened by the incident.
+6. #strong[Reaction.] Give each other faction a response as a linked clock (Core Rules @core-progress-clocks), opened by the incident.
 7. #strong[Future.] Write the result Truth each clock creates if the PCs do nothing. Make at least one visible to the players, and bad enough that they want to act.
 8. #strong[Involvement.] Note how each PC is pulled in. Appeals from factions should be biased and based on limited information.
 

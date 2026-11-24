@@ -1,16 +1,22 @@
 #import "common.typ": *
   
 #pagebreak()
-== 3. Combat Focuses
-#columns(2, gutter: 6mm)[
+== 3. Combat Focuses <foc-combat-focuses>
 === 1. Never Leaves Anyone Behind
 #quote(block: true)[
 Loyal to a fault. You go back for the fallen, every time.
 ]
-
-- #strong[Power tags:] #emph[I\'ve got your back];, #emph[carry them out]
-- #strong[Weakness tag:] #emph[can\'t walk away]
 - #strong[PC link:] \"I once failed to save someone. \[PC\] reminds me of them.\"
+- #strong[Tags:] 
+#emph[Everyone Comes Home]
+
+Power: Rescue, extract, or rally endangered companions. \
+Compel: You go back when escape requires leaving someone behind.
+
+#emph[Their Safety Is My Responsibility]
+
+Power: Anticipate threats to others and coordinate their protection. \
+Compel: You take control of someone’s safety against their wishes or accept too much risk yourself.
 
 #figure(
   [#table(
@@ -22,7 +28,7 @@ Loyal to a fault. You go back for the fallen, every time.
       trigger: [An ally next to you takes an imposed status. Use it before they Resist.],
       cost: [1 point from any pool.],
       benefit: [Reduce the status by #strong[1 tier].],
-      limit: [Before their Resistance. Protected payments can't be reduced (Generic Playbooks §1.2).],
+      limit: [Before their Resistance. Protected payments can't be reduced (Generic Playbooks @pb-ability-notation).],
     )],
     [2a], [#strong[Second Wind];], [#ability(
       trigger: [You succeed on a Defend and can reach a Taken Out ally.],
@@ -44,10 +50,10 @@ Loyal to a fault. You go back for the fallen, every time.
       limit: [Once per session. No other compromise applies; injuries and paid costs stay.],
     )],
     [3b], [#strong[★ Living Wall];], [#ability(
-      trigger: [You take up the position. Until your next action, imposed harm is aimed at allies within reach that you can intercept.],
-      cost: [The harm hits you instead. Pay your own Resistance costs.],
-      benefit: [Redirect it before their Resistance and use your own reduction; Resist each with Edge +1.],
-      limit: [Once per scene, until your next action. Area effects that already hit you both aren't redirected.],
+      trigger: [An Attack or Feint would remove your side's Disposition, and you can physically protect the participants threatened by it. Declare this before an injury trade.],
+      cost: [Take a tier-2 harmful physical Personal status as an accepted payment. It must follow from how you protect the side, hinder a relevant activity, and be new or worsen an existing status. Apply normal stacking.],
+      benefit: [Reduce that action's Disposition loss by 2, to a minimum of 0.],
+      limit: [Once per conflict. Your side can benefit from Living Wall only once against the same action. This is not an injury trade; one participant may still make the normal injury trade against the remaining loss.],
     )],
   )]
   , kind: table
@@ -60,9 +66,18 @@ Loyal to a fault. You go back for the fallen, every time.
 Captain, chief, or sergeant: people follow you.
 ]
 
-- #strong[Power tags:] #emph[born to command];, #emph[they believe in me]
-- #strong[Weakness tag:] #emph[every loss is on me]
 - #strong[PC link:] \"\[PC\] was the first person who ever followed my lead.\"
+- #strong[Tags:] 
+
+#emph[Follow Me In]
+
+Power: Lead an advance and inspire others through visible action. \
+Compel: You expose yourself rather than direct events from safety.
+
+#emph[I Carry Their Confidence]
+
+Power: Rally followers and steady a wavering group. \
+Compel: You conceal your doubts or accept a challenge to preserve their faith in you.
 
 #figure(
   [#table(
@@ -86,19 +101,19 @@ Captain, chief, or sergeant: people follow you.
       trigger: [You succeed with #strong[3+ Power].],
       cost: [No additional cost.],
       benefit: [The next ally who acts toward the same goal gets a #strong[free bonus die].],
-      limit: [The next ally only. Unused, it ends at the end of the scene. The bonus-dice cap applies (§1.3).],
+      limit: [The next ally only. Unused, it ends at the end of the scene. The bonus-dice cap applies (@foc-ability-limits).],
     )],
     [3a], [#strong[★ Warband];], [#ability(
-      trigger: [Your loyal crew (a group with 2 power tags and 1 weakness) helps or acts.],
+      trigger: [Your loyal crew (a group with 3 tags) helps or acts.],
       cost: [No additional cost.],
-      benefit: [It gives free Help, holds a position or acts as one group, and takes statuses as a single target (§1.3).],
-      limit: [Free Help once per scene. It is one participant in your side's script and rotation (§1.3).],
+      benefit: [It gives free Help, holds a position or acts as one group, and takes statuses as a single target (@foc-ability-limits).],
+      limit: [Free Help once per scene. It is one participant in your side's script and rotation (@foc-ability-limits).],
     )],
     [3b], [#strong[Unbreak-able Line];], [#ability(
       trigger: [Your side's Disposition would drop to 0.],
-      cost: [You take a #strong[tier-2 Personal status] as an accepted payment. You name it (#emph[exhausted-2], #emph[battered-2]) and the GM approves it. It recovers under the normal rules (Core Rules §6.5–6.6).],
+      cost: [You take a #strong[tier-2 Personal status] as an accepted payment. You name it (#emph[exhausted −2], #emph[battered −2]) and the GM approves it. It recovers under the normal rules (Core Rules @core-rest-recovery–@core-treatment-healing[]).],
       benefit: [Your side's Disposition stays at #strong[1].],
-      limit: [Once per conflict.],
+      limit: [Once per conflict for your side, however many participants have this ability. It prevents defeat from reaching 0 Disposition, not defeat because nobody can continue pursuing the objective. It cannot prevent a setup defeat.],
     )],
   )]
   , kind: table
@@ -112,9 +127,18 @@ Captain, chief, or sergeant: people follow you.
 Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
 ]
 
-- #strong[Power tags:] #emph[one with my \[weapon\]];, #emph[drilled every day]
-- #strong[Weakness tag:] #emph[lost without it]
 - #strong[PC link:] \"\[PC\] once saw me lose a duel, and kept it secret.\"
+- #strong[Tags:]
+
+#emph[One With My \[Weapon\]]
+
+Power: Wield, maintain, and understand your chosen weapon. \
+Compel: You resist surrendering it or struggle to abandon its familiar approach.
+
+#emph[My Training Takes Over]
+
+Power: React through disciplined, deeply practised technique. \
+Compel: An opponent exploits your habits, or an unconventional situation defeats your routine.
 
 #figure(
   [#table(
@@ -125,7 +149,7 @@ Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
     [1], [#strong[Signature Style];], [#ability(
       trigger: [You use a weapon of your chosen type.],
       cost: [No additional cost.],
-      benefit: [That weapon's tag may add #strong[+1 above the normal +2 cap (maximum +3 from tags)], and it gains a second conflict action tag (e.g. a sword also gives +1 Defend).],
+      benefit: [That weapon's tag may supply #strong[+1 Power above the normal +2 cap (maximum 3 Tag Power)], and it gains a second conflict action tag (e.g. a sword also gives +1 Defend).],
       limit: [Choose the weapon type when you take this ability. Only that weapon's tag exceeds the cap.],
     )],
     [2a], [#strong[Riposte];], [#ability(
@@ -147,10 +171,10 @@ Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
       limit: [Once per scene.],
     )],
     [3b], [#strong[★ Weapon Saint];], [#ability(
-      trigger: [You use your weapon.],
-      cost: [No attunement Refresh.],
-      benefit: [Your weapon becomes an #strong[artifact] (Module A) with one extra power tag and an ability you design with the GM. It never depletes.],
-      limit: [Needs Module A. The designed ability needs GM agreement and should be about as strong as one Tier 2 Focus ability.],
+      trigger: [You succeed on an Attack or Defend using your chosen weapon type.],
+      cost: [No additional cost.],
+      benefit: [Gain +1 Power. Choose one additional tag for your signature weapon, within the normal tag cap. With Module A: Your signature weapon is an artifact. This ability is its special ability; it does not grant another. It requires no attunement Refresh and never depletes. Agree its artifact quirk with the GM when it becomes an artifact. Never depletes means no depletion roll is required. Waiving attunement Refresh does not waive the normal attunement-slot limit when attunement is required.],
+      limit: [The additional Power applies once per exchange in a scripted conflict, or once per scene outside one. It permits only Effects available to that action. Choose the additional weapon tag when you take this ability.],
     )],
   )]
   , kind: table
@@ -164,9 +188,18 @@ Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
 Honour is for people who can afford to lose.
 ]
 
-- #strong[Power tags:] #emph[no rules in a fight];, #emph[eye for a cheap shot]
-- #strong[Weakness tag:] #emph[no one trusts me in a fair fight]
 - #strong[PC link:] \"I taught \[PC\] that winning is the only thing that matters. They\'re still deciding if I was right.\"
+- #strong[Tags:]
+
+#emph[Winning Comes Before Honour]
+
+Power: Use deception, surprise, and ruthless expedience. \
+Compel: Your methods cost trust, legitimacy, or a valuable alliance.
+
+#emph[Every Weakness Is an Opening]
+
+Power: Exploit distraction, injury, pride, or poor positioning. \
+Compel: You take a tempting cheap shot that exposes you or escalates the conflict.
 
 #figure(
   [#table(
@@ -177,12 +210,12 @@ Honour is for people who can afford to lose.
     [1], [#strong[Cheap Shot];], [#ability(
       trigger: [You make an Attack.],
       cost: [#strong[1 Power].],
-      benefit: [As part of the Attack, the target also takes a tier-1 Personal status from the dirty trick (#emph[blinded-1], #emph[winded-1]). In a conflict, this is in addition to the Disposition the Attack removes.],
+      benefit: [As part of the Attack, the target also takes a tier-1 Personal status from the dirty trick (#emph[blinded −1], #emph[winded −1]). In a conflict, this is in addition to the Disposition the Attack removes.],
       limit: [Once per scene. Tier 1 only; the target can Resist it normally.],
     )],
     [2a], [#strong[Improvised Arsenal];], [#ability(
       trigger: [You use anything in reach as a weapon: chairs, bottles, tools.],
-      cost: [No load (Generic Playbooks §2.1).],
+      cost: [No load (Generic Playbooks @pb-load).],
       benefit: [It gives #strong[+1 Attack or +1 Maneuver] as an action tag.],
       limit: [Within the tag cap.],
     )],
@@ -199,7 +232,7 @@ Honour is for people who can afford to lose.
       limit: [Fight conflicts only.],
     )],
     [3b], [#strong[★ Nothing Is Off-Limits];], [#ability(
-      trigger: [You declare a hazard Truth that was already there (#emph[gas leak], #emph[rotten floor], #emph[loose cargo]).],
+      trigger: [You declare a hazard Truth that was already there (#emph[Gas Leak], #emph[Rotten Floor], #emph[Loose Cargo]).],
       cost: [No additional cost.],
       benefit: [Your next roll that uses it gets a #strong[free Extra Feat].],
       limit: [Once per session. The Extra Feat applies to your next roll that uses it only.],
@@ -209,4 +242,4 @@ Honour is for people who can afford to lose.
   )
 // ART: A brawler flinging sand into an opponent's eyes.
 #art-fill(min: 6cm)[A brawler flinging sand into an opponent's eyes.]
-]
+

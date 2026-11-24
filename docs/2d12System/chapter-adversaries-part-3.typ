@@ -1,116 +1,200 @@
 #import "common.typ": *
+#import "adversaries-common.typ": statblock
 
+#columns(2, gutter: 6mm)[
+=== 7.6 Guardian Protocol <adv-guardian-protocol>
+A successful Protocol Discover reveals only the actions assigned to the targeted guardian in the next exchange, including their positions in that exchange. Record those assignments as committed when the information is supplied; other participants' assignments remain unrevealed.
 
+This guarantees disclosure of that next exchange, not automatic confirmation of all future exchanges. Characters retain what they have learned and may use observations and an understood operating pattern to predict later actions without paying merely to remember them.
 
-== 8 Boss Phases
-#columns(2, gutter: 6mm)[ 
-#strong[Approved procedure; balance unvalidated.] Boss Phases change a designated adversary's available options and ratings as its side loses ground. They use shared Disposition, never a personal Grit track. Phase activation costs no Woe; using a Special or calling reinforcements still requires its listed cost and procedure.
+The disclosure must be true when given; the GM can't freely rewrite it. The GM may still change a disclosed action with a normal paid script change (Core Rules @core-scripting-volleys), which doesn't notify the hunters. Tells, observations and information effects still apply.
 
-=== 8.1 Eligibility and Fixed Designation
-When preparing an adversary, the GM may mark a Great or Paramount adversary as a #strong[Phased Boss]. Rank and the Leader role do not grant phases automatically. Before calculating starting Disposition, designate at most one eligible phased boss per side and record the designation on its card or conflict record. A side may have none. Do not add, transfer or replace a designation after setup, including through reinforcement arrival or removal.
+Protocol grants no extra action, free script change, reassignment or rotation bypass. If the guardian later can't act, its assignment fails normally with no free replacement.
 
-Minion groups, Minor and Established adversaries require an explicit eligibility exception. A full-PC rival requires an explicit phase-capable entry; fictional importance alone does not qualify it. Other adversaries retain their own ratings, Role traits and Specials but gain no phase benefit unless expressly included. Do not split a coordinated side merely to obtain more phase systems; separate sides need genuinely distinct objectives and independent participation.
+=== 7.7 Shared Special Timing <adv-shared-special-timing>
+// PLAYTEST: Close declarations before reactions; Self-Repair before Bolt; phases before arrivals.
+After a successful action, determine Power, allocate it, declare supplementary Specials and pay their costs. Check existing effects and effects already declared for this action. Close purchases and supplementary declarations, resolve expressly permitted reactions including Scan, then resolve uncancelled effects. Reactions don't reopen declarations. Cancelled purchases remain spent; no reallocation, substitution or late supplementary activation unless expressly permitted. This grants no additional action, reaction or activation permission. Self-Repair retains its expressly listed volley-end activation and payment window (@adv-guardian-self-repair).
 
-Designation alone adds no Grit, starting Disposition, Threat, Woe, turn, script change, reinforcement or unlisted Special, and grants no immunity to defeat or finishing procedures. Encounter cost and phase bonuses still require playtesting.
+Complete both independent actions, their immediate consequences and permitted reactions. Then:
++ Resolve eligible Self-Repair. Disposition recovery requires the side to remain above 0; status repair can't cancel pending defeat.
++ Resolve declared Bolt departures, including its same-volley Lockdown exception.
++ Determine removal, defeat and mutual defeat; check eligible Last Stand before final settlement. If the conflict ends, perform no further phase checks or arrivals.
++ If the conflict continues and an ordinary phase check is permitted, check phases before reinforcement Grit. Preserve pending-defeat restrictions.
++ At an eligible exchange end, process committed arrivals under their listed procedures and explicit recovery prohibitions, including Last Stand.
++ Update participation and continuous rotation, then proceed to the next permitted declaration and scripting window.
 
-=== 8.2 Setup and Fixed Thresholds
-If setup ends in overwhelming preparation or simultaneous setup defeat, activate no phases. Otherwise record the boss side's adjusted starting Disposition after all modifiers and Superiority as the #strong[phase reference]. Record Half as half that value rounded down, and Desperate as one third rounded down. There is no minimum threshold.
+Arrival creates no additional phase check and doesn't reverse a phase activated before it. It changes no original start, recovery cap, compromise reference or fixed phase threshold. Newly activated phase benefits still begin next volley. This sequence creates no extra action, exchange boundary, arrival check, phase check or activation opportunity.
 
-The reference and thresholds stay fixed for this conflict. Recovery, reinforcements, removal and lawful return do not recalculate them. Changing location, tactics or conflict type in the same unresolved struggle does not reset them.
+=== 7.8 Dirty Trick <adv-dirty-trick>
+// PLAYTEST: Once per bearer per exchange; successful assigned action; later-volley Impede.
+After succeeding on its assigned scripted action, including Success at a Cost, the bearer may spend 1 Woe to Impede the opposing side's next scripted action in a later volley, including across an exchange boundary. Declare and pay during the supplementary declaration step (@adv-shared-special-timing).
 
-A reference of 1 gives thresholds 0 and 0; a reference of 2 gives 1 and 0; a reference of 3 gives 1 and 1. A threshold at 0 normally cannot activate before defeat. If both thresholds are met at one eligible check, record Half first, then Desperate, with no intervening action window. Phase designation does not guarantee that every phase occurs.
+Never affect the opposing action in the current volley, even if its roll has not been made. Impede is −3 on the affected action roll, not a status or Resistance penalty. A no-roll action consumes it unused. Pending Impedes don't stack, increase the penalty or extend duration. Failed, tied, trumped and unperformed actions don't qualify. No additional action or Power, extra turn or reassignment.
 
-=== 8.3 Special Ownership, Availability and Revelation
-Owned means listed on the card. Available means its phase and other prerequisites permit use. Revealed means the players have learned about it. A Tell, observation or information effect can reveal a locked Special without unlocking it.
+=== 7.9 Covering Move <adv-covering-move>
+// PLAYTEST: Replaces Hostage; once per bearer per exchange; one pending Gain Position per side.
+After succeeding on its assigned Maneuver, including Success at a Cost, spend 1 Woe to grant Gain Position to the side's next scripted action in a later volley, including across an exchange boundary. Never affect the current volley. Its bonus die counts toward the normal cap; a no-roll action consumes it unused.
 
-The following restrictions apply to the designated phased boss, not automatically to every adversary on its side or to ordinary non-phased adversaries.
+Before activation check both pending effects and effects already declared for this Maneuver. Don't activate or spend Woe if Gain Position is pending or the Maneuver has purchased or otherwise declared a grant of it. Declare and pay during @adv-shared-special-timing's supplementary declaration step. Later cancellation doesn't reopen this window. Additional grants never stack, refresh or extend pending Gain Position. No additional action or Power, extra turn or reassignment. None of Hostage's former Truth or Attack-penalty effects remain.
 
-Ordinary activated Specials are #strong[phase-locked]. Record each one's Start or Half assignment before calculating starting Disposition; assignments stay fixed, regardless of setup results, scripts or changing circumstances.
+=== 7.10 Scan <adv-scan>
+// PLAYTEST: Both options share one use per bearer per exchange.
+An able Guardian with functioning sensors may spend 1 Woe for one option:
+- #strong[Counter-Maneuver.] After an opposing Stealth-based Maneuver succeeds and its purchases and supplementary declarations close, but before effects resolve, cancel one Impede or Gain Position purchased by it. The approach must be detectable within established sensor coverage. Identify the purchase before paying. Cancel only that effect, not success, Power or other effects; its purchase remains spent. No reallocation or late supplementary declarations. Without either purchase this option can't activate. Special-granted effects are ineligible merely because they accompanied the Maneuver.
+- #strong[Reveal.] After its own successful assigned Maneuver, including Success at a Cost, reveal one hidden opponent's current location within established sensor coverage. Declare during @adv-shared-special-timing. This removes no cover or concealment automatically, establishes no line of fire, grants no Attack and doesn't prevent hiding again.
 
-#figure(table(columns: (40%, 30%, 30%),
-  table.header([Ordinary Specials], [Start], [New at Half]),
-  [1], [1], [0],
-  [2], [1], [1],
-  [3], [1], [2],
-  [4], [2], [2],
-))
+Sensors don't defeat barriers or countermeasures without recorded capability. Pay fully while able to participate. No additional action or Power, extra turn, reassignment, protected-payment cancellation or reopening resolved effects.
 
-The table counts ordinary activated Specials only. Passive and defeat-triggered Specials use the separate schedule below. All count toward the card's normal Special limit unless an existing rule expressly excludes them; phase eligibility adds no slots. All table-allocated ordinary Specials are unlocked after Half. Desperate grants no additional Special unlock.
+=== 7.11 Lockdown <adv-lockdown>
+// PLAYTEST: Successful assigned Maneuver; once per Guardian per scene; unrated scene Truth.
+After its successful assigned Maneuver, including Success at a Cost, an able Guardian may spend 2 Woe to create the scene Truth Sealed Doors. Declare during @adv-shared-special-timing. It must control functioning barriers already established in the scene. Name the connected set, passages closed and release/override conditions. Create no barriers and gain no control of unrelated systems.
 
-- #strong[Start:] Start-assigned ordinary Specials are available when the conflict proceeds beyond setup. Passive Specials operate from Start under their own listed conditions.
-- #strong[Half:] Half-assigned ordinary Specials unlock; defeat-triggered Specials unlock and are revealed. They become usable from the next volley, including a later volley in the same exchange. After volley 3, that means the next exchange's first volley.
-- #strong[Missed defeat triggers:] a defeat-triggered Special cannot trigger before it is unlocked and usable, including on a defeat during the volley that would otherwise qualify for Half. Do not unlock after the conflict ends or claim a passed trigger retroactively.
+Apply its physical restrictions only where materially relevant; it carries no rating or Difficulty shift; no blanket opposing-action penalty or indestructibility. Affect allies, enemies and bystanders according to position. No automatic capture, harm, Disposition loss, Taking Out or victory.
 
-Unlocking or revelation is not activation. Normal trigger, action requirement, declaration timing, Woe cost, targets, fictional permission and participation restrictions remain. The committed action must still permit use. There is no extra turn, free script change, actor reassignment or automatic permission to act while Taken Out.
+Barriers closed by Lockdown don't prevent completion of the opposing action in the same volley, including Bolt through a route usable when Bolt activated. They constrain subsequent actions and reinforcement arrivals normally.
 
-Half unlocks an #strong[owned] reinforcement option only; it grants no new Special, automatic arrival, free cost or alternative arrival procedure. Apply §6.5 for Disposition accounting. Availability does not activate a Special or bypass its procedure: Last Stand uses §6.10, Fail-safe uses §6.11, and deferred Specials use §6.12 when their entries explicitly refer to it.
+The Truth lasts until scene end or barriers are opened, breached or overridden. Opening one passage removes its restriction only; end the Truth when none remains sealed. Disabling the Guardian doesn't automatically unlock barriers. Power loss releases only mechanisms established to work that way. No additional action or Power, extra turn, reassignment, protected-payment cancellation or reopening settled outcomes.
 
-=== 8.4 Phase Checks and Benefit Timing
-Complete the volley's actions, including independent actions and any expressly permitted effects that must resolve before victory. Then determine removal, victory or mutual defeat. Only if the conflict continues and the designated boss remains able to participate, compare current shared Disposition with each unactivated threshold. Activate every eligible phase whose threshold is met.
+=== 7.12 Bolt <adv-bolt>
+// PLAYTEST: Successful assigned Maneuver; volley-end departure; no bypass of contested escape.
+After its successful assigned Maneuver, including Success at a Cost, spend 2 Woe to withdraw through an established usable route. Identify the route and pay during @adv-shared-special-timing. Resolve departure at volley end after eligible Self-Repair but before defeat, provided the bearer remains able to participate and physically capable of using the route.
 
-Use the #strong[final total] at that check, not the lowest total reached during the volley. Crossing a threshold and recovering above it before the check grants no activation or pending entitlement. Once activated, a phase does not reverse or activate again through recovery or reinforcements.
+An opposing Lockdown in the same volley doesn't by itself invalidate the declared route or prevent departure. All other requirements remain. Bolt otherwise can't cancel, interrupt or protect against the opposing action.
 
-Record activation at the check. Newly activated rating changes and other phase benefits apply from the #strong[next volley], never retroactively. They may modify an already committed action's later roll but do not change its category or assigned actor. If both phases activate together, their benefits begin together next volley.
+Remove the bearer from participation without subtracting Grit or Disposition. Update rotation normally; no replacement actor, reassignment or extra action. Continue if allies can pursue the objective; otherwise resolve defeat. Departure doesn't cancel defeat at 0.
 
-#figure(table(columns: (22%, 78%),
-  table.header([Phase], [Benefit]),
-  [Opening], [Role trait, passive Specials and Start-assigned ordinary Specials operate under their own conditions. Show a clear Tell.],
-  [Half], [Unlock the assigned ordinary and defeat-triggered Specials under the schedule above. Owned reinforcement options retain normal costs and timing. Grant no duplicate Command bonus.],
-  [Desperate], [The recorded available non-Defend category gains +2 to its rating. Defend uses the card's Weak rating as its base. Show a desperate tactic, offer a deal or reveal an exit; no extra negotiated benefit follows automatically.],
-))
+Bolt can't activate or spend Woe to bypass an unresolved objective specifically contesting the bearer's escape, pursuit or capture; use outcome or accepted concession. No teleportation, passage through effective restraint or blocked routes, ally movement, automatic safety from later pursuit, protected-payment cancellation or reopening settlement. No separate use limit; departure grants no permission to return.
 
-=== 8.5 Desperate Rating Precedence
-// PLAYTEST: Fixed available non-Defend category.
-Before setup, record one available Attack, Feint or Maneuver category for Desperate. Add +2 there while active; keep the choice fixed. Without an available non-Defend category, grant no bonus without an explicit exception. Replace Defend's base with Weak, then apply eligible modifiers; never add Desperate's +2 to Defend. A Marshal recording Attack uses Attack +7, Defend +3, Feint +3 and Maneuver +5 before other modifiers.
+=== 7.13 Howl <adv-howl>
+// PLAYTEST: One shared named Hound Pack; action-free; commitment survives caller loss and blocked routes.
+While able to participate, spend 2 Woe during the action-free call window (@adv-reinforcements) and give an audible howl to call the side's single reserve Hound Pack. It must be within plausible calling distance, hear the call and have a usable route. Check before paying; mark committed immediately. This creates or summons no beasts. Committed or previously arrived copies can't be called again by any caller.
 
-At an eligible exchange boundary, check phases before reinforcement arrivals (§6.16). Arrival creates no additional phase check and does not reverse an activated phase.
+Arrive at current exchange end if the conflict continues and a usable route exists. If blocked after payment, remain committed and check at each later exchange end; arrive when the conflict continues and a route opens, without further payment. Caller removal doesn't cancel or delay otherwise eligible arrival. No arrival into an ended conflict. Apply @adv-reinforcements[§§] and @adv-shared-special-timing[], including fixed references, rotation and recovery prohibitions. The pack is one participant, not one per Body. No action or Power; no separate use limit beyond finite shared availability.
 
-The +2 stays attached to the recorded category. A later ability changing ratings does not move it unless it expressly changes the phase designation. These changes affect the designated boss only and grant no additional Power, automatic success, harmful-status permission or action.
+=== 7.14 Calls the Works <adv-calls-works>
+// PLAYTEST: One shared named Gate Warden; action-free; accepted command survives later caller/link loss.
+While able to participate, spend 2 Woe during @adv-reinforcements's call window to transmit a command to the side's single reserve Gate Warden. A functioning link must reach it; it must be able to respond and have a usable route. Check before paying; mark committed immediately. No creation or unlisted substitution; committed or previously arrived copies can't be called again.
 
-=== 8.6 Participation, Suspension and Lawful Return
-Check phases only while the designated boss remains able to participate. When it becomes unable to participate, keep its designation, reference, thresholds, phase markers and unlock history. Activate no new phase during its absence and transfer none of its designation to another adversary.
+Arrive at current exchange end if the conflict continues and a usable route exists. A route blocked after payment delays arrival to a later eligible exchange end without further cost; the copy remains committed and unavailable. After command receipt and commitment, caller removal or link loss doesn't cancel or delay otherwise eligible arrival. No arrival into an ended conflict. Apply @adv-reinforcements[§§] and @adv-shared-special-timing[].
 
-Phase-derived rating benefits are suspended while it cannot participate. Unlocks are not erased but grant no permission to act, activate a Special or return while Taken Out. If another rule legally returns it to the same unresolved conflict, previously activated phase benefits resume from the next volley. Do not reset setup, rotation, used abilities or phase triggers.
+The reserve uses Variant C Self-Repair (@adv-guardian-self-repair), doesn't gain Calls the Works and can't use this entry to call further Guardians. No additional action or Power; no separate use limit beyond reserve availability.
 
-At the next normal end-of-volley check for which the boss is eligible, test unactivated thresholds against the current total. Do not reconstruct threshold crossings during its absence. A return after the conflict ends cannot reopen it or activate a phase retroactively.
+=== 7.15 Caller-Specific Reserve Packages <adv-caller-specific-reserve-packages>
+// PLAYTEST: Named side-wide copies, not fictional bodies or duplicated caller allowances.
+#strong[Bounty Veteran — Call for Help.] While able to participate, spend 2 Woe per activation during @adv-reinforcements's call window to commit one of the side's two Hired Guns. No action or Power. Multiple activations in one exchange are allowed with full payment and a separate available copy each; both cost 4 Woe. Arrive at current exchange end if the conflict continues, even if the Veteran has since become unable to participate. Apply @adv-reinforcements[§§] and @adv-shared-special-timing[]. Add no unlisted communication or route requirement to this package.
 
-Command applies only while its Leader remains able to participate; phases neither restore nor duplicate it. Passive Specials follow their own conditions: Start availability does not make them dependent on a Half/Desperate rating benefit or override their participation restrictions. A Special expressly allowed to trigger while its owner is unavailable uses that permission only if already unlocked and usable; any Last Stand or Fail-safe use must still meet §§6.10--6.11.
+#strong[Iron Marshal — Call for Help.] While able to participate and the Special is unlocked and usable, spend 2 Woe per activation during @adv-reinforcements's call window to issue an audible order or transmit a command to one of the side's two House Guard Bands. Each is a Raider Band reskin with unchanged statistics and abilities. It must receive the order, be able to respond and have a usable route. Check before payment; commit immediately. Multiple activations in one exchange require separate available copies and full payment; both cost 4 Woe. No action or Power.
 
-=== 8.7 Recovery and Outcome References
-Starting Disposition remains the normal recovery cap and compromise reference; reinforcements increase current Disposition only (§6.5; Core Rules §10.9, §10.13). No phase refreshes either value or creates a new conflict. Apply §§6.10--6.12 for defeat-triggered Specials and deferred injuries; phase availability grants no further exception. Numerical calibration, rendered layout and encounter balance remain unvalidated.
+Arrive at current exchange end if the conflict continues and a usable route exists. Route blockage after payment retains commitment and delays arrival to a later eligible exchange end without further cost. Once the order is received, later caller or link loss doesn't cancel or delay otherwise eligible arrival. No arrival into an ended conflict. Apply @adv-reinforcements[§§] and @adv-shared-special-timing[]. Each band is one participant, not one per Body.
 
-=== 8.8 Example Exchange
-Party of three. Opposition: Bounty Veteran (5), Knife in the Dark (3) and a Hound Pack (3), Threat 11. This matches the legacy P = 11 budget for three PCs, not a guaranteed Standard matchup under current setup. In this example the PCs have noticed the Knife, so Ambush does not apply; there are no other setup modifiers or Superiority. The opposition records starting shared Disposition 11. Its Woe pool is 6.
-
-Before any reveal, the party commits Attack, Defend, Defend, assigned to three eligible PCs in rotation. The opposition commits Pack Maneuver, Knife Feint, Veteran Attack in that order.
-
-- Volley 1: Attack versus Maneuver is versus. The Pack spends 1 Woe on a bonus die and wins by 4, generating 2 Power. It buys Impede (1) and Gain Position (1). Hit and Run also removes 1 shared PC Disposition. Impede applies to the party's next scripted action, not necessarily the PC who just acted. Telegraph the Knife's next action with the guttering lamp.
-// ART: A knife flashing in a feint while the real blow comes from the shadows.
-#art-fill(min: 6cm)[A knife flashing in a feint while the real blow comes from the shadows.]
+Command applies only while the Marshal remains able to participate; removal ends Command, not accepted commitments or the bands' participation. Phase availability grants no free call, extra reserve or duplicate Command. All callers share recorded copies; no call replenishes them. Retain the Raider Band's tags, weakness, Tell and Wants unless separately revised cosmetically; the reskin adds no mechanical benefits.
+// ART: A war-band leader signalling from a ridge as raiders pour into the valley below.
+#art-fill(min: 6cm)[A war-band leader signalling from a ridge as raiders pour into the valley below.]
 #colbreak()
-- Volley 2: the Knife's Feint resolves independently; the party's Defend is trumped and makes no roll. The pending Impede expires unused on that no-roll action. Gain Position supplies the Knife one bonus die, within the normal cap. Its successful Feint removes committed Power + 1 shared Disposition, without an automatic wound. Telegraph the Veteran thumbing back both hammers.
-- Before volley 3 is revealed, the players may spend 2 Weal to change their unrevealed action while retaining its assigned actor. The GM may likewise pay 3 Woe to change the opposition's unrevealed action, not react to a revealed result. If neither changes, the Veteran's Attack opposes the final PC's Defend. On the Veteran's first successful Attack this exchange, Heavy Hitter grants +1 Power.
-- If a status or explicit effect Takes Out the Pack, remove it from participation without subtracting its 3 Grit from shared Disposition; ordinary loss does not individually remove it. Complete any independently resolving actions before checking victory. A concession near one third of starting Disposition is optional tactical advice, not an automatic defeat trigger.
-// ART: A pack of lean hunters circling a lone traveller in the snow.
-#art-fill(min: 6cm)[A pack of lean hunters circling a lone traveller in the snow.]
+// ART: Raiders on horseback charging through smoke toward a palisade.
+#art-fill(min: 6cm)[Raiders on horseback charging through smoke toward a palisade.]
 ]
+#pagebreak() 
+== 8. Templates <adv-templates>
+#columns(2, gutter: 2mm)[
+Eight generic cards, including the named Hired Gun reserve card. Reskin freely. Ratings follow the Rank table.
+
+#statblock("RAIDER BAND", "Human · Minion group (4 Bodies) · Shooter", "3")[
+Grit 3 · Guard +0 · Bodies 4 · Armour 0 \
+Attack +2 · Defend +0 · Feint −2 · Maneuver +0 · Other +0 \
+Harm: wounded (carbines) \
+Power: plenty of bullets, know the ground · Weakness: break and run \
+Kind: Morale. Role: Dead Aim. \
+Group trait: Volley (2): area Attack. \
+Tell: hats come off as rifles shoulder. \
+Wants: the strongbox, no heroics.
+]
+
+#statblock("HOUND PACK", "Beast · Minion group (5 Bodies) · Skirmisher", "3")[
+Grit 3 · Guard +0 · Bodies 5 · Armour 0 \
+Attack +0 · Defend +0 · Feint — · Maneuver +2 · Other +0 (Notice +2) \
+Harm: wounded (bites) \
+Power: noses for blood, run as a pack · Weakness: fears fire \
+Kind: no Feint, Morale (scatter if the handler falls). Role: Hit and Run. \
+Group trait: Pack Tactics (0). \
+Tell: the circling tightens. \
+Wants: drive the prey toward the den.
+]
+
+#statblock("KNIFE IN THE DARK", "Human · Minor · Trickster", "3")[
+Grit 3 · Guard +0 · Shrugs 0 · Armour 0 \
+Attack +1 · Defend −1 · Feint +3 · Maneuver +1 · Other +1 (Stealth +3) \
+Harm: wounded (paired knives) \
+Power: one with the shadows, a knife for every hand · Weakness: the oath before my life \
+Kind: Morale. Role: Ambush. \
+Specials: Dirty Trick (1). \
+Tell: the nearest lamp gutters. \
+Wants: no witnesses.
+]
+
+#statblock("BOUNTY VETERAN", "Human · Established · Brute", "5")[
+Grit 5 · Guard +1 · Shrugs 1 · Armour 1 (oilskin and mail) \
+Attack +4 · Defend +2 · Feint +0 · Maneuver +2 · Other +2 \
+Harm: wounded (silver-and-wood shotgun), +1 tier from Heavy Hitter outside conflicts \
+Power: silver-and-wood shot, twenty years of hunts, a veteran hunter's reputation · Weakness: greedy for the bounty \
+Kind: Morale; can be bargained with. Role: Heavy Hitter. \
+Specials: Last Stand (2), Call for Help (2 per Hired Gun; two named reserve copies; @adv-caller-specific-reserve-packages). \
+Tell: he thumbs back both hammers. \
+Wants: the bounty, and the credit.
+]
+
+#statblock("HIRED GUN", "Human · Minor · Shooter", "3")[
+Grit 3 · Guard +0 · Shrugs 0 · Armour 0 \
+Attack +3 · Defend +1 · Feint −1 · Maneuver +1 · Other +1 \
+Harm: wounded (carbine) \
+Power: steady aim, reliable carbine · Weakness: not paid to die \
+Kind: Morale; can be bargained with. Role: Dead Aim. \
+Specials: Volley (2): before rolling its assigned Attack, make it an area Attack under the common area rule. \
+Tell: they plant their feet and bring the carbine to their shoulder. \
+Wants: collect their pay and leave alive.
+]
+// PLAYTEST: Veteran reserve has two identical copies; track uses separately.
+// Dead Aim grants one free die on each copy's first Attack each scene, within the cap.
+// Volley grants no extra action or automatic status and no automatic ally exclusion.
+// Resolve ordinary area loss once, +1 per additional opposing participant affected;
+// apply common group counting and injury-trade limits.
+
+#statblock("HEDGE ADEPT", "Human · Established · Controller", "5")[
+Grit 5 · Guard +1 · Shrugs 1 · Armour 0 \
+Attack +0 · Defend +2 · Feint +2 · Maneuver +4 · Other +2 (Lore +4) \
+Harm: wounded or shaken (rite) \
+Power: binding rites, a ledger of debts, hands that never shake · Weakness: proud beyond reason \
+Kind: Morale. Role: Shape the Ground. \
+Specials: Dirty Trick (1), Covering Move (1). \
+Tell: he straightens his cuffs. \
+Wants: finish the rite before dawn.
+]
+
+#statblock("GATE WARDEN", "Guardian · Established · Bulwark", "5")[
+Grit 5 · Guard +1 · Shrugs 1 · Armour 1 \
+Attack +2 · Defend +4 · Feint +0 · Maneuver +2 · Other +2 (Tech +4) \
+Harm: wounded (shock-baton) \
+Power: old-world steel, knows every corridor, obeys the bloodline · Weakness: answers to the old codes \
+Kind: Unfeeling, Protocol, Machine. Role: Interpose. \
+Specials: Self-Repair (1), Lockdown (2). \
+Tell: "Please remain where you are." \
+Wants: guests kept safe, intruders out.
+]
+  
+#statblock("THE IRON MARSHAL", "Human · Great · Leader · Boss", "8")[
+Grit 8 · Guard +2 · Shrugs 2 · Armour 1 (house mail) \
+Attack +3 · Defend +6 · Feint +1 · Maneuver +3 · Other +3 \
+Harm: wounded (old-world sabre) \
+Power: remembers the founding, a hundred sworn swords, the house is armed, never loses a flank · Weakness: proud beyond reason, believes the old stories \
+Kind: Morale. Role: Command. \
+Specials: Call for Help (2 per House Guard Band; two named reserve copies; @adv-caller-specific-reserve-packages), Covering Move (1), Last Stand (2). \
+Tell: she sets down her glass. \
+Wants: the intruders alive, kneeling and useful.
+]
+]
+  
 #pagebreak()
-== 9. Quick Checklist
-  #columns(2, gutter: 2mm)[
-- Intent, stakes and exits set before any roll.
-- Budget calibration flagged; mix at least two Roles.
-- Flat setup modifiers counted before Superiority; both adjusted totals checked for setup defeat; original starts recorded.
-- Any phased boss and fixed Special assignments recorded before setup; fixed thresholds recorded before scripting and available non-Defend Desperate category recorded before setup.
-- Three actions and eligible actors committed before reveal; continuous rotation tracked.
-- One Tell per adversary, shown before its Best action.
-- Woe tracked; costs paid without overrun.
-- Ordinary Disposition loss kept separate from statuses, pools and Bodies.
-- Independent actions finished before victory; only continuing conflicts with an eligible boss check phases; benefits begin next volley.
-#colbreak()
-- Last Stand: eligible unlocked bearer, 2 Woe, one final volley per side per conflict; pending defeat cannot be recovered.
-- Final outcome, eligible Fail-safe activation, finishing procedure, deferred applications, then injury credit and settlement.
-- Fail-safe: active eligible Guardian, 3 Woe, established PC blast reach; no mutual-defeat or concession trigger.
-- Deferred Specials: one recorded application per named Special per target per conflict across all sources; each record resolved individually after every outcome; imposed injuries remain Resistable.
-- Finishing procedures before compromise; reinforcement Grit changes current Disposition, not original start or recovery cap.
-- Concessions negotiated before the next roll; compromise settled as one package.
-]
+
+#include "chapter-adversaries-part-4.typ"
+
+

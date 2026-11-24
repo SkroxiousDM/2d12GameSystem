@@ -1,6 +1,6 @@
 #import "common.typ": *
 
-=== 6.5 Rest and Recovery
+=== 6.5 Rest and Recovery <core-rest-recovery>
 
 Recovery follows four successive rest stages:
 
@@ -20,7 +20,7 @@ Recovery follows four successive rest stages:
 
 - #strong[Divide the recovered points among Sōma, Mētis, Psychē and Pneuma however you wish], without exceeding a pool\'s maximum. They don\'t have to go to whichever pool was drained most recently.
 
-- #strong[Edge does not apply to recovery.] It already cuts Effort costs and adds Resistance dice (§2.4, §6).
+- #strong[Edge does not apply to recovery.] It already cuts Effort costs and adds Resistance dice (@core-bonus-dice-effort, @core-resistance-harm-recovery).
 - After the 4th rest, the cycle resets --- your next rest that day (or the start of a new day) is a First rest again.
 - Each PC rests and rolls independently. If two of five party members stop for 10 minutes to recover, the other three don\'t have to stop or roll.
 
@@ -29,19 +29,19 @@ Recovery follows four successive rest stages:
 - #strong[Injury] (real physical damage): recovers through treatment, Restore and healing time, like any wound.
 - #strong[Affliction] (supernatural or ongoing cause): recovers only as its source allows.
 
-#strong[Resting off depletion] #emph[(playtest value)]#strong[.] When you take one of the 1st--3rd rests, you can put the recovery roll toward the pool, toward its depletion status, or split it between them. Every #strong[2 points] removes #strong[1 tier] of the depletion status. Each point counts once. The 4th rest (full restore) also clears any depletion status whose cause has ended. It doesn't clear Scars, injuries or afflictions. Reassurance or first aid can make recovery possible, but can't keep stripping depletion tiers with Restore. Abilities that explicitly restore exhaustion or harmful statuses work as written.
+#strong[Resting off depletion] #emph[(Playtest Value)]#strong[.] When you take one of the 1st--3rd rests, you can put the recovery roll toward the pool, toward its depletion status, or split it between them. Every #strong[2 points] removes #strong[1 tier] of the depletion status. Each point counts once. The 4th rest (full restore) also clears any depletion status whose cause has ended. It doesn't clear Scars, injuries or afflictions. Reassurance or first aid can make recovery possible, but can't keep stripping depletion tiers with Restore. Abilities that explicitly restore exhaustion or harmful statuses work as written.
 
 #strong[No shortcut.] A pool at 0 comes back through these rests like any other. Running dry never gives a special recovery roll, an automatic refill, or a way around the rest cycle. You can't overrun a pool on purpose to replace a bad recovery roll or to jump to a fresh rest stage.
 
 #strong[Each layer recovers on its own.] Disposition, pools and statuses each recover only through their own procedure:
-- #strong[Disposition] is set fresh when a genuinely new conflict begins (§10.2). Fresh Disposition doesn't refill pools or clear statuses, and a brief pause in the same struggle isn't a new conflict.
+- #strong[Disposition] is set fresh when a genuinely new conflict begins (@core-setup). Fresh Disposition doesn't refill pools or clear statuses, and a brief pause in the same struggle isn't a new conflict.
 - #strong[Pools] recover through the rests above. A full pool doesn't heal an injury, and an injury doesn't stop pool recovery unless its rule says so.
-- #strong[Statuses] recover by their kind: a temporary state ends when its cause or duration ends; injuries need treatment and time (§6.6); afflictions follow their source.
+- #strong[Statuses] recover by their kind: a temporary state ends when its cause or duration ends; injuries need treatment and time (@core-treatment-healing); afflictions follow their source.
 
 Winning a conflict, ending a scene or setting fresh Disposition is #strong[not a general reset].
 
 
-=== 6.6 Treatment and Healing
+=== 6.6 Treatment and Healing <core-treatment-healing>
 
 #strong[Appropriate care.] Treatment must address the cause of the harm:
 
@@ -54,7 +54,7 @@ Winning a conflict, ending a scene or setting fresh Disposition is #strong[not a
     [Wounds, blood loss, poison], [Medicine and suitable supplies],
     [Fear, grief, shock], [Empathy, reassurance and safety],
     [Confusion, cognitive disruption], [Diagnosis, rest or specialist care],
-    [Damaged machines or implants], [Science or Craft, tools and access],
+    [Damaged machines or implants], [Tech or Craft, tools and access],
     [Curses, possession, corruption], [A fitting supernatural method or the source's stated cure],
   )]
   , kind: table
@@ -64,17 +64,17 @@ A skill doesn't supply the tools, knowledge or fictional permission on its own.
 
 #strong[Routine care.] In safe conditions, when failure would add nothing, care needs no roll. It gives permission to treat, stabilises where nothing is uncertain, and meets the conditions for natural recovery. It #strong[generates no Power]. If ordinary treatment could remove one tier of a lasting injury and success is routine, remove that tier and mark the injury #emph[treated]; there's no surplus Power or Weal. Roll only when an uncertain result matters, never just to farm Weal.
 
-#strong[Emergency care] stops an injury getting worse: stopping bleeding, splinting a limb, pulling someone away from a harmful influence, isolating a damaged power cell. It doesn't normally reduce the tier. When the outcome is uncertain, roll the treatment skill vs. #strong[Standard 15], with relevant statuses and Situational Conditions modifying the roll. On a success, the deterioration stops or treatment can begin. On a Success at a Cost, the same, with the normal cost. On a failure, the condition is still untreated; the GM announces any further consequence before another attempt. During scripted conflicts, use the conflict-specific consequence restrictions (§10.7).
+#strong[Emergency care] stops an injury getting worse: stopping bleeding, splinting a limb, pulling someone away from a harmful influence, isolating a damaged power cell. It doesn't normally reduce the tier. When the outcome is uncertain, roll the treatment skill vs. #strong[Standard 15], with relevant statuses and Situational Conditions modifying the roll. On a success, the deterioration stops or treatment can begin. On a Success at a Cost, the same, with the normal cost. On a failure, the condition is still untreated; the GM announces any further consequence before another attempt. During scripted conflicts, use the conflict-specific consequence restrictions (@core-costs-failures-complications).
 
-#strong[Restore on lasting injuries.] Restore costs 1 Power per tier (§5). It can clear a #strong[temporary] condition outright when the action removes its cause: putting out burning clothes reduces #emph[on fire], calming an ally reduces fear. #strong[Lasting injuries] are slower:
+#strong[Restore on lasting injuries.] Restore costs 1 Power per tier (@core-effects). It can clear a #strong[temporary] condition outright when the action removes its cause: putting out burning clothes reduces #emph[on fire], calming an ally reduces #emph[fear]. #strong[Lasting injuries] are slower:
 - Ordinary treatment reduces a given lasting injury by #strong[at most 1 tier]. Mark it #emph[treated].
 - Further ordinary treatment can't reduce it again until a healing interval (below) actually removes a tier from it. Interrupting rest, changing healers, renaming the injury or starting a new scene doesn't clear the mark, and new harm to the same injury doesn't refresh it. A separate injury has its own mark.
 - Spare Power buys other fitting Effects or becomes Weal as normal.
 - Abilities, cyphers and items that explicitly heal a stated number of tiers (such as #emph[healing gel]) follow their own text. Abilities that only change the cost of Restore don't lift the 1-tier limit.
 
-#strong[Care in a conflict.] Treating someone under opposition uses your action. Emergency care can be a Defend only where the conflict type or an ability allows its skill (such as #emph[Battlefield Surgeon]). Restoring Disposition keeps your side in the contest; it doesn't heal an injury unless the action's rules also provide a healing effect. Healing an injury does not return a Taken Out ally unless the return requirements in §6.4 are met.
+#strong[Care in a conflict.] Treating someone under opposition uses your action. Emergency care can be a Defend only where the conflict type or an ability allows its skill (such as #emph[Battlefield Surgeon]). Restoring Disposition keeps your side in the contest; it doesn't heal an injury unless the action's rules also provide a healing effect. Healing an injury does not return a Taken Out ally unless the return requirements in @core-being-taken-out are met.
 
-#strong[Healing intervals] #emph[(playtest values)]#strong[.] Once a lasting injury has had appropriate care and its cause has stopped, safe rest removes one tier per interval. Use the injury's current tier:
+#strong[Healing intervals] #emph[(Playtest Value)]#strong[.] Once a lasting injury has had appropriate care and its cause has stopped, safe rest removes one tier per interval. Use the injury's current tier:
 
 #figure(
   [#table(
@@ -88,7 +88,7 @@ A skill doesn't supply the tools, knowledge or fictional permission on its own.
     [4], [One full week],
     [5], [Appropriate treatment, then one full week],
     [6, not lethal], [Remove the incapacitating cause and set a recovery method],
-    [6, life-threatening], [Stabilise, then definitive care before natural recovery begins (§6.7)],
+    [6, life-threatening], [Stabilise, then definitive care before natural recovery begins (@core-dying-stabilisation)],
   )]
   , kind: table
   )
@@ -103,33 +103,33 @@ These are game-time intervals, not medical estimates. A full night is the normal
 
 #strong[Afflictions] (poison, disease, possession, curses, ongoing exposure) don't follow the interval table. When the affliction is identified, its source sets what worsens it, what suppresses it, what allows recovery, and whether treatment cures it or only eases the symptoms. A setting book can give specific afflictions, and creatures that recover in unusual ways, their own rules; where it does, those rules win.
 
-=== 6.7 Dying and Stabilisation
+=== 6.7 #emph[Dying] and Stabilisation <core-dying-stabilisation>
 
-#strong[Becoming Dying.] After Resistance and stacking, life-threatening physical harm that reaches tier 6 makes a living character #strong[Dying], if lethal stakes allow that outcome (§10.2). It also gives a Scar as normal (§6.3), unless an explicit breaking-point replacement applies. The character is incapacitated and can't take ordinary actions. Start a #strong[3-segment Dying clock]. There is no extra #emph[dying] penalty; the injury already records the harm. Mental defeat, capture, exhaustion and ordinary fear never start a Dying clock, and a running-dry status is never lethal on its own.
+#strong[Becoming #emph[Dying].] After Resistance and stacking, life-threatening physical harm that reaches tier 6 makes a living character #strong[#emph[Dying]], if lethal stakes allow that outcome (@core-setup). It also gives a Scar as normal (@core-tier-6-scars), unless an explicit breaking-point replacement applies. The character is incapacitated and can't take ordinary actions. Start a #strong[3-segment #emph[Dying] clock]. There is no extra #emph[dying] penalty; the injury already records the harm. Mental defeat, capture, exhaustion and ordinary fear never start a #emph[Dying] clock, and a running-dry status is never lethal on its own.
 
-#strong[Cadence.] When Dying begins, set how the clock advances: at the end of each exchange after the one in which Dying began, during a scripted conflict; or after a stated fictional interval, outside one. The clock advances #strong[because the interval passes], not because someone attempts treatment. Several characters can act in the same interval without advancing it further. Moving into or out of a scripted conflict carries the existing deadline over; it doesn't advance the clock or grant extra time.
+#strong[Cadence.] When #emph[Dying] begins, set how the clock advances: at the end of each exchange after the one in which #emph[Dying] began, during a scripted conflict; or after a stated fictional interval, outside one. The clock advances #strong[because the interval passes], not because someone attempts treatment. Several characters can act in the same interval without advancing it further. Moving into or out of a scripted conflict carries the existing deadline over; it doesn't advance the clock or grant extra time.
 
 #strong[Further harm.] Each further unmitigated physical harm that could worsen the mortal injury marks one extra segment, even though the injury stays at tier 6. One action or hazard can mark at most one extra segment. When the third segment is marked, the character dies.
 
 #strong[Stabilising.] An adjacent character with suitable means rolls Medicine vs. #strong[Hard 18], with relevant statuses and Situational Conditions modifying the roll. An ability or a fitting supernatural method can offer another way.
 - #strong[Success:] the patient is stable and the clock stops.
-- #strong[Success at a Cost:] stable, with the normal cost, subject to §10.7 inside conflicts.
-- #strong[Failure:] still Dying. The attempt uses the action, but doesn't advance the clock.
+- #strong[Success at a Cost:] stable, with the normal cost, subject to @core-costs-failures-complications inside conflicts.
+- #strong[Failure:] still #emph[Dying]. The attempt uses the action, but doesn't advance the clock.
 
-Stabilising doesn't erase marked segments, reduce the injury, refill pools or return the patient to the conflict. A stable patient can be moved with care. If a new event makes them Dying again, the clock resumes from its recorded segments.
+Stabilising doesn't erase marked segments, reduce the injury, refill pools or return the patient to the conflict. A stable patient can be moved with care. If a new event makes them #emph[Dying] again, the clock resumes from its recorded segments.
 
-#strong[Definitive care.] Emergency care can stabilise a tier-6 life-threatening injury but can't lower its tier. Lowering it below tier 6 takes #strong[definitive care]: a suitable procedure, facility or specialist, or an ability or item that explicitly heals the injury (such as #emph[Miracle Worker], #emph[Not on My Table] or #emph[healing gel]). The GM states what that requires when the injury is assessed and doesn't add requirements once they are met. When definitive care brings the injury below tier 6 and removes its immediate lethal cause, clear the Dying clock.
+#strong[Definitive care.] Emergency care can stabilise a tier-6 life-threatening injury but can't lower its tier. Lowering it below tier 6 takes #strong[definitive care]: a suitable procedure, facility or specialist, or an ability or item that explicitly heals the injury (such as #emph[Miracle Worker], #emph[Not on My Table] or #emph[healing gel]). The GM states what that requires when the injury is assessed and doesn't add requirements once they are met. When definitive care brings the injury below tier 6 and removes its immediate lethal cause, clear the #emph[Dying] clock.
 
-#strong[Immediate death.] Use it only when the established outcome leaves no plausible time for rescue, or a specific killing method calls for it (such as a creature's killing strike in a setting book). Announce that danger before the roll, and allow Resistance, escape or interruption where their rules permit it; accepted payments cannot be cancelled through these general options. Once such an outcome is fully resolved, don't add a Dying clock to undo it; equally, don't skip the clock for an ordinary mortal wound just because the description is graphic. Resolve permitted post-conflict finishing procedures before compromise (§10.12).
+#strong[Immediate death.] Use it only when the established outcome leaves no plausible time for rescue, or a specific killing method calls for it (such as a creature's finishing procedure in a setting book). Announce that danger before the roll, and allow Resistance, escape or interruption where their rules permit it; accepted payments cannot be cancelled through these general options. Once such an outcome is fully resolved, don't add a #emph[Dying] clock to undo it; equally, don't skip the clock for an ordinary mortal wound just because the description is graphic. Resolve permitted post-conflict finishing procedures before compromise (@core-defeat-mutual-defeat-concession).
 
-#strong[Setting-specific harm.] Use a condition's specific tiers, treatment and breaking-point rules where stated. Replace the core Dying clock only if its rule explicitly supplies an alternative death or stabilisation procedure; different condition tiers alone do not replace it. Testament of Dust's Bled uses its own tiers and recovery rules but retains the core three-segment Dying clock at lethal Bled-6. Do not run a second death deadline alongside it.
+#strong[Setting-specific harm.] Use a condition's specific tiers, treatment and breaking-point rules where stated. Replace the core #emph[Dying] clock only if its rule explicitly supplies an alternative death or stabilisation procedure; different condition tiers alone do not replace it. A condition with its own tiers but no death procedure still uses the core #emph[Dying] clock when it reaches a lethal tier 6. Never run a second death deadline alongside it.
 
 #strong[After a death.] Resolve the death and its established consequences. The group may remember the character through Beliefs, relationships, keepsakes or later story developments; death creates no separate points or automatic Truth.
 
-=== 6.8 Permanent Harm
-#strong[Where it comes from.] An injury doesn't become permanent just because its tier is high. Permanent harm needs an established permanent-injury stake, a specific effect or creature rule, a voluntary bargain, or a Scar-giving event. Reaching tier 6 gives a Scar (§6.3), not a permanent loss.
+=== 6.8 Permanent Harm <core-permanent-harm>
+#strong[Where it comes from.] An injury doesn't become permanent just because its tier is high. Permanent harm needs an established permanent-injury stake, a specific effect or creature rule, a voluntary bargain, or a Scar-giving event. Reaching tier 6 gives a Scar (@core-tier-6-scars), not a permanent loss.
 
-#strong[The wound heals; the loss stays.] A permanent change can outlast the injury that caused it. When #emph[severed hand-4] has healed, the hand is still gone: the status measured the acute
+#strong[The wound heals; the loss stays.] A permanent change can outlast the injury that caused it. When #emph[severed hand −4] has healed, the hand is still gone: the status measured the acute
 wound. Record the lasting change as a tag or a character fact, not as a status that never heals.
 
-#strong[Adapting.] Training, help, prostheses, old-world works or supernatural intervention can change how permanent harm affects play. A replacement doesn't automatically remove a related Scar, and a Scar doesn't make a replacement useless. Don't reduce maximum pools, Edge, skills or Refresh unless the effect or an agreed Advance says so.
+#strong[Adapting.] Training, help, prostheses, advanced technology or supernatural intervention can change how permanent harm affects play. A replacement doesn't automatically remove a related Scar, and a Scar doesn't make a replacement useless. Don't reduce maximum pools, Edge, skills or Refresh unless the effect or an agreed Advance says so.

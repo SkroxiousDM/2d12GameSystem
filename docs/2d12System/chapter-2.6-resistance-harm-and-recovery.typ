@@ -1,10 +1,10 @@
 #import "common.typ": *
 
-== 6. Resistance, Harm and Recovery
+== 6. Resistance, Harm and Recovery <core-resistance-harm-recovery>
   #columns(2, gutter: 6mm)[
 When an imposed consequence lands on you (a status, lost gear, a bad position), you may #strong[Resist], subject to the exclusions below:
 
-+ Choose the pool that fits (see §3.2: Sōma for harm, Mētis to dodge, Psychē against deception and confusion, Pneuma against fear and the supernatural).
++ Choose the pool that fits (see @core-pools-edge: Sōma for harm, Mētis to dodge, Psychē against deception and confusion, Pneuma against fear and the supernatural).
 + Roll a number of d12s equal to #strong[2 + that pool\'s Edge] and read only the #strong[highest die];. If penalties take the pool's Edge below 0, see #strong[Negative Edge] below.
 + Pay the listed cost in pool points. #strong[Don\'t subtract Edge] from it; Edge has already helped by adding dice. If #strong[two or more dice show 12];, pay 0 and clear one tier-1 status:
 
@@ -48,22 +48,22 @@ The chance columns show Edge 0 to 3 (2d to 5d). A single 12 is simply a highest 
 #strong[Ability thresholds.] Your #strong[Resistance result] is the die you read: the highest die, or the single die at negative Edge. A threshold such as \"on a Resistance result of 5+\" checks it and grants only the benefit it names. A cost made 0 by an ability doesn't also clear a tier-1 status; only the double-12 result does that.
 
 #strong[Imposed harm, in order.] When an effect imposes a harmful status:
-+ The GM names the status, its source and its incoming tier, and says whether it stacks with a status you already have (§5.1).
-+ If you Resist, add any armour that applies (Generic Playbooks §2.3) and pay the cost. A cost you can't fully pay makes you run dry (§6.1).
++ The GM names the status, its source and its incoming tier, and says whether it stacks with a status you already have (@core-personal-statuses).
++ If you Resist, add any armour that applies (Generic Playbooks @pb-armour-shields) and pay the cost. A cost you can't fully pay makes you run dry (@core-running-dry).
 + Record what is left with normal stacking. A status reduced to tier 0 isn't recorded.
 
 #strong[Once per application.] Resist each application of harm once. You can't make a second attempt against the same harm.
 
 #strong[What Resistance can't touch.] Resistance changes an imposed consequence. It doesn't reverse the action's success, restore lost Disposition or revoke an agreed outcome. You can't Resist:
-- ordinary Disposition loss in a conflict (§10.6);
-- an injury you accepted to cancel Disposition loss (§10.11);
-- a cost you accepted in a concession (§10.12), or any other cost you accepted as payment for a benefit;
-- a running-dry status (§6.2).
+- ordinary Disposition loss in a conflict (@core-actions-effects);
+- an injury you accepted to cancel Disposition loss (@core-accepting-injury);
+- a cost you accepted in a concession (@core-defeat-mutual-defeat-concession), or any other cost you accepted as payment for a benefit;
+- a running-dry status (@core-running-dry-statuses).
 
-#strong[Protected payments.] Only an exception that names the protected payment or Disposition effect can change it; generic wording such as \"cancel harm\" isn't enough. The same applies to prevention, redirection, immunity and incidental clearing, including the double-12 result above, whichever action produced it (§10.7). Treatment and healing still work on a recorded status (§6.6) but don't refund what it paid for. Compromise statuses imposed under §10.13 can still be Resisted; that doesn't revoke the concession, and removing the injury creates no replacement cost.
+#strong[Protected payments.] You can't Resist a protected payment (@core-costs-failures-complications). Treatment and healing still work on a recorded status (@core-treatment-healing). Compromise statuses imposed under @core-compromise aren't protected payments. You can Resist them, but that doesn't revoke the concession, and removing the injury creates no replacement cost.
 
-=== 6.1 Running Dry
-#strong[Trigger.] You #strong[run dry] when a positive cost brings a pool to 0 or is more than the points left in it. Finish the action or Resistance that caused the cost, then take a harmful #strong[running-dry status] for that pool (§6.2). Running dry does not, on its own, take you out, give you a Scar or refill the pool.
+=== 6.1 Running Dry <core-running-dry>
+#strong[Trigger.] You #strong[run dry] when a positive cost brings a pool to 0 or is more than the points left in it. Finish the action or Resistance that caused the cost, then take a harmful #strong[running-dry status] for that pool (@core-running-dry-statuses). Running dry does not, on its own, take you out, give you a Scar or refill the pool.
 
 #strong[Overrun.] Work out the final cost after Edge (for Effort), Tychē and every other permitted reduction, then compare it with the points left in the pool:
 
@@ -92,15 +92,13 @@ Overrun beyond tier 6 has no extra effect unless a rule or an established stake 
 
 #strong[Which costs can overrun.] Only #strong[Resistance] and costs #strong[imposed] on you. Effort, Help and ability activation costs must be paid in full unless the ability says it can overrun. You may spend your exact last points on purpose: the pool runs dry and you take a tier-1 status. A cost you accept as payment for a benefit is not an imposed cost.
 
-#strong[Pay as you go.] Pay each cost at the point its rule says, and resolve any running dry straight away. If that status takes you out, finish only the action or Resistance whose cost caused it: you can't add more Effort, buy more Power or activate more abilities for that action. The action still resolves. If it is one of two independent actions in a volley, both resolve before victory is checked (§10.12).
+#strong[Pay as you go.] Pay each cost at the point its rule says, and resolve any running dry straight away. If that status takes you out, finish only the action or Resistance whose cost caused it: you can't add more Effort, buy more Power or activate more abilities for that action. The action still resolves. If it is one of two independent actions in a volley, both resolve before victory is checked (@core-defeat-mutual-defeat-concession).
 
 #strong[Separate costs stay separate.] Each cost listed separately is its own payment. You can't split one cost into smaller payments, or combine separate costs, to change overrun or stacking. When one effect takes several points from the same pool at once, total them as one imposed cost unless the effect says otherwise. Costs from different pools are resolved separately.
 
-#strong[Resisting on empty.] You can Resist with a low or empty pool unless your condition prevents it (§6.4), and the Resistance still takes effect. Resolve protection, the Resistance and the original consequence first, then apply the running-dry status. The new status doesn't penalise that Resistance roll or undo its result.
+#strong[Resisting on empty.] You can Resist with a low or empty pool unless your condition prevents it (@core-being-taken-out), and the Resistance still takes effect. Resolve protection, the Resistance and the original consequence first, then apply the running-dry status. The new status doesn't penalise that Resistance roll or undo its result.
 
-#strong[Zero costs.] A final cost of 0 never makes you run dry, even if the pool is already empty. Being at 0 isn't an event in itself: you don't take a new status because time passes, a new turn begins, or you take an action that costs nothing. A later positive Resistance cost or imposed cost can make you run dry again.
-
-#strong[Empty pools.] An empty pool has no penalty of its own. It doesn't remove Disposition or take you out; its running-dry status does that work. You can keep acting with other resources or with actions that cost nothing. The pool stays at 0 until rest restores it (§6.5). There is no automatic refill.
+#strong[Zero costs and empty pools.] A final cost of 0 never makes you run dry, even from an empty pool. Being at 0 isn't an event in itself: time passing, a new turn or an action that costs nothing adds no status. An empty pool has no penalty of its own; its running-dry status does that work. You can keep acting with other resources or with actions that cost nothing, and the pool stays at 0 until rest restores it (@core-rest-recovery).
 
 #strong[NPCs.] Ordinary NPCs don't have pools and never run dry. Spending Woe on an NPC creates no status, and Woe can't be overrun: if the GM can't pay an ability's Woe cost, the NPC can't use that ability. An NPC built with full PC pools runs dry normally.
 
@@ -109,11 +107,11 @@ Overrun beyond tier 6 has no extra effect unless a rule or an established stake 
 + Pay each cost when its rule says.
 + If the cost empties or overruns the pool, work out the overrun.
 + Impose that pool's running-dry status at tier 1 + overrun.
-+ Stack it with the same status if you already have it (§5.1).
-+ At tier 6, apply the status's scope, then record one Scar (§6.3).
-+ Recover the pool and the status separately (§6.5).
++ Stack it with the same status if you already have it (@core-personal-statuses).
++ At tier 6, apply the status's scope, then record one Scar (@core-tier-6-scars).
++ Recover the pool and the status separately (@core-rest-recovery).
 ]
-=== 6.2 Running-Dry Statuses
+=== 6.2 Running-Dry Statuses <core-running-dry-statuses>
 The status must fit both the pool and the action that drained it:
 
 #figure(
@@ -130,24 +128,24 @@ The status must fit both the pool and the action that drained it:
   , kind: table
   )
 
-#strong[Set it up once.] When you first record the status, set its name and scope. Its recovery category is Depletion unless the source makes it an Injury or Affliction (§6.5). The name decides which rolls it hinders.
+#strong[Set it up once.] When you first record the status, set its name and scope. Its recovery category is Depletion unless the source makes it an Injury or Affliction (@core-rest-recovery). The name decides which rolls it hinders.
 
-#strong[One status per pool.] The first time a pool runs dry, that status becomes the pool's depletion status for the rest of the continuous ordeal. Write the pool beside it. Running dry in that pool again worsens the same status, unless a genuinely different cause calls for a different consequence. A new name or description is not a different cause. Each running-dry event worsens only one status.
+#strong[One status per pool.] The first time a pool runs dry, that status becomes the pool's depletion status for the rest of the continuous ordeal. Write the pool beside it. Running dry in that pool again adds to the same track, unless a genuinely different cause calls for a different consequence. A new name or description is not a different cause. Each running-dry event applies to only one status; filling a lower empty box needn't raise its current tier.
 
-#strong[Example.] You have #emph[mentally exhausted-2] and overrun Psychē by 2. The incoming status is tier 3, one above the higher tier is 4, so you now have #emph[mentally exhausted-4].
+#strong[Example.] You have #emph[mentally exhausted −2], with only box 2 marked, and overrun Psychē by 2. The incoming status is tier 3: mark box 3, giving #emph[mentally exhausted −3]. Another incoming tier 3 would find box 3 occupied and mark box 4 instead, giving #emph[mentally exhausted −4]. Keep the earlier marks.
 
-#strong[It is a cost.] A running-dry status is a protected payment: armour, Resistance and cancelling effects can't prevent or reduce it, and a clearing benefit from the same Resistance or action can't clear it. Once recorded, it can be treated, Restored or healed like any other status.
+#strong[It is a cost.] A running-dry status is a protected payment (@core-costs-failures-complications). Once recorded, it can be treated, Restored or healed like any other status.
 
-=== 6.3 Tier 6 and Scars
+=== 6.3 Tier 6 and Scars <core-tier-6-scars>
 When a harmful status reaches #strong[tier 6], whether in one hit or through stacking, apply this general procedure unless a specific rule expressly replaces its breaking-point outcome:
 
-+ Resolve its tier-6 outcome (§5.1).
++ Resolve its tier-6 outcome (@core-personal-statuses).
 + Apply removal within the status's scope (below).
 + Record #strong[one Scar], subject to the limits below.
 
-#strong[Specific replacements.] Some creature tracks and setting conditions state their own breaking-point outcome; use it only where stated (§10.14). In Testament of Dust, Sun-Sick and Thirst replace the Scar with their own consequences, while Bled keeps it. The Scar limits below still apply.
+#strong[Specific replacements.] Some creature tracks and setting conditions state their own breaking-point outcome; use it only where stated (@core-npcs-harm). A setting condition that replaces the Scar says so; one that doesn't keeps it. The Scar limits below still apply.
 
-#strong[Scope.] If the status leaves you unable to pursue your side's intent, you are #strong[Taken Out] (§6.4). If it stops only one activity (#emph[bound] stops you moving, not talking), apply that restriction and stay in the conflict. Set a non-damage status's scope when it is inflicted, and don't widen it at tier 6. Either way, the general procedure still gives its Scar.
+#strong[Scope.] If the status leaves you unable to pursue your side's intent, you are #strong[Taken Out] (@core-being-taken-out). If it stops only one activity (#emph[bound] stops you moving, not talking), apply that restriction and stay in the conflict. Set a non-damage status's scope when it is inflicted, and don't widen it at tier 6. Either way, the general procedure still gives its Scar.
 
 #strong[Not lethal by default.] A running-dry status at tier 6 is not deadly on its own. Death needs a lethal cause and established stakes. Tier 6 doesn't, by itself, cost you a limb, lower a maximum pool or impose any other permanent loss; those need an established consequence, a specific effect or an agreement.
 
@@ -172,14 +170,14 @@ When a harmful status reaches #strong[tier 6], whether in one hit or through sta
 // PLAYTEST: one Scar per scene replaces the per-episode, per-event and Scar Recorded limits. Test long ordeals that span several scenes.
 #strong[Scar limit.] A character gains at most #strong[one Scar per scene], and a status that stays at tier 6 gives no further Scar. Only an ability that says so can give more. Don't split one condition into several differently named statuses to gain or avoid Scars.
 
-#strong[Scar effects.] A Scar is a lasting weakness tag, not a status. Apply it when it's relevant, and it can be compelled for Tychē Points. Rest, treatment, Restore and pool recovery don't remove a Scar; changing one takes an Advance, a milestone or an explicit ability. If a Scar and a harmful status describe the same impairment on the same roll, apply only the larger penalty. Your #strong[fourth Scar] retires the character from ordinary adventuring. Finish the immediate scene, then decide with the player how the character leaves. Retirement doesn't mean death.
+#strong[Scar effects.] A Scar is a lasting tag, not a status. It supplies no Power and adds nothing to the roll; when it's relevant, it can be compelled for Tychē Points. Rest, treatment, Restore and pool recovery don't remove a Scar; changing one takes an Advance, a milestone or an explicit ability. Your #strong[fourth Scar] retires the character from ordinary adventuring. Finish the immediate scene, then decide with the player how the character leaves. Retirement doesn't mean death.
 
-=== 6.4 Being Taken Out
-#strong[Ways out.] You are #strong[Taken Out] of a conflict when a harmful status reaches tier 6 within its scope (§6.3), when an effect says so, when you voluntarily withdraw, or when an established circumstance prevents you from pursuing your side's objective (§10.9). Ordinary Disposition loss never takes an individual out. Once you are out, you can't start another action, spend Effort or activate an ability unless its rules let you act while Taken Out.
+=== 6.4 Being Taken Out <core-being-taken-out>
+#strong[Ways out.] You are #strong[Taken Out] of a conflict when a harmful status reaches tier 6 within its scope (@core-tier-6-scars), when an effect says so, when you voluntarily withdraw, or when an established circumstance prevents you from pursuing your side's objective (@core-shared-disposition-participation). Ordinary Disposition loss never takes an individual out. Once you are out, you can't start another action, spend Effort or activate an ability unless its rules let you act while Taken Out.
 
-#strong[Disposition stays with the side.] Being Taken Out doesn't directly change your side's shared Disposition. Your side loses your skills, abilities and help, and if none of its participants can continue pursuing its objective, it loses after independent actions finish (§10.9, §10.12).
+#strong[Disposition stays with the side.] Being Taken Out doesn't directly change your side's shared Disposition. Your side loses your skills, abilities and help, and if none of its participants can continue pursuing its objective, it loses after independent actions finish (@core-shared-disposition-participation, @core-defeat-mutual-defeat-concession).
 
-#strong[Out isn't down.] Being Taken Out doesn't, on its own, make you unconscious, injured or dying. Describe it to fit the fiction: pinned down, disarmed, driven back, cut off, or too frightened to go on. Injury needs a status, death needs established lethal stakes (§6.7), and permanent harm needs an established consequence (§6.8).
+#strong[Out isn't down.] Being Taken Out doesn't, on its own, make you unconscious, injured or dying. Describe it to fit the fiction: pinned down, disarmed, driven back, cut off, or too frightened to go on. Injury needs a status, death needs established lethal stakes (@core-dying-stabilisation), and permanent harm needs an established consequence (@core-permanent-harm).
 
 #strong[Resisting while out.] Being Taken Out doesn't automatically stop you Resisting, but the Resistance must be something you can still do. You can brace against pain while pinned down, but you can't dodge while fully #emph[bound], or use an act of will while unconscious. When a status first takes you out, finish any Resistance already under way. Once a conflict is settled, you can only Resist the consequences that were left open to it; you can't use Resistance to reopen the intent or delay settlement.
 

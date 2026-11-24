@@ -1,10 +1,10 @@
 #import "common.typ": *
 
-== Module C --- Truth-Driven Sandbox (2d20)
+== Module C --- Truth-Driven Sandbox
 #columns(2, gutter: 4mm)[
 Truths become the backbone of an open-world campaign: regions, sites, and factions are defined by Truths that players can discover, exploit, and change.
 
-=== C.1 Truth Layers
+=== C.1 Truth Layers <mod-truth-layers>
 #figure(
   [#table(
     columns: (20%, 50%, 30%),
@@ -19,9 +19,9 @@ Truths become the backbone of an open-world campaign: regions, sites, and factio
   , kind: table
   )
 
-Record scope and ending condition as usual (Core Rules §8.3). A Truth's layer is its scale: it sets its reach and how long it lasts, not a modifier. When a lasting circumstance should also help or hinder rolls, record it as a Situational Condition at the same layer (#emph[Martial law] --- Situational Condition 2 --- hinders movement and gatherings across the region --- ends when the governor lifts it; Core Rules §5.2).
+Record scope and ending condition as usual (Core Rules @core-establishing-recording). A Truth's layer is its scale: it sets its reach and how long it lasts, not a modifier. When a lasting circumstance should also help or hinder rolls, record it as a Situational Condition at the same layer (#emph[martial law] --- Situational Condition 2 --- hinders movement and gatherings across the region --- ends when the governor lifts it; Core Rules @core-situational-conditions).
 
-=== C.2 Site Sheets
+=== C.2 Site Sheets <mod-site-sheets>
 Each location gets a short sheet:
 
 - #strong[3 Truths] (at least one hidden; at most one also carries a Situational Condition)
@@ -30,9 +30,9 @@ Each location gets a short sheet:
 - #strong[A secret] (something worth discovering)
 - #strong[Rumours] (see C.4)
 
-Give the danger clock a real trigger or deadline. It doesn't tick on every failed conflict action (Core Rules §7, §10.7).
+Give the danger clock a real trigger or deadline. It doesn't tick on every failed conflict action (Core Rules @core-progress-clocks, @core-costs-failures-complications).
 
-=== C.3 Truth Generator Tables (d12)
+=== C.3 Truth Generator Tables (d12) <mod-truth-generator-tables>
 Roll once per column or pick.
 
 #figure(
@@ -57,7 +57,7 @@ Roll once per column or pick.
   , kind: table
   )
 
-=== C.4 Rumours
+=== C.4 Rumours <mod-rumours>
 A #strong[rumour] is an unconfirmed claim, not yet an established Truth. When players test it through Discover, investigation or arriving, the GM rolls d12 to determine what is actually true:
 
 #figure(
@@ -75,26 +75,27 @@ A #strong[rumour] is an unconfirmed claim, not yet an established Truth. When pl
 
 Use the table only for an unsettled rumour, never to overturn something already established. Record what's actually true, including how it differs from the claim. Discovering a hidden Truth reveals it; it doesn't create the fact you wanted.
 
-=== C.5 Faction Turns
+=== C.5 Faction Turns <mod-faction-turns>
 #strong[With Module E,] use its World Turn (E.10) instead of this section, after the stay's endeavours if Module D is in use (D.7). The rest of Module C still applies.
 
 Without Module E, between sessions (or each in-world week), the GM takes a #strong[World Turn];:
 
 + Each active faction rolls #strong[2d12 + its rating (+1 to +4)] vs. Standard 15 for its current project.
++ Resolve it with the core outcomes (Core Rules @core-outcomes). Each #strong[asset tag] that materially supports the project supplies #strong[+1 Power], maximum +2, and adds nothing to the roll; a Success at a Cost gives only that Tag Power.
 + Power ticks the faction\'s #strong[project clock] (sized by the change it makes, below).
 + When a clock fills, the faction #strong[creates, removes, or changes the appropriate Site or Region Truth] (e.g. #emph[The Guild controls the river] replaces #emph[The river is free];). Campaign Truths still require a major arc, not an ordinary completed clock.
 + PCs who hear about it can respond; PC actions can tick faction clocks forward or back using Advance.
 
-A faction project changes a Site Truth with an 8-segment clock and a Region Truth with a 12-segment clock. A Campaign Truth changes only through a major arc (C.6).
+A faction project changes a Site Truth with a 12-segment clock and a Region Truth with a 16-segment clock. A Campaign Truth changes only through a major arc (C.6). As a guide, a +2 faction fills a Site Truth clock in about 12 World Turns with no relevant asset tag, 7 with one and 5 with two.
 
-=== C.6 Player Influence on Truths
+=== C.6 Player Influence on Truths <mod-player-influence-truths>
 - #strong[Discover] effects and Weal spends reveal hidden Truths.
-- #strong[Create] effects and 2 Weal create Scene Truths; bigger changes need a progress clock (8 segments for a Site Truth, 12 for a Region Truth).
+- #strong[Create] effects and 2 Weal create Scene Truths; bigger changes need a progress clock (12 segments for a Site Truth, 16 for a Region Truth).
 - Major arcs can rewrite Campaign Truths. These are the \"legacy\" moments of the campaign.
 
-Create costs 2 Power for a scene Truth or 2 per Situational Condition rating (Core Rules §5); 2 Weal buys a scene Truth, never a rating (Core Rules §9). A Scene Truth can't stand in for a Site or Region change.
+Create costs 2 Power for a scene Truth or 2 per Situational Condition rating (Core Rules @core-effects); 2 Weal buys a scene Truth, never a rating (Core Rules @core-weal-woe). A Scene Truth can't stand in for a Site or Region change.
 
-#strong[In a conflict,] Discover, Advance and other off-menu Effects need a permitted action or explicit exception (Core Rules §10.6). Winning achieves the conflict's stated intent, not every related project clock. A Truth can set up a scenery feature, but using it takes a scenery Maneuver (Core Rules §10.8). Preparation counts toward Superiority only under Core Rules §10.3.
+#strong[In a conflict,] Discover, Advance and other off-menu Effects need a permitted action or explicit exception (Core Rules @core-actions-effects). Winning achieves the conflict's stated intent, not every related project clock. A Truth can set up a scenery feature, but using it takes a scenery Maneuver (Core Rules @core-scenery-maneuvers). Preparation counts toward Superiority only under Core Rules @core-superiority.
 
 #include "chapter-3-module-c.7-entanglements.typ"
 ]

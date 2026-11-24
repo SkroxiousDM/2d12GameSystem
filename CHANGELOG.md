@@ -6,6 +6,95 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Fixed — Clean Getaway's free question is situational only (2026-11-22)
+
+- Always Has an Escape Plan, Clean Getaway: the free Discover question covers the pursuers' route, method, or a present opening in the pursuit, and never reveals a weakness tag. A useful opening can be recorded as a Truth.
+- Rebuilt core rulebook PDF.
+
+### Changed — Bane applies once per scene (2026-11-22)
+
+- Hunts the Things in the Dark, Bane: the extra Disposition or status tier now applies once per scene, to the first successful exploiting Attack. The weakness's own +1 Power applies as normal, and the free extra Discover rider is unchanged. Offsets weaknesses now supplying Power outside the tag cap.
+- Rebuilt core rulebook PDF.
+
+### Changed — Adversaries: Discovered weaknesses supply Power (2026-11-22)
+
+- A Discovered weakness supplies +1 Power to a PC action that exploits it, outside the +2 Tag Power cap and on the same outcomes as Tag Power. Each exploited weakness adds +1. It lasts while the PCs know it and the fiction hasn't changed.
+- Rebuilt core rulebook PDF.
+
+### Changed — Adversaries: flat Tag Power and ratings without tags (2026-11-22)
+
+- Adversary ratings no longer include tags: every Rank's Best / Fair / Weak drops by 2, and all eight template cards are updated. The starting-PC benchmark is now +4 (top skill), so versus odds are unchanged.
+- Adversaries have a flat Tag Power of 1 wherever the core adds Tag Power: a win gives 2 Power plus margin, Success at a Cost gives 1.
+- Suppressing a power tag removes that Tag Power for the scene on actions the tag explained (or switches off the Special it powers).
+- A Discovered weakness no longer gives +1 on the roll (see the next entry for its replacement).
+- Passive opposition is now 14 + rating, keeping the same Difficulties.
+- Rebuilt core rulebook PDF.
+
+### Changed — Module C: faction assets are asset tags (2026-11-21)
+
+- C.8: a faction's obvious and less obvious assets are written as asset tags; together they still set its rating.
+- C.5: World Turns use the core outcomes. Each relevant asset tag supplies +1 Power (max +2) and adds nothing to the roll; Success at a Cost gives only Tag Power. Adds a pacing guide for the 12- and 16-segment clocks.
+- Rebuilt core rulebook PDF.
+
+### Fixed — Weird Focus scope references use scope names (2026-11-21)
+
+- Made a Bargain With Something Old: Patron's Gift permits Minor and Significant scope, Greater Gift permits up to Spectacular, and Ally Beyond grants a World-shaking favour, matching the Adept scope table instead of Difficulty names. Scope reach is unchanged.
+- Rebuilt core rulebook PDF.
+
+### Changed — Adept Ritual feeds Site and Region Truth clocks (2026-11-21)
+
+- Ritual no longer creates Site or Region Truths by itself. For a lasting change, ritual Power buys Advance on that Truth's C.6 clock (12 segments for a Site, 16 for a Region).
+- Ritual clock sizes now use the scope names: 4 for Dramatic or lower, 8 for Spectacular, 12 for World-shaking. Ascendant and Borrowed Might (Weird Focus) likewise say World-shaking instead of Heroic-scope.
+- Rebuilt core rulebook PDF.
+
+### Changed — Module E: requests succeed with strings on Success at a Cost (2026-11-21)
+
+- E.5: Success at a Cost secures the agreed help whatever the Power, as a stated exception to the core rule that unbought Effects don't happen. Instead of the consequence-or-Woe choice, the faction attaches one string: a favour owed (E.7), a delay that matters, or −1 Standing. Tag Power or Effort can still buy extras.
+- Rebuilt core rulebook PDF.
+
+### Added — Module E: lending an asset tag to a PC roll (2026-11-21)
+
+- E.6: at Standing +2 or better, a faction can commit one relevant asset tag to a PC roll it actually supports. It supplies +1 Power, counts toward the PC's +2 Tag Power maximum, and adds nothing to the roll. One lent tag per roll; it can't be combined with other support for the same contribution.
+- E.2 and the E.14 table reference updated to match.
+- Rebuilt core rulebook PDF.
+
+### Changed — Site and Region Truth clocks enlarged to 12 and 16 segments (2026-11-21)
+
+- Site Truth changes now take 12-segment clocks and Region Truth changes 16, for factions and PCs alike (C.5, C.6, C.7, D.5, E.1a, E.2, E.10). Offsets faster pacing from faction asset-tag Power.
+- E.10 clock table gains a 16-segment tier; 8 segments now covers complex undertakings that create no lasting Truth.
+- Reed Quay ferry-rights project is now 12 segments; the starting-cluster pacing table shows turns to fill 12 and 16.
+- Core §2.7 notes the 16-segment Region Truth clock as a prescribed size.
+- Rebuilt core rulebook PDF.
+
+### Changed — Module E: faction asset tags and Tag Power (2026-11-21)
+
+- Faction assets are now asset tags: each relevant tag supplies +1 Power (max +2) to the faction's own rolls and adds nothing to the roll (E.1, E.2, E.14).
+- World Turn outcomes follow the core: Success gives Tag Power + 1 (+1 per full 3 over), Success at a Cost gives Tag Power + 0 plus a setback, Failure gives no Power; obstruction Power includes Tag Power (E.10).
+- PC requests (E.5): help is a bought Effect with its price agreed before rolling; it is secured only if Power covers the price.
+- Reed Quay example gains asset tags and a recomputed World Turn; starting-cluster pacing table recomputed for 0, 1 and 2 tags.
+- Rebuilt core rulebook PDF.
+
+### Changed — Tag Power, tracked outcomes and contextual tags (2026-11-21)
+
+- Core Rules §2.1: declare the goal and agree its Effect requirement before rolling. Tags no longer modify the roll; Skill, statuses, Situational Conditions and named fixed modifiers do.
+- Core Rules §2.5 and §5: each relevant tag supplies +1 Power (max +2 per action). Success gives Tag Power + 1 (+1 per full 3 over); Success at a Cost gives Tag Power + 0; Failure gives no Power. Purchased Effects are the action's result: success doesn't grant the declared goal by itself, and a consequence can't cancel an Effect already bought.
+- Core Rules §3.4, §4, Descriptors, Focuses, Playbooks: power and weakness tags merge into single contextual tags that can supply Power or be compelled. Descriptors give 2 tags, Focuses 3. Refusing a compel still costs 1 Tychē. Burning is unchanged.
+- Core Rules §6 Scars: a Scar is a lasting tag that supplies no Power and adds no roll penalty; it can still be compelled.
+- Core Rules §10.5, §10.7, §10.10: versus winners add Tag Power; independent Success at a Cost gains Tag Power + 0; action tags such as +1 Attack supply 1 Tag Power to the named action.
+- Example of play, Quick Reference, generic character sheet, Modules A, B, C.7, D and F, Advancement and Design Notes updated to match. Module B Checks use a self-imposed −1 fixed modifier justified by a tag or Scar.
+- Not changed in this pass: adversary tags and their Discover and compel rules, Module E's World Turn outcomes, and the Testament of Dust setting book.
+
+### Changed — Core pass 6: simplicity, flow and dynamic references (2026-11-20)
+
+- Whole core book: editorial pass for simplicity and flow. Truths are Title Case and Situational Conditions lower-case italics; the visible playtest marker is "(Playtest Value)"; references read "Core Rules §"; contractions in §10 and the Adversaries chapter.
+- Repeated rules now have one home: ★/Capstone/Veteran (Generic Playbooks §1.2, Core Rules §12.2), protected payments (§10.7), Running Dry (§6.1), NPC pools (§10.14). §10.15 Order of Resolution is grouped into Setup, Each Volley and Ending.
+- Adversaries: new §7 Special Rulings (old §§6.10--6.24); Templates is §8, Boss Phases §9, Quick Checklist §10. §6.3 lists differences from the core. Testament of Dust references updated.
+- Typst dynamic references: numbered headings carry labels and 557 § references use `@label`. A `show ref` rule in `common.typ` renders them; `web/build_html.py` resolves them to links (6 new tests). `CONTRIBUTING.md` explains the convention.
+- Optional Modules: source credits move from headings to a Sources paragraph in Combining Modules; D.6a becomes D.7 and D.7 becomes D.8. The credits page adds Situations for Tabletop Roleplaying and corrects :Otherscape.
+- Terms: "finishing procedure" throughout the core book; Weaken's cost cell names each price; Module B's Sick clears with Medicine vs. Hard 18.
+- PLAYTEST rulings: milestones and major milestones are defined in §12, and Module D's project milestones become clock stages; "refused compels" leaves the §9.2 Woe list (the §2.4 Tychē cost stands); a Woe-bought die costs 1 Woe for the first and 2 for the second (§2.4, Quick Reference, character sheets); §2.1 says fixed modifiers such as Impede −3 and _sick_ −1 apply outside the two slots; Grind conditions become Grind hardships in the core book.
+- Review notes: `docs/design/Rules Audit/simplicity-flow/core-rules-pass6-notes.md`.
+
 ### Changed — Truths and Conditions review decisions (2026-11-20)
 
 - Core Rules §5, §10.6 and the Quick Reference: Create buys a Situational Condition at 2 Power per rating (was 1), and Weaken reduces one at 2 Power per rating. Weaken on a status tier or tag Suppress stays at 1 Power.

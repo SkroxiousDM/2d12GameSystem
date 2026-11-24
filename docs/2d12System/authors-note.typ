@@ -1,7 +1,6 @@
 #import "common.typ": *
 
-#pagebreak()
-#text(font: display-font, size: 24pt, fill: blood, weight: 700)[Author’s note]
+#chapter("Author’s note", [], numbered: false)
 
 Why d12? It’s the only Platonic solid with pentagonal faces. Plato associated the dodecahedron with the cosmos, which I think is fitting for something used to create worlds.
 

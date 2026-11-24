@@ -137,7 +137,39 @@ An action generates 3 Power and requires 2 to achieve its goal. It triggers a ma
 
 The player could purchase additional Power under normal Effort rules to mitigate further before Resistance. Cancelling one complication would not cancel a separate Risky complication.
 
-## 9. Scripted conflicts: settled versus procedure and limits
+## 9. Scripted conflicts: settled action procedures and limits
+
+### Independent actions
+
+Keep the existing action-interaction matrix. Attack versus Attack, Defend versus Defend, and Maneuver versus Maneuver are independent. Against Feint, Attack rolls independently and Feint is trumped. Against Defend, Feint rolls independently and Defend is trumped.
+
+Resolve each independent action against Difficulty 15, adjusted by explicit Difficulty modifiers such as adversary Guard, using the normal six-outcome procedure. Skill, statuses, and Situational Conditions modify the total; tags supply Power. Determine each action's outcome and Power separately. Do not compare the actors' totals.
+
+Apply the scripted-conflict limits on complications and Power reservation. A failed action generates no Power; a successful action generates normal success Power, including the critical bonus when applicable. The old miss-by-1–3 Success-at-a-Cost band and old doubles exceptions do not apply.
+
+#### Complete both independent actions
+
+Complete both independent actions before checking defeat or mutual defeat, even if one defeats a side or takes its actor out. Neither action's normal result nor a comparison-based complication cancels the other independent action. Preserve explicit exceptions and their stated timing.
+
+Power mitigation addresses the actor's eligible triggered complication, not the opponent's ordinary purchased Disposition effect.
+
+### Trumped actions
+
+A trumped action makes no action roll, generates no Power, and produces no normal action Effect. Do not assign it Failure with a Benefit, Failure with Complication, or Critical Failure.
+
+Do not roll its Complication die or optional Risky die. A separate hazard or explicit consequence may still apply if its own trigger occurs; trumping alone does not trigger it.
+
+Trumping grants no free replacement action or actor reassignment. Costs already paid remain spent; do not pay a cost whose payment trigger never occurs.
+
+Pending Impede and Gain Position expire on the affected side's next scripted action, unused if that action is trumped or otherwise makes no roll. Neither transfers to a Resistance roll.
+
+### Failure Woe in Scripted Conflicts
+
+Failed independent actions do not automatically generate Woe. Resolve the applicable failure outcome normally.
+
+Losing a versus test, tying, or being trumped likewise generates no automatic failure Woe.
+
+Woe buyoffs and other explicitly triggered Woe gains remain unchanged. Failure alone is not an additional Woe trigger. Accepting, mitigating, or Resisting a complication does not award replacement Woe.
 
 ### Versus tests
 
@@ -274,7 +306,7 @@ Do not publish the fixed-Difficulty success or six-outcome tables as versus-test
 ## Remaining integration work, not reopened decisions
 
 - Apply this replacement to core resolution, Effort, Resistance, Woe, quick references, examples, and affected abilities.
-- Integrate the settled versus procedure, conflict-complication restrictions, and Power-reservation rule in section 9; audit NPCs, remaining scripted-conflict interactions, automatic successes, and dice-manipulating abilities for compatibility without inventing overrides.
+- Integrate the settled independent, trumped, and versus procedures, removal of automatic failure Woe, conflict-complication restrictions, and Power-reservation rule in section 9; audit NPCs, automatic successes, and dice-manipulating abilities for compatibility without inventing overrides.
 - Preserve unrelated rules unless a coordinated compatibility change is explicitly approved.
 - Probability verification is complete for the tables documented in section 10. During coordinated integration, replace the published obsolete keep-best-two odds and worked example with that verified reference; the published core table is unchanged by this draft update.
 - Check cross-references and compile the affected rulebook after the coordinated integration.

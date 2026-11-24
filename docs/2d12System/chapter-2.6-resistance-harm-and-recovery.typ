@@ -130,9 +130,9 @@ The status must fit both the pool and the action that drained it:
 
 #strong[Set it up once.] When you first record the status, set its name and scope. Its recovery category is Depletion unless the source makes it an Injury or Affliction (@core-rest-recovery). The name decides which rolls it hinders.
 
-#strong[One status per pool.] The first time a pool runs dry, that status becomes the pool's depletion status for the rest of the continuous ordeal. Write the pool beside it. Running dry in that pool again worsens the same status, unless a genuinely different cause calls for a different consequence. A new name or description is not a different cause. Each running-dry event worsens only one status.
+#strong[One status per pool.] The first time a pool runs dry, that status becomes the pool's depletion status for the rest of the continuous ordeal. Write the pool beside it. Running dry in that pool again adds to the same track, unless a genuinely different cause calls for a different consequence. A new name or description is not a different cause. Each running-dry event applies to only one status; filling a lower empty box needn't raise its current tier.
 
-#strong[Example.] You have #emph[mentally exhausted −2] and overrun Psychē by 2. The incoming status is tier 3, one above the higher tier is 4, so you now have #emph[mentally exhausted −4].
+#strong[Example.] You have #emph[mentally exhausted −2], with only box 2 marked, and overrun Psychē by 2. The incoming status is tier 3: mark box 3, giving #emph[mentally exhausted −3]. Another incoming tier 3 would find box 3 occupied and mark box 4 instead, giving #emph[mentally exhausted −4]. Keep the earlier marks.
 
 #strong[It is a cost.] A running-dry status is a protected payment (@core-costs-failures-complications). Once recorded, it can be treated, Restored or healed like any other status.
 

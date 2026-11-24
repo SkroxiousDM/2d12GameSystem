@@ -96,12 +96,12 @@ Compel: You accept a physical challenge to settle something that needed a differ
       trigger: [A harmful physical status would apply a penalty to your roll.],
       cost: [No additional cost.],
       benefit: [Ignore the penalty from a status of tier 1--2; at tier 3+, reduce it by 1.],
-      limit: [Only the penalty changes: the tier, stacking, recovery, Taken Out, Dying and Scars work normally.],
+      limit: [Only the penalty changes: the tier, stacking, recovery, Taken Out, #emph[Dying] and Scars work normally.],
     )],
-    // PLAYTEST: Weary fallback (exhausted-2) for games without Module B.
+    // PLAYTEST: Weary fallback (exhausted −2) for games without Module B.
     [7], [#strong[Berserker];], [#ability(
       trigger: [You enter a fury.],
-      cost: [At scene end, lose 2 Sōma (paid in full) or take #emph[Weary] (Module B; without it, #emph[exhausted-2] until a night's rest). Either is an accepted payment.],
+      cost: [At scene end, lose 2 Sōma (paid in full) or take #emph[Weary] (Module B; without it, #emph[exhausted −2] until a night's rest). Either is an accepted payment.],
       benefit: [#strong[+1 bonus die] (free) on Fight, Brawl and Athletics rolls for the rest of the scene.],
       limit: [Once per scene. While the fury lasts, you can't script Defend or retreat. The bonus die counts toward the normal bonus-dice cap.],
     )],
@@ -109,7 +109,7 @@ Compel: You accept a physical challenge to settle something that needed a differ
       trigger: [A harmful physical status on you reaches #strong[tier 6].],
       cost: [Record the status and any Scar normally. This ability adds no resource cost.],
       benefit: [Delay being Taken Out by that status until the scene ends. You keep acting, with its normal roll penalty. At scene end you're Taken Out unless treatment or an ability has lowered it below tier 6.],
-      limit: [Once per scene. This doesn't postpone Dying or death, restore a lost limb, protect you from other statuses or prevent a shared-Disposition defeat.],
+      limit: [Once per scene. This doesn't postpone #emph[Dying] or death, restore a lost limb, protect you from other statuses or prevent a shared-Disposition defeat.],
     )],
     [◆], [#strong[Legend of the Field];], [#ability(
       trigger: [Your reputation applies as a Campaign Truth; a Fight conflict begins; or the GM brings in reinforcements while you remain an active participant in the conflict.],
@@ -132,7 +132,7 @@ Compel: You accept a physical challenge to settle something that needed a differ
     table.hline(),
     [Fantasy], [#strong[Greataxe or warhammer] (2) --- #emph[+1 Attack];, #emph[crushing blows];], [#strong[Longsword & shield] (2) --- #emph[+1 Attack];, #emph[+1 Defend];],
     [Modern], [#strong[Combat shotgun] (2) --- #emph[+1 Attack];, #emph[room-clearer];], [#strong[Baseball bat & pistol] (2) --- #emph[+1 Attack] (bat), #emph[sidearm];],
-    [Sci-Fi], [#strong[Shock maul] (2) --- #emph[+1 Attack];, #emph[stuns on hit] (spend 1 Power: add #emph[dazed-1];)], [#strong[Vibro-blade & energy barrier] (2) --- #emph[+1 Attack];, #emph[+1 Defend];],
+    [Sci-Fi], [#strong[Shock maul] (2) --- #emph[+1 Attack];, #emph[stuns on hit] (spend 1 Power: add #emph[dazed −1];)], [#strong[Vibro-blade & energy barrier] (2) --- #emph[+1 Attack];, #emph[+1 Defend];],
   )]
   , kind: table
   )

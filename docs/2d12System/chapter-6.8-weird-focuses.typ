@@ -235,7 +235,7 @@ Define the trait and unusual nature at creation. Both helpful uses and complicat
     // PLAYTEST: fallback matches Berserker and Unleash (Generic Playbooks); confirm in playtest.
     [3a], [#strong[Apex Form];], [#ability(
       trigger: [You unleash your nature.],
-      cost: [At scene end, take #emph[Weary] (Module B; without it, exhausted-2 until a night's rest) as an accepted payment.],
+      cost: [At scene end, take #emph[Weary] (Module B; without it, #emph[exhausted −2] until a night's rest) as an accepted payment.],
       benefit: [Gain one free bonus die on Sōma and Mētis skill rolls that directly use one of your traits for the rest of the scene.],
       limit: [Once per scene.],
     )],

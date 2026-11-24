@@ -129,7 +129,7 @@ Divide points among your pools without exceeding their maximums. Edge does not a
 
 Pool recovery and status healing do not restore Disposition, refresh injury trades or erase Scars. Treatment removes at most 1 tier of a lasting injury until healing time does.
 
-Life-threatening tier-6 harm with lethal stakes can start a 3-segment Dying clock. Medicine vs. Hard 18 stabilises. Explicit creature breaking-point rules replace generic outcomes only where stated.
+Life-threatening tier-6 harm with lethal stakes can start a 3-segment _Dying_ clock. Medicine vs. Hard 18 stabilises. Explicit creature breaking-point rules replace generic outcomes only where stated.
 
 #emph[Core Rules @core-effects[§§]–@core-rest-recovery[]; currencies in @core-core-resolution[§§]–@core-tyche-points[] and @core-weal-woe.]
 

@@ -76,7 +76,7 @@ Compel: You cross an ethical, legal, or personal boundary to obtain an answer.
     [3], [#strong[Field Medic];], [#ability(
       trigger: [You treat an injury or temporary physical condition with Medicine.],
       cost: [Restore costs 1 Power per two tiers, rounded up.],
-      benefit: [Use the reduced Restore price. Once per scene, if your treatment successfully lowers a lasting injury, the patient also recovers 2 points in one pool of their choice. With Module B, you can treat Sick at Standard instead of Hard Difficulty.],
+      benefit: [Use the reduced Restore price. Once per scene, if your treatment successfully lowers a lasting injury, the patient also recovers 2 points in one pool of their choice. With Module B, you can treat #emph[Sick] at Standard instead of Hard Difficulty.],
       limit: [The Restore discount does not lift the ordinary one-tier treatment limit. Apply any explicit stated-tier healing exception normally. The additional pool recovery is once per scene for this Field Medic user, across all patients, and never raises a pool above its maximum. It does not restore Disposition, refresh an injury trade, or erase a Scar.],
     )],
     [4], [#strong[Steady Mind];], [#ability(

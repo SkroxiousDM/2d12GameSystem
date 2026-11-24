@@ -370,12 +370,12 @@
 #sec([The Grind], sub: [Module B · conditions are taken in order and don't stack])
 #grid(columns: (1fr, 128pt), column-gutter: 12pt,
   rows-table((22pt, 66pt, 1.3fr, 1.25fr), ([], [Condition], [Effect], [Cleared by]), (
-    ([#cb() 1], [*Hungry & Thirsty*], [First to third rests restore nothing], [A meal, or Survival (Restore)]),
-    ([#cb() 2], [*Weary*], [Effort costs +1], [A full night's rest]),
-    ([#cb() 3], [*Exposed*], [−1 Sōma Edge (cold, heat, wet)], [Shelter and a recovery roll]),
-    ([#cb() 4], [*Shaken*], [−1 Pneuma Edge; Fear statuses +1 tier], [Will or Empathy roll, or a Belief moment]),
-    ([#cb() 5], [*Sick*], [−1 to all rolls; can't recover pools], [Medicine (Hard) and rest]),
-    ([#cb() 6], [*Broken*], [Taken Out of the mission; gain a Scar], [Players' Turn only]),
+    ([#cb() 1], [*_Hungry & Thirsty_*], [First to third rests restore nothing], [A meal, or Survival (Restore)]),
+    ([#cb() 2], [*_Weary_*], [Effort costs +1], [A full night's rest]),
+    ([#cb() 3], [*_Exposed_*], [−1 Sōma Edge (cold, heat, wet)], [Shelter and a recovery roll]),
+    ([#cb() 4], [*_Shaken_*], [−1 Pneuma Edge; _Fear_ statuses +1 tier], [Will or Empathy roll, or a Belief moment]),
+    ([#cb() 5], [*_Sick_*], [−1 to all rolls; can't recover pools], [Medicine (Hard) and rest]),
+    ([#cb() 6], [*_Broken_*], [Taken Out of the mission; gain a Scar], [Players' Turn only]),
   ), size: 6.8pt, inset: (x: 3pt, y: 3.2pt)),
   {
     text(font: display-font, size: 9.5pt, fill: ink, weight: 700)[Checks]

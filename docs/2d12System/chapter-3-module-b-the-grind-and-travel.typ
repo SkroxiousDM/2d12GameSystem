@@ -37,17 +37,17 @@ The Grind uses its own rates, not the generic danger-clock rate, and failed conf
     table.header([Order], [Hardship], [Effect], [Cleared by],),
     table.hline(),
     // PLAYTEST: R2 (Generic Focuses review), short rests named as First to Third rests.
-    [1], [#strong[Hungry & Thirsty];], [First to Third rests restore nothing], [A meal, a Survival roll (Restore)],
-    [2], [#strong[Weary];], [Effort costs +1], [A full night\'s rest],
-    [3], [#strong[Exposed] (cold, heat, wet)], [−1 Sōma Edge], [Shelter and a recovery roll],
-    [4], [#strong[Shaken];], [−1 Pneuma Edge; Fear statuses +1 tier], [A Will or Empathy recovery roll, or a Belief moment],
-    [5], [#strong[Sick];], [−1 to all rolls; can\'t recover pools], [Medicine vs. Hard 18 + rest],
-    [6], [#strong[Broken];], [Taken Out of the mission; gain a Scar], [Players\' Turn only],
+    [1], [#strong[#emph[Hungry & Thirsty]];], [First to Third rests restore nothing], [A meal, a Survival roll (Restore)],
+    [2], [#strong[#emph[Weary]];], [Effort costs +1], [A full night\'s rest],
+    [3], [#strong[#emph[Exposed]] (cold, heat, wet)], [−1 Sōma Edge], [Shelter and a recovery roll],
+    [4], [#strong[#emph[Shaken]];], [−1 Pneuma Edge; Fear statuses +1 tier], [A Will or Empathy recovery roll, or a Belief moment],
+    [5], [#strong[#emph[Sick]];], [−1 to all rolls; can\'t recover pools], [Medicine vs. Hard 18 + rest],
+    [6], [#strong[#emph[Broken]];], [Taken Out of the mission; gain a Scar], [Players\' Turn only],
   )]
   , kind: table
   )
 
-Grind hardships count as statuses for Restore, but #strong[they don\'t stack] and have no tier: the Order column is the sequence you gain them in. Broken already includes its Scar; don't add a tier-6 Scar too.
+Grind hardships count as statuses for Restore, but #strong[they don\'t stack] and have no tier: the Order column is the sequence you gain them in. #emph[Broken] already includes its Scar; don't add a tier-6 Scar too.
 
 #strong[Separate layers.] A hardship that stops a PC contributing removes them from the conflict without costing Disposition; the side loses when nobody can pursue its objective (Core Rules @core-shared-disposition-participation). Clearing a hardship doesn't refill pools, heal injuries, erase Scars or let a PC rejoin a conflict (Core Rules @core-being-taken-out[§]--@core-treatment-healing[]).
 
@@ -72,13 +72,13 @@ A journey is a #strong[Journey clock] (6 for a short trip, 8 for a hard trip, 12
     table.hline(),
     [#strong[Guide];], [Survival or Drive/Pilot], [#strong[Make Time] --- Advance the Journey clock],
     [#strong[Scout];], [Notice or Stealth], [#strong[Spot Trouble] --- Discover, or cancel one encounter the GM has prepared],
-    [#strong[Quarter-master];], [Survival or Craft], [#strong[Forage / Ration] --- clear Hungry for the party, or +1 Supplies],
-    [#strong[Lookout];], [Notice or Will], [#strong[Keep Watch] --- the party isn\'t surprised; Restore Shaken],
+    [#strong[Quarter-master];], [Survival or Craft], [#strong[Forage / Ration] --- clear #emph[Hungry] for the party, or +1 Supplies],
+    [#strong[Lookout];], [Notice or Will], [#strong[Keep Watch] --- the party isn\'t surprised; Restore #emph[Shaken]],
   )]
   , kind: table
   )
 
-- #strong[Supplies:] the party tracks #strong[Supplies] as a counter, not a status (start at 3--6). Lose 1 per leg. At 0, everyone becomes Hungry & Thirsty automatically and the Grind clock shrinks by 2, to a minimum of 3.
+- #strong[Supplies:] the party tracks #strong[Supplies] as a counter, not a status (start at 3--6). Lose 1 per leg. At 0, everyone becomes #emph[Hungry & Thirsty] automatically and the Grind clock shrinks by 2, to a minimum of 3.
 - #strong[Terrain and weather] are Situational Conditions that hinder relevant rolls (#emph[muskeg 2];, #emph[whiteout 2];, #emph[rapids 2];), or Truths when they block a route outright (#emph[Washed-out Road];).
 - #strong[Encounters:] the GM spends Woe (1 for a minor encounter, 3 for a major one), or uses the Scout\'s failed roll.
 - #strong[Portages and hard stretches:] a special leg (Endure or Athletics roll for every PC); failure ticks the Grind clock twice.

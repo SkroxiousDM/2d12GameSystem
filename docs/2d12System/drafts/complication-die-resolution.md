@@ -191,6 +191,36 @@ The loser generates no Power, including no Tag Power. Reducing or cancelling the
 
 An exact tie is a neutral stalemate. Neither actor wins, generates Power, or produces their action's normal Effect. Neither receives a comparison-based benefit, complication, or critical outcome. Costs already paid remain spent. Independently triggered complications, including a triggered Risky die, still resolve.
 
+### Automatic Success
+
+Automatic success replaces an otherwise permitted action's roll, not its permissions, scripted interaction, assigned turn, or declared stakes. It grants no extra action and does not restore a trumped action.
+
+Use the automatic-success Power award, plus applicable Tag Power unless already included. Do not calculate a success margin or add another base-success point or matching-dice critical bonus. No action dice are rolled, so the automatic success generates no comparison-based complication.
+
+#### Automatic success in versus tests
+
+If only one actor automatically succeeds, that actor wins the versus interaction. Neither actor rolls action dice. Use the automatic-success Power award rather than a calculated winning-margin award.
+
+The opposing actor generates no Power and receives no comparison-based failure benefit, complication, or critical outcome: there is no losing roll to classify. The winner still prevents the opposing action's normal Effect.
+
+If both actors automatically succeed, resolve a neutral stalemate unless an explicit rule overrides it. Neither gains Power or produces their normal action Effect. Costs already paid remain spent.
+
+#### Independent consequences
+
+Independent consequences still resolve. If an actor's permitted action is Risky, roll its separate Risk die unless an explicit rule removes that risk. Automatic success does not suppress an independent trigger or grant extra consequence permissions.
+
+Apply normal Woe buyoff, mitigation, Resistance, and scripted-conflict limits to eligible complications. Reserve Power for funded Effects before spending surplus Power on mitigation.
+
+Pending Impede and Gain Position expire unused on a no-roll scripted action. Neither modifies the automatic-success Power award or transfers to the Risk die or a Resistance roll.
+
+#### Effort after automatic success
+
+After establishing automatic success and its Power award, the successful actor may use Effort to purchase +1 Power per use, paying the normal relevant-pool cost and observing the normal Effort limit and any explicit restrictions. Use the normal post-success purchase window before allocation and mitigation, even though no action roll was made.
+
+Purchased Power joins the action's Power budget and may fund permitted Effects or eligible mitigation, subject to Power reservation and the usual timing. Automatic success does not waive costs or grant additional Effort uses.
+
+This permission does not let an actor purchase Power for a lost, tied, or trumped action. In particular, two opposing automatic successes that resolve as a stalemate do not qualify either actor for these purchases. Bonus-die purchases have no effect on an action roll that is not made.
+
 ### Conflict boundaries
 
 Winning a versus test still prevents the opposing action's normal Effect. Failure benefits remain purely fictional openings, not free mechanical purchases. Complications cannot duplicate an opposing purchased Effect, freely change the script, or cancel an independent action.
@@ -306,7 +336,7 @@ Do not publish the fixed-Difficulty success or six-outcome tables as versus-test
 ## Remaining integration work, not reopened decisions
 
 - Apply this replacement to core resolution, Effort, Resistance, Woe, quick references, examples, and affected abilities.
-- Integrate the settled independent, trumped, and versus procedures, removal of automatic failure Woe, conflict-complication restrictions, and Power-reservation rule in section 9; audit NPCs, automatic successes, and dice-manipulating abilities for compatibility without inventing overrides.
+- Integrate the settled independent, trumped, versus, and automatic-success procedures, Effort Power purchases after automatic success, removal of automatic failure Woe, conflict-complication restrictions, and Power-reservation rule in section 9; audit NPCs and dice-manipulating abilities for compatibility without inventing overrides.
 - Preserve unrelated rules unless a coordinated compatibility change is explicitly approved.
 - Probability verification is complete for the tables documented in section 10. During coordinated integration, replace the published obsolete keep-best-two odds and worked example with that verified reference; the published core table is unchanged by this draft update.
 - Check cross-references and compile the affected rulebook after the coordinated integration.

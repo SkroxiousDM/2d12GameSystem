@@ -4,13 +4,13 @@
 #columns(2, gutter: 5mm)[
 #strong[Kade];, a #emph[Reckless Furcifer who Never Leaves Anyone Behind] (Mētis Edge 1), is creeping through a warehouse to free a captured friend. He has bought Effort Level 2 with an Advance; new characters start at Level 1 (@core-bonus-dice-effort, @core-spending-xp). The scene has #emph[dim lighting] --- Situational Condition 2 --- helps hiding in the shadows, hinders reading and aiming --- ends when the lamps are lit or the scene ends, and the Truth #emph[Patrolling Guards].
 
-- #strong[Goal:] reach the cell unseen. The table agrees that means advancing the 4-segment #emph[Reach the Cell] clock; each segment costs 1 Power (Advance).
+- #strong[Goal:] reach the cell unseen. The table agrees that means advancing the 4-segment #emph[Reach the Cell] clock; each segment costs 1 Power (Advance). The GM names the danger: a patrol could discover Kade's route.
 - #strong[Roll:] Stealth +3, #emph[dim lighting] +2. The GM sets Hard 18, so Kade needs 13+ on the dice. His tags #emph[quiet boots] and #emph[knows this district] add nothing to the roll but supply #strong[2 Tag Power] if he succeeds.
-- #strong[Effort, part 1:] Kade spends 3 − 1 Edge = 2 Mētis for a bonus die → 3d12 keep 2.
-- #strong[Result:] dice show 9, 9, 4 → keep 9 + 9 = 18, +5 = 23. That\'s 5 over → 2 Power, plus 2 Tag Power = #strong[4 Power];, plus #strong[doubles on a success → +1 = 5 Power];.
+- #strong[Effort, part 1:] Kade spends 3 − 1 Edge = 2 Mētis for a bonus die. He rolls the Complication die and 2 ordinary action dice.
+- #strong[Result:] the Complication die shows 9; the ordinary dice show 9 and 4. Retain 9 + 9 = 18, then add 5 for a total of 23. That is 5 over Hard 18: 2 Power, plus 2 Tag Power. The retained dice match, so Critical Success adds 1 Power, for #strong[5 Power].
 - #strong[Effort, part 2:] Kade spends another 2 Mētis for #strong[+1 Power → 6 Power];.
 - #strong[Spend:] Advance the #emph[Reach the Cell] clock by 4 (4 Power), filling it: he reaches the cell unseen. Discover (1 Power): \"Where is the key?\" --- \"On the sergeant\'s belt.\" 1 Power left → #strong[+1 Weal];.
-- #strong[Had it cost him:] on a Success at a Cost he would have had only his 2 Tag Power: two segments, short of the cell, plus a consequence or 1 Woe.
+- #strong[On failure:] a total below Hard 18 would fail and generate no Power, including Tag Power. Kade could not use ordinary post-success Effort to buy Power. His retained faces would determine Failure with a Benefit, Failure with Complication or Critical Failure; reducing a complication would not fill the clock or accomplish the failed goal.
 - #strong[Later:] the sergeant\'s dread patron, a bound spirit, lashes out with #emph[terror −3];. Kade Resists with #strong[Pneuma] (Edge 0), so 2d12: highest die 7 → cost 2 Pneuma. The status drops to #emph[terror −1];.
 - #strong[Compel:] the GM compels #emph[Reckless];: \"You can\'t wait for backup; you go in now.\" Kade accepts and gains +1 Tychē Point.
 
@@ -24,17 +24,17 @@ The guards' Grit 5 and 3 give their side #strong[8 Disposition] without a setup 
 
 #strong[Commit the exchange.] Before the first reveal, the PCs script Kade on Maneuver, Mira on Attack and Tarin on Defend. The guards script the first guard on Maneuver, the second on Defend and the first again on Feint. That's legal: both guards act in the first round, and the second guard acts between the first guard's turns (@core-scripting-volleys).
 
-#strong[Volley 1 --- Maneuver versus Maneuver.] Both actions resolve independently. Kade uses Stealth +3 to slip around the first guard and open a path. His dice are 7 and 6, for a total of 16. The guard has Guard +1, so Kade's target is Standard 15 + 1 = 16; no Situational Condition applies here. He meets it: 1 Power, plus 1 Tag Power from #emph[knows this district], for #strong[2 Power];. He buys Gain Position and lets the last point become Weal.
+#strong[Volley 1 --- Maneuver versus Maneuver.] Both actions resolve independently. Kade uses Stealth +3 to slip around the first guard and open a path. His Complication die shows 6 and his ordinary die 7; with Stealth +3, his total is 16. The guard has Guard +1, so Kade's target is Standard 15 + 1 = 16; no Situational Condition applies here. He meets it with the Complication die lower: Clean Success, for 1 Power, plus 1 Tag Power from #emph[knows this district], for #strong[2 Power];. He buys Gain Position and lets the last point become Weal.
 
-The guard's independent Maneuver totals 15 against Standard 15: a success with 1 Power, which the GM spends on Impede.
+The guard's Complication die shows 6 and its ordinary die 7. Its Maneuver rating +2 gives 15 against Standard 15: Clean Success. With 1 applicable flat Tag Power, it generates 2 Power. The GM spends 1 on Impede and 1 on Discover: which PC is covering the escape route? The answer identifies Tarin. Discover grants no additional modifier or script change.
 
 Neither Maneuver changes Disposition. Gain Position and Impede both wait for the PCs' next scripted action; neither applies to a Resistance roll in between.
 
-#strong[Volley 2 --- Attack versus Defend.] Mira receives Gain Position's bonus die. She rolls 9, 6 and 2, keeps 9 + 6, adds Fight +3, then subtracts 3 for Impede: #strong[total 15]. The guard's Defend totals 13.
+#strong[Volley 2 --- Attack versus Defend.] Mira receives Gain Position's bonus die. Her Complication die shows 6; the ordinary dice show 9 and 2. She retains 6 + 9, adds Fight +3, then subtracts 3 for Impede: #strong[total 15]. The guard's Complication die shows 4 and its ordinary die 5; its Defend rating +4 gives 13.
 
-Mira wins by 2: 1 Power for winning plus 1 Tag Power from her weapon's +1 Attack tag, #strong[2 Power]. She commits both to Attack, removing #strong[3 shared Disposition] (2 Power + 1), and the guards fall from 8 to 5. Their losing Defend restores nothing, and no individual guard is hurt or removed by the loss. Both pending Maneuver benefits are now spent (@core-actions-effects).
+Mira wins by 2 with her Complication die lower: Clean Success, for 1 Power for winning plus 1 Tag Power from her weapon's +1 Attack tag, #strong[2 Power]. She commits both to Attack, removing #strong[3 shared Disposition] (2 Power + 1), and the guards fall from 8 to 5. Their losing Defend restores nothing, and no individual guard is hurt or removed by the loss. The guard's lower Complication die gives Failure with a Benefit: it notices a barred service wicket beside the gate, another possible route to block or use later. The opening grants no free action, modifier or script change. Both pending Maneuver benefits are now spent (@core-actions-effects).
 
-#strong[Volley 3 --- Defend versus Feint.] Tarin's Defend is trumped: no roll, and no Disposition restored. The first guard's Feint rolls independently and succeeds with 2 Power, committed to remove 3 PC Disposition.
+#strong[Volley 3 --- Defend versus Feint.] Tarin's Defend is trumped: no action or Risk roll, Power or comparison-based outcome, and no Disposition restored. The first guard's Feint rolls independently: Complication die 5 + ordinary die 8 + Feint rating 2 = 15 against Standard 15. Clean Success generates 1 base Power + 1 applicable flat Tag Power = 2 Power, committed to remove 3 PC Disposition. Neither the trump nor the losing Defend in volley 2 generates automatic failure Woe.
 
 Before applying that loss, Tarin accepts a new lasting #emph[sprained shoulder −3], describing how he holds the gate open while the others push through. The injury follows from the action and preserves the side's position. A tier-3 injury cancels 2 incoming loss, so the PCs lose only 1 Disposition, falling from 8 to #strong[7]. Tarin marks his once-per-conflict injury trade used; at most one participant could trade against this Feint (@core-accepting-injury).
 

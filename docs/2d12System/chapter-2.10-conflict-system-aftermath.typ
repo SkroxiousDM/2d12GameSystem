@@ -150,7 +150,7 @@ The winner achieves its intent, but the loser earns a proportionate concession:
 - #strong[Significant:] substantial concession, restricted terms, important loss, serious injury or meaningful part of the loser's objective.
 - #strong[Major:] narrow victory at a major price: lasting obligation, severe injury, important loss or powerful new danger.
 
-These are consequence packages, not mandatory lists. Don't automatically add injury to an adequate non-injury concession.
+These are consequence packages, not mandatory lists. Don't automatically add injury to an adequate non-injury concession. Compromise grades aren't complication severities: they don't use Woe buyoff or Power mitigation.
 
 Compromise can't simply reverse the result or grant the loser's complete incompatible objective.
 
@@ -184,6 +184,8 @@ Ordinary NPCs and minion groups can't trade injury. A named rival built as a ful
 
 Ordinary NPCs have no pools (@core-running-dry) and reduce imposed harm only through listed Armour, traits or abilities. Apply at most one reduction per imposed status application, never to ordinary Disposition loss or a protected payment (@core-costs-failures-complications).
 
+A complication on an NPC's action follows the NPC procedure in @core-doubles: the GM may cancel it with existing Woe equal to its original severity, or reduce it with surplus action Power. This gives ordinary NPCs no pool-based Effort, narrative Resistance or generic Woe purchase of Power.
+
 NPC defeat uses @core-defeat-mutual-defeat-concession. Capture, escape, injury and death follow the stakes and outcome. Use a #emph[Dying] clock when rescue matters, not to make an accepted rescue objective impossible.
 
 Creature-specific rules remain in force, including breaking points that replace the tier-6 procedure (@core-tier-6-scars). Immunity may stop an unsuitable status without stopping Disposition loss in a contest the creature can lose.
@@ -201,23 +203,27 @@ Creature-specific rules remain in force, including breaking points that replace 
 5. Reveal the next volley.
 6. Determine the interaction.
 7. Pay pre-roll costs; resolve running dry.
-8. Roll and determine Power.
-9. Make permitted post-roll choices and pay their costs.
-10. Allocate Power.
-11. Calculate Disposition loss separately from statuses.
-12. Offer eligible injury trades.
-13. Apply remaining Disposition loss.
-14. Resist eligible statuses, stack what remains and resolve tier 6, including explicit creature exceptions.
-15. Complete any independent opposing action.
-16. Check removal, victory and mutual defeat.
-17. Before the next roll, allow concession proposals.
+8. Roll the action dice, and the Risk die if the action is Risky. A trumped action makes no roll.
+9. Resolve permitted dice manipulation, one ability at a time (@core-dice-manipulation).
+10. Classify the outcome from the final retained faces and determine Power (@core-outcomes).
+11. Make permitted post-roll choices and pay their costs.
+12. Name each complication and its severity; offer Woe buyoff (@core-doubles).
+13. Allocate Power: reserve permitted Effects first, then spend any surplus on mitigation (@core-doubles).
+14. Resist eligible narrative complications, once each (@core-doubles).
+15. Calculate Disposition loss separately from statuses.
+16. Offer eligible injury trades.
+17. Apply remaining Disposition loss.
+18. Resist eligible statuses, stack what remains and resolve tier 6, including explicit creature exceptions.
+19. Complete any independent opposing action.
+20. Check removal, victory and mutual defeat.
+21. Before the next roll, allow concession proposals.
 
-Repeat steps 5–17 for each volley, and step 4 for each new exchange, until a side is defeated or concedes.
+Repeat steps 5–21 for each volley, and step 4 for each new exchange, until a side is defeated or concedes.
 
 #strong[Ending]
-18. Resolve permitted creature finishing procedures before compromise.
-19. Settle compromise or concession.
-20. Recover each layer only through its own procedure (@core-rest-recovery).
+22. Resolve permitted creature finishing procedures before compromise.
+23. Settle compromise or concession.
+24. Recover each layer only through its own procedure (@core-rest-recovery).
 
 Specific rules override general rules only on the subject addressed.
 === 10.16 Keeping It Fast <core-keeping-it-fast>

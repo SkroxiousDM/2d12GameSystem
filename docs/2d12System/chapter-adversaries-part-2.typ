@@ -21,14 +21,14 @@ Each exchange is three volleys. Commit three actions and their actors before the
 - Disarm disables the named asset, not automatically an action category. If another plausible approach remains, the assigned actor may use it; switching gear doesn't change the script. Otherwise the action may be lost. Before reveal, the GM may pay 3 Woe (2 with an eligible Leader) to change the unrevealed action, not its actor.
 
 === 6.3 Action Results <adv-action-results>
-Adversary actions follow Core Rules @core-scripting-volleys[§]--@core-costs-failures-complications[]: Attack, Defend, Feint and Maneuver, versus rolls, doubles, supplementary Effects and automatic success. Only these points are specific to adversaries:
+Adversary actions follow Core Rules @core-scripting-volleys[§]--@core-costs-failures-complications[]: Attack, Defend, Feint and Maneuver, versus tests, outcomes, supplementary Effects and automatic success. Only these points are specific to adversaries:
 
 - #strong[Grit isn't personal.] Defend restores shared Disposition only. It doesn't restore a personal Grit track, heal statuses or return a Taken Out participant.
-- #strong[Woe.] Versus losses, ties and trumped actions generate no ordinary-failure Woe for either side (@adv-woe-economy).
+- #strong[Woe.] Failed independent actions, versus losses, ties and trumped actions generate no automatic failure Woe for either side. Explicit Woe triggers still apply (@adv-woe-economy).
 - #strong[Resolution order.] Check eligible Last Stand before final settlement (@adv-last-stand). For a phased boss, check thresholds only after removal and victory are determined and the conflict continues without pending defeat (@adv-phase-checks-benefit-timing). Use @adv-shared-special-timing for shared timing and @adv-fail-safe[§§]--@adv-deferred-special-injuries[] for Special aftermath timing.
 
 === 6.4 Woe Economy <adv-woe-economy>
-Gain Woe from player-bought dice, eligible independent failures (+1), Escalation (+1), a dangerous circumstance becoming relevant (+1, at most 1 per scene; Core Rules @core-woe) and bought-off complications (+2). Versus losses, ties and trumped actions generate no ordinary-failure Woe, symmetrically for player and GM actors. Separately triggered complications, explicit costs and scenery Dangers retain their own rules (Core Rules @core-costs-failures-complications).
+Gain Woe from player-bought dice, Escalation (+1), a dangerous circumstance becoming relevant (+1, at most 1 per scene; Core Rules @core-woe), and complication buyoffs at original severity: minor +1, moderate +2, major +3. Failed independent actions, versus losses, ties and trumped actions generate no automatic failure Woe, for either player or GM actors. Accepting, mitigating or Resisting a complication grants no replacement Woe. Explicit costs, scenery Dangers and other separately triggered rules retain their stated permissions (Core Rules @core-costs-failures-complications).
 
 #figure(table(columns: (68%, 32%),
   table.header([Spend], [Cost]),
@@ -37,10 +37,13 @@ Gain Woe from player-bought dice, eligible independent failures (+1), Escalation
   [Reinforcements], [Listed named-reserve package (@adv-howl[§§]--@adv-caller-specific-reserve-packages[])],
   [Change an unrevealed scripted action before reveal], [3 (2 with an eligible Leader)],
   [Tick a danger clock], [1 per segment],
+  [Cancel an NPC complication before mitigation], [Original severity: 1/2/3],
   [Extra Shrug], [1],
   [Trigger a listed scenery Danger], [1],
 ))
-Spend on the Best action early. Unspent Woe at session end is wasted tension. An ordinary failed conflict action doesn't also authorise an unrelated GM move or extra harm. Independent Success at a Cost follows Core Rules @core-costs-failures-complications; ordinary costs add no status or extra Disposition loss without explicit permission. Complications respect stakes and independent-action timing.
+Spend on the Best action early. Unspent Woe at session end is wasted tension. Failure grants no additional unrelated GM move or extra harm. Comparison-based complications, including Critical Failure, cannot impose harmful statuses or additional Disposition loss without explicit permission. They remain within the established danger and stakes and cannot cancel an independent action or change the script.
+
+To cancel an NPC complication, pay existing Woe in full before mitigation; Woe cannot be overrun. Otherwise, the NPC may mitigate with surplus action Power after reserving its Effects (Core Rules @core-doubles). These permissions grant ordinary NPCs no Effort, narrative Resistance or generic Woe-to-Power purchase.
 
 === 6.5 Reinforcements <adv-reinforcements>
 Reinforcements add their listed Grit to current shared Disposition only, even above the original adjusted starting value. They don't raise starting Disposition, the normal recovery cap or the compromise reference (Core Rules @core-shared-disposition-participation, @core-compromise). Defend and other recovery restore only up to the original start unless explicitly overridden. At or above the cap, restore nothing and don't remove an existing excess; other permitted Defend purchases remain available. Removal subtracts no Grit. Joining participants enter continuous rotation under Core Rules @core-scripting-volleys; arrival grants no extra scripted action, free actor reassignment or setup recalculation. Only a genuinely new conflict establishes a new start. Boss phase references and thresholds remain fixed (@adv-setup-fixed-thresholds). During a Last Stand volley, reinforcement arrival remains legal under its own timing, but its Grit can't raise the pending-defeat side above 0 (@adv-last-stand).
@@ -134,7 +137,7 @@ Declare Interpose before the original target rolls Resistance or applies any har
 #strong[Hold the Line.] While able to participate and fictionally able to shield an ally, reduce combined ordinary Disposition loss from one successful opposing Attack by 1, minimum 0. Declare after calculating loss but before injury trade or loss application. It may trigger outside the assigned turn and grants no action or rotation credit. Apply once, including ordinary area-loss bonuses; multiple Bulwarks can't apply it to the same Attack. An eligible injury trade may cancel remaining ordinary loss normally. Exclude Feint, Maneuver, separately listed Special damage, statuses and protected payments. It can't solely protect the Bulwark when no ally is being shielded. No outside-conflict effect.
 
 === 7.5 Guardian Self-Repair <adv-guardian-self-repair>
-Once per guardian per exchange, after the guardian succeeds on its assigned scripted action, including Success at a Cost, it may spend 1 Woe to choose one:
+Once per guardian per exchange, after the guardian succeeds on its assigned scripted action, it may spend 1 Woe to choose one:
 - Restore up to 2 of its side's shared Disposition, up to its original adjusted starting Disposition.
 - Remove up to 2 tiers from one existing physical status on that guardian that its repair systems can address.
 

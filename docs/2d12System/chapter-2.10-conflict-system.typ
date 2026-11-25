@@ -157,21 +157,22 @@ Replace one unrevealed action. Keep its assigned actor unless an explicit abilit
 #columns(2, gutter: 6mm)[
 #strong[Action completion.] Independent actions both resolve, even if one defeats a side or takes its actor out. Complete each action's costs, choices and effects before removing a participant because of that action; check victory after both independent actions finish.
 
-A trumped action makes no roll and produces no effect. Describe the failed approach briefly. Failure, Woe and doubles use @core-costs-failures-complications.
+A trumped action makes no action roll, generates no Power and produces no normal action Effect. It isn't a Failure with a Benefit, Failure with Complication or Critical Failure, and its Complication die and Risk die aren't rolled. Describe the failed approach briefly. Trumping grants no replacement action or actor reassignment. Costs already paid remain spent; don't pay a cost whose payment trigger never occurs. A separate hazard or explicit consequence applies only if its own trigger occurs. Complications use @core-costs-failures-complications.
 
 In short: Feint beats Defend and loses to Attack; two Attacks, two Defends or two Maneuvers are independent; every other pair is versus.
 
 // PLAYTEST: Feint versus Maneuver is now a versus test (was independent). Check that Maneuver doesn't become the safe answer to every Feint.
 
 ==== Independent Tests
-Roll against Standard 15, adjusted by explicit difficulty modifiers such as adversary Guard; statuses and Situational Conditions modify the roll (@core-roll), and Truths decide what is possible (@core-truths). Tags add nothing to the roll. Determine Power normally, including Tag Power (@core-outcomes).
+Roll against Standard 15, adjusted by explicit difficulty modifiers such as adversary Guard; statuses and Situational Conditions modify the roll (@core-roll), and Truths decide what is possible (@core-truths). Tags add nothing to the roll. Classify each action's outcome and Power separately under @core-outcomes, and don't compare the actors' totals. A failed action generates no Power. Complete both independent actions before checking defeat or mutual defeat.
 
 #colbreak()    
 ==== Versus Tests
-Both actors roll. The higher total wins and gains its Tag Power + 1 Power, plus 1 for every full 3 points of margin. The loser spends no Tag Power.
-Winning prevents the opposing action's normal effect, even if all Power funds permitted supplementary Effects rather than loss or recovery.
+Both actors roll, retaining their Complication die and highest other action die (@core-roll). Compare final totals. The higher total wins and generates its Tag Power + 1 Power, plus 1 for every full 3 points of margin. The loser generates no Power, including Tag Power.
+Each actor's own retained faces classify their outcome (@core-outcomes). The winner's Critical Success adds +1 Power. Matching dice never override a higher opposing total.
+Winning prevents the opposing action's normal effect, even if all Power funds permitted supplementary Effects rather than loss or recovery. Cancelling or reducing the loser's complication doesn't turn their action into a success or prevent the winner's purchased Effects.
 
-On an exact tie, neither action gains Power or produces its normal effect. Costs already paid remain spent. Success at a Cost doesn't turn a losing versus roll into success. Resolve doubles and complications under @core-costs-failures-complications.
+On an exact tie, neither action generates Power, produces its normal effect or receives a comparison-based benefit, complication or critical. Costs already paid remain spent. Independent complications, including a triggered Risk die, still resolve under @core-costs-failures-complications.
 ]
 
 === 10.6 Actions and Effects <core-actions-effects>
@@ -219,7 +220,7 @@ Buy Impede, Gain Position and Disarm no more than once each per Maneuver; later 
 ==== Temporary Effects and Ongoing Conditions
 Impede and Gain Position apply to the affected side's next scripted action, including across an exchange boundary. If that action is trumped or otherwise makes no roll, the effect expires unused. Record a pending effect like any temporary fact (@core-effects): #emph[Gain Position] --- tactical benefit, +1 bonus die --- your side's next scripted action roll --- expires on that action, unused if it is trumped or makes no roll.
 
-Neither applies to unrelated Resistance or incidental rolls. Gain Position counts toward the normal bonus-dice cap.
+Neither applies to unrelated Resistance, a Risk die or incidental rolls. Gain Position counts toward the normal bonus-dice cap.
 
 // PLAYTEST: One pending Gain Position per side, regardless of source.
 Additional grants don't stack, refresh or extend pending Gain Position.
@@ -232,7 +233,7 @@ An ongoing hindrance needs its own name, tier or rating, scope and removal condi
 Identify the disabled asset and explain how. Disabling one asset removes an action category only if it was the side's only plausible means of performing that action. A replacement may restore access when the fiction permits. Switching equipment doesn't itself change a script.
 
 ==== Supplementary Effects Reference
-A successful action may buy its primary effect and the permitted supplementary Effects below, using one Power budget. No primary purchase is mandatory.
+A successful action may buy its primary effect and the permitted supplementary Effects below, using one Power budget. No primary purchase is mandatory. On a success, choose the permitted Effects and reserve their costs before spending Power on complication mitigation (@core-doubles). Fund at least one permitted Effect; it needn't be the primary purchase. Preserve any minimum Effect agreed before rolling.
 
 Fictional relevance is required, but doesn't unlock prohibited purchases or harmful-status purchases on ordinary Attacks or Feints. General prices and treatment rules remain in @core-effects.
 ]
@@ -267,31 +268,25 @@ Attack bonuses don't apply to Feint or finishing procedures unless stated.
 Use normal Effort, Weal, Woe, Tychē Points, tags, Situational Conditions and Truths subject to these restrictions and the limits in @core-conflict-limits-reference.
 
 ==== Ordinary Failure
-An ordinary failed independent test produces no action effect and generates the usual 1 Woe. It doesn't also authorise an unrelated GM move, automatic injury or additional Disposition loss: the failed and opposing actions establish the volley.
+A failed independent test produces no action effect and no Power, including Tag Power. Resolve its outcome under @core-outcomes. Failure alone generates no Woe. It doesn't also authorise an unrelated GM move, automatic injury or additional Disposition loss: the failed and opposing actions establish the volley.
 
-Losing or tying a versus test, or being trumped, generates no ordinary-failure Woe. Apply this symmetrically to player and GM actors; costs already paid remain spent. Separately triggered complications, ability costs, scenery Dangers and explicit Woe rules still apply.
+Losing or tying a versus test, or being trumped, likewise generates no automatic failure Woe. Apply this symmetrically to player and GM actors; costs already paid remain spent. Accepting, mitigating or Resisting a complication awards no replacement Woe. Woe buyoffs, ability costs, scenery Dangers and other explicit Woe rules still apply.
 
-==== Success at a Cost
-On an independent test missing by 1--3, gain Tag Power + 0 as usual (@core-outcomes). The player chooses either 1 Woe for the GM or an immediate, proportionate complication arising from the action.
+==== Complications in Conflicts
+Complications from outcomes, Risk dice or Woe stay within the stakes and the action's scale (@core-doubles). They can't duplicate an opposing purchased Effect, freely change the script or cancel an independent action.
 
-An ordinary cost can't impose an additional status or extra Disposition loss unless an explicit rule permits it. Suitable costs include exposing an approach, losing access to a minor asset or establishing a limited adverse fact.
+A comparison-based complication, including the major complication from a Critical Failure, can't impose additional Disposition loss or a harmful status unless an explicit rule permits it. Severity alone grants no such permission: a major complication doesn't automatically mean injury, immediate defeat or loss of the objective. Independent hazards, Risky triggers, abilities and other explicit rules keep only the consequence permissions they state.
 
-Scenery actions use their listed Danger when the consequence option is chosen.
+Failure with a Benefit is a fictional opening only: no free purchase, Disposition change, script change or extra action. Cancelling or reducing a complication doesn't reverse failure or revoke a purchased Effect.
 
-==== Doubles
-Doubles work as in @core-doubles, including doubles created by an ability such as Perfect Strike. In versus tests:
-- Double 12s don't override a higher opposing total or break a tie.
-- Winning doubles add +1 Power to the margin award (double 12s: +2). Losing or tied doubles grant no Power or effect.
-- Double 1s still bring their complication on a loss or tie, but don't lose automatically.
-
-Doubles complications stay within the stakes and the action's scale. They don't cancel an independent action or change the script. Buy them off normally (@core-doubles).
+Power mitigation addresses the actor's eligible triggered complication, not an opponent's ordinary purchased Disposition effect. Reserve Power for permitted Effects first (@core-doubles). Woe buyoff and eligible Resistance don't require that reservation.
 
 ==== Explicit Risks and Harm
 Abilities, hazards, Risky rolls, scenery Dangers and other explicit rules may impose their stated consequences. Resolve these separately from ordinary Disposition loss.
 
 #colbreak()    
 ==== Protected Payments
-#strong[What counts.] A protected payment is a consequence accepted in exchange for a benefit: an accepted injury trade (@core-accepting-injury), a running-dry status from paying a cost (@core-running-dry-statuses), an agreed concession cost (@core-defeat-mutual-defeat-concession), or any other cost accepted as payment.
+#strong[What counts.] A protected payment is a consequence accepted in exchange for a benefit: an accepted injury trade (@core-accepting-injury), a running-dry status from paying a cost (@core-running-dry-statuses), an agreed concession cost (@core-defeat-mutual-defeat-concession), or any other cost accepted as payment. Choosing an imposed complication instead of its Woe buyoff doesn't make it a protected payment; mitigation and Resistance still address it where permitted (@core-doubles).
 
 #strong[What can't touch it.] Resistance, armour, prevention, redirection, immunity and incidental clearing, including a double-12 result, can't prevent, reduce or remove a protected payment. Only an exception that names the protected payment can change it. Generic wording such as "cancel harm" isn't enough.
 

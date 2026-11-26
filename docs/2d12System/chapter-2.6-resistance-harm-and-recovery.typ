@@ -2,7 +2,7 @@
 
 == 6. Resistance, Harm and Recovery <core-resistance-harm-recovery>
   #columns(2, gutter: 6mm)[
-When an imposed consequence lands on you (a status, lost gear, a bad position), you may #strong[Resist], subject to the exclusions below:
+When an imposed harmful status or a complication lands on you (a complication might cost you gear or put you in a bad position), you may #strong[Resist], subject to the exclusions below:
 
 + Choose the pool that fits (see @core-pools-edge: Sōma for harm, Mētis to dodge, Psychē against deception and confusion, Pneuma against fear and the supernatural).
 + Roll a number of d12s equal to #strong[2 + that pool\'s Edge] and read only the #strong[highest die];. If penalties take the pool's Edge below 0, see #strong[Negative Edge] below.
@@ -24,7 +24,7 @@ When an imposed consequence lands on you (a status, lost gear, a bad position), 
 
 #block[
 #set enum(numbering: "1.", start: 4)
-+ #strong[Effect:] reduce the incoming status by #strong[2 tiers] (to 0 if that brings it below 1), or turn a severe consequence into a lesser one.
++ #strong[Effect:] reduce an incoming status by #strong[2 tiers] (to 0 if that brings it below 1). Reduce a complication by #strong[one severity band]: major to moderate, moderate to minor, minor to nothing (@core-doubles). If the complication's consequence is a status, the status rule applies.
 ]
 
 The chance columns show Edge 0 to 3 (2d to 5d). A single 12 is simply a highest die in the 9--12 band. When an ability says your Edge #strong[counts as 1 higher] for a Resist, or gives #strong[Edge +1] to it, roll one more die; a penalty to Edge (such as #emph[Exposed] or #emph[Shaken]) rolls one fewer.
@@ -52,7 +52,7 @@ The chance columns show Edge 0 to 3 (2d to 5d). A single 12 is simply a highest 
 + If you Resist, add any armour that applies (Generic Playbooks @pb-armour-shields) and pay the cost. A cost you can't fully pay makes you run dry (@core-running-dry).
 + Record what is left with normal stacking. A status reduced to tier 0 isn't recorded.
 
-#strong[Once per application.] Resist each application of harm once. You can't make a second attempt against the same harm.
+#strong[Once per application.] Resist each application of harm, and each complication, once. You can't make a second attempt against the same harm or complication.
 
 #strong[What Resistance can't touch.] Resistance changes an imposed consequence. It doesn't reverse the action's success, restore lost Disposition or revoke an agreed outcome. You can't Resist:
 - ordinary Disposition loss in a conflict (@core-actions-effects);
@@ -60,7 +60,7 @@ The chance columns show Edge 0 to 3 (2d to 5d). A single 12 is simply a highest 
 - a cost you accepted in a concession (@core-defeat-mutual-defeat-concession), or any other cost you accepted as payment for a benefit;
 - a running-dry status (@core-running-dry-statuses).
 
-#strong[Protected payments.] You can't Resist a protected payment (@core-costs-failures-complications). Treatment and healing still work on a recorded status (@core-treatment-healing). Compromise statuses imposed under @core-compromise aren't protected payments. You can Resist them, but that doesn't revoke the concession, and removing the injury creates no replacement cost.
+#strong[Protected payments.] You can't Resist a protected payment (@core-costs-failures-complications). Treatment and healing still work on a recorded status (@core-treatment-healing). Compromise statuses imposed under @core-compromise aren't protected payments. You can Resist them, but that doesn't revoke the concession, and removing the injury creates no replacement cost. Taking a complication instead of buying it off isn't accepting a payment: you can still Resist it (@core-doubles).
 
 === 6.1 Running Dry <core-running-dry>
 #strong[Trigger.] You #strong[run dry] when a positive cost brings a pool to 0 or is more than the points left in it. Finish the action or Resistance that caused the cost, then take a harmful #strong[running-dry status] for that pool (@core-running-dry-statuses). Running dry does not, on its own, take you out, give you a Scar or refill the pool.

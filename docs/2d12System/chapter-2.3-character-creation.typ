@@ -238,7 +238,7 @@ The GM might offer a delegation in exchange for escorting a vulnerable supply ca
 #colbreak()    
 - #strong[Load-out:] choose light, normal or heavy load before the mission, then declare playbook-kit items as you need them and mark their load; don't buy a full item list in advance. Signature items are chosen at creation and count against load when carried; always-carried items and items marked (0) follow their listed rules (Generic Playbooks @pb-load). In conflicts, declare active gear before scripting each exchange (@core-conflict-gear-assets).
 - #strong[Circle and contact.] Name one #strong[social circle] (#emph[Dock Workers], #emph[The Archive Staff]) and one #strong[named contact] in it or elsewhere. Record both as contact Truths. The circle answers #emph[who here might help?]; the contact answers #emph[whom can I ask, and what might it cost them?]
-
+#colbreak()
 #strong[Using contacts.] Routine help that fits the relationship needs no roll. When access, discretion or cost is uncertain, roll an existing skill such as Persuade or Empathy; there is no separate Network skill or loyalty track. On a Success with Complication, you get the introduction, shelter or supplies, and the complication can be that you owe a favour or expose the relationship. A favour owed uses Module E.7 when that module is in play. A starting contact grants no free Discover, Help or turn; abilities such as #emph[Contacts] and #emph[Network] add those benefits.
 
 #strong[Ordinary gear, borrowed or bought locally.] Getting an ordinary item you didn't bring is a contact or circle question, not a separate inventory. Load covers what you brought; a contact covers what you can find now; an optional flashback covers what you arranged earlier (@core-prepared-advance).

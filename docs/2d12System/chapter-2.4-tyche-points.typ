@@ -54,6 +54,6 @@ Once per session, you may spend #strong[1 Tychē Point] to establish one plausib
 - #strong[Roll only if it was uncertain.] If the earlier action would have needed a roll that matters, make it now, using the normal rules.
 - #strong[No rewriting.] It can't contradict an established fact, erase a resolved consequence, or reverse a cost already paid. #emph[The ferry we just watched burn was a decoy] isn't allowed.
 - #strong[Declaration limits apply.] Like Declare, it can't resolve an action by itself, buy status tiers, Condition ratings or Disposition, change Truths above scene scale, or recalculate Superiority after setup. In scripted conflicts, @core-conflict-limits-reference sets its timing.
-#colbreak()    
+    
 Load covers what you brought; contacts cover what you can find now (@core-starting-resources); a flashback covers what you arranged earlier.
 ]

@@ -86,8 +86,7 @@ Preparation can weaken an opposing side before the conflict begins. Gain 1 Super
 Each category applies once and requires a distinct material advantage affecting the opposing side and the declared stakes. Rephrasing one advantage doesn't qualify it for several categories.
 
 After all other starting-Disposition modifiers and the minimum of 1, reduce each opposing total by your Superiority, to a minimum of 0. Determine both adjusted totals before resolving the outcome. Superiority isn't tracked or spent afterward.
-
-#colbreak()    
+    
 ==== Overwhelming Preparation
 - Only one side at 0: its opponent wins at no cost, within the declared intent and stakes. Don't script exchanges or calculate compromise.
 - Both sides at 0: resolve mutual defeat (@core-defeat-mutual-defeat-concession), without scripting or a winner's compromise. Neither receives an outright or no-cost victory.
@@ -136,8 +135,7 @@ If it continues, script another exchange.
 #colbreak()
 ==== Coordination and Rotation
 A side may appoint a coordinator to record its script and acting order. The coordinator doesn't have exclusive authority over the group's decisions.
-Rotation runs in rounds and carries across exchanges. Each round, every available participant acts once, in any order, and nobody acts in two volleys in a row unless they are the only one available. Helping doesn't count as a turn.
-#colbreak()    
+Rotation runs in rounds and carries across exchanges. Each round, every available participant acts once, in any order, and nobody acts in two volleys in a row unless they are the only one available. Helping doesn't count as a turn.    
 Update rotation when someone joins, withdraws, or becomes unable to act. Assigning an action that later proves unsuitable doesn't permit a free replacement.
 
 ==== Changing a Script
@@ -165,10 +163,10 @@ In short: Feint beats Defend and loses to Attack; two Attacks, two Defends or tw
 
 ==== Independent Tests
 Roll against Standard 15, adjusted by explicit difficulty modifiers such as adversary Guard; statuses and Situational Conditions modify the roll (@core-roll), and Truths decide what is possible (@core-truths). Tags add nothing to the roll. Classify each action's outcome and Power separately under @core-outcomes, and don't compare the actors' totals. A failed action generates no Power. Complete both independent actions before checking defeat or mutual defeat.
-
-#colbreak()    
+   
 ==== Versus Tests
 Both actors roll, retaining their Complication die and highest other action die (@core-roll). Compare final totals. The higher total wins and generates its Tag Power + 1 Power, plus 1 for every full 3 points of margin. The loser generates no Power, including Tag Power.
+#colbreak()
 Each actor's own retained faces classify their outcome (@core-outcomes). The winner's Critical Success adds +1 Power. Matching dice never override a higher opposing total.
 Winning prevents the opposing action's normal effect, even if all Power funds permitted supplementary Effects rather than loss or recovery. Cancelling or reducing the loser's complication doesn't turn their action into a success or prevent the winner's purchased Effects.
 
@@ -227,7 +225,7 @@ Additional grants don't stack, refresh or extend pending Gain Position.
 
 Impede isn't a tiered status. Multiple pending Impedes don't stack, increase its penalty or extend its duration. Restore doesn't remove it merely because Restore removes statuses. Impede doesn't itself restrain, immobilise or render someone helpless.
 
-An ongoing hindrance needs its own name, tier or rating, scope and removal condition (@core-effects), and Impede and other tactical effects don't become statuses or Conditions automatically. For example: #emph[Entangled] --- harmful status 2 --- movement and actions requiring free limbs --- ends when the net is cut or the target escapes. State fictional restrictions directly; a helpless body or inaccessible weapon isn't shorthand for temporary Impede.
+An ongoing hindrance needs its own name, tier or rating, scope and removal condition (@core-effects), and Impede and other tactical effects don't become statuses or #colbreak()Conditions automatically. For example: #emph[Entangled] --- harmful status 2 --- movement and actions requiring free limbs --- ends when the net is cut or the target escapes. State fictional restrictions directly; a helpless body or inaccessible weapon isn't shorthand for temporary Impede.
 
 ==== Disarming and Denying Options
 Identify the disabled asset and explain how. Disabling one asset removes an action category only if it was the side's only plausible means of performing that action. A replacement may restore access when the fiction permits. Switching equipment doesn't itself change a script.
@@ -283,8 +281,7 @@ Power mitigation addresses the actor's eligible triggered complication, not an o
 
 ==== Explicit Risks and Harm
 Abilities, hazards, Risky rolls, scenery Dangers and other explicit rules may impose their stated consequences. Resolve these separately from ordinary Disposition loss.
-
-#colbreak()    
+   
 ==== Protected Payments
 #strong[What counts.] A protected payment is a consequence accepted in exchange for a benefit: an accepted injury trade (@core-accepting-injury), a running-dry status from paying a cost (@core-running-dry-statuses), an agreed concession cost (@core-defeat-mutual-defeat-concession), or any other cost accepted as payment. Choosing an imposed complication instead of its Woe buyoff doesn't make it a protected payment; mitigation and Resistance still address it where permitted (@core-doubles).
 

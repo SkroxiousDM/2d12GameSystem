@@ -36,8 +36,7 @@
 - complications bought off: 1, 2 or 3 by original severity (@core-doubles);
 - Escalation (+1, @core-escalation);
 - a dangerous circumstance (lethal stakes or a listed Danger, @core-dangers-conflicts) first becoming relevant in a scene: +1, and no more than +1 per scene from dangerous circumstances in total.
-
-#colbreak()    
+    
 #figure(
   [#table(
     columns: (65%, 35%),

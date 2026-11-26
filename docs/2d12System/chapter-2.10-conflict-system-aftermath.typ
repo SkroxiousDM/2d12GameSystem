@@ -1,11 +1,10 @@
 #import "common.typ": *
 
 #columns(2, gutter: 6mm)[
-#colbreak()
 === 10.8 Scenery Maneuvers <core-scenery-maneuvers>
 A Maneuver may exploit an established feature: a Scene Truth, Situational Condition or established fact. If it isn't established, create or discover it first.
 
-Name the feature when scripting. If it is unavailable at resolution, the Maneuver produces no scenery effect; don't substitute another feature for free.
+Name the feature when scripting. If it is unavailable at resolution, the Maneuver produces no scenery effect; #colbreak()don't substitute another feature for free.
 
 Each feature supports one scenery action per conflict unless its nature clearly permits reuse.
 ]
@@ -189,7 +188,7 @@ A complication on an NPC's action follows the NPC procedure in @core-doubles: th
 NPC defeat uses @core-defeat-mutual-defeat-concession. Capture, escape, injury and death follow the stakes and outcome. Use a #emph[Dying] clock when rescue matters, not to make an accepted rescue objective impossible.
 
 Creature-specific rules remain in force, including breaking points that replace the tier-6 procedure (@core-tier-6-scars). Immunity may stop an unsuitable status without stopping Disposition loss in a contest the creature can lose.
-
+#colbreak()
 === 10.15 Order of Resolution <core-order-resolution>
 #strong[Setup]
 1. Establish objectives, stakes, participants and exits.

@@ -49,8 +49,8 @@ Truths come from agreed setup, actions, discovery, explicit abilities or purchas
 === 8.4 Changing and Ending Truths <core-changing-ending-truths>
 - #strong[Change the fact.] Lift the bar, disperse the gas, repair the bridge, obtain the seal. Use no roll, a test, a conflict or a project, whichever fits. Truths aren't worn down rank by rank; track partial progress with a clock, a Situational Condition or a revised fact.
 - #strong[Duration.] Established facts last until something changes them. A created Truth also follows its creating rule's duration and ending condition.
+#colbreak()
 - #strong[Expiry doesn't rewind.] When a Truth ends, describe why: the passage closes, support is withdrawn, the authorisation lapses. Its end never reverses a completed action or erases a consequence; a crossing already made isn't undone when the route closes. Removing a cause doesn't heal a separate injury.
-
 === 8.5 Dangers and Conflicts <core-dangers-conflicts>
 - #strong[Dangerous circumstances.] A circumstance is dangerous when it carries established lethal stakes or a listed Danger (#emph[Gas Leak], #emph[Collapsing Floor]; @core-scenery-maneuvers), not because of a rating. It can be a Truth, a Situational Condition or both. Record its scope, what exposes someone to it, its consequence, and how it can be avoided, Resisted or mitigated. Woe from dangerous circumstances is capped per scene (@core-woe).
 - #strong[In conflicts,] Truths set approaches and scenery. They don't by themselves cancel scripts, grant turns, change Disposition, take participants out, override action interactions or settle a disputed objective; only an explicit ability can. If changing a Truth could settle the conflict, establish that before the deciding action resolves. Conflicts add further limits on creating Truths (@core-conflict-limits-reference).

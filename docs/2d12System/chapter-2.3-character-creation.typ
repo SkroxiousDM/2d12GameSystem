@@ -82,7 +82,7 @@ The playbook's anchor skill must sit at +3 or +4. The pyramid rule (each tier mu
 The default pool pays for Effort and Resistance. The GM can allow another pool when the fiction supports it (Intimidate with Sōma = looming; with Pneuma = cold menace).
 
 ==== Specialisations
-// PLAYTEST: Specialisation die. Track how often it applies, whether it changes the kept pair, and whether it replaces Effort or Woe.
+// PLAYTEST: Specialisation die. Track how often it applies, whether it changes the retained pair, and whether it replaces Effort or Woe.
 A #strong[Specialisation] names a narrow application of a rated skill: write it as #emph[Skill (Specialisation)], such as #emph[Medicine (Trauma Care)], #emph[Craft (Precision Mechanisms)] or #emph[Persuade (Mediation)].
 
 - #strong[Benefit.] When a test uses that skill and the Specialisation directly applies to your approach, add #strong[one free bonus die] (@core-bonus-dice-effort). It counts toward the +2 cap. Only one Specialisation applies per test. At the cap it gives no substitute benefit.

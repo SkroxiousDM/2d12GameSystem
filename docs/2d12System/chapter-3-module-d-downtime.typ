@@ -57,7 +57,7 @@ For an unlisted activity, the GM names a skill, a Light or Strenuous tag and the
 - #strong[Prepare] can supply Superiority (Core Rules @core-superiority) only against #strong[named opposition declared beforehand], only one category per stay, and only if the preparation is concrete. The cap of 3 per conflict still applies, and one preparation can't be renamed into several categories.
 
 === D.5 Projects <mod-projects>
-  A #strong[project] is any goal too big for one endeavour. Use an #strong[8- or 12-segment clock] (Core Rules @core-progress-clocks), ticked by Advance. Each roll toward it costs 1 Check.
+  A #strong[project] is any goal too big for one endeavour. Use an #strong[8- or 12-segment clock] (16 for a Region Truth, C.6) (Core Rules @core-progress-clocks), ticked by Advance. Each roll toward it costs 1 Check.
 
 #figure( [#table( columns: (62%, 10%, 28%), align: (auto,auto,auto,), table.header([Project], [Size], [Notes],), table.hline(), [Crafting a notable item, restoring a workshop], [8], [Needs access and materials], [Restoring a depleted artifact (A.2)], [8], [Needs fitting tools], [Adapting to permanent harm (Core Rules @core-permanent-harm): prosthesis, retraining, workaround], [8], [Does not remove a Scar], [Changing a Scar (Core Rules @core-tier-6-scars)], [12], [Completing the clock counts as the milestone], [Changing a site (C.6)], [12], [A Site Truth], [Changing a region (C.6)], [16], [A Region Truth], )] , kind: table )
 

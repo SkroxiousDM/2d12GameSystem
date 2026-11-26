@@ -29,7 +29,7 @@ When an imposed harmful status or a complication lands on you (a complication mi
 
 The chance columns show Edge 0 to 3 (2d to 5d). A single 12 is simply a highest die in the 9--12 band. When an ability says your Edge #strong[counts as 1 higher] for a Resist, or gives #strong[Edge +1] to it, roll one more die; a penalty to Edge (such as #emph[Exposed] or #emph[Shaken]) rolls one fewer.
 
-// PLAYTEST: single-die negative Edge. Average cost at −2 rises from 2.44 to 2.67; at −3 it stays 2.67. Check how often stacked penalties reach −2.
+// PLAYTEST: single-die negative Edge. Average cost at −2 rises from 2.44 (previous rule) to 2.67; at −3 it stays 2.67. Check how often stacked penalties reach −2.
 #strong[Negative Edge.] If penalties take Edge below 0 for a Resist, roll #strong[1d12]. At #strong[Edge −2 or lower], the cost is 1 higher than listed (maximum 3). A single die can't give the double-12 result.
 
 #figure(

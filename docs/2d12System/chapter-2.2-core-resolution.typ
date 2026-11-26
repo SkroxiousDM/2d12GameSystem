@@ -196,6 +196,8 @@ For an incoming harmful status, use normal 2-tier Resistance instead; don't appl
 
 #strong[Boundaries.] Cancelling or reducing a complication doesn't reverse failure, revoke purchased Effects, award replacement Woe or create a replacement cost. Mitigation and Resistance address consequences as they unfold; they don't erase already-resolved events. Unavoidable costs and protected payments remain excluded, including explicitly accepted concession terms or an injury trade (@core-costs-failures-complications). Choosing an imposed complication instead of its buyoff doesn't turn it into a protected payment. Mitigation and narrative Resistance address eligible complications, not an opponent's ordinary purchased Disposition effect.
 
+#strong[GM-bought complications.] The GM may spend Woe to add a complication to a player's roll after it resolves and before the player chooses a response, whatever the outcome, paying 1, 2 or 3 Woe for minor, moderate or major severity (@core-woe). Add no more than one to a roll. State the concrete consequence and its severity first; it must arise from the established danger or situation. Resolve it like any other complication, including buyoff, mitigation and Resistance. The GM's Woe isn't refunded if the player buys it off.
+
 #strong[NPCs.] State the consequence and original severity first. The GM may cancel it by spending existing Woe equal to original severity: minor 1, moderate 2, major 3. Pay in full before mitigation; Woe can't be overrun. Declining or being unable to cancel generates no Woe. Otherwise the NPC may spend surplus action Power after Effect reservation, reducing one band per Power. Once mitigation begins, cancellation is unavailable. Treat distinct complications separately, using one shared action Power budget.
 
 These permissions grant ordinary NPCs no pool-based Effort, narrative Resistance or generic Woe purchase of additional Power. Existing explicit abilities, status-reduction procedures and full-PC resource rules retain their permissions. Cancellation or mitigation doesn't reverse failure, cancel an opposing purchased Effect or bypass scripted-conflict limits.
@@ -244,7 +246,7 @@ A face change belongs only to its roll. Keeping that roll preserves the change; 
 + Recalculate total and retained-face comparison using the current retained faces. Check further eligibility against the current result.
 + Repeat while choosing eligible abilities. Finish all manipulation before Effects or consequences begin resolving. Don't reopen the action roll afterward unless an explicit rule permits it.
 
-Costs remain spent even if a later manipulation replaces the affected roll or removes its benefit. A generic action reroll leaves the separate Risk die unchanged unless a rule explicitly permits rerolling it; the original Risk result remains.
+Costs remain spent even if a later manipulation replaces the affected roll or removes its benefit. A generic action reroll leaves the separate Risk die unchanged unless a rule explicitly permits rerolling it; the original Risk result remains. Invoke is such a rule: it rerolls any Risk die, and the new result replaces the old (@core-tyche-points).
 
 #emph[Example:] change a retained die, then use an ability offering a reroll and a choice of which complete roll to keep. Choose between the modified original roll and the reroll before using another manipulation ability. Keeping the original preserves its face change; keeping the reroll loses it. Further manipulation requires another eligible use and its normal cost.
 

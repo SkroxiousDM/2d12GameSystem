@@ -62,7 +62,7 @@ Compel: You accept a physical challenge to settle something that needed a differ
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Juggernaut];], [#ability(
+    [1], [#strong[★ Juggernaut];], [#ability(
       trigger: [You Resist physical harm with Sōma.],
       cost: [No additional cost.],
       benefit: [Reduce the incoming harmful status by #strong[3 tiers] instead of 2.],

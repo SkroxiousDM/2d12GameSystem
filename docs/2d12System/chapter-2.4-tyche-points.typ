@@ -12,11 +12,11 @@
 
 #strong[Resisting harder.] The Resistance still resolves normally, but its pool cost is 0, so it can't run the pool dry, even if the pool is already empty (@core-running-dry). It doesn't restore spent points or clear an existing running-dry status, and it can't Resist ordinary Disposition loss, an accepted compel or a protected payment (@core-costs-failures-complications).
 
-Scripted conflicts add timing limits to all three spends (@core-conflict-limits-reference).
+Scripted conflicts add timing limits to Invoke and Declare; Resist harder has none beyond Resistance's own timing (@core-conflict-limits-reference).
 
 #strong[Earn Tychē Points by:]
 
-- #strong[Accepting a compel] --- the GM or another player offers a meaningful complication based on any of your tags or Scars, Beliefs (@core-beliefs-goals-instincts) or your Instinct. Accept → +1 Tychē Point. Refuse → pay 1 Tychē Point.
+- #strong[Accepting a compel] --- the GM or another player offers a meaningful complication based on any of your tags or Scars, Beliefs (@core-beliefs-goals-instincts) or your Instinct. Accept → +1 Tychē Point. Refuse → pay 1 Tychē Point; with none to pay, you accept the compel and gain the point as usual.
 - #strong[Compelling yourself] --- propose the same kind of complication on yourself. If the GM agrees it meets the rules below, take the complication and gain +1 Tychē Point. Facing it can also earn XP (@core-earning-xp).
 
 #strong[What makes a compel]
@@ -36,7 +36,7 @@ Acting against a Belief is not refusing a compel and carries no automatic penalt
 
 === 4.1 Refresh <core-refresh>
 - #strong[Base Refresh is 3.] At the start of each session, your Tychē Points reset to your Refresh (if you have more, keep them, up to the cap).
-- #strong[Tychē cap.] You can hold at most #strong[Refresh + 3] Tychē Points. Any you would gain above the cap are lost.
+- #strong[Tychē ceiling.] You can hold at most #strong[Refresh + 3] Tychē Points. Any you would gain above the cap are lost.
 - #strong[Spending Refresh.] Creation extras and ★ abilities cost Refresh (@core-starting-resources).
 - An #strong[attuned artifact] (Module A) costs 1 Refresh while attuned, not merely while carried.
 - #strong[Minimum Refresh is 1.] Purchases can't take Refresh below 1. Your current Tychē Points can still drop to 0.

@@ -99,6 +99,8 @@ Independent consequences still apply, including a permitted Risky action's separ
   [Woe], [GM: opposition spending and escalation.],
 )
 
+#strong[Weal] decays by 1 at the end of each scene. Spend it for a bonus die (1, then 2), +1 Power on a success (2), a Discover question (1), Create a Truth (2), changing an unrevealed scripted action (2) or Reduce Woe by 1 (2) (Core Rules @core-weal-woe). #strong[Woe] starts at 2 per PC each session.
+
 === Statuses, Conditions and Truths
 Record a status or Situational Condition as *name --- category/rating --- scope --- ending condition* (Core Rules @core-effects). Personal statuses (states of a person) and Situational Conditions (external circumstances) are separate slots: apply the highest relevant helpful and harmful one from each. Truths are recorded as *name --- Truth/scale --- scope --- ending condition* and give no modifier (Core Rules @core-truths). Names alone do not establish scope. Impede is not a status; Grind hardships use Module B.3.
 
@@ -119,7 +121,7 @@ Ordinary Disposition loss and accepted payments cannot be Resisted.
 === Running dry
 A cost that empties a pool imposes depletion at *tier 1 + overrun*. Overrun is the amount by which the cost exceeds points remaining.
 
-Only Resistance and imposed costs may overrun unless explicitly permitted. A cost of 0 never runs dry. Depletion stacks normally. At tier 6, you are Taken Out within its scope and gain one Scar, at most once per scene.
+Only Resistance and imposed costs may overrun unless explicitly permitted. A cost of 0 never runs dry. Depletion stacks normally. At tier 6, you are Taken Out within its scope and gain one Scar, at most once per scene. If that status takes you out, finish only the action or Resistance whose cost caused it.
 
 The pool and depletion recover separately: 2 recovery points remove 1 depletion tier.
 

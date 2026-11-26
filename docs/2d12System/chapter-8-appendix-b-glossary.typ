@@ -40,7 +40,7 @@
 == C
 #glossary-entry("Campaign Truth.", [A foundational setting or campaign fact, normally agreed at session zero. Changing one requires a major arc, not a scene-scale Create purchase. See also Scale; Truth. Core Rules @core-scale.])
 #glossary-entry("Capstone (◆).", [A playbook's final ability. Available after 12 Advances and at least four abilities from that playbook; costs an Advance but no Refresh. A character may have only one. Core Rules @core-spending-xp.])
-#glossary-entry("Case clock.", [In Module F, the six-segment #emph[They Know We Know] clock tracking opposition response to noise, delay or failed Probes. Completion prompts decisive action, not disappearance of required clues. Module F.5.])
+#glossary-entry("Case clock.", [In Module F, the six-segment #emph[They Know We Know] clock tracking opposition response to noise or delay, including a Probe complication that costs time or makes noise. Completion prompts decisive action, not disappearance of required clues. Module F.5.])
 #glossary-entry("Check.", [In Modules B and D, permission for a Players' Turn activity or downtime endeavour. Earned through the specified tag- or Scar-based expedition penalty, or granted by the module's free allowance. A Check permits an attempt, not automatic success. Modules B.4 and D.2.])
 #glossary-entry("Clean Success.", [A successful action with the Complication die lower than the other retained die. Generates normal success Power and no comparison-based complication. Independent triggers still apply. Core Rules @core-outcomes.])
 #glossary-entry("Clock.", [See Progress clock.])
@@ -138,7 +138,7 @@
 
 == J–K
 #glossary-entry("Journey clock.", [Module B's journey-completion clock. Travel roles advance it or address associated needs; progress is separate from conflict Disposition. Module B.5.])
-#glossary-entry("Kept dice.", [The designated Complication die and highest single other action die. Retention is mandatory; do not select a lower die to create a match. Use this pair for both total and outcome comparison. Explicit face changes preserve die identity and do not reopen discarded dice. Core Rules @core-roll; @core-dice-manipulation.])
+#glossary-entry("Kept dice.", [Also called the retained dice. The designated Complication die and highest single other action die. Retention is mandatory; do not select a lower die to create a match. Use this pair for both total and outcome comparison. Explicit face changes preserve die identity and do not reopen discarded dice. Core Rules @core-roll; @core-dice-manipulation.])
 #glossary-entry("Kind.", [An adversary category such as Human, Beast or Guardian supplying traits and available Specials; distinct from Rank and Role. Adversaries @adv-kind-packages.])
 #glossary-entry("Knowledge Skill.", [An unrated expertise establishing knowledge and permission, not dice or modifiers. Routine professional facts need no roll. Core Rules @core-skill-pyramid.])
 

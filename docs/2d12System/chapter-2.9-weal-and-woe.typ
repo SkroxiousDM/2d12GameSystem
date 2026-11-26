@@ -31,9 +31,7 @@
 
 #strong[The GM gains Woe from:]
 - players paying for dice or other Weal spends with Woe (1 per point);
-- Success at a Cost, if the player chooses Woe (+1);
-- failures (+1);
-- complications bought off (+2);
+- complications bought off: 1, 2 or 3 by original severity (@core-doubles);
 - Escalation (+1, @core-escalation);
 - a dangerous circumstance (lethal stakes or a listed Danger, @core-dangers-conflicts) first becoming relevant in a scene: +1, and no more than +1 per scene from dangerous circumstances in total.
 
@@ -44,14 +42,14 @@
     align: (auto,auto,),
     table.header([GM spend], [Cost],),
     table.hline(),
-    [Complication or minor twist], [1],
+    [Complication on a player's roll (@core-doubles)], [1 minor / 2 moderate / 3 major],
     [Tick a danger clock], [1 per segment],
     [NPC bonus die], [1 per die],
     [Activate an NPC/monster special ability], [1--3],
     [Create a Truth], [2],
     [Reinforcements], [1 per minion, 3 for a significant NPC],
     [Change one unrevealed action in the NPC side's script (@core-scripting-volleys)], [3],
-    [Cancel an NPC's complication from the dice (@core-doubles)], [2],
+    [Cancel an NPC's complication (@core-doubles)], [1 / 2 / 3 by original severity],
     [Make a roll Risky 1, or raise its Risk by 1 (@core-risky-rolls)], [1],
   )]
   , kind: table
@@ -60,9 +58,11 @@
 // PLAYTEST: scene-wide cap on dangerous-circumstance Woe, replacing +1 per dangerous Truth; check hazard-heavy scenes.
 #strong[Danger Woe.] There is no extra Woe for each target, duplicate description or higher rating, and none from a hazard the GM created by spending Woe in that scene. Gaining this Woe doesn't activate the hazard: a listed scenery Danger still costs 1 Woe to trigger, and a danger clock 1 Woe per segment.
 
+#strong[Buying a complication.] After a player's roll is resolved and before the player chooses a response, the GM may spend Woe to add a complication to it, whatever the outcome. The GM states the concrete consequence and its severity first, then pays 1 Woe for minor, 2 for moderate or 3 for major. Add no more than one Woe-bought complication to a roll. It must arise from the established danger or situation. The player responds as with any other complication: Woe buyoff, then Power mitigation, then Resistance (@core-doubles). The GM's Woe isn't refunded if the player buys it off.
+
 #strong[Complications carry no free rating.] A complication bought with Woe doesn't include an unnamed status or Situational Condition. Use a listed effect or an NPC action when numerical interference is intended; Conditions can still arise from properly resolved failures, hazards or explicit abilities.
 
-#strong[In conflicts,] failure, Success at a Cost and Woe spends follow @core-costs-failures-complications. Explicit Woe spends, Specials, hazards and Risky rolls keep their stated effects.
+#strong[In conflicts,] complications and Woe spends follow @core-costs-failures-complications. Explicit Woe spends, Specials, hazards and Risky rolls keep their stated effects.
 
 === 9.3 Escalation <core-escalation>
 Some acts and items make a situation more dangerous just by being there. They carry the #strong[Escalation] tag. It supplies no Power and doesn't count toward the tag cap.

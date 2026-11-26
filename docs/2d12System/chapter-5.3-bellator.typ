@@ -62,48 +62,48 @@ Compel: You accept a physical challenge to settle something that needed a differ
     align: (auto,auto,auto,),
     table.header([\#], [Ability], [Effect],),
     table.hline(),
-    [1], [#strong[Juggernaut];], [#ability(
-      trigger: [You Resist physical harm with Sōma.],
-      cost: [No additional cost.],
-      benefit: [Reduce the incoming harmful status by #strong[3 tiers] instead of 2.],
-      limit: [Only physical harm Resisted with Sōma. All other Resistance rules work normally.],
-    )],
-    [2], [#strong[Brutal];], [#ability(
+    [1], [#strong[Brutal];], [#ability(
       trigger: [You spend Power on a successful Fight or Brawl Attack.],
       cost: [No additional cost beyond the Power spent on the Attack.],
       benefit: [Choose one: remove #strong[1 additional Disposition] with ordinary Attack loss, or raise a harmful status the Attack inflicts by #strong[1 tier for free].],
       limit: [Once per roll. It adds no status to an ordinary conflict Attack and doesn't improve a creature-specific finishing procedure.],
     )],
-    [3], [#strong[Bodyguard];], [#ability(
+    [2], [#strong[Bodyguard];], [#ability(
       trigger: [An ally within reach would suffer an imposed consequence you can plausibly intercept. Declare this before their Resistance.],
       cost: [Take the consequence instead of your ally. If you Resist, pay your own Resistance cost.],
       benefit: [Use your own reduction. If you Resist, your Edge counts as 1 higher for that Resistance.],
       limit: [You can't take shared Disposition loss, a protected payment or an area effect that already hits you both.],
     )],
-    [4], [#strong[Cleave];], [#ability(
+    [3], [#strong[Cleave];], [#ability(
       trigger: [You attack a group or minions.],
       cost: [No additional cost for the Extra Feat.],
       benefit: [Gain #strong[one free Extra Feat] (hit a second target, break their line, and so on).],
       limit: [One free Extra Feat per roll.],
     )],
-    [5], [#strong[Menacing];], [#ability(
+    [4], [#strong[Menacing];], [#ability(
       trigger: [You use Intimidate Effort or Resistance, or you succeed on Intimidate against minions.],
       cost: [Pay the normal cost for Effort or Resistance. After succeeding against minions, spend 1 Weal for the second benefit.],
       benefit: [You may use #strong[Sōma] for Intimidate Effort and Resistance. After succeeding against minions, you may make them flee, surrender or freeze.],
       limit: [Flee, surrender or freeze applies only to minions and needs a successful Intimidate action. The response lasts until a meaningful change in circumstances ends it; establish that ending condition when it takes effect. Fleeing or surrendered minions don't resume opposition merely because a new exchange or scene begins. Surrender is submission to the immediate demand, not loyalty or unlimited obedience. Freezing is hesitation under threat, not paralysis.],
     )],
-    [6], [#strong[Pain Tolerance];], [#ability(
+    [5], [#strong[Pain Tolerance];], [#ability(
       trigger: [A harmful physical status would apply a penalty to your roll.],
       cost: [No additional cost.],
       benefit: [Ignore the penalty from a status of tier 1--2; at tier 3+, reduce it by 1.],
       limit: [Only the penalty changes: the tier, stacking, recovery, Taken Out, #emph[Dying] and Scars work normally.],
     )],
     // PLAYTEST: Weary fallback (exhausted −2) for games without Module B.
-    [7], [#strong[Berserker];], [#ability(
+    [6], [#strong[Berserker];], [#ability(
       trigger: [You enter a fury.],
       cost: [At scene end, lose 2 Sōma (paid in full) or take #emph[Weary] (Module B; without it, #emph[exhausted −2] until a night's rest). Either is an accepted payment.],
       benefit: [#strong[+1 bonus die] (free) on Fight, Brawl and Athletics rolls for the rest of the scene.],
       limit: [Once per scene. While the fury lasts, you can't script Defend or retreat. The bonus die counts toward the normal bonus-dice cap.],
+    )],
+    [7], [#strong[★ Juggernaut];], [#ability(
+      trigger: [You Resist physical harm with Sōma.],
+      cost: [No additional cost.],
+      benefit: [Reduce the incoming harmful status by #strong[3 tiers] instead of 2.],
+      limit: [Only physical harm Resisted with Sōma. All other Resistance rules work normally.],
     )],
     [8], [#strong[★ Unstoppable];], [#ability(
       trigger: [A harmful physical status on you reaches #strong[tier 6].],

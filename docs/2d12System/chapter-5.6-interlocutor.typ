@@ -81,9 +81,9 @@ Compel: You speak beyond your mandate or become personally accountable for the g
     )],
     [4], [#strong[Smooth Recovery];], [#ability(
       trigger: [You fail a Persuade, Deceive or Empathy test against a Difficulty. Use it before Power or consequences apply.],
-      cost: [Pay the Success at a Cost price instead of ordinary-failure Woe.],
-      benefit: [Turn it into #strong[Success at a Cost] with #strong[1 Power], whatever the margin.],
-      limit: [Once per scene. Independent tests only, not losing, tied or trumped versus tests. Doubles and other separate consequences still apply.],
+      cost: [No additional cost.],
+      benefit: [Turn it into a #strong[Success with Complication] with #strong[1 Power], whatever the margin. The complication follows the normal rules (Core Rules @core-doubles); if the failure was a Critical Failure, the complication stays major.],
+      limit: [Once per scene. Independent tests only, not losing, tied or trumped versus tests. Independent complications, such as a Risk die, still apply.],
     )],
     [5], [#strong[Many Faces];], [#ability(
       trigger: [You have a moment to prepare.],

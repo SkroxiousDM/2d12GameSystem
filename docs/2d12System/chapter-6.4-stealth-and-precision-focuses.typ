@@ -89,7 +89,7 @@ Compel: You give ground or separate from allies to avoid a close confrontation.
     table.header([Tier], [Ability], [Effect],),
     table.hline(),
     [1], [#strong[Called Shot];], [#ability(
-      trigger: [You succeed on a Shoot roll, including Success at a Cost.],
+      trigger: [You succeed on a Shoot roll, including a Success with Complication.],
       cost: [No additional Power.],
       benefit: [Suppress one target tag that your shot can plausibly undermine for the rest of the scene.],
       limit: [Once per roll. Suppression removes only that tag's numerical bonus; it does not disable the asset, remove its other permissions, or prevent its use. In a conflict, disabling an asset requires Disarm or an ability that explicitly permits it.],

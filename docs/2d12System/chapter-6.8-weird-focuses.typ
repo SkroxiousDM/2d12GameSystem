@@ -42,7 +42,7 @@ Compel: The hunt intrudes on a safe place, relationship, or unrelated obligation
     [2b], [#strong[Ward the Threshold];], [#ability(
       trigger: [You spend an uninterrupted scene preparing one clearly defined entrance and state which side it protects.],
       cost: [The uninterrupted scene.],
-      benefit: [Supernatural creatures can't cross without overcoming the ward: a Will test against #strong[Formidable 21] (Success at a Cost counts). Success lets that creature cross and ends the ward against it; failure leaves it outside. In a scripted conflict, crossing takes a Maneuver resolved as an independent Will test, with no ordinary Maneuver effects; the opposing action also resolves independently.],
+      benefit: [Supernatural creatures can't cross without overcoming the ward: a Will test against #strong[Formidable 21] (a Success with Complication counts as a success; its complication applies under the normal rules). Success lets that creature cross and ends the ward against it; failure leaves it outside. In a scripted conflict, crossing takes a Maneuver resolved as an independent Will test, with no ordinary Maneuver effects; the opposing action also resolves independently.],
       limit: [Until the next dawn. At most one crossing attempt per exchange per creature. The ward doesn't stop attacks or Effects that reach across. Destroying the markings ends it.],
     )],
     [3a], [#strong[Unshake-able];], [#ability(

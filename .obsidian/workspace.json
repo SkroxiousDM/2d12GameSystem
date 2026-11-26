@@ -13,10 +13,10 @@
             "state": {
               "type": "typst-source",
               "state": {
-                "file": "docs/2d12System/the-2d12-system-v2-core-rulebook.typ"
+                "file": "docs/2d12System/chapter-3-module-f-inquiry-and-revelation.typ"
               },
               "icon": "file-type",
-              "title": "the-2d12-system-v2-core-rulebook"
+              "title": "chapter-3-module-f-inquiry-and-revelation"
             }
           },
           {
@@ -67,12 +67,12 @@
             "state": {
               "type": "typst-preview",
               "state": {
-                "vaultPath": "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
+                "vaultPath": "docs/2d12System/chapter-3-module-f-inquiry-and-revelation.typ",
                 "themeOverride": null,
                 "pinned": false
               },
               "icon": "book-open",
-              "title": "Preview: the-2d12-system-v2-core-rulebook.typ"
+              "title": "Preview: chapter-3-module-f-inquiry-and-revelation.typ"
             }
           }
         ]
@@ -242,17 +242,32 @@
   },
   "active": "7aa6f6322e6f3252",
   "lastOpenFiles": [
+    "docs/2d12System/drafts/hand-edits-12-design-pillars-complication-die-resolution.md",
+    "docs/2d12System/drafts/hand-edits-13-module-e-adversaries-complication-die-resolution.md",
+    "docs/2d12System/drafts/hand-edits-11-chapter-2-3-complication-die-resolution.md",
+    "docs/2d12System/drafts/hand-edits-09-module-f-complication-die-resolution.md",
+    "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
+    "docs/2d12System/drafts/hand-edits-08-module-e1a-complication-die-resolution.md",
+    "docs/2d12System/drafts/hand-edits-06-module-c-complication-die-resolution (1).md",
+    "docs/2d12System/drafts/hand-edits-07-module-d-complication-die-resolution.md",
+    "docs/2d12System/drafts/hand-edits-06-module-c-complication-die-resolution.md",
+    "docs/2d12System/drafts/hand-edits-05-recovery-complication-die-resolution.md",
+    "docs/2d12System/drafts/hand-edits-04-interlocutor-complication-die-resolution.md",
+    "docs/2d12System/drafts/hand-edits-complication-die-resolution.md",
+    "docs/2d12System/drafts/hand-edits-02-glossary-complication-die-resolution.md",
+    "docs/2d12System/drafts/hand-edits-03-example-of-play-complication-die-resolution.md",
+    "docs/2d12System/drafts/npc-complication-integration.md",
+    "docs/2d12System/drafts/complication-die-resolution.md",
+    "docs/2d12System/chapter-adversaries-part-4.typ",
+    "docs/2d12System/chapter-8-appendix-b-glossary.typ",
+    "docs/2d12System/authors-note.typ",
+    "STYLE-GUIDE.md",
     "docs/2d12System/chapter-5.9-design-notes.typ",
     "docs/2d12System/chapter-5.8-adept.typ",
     "docs/2d12System/chapter-5.7-explorator.typ",
     "docs/2d12System/chapter-5.6-interlocutor.typ",
     "docs/2d12System/chapter-5.5-savant.typ",
     "docs/2d12System/chapter-5.4-furcifer.typ",
-    "docs/2d12System/chapter-5.3-bellator.typ",
-    "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
-    "docs/2d12System/chapter-5-playbooks.typ",
-    "docs/2d12System/chapter-4-descriptors.typ",
-    "docs/2d12System/chapter-7-appendix-a-quick-reference.typ",
     "docs/design/truths-conditions-review-flags.md",
     "docs/design/four-field-ability-review-flags.md",
     "docs/design/Rules Audit/simplicity-flow/core-rules-pass6-notes.md",
@@ -263,21 +278,6 @@
     "docs/2d12System/README.md",
     "docs/playtest/engine_v2/ENCOUNTERS_STATE.md",
     "docs/design/Rules Audit/simplicity-flow/optional-modules-pass2-notes.md",
-    "docs/design/Rules Audit/simplicity-flow/generic-playbooks-pass1-notes.md",
-    "docs/design/Rules Audit/simplicity-flow/optional-modules-pass1-notes.md",
-    "docs/design/Rules Audit/simplicity-flow/generic-focuses-pass1-notes.md",
-    "docs/design/Rules Audit/simplicity-flow/core-rules-pass5-notes.md",
-    "docs/design/Rules Audit/simplicity-flow/core-rules-pass3-notes.md",
-    "docs/design/Rules Audit/simplicity-flow/core-rules-pass4-notes.md",
-    "docs/design/Rules Audit/simplicity-flow/core-rules-pass2-notes.md",
-    "docs/design/Rules Audit/simplicity-flow/core-rules-pass1-notes.md",
-    "docs/design/Rules Audit/simplicity-flow/balance-flags-review-notes.md",
-    "docs/2d12System/drafts/ideas-for-V2.md",
-    "docs/design/2d12-system-proposal.md",
-    "docs/design/ideas-for-V2.md",
-    "README.md",
-    "CHANGELOG.md",
-    "changelog/history-through-2026-10-30.md",
     "docs/2d12System/art/playbooks/generic/06-adept.png",
     "docs/2d12System/art/playbooks/generic/06-adept.jpg",
     "docs/2d12System/art/playbooks/generic/05-explorator.png",

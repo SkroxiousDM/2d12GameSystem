@@ -205,8 +205,9 @@
     ]
     note[
       *Roll 2d12 + Skill ± Status ± Condition* vs. Difficulty: Easy 12 · Standard 15 · Hard 18 · Formidable 21 · Heroic 24. Truths give no modifier; they decide what is possible. \
-      *Meet it:* Success, Tag Power + 1 (+1 per full 3 over). *Miss by 1–3:* Success at a Cost, Tag Power only (a consequence or GM +1 Woe, your choice). *Miss by 4+:* Failure, GM +1 Woe. \
-      *Doubles:* success +1 Power; failure or cost, a complication (buy off: GM +2 Woe). Double 12s: success, +2 Power. Double 1s: always a complication. \
+      *Meet it:* Success, Tag Power + 1 (+1 per full 3 over). Below it: Failure, no Power and no Woe. \
+      *Outcome:* Complication die lower than the other die: Clean Success or Failure with a Benefit. Higher: Success with Complication or Failure with Complication. Matching: Critical Success (+1 Power) or Critical Failure (major complication). \
+      *Complications:* buy off at original severity by giving the GM 1 / 2 / 3 Woe (minor / moderate / major), mitigate with surplus Power, or Resist. The GM may buy one per roll for the same Woe. \
       *Bonus dice:* Effort · Weal (1, then 2) · give the GM Woe (1, then 2) · Help · Specialisation (free). Unspent Power → party *Weal* (max 6).
     ]
   },

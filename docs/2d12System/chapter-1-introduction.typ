@@ -45,9 +45,9 @@ When a rule here mentions another chapter, it uses that chapter's name and secti
   [*Weal*], [The party's shared pool of surplus Power ],
   [*Tychē* / *Tychē Points*], [Each PC's narrative currency: invoke tags, accept compels; set by Refresh],
   [*Sōma*], [Pool: strength, endurance, toughness, vitality. Resists wounds, poison, exhaustion, cold],
-  [*Mētis*], [Pool: alacrity, speed, precision, stealth, reflexes. Resists traps, falls, being caught],
-  [*Psychē*], [Pool: mind, intellect, perception, memory, cunning. Resists confusion, illusion, deception],
-  [*Pneuma*], [Pool: spirit, will, presence, faith, the supernatural. Resists fear, despair, possession, corruption],
+  [*Mētis*], [Pool: speed, precision, stealth, reflexes. Resists traps, falls, being caught or grabbed],
+  [*Psychē*], [Pool: mind, intellect, perception, memory, cunning. Resists confusion, illusion, deception, madness from knowledge],
+  [*Pneuma*], [Pool: spirit, will, presence, faith, the supernatural. Resists fear, despair, possession, corruption, social pressure],
 ))
 
 #figure(table(columns: (22%, 54%),

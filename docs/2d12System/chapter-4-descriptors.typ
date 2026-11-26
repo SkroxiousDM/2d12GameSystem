@@ -97,7 +97,7 @@ When you speak, people stop and listen, whether they want to or not.
 - #strong[Suggested Instinct:] \"If a crowd gathers, I take the stage.\"
 - #strong[Hook:] Who once followed you, and where did you lead them?
 - #strong[Tags:]
-- 
+
 #emph[All Eyes Turn to Me]
 
 Power: Hold attention, command a room, or distract an audience. \
@@ -402,9 +402,9 @@ Your word is iron. Once you decide, the world bends or breaks against you.
 
 - #strong[Identity:] Your will doesn't bend, even when the situation demands it.
 - #strong[Pool:] +2 Pneuma
-- #strong[Tags:] #emph[My Word Is Iron];, #emph[I Know What I Stand For]
 - #strong[Suggested Instinct:] \"If I give my word, I keep it.\"
 - #strong[Hook:] What promise are you still keeping, and to whom?
+- #strong[Tags:]
 
 #emph[My Word Is Iron]
 

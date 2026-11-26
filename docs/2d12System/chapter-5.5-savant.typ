@@ -106,7 +106,7 @@ Compel: You cross an ethical, legal, or personal boundary to obtain an answer.
     [8], [#strong[★ I Planned for This];], [#ability(
       trigger: [Any ally rolls. Use it after the roll, before Power is spent or consequences apply.],
       cost: [#strong[2 Psychē].],
-      benefit: [They reroll all dice and keep the better result.],
+      benefit: [They reroll the action roll, leaving any Risk die unchanged, and keep the better complete roll (Core Rules @core-dice-manipulation).],
       limit: [Once per scene. This replaces that roll; it isn't an extra action.],
     )],
     // PLAYTEST: Balance B6, field limited to about one skill's width.

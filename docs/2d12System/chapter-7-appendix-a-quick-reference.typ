@@ -37,7 +37,7 @@ Roll only when the outcome is uncertain and matters. Knowledge, backgrounds and 
 )
 
 === Bonus dice and Effort
-Keep the best two dice. Maximum +2 bonus dice from all sources, including free dice.
+Designate one action d12 as the Complication die. Always retain it and the highest single other action die. Never select a lower die to make a match. Maximum +2 bonus dice from all sources, including free dice.
 
 #table(columns: (28%, 72%),
   table.header([Source], [Cost]),
@@ -48,38 +48,44 @@ Keep the best two dice. Maximum +2 bonus dice from all sources, including free d
   [Help], [An ally spends 1 pool point and shares the risk.],
   [Specialisation], [Free: one die when it directly applies.],
 )
-Each Effort use buys one bonus die *before rolling*, or +1 Power *after Success or Success at a Cost*. Total uses per roll cannot exceed Effort Level (1 at start). Effort cannot turn failure into success.
+Each Effort use buys one bonus die *before rolling*, or +1 Power *after success*, including eligible automatic success. Normal costs and restrictions apply. Total uses cannot exceed Effort Level (1 at start). Lost, tied and trumped actions do not qualify for post-success purchases; Effort cannot turn failure into success.
 
 Pay Effort and Help in full. Paying the last pool point runs that pool dry; a cost of 0 never does. Free Help waives its cost, not relevance or shared risk. Backing a conflict side is not Help.
 
 === Outcomes against Difficulty
-#table(columns: (34%, 66%),
-  table.header([Result], [Outcome]),
-  [Meet or beat target], [Success: Tag Power + 1, +1 per full 3 points over.],
-  [Miss by 1–3], [Success at a Cost: Tag Power + 0; choose a consequence or +1 Woe for the GM.],
-  [Miss by 4+], [Failure: no Power; the GM makes a move and gains 1 Woe.],
+Meet or exceed Difficulty to succeed; otherwise fail. Compare final retained faces after explicit face changes, without Skill or modifiers.
+
+#table(columns: (30%, 35%, 35%),
+  table.header([Complication die], [Success], [Failure]),
+  [Lower], [Clean Success], [Failure with a Benefit],
+  [Higher], [Success with Complication], [Failure with Complication],
+  [Matching], [Critical Success], [Critical Failure],
 )
+Success includes all three successful outcomes. Generate applicable Tag Power + 1 Power, +1 per full 3 points over Difficulty. Critical Success adds +1 Power and a flourish, not a free Effect. Failure generates no Power or automatic Woe. A failure benefit is a fictional opening, not a free purchase or numerical benefit. Critical Failure triggers one major complication within the named danger and stakes.
 Agree the goal and what it takes before rolling. The Effects you buy are what the action accomplishes. Unspent Power becomes Weal, maximum 6. A consequence on a success keeps what the roll bought (Core Rules @core-outcomes).
 
-Scripted conflicts modify failure and Success at a Cost; use @qr-run-conflict below. Versus tests compare opposing totals instead of using this table.
+Scripted conflicts use @qr-run-conflict below. Versus tests compare totals, then classify each actor's retained pair; exact ties receive no comparison-based outcome.
 
-=== Doubles and Risk
-Use the two *kept* dice.
+=== Complications and Risk
+Matching retained dice use normal critical rules. Double 1s and double 12s have no special action overrides. Face changes affect total and comparison; Skill and modifiers affect only the total. Resolve manipulation one ability at a time, choosing a complete reroll result before further manipulation. Generic action rerolls leave the separate Risk die unchanged (Core Rules @core-dice-manipulation).
 
-#table(columns: (34%, 66%),
-  table.header([Dice / outcome], [Result]),
-  [Matching dice on Success], [Critical: +1 Power and a flourish.],
-  [Matching dice on Failure / Success at a Cost], [Complication.],
-  [Double 12s, independent], [Always succeed; +2 Power instead of the usual +1 critical.],
-  [Double 1s], [Always cause a complication, but do not automatically fail; a success still gains the ordinary +1 critical Power.],
-)
-In versus tests, doubles do not override the opposing total or break ties. Winning doubles add +1 Power; winning double 12s add +2 instead. Losing or tied doubles grant no Power or normal action effect. Ability-created doubles use the same rules.
+For each distinct complication, state its concrete consequence and original severity, then:
++ Cancel it by giving the GM Woe at original severity: minor 1, moderate 2, major 3; or decline.
++ Spend eligible surplus Power to reduce one severity band per Power.
++ Resist the remainder once, if permitted, reducing one narrative severity band or an incoming harmful status by 2 tiers, not both.
++ Resolve what remains.
 
-Buy off a dice complication by giving the GM 2 Woe. If you keep it and the GM cannot supply a fitting complication, the GM gains 2 Woe instead (Core Rules @core-doubles).
+Buyoff closes once mitigation or Resistance begins. Reserve required Effect Power first; all complications share the action's budget. Removing a complication doesn't reverse failure or grant replacement Woe. Protected payments remain excluded (Core Rules @core-doubles).
 
-*Risky 1–3, optional:* Roll one separate d12. Never keep it or add it to the total; it does not count toward the bonus-dice cap. At or below the Risk rating, it causes a complication after resolution, whatever the outcome. Buy it off normally.
+*GM-bought complication:* After a roll resolves and before the player responds, the GM may spend Woe to add one complication to it, whatever the outcome: 1 for minor, 2 for moderate, 3 for major. At most one per roll. State the consequence and severity first; it must arise from the established danger or situation. Buyoff, mitigation and Resistance apply normally, and the Woe isn't refunded if the player buys it off. In scripted conflicts the usual limits apply (Core Rules @core-costs-failures-complications).
 
-*Automatic success* replaces an otherwise permitted roll, not its interaction or assigned turn. Use listed Power. In versus it wins unless both automatically succeed, then tie unless explicitly overridden. No extra action, rescue of a trumped action, or dice-based critical/complication.
+*Risky 1–3, optional:* Roll one separate d12. Never keep it or add it to the total; it does not count toward the bonus-dice cap. At or below the Risk rating, it triggers an independent complication on any outcome. Assign its severity separately; Critical Failure does not automatically make it major. Use the response order above.
+
+*Automatic success* replaces an otherwise permitted action's roll, not its permissions, stakes, interaction or assigned turn. Use listed Power plus applicable Tag Power unless already included; add no margin, extra base-success point or critical bonus. No extra action or rescue of a trumped action.
+
+In versus tests, one automatic success wins and neither actor rolls action dice; the opponent receives no comparison-based failure outcome. Two automatic successes produce a neutral stalemate unless explicitly overridden. Paid costs remain spent.
+
+Independent consequences still apply, including a permitted Risky action's separate Risk die. Eligible post-success Effort may purchase Power at normal costs and limits before allocation and mitigation. Pending Impede and Gain Position expire unused on a no-roll action; neither modifies the Power award or transfers to Risk or Resistance dice.
 
 #emph[Core Rules @core-roll[§§]–@core-risky-rolls[]; conflict exceptions in @core-conflict-system.]
 
@@ -93,11 +99,13 @@ Buy off a dice complication by giving the GM 2 Woe. If you keep it and the GM ca
   [Woe], [GM: opposition spending and escalation.],
 )
 
+#strong[Weal] decays by 1 at the end of each scene. Spend it for a bonus die (1, then 2), +1 Power on a success (2), a Discover question (1), Create a Truth (2), changing an unrevealed scripted action (2) or Reduce Woe by 1 (2) (Core Rules @core-weal-woe). #strong[Woe] starts at 2 per PC each session.
+
 === Statuses, Conditions and Truths
 Record a status or Situational Condition as *name --- category/rating --- scope --- ending condition* (Core Rules @core-effects). Personal statuses (states of a person) and Situational Conditions (external circumstances) are separate slots: apply the highest relevant helpful and harmful one from each. Truths are recorded as *name --- Truth/scale --- scope --- ending condition* and give no modifier (Core Rules @core-truths). Names alone do not establish scope. Impede is not a status; Grind hardships use Module B.3.
 
-=== Resist an imposed status
-Roll *2 + Edge* d12 and take the highest die. Pay the result's cost; do not subtract Edge from it. Resistance reduces the incoming status by 2 tiers.
+=== Resist an imposed consequence
+Roll *2 + Edge* d12 and take the highest die. Pay the result's cost; do not subtract Edge from it. The reduction occurs; the roll determines cost. Resistance reduces an incoming harmful status by 2 tiers or an imposed narrative complication by one severity band, including minor to none—not both. Resist each distinct complication once, after eligible mitigation. The following multiple-12 procedure is separate from action criticals.
 
 #table(columns: (62%, 38%),
   table.header([Result], [Pool cost]),
@@ -113,7 +121,7 @@ Ordinary Disposition loss and accepted payments cannot be Resisted.
 === Running dry
 A cost that empties a pool imposes depletion at *tier 1 + overrun*. Overrun is the amount by which the cost exceeds points remaining.
 
-Only Resistance and imposed costs may overrun unless explicitly permitted. A cost of 0 never runs dry. Depletion stacks normally. At tier 6, you are Taken Out within its scope and gain one Scar, at most once per scene.
+Only Resistance and imposed costs may overrun unless explicitly permitted. A cost of 0 never runs dry. Depletion stacks normally. At tier 6, you are Taken Out within its scope and gain one Scar, at most once per scene. If that status takes you out, finish only the action or Resistance whose cost caused it.
 
 The pool and depletion recover separately: 2 recovery points remove 1 depletion tier.
 
@@ -138,7 +146,7 @@ Use scripting when the stakes matter, opposition actively resists and several ta
 
 === Setup
 + State objectives, stakes, participants and exits.
-+ Roll 2d12 + Disposition skill + highest Edge in that skill's pool.
++ The leader normally rolls 2d12 + Disposition skill + highest Edge in that skill's pool.
 + Divide by 3 and round down.
 + Add +1 per eligible backer and all flat modifiers at full value.
 + Apply the minimum of 1, then opposing Superiority.
@@ -188,25 +196,22 @@ I = independent; V = versus; A = Attack only; F = Feint only.
 
 *Independent:* Test against Standard 15, adjusted by explicit modifiers such as Guard; statuses and Situational Conditions modify the roll. Both independent actions finish before checking victory, even if one defeats a side or Takes Out its actor.
 
-*Versus:* Higher total wins with Tag Power + 1, +1 per full 3 points over the opponent; the loser spends no Tag Power. Exact tie: no Power or normal action effect. Losing by 1–3 is not Success at a Cost. Winning prevents the opposing normal effect even if all Power buys other permitted Effects.
+*Versus:* Both actors retain their Complication die and highest other action die. Higher total wins: applicable Tag Power + 1 Power, +1 per full 3 points of margin. Each actor compares their own final retained faces: lower Complication die gives Clean Success or Failure with a Benefit; higher gives Success with Complication or Failure with Complication; matching gives Critical Success (+1 Power) or Critical Failure (one major complication). The loser generates no Power. Matching dice do not override totals.
 
-*Trumped:* No roll and no action effect. Paid costs remain spent.
+*Exact tie:* Neutral stalemate. Neither actor wins, generates Power, produces their normal action Effect or receives a comparison-based outcome. Paid costs remain spent; independent complications still resolve. Winning prevents the opposing normal Effect even when the winner funds other permitted Effects.
+
+*Trumped:* No action or optional Risk roll, Power, normal action Effect or comparison-based outcome. Paid costs remain spent; no free replacement or reassignment. Separate hazards require their own triggers.
 #colbreak()
 === Conflict failure and costs
-#table(columns: (72%, 28%),
-  table.header([Situation], [Ordinary-failure Woe]),
-  [Failed independent action], [+1],
-  [Versus loss, exact tie or trump], [None],
-)
-An ordinary failed action grants no additional unrelated GM move, automatic injury or extra Disposition loss.
+A failed independent action, a versus loss, an exact tie or a trump grants no automatic Woe, unrelated GM move, automatic injury or extra Disposition loss.
 
-Independent Success at a Cost grants Tag Power + 0. Its ordinary cost cannot impose a status or extra Disposition loss without explicit permission. Separately triggered complications, explicit costs and scenery Dangers retain their own rules.
+Comparison-based complications, including Critical Failure, cannot impose harmful statuses or additional Disposition loss without explicit permission. They cannot duplicate opposing purchases, change the script or cancel an independent action. Independent hazards and explicit abilities retain only their stated permissions.
 
 #emph[Core Rules @core-when-use-conflict[§§]–@core-costs-failures-complications[].]
 ]
 
 == 4. Spend Power in a Conflict <qr-spend-power-conflict>
-Use one Power budget. No primary purchase is mandatory. Relevance alone does not grant permission.
+Use one Power budget. No primary purchase is mandatory. Relevance alone does not grant permission. Before Power mitigation, fund at least one permitted Effect and preserve any minimum requirement agreed before rolling. Spend only surplus generated or purchased Power; never shrink a reserved purchase to free Power for mitigation. This reservation requirement does not restrict Woe buyoff or eligible Resistance.
 
 #table(columns: (22%, 19%, 59%),
   table.header([Action / purchase], [Power], [Result]),
@@ -325,10 +330,11 @@ Full adversary procedures govern; this strip grants no additional activation per
 #table(columns: (25%, 75%),
   table.header([Reminder], [Procedure]),
   [Change an unrevealed action], [3 Woe, or 2 with an eligible Leader; keep the assigned actor.],
-  [NPC dice complication], [Spend 2 Woe to cancel it.],
+  [NPC complication], [Pay existing Woe at original severity: 1/2/3. Pay in full before mitigation; declining generates no Woe. Otherwise mitigate with surplus action Power after Effect reservation. No ordinary-NPC Effort, narrative Resistance or generic Woe-to-Power purchase.],
+  [GM-bought complication], [One per roll, added after it resolves and before the player responds: 1/2/3 Woe for minor/moderate/major. State the consequence and severity first. Normal buyoff, mitigation and Resistance; the Woe isn't refunded if bought off. Conflict limits still apply (Core Rules @core-doubles; @core-costs-failures-complications).],
   [NPC injury trades], [Ordinary NPCs and groups cannot trade; full-PC rivals and explicit exceptions use Core Rules @core-npcs-harm.],
   [Bulwark (Interpose)], [Once per exchange, choose one. Take an ally's incoming status in their place, declared before their Resistance or reduction. Or Hold the Line: reduce one successful opposing Attack's ordinary loss by 1. Neither touches protected payments. Full rules: Adversaries @adv-interpose.],
-  [Declarations and reactions], [Close Power purchases and action-triggered supplementary declarations, resolve permitted reactions, then uncancelled effects. Cancellation does not reopen declarations. Preserve expressly later windows, including Self-Repair (Adversaries @adv-shared-special-timing).],
+  [Declarations and reactions], [Determine Power, reserve Effect Power and declare mitigation before Power purchases and action-triggered supplementary declarations close. Resolve permitted reactions, then uncancelled effects. Cancellation leaves purchases spent, frees no Power for mitigation and does not reopen declarations. Preserve expressly later windows, including Self-Repair (Adversaries @adv-shared-special-timing).],
   [End of volley], [Complete both independent actions → Self-Repair → Bolt → defeat / eligible Last Stand → eligible phases → eligible exchange-end arrivals → participation and rotation. No Disposition repair from 0; status repair does not cancel pending defeat. Arrivals create no extra action or phase check.],
   [Calls and Last Stand], [Calls use pre-reveal windows. Last Stand creates no call window or new exchange boundary. If activated after volley three, check that exchange's arrivals once before the extension, never again afterward; pending-defeat recovery remains prohibited.],
   [Special exceptions], [Use Adversaries @adv-last-stand[§§]–@adv-caller-specific-reserve-packages[] for participation, aftermath order, delayed arrivals and same-volley Lockdown/Bolt. Deferred records: once per named Special per target per conflict across sources; resolve individually after every outcome.],

@@ -82,7 +82,7 @@ The playbook's anchor skill must sit at +3 or +4. The pyramid rule (each tier mu
 The default pool pays for Effort and Resistance. The GM can allow another pool when the fiction supports it (Intimidate with Sōma = looming; with Pneuma = cold menace).
 
 ==== Specialisations
-// PLAYTEST: Specialisation die. Track how often it applies, whether it changes the kept pair, and whether it replaces Effort or Woe.
+// PLAYTEST: Specialisation die. Track how often it applies, whether it changes the retained pair, and whether it replaces Effort or Woe.
 A #strong[Specialisation] names a narrow application of a rated skill: write it as #emph[Skill (Specialisation)], such as #emph[Medicine (Trauma Care)], #emph[Craft (Precision Mechanisms)] or #emph[Persuade (Mediation)].
 
 - #strong[Benefit.] When a test uses that skill and the Specialisation directly applies to your approach, add #strong[one free bonus die] (@core-bonus-dice-effort). It counts toward the +2 cap. Only one Specialisation applies per test. At the cap it gives no substitute benefit.
@@ -109,7 +109,7 @@ A #strong[Knowledge Skill] is an unrated field of expertise: #emph[Regional Trad
 A new character has #strong[six identity tags]: the 2 fixed tags from the Descriptor, 2 chosen from the Playbook's 6 options, and the 2 fixed tags from the Focus. Each is double-sided: it can supply Power or be compelled. Tags separately granted by equipment, Domains or abilities are additional to this starting identity package and follow their existing rules.
 
 - #strong[One description, two sides.] Each tag is a single description (#emph[Built Like a Door], #emph[My Word Is Iron], #emph[Favours Run Both Ways]). Neither tag in a pair is assigned the role of strength or weakness. Both helpful uses and complications must follow naturally from that tag's wording and the established fiction.
-- #strong[When it helps,] it supplies #strong[+1 Power] on a Success or Success at a Cost, #strong[max +2 per action] (@core-outcomes). Explain how it helps. Tags never add to or subtract from the roll.
+- #strong[When it helps,] it supplies #strong[+1 Power] on any success, #strong[max +2 per action] (@core-outcomes). Explain how it helps. Tags never add to or subtract from the roll.
 - #strong[When it causes trouble,] it can be compelled for a Tychē Point (@core-tyche-points). A tag can supply Power and be compelled in the same action when the help and the trouble are distinct.
 - #strong[Burning a tag:] mark a relevant tag as burned to gain an automatic +1 Power on a success. It stays unusable until you recover it (a downtime action or a milestone). Burning ignores the +2 cap.
 
@@ -239,7 +239,7 @@ The GM might offer a delegation in exchange for escorting a vulnerable supply ca
 - #strong[Load-out:] choose light, normal or heavy load before the mission, then declare playbook-kit items as you need them and mark their load; don't buy a full item list in advance. Signature items are chosen at creation and count against load when carried; always-carried items and items marked (0) follow their listed rules (Generic Playbooks @pb-load). In conflicts, declare active gear before scripting each exchange (@core-conflict-gear-assets).
 - #strong[Circle and contact.] Name one #strong[social circle] (#emph[Dock Workers], #emph[The Archive Staff]) and one #strong[named contact] in it or elsewhere. Record both as contact Truths. The circle answers #emph[who here might help?]; the contact answers #emph[whom can I ask, and what might it cost them?]
 
-#strong[Using contacts.] Routine help that fits the relationship needs no roll. When access, discretion or cost is uncertain, roll an existing skill such as Persuade or Empathy; there is no separate Network skill or loyalty track. On a Success at a Cost, you get the introduction, shelter or supplies, but owe a favour or expose the relationship. A favour owed uses Module E.7 when that module is in play. A starting contact grants no free Discover, Help or turn; abilities such as #emph[Contacts] and #emph[Network] add those benefits.
+#strong[Using contacts.] Routine help that fits the relationship needs no roll. When access, discretion or cost is uncertain, roll an existing skill such as Persuade or Empathy; there is no separate Network skill or loyalty track. On a Success with Complication, you get the introduction, shelter or supplies, and the complication can be that you owe a favour or expose the relationship. A favour owed uses Module E.7 when that module is in play. A starting contact grants no free Discover, Help or turn; abilities such as #emph[Contacts] and #emph[Network] add those benefits.
 
 #strong[Ordinary gear, borrowed or bought locally.] Getting an ordinary item you didn't bring is a contact or circle question, not a separate inventory. Load covers what you brought; a contact covers what you can find now; an optional flashback covers what you arranged earlier (@core-prepared-advance).
 ]

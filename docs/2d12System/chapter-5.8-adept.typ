@@ -63,7 +63,7 @@ Every Adept has a #strong[Domain];: a broad tag describing what they can do (#em
   trigger: [You attempt a #strong[working]: an effect within your Domain.],
   cost: [#strong[1 point] from Pneuma (Arcana) or Psychē (Tech), plus any Effort.],
   benefit: [Attempt any effect in your Domain with your anchor skill, at the Difficulty the GM sets by scope (below). Your Domain counts as a relevant tag on workings, supplying Tag Power (inside the +2 cap).],
-  limit: [#strong[Backlash:] doubles on a failure or cost cause a backlash. The GM picks a fitting status for you (#emph[burned −2], #emph[drained −2], #emph[glitched −2]) or a wild effect, in addition to the normal complication. Backlash still applies in conflicts. In a scripted conflict, see below.],
+  limit: [#strong[Backlash:] whenever a working produces a complication, including a Critical Failure or an independent Risk-die complication, it also causes a backlash. The GM picks a fitting status for you (#emph[burned −2], #emph[drained −2], #emph[glitched −2]) or a wild effect, in addition to that complication. Backlash still applies in conflicts. In a scripted conflict, see below.],
 )
 
 #figure(
@@ -144,7 +144,7 @@ Every Adept has a #strong[Domain];: a broad tag describing what they can do (#em
       trigger: [You make a World-shaking working. In a conflict, declare it before the roll for your normal action.],
       cost: [No cost for the first use after downtime. Each later use before your next downtime, even in a later session, gives a #strong[Pneuma or Psychē Scar].],
       benefit: [The working succeeds automatically with #strong[5 Power], no ritual required.],
-      limit: [Once per session. Downtime resets the free use. A trumped action stays trumped. In a versus test it wins unless the other side also succeeds automatically, which makes a tie. No roll means no doubles.],
+      limit: [Once per session. Downtime resets the free use. A trumped action stays trumped. In a versus test it wins unless the other side also succeeds automatically, which makes a tie. No action dice means no comparison-based complication, so no Backlash from one.],
     )],
   )]
   , kind: table

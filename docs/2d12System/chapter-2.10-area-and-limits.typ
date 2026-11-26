@@ -32,12 +32,13 @@ These limits apply to every scripted conflict. Specific rules override them only
 - #strong[Invoke] during an eligible roll, before its outcome is resolved. It changes only that roll: no extra turn, script change or reassigned actor. A trumped action or automatic success has no roll to invoke on.
 - #strong[Specialisations] add their die only when the action's permitted skill is the Specialisation's skill and it applies to the approach (@core-skill-pyramid). They don't permit a different skill, action or Effect. #strong[Knowledge] informs choices but doesn't add an action.
 - #strong[Prepared in Advance] (@core-prepared-advance), if used, is a declaration: the next item's limits apply, and it can't change a revealed script.
+- #strong[Resist harder] has no conflict timing limit beyond Resistance's own timing (@core-tyche-points). It still can't Resist ordinary Disposition loss or a protected payment.
 - #strong[Declarations] can make an approach possible or supply an asset. They can't resolve a scripted action, cancel an independent action, widen the stakes or reverse an accepted concession.
 - #strong[Compels.] Agree the consequence before accepting. A compel must respect the stakes and action timing, and can't change a script or cancel an independent action. If its terms settle the conflict, use Concession (@core-defeat-mutual-defeat-concession) rather than another roll. It can't erase a protected payment.
 - #strong[Instincts.] Acting on an Instinct takes no time but grants no extra action, interrupt, free script change, actor reassignment or rotation bypass. A consequential response needs a permitted action or explicit ability; an Instinct can't rescue a trumped action, allow action while Taken Out or retroactively cancel a resolved effect.
 - #strong[Truths and Conditions.] Creating a Truth or Situational Condition, or reducing a Condition, takes a permitted action or explicit exception (@core-actions-effects); changing a Truth means changing the fact (@core-changing-ending-truths); Weal and Woe spends grant no extra turn, free reassignment or retroactive cancellation. A Truth can set up a later scenery Maneuver but doesn't resolve it or its Danger (@core-scenery-maneuvers). A hazardous description doesn't grant both Disposition loss and a harmful status; explicit harm and area effects use their own procedures (@core-area-effects).
 - #strong[Clocks and Disposition] are separate tracks. Don't convert loss, healing or clock segments between them without an explicit rule. Advance is available only to actions @core-actions-effects permits.
-- #strong[Complications,] from dice or bought with Woe, stay within the stakes and timing. They don't change committed scripts or cancel independent actions unless an explicit rule permits it.
+- #strong[Complications,] from outcomes, the Risk die or a GM Woe spend (@core-woe), stay within the stakes and timing. They don't change committed scripts or cancel independent actions unless an explicit rule permits it. Respond to them under @core-doubles. A comparison-based complication can't add Disposition loss or a harmful status without explicit permission (@core-costs-failures-complications).
 
 ==== Free, Immediate and Automatic Effects
 Free removes only the stated resource cost. It grants no extra turn, rotation bypass or permission to act while Taken Out. A passive benefit or a benefit explicitly requiring no action can apply without consuming a scripted action.
@@ -46,9 +47,11 @@ An immediate effect resolves at its stated trigger. It interrupts another action
 
 An additional immediate action must specify its trigger, replacement of scripted actions, rotation treatment, use while Taken Out and interaction with independent actions.
 
-Automatic success replaces the roll for an otherwise permitted action. It supplies no extra action, script change, rescue of a trumped action, expanded stakes or unsuitable approach. In a versus test, an automatic success wins unless both sides automatically succeed; then it's a tie unless a rule says otherwise.
+Automatic success replaces the roll for an otherwise permitted action. It supplies no extra action, script change, rescue of a trumped action, expanded stakes or unsuitable approach. Pending Impede and Gain Position expire unused on it and don't transfer to a Risk or Resistance die.
 
-On an independent test, apply the listed Power without rolling. In a versus test, it wins with its listed Power unless the opposing action also succeeds automatically; then resolve a tie unless a specific rule says otherwise. No roll means no dice-based critical or complication.
+On an independent test, apply the listed Power plus applicable Tag Power without rolling. Add no calculated margin, base-success point or matching-dice bonus. No action dice means no comparison-based complication, but independent consequences remain, including a permitted Risky action's separate Risk die unless a rule exempts it. The actor may buy Power with Effort after the award (@core-bonus-dice-effort).
+
+In a versus test, one automatic success wins, neither side rolls action dice, and the winner uses its listed Power. The opponent generates no Power and receives no comparison-based benefit, complication or critical. If both sides succeed automatically, it's a neutral stalemate unless a specific rule says otherwise: neither generates Power or produces its normal effect, and paid costs stay spent (@core-outcomes).
 // ART: A ring of torches marking the edge of a battlefield as two lines close in.
 #art-fill(min: 6cm)[A ring of torches marking the edge of a battlefield as two lines close in.]
 ]

@@ -69,12 +69,11 @@ Choose one cadence: each in-world week, between adventures, or another agreed me
 
 Roll 2d12 + the relevant effective Quality against Standard 15, adjusted by task difficulty, with relevant Situational Conditions modifying the roll and Truths deciding what is possible. Use one primary Quality, not the sum of two. Other capabilities may be prerequisites or provide distinct concrete circumstances; their ratings are not automatic extra modifiers. Asset tags add nothing to the roll; each relevant one supplies Power (E.2).
 
-- Success: Tag Power + 1, plus 1 per full 3 points over the target.
-- Success at a Cost (miss by 1–3): Tag Power + 0, and a concrete setback appropriate to the action.
-- Failure (miss by 4+): no Power and no progress; introduce a relevant setback.
-- Doubles follow the core's success/cost/failure twist rules, including double 12s and double 1s.
+- Success (any total that meets the target): Tag Power + 1, plus 1 per full 3 points over the target. A Critical Success adds 1 Power.
+- Failure (total below the target): no Power and no progress.
+- Faction rolls use the Complication die and the core outcome table (Core Rules @core-outcomes). A Success with Complication or Failure with Complication introduces a concrete setback appropriate to the action, resolved narratively. A Failure with a Benefit gives a fictional opening. Matching dice are critical: a Critical Success adds 1 Power, and a Critical Failure brings a major setback.
 
-Organizational exception: off-screen faction actions do not gain or spend the party's Weal, PC pools, or Tychē Points, and do not generate or spend Woe. Uncommitted Power is discarded. Resolve twists narratively; there is no off-screen Woe buy-off. PC scenes retain all normal core currencies.
+Organizational exception: off-screen faction actions do not gain or spend the party's Weal, PC pools, or Tychē Points, and do not generate or spend Woe. Uncommitted Power is discarded. Resolve complications narratively; Woe buyoff, mitigation and Resistance don't apply off-screen. PC scenes retain all normal core currencies.
 
 ==== Project clocks
 
@@ -131,7 +130,7 @@ Winning a battle does not automatically create stable government. Occupation may
 
 Use Woe normally during PC scenes to introduce supported complications, reinforcements, or danger-clock progress. Hostility is a motive, not an unlimited Woe source. A completed World Turn project establishes its result without an extra Woe payment; a new scene complication uses the normal rules. Never charge twice for the same event.
 
-Inside scripted conflicts, failure and Success at a Cost follow Core Rules @core-costs-failures-complications: no unrelated GM move, automatic injury or extra Disposition loss, or ordinary-failure Woe for losing a versus test. Specials, hazards, Risky rolls and other explicit consequences keep their stated effects and timing. Woe can't change a revealed script or cancel actions that resolve on their own.
+Inside scripted conflicts, failure and Success with Complication follow Core Rules @core-costs-failures-complications: no unrelated GM move, automatic injury or extra Disposition loss. Specials, hazards, Risky rolls and other explicit consequences keep their stated effects and timing. Woe can't change a revealed script or cancel actions that resolve on their own.
 
 Woe cannot directly buy a Standing reduction. It can expose evidence or create circumstances that cause one. Weal and scene-scale Create effects likewise cannot buy permanent reputation.
 
@@ -179,7 +178,7 @@ The association funds a lawful journey and provides a commercial introduction. P
 
 The party retrieves admissible evidence that a rival obtained a charter through bribery. As the agreed outcome of the undertaking, Rival Charter Under Legal Challenge becomes a Truth for the ferry-rights project until the challenge is adjudicated: the rival can't use the charter as settled authority, and the court case is open to the party. If the party obtains a final judgment itself, do not roll again to establish that judgment.
 
-On the World Turn, the association uses Influence +2. The evidence lowers the Standard 15 target to Easy 12. Dice of 7 and 9 total 16; +2 gives 18, producing 3 Power. Its #emph[clerks in the provincial offices] work the court case, adding 1 Tag Power: 4 Power, and it commits four segments. Its barges and credit don't help a legal challenge, so they add nothing. Without the evidence, the same total against 15 would produce 3 Power.
+On the World Turn, the association uses Influence +2. The evidence lowers the Standard 15 target to Easy 12. The Complication die shows 7 and the other die 9, a Clean Success: they total 16; +2 gives 18, producing 3 Power. Its #emph[clerks in the provincial offices] work the court case, adding 1 Tag Power: 4 Power, and it commits four segments. Its barges and credit don't help a legal challenge, so they add nothing. Without the evidence, the same total against 15 would produce 3 Power.
 
 Later, the party saves the winter grain convoy at substantial personal risk. Once the association learns what happened, Standing may rise to +3. A new favour is not automatic: the association must explicitly promise one.
 

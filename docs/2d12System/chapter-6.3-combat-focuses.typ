@@ -167,7 +167,7 @@ Compel: An opponent exploits your habits, or an unconventional situation defeats
     [3a], [#strong[Perfect Strike];], [#ability(
       trigger: [You roll with your weapon. Declare it before spending Power or applying consequences.],
       cost: [No additional cost.],
-      benefit: [Turn one kept die into a #strong[12]. If that creates doubles, apply them.],
+      benefit: [Change one retained die to #strong[12] (Core Rules @core-dice-manipulation). A match this creates uses the normal critical procedure.],
       limit: [Once per scene.],
     )],
     [3b], [#strong[★ Weapon Saint];], [#ability(
@@ -223,7 +223,7 @@ Compel: You take a tempting cheap shot that exposes you or escalates the conflic
       trigger: [You Attack a target with a harmful status of tier 2+.],
       cost: [No additional cost.],
       benefit: [Gain #strong[+1 Power] on the Attack.],
-      limit: [Only on a Success or Success at a Cost; it can't turn a failure into a success.],
+      limit: [Only on a success; it can't turn a failure into a success.],
     )],
     [3a], [#strong[Every Trick in the Book];], [#ability(
       trigger: [You succeed on a Feint in a Fight conflict.],

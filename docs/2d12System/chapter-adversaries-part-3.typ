@@ -27,13 +27,13 @@ Arrival creates no additional phase check and doesn't reverse a phase activated 
 
 === 7.8 Dirty Trick <adv-dirty-trick>
 // PLAYTEST: Once per bearer per exchange; successful assigned action; later-volley Impede.
-After succeeding on its assigned scripted action, including Success at a Cost, the bearer may spend 1 Woe to Impede the opposing side's next scripted action in a later volley, including across an exchange boundary. Declare and pay during the supplementary declaration step (@adv-shared-special-timing).
+After succeeding on its assigned scripted action, including Success with Complication, the bearer may spend 1 Woe to Impede the opposing side's next scripted action in a later volley, including across an exchange boundary. Declare and pay during the supplementary declaration step (@adv-shared-special-timing).
 
 Never affect the opposing action in the current volley, even if its roll has not been made. Impede is −3 on the affected action roll, not a status or Resistance penalty. A no-roll action consumes it unused. Pending Impedes don't stack, increase the penalty or extend duration. Failed, tied, trumped and unperformed actions don't qualify. No additional action or Power, extra turn or reassignment.
 
 === 7.9 Covering Move <adv-covering-move>
 // PLAYTEST: Replaces Hostage; once per bearer per exchange; one pending Gain Position per side.
-After succeeding on its assigned Maneuver, including Success at a Cost, spend 1 Woe to grant Gain Position to the side's next scripted action in a later volley, including across an exchange boundary. Never affect the current volley. Its bonus die counts toward the normal cap; a no-roll action consumes it unused.
+After succeeding on its assigned Maneuver, including Success with Complication, spend 1 Woe to grant Gain Position to the side's next scripted action in a later volley, including across an exchange boundary. Never affect the current volley. Its bonus die counts toward the normal cap; a no-roll action consumes it unused.
 
 Before activation check both pending effects and effects already declared for this Maneuver. Don't activate or spend Woe if Gain Position is pending or the Maneuver has purchased or otherwise declared a grant of it. Declare and pay during @adv-shared-special-timing's supplementary declaration step. Later cancellation doesn't reopen this window. Additional grants never stack, refresh or extend pending Gain Position. No additional action or Power, extra turn or reassignment. None of Hostage's former Truth or Attack-penalty effects remain.
 
@@ -41,13 +41,13 @@ Before activation check both pending effects and effects already declared for th
 // PLAYTEST: Both options share one use per bearer per exchange.
 An able Guardian with functioning sensors may spend 1 Woe for one option:
 - #strong[Counter-Maneuver.] After an opposing Stealth-based Maneuver succeeds and its purchases and supplementary declarations close, but before effects resolve, cancel one Impede or Gain Position purchased by it. The approach must be detectable within established sensor coverage. Identify the purchase before paying. Cancel only that effect, not success, Power or other effects; its purchase remains spent. No reallocation or late supplementary declarations. Without either purchase this option can't activate. Special-granted effects are ineligible merely because they accompanied the Maneuver.
-- #strong[Reveal.] After its own successful assigned Maneuver, including Success at a Cost, reveal one hidden opponent's current location within established sensor coverage. Declare during @adv-shared-special-timing. This removes no cover or concealment automatically, establishes no line of fire, grants no Attack and doesn't prevent hiding again.
+- #strong[Reveal.] After its own successful assigned Maneuver, including Success with Complication, reveal one hidden opponent's current location within established sensor coverage. Declare during @adv-shared-special-timing. This removes no cover or concealment automatically, establishes no line of fire, grants no Attack and doesn't prevent hiding again.
 
 Sensors don't defeat barriers or countermeasures without recorded capability. Pay fully while able to participate. No additional action or Power, extra turn, reassignment, protected-payment cancellation or reopening resolved effects.
 
 === 7.11 Lockdown <adv-lockdown>
 // PLAYTEST: Successful assigned Maneuver; once per Guardian per scene; unrated scene Truth.
-After its successful assigned Maneuver, including Success at a Cost, an able Guardian may spend 2 Woe to create the scene Truth Sealed Doors. Declare during @adv-shared-special-timing. It must control functioning barriers already established in the scene. Name the connected set, passages closed and release/override conditions. Create no barriers and gain no control of unrelated systems.
+After its successful assigned Maneuver, including Success with Complication, an able Guardian may spend 2 Woe to create the scene Truth Sealed Doors. Declare during @adv-shared-special-timing. It must control functioning barriers already established in the scene. Name the connected set, passages closed and release/override conditions. Create no barriers and gain no control of unrelated systems.
 
 Apply its physical restrictions only where materially relevant; it carries no rating or Difficulty shift; no blanket opposing-action penalty or indestructibility. Affect allies, enemies and bystanders according to position. No automatic capture, harm, Disposition loss, Taking Out or victory.
 
@@ -57,7 +57,7 @@ The Truth lasts until scene end or barriers are opened, breached or overridden. 
 
 === 7.12 Bolt <adv-bolt>
 // PLAYTEST: Successful assigned Maneuver; volley-end departure; no bypass of contested escape.
-After its successful assigned Maneuver, including Success at a Cost, spend 2 Woe to withdraw through an established usable route. Identify the route and pay during @adv-shared-special-timing. Resolve departure at volley end after eligible Self-Repair but before defeat, provided the bearer remains able to participate and physically capable of using the route.
+After its successful assigned Maneuver, including Success with Complication, spend 2 Woe to withdraw through an established usable route. Identify the route and pay during @adv-shared-special-timing. Resolve departure at volley end after eligible Self-Repair but before defeat, provided the bearer remains able to participate and physically capable of using the route.
 
 An opposing Lockdown in the same volley doesn't by itself invalidate the declared route or prevent departure. All other requirements remain. Bolt otherwise can't cancel, interrupt or protect against the opposing action.
 

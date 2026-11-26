@@ -6,6 +6,13 @@ Format loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## [Unreleased]
 
+### Changed — Module C.5 and E.1A: World Turn outcomes and pacing (2026-11-26)
+
+- C.5: World Turns use the Complication die and the core outcomes. A Success with Complication now generates full success Power, not Tag Power only. A Success with Complication or Failure with Complication gives a concrete setback appropriate to the action, resolved narratively; Woe buyoff, mitigation and Resistance don't apply off-screen. A failure generates no Power.
+- C.5 pacing guide: a +2 faction now fills a 12-segment Site Truth clock in about 12 World Turns with no relevant asset tag, 8 with one and 6 with two (was 12, 7 and 5). Figures count matching dice as a Critical Success (+1 Power) and discard overflow.
+- E.1A: the pacing note and table are recomputed on the same basis, so the +2 row and the C.5 guide agree.
+- Not yet built or rendered.
+
 ### Fixed — Clean Getaway's free question is situational only (2026-11-22)
 
 - Always Has an Escape Plan, Clean Getaway: the free Discover question covers the pursuers' route, method, or a present opening in the pursuit, and never reveals a weakness tag. A useful opening can be recorded as a Truth.

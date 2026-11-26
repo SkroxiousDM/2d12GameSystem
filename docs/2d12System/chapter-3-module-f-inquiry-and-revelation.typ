@@ -26,7 +26,7 @@ A core clue gets you to the next scene. *Insight* is everything beyond that: mot
 
 #figure(table(columns: (20%, 80%),
   table.header([Method], [How it works]),
-  [*Probe*], [Roll 2d12 + the skill vs. a Difficulty set by the GM (usually *Standard 15*). Each Power you spend on *Discover* (Core Rules @core-effects) is one Insight. The usual outcomes apply: a miss by 1--3 is a Success at a Cost, and a miss by 4+ is a Failure that gives the GM 1 Woe. A failed Probe never removes a core clue.],
+  [*Probe*], [Roll 2d12 + the skill vs. a Difficulty set by the GM (usually *Standard 15*). Each Power you spend on *Discover* (Core Rules @core-effects) is one Insight. The core outcomes apply (Core Rules @core-outcomes): a Success with Complication applies its complication, and a Failure generates no Power and so no Insight. A failed Probe never removes a core clue.],
   [*Buy*], [Spend *4 − Edge* points (minimum 1) from the skill's pool, with no roll. You gain exactly one Insight. The pool is the one that pays for that skill in Effort and Resistance (Core Rules @core-skill-pyramid).],
 ))
 
@@ -59,7 +59,7 @@ A Contact provides the stated relationship, not Standing, a reputation tag, free
 - *Boosted skill.* At creation, mark one skill you hold at +1 or higher. When you Buy an Insight with it, regain 1 point to the paying pool. Mark another skill each time you have taken 4 Advances.
 - *Recovery.* Pools recover as usual (Core Rules @core-resistance-harm-recovery). The GM may also offer a *refresh opportunity*: a night in an archive, a round of drinks in the right tavern, a meal with a scholar. Each restores 2 points to the pool that fits.
 - *Help.* One ally may Help a Probe as normal (Core Rules @core-bonus-dice-effort), or help a Buy by lowering its cost by 1 (minimum 1).
-- *Tags.* A relevant tag supplies 1 Power to a Probe on a Success or Success at a Cost, as usual; that Power can buy Insight. Burning one gives +1 Power.
+- *Tags.* A relevant tag supplies 1 Power to a Probe on any success, as usual; that Power can buy Insight. Burning one gives +1 Power.
 
 Pay before boosted-skill recovery: the regained point isn't a discount, and it doesn't clear a running-dry status the payment caused. A refresh opportunity is offered by the GM, not an automatic refill at the start or end of an Inquiry scene.
 
@@ -69,12 +69,12 @@ Probe Help and tags keep their normal caps (+2 Tag Power, +2 bonus dice). The Bu
 
 Inquiry has no failure state, so it needs pressure from somewhere else. Pressure comes from the opposition, not from missed rolls.
 
-- *Woe pays for Reaction.* When a Probe fails, or when the group lingers, the GM gains Woe as normal. The GM may spend Woe on an *Antagonist Reaction*: the culprit destroys evidence, a witness vanishes, a patron grows impatient, an ambush is arranged.
-- *The case clock.* Start a 6-segment clock (Core Rules @core-progress-clocks) called _They Know We Know_. Tick it when the group makes noise, takes a long time, or when a Probe fails by 4+. When it fills, the opposition acts decisively.
+- *Woe pays for Reaction.* When a player buys off a Probe's complication, the GM gains Woe as normal. The GM may spend Woe on an *Antagonist Reaction*: the culprit destroys evidence, a witness vanishes, a patron grows impatient, an ambush is arranged.
+- *The case clock.* Start a 6-segment clock (Core Rules @core-progress-clocks) called _They Know We Know_. Tick it when the group makes noise or takes a long time, including when a Probe's complication costs time or makes noise. When it fills, the opposition acts decisively.
 - *Danger is a separate scene.* A scene either asks "what do we learn?" (Inquiry) or "what do we survive?" (Conflict, Hazard). A scene that is both is two scenes: finish one, then start the other.
 - *Clues never depend on winning a fight.* Winning may give Insight, but a core clue must be reachable even if the group loses, flees or is captured.
 
-Only a failed Probe ticks the case clock, not ordinary failed conflict actions. Antagonist Reactions respect established facts: destroying a source can't make required information unreachable.
+Only noise and delay tick the case clock. A failed Probe does not tick it by itself, and neither do ordinary failed conflict actions. Antagonist Reactions respect established facts: destroying a source can't make required information unreachable.
 
 Splitting a scene doesn't make a continuing struggle a new conflict. Disposition, injury trades, Taken Out participants and ongoing effects carry forward, and pools don't refresh (Core Rules @core-setup).
 
@@ -118,7 +118,7 @@ Oracles, divinations, scrying, speaking to the dead and similar methods are tool
   *Probe:* 2d12 + skill vs. Standard 15; each Power on Discover = 1 Insight. \
   *Buy:* 4 − Edge (minimum 1) from the skill's pool = 1 Insight, no roll; pay in full. \
   *Boosted skill:* Buy with it → regain 1 point after payment. \
-  *Case clock:* 6 segments; tick on noise, delay, or a Probe failed by 4+. \
+  *Case clock:* 6 segments; tick on noise or delay, including a Probe complication that costs time or makes noise. \
   *Danger:* a separate scene, not an automatic resource reset; clues never depend on winning.
 ]
 // ART: An investigator's wall of pinned notes and string converging on one name.

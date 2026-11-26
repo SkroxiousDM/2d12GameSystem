@@ -64,7 +64,7 @@ A skill doesn't supply the tools, knowledge or fictional permission on its own.
 
 #strong[Routine care.] In safe conditions, when failure would add nothing, care needs no roll. It gives permission to treat, stabilises where nothing is uncertain, and meets the conditions for natural recovery. It #strong[generates no Power]. If ordinary treatment could remove one tier of a lasting injury and success is routine, remove that tier and mark the injury #emph[treated]; there's no surplus Power or Weal. Roll only when an uncertain result matters, never just to farm Weal.
 
-#strong[Emergency care] stops an injury getting worse: stopping bleeding, splinting a limb, pulling someone away from a harmful influence, isolating a damaged power cell. It doesn't normally reduce the tier. When the outcome is uncertain, roll the treatment skill vs. #strong[Standard 15], with relevant statuses and Situational Conditions modifying the roll. On a success, the deterioration stops or treatment can begin. On a Success at a Cost, the same, with the normal cost. On a failure, the condition is still untreated; the GM announces any further consequence before another attempt. During scripted conflicts, use the conflict-specific consequence restrictions (@core-costs-failures-complications).
+#strong[Emergency care] stops an injury getting worse: stopping bleeding, splinting a limb, pulling someone away from a harmful influence, isolating a damaged power cell. It doesn't normally reduce the tier. When the outcome is uncertain, roll the treatment skill vs. #strong[Standard 15], with relevant statuses and Situational Conditions modifying the roll. On a success, the deterioration stops or treatment can begin. A Success with Complication does the same, and its complication applies (@core-doubles). On a failure, the condition is still untreated; resolve the failure outcome (@core-outcomes) and announce any complication before another attempt. During scripted conflicts, use the conflict-specific consequence restrictions (@core-costs-failures-complications).
 
 #strong[Restore on lasting injuries.] Restore costs 1 Power per tier (@core-effects). It can clear a #strong[temporary] condition outright when the action removes its cause: putting out burning clothes reduces #emph[on fire], calming an ally reduces #emph[fear]. #strong[Lasting injuries] are slower:
 - Ordinary treatment reduces a given lasting injury by #strong[at most 1 tier]. Mark it #emph[treated].
@@ -113,8 +113,8 @@ These are game-time intervals, not medical estimates. A full night is the normal
 
 #strong[Stabilising.] An adjacent character with suitable means rolls Medicine vs. #strong[Hard 18], with relevant statuses and Situational Conditions modifying the roll. An ability or a fitting supernatural method can offer another way.
 - #strong[Success:] the patient is stable and the clock stops.
-- #strong[Success at a Cost:] stable, with the normal cost, subject to @core-costs-failures-complications inside conflicts.
-- #strong[Failure:] still #emph[Dying]. The attempt uses the action, but doesn't advance the clock.
+- #strong[Success with Complication:] stable, and the complication applies (@core-doubles); inside conflicts it is subject to @core-costs-failures-complications.
+- #strong[Failure:] still #emph[Dying]. The attempt uses the action, but doesn't advance the clock, and a complication from the failure can't mark a segment either.
 
 Stabilising doesn't erase marked segments, reduce the injury, refill pools or return the patient to the conflict. A stable patient can be moved with care. If a new event makes them #emph[Dying] again, the clock resumes from its recorded segments.
 

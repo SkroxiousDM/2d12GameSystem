@@ -207,7 +207,7 @@ Creature-specific rules remain in force, including breaking points that replace 
 9. Resolve permitted dice manipulation, one ability at a time (@core-dice-manipulation).
 10. Classify the outcome from the final retained faces and determine Power (@core-outcomes).
 11. Make permitted post-roll choices and pay their costs.
-12. Name each complication and its severity; offer Woe buyoff (@core-doubles).
+12. Name each complication and its severity, including one the GM buys with Woe (@core-woe); offer Woe buyoff (@core-doubles).
 13. Allocate Power: reserve permitted Effects first, then spend any surplus on mitigation (@core-doubles).
 14. Resist eligible narrative complications, once each (@core-doubles).
 15. Calculate Disposition loss separately from statuses.

@@ -38,15 +38,15 @@ A personal exception replaces that relationship Condition for its subject and do
 #strong[The incident is history.] It happened before play starts; it can't later cancel a PC's action, skip a contested scene or complete another project. Once play begins, use the core rules for PC struggles and E.10 for faction actions. Campaign Truths still need a major arc.
 
 // PLAYTEST: marker unified (M6)
-#strong[Pacing.] Average Power per World Turn for 2d12 + one Quality against Standard 15, with 0, 1 or 2 relevant asset tags. Success at a Cost gives only Tag Power; doubles and opposition aren't counted. Turns to fill are expected values with overflow discarded; they are estimates, not deadlines. (Playtest Value)
+#strong[Pacing.] Average Power per World Turn for 2d12 + one Quality against Standard 15, with 0, 1 or 2 relevant asset tags. Any total below 15 fails and generates no Power; matching dice add 1 Power (Critical Success); opposition isn't counted. Turns to fill are expected values with overflow discarded; they are estimates, not deadlines. (Playtest Value)
 
 #table(columns: (14%, 38%, 24%, 24%),
   table.header([Quality], [Avg Power (0/1/2 tags)], [Turns: 12], [Turns: 16]),
-  [0], [0.65 / 1.27 / 1.89], [19 / 10 / 7], [25 / 13 / 9],
-  [+1], [0.83 / 1.52 / 2.21], [15 / 9 / 6], [20 / 11 / 8],
-  [+2], [1.04 / 1.79 / 2.54], [12 / 7 / 5], [16 / 10 / 7],
-  [+3], [1.27 / 2.08 / 2.88], [10 / 6 / 5], [13 / 8 / 6],
-  [+4], [1.52 / 2.38 / 3.23], [9 / 6 / 4], [11 / 7 / 6],
+  [0], [0.69 / 1.07 / 1.45], [18 / 12 / 9], [24 / 16 / 12],
+  [+1], [0.88 / 1.33 / 1.79], [15 / 10 / 8], [19 / 13 / 10],
+  [+2], [1.08 / 1.62 / 2.17], [12 / 8 / 6], [15 / 11 / 8],
+  [+3], [1.32 / 1.94 / 2.56], [10 / 7 / 5], [13 / 9 / 7],
+  [+4], [1.57 / 2.26 / 2.94], [8 / 6 / 5], [11 / 8 / 6],
 )
 
 Site Truths take 12 segments and Region Truths 16 (C.6). At that scale one relevant asset tag paces close to the old 8-segment clocks; two tags finish a turn or two sooner.

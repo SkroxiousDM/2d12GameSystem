@@ -1,6 +1,6 @@
 # Pending hand edits: complication-die resolution
 
-Branch: `feat/complication-die-resolution`. Last commit when compiled: `09a91fc`.
+Branch: `feat/complication-die-resolution`. Last source commit when compiled: `09a91fc`.
 
 These edits are **not applied**. Each entry gives the file, its blob SHA on the branch when read, the exact text to find and the replacement. Check the blob SHA before editing; if it has changed, re-read the file. Terminology follows Core Rules 2.5 (`chapter-2.2-core-resolution.typ`): "success" includes Clean Success, Success with Complication and Critical Success, and every total below Difficulty is a Failure.
 
@@ -185,9 +185,103 @@ Replace with:
 would produce 2 Power
 ```
 
+## 6. Quick Reference
+
+File: `docs/2d12System/chapter-7-appendix-a-quick-reference.typ` (blob `06f746d`). The file is otherwise consistent with the Complication-die rules. Approved: all four edits below.
+
+6a. Section 3, Setup, step 2. Settles the Edge audit: the core (`chapter-2.10-conflict-system.typ`, blob `238ab92`) says highest Edge in that skill's pool. Find:
+
+```
+Roll 2d12 + Disposition skill + highest Edge in its pool.
+```
+
+Replace with:
+
+```
+The leader normally rolls 2d12 + Disposition skill + highest Edge in that skill's pool.
+```
+
+6b. Section 1, Complications and Risk. Insert a new paragraph after this anchor line, with a blank line before the `*Risky 1–3, optional:*` paragraph.
+
+Anchor:
+
+```
+Protected payments remain excluded (Core Rules @core-doubles).
+```
+
+Add after it:
+
+```
+*GM-bought complication:* After a roll resolves and before the player responds, the GM may spend Woe to add one complication to it, whatever the outcome: 1 for minor, 2 for moderate, 3 for major. At most one per roll. State the consequence and severity first; it must arise from the established danger or situation. Buyoff, mitigation and Resistance apply normally, and the Woe isn't refunded if the player buys it off. In scripted conflicts the usual limits apply (Core Rules @core-costs-failures-complications).
+```
+
+6c. GM Strip table. Add this row after the `[NPC complication], …` row:
+
+```
+[GM-bought complication], [One per roll, added after it resolves and before the player responds: 1/2/3 Woe for minor/moderate/major. State the consequence and severity first. Normal buyoff, mitigation and Resistance; the Woe isn't refunded if bought off. Conflict limits still apply (Core Rules @core-doubles; @core-costs-failures-complications).],
+```
+
+6d. Section 3, Conflict failure and costs. Removes a table whose "Ordinary-failure Woe" column is None in every row. Find:
+
+```
+#table(columns: (72%, 28%),
+  table.header([Situation], [Ordinary-failure Woe]),
+  [Failed independent action], [None],
+  [Versus loss, exact tie or trump], [None],
+)
+An ordinary failed action grants no additional unrelated GM move, automatic injury or extra Disposition loss.
+```
+
+Replace with:
+
+```
+A failed independent action, a versus loss, an exact tie or a trump grants no automatic Woe, unrelated GM move, automatic injury or extra Disposition loss.
+```
+
+## 7. Glossary (proposed, not yet approved)
+
+File: `docs/2d12System/chapter-8-appendix-b-glossary.typ` (blob `f3971e1`). Only entries A to M were read. Wording below is proposed and still needs approval.
+
+7a. Invoke entry. Your ruling is that Invoke rerolls the Risk die. Find:
+
+```
+unless explicitly permitted. The +2 affects only the total
+```
+
+Replace with:
+
+```
+unless explicitly permitted; Invoke is permitted and rerolls it, and the new result replaces the old. The +2 affects only the total
+```
+
+7b. Complication entry. Find:
+
+```
+before choosing a response. Original-severity Woe buyoff
+```
+
+Replace with:
+
+```
+before choosing a response. The GM may add one Woe-bought complication per roll after it resolves and before the player responds, paying 1/2/3 Woe for minor/moderate/major. Original-severity Woe buyoff
+```
+
+7c. Compel entry. Find:
+
+```
+It changes the situation, not an automatic numerical penalty or a resolved success.
+```
+
+Replace with:
+
+```
+It changes the situation, not an automatic numerical penalty or a resolved success. An accepted compel's complication has no severity and can't be bought off, mitigated or Resisted; the GM gains no Woe for it.
+```
+
 ## Not yet checked
 
-- Branch versions of the Quick Reference, Glossary and Example of Play.
+- Glossary entries N to Z (the file was truncated at Modifier), including Success with Complication, Woe, Weal, Risky and Smooth Recovery.
+- Branch version of the Example of Play.
 - Furcifer (Opportunist), Interlocutor (Smooth Recovery) and `chapter-2.6.5-recovery.typ`.
 - Modules C, D and F, the character sheet, `chapter-2.3-character-creation.typ`, the design pillars and the epigraph.
 - Branch-wide search for: miss by, Tag Power + 0, ordinary-failure Woe, doubles, Threat.

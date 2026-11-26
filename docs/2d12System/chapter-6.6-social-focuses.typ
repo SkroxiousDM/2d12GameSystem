@@ -31,7 +31,7 @@ Compel: You keep talking after words have stopped helping.
       benefit: [Use Persuade or Deceive instead of the skill the action would normally require.],
       limit: [Once per scene. Your approach must genuinely use the chosen skill. This changes only the skill: it does not make an impossible action possible, change a scripted action's interaction, or permit additional Effects.],
     )],
-    // PLAYTEST: R1, was redundant with core Success at a Cost; now cancels a complication that would otherwise cost Woe to buy off.
+    // PLAYTEST: R1, was redundant with core Success with Complication; now cancels a complication that would otherwise cost Woe to buy off.
     [2a], [#strong[Change of Plans];], [#ability(
       trigger: [A social roll is a Success with Complication.],
       cost: [No additional cost.],

@@ -137,7 +137,7 @@ Declare Interpose before the original target rolls Resistance or applies any har
 #strong[Hold the Line.] While able to participate and fictionally able to shield an ally, reduce combined ordinary Disposition loss from one successful opposing Attack by 1, minimum 0. Declare after calculating loss but before injury trade or loss application. It may trigger outside the assigned turn and grants no action or rotation credit. Apply once, including ordinary area-loss bonuses; multiple Bulwarks can't apply it to the same Attack. An eligible injury trade may cancel remaining ordinary loss normally. Exclude Feint, Maneuver, separately listed Special damage, statuses and protected payments. It can't solely protect the Bulwark when no ally is being shielded. No outside-conflict effect.
 
 === 7.5 Guardian Self-Repair <adv-guardian-self-repair>
-Once per guardian per exchange, after the guardian succeeds on its assigned scripted action, it may spend 1 Woe to choose one:
+Once per guardian per exchange, after the guardian succeeds on its assigned scripted action, including Success with Complication, it may spend 1 Woe to choose one:
 - Restore up to 2 of its side's shared Disposition, up to its original adjusted starting Disposition.
 - Remove up to 2 tiers from one existing physical status on that guardian that its repair systems can address.
 

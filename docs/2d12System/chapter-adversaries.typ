@@ -65,7 +65,7 @@ Use +4 as a starting-PC benchmark: a top skill, since tags supply Power rather t
 
 #figure(table(columns: (28%, 14%, 14%, 14%, 14%, 16%),
   table.header([Adversary rating], [+0], [+2], [+4], [+6], [+8]),
-  [PC win chance], [81%], [72%], [62%], [50%], [about 39%],
+  [PC win chance, ties split evenly], [81%], [72%], [62%], [50%], [about 39%],
 ))
 Each Woe die you add moves the odds back toward the adversary. These are roll benchmarks, not encounter-win predictions; versus totals, the Complication die, critical outcomes and ability-created matches follow Core Rules @core-outcomes and @core-scripting-volleys. The listed benchmarks aren't current encounter-balance validation.
 

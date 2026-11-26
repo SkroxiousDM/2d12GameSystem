@@ -76,6 +76,9 @@ For each distinct complication, state its concrete consequence and original seve
 + Resolve what remains.
 
 Buyoff closes once mitigation or Resistance begins. Reserve required Effect Power first; all complications share the action's budget. Removing a complication doesn't reverse failure or grant replacement Woe. Protected payments remain excluded (Core Rules @core-doubles).
+
+*GM-bought complication:* After a roll resolves and before the player responds, the GM may spend Woe to add one complication to it, whatever the outcome: 1 for minor, 2 for moderate, 3 for major. At most one per roll. State the consequence and severity first; it must arise from the established danger or situation. Buyoff, mitigation and Resistance apply normally, and the Woe isn't refunded if the player buys it off. In scripted conflicts the usual limits apply (Core Rules @core-costs-failures-complications).
+
 *Risky 1–3, optional:* Roll one separate d12. Never keep it or add it to the total; it does not count toward the bonus-dice cap. At or below the Risk rating, it triggers an independent complication on any outcome. Assign its severity separately; Critical Failure does not automatically make it major. Use the response order above.
 
 *Automatic success* replaces an otherwise permitted action's roll, not its permissions, stakes, interaction or assigned turn. Use listed Power plus applicable Tag Power unless already included; add no margin, extra base-success point or critical bonus. No extra action or rescue of a trumped action.
@@ -141,7 +144,7 @@ Use scripting when the stakes matter, opposition actively resists and several ta
 
 === Setup
 + State objectives, stakes, participants and exits.
-+ Roll 2d12 + Disposition skill + highest Edge in its pool.
++ The leader normally rolls 2d12 + Disposition skill + highest Edge in that skill's pool.
 + Divide by 3 and round down.
 + Add +1 per eligible backer and all flat modifiers at full value.
 + Apply the minimum of 1, then opposing Superiority.
@@ -198,12 +201,7 @@ I = independent; V = versus; A = Attack only; F = Feint only.
 *Trumped:* No action or optional Risk roll, Power, normal action Effect or comparison-based outcome. Paid costs remain spent; no free replacement or reassignment. Separate hazards require their own triggers.
 #colbreak()
 === Conflict failure and costs
-#table(columns: (72%, 28%),
-  table.header([Situation], [Ordinary-failure Woe]),
-  [Failed independent action], [None],
-  [Versus loss, exact tie or trump], [None],
-)
-An ordinary failed action grants no additional unrelated GM move, automatic injury or extra Disposition loss.
+A failed independent action, a versus loss, an exact tie or a trump grants no automatic Woe, unrelated GM move, automatic injury or extra Disposition loss.
 
 Comparison-based complications, including Critical Failure, cannot impose harmful statuses or additional Disposition loss without explicit permission. They cannot duplicate opposing purchases, change the script or cancel an independent action. Independent hazards and explicit abilities retain only their stated permissions.
 
@@ -331,6 +329,7 @@ Full adversary procedures govern; this strip grants no additional activation per
   table.header([Reminder], [Procedure]),
   [Change an unrevealed action], [3 Woe, or 2 with an eligible Leader; keep the assigned actor.],
   [NPC complication], [Pay existing Woe at original severity: 1/2/3. Pay in full before mitigation; declining generates no Woe. Otherwise mitigate with surplus action Power after Effect reservation. No ordinary-NPC Effort, narrative Resistance or generic Woe-to-Power purchase.],
+  [GM-bought complication], [One per roll, added after it resolves and before the player responds: 1/2/3 Woe for minor/moderate/major. State the consequence and severity first. Normal buyoff, mitigation and Resistance; the Woe isn't refunded if bought off. Conflict limits still apply (Core Rules @core-doubles; @core-costs-failures-complications).],
   [NPC injury trades], [Ordinary NPCs and groups cannot trade; full-PC rivals and explicit exceptions use Core Rules @core-npcs-harm.],
   [Bulwark (Interpose)], [Once per exchange, choose one. Take an ally's incoming status in their place, declared before their Resistance or reduction. Or Hold the Line: reduce one successful opposing Attack's ordinary loss by 1. Neither touches protected payments. Full rules: Adversaries @adv-interpose.],
   [Declarations and reactions], [Determine Power, reserve Effect Power and declare mitigation before Power purchases and action-triggered supplementary declarations close. Resolve permitted reactions, then uncancelled effects. Cancellation leaves purchases spent, frees no Power for mitigation and does not reopen declarations. Preserve expressly later windows, including Self-Repair (Adversaries @adv-shared-special-timing).],

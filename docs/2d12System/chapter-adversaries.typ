@@ -6,7 +6,7 @@
 == 1. Principles <adv-principles>
 #columns(2, gutter: 6mm)[
 - #strong[No pools.] Ordinary adversaries don't track Sōma, Mētis, Psychē or Pneuma. #strong[Grit] contributes to their side's starting shared Disposition; it isn't a personal track. #strong[Shrugs] are free Resists. Rivals built as full PCs use their PC resources and applicable exceptions.
-- #strong[Flat Tag Power.] Ratings don't include tags. Wherever the core adds Tag Power (Core Rules @core-outcomes), an adversary adds exactly #strong[1], however many power tags it has: a win gives 2 Power plus margin, and a Success at a Cost gives 1. PCs still Discover, Suppress and compel its tags.
+- #strong[Flat Tag Power.] Ratings don't include tags. Wherever the core adds Tag Power (Core Rules @core-outcomes), an adversary adds exactly #strong[1], however many power tags it has: a win or success gives 2 Power plus margin, and a loss or failure gives none. PCs still Discover, Suppress and compel its tags.
 #colbreak()
 - #strong[Woe is fuel.] Ordinary adversaries buy bonus dice (1 Woe each, max +2 including free dice) and fire Specials with Woe. They never use Effort and can't overrun Woe costs.
 - #strong[One best action.] Every card has one clearly best action and a #strong[Tell] that hints at it. Give the players something to script around.
@@ -65,9 +65,9 @@ Use +4 as a starting-PC benchmark: a top skill, since tags supply Power rather t
 
 #figure(table(columns: (28%, 14%, 14%, 14%, 14%, 16%),
   table.header([Adversary rating], [+0], [+2], [+4], [+6], [+8]),
-  [PC win chance], [85%], [77%], [67%], [56%], [about 45%],
+  [PC win chance], [81%], [72%], [62%], [50%], [about 39%],
 ))
-Each Woe die you add moves the odds back toward the adversary. These are roll benchmarks, not encounter-win predictions; versus totals, exceptional doubles and ability-created doubles follow Core Rules @core-doubles and @core-scripting-volleys. The listed benchmarks aren't current encounter-balance validation.
+Each Woe die you add moves the odds back toward the adversary. These are roll benchmarks, not encounter-win predictions; versus totals, the Complication die, critical outcomes and ability-created matches follow Core Rules @core-outcomes and @core-scripting-volleys. The listed benchmarks aren't current encounter-balance validation.
 
 === Step 3 — Role
 The Role names the Best action and gives one trait. Assign Fair to two other actions and Weak to the last. A Beast or simple machine has no Feint: it gets Best, Fair, Fair.
@@ -88,7 +88,7 @@ Write as many as the Rank allows.
 - #strong[Power tags] explain the Best action and what the adversary can do: faster than you can see, old-world steel, a hundred donors. They add nothing to the roll; together they justify its flat Tag Power.
 - #strong[Weakness tags] are levers PCs can find with Discover: proud beyond reason, fears fire, fixed in place.
 - #strong[Suppressing a power tag] (Weaken 1, Disarm 3, Called Shot): for the scene, the adversary adds no Tag Power on actions that tag explained. If the tag powers a Special, the Special is off for the scene instead.
-- #strong[A Discovered weakness] supplies #strong[+1 Power] to a PC action whose approach exploits it, #strong[outside] the +2 Tag Power cap. It applies on the same outcomes as Tag Power (Core Rules @core-outcomes): a Success or Success at a Cost, never a Failure or a lost versus roll. Each exploited weakness adds +1. It adds nothing to the roll, and it holds while the PCs know it and the fiction hasn't changed.
+- #strong[A Discovered weakness] supplies #strong[+1 Power] to a PC action whose approach exploits it, #strong[outside] the +2 Tag Power cap. It applies on the same outcomes as Tag Power (Core Rules @core-outcomes): any success, never a Failure or a lost versus roll. Each exploited weakness adds +1. It adds nothing to the roll, and it holds while the PCs know it and the fiction hasn't changed.
 - #strong[Compelling a weakness] costs 1 Weal or 1 Tychē. The adversary acts on it and the GM gains 1 Woe.
 
 Use the effect permissions of the procedure being resolved (Core Rules @core-effects, @core-actions-effects). A successful scripted action may buy relevant Discover; this summary grants no unrelated questions or additional status permission. General Weaken requires an explicit ability in conflicts; use Maneuver's priced Disarm for ordinary asset denial. Called Shot retains only its named permission and duration.

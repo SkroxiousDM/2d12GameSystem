@@ -24,6 +24,8 @@
 // PLAYTEST: where a 2-Weal or 2-Woe Truth may create a concrete obstacle rather than a resource or alternative approach. Neither can settle a disputed objective by declaration.
 #strong[Truths, not ratings.] Create a Truth buys one justified scene-scale fact at an appropriate moment (@core-establishing-recording). It grants no extra action, automatic success, Situational Condition rating or result beyond the stakes, and in a conflict it follows normal timing and permissions (@core-conflict-limits-reference). There is no Weal or Woe purchase of status tiers or Condition ratings: when the point is numerical help or interference, use an action that buys a Condition, an Effect or an explicit ability. Buying the existence of a maintenance passage establishes an approach, not #emph[prepared escape routes 2]; buying a smoke pot supplies the pot, and using it follows its own rules.
 
+#strong[Reduce Woe.] Removing 1 Woe costs 2 Weal here but 3 Power through Disrupt (@core-actions-effects). Weal decays at the end of each scene, so it is the cheaper but less durable price.
+
 #strong[Paying with Woe.] When the party is short, the GM may let you pay any spend except #emph[Reduce Woe], in whole or in part, by giving the GM 1 Woe per Weal. Bonus dice can always be paid this way (@core-bonus-dice-effort).
 
 === 9.2 Woe (the GM\'s pool) <core-woe>

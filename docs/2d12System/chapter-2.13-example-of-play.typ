@@ -11,14 +11,15 @@
 - #strong[Effort, part 2:] Kade spends another 2 Mētis for #strong[+1 Power → 6 Power];.
 - #strong[Spend:] Advance the #emph[Reach the Cell] clock by 4 (4 Power), filling it: he reaches the cell unseen. Discover (1 Power): \"Where is the key?\" --- \"On the sergeant\'s belt.\" 1 Power left → #strong[+1 Weal];.
 - #strong[On failure:] a total below Hard 18 would fail and generate no Power, including Tag Power. Kade could not use ordinary post-success Effort to buy Power. His retained faces would determine Failure with a Benefit, Failure with Complication or Critical Failure; reducing a complication would not fill the clock or accomplish the failed goal.
+- #strong[If the Complication die had been higher:] with 11 and an ordinary 7, the total is still 23 and the Power is 4 (no match, so no critical). That is a Success with Complication. The GM names a concrete consequence from the named danger, with its severity, before Kade responds: say a minor one, a guard turns toward the sound. Kade can give the GM 1 Woe to cancel it, spend 1 surplus Power to reduce it to nothing (leaving the clock one segment short), Resist it, or accept it.
 - #strong[Later:] the sergeant\'s dread patron, a bound spirit, lashes out with #emph[terror −3];. Kade Resists with #strong[Pneuma] (Edge 0), so 2d12: highest die 7 → cost 2 Pneuma. The status drops to #emph[terror −1];.
-- #strong[Compel:] the GM compels #emph[Reckless];: \"You can\'t wait for backup; you go in now.\" Kade accepts and gains +1 Tychē Point.
+- #strong[Compel:] the GM compels #emph[Reckless];: \"You can\'t wait for backup; you go in now.\" Kade accepts and gains +1 Tychē Point. The complication has no severity: it can't be bought off, mitigated or Resisted, and the GM gains no Woe for it.
 
 === 13.1 A Scripted Conflict <core-scripted-conflict>
 
 Later, at the warehouse gate, Kade, Mira and Tarin confront two guards. This is a new scene: the earlier Truth and Condition don't apply, and Kade's #emph[terror] was treated once the spirit's influence ended (@core-treatment-healing). His spent Mētis and Pneuma stay spent. The PCs want to get their friend through the gate; the guards want to hold them until reinforcements arrive. The stakes are capture and nonlethal injury, not death.
 
-#strong[Setup.] Mira leads with Fight +3 and the highest Edge in its pool, 1. Her setup dice are 7 and 8: 7 + 8 + 3 + 1 = 19. Divide by 3 and round down to 6, then add +1 for each of her two eligible backers: #strong[starting Disposition 8]. There are no other flat modifiers or Superiority. Backing supplies these points free, not extra Help dice (@core-setup).
+#strong[Setup.] Mira leads with Fight +3 and Edge 1, the highest in that skill's pool. Her setup dice are 7 and 8: 7 + 8 + 3 + 1 = 19. Divide by 3 and round down to 6, then add +1 for each of her two eligible backers: #strong[starting Disposition 8]. There are no other flat modifiers or Superiority. Backing supplies these points free, not extra Help dice (@core-setup).
 
 The guards' Grit 5 and 3 give their side #strong[8 Disposition] without a setup roll. Record both starting totals: they cap Defend and set the compromise grade (@core-setup).
 

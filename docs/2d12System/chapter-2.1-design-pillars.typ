@@ -21,7 +21,7 @@ Where each idea comes from: @core-design-notes.
 #colbreak()
 #block[
 #set enum(numbering: "1.", start: 2)
-+ #strong[One roll, many outputs.] A single 2d12 roll tells you whether you succeed, how well (Power), and whether something twists (doubles).
++ #strong[One roll, many outputs.] A single 2d12 roll tells you whether you succeed, how well (Power), and whether something twists (the Complication die).
 + #strong[Fiction is mechanical.] Tags, statuses and Truths give recorded fiction mechanical weight: statuses and Situational Conditions modify the roll, tags supply Power, and Truths decide what is possible (@core-core-resolution, @core-effects, @core-truths). Use only the modifiers a rule names; don't invent situational maths.
 + #strong[Characters are driven, not just capable.] Beliefs, Goals, and Instincts are the primary engine for earning Tychē Points and XP.
 ]

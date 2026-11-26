@@ -76,7 +76,7 @@ Outside scripted conflicts, check unawareness just before the roll. Whether your
       limit: [The never-seen declaration is once per scene. Declare it before the consequences of being spotted resolve; it doesn't undo anything already resolved.],
     )],
     [2], [#strong[Opportunist];], [#ability(
-      trigger: [Your permitted action against an individual opponent has an opening and succeeds, including an independent Success at a Cost or an automatic success.],
+      trigger: [Your permitted action against an individual opponent has an opening and succeeds, including an independent Success with Complication or an automatic success.],
       cost: [No additional cost.],
       benefit: [Gain #strong[+1 Power].],
       limit: [Once per action. Not on a losing, tied or trumped action. Spend it only on Effects that action permits.],

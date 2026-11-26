@@ -62,7 +62,7 @@ Record activation at the check. Newly activated rating changes and other phase b
 
 === 9.5 Desperate Rating Precedence <adv-desperate-rating-precedence>
 // PLAYTEST: Fixed available non-Defend category.
-Before setup, record one available Attack, Feint or Maneuver category for Desperate. Add +2 there while active; keep the choice fixed. Without an available non-Defend category, grant no bonus without an explicit exception. Replace Defend's base with Weak, then apply eligible modifiers; never add Desperate's +2 to Defend. A Marshal recording Attack uses Attack +7, Defend +3, Feint +3 and Maneuver +5 before other modifiers.
+Before setup, record one available Attack, Feint or Maneuver category for Desperate. Add +2 there while active; keep the choice fixed. Without an available non-Defend category, grant no bonus without an explicit exception. Replace Defend's base with Weak, then apply eligible modifiers; never add Desperate's +2 to Defend. A Marshal recording Attack uses Attack +5, Defend +1, Feint +1 and Maneuver +3 before other modifiers; Defend drops from +6 to +1.
 
 At an eligible exchange boundary, check phases before reinforcement arrivals (@adv-shared-special-timing). Arrival creates no additional phase check and doesn't reverse an activated phase.
 
@@ -85,7 +85,7 @@ Party of three. Opposition: Bounty Veteran (5), Knife in the Dark (3) and a Houn
 
 Before any reveal, the party commits Attack, Defend, Defend, assigned to three eligible PCs in rotation. The opposition commits Pack Maneuver, Knife Feint, Veteran Attack in that order.
 
-- Volley 1: Attack versus Maneuver is versus. The Pack spends 1 Woe on a bonus die and wins by 4, generating 2 Power. It buys Impede (1) and Gain Position (1). Hit and Run also removes 1 shared PC Disposition. Impede applies to the party's next scripted action, not necessarily the PC who just acted. Telegraph the Knife's next action with the guttering lamp.
+- Volley 1: Attack versus Maneuver is versus. The Pack spends 1 Woe on a bonus die and wins by 2, generating 2 Power. It buys Impede (1) and Gain Position (1). Hit and Run also removes 1 shared PC Disposition. Impede applies to the party's next scripted action, not necessarily the PC who just acted. Telegraph the Knife's next action with the guttering lamp.
 // ART: A knife flashing in a feint while the real blow comes from the shadows.
 #art-fill(min: 6cm)[A knife flashing in a feint while the real blow comes from the shadows.]
 #colbreak()

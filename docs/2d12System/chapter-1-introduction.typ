@@ -39,7 +39,7 @@ When a rule here mentions another chapter, it uses that chapter's name and secti
 
 == Terminology 
 
-#figure(table(columns: (22%, 54%),
+#figure(table(columns: (22%, 78%),
   table.header([House name], [What it is]),
   [*Woe*], [The GM's pool: complications and escalation],
   [*Weal*], [The party's shared pool of surplus Power ],
@@ -50,7 +50,7 @@ When a rule here mentions another chapter, it uses that chapter's name and secti
   [*Pneuma*], [Pool: spirit, will, presence, faith, the supernatural. Resists fear, despair, possession, corruption, social pressure],
 ))
 
-#figure(table(columns: (22%, 54%),
+#figure(table(columns: (22%, 78%),
   table.header([House name], [Generic core playbook]),
   [*Bellator*], [Front-line muscle; anchor Fight or Brawl],
   [*Furcifer*], [Infiltrator, scout, thief; anchor Stealth],

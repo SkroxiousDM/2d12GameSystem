@@ -167,7 +167,7 @@ Grit-built adversary sides use their listed setup instead of the Disposition rol
   [Neither side at 0], [Proceed to scripting.],
 )
 Only Superiority can reduce setup below the minimum of 1. Setup defeat scripts no exchange and inflicts no injury, pool loss or Taken Out by itself.
-#colbreak()
+
 === Script and reveal
 Each side secretly commits *three actions and their assigned actors*. Reveal one volley at a time. If the conflict continues, script another exchange.
 

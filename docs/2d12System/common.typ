@@ -13,7 +13,7 @@
 // ---------------------------------------------------------------- palette
 #let ink      = rgb("#1c1f24")   // charcoal
 #let ash      = rgb("#343a42")   // slate
-#let paper    = rgb("#fcfbf8")   // off-white
+#let paper    = rgb("#f4eee2")   // bleached bone
 #let tint     = rgb("#edf0f3")   // table zebra
 #let blood    = rgb("#2d4a66")   // primary accent (navy)
 #let ember    = rgb("#3f6a8f")   // secondary accent (steel blue)

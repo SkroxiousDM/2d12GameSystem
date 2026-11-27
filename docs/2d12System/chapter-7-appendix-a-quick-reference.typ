@@ -201,17 +201,16 @@ I = independent; V = versus; A = Attack only; F = Feint only.
 *Exact tie:* Neutral stalemate. Neither actor wins, generates Power, produces their normal action Effect or receives a comparison-based outcome. Paid costs remain spent; independent complications still resolve. Winning prevents the opposing normal Effect even when the winner funds other permitted Effects.
 
 *Trumped:* No action or optional Risk roll, Power, normal action Effect or comparison-based outcome. Paid costs remain spent; no free replacement or reassignment. Separate hazards require their own triggers.
-#colbreak()
+
 === Conflict failure and costs
 A failed independent action, a versus loss, an exact tie or a trump grants no automatic Woe, unrelated GM move, automatic injury or extra Disposition loss.
 
 Comparison-based complications, including Critical Failure, cannot impose harmful statuses or additional Disposition loss without explicit permission. They cannot duplicate opposing purchases, change the script or cancel an independent action. Independent hazards and explicit abilities retain only their stated permissions.
 
 #emph[Core Rules @core-when-use-conflict[§§]–@core-costs-failures-complications[].]
-]
 
 == 4. Spend Power in a Conflict <qr-spend-power-conflict>
-Use one Power budget. No primary purchase is mandatory. Relevance alone does not grant permission. Before Power mitigation, fund at least one permitted Effect and preserve any minimum requirement agreed before rolling. Spend only surplus generated or purchased Power; never shrink a reserved purchase to free Power for mitigation. This reservation requirement does not restrict Woe buyoff or eligible Resistance.
+Use one Power budget. No primary purchase is mandatory. Relevance alone does not grant permission. Before Power mitigation, fund at least one permitted Effect and preserve any minimum requirement agreed before rolling. Spend only surplus generated or purchased Power; never shrink a reserved purchase to free Power for mitigation. This reservation requirement does not restrict Woe buyoff or eligible Resistance.]
 
 #table(columns: (22%, 19%, 59%),
   table.header([Action / purchase], [Power], [Result]),

@@ -1,0 +1,9 @@
+--- a/docs/2d12System/the-2d12-system-v2-core-rulebook.typ
++++ b/docs/2d12System/the-2d12-system-v2-core-rulebook.typ
+@@ -37,5 +37,5 @@
+   #place(top + center, dy: 1.6cm, text(font: display-font, size: 9pt, fill: brass, tracking: 0.5em, weight: 700, upper(book-tagline)))
+   #place(top + center, dy: 4.2cm, grid(columns: 2, column-gutter: 0.9cm,
+-    d12-face(r: 3cm, fill: blood, num: "12"), d12-face(r: 3cm, fill: ember, num: "12")))
++    d12-face(r: 3cm, fill: blood, num: "12"), d12-face(r: 3cm, fill: rgb("#5183ad"), num: "12")))
+   #place(top + center, dy: 13.6cm, block(width: 92%, {
+     set align(center)

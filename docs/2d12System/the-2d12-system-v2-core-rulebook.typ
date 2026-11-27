@@ -35,7 +35,7 @@
   #place(bottom + left, rect(width: 100%, height: 1.6cm, fill: blood))
   #place(top + center, dy: 1.6cm, text(font: display-font, size: 9pt, fill: brass, tracking: 0.5em, weight: 700, upper(book-tagline)))
   #place(top + center, dy: 4.2cm, grid(columns: 2, column-gutter: 0.9cm,
-    d12-face(r: 3cm, fill: blood, num: "12"), d12-face(r: 3cm, fill: ember, num: "12")))
+    d12-face(r: 3cm, fill: blood, num: "12"), d12-face(r: 3cm, fill: rgb("#5183ad"), num: "12")))
   #place(top + center, dy: 13.6cm, block(width: 92%, {
     set align(center)
     text(font: display-font, size: 46pt, weight: 900, fill: moon, tracking: 0.02em, book-title)

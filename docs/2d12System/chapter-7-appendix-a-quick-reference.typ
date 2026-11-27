@@ -140,7 +140,7 @@ Pool recovery and status healing do not restore Disposition, refresh injury trad
 Life-threatening tier-6 harm with lethal stakes can start a 3-segment _Dying_ clock. Medicine vs. Hard 18 stabilises. Explicit creature breaking-point rules replace generic outcomes only where stated.
 
 #emph[Core Rules @core-effects[§§]–@core-rest-recovery[]; currencies in @core-core-resolution[§§]–@core-tyche-points[] and @core-weal-woe.]
-
+#colbreak()
 == 3. Run a Conflict <qr-run-conflict>
 Use scripting when the stakes matter, opposition actively resists and several tactical choices matter.
 
@@ -159,7 +159,7 @@ Grit-built adversary sides use their listed setup instead of the Disposition rol
 
 // PLAYTEST: marker unified (M6)
 *Superiority:* one per distinct, relevant preparation category—Know Thy Foe, Know Thy Battlefield, Know Thy Players—maximum 3. Use Core Rules @core-superiority for eligibility. PC/opposition symmetry and eligibility remain (Playtest Value).
-
+#colbreak()
 #table(columns: (40%, 60%),
   table.header([Adjusted totals], [Setup outcome]),
   [Only one side at 0], [Its opponent wins at no cost within the stakes.],
@@ -311,7 +311,7 @@ Compare the winner's final remaining Disposition with its *original adjusted sta
 Use proportions without rounding, not cumulative loss. Remaining Disposition at or above the original start means no compromise. Reinforcements do not change the reference.
 
 Negotiate one outcome-first package. Injury tiers 2/3/4 guide Minor/Significant/Major severity; they are not automatic injuries. Credit each eligible existing injury once. Eligible imposed statuses may be Resisted; agreed payments may not. Resistance does not revoke a concession or create replacement injury costs.
-#colbreak()
+
 If both sides are defeated, use mutual defeat rather than a winner's compromise: resolve compatible parts of both intents and a shared setback within the stakes; neither wins outright (Core Rules @core-defeat-mutual-defeat-concession).
 
 === Concede

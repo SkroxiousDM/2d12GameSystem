@@ -6,8 +6,8 @@
 Monster-hunter, exorcist, or investigator of the strange.
 ]
 
-- #strong[Tags:] #emph[I Study What Hunts Us];, #emph[I Carry the Hunt With Me]
 - #strong[PC link:] \"\[PC\] saw what I saw that night, and they\'re the only one who believes me.\"
+- #strong[Tags:]
 
 #emph[I Study What Hunts Us]
 
@@ -69,9 +69,9 @@ Compel: The hunt intrudes on a safe place, relationship, or unrelated obligation
 Touched by the spirit world, the Otherworld, or the deep net.
 ]
 
-- #strong[Tags:] #emph[One Foot Across the Veil];, #emph[The Other Side Knows My Name]
 - #strong[PC link:] \"\[PC\] anchors me. Without them, I\'d drift away.\"
-
+- #strong[Tags:]
+  
 #emph[One Foot Across the Veil]
 
 Power: Interpret and navigate your established connection to the other world. \
@@ -130,9 +130,9 @@ Compel: A being recognises you when you would rather remain unknown or calls upo
 Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
 ]
 
-- #strong[Tags:] #emph[My Patron Invested in Me];, #emph[I Am Bound by the Old Terms]
 - #strong[PC link:] \"\[PC\] knows what I traded, and hasn\'t told anyone.\"
-
+- #strong[Tags:]
+ 
 #emph[My Patron Invested in Me]
 
 Power: Draw on your granted gift or standing as the patron’s chosen agent. \
@@ -192,9 +192,9 @@ Define the patron and the bargain's key terms at creation. These tags provide le
 Mutant, cyborg, half-fae, or carrier of a strange bloodline.
 ]
 
-- #strong[Tags:] #emph[My \[Trait\] Sets Me Apart];, #emph[I Live by a Different Nature]
 - #strong[PC link:] \"\[PC\] saw me change and stayed anyway.\"
-
+- #strong[Tags:]
+  
 #emph[My \[Trait\] Sets Me Apart]
 
 Power: Use your chosen extraordinary trait. \

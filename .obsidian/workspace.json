@@ -13,10 +13,10 @@
             "state": {
               "type": "typst-source",
               "state": {
-                "file": "docs/2d12System/the-2d12-system-v2-core-rulebook.typ"
+                "file": "docs/2d12System/chapter-6.8-weird-focuses.typ"
               },
               "icon": "file-type",
-              "title": "the-2d12-system-v2-core-rulebook"
+              "title": "chapter-6.8-weird-focuses"
             }
           },
           {
@@ -67,12 +67,12 @@
             "state": {
               "type": "typst-preview",
               "state": {
-                "vaultPath": "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
+                "vaultPath": "docs/2d12System/chapter-6.8-weird-focuses.typ",
                 "themeOverride": null,
                 "pinned": false
               },
               "icon": "book-open",
-              "title": "Preview: the-2d12-system-v2-core-rulebook.typ"
+              "title": "Preview: chapter-6.8-weird-focuses.typ"
             }
           }
         ]
@@ -242,18 +242,18 @@
   },
   "active": "7aa6f6322e6f3252",
   "lastOpenFiles": [
+    "docs/2d12System/common.typ",
+    "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
+    "docs/2d12System/chapter-6.8-weird-focuses.typ",
     "docs/design/Rules Audit/simplicity-flow/core-cover-pentagon-contrast.patch",
     "docs/design/Rules Audit/simplicity-flow/core-cover-pentagon-contrast-notes.md",
     "docs/2d12System/chapter-3-module-d-downtime.typ",
-    "docs/2d12System/the-2d12-system-v2-core-rulebook.typ",
     "docs/2d12System/chapter-2.10-conflict-system-aftermath.typ",
     "docs/2d12System/chapter-2.10-conflict-system.typ",
     "pdf/the-2d12-system-v2-core-rulebook.pdf",
     "docs/2d12System/chapter-2.9-weal-and-woe.typ",
     "docs/2d12System/chapter-2.8-truths.typ",
     "docs/2d12System/chapter-2.4-tyche-points.typ",
-    "docs/2d12System/chapter-2.5-effects.typ",
-    "docs/2d12System/chapter-2.3-character-creation.typ",
     "docs/2d12System/drafts/hand-edits-12-design-pillars-complication-die-resolution.md",
     "docs/2d12System/drafts/hand-edits-13-module-e-adversaries-complication-die-resolution.md",
     "docs/2d12System/drafts/hand-edits-11-chapter-2-3-complication-die-resolution.md",

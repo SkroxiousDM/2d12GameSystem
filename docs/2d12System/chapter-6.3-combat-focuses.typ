@@ -7,16 +7,17 @@
 Loyal to a fault. You go back for the fallen, every time.
 ]
 - #strong[PC link:] \"I once failed to save someone. \[PC\] reminds me of them.\"
-- #strong[Tags:] 
-#emph[Everyone Comes Home]
+- #strong[Tags:]
 
-Power: Rescue, extract, or rally endangered companions. \
-Compel: You go back when escape requires leaving someone behind.
+  #h(20pt)#emph[Everyone Comes Home]
 
-#emph[Their Safety Is My Responsibility]
+    #pad(left: 40pt)[Power: Rescue, extract, or rally endangered companions. \
+    Compel: You go back when escape requires leaving someone behind.]
 
-Power: Anticipate threats to others and coordinate their protection. \
-Compel: You take control of someone’s safety against their wishes or accept too much risk yourself.
+  #h(20pt)#emph[Their Safety Is My Responsibility]
+
+    #h(40pt)Power: Anticipate threats to others and coordinate their protection. \
+    #h(40pt)Compel: You take control of someone’s safety against their wishes or accept too much risk yourself.
 
 #figure(
   [#table(
@@ -69,15 +70,15 @@ Captain, chief, or sergeant: people follow you.
 - #strong[PC link:] \"\[PC\] was the first person who ever followed my lead.\"
 - #strong[Tags:] 
 
-#emph[Follow Me In]
+  #h(20pt)#emph[Follow Me In]
 
-Power: Lead an advance and inspire others through visible action. \
-Compel: You expose yourself rather than direct events from safety.
+    #pad(left: 40pt)[Power: Lead an advance and inspire others through visible action. \
+    Compel: You expose yourself rather than direct events from safety.]
 
-#emph[I Carry Their Confidence]
+  #h(20pt)#emph[I Carry Their Confidence]
 
-Power: Rally followers and steady a wavering group. \
-Compel: You conceal your doubts or accept a challenge to preserve their faith in you.
+    #pad(left: 40pt)[Power: Rally followers and steady a wavering group. \
+    Compel: You conceal your doubts or accept a challenge to preserve their faith in you.]
 
 #figure(
   [#table(
@@ -130,15 +131,15 @@ Years of drill with one weapon: a blade, a rifle, a staff, bare fists.
 - #strong[PC link:] \"\[PC\] once saw me lose a duel, and kept it secret.\"
 - #strong[Tags:]
 
-#emph[One With My \[Weapon\]]
+#h(20pt)#emph[One With My \[Weapon\]]
 
-Power: Wield, maintain, and understand your chosen weapon. \
-Compel: You resist surrendering it or struggle to abandon its familiar approach.
+    #pad(left: 40pt)[Power: Wield, maintain, and understand your chosen weapon. \
+    Compel: You resist surrendering it or struggle to abandon its familiar approach.]
 
-#emph[My Training Takes Over]
+#h(20pt)#emph[My Training Takes Over]
 
-Power: React through disciplined, deeply practised technique. \
-Compel: An opponent exploits your habits, or an unconventional situation defeats your routine.
+    #pad(left: 40pt)[Power: React through disciplined, deeply practised technique. \
+    Compel: An opponent exploits your habits, or an unconventional situation defeats your routine.]
 
 #figure(
   [#table(
@@ -191,15 +192,15 @@ Honour is for people who can afford to lose.
 - #strong[PC link:] \"I taught \[PC\] that winning is the only thing that matters. They\'re still deciding if I was right.\"
 - #strong[Tags:]
 
-#emph[Winning Comes Before Honour]
+#h(20pt)#emph[Winning Comes Before Honour]
 
-Power: Use deception, surprise, and ruthless expedience. \
-Compel: Your methods cost trust, legitimacy, or a valuable alliance.
+    #pad(left: 40pt)[Power: Use deception, surprise, and ruthless expedience. \
+    Compel: Your methods cost trust, legitimacy, or a valuable alliance.]
 
-#emph[Every Weakness Is an Opening]
+#h(20pt)#emph[Every Weakness Is an Opening]
 
-Power: Exploit distraction, injury, pride, or poor positioning. \
-Compel: You take a tempting cheap shot that exposes you or escalates the conflict.
+    #pad(left: 40pt)[Power: Exploit distraction, injury, pride, or poor positioning. \
+    Compel: You take a tempting cheap shot that exposes you or escalates the conflict.]
 
 #figure(
   [#table(

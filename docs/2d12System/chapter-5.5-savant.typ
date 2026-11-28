@@ -26,33 +26,33 @@ The six options support a polymath, investigator, physician, engineer, establish
 
 #emph[I Have Read About This]
 
-Power: Recall relevant knowledge, recognise an obscure reference, or connect ideas across subjects. \
-Compel: You trust a written account despite evidence that it is incomplete or wrong.
+    #pad(left: 20pt)[Power: Recall relevant knowledge, recognise an obscure reference, or connect ideas across subjects. \
+    Compel: You trust a written account despite evidence that it is incomplete or wrong.]
 
 #emph[The Evidence Must Agree]
 
-Power: Compare clues, expose contradictions, or test a proposed explanation. \
-Compel: You delay an urgent decision because one detail remains unresolved.
+    #pad(left: 20pt)[Power: Compare clues, expose contradictions, or test a proposed explanation. \
+    Compel: You delay an urgent decision because one detail remains unresolved.]
 
 #emph[Every Patient Teaches Me]
 
-Power: Diagnose a condition, recognise a familiar symptom, or adapt treatment from experience. \
-Compel: An unusual case draws you into further examination when withdrawal would be safer.
+    #pad(left: 20pt)[Power: Diagnose a condition, recognise a familiar symptom, or adapt treatment from experience. \
+    Compel: An unusual case draws you into further examination when withdrawal would be safer.]
 
 #emph[I Think in Working Parts]
 
-Power: Understand mechanisms, diagnose failures, or organise a complicated process. \
-Compel: You treat a human problem like a mechanism and overlook feelings or loyalties.
+    #pad(left: 20pt)[Power: Understand mechanisms, diagnose failures, or organise a complicated process. \
+    Compel: You treat a human problem like a mechanism and overlook feelings or loyalties.]
 
 #emph[My Name Opens Learned Doors]
 
-Power: Secure a scholarly audience, establish professional credibility, or request access to research. \
-Compel: Your standing brings scrutiny, professional obligations, or pressure to defend your work.
+    #pad(left: 20pt)[Power: Secure a scholarly audience, establish professional credibility, or request access to research. \
+    Compel: Your standing brings scrutiny, professional obligations, or pressure to defend your work.]
 
 #emph[No Knowledge Should Be Forbidden]
 
-Power: Investigate taboo subjects, challenge accepted doctrine, or interpret suppressed research. \
-Compel: You cross an ethical, legal, or personal boundary to obtain an answer.
+    #pad(left: 20pt)[Power: Investigate taboo subjects, challenge accepted doctrine, or interpret suppressed research. \
+    Compel: You cross an ethical, legal, or personal boundary to obtain an answer.]
 
 === 5.1 Special Abilities <pb-savant-special-abilities>
 #figure(

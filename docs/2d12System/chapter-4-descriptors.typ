@@ -78,13 +78,13 @@ You fill doorways. People step aside before you ask.
 
 #emph[Built Like a Door]
 
-Power: Lift, break, brace, or physically intimidate. \
-Compel: Your bulk prevents a discreet approach or passage through a cramped space.
+    #pad(left: 20pt)[Power: Lift, break, brace, or physically intimidate. \
+    Compel: Your bulk prevents a discreet approach or passage through a cramped space.]
 
 #emph[Let Me Carry That]
 
-Power: Haul burdens or carry someone to safety. \
-Compel: You take on a load you should have shared or left behind.
+    #pad(left: 20pt)[Power: Haul burdens or carry someone to safety. \
+    Compel: You take on a load you should have shared or left behind.]
 ]
 #block(breakable: false, width: 100%)[
 === 2. Charismatic
@@ -100,13 +100,13 @@ When you speak, people stop and listen, whether they want to or not.
 
 #emph[All Eyes Turn to Me]
 
-Power: Hold attention, command a room, or distract an audience. \
-Compel: You attract recognition when you need anonymity.
+    #pad(left: 20pt)[Power: Hold attention, command a room, or distract an audience. \
+    Compel: You attract recognition when you need anonymity.]
 
 #emph[I Give Them Someone to Believe In]
 
-Power: Inspire confidence and win support. \
-Compel: People expect you to live up to the person you presented.
+    #pad(left: 20pt)[Power: Inspire confidence and win support. \
+   Compel: People expect you to live up to the person you presented.]
 ]
 #block(breakable: false, width: 100%)[
 === 3. Compassionate
@@ -122,13 +122,13 @@ You have never walked past someone in pain. You have paid for that more than onc
 
 #emph[Everyone Deserves Kindness]
 
-Power: Comfort someone, earn trust, or defuse hostility. \
-Compel: You extend kindness to someone who exploits it.
+    #pad(left: 20pt)[Power: Comfort someone, earn trust, or defuse hostility. \
+    Compel: You extend kindness to someone who exploits it.]
 
 #emph[Your Pain Is My Concern]
 
-Power: Recognise distress and reach someone who is suffering. \
-Compel: You interrupt an urgent task to help someone in need.
+    #pad(left: 20pt)[Power: Recognise distress and reach someone who is suffering. \
+    Compel: You interrupt an urgent task to help someone in need.]
 ]
 #block(breakable: false, width: 100%)[
 === 4. Cunning
@@ -144,13 +144,13 @@ You see the board, the pieces and the hand moving them.
   
 #emph[Three Moves Ahead]
 
-Power: Anticipate reactions and prepare a clever approach. \
-Compel: You overcomplicate a straightforward problem or rely on a predicted response.
+    #pad(left: 20pt)[Power: Anticipate reactions and prepare a clever approach. \
+    Compel: You overcomplicate a straightforward problem or rely on a predicted response.]
 
 #emph[I Keep Something in Reserve]
 
-Power: Conceal leverage, intentions, or a fallback. \
-Compel: Withholding something important leaves your allies unprepared.
+    #pad(left: 20pt)[Power: Conceal leverage, intentions, or a fallback. \
+    Compel: Withholding something important leaves your allies unprepared.]
 ]
 #block(breakable: false, width: 100%)[
 === 5. Curious
@@ -166,13 +166,13 @@ A locked door is a question. You\'ve never been good at leaving questions alone.
   
 #emph[I Have to Know Why]
 
-Power: Investigate causes and question easy answers. \
-Compel: You pursue an answer when leaving would be wiser.
+#pad(left: 20pt)[Power: Investigate causes and question easy answers. \
+Compel: You pursue an answer when leaving would be wiser.]
 
 #emph[Every Secret Is an Invitation]
 
-Power: Notice concealment and uncover hidden information. \
-Compel: You cross a boundary someone deliberately established.
+#pad(left: 20pt)[Power: Notice concealment and uncover hidden information. \
+Compel: You cross a boundary someone deliberately established.]
 ]
 #block(breakable: false, width: 100%)[
 === 6. Furtive
@@ -188,13 +188,13 @@ You keep to walls and corners. Being noticed has never gone well for you.
   
 #emph[I Keep to the Edges]
 
-Power: Avoid notice and observe without drawing attention. \
-Compel: Staying peripheral keeps you from influencing an important moment.
+#pad(left: 20pt)[Power: Avoid notice and observe without drawing attention. \
+Compel: Staying peripheral keeps you from influencing an important moment.]
 
 #emph[I Never Show My Whole Hand]
 
-Power: Conceal your intentions and protect sensitive information. \
-Compel: Your evasiveness makes an ally doubt you.
+#pad(left: 20pt)[Power: Conceal your intentions and protect sensitive information. \
+Compel: Your evasiveness makes an ally doubt you.]
 ]
 #block(breakable: false, width: 100%)[
 === 7. Hardy
@@ -210,13 +210,13 @@ Cold, hunger and pain are old companions. You\'ve learned to walk on with them.
   
 #emph[Hardship Is an Old Companion]
 
-Power: Endure exposure, deprivation, and punishing conditions. \
-Compel: You underestimate hardship that your companions cannot withstand.
+#pad(left: 20pt)[Power: Endure exposure, deprivation, and punishing conditions. \
+Compel: You underestimate hardship that your companions cannot withstand.]
 
 #emph[I Can Keep Going]
 
-Power: Continue through fatigue and discomfort. \
-Compel: You refuse needed rest or treatment.
+#pad(left: 20pt)[Power: Continue through fatigue and discomfort. \
+Compel: You refuse needed rest or treatment.]
 ]
 #block(breakable: false, width: 100%)[
 === 8. Haunted
@@ -232,13 +232,13 @@ Something from your past follows you. Some nights you can almost hear it.
   
 #emph[I Know What Darkness Looks Like]
 
-Power: Recognise familiar horrors and understand others who have suffered. \
-Compel: A resemblance to the past makes you misjudge the present.
+#pad(left: 20pt)[Power: Recognise familiar horrors and understand others who have suffered. \
+Compel: A resemblance to the past makes you misjudge the present.]
 
 #emph[I Carry the Past With Me]
 
-Power: Draw resolve or insight from what you survived. \
-Compel: A memory, reminder, or unfinished obligation demands your attention.
+#pad(left: 20pt)[Power: Draw resolve or insight from what you survived. \
+Compel: A memory, reminder, or unfinished obligation demands your attention.]
 ]
 #block(breakable: false, width: 100%)[
 === 9. Light-Fingered
@@ -254,13 +254,13 @@ Things find their way into your hands. You rarely remember deciding to take them
   
 #emph[My Hands Have a Mind of Their Own]
 
-Power: Palm, plant, or manipulate something without drawing notice. \
-Compel: You reach for something before considering who is watching.
+#pad(left: 20pt)[Power: Palm, plant, or manipulate something without drawing notice. \
+Compel: You reach for something before considering who is watching.]
 
 #emph[Unattended Means Unclaimed]
 
-Power: Spot opportunities to acquire something useful. \
-Compel: You take something whose owner will want it back.
+#pad(left: 20pt)[Power: Spot opportunities to acquire something useful. \
+Compel: You take something whose owner will want it back.]
 ]
 #block(breakable: false, width: 100%)[
 === 10. Loyal
@@ -276,13 +276,13 @@ You chose your people. Nothing will make you abandon them.
   
 #emph[I Stand by My Own]
 
-Power: Protect, support, or speak for your people. \
-Compel: You take their side when doing so puts you in the wrong.
+#pad(left: 20pt)[Power: Protect, support, or speak for your people. \
+Compel: You take their side when doing so puts you in the wrong.]
 
 #emph[I Remember Who Stood With Me]
 
-Power: Strengthen an old bond or rally someone through shared history. \
-Compel: An old loyalty conflicts with your present responsibilities.
+#pad(left: 20pt)[Power: Strengthen an old bond or rally someone through shared history. \
+Compel: An old loyalty conflicts with your present responsibilities.]
 ]
 #block(breakable: false, width: 100%)[
 === 11. Methodical
@@ -298,13 +298,13 @@ Haste makes mistakes. You check everything twice and trust your notes.
   
 #emph[Measure Twice, Cut Once]
 
-Power: Plan carefully and avoid preventable mistakes. \
-Compel: You lose an opportunity while checking your work.
+#pad(left: 20pt)[Power: Plan carefully and avoid preventable mistakes. \
+Compel: You lose an opportunity while checking your work.]
 
 #emph[Everything in Its Proper Order]
 
-Power: Organise a complicated task or follow a demanding procedure. \
-Compel: Disruption leaves you struggling to improvise.
+#pad(left: 20pt)[Power: Organise a complicated task or follow a demanding procedure. \
+Compel: Disruption leaves you struggling to improvise.]
 ]
 #block(breakable: false, width: 100%)[
 === 12. Nimble
@@ -320,13 +320,13 @@ You move like water, over walls and through gaps others never see.
   
 #emph[I Trust My Feet]
 
-Power: Balance, climb, tumble, or cross precarious ground. \
-Compel: You commit to footing that cannot support you.
+#pad(left: 20pt)[Power: Balance, climb, tumble, or cross precarious ground. \
+Compel: You commit to footing that cannot support you.]
 
 #emph[There Is Always a Way Through]
 
-Power: Slip through gaps and navigate crowded or obstructed spaces. \
-Compel: You take a route your companions cannot follow.
+#pad(left: 20pt)[Power: Slip through gaps and navigate crowded or obstructed spaces. \
+Compel: You take a route your companions cannot follow.]
 ]
 #block(breakable: false, width: 100%)[
 === 13. Observant
@@ -342,13 +342,13 @@ You notice the scuffed boot, the nervous glance, the window left open.
   
 #emph[The Small Things Matter]
 
-Power: Notice subtle clues and changes. \
-Compel: A minor detail draws you away from the larger danger.
+#pad(left: 20pt)[Power: Notice subtle clues and changes. \
+Compel: A minor detail draws you away from the larger danger.]
 
 #emph[I Keep an Eye on Everyone]
 
-Power: Track movements and notice suspicious behaviour. \
-Compel: Your scrutiny makes someone feel watched or distrusted.
+#pad(left: 20pt)[Power: Track movements and notice suspicious behaviour. \
+Compel: Your scrutiny makes someone feel watched or distrusted.]
 ]
 #block(breakable: false, width: 100%)[
 === 14. Reckless
@@ -364,13 +364,13 @@ Thinking is for later. Right now, something needs doing.
   
 #emph[First Into Trouble]
 
-Power: Seize the initiative and act before hesitation takes hold. \
-Compel: You enter danger before your allies are ready.
+#pad(left: 20pt)[Power: Seize the initiative and act before hesitation takes hold. \
+Compel: You enter danger before your allies are ready.]
 
 #emph[I Like My Odds]
 
-Power: Commit decisively to a dangerous opportunity. \
-Compel: You accept a gamble you cannot afford to lose.
+#pad(left: 20pt)[Power: Commit decisively to a dangerous opportunity. \
+Compel: You accept a gamble you cannot afford to lose.]
 ]
 #block(breakable: false, width: 100%)[
 === 15. Relentless
@@ -386,13 +386,13 @@ You don\'t stop. Not when you\'re tired, not when you\'re hurt, not when it\'s h
   
 #emph[I Finish What I Start]
 
-Power: Persist through setbacks and sustained effort. \
-Compel: You refuse to abandon a task that no longer serves its purpose.
+#pad(left: 20pt)[Power: Persist through setbacks and sustained effort. \
+Compel: You refuse to abandon a task that no longer serves its purpose.]
 
 #emph[I Never Let the Trail Go Cold]
 
-Power: Maintain a pursuit and keep pressure on a quarry. \
-Compel: You follow too far or neglect something more urgent.
+#pad(left: 20pt)[Power: Maintain a pursuit and keep pressure on a quarry. \
+Compel: You follow too far or neglect something more urgent.]
 ]
 #block(breakable: false, width: 100%)[
 === 16. Resolute
@@ -408,13 +408,13 @@ Your word is iron. Once you decide, the world bends or breaks against you.
 
 #emph[My Word Is Iron]
 
-Power: Inspire trust and withstand pressure to break a promise. \
-Compel: Keeping your word demands a serious sacrifice.
+#pad(left: 20pt)[Power: Inspire trust and withstand pressure to break a promise. \
+Compel: Keeping your word demands a serious sacrifice.]
 
 #emph[I Know What I Stand For]
 
-Power: Resist intimidation, temptation, and manipulation. \
-Compel: You reject a necessary compromise.
+#pad(left: 20pt)[Power: Resist intimidation, temptation, and manipulation. \
+Compel: You reject a necessary compromise.]
 ]
 #block(breakable: false, width: 100%)[
 === 17. Restless
@@ -430,13 +430,13 @@ Stillness itches. You need to move, act, see what is over the next hill.
   
 #emph[I Need to Keep Moving]
 
-Power: Sustain motion and respond quickly to a changing situation. \
-Compel: Waiting in place becomes intolerable.
+#pad(left: 20pt)[Power: Sustain motion and respond quickly to a changing situation. \
+Compel: Waiting in place becomes intolerable.]
 
 #emph[Something Better Lies Ahead]
 
-Power: Find a new route or rally yourself to move beyond a setback. \
-Compel: You abandon something worthwhile for an uncertain possibility.
+#pad(left: 20pt)[Power: Find a new route or rally yourself to move beyond a setback. \
+Compel: You abandon something worthwhile for an uncertain possibility.]
 ]
 #block(breakable: false, width: 100%)[
 === 18. Scholarly
@@ -452,13 +452,13 @@ You have read more than most people will ever hear spoken.
   
 #emph[I Have Read About This]
 
-Power: Recall relevant knowledge and recognise a precedent. \
-Compel: You trust a written account over contradictory experience.
+#pad(left: 20pt)[Power: Recall relevant knowledge and recognise a precedent. \
+Compel: You trust a written account over contradictory experience.]
 
 #emph[There Must Be a Source]
 
-Power: Research a question and verify a claim. \
-Compel: You delay action while seeking an authority or reference.
+#pad(left: 20pt)[Power: Research a question and verify a claim. \
+Compel: You delay action while seeking an authority or reference.]
 ]
 #block(breakable: false, width: 100%)[
 === 19. Serene
@@ -474,13 +474,13 @@ Storms rage around you. Inside, you are still water.
   
 #emph[Still Water in a Storm]
 
-Power: Remain composed and steady others during a crisis. \
-Compel: Your composure is mistaken for indifference when someone needs visible concern.
+#pad(left: 20pt)[Power: Remain composed and steady others during a crisis. \
+Compel: Your composure is mistaken for indifference when someone needs visible concern.]
 
 #emph[I Will Hear You Out]
 
-Power: Listen patiently and defuse a confrontation. \
-Compel: You give someone time to stall, escape, or prepare.
+#pad(left: 20pt)[Power: Listen patiently and defuse a confrontation. \
+Compel: You give someone time to stall, escape, or prepare.]
 ]
 #block(breakable: false, width: 100%)[
 === 20. Sly
@@ -496,13 +496,13 @@ There is always another way in, another word to say, another deal to make.
   
 #emph[There Is Always Another Angle]
 
-Power: Find a loophole, shortcut, or indirect approach. \
-Compel: You complicate a situation rather than accept an honest answer.
+#pad(left: 20pt)[Power: Find a loophole, shortcut, or indirect approach. \
+Compel: You complicate a situation rather than accept an honest answer.]
 
 #emph[Why Pay the Asking Price?]
 
-Power: Bargain, bluff, or find cheaper leverage. \
-Compel: You insult someone or jeopardise a fair agreement by pushing for more.
+#pad(left: 20pt)[Power: Bargain, bluff, or find cheaper leverage. \
+Compel: You insult someone or jeopardise a fair agreement by pushing for more.]
 ]
 #block(breakable: false, width: 100%)[
 === 21. Steady
@@ -518,13 +518,13 @@ Your hands don\'t shake. When everyone else panics, you are the one who aims.
   
 #emph[I Take the Time to Get It Right]
 
-Power: Aim carefully or perform delicate work. \
-Compel: You hesitate when speed matters more than precision.
+#pad(left: 20pt)[Power: Aim carefully or perform delicate work. \
+Compel: You hesitate when speed matters more than precision.]
 
 #emph[I Hold Until the Moment Comes]
 
-Power: Maintain a position or wait for the right opening. \
-Compel: You remain committed after the useful moment has passed.
+#pad(left: 20pt)[Power: Maintain a position or wait for the right opening. \
+Compel: You remain committed after the useful moment has passed.]
 ]
 #block(breakable: false, width: 100%)[
 === 22. Stubborn
@@ -540,13 +540,13 @@ You\'ve been told no all your life. You\'ve ignored it all your life.
   
 #emph[You Will Have to Move Me]
 
-Power: Hold your ground against force or pressure. \
-Compel: You refuse a sensible retreat or change of position.
+#pad(left: 20pt)[Power: Hold your ground against force or pressure. \
+Compel: You refuse a sensible retreat or change of position.]
 
 #emph[I Decide When I Am Done]
 
-Power: Push through discouragement and others’ expectations. \
-Compel: You reject good advice because it sounds like an order to quit.
+#pad(left: 20pt)[Power: Push through discouragement and others’ expectations. \
+Compel: You reject good advice because it sounds like an order to quit.]
 ]
 #block(breakable: false, width: 100%)[
 === 23. Suspicious
@@ -562,13 +562,13 @@ Everyone wants something. You just haven\'t worked out what yet.
   
 #emph[Everyone Wants Something]
 
-Power: Identify motives and hidden interests. \
-Compel: You treat sincere help as an attempted manipulation.
+#pad(left: 20pt)[Power: Identify motives and hidden interests. \
+Compel: You treat sincere help as an attempted manipulation.]
 
 #emph[Trust Comes After Proof]
 
-Power: Verify claims and take precautions against betrayal. \
-Compel: You withhold trust when cooperation cannot wait.
+#pad(left: 20pt)[Power: Verify claims and take precautions against betrayal. \
+Compel: You withhold trust when cooperation cannot wait.]
 ]
 #block(breakable: false, width: 100%)[
 === 24. Weathered
@@ -584,12 +584,12 @@ Wind, sun and years have worn you down to something hard and lasting.
   
 #emph[I Have Survived Worse]
 
-Power: Endure familiar hardship and reassure less experienced companions. \
-Compel: You dismiss a danger because an earlier ordeal seemed worse.
+#pad(left: 20pt)[Power: Endure familiar hardship and reassure less experienced companions. \
+Compel: You dismiss a danger because an earlier ordeal seemed worse.]
 
 #emph[My Scars Taught Me]
 
-Power: Recognise hazards and apply hard-earned practical lessons. \
-Compel: An old injury or painful association complicates a familiar task.
+#pad(left: 20pt)[Power: Recognise hazards and apply hard-earned practical lessons. \
+Compel: An old injury or painful association complicates a familiar task.]
 ]
 ]

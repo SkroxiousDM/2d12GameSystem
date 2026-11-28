@@ -6,18 +6,18 @@
 An artificer, engineer, or inventor who makes what shouldn\'t work, work.
 ]
 
-- #strong[Tags:] #emph[There Has to Be a Way to Build It];, #emph[I Can Always Improve It]
 - #strong[PC link:] \"I built \[PC\]\'s gear, and I\'m still tinkering with it.\"
+- #strong[Tags:]
+  
+#h(20pt)#emph[There Has to Be a Way to Build It]
 
-#emph[There Has to Be a Way to Build It]
+#pad(left: 40pt)[Power: Invent a solution and overcome practical design obstacles. \
+Compel: You pursue an expensive or dangerous construction instead of accepting a limitation.]
 
-Power: Invent a solution and overcome practical design obstacles. \
-Compel: You pursue an expensive or dangerous construction instead of accepting a limitation.
+#h(20pt)#emph[I Can Always Improve It]
 
-#emph[I Can Always Improve It]
-
-Power: Repair, adapt, or refine a device. \
-Compel: You modify something reliable at the wrong moment or refuse to call it finished.
+#pad(left: 40pt)[Power: Repair, adapt, or refine a device. \
+Compel: You modify something reliable at the wrong moment or refuse to call it finished.]
 
 #figure(
   [#table(
@@ -67,18 +67,18 @@ Compel: You modify something reliable at the wrong moment or refuse to call it f
 Doctor, field medic, herbalist, or combat surgeon.
 ]
 
-- #strong[Tags:] #emph[No One Is Beyond My Care];, #emph[The Patient Comes First]
 - #strong[PC link:] \"I patched up \[PC\] when no one else would.\"
+- #strong[Tags:] 
 
-#emph[No One Is Beyond My Care]
+#h(20pt)#emph[No One Is Beyond My Care]
 
-Power: Treat difficult patients and earn the trust of the neglected. \
-Compel: You help someone whom your allies need you to refuse.
+#pad(left: 40pt)[Power: Treat difficult patients and earn the trust of the neglected. \
+Compel: You help someone whom your allies need you to refuse.]
 
-#emph[The Patient Comes First]
+#h(20pt)#emph[The Patient Comes First]
 
-Power: Make clear treatment decisions and protect someone in your care. \
-Compel: A patient’s needs take priority over the mission or your own safety.
+#pad(left: 40pt)[Power: Make clear treatment decisions and protect someone in your care. \
+Compel: A patient’s needs take priority over the mission or your own safety.]
 
 #figure(
   [#table(
@@ -129,18 +129,18 @@ Compel: A patient’s needs take priority over the mission or your own safety.
 Detective, investigator, or analyst: you follow the thread to the end.
 ]
 
-- #strong[Tags:] #emph[Every Detail Must Fit];, #emph[I Follow the Case Wherever It Leads]
 - #strong[PC link:] \"\[PC\] was part of the case that made me.\"
+- #strong[Tags:]
+  
+#h(20pt)#emph[Every Detail Must Fit]
 
-#emph[Every Detail Must Fit]
+#pad(left: 40pt)[Power: Reconstruct events and expose contradictions. \
+Compel: You fixate on an inconsistency while a pressing danger develops.]
 
-Power: Reconstruct events and expose contradictions. \
-Compel: You fixate on an inconsistency while a pressing danger develops.
+#h(20pt)#emph[I Follow the Case Wherever It Leads]
 
-#emph[I Follow the Case Wherever It Leads]
-
-Power: Pursue difficult evidence and challenge convenient explanations. \
-Compel: You cross a dangerous boundary or expose someone you wanted to protect.
+#pad(left: 40pt)[Power: Pursue difficult evidence and challenge convenient explanations. \
+Compel: You cross a dangerous boundary or expose someone you wanted to protect.]
 
 #figure(
   [#table(
@@ -192,18 +192,18 @@ Compel: You cross a dangerous boundary or expose someone you wanted to protect.
 Historian, archaeologist, or keeper of lost lore.
 ]
 
-- #strong[Tags:] #emph[The Past Still Has Something to Say];, #emph[What Was Lost Must Be Preserved]
 - #strong[PC link:] \"\[PC\] helped me recover something that was lost.\"
+- #strong[Tags:]
+  
+#h(20pt)#emph[The Past Still Has Something to Say]
 
-#emph[The Past Still Has Something to Say]
+#pad(left: 40pt)[Power: Interpret ruins, records, and historical patterns. \
+Compel: You give an old precedent more weight than present circumstances deserve.]
 
-Power: Interpret ruins, records, and historical patterns. \
-Compel: You give an old precedent more weight than present circumstances deserve.
+#h(20pt)#emph[What Was Lost Must Be Preserved]
 
-#emph[What Was Lost Must Be Preserved]
-
-Power: Recover, identify, and safeguard endangered knowledge or relics. \
-Compel: You risk people or resources rather than abandon a discovery.
+#pad(left: 40pt)[Power: Recover, identify, and safeguard endangered knowledge or relics. \
+Compel: You risk people or resources rather than abandon a discovery.]
 
 #figure(
   [#table(

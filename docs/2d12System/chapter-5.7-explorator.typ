@@ -26,33 +26,33 @@ The six options support a tracker, guide, respectful forager, endurance travelle
 
 #emph[The Land Leaves Signs]
 
-Power: Follow a trail, interpret disturbed terrain, or recognise changes in local conditions. \
-Compel: You pursue an intriguing sign away from the planned route or assume someone follows familiar patterns.
+    #pad(left: 20pt)[Power: Follow a trail, interpret disturbed terrain, or recognise changes in local conditions. \
+    Compel: You pursue an intriguing sign away from the planned route or assume someone follows familiar patterns.]
 
 #emph[I Bring People Through]
 
-Power: Choose a workable route, pace a journey, or help companions negotiate difficult ground. \
-Compel: You accept responsibility for travellers whose needs threaten the expedition.
+    #pad(left: 20pt)[Power: Choose a workable route, pace a journey, or help companions negotiate difficult ground. \
+    Compel: You accept responsibility for travellers whose needs threaten the expedition.]
 
 #emph[I Take Only What the Land Can Spare]
 
-Power: Gather sustainably, recognise depleted ground, or work within a landscape’s seasonal limits. \
-Compel: You refuse a convenient resource because taking it would damage the place or its inhabitants.
+    #pad(left: 20pt)[Power: Gather sustainably, recognise depleted ground, or work within a landscape’s seasonal limits. \
+    Compel: You refuse a convenient resource because taking it would damage the place or its inhabitants.]
 
 #emph[I Can Outlast the Journey]
 
-Power: Maintain a demanding pace, withstand exposure, or keep moving through hardship. \
-Compel: You push beyond a companion’s limits or refuse to admit that you need rest.
+    #pad(left: 20pt)[Power: Maintain a demanding pace, withstand exposure, or keep moving through hardship. \
+    Compel: You push beyond a companion’s limits or refuse to admit that you need rest.]
 
 #emph[I Stay Until the Quarry Comes]
 
-Power: Prepare a hide, predict an animal’s movements, or maintain patient observation. \
-Compel: You remain committed to a hunt or ambush after circumstances demand that you leave.
+    #pad(left: 20pt)[Power: Prepare a hide, predict an animal’s movements, or maintain patient observation. \
+    Compel: You remain committed to a hunt or ambush after circumstances demand that you leave.]
 
 #emph[I Know My Craft by Feel]
 
-Power: Read a vehicle’s response, handle difficult conditions, or detect a developing mechanical problem. \
-Compel: You trust familiar handling over an unfamiliar warning or refuse to relinquish control.
+    #pad(left: 20pt)[Power: Read a vehicle’s response, handle difficult conditions, or detect a developing mechanical problem. \
+    Compel: You trust familiar handling over an unfamiliar warning or refuse to relinquish control.]
 
 === 7.1 Special Abilities <pb-explorator-special-abilities>
 #figure(

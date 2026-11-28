@@ -6,18 +6,18 @@
 Charm, quick wit, and the right words at the right time.
 ]
 
-- #strong[Tags:] #emph[I Always Have an Explanation];, #emph[Give Me a Minute to Talk]
 - #strong[PC link:] \"\[PC\] has bailed me out more than once; I owe them.\"
+- #strong[Tags:]
 
-#emph[I Always Have an Explanation]
+#h(20pt)#emph[I Always Have an Explanation]
 
-Power: Improvise a convincing story or account for suspicious circumstances. \
-Compel: Your explanation commits you to a lie that becomes difficult to maintain.
+#pad(left: 40pt)[Power: Improvise a convincing story or account for suspicious circumstances. \
+Compel: Your explanation commits you to a lie that becomes difficult to maintain.]
 
-#emph[Give Me a Minute to Talk]
+#h(20pt)#emph[Give Me a Minute to Talk]
 
-Power: Buy time and turn a confrontation into a conversation. \
-Compel: You keep talking after words have stopped helping.
+#pad(left: 40pt)[Power: Buy time and turn a confrontation into a conversation. \
+Compel: You keep talking after words have stopped helping.]
 
 #figure(
   [#table(
@@ -67,18 +67,18 @@ Compel: You keep talking after words have stopped helping.
 Spy, impostor, or actor: you can be anyone.
 ]
 
-- #strong[Tags:] #emph[I Become Who They Expect];, #emph[My Real Self Stays Hidden]
 - #strong[PC link:] \"\[PC\] is the only one who knows my real name.\"
+- #strong[Tags:]
+  
+#h(20pt)#emph[I Become Who They Expect]
 
-#emph[I Become Who They Expect]
+#pad(left: 40pt)[Power: Impersonate someone and fit a social role. \
+Compel: Maintaining the role requires an unwanted action or obligation.]
 
-Power: Impersonate someone and fit a social role. \
-Compel: Maintaining the role requires an unwanted action or obligation.
+#h(20pt)#emph[My Real Self Stays Hidden]
 
-#emph[My Real Self Stays Hidden]
-
-Power: Protect your identity and conceal personal motives. \
-Compel: Someone who needs an honest connection cannot tell whether to trust you.
+#pad(left: 40pt)[Power: Protect your identity and conceal personal motives. \
+Compel: Someone who needs an honest connection cannot tell whether to trust you.]
 
 #figure(
   [#table(
@@ -128,18 +128,18 @@ Compel: Someone who needs an honest connection cannot tell whether to trust you.
 Fixer, socialite, or broker: you\'re one call away from anyone.
 ]
 
-- #strong[Tags:] #emph[Favours Run Both Ways];, #emph[My Name Is on the List]
 - #strong[PC link:] \"I introduced \[PC\] to the people who matter.\"
+- #strong[Tags:]
 
-#emph[Favours Run Both Ways]
+#h(20pt)#emph[Favours Run Both Ways]
 
-Power: Call in assistance and negotiate reciprocal help. \
-Compel: A contact calls in a favour at a difficult time.
+#pad(left: 40pt)[Power: Call in assistance and negotiate reciprocal help. \
+Compel: A contact calls in a favour at a difficult time.]
 
-#emph[My Name Is on the List]
+#h(20pt)#emph[My Name Is on the List]
 
-Power: Gain introductions, invitations, and access to influential circles. \
-Compel: Your attendance is expected, noticed, or taken as a public allegiance.
+#pad(left: 40pt)[Power: Gain introductions, invitations, and access to influential circles. \
+Compel: Your attendance is expected, noticed, or taken as a public allegiance.]
 
 #figure(
   [#table(
@@ -189,18 +189,18 @@ Compel: Your attendance is expected, noticed, or taken as a public allegiance.
 Noble, officer, executive, or chieftain: you hold authority, and it holds you.
 ]
 
-- #strong[Tags:] #emph[My Name Carries Authority];, #emph[My People Are My Responsibility]
 - #strong[PC link:] \"\[PC\] serves me, or is the one person who refuses to.\"
+- #strong[Tags:]
+  
+#h(20pt)#emph[My Name Carries Authority]
 
-#emph[My Name Carries Authority]
+#pad(left: 40pt)[Power: Issue orders and secure recognition of your position. \
+Compel: You become the focus of resentment, challenge, or political demands.]
 
-Power: Issue orders and secure recognition of your position. \
-Compel: You become the focus of resentment, challenge, or political demands.
+#h(20pt)#emph[My People Are My Responsibility]
 
-#emph[My People Are My Responsibility]
-
-Power: Represent their interests and rally their support. \
-Compel: Your duty to them conflicts with personal loyalty or the party’s plans.
+#pad(left: 40pt)[Power: Represent their interests and rally their support. \
+Compel: Your duty to them conflicts with personal loyalty or the party’s plans.]
 
 #figure(
   [#table(

@@ -9,15 +9,15 @@ Monster-hunter, exorcist, or investigator of the strange.
 - #strong[PC link:] \"\[PC\] saw what I saw that night, and they\'re the only one who believes me.\"
 - #strong[Tags:]
 
-#emph[I Study What Hunts Us]
+#h(20pt)#emph[I Study What Hunts Us]
 
-Power: Identify strange threats and prepare against their known weaknesses. \
-Compel: You approach something dangerous to learn more or test a theory.
+#pad(left: 40pt)[Power: Identify strange threats and prepare against their known weaknesses. \
+Compel: You approach something dangerous to learn more or test a theory.]
 
-#emph[I Carry the Hunt With Me]
+#h(20pt)#emph[I Carry the Hunt With Me]
 
-Power: Recognise signs of your quarry and draw resolve from your purpose. \
-Compel: The hunt intrudes on a safe place, relationship, or unrelated obligation.
+#pad(left: 40pt)[Power: Recognise signs of your quarry and draw resolve from your purpose. \
+Compel: The hunt intrudes on a safe place, relationship, or unrelated obligation.]
 
 #figure(
   [#table(
@@ -72,15 +72,15 @@ Touched by the spirit world, the Otherworld, or the deep net.
 - #strong[PC link:] \"\[PC\] anchors me. Without them, I\'d drift away.\"
 - #strong[Tags:]
   
-#emph[One Foot Across the Veil]
+#h(20pt)#emph[One Foot Across the Veil]
 
-Power: Interpret and navigate your established connection to the other world. \
-Compel: Otherworldly concerns distract you or make ordinary life difficult.
+#pad(left: 40pt)[Power: Interpret and navigate your established connection to the other world. \
+Compel: Otherworldly concerns distract you or make ordinary life difficult.]
 
-#emph[The Other Side Knows My Name]
+#h(20pt)#emph[The Other Side Knows My Name]
 
-Power: Establish recognition and relationships with otherworldly beings. \
-Compel: A being recognises you when you would rather remain unknown or calls upon that relationship.
+#pad(left: 40pt)[Power: Establish recognition and relationships with otherworldly beings. \
+Compel: A being recognises you when you would rather remain unknown or calls upon that relationship.]
 
 #figure(
   [#table(
@@ -133,15 +133,15 @@ Warlock, cursed heir, or desperate deal-maker. You have power, and a debt.
 - #strong[PC link:] \"\[PC\] knows what I traded, and hasn\'t told anyone.\"
 - #strong[Tags:]
  
-#emph[My Patron Invested in Me]
+#h(20pt)#emph[My Patron Invested in Me]
 
-Power: Draw on your granted gift or standing as the patron’s chosen agent. \
-Compel: Your patron intervenes to protect its investment rather than your wishes.
+#pad(left: 40pt)[Power: Draw on your granted gift or standing as the patron’s chosen agent. \
+Compel: Your patron intervenes to protect its investment rather than your wishes.]
 
-#emph[I Am Bound by the Old Terms]
+#h(20pt)#emph[I Am Bound by the Old Terms]
 
-Power: Invoke the bargain’s protections and interpret its established terms. \
-Compel: A condition, prohibition, or payment becomes inconveniently relevant.
+#pad(left: 40pt)[Power: Invoke the bargain’s protections and interpret its established terms. \
+Compel: A condition, prohibition, or payment becomes inconveniently relevant.]
 
 Define the patron and the bargain's key terms at creation. These tags provide leverage and complications; they do not introduce unspecified powers or retroactively invent contractual protections.
 
@@ -195,15 +195,15 @@ Mutant, cyborg, half-fae, or carrier of a strange bloodline.
 - #strong[PC link:] \"\[PC\] saw me change and stayed anyway.\"
 - #strong[Tags:]
   
-#emph[My \[Trait\] Sets Me Apart]
+#h(20pt)#emph[My \[Trait\] Sets Me Apart]
 
-Power: Use your chosen extraordinary trait. \
-Compel: That same trait exposes your nature or creates a concrete physical or social difficulty.
+#pad(left: 40pt)[Power: Use your chosen extraordinary trait. \
+Compel: That same trait exposes your nature or creates a concrete physical or social difficulty.]
 
-#emph[I Live by a Different Nature]
+#h(20pt)#emph[I Live by a Different Nature]
 
-Power: Draw on an established unusual physiology, instinct, or way of perceiving. \
-Compel: An established need, reaction, or incompatibility conflicts with ordinary expectations.
+#pad(left: 40pt)[Power: Draw on an established unusual physiology, instinct, or way of perceiving. \
+Compel: An established need, reaction, or incompatibility conflicts with ordinary expectations.]
 
 Define the trait and unusual nature at creation. Both helpful uses and complications must follow from those established features; the tags grant no capabilities beyond the Focus and its abilities.
 
@@ -248,5 +248,6 @@ Define the trait and unusual nature at creation. Both helpful uses and complicat
   )]
   , kind: table
   )
+
 
 

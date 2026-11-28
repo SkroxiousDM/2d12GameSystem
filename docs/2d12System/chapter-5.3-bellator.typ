@@ -27,33 +27,33 @@ The six options support a protector, veteran, enforcer, powerhouse, tactician or
 
 #emph[I Stand Between Them and Trouble]
 
-Power: Intercept danger, hold a defensive position, or cover someone’s withdrawal. \
-Compel: Protecting someone leaves you exposed or prevents you from withdrawing.
+    #pad(left: 20pt)[Power: Intercept danger, hold a defensive position, or cover someone’s withdrawal. \
+    Compel: Protecting someone leaves you exposed or prevents you from withdrawing.]
 
 #emph[I Have Held This Line Before]
 
-Power: Read a battlefield, recognise familiar tactics, or steady inexperienced fighters. \
-Compel: You mistake a new threat for an old one or repeat a costly doctrine.
+    #pad(left: 20pt)[Power: Read a battlefield, recognise familiar tactics, or steady inexperienced fighters. \
+    Compel: You mistake a new threat for an old one or repeat a costly doctrine.]
 
 #emph[My Reputation Throws the First Punch]
 
-Power: Intimidate opposition, discourage violence, or establish credibility among fighters. \
-Compel: Someone challenges your reputation, or your presence turns a tense meeting into a confrontation.
+    #pad(left: 20pt)[Power: Intimidate opposition, discourage violence, or establish credibility among fighters. \
+    Compel: Someone challenges your reputation, or your presence turns a tense meeting into a confrontation.]
 
 #emph[Put Your Weight Behind It]
 
-Power: Overpower resistance, break an obstruction, or commit your strength to a decisive effort. \
-Compel: Your force damages something valuable or leaves you overcommitted.
+    #pad(left: 20pt)[Power: Overpower resistance, break an obstruction, or commit your strength to a decisive effort. \
+    Compel: Your force damages something valuable or leaves you overcommitted.]
 
 #emph[A Fight Is a Problem of Position]
 
-Power: Exploit terrain, control an approach, or recognise an opening in an enemy formation. \
-Compel: You refuse to yield useful ground or prioritise position over someone’s immediate need.
+    #pad(left: 20pt)[Power: Exploit terrain, control an approach, or recognise an opening in an enemy formation. \
+    Compel: You refuse to yield useful ground or prioritise position over someone’s immediate need.]
 
 #emph[I Know What My Fists Can Do]
 
-Power: Judge physical threats, apply measured force, or remain composed at close quarters. \
-Compel: You accept a physical challenge to settle something that needed a different answer.
+    #pad(left: 20pt)[Power: Judge physical threats, apply measured force, or remain composed at close quarters. \
+    Compel: You accept a physical challenge to settle something that needed a different answer.]
 
 === 3.1 Special Abilities <pb-bellator-special-abilities>
 #figure(

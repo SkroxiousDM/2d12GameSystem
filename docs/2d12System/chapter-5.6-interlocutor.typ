@@ -26,33 +26,33 @@ The six options support a negotiator, confidence artist, orator, connected opera
 
 #emph[There Is Always a Deal to Make]
 
-Power: Identify shared interests, construct an exchange, or bring opposing parties to terms. \
-Compel: You offer a concession that should not have been yours to trade.
+    #pad(left: 20pt)[Power: Identify shared interests, construct an exchange, or bring opposing parties to terms. \
+    Compel: You offer a concession that should not have been yours to trade.]
 
 #emph[I Tell Them the Story They Need]
 
-Power: Build a persuasive account around someone’s hopes, fears, or expectations. \
-Compel: Your story creates a promise or false belief you must now sustain.
+    #pad(left: 20pt)[Power: Build a persuasive account around someone’s hopes, fears, or expectations. \
+    Compel: Your story creates a promise or false belief you must now sustain.]
 
 #emph[People Need Something to Believe In]
 
-Power: Inspire a crowd, give a cause meaning, or restore shared resolve. \
-Compel: Your audience demands that you embody the ideals you proclaimed.
+    #pad(left: 20pt)[Power: Inspire a crowd, give a cause meaning, or restore shared resolve. \
+    Compel: Your audience demands that you embody the ideals you proclaimed.]
 
 #emph[I Know Which Names Matter]
 
-Power: Navigate social hierarchies, arrange an introduction, or identify who actually holds influence. \
-Compel: Invoking a name signals an allegiance or brings an influential person’s expectations down on you.
+    #pad(left: 20pt)[Power: Navigate social hierarchies, arrange an introduction, or identify who actually holds influence. \
+    Compel: Invoking a name signals an allegiance or brings an influential person’s expectations down on you.]
 
 #emph[I Listen Until They Tell Me]
 
-Power: Earn trust, draw out concerns, or discover what someone is reluctant to say. \
-Compel: You become responsible for a confidence or remain engaged with someone who is deliberately wasting time.
+    #pad(left: 20pt)[Power: Earn trust, draw out concerns, or discover what someone is reluctant to say. \
+    Compel: You become responsible for a confidence or remain engaged with someone who is deliberately wasting time.]
 
 #emph[Someone Has to Speak for Us]
 
-Power: Present a united position, articulate shared needs, or stand firm under public pressure. \
-Compel: You speak beyond your mandate or become personally accountable for the group’s position.
+    #pad(left: 20pt)[Power: Present a united position, articulate shared needs, or stand firm under public pressure. \
+    Compel: You speak beyond your mandate or become personally accountable for the group’s position.]
 
 === 6.1 Special Abilities <pb-interlocutor-special-abilities>
 #figure(
